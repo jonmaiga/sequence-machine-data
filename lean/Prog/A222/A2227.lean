@@ -15,18 +15,18 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,26 +34,27 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,6 +70,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -1665,7 +1667,7 @@ end A222714.P3938021435533880080
 /-!
 # A222715: The number of binary pattern classes in the (2,n)-rectangular grid with 5 '1's and (2n-5) '0's: two patterns are in same class if one of them can be obtained by a reflection or 180-degree rotation of the other.
 
-The programs for A222715, the canonical program `A222715.P3900084338169479973` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222715 has offset 3).
+The programs for A222715, the canonical program `A222715.P3900084338169479973` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222715 has offset 3).
 
 The definition of A222715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1674,7 +1676,7 @@ The definition of A222715 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A005900(n+1)+(n+1)*A178946(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A222715
@@ -1770,56 +1772,23 @@ end A222715
 /-!
 # A222716: Numbers which are both the sum of n+1 consecutive triangular numbers and the sum of the n-1 immediately following triangular numbers.
 
-The programs for A222716, the canonical program `A222716.P15093168432039899886` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222716 has offset 1).
+The programs for A222716, the canonical program `A222716.P7787659814427907025` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222716 has offset 1).
 
 The definition of A222716 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A222716.P15093168432039899886
+/-! ## A222716.P7787659814427907025
 
-`10*A024166(n)`
+`n*(n+1)*(n+2)*(3*(n+1)²-2)/6`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A222716
 
-/-- `10*A024166(n)` -/
-def P15093168432039899886.Spec : Prop :=
-  ∀ n, P15093168432039899886.a n = A222716 (n + 1)
-
-theorem P15093168432039899886.correct : P15093168432039899886.Spec := by
-  intro n
-  simp only [A222716, Nat.add_sub_cancel]
-
-end A222716
-
-/-! ## A222716.P1318167168551894017
-
-`∑[10*∑[n]²]`
--/
-
-namespace A222716.P1318167168551894017
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10 * (∑ j ∈ Finset.range (n + 1), f2 j) ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A222716.P1318167168551894017
-
-namespace A222716
-
-/-- `∑[10*∑[n]²]` -/
-def P1318167168551894017.Spec : Prop :=
-  ∀ n, (P1318167168551894017.a n : ℤ) = A222716 (n + 1)
+/-- `n*(n+1)*(n+2)*(3*(n+1)²-2)/6` -/
+def P7787659814427907025.Spec : Prop :=
+  ∀ n, P7787659814427907025.a n = (A222716 (n + 1) : ℚ)
 
 end A222716
 
@@ -1846,217 +1815,6 @@ namespace A222716
 /-- `Δ[C(n²+n, 3)/2]` -/
 def P2526834121786925864.Spec : Prop :=
   ∀ n, P2526834121786925864.a n = (A222716 (n + 1) : ℚ)
-
-end A222716
-
-/-! ## A222716.P1337392860300372462
-
-`5*∑[lcm(n, n+1)*∑[n]]`
--/
-
-namespace A222716.P1337392860300372462
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lcm n (n + 1) * (∑ j ∈ Finset.range (n + 1), f2 j)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A222716.P1337392860300372462
-
-namespace A222716
-
-/-- `5*∑[lcm(n, n+1)*∑[n]]` -/
-def P1337392860300372462.Spec : Prop :=
-  ∀ n, (P1337392860300372462.a n : ℤ) = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P1566268252829241722
-
-`5*∑[n*(n+1)*C(n+1, 2)]`
--/
-
-namespace A222716.P1566268252829241722
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * (n + 1) * Nat.choose (n + 1) 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A222716.P1566268252829241722
-
-namespace A222716
-
-/-- `5*∑[n*(n+1)*C(n+1, 2)]` -/
-def P1566268252829241722.Spec : Prop :=
-  ∀ n, (P1566268252829241722.a n : ℤ) = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P309218018872568213
-
-`((n+2)*3*n+1)*C(n+2, 3)`
--/
-
-namespace A222716.P309218018872568213
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((n + 2) * (3 * n) + 1) * Nat.choose (n + 2) 3
-
-end
-
-end A222716.P309218018872568213
-
-namespace A222716
-
-/-- `((n+2)*3*n+1)*C(n+2, 3)` -/
-def P309218018872568213.Spec : Prop :=
-  ∀ n, (P309218018872568213.a n : ℤ) = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P2625276574433798617
-
-`5*∑[A163102(n)]`
--/
-
-namespace A222716.P2625276574433798617
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163102 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A222716.P2625276574433798617
-
-namespace A222716
-
-/-- `5*∑[A163102(n)]` -/
-def P2625276574433798617.Spec : Prop :=
-  ∀ n, P2625276574433798617.a n = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P15645374023360993366
-
-`10*∑[A000537(n)]`
--/
-
-namespace A222716.P15645374023360993366
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000537 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  10 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A222716.P15645374023360993366
-
-namespace A222716
-
-/-- `10*∑[A000537(n)]` -/
-def P15645374023360993366.Spec : Prop :=
-  ∀ n, P15645374023360993366.a n = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P6314457992777436485
-
-`(A067725(n)+1)*∑[∑[n]]`
--/
-
-namespace A222716.P6314457992777436485
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A067725 n + 1) * ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
-
-end
-
-end A222716.P6314457992777436485
-
-namespace A222716
-
-/-- `(A067725(n)+1)*∑[∑[n]]` -/
-def P6314457992777436485.Spec : Prop :=
-  ∀ n, P6314457992777436485.a n = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P16131304030129675342
-
-`∑[∑[n]]*A100536(n+1)`
--/
-
-namespace A222716.P16131304030129675342
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * A100536 (n + 1)
-
-end
-
-end A222716.P16131304030129675342
-
-namespace A222716
-
-/-- `∑[∑[n]]*A100536(n+1)` -/
-def P16131304030129675342.Spec : Prop :=
-  ∀ n, P16131304030129675342.a n = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P7256645395552090285
-
-`(A115067(n+1)+A095794(n+1))*A000292(n)`
--/
-
-namespace A222716.P7256645395552090285
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A115067 (n + 1) + A095794 (n + 1)) * A000292 n
-
-end
-
-end A222716.P7256645395552090285
-
-namespace A222716
-
-/-- `(A115067(n+1)+A095794(n+1))*A000292(n)` -/
-def P7256645395552090285.Spec : Prop :=
-  ∀ n, P7256645395552090285.a n = A222716 (n + 1)
 
 end A222716
 
@@ -2129,29 +1887,6 @@ def P5963510182656964386.Spec : Prop :=
 
 end A222716
 
-/-! ## A222716.P580285374838469872
-
-`A000292(n)*A276382(2*n+1)`
--/
-
-namespace A222716.P580285374838469872
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000292 n * A276382 (2 * n + 1)
-
-end
-
-end A222716.P580285374838469872
-
-namespace A222716
-
-/-- `A000292(n)*A276382(2*n+1)` -/
-def P580285374838469872.Spec : Prop :=
-  ∀ n, P580285374838469872.a n = A222716 (n + 1)
-
-end A222716
-
 /-! ## A222716.P8899977846820045768
 
 `A168178(n+1)-A000292(2*n+1)`
@@ -2195,58 +1930,6 @@ namespace A222716
 /-- `n*A007009(2*n+1)-A006918(2*n)` -/
 def P8886598673825586413.Spec : Prop :=
   ∀ n, P8886598673825586413.a n = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P8208597794237396899
-
-`10*∑[A000290(∑[n])]`
--/
-
-namespace A222716.P8208597794237396899
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (∑ j ∈ Finset.range (n + 1), f2 j)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  10 * (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A222716.P8208597794237396899
-
-namespace A222716
-
-/-- `10*∑[A000290(∑[n])]` -/
-def P8208597794237396899.Spec : Prop :=
-  ∀ n, P8208597794237396899.a n = A222716 (n + 1)
-
-end A222716
-
-/-! ## A222716.P5944016518030543835
-
-`A000292(n)*A143804(A000217(n+1))`
--/
-
-namespace A222716.P5944016518030543835
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000292 n * A143804 (A000217 (n + 1)).toNat
-
-end
-
-end A222716.P5944016518030543835
-
-namespace A222716
-
-/-- `A000292(n)*A143804(A000217(n+1))` -/
-def P5944016518030543835.Spec : Prop :=
-  ∀ n, P5944016518030543835.a n = A222716 (n + 1)
 
 end A222716
 
@@ -5717,7 +5400,7 @@ end A222738.P17013652239038121058
 /-!
 # A222740: Denominators of 1/16 - 1/(4 + 8*n)^2.
 
-The programs for A222740, the canonical program `A222740.P1638837219687918471` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222740 has offset 0).
+The programs for A222740, the canonical program `A222740.P1638837219687918471` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222740 has offset 0).
 
 The definition of A222740 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014695, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5726,7 +5409,7 @@ The definition of A222740 is `conditional`: the Lean definition is an OEIS formu
 
 `A014695(n)*A016754(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A222740

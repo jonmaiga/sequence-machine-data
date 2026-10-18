@@ -2,15 +2,16 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C003
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C028
+import Seq.B000.C015
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B003.C000
+import Seq.B002.C003
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
@@ -19,10 +20,10 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -47,7 +48,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A388710: Triangle read by rows where T(n,k) is the number of integer partitions of n into k parts, none of which is less than its own multiplicity.

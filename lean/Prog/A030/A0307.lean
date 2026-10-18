@@ -5,19 +5,21 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,7 +34,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
@@ -40,13 +41,13 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -9755,23 +9756,52 @@ end A030796.P15555869691675484194
 /-!
 # A030799: a(n) = floor(exp(1/2)*n!).
 
-The programs for A030799, there is no canonical definition to state claims against.
+The programs for A030799, the canonical program `A030799.P7617614612413509465` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030799 has offset 1).
+
+The definition of A030799 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(exp(1/2)*(n+1)!)` (program `A030799.P7617614612413509465`, by `A030799.P7617614612413509465.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A030799.P6126842589628371478
+/-! ## A030799.P7617614612413509465
 
-`floor(sqrt(e)*(n+1)!)`
+`floor(exp(1/2)*(n+1)!)`
+
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
-namespace A030799.P6126842589628371478
+namespace A030799
+
+/-- `floor(exp(1/2)*(n+1)!)` -/
+def P7617614612413509465.Spec : Prop :=
+  ∀ n, P7617614612413509465.a n = A030799 (n + 1)
+
+theorem P7617614612413509465.correct : P7617614612413509465.Spec := by
+  intro n
+  simp only [A030799, Nat.add_sub_cancel]
+
+end A030799
+
+/-! ## A030799.P7989899278777952158
+
+`floor((n+1)!*sqrt(e))`
+-/
+
+namespace A030799.P7989899278777952158
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sqrt (Real.exp 1) * (Nat.factorial (n + 1) : ℝ)⌋
+  ⌊(Nat.factorial (n + 1) : ℝ) * Real.sqrt (Real.exp 1)⌋
 
 end
 
-end A030799.P6126842589628371478
+end A030799.P7989899278777952158
+
+namespace A030799
+
+/-- `floor((n+1)!*sqrt(e))` -/
+def P7989899278777952158.Spec : Prop :=
+  ∀ n, P7989899278777952158.a n = A030799 (n + 1)
+
+end A030799
 
 /-! ## A030799.P11561921866990192328
 
@@ -9791,6 +9821,14 @@ end
 
 end A030799.P11561921866990192328
 
+namespace A030799
+
+/-- `floor(sqrt(e)*∏[n+1])` -/
+def P11561921866990192328.Spec : Prop :=
+  ∀ n, P11561921866990192328.a n = A030799 (n + 1)
+
+end A030799
+
 /-! ## A030799.P4971300099193375881
 
 `ceil(sqrt(e)*(n+1)!)-1`
@@ -9805,6 +9843,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030799.P4971300099193375881
+
+namespace A030799
+
+/-- `ceil(sqrt(e)*(n+1)!)-1` -/
+def P4971300099193375881.Spec : Prop :=
+  ∀ n, P4971300099193375881.a n = A030799 (n + 1)
+
+end A030799
 
 /-! ## A030799.P13352311541451360057
 
@@ -9824,6 +9870,14 @@ end
 
 end A030799.P13352311541451360057
 
+namespace A030799
+
+/-- `record[floor(sqrt(e)*A233543(n))]` -/
+def P13352311541451360057.Spec : Prop :=
+  ∀ n, P13352311541451360057.a n = A030799 (n + 1)
+
+end A030799
+
 /-! ## A030799.P13683670986799476978
 
 `ceil(A321804(A089309(n))+sqrt(e)*(n+1)!)`
@@ -9838,4 +9892,12 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030799.P13683670986799476978
+
+namespace A030799
+
+/-- `ceil(A321804(A089309(n))+sqrt(e)*(n+1)!)` -/
+def P13683670986799476978.Spec : Prop :=
+  ∀ n, P13683670986799476978.a n = A030799 (n + 1)
+
+end A030799
 

@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,15 +15,17 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,6 +36,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
@@ -43,22 +45,20 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,7 +85,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A146900: Symmetrical polynomial: t0(n,m)=If[Mod[2*Binomial[n, m], 2] - Mod[Binomial[n, m], 2] == 0, Binomial[n, m]/2, Binomial[n, m] + 1]; p(x,n)=If[n == 0, 1, (x + 1)^n + Sum[t0(n,m)*x^m*(1 + x^(n - 2*m)), {m, 1, n - 1}]/2].
@@ -4419,7 +4418,9 @@ end A146967.P17805188358556521407
 /-!
 # A146969: a(1)=3, a(2)=1, a(n) = (n+1)/2 if n is an odd prime, and a(n) = a(floor(n/2)) otherwise.
 
-The programs for A146969, there is no canonical definition to state claims against.
+The programs for A146969, the canonical program `A146969.P259206880826924078` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146969 has offset 1).
+
+The definition of A146969 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A146969.P3948079830900242686
@@ -4437,20 +4438,32 @@ end
 
 end A146969.P3948079830900242686
 
+namespace A146969
+
+/-- `floor(A065033(A039634(n+1))+acot(n)²)` -/
+def P3948079830900242686.Spec : Prop :=
+  ∀ n, P3948079830900242686.a n = A146969 (n + 1)
+
+end A146969
+
 /-! ## A146969.P259206880826924078
 
 `A000463(A039634(n+1))+A000038(n)`
+
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
-namespace A146969.P259206880826924078
-noncomputable section
+namespace A146969
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000463 (A039634 (n + 1)).toNat + A000038 n
+/-- `A000463(A039634(n+1))+A000038(n)` -/
+def P259206880826924078.Spec : Prop :=
+  ∀ n, P259206880826924078.a n = A146969 (n + 1)
 
-end
+theorem P259206880826924078.correct : P259206880826924078.Spec := by
+  intro n
+  simp only [A146969, Nat.add_sub_cancel]
 
-end A146969.P259206880826924078
+end A146969
 
 /-! ## A146969.P2363156909017732113
 
@@ -4467,6 +4480,14 @@ end
 
 end A146969.P2363156909017732113
 
+namespace A146969
+
+/-- `A065033(A039634(n+1)+A000038(n)²)` -/
+def P2363156909017732113.Spec : Prop :=
+  ∀ n, P2363156909017732113.a n = A146969 (n + 1)
+
+end A146969
+
 /-! ## A146969.P6428181518447415914
 
 `A000463(A039634(n+1))+2*A000007(n)`
@@ -4481,6 +4502,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146969.P6428181518447415914
+
+namespace A146969
+
+/-- `A000463(A039634(n+1))+2*A000007(n)` -/
+def P6428181518447415914.Spec : Prop :=
+  ∀ n, P6428181518447415914.a n = A146969 (n + 1)
+
+end A146969
 
 /-! ## A146969.P8700167385174667922
 
@@ -4497,6 +4526,14 @@ end
 
 end A146969.P8700167385174667922
 
+namespace A146969
+
+/-- `A065033(A039634(n+1)+2*A000038(n))` -/
+def P8700167385174667922.Spec : Prop :=
+  ∀ n, P8700167385174667922.a n = A146969 (n + 1)
+
+end A146969
+
 /-! ## A146969.P1865312675263822527
 
 `A000463(A039634(n+1))+log2(A054977(n)²)`
@@ -4511,6 +4548,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A146969.P1865312675263822527
+
+namespace A146969
+
+/-- `A000463(A039634(n+1))+log2(A054977(n)²)` -/
+def P1865312675263822527.Spec : Prop :=
+  ∀ n, P1865312675263822527.a n = (A146969 (n + 1) : ℝ)
+
+end A146969
 
 /-! ## A146969.P16126065508564991200
 
@@ -4527,6 +4572,14 @@ end
 
 end A146969.P16126065508564991200
 
+namespace A146969
+
+/-- `A065033(A039634(n+1))+C(2, A005117(n+1)²)` -/
+def P16126065508564991200.Spec : Prop :=
+  ∀ n, P16126065508564991200.a n = A146969 (n + 1)
+
+end A146969
+
 /-! ## A146969.P8937252288094751724
 
 `A028920(4*a(n-1))*A065033(A039634(n+1))` with `a(0)=3`
@@ -4542,6 +4595,14 @@ end
 
 end A146969.P8937252288094751724
 
+namespace A146969
+
+/-- `A028920(4*a(n-1))*A065033(A039634(n+1))` -/
+def P8937252288094751724.Spec : Prop :=
+  ∀ n, P8937252288094751724.a n = A146969 (n + 1)
+
+end A146969
+
 /-! ## A146969.P3406324215359612563
 
 `A000463(A039634(n+1))+2*A008683((n+1)²)`
@@ -4556,6 +4617,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146969.P3406324215359612563
+
+namespace A146969
+
+/-- `A000463(A039634(n+1))+2*A008683((n+1)²)` -/
+def P3406324215359612563.Spec : Prop :=
+  ∀ n, P3406324215359612563.a n = A146969 (n + 1)
+
+end A146969
 
 /-! ## A146969.P14549641069782130903
 
@@ -4574,6 +4643,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146969.P14549641069782130903
+
+namespace A146969
+
+/-- `A003602(A039634(n+1))+A000038(∑[n])` -/
+def P14549641069782130903.Spec : Prop :=
+  ∀ n, P14549641069782130903.a n = A146969 (n + 1)
+
+end A146969
 
 /-!
 # A146970: Created from A135506 by adding successive terms as: a(n) = a(n - 1) + lcm(n, a(n - 1)); f(n) = (a(n)/a(n - 1) - 1) + (a(n + 1)/a(n) - 1).

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -13,18 +14,19 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,20 +35,21 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,11 +66,15 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A102102: Column 0 of triangular matrix A102101, which shifts upward to exclude the main diagonal under matrix fourth power.
@@ -219,9 +226,9 @@ end A102103.P12796575239079021160
 /-!
 # A102105: a(n) = (19*5^n - 16*3^n + 1) / 4.
 
-The programs for A102105, the canonical program `A102105.P742485066281467371` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102105 has offset 0).
+The programs for A102105, the canonical program `A102105.P742485066281467371` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102105 has offset 0).
 
-The definition of A102105 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A102105 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(19*5^n-16*3^n+1)/4` (program `A102105.P9072098505386402615`, by `A102105.P9072098505386402615.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A102105.P9072098505386402615
@@ -247,13 +254,32 @@ namespace A102105
 def P9072098505386402615.Spec : Prop :=
   ∀ n, P9072098505386402615.a n = (A102105 n : ℚ)
 
+theorem P9072098505386402615.correct : P9072098505386402615.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A102105, Nat.add_sub_cancel, A102105.P9072098505386402615.a, A102105.P742485066281467371.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A102105, Nat.add_sub_cancel, A102105.P9072098505386402615.a, A102105.P742485066281467371.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [← h1, ← h2, ← h3]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A102105
 
 /-! ## A102105.P742485066281467371
 
 `9*a(n-1)-23*a(n-2)+15*a(n-3)` with `a(0)=1, a(1)=12, a(2)=83`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A102105
@@ -2969,8 +2995,29 @@ end A102141.P10294458829359519251
 /-!
 # A102146: a(n) = sigma(10^n - 1), where sigma(n) is the sum of positive divisors of n.
 
-The programs for A102146, there is no canonical definition to state claims against.
+The programs for A102146, the canonical program `A102146.P13243206130599963837` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102146 has offset 1).
+
+The definition of A102146 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A102146.P13243206130599963837
+
+`A000203(A002283(n+1))`
+
+The canonical program, it is in `Seq.B001.C003`.
+-/
+
+namespace A102146
+
+/-- `A000203(A002283(n+1))` -/
+def P13243206130599963837.Spec : Prop :=
+  ∀ n, P13243206130599963837.a n = A102146 (n + 1)
+
+theorem P13243206130599963837.correct : P13243206130599963837.Spec := by
+  intro n
+  simp only [A102146, Nat.add_sub_cancel]
+
+end A102146
 
 /-! ## A102146.P13638574025468327957
 
@@ -2992,6 +3039,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A102146.P13638574025468327957
+
+namespace A102146
+
+/-- `∑{d}[∑[9*10^n], #]` -/
+def P13638574025468327957.Spec : Prop :=
+  ∀ n, (P13638574025468327957.a n : ℤ) = A102146 (n + 1)
+
+end A102146
 
 /-!
 # A102147: Second Eulerian transform of 1, 2, 3, 4, 5, ... (A000027).

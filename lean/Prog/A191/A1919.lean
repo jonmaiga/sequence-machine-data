@@ -8,6 +8,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -16,16 +17,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,7 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -46,7 +50,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,6 +65,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +96,7 @@ import Seq.Opaque.C025
 /-!
 # A191900: Number of compositions of odd natural numbers into 7 parts <=n.
 
-The programs for A191900, the canonical program `A191900.P12526596364081301305` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191900 has offset 0).
+The programs for A191900, the canonical program `A191900.P12526596364081301305` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191900 has offset 0).
 
 The definition of A191900 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -99,7 +105,7 @@ The definition of A191900 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((n+1)^7-(1+(-1)^n)/2)/2`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191900
@@ -326,7 +332,7 @@ end A191900
 /-!
 # A191901: Number of compositions of odd natural numbers into 6 parts <= n.
 
-The programs for A191901, the canonical program `A191901.P7393622237067803199` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191901 has offset 0).
+The programs for A191901, the canonical program `A191901.P7393622237067803199` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191901 has offset 0).
 
 The definition of A191901 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -335,7 +341,7 @@ The definition of A191901 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((n+1)^6-(1+(-1)^n)/2)/2`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191901
@@ -799,7 +805,7 @@ end A191901
 /-!
 # A191902: Number of compositions of odd positive integers into 5 parts <= n.
 
-The programs for A191902, the canonical program `A191902.P17077133966722738114` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191902 has offset 0).
+The programs for A191902, the canonical program `A191902.P17077133966722738114` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191902 has offset 0).
 
 The definition of A191902 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -808,7 +814,7 @@ The definition of A191902 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((n+1)^5-(1+(-1)^n)/2)/2`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191902
@@ -1176,7 +1182,7 @@ end A191902
 /-!
 # A191903: Number of compositions of odd natural numbers into 4 parts <= n.
 
-The programs for A191903, the canonical program `A191903.P5998615871764801794` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191903 has offset 0).
+The programs for A191903, the canonical program `A191903.P5998615871764801794` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191903 has offset 0).
 
 The definition of A191903 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1185,7 +1191,7 @@ The definition of A191903 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)^4/2)`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191903
@@ -2080,7 +2086,7 @@ end A191904
 /-!
 # A191906: The remainder of (product of proper divisors of n) mod (sum of proper divisors of n).
 
-The programs for A191906, the canonical program `A191906.P16831451749657423421` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191906 has offset 2).
+The programs for A191906, the canonical program `A191906.P16831451749657423421` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191906 has offset 2).
 
 The definition of A191906 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5038 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2112,7 +2118,7 @@ end A191906
 
 `A066729(n+2)%A001065(n+2)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A191906
@@ -6829,10 +6835,29 @@ end A191992.P1650917784903931907
 /-!
 # A191993: a(n) = 3^(n-1) + C(2*n, n)/2.
 
-The programs for A191993, the canonical program `A191993.P6971471808480113202` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191993 has offset 1).
+The programs for A191993, the canonical program `A191993.P16234544476290657069` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191993 has offset 1).
 
-The definition of A191993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A191993 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A191993.P16234544476290657069
+
+`A000244(n)+A001700(n)`
+
+The canonical program, it is in `Seq.B002.C003`.
+-/
+
+namespace A191993
+
+/-- `A000244(n)+A001700(n)` -/
+def P16234544476290657069.Spec : Prop :=
+  ∀ n, P16234544476290657069.a n = A191993 (n + 1)
+
+theorem P16234544476290657069.correct : P16234544476290657069.Spec := by
+  intro n
+  simp only [A191993, Nat.add_sub_cancel]
+
+end A191993
 
 /-! ## A191993.P18280691616316010615
 
@@ -6857,25 +6882,6 @@ namespace A191993
 /-- `record[a(n-1)/(floor(n/2)/n-1)]+3^n` -/
 def P18280691616316010615.Spec : Prop :=
   ∀ n, P18280691616316010615.a n = (A191993 (n + 1) : ℚ)
-
-end A191993
-
-/-! ## A191993.P6971471808480113202
-
-`A001700(n)+3^n`
-
-The canonical program, it is in `Seq.B002.C003`.
--/
-
-namespace A191993
-
-/-- `A001700(n)+3^n` -/
-def P6971471808480113202.Spec : Prop :=
-  ∀ n, P6971471808480113202.a n = A191993 (n + 1)
-
-theorem P6971471808480113202.correct : P6971471808480113202.Spec := by
-  intro n
-  simp only [A191993, Nat.add_sub_cancel]
 
 end A191993
 
@@ -6971,32 +6977,6 @@ namespace A191993
 /-- `3^n+Δ[n²]*A000108(n)` -/
 def P16081441018535520411.Spec : Prop :=
   ∀ n, P16081441018535520411.a n = A191993 (n + 1)
-
-end A191993
-
-/-! ## A191993.P12889096457034844776
-
-`A000244(n)+∏[4-2/(n+1)]/2`
--/
-
-namespace A191993.P12889096457034844776
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  4 - 2 / (n + 1 : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000244 n : ℚ) + (∏ j ∈ Finset.range (n + 1), f1 j) / 2
-
-end
-
-end A191993.P12889096457034844776
-
-namespace A191993
-
-/-- `A000244(n)+∏[4-2/(n+1)]/2` -/
-def P12889096457034844776.Spec : Prop :=
-  ∀ n, P12889096457034844776.a n = (A191993 (n + 1) : ℚ)
 
 end A191993
 

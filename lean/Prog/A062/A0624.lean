@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -29,8 +28,10 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,18 +47,19 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -96,7 +98,7 @@ import Seq.Opaque.C024
 /-!
 # A062401: a(n) = phi(sigma(n)).
 
-The programs for A062401, the canonical program `A062401.P14719521271091436929` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062401 has offset 1).
+The programs for A062401, the canonical program `A062401.P14719521271091436929` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062401 has offset 1).
 
 The definition of A062401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -105,7 +107,7 @@ The definition of A062401 is `conjectured`: the Lean definition is a formula tha
 
 `A000010(∑{d}[n+1, #])`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A062401
@@ -572,7 +574,7 @@ end A062401
 /-!
 # A062402: a(n) = sigma(phi(n)).
 
-The programs for A062402, the canonical program `A062402.P8430549949511934837` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062402 has offset 1).
+The programs for A062402, the canonical program `A062402.P8430549949511934837` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062402 has offset 1).
 
 The definition of A062402 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -581,7 +583,7 @@ The definition of A062402 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], #]`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062402
@@ -1425,7 +1427,7 @@ end A062407.P12590687369780273526
 /-!
 # A062408: Numbers k such that floor(Pi*k) is prime.
 
-The programs for A062408, the canonical program `A062408.P920450603261674343` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062408 has offset 0).
+The programs for A062408, the canonical program `A062408.P920450603261674343` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062408 has offset 0).
 
 The definition of A062408 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8724 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1434,7 +1436,7 @@ The definition of A062408 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(p?[floor(π*n)]/π)`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062408
@@ -1903,7 +1905,7 @@ end A062412.P5120116592838346802
 /-!
 # A062413: Integer part of log(n!)^(1 - 1/n).
 
-The programs for A062413, the canonical program `A062413.P11143323484269557244` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062413 has offset 1).
+The programs for A062413, the canonical program `A062413.P11143323484269557244` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062413 has offset 1).
 
 The definition of A062413 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1912,7 +1914,7 @@ The definition of A062413 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[log(n+1)]^(n/(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062413
@@ -1930,27 +1932,53 @@ end A062413
 /-!
 # A062414: Nearest integer to log(n!)^(1 - 1/n).
 
-The programs for A062414, the canonical program `A062414.P10466123877914647596` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062414 has offset 1).
+The programs for A062414, the canonical program `A062414.P9226704166784689341` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062414 has offset 1).
 
-The definition of A062414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062414 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062414.P9226704166784689341
+
+`round(log((n+1)!)^(1-1/(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062414
+
+/-- `round(log((n+1)!)^(1-1/(n+1)))` -/
+def P9226704166784689341.Spec : Prop :=
+  ∀ n, P9226704166784689341.a n = A062414 (n + 1)
+
+theorem P9226704166784689341.correct : P9226704166784689341.Spec := by
+  intro n
+  simp only [A062414, Nat.add_sub_cancel]
+
+end A062414
 
 /-! ## A062414.P10466123877914647596
 
 `round(∑[log(n+1)]^(n/(n+1)))`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
+
+namespace A062414.P10466123877914647596
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.log (n + 1 : ℝ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((∑ j ∈ Finset.range (n + 1), f1 j) ^ ((n : ℚ) / (n + 1 : ℚ) : ℝ))
+
+end
+
+end A062414.P10466123877914647596
 
 namespace A062414
 
 /-- `round(∑[log(n+1)]^(n/(n+1)))` -/
 def P10466123877914647596.Spec : Prop :=
   ∀ n, P10466123877914647596.a n = A062414 (n + 1)
-
-theorem P10466123877914647596.correct : P10466123877914647596.Spec := by
-  intro n
-  simp only [A062414, Nat.add_sub_cancel]
 
 end A062414
 
@@ -2003,7 +2031,7 @@ end A062414
 /-!
 # A062415: Integer part of log(n)^(n - 1).
 
-The programs for A062415, the canonical program `A062415.P8518435197414088526` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062415 has offset 1).
+The programs for A062415, the canonical program `A062415.P8518435197414088526` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062415 has offset 1).
 
 The definition of A062415 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2012,7 +2040,7 @@ The definition of A062415 is `conjectured`: the Lean definition is a formula tha
 
 `floor(log(n+1)^n)`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062415
@@ -2099,7 +2127,7 @@ end A062415
 /-!
 # A062416: Nearest integer to log(n)^(n-1).
 
-The programs for A062416, the canonical program `A062416.P6130519687807876499` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062416 has offset 1).
+The programs for A062416, the canonical program `A062416.P6130519687807876499` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062416 has offset 1).
 
 The definition of A062416 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2108,7 +2136,7 @@ The definition of A062416 is `conjectured`: the Lean definition is a formula tha
 
 `round(log(n+1)^n)`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062416
@@ -2218,8 +2246,29 @@ end A062416
 /-!
 # A062417: Integer part of log(n!)^((1 - 1/n)^(1/n)).
 
-The programs for A062417, there is no canonical definition to state claims against.
+The programs for A062417, the canonical program `A062417.P850504378929026117` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062417 has offset 1).
+
+The definition of A062417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062417.P850504378929026117
+
+`floor(log((n+1)!)^(1-1/(n+1))^(1/(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062417
+
+/-- `floor(log((n+1)!)^(1-1/(n+1))^(1/(n+1)))` -/
+def P850504378929026117.Spec : Prop :=
+  ∀ n, P850504378929026117.a n = A062417 (n + 1)
+
+theorem P850504378929026117.correct : P850504378929026117.Spec := by
+  intro n
+  simp only [A062417, Nat.add_sub_cancel]
+
+end A062417
 
 /-! ## A062417.P7204175296553220922
 
@@ -2239,6 +2288,14 @@ end
 
 end A062417.P7204175296553220922
 
+namespace A062417
+
+/-- `abs(A000196((n+1)*∑[A202308(n)]+3)-(n+2))` -/
+def P7204175296553220922.Spec : Prop :=
+  ∀ n, P7204175296553220922.a n = A062417 (n + 1)
+
+end A062417
+
 /-! ## A062417.P10276739201109016642
 
 `round(log(A192744(n+1))+abs(1-n)-n)`
@@ -2254,11 +2311,40 @@ end
 
 end A062417.P10276739201109016642
 
+namespace A062417
+
+/-- `round(log(A192744(n+1))+abs(1-n)-n)` -/
+def P10276739201109016642.Spec : Prop :=
+  ∀ n, P10276739201109016642.a n = A062417 (n + 1)
+
+end A062417
+
 /-!
 # A062418: Nearest integer to log(n!)^((1 - 1/n)^(1/n)).
 
-The programs for A062418, there is no canonical definition to state claims against.
+The programs for A062418, the canonical program `A062418.P13784730562724304073` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062418 has offset 1).
+
+The definition of A062418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062418.P13784730562724304073
+
+`round(log((n+1)!)^(1-1/(n+1))^(1/(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062418
+
+/-- `round(log((n+1)!)^(1-1/(n+1))^(1/(n+1)))` -/
+def P13784730562724304073.Spec : Prop :=
+  ∀ n, P13784730562724304073.a n = A062418 (n + 1)
+
+theorem P13784730562724304073.correct : P13784730562724304073.Spec := by
+  intro n
+  simp only [A062418, Nat.add_sub_cancel]
+
+end A062418
 
 /-! ## A062418.P13171390209868107952
 
@@ -2275,6 +2361,14 @@ end
 
 end A062418.P13171390209868107952
 
+namespace A062418
+
+/-- `round(log(A007808(n)+2))` -/
+def P13171390209868107952.Spec : Prop :=
+  ∀ n, P13171390209868107952.a n = A062418 (n + 1)
+
+end A062418
+
 /-! ## A062418.P12045192825400679862
 
 `floor(log(A088129(n)+4))`
@@ -2289,6 +2383,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A062418.P12045192825400679862
+
+namespace A062418
+
+/-- `floor(log(A088129(n)+4))` -/
+def P12045192825400679862.Spec : Prop :=
+  ∀ n, P12045192825400679862.a n = A062418 (n + 1)
+
+end A062418
 
 /-! ## A062418.P15436835945877969257
 
@@ -2305,6 +2407,14 @@ end
 
 end A062418.P15436835945877969257
 
+namespace A062418
+
+/-- `A000196(A046691(A072831(n)))` -/
+def P15436835945877969257.Spec : Prop :=
+  ∀ n, P15436835945877969257.a n = A062418 (n + 1)
+
+end A062418
+
 /-! ## A062418.P10596128994893156319
 
 `A000196(A027379(A072831(n))-1)`
@@ -2320,46 +2430,28 @@ end
 
 end A062418.P10596128994893156319
 
-/-! ## A062418.P15656233487448830964
+namespace A062418
 
-`∑[A108414(n+1)]-(A326178(n)+n)`
--/
+/-- `A000196(A027379(A072831(n))-1)` -/
+def P10596128994893156319.Spec : Prop :=
+  ∀ n, P10596128994893156319.a n = A062418 (n + 1)
 
-namespace A062418.P15656233487448830964
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108414 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - (A326178 n + (n : ℤ))
-
-end
-
-end A062418.P15656233487448830964
+end A062418
 
 /-!
 # A062419: Integer part of log(n)^log(n).
 
-The programs for A062419, the canonical program `A062419.P6736394046924900958` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062419 has offset 1).
+The programs for A062419, the canonical program `A062419.P7669946648936108240` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062419 has offset 1).
 
-The definition of A062419 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A062419.P7669946648936108240
 
 `floor(log(n+1)^log(n+1))`
+
+The canonical program, it is in `Seq.B000.C009`.
 -/
-
-namespace A062419.P7669946648936108240
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.log (n + 1 : ℝ) ^ (Real.log (n + 1 : ℝ))⌋
-
-end
-
-end A062419.P7669946648936108240
 
 namespace A062419
 
@@ -2367,24 +2459,32 @@ namespace A062419
 def P7669946648936108240.Spec : Prop :=
   ∀ n, P7669946648936108240.a n = A062419 (n + 1)
 
+theorem P7669946648936108240.correct : P7669946648936108240.Spec := by
+  intro n
+  simp only [A062419, Nat.add_sub_cancel]
+
 end A062419
 
 /-! ## A062419.P6736394046924900958
 
 `A061052(abs(1-n)+2)`
-
-The canonical program, it is in `Seq.B001.C002`.
 -/
+
+namespace A062419.P6736394046924900958
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061052 (|1 - (n : ℤ)| + 2).toNat
+
+end
+
+end A062419.P6736394046924900958
 
 namespace A062419
 
 /-- `A061052(abs(1-n)+2)` -/
 def P6736394046924900958.Spec : Prop :=
   ∀ n, P6736394046924900958.a n = A062419 (n + 1)
-
-theorem P6736394046924900958.correct : P6736394046924900958.Spec := by
-  intro n
-  simp only [A062419, Nat.add_sub_cancel]
 
 end A062419
 
@@ -2463,16 +2563,16 @@ end A062419
 /-!
 # A062420: Nearest integer to log(n)^log(n).
 
-The programs for A062420, the canonical program `A062420.P4508336958846281857` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062420 has offset 1).
+The programs for A062420, the canonical program `A062420.P4508336958846281857` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062420 has offset 1).
 
-The definition of A062420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062420 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A062420.P4508336958846281857
 
 `round(log(n+1)^log(n+1))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062420
@@ -2536,27 +2636,53 @@ end A062420
 /-!
 # A062421: Integer part of log(n!)^log(n).
 
-The programs for A062421, the canonical program `A062421.P2308125512251296798` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062421 has offset 1).
+The programs for A062421, the canonical program `A062421.P12425009650488332772` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062421 has offset 1).
 
-The definition of A062421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062421 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062421.P12425009650488332772
+
+`floor(log((n+1)!)^log(n+1))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062421
+
+/-- `floor(log((n+1)!)^log(n+1))` -/
+def P12425009650488332772.Spec : Prop :=
+  ∀ n, P12425009650488332772.a n = A062421 (n + 1)
+
+theorem P12425009650488332772.correct : P12425009650488332772.Spec := by
+  intro n
+  simp only [A062421, Nat.add_sub_cancel]
+
+end A062421
 
 /-! ## A062421.P2308125512251296798
 
 `floor(∑[log(n+1)]^log(n+1))`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
+
+namespace A062421.P2308125512251296798
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.log (n + 1 : ℝ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(∑ j ∈ Finset.range (n + 1), f1 j) ^ (Real.log (n + 1 : ℝ))⌋
+
+end
+
+end A062421.P2308125512251296798
 
 namespace A062421
 
 /-- `floor(∑[log(n+1)]^log(n+1))` -/
 def P2308125512251296798.Spec : Prop :=
   ∀ n, P2308125512251296798.a n = A062421 (n + 1)
-
-theorem P2308125512251296798.correct : P2308125512251296798.Spec := by
-  intro n
-  simp only [A062421, Nat.add_sub_cancel]
 
 end A062421
 
@@ -2609,53 +2735,56 @@ def P17776595278928829142.Spec : Prop :=
 
 end A062421
 
-/-! ## A062421.P9582364025954236894
-
-`A333764(A006330(n))-A309279(n)`
--/
-
-namespace A062421.P9582364025954236894
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333764 (A006330 n).toNat - A309279 n
-
-end
-
-end A062421.P9582364025954236894
-
-namespace A062421
-
-/-- `A333764(A006330(n))-A309279(n)` -/
-def P9582364025954236894.Spec : Prop :=
-  ∀ n, P9582364025954236894.a n = A062421 (n + 1)
-
-end A062421
-
 /-!
 # A062422: Nearest integer to log(n!)^log(n).
 
-The programs for A062422, the canonical program `A062422.P7459910197170729983` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062422 has offset 1).
+The programs for A062422, the canonical program `A062422.P1302796884198818936` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062422 has offset 1).
 
-The definition of A062422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062422 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062422.P1302796884198818936
+
+`round(log((n+1)!)^log(n+1))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062422
+
+/-- `round(log((n+1)!)^log(n+1))` -/
+def P1302796884198818936.Spec : Prop :=
+  ∀ n, P1302796884198818936.a n = A062422 (n + 1)
+
+theorem P1302796884198818936.correct : P1302796884198818936.Spec := by
+  intro n
+  simp only [A062422, Nat.add_sub_cancel]
+
+end A062422
 
 /-! ## A062422.P7459910197170729983
 
 `round(∑[log(n+1)]^log(n+1))`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
+
+namespace A062422.P7459910197170729983
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.log (n + 1 : ℝ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((∑ j ∈ Finset.range (n + 1), f1 j) ^ (Real.log (n + 1 : ℝ)))
+
+end
+
+end A062422.P7459910197170729983
 
 namespace A062422
 
 /-- `round(∑[log(n+1)]^log(n+1))` -/
 def P7459910197170729983.Spec : Prop :=
   ∀ n, P7459910197170729983.a n = A062422 (n + 1)
-
-theorem P7459910197170729983.correct : P7459910197170729983.Spec := by
-  intro n
-  simp only [A062422, Nat.add_sub_cancel]
 
 end A062422
 
@@ -2705,29 +2834,6 @@ namespace A062422
 /-- `A003056(A029081(n²)²)` -/
 def P4593244881114353245.Spec : Prop :=
   ∀ n, P4593244881114353245.a n = A062422 (n + 1)
-
-end A062422
-
-/-! ## A062422.P16619374148373409106
-
-`A029058(A032551(n+1)²)`
--/
-
-namespace A062422.P16619374148373409106
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029058 (A032551 (n + 1) ^ 2).toNat
-
-end
-
-end A062422.P16619374148373409106
-
-namespace A062422
-
-/-- `A029058(A032551(n+1)²)` -/
-def P16619374148373409106.Spec : Prop :=
-  ∀ n, P16619374148373409106.a n = A062422 (n + 1)
 
 end A062422
 
@@ -2836,8 +2942,29 @@ end A062424.P3214563323016974011
 /-!
 # A062425: Integer part of log(n!)^log(1 + log(n)).
 
-The programs for A062425, there is no canonical definition to state claims against.
+The programs for A062425, the canonical program `A062425.P201992795304888948` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062425 has offset 1).
+
+The definition of A062425 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062425.P201992795304888948
+
+`floor(log((n+1)!)^log(1+log(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062425
+
+/-- `floor(log((n+1)!)^log(1+log(n+1)))` -/
+def P201992795304888948.Spec : Prop :=
+  ∀ n, P201992795304888948.a n = A062425 (n + 1)
+
+theorem P201992795304888948.correct : P201992795304888948.Spec := by
+  intro n
+  simp only [A062425, Nat.add_sub_cancel]
+
+end A062425
 
 /-! ## A062425.P9967472470749621295
 
@@ -2853,6 +2980,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A062425.P9967472470749621295
+
+namespace A062425
+
+/-- `A239873(n)+A048766(A192423(n))` -/
+def P9967472470749621295.Spec : Prop :=
+  ∀ n, P9967472470749621295.a n = A062425 (n + 1)
+
+end A062425
 
 /-! ## A062425.P14824807556575743805
 
@@ -2873,11 +3008,40 @@ end
 
 end A062425.P14824807556575743805
 
+namespace A062425
+
+/-- `A090631(n)-comp[A000081(A273612(n))]` -/
+def P14824807556575743805.Spec : Prop :=
+  ∀ n, P14824807556575743805.a n = A062425 (n + 1)
+
+end A062425
+
 /-!
 # A062426: Nearest integer to log(n!)^log(1 + log(n)).
 
-The programs for A062426, there is no canonical definition to state claims against.
+The programs for A062426, the canonical program `A062426.P17957107997655691902` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062426 has offset 1).
+
+The definition of A062426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062426.P17957107997655691902
+
+`round(log((n+1)!)^log(1+log(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062426
+
+/-- `round(log((n+1)!)^log(1+log(n+1)))` -/
+def P17957107997655691902.Spec : Prop :=
+  ∀ n, P17957107997655691902.a n = A062426 (n + 1)
+
+theorem P17957107997655691902.correct : P17957107997655691902.Spec := by
+  intro n
+  simp only [A062426, Nat.add_sub_cancel]
+
+end A062426
 
 /-! ## A062426.P16589383772916003481
 
@@ -2897,6 +3061,14 @@ end
 
 end A062426.P16589383772916003481
 
+namespace A062426
+
+/-- `A000196(A008766(∑[A020915(n)]))` -/
+def P16589383772916003481.Spec : Prop :=
+  ∀ n, P16589383772916003481.a n = A062426 (n + 1)
+
+end A062426
+
 /-! ## A062426.P6169677256174863030
 
 `ceil(A296195(n+1)/A000085(n))`
@@ -2911,6 +3083,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A062426.P6169677256174863030
+
+namespace A062426
+
+/-- `ceil(A296195(n+1)/A000085(n))` -/
+def P6169677256174863030.Spec : Prop :=
+  ∀ n, P6169677256174863030.a n = A062426 (n + 1)
+
+end A062426
 
 /-! ## A062426.P14822499282639721837
 
@@ -2927,6 +3107,14 @@ end
 
 end A062426.P14822499282639721837
 
+namespace A062426
+
+/-- `round(A000027(A126939(n))/A244519(n))` -/
+def P14822499282639721837.Spec : Prop :=
+  ∀ n, P14822499282639721837.a n = A062426 (n + 1)
+
+end A062426
+
 /-! ## A062426.P4782669928264895557
 
 `A092982(A275580(n))`
@@ -2942,25 +3130,18 @@ end
 
 end A062426.P4782669928264895557
 
-/-! ## A062426.P16860739679277600321
+namespace A062426
 
-`A277903(A317809(n+2))`
--/
+/-- `A092982(A275580(n))` -/
+def P4782669928264895557.Spec : Prop :=
+  ∀ n, P4782669928264895557.a n = A062426 (n + 1)
 
-namespace A062426.P16860739679277600321
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277903 (A317809 (n + 2)).toNat
-
-end
-
-end A062426.P16860739679277600321
+end A062426
 
 /-!
 # A062427: Integer part of log(n^n)^(1 - 1/n).
 
-The programs for A062427, the canonical program `A062427.P3757279840980029977` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062427 has offset 1).
+The programs for A062427, the canonical program `A062427.P3757279840980029977` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062427 has offset 1).
 
 The definition of A062427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2969,7 +3150,7 @@ The definition of A062427 is `conjectured`: the Lean definition is a formula tha
 
 `floor(((n+1)*log(n+1))^(n/(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062427
@@ -3091,25 +3272,25 @@ end A062427
 /-!
 # A062428: Nearest integer to log(n^n)^(1 - 1/n).
 
-The programs for A062428, the canonical program `A062428.P4408505716463616504` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062428 has offset 1).
+The programs for A062428, the canonical program `A062428.P17806292035982943949` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062428 has offset 1).
 
-The definition of A062428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062428 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062428.P4408505716463616504
+/-! ## A062428.P17806292035982943949
 
-`round(((n+1)*log(n+1))^(n/(n+1)))`
+`round(log((n+1)^(n+1))^(1-1/(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062428
 
-/-- `round(((n+1)*log(n+1))^(n/(n+1)))` -/
-def P4408505716463616504.Spec : Prop :=
-  ∀ n, P4408505716463616504.a n = A062428 (n + 1)
+/-- `round(log((n+1)^(n+1))^(1-1/(n+1)))` -/
+def P17806292035982943949.Spec : Prop :=
+  ∀ n, P17806292035982943949.a n = A062428 (n + 1)
 
-theorem P4408505716463616504.correct : P4408505716463616504.Spec := by
+theorem P17806292035982943949.correct : P17806292035982943949.Spec := by
   intro n
   simp only [A062428, Nat.add_sub_cancel]
 
@@ -3210,8 +3391,29 @@ end A062428
 /-!
 # A062429: Integer part of log(n^n)^((1 - 1/n)^(1/n)).
 
-The programs for A062429, there is no canonical definition to state claims against.
+The programs for A062429, the canonical program `A062429.P15902052391805390459` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062429 has offset 1).
+
+The definition of A062429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062429.P15902052391805390459
+
+`floor(log((n+1)^(n+1))^(1-1/(n+1))^(1/(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062429
+
+/-- `floor(log((n+1)^(n+1))^(1-1/(n+1))^(1/(n+1)))` -/
+def P15902052391805390459.Spec : Prop :=
+  ∀ n, P15902052391805390459.a n = A062429 (n + 1)
+
+theorem P15902052391805390459.correct : P15902052391805390459.Spec := by
+  intro n
+  simp only [A062429, Nat.add_sub_cancel]
+
+end A062429
 
 /-! ## A062429.P2848174325304103919
 
@@ -3231,11 +3433,40 @@ end
 
 end A062429.P2848174325304103919
 
+namespace A062429
+
+/-- `A056556(∑[(n+3)*(1-n)²])` -/
+def P2848174325304103919.Spec : Prop :=
+  ∀ n, P2848174325304103919.a n = A062429 (n + 1)
+
+end A062429
+
 /-!
 # A062430: Nearest integer to log(n^n)^((1 - 1/n)^(1/n)).
 
-The programs for A062430, there is no canonical definition to state claims against.
+The programs for A062430, the canonical program `A062430.P16764742765132405167` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062430 has offset 1).
+
+The definition of A062430 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062430.P16764742765132405167
+
+`round(log((n+1)^(n+1))^(1-1/(n+1))^(1/(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062430
+
+/-- `round(log((n+1)^(n+1))^(1-1/(n+1))^(1/(n+1)))` -/
+def P16764742765132405167.Spec : Prop :=
+  ∀ n, P16764742765132405167.a n = A062430 (n + 1)
+
+theorem P16764742765132405167.correct : P16764742765132405167.Spec := by
+  intro n
+  simp only [A062430, Nat.add_sub_cancel]
+
+end A062430
 
 /-! ## A062430.P7039796879745917487
 
@@ -3252,6 +3483,14 @@ end
 
 end A062430.P7039796879745917487
 
+namespace A062430
+
+/-- `A358992(2*n)%A217079(A000041(n))` -/
+def P7039796879745917487.Spec : Prop :=
+  ∀ n, P7039796879745917487.a n = A062430 (n + 1)
+
+end A062430
+
 /-! ## A062430.P17872775425963615120
 
 `A358992(2*n)+A000007(A358993(3*n+2))`
@@ -3266,6 +3505,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A062430.P17872775425963615120
+
+namespace A062430
+
+/-- `A358992(2*n)+A000007(A358993(3*n+2))` -/
+def P17872775425963615120.Spec : Prop :=
+  ∀ n, P17872775425963615120.a n = A062430 (n + 1)
+
+end A062430
 
 /-! ## A062430.P10989331045534227631
 
@@ -3282,43 +3529,36 @@ end
 
 end A062430.P10989331045534227631
 
-/-! ## A062430.P2680047059036171959
+namespace A062430
 
-`A358992(2*n)+A000007(A265069(n))`
--/
+/-- `A358992(A243836(3*n+2)+n+n)` -/
+def P10989331045534227631.Spec : Prop :=
+  ∀ n, P10989331045534227631.a n = A062430 (n + 1)
 
-namespace A062430.P2680047059036171959
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358992 (2 * n) + A000007 (A265069 n).toNat
-
-end
-
-end A062430.P2680047059036171959
+end A062430
 
 /-!
 # A062431: Integer part of log(n^n)^log(n).
 
-The programs for A062431, the canonical program `A062431.P6105945388610808482` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062431 has offset 1).
+The programs for A062431, the canonical program `A062431.P796710350566817587` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062431 has offset 1).
 
-The definition of A062431 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062431.P6105945388610808482
+/-! ## A062431.P796710350566817587
 
-`floor(((n+1)*log(n+1))^log(n+1))`
+`floor(log((n+1)^(n+1))^log(n+1))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062431
 
-/-- `floor(((n+1)*log(n+1))^log(n+1))` -/
-def P6105945388610808482.Spec : Prop :=
-  ∀ n, P6105945388610808482.a n = A062431 (n + 1)
+/-- `floor(log((n+1)^(n+1))^log(n+1))` -/
+def P796710350566817587.Spec : Prop :=
+  ∀ n, P796710350566817587.a n = A062431 (n + 1)
 
-theorem P6105945388610808482.correct : P6105945388610808482.Spec := by
+theorem P796710350566817587.correct : P796710350566817587.Spec := by
   intro n
   simp only [A062431, Nat.add_sub_cancel]
 
@@ -3402,25 +3642,25 @@ end A062431
 /-!
 # A062432: Nearest integer to log(n^n)^log(n).
 
-The programs for A062432, the canonical program `A062432.P13980547180617685208` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062432 has offset 1).
+The programs for A062432, the canonical program `A062432.P16473889413922750710` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062432 has offset 1).
 
-The definition of A062432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062432 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062432.P13980547180617685208
+/-! ## A062432.P16473889413922750710
 
-`round(((n+1)*log(n+1))^log(n+1))`
+`round(log((n+1)^(n+1))^log(n+1))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062432
 
-/-- `round(((n+1)*log(n+1))^log(n+1))` -/
-def P13980547180617685208.Spec : Prop :=
-  ∀ n, P13980547180617685208.a n = A062432 (n + 1)
+/-- `round(log((n+1)^(n+1))^log(n+1))` -/
+def P16473889413922750710.Spec : Prop :=
+  ∀ n, P16473889413922750710.a n = A062432 (n + 1)
 
-theorem P13980547180617685208.correct : P13980547180617685208.Spec := by
+theorem P16473889413922750710.correct : P16473889413922750710.Spec := by
   intro n
   simp only [A062432, Nat.add_sub_cancel]
 
@@ -3498,25 +3738,25 @@ end A062432
 /-!
 # A062433: Integer part of log(n^n)^log(1 + log(n)).
 
-The programs for A062433, the canonical program `A062433.P9732194985221951096` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062433 has offset 1).
+The programs for A062433, the canonical program `A062433.P28291840628319436` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062433 has offset 1).
 
-The definition of A062433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062433 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062433.P9732194985221951096
+/-! ## A062433.P28291840628319436
 
-`floor(((n+1)*log(n+1))^log(log(n+1)+1))`
+`floor(log((n+1)^(n+1))^log(1+log(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062433
 
-/-- `floor(((n+1)*log(n+1))^log(log(n+1)+1))` -/
-def P9732194985221951096.Spec : Prop :=
-  ∀ n, P9732194985221951096.a n = A062433 (n + 1)
+/-- `floor(log((n+1)^(n+1))^log(1+log(n+1)))` -/
+def P28291840628319436.Spec : Prop :=
+  ∀ n, P28291840628319436.a n = A062433 (n + 1)
 
-theorem P9732194985221951096.correct : P9732194985221951096.Spec := by
+theorem P28291840628319436.correct : P28291840628319436.Spec := by
   intro n
   simp only [A062433, Nat.add_sub_cancel]
 
@@ -3617,25 +3857,25 @@ end A062433
 /-!
 # A062434: Nearest integer to log(n^n)^log(1 + log(n)).
 
-The programs for A062434, the canonical program `A062434.P6113601107161135594` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062434 has offset 1).
+The programs for A062434, the canonical program `A062434.P10697667191766738657` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062434 has offset 1).
 
-The definition of A062434 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062434 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062434.P6113601107161135594
+/-! ## A062434.P10697667191766738657
 
-`round(((n+1)*log(n+1))^log(log(n+1)+1))`
+`round(log((n+1)^(n+1))^log(1+log(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062434
 
-/-- `round(((n+1)*log(n+1))^log(log(n+1)+1))` -/
-def P6113601107161135594.Spec : Prop :=
-  ∀ n, P6113601107161135594.a n = A062434 (n + 1)
+/-- `round(log((n+1)^(n+1))^log(1+log(n+1)))` -/
+def P10697667191766738657.Spec : Prop :=
+  ∀ n, P10697667191766738657.a n = A062434 (n + 1)
 
-theorem P6113601107161135594.correct : P6113601107161135594.Spec := by
+theorem P10697667191766738657.correct : P10697667191766738657.Spec := by
   intro n
   simp only [A062434, Nat.add_sub_cancel]
 
@@ -4490,7 +4730,7 @@ end A062444.P6406228642878595666
 /-!
 # A062445: Integer part of log(n!)^(1 + log(1 + log(1 + n))).
 
-The programs for A062445, the canonical program `A062445.P4466625132816390049` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062445 has offset 0).
+The programs for A062445, the canonical program `A062445.P4466625132816390049` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062445 has offset 0).
 
 The definition of A062445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4499,7 +4739,7 @@ The definition of A062445 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(log(n!)^(1+log(1+log(1+n))))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062445
@@ -4540,7 +4780,7 @@ end A062445
 /-!
 # A062446: Nearest integer to log(n!)^(1 + log(1 + log(1 + n))).
 
-The programs for A062446, the canonical program `A062446.P1179203381721997708` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062446 has offset 0).
+The programs for A062446, the canonical program `A062446.P1179203381721997708` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062446 has offset 0).
 
 The definition of A062446 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4549,7 +4789,7 @@ The definition of A062446 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(log(n!)^(1+log(1+log(1+n))))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062446
@@ -4894,7 +5134,7 @@ end A062450.P4602050690988746134
 /-!
 # A062451: Integer part of log(n^n)^(1 + log(1 + log(1 + n))).
 
-The programs for A062451, the canonical program `A062451.P17674894986698226484` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062451 has offset 0).
+The programs for A062451, the canonical program `A062451.P17674894986698226484` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062451 has offset 0).
 
 The definition of A062451 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4903,7 +5143,7 @@ The definition of A062451 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(log(n^n)^(1+log(1+log(1+n))))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062451
@@ -4973,7 +5213,7 @@ end A062451
 /-!
 # A062452: Nearest integer to log(n^n)^(1 + log(1 + log(1 + n))).
 
-The programs for A062452, the canonical program `A062452.P9133054961566580629` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062452 has offset 0).
+The programs for A062452, the canonical program `A062452.P9133054961566580629` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062452 has offset 0).
 
 The definition of A062452 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4982,7 +5222,7 @@ The definition of A062452 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(log(n^n)^(1+log(1+log(1+n))))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062452
@@ -5046,7 +5286,7 @@ end A062452
 /-!
 # A062453: Integer part of log(n!)^sqrt(n).
 
-The programs for A062453, the canonical program `A062453.P14020781701743290547` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062453 has offset 0).
+The programs for A062453, the canonical program `A062453.P14020781701743290547` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062453 has offset 0).
 
 The definition of A062453 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5055,7 +5295,7 @@ The definition of A062453 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(log(n!)^sqrt(n))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062453
@@ -5142,7 +5382,7 @@ end A062453
 /-!
 # A062454: Nearest integer to log(n!)^sqrt(n).
 
-The programs for A062454, the canonical program `A062454.P6074641705074145899` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062454 has offset 0).
+The programs for A062454, the canonical program `A062454.P6074641705074145899` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062454 has offset 0).
 
 The definition of A062454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5151,7 +5391,7 @@ The definition of A062454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(log(n!)^sqrt(n))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062454
@@ -5261,7 +5501,7 @@ end A062454
 /-!
 # A062455: Integer part of log(n^n)^sqrt(n).
 
-The programs for A062455, the canonical program `A062455.P3258992777774104518` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062455 has offset 0).
+The programs for A062455, the canonical program `A062455.P3258992777774104518` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062455 has offset 0).
 
 The definition of A062455 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5270,7 +5510,7 @@ The definition of A062455 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(log(n^n)^sqrt(n))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062455
@@ -5334,7 +5574,7 @@ end A062455
 /-!
 # A062456: Nearest integer to log(n^n)^sqrt(n).
 
-The programs for A062456, the canonical program `A062456.P10871314378329872693` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062456 has offset 0).
+The programs for A062456, the canonical program `A062456.P10871314378329872693` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062456 has offset 0).
 
 The definition of A062456 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5343,7 +5583,7 @@ The definition of A062456 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(log(n^n)^sqrt(n))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062456
@@ -5519,7 +5759,7 @@ end A062457.P5327810699050401197
 /-!
 # A062458: Nearest integer to (n+1)^(n+1)/n^n.
 
-The programs for A062458, the canonical program `A062458.P12838080748876116517` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062458 has offset 0).
+The programs for A062458, the canonical program `A062458.P12838080748876116517` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062458 has offset 0).
 
 The definition of A062458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4932 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5551,7 +5791,7 @@ end A062458
 
 `round((n+1)/(n/(n+1))^n)`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062458
@@ -5737,7 +5977,7 @@ end A062459.P4639631627795184796
 /-!
 # A062460: Nearest integer to log(n)^n.
 
-The programs for A062460, the canonical program `A062460.P18264796176817003377` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062460 has offset 1).
+The programs for A062460, the canonical program `A062460.P18264796176817003377` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062460 has offset 1).
 
 The definition of A062460 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5746,7 +5986,7 @@ The definition of A062460 is `conjectured`: the Lean definition is a formula tha
 
 `round(log(n+1)^(n+1))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062460
@@ -6021,16 +6261,16 @@ end A062462.P16748738008235500154
 /-!
 # A062463: Integer part of log(n)^sqrt(n).
 
-The programs for A062463, the canonical program `A062463.P783409282647602028` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062463 has offset 1).
+The programs for A062463, the canonical program `A062463.P783409282647602028` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062463 has offset 1).
 
-The definition of A062463 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062463 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A062463.P783409282647602028
 
 `floor(log(n+1)^sqrt(n+1))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062463
@@ -6143,16 +6383,16 @@ end A062463
 /-!
 # A062464: Nearest integer to log(n)^sqrt(n).
 
-The programs for A062464, the canonical program `A062464.P16581550044288693085` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062464 has offset 1).
+The programs for A062464, the canonical program `A062464.P16581550044288693085` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062464 has offset 1).
 
-The definition of A062464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062464 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A062464.P16581550044288693085
 
 `round(log(n+1)^sqrt(n+1))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062464
@@ -6938,8 +7178,29 @@ end A062472.P15496973283724110174
 /-!
 # A062473: Integer part of log(n!)^(1 + log(n)).
 
-The programs for A062473, there is no canonical definition to state claims against.
+The programs for A062473, the canonical program `A062473.P7114627243791854606` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062473 has offset 1).
+
+The definition of A062473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062473.P7114627243791854606
+
+`floor(log((n+1)!)^(1+log(n+1)))`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062473
+
+/-- `floor(log((n+1)!)^(1+log(n+1)))` -/
+def P7114627243791854606.Spec : Prop :=
+  ∀ n, P7114627243791854606.a n = A062473 (n + 1)
+
+theorem P7114627243791854606.correct : P7114627243791854606.Spec := by
+  intro n
+  simp only [A062473, Nat.add_sub_cancel]
+
+end A062473
 
 /-! ## A062473.P5572559737090296528
 
@@ -6956,45 +7217,64 @@ end
 
 end A062473.P5572559737090296528
 
-/-! ## A062473.P15925219979887341799
+namespace A062473
 
-`A000984(n)-A178864(A007097(n))`
--/
+/-- `A062474(n+1)-A000035(A041984(n))` -/
+def P5572559737090296528.Spec : Prop :=
+  ∀ n, P5572559737090296528.a n = A062473 (n + 1)
 
-namespace A062473.P15925219979887341799
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000984 n - A178864 (A007097 n).toNat
-
-end
-
-end A062473.P15925219979887341799
+end A062473
 
 /-!
 # A062474: Nearest integer to log(n!)^(1 + log(n)).
 
-The programs for A062474, the canonical program `A062474.P17306207999044933538` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062474 has offset 1).
+The programs for A062474, the canonical program `A062474.P13461404681598582442` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062474 has offset 1).
 
-The definition of A062474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062474 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A062474.P13461404681598582442
+
+`floor(log((n+1)!)^(1+log(n+1))+1/2)`
+
+The canonical program, it is in `Seq.B000.C009`.
+-/
+
+namespace A062474
+
+/-- `floor(log((n+1)!)^(1+log(n+1))+1/2)` -/
+def P13461404681598582442.Spec : Prop :=
+  ∀ n, P13461404681598582442.a n = A062474 (n + 1)
+
+theorem P13461404681598582442.correct : P13461404681598582442.Spec := by
+  intro n
+  simp only [A062474, Nat.add_sub_cancel]
+
+end A062474
 
 /-! ## A062474.P17306207999044933538
 
 `round(∑[log(n+1)]^(log(n+1)+1))`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
+
+namespace A062474.P17306207999044933538
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.log (n + 1 : ℝ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((∑ j ∈ Finset.range (n + 1), f1 j) ^ (Real.log (n + 1 : ℝ) + 1))
+
+end
+
+end A062474.P17306207999044933538
 
 namespace A062474
 
 /-- `round(∑[log(n+1)]^(log(n+1)+1))` -/
 def P17306207999044933538.Spec : Prop :=
   ∀ n, P17306207999044933538.a n = A062474 (n + 1)
-
-theorem P17306207999044933538.correct : P17306207999044933538.Spec := by
-  intro n
-  simp only [A062474, Nat.add_sub_cancel]
 
 end A062474
 
@@ -7018,29 +7298,6 @@ namespace A062474
 /-- `A062473(n+1)+A000035(A041984(n))` -/
 def P10231148424500087845.Spec : Prop :=
   ∀ n, P10231148424500087845.a n = A062474 (n + 1)
-
-end A062474
-
-/-! ## A062474.P370542255154397256
-
-`A250299(A001197(3*n+4))+A062473(n+1)`
--/
-
-namespace A062474.P370542255154397256
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A250299 (A001197 (3 * n + 4)).toNat + A062473 (n + 1)
-
-end
-
-end A062474.P370542255154397256
-
-namespace A062474
-
-/-- `A250299(A001197(3*n+4))+A062473(n+1)` -/
-def P370542255154397256.Spec : Prop :=
-  ∀ n, P370542255154397256.a n = A062474 (n + 1)
 
 end A062474
 
@@ -7137,25 +7394,25 @@ end A062476.P14477673654423067623
 /-!
 # A062477: Integer part of log(n^n)^(1 + log(n)).
 
-The programs for A062477, the canonical program `A062477.P15500277981762111408` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062477 has offset 1).
+The programs for A062477, the canonical program `A062477.P17048657811142706745` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062477 has offset 1).
 
-The definition of A062477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062477 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062477.P15500277981762111408
+/-! ## A062477.P17048657811142706745
 
-`floor(((n+1)*log(n+1))^(log(n+1)+1))`
+`floor(log((n+1)^(n+1))^(1+log(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062477
 
-/-- `floor(((n+1)*log(n+1))^(log(n+1)+1))` -/
-def P15500277981762111408.Spec : Prop :=
-  ∀ n, P15500277981762111408.a n = A062477 (n + 1)
+/-- `floor(log((n+1)^(n+1))^(1+log(n+1)))` -/
+def P17048657811142706745.Spec : Prop :=
+  ∀ n, P17048657811142706745.a n = A062477 (n + 1)
 
-theorem P15500277981762111408.correct : P15500277981762111408.Spec := by
+theorem P17048657811142706745.correct : P17048657811142706745.Spec := by
   intro n
   simp only [A062477, Nat.add_sub_cancel]
 
@@ -7210,25 +7467,25 @@ end A062477
 /-!
 # A062478: Nearest integer to log(n^n)^(1 + log(n)).
 
-The programs for A062478, the canonical program `A062478.P8385663944983711909` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062478 has offset 1).
+The programs for A062478, the canonical program `A062478.P4863577436396151230` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062478 has offset 1).
 
-The definition of A062478 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A062478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A062478.P8385663944983711909
+/-! ## A062478.P4863577436396151230
 
-`round(((n+1)*log(n+1))^(log(n+1)+1))`
+`round(log((n+1)^(n+1))^(1+log(n+1)))`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A062478
 
-/-- `round(((n+1)*log(n+1))^(log(n+1)+1))` -/
-def P8385663944983711909.Spec : Prop :=
-  ∀ n, P8385663944983711909.a n = A062478 (n + 1)
+/-- `round(log((n+1)^(n+1))^(1+log(n+1)))` -/
+def P4863577436396151230.Spec : Prop :=
+  ∀ n, P4863577436396151230.a n = A062478 (n + 1)
 
-theorem P8385663944983711909.correct : P8385663944983711909.Spec := by
+theorem P4863577436396151230.correct : P4863577436396151230.Spec := by
   intro n
   simp only [A062478, Nat.add_sub_cancel]
 
@@ -7425,8 +7682,25 @@ end A062480.P2748754605672298889
 /-!
 # A062481: a(n) = n^prime(n).
 
-The programs for A062481, there is no canonical definition to state claims against.
+The programs for A062481, the canonical program `A062481.P10209660498964784841` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062481 has offset 1).
+
+The definition of A062481 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A062481.P10209660498964784841
+
+`(n+1)^A000040(n+1)`
+
+The canonical program, it is in `Seq.B001.C002`.
+-/
+
+namespace A062481
+
+/-- `(n+1)^A000040(n+1)` -/
+def P10209660498964784841.Spec : Prop :=
+  ∀ n, P10209660498964784841.a n = (A062481 (n + 1) : ℚ)
+
+end A062481
 
 /-! ## A062481.P16594004339968201676
 
@@ -7449,6 +7723,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A062481.P16594004339968201676
+
+namespace A062481
+
+/-- `(n+1)^p?[comp[n²]]` -/
+def P16594004339968201676.Spec : Prop :=
+  ∀ n, (P16594004339968201676.a n : ℤ) = A062481 (n + 1)
+
+end A062481
 
 /-! ## A062481.P14407617832009896593
 
@@ -7474,6 +7756,14 @@ end
 
 end A062481.P14407617832009896593
 
+namespace A062481
+
+/-- `(n+1)^eq[1, ∑{e}[n, #]]` -/
+def P14407617832009896593.Spec : Prop :=
+  ∀ n, (P14407617832009896593.a n : ℤ) = A062481 (n + 1)
+
+end A062481
+
 /-! ## A062481.P13081423080217377432
 
 `(n+1)^record[∑{p}[n+2, #]]`
@@ -7494,6 +7784,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A062481.P13081423080217377432
+
+namespace A062481
+
+/-- `(n+1)^record[∑{p}[n+2, #]]` -/
+def P13081423080217377432.Spec : Prop :=
+  ∀ n, (P13081423080217377432.a n : ℤ) = A062481 (n + 1)
+
+end A062481
 
 /-! ## A062481.P2674334830905955402
 
@@ -7519,29 +7817,13 @@ end
 
 end A062481.P2674334830905955402
 
-/-! ## A062481.P12751012475485544746
+namespace A062481
 
-`(n+1)^eq[n, ∏{d}[n, -#]]`
--/
+/-- `(n+1)^eq[2, ∏{e}[n², #]]` -/
+def P2674334830905955402.Spec : Prop :=
+  ∀ n, (P2674334830905955402.a n : ℤ) = A062481 (n + 1)
 
-namespace A062481.P12751012475485544746
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f3 n), (-(d : ℤ))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) ^ SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A062481.P12751012475485544746
+end A062481
 
 /-!
 # A062482: Integer part of (Product(n^((1 + log(i))/i^2), {i, 1, n})).

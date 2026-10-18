@@ -34,6 +34,10 @@
         "+",
         "A011772",
         "sub"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

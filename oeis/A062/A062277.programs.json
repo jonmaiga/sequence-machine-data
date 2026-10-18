@@ -18,6 +18,10 @@
         "^",
         "/",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

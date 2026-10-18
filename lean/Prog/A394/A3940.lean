@@ -7,32 +7,28 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C015
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -40,11 +36,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -57,18 +54,18 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A394000: Achilles numbers whose prime power factor exponents are not all pairwise coprime.
@@ -953,6 +950,27 @@ end
 end A394048.P4259657880195004408
 
 /-!
+# A394049: Smallest number k that is neither squarefree nor squareful such that rad(k) | s(n), where s = A120944 is the sequence of squarefree composite numbers and rad = A007947.
+
+The programs for A394049, there is no canonical definition to state claims against.
+-/
+
+/-! ## A394049.P14023928957558719581
+
+`A020639(A120944(n+1))²*A119288(A120944(n+1))`
+-/
+
+namespace A394049.P14023928957558719581
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A120944 (n + 1)).toNat ^ 2 * A119288 (A120944 (n + 1)).toNat
+
+end
+
+end A394049.P14023928957558719581
+
+/-!
 # A394050: Achilles numbers with more than 2 distinct prime factors, whose exponents that are all pairwise indivisible.
 
 The programs for A394050, there is no canonical definition to state claims against.
@@ -983,25 +1001,25 @@ end A394050.P4491249029564125814
 /-!
 # A394051: Hofstadter Q-sequence perturbed by (-1)^n.
 
-The programs for A394051, the canonical program `A394051.P8456076294766430403` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394051 has offset 1).
+The programs for A394051, the canonical program `A394051.P14398310074069352782` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394051 has offset 1).
 
-The definition of A394051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A394051 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A394051.P8456076294766430403
+/-! ## A394051.P14398310074069352782
 
-`a(n-a(n-1))+a(n-a(n-2))-(1-2*n%2)` with `a(0)=1, a(1)=1, a(2)=1`
+`a(n-a(n-1))+a(n-a(n-2))+(-1)^(n+1)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A394051
 
-/-- `a(n-a(n-1))+a(n-a(n-2))-(1-2*n%2)` -/
-def P8456076294766430403.Spec : Prop :=
-  ∀ n, P8456076294766430403.a n = A394051 (n + 1)
+/-- `a(n-a(n-1))+a(n-a(n-2))+(-1)^(n+1)` -/
+def P14398310074069352782.Spec : Prop :=
+  ∀ n, P14398310074069352782.a n = A394051 (n + 1)
 
-theorem P8456076294766430403.correct : P8456076294766430403.Spec := by
+theorem P14398310074069352782.correct : P14398310074069352782.Spec := by
   intro n
   simp only [A394051, Nat.add_sub_cancel]
 
@@ -1432,23 +1450,20 @@ end A394060.P9673523503380000632
 The programs for A394061, there is no canonical definition to state claims against.
 -/
 
-/-! ## A394061.P1454036204193694857
+/-! ## A394061.P9735354741453901521
 
-`∑{p}[A393096(n+1), #]`
+`A008472(A393096(n+1))`
 -/
 
-namespace A394061.P1454036204193694857
+namespace A394061.P9735354741453901521
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393096 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, p
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008472 (A393096 (n + 1)).toNat
 
 end
 
-end A394061.P1454036204193694857
+end A394061.P9735354741453901521
 
 /-! ## A394061.P11508670004367060932
 
@@ -1464,21 +1479,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394061.P11508670004367060932
-
-/-! ## A394061.P9735354741453901521
-
-`A008472(A393096(n+1))`
--/
-
-namespace A394061.P9735354741453901521
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008472 (A393096 (n + 1)).toNat
-
-end
-
-end A394061.P9735354741453901521
 
 /-! ## A394061.P1557365696243957889
 
@@ -1500,6 +1500,21 @@ end A394061.P1557365696243957889
 
 The programs for A394062, there is no canonical definition to state claims against.
 -/
+
+/-! ## A394062.P6572708915363787056
+
+`A393096(n+1)-A008472(A393096(n+1))`
+-/
+
+namespace A394062.P6572708915363787056
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A393096 (n + 1) - A008472 (A393096 (n + 1)).toNat
+
+end
+
+end A394062.P6572708915363787056
 
 /-! ## A394062.P3170349094537821522
 
@@ -1732,7 +1747,7 @@ end A394080.P16283327272078211849
 /-!
 # A394085: a(n) = sigma(n) - Sum_{p|n, p prime, gcd(p,n/p) = 1} (p-1).
 
-The programs for A394085, the canonical program `A394085.P10152136709517601280` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394085 has offset 1).
+The programs for A394085, the canonical program `A394085.P10152136709517601280` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394085 has offset 1).
 
 The definition of A394085 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056169, A063956, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1741,7 +1756,7 @@ The definition of A394085 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(n+1)-A063956(n+1)+A056169(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A394085

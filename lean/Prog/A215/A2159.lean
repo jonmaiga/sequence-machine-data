@@ -18,20 +18,21 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,6 +49,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -61,10 +63,12 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +93,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2428,7 +2431,7 @@ end A215927.P3460136086050635195
 /-!
 # A215928: a(n) = 2*a(n-1) + a(n-2) for n > 2, a(0) = a(1) = 1, a(2) = 2.
 
-The programs for A215928, the canonical program `A215928.P9292469542158918024` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215928 has offset 0).
+The programs for A215928, the canonical program `A215928.P9292469542158918024` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215928 has offset 0).
 
 The definition of A215928 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)+a(n-2)` (program `A215928.P9292469542158918024`, by `A215928.P9292469542158918024.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2437,7 +2440,7 @@ The definition of A215928 is `verified`: the Lean definition is proven equivalen
 
 `2*a(n-1)+a(n-2)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A215928
@@ -3952,7 +3955,7 @@ end A215935.P11246198286919424692
 /-!
 # A215936: a(n) = -2*a(n-1) + a(n-2) for n > 2, with a(0) = a(1) = 1, a(2) = 0.
 
-The programs for A215936, the canonical program `A215936.P7031993691885772414` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215936 has offset 0).
+The programs for A215936, the canonical program `A215936.P7031993691885772414` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215936 has offset 0).
 
 The definition of A215936 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 265 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3961,7 +3964,7 @@ The definition of A215936 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)-2*a(n-1)` with `a(0)=1, a(1)=1, a(2)=0`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A215936
@@ -4853,6 +4856,29 @@ theorem P3538818604850998885.correct : P3538818604850998885.Spec := by
 
 end A215947
 
+/-! ## A215947.P8557608563228333570
+
+`-A002129(2*(n+1))`
+-/
+
+namespace A215947.P8557608563228333570
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -A002129 (2 * (n + 1))
+
+end
+
+end A215947.P8557608563228333570
+
+namespace A215947
+
+/-- `-A002129(2*(n+1))` -/
+def P8557608563228333570.Spec : Prop :=
+  ∀ n, P8557608563228333570.a n = A215947 (n + 1)
+
+end A215947
+
 /-! ## A215947.P2538213003879182347
 
 `∑{d}[n+1, #*gcd(2, #)]`
@@ -5285,29 +5311,6 @@ namespace A215947
 /-- `2*A002131(n+1)-A002129(n+1)` -/
 def P1846700201495955545.Spec : Prop :=
   ∀ n, P1846700201495955545.a n = A215947 (n + 1)
-
-end A215947
-
-/-! ## A215947.P13733506139643517330
-
-`A062731(n+1)-2*A000593(n+1)`
--/
-
-namespace A215947.P13733506139643517330
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062731 (n + 1) - 2 * A000593 (n + 1)
-
-end
-
-end A215947.P13733506139643517330
-
-namespace A215947
-
-/-- `A062731(n+1)-2*A000593(n+1)` -/
-def P13733506139643517330.Spec : Prop :=
-  ∀ n, P13733506139643517330.a n = A215947 (n + 1)
 
 end A215947
 
@@ -5903,7 +5906,7 @@ end A215958.P7151307278339538439
 /-!
 # A215960: First differences of A016759.
 
-The programs for A215960, the canonical program `A215960.P16749522352293659773` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215960 has offset 0).
+The programs for A215960, the canonical program `A215960.P16749522352293659773` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215960 has offset 0).
 
 The definition of A215960 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5912,7 +5915,7 @@ The definition of A215960 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[(2*n+1)^7]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A215960

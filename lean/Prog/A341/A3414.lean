@@ -20,14 +20,17 @@ import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,26 +47,28 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +95,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A341400: Number of nonnegative solutions to (x_1)^2 + (x_2)^2 + ... + (x_5)^2 <= n.
@@ -2790,27 +2794,46 @@ end A341439.P4610429355856701109
 /-!
 # A341441: Total number of triangles visible in a regular (2n+1)-gon with all diagonals drawn.
 
-The programs for A341441, the canonical program `A341441.P14857881591071919357` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341441 has offset 1).
+The programs for A341441, the canonical program `A341441.P3643201434768472956` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341441 has offset 1).
 
-The definition of A341441 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A341441 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A341441.P3643201434768472956
+
+`(n+1)*(2*(n+1)+1)*(2*(n+1)-1)*(2*(n+1)^3+21*(n+1)²-2*(n+1)+9)/90`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A341441
+
+/-- `(n+1)*(2*(n+1)+1)*(2*(n+1)-1)*(2*(n+1)^3+21*(n+1)²-2*(n+1)+9)/90` -/
+def P3643201434768472956.Spec : Prop :=
+  ∀ n, P3643201434768472956.a n = (A341441 (n + 1) : ℚ)
+
+end A341441
 
 /-! ## A341441.P14857881591071919357
 
 `A005732(2*n+3)`
-
-The canonical program, it is in `Seq.B001.C009`.
 -/
+
+namespace A341441.P14857881591071919357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005732 (2 * n + 3)
+
+end
+
+end A341441.P14857881591071919357
 
 namespace A341441
 
 /-- `A005732(2*n+3)` -/
 def P14857881591071919357.Spec : Prop :=
   ∀ n, P14857881591071919357.a n = A341441 (n + 1)
-
-theorem P14857881591071919357.correct : P14857881591071919357.Spec := by
-  intro n
-  simp only [A341441, Nat.add_sub_cancel]
 
 end A341441
 
@@ -5143,7 +5166,7 @@ end A341462.P12791574971107373786
 /-!
 # A341463: a(n) = (-1)^(n+1) * (3^n+1)/2.
 
-The programs for A341463, the canonical program `A341463.P13652557495950942021` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341463 has offset 0).
+The programs for A341463, the canonical program `A341463.P13652557495950942021` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341463 has offset 0).
 
 The definition of A341463 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5152,7 +5175,7 @@ The definition of A341463 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^(n+1)*(3^n+1)/2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A341463
@@ -5959,7 +5982,7 @@ end A341471.P9710234883837268978
 /-!
 # A341472: Partial sums of A341444.
 
-The programs for A341472, the canonical program `A341472.P14428044219851837605` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341472 has offset 1).
+The programs for A341472, the canonical program `A341472.P14428044219851837605` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341472 has offset 1).
 
 The definition of A341472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5968,7 +5991,7 @@ The definition of A341472 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A341444(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A341472

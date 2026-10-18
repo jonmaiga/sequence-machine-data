@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -6,6 +7,7 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C014
 import Seq.B000.C015
@@ -13,15 +15,16 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -29,12 +32,11 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -46,10 +48,13 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -62,7 +67,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -76,6 +80,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A386904: A sequence constructed by greedily sampling the Borel distribution for parameter value 1/2 to minimize discrepancy.
@@ -161,16 +169,61 @@ end A386904.P9264932442478944112
 /-!
 # A386906: a(n) = (3*n - 2)^2*(3*n - 1)/2.
 
-The programs for A386906, the canonical program `A386906.P4759804718753343731` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386906 has offset 1).
+The programs for A386906, the canonical program `A386906.P4759804718753343731` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386906 has offset 1).
 
-The definition of A386906 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A386906 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3*(n+1)-2)²*(3*(n+1)-1)/2` (program `A386906.P4635339516493122772`, by `A386906.P4635339516493122772.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A386906.P4635339516493122772
+
+`(3*(n+1)-2)²*(3*(n+1)-1)/2`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A386906.P4635339516493122772
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((3 * (n + 1) : ℤ) - 2) ^ 2 : ℚ) * (((3 * (n + 1) : ℤ) - 1 : ℚ) / 2)
+
+end
+
+end A386906.P4635339516493122772
+
+namespace A386906
+
+/-- `(3*(n+1)-2)²*(3*(n+1)-1)/2` -/
+def P4635339516493122772.Spec : Prop :=
+  ∀ n, P4635339516493122772.a n = (A386906 (n + 1) : ℚ)
+
+theorem P4635339516493122772.correct : P4635339516493122772.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A386906, Nat.add_sub_cancel, A386906.P4635339516493122772.a, A386906.P4759804718753343731.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A386906, Nat.add_sub_cancel, A386906.P4635339516493122772.a, A386906.P4759804718753343731.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [← h1, ← h2, ← h3, ← h4]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A386906
 
 /-! ## A386906.P4759804718753343731
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=1, a(1)=40, a(2)=196, a(3)=550`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A386906
@@ -182,55 +235,6 @@ def P4759804718753343731.Spec : Prop :=
 theorem P4759804718753343731.correct : P4759804718753343731.Spec := by
   intro n
   simp only [A386906, Nat.add_sub_cancel]
-
-end A386906
-
-/-! ## A386906.P13206928025455420927
-
-`(2*n+1+n)*C(2*n+n+2, 2)`
--/
-
-namespace A386906.P13206928025455420927
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n + 1 + n) * Nat.choose (2 * n + (n + 2)) 2
-
-end
-
-end A386906.P13206928025455420927
-
-namespace A386906
-
-/-- `(2*n+1+n)*C(2*n+n+2, 2)` -/
-def P13206928025455420927.Spec : Prop :=
-  ∀ n, (P13206928025455420927.a n : ℤ) = A386906 (n + 1)
-
-end A386906
-
-/-! ## A386906.P13434803337003739703
-
-`(2*n+1+n)*(∑[n]+(2*n+1)²)`
--/
-
-namespace A386906.P13434803337003739703
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n + 1 + n) * (∑ j ∈ Finset.range (n + 1), f1 j + (2 * n + 1) ^ 2)
-
-end
-
-end A386906.P13434803337003739703
-
-namespace A386906
-
-/-- `(2*n+1+n)*(∑[n]+(2*n+1)²)` -/
-def P13434803337003739703.Spec : Prop :=
-  ∀ n, (P13434803337003739703.a n : ℤ) = A386906 (n + 1)
 
 end A386906
 
@@ -2292,6 +2296,21 @@ end A386964.P6038619900516735396
 The programs for A386965, there is no canonical definition to state claims against.
 -/
 
+/-! ## A386965.P13767053820222605654
+
+`(n+1)!*A324361(n+1)`
+-/
+
+namespace A386965.P13767053820222605654
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 1) : ℤ) * A324361 (n + 1)
+
+end
+
+end A386965.P13767053820222605654
+
 /-! ## A386965.P17213898616165735889
 
 `A061018(2*(n+1)²)`
@@ -2536,7 +2555,7 @@ end A386974.P5501494103771344962
 /-!
 # A386976: a(n) = Sum_{k=0..n} binomial(3*n+2,4*k).
 
-The programs for A386976, the canonical program `A386976.P3572309863306736497` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386976 has offset 0).
+The programs for A386976, the canonical program `A386976.P3572309863306736497` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386976 has offset 0).
 
 The definition of A386976 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2545,7 +2564,7 @@ The definition of A386976 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+24*a(n-2)+64*a(n-3)` with `a(0)=1, a(1)=6, a(2)=72`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A386976

@@ -28,6 +28,9 @@
         "+",
         "sub",
         "sqrt"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

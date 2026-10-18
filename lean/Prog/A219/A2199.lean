@@ -1,8 +1,8 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -12,18 +12,21 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -32,22 +35,21 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +73,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -3833,6 +3834,31 @@ The programs for A219954, the canonical program `A219954.P4772442507018159107` i
 The definition of A219954 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A219954.P38292891693925786
+
+`(A160414(n+1)-1)/4`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A219954.P38292891693925786
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A160414 (n + 1) - 1 : ℚ) / 4
+
+end
+
+end A219954.P38292891693925786
+
+namespace A219954
+
+/-- `(A160414(n+1)-1)/4` -/
+def P38292891693925786.Spec : Prop :=
+  ∀ n, P38292891693925786.a n = (A219954 (n + 1) : ℚ)
+
+end A219954
+
 /-! ## A219954.P9164227500981206904
 
 `floor(A160414(n+1)/4)`
@@ -5227,7 +5253,7 @@ end A219975.P1919851742648103476
 /-!
 # A219977: Expansion of 1/(1+x+x^2+x^3).
 
-The programs for A219977, the canonical program `A219977.P9923554064569221539` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219977 has offset 0).
+The programs for A219977, the canonical program `A219977.P9923554064569221539` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219977 has offset 0).
 
 The definition of A219977 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5236,7 +5262,7 @@ The definition of A219977 is `conjectured`: the Lean definition is a formula tha
 
 `round(cos(exp(n%4)))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A219977

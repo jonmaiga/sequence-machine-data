@@ -6,9 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
@@ -16,6 +14,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -23,19 +22,17 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
@@ -44,21 +41,16 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -67,6 +59,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,6 +75,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -90,7 +85,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -100,7 +94,7 @@ set_option linter.unreachableTactic false
 /-!
 # A167300: Totally multiplicative sequence with a(p) = 8*(p-2) for prime p.
 
-The programs for A167300, the canonical program `A167300.P9508345572658895137` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167300 has offset 1).
+The programs for A167300, the canonical program `A167300.P9508345572658895137` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167300 has offset 1).
 
 The definition of A167300 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165829, A166586, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -109,7 +103,7 @@ The definition of A167300 is `conditional`: the Lean definition is an OEIS formu
 
 `A165829(n+1)*A166586(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167300
@@ -334,7 +328,7 @@ end A167300
 /-!
 # A167301: Totally multiplicative sequence with a(p) = 9*(p-2) for prime p.
 
-The programs for A167301, the canonical program `A167301.P17273096670180522839` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167301 has offset 1).
+The programs for A167301, the canonical program `A167301.P17273096670180522839` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167301 has offset 1).
 
 The definition of A167301 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165830, A166586, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -343,7 +337,7 @@ The definition of A167301 is `conditional`: the Lean definition is an OEIS formu
 
 `A165830(n+1)*A166586(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167301
@@ -637,7 +631,7 @@ end A167301
 /-!
 # A167302: Totally multiplicative sequence with a(p) = 10*(p-2) for prime p.
 
-The programs for A167302, the canonical program `A167302.P478153043190130814` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167302 has offset 1).
+The programs for A167302, the canonical program `A167302.P478153043190130814` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167302 has offset 1).
 
 The definition of A167302 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165831, A166586, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -646,7 +640,7 @@ The definition of A167302 is `conditional`: the Lean definition is an OEIS formu
 
 `A165831(n+1)*A166586(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167302
@@ -871,7 +865,7 @@ end A167302
 /-!
 # A167303: Totally multiplicative sequence with a(p) = 2*(p+2) for prime p.
 
-The programs for A167303, the canonical program `A167303.P11363284462893750900` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167303 has offset 1).
+The programs for A167303, the canonical program `A167303.P11363284462893750900` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167303 has offset 1).
 
 The definition of A167303 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -880,7 +874,7 @@ The definition of A167303 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167303
@@ -1312,7 +1306,7 @@ end A167303
 /-!
 # A167304: Totally multiplicative sequence with a(p) = 3*(p+2) for prime p.
 
-The programs for A167304, the canonical program `A167304.P2031203534849749010` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167304 has offset 1).
+The programs for A167304, the canonical program `A167304.P2031203534849749010` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167304 has offset 1).
 
 The definition of A167304 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165824, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1321,7 +1315,7 @@ The definition of A167304 is `conditional`: the Lean definition is an OEIS formu
 
 `A165824(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167304
@@ -1776,7 +1770,7 @@ end A167304
 /-!
 # A167305: Totally multiplicative sequence with a(p) = 4*(p+2) for prime p.
 
-The programs for A167305, the canonical program `A167305.P2194561417994562381` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167305 has offset 1).
+The programs for A167305, the canonical program `A167305.P2194561417994562381` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167305 has offset 1).
 
 The definition of A167305 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165825, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1785,7 +1779,7 @@ The definition of A167305 is `conditional`: the Lean definition is an OEIS formu
 
 `A165825(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167305
@@ -2240,7 +2234,7 @@ end A167305
 /-!
 # A167306: Totally multiplicative sequence with a(p) = 5*(p+2) for prime p.
 
-The programs for A167306, the canonical program `A167306.P910132846413458269` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167306 has offset 1).
+The programs for A167306, the canonical program `A167306.P910132846413458269` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167306 has offset 1).
 
 The definition of A167306 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165826, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2249,7 +2243,7 @@ The definition of A167306 is `conditional`: the Lean definition is an OEIS formu
 
 `A165826(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167306
@@ -2474,7 +2468,7 @@ end A167306
 /-!
 # A167307: Totally multiplicative sequence with a(p) = 6*(p+2) for prime p.
 
-The programs for A167307, the canonical program `A167307.P16545490870235879032` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167307 has offset 1).
+The programs for A167307, the canonical program `A167307.P16545490870235879032` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167307 has offset 1).
 
 The definition of A167307 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165827, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2483,7 +2477,7 @@ The definition of A167307 is `conditional`: the Lean definition is an OEIS formu
 
 `A165827(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167307
@@ -2800,7 +2794,7 @@ end A167307
 /-!
 # A167308: Totally multiplicative sequence with a(p) = 7*(p+2) for prime p.
 
-The programs for A167308, the canonical program `A167308.P11709965440896012958` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167308 has offset 1).
+The programs for A167308, the canonical program `A167308.P11709965440896012958` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167308 has offset 1).
 
 The definition of A167308 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165828, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2809,7 +2803,7 @@ The definition of A167308 is `conditional`: the Lean definition is an OEIS formu
 
 `A165828(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167308
@@ -2965,7 +2959,7 @@ end A167308
 /-!
 # A167309: Totally multiplicative sequence with a(p) = 8*(p+2) for prime p.
 
-The programs for A167309, the canonical program `A167309.P13045580764982160414` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167309 has offset 1).
+The programs for A167309, the canonical program `A167309.P13045580764982160414` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167309 has offset 1).
 
 The definition of A167309 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165829, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2974,7 +2968,7 @@ The definition of A167309 is `conditional`: the Lean definition is an OEIS formu
 
 `A165829(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167309
@@ -3268,7 +3262,7 @@ end A167309
 /-!
 # A167310: Totally multiplicative sequence with a(p) = 9*(p+2) for prime p.
 
-The programs for A167310, the canonical program `A167310.P14212856181125560351` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167310 has offset 1).
+The programs for A167310, the canonical program `A167310.P14212856181125560351` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167310 has offset 1).
 
 The definition of A167310 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165830, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3277,7 +3271,7 @@ The definition of A167310 is `conditional`: the Lean definition is an OEIS formu
 
 `A165830(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167310
@@ -3571,7 +3565,7 @@ end A167310
 /-!
 # A167311: Totally multiplicative sequence with a(p) = 10*(p+2) for prime p.
 
-The programs for A167311, the canonical program `A167311.P16369773176810613857` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167311 has offset 1).
+The programs for A167311, the canonical program `A167311.P16369773176810613857` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167311 has offset 1).
 
 The definition of A167311 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165831, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3580,7 +3574,7 @@ The definition of A167311 is `conditional`: the Lean definition is an OEIS formu
 
 `A165831(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167311
@@ -3874,7 +3868,7 @@ end A167311
 /-!
 # A167312: Totally multiplicative sequence with a(p) = 2*(p-3) for prime p.
 
-The programs for A167312, the canonical program `A167312.P10911823798209180809` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167312 has offset 1).
+The programs for A167312, the canonical program `A167312.P10911823798209180809` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167312 has offset 1).
 
 The definition of A167312 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3883,7 +3877,7 @@ The definition of A167312 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167312
@@ -4200,7 +4194,7 @@ end A167312
 /-!
 # A167313: Totally multiplicative sequence with a(p) = 3*(p-3) for prime p.
 
-The programs for A167313, the canonical program `A167313.P15207471418219056829` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167313 has offset 1).
+The programs for A167313, the canonical program `A167313.P15207471418219056829` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167313 has offset 1).
 
 The definition of A167313 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165824, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4209,7 +4203,7 @@ The definition of A167313 is `conditional`: the Lean definition is an OEIS formu
 
 `A165824(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167313
@@ -4526,7 +4520,7 @@ end A167313
 /-!
 # A167314: Totally multiplicative sequence with a(p) = 4*(p-3) for prime p.
 
-The programs for A167314, the canonical program `A167314.P3635504864313680750` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167314 has offset 1).
+The programs for A167314, the canonical program `A167314.P3635504864313680750` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167314 has offset 1).
 
 The definition of A167314 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165825, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4535,7 +4529,7 @@ The definition of A167314 is `conditional`: the Lean definition is an OEIS formu
 
 `A165825(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167314
@@ -4852,7 +4846,7 @@ end A167314
 /-!
 # A167315: Totally multiplicative sequence with a(p) = 5*(p-3) for prime p.
 
-The programs for A167315, the canonical program `A167315.P14894891535969345852` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167315 has offset 1).
+The programs for A167315, the canonical program `A167315.P14894891535969345852` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167315 has offset 1).
 
 The definition of A167315 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165826, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4861,7 +4855,7 @@ The definition of A167315 is `conditional`: the Lean definition is an OEIS formu
 
 `A165826(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167315
@@ -5224,7 +5218,7 @@ end A167315
 /-!
 # A167316: Totally multiplicative sequence with a(p) = 6*(p-3) for prime p.
 
-The programs for A167316, the canonical program `A167316.P4064799571655654239` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167316 has offset 1).
+The programs for A167316, the canonical program `A167316.P4064799571655654239` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167316 has offset 1).
 
 The definition of A167316 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165827, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5233,7 +5227,7 @@ The definition of A167316 is `conditional`: the Lean definition is an OEIS formu
 
 `A165827(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167316
@@ -5596,7 +5590,7 @@ end A167316
 /-!
 # A167317: Totally multiplicative sequence with a(p) = 7*(p-3) for prime p.
 
-The programs for A167317, the canonical program `A167317.P1896838416020808552` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167317 has offset 1).
+The programs for A167317, the canonical program `A167317.P1896838416020808552` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167317 has offset 1).
 
 The definition of A167317 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165828, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5605,7 +5599,7 @@ The definition of A167317 is `conditional`: the Lean definition is an OEIS formu
 
 `A165828(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167317
@@ -5853,7 +5847,7 @@ end A167317
 /-!
 # A167318: Totally multiplicative sequence with a(p) = 8*(p-3) for prime p.
 
-The programs for A167318, the canonical program `A167318.P7293545725422339137` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167318 has offset 1).
+The programs for A167318, the canonical program `A167318.P7293545725422339137` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167318 has offset 1).
 
 The definition of A167318 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165829, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5862,7 +5856,7 @@ The definition of A167318 is `conditional`: the Lean definition is an OEIS formu
 
 `A165829(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167318
@@ -6179,7 +6173,7 @@ end A167318
 /-!
 # A167319: Totally multiplicative sequence with a(p) = 9*(p-3) for prime p.
 
-The programs for A167319, the canonical program `A167319.P6886657443246084551` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167319 has offset 1).
+The programs for A167319, the canonical program `A167319.P6886657443246084551` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167319 has offset 1).
 
 The definition of A167319 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165830, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6188,7 +6182,7 @@ The definition of A167319 is `conditional`: the Lean definition is an OEIS formu
 
 `A165830(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167319
@@ -6551,7 +6545,7 @@ end A167319
 /-!
 # A167320: Totally multiplicative sequence with a(p) = 10*(p-3) for prime p.
 
-The programs for A167320, the canonical program `A167320.P15726980127679535390` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167320 has offset 1).
+The programs for A167320, the canonical program `A167320.P15726980127679535390` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167320 has offset 1).
 
 The definition of A167320 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A165831, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6560,7 +6554,7 @@ The definition of A167320 is `conditional`: the Lean definition is an OEIS formu
 
 `A165831(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167320
@@ -9459,7 +9453,7 @@ end A167329.P14101324508501214184
 /-!
 # A167330: Totally multiplicative sequence with a(p) = 2*(2p-1) = 4p-2 for prime p.
 
-The programs for A167330, the canonical program `A167330.P13311422161193416646` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167330 has offset 1).
+The programs for A167330, the canonical program `A167330.P13311422161193416646` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167330 has offset 1).
 
 The definition of A167330 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166651, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9468,7 +9462,7 @@ The definition of A167330 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166651(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167330
@@ -9769,7 +9763,7 @@ end A167331.P18411914357738213601
 /-!
 # A167332: Totally multiplicative sequence with a(p) = 2*(4*p-1) = 8*p-2 for prime p.
 
-The programs for A167332, the canonical program `A167332.P5296278499809472685` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167332 has offset 1).
+The programs for A167332, the canonical program `A167332.P5296278499809472685` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167332 has offset 1).
 
 The definition of A167332 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166653, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9778,7 +9772,7 @@ The definition of A167332 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166653(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A167332
@@ -10076,7 +10070,7 @@ end A167333.P7297371735244733806
 /-!
 # A167334: Totally multiplicative sequence with a(p) = 2*(2p+1) = 4p+2 for prime p.
 
-The programs for A167334, the canonical program `A167334.P15740776329947131718` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167334 has offset 1).
+The programs for A167334, the canonical program `A167334.P15740776329947131718` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167334 has offset 1).
 
 The definition of A167334 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166660, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10085,7 +10079,7 @@ The definition of A167334 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166660(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167334
@@ -10313,7 +10307,7 @@ end A167334
 /-!
 # A167335: Totally multiplicative sequence with a(p) = 2*(3p+1) = 6p+2 for prime p.
 
-The programs for A167335, the canonical program `A167335.P18242751094276829899` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167335 has offset 1).
+The programs for A167335, the canonical program `A167335.P18242751094276829899` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167335 has offset 1).
 
 The definition of A167335 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166661, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10322,7 +10316,7 @@ The definition of A167335 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166661(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A167335
@@ -10501,7 +10495,7 @@ end A167335
 /-!
 # A167336: Totally multiplicative sequence with a(p) = 2*(4p+1) = 8p+2 for prime p.
 
-The programs for A167336, the canonical program `A167336.P8261214320383042198` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167336 has offset 1).
+The programs for A167336, the canonical program `A167336.P8261214320383042198` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167336 has offset 1).
 
 The definition of A167336 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A166662, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10510,7 +10504,7 @@ The definition of A167336 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A166662(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A167336
@@ -10838,7 +10832,7 @@ end A167337.P18088113541193973238
 /-!
 # A167338: Totally multiplicative sequence with a(p) = p*(p+1) = p^2+p for prime p.
 
-The programs for A167338, the canonical program `A167338.P17492942069736666981` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167338 has offset 1).
+The programs for A167338, the canonical program `A167338.P17492942069736666981` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167338 has offset 1).
 
 The definition of A167338 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10962,7 +10956,7 @@ end A167338
 
 `(n+1)*∏{d}[n+1, A000203(A014963(#))]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A167338
@@ -11164,16 +11158,16 @@ end A167338
 /-!
 # A167339: Totally multiplicative sequence with a(p) = p*(p-2) = p^2-2p for prime p.
 
-The programs for A167339, the canonical program `A167339.P17538192624040358396` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167339 has offset 1).
+The programs for A167339, the canonical program `A167339.P17538192624040358396` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167339 has offset 1).
 
-The definition of A167339 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A167339 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166586, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A167339.P17538192624040358396
 
 `(n+1)*A166586(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167339
@@ -11444,16 +11438,16 @@ end A167339
 /-!
 # A167340: Totally multiplicative sequence with a(p) = p*(p+2) = p^2+2p for prime p.
 
-The programs for A167340, the canonical program `A167340.P3802847850510465819` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167340 has offset 1).
+The programs for A167340, the canonical program `A167340.P3802847850510465819` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167340 has offset 1).
 
-The definition of A167340 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A167340 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166590, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A167340.P3802847850510465819
 
 `(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167340
@@ -11586,16 +11580,16 @@ end A167340
 /-!
 # A167341: Totally multiplicative sequence with a(p) = p*(p-3) = p^2-3p for prime p.
 
-The programs for A167341, the canonical program `A167341.P9615713007832461623` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167341 has offset 1).
+The programs for A167341, the canonical program `A167341.P9615713007832461623` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167341 has offset 1).
 
-The definition of A167341 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A167341 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166589, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A167341.P9615713007832461623
 
 `(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167341
@@ -11892,7 +11886,7 @@ end A167342.P17615858978804516273
 /-!
 # A167343: Totally multiplicative sequence with a(p) = (p-1)^2 = p^2-2p+1 for prime p.
 
-The programs for A167343, the canonical program `A167343.P6110866401223025561` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167343 has offset 1).
+The programs for A167343, the canonical program `A167343.P6110866401223025561` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167343 has offset 1).
 
 The definition of A167343 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003958, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11901,7 +11895,7 @@ The definition of A167343 is `conditional`: the Lean definition is an OEIS formu
 
 `A003958(n+1)²`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A167343
@@ -12365,7 +12359,7 @@ end A167343
 /-!
 # A167344: Totally multiplicative sequence with a(p) = (p-1)*(p+1) = p^2-1 for prime p.
 
-The programs for A167344, the canonical program `A167344.P17306748435152124065` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167344 has offset 1).
+The programs for A167344, the canonical program `A167344.P17306748435152124065` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167344 has offset 1).
 
 The definition of A167344 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003958, A003959, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12374,7 +12368,7 @@ The definition of A167344 is `conditional`: the Lean definition is an OEIS formu
 
 `A003958(n+1)*A003959(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167344
@@ -12829,7 +12823,7 @@ end A167344
 /-!
 # A167345: Totally multiplicative sequence with a(p) = (p-1)*(p-2) = p^2-3p+2 for prime p.
 
-The programs for A167345, the canonical program `A167345.P13116550520045673211` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167345 has offset 1).
+The programs for A167345, the canonical program `A167345.P13116550520045673211` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167345 has offset 1).
 
 The definition of A167345 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003958, A166586, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12838,7 +12832,7 @@ The definition of A167345 is `conditional`: the Lean definition is an OEIS formu
 
 `A003958(n+1)*A166586(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167345
@@ -13040,7 +13034,7 @@ end A167345
 /-!
 # A167346: Totally multiplicative sequence with a(p) = (p-1)*(p+2) = p^2+p-2 for prime p.
 
-The programs for A167346, the canonical program `A167346.P10741638315407292075` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167346 has offset 1).
+The programs for A167346, the canonical program `A167346.P10741638315407292075` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167346 has offset 1).
 
 The definition of A167346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13072,7 +13066,7 @@ end A167346
 
 `∏{d}[n+1, A341772(A014963(#))]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A167346
@@ -13458,7 +13452,7 @@ end A167346
 /-!
 # A167347: Totally multiplicative sequence with a(p) = (p-1)*(p-3) = p^2-4p+3 for prime p.
 
-The programs for A167347, the canonical program `A167347.P12506259903497300645` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167347 has offset 1).
+The programs for A167347, the canonical program `A167347.P12506259903497300645` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167347 has offset 1).
 
 The definition of A167347 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003958, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13467,7 +13461,7 @@ The definition of A167347 is `conditional`: the Lean definition is an OEIS formu
 
 `A003958(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167347
@@ -13850,7 +13844,7 @@ end A167348.P7663947875973153896
 /-!
 # A167349: Totally multiplicative sequence with a(p) = (p+1)^2 = p^2+2p+1 for prime p.
 
-The programs for A167349, the canonical program `A167349.P4063625469855848635` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167349 has offset 1).
+The programs for A167349, the canonical program `A167349.P4063625469855848635` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167349 has offset 1).
 
 The definition of A167349 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003959, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13859,7 +13853,7 @@ The definition of A167349 is `conditional`: the Lean definition is an OEIS formu
 
 `A003959(n+1)²`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167349
@@ -14320,7 +14314,7 @@ end A167349
 /-!
 # A167350: Totally multiplicative sequence with a(p) = (p+1)*(p-2) = p^2-p-2 for prime p.
 
-The programs for A167350, the canonical program `A167350.P7668436297064043008` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167350 has offset 1).
+The programs for A167350, the canonical program `A167350.P7668436297064043008` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167350 has offset 1).
 
 The definition of A167350 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003959, A166586, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14329,7 +14323,7 @@ The definition of A167350 is `conditional`: the Lean definition is an OEIS formu
 
 `A003959(n+1)*A166586(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167350
@@ -14784,7 +14778,7 @@ end A167350
 /-!
 # A167351: Totally multiplicative sequence with a(p) = (p+1)*(p+2) = p^2+3p+2 for prime p.
 
-The programs for A167351, the canonical program `A167351.P2583603583113237971` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167351 has offset 1).
+The programs for A167351, the canonical program `A167351.P2583603583113237971` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167351 has offset 1).
 
 The definition of A167351 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003959, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14793,7 +14787,7 @@ The definition of A167351 is `conditional`: the Lean definition is an OEIS formu
 
 `A003959(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167351
@@ -15202,7 +15196,7 @@ end A167351
 /-!
 # A167352: Totally multiplicative sequence with a(p) = (p+1)*(p-3) = p^2-2p-3 for prime p.
 
-The programs for A167352, the canonical program `A167352.P11746959549573865569` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167352 has offset 1).
+The programs for A167352, the canonical program `A167352.P11746959549573865569` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167352 has offset 1).
 
 The definition of A167352 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003959, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -15211,7 +15205,7 @@ The definition of A167352 is `conditional`: the Lean definition is an OEIS formu
 
 `A003959(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167352
@@ -15897,7 +15891,7 @@ end A167353.P18268285501289251588
 /-!
 # A167354: Totally multiplicative sequence with a(p) = (p-2)^2 = p^2-4p+4 for prime p.
 
-The programs for A167354, the canonical program `A167354.P13081332751895378008` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167354 has offset 1).
+The programs for A167354, the canonical program `A167354.P13081332751895378008` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167354 has offset 1).
 
 The definition of A167354 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166586, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -15906,7 +15900,7 @@ The definition of A167354 is `conditional`: the Lean definition is an OEIS formu
 
 `A166586(n+1)²`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167354
@@ -16364,7 +16358,7 @@ end A167354
 /-!
 # A167355: Totally multiplicative sequence with a(p) = (p-2)*(p+2) = p^2-4 for prime p.
 
-The programs for A167355, the canonical program `A167355.P16103125878729455081` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167355 has offset 1).
+The programs for A167355, the canonical program `A167355.P16103125878729455081` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167355 has offset 1).
 
 The definition of A167355 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166586, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -16373,7 +16367,7 @@ The definition of A167355 is `conditional`: the Lean definition is an OEIS formu
 
 `A166586(n+1)*A166590(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167355
@@ -16552,7 +16546,7 @@ end A167355
 /-!
 # A167356: Totally multiplicative sequence with a(p) = (p-2)*(p-3) = p^2-5p+6 for prime p.
 
-The programs for A167356, the canonical program `A167356.P16659837918283053024` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167356 has offset 1).
+The programs for A167356, the canonical program `A167356.P16659837918283053024` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167356 has offset 1).
 
 The definition of A167356 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166586, A166589, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -16561,7 +16555,7 @@ The definition of A167356 is `conditional`: the Lean definition is an OEIS formu
 
 `A166586(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167356
@@ -17142,7 +17136,7 @@ end A167357.P17589884380767850473
 /-!
 # A167358: Totally multiplicative sequence with a(p) = (p+2)^2 = p^2+4p+4 for prime p.
 
-The programs for A167358, the canonical program `A167358.P1480310879331971813` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167358 has offset 1).
+The programs for A167358, the canonical program `A167358.P1480310879331971813` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167358 has offset 1).
 
 The definition of A167358 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166590, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -17151,7 +17145,7 @@ The definition of A167358 is `conditional`: the Lean definition is an OEIS formu
 
 `A166590(n+1)²`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167358
@@ -17606,7 +17600,7 @@ end A167358
 /-!
 # A167359: Totally multiplicative sequence with a(p) = (p+2)*(p-3) = p^2-p-6 for prime p.
 
-The programs for A167359, the canonical program `A167359.P16411272990790649797` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167359 has offset 1).
+The programs for A167359, the canonical program `A167359.P16411272990790649797` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167359 has offset 1).
 
 The definition of A167359 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166589, A166590, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -17615,7 +17609,7 @@ The definition of A167359 is `conditional`: the Lean definition is an OEIS formu
 
 `A166590(n+1)*A166589(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167359
@@ -18056,7 +18050,7 @@ end A167360.P6085274048553536975
 /-!
 # A167361: Totally multiplicative sequence with a(p) = (p-3)^2 = p^2-6p+9 for prime p.
 
-The programs for A167361, the canonical program `A167361.P8077212222090649816` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167361 has offset 1).
+The programs for A167361, the canonical program `A167361.P8077212222090649816` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167361 has offset 1).
 
 The definition of A167361 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166589, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -18065,7 +18059,7 @@ The definition of A167361 is `conditional`: the Lean definition is an OEIS formu
 
 `A166589(n+1)²`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A167361
@@ -19617,7 +19611,7 @@ end A167368.P2386805217189898274
 /-!
 # A167371: Triangle, read by rows, given by [0,1,-1,0,0,0,0,0,0,0,0,...] DELTA [1,0,-1,1,0,0,0,0,0,0,0,...] where DELTA is the operator defined in A084938.
 
-The programs for A167371, the canonical program `A167371.P11386683783594765593` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167371 has offset 0).
+The programs for A167371, the canonical program `A167371.P11386683783594765593` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167371 has offset 0).
 
 The definition of A167371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19888,7 +19882,7 @@ end A167371
 
 `round(1/A130303(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A167371
@@ -20192,7 +20186,7 @@ end A167373
 /-!
 # A167374: Triangle, read by rows, given by [ -1,1,0,0,0,0,0,0,0,...] DELTA [1,0,0,0,0,0,0,0,0,...] where DELTA is the operator defined in A084938.
 
-The programs for A167374, the canonical program `A167374.P10274264666879591430` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167374 has offset 0).
+The programs for A167374, the canonical program `A167374.P10274264666879591430` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167374 has offset 0).
 
 The definition of A167374 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20201,7 +20195,7 @@ The definition of A167374 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((A002260(n+1)+2)/(A003056(n)+2))*(-1)^(A002260(n+1)+A003056(n)+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A167374
@@ -21891,7 +21885,7 @@ end A167377.P11543823799391731570
 /-!
 # A167379: Let p and q be twin primes, excluding the pair (3,5). Then p+q is always divisible by 6 and we set a(n) = (p+q)/6.
 
-The programs for A167379, the canonical program `A167379.P16470544176518882026` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167379 has offset 1).
+The programs for A167379, the canonical program `A167379.P16470544176518882026` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167379 has offset 1).
 
 The definition of A167379 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002822, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -21900,7 +21894,7 @@ The definition of A167379 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A002822(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A167379
@@ -23428,27 +23422,23 @@ end A167385
 /-!
 # A167386: a(n) = (-1)^n*n*(n+1)*(2*n-5)/6.
 
-The programs for A167386, the canonical program `A167386.P17002213697548501697` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167386 has offset 1).
+The programs for A167386, the canonical program `A167386.P12396484200211252186` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167386 has offset 1).
 
-The definition of A167386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A167386 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A167386.P17002213697548501697
+/-! ## A167386.P12396484200211252186
 
-`(-1)^n*∑[1-n²]`
+`(-1)^(n+1)*(n+1)*(n+2)*(2*(n+1)-5)/6`
 
 The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A167386
 
-/-- `(-1)^n*∑[1-n²]` -/
-def P17002213697548501697.Spec : Prop :=
-  ∀ n, P17002213697548501697.a n = A167386 (n + 1)
-
-theorem P17002213697548501697.correct : P17002213697548501697.Spec := by
-  intro n
-  simp only [A167386, Nat.add_sub_cancel]
+/-- `(-1)^(n+1)*(n+1)*(n+2)*(2*(n+1)-5)/6` -/
+def P12396484200211252186.Spec : Prop :=
+  ∀ n, P12396484200211252186.a n = (A167386 (n + 1) : ℚ)
 
 end A167386
 
@@ -23585,27 +23575,23 @@ end A167386
 /-!
 # A167387: a(n) = (-1)^(n+1) * n*(n-1)*(n-4)*(n+1)/12.
 
-The programs for A167387, the canonical program `A167387.P1360186347441687199` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167387 has offset 2).
+The programs for A167387, the canonical program `A167387.P2974832784414723978` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167387 has offset 2).
 
-The definition of A167387 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A167387 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A167387.P1360186347441687199
+/-! ## A167387.P2974832784414723978
 
-`(-1)^n*∑[∑[1-n²]]`
+`(-1)^(n+3)*(n+2)*(n+1)*(n-2)*(n+3)/12`
 
 The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A167387
 
-/-- `(-1)^n*∑[∑[1-n²]]` -/
-def P1360186347441687199.Spec : Prop :=
-  ∀ n, P1360186347441687199.a n = A167387 (n + 2)
-
-theorem P1360186347441687199.correct : P1360186347441687199.Spec := by
-  intro n
-  simp only [A167387, Nat.add_sub_cancel]
+/-- `(-1)^(n+3)*(n+2)*(n+1)*(n-2)*(n+3)/12` -/
+def P2974832784414723978.Spec : Prop :=
+  ∀ n, P2974832784414723978.a n = (A167387 (n + 2) : ℚ)
 
 end A167387
 
@@ -25740,25 +25726,25 @@ end A167395.P16212480841695114447
 /-!
 # A167397: n-th single (or isolated or non-twin) prime minus n.
 
-The programs for A167397, the canonical program `A167397.P8802718030217798719` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167397 has offset 1).
+The programs for A167397, the canonical program `A167397.P6695962093421447498` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167397 has offset 1).
 
 The definition of A167397 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007510, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A167397.P8802718030217798719
+/-! ## A167397.P6695962093421447498
 
-`A007510(n+1)-A000027(n+1)`
+`A007510(n+1)-(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A167397
 
-/-- `A007510(n+1)-A000027(n+1)` -/
-def P8802718030217798719.Spec : Prop :=
-  ∀ n, P8802718030217798719.a n = A167397 (n + 1)
+/-- `A007510(n+1)-(n+1)` -/
+def P6695962093421447498.Spec : Prop :=
+  ∀ n, P6695962093421447498.a n = A167397 (n + 1)
 
-theorem P8802718030217798719.correct : P8802718030217798719.Spec := by
+theorem P6695962093421447498.correct : P6695962093421447498.Spec := by
   intro n
   simp only [A167397, Nat.add_sub_cancel]
 
@@ -25784,29 +25770,6 @@ namespace A167397
 /-- `A167277(n+1)-n` -/
 def P155488770085976946.Spec : Prop :=
   ∀ n, P155488770085976946.a n = A167397 (n + 1)
-
-end A167397
-
-/-! ## A167397.P6695962093421447498
-
-`A007510(n+1)-(n+1)`
--/
-
-namespace A167397.P6695962093421447498
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007510 (n + 1) - (n + 1 : ℤ)
-
-end
-
-end A167397.P6695962093421447498
-
-namespace A167397
-
-/-- `A007510(n+1)-(n+1)` -/
-def P6695962093421447498.Spec : Prop :=
-  ∀ n, P6695962093421447498.a n = A167397 (n + 1)
 
 end A167397
 

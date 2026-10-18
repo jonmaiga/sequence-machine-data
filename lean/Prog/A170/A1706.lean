@@ -1,6 +1,6 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C014
-import Seq.Opaque.C012
+import Seq.Opaque.C011
 
 /-!
 # A170628: 

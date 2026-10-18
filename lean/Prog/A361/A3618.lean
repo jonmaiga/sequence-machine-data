@@ -2,26 +2,22 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,8 +30,8 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
@@ -49,12 +45,14 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2114,6 +2112,21 @@ end
 
 end A361826.P7567553535788382331
 
+/-! ## A361826.P8075207971740016886
+
+`2*floor((n+1)²/(2*π))+1`
+-/
+
+namespace A361826.P8075207971740016886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * ⌊((n + 1) ^ 2 : ℝ) / (2 * Real.pi)⌋ + 1
+
+end
+
+end A361826.P8075207971740016886
+
 /-! ## A361826.P17434109355930134036
 
 `A109613(A032616(n+1))`
@@ -2158,21 +2171,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361826.P9582038138923535249
-
-/-! ## A361826.P11486006019541335765
-
-`A057561(A057594(n+5)+A000217(n))`
--/
-
-namespace A361826.P11486006019541335765
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057561 (A057594 (n + 5) + A000217 n).toNat
-
-end
-
-end A361826.P11486006019541335765
 
 /-!
 # A361828: a(0) = 1; a(n+1) = Sum_{k=0..n} k^k * a(n-k).
@@ -4172,7 +4170,7 @@ end A361870.P1980186163543632582
 /-!
 # A361871: The smallest order of a non-abelian group with an element of order n.
 
-The programs for A361871, the canonical program `A361871.P9824007368951059274` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361871 has offset 1).
+The programs for A361871, the canonical program `A361871.P9824007368951059274` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361871 has offset 1).
 
 The definition of A361871 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4181,7 +4179,7 @@ The definition of A361871 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=6, a(1)=6, a(2)=6, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A361871
@@ -4340,7 +4338,7 @@ end A361875.P3721202827912439945
 /-!
 # A361877: a(n) = binomial(2*n, n) * binomial(2*n - 1, n).
 
-The programs for A361877, the canonical program `A361877.P7638436941781393027` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361877 has offset 0).
+The programs for A361877, the canonical program `A361877.P7638436941781393027` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361877 has offset 0).
 
 The definition of A361877 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4349,7 +4347,7 @@ The definition of A361877 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4-2/n)²*a(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A361877

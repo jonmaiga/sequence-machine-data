@@ -22,16 +22,17 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,18 +41,17 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,12 +61,16 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1233,7 +1237,7 @@ end A272911.P9974304499735009235
 /-!
 # A272912: Difference sequence of the sequence A116470 of all distinct Fibonacci numbers and Lucas numbers (A000032).
 
-The programs for A272912, the canonical program `A272912.P10942650761914702579` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272912 has offset 1).
+The programs for A272912, the canonical program `A272912.P10942650761914702579` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272912 has offset 1).
 
 The definition of A272912 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1242,7 +1246,7 @@ The definition of A272912 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-4)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=2, a(5)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A272912
@@ -1720,27 +1724,49 @@ end A272912
 /-!
 # A272914: Sixth powers ending in digit 6.
 
-The programs for A272914, the canonical program `A272914.P15636968965248908855` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272914 has offset 1).
+The programs for A272914, the canonical program `A272914.P13778073806256277323` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272914 has offset 1).
 
-The definition of A272914 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A272914 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A272914.P13778073806256277323
+
+`(10*(n+1)-3*(-1)^(n+1)-5)^6/64`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A272914
+
+/-- `(10*(n+1)-3*(-1)^(n+1)-5)^6/64` -/
+def P13778073806256277323.Spec : Prop :=
+  ∀ n, P13778073806256277323.a n = (A272914 (n + 1) : ℚ)
+
+end A272914
 
 /-! ## A272914.P15636968965248908855
 
 `∑[10-a(n-1)]^6` with `a(0)=4, a(1)=2`
-
-The canonical program, it is in `Seq.B000.C029`.
 -/
+
+namespace A272914.P15636968965248908855
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [4, 2] fun n f1 =>
+  10 - f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f1 j) ^ 6
+
+end
+
+end A272914.P15636968965248908855
 
 namespace A272914
 
 /-- `∑[10-a(n-1)]^6` -/
 def P15636968965248908855.Spec : Prop :=
   ∀ n, P15636968965248908855.a n = A272914 (n + 1)
-
-theorem P15636968965248908855.correct : P15636968965248908855.Spec := by
-  intro n
-  simp only [A272914, Nat.add_sub_cancel]
 
 end A272914
 
@@ -1991,7 +2017,7 @@ end A272914
 /-!
 # A272915: a(n) = n + floor(5*n/6).
 
-The programs for A272915, the canonical program `A272915.P8645661382941740403` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272915 has offset 0).
+The programs for A272915, the canonical program `A272915.P8645661382941740403` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272915 has offset 0).
 
 The definition of A272915 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+floor(5*n/6)` (program `A272915.P8645661382941740403`, by `A272915.P8645661382941740403.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2000,7 +2026,7 @@ The definition of A272915 is `verified`: the Lean definition is proven equivalen
 
 `n+floor(5*n/6)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A272915
@@ -4276,7 +4302,7 @@ end A272928
 /-!
 # A272931: a(n) = 2^(n+1)*cos(n*arctan(sqrt(15))).
 
-The programs for A272931, the canonical program `A272931.P938682668979742639` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272931 has offset 0).
+The programs for A272931, the canonical program `A272931.P938682668979742639` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272931 has offset 0).
 
 The definition of A272931 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4285,7 +4311,7 @@ The definition of A272931 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)-4*a(n-2)` with `a(0)=2, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A272931
@@ -6574,16 +6600,39 @@ end A272951.P6610949078198587759
 /-!
 # A272952: Number of n X 2 0..1 arrays with exactly n+2-2 having value 1 and no three 1s forming an isosceles right triangle.
 
-The programs for A272952, the canonical program `A272952.P13267642069156642339` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272952 has offset 1).
+The programs for A272952, the canonical program `A272952.P13267642069156642339` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272952 has offset 1).
 
 The definition of A272952 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A272952.P12179502480326766248
+
+`a(n-1)+a(n-2)+(n+2)*(3-(-1)^(n+2))/4` with `a(0)=2, a(1)=6`
+-/
+
+namespace A272952.P12179502480326766248
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [2, 6] fun n a =>
+  a (n - 1) + a (n - 2) + (n + 2 : ℚ) * ((3 - (-1) ^ (n + 2) : ℚ) / 4)
+
+end
+
+end A272952.P12179502480326766248
+
+namespace A272952
+
+/-- `a(n-1)+a(n-2)+(n+2)*(3-(-1)^(n+2))/4` -/
+def P12179502480326766248.Spec : Prop :=
+  ∀ n, P12179502480326766248.a n = (A272952 (n + 1) : ℚ)
+
+end A272952
 
 /-! ## A272952.P13267642069156642339
 
 `A154691(n+1)-gcd(n+1, ∑[n])`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A272952
@@ -8495,7 +8544,7 @@ end A272974.P3541318414936244703
 /-!
 # A272975: Numbers that are congruent to {0,7} mod 12.
 
-The programs for A272975, the canonical program `A272975.P16352445828115714520` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272975 has offset 1).
+The programs for A272975, the canonical program `A272975.P16352445828115714520` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272975 has offset 1).
 
 The definition of A272975 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8504,7 +8553,7 @@ The definition of A272975 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=0, a(1)=7, a(2)=12`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A272975

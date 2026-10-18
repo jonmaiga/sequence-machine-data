@@ -6,25 +6,28 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
-import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B008.C001
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
 import Seq.Opaque.C002
+import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -36,7 +39,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 
@@ -424,6 +427,21 @@ end A159137.P12260200171683609693
 The programs for A159139, there is no canonical definition to state claims against.
 -/
 
+/-! ## A159139.P13195666644927099011
+
+`A000142(n+6)-A047890(n+6)`
+-/
+
+namespace A159139.P13195666644927099011
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000142 (n + 6) - A047890 (n + 6)
+
+end
+
+end A159139.P13195666644927099011
+
 /-! ## A159139.P6702552027808975543
 
 `A214152(A166136(n+4))`
@@ -754,6 +772,21 @@ end A159172.P11581749398640821622
 The programs for A159175, there is no canonical definition to state claims against.
 -/
 
+/-! ## A159175.P3180219312405054885
+
+`A000142(n+7)-A052399(n+7)`
+-/
+
+namespace A159175.P3180219312405054885
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000142 (n + 7) - A052399 (n + 7)
+
+end
+
+end A159175.P3180219312405054885
+
 /-! ## A159175.P3001098859107188637
 
 `A214152(A056119(n)+28)`
@@ -819,27 +852,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159175.P2655206864846555455
-
-/-! ## A159175.P14864406906378295043
-
-`A214152(eq[8, A131818(n+1)])`
--/
-
-namespace A159175.P14864406906378295043
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214152 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A159175.P14864406906378295043
 
 /-!
 # A159181: Number of permutations of 1..n containing the relative rank sequence { 1654327 } at any spacing.

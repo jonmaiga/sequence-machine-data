@@ -12,32 +12,34 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -56,7 +58,8 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,10 +77,10 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -738,7 +741,7 @@ end A203906.P13318314613106055766
 /-!
 # A203908: Multiplicative with a(p^e) = abs(p-e).
 
-The programs for A203908, the canonical program `A203908.P3226581722548573154` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203908 has offset 1).
+The programs for A203908, the canonical program `A203908.P3226581722548573154` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203908 has offset 1).
 
 The definition of A203908 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -747,7 +750,7 @@ The definition of A203908 is `conjectured`: the Lean definition is a formula tha
 
 `∏{p}[n+1, abs(val(n+1, #)-#)]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A203908
@@ -4287,7 +4290,7 @@ end A203966.P17431605279248195013
 /-!
 # A203967: The number of positive integers <= n that have a prime number of divisors.
 
-The programs for A203967, the canonical program `A203967.P466578750780201089` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203967 has offset 1).
+The programs for A203967, the canonical program `A203967.P466578750780201089` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203967 has offset 1).
 
 The definition of A203967 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4322,7 +4325,7 @@ end A203967
 
 `∑[C(2, A010553(n+1))%2]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A203967
@@ -5489,7 +5492,7 @@ end A203974.P12384506762628575906
 /-!
 # A203976: a(n) = 3*a(n-2) - a(n-4), a(0)=0, a(1)=1, a(2)=5, a(3)=4.
 
-The programs for A203976, the canonical program `A203976.P1281983472835691840` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203976 has offset 0).
+The programs for A203976, the canonical program `A203976.P1281983472835691840` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203976 has offset 0).
 
 The definition of A203976 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-2)-a(n-4)` (program `A203976.P1281983472835691840`, by `A203976.P1281983472835691840.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5498,7 +5501,7 @@ The definition of A203976 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=5, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A203976
@@ -5934,7 +5937,7 @@ end A203978.P12816442823314017292
 /-!
 # A203979: Number of (n+1)X4 0..2 arrays with no 2X2 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..2 introduced in row major order.
 
-The programs for A203979, the canonical program `A203979.P14100281769445868681` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203979 has offset 1).
+The programs for A203979, the canonical program `A203979.P14100281769445868681` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203979 has offset 1).
 
 The definition of A203979 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5943,7 +5946,7 @@ The definition of A203979 is `conjectured`: the Lean definition is a formula tha
 
 `96*9^n`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A203979
@@ -7722,7 +7725,7 @@ end A203996
 /-!
 # A203998: Symmetric matrix based on f(i,j)=max{i(j+1)-1,j(i+1)-1}, by antidiagonals.
 
-The programs for A203998, the canonical program `A203998.P4307443962499752240` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203998 has offset 1).
+The programs for A203998, the canonical program `A203998.P4307443962499752240` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203998 has offset 1).
 
 The definition of A203998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7846,7 +7849,7 @@ end A203998
 
 `A203996(n+1)-A203994(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A203998

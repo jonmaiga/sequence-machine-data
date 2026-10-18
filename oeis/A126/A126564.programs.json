@@ -16,6 +16,24 @@
       "tags": [
         "proven"
       ]
+    },
+    {
+      "d": "2026-10-18",
+      "ix": "floor(sin(n)*cos(n))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sin",
+        "n",
+        "cos",
+        "*",
+        "floor"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
     }
   ]
 }

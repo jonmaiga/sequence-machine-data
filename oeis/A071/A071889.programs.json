@@ -14,6 +14,10 @@
         "+",
         "A071888",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

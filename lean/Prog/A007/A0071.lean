@@ -5,27 +5,25 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +34,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -45,18 +42,18 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,7 +80,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A007102: Number of labeled disconnected trivalent (or cubic) graphs with 2n nodes.
@@ -280,6 +276,21 @@ end A007105.P10671516546726203642
 The programs for A007106, there is no canonical definition to state claims against.
 -/
 
+/-! ## A007106.P1220961802882840636
+
+`A060279(n+1)/(2*(n+1))`
+-/
+
+namespace A007106.P1220961802882840636
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A060279 (n + 1) : ℚ) / (2 * (n + 1) : ℚ)
+
+end
+
+end A007106.P1220961802882840636
+
 /-! ## A007106.P14371370129873890539
 
 `A058014(Δ[n²])`
@@ -348,24 +359,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007106.P10429260325865072761
-
-/-! ## A007106.P9071902272702471040
-
-`record[A058014(gcd(n, A058026(n+1)))]`
--/
-
-namespace A007106.P9071902272702471040
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058014 (Int.gcd (n : ℤ) (A058026 (n + 1)))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A007106.P9071902272702471040
 
 /-!
 # A007107: Number of labeled 2-regular digraphs with n nodes.
@@ -1311,6 +1304,29 @@ def P7395828226839827993.Spec : Prop :=
 
 end A007123
 
+/-! ## A007123.P1097702744233631494
+
+`(A063886(n+1)-A002420(n+1))/4`
+-/
+
+namespace A007123.P1097702744233631494
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A063886 (n + 1) - A002420 (n + 1) : ℚ) / 4
+
+end
+
+end A007123.P1097702744233631494
+
+namespace A007123
+
+/-- `(A063886(n+1)-A002420(n+1))/4` -/
+def P1097702744233631494.Spec : Prop :=
+  ∀ n, P1097702744233631494.a n = (A007123 (n + 1) : ℚ)
+
+end A007123
+
 /-! ## A007123.P15182220824643272594
 
 `A210736(n)+A000150(n)`
@@ -1722,29 +1738,6 @@ namespace A007123
 /-- `A103943(n+1)-A068551(n)` -/
 def P17105105124630682492.Spec : Prop :=
   ∀ n, P17105105124630682492.a n = A007123 (n + 1)
-
-end A007123
-
-/-! ## A007123.P14732874061784164382
-
-`A078925(A179865(n+1))`
--/
-
-namespace A007123.P14732874061784164382
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078925 (A179865 (n + 1)).toNat
-
-end
-
-end A007123.P14732874061784164382
-
-namespace A007123
-
-/-- `A078925(A179865(n+1))` -/
-def P14732874061784164382.Spec : Prop :=
-  ∀ n, P14732874061784164382.a n = A007123 (n + 1)
 
 end A007123
 
@@ -2827,27 +2820,46 @@ end A007146.P216652829863147315
 /-!
 # A007147: Number of self-dual 2-colored necklaces with 2n beads.
 
-The programs for A007147, the canonical program `A007147.P11332354044885179751` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007147 has offset 1).
+The programs for A007147, the canonical program `A007147.P16521925321400448179` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007147 has offset 1).
 
-The definition of A007147 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A007147 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000016, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A007147.P16521925321400448179
+
+`1/2*(A016116(n)+A000016(n+1))`
+
+The canonical program, it is in `Seq.B009.C000`.
+-/
+
+namespace A007147
+
+/-- `1/2*(A016116(n)+A000016(n+1))` -/
+def P16521925321400448179.Spec : Prop :=
+  ∀ n, P16521925321400448179.a n = (A007147 (n + 1) : ℚ)
+
+end A007147
 
 /-! ## A007147.P11332354044885179751
 
 `A256216(n+1)+A016116(n)`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A007147.P11332354044885179751
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256216 (n + 1) + A016116 n
+
+end
+
+end A007147.P11332354044885179751
 
 namespace A007147
 
 /-- `A256216(n+1)+A016116(n)` -/
 def P11332354044885179751.Spec : Prop :=
   ∀ n, P11332354044885179751.a n = A007147 (n + 1)
-
-theorem P11332354044885179751.correct : P11332354044885179751.Spec := by
-  intro n
-  simp only [A007147, Nat.add_sub_cancel]
 
 end A007147
 
@@ -3015,10 +3027,25 @@ end A007147
 /-!
 # A007148: Number of self-complementary 2-colored bracelets (turnover necklaces) with 2n beads.
 
-The programs for A007148, the canonical program `A007148.P10288860915115632936` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007148 has offset 1).
+The programs for A007148, the canonical program `A007148.P13473997143567085578` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007148 has offset 1).
 
-The definition of A007148 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A007148 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000013, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A007148.P13473997143567085578
+
+`1/2*(A000079(n)+A000013(n+1))`
+
+The canonical program, it is in `Seq.B012.C000`.
+-/
+
+namespace A007148
+
+/-- `1/2*(A000079(n)+A000013(n+1))` -/
+def P13473997143567085578.Spec : Prop :=
+  ∀ n, P13473997143567085578.a n = (A007148 (n + 1) : ℚ)
+
+end A007148
 
 /-! ## A007148.P17918342900913055415
 
@@ -3184,9 +3211,17 @@ end A007148
 /-! ## A007148.P10288860915115632936
 
 `(A011782(n+1)+A000013(n+1))/2`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A007148.P10288860915115632936
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A011782 (n + 1) + A000013 (n + 1) : ℚ) / 2
+
+end
+
+end A007148.P10288860915115632936
 
 namespace A007148
 

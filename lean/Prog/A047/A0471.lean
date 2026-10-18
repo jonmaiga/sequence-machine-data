@@ -25,32 +25,30 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,6 +57,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -67,6 +66,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7253,6 +7253,21 @@ end A047159.P10781798439858702297
 The programs for A047160, there is no canonical definition to state claims against.
 -/
 
+/-! ## A047160.P8138135903030038861
+
+`n+2-A112823(n+2)`
+-/
+
+namespace A047160.P8138135903030038861
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℤ) - A112823 (n + 2)
+
+end
+
+end A047160.P8138135903030038861
+
 /-! ## A047160.P5822078960851106251
 
 `A066285(n+2)/2`
@@ -7267,21 +7282,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A047160.P5822078960851106251
-
-/-! ## A047160.P6753442165875914889
-
-`2-A112823(n+2)+n`
--/
-
-namespace A047160.P6753442165875914889
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A112823 (n + 2) + (n : ℤ)
-
-end
-
-end A047160.P6753442165875914889
 
 /-! ## A047160.P1734862661726029223
 
@@ -10579,50 +10579,56 @@ end A047192.P1259142458195542398
 /-!
 # A047193: Number of nonempty subsets of {1,2,...,n} in which exactly 1/2 of the elements are <= n/3.
 
-The programs for A047193, the canonical program `A047193.P3497850377063693579` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047193 has offset 1).
+The programs for A047193, the canonical program `A047193.P3620569494057212592` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047193 has offset 1).
 
-The definition of A047193 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 367 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A047193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A047193.P3497850377063693579
+/-! ## A047193.P3620569494057212592
 
-`∑[abs(Δ[A051033(n)])]`
+`A051033(n+1)-1`
 
 The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A047193
 
-/-- `∑[abs(Δ[A051033(n)])]` -/
-def P3497850377063693579.Spec : Prop :=
-  ∀ n, P3497850377063693579.a n = A047193 (n + 1)
+/-- `A051033(n+1)-1` -/
+def P3620569494057212592.Spec : Prop :=
+  ∀ n, P3620569494057212592.a n = A047193 (n + 1)
 
-theorem P3497850377063693579.correct : P3497850377063693579.Spec := by
+theorem P3620569494057212592.correct : P3620569494057212592.Spec := by
   intro n
   simp only [A047193, Nat.add_sub_cancel]
 
 end A047193
 
-/-! ## A047193.P3620569494057212592
+/-! ## A047193.P3497850377063693579
 
-`A051033(n+1)-1`
+`∑[abs(Δ[A051033(n)])]`
 -/
 
-namespace A047193.P3620569494057212592
+namespace A047193.P3497850377063693579
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051033 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |f2 (n + 1) - f2 n|
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051033 (n + 1) - 1
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A047193.P3620569494057212592
+end A047193.P3497850377063693579
 
 namespace A047193
 
-/-- `A051033(n+1)-1` -/
-def P3620569494057212592.Spec : Prop :=
-  ∀ n, P3620569494057212592.a n = A047193 (n + 1)
+/-- `∑[abs(Δ[A051033(n)])]` -/
+def P3497850377063693579.Spec : Prop :=
+  ∀ n, P3497850377063693579.a n = A047193 (n + 1)
 
 end A047193
 

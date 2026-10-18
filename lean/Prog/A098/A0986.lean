@@ -12,13 +12,14 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -27,8 +28,8 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,6 +38,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -49,14 +51,17 @@ import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +87,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -520,6 +524,29 @@ namespace A098600
 /-- `A000211(n)-A176040(n)` -/
 def P13639846007323365173.Spec : Prop :=
   ∀ n, P13639846007323365173.a n = A098600 n
+
+end A098600
+
+/-! ## A098600.P14638383696497285378
+
+`A014217(n+2)-A014217(n+1)`
+-/
+
+namespace A098600.P14638383696497285378
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014217 (n + 2) - A014217 (n + 1)
+
+end
+
+end A098600.P14638383696497285378
+
+namespace A098600
+
+/-- `A014217(n+2)-A014217(n+1)` -/
+def P14638383696497285378.Spec : Prop :=
+  ∀ n, P14638383696497285378.a n = A098600 n
 
 end A098600
 
@@ -995,17 +1022,25 @@ end A098602
 /-!
 # A098603: a(n) = n*(n+10).
 
-The programs for A098603, the canonical program `A098603.P813938946197470445` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098603 has offset 0).
+The programs for A098603, the canonical program `A098603.P15074787285242523117` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098603 has offset 0).
 
-The definition of A098603 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A098603 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+10)` (program `A098603.P15074787285242523117`, by `A098603.P15074787285242523117.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A098603.P813938946197470445
 
 `(n+10)*n`
-
-The canonical program, it is in `Seq.B000.C013`.
 -/
+
+namespace A098603.P813938946197470445
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 10) * n
+
+end
+
+end A098603.P813938946197470445
 
 namespace A098603
 
@@ -1014,6 +1049,27 @@ def P813938946197470445.Spec : Prop :=
   ∀ n, (P813938946197470445.a n : ℤ) = A098603 n
 
 theorem P813938946197470445.correct : P813938946197470445.Spec := by
+  intro n
+  simp only [A098603, Nat.add_sub_cancel, A098603.P813938946197470445.a, A098603.P15074787285242523117.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A098603
+
+/-! ## A098603.P15074787285242523117
+
+`n*(n+10)`
+
+The canonical program, it is in `Seq.B000.C013`.
+-/
+
+namespace A098603
+
+/-- `n*(n+10)` -/
+def P15074787285242523117.Spec : Prop :=
+  ∀ n, (P15074787285242523117.a n : ℤ) = A098603 n
+
+theorem P15074787285242523117.correct : P15074787285242523117.Spec := by
   intro n
   simp only [A098603]
 
@@ -5247,6 +5303,23 @@ namespace A098646
 /-- `(-2)^n+2*2^n` -/
 def P12643243979154275935.Spec : Prop :=
   ∀ n, P12643243979154275935.a n = A098646 n
+
+theorem P12643243979154275935.correct : P12643243979154275935.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A098646, Nat.add_sub_cancel, A098646.P12643243979154275935.a, A098646.P10625766778071044480.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h2 := ih m (by omega)
+      simp only [A098646, Nat.add_sub_cancel, A098646.P12643243979154275935.a, A098646.P10625766778071044480.a, SequenceMachineLib.memo_apply] at h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 2 = m by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h2 ⊢
+      rw [← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A098646
 
@@ -10094,23 +10167,20 @@ end A098670.P7704549352847909024
 The programs for A098679, there is no canonical definition to state claims against.
 -/
 
-/-! ## A098679.P3147666885217924390
+/-! ## A098679.P14074006877834020804
 
-`A249027(∑[n+3]+1)`
+`(n+1)!*n!*n!*A098843(n+1)`
 -/
 
-namespace A098679.P3147666885217924390
+namespace A098679.P14074006877834020804
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 3
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249027 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+  (Nat.factorial (n + 1) * Nat.factorial n * Nat.factorial n : ℤ) * A098843 (n + 1)
 
 end
 
-end A098679.P3147666885217924390
+end A098679.P14074006877834020804
 
 /-!
 # A098681: Largest prime smaller than n^n.

@@ -1,16 +1,17 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -18,26 +19,28 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -46,8 +49,9 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B013.C000
+import Seq.B008.C000
+import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,16 +67,19 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A236700: Number of (n+1)X(3+1) 0..2 arrays colored with the maximum plus the lower median minus the upper median of every 2X2 subblock.
@@ -3805,6 +3812,27 @@ end
 end A236752.P2786182712383943582
 
 /-!
+# A236753: Number of simple (non-intersecting) directed paths on the grid graph P_n X P_n.
+
+The programs for A236753, there is no canonical definition to state claims against.
+-/
+
+/-! ## A236753.P5167117816768136945
+
+`2*A288032(n+1)+(n+1)²`
+-/
+
+namespace A236753.P5167117816768136945
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A288032 (n + 1) + ((n + 1) ^ 2 : ℤ)
+
+end
+
+end A236753.P5167117816768136945
+
+/-!
 # A236754: Number of irregular spirals (non-expanded loop) appearing with n center points.
 
 The programs for A236754, there is no canonical definition to state claims against.
@@ -4773,9 +4801,9 @@ end A236768.P3649814929356349266
 /-!
 # A236770: a(n) = n*(n + 1)*(3*n^2 + 3*n - 2)/8.
 
-The programs for A236770, the canonical program `A236770.P11310342048859176280` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236770 has offset 0).
+The programs for A236770, the canonical program `A236770.P11310342048859176280` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236770 has offset 0).
 
-The definition of A236770 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A236770 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(3*n²+3*n-2)/8` (program `A236770.P5124091119801996136`, by `A236770.P5124091119801996136.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A236770.P5124091119801996136
@@ -4801,13 +4829,34 @@ namespace A236770
 def P5124091119801996136.Spec : Prop :=
   ∀ n, P5124091119801996136.a n = (A236770 n : ℚ)
 
+theorem P5124091119801996136.correct : P5124091119801996136.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 | 4 =>
+      simp [A236770, Nat.add_sub_cancel, A236770.P5124091119801996136.a, A236770.P11310342048859176280.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 5 =>
+      have h1 := ih (m + 4) (by omega)
+      have h2 := ih (m + 3) (by omega)
+      have h3 := ih (m + 2) (by omega)
+      have h4 := ih (m + 1) (by omega)
+      have h5 := ih m (by omega)
+      simp only [A236770, Nat.add_sub_cancel, A236770.P5124091119801996136.a, A236770.P11310342048859176280.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 h5 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 5 - 1 = m + 4 by omega, show m + 5 - 2 = m + 3 by omega, show m + 5 - 3 = m + 2 by omega, show m + 5 - 4 = m + 1 by omega, show m + 5 - 5 = m by omega, show m + 4 < m + 5 by omega, show m + 3 < m + 5 by omega, show m + 2 < m + 5 by omega, show m + 1 < m + 5 by omega, show m < m + 5 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 h5 ⊢
+      rw [← h1, ← h2, ← h3, ← h4, ← h5]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A236770
 
 /-! ## A236770.P11310342048859176280
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=1, a(2)=12, a(3)=51, a(4)=145`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A236770
@@ -5269,7 +5318,7 @@ end A236770
 /-!
 # A236771: a(n) = n + floor(n/2 + n^2/3).
 
-The programs for A236771, the canonical program `A236771.P5236819447683916624` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236771 has offset 0).
+The programs for A236771, the canonical program `A236771.P5236819447683916624` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236771 has offset 0).
 
 The definition of A236771 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5278,7 +5327,7 @@ The definition of A236771 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+floor(n/2)+floor(n²/3)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A236771

@@ -16,41 +16,48 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C001
+import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1227,7 +1234,7 @@ end A303415.P11010317749570539487
 /-!
 # A303416: Number of n X 3 0..1 arrays with every element equal to 0, 1, 2, 3, 4 or 5 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A303416, the canonical program `A303416.P7099389972717451502` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303416 has offset 1).
+The programs for A303416, the canonical program `A303416.P7099389972717451502` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303416 has offset 1).
 
 The definition of A303416 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1236,7 +1243,7 @@ The definition of A303416 is `conjectured`: the Lean definition is a formula tha
 
 `7*a(n-1)+6*a(n-2)+8*a(n-3)` with `a(0)=4, a(1)=32, a(2)=252`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A303416
@@ -2121,7 +2128,7 @@ end A303426.P14379450726593179227
 /-!
 # A303427: Interleaved Lucas and Fibonacci numbers.
 
-The programs for A303427, the canonical program `A303427.P18184235038652700757` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303427 has offset 0).
+The programs for A303427, the canonical program `A303427.P18184235038652700757` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303427 has offset 0).
 
 The definition of A303427 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2130,7 +2137,7 @@ The definition of A303427 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-4)` with `a(0)=2, a(1)=0, a(2)=1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A303427
@@ -3071,7 +3078,7 @@ end A303440.P3288571116225655896
 /-!
 # A303449: Denominator of (2*n+1)/(2^(2*n+1)-1).
 
-The programs for A303449, the canonical program `A303449.P9379731540711879324` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303449 has offset 0).
+The programs for A303449, the canonical program `A303449.P9379731540711879324` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303449 has offset 0).
 
 The definition of A303449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3110,7 +3117,7 @@ end A303449
 
 `A090633(Δ[n²])`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A303449
@@ -5648,7 +5655,7 @@ end A303478.P16048973299133712954
 /-!
 # A303479: Total volume of the family of rectangular prisms with dimensions p, q, and |q - p| where p divides q, n = p + q and p < q.
 
-The programs for A303479, the canonical program `A303479.P8152554123791237719` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303479 has offset 1).
+The programs for A303479, the canonical program `A303479.P8152554123791237719` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303479 has offset 1).
 
 The definition of A303479 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5657,7 +5664,7 @@ The definition of A303479 is `conjectured`: the Lean definition is a formula tha
 
 `A303481(n+1)-2*A303973(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A303479
@@ -5783,16 +5790,16 @@ end A303480.P1175595380440577207
 /-!
 # A303481: Total volume of the family of rectangular prisms with dimensions p, q and p + q where p divides q, n = p + q and p < q.
 
-The programs for A303481, the canonical program `A303481.P903145872744022410` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303481 has offset 1).
+The programs for A303481, the canonical program `A303481.P903145872744022410` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303481 has offset 1).
 
-The definition of A303481 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A303481 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A303385, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A303481.P903145872744022410
 
 `(n+1)*A303385(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A303481

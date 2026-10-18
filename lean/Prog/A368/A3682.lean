@@ -3,8 +3,8 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -12,20 +12,19 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,7 +32,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -42,10 +41,8 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -54,14 +51,17 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -428,7 +428,7 @@ end A368203.P6162720577689759805
 /-!
 # A368205: a(n) = 3*a(n-1) - 2*a(n-2) - a(n-3), with a(0)=1, a(1)=3 and a(2)=7.
 
-The programs for A368205, the canonical program `A368205.P12925364709045541498` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368205 has offset 0).
+The programs for A368205, the canonical program `A368205.P12925364709045541498` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368205 has offset 0).
 
 The definition of A368205 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)-2*a(n-2)-a(n-3)` (program `A368205.P12925364709045541498`, by `A368205.P12925364709045541498.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -437,7 +437,7 @@ The definition of A368205 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-2*a(n-2)-a(n-3)` with `a(0)=1, a(1)=3, a(2)=7`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A368205
@@ -1901,7 +1901,7 @@ end A368242.P3294085867530297497
 /-!
 # A368244: Number of compositions of n into parts 1, 9, and 10.
 
-The programs for A368244, the canonical program `A368244.P14291836961479602960` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368244 has offset 0).
+The programs for A368244, the canonical program `A368244.P14291836961479602960` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368244 has offset 0).
 
 The definition of A368244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1910,7 +1910,7 @@ The definition of A368244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-9)+a(n-10)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1, a(7)=1, a(8)=1, a(9)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A368244
@@ -1949,10 +1949,29 @@ end A368245.P11733161982988307262
 /-!
 # A368247: The number of cubefree divisors of the cubefull part of n (A360540).
 
-The programs for A368247, the canonical program `A368247.P6979336993255888350` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368247 has offset 1).
+The programs for A368247, the canonical program `A368247.P6979336993255888350` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368247 has offset 1).
 
-The definition of A368247 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A368247 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A073184, A360540, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A368247.P6979336993255888350
+
+`A073184(A360540(n+1))`
+
+The canonical program, it is in `Seq.B009.C001`.
+-/
+
+namespace A368247
+
+/-- `A073184(A360540(n+1))` -/
+def P6979336993255888350.Spec : Prop :=
+  ∀ n, P6979336993255888350.a n = A368247 (n + 1)
+
+theorem P6979336993255888350.correct : P6979336993255888350.Spec := by
+  intro n
+  simp only [A368247, Nat.add_sub_cancel]
+
+end A368247
 
 /-! ## A368247.P16435396017056708002
 
@@ -1974,25 +1993,6 @@ namespace A368247
 /-- `3^A295659(n+1)` -/
 def P16435396017056708002.Spec : Prop :=
   ∀ n, P16435396017056708002.a n = (A368247 (n + 1) : ℚ)
-
-end A368247
-
-/-! ## A368247.P6979336993255888350
-
-`A073184(A360540(n+1))`
-
-The canonical program, it is in `Seq.B005.C002`.
--/
-
-namespace A368247
-
-/-- `A073184(A360540(n+1))` -/
-def P6979336993255888350.Spec : Prop :=
-  ∀ n, P6979336993255888350.a n = A368247 (n + 1)
-
-theorem P6979336993255888350.correct : P6979336993255888350.Spec := by
-  intro n
-  simp only [A368247, Nat.add_sub_cancel]
 
 end A368247
 
@@ -2823,7 +2823,7 @@ end A368248
 /-!
 # A368249: a(n) = A002378(A005117(n)-1).
 
-The programs for A368249, the canonical program `A368249.P9478047494338687151` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368249 has offset 1).
+The programs for A368249, the canonical program `A368249.P9478047494338687151` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368249 has offset 1).
 
 The definition of A368249 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2832,7 +2832,7 @@ The definition of A368249 is `conditional`: the Lean definition is an OEIS formu
 
 `A002378(A005117(n+1)-1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A368249
@@ -3354,7 +3354,7 @@ end A368249
 /-!
 # A368251: The number of nonsquarefree divisors of n that are powers of squarefree numbers (A072777).
 
-The programs for A368251, the canonical program `A368251.P3199248697924659099` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368251 has offset 1).
+The programs for A368251, the canonical program `A368251.P3199248697924659099` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368251 has offset 1).
 
 The definition of A368251 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034444, A327527, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3363,7 +3363,7 @@ The definition of A368251 is `conditional`: the Lean definition is an OEIS formu
 
 `A327527(n+1)-A034444(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A368251
@@ -4808,7 +4808,7 @@ end A368297.P8947087070233620562
 /-!
 # A368299: a(n) is the number of permutations pi of [n] that avoid {231,321} so that pi^4 avoids 132.
 
-The programs for A368299, the canonical program `A368299.P7609837562833274100` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368299 has offset 0).
+The programs for A368299, the canonical program `A368299.P7609837562833274100` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368299 has offset 0).
 
 The definition of A368299 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4817,7 +4817,7 @@ The definition of A368299 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+a(n-1)+a(n-2)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A368299

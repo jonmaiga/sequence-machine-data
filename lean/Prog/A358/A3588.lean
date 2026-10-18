@@ -3,58 +3,58 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
-import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -826,23 +826,73 @@ end A358818.P186963703046116015
 /-!
 # A358821: a(n) is the largest square dividing n^2 - 1.
 
-The programs for A358821, the canonical program `A358821.P12672995773149391331` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358821 has offset 2).
+The programs for A358821, the canonical program `A358821.P15868055063124338799` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358821 has offset 2).
 
-The definition of A358821 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A358821 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008833, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A358821.P12672995773149391331
+/-! ## A358821.P10491375461205096304
 
-`A005563(n+1)/A068310(n+2)`
+`((n+2)²-1)/A068310(n+2)`
+-/
 
-The canonical program, it is in `Seq.B005.C002`.
+namespace A358821.P10491375461205096304
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n + 2) ^ 2 : ℤ) - 1 : ℚ) / (A068310 (n + 2) : ℚ)
+
+end
+
+end A358821.P10491375461205096304
+
+namespace A358821
+
+/-- `((n+2)²-1)/A068310(n+2)` -/
+def P10491375461205096304.Spec : Prop :=
+  ∀ n, P10491375461205096304.a n = (A358821 (n + 2) : ℚ)
+
+end A358821
+
+/-! ## A358821.P15868055063124338799
+
+`A008833((n+2)²-1)`
+
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358821
 
-/-- `A005563(n+1)/A068310(n+2)` -/
-def P12672995773149391331.Spec : Prop :=
-  ∀ n, P12672995773149391331.a n = (A358821 (n + 2) : ℚ)
+/-- `A008833((n+2)²-1)` -/
+def P15868055063124338799.Spec : Prop :=
+  ∀ n, P15868055063124338799.a n = A358821 (n + 2)
+
+theorem P15868055063124338799.correct : P15868055063124338799.Spec := by
+  intro n
+  simp only [A358821, Nat.add_sub_cancel]
+
+end A358821
+
+/-! ## A358821.P6273577306706351979
+
+`((n+2)²-1)/A007913((n+2)²-1)`
+-/
+
+namespace A358821.P6273577306706351979
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n + 2) ^ 2 : ℤ) - 1 : ℚ) / (A007913 ((n + 2) ^ 2 - 1) : ℚ)
+
+end
+
+end A358821.P6273577306706351979
+
+namespace A358821
+
+/-- `((n+2)²-1)/A007913((n+2)²-1)` -/
+def P6273577306706351979.Spec : Prop :=
+  ∀ n, P6273577306706351979.a n = (A358821 (n + 2) : ℚ)
 
 end A358821
 
@@ -866,29 +916,6 @@ namespace A358821
 /-- `A053143(A089655(n+2))` -/
 def P5679563742738795992.Spec : Prop :=
   ∀ n, P5679563742738795992.a n = A358821 (n + 2)
-
-end A358821
-
-/-! ## A358821.P15868055063124338799
-
-`A008833((n+2)²-1)`
--/
-
-namespace A358821.P15868055063124338799
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008833 ((n + 2) ^ 2 - 1)
-
-end
-
-end A358821.P15868055063124338799
-
-namespace A358821
-
-/-- `A008833((n+2)²-1)` -/
-def P15868055063124338799.Spec : Prop :=
-  ∀ n, P15868055063124338799.a n = A358821 (n + 2)
 
 end A358821
 
@@ -1033,29 +1060,6 @@ namespace A358821
 /-- `A000188((n+2)²-1)²` -/
 def P16607245650493512397.Spec : Prop :=
   ∀ n, P16607245650493512397.a n = A358821 (n + 2)
-
-end A358821
-
-/-! ## A358821.P4550951530755740610
-
-`A000290(A000188((n+3)*(n+1)))`
--/
-
-namespace A358821.P4550951530755740610
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A000188 ((n + 3) * (n + 1))).toNat
-
-end
-
-end A358821.P4550951530755740610
-
-namespace A358821
-
-/-- `A000290(A000188((n+3)*(n+1)))` -/
-def P4550951530755740610.Spec : Prop :=
-  ∀ n, P4550951530755740610.a n = A358821 (n + 2)
 
 end A358821
 

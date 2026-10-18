@@ -16,6 +16,10 @@
         "A005185",
         "/",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

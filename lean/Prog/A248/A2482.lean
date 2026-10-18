@@ -17,44 +17,48 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -67,7 +71,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -79,7 +82,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C026
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1401,7 +1404,7 @@ end A248209.P2362257939825324521
 /-!
 # A248211: First differences of omega(n), the number of distinct prime factors function (A001221).
 
-The programs for A248211, the canonical program `A248211.P6041066512751082017` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248211 has offset 1).
+The programs for A248211, the canonical program `A248211.P6041066512751082017` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248211 has offset 1).
 
 The definition of A248211 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1410,7 +1413,7 @@ The definition of A248211 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(n+2)-A001221(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A248211
@@ -2091,7 +2094,7 @@ end A248215.P7813724672850296439
 /-!
 # A248216: a(n) = 6^n - 2^n.
 
-The programs for A248216, the canonical program `A248216.P7506271375807777742` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248216 has offset 0).
+The programs for A248216, the canonical program `A248216.P7506271375807777742` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248216 has offset 0).
 
 The definition of A248216 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6^n-2^n` (program `A248216.P7506271375807777742`, by `A248216.P7506271375807777742.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2100,7 +2103,7 @@ The definition of A248216 is `verified`: the Lean definition is proven equivalen
 
 `6^n-2^n`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A248216
@@ -2187,7 +2190,7 @@ end A248216
 /-!
 # A248217: a(n) = 8^n - 2^n.
 
-The programs for A248217, the canonical program `A248217.P2520338047953216580` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248217 has offset 0).
+The programs for A248217, the canonical program `A248217.P2520338047953216580` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248217 has offset 0).
 
 The definition of A248217 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8^n-2^n` (program `A248217.P2520338047953216580`, by `A248217.P2520338047953216580.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2196,7 +2199,7 @@ The definition of A248217 is `verified`: the Lean definition is proven equivalen
 
 `8^n-2^n`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A248217
@@ -3062,7 +3065,7 @@ end A248222.P3360623455918134797
 /-!
 # A248225: a(n) = 6^n - 3^n.
 
-The programs for A248225, the canonical program `A248225.P8427210478039895849` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248225 has offset 0).
+The programs for A248225, the canonical program `A248225.P8427210478039895849` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248225 has offset 0).
 
 The definition of A248225 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6^n-3^n` (program `A248225.P8427210478039895849`, by `A248225.P8427210478039895849.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3071,7 +3074,7 @@ The definition of A248225 is `verified`: the Lean definition is proven equivalen
 
 `6^n-3^n`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A248225
@@ -3112,7 +3115,7 @@ end A248225
 /-!
 # A248226: a(n) = 10^n - 3^n.
 
-The programs for A248226, the canonical program `A248226.P14687723596403423939` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248226 has offset 0).
+The programs for A248226, the canonical program `A248226.P14687723596403423939` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248226 has offset 0).
 
 The definition of A248226 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `10^n-3^n` (program `A248226.P14687723596403423939`, by `A248226.P14687723596403423939.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3121,7 +3124,7 @@ The definition of A248226 is `verified`: the Lean definition is proven equivalen
 
 `10^n-3^n`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A248226
@@ -3332,7 +3335,7 @@ end A248226
 /-!
 # A248227: Least k such that zeta(4) - sum{1/h^4, h = 1..k} < 1/n^3.
 
-The programs for A248227, the canonical program `A248227.P13276500814067425270` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248227 has offset 1).
+The programs for A248227, the canonical program `A248227.P13276500814067425270` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248227 has offset 1).
 
 The definition of A248227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1030 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3341,7 +3344,7 @@ The definition of A248227 is `conjectured`: the Lean definition is a formula tha
 
 `round(root(∑[∑[2*n]]+1, 3))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A248227
@@ -3974,7 +3977,7 @@ end A248230
 /-!
 # A248231: Least k such that zeta(5) - Sum_{h = 1..k} 1/h^5 < 1/n^4.
 
-The programs for A248231, the canonical program `A248231.P4665638054891454998` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248231 has offset 1).
+The programs for A248231, the canonical program `A248231.P4665638054891454998` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248231 has offset 1).
 
 The definition of A248231 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4029,7 +4032,7 @@ end A248231
 
 `n-floor(n/((n+2)/a(n-1)+2))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A248231

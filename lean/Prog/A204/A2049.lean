@@ -11,25 +11,21 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -47,6 +43,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -57,6 +54,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -72,6 +71,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -79,7 +79,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A204900: Least k such that n divides s(k)-s(j) for some j in [1,k), where s(k) is the k-th odd prime.
@@ -1383,7 +1382,7 @@ end A204905.P12855171965546122491
 /-!
 # A204906: Ordered differences of primes >=5.
 
-The programs for A204906, the canonical program `A204906.P7021400860210866951` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204906 has offset 1).
+The programs for A204906, the canonical program `A204906.P7021400860210866951` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204906 has offset 1).
 
 The definition of A204906 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9859 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1507,7 +1506,7 @@ end A204906
 
 `A204898(A080036(n+1))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A204906
@@ -7841,7 +7840,7 @@ end A204979.P6174956575768548399
 /-!
 # A204980: Ordered differences of distinct averages of two consecutive odd primes.
 
-The programs for A204980, the canonical program `A204980.P133552277968696332` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204980 has offset 1).
+The programs for A204980, the canonical program `A204980.P133552277968696332` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204980 has offset 1).
 
 The definition of A204980 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7896,7 +7895,7 @@ end A204980
 
 `A001281(A204906(n+1)+A204898(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A204980
@@ -8788,6 +8787,23 @@ end A204983.P6216080046053268221
 The programs for A204984, there is no canonical definition to state claims against.
 -/
 
+/-! ## A204984.P4601060935512420920
+
+`1/(n+1)*A204983(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A204984.P4601060935512420920
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (n + 1 : ℚ) * (A204983 (n + 1) : ℚ)
+
+end
+
+end A204984.P4601060935512420920
+
 /-! ## A204984.P2261765549519463278
 
 `lcm(2, A204992(n+1))/2`
@@ -9075,21 +9091,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A204984.P2380802715733979146
-
-/-! ## A204984.P1440517534848438913
-
-`A204992(2*A000265(n+1))`
--/
-
-namespace A204984.P1440517534848438913
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204992 (2 * A000265 (n + 1)).toNat
-
-end
-
-end A204984.P1440517534848438913
 
 /-!
 # A204985: Ordered differences of numbers 2^k for k>=1.
@@ -10005,7 +10006,7 @@ end A204987.P8738918859668853850
 /-!
 # A204988: The index j < k such that n divides 2^k - 2^j, where k is the least index (A204987) for which such j exists.
 
-The programs for A204988, the canonical program `A204988.P7676696896669722446` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204988 has offset 1).
+The programs for A204988, the canonical program `A204988.P7676696896669722446` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204988 has offset 1).
 
 The definition of A204988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10014,7 +10015,7 @@ The definition of A204988 is `conjectured`: the Lean definition is a formula tha
 
 `val(lcm(2, n+1), 2)`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A204988
@@ -11151,6 +11152,23 @@ end A204991.P9643349841274039105
 The programs for A204992, there is no canonical definition to state claims against.
 -/
 
+/-! ## A204992.P14924627885344643594
+
+`1/(n+1)*A204991(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A204992.P14924627885344643594
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (n + 1 : ℚ) * (A204991 (n + 1) : ℚ)
+
+end
+
+end A204992.P14924627885344643594
+
 /-! ## A204992.P6551879650797508638
 
 `A204991(n+1)/(n+1)`
@@ -12223,6 +12241,38 @@ end A204998.P17739770039440948771
 The programs for A204999, there is no canonical definition to state claims against.
 -/
 
+/-! ## A204999.P7305250894403615403
+
+`1/(n+1)*A204998(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A204999.P7305250894403615403
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (n + 1 : ℚ) * (A204998 (n + 1) : ℚ)
+
+end
+
+end A204999.P7305250894403615403
+
+/-! ## A204999.P16283821220858430905
+
+`(A204996(n+1)-A204997(n+1))/(n+1)`
+-/
+
+namespace A204999.P16283821220858430905
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A204996 (n + 1) - A204997 (n + 1) : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A204999.P16283821220858430905
+
 /-! ## A204999.P5638313928260777524
 
 `A204998(n+1)/(n+1)`
@@ -12253,21 +12303,6 @@ end
 
 end A204999.P11183881991307096591
 
-/-! ## A204999.P16283821220858430905
-
-`(A204996(n+1)-A204997(n+1))/(n+1)`
--/
-
-namespace A204999.P16283821220858430905
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A204996 (n + 1) - A204997 (n + 1) : ℚ) / (n + 1 : ℚ)
-
-end
-
-end A204999.P16283821220858430905
-
 /-! ## A204999.P15146398147602140417
 
 `A008706(A204998(n+1))%A016897(n)`
@@ -12282,21 +12317,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A204999.P15146398147602140417
-
-/-! ## A204999.P10836217582184655821
-
-`(n+1)^A163805(A016813(n))*A204998(n+1)`
--/
-
-namespace A204999.P10836217582184655821
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ (A163805 (A016813 n).toNat : ℤ) * (A204998 (n + 1) : ℚ)
-
-end
-
-end A204999.P10836217582184655821
 
 /-! ## A204999.P17477551071906461297
 

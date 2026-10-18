@@ -5,7 +5,6 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -14,7 +13,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -22,12 +20,13 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,12 +49,14 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -67,7 +68,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2599,6 +2599,23 @@ end A151836.P10665447736169039053
 The programs for A151837, there is no canonical definition to state claims against.
 -/
 
+/-! ## A151837.P11233812259714769131
+
+`A151836(n+2)/4`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A151837.P11233812259714769131
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A151836 (n + 2) : ℚ) / 4
+
+end
+
+end A151837.P11233812259714769131
+
 /-! ## A151837.P15587691270630249602
 
 `Δ[A147552(n+1)/4]`
@@ -2706,21 +2723,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A151837.P1758786542927464645
-
-/-! ## A151837.P11233812259714769131
-
-`A151836(n+2)/4`
--/
-
-namespace A151837.P11233812259714769131
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A151836 (n + 2) : ℚ) / 4
-
-end
-
-end A151837.P11233812259714769131
 
 /-! ## A151837.P13330114320334967320
 
@@ -10993,7 +10995,7 @@ end A151897.P17441062637232033659
 
 The programs for A151898, the canonical program `A151898.P6874926057123941970` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151898 has offset 1).
 
-The definition of A151898 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A138987, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A151898 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A151898.P6874926057123941970

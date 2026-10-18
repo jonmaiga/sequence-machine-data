@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -8,28 +9,27 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C008
+import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -41,12 +41,15 @@ import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -68,9 +71,11 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A107500: Theta series of quadratic form with Gram matrix [ 10, 4, 4, 1; 4, 12, -1, 3; 4, -1, 12, 3; 1, 3, 3, 30].
@@ -1700,20 +1705,35 @@ end
 
 end A107578.P15441760335388159079
 
-/-! ## A107578.P5019797755183070791
+/-! ## A107578.P11773719246319699450
 
-`A000720(A000101(n+1)+1)`
+`A000720(A000101(n+1))`
 -/
 
-namespace A107578.P5019797755183070791
+namespace A107578.P11773719246319699450
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (A000101 (n + 1) + 1).toNat
+  A000720 (A000101 (n + 1)).toNat
 
 end
 
-end A107578.P5019797755183070791
+end A107578.P11773719246319699450
+
+/-! ## A107578.P5113614996742188342
+
+`A000720(A002386(n+1))+1`
+-/
+
+namespace A107578.P5113614996742188342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A002386 (n + 1)).toNat + 1
+
+end
+
+end A107578.P5113614996742188342
 
 /-! ## A107578.P7413616708434866535
 
@@ -1751,21 +1771,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A107578.P5187181947800555355
-
-/-! ## A107578.P11773719246319699450
-
-`A000720(A000101(n+1))`
--/
-
-namespace A107578.P11773719246319699450
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (A000101 (n + 1)).toNat
-
-end
-
-end A107578.P11773719246319699450
 
 /-!
 # A107579: Primes with digit sum 10.
@@ -2493,6 +2498,23 @@ namespace A107583
 def P10642941390259520675.Spec : Prop :=
   ∀ n, P10642941390259520675.a n = A107583 n
 
+theorem P10642941390259520675.correct : P10642941390259520675.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A107583, Nat.add_sub_cancel, A107583.P10642941390259520675.a, A107583.P8707585772826993051.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A107583, Nat.add_sub_cancel, A107583.P10642941390259520675.a, A107583.P8707585772826993051.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A107583
 
 /-! ## A107583.P4007244503325166270
@@ -2515,6 +2537,23 @@ namespace A107583
 /-- `3*(2*n-(3-a(n-1)))` -/
 def P4007244503325166270.Spec : Prop :=
   ∀ n, P4007244503325166270.a n = A107583 n
+
+theorem P4007244503325166270.correct : P4007244503325166270.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A107583, Nat.add_sub_cancel, A107583.P4007244503325166270.a, A107583.P8707585772826993051.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A107583, Nat.add_sub_cancel, A107583.P4007244503325166270.a, A107583.P8707585772826993051.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A107583
 
@@ -2684,6 +2723,23 @@ namespace A107584
 def P7802421173387760001.Spec : Prop :=
   ∀ n, P7802421173387760001.a n = A107584 n
 
+theorem P7802421173387760001.correct : P7802421173387760001.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A107584, Nat.add_sub_cancel, A107584.P7802421173387760001.a, A107584.P10299861422189421225.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A107584, Nat.add_sub_cancel, A107584.P7802421173387760001.a, A107584.P10299861422189421225.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A107584
 
 /-! ## A107584.P10089236614037575146
@@ -2706,6 +2762,23 @@ namespace A107584
 /-- `4*(3*n-(4-a(n-1)))` -/
 def P10089236614037575146.Spec : Prop :=
   ∀ n, P10089236614037575146.a n = A107584 n
+
+theorem P10089236614037575146.correct : P10089236614037575146.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A107584, Nat.add_sub_cancel, A107584.P10089236614037575146.a, A107584.P10299861422189421225.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A107584, Nat.add_sub_cancel, A107584.P10089236614037575146.a, A107584.P10299861422189421225.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A107584
 
@@ -3157,6 +3230,23 @@ namespace A107585
 def P16596299160528316894.Spec : Prop :=
   ∀ n, P16596299160528316894.a n = A107585 n
 
+theorem P16596299160528316894.correct : P16596299160528316894.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A107585, Nat.add_sub_cancel, A107585.P16596299160528316894.a, A107585.P17396423444312881632.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A107585, Nat.add_sub_cancel, A107585.P16596299160528316894.a, A107585.P17396423444312881632.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A107585
 
 /-! ## A107585.P10221080226128959079
@@ -3179,6 +3269,23 @@ namespace A107585
 /-- `5*(4*n-(5-a(n-1)))` -/
 def P10221080226128959079.Spec : Prop :=
   ∀ n, P10221080226128959079.a n = A107585 n
+
+theorem P10221080226128959079.correct : P10221080226128959079.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A107585, Nat.add_sub_cancel, A107585.P10221080226128959079.a, A107585.P17396423444312881632.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A107585, Nat.add_sub_cancel, A107585.P10221080226128959079.a, A107585.P17396423444312881632.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A107585
 
@@ -4273,7 +4380,7 @@ end A107597.P3316111727865650014
 /-!
 # A107599: a(n) = 0,1,2 (resp.) if (1/2)[prime(n-1)+prime(n+1)] is less than, equal to or greater than prime(n) (resp.).
 
-The programs for A107599, the canonical program `A107599.P7799038033738361722` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107599 has offset 2).
+The programs for A107599, the canonical program `A107599.P7799038033738361722` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107599 has offset 2).
 
 The definition of A107599 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4282,7 +4389,7 @@ The definition of A107599 is `conjectured`: the Lean definition is a formula tha
 
 `1-A079054(n+2)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A107599

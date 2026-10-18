@@ -8,34 +8,33 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C014
+import Seq.B000.C017
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B002.C004
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -43,11 +42,13 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1868,16 +1869,62 @@ end A299821.P3631030413104686533
 /-!
 # A299822: Product of Euler's totient and the squarefree kernel, a(n) = phi(n)*rad(n).
 
-The programs for A299822, the canonical program `A299822.P17822751971997811856` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299822 has offset 1).
+The programs for A299822, the canonical program `A299822.P17822751971997811856` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299822 has offset 1).
 
 The definition of A299822 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A299822.P5516141074735190287
+
+`(n+1)*A173557(n+1)`
+-/
+
+namespace A299822.P5516141074735190287
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A173557 (n + 1)
+
+end
+
+end A299822.P5516141074735190287
+
+namespace A299822
+
+/-- `(n+1)*A173557(n+1)` -/
+def P5516141074735190287.Spec : Prop :=
+  ∀ n, P5516141074735190287.a n = A299822 (n + 1)
+
+end A299822
+
+/-! ## A299822.P15577481778882938709
+
+`(n+1)*abs(A023900(n+1))`
+-/
+
+namespace A299822.P15577481778882938709
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * |A023900 (n + 1)|
+
+end
+
+end A299822.P15577481778882938709
+
+namespace A299822
+
+/-- `(n+1)*abs(A023900(n+1))` -/
+def P15577481778882938709.Spec : Prop :=
+  ∀ n, P15577481778882938709.a n = A299822 (n + 1)
+
+end A299822
 
 /-! ## A299822.P17822751971997811856
 
 `A000010(n+1)*A007947(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A299822
@@ -1915,52 +1962,6 @@ namespace A299822
 /-- `(n+1)*∏{p}[n+1, #-1]` -/
 def P2142075369921899013.Spec : Prop :=
   ∀ n, P2142075369921899013.a n = A299822 (n + 1)
-
-end A299822
-
-/-! ## A299822.P5516141074735190287
-
-`(n+1)*A173557(n+1)`
--/
-
-namespace A299822.P5516141074735190287
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A173557 (n + 1)
-
-end
-
-end A299822.P5516141074735190287
-
-namespace A299822
-
-/-- `(n+1)*A173557(n+1)` -/
-def P5516141074735190287.Spec : Prop :=
-  ∀ n, P5516141074735190287.a n = A299822 (n + 1)
-
-end A299822
-
-/-! ## A299822.P11974181128330238858
-
-`abs((n+1)*A023900(n+1))`
--/
-
-namespace A299822.P11974181128330238858
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |(n + 1 : ℤ) * A023900 (n + 1)|
-
-end
-
-end A299822.P11974181128330238858
-
-namespace A299822
-
-/-- `abs((n+1)*A023900(n+1))` -/
-def P11974181128330238858.Spec : Prop :=
-  ∀ n, P11974181128330238858.a n = A299822 (n + 1)
 
 end A299822
 
@@ -2309,6 +2310,29 @@ namespace A299822
 /-- `A062570(n+1)/2*A099985(n+1)` -/
 def P5795493010501623155.Spec : Prop :=
   ∀ n, P5795493010501623155.a n = (A299822 (n + 1) : ℚ)
+
+end A299822
+
+/-! ## A299822.P13214337206786582709
+
+`(n+1)*A023900(n+1)/A076479(n+1)`
+-/
+
+namespace A299822.P13214337206786582709
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) * A023900 (n + 1) : ℚ) / (A076479 (n + 1) : ℚ)
+
+end
+
+end A299822.P13214337206786582709
+
+namespace A299822
+
+/-- `(n+1)*A023900(n+1)/A076479(n+1)` -/
+def P13214337206786582709.Spec : Prop :=
+  ∀ n, P13214337206786582709.a n = (A299822 (n + 1) : ℚ)
 
 end A299822
 

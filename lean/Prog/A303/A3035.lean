@@ -21,12 +21,15 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,20 +38,15 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,13 +56,17 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +90,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -3325,7 +3326,7 @@ end A303537
 /-!
 # A303538: Expansion of ((1 + 8*x)/(1 - 8*x))^(1/8).
 
-The programs for A303538, the canonical program `A303538.P17406894848546280064` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303538 has offset 0).
+The programs for A303538, the canonical program `A303538.P17406894848546280064` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303538 has offset 0).
 
 The definition of A303538 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3334,7 +3335,7 @@ The definition of A303538 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*a(n-1)+64*(n-2)*a(n-2))/n` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A303538
@@ -3693,6 +3694,21 @@ end A303541.P9890053012644955533
 The programs for A303542, there is no canonical definition to state claims against.
 -/
 
+/-! ## A303542.P7509279987237614675
+
+`A370224(n+2)-A370210(n+2)`
+-/
+
+namespace A303542.P7509279987237614675
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370224 (n + 2) - A370210 (n + 2)
+
+end
+
+end A303542.P7509279987237614675
+
 /-! ## A303542.P5562540365630345746
 
 `A051218(A247332(n))`
@@ -3707,24 +3723,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A303542.P5562540365630345746
-
-/-! ## A303542.P450285331343335438
-
-`∑[A049615(A024528(n))]`
--/
-
-namespace A303542.P450285331343335438
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049615 (A024528 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A303542.P450285331343335438
 
 /-!
 # A303544: Numbers k that divide primepi(k)^prime(k).
@@ -4074,7 +4072,7 @@ end A303547.P14331061982392389392
 /-!
 # A303548: For any n > 0 and h > 0, let d_h(n) be the distance from n to the nearest number with Hamming weight at most h; a(n) = Sum_{i > 0} d_i(n).
 
-The programs for A303548, the canonical program `A303548.P8157159056819568346` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303548 has offset 1).
+The programs for A303548, the canonical program `A303548.P8157159056819568346` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303548 has offset 1).
 
 The definition of A303548 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4106,7 +4104,7 @@ end A303548
 
 `∑[A005811(n)-A000120(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A303548
@@ -4694,7 +4692,7 @@ end A303553.P16848088771767293589
 /-!
 # A303554: Union of the prime powers (p^k, p prime, k >= 0) and numbers that are the product of 2 or more distinct primes.
 
-The programs for A303554, the canonical program `A303554.P5565197163094679338` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303554 has offset 1).
+The programs for A303554, the canonical program `A303554.P5565197163094679338` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303554 has offset 1).
 
 The definition of A303554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4846,7 +4844,7 @@ end A303554
 
 `record[gcd(n+1, A286875(n+1))]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A303554
@@ -6618,7 +6616,7 @@ end A303580.P12264072106898180476
 /-!
 # A303581: Add i (>= 0) to the i-th block of terms in the Thue-Morse sequence A010060.
 
-The programs for A303581, the canonical program `A303581.P15071600454215095240` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303581 has offset 0).
+The programs for A303581, the canonical program `A303581.P15071600454215095240` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303581 has offset 0).
 
 The definition of A303581 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6777,7 +6775,7 @@ end A303581
 
 `A070941(n)-A010059(n)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A303581
@@ -7602,7 +7600,7 @@ end A303590.P1495530003446665525
 /-!
 # A303591: a(n) = 0 if n in A303589, 1 if n is in A303590.
 
-The programs for A303591, the canonical program `A303591.P2304558505010053778` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303591 has offset 0).
+The programs for A303591, the canonical program `A303591.P2304558505010053778` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303591 has offset 0).
 
 The definition of A303591 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7611,7 +7609,7 @@ The definition of A303591 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((n+1)*γ^ϕ)]`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A303591

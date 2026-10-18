@@ -16,7 +16,6 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -24,38 +23,35 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -63,9 +59,12 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +89,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A283700: Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 710", based on the 5-celled von Neumann neighborhood.
@@ -1491,7 +1489,7 @@ end A283715.P14117318696278473696
 /-!
 # A283716: Row n=3 of A283674.
 
-The programs for A283716, the canonical program `A283716.P12325098652103205279` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283716 has offset 0).
+The programs for A283716, the canonical program `A283716.P12325098652103205279` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283716 has offset 0).
 
 The definition of A283716 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1500,7 +1498,7 @@ The definition of A283716 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+4^n+27^n`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283716
@@ -2838,7 +2836,7 @@ end A283732.P5354625213267913725
 /-!
 # A283733: a(n) = a(n-1) + 1 + floor(n*golden ratio), with a(0) = 1.
 
-The programs for A283733, the canonical program `A283733.P4192679903617935137` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283733 has offset 0).
+The programs for A283733, the canonical program `A283733.P4192679903617935137` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283733 has offset 0).
 
 The definition of A283733 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+1+floor(n*ϕ)` (program `A283733.P4192679903617935137`, by `A283733.P4192679903617935137.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2847,7 +2845,7 @@ The definition of A283733 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+1+floor(n*ϕ)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283733
@@ -4616,7 +4614,7 @@ end A283748.P13584580996220509888
 /-!
 # A283750: a(n) = n^2 XOR (n + 1)^2.
 
-The programs for A283750, the canonical program `A283750.P17259818444271250759` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283750 has offset 0).
+The programs for A283750, the canonical program `A283750.P17259818444271250759` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283750 has offset 0).
 
 The definition of A283750 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4625,7 +4623,7 @@ The definition of A283750 is `conjectured`: the Lean definition is a formula tha
 
 `xor((n+1)², n²)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283750
@@ -4830,7 +4828,7 @@ end A283750
 /-!
 # A283752: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 758", based on the 5-celled von Neumann neighborhood.
 
-The programs for A283752, the canonical program `A283752.P6878466421051132066` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283752 has offset 0).
+The programs for A283752, the canonical program `A283752.P6878466421051132066` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283752 has offset 0).
 
 The definition of A283752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4839,7 +4837,7 @@ The definition of A283752 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+16*a(n-4)-16*a(n-5)` with `a(0)=1, a(1)=3, a(2)=5, a(3)=13, a(4)=21, a(5)=53, a(6)=93, a(7)=205, a(8)=381`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283752
@@ -5539,7 +5537,7 @@ end A283764.P17565989154723470231
 /-!
 # A283765: Numbers k such that L(k) is even, where L = A000201 = lower Wythoff sequence.
 
-The programs for A283765, the canonical program `A283765.P16087326815428208377` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283765 has offset 1).
+The programs for A283765, the canonical program `A283765.P16087326815428208377` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283765 has offset 1).
 
 The definition of A283765 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5548,7 +5546,7 @@ The definition of A283765 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, ceil(ϕ*n)%2]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283765
@@ -6117,7 +6115,7 @@ end A283765
 /-!
 # A283766: Numbers k such that L(k) is odd, where L = A000201 = lower Wythoff sequence.
 
-The programs for A283766, the canonical program `A283766.P13369118954386203946` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283766 has offset 1).
+The programs for A283766, the canonical program `A283766.P13369118954386203946` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283766 has offset 1).
 
 The definition of A283766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6271,7 +6269,7 @@ end A283766
 
 `lt[1, A135561(2-A005206(n)+n)]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A283766
@@ -7829,7 +7827,7 @@ end A283768
 /-!
 # A283769: Numbers k such that L(k) = 0 mod 3, where L = A000201 = lower Wythoff sequence.
 
-The programs for A283769, the canonical program `A283769.P13518902980728892546` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283769 has offset 1).
+The programs for A283769, the canonical program `A283769.P13518902980728892546` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283769 has offset 1).
 
 The definition of A283769 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7838,7 +7836,7 @@ The definition of A283769 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, ceil(ϕ*n)%3]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283769
@@ -8082,7 +8080,7 @@ end A283769
 /-!
 # A283770: Numbers k such that L(k) = 1 mod 3, where L = A000201 = lower Wythoff sequence.
 
-The programs for A283770, the canonical program `A283770.P4661854305289588242` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283770 has offset 1).
+The programs for A283770, the canonical program `A283770.P4661854305289588242` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283770 has offset 1).
 
 The definition of A283770 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8091,7 +8089,7 @@ The definition of A283770 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, floor(ϕ*n)%3]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283770
@@ -9279,7 +9277,7 @@ end A283772
 /-!
 # A283773: Numbers k such that U(k) = 1 mod 3, where U = A001950 = upper Wythoff sequence.
 
-The programs for A283773, the canonical program `A283773.P13307734796289270731` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283773 has offset 1).
+The programs for A283773, the canonical program `A283773.P13307734796289270731` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283773 has offset 1).
 
 The definition of A283773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9288,7 +9286,7 @@ The definition of A283773 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, abs(2-(n-floor(n/ϕ)+1)%3)]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283773
@@ -10570,7 +10568,7 @@ end A283775.P13730129706104361334
 /-!
 # A283776: Numbers k such that floor(k*sqrt(3)) is odd.
 
-The programs for A283776, the canonical program `A283776.P160697927852129727` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283776 has offset 1).
+The programs for A283776, the canonical program `A283776.P160697927852129727` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283776 has offset 1).
 
 The definition of A283776 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5002 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10608,7 +10606,7 @@ end A283776
 
 `lt[val(A022838(n+1), 2), 1]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A283776
@@ -11120,7 +11118,7 @@ end A283776
 /-!
 # A283777: Numbers k such that floor(k*e) is even.
 
-The programs for A283777, the canonical program `A283777.P2253580379995022249` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283777 has offset 1).
+The programs for A283777, the canonical program `A283777.P2253580379995022249` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283777 has offset 1).
 
 The definition of A283777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11129,7 +11127,7 @@ The definition of A283777 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, ceil(e*n)%2]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283777
@@ -11548,7 +11546,7 @@ end A283777
 /-!
 # A283778: Numbers k such that floor(k*e) is odd.
 
-The programs for A283778, the canonical program `A283778.P12873959629954449215` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283778 has offset 1).
+The programs for A283778, the canonical program `A283778.P12873959629954449215` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283778 has offset 1).
 
 The definition of A283778 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11557,7 +11555,7 @@ The definition of A283778 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, floor(e*n)%2]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A283778

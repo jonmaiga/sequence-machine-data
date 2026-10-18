@@ -8,20 +8,21 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -29,7 +30,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -37,23 +37,24 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -2386,6 +2387,21 @@ end A302827.P10943061279752550826
 The programs for A302829, there is no canonical definition to state claims against.
 -/
 
+/-! ## A302829.P8661608365373908927
+
+`A281795(n+1)-4*A034856(n+1)`
+-/
+
+namespace A302829.P8661608365373908927
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281795 (n + 1) - 4 * A034856 (n + 1)
+
+end
+
+end A302829.P8661608365373908927
+
 /-! ## A302829.P5718332461464116206
 
 `4*(A007882(n+1)-∑[n])`
@@ -3952,7 +3968,9 @@ end A302846.P14257168268290246211
 /-!
 # A302847: Permutation of natural numbers: a(1) = 1; for n > 1, a(n) = A064989(2+A003961(n-1)).
 
-The programs for A302847, there is no canonical definition to state claims against.
+The programs for A302847, the canonical program `A302847.P8021168690625830306` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302847 has offset 1).
+
+The definition of A302847 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 768 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A302847.P11523127752222031867
@@ -3969,6 +3987,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302847.P11523127752222031867
+
+namespace A302847
+
+/-- `A302848(A302849(n+2))-1` -/
+def P11523127752222031867.Spec : Prop :=
+  ∀ n, P11523127752222031867.a n = A302847 (n + 1)
+
+end A302847
 
 /-! ## A302847.P426120576285425201
 
@@ -3988,23 +4014,32 @@ end
 
 end A302847.P426120576285425201
 
+namespace A302847
+
+/-- `A305807(p?[2*n+1])+A302848(A302849(n+2))` -/
+def P426120576285425201.Spec : Prop :=
+  ∀ n, P426120576285425201.a n = A302847 (n + 1)
+
+end A302847
+
 /-! ## A302847.P8021168690625830306
 
 `A064216(∑{e}[A006530(n+1), A048673(n-#+1)]+1)`
+
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
-namespace A302847.P8021168690625830306
-noncomputable section
+namespace A302847
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (n + 1)
+/-- `A064216(∑{e}[A006530(n+1), A048673(n-#+1)]+1)` -/
+def P8021168690625830306.Spec : Prop :=
+  ∀ n, P8021168690625830306.a n = A302847 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064216 (∑ p ∈ Nat.primeFactors (f1 n).natAbs, A048673 ((n : ℤ) - (Nat.factorization (f1 n).natAbs p : ℤ) + 1).toNat + 1).toNat
+theorem P8021168690625830306.correct : P8021168690625830306.Spec := by
+  intro n
+  simp only [A302847, Nat.add_sub_cancel]
 
-end
-
-end A302847.P8021168690625830306
+end A302847
 
 /-! ## A302847.P8053644480883792073
 
@@ -4021,6 +4056,14 @@ end
 
 end A302847.P8053644480883792073
 
+namespace A302847
+
+/-- `A305807(A000040(n+1))+A302848(A302849(n+2))` -/
+def P8053644480883792073.Spec : Prop :=
+  ∀ n, P8053644480883792073.a n = A302847 (n + 1)
+
+end A302847
+
 /-! ## A302847.P18021019423800054794
 
 `A305807(A249505(n+1))+A302848(A302849(n+2))`
@@ -4035,6 +4078,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302847.P18021019423800054794
+
+namespace A302847
+
+/-- `A305807(A249505(n+1))+A302848(A302849(n+2))` -/
+def P18021019423800054794.Spec : Prop :=
+  ∀ n, P18021019423800054794.a n = A302847 (n + 1)
+
+end A302847
 
 /-! ## A302847.P18098794291283313172
 
@@ -4054,6 +4105,14 @@ end
 
 end A302847.P18098794291283313172
 
+namespace A302847
+
+/-- `A064989(A242378(∑[n+1]+1)+2)` -/
+def P18098794291283313172.Spec : Prop :=
+  ∀ n, P18098794291283313172.a n = A302847 (n + 1)
+
+end A302847
+
 /-! ## A302847.P6326326563387180328
 
 `A245606(A245705(A245711(A245706(A245605(n+1)))))`
@@ -4069,6 +4128,14 @@ end
 
 end A302847.P6326326563387180328
 
+namespace A302847
+
+/-- `A245606(A245705(A245711(A245706(A245605(n+1)))))` -/
+def P6326326563387180328.Spec : Prop :=
+  ∀ n, P6326326563387180328.a n = A302847 (n + 1)
+
+end A302847
+
 /-! ## A302847.P4192770070386638301
 
 `A070198(A001912(n+1))%A302848(A302849(n+2))`
@@ -4083,6 +4150,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302847.P4192770070386638301
+
+namespace A302847
+
+/-- `A070198(A001912(n+1))%A302848(A302849(n+2))` -/
+def P4192770070386638301.Spec : Prop :=
+  ∀ n, P4192770070386638301.a n = A302847 (n + 1)
+
+end A302847
 
 /-!
 # A302848: Permutation of natural numbers: a(1) = 1; for n > 1, a(n) = 1+A064989(A003961(n)-2).

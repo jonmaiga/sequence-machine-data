@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -6,20 +7,20 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C010
+import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -28,25 +29,29 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B007.C000
+import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B007.C001
+import Seq.B007.C002
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -66,7 +71,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A384415: a(n) = 4^n - 3^n - n*3^(n-1) - binomial(n,2)*3^(n-2).
@@ -338,7 +346,7 @@ end A384417.P4410204423232660267
 /-!
 # A384418: Powerful exponentially squarefree numbers.
 
-The programs for A384418, the canonical program `A384418.P15387864905350044636` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384418 has offset 1).
+The programs for A384418, the canonical program `A384418.P15387864905350044636` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384418 has offset 1).
 
 The definition of A384418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -347,7 +355,7 @@ The definition of A384418 is `conjectured`: the Lean definition is a formula tha
 
 `record[A057521(A209061(n+1))]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A384418
@@ -421,7 +429,7 @@ end A384418
 /-!
 # A384419: Exponentially squarefree prime powers.
 
-The programs for A384419, the canonical program `A384419.P10385921889359605999` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384419 has offset 1).
+The programs for A384419, the canonical program `A384419.P10385921889359605999` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384419 has offset 1).
 
 The definition of A384419 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1273 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -486,7 +494,7 @@ end A384419
 
 `filter[A209061(n+1), A010055(#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A384419
@@ -585,7 +593,7 @@ end A384419
 /-!
 # A384420: The number of exponentially squarefree prime powers (not including 1) that divide n.
 
-The programs for A384420, the canonical program `A384420.P10522523073999906591` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384420 has offset 1).
+The programs for A384420, the canonical program `A384420.P10522523073999906591` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384420 has offset 1).
 
 The definition of A384420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -594,7 +602,7 @@ The definition of A384420 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A070321(#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A384420
@@ -733,7 +741,7 @@ end A384420
 /-!
 # A384421: The number of exponentially squarefree prime powers (not including 1) that unitarily divide n.
 
-The programs for A384421, the canonical program `A384421.P5102326397673208716` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384421 has offset 1).
+The programs for A384421, the canonical program `A384421.P5102326397673208716` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384421 has offset 1).
 
 The definition of A384421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -742,7 +750,7 @@ The definition of A384421 is `conjectured`: the Lean definition is a formula tha
 
 `log2(A383762(n+1))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A384421
@@ -874,7 +882,7 @@ end A384421
 /-!
 # A384422: The number of prime powers (not including 1) p^e that divide n such that e is coprime to the p-adic valuation of n.
 
-The programs for A384422, the canonical program `A384422.P13713361955298330699` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384422 has offset 1).
+The programs for A384422, the canonical program `A384422.P13713361955298330699` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384422 has offset 1).
 
 The definition of A384422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -883,7 +891,7 @@ The definition of A384422 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A000010(#)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A384422
@@ -1005,7 +1013,7 @@ end A384422
 /-!
 # A384423: The number of prime powers (not including 1) p^e that divide n such that e is unitarily coprime to the p-adic valuation of n.
 
-The programs for A384423, the canonical program `A384423.P12075957193450750820` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384423 has offset 1).
+The programs for A384423, the canonical program `A384423.P12075957193450750820` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384423 has offset 1).
 
 The definition of A384423 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1014,7 +1022,7 @@ The definition of A384423 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A047994(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B007.C002`.
 -/
 
 namespace A384423
@@ -2118,23 +2126,29 @@ end A384450.P10259025152047698159
 /-!
 # A384452: a(n) is the sum of squares of the unitary divisors of n!.
 
-The programs for A384452, there is no canonical definition to state claims against.
+The programs for A384452, the canonical program `A384452.P11109828349487245478` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384452 has offset 1).
+
+The definition of A384452 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034676, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A384452.P11109828349487245478
 
 `A034676((n+1)!)`
+
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
-namespace A384452.P11109828349487245478
-noncomputable section
+namespace A384452
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034676 (Nat.factorial (n + 1))
+/-- `A034676((n+1)!)` -/
+def P11109828349487245478.Spec : Prop :=
+  ∀ n, P11109828349487245478.a n = A384452 (n + 1)
 
-end
+theorem P11109828349487245478.correct : P11109828349487245478.Spec := by
+  intro n
+  simp only [A384452, Nat.add_sub_cancel]
 
-end A384452.P11109828349487245478
+end A384452
 
 /-! ## A384452.P4652258419002204583
 
@@ -2154,6 +2168,19 @@ end
 
 end A384452.P4652258419002204583
 
+namespace A384452
+
+/-- `A034676(∏[n+1])` -/
+def P4652258419002204583.Spec : Prop :=
+  ∀ n, P4652258419002204583.a n = A384452 (n + 1)
+
+theorem P4652258419002204583.correct : P4652258419002204583.Spec := by
+  intro n
+  simp only [A384452, Nat.add_sub_cancel, A384452.P4652258419002204583.f1, A384452.P4652258419002204583.a, A384452.P11109828349487245478.a, SequenceMachineLib.memo_apply]
+  try simp
+
+end A384452
+
 /-! ## A384452.P5690954803298383834
 
 `record[A034676(A178803(n))]`
@@ -2171,6 +2198,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A384452.P5690954803298383834
+
+namespace A384452
+
+/-- `record[A034676(A178803(n))]` -/
+def P5690954803298383834.Spec : Prop :=
+  ∀ n, P5690954803298383834.a n = A384452 (n + 1)
+
+end A384452
 
 /-!
 # A384453: a(n) is the n-th q-factorial number for q=-n.

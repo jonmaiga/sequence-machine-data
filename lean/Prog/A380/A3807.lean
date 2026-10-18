@@ -8,46 +8,47 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C021
+import Seq.B000.C025
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,7 +67,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -74,7 +74,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1950,7 +1949,7 @@ end A380758.P7958075195773515854
 /-!
 # A380759: Number of coincident digits occurring in expression of integers in both base 2 and base 10.
 
-The programs for A380759, the canonical program `A380759.P12464176623793877343` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380759 has offset 1).
+The programs for A380759, the canonical program `A380759.P12464176623793877343` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380759 has offset 1).
 
 The definition of A380759 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1959,7 +1958,7 @@ The definition of A380759 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n+1, #!%2]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A380759
@@ -2503,7 +2502,7 @@ end A380762.P6717729169020001223
 /-!
 # A380763: List triangular numbers up to increasingly large values and back down to 0.
 
-The programs for A380763, the canonical program `A380763.P586275446285360426` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380763 has offset 0).
+The programs for A380763, the canonical program `A380763.P586275446285360426` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380763 has offset 0).
 
 The definition of A380763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2512,7 +2511,7 @@ The definition of A380763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000217(A053615(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A380763
@@ -3562,7 +3561,7 @@ end A380787.P6873479414999082789
 /-!
 # A380788: Numbers with a prime number of binary digits.
 
-The programs for A380788, the canonical program `A380788.P17890132981315215586` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380788 has offset 1).
+The programs for A380788, the canonical program `A380788.P17890132981315215586` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380788 has offset 1).
 
 The definition of A380788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3658,7 +3657,7 @@ end A380788
 
 `eq[2, A105700(A070939(n)²)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A380788
@@ -3817,6 +3816,42 @@ def P7930705622389206078.Spec : Prop :=
   ∀ n, (P7930705622389206078.a n : ℤ) = A380788 (n + 1)
 
 end A380788
+
+/-!
+# A380790: Length of the n-th Golomb ruler constructed by the Paul Erdős and Pál Turán formula.
+
+The programs for A380790, there is no canonical definition to state claims against.
+-/
+
+/-! ## A380790.P7754732059859042005
+
+`A100104(A000040(n+2))+2*A076409(n+2)-1`
+-/
+
+namespace A380790.P7754732059859042005
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100104 (A000040 (n + 2)).toNat + 2 * A076409 (n + 2) - 1
+
+end
+
+end A380790.P7754732059859042005
+
+/-! ## A380790.P2652784624826150341
+
+`A100104(A000040(n+2))+A048153(A000040(n+2))-1`
+-/
+
+namespace A380790.P2652784624826150341
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100104 (A000040 (n + 2)).toNat + A048153 (A000040 (n + 2)).toNat - 1
+
+end
+
+end A380790.P2652784624826150341
 
 /-!
 # A380798: a(n) is the smallest prime p such that tau(p^2 - 1) is equal to 2^n, where tau = A000005.

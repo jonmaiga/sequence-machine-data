@@ -22,13 +22,14 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,19 +44,20 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,17 +71,17 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A041000: If decimal expansion of n-th prime is x1 x2 ... xk, sort the xi into nonincreasing order, y1 y2 ... yk; then a(n) = |y1-y2-y3...-yk|.
@@ -210,7 +212,7 @@ end A041000.P6049941463825770535
 /-!
 # A041001: Convolution of A000108(n+1), n >= 0, (Catalan numbers) with A038845 (3-fold convolution of powers of 4).
 
-The programs for A041001, the canonical program `A041001.P7868168025577261724` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041001 has offset 0).
+The programs for A041001, the canonical program `A041001.P7868168025577261724` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041001 has offset 0).
 
 The definition of A041001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -219,7 +221,7 @@ The definition of A041001 is `conjectured`: the Lean definition is a formula tha
 
 `A042941(n+1)-A038845(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A041001
@@ -816,7 +818,7 @@ end A041004.P4705429465444101183
 /-!
 # A041005: Convolution of Catalan numbers A000108(n+1), n >= 0, with A020918.
 
-The programs for A041005, the canonical program `A041005.P1067801707216124384` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041005 has offset 0).
+The programs for A041005, the canonical program `A041005.P1067801707216124384` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041005 has offset 0).
 
 The definition of A041005 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 157 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -825,7 +827,7 @@ The definition of A041005 is `conjectured`: the Lean definition is a formula tha
 
 `A020918(n+1)-A042941(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A041005

@@ -15,6 +15,9 @@
         "sqrt",
         "ceil",
         "∑{d}"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

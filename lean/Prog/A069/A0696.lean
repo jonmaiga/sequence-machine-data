@@ -5,22 +5,22 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C025
+import Seq.B000.C021
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -28,30 +28,31 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1069,7 +1070,7 @@ end A069623
 /-!
 # A069624: Number of different values taken by the integer part of n^(1/k) for all k > 1.
 
-The programs for A069624, the canonical program `A069624.P7803152237646734357` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069624 has offset 1).
+The programs for A069624, the canonical program `A069624.P7803152237646734357` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069624 has offset 1).
 
 The definition of A069624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1124,7 +1125,7 @@ end A069624
 
 `A390766(A316672(n+1)+A077800(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A069624
@@ -2533,6 +2534,29 @@ theorem P8862387872476146711.correct : P8862387872476146711.Spec := by
 
 end A069639
 
+/-! ## A069639.P12385070303094425255
+
+`A007918((n+1)²)²`
+-/
+
+namespace A069639.P12385070303094425255
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007918 ((n + 1) ^ 2) ^ 2
+
+end
+
+end A069639.P12385070303094425255
+
+namespace A069639
+
+/-- `A007918((n+1)²)²` -/
+def P12385070303094425255.Spec : Prop :=
+  ∀ n, P12385070303094425255.a n = A069639 (n + 1)
+
+end A069639
+
 /-! ## A069639.P5001959707520439407
 
 `(A053000(n+1)+(n+1)²)²`
@@ -2789,29 +2813,6 @@ namespace A069639
 /-- `A069549((n+1)²)` -/
 def P8142118440723111721.Spec : Prop :=
   ∀ n, P8142118440723111721.a n = A069639 (n + 1)
-
-end A069639
-
-/-! ## A069639.P12385070303094425255
-
-`A007918((n+1)²)²`
--/
-
-namespace A069639.P12385070303094425255
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007918 ((n + 1) ^ 2) ^ 2
-
-end
-
-end A069639.P12385070303094425255
-
-namespace A069639
-
-/-- `A007918((n+1)²)²` -/
-def P12385070303094425255.Spec : Prop :=
-  ∀ n, P12385070303094425255.a n = A069639 (n + 1)
 
 end A069639
 

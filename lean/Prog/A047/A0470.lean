@@ -17,20 +17,22 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,15 +56,18 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +94,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -6132,7 +6136,7 @@ end A047051.P2704118824693581381
 /-!
 # A047053: a(n) = 4^n * n!.
 
-The programs for A047053, the canonical program `A047053.P7600228685457433808` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047053 has offset 0).
+The programs for A047053, the canonical program `A047053.P7600228685457433808` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047053 has offset 0).
 
 The definition of A047053 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n*n!` (program `A047053.P7600228685457433808`, by `A047053.P7600228685457433808.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6141,7 +6145,7 @@ The definition of A047053 is `verified`: the Lean definition is proven equivalen
 
 `4^n*n!`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A047053
@@ -6783,7 +6787,7 @@ end A047057.P10604315636361611016
 /-!
 # A047058: a(n) = 6^n * n!.
 
-The programs for A047058, the canonical program `A047058.P4075058747115315762` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047058 has offset 0).
+The programs for A047058, the canonical program `A047058.P4075058747115315762` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047058 has offset 0).
 
 The definition of A047058 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6^n*n!` (program `A047058.P4075058747115315762`, by `A047058.P4075058747115315762.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6792,7 +6796,7 @@ The definition of A047058 is `verified`: the Lean definition is proven equivalen
 
 `6^n*n!`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A047058
@@ -9259,7 +9263,7 @@ end A047077.P10505398179871086862
 /-!
 # A047078: Primes at which difference pattern X2Y (X and Y >= 6) occurs in A001223.
 
-The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
+The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
 
 The definition of A047078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1085 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9328,7 +9332,7 @@ end A047078
 
 `∩[A083370(n+1)-2, A134100(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A047078
@@ -9483,7 +9487,7 @@ end A047080.P8164925083002972679
 /-!
 # A047081: a(n) = Sum_{k=0..n} T(n, k), array T as in A047080.
 
-The programs for A047081, the canonical program `A047081.P11265777002277718936` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047081 has offset 0).
+The programs for A047081, the canonical program `A047081.P11265777002277718936` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047081 has offset 0).
 
 The definition of A047081 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9492,7 +9496,7 @@ The definition of A047081 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+a(n-3)` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A047081
@@ -10237,7 +10241,7 @@ end A047084
 /-!
 # A047085: a(n) = T(2*n, n), array T as in A047080.
 
-The programs for A047085, the canonical program `A047085.P1439326172283854598` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047085 has offset 0).
+The programs for A047085, the canonical program `A047085.P1439326172283854598` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047085 has offset 0).
 
 The definition of A047085 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10387,7 +10391,7 @@ end A047085
 
 `((4*n-3)*a(n-1)-(2*n-5)*a(n-2)+a(n-3)-(n-3)*a(n-4))/n` with `a(0)=1, a(1)=1, a(2)=3, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A047085
@@ -12281,6 +12285,23 @@ end A047098.P10300038678747653809
 The programs for A047099, there is no canonical definition to state claims against.
 -/
 
+/-! ## A047099.P10041740196740171464
+
+`A047098(n+1)/2`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A047099.P10041740196740171464
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A047098 (n + 1) : ℚ) / 2
+
+end
+
+end A047099.P10041740196740171464
+
 /-! ## A047099.P5589179788818419764
 
 `A129874(2*(n+1))`
@@ -12295,21 +12316,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047099.P5589179788818419764
-
-/-! ## A047099.P10041740196740171464
-
-`A047098(n+1)/2`
--/
-
-namespace A047099.P10041740196740171464
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A047098 (n + 1) : ℚ) / 2
-
-end
-
-end A047099.P10041740196740171464
 
 /-! ## A047099.P11917585143451395163
 

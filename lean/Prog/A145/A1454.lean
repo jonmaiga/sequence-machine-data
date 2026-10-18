@@ -9,21 +9,21 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,13 +42,10 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -58,6 +55,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,9 +79,8 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A145400: Number of 2-factors in P_6 X P_n.
@@ -3301,7 +3299,7 @@ end A145468.P17767593068372347010
 /-!
 # A145469: Positive integers k such that d(k) = d(k-1) + d(k-2), where d(k) is the number of divisors of k.
 
-The programs for A145469, the canonical program `A145469.P15784535459110344665` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145469 has offset 1).
+The programs for A145469, the canonical program `A145469.P15784535459110344665` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145469 has offset 1).
 
 The definition of A145469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 876 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3310,7 +3308,7 @@ The definition of A145469 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000005(n+2), A051950(n+4)]+4`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A145469
@@ -7388,7 +7386,7 @@ end A145479
 /-!
 # A145480: Primes p such that (p+37)/2 is prime.
 
-The programs for A145480, the canonical program `A145480.P15131600134034301357` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145480 has offset 1).
+The programs for A145480, the canonical program `A145480.P15131600134034301357` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145480 has offset 1).
 
 The definition of A145480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7397,7 +7395,7 @@ The definition of A145480 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*A002476(n+1)-37]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A145480
@@ -8554,7 +8552,7 @@ end A145482
 /-!
 # A145483: Primes p such that 2*p - 23 is prime.
 
-The programs for A145483, the canonical program `A145483.P10721197384634604581` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145483 has offset 1).
+The programs for A145483, the canonical program `A145483.P10721197384634604581` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145483 has offset 1).
 
 The definition of A145483 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 838 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8563,7 +8561,7 @@ The definition of A145483 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A104279(n+1)+12]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A145483

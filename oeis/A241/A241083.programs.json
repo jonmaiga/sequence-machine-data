@@ -15,6 +15,9 @@
         "sqrt",
         "floor",
         "lcm"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -18,17 +18,20 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,9 +39,9 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,14 +59,16 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1155,7 +1160,7 @@ end A272416.P9258809423473630134
 /-!
 # A272417: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 469", based on the 5-celled von Neumann neighborhood.
 
-The programs for A272417, the canonical program `A272417.P15488189795061203812` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272417 has offset 0).
+The programs for A272417, the canonical program `A272417.P15488189795061203812` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272417 has offset 0).
 
 The definition of A272417 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1164,7 +1169,7 @@ The definition of A272417 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4/3-2^(2+n)+11*4^n/3`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A272417
@@ -2822,7 +2827,7 @@ end A272437.P9057011606506382749
 /-!
 # A272439: Sum of positive divisors of A000032(n).
 
-The programs for A272439, the canonical program `A272439.P9688275424147345473` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272439 has offset 0).
+The programs for A272439, the canonical program `A272439.P9688275424147345473` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272439 has offset 0).
 
 The definition of A272439 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2831,7 +2836,7 @@ The definition of A272439 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000203(A000032(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A272439
@@ -4611,7 +4616,7 @@ end A272458.P2626140557805758759
 /-!
 # A272459: The total number of different isosceles trapezoids, excluding squares, that can be drawn on an n X n square grid where the corners of each individual trapezoid lie on a lattice point.
 
-The programs for A272459, the canonical program `A272459.P12115707150098250776` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272459 has offset 1).
+The programs for A272459, the canonical program `A272459.P12115707150098250776` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272459 has offset 1).
 
 The definition of A272459 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4620,7 +4625,7 @@ The definition of A272459 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[n%or(1, n)]+n²]`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A272459
@@ -5745,7 +5750,7 @@ end A272469.P16434769338298909764
 /-!
 # A272470: 7 times the primes.
 
-The programs for A272470, the canonical program `A272470.P18354335613044509669` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272470 has offset 1).
+The programs for A272470, the canonical program `A272470.P18354335613044509669` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272470 has offset 1).
 
 The definition of A272470 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5754,7 +5759,7 @@ The definition of A272470 is `conditional`: the Lean definition is an OEIS formu
 
 `7*A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A272470
@@ -6665,7 +6670,7 @@ end A272476
 /-!
 # A272477: Numbers n that are coprime to the numerator of zeta(2*n)/(Pi^(2*n)).
 
-The programs for A272477, the canonical program `A272477.P11613366699694065365` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272477 has offset 1).
+The programs for A272477, the canonical program `A272477.P11613366699694065365` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272477 has offset 1).
 
 The definition of A272477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6734,7 +6739,7 @@ end A272477
 
 `lt[Δ[A048678(n)], 2*n]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A272477
@@ -7861,8 +7866,25 @@ end A272486.P834534866067035430
 /-!
 # A272492: Number of ordered set partitions of [n] with nondecreasing block sizes and maximal block size equal to two.
 
-The programs for A272492, there is no canonical definition to state claims against.
+The programs for A272492, the canonical program `A272492.P953968435264940373` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272492 has offset 2).
+
+The definition of A272492 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A272492.P953968435264940373
+
+`(n+2)!*(1+((-1)^(n+2)*(sqrt(2)-1)-sqrt(2)-1)/2^((n+2)/2+1))`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A272492
+
+/-- `(n+2)!*(1+((-1)^(n+2)*(sqrt(2)-1)-sqrt(2)-1)/2^((n+2)/2+1))` -/
+def P953968435264940373.Spec : Prop :=
+  ∀ n, P953968435264940373.a n = (A272492 (n + 2) : ℝ)
+
+end A272492
 
 /-! ## A272492.P2310949677471251697
 
@@ -7885,6 +7907,14 @@ end
 
 end A272492.P2310949677471251697
 
+namespace A272492
+
+/-- `(∏[gcd(2, n)]-1)*∏[lcm(2, n+2)/2]` -/
+def P2310949677471251697.Spec : Prop :=
+  ∀ n, P2310949677471251697.a n = (A272492 (n + 2) : ℚ)
+
+end A272492
+
 /-! ## A272492.P14957108144149718919
 
 `A262071(∑[n+2]+3)`
@@ -7902,6 +7932,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A272492.P14957108144149718919
+
+namespace A272492
+
+/-- `A262071(∑[n+2]+3)` -/
+def P14957108144149718919.Spec : Prop :=
+  ∀ n, P14957108144149718919.a n = A272492 (n + 2)
+
+end A272492
 
 /-! ## A272492.P10179225270207936902
 
@@ -7921,6 +7959,14 @@ end
 
 end A272492.P10179225270207936902
 
+namespace A272492
+
+/-- `record[A262071(A000124(n)+1)]` -/
+def P10179225270207936902.Spec : Prop :=
+  ∀ n, P10179225270207936902.a n = A272492 (n + 2)
+
+end A272492
+
 /-! ## A272492.P8093937212616119051
 
 `record[A262071(A000217(n)+2)]`
@@ -7939,6 +7985,14 @@ end
 
 end A272492.P8093937212616119051
 
+namespace A272492
+
+/-- `record[A262071(A000217(n)+2)]` -/
+def P8093937212616119051.Spec : Prop :=
+  ∀ n, P8093937212616119051.a n = A272492 (n + 2)
+
+end A272492
+
 /-! ## A272492.P14024314027793631110
 
 `record[A262071(2*(n+1)-A000194(n))]`
@@ -7956,6 +8010,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A272492.P14024314027793631110
+
+namespace A272492
+
+/-- `record[A262071(2*(n+1)-A000194(n))]` -/
+def P14024314027793631110.Spec : Prop :=
+  ∀ n, P14024314027793631110.a n = A272492 (n + 2)
+
+end A272492
 
 /-!
 # A272493: Number of ordered set partitions of [n] with nondecreasing block sizes and maximal block size equal to three.

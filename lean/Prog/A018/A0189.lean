@@ -28,9 +28,11 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,13 +50,15 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,7 +81,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -91,6 +94,29 @@ The programs for A018900, the canonical program `A018900.P2868698677378612256` i
 
 The definition of A018900 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A018900.P2242000910527734699
+
+`A059268(n)+A140513(n)`
+-/
+
+namespace A018900.P2242000910527734699
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059268 n + A140513 n
+
+end
+
+end A018900.P2242000910527734699
+
+namespace A018900
+
+/-- `A059268(n)+A140513(n)` -/
+def P2242000910527734699.Spec : Prop :=
+  ∀ n, P2242000910527734699.a n = A018900 (n + 1)
+
+end A018900
 
 /-! ## A018900.P2868698677378612256
 
@@ -173,29 +199,6 @@ namespace A018900
 /-- `floor(A084468(n+1)/2)` -/
 def P3502333316162749745.Spec : Prop :=
   ∀ n, P3502333316162749745.a n = A018900 (n + 1)
-
-end A018900
-
-/-! ## A018900.P13311427319030298215
-
-`A140513(n)+A059268(n)`
--/
-
-namespace A018900.P13311427319030298215
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140513 n + A059268 n
-
-end
-
-end A018900.P13311427319030298215
-
-namespace A018900
-
-/-- `A140513(n)+A059268(n)` -/
-def P13311427319030298215.Spec : Prop :=
-  ∀ n, P13311427319030298215.a n = A018900 (n + 1)
 
 end A018900
 

@@ -13,25 +13,22 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -42,7 +39,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -53,6 +49,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -60,10 +57,12 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -84,7 +83,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A324400: Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j) for all i, j >= 1, where f(n) = -1 if n = 2^k and k > 0, and f(n) = n for all other numbers.
@@ -2125,23 +2123,29 @@ end A324444.P10568600227281278534
 /-!
 # A324445: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals one.
 
-The programs for A324445, there is no canonical definition to state claims against.
+The programs for A324445, the canonical program `A324445.P6189098538037595142` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324445 has offset 1).
+
+The definition of A324445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A324445.P6189098538037595142
 
 `A001147(n+1)-A003436(n+1)`
+
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
-namespace A324445.P6189098538037595142
-noncomputable section
+namespace A324445
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001147 (n + 1) - A003436 (n + 1)
+/-- `A001147(n+1)-A003436(n+1)` -/
+def P6189098538037595142.Spec : Prop :=
+  ∀ n, P6189098538037595142.a n = A324445 (n + 1)
 
-end
+theorem P6189098538037595142.correct : P6189098538037595142.Spec := by
+  intro n
+  simp only [A324445, Nat.add_sub_cancel]
 
-end A324445.P6189098538037595142
+end A324445
 
 /-! ## A324445.P11085173571124429840
 
@@ -2158,6 +2162,14 @@ end
 
 end A324445.P11085173571124429840
 
+namespace A324445
+
+/-- `A006882(2*n+1)-A003436(n+1)` -/
+def P11085173571124429840.Spec : Prop :=
+  ∀ n, P11085173571124429840.a n = A324445 (n + 1)
+
+end A324445
+
 /-! ## A324445.P10834214380064542760
 
 `A293914(n+1)+A278990(A028310(n))`
@@ -2172,6 +2184,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324445.P10834214380064542760
+
+namespace A324445
+
+/-- `A293914(n+1)+A278990(A028310(n))` -/
+def P10834214380064542760.Spec : Prop :=
+  ∀ n, P10834214380064542760.a n = A324445 (n + 1)
+
+end A324445
 
 /-! ## A324445.P661986758273214408
 
@@ -2191,6 +2211,14 @@ end
 
 end A324445.P661986758273214408
 
+namespace A324445
+
+/-- `record[A324429(n)]` -/
+def P661986758273214408.Spec : Prop :=
+  ∀ n, P661986758273214408.a n = A324445 (n + 1)
+
+end A324445
+
 /-! ## A324445.P15833517276292243754
 
 `A324429(∑[n+1]+1)`
@@ -2209,11 +2237,34 @@ end
 
 end A324445.P15833517276292243754
 
+namespace A324445
+
+/-- `A324429(∑[n+1]+1)` -/
+def P15833517276292243754.Spec : Prop :=
+  ∀ n, P15833517276292243754.a n = A324445 (n + 1)
+
+end A324445
+
 /-!
 # A324446: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals two.
 
 The programs for A324446, there is no canonical definition to state claims against.
 -/
+
+/-! ## A324446.P13508404454234066268
+
+`A003436(n+2)-A306386(n+2)`
+-/
+
+namespace A324446.P13508404454234066268
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003436 (n + 2) - A306386 (n + 2)
+
+end
+
+end A324446.P13508404454234066268
 
 /-! ## A324446.P11419283733562184090
 
@@ -2250,21 +2301,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324446.P2183762591510214207
-
-/-! ## A324446.P13508404454234066268
-
-`A003436(n+2)-A306386(n+2)`
--/
-
-namespace A324446.P13508404454234066268
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003436 (n + 2) - A306386 (n + 2)
-
-end
-
-end A324446.P13508404454234066268
 
 /-! ## A324446.P5423389835107798664
 
@@ -2395,6 +2431,21 @@ end A324447.P16254912286518866592
 The programs for A324448, there is no canonical definition to state claims against.
 -/
 
+/-! ## A324448.P5115773359252382900
+
+`A324430(n+4)-A324431(n+4)`
+-/
+
+namespace A324448.P5115773359252382900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324430 (n + 4) - A324431 (n + 4)
+
+end
+
+end A324448.P5115773359252382900
+
 /-! ## A324448.P6506851186476704803
 
 `A324429(A155212(n)+12)`
@@ -2467,32 +2518,26 @@ end
 
 end A324448.P16299993434523607192
 
-/-! ## A324448.P18075850125366456127
-
-`A324429(eq[5, A002260(n+1)])`
--/
-
-namespace A324448.P18075850125366456127
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002260 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324429 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A324448.P18075850125366456127
-
 /-!
 # A324449: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals five.
 
 The programs for A324449, there is no canonical definition to state claims against.
 -/
+
+/-! ## A324449.P17740573179050789634
+
+`A324431(n+5)-A324432(n+5)`
+-/
+
+namespace A324449.P17740573179050789634
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324431 (n + 5) - A324432 (n + 5)
+
+end
+
+end A324449.P17740573179050789634
 
 /-! ## A324449.P17810582834039787122
 
@@ -2572,29 +2617,26 @@ end
 
 end A324449.P373966269297673830
 
-/-! ## A324449.P15984205051221399276
-
-`record[A114324(A002262(n))*A324429(n)]`
--/
-
-namespace A324449.P15984205051221399276
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114324 (A002262 n).toNat * A324429 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A324449.P15984205051221399276
-
 /-!
 # A324450: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals six.
 
 The programs for A324450, there is no canonical definition to state claims against.
 -/
+
+/-! ## A324450.P10843046707714095709
+
+`A324432(n+6)-A324433(n+6)`
+-/
+
+namespace A324450.P10843046707714095709
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324432 (n + 6) - A324433 (n + 6)
+
+end
+
+end A324450.P10843046707714095709
 
 /-! ## A324450.P11080978135405859219
 
@@ -2674,32 +2716,26 @@ end
 
 end A324450.P9172799969438605358
 
-/-! ## A324450.P17348568887731858141
-
-`A324429(eq[7, A135223(n+1)])`
--/
-
-namespace A324450.P17348568887731858141
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135223 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324429 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A324450.P17348568887731858141
-
 /-!
 # A324451: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals seven.
 
 The programs for A324451, there is no canonical definition to state claims against.
 -/
+
+/-! ## A324451.P13986203706083549856
+
+`A324433(n+7)-A324434(n+7)`
+-/
+
+namespace A324451.P13986203706083549856
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324433 (n + 7) - A324434 (n + 7)
+
+end
+
+end A324451.P13986203706083549856
 
 /-! ## A324451.P10551561912796524572
 
@@ -2785,32 +2821,26 @@ end
 
 end A324451.P10807920740439682965
 
-/-! ## A324451.P146893532433919980
-
-`A324429(eq[8, A135223(n+1)])`
--/
-
-namespace A324451.P146893532433919980
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135223 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324429 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A324451.P146893532433919980
-
 /-!
 # A324452: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals eight.
 
 The programs for A324452, there is no canonical definition to state claims against.
 -/
+
+/-! ## A324452.P17693189676177854754
+
+`A324434(n+8)-A324435(n+8)`
+-/
+
+namespace A324452.P17693189676177854754
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324434 (n + 8) - A324435 (n + 8)
+
+end
+
+end A324452.P17693189676177854754
 
 /-! ## A324452.P7492392480848552311
 
@@ -2896,32 +2926,26 @@ end
 
 end A324452.P5376350462064391876
 
-/-! ## A324452.P9652592763946804033
-
-`A324429(eq[34, A104763(n+1)])`
--/
-
-namespace A324452.P9652592763946804033
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  34
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104763 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324429 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A324452.P9652592763946804033
-
 /-!
 # A324453: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals nine.
 
 The programs for A324453, there is no canonical definition to state claims against.
 -/
+
+/-! ## A324453.P9500206300374983527
+
+`A324435(n+9)-A324436(n+9)`
+-/
+
+namespace A324453.P9500206300374983527
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324435 (n + 9) - A324436 (n + 9)
+
+end
+
+end A324453.P9500206300374983527
 
 /-! ## A324453.P13163043422803848174
 
@@ -3007,27 +3031,6 @@ end
 
 end A324453.P14004665157638092676
 
-/-! ## A324453.P12240353531891627423
-
-`A324429(eq[A004053(n+2), A172471(n)])`
--/
-
-namespace A324453.P12240353531891627423
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004053 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172471 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324429 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A324453.P12240353531891627423
-
 /-!
 # A324454: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals ten.
 
@@ -3100,7 +3103,7 @@ end A324454.P781117277847611477
 /-!
 # A324455: Numbers m > 1 such that there exists a divisor g > 1 of m which satisfies s_g(m) >= g.
 
-The programs for A324455, the canonical program `A324455.P2567094407675781891` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324455 has offset 1).
+The programs for A324455, the canonical program `A324455.P2567094407675781891` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324455 has offset 1).
 
 The definition of A324455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 743 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3109,7 +3112,7 @@ The definition of A324455 is `conjectured`: the Lean definition is a formula tha
 
 `1+lt[1, A324369(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A324455
@@ -3381,7 +3384,7 @@ end A324456.P10493663034210150214
 /-!
 # A324457: Numbers m > 1 such that every prime divisor p of m satisfies s_p(m) >= p.
 
-The programs for A324457, the canonical program `A324457.P5700254826729189197` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324457 has offset 1).
+The programs for A324457, the canonical program `A324457.P5700254826729189197` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324457 has offset 1).
 
 The definition of A324457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 477 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3390,7 +3393,7 @@ The definition of A324457 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A324371(n+2)]+2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A324457
@@ -4792,7 +4795,7 @@ end A324467
 /-!
 # A324468: a(n) = r(n) + r(n+1) + r(n+2), where r(n) is the ruler sequence A007814.
 
-The programs for A324468, the canonical program `A324468.P13028189669114012427` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324468 has offset 1).
+The programs for A324468, the canonical program `A324468.P13028189669114012427` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324468 has offset 1).
 
 The definition of A324468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4801,7 +4804,7 @@ The definition of A324468 is `conjectured`: the Lean definition is a formula tha
 
 `val(C(n+3, 3), 2)+1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A324468
@@ -5267,7 +5270,7 @@ end A324468
 
 The programs for A324469, the canonical program `A324469.P7402348818447187183` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324469 has offset 0).
 
-The definition of A324469 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000989, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A324469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A324469.P7402348818447187183
@@ -5714,7 +5717,7 @@ end A324470
 /-!
 # A324471: a(n) = 10 mod n.
 
-The programs for A324471, the canonical program `A324471.P15416505600227344223` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324471 has offset 1).
+The programs for A324471, the canonical program `A324471.P15416505600227344223` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324471 has offset 1).
 
 The definition of A324471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5723,7 +5726,7 @@ The definition of A324471 is `conjectured`: the Lean definition is a formula tha
 
 `and(15, 10%(n+1))`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A324471
@@ -5741,7 +5744,7 @@ end A324471
 /-!
 # A324472: a(n) = 1000 mod n.
 
-The programs for A324472, the canonical program `A324472.P9683868638575580254` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324472 has offset 1).
+The programs for A324472, the canonical program `A324472.P9683868638575580254` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324472 has offset 1).
 
 The definition of A324472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5750,7 +5753,7 @@ The definition of A324472 is `conjectured`: the Lean definition is a formula tha
 
 `A038459(A059126(3*n+1))%(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A324472
@@ -6169,7 +6172,7 @@ end A324477
 /-!
 # A324478: a(n) = (6/((n+1)*(n+2)*(n+3))) * multinomial(4*n;n,n,n,n).
 
-The programs for A324478, the canonical program `A324478.P1806508435241413495` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324478 has offset 0).
+The programs for A324478, the canonical program `A324478.P1806508435241413495` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324478 has offset 0).
 
 The definition of A324478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6178,7 +6181,7 @@ The definition of A324478 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*(4*n)!/(n!^3*(n+3)!)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A324478
@@ -6518,6 +6521,23 @@ end A324484.P13387056113037312680
 The programs for A324485, there is no canonical definition to state claims against.
 -/
 
+/-! ## A324485.P10415754439883714411
+
+`A324484(n+1)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A324485.P10415754439883714411
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A324484 (n + 1) : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A324485.P10415754439883714411
+
 /-! ## A324485.P15735106376271294508
 
 `∑{d}[n+1, A032198(#)*A361019((n+1)/#)]`
@@ -6535,21 +6555,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324485.P15735106376271294508
-
-/-! ## A324485.P10415754439883714411
-
-`A324484(n+1)/(n+1)`
--/
-
-namespace A324485.P10415754439883714411
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A324484 (n + 1) : ℚ) / (n + 1 : ℚ)
-
-end
-
-end A324485.P10415754439883714411
 
 /-! ## A324485.P11415065310946121921
 
@@ -7071,6 +7076,8 @@ The programs for A324489, there is no canonical definition to state claims again
 /-! ## A324489.P6000390153453094978
 
 `A324488(n+1)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A324489.P6000390153453094978
@@ -7235,6 +7242,8 @@ The programs for A324492, there is no canonical definition to state claims again
 /-! ## A324492.P7500346570892071435
 
 `A324491(n+1)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A324492.P7500346570892071435

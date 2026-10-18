@@ -2,17 +2,16 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C033
-import Seq.B001.C000
+import Seq.B000.C021
+import Seq.B000.C025
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C006
@@ -22,20 +21,24 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C001
+import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -60,7 +63,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A393700: Numbers multiplied by 2 conjecturally not occurring in A393562.
@@ -658,27 +660,52 @@ end A393716.P7758643460211258884
 /-!
 # A393719: Sum of next n octahedral numbers (A005900).
 
-The programs for A393719, the canonical program `A393719.P4028365157730979022` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393719 has offset 1).
+The programs for A393719, the canonical program `A393719.P13019433132294518856` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393719 has offset 1).
 
-The definition of A393719 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A393719 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A393719.P13019433132294518856
+
+`(n+1)*((n+1)²+1)²*((n+1)²+2)/12`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A393719
+
+/-- `(n+1)*((n+1)²+1)²*((n+1)²+2)/12` -/
+def P13019433132294518856.Spec : Prop :=
+  ∀ n, P13019433132294518856.a n = (A393719 (n + 1) : ℚ)
+
+end A393719
 
 /-! ## A393719.P4028365157730979022
 
 `Δ[A006325(∑[A028310(n)])]`
-
-The canonical program, it is in `Seq.B002.C006`.
 -/
+
+namespace A393719.P4028365157730979022
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028310 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006325 (∑ j ∈ Finset.range (n + 1), f2 j).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A393719.P4028365157730979022
 
 namespace A393719
 
 /-- `Δ[A006325(∑[A028310(n)])]` -/
 def P4028365157730979022.Spec : Prop :=
   ∀ n, P4028365157730979022.a n = A393719 (n + 1)
-
-theorem P4028365157730979022.correct : P4028365157730979022.Spec := by
-  intro n
-  simp only [A393719, Nat.add_sub_cancel]
 
 end A393719
 
@@ -1845,6 +1872,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393793.P2512503173924234540
+
+/-!
+# A393794: Fixed points of the 1089-trick map T(n) = |n - reverse(n)| + reverse(|n - reverse(n)|).
+
+The programs for A393794, the canonical program `A393794.P17029044210723335748` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393794 has offset 1).
+
+The definition of A393794 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A393794.P17029044210723335748
+
+`110*(10^(n+2)-1)`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A393794
+
+/-- `110*(10^(n+2)-1)` -/
+def P17029044210723335748.Spec : Prop :=
+  ∀ n, P17029044210723335748.a n = A393794 (n + 1)
+
+theorem P17029044210723335748.correct : P17029044210723335748.Spec := by
+  intro n
+  simp only [A393794, Nat.add_sub_cancel]
+
+end A393794
 
 /-!
 # A393795: 7-smooth numbers that are averages of twin prime pairs.

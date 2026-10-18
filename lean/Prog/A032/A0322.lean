@@ -12,31 +12,29 @@ import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,12 +46,12 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -61,6 +59,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3786,50 +3786,46 @@ end A032262.P18324506088819689855
 /-!
 # A032263: Number of ways to partition n labeled elements into 4 pie slices allowing the pie to be turned over; number of 2-element proper antichains of an n-element set.
 
-The programs for A032263, the canonical program `A032263.P18022686903527105340` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032263 has offset 1).
+The programs for A032263, the canonical program `A032263.P9062424155737793790` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032263 has offset 1).
 
-The definition of A032263 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A032263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A032263.P7915230459184973842
+/-! ## A032263.P9062424155737793790
 
-`(4^n-(3*(3^n-2^n)+1))/2`
+`(4^(n+1)-4*3^(n+1)+6*2^(n+1)-4)/8`
+
+The canonical program, it is in `Seq.B000.C005`.
 -/
-
-namespace A032263.P7915230459184973842
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((4 ^ n : ℤ) - (3 * ((3 ^ n : ℤ) - (2 ^ n : ℤ)) + 1) : ℚ) / 2
-
-end
-
-end A032263.P7915230459184973842
 
 namespace A032263
 
-/-- `(4^n-(3*(3^n-2^n)+1))/2` -/
-def P7915230459184973842.Spec : Prop :=
-  ∀ n, P7915230459184973842.a n = (A032263 (n + 1) : ℚ)
+/-- `(4^(n+1)-4*3^(n+1)+6*2^(n+1)-4)/8` -/
+def P9062424155737793790.Spec : Prop :=
+  ∀ n, P9062424155737793790.a n = (A032263 (n + 1) : ℚ)
 
 end A032263
 
 /-! ## A032263.P18022686903527105340
 
 `A134019(n)-2^n`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A032263.P18022686903527105340
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134019 n - (2 ^ n : ℤ)
+
+end
+
+end A032263.P18022686903527105340
 
 namespace A032263
 
 /-- `A134019(n)-2^n` -/
 def P18022686903527105340.Spec : Prop :=
   ∀ n, P18022686903527105340.a n = A032263 (n + 1)
-
-theorem P18022686903527105340.correct : P18022686903527105340.Spec := by
-  intro n
-  simp only [A032263, Nat.add_sub_cancel]
 
 end A032263
 
@@ -4628,6 +4624,51 @@ end A032274.P12912784455620009804
 The programs for A032275, there is no canonical definition to state claims against.
 -/
 
+/-! ## A032275.P12201256625720959092
+
+`(A001868(n+1)+A056486(n+1))/2`
+-/
+
+namespace A032275.P12201256625720959092
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001868 (n + 1) + A056486 (n + 1) : ℚ) / 2
+
+end
+
+end A032275.P12201256625720959092
+
+/-! ## A032275.P7067883519557633143
+
+`A278640(n+1)+A056486(n+1)`
+-/
+
+namespace A032275.P7067883519557633143
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278640 (n + 1) + A056486 (n + 1)
+
+end
+
+end A032275.P7067883519557633143
+
+/-! ## A032275.P9996040266810820668
+
+`A001868(n+1)-A278640(n+1)`
+-/
+
+namespace A032275.P9996040266810820668
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001868 (n + 1) - A278640 (n + 1)
+
+end
+
+end A032275.P9996040266810820668
+
 /-! ## A032275.P17405331758039377536
 
 `∑{d}[n+1, A032295(#)]`
@@ -4721,6 +4762,51 @@ end A032275.P1846553654377024659
 The programs for A032276, there is no canonical definition to state claims against.
 -/
 
+/-! ## A032276.P12727432843223573282
+
+`(A001869(n+1)+A056487(n+2))/2`
+-/
+
+namespace A032276.P12727432843223573282
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001869 (n + 1) + A056487 (n + 2) : ℚ) / 2
+
+end
+
+end A032276.P12727432843223573282
+
+/-! ## A032276.P1779440369880058544
+
+`A001869(n+1)-A278641(n+1)`
+-/
+
+namespace A032276.P1779440369880058544
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001869 (n + 1) - A278641 (n + 1)
+
+end
+
+end A032276.P1779440369880058544
+
+/-! ## A032276.P11496351822374416027
+
+`A278641(n+1)+A056487(n+2)`
+-/
+
+namespace A032276.P11496351822374416027
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278641 (n + 1) + A056487 (n + 2)
+
+end
+
+end A032276.P11496351822374416027
+
 /-! ## A032276.P1190212345130190668
 
 `∑{d}[n+1, A032296(#)]`
@@ -4756,51 +4842,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032276.P8505923120723047506
-
-/-! ## A032276.P1779440369880058544
-
-`A001869(n+1)-A278641(n+1)`
--/
-
-namespace A032276.P1779440369880058544
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001869 (n + 1) - A278641 (n + 1)
-
-end
-
-end A032276.P1779440369880058544
-
-/-! ## A032276.P11496351822374416027
-
-`A278641(n+1)+A056487(n+2)`
--/
-
-namespace A032276.P11496351822374416027
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278641 (n + 1) + A056487 (n + 2)
-
-end
-
-end A032276.P11496351822374416027
-
-/-! ## A032276.P18168546113653057539
-
-`A278641(n+1)+A163114(n+2)`
--/
-
-namespace A032276.P18168546113653057539
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278641 (n + 1) + A163114 (n + 2)
-
-end
-
-end A032276.P18168546113653057539
 
 /-!
 # A032277: Number of ways to partition n elements into pie slices each with an odd number of elements allowing the pie to be turned over.

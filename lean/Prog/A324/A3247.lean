@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -12,37 +13,38 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -56,11 +58,13 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1461,7 +1465,7 @@ end A324717.P8735770814299107480
 /-!
 # A324718: Odd numbers n for which bitand(2n,sigma(n)) = 2*bitand(n,sigma(n)-n), where bitand is bitwise-AND, A004198.
 
-The programs for A324718, the canonical program `A324718.P17421159723006763235` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324718 has offset 1).
+The programs for A324718, the canonical program `A324718.P17421159723006763235` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324718 has offset 1).
 
 The definition of A324718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5879 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1470,7 +1474,7 @@ The definition of A324718 is `conjectured`: the Lean definition is a formula tha
 
 `A324639(eq[1, A324639(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A324718
@@ -4578,6 +4582,21 @@ end A324738.P10046076163540852859
 The programs for A324740, there is no canonical definition to state claims against.
 -/
 
+/-! ## A324740.P6848177418954768632
+
+`A003292(n+1)-A008619(n+1)`
+-/
+
+namespace A324740.P6848177418954768632
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003292 (n + 1) - A008619 (n + 1)
+
+end
+
+end A324740.P6848177418954768632
+
 /-! ## A324740.P13394907465553725546
 
 `∑[A186417(n+1)-and(1, n)]`
@@ -4610,21 +4629,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324740.P15130075436567353336
-
-/-! ## A324740.P6848177418954768632
-
-`A003292(n+1)-A008619(n+1)`
--/
-
-namespace A324740.P6848177418954768632
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003292 (n + 1) - A008619 (n + 1)
-
-end
-
-end A324740.P6848177418954768632
 
 /-! ## A324740.P17690899093675004542
 
@@ -4839,7 +4843,7 @@ end A324742.P12387926989546323051
 /-!
 # A324745: Numbers k with exactly two distinct prime factors and such that phi(k) is a square.
 
-The programs for A324745, the canonical program `A324745.P1964975310352198901` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324745 has offset 1).
+The programs for A324745, the canonical program `A324745.P1964975310352198901` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324745 has offset 1).
 
 The definition of A324745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4848,7 +4852,7 @@ The definition of A324745 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A007774(n+1), A039770(n+1)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A324745
@@ -10172,7 +10176,7 @@ end A324798.P16987021086318377213
 /-!
 # A324799: Symmetric square array read by antidiagonals: T(n,k) = p(n)*p(k)-p(n*k), where p(i) = prime(i), for n>=1, k>=1.
 
-The programs for A324799, the canonical program `A324799.P15549843488400113216` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324799 has offset 1).
+The programs for A324799, the canonical program `A324799.P15549843488400113216` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324799 has offset 1).
 
 The definition of A324799 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10181,7 +10185,7 @@ The definition of A324799 is `conjectured`: the Lean definition is a formula tha
 
 `A098350(n+1)-A000040(A003991(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A324799

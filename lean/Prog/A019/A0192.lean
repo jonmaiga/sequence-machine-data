@@ -1,38 +1,41 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C017
+import Seq.B000.C021
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B002.C000
-import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C001
+import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -56,7 +59,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A019201: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NAT = Natrolite Na16[Al16Si24O80].16H2O starting from a T2 atom.
@@ -1237,6 +1240,21 @@ end A019276.P13857657448168947712
 The programs for A019277, there is no canonical definition to state claims against.
 -/
 
+/-! ## A019277.P14265672312044144885
+
+`A019294(A019276(n+1))`
+-/
+
+namespace A019277.P14265672312044144885
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019294 (A019276 (n + 1)).toNat
+
+end
+
+end A019277.P14265672312044144885
+
 /-! ## A019277.P10908098906407705259
 
 `record[A019294(n+1)]`
@@ -1254,21 +1272,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A019277.P10908098906407705259
-
-/-! ## A019277.P14265672312044144885
-
-`A019294(A019276(n+1))`
--/
-
-namespace A019277.P14265672312044144885
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019294 (A019276 (n + 1)).toNat
-
-end
-
-end A019277.P14265672312044144885
 
 /-!
 # A019278: Numbers j such that sigma(sigma(j)) = k*j for some k.
@@ -1440,21 +1443,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A019279.P10950283775935155685
-
-/-! ## A019279.P4549664743180767429
-
-`sqrt(A152921(n+1))`
--/
-
-namespace A019279.P4549664743180767429
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A152921 (n + 1) : ℝ)
-
-end
-
-end A019279.P4549664743180767429
 
 /-!
 # A019280: Let sigma_m(n) be result of applying the sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m(n) = k*n; sequence gives log_2 of the (2,2)-perfect numbers.

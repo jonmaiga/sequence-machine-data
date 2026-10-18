@@ -5,40 +5,38 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C031
+import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -59,9 +57,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -152,7 +148,7 @@ end A159547.P17266818636111585523
 /-!
 # A159551: a(n) = 101*n + 10.
 
-The programs for A159551, the canonical program `A159551.P10438509804483078032` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159551 has offset 0).
+The programs for A159551, the canonical program `A159551.P10438509804483078032` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159551 has offset 0).
 
 The definition of A159551 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `101*n+10` (program `A159551.P10438509804483078032`, by `A159551.P10438509804483078032.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -161,7 +157,7 @@ The definition of A159551 is `verified`: the Lean definition is proven equivalen
 
 `101*n+10`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A159551
@@ -182,20 +178,20 @@ end A159551
 The programs for A159553, there is no canonical definition to state claims against.
 -/
 
-/-! ## A159553.P13635758043899336458
+/-! ## A159553.P1613638877878603596
 
-`A159068(n+1)+1+n`
+`A159068(n+1)+n+1`
 -/
 
-namespace A159553.P13635758043899336458
+namespace A159553.P1613638877878603596
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159068 (n + 1) + 1 + (n : ℤ)
+  A159068 (n + 1) + (n + 1 : ℤ)
 
 end
 
-end A159553.P13635758043899336458
+end A159553.P1613638877878603596
 
 /-! ## A159553.P14866981679700840297
 
@@ -242,26 +238,28 @@ end
 
 end A159553.P3212172458664735057
 
-/-! ## A159553.P8438374365581819215
-
-`A159068(A077168(n))+n+1`
--/
-
-namespace A159553.P8438374365581819215
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159068 (A077168 n).toNat + (n + 1 : ℤ)
-
-end
-
-end A159553.P8438374365581819215
-
 /-!
 # A159554: a(n) = A159553(n)/n.
 
 The programs for A159554, there is no canonical definition to state claims against.
 -/
+
+/-! ## A159554.P17486129621723674390
+
+`A159553(n+1)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A159554.P17486129621723674390
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A159553 (n + 1) : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A159554.P17486129621723674390
 
 /-! ## A159554.P17289574134505742982
 
@@ -277,21 +275,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159554.P17289574134505742982
-
-/-! ## A159554.P17486129621723674390
-
-`A159553(n+1)/(n+1)`
--/
-
-namespace A159554.P17486129621723674390
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A159553 (n + 1) : ℚ) / (n + 1 : ℚ)
-
-end
-
-end A159554.P17486129621723674390
 
 /-! ## A159554.P13160774853742600938
 
@@ -812,7 +795,7 @@ end A159580.P7247271428637215761
 /-!
 # A159582: Expansion of (1+6*x+x^2-2*x^3)/((x^2+2*x-1)*(x^2-2*x-1)), bisection is NSW numbers.
 
-The programs for A159582, the canonical program `A159582.P3032679351292986317` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159582 has offset 0).
+The programs for A159582, the canonical program `A159582.P3032679351292986317` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159582 has offset 0).
 
 The definition of A159582 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -821,7 +804,7 @@ The definition of A159582 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)` with `a(0)=1, a(1)=6, a(2)=7, a(3)=34`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A159582

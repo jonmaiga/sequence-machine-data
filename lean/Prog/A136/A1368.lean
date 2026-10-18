@@ -5,19 +5,18 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,12 +42,12 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -74,12 +73,11 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A136800: Number of composites in prime gaps of size 3 or larger, in order of appearance.
 
-The programs for A136800, the canonical program `A136800.P8889398827105192195` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136800 has offset 1).
+The programs for A136800, the canonical program `A136800.P8889398827105192195` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136800 has offset 1).
 
 The definition of A136800 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A136798, A136799, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -88,7 +86,7 @@ The definition of A136800 is `conditional`: the Lean definition is an OEIS formu
 
 `A136799(n+1)-A136798(n+1)+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A136800
@@ -6020,7 +6018,7 @@ end A136852.P14592980974746842310
 /-!
 # A136853: Numbers k such that k and k^2 use only the digits 0, 1, 3, and 9.
 
-The programs for A136853, the canonical program `A136853.P9307651076024166048` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136853 has offset 1).
+The programs for A136853, the canonical program `A136853.P9307651076024166048` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136853 has offset 1).
 
 The definition of A136853 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6029,7 +6027,7 @@ The definition of A136853 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-2)` with `a(0)=0, a(1)=1, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136853
@@ -6376,7 +6374,7 @@ end A136858.P68981534148652650
 /-!
 # A136859: Numbers k such that k and k^2 use only the digits 0, 1, 4 and 6.
 
-The programs for A136859, the canonical program `A136859.P8638019729773281219` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136859 has offset 1).
+The programs for A136859, the canonical program `A136859.P8638019729773281219` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136859 has offset 1).
 
 The definition of A136859 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6385,7 +6383,7 @@ The definition of A136859 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-2)` with `a(0)=0, a(1)=1, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A136859

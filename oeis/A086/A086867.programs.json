@@ -14,6 +14,10 @@
         "/",
         "abs",
         "floor"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

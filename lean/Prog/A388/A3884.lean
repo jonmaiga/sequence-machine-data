@@ -3,20 +3,21 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C007
-import Seq.B000.C016
-import Seq.B000.C021
-import Seq.B000.C034
+import Seq.B000.C017
+import Seq.B000.C022
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C010
 import Seq.B002.C000
-import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C005
+import Seq.B003.C002
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C001
+import Seq.B011.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -26,10 +27,9 @@ import Seq.Opaque.C006
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C015
-import Seq.Opaque.C018
+import Seq.Opaque.C017
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -324,9 +324,30 @@ end
 end A388418.P4625365656105006662
 
 /-!
+# A388423: Arithmetic mean of the primes with n decimal digits, rounded to nearest integer.
+
+The programs for A388423, there is no canonical definition to state claims against.
+-/
+
+/-! ## A388423.P3823635476621280925
+
+`round(A077645(n+1)/A006879(n+1))`
+-/
+
+namespace A388423.P3823635476621280925
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A077645 (n + 1) : ℚ) / (A006879 (n + 1) : ℚ))
+
+end
+
+end A388423.P3823635476621280925
+
+/-!
 # A388424: Number of axis-aligned 2 X 2 squares in the 3D projection of a (3n+2)-dimensional hypercube with side length 2.
 
-The programs for A388424, the canonical program `A388424.P17691383906920712434` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388424 has offset 0).
+The programs for A388424, the canonical program `A388424.P17691383906920712434` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388424 has offset 0).
 
 The definition of A388424 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -335,7 +356,7 @@ The definition of A388424 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*2^(3*n)-16*2^(2*n)+5*2^n`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A388424
@@ -529,7 +550,7 @@ end A388426.P5009095231202360220
 /-!
 # A388427: Composite numbers that are squarefree or prime powers.
 
-The programs for A388427, the canonical program `A388427.P2071951571592344279` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388427 has offset 1).
+The programs for A388427, the canonical program `A388427.P2071951571592344279` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388427 has offset 1).
 
 The definition of A388427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -538,7 +559,7 @@ The definition of A388427 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A303554(n+1), A066247(#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A388427

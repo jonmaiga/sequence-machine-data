@@ -1,11 +1,11 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -13,12 +13,10 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
@@ -28,8 +26,8 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,22 +39,24 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,6 +80,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A203800: a(n) = (1/n) * Sum_{d|n} moebius(n/d) * Lucas(d)^(d-1), where Lucas(n) = A000032(n).
@@ -408,7 +412,7 @@ end A203818.P7117731641656811844
 /-!
 # A203819: Number of (n+1)X2 0..3 arrays with no 2X2 subblock having equal diagonal elements or equal antidiagonal elements.
 
-The programs for A203819, the canonical program `A203819.P15921634918125586566` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203819 has offset 1).
+The programs for A203819, the canonical program `A203819.P15921634918125586566` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203819 has offset 1).
 
 The definition of A203819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -417,7 +421,7 @@ The definition of A203819 is `conjectured`: the Lean definition is a formula tha
 
 `(12*3^n)²`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A203819
@@ -475,6 +479,23 @@ namespace A203819
 /-- `9*a(n-1)` -/
 def P17875811132400966644.Spec : Prop :=
   ∀ n, (P17875811132400966644.a n : ℤ) = A203819 (n + 1)
+
+theorem P17875811132400966644.correct : P17875811132400966644.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A203819, Nat.add_sub_cancel, A203819.P17875811132400966644.a, A203819.P15921634918125586566.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A203819, Nat.add_sub_cancel, A203819.P17875811132400966644.a, A203819.P15921634918125586566.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A203819
 
@@ -5443,50 +5464,20 @@ end A203871.P10992963720217072079
 The programs for A203872, there is no canonical definition to state claims against.
 -/
 
-/-! ## A203872.P835813524714386196
+/-! ## A203872.P5591323496105623381
 
-`3*A285400(n+1)+1`
+`54*21^n+1`
 -/
 
-namespace A203872.P835813524714386196
+namespace A203872.P5591323496105623381
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A285400 (n + 1) + 1
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  54 * 21 ^ n + 1
 
 end
 
-end A203872.P835813524714386196
-
-/-! ## A203872.P545504086400455364
-
-`6*A067422(n+1)+1`
--/
-
-namespace A203872.P545504086400455364
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  6 * A067422 (n + 1) + 1
-
-end
-
-end A203872.P545504086400455364
-
-/-! ## A203872.P9637838890085450864
-
-`12*A233077(n+1)-5`
--/
-
-namespace A203872.P9637838890085450864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  12 * A233077 (n + 1) - 5
-
-end
-
-end A203872.P9637838890085450864
+end A203872.P5591323496105623381
 
 /-! ## A203872.P6937203601657182985
 

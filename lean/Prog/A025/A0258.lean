@@ -6,14 +6,15 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -22,24 +23,21 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
@@ -53,6 +51,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6325,7 +6324,7 @@ end A025818
 /-!
 # A025819: Expansion of 1/((1-x^2)*(1-x^7)*(1-x^11)).
 
-The programs for A025819, the canonical program `A025819.P11076762606207294636` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025819 has offset 0).
+The programs for A025819, the canonical program `A025819.P11076762606207294636` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025819 has offset 0).
 
 The definition of A025819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6403,7 +6402,7 @@ end A025819
 
 `A029202(n)+A029217(n)-A029193(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025819
@@ -7029,7 +7028,7 @@ end A025821
 /-!
 # A025822: Expansion of 1/((1-x^2)*(1-x^8)*(1-x^11)).
 
-The programs for A025822, the canonical program `A025822.P12182443523741102345` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025822 has offset 0).
+The programs for A025822, the canonical program `A025822.P12182443523741102345` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025822 has offset 0).
 
 The definition of A025822 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7110,7 +7109,7 @@ end A025822
 
 `A029206(n)+A029220(n)-A029194(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025822
@@ -7336,7 +7335,7 @@ end A025822
 /-!
 # A025823: Expansion of 1/((1-x^2)*(1-x^9)*(1-x^10)).
 
-The programs for A025823, the canonical program `A025823.P1335691272625039910` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025823 has offset 0).
+The programs for A025823, the canonical program `A025823.P1335691272625039910` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025823 has offset 0).
 
 The definition of A025823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7368,7 +7367,7 @@ end A025823
 
 `A025792(n)-A025826(abs(A023443(n)))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025823
@@ -8030,7 +8029,7 @@ end A025825
 /-!
 # A025826: Expansion of 1/((1-x^2)*(1-x^10)*(1-x^11)).
 
-The programs for A025826, the canonical program `A025826.P17755586261082147753` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025826 has offset 0).
+The programs for A025826, the canonical program `A025826.P17755586261082147753` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025826 has offset 0).
 
 The definition of A025826 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8039,7 +8038,7 @@ The definition of A025826 is `conjectured`: the Lean definition is a formula tha
 
 `A025793(n)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025826
@@ -8152,7 +8151,7 @@ end A025826
 /-!
 # A025827: Expansion of 1/((1-x^2)*(1-x^11)*(1-x^12)).
 
-The programs for A025827, the canonical program `A025827.P6655509117065246378` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025827 has offset 0).
+The programs for A025827, the canonical program `A025827.P6655509117065246378` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025827 has offset 0).
 
 The definition of A025827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8184,7 +8183,7 @@ end A025827
 
 `A025875(abs(2-n))+A025875(n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A025827
@@ -11717,7 +11716,7 @@ end A025836
 /-!
 # A025837: Expansion of 1/((1-x^3)*(1-x^5)*(1-x^9)).
 
-The programs for A025837, the canonical program `A025837.P14089993397480469275` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025837 has offset 0).
+The programs for A025837, the canonical program `A025837.P14089993397480469275` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025837 has offset 0).
 
 The definition of A025837 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11726,7 +11725,7 @@ The definition of A025837 is `conjectured`: the Lean definition is a formula tha
 
 `A025904(A047242(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025837
@@ -14225,7 +14224,7 @@ end A025847
 /-!
 # A025848: Expansion of 1/((1-x^3)*(1-x^7)*(1-x^11)).
 
-The programs for A025848, the canonical program `A025848.P473912941604464966` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025848 has offset 0).
+The programs for A025848, the canonical program `A025848.P473912941604464966` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025848 has offset 0).
 
 The definition of A025848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14280,7 +14279,7 @@ end A025848
 
 `A029280(n)+A029295(n)-A029272(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A025848
@@ -15068,7 +15067,7 @@ end A025851
 /-!
 # A025852: Expansion of 1/((1-x^3)*(1-x^8)*(1-x^11)).
 
-The programs for A025852, the canonical program `A025852.P12461268655805797422` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025852 has offset 0).
+The programs for A025852, the canonical program `A025852.P12461268655805797422` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025852 has offset 0).
 
 The definition of A025852 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15077,7 +15076,7 @@ The definition of A025852 is `conjectured`: the Lean definition is a formula tha
 
 `A029056(n)+A029163(n)-A029026(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025852
@@ -15855,7 +15854,7 @@ end A025855
 /-!
 # A025856: Expansion of 1/((1-x^3)*(1-x^10)*(1-x^11)).
 
-The programs for A025856, the canonical program `A025856.P13919053735689660707` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025856 has offset 0).
+The programs for A025856, the canonical program `A025856.P13919053735689660707` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025856 has offset 0).
 
 The definition of A025856 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15887,7 +15886,7 @@ end A025856
 
 `A029269(n)+A029303(n)-A029255(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025856
@@ -19107,7 +19106,7 @@ end A025869
 /-!
 # A025870: Expansion of 1/((1-x^4)*(1-x^7)*(1-x^11)).
 
-The programs for A025870, the canonical program `A025870.P5911728511515181031` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025870 has offset 0).
+The programs for A025870, the canonical program `A025870.P5911728511515181031` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025870 has offset 0).
 
 The definition of A025870 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19116,7 +19115,7 @@ The definition of A025870 is `conjectured`: the Lean definition is a formula tha
 
 `A025819(n)-a(n-2)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025870
@@ -19615,7 +19614,7 @@ end A025872
 /-!
 # A025873: Expansion of 1/((1-x^4)*(1-x^8)*(1-x^11)).
 
-The programs for A025873, the canonical program `A025873.P5381280088767422106` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025873 has offset 0).
+The programs for A025873, the canonical program `A025873.P5381280088767422106` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025873 has offset 0).
 
 The definition of A025873 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19647,7 +19646,7 @@ end A025873
 
 `A025853(n)+A025875(n)-A025858(n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A025873
@@ -20783,7 +20782,7 @@ end A025877
 /-!
 # A025878: Expansion of 1/((1-x^5)*(1-x^6)*(1-x^9)).
 
-The programs for A025878, the canonical program `A025878.P1279235894174252568` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025878 has offset 0).
+The programs for A025878, the canonical program `A025878.P1279235894174252568` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025878 has offset 0).
 
 The definition of A025878 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20792,7 +20791,7 @@ The definition of A025878 is `conjectured`: the Lean definition is a formula tha
 
 `A025837(n)-a(n-3)` with `a(0)=1, a(1)=0, a(2)=0`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025878
@@ -21200,7 +21199,7 @@ end A025879
 /-!
 # A025880: Expansion of 1/((1-x^5)*(1-x^6)*(1-x^11)).
 
-The programs for A025880, the canonical program `A025880.P2768374886108930625` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025880 has offset 0).
+The programs for A025880, the canonical program `A025880.P2768374886108930625` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025880 has offset 0).
 
 The definition of A025880 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21209,7 +21208,7 @@ The definition of A025880 is `conjectured`: the Lean definition is a formula tha
 
 `A025839(n)-a(n-3)` with `a(0)=1, a(1)=0, a(2)=0`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A025880
@@ -22090,7 +22089,7 @@ end A025884
 /-!
 # A025885: Expansion of 1/((1-x^5)*(1-x^7)*(1-x^11)).
 
-The programs for A025885, the canonical program `A025885.P12884235664403199703` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025885 has offset 0).
+The programs for A025885, the canonical program `A025885.P12884235664403199703` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025885 has offset 0).
 
 The definition of A025885 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22122,7 +22121,7 @@ end A025885
 
 `A025881(n)+A025917(n)-A025907(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025885
@@ -22299,7 +22298,7 @@ end A025885
 /-!
 # A025886: Expansion of 1/((1-x^5)*(1-x^7)*(1-x^12)).
 
-The programs for A025886, the canonical program `A025886.P3392264516869231449` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025886 has offset 0).
+The programs for A025886, the canonical program `A025886.P3392264516869231449` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025886 has offset 0).
 
 The definition of A025886 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22308,7 +22307,7 @@ The definition of A025886 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A029108(n)-A025916(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025886
@@ -22776,7 +22775,7 @@ end A025888
 /-!
 # A025889: Expansion of 1/((1-x^5)*(1-x^8)*(1-x^11)).
 
-The programs for A025889, the canonical program `A025889.P201501614113230032` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025889 has offset 0).
+The programs for A025889, the canonical program `A025889.P201501614113230032` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025889 has offset 0).
 
 The definition of A025889 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22785,7 +22784,7 @@ The definition of A025889 is `conjectured`: the Lean definition is a formula tha
 
 `A025921(abs(5-n))+A025921(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025889
@@ -23032,7 +23031,7 @@ end A025890
 /-!
 # A025891: Expansion of 1/((1-x^5)*(1-x^9)*(1-x^10)).
 
-The programs for A025891, the canonical program `A025891.P14055655903813702099` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025891 has offset 0).
+The programs for A025891, the canonical program `A025891.P14055655903813702099` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025891 has offset 0).
 
 The definition of A025891 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23041,7 +23040,7 @@ The definition of A025891 is `conjectured`: the Lean definition is a formula tha
 
 `A025862(n)+A025904(n)-A025865(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025891
@@ -23445,7 +23444,7 @@ end A025893
 /-!
 # A025894: Expansion of 1/((1-x^5)*(1-x^10)*(1-x^11)).
 
-The programs for A025894, the canonical program `A025894.P11663709307742991150` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025894 has offset 0).
+The programs for A025894, the canonical program `A025894.P11663709307742991150` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025894 has offset 0).
 
 The definition of A025894 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23454,7 +23453,7 @@ The definition of A025894 is `conjectured`: the Lean definition is a formula tha
 
 `A029103(n)+A029409(n)-A029101(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025894
@@ -23753,7 +23752,7 @@ end A025895
 /-!
 # A025896: Expansion of 1/((1-x^5)*(1-x^11)*(1-x^12)).
 
-The programs for A025896, the canonical program `A025896.P9302578031106192194` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025896 has offset 0).
+The programs for A025896, the canonical program `A025896.P9302578031106192194` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025896 has offset 0).
 
 The definition of A025896 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23762,7 +23761,7 @@ The definition of A025896 is `conjectured`: the Lean definition is a formula tha
 
 `A025875(n)+A025885(n)-A025871(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A025896

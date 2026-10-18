@@ -7,9 +7,10 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -18,25 +19,24 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C027
 import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -45,6 +45,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -52,6 +53,8 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,7 +79,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A209100: T(n,k)=Number of nXk 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
@@ -162,7 +164,7 @@ end A209100.P16585289464433022384
 /-!
 # A209101: Number of 2 X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A209101, the canonical program `A209101.P11173671810188518875` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209101 has offset 1).
+The programs for A209101, the canonical program `A209101.P11173671810188518875` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209101 has offset 1).
 
 The definition of A209101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -171,7 +173,7 @@ The definition of A209101 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-1)-8*a(n-2)` with `a(0)=2, a(1)=11, a(2)=76`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A209101
@@ -5391,6 +5393,29 @@ The programs for A209187, the canonical program `A209187.P1822992089248699320` i
 The definition of A209187 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
+/-! ## A209187.P12274877434959415231
+
+`A065387(n+1)-(n+1)`
+-/
+
+namespace A209187.P12274877434959415231
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065387 (n + 1) - (n + 1 : ℤ)
+
+end
+
+end A209187.P12274877434959415231
+
+namespace A209187
+
+/-- `A065387(n+1)-(n+1)` -/
+def P12274877434959415231.Spec : Prop :=
+  ∀ n, P12274877434959415231.a n = A209187 (n + 1)
+
+end A209187
+
 /-! ## A209187.P1822992089248699320
 
 `A000203(n+1)-A051953(n+1)`
@@ -5462,29 +5487,6 @@ namespace A209187
 /-- `A051709(n+1)+1+n` -/
 def P5635027380807072933.Spec : Prop :=
   ∀ n, P5635027380807072933.a n = A209187 (n + 1)
-
-end A209187
-
-/-! ## A209187.P12274877434959415231
-
-`A065387(n+1)-(n+1)`
--/
-
-namespace A209187.P12274877434959415231
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065387 (n + 1) - (n + 1 : ℤ)
-
-end
-
-end A209187.P12274877434959415231
-
-namespace A209187
-
-/-- `A065387(n+1)-(n+1)` -/
-def P12274877434959415231.Spec : Prop :=
-  ∀ n, P12274877434959415231.a n = A209187 (n + 1)
 
 end A209187
 
@@ -7122,7 +7124,7 @@ end A209197.P11763042784347812857
 /-!
 # A209198: a(n) = 1 if n not == 2 (mod 4) and relatively prime to 63 otherwise 0.
 
-The programs for A209198, the canonical program `A209198.P2237083971532073653` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209198 has offset 1).
+The programs for A209198, the canonical program `A209198.P2237083971532073653` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209198 has offset 1).
 
 The definition of A209198 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7131,7 +7133,7 @@ The definition of A209198 is `conjectured`: the Lean definition is a formula tha
 
 `floor(1/gcd(n+1, ∑[n²]+63))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A209198

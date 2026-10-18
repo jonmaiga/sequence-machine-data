@@ -15,13 +15,15 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,6 +49,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -486,21 +490,6 @@ end A073911.P10105076240695188486
 The programs for A073912, there is no canonical definition to state claims against.
 -/
 
-/-! ## A073912.P1432046499308373593
-
-`A073909(4*(n+1))`
--/
-
-namespace A073912.P1432046499308373593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073909 (4 * (n + 1))
-
-end
-
-end A073912.P1432046499308373593
-
 /-! ## A073912.P13146522791644220967
 
 `A085124(8*(n+1))`
@@ -515,6 +504,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A073912.P13146522791644220967
+
+/-! ## A073912.P1432046499308373593
+
+`A073909(4*(n+1))`
+-/
+
+namespace A073912.P1432046499308373593
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073909 (4 * (n + 1))
+
+end
+
+end A073912.P1432046499308373593
 
 /-!
 # A073913: Number of staircase polygons on the square lattice with perimeter 2n and one (possibly rotated) staircase polygonal hole.
@@ -1646,6 +1650,29 @@ theorem P3226346954737411092.correct : P3226346954737411092.Spec := by
 
 end A073933
 
+/-! ## A073933.P2898139078842011274
+
+`1+a(A060681(n+1)-1)` with `a(0)=1`
+-/
+
+namespace A073933.P2898139078842011274
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  1 + a (A060681 (n + 1) - 1).toNat
+
+end
+
+end A073933.P2898139078842011274
+
+namespace A073933
+
+/-- `1+a(A060681(n+1)-1)` -/
+def P2898139078842011274.Spec : Prop :=
+  ∀ n, (P2898139078842011274.a n : ℤ) = A073933 (n + 1)
+
+end A073933
+
 /-! ## A073933.P13149285028517244968
 
 `A334203(4*(n+1))`
@@ -1721,49 +1748,26 @@ def P5547956088746112476.Spec : Prop :=
 
 end A073933
 
-/-! ## A073933.P10582689992748312968
+/-! ## A073933.P9767467494185060966
 
-`a(A060681(n+1)-1)+1` with `a(0)=1`
+`1+a(A171462(n+1)-1)` with `a(0)=1`
 -/
 
-namespace A073933.P10582689992748312968
+namespace A073933.P9767467494185060966
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (A060681 (n + 1) - 1).toNat + 1
+  1 + a (A171462 (n + 1) - 1).toNat
 
 end
 
-end A073933.P10582689992748312968
+end A073933.P9767467494185060966
 
 namespace A073933
 
-/-- `a(A060681(n+1)-1)+1` -/
-def P10582689992748312968.Spec : Prop :=
-  ∀ n, (P10582689992748312968.a n : ℤ) = A073933 (n + 1)
-
-end A073933
-
-/-! ## A073933.P2132721960047323280
-
-`a(A171462(n+1)-1)+1` with `a(0)=1`
--/
-
-namespace A073933.P2132721960047323280
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (A171462 (n + 1) - 1).toNat + 1
-
-end
-
-end A073933.P2132721960047323280
-
-namespace A073933
-
-/-- `a(A171462(n+1)-1)+1` -/
-def P2132721960047323280.Spec : Prop :=
-  ∀ n, (P2132721960047323280.a n : ℤ) = A073933 (n + 1)
+/-- `1+a(A171462(n+1)-1)` -/
+def P9767467494185060966.Spec : Prop :=
+  ∀ n, (P9767467494185060966.a n : ℤ) = A073933 (n + 1)
 
 end A073933
 
@@ -2098,20 +2102,20 @@ end A073933
 The programs for A073934, there is no canonical definition to state claims against.
 -/
 
-/-! ## A073934.P8276959232980712883
+/-! ## A073934.P17540977209768861224
 
-`a(A060681(n+1)-1)+n+1` with `a(0)=1`
+`n+1+a(A060681(n+1)-1)` with `a(0)=1`
 -/
 
-namespace A073934.P8276959232980712883
+namespace A073934.P17540977209768861224
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (A060681 (n + 1) - 1).toNat + (n + 1)
+  n + 1 + a (A060681 (n + 1) - 1).toNat
 
 end
 
-end A073934.P8276959232980712883
+end A073934.P17540977209768861224
 
 /-! ## A073934.P1281804927483652278
 

@@ -9,47 +9,56 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -653,6 +662,21 @@ end A354414.P5411113936873834826
 The programs for A354415, there is no canonical definition to state claims against.
 -/
 
+/-! ## A354415.P508019486691855856
+
+`A354414(n+1)-A354414(n)`
+-/
+
+namespace A354415.P508019486691855856
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354414 (n + 1) - A354414 n
+
+end
+
+end A354415.P508019486691855856
+
 /-! ## A354415.P4938995023026128327
 
 `eq[1, round(a(floor(n/ϕ)))]-n` with `a(0)=2, a(1)=3, a(2)=5, a(3)=1, a(4)=9, a(5)=2`
@@ -798,21 +822,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354415.P3476985560586013846
-
-/-! ## A354415.P1837075522581553210
-
-`A000045(floor(log((n+1)²))+4)`
--/
-
-namespace A354415.P1837075522581553210
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (⌊Real.log ((n + 1) ^ 2 : ℝ)⌋ + 4).toNat
-
-end
-
-end A354415.P1837075522581553210
 
 /-!
 # A354416: Expansion of e.g.f. (1 - log(1-x))^x.
@@ -2313,6 +2322,21 @@ end A354451.P12090143939460695208
 The programs for A354452, there is no canonical definition to state claims against.
 -/
 
+/-! ## A354452.P13016986762873698674
+
+`A067742(2*(n+1))`
+-/
+
+namespace A354452.P13016986762873698674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067742 (2 * (n + 1))
+
+end
+
+end A354452.P13016986762873698674
+
 /-! ## A354452.P2350729945389096209
 
 `A348406(2*(n+1))-1`
@@ -2387,21 +2411,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A354452.P14218767928171387627
-
-/-! ## A354452.P13016986762873698674
-
-`A067742(2*(n+1))`
--/
-
-namespace A354452.P13016986762873698674
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067742 (2 * (n + 1))
-
-end
-
-end A354452.P13016986762873698674
 
 /-! ## A354452.P2939775998958862468
 
@@ -2547,7 +2556,7 @@ end A354452.P5333736229837402943
 /-!
 # A354454: Nearest integer to sqrt(8*Pi*n).
 
-The programs for A354454, the canonical program `A354454.P13516656335249468132` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354454 has offset 0).
+The programs for A354454, the canonical program `A354454.P13516656335249468132` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354454 has offset 0).
 
 The definition of A354454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2556,7 +2565,7 @@ The definition of A354454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(8*π*n)+1/2)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A354454
@@ -3281,7 +3290,7 @@ end A354465.P18176646864440036818
 /-!
 # A354467: Positive integers whose prime factors are congruent to 1 (mod 12).
 
-The programs for A354467, the canonical program `A354467.P1434315419781372648` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354467 has offset 1).
+The programs for A354467, the canonical program `A354467.P1434315419781372648` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354467 has offset 1).
 
 The definition of A354467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3366 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3290,7 +3299,7 @@ The definition of A354467 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A004611(n+1), A072330(n+1)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A354467

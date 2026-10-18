@@ -14,21 +14,21 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,12 +43,10 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,9 +58,11 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -914,7 +914,7 @@ end A191820.P2083945616869248311
 /-!
 # A191821: a(n) = n*(2^n - n + 1) + 2^(n-1)*(n^2 - 3*n + 2).
 
-The programs for A191821, the canonical program `A191821.P346544873714453477` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191821 has offset 1).
+The programs for A191821, the canonical program `A191821.P346544873714453477` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191821 has offset 1).
 
 The definition of A191821 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 316 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -923,7 +923,7 @@ The definition of A191821 is `conjectured`: the Lean definition is a formula tha
 
 `2*((∑[n]+1)*(2^n-1)+1)`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191821
@@ -2270,7 +2270,7 @@ end A191830
 /-!
 # A191836: The slowest growing sequence that satisfies: a(1) = 1, a(n) is a multiple of n and a(n-1), and a(n) > a(n-1).
 
-The programs for A191836, the canonical program `A191836.P5700790045255042442` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191836 has offset 1).
+The programs for A191836, the canonical program `A191836.P5700790045255042442` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191836 has offset 1).
 
 The definition of A191836 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 157 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2279,7 +2279,7 @@ The definition of A191836 is `conjectured`: the Lean definition is a formula tha
 
 `∏[A143731(n+1)+ceil((n+1)/∏{p}[n+1, (n+1)/#])]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A191836
@@ -3944,7 +3944,7 @@ end A191863.P10131763362544938586
 /-!
 # A191864: a(n) = (a(n-1) + a(n-4)) * (a(n-2) - a(n-3)) with a(1)=1, a(2)=2, a(3)=3 and a(4)=4.
 
-The programs for A191864, the canonical program `A191864.P7648282946048594143` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191864 has offset 1).
+The programs for A191864, the canonical program `A191864.P7648282946048594143` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191864 has offset 1).
 
 The definition of A191864 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(a(n-1)+a(n-4))*(a(n-2)-a(n-3))` (program `A191864.P7648282946048594143`, by `A191864.P7648282946048594143.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3953,7 +3953,7 @@ The definition of A191864 is `verified`: the Lean definition is proven equivalen
 
 `(a(n-1)+a(n-4))*(a(n-2)-a(n-3))` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191864
@@ -4469,7 +4469,7 @@ end A191870.P2891247055125976577
 /-!
 # A191871: a(n) = numerator(n^2 / 2^n).
 
-The programs for A191871, the canonical program `A191871.P1204527680089105261` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191871 has offset 0).
+The programs for A191871, the canonical program `A191871.P1204527680089105261` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191871 has offset 0).
 
 The definition of A191871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4478,7 +4478,7 @@ The definition of A191871 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(n², a(∑[n]%n))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191871
@@ -6340,7 +6340,7 @@ end A191898
 /-!
 # A191899: Number of compositions of odd natural numbers into 8 parts <=n.
 
-The programs for A191899, the canonical program `A191899.P10691144360822715161` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191899 has offset 0).
+The programs for A191899, the canonical program `A191899.P10691144360822715161` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191899 has offset 0).
 
 The definition of A191899 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6349,7 +6349,7 @@ The definition of A191899 is `conjectured`: the Lean definition is a formula tha
 
 `floor((n+1)^8/2)`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A191899

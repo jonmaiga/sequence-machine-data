@@ -1,8 +1,9 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
-import Seq.B000.C005
-import Seq.B000.C015
-import Seq.B000.C033
+import Seq.B000.C006
+import Seq.B000.C016
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C007
@@ -11,34 +12,37 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C006
-import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C005
+import Seq.B003.C004
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B007.C000
+import Seq.B007.C001
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C018
-import Seq.Opaque.C019
-import Seq.Opaque.C022
+import Seq.Opaque.C021
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A398421: Odd numbers of the form p^2*q, where p and q are distinct odd primes.
@@ -567,20 +571,20 @@ end A398421
 The programs for A398431, there is no canonical definition to state claims against.
 -/
 
-/-! ## A398431.P18089638707157121262
+/-! ## A398431.P8871669295355784313
 
-`(n+1)*A398496(n+1)`
+`A398496(n+1)*(n+1)`
 -/
 
-namespace A398431.P18089638707157121262
+namespace A398431.P8871669295355784313
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A398496 (n + 1)
+  A398496 (n + 1) * (n + 1 : ℤ)
 
 end
 
-end A398431.P18089638707157121262
+end A398431.P8871669295355784313
 
 /-!
 # A398440: Main diagonal of the array A398438.
@@ -683,7 +687,7 @@ end A398444.P11982846918386522782
 /-!
 # A398446: Number of permutations of [n] avoiding the pattern 1324 with the maximum element n in position n-2.
 
-The programs for A398446, the canonical program `A398446.P9828870896575089077` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398446 has offset 3).
+The programs for A398446, the canonical program `A398446.P9828870896575089077` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398446 has offset 3).
 
 The definition of A398446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -715,7 +719,7 @@ end A398446
 
 `A394529(n)+A051960(n)`
 
-The canonical program, it is in `Seq.B004.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A398446
@@ -1137,25 +1141,25 @@ end A398487.P13426173209648543789
 /-!
 # A398488: Number of primes between the n-th odd semiprime and the following odd semiprime.
 
-The programs for A398488, the canonical program `A398488.P13756501512524009121` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398488 has offset 1).
+The programs for A398488, the canonical program `A398488.P6063951227161082576` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398488 has offset 1).
 
 The definition of A398488 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A046315, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A398488.P13756501512524009121
+/-! ## A398488.P6063951227161082576
 
-`A000720(A046315(n+2)+1)-A000720(A046315(n+1)+1)`
+`A000720(A046315(n+2))-A000720(A046315(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A398488
 
-/-- `A000720(A046315(n+2)+1)-A000720(A046315(n+1)+1)` -/
-def P13756501512524009121.Spec : Prop :=
-  ∀ n, P13756501512524009121.a n = A398488 (n + 1)
+/-- `A000720(A046315(n+2))-A000720(A046315(n+1))` -/
+def P6063951227161082576.Spec : Prop :=
+  ∀ n, P6063951227161082576.a n = A398488 (n + 1)
 
-theorem P13756501512524009121.correct : P13756501512524009121.Spec := by
+theorem P6063951227161082576.correct : P6063951227161082576.Spec := by
   intro n
   simp only [A398488, Nat.add_sub_cancel]
 
@@ -1184,6 +1188,10 @@ namespace A398488
 /-- `Δ[A000720(A046315(n+1))]` -/
 def P15188369671716176170.Spec : Prop :=
   ∀ n, P15188369671716176170.a n = A398488 (n + 1)
+
+theorem P15188369671716176170.correct : P15188369671716176170.Spec := by
+  intro n
+  simp only [A398488, Nat.add_sub_cancel, A398488.P15188369671716176170.f1, A398488.P15188369671716176170.a, A398488.P6063951227161082576.a, SequenceMachineLib.memo_apply]
 
 end A398488
 

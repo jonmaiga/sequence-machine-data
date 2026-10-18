@@ -20,27 +20,28 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -64,6 +65,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +90,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A208600: Number of 6-bead necklaces labeled with numbers -n..n not allowing reversal, with sum zero.
@@ -2444,7 +2446,7 @@ end A208632.P9210394191775544568
 /-!
 # A208633: Number of n X 4 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208633, the canonical program `A208633.P10775891868899599403` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208633 has offset 1).
+The programs for A208633, the canonical program `A208633.P10775891868899599403` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208633 has offset 1).
 
 The definition of A208633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 194 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2453,7 +2455,7 @@ The definition of A208633 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-1)-6*a(n-2)+a(n-3)` with `a(0)=8, a(1)=23, a(2)=71`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208633
@@ -2563,7 +2565,7 @@ end A208633
 /-!
 # A208634: Number of n X 5 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208634, the canonical program `A208634.P8955280069549731136` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208634 has offset 1).
+The programs for A208634, the canonical program `A208634.P8955280069549731136` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208634 has offset 1).
 
 The definition of A208634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 186 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2572,7 +2574,7 @@ The definition of A208634 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)-10*a(n-2)+4*a(n-3)` with `a(0)=16, a(1)=47, a(2)=150`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208634
@@ -2919,7 +2921,7 @@ end A208637.P12501833034364598443
 /-!
 # A208638: Number of 3 X n 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208638, the canonical program `A208638.P7847836288641293721` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208638 has offset 1).
+The programs for A208638, the canonical program `A208638.P7847836288641293721` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208638 has offset 1).
 
 The definition of A208638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2928,7 +2930,7 @@ The definition of A208638 is `conjectured`: the Lean definition is a formula tha
 
 `∑[5*2^n-1]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208638
@@ -3372,7 +3374,7 @@ end A208638
 /-!
 # A208639: Number of 4 X n 0..1 arrays with new values 0..1 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A208639, the canonical program `A208639.P9429444533361249427` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208639 has offset 1).
+The programs for A208639, the canonical program `A208639.P9429444533361249427` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208639 has offset 1).
 
 The definition of A208639 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3381,7 +3383,7 @@ The definition of A208639 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-1)-9*a(n-2)+7*a(n-3)-2*a(n-4)` with `a(0)=8, a(1)=34, a(2)=95, a(3)=225, a(4)=494`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208639
@@ -4118,6 +4120,23 @@ end A208648.P2191446030814215211
 The programs for A208649, there is no canonical definition to state claims against.
 -/
 
+/-! ## A208649.P16803334408050739928
+
+`1/(n+1)*A073617(n+2)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A208649.P16803334408050739928
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 / (n + 1 : ℚ) * (A073617 (n + 2) : ℚ)
+
+end
+
+end A208649.P16803334408050739928
+
 /-! ## A208649.P6300143988803882975
 
 `∏[A262033(n)/A172089(A161680(n))]`
@@ -4150,21 +4169,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A208649.P1838841480982952788
-
-/-! ## A208649.P7222400216358938649
-
-`A365877(ceil(2^(n-1))-floor(n/(xor(n, n+1)+1)))`
--/
-
-namespace A208649.P7222400216358938649
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A365877 (⌈(2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌉ - ⌊(n : ℚ) / (Nat.xor n (n + 1) + 1 : ℚ)⌋).toNat
-
-end
-
-end A208649.P7222400216358938649
 
 /-!
 # A208650: Number of constant paths through the subset array of {1,2,...,n}; see Comments.
@@ -5033,7 +5037,7 @@ end A208657
 /-!
 # A208658: Row sums of A208657.
 
-The programs for A208658, the canonical program `A208658.P2277438212855398066` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208658 has offset 1).
+The programs for A208658, the canonical program `A208658.P2277438212855398066` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208658 has offset 1).
 
 The definition of A208658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 323 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5042,7 +5046,7 @@ The definition of A208658 is `conjectured`: the Lean definition is a formula tha
 
 `floor((1/2+n)*∑[2^n])`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208658
@@ -6422,7 +6426,7 @@ end A208664.P15516553154590516986
 /-!
 # A208665: Numbers that match odd ternary polynomials; see Comments.
 
-The programs for A208665, the canonical program `A208665.P1447488627337888995` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208665 has offset 1).
+The programs for A208665, the canonical program `A208665.P1447488627337888995` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208665 has offset 1).
 
 The definition of A208665 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6431,7 +6435,7 @@ The definition of A208665 is `conjectured`: the Lean definition is a formula tha
 
 `∑[3*A120437(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A208665
@@ -8520,7 +8524,7 @@ end A208688.P11528239652285812063
 /-!
 # A208689: Number of 3 X n 0..1 arrays avoiding 0 0 0 and 0 0 1 horizontally and 0 1 1 and 1 0 1 vertically.
 
-The programs for A208689, the canonical program `A208689.P13785335137073894226` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208689 has offset 1).
+The programs for A208689, the canonical program `A208689.P13785335137073894226` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208689 has offset 1).
 
 The definition of A208689 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8529,7 +8533,7 @@ The definition of A208689 is `conjectured`: the Lean definition is a formula tha
 
 `6*Δ[3^n+a(n-2)-a(n-1)]` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208689
@@ -8694,7 +8698,7 @@ end A208689
 /-!
 # A208690: Number of 4 X n 0..1 arrays avoiding 0 0 0 and 0 0 1 horizontally and 0 1 1 and 1 0 1 vertically.
 
-The programs for A208690, the canonical program `A208690.P1047065650142410368` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208690 has offset 1).
+The programs for A208690, the canonical program `A208690.P1047065650142410368` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208690 has offset 1).
 
 The definition of A208690 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 175 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8703,7 +8707,7 @@ The definition of A208690 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+10*a(n-2)+2*a(n-3)-10*a(n-4)` with `a(0)=9, a(1)=81, a(2)=189, a(3)=927`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A208690

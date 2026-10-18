@@ -5,25 +5,21 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,14 +31,17 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -52,6 +51,8 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1667,23 +1668,29 @@ end A145218.P1821862364086536005
 /-!
 # A145219: a(n) is the number of even permutations (of an n-set) with exactly 1 fixed point.
 
-The programs for A145219, there is no canonical definition to state claims against.
+The programs for A145219, the canonical program `A145219.P2434681221571404883` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145219 has offset 1).
+
+The definition of A145219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A145219.P2434681221571404883
 
 `(n+1)*A003221(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
-namespace A145219.P2434681221571404883
-noncomputable section
+namespace A145219
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A003221 n
+/-- `(n+1)*A003221(n)` -/
+def P2434681221571404883.Spec : Prop :=
+  ∀ n, P2434681221571404883.a n = A145219 (n + 1)
 
-end
+theorem P2434681221571404883.correct : P2434681221571404883.Spec := by
+  intro n
+  simp only [A145219, Nat.add_sub_cancel]
 
-end A145219.P2434681221571404883
+end A145219
 
 /-! ## A145219.P5542061679996954206
 
@@ -1703,6 +1710,14 @@ end
 
 end A145219.P5542061679996954206
 
+namespace A145219
+
+/-- `A145224(∑[n+1]+1)` -/
+def P5542061679996954206.Spec : Prop :=
+  ∀ n, P5542061679996954206.a n = A145219 (n + 1)
+
+end A145219
+
 /-! ## A145219.P6123111368635736189
 
 `abs((n+1)*(1-A009574(n)))`
@@ -1717,6 +1732,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145219.P6123111368635736189
+
+namespace A145219
+
+/-- `abs((n+1)*(1-A009574(n)))` -/
+def P6123111368635736189.Spec : Prop :=
+  ∀ n, P6123111368635736189.a n = A145219 (n + 1)
+
+end A145219
 
 /-! ## A145219.P6722570588521851756
 
@@ -1733,6 +1756,14 @@ end
 
 end A145219.P6722570588521851756
 
+namespace A145219
+
+/-- `(n+1)*abs(n-A009281(n))` -/
+def P6722570588521851756.Spec : Prop :=
+  ∀ n, P6722570588521851756.a n = A145219 (n + 1)
+
+end A145219
+
 /-! ## A145219.P10863059407678025679
 
 `abs(A009574(n+1)-A000217(n))`
@@ -1747,6 +1778,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145219.P10863059407678025679
+
+namespace A145219
+
+/-- `abs(A009574(n+1)-A000217(n))` -/
+def P10863059407678025679.Spec : Prop :=
+  ∀ n, P10863059407678025679.a n = A145219 (n + 1)
+
+end A145219
 
 /-! ## A145219.P17269028269211827154
 
@@ -1763,6 +1802,14 @@ end
 
 end A145219.P17269028269211827154
 
+namespace A145219
+
+/-- `A000240(n+1)-A145222(n+1)` -/
+def P17269028269211827154.Spec : Prop :=
+  ∀ n, P17269028269211827154.a n = A145219 (n + 1)
+
+end A145219
+
 /-! ## A145219.P4299344347983828781
 
 `(n+1)*(A000166(n)-A000387(n))`
@@ -1777,6 +1824,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145219.P4299344347983828781
+
+namespace A145219
+
+/-- `(n+1)*(A000166(n)-A000387(n))` -/
+def P4299344347983828781.Spec : Prop :=
+  ∀ n, P4299344347983828781.a n = A145219 (n + 1)
+
+end A145219
 
 /-! ## A145219.P15735823541482094583
 
@@ -1793,29 +1848,36 @@ end
 
 end A145219.P15735823541482094583
 
+namespace A145219
+
+/-- `2/(n+2)*A145220(n+2)` -/
+def P15735823541482094583.Spec : Prop :=
+  ∀ n, P15735823541482094583.a n = (A145219 (n + 1) : ℚ)
+
+end A145219
+
 /-!
 # A145220: a(n) is the number of even permutations (of an n-set) with exactly 2 fixed points.
 
-The programs for A145220, there is no canonical definition to state claims against.
+The programs for A145220, the canonical program `A145220.P1112617832925050364` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145220 has offset 2).
+
+The definition of A145220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A145220.P16646279609411709208
+/-! ## A145220.P1112617832925050364
 
-`∑[n+1]*A003221(n)`
+`(n+2)*(n+1)/2*A003221(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
-namespace A145220.P16646279609411709208
-noncomputable section
+namespace A145220
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `(n+2)*(n+1)/2*A003221(n)` -/
+def P1112617832925050364.Spec : Prop :=
+  ∀ n, P1112617832925050364.a n = (A145220 (n + 2) : ℚ)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * A003221 n
-
-end
-
-end A145220.P16646279609411709208
+end A145220
 
 /-! ## A145220.P16005114881900234713
 
@@ -1832,6 +1894,14 @@ end
 
 end A145220.P16005114881900234713
 
+namespace A145220
+
+/-- `A003221(n)*A008805(2*n)` -/
+def P16005114881900234713.Spec : Prop :=
+  ∀ n, P16005114881900234713.a n = A145220 (n + 2)
+
+end A145220
+
 /-! ## A145220.P11930546305797683863
 
 `A000387(n+2)-A145223(n+2)`
@@ -1846,6 +1916,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145220.P11930546305797683863
+
+namespace A145220
+
+/-- `A000387(n+2)-A145223(n+2)` -/
+def P11930546305797683863.Spec : Prop :=
+  ∀ n, P11930546305797683863.a n = A145220 (n + 2)
+
+end A145220
 
 /-! ## A145220.P10876960598882804470
 
@@ -1862,6 +1940,14 @@ end
 
 end A145220.P10876960598882804470
 
+namespace A145220
+
+/-- `A003221(n)*A038722(A000124(n))` -/
+def P10876960598882804470.Spec : Prop :=
+  ∀ n, P10876960598882804470.a n = A145220 (n + 2)
+
+end A145220
+
 /-! ## A145220.P6731570388235791276
 
 `(A000166(n)-A000387(n))*A000217(n+1)`
@@ -1876,6 +1962,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145220.P6731570388235791276
+
+namespace A145220
+
+/-- `(A000166(n)-A000387(n))*A000217(n+1)` -/
+def P6731570388235791276.Spec : Prop :=
+  ∀ n, P6731570388235791276.a n = A145220 (n + 2)
+
+end A145220
 
 /-! ## A145220.P14455971470662023390
 
@@ -1892,26 +1986,40 @@ end
 
 end A145220.P14455971470662023390
 
+namespace A145220
+
+/-- `A000124(n+1)*A003221(n)-A003221(n)` -/
+def P14455971470662023390.Spec : Prop :=
+  ∀ n, P14455971470662023390.a n = A145220 (n + 2)
+
+end A145220
+
 /-!
 # A145222: a(n) is the number of odd permutations (of an n-set) with exactly 1 fixed point.
 
-The programs for A145222, there is no canonical definition to state claims against.
+The programs for A145222, the canonical program `A145222.P1301972767117422336` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145222 has offset 1).
+
+The definition of A145222 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A145222.P1301972767117422336
 
 `(n+1)*A000387(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
-namespace A145222.P1301972767117422336
-noncomputable section
+namespace A145222
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A000387 n
+/-- `(n+1)*A000387(n)` -/
+def P1301972767117422336.Spec : Prop :=
+  ∀ n, P1301972767117422336.a n = A145222 (n + 1)
 
-end
+theorem P1301972767117422336.correct : P1301972767117422336.Spec := by
+  intro n
+  simp only [A145222, Nat.add_sub_cancel]
 
-end A145222.P1301972767117422336
+end A145222
 
 /-! ## A145222.P6870858533630947879
 
@@ -1931,6 +2039,14 @@ end
 
 end A145222.P6870858533630947879
 
+namespace A145222
+
+/-- `A145225(∑[n+1]+1)` -/
+def P6870858533630947879.Spec : Prop :=
+  ∀ n, P6870858533630947879.a n = A145222 (n + 1)
+
+end A145222
+
 /-! ## A145222.P14299041265455251280
 
 `(n+1)*abs(n-A009574(n))`
@@ -1945,6 +2061,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145222.P14299041265455251280
+
+namespace A145222
+
+/-- `(n+1)*abs(n-A009574(n))` -/
+def P14299041265455251280.Spec : Prop :=
+  ∀ n, P14299041265455251280.a n = A145222 (n + 1)
+
+end A145222
 
 /-! ## A145222.P11939264339662660763
 
@@ -1961,6 +2085,14 @@ end
 
 end A145222.P11939264339662660763
 
+namespace A145222
+
+/-- `A000387(n)*A008619(2*n)` -/
+def P11939264339662660763.Spec : Prop :=
+  ∀ n, P11939264339662660763.a n = A145222 (n + 1)
+
+end A145222
+
 /-! ## A145222.P16510679129902441811
 
 `A000387(n)*A008612(A008458(n))`
@@ -1975,6 +2107,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145222.P16510679129902441811
+
+namespace A145222
+
+/-- `A000387(n)*A008612(A008458(n))` -/
+def P16510679129902441811.Spec : Prop :=
+  ∀ n, P16510679129902441811.a n = A145222 (n + 1)
+
+end A145222
 
 /-! ## A145222.P7766030570692054338
 
@@ -1991,6 +2131,14 @@ end
 
 end A145222.P7766030570692054338
 
+namespace A145222
+
+/-- `2/(n+2)*A145223(n+2)` -/
+def P7766030570692054338.Spec : Prop :=
+  ∀ n, P7766030570692054338.a n = (A145222 (n + 1) : ℚ)
+
+end A145222
+
 /-! ## A145222.P7405800528724662494
 
 `A000387(n+1)+A145887(n+1)-A145886(n+1)`
@@ -2006,29 +2154,36 @@ end
 
 end A145222.P7405800528724662494
 
+namespace A145222
+
+/-- `A000387(n+1)+A145887(n+1)-A145886(n+1)` -/
+def P7405800528724662494.Spec : Prop :=
+  ∀ n, P7405800528724662494.a n = A145222 (n + 1)
+
+end A145222
+
 /-!
 # A145223: a(n) is the number of odd permutations (of an n-set) with exactly 2 fixed points.
 
-The programs for A145223, there is no canonical definition to state claims against.
+The programs for A145223, the canonical program `A145223.P8522537412490692127` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145223 has offset 2).
+
+The definition of A145223 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A145223.P9053369503363852274
+/-! ## A145223.P8522537412490692127
 
-`∑[n+1]*A000387(n)`
+`(n+2)*(n+1)/2*A000387(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
-namespace A145223.P9053369503363852274
-noncomputable section
+namespace A145223
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `(n+2)*(n+1)/2*A000387(n)` -/
+def P8522537412490692127.Spec : Prop :=
+  ∀ n, P8522537412490692127.a n = (A145223 (n + 2) : ℚ)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * A000387 n
-
-end
-
-end A145223.P9053369503363852274
+end A145223
 
 /-! ## A145223.P10188693445746086340
 
@@ -2044,6 +2199,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145223.P10188693445746086340
+
+namespace A145223
+
+/-- `A145225(A340266(n+1))` -/
+def P10188693445746086340.Spec : Prop :=
+  ∀ n, P10188693445746086340.a n = A145223 (n + 2)
+
+end A145223
 
 /-! ## A145223.P7005358926809136623
 
@@ -2063,6 +2226,14 @@ end
 
 end A145223.P7005358926809136623
 
+namespace A145223
+
+/-- `A000387(n)*A080036(∑[n])` -/
+def P7005358926809136623.Spec : Prop :=
+  ∀ n, P7005358926809136623.a n = A145223 (n + 2)
+
+end A145223
+
 /-! ## A145223.P2316939501430890271
 
 `A000387(n)*A179865(n+2)`
@@ -2078,6 +2249,14 @@ end
 
 end A145223.P2316939501430890271
 
+namespace A145223
+
+/-- `A000387(n)*A179865(n+2)` -/
+def P2316939501430890271.Spec : Prop :=
+  ∀ n, P2316939501430890271.a n = A145223 (n + 2)
+
+end A145223
+
 /-! ## A145223.P18340030964881058903
 
 `A000387(n)*A001972(2*n)`
@@ -2092,6 +2271,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145223.P18340030964881058903
+
+namespace A145223
+
+/-- `A000387(n)*A001972(2*n)` -/
+def P18340030964881058903.Spec : Prop :=
+  ∀ n, P18340030964881058903.a n = A145223 (n + 2)
+
+end A145223
 
 /-! ## A145223.P13726903037597548441
 
@@ -2111,6 +2298,14 @@ end
 
 end A145223.P13726903037597548441
 
+namespace A145223
+
+/-- `abs(Δ[A000292(n)]*A000387(n))` -/
+def P13726903037597548441.Spec : Prop :=
+  ∀ n, P13726903037597548441.a n = A145223 (n + 2)
+
+end A145223
+
 /-! ## A145223.P14917804029116487795
 
 `A000387(n+2)-A145220(n+2)`
@@ -2125,6 +2320,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145223.P14917804029116487795
+
+namespace A145223
+
+/-- `A000387(n+2)-A145220(n+2)` -/
+def P14917804029116487795.Spec : Prop :=
+  ∀ n, P14917804029116487795.a n = A145223 (n + 2)
+
+end A145223
 
 /-! ## A145223.P17113065275462913797
 
@@ -2141,6 +2344,14 @@ end
 
 end A145223.P17113065275462913797
 
+namespace A145223
+
+/-- `abs((n-A009574(n))*A000217(n+1))` -/
+def P17113065275462913797.Spec : Prop :=
+  ∀ n, P17113065275462913797.a n = A145223 (n + 2)
+
+end A145223
+
 /-! ## A145223.P1808217005681814870
 
 `A000387(n)+A000096(n)*A000387(n)`
@@ -2155,6 +2366,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A145223.P1808217005681814870
+
+namespace A145223
+
+/-- `A000387(n)+A000096(n)*A000387(n)` -/
+def P1808217005681814870.Spec : Prop :=
+  ∀ n, P1808217005681814870.a n = A145223 (n + 2)
+
+end A145223
 
 /-!
 # A145224: Triangle read by rows: T(n,k) is the number of even permutations (of an n-set) with exactly k fixed points.

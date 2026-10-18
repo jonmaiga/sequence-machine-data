@@ -25,9 +25,10 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +41,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -56,14 +56,15 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,8 +89,8 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A225202: Number of aperiodic tilings of an n X 1 rectangle by tiles of dimension 1 X 1 and 2 X 1.
@@ -723,27 +724,50 @@ end A225214.P6045377049305269114
 /-!
 # A225215: Floor of the Euclidean distance of a point on the (1, 1, 1; 1, 1, 1) 3D walk.
 
-The programs for A225215, the canonical program `A225215.P12544115416920836707` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225215 has offset 1).
+The programs for A225215, the canonical program `A225215.P7608455331556747072` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225215 has offset 1).
 
-The definition of A225215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A225215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A225215.P7608455331556747072
+
+`floor(sqrt(A008810(n+1)))`
+
+The canonical program, it is in `Seq.B001.C006`.
+-/
+
+namespace A225215
+
+/-- `floor(sqrt(A008810(n+1)))` -/
+def P7608455331556747072.Spec : Prop :=
+  ∀ n, P7608455331556747072.a n = A225215 (n + 1)
+
+theorem P7608455331556747072.correct : P7608455331556747072.Spec := by
+  intro n
+  simp only [A225215, Nat.add_sub_cancel]
+
+end A225215
 
 /-! ## A225215.P12544115416920836707
 
 `floor(sqrt(ceil((n+1)²/3)))`
-
-The canonical program, it is in `Seq.B000.C025`.
 -/
+
+namespace A225215.P12544115416920836707
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.sqrt ⌈((n + 1) ^ 2 : ℚ) / 3⌉
+
+end
+
+end A225215.P12544115416920836707
 
 namespace A225215
 
 /-- `floor(sqrt(ceil((n+1)²/3)))` -/
 def P12544115416920836707.Spec : Prop :=
   ∀ n, P12544115416920836707.a n = A225215 (n + 1)
-
-theorem P12544115416920836707.correct : P12544115416920836707.Spec := by
-  intro n
-  simp only [A225215, Nat.add_sub_cancel]
 
 end A225215
 
@@ -2556,7 +2580,7 @@ end A225229.P15800586328886063116
 /-!
 # A225230: In the canonical prime factorization of n: (number of distinct primes) minus (largest prime exponent).
 
-The programs for A225230, the canonical program `A225230.P5717106397182085981` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225230 has offset 1).
+The programs for A225230, the canonical program `A225230.P5717106397182085981` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225230 has offset 1).
 
 The definition of A225230 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A051903, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2565,7 +2589,7 @@ The definition of A225230 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(n+1)-A051903(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A225230
@@ -3047,7 +3071,7 @@ end A225230
 /-!
 # A225232: The number of FO3C2 moves required to restore a packet of n playing cards to its original state (order and orientation).
 
-The programs for A225232, the canonical program `A225232.P13032425765134366567` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225232 has offset 3).
+The programs for A225232, the canonical program `A225232.P13032425765134366567` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225232 has offset 3).
 
 The definition of A225232 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3056,7 +3080,7 @@ The definition of A225232 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=2, a(1)=4, a(2)=4, a(3)=12, a(4)=6, a(5)=24`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A225232

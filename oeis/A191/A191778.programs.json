@@ -17,6 +17,10 @@
         "a",
         "lcm",
         "*"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

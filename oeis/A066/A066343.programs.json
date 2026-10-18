@@ -13,6 +13,9 @@
         "log2",
         "*",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

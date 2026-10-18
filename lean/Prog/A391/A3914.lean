@@ -4,23 +4,26 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +42,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -48,16 +50,18 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,7 +87,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A391401: Primes obtained by iterating the map prime(j) -> prime(j + prime(j) + 1) starting at 2.
@@ -390,7 +393,7 @@ end A391407.P16482796998296240495
 /-!
 # A391408: Expansion of g^5/(1 + x*g)^2, where g = 1+x*g^2 is the g.f. of A000108.
 
-The programs for A391408, the canonical program `A391408.P396316861093903294` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391408 has offset 0).
+The programs for A391408, the canonical program `A391408.P396316861093903294` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391408 has offset 0).
 
 The definition of A391408 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -399,7 +402,7 @@ The definition of A391408 is `conjectured`: the Lean definition is a formula tha
 
 `A114495(n+3)-A389115(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A391408
@@ -3033,7 +3036,7 @@ end A391427.P4996529767170631105
 /-!
 # A391428: Exponential abundant numbers that are squares of squarefree numbers.
 
-The programs for A391428, the canonical program `A391428.P16960108032895023113` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391428 has offset 1).
+The programs for A391428, the canonical program `A391428.P16960108032895023113` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391428 has offset 1).
 
 The definition of A391428 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A087248, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3042,7 +3045,7 @@ The definition of A391428 is `conditional`: the Lean definition is an OEIS formu
 
 `A087248(n+1)²`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B007.C002`.
 -/
 
 namespace A391428
@@ -6020,7 +6023,7 @@ end A391477.P5941833281405722667
 /-!
 # A391481: Number of labeled magmas with n elements and no idempotents.
 
-The programs for A391481, the canonical program `A391481.P4159822313512081732` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391481 has offset 0).
+The programs for A391481, the canonical program `A391481.P4159822313512081732` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391481 has offset 0).
 
 The definition of A391481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6029,7 +6032,7 @@ The definition of A391481 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n^(n*(n-1))*(n-1)^n`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A391481
@@ -6069,7 +6072,7 @@ end A391481
 /-!
 # A391483: Number of labeled commutative magmas with n elements and no idempotents.
 
-The programs for A391483, the canonical program `A391483.P1888191190427754883` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391483 has offset 0).
+The programs for A391483, the canonical program `A391483.P1888191190427754883` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391483 has offset 0).
 
 The definition of A391483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6078,7 +6081,7 @@ The definition of A391483 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n^(n*(n-1)/2)*(n-1)^n`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A391483
@@ -6209,6 +6212,21 @@ end A391485.P13143208413469958530
 The programs for A391486, there is no canonical definition to state claims against.
 -/
 
+/-! ## A391486.P7004470725957727875
+
+`A037294(n+1)-A000217(n+1)`
+-/
+
+namespace A391486.P7004470725957727875
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037294 (n + 1) - A000217 (n + 1)
+
+end
+
+end A391486.P7004470725957727875
+
 /-! ## A391486.P5020427387044701657
 
 `∑[∑[A000219(n+1)]-n]`
@@ -6229,24 +6247,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391486.P5020427387044701657
-
-/-! ## A391486.P13568345401997195451
-
-`A037294(n+1)-∑[n+1]`
--/
-
-namespace A391486.P13568345401997195451
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037294 (n + 1) - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
-
-end
-
-end A391486.P13568345401997195451
 
 /-! ## A391486.P7799822854624004560
 

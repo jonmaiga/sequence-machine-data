@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -10,8 +9,8 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
@@ -20,46 +19,46 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,15 +79,10 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A045400: Primes congruent to {0, 1, 3, 5} mod 7.
@@ -6813,7 +6807,7 @@ end A045412
 /-!
 # A045413: Primes congruent to {0, 3, 4} mod 5.
 
-The programs for A045413, the canonical program `A045413.P11718784102126598698` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045413 has offset 1).
+The programs for A045413, the canonical program `A045413.P11718784102126598698` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045413 has offset 1).
 
 The definition of A045413 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6912,7 +6906,7 @@ end A045413
 
 `∪[A023247(n+1), A045435(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A045413
@@ -24162,10 +24156,29 @@ end A045444
 /-!
 # A045445: Number of nonisomorphic systems of catafusenes for the unsymmetrical schemes (group C_s) with two appendages (see references for precise definition).
 
-The programs for A045445, the canonical program `A045445.P640696705558288989` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045445 has offset 1).
+The programs for A045445, the canonical program `A045445.P8537979393669909021` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045445 has offset 1).
 
-The definition of A045445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A045445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A045445.P8537979393669909021
+
+`A002212(n+2)-3*A002212(n+1)`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A045445
+
+/-- `A002212(n+2)-3*A002212(n+1)` -/
+def P8537979393669909021.Spec : Prop :=
+  ∀ n, P8537979393669909021.a n = A045445 (n + 1)
+
+theorem P8537979393669909021.correct : P8537979393669909021.Spec := by
+  intro n
+  simp only [A045445, Nat.add_sub_cancel]
+
+end A045445
 
 /-! ## A045445.P205030108616827518
 
@@ -24254,19 +24267,26 @@ end A045445
 /-! ## A045445.P640696705558288989
 
 `Δ[A039919(n+1)]-A002212(n+1)`
-
-The canonical program, it is in `Seq.B002.C000`.
 -/
+
+namespace A045445.P640696705558288989
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039919 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n - A002212 (n + 1)
+
+end
+
+end A045445.P640696705558288989
 
 namespace A045445
 
 /-- `Δ[A039919(n+1)]-A002212(n+1)` -/
 def P640696705558288989.Spec : Prop :=
   ∀ n, P640696705558288989.a n = A045445 (n + 1)
-
-theorem P640696705558288989.correct : P640696705558288989.Spec := by
-  intro n
-  simp only [A045445, Nat.add_sub_cancel]
 
 end A045445
 
@@ -24319,29 +24339,6 @@ namespace A045445
 /-- `Δ[A002212(n+1)]-A122737(n+2)` -/
 def P7583743842755220459.Spec : Prop :=
   ∀ n, P7583743842755220459.a n = A045445 (n + 1)
-
-end A045445
-
-/-! ## A045445.P12109057302881102559
-
-`A045868(n+1)-2*A002212(n+1)`
--/
-
-namespace A045445.P12109057302881102559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045868 (n + 1) - 2 * A002212 (n + 1)
-
-end
-
-end A045445.P12109057302881102559
-
-namespace A045445
-
-/-- `A045868(n+1)-2*A002212(n+1)` -/
-def P12109057302881102559.Spec : Prop :=
-  ∀ n, P12109057302881102559.a n = A045445 (n + 1)
 
 end A045445
 
@@ -24437,12 +24434,6 @@ namespace A045445
 /-- `A039919(n+2)-(A039919(n+1)+A002212(n+1))` -/
 def P17150988796492871360.Spec : Prop :=
   ∀ n, P17150988796492871360.a n = A045445 (n + 1)
-
-theorem P17150988796492871360.correct : P17150988796492871360.Spec := by
-  intro n
-  simp only [A045445, Nat.add_sub_cancel, A045445.P17150988796492871360.a, A045445.P640696705558288989.f1, A045445.P640696705558288989.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
 
 end A045445
 
@@ -39640,7 +39631,7 @@ end A045477.P7650407351456684501
 /-!
 # A045492: Convolution of A000108 (Catalan numbers) with A020920.
 
-The programs for A045492, the canonical program `A045492.P16805623647236037843` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045492 has offset 0).
+The programs for A045492, the canonical program `A045492.P16805623647236037843` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045492 has offset 0).
 
 The definition of A045492 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 155 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -39649,7 +39640,7 @@ The definition of A045492 is `conjectured`: the Lean definition is a formula tha
 
 `2*A020920(n)-A042985(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A045492

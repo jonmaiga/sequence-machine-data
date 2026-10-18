@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -11,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -29,9 +27,10 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,22 +49,23 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,10 +92,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A115800: Sequence A115799 in binary.
@@ -4326,27 +4322,53 @@ end A115835.P11775682185102276438
 /-!
 # A115836: Self-describing sequence. The n-th integer of the sequence indicates how many integers of the sequence are strictly < 2n.
 
-The programs for A115836, the canonical program `A115836.P18280907676742156159` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115836 has offset 1).
+The programs for A115836, the canonical program `A115836.P4635970898570071194` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115836 has offset 1).
 
-The definition of A115836 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A115836 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A115836.P4635970898570071194
+
+`A007378(n+2)-2`
+
+The canonical program, it is in `Seq.B003.C001`.
+-/
+
+namespace A115836
+
+/-- `A007378(n+2)-2` -/
+def P4635970898570071194.Spec : Prop :=
+  ∀ n, P4635970898570071194.a n = A115836 (n + 1)
+
+theorem P4635970898570071194.correct : P4635970898570071194.Spec := by
+  intro n
+  simp only [A115836, Nat.add_sub_cancel]
+
+end A115836
 
 /-! ## A115836.P18280907676742156159
 
 `∑[abs(a(floor((n-1)/2)))]` with `a(0)=1, a(1)=1, a(2)=2`
-
-The canonical program, it is in `Seq.B000.C015`.
 -/
+
+namespace A115836.P18280907676742156159
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 1, 2] fun n f1 =>
+  f1 ⌊((n : ℤ) - 1 : ℚ) / 2⌋.toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A115836.P18280907676742156159
 
 namespace A115836
 
 /-- `∑[abs(a(floor((n-1)/2)))]` -/
 def P18280907676742156159.Spec : Prop :=
   ∀ n, (P18280907676742156159.a n : ℤ) = A115836 (n + 1)
-
-theorem P18280907676742156159.correct : P18280907676742156159.Spec := by
-  intro n
-  simp only [A115836, Nat.add_sub_cancel]
 
 end A115836
 
@@ -4375,10 +4397,6 @@ namespace A115836
 /-- `∑[floor(a(floor((n-1)/2)))]` -/
 def P10145531998054862272.Spec : Prop :=
   ∀ n, (P10145531998054862272.a n : ℤ) = A115836 (n + 1)
-
-theorem P10145531998054862272.correct : P10145531998054862272.Spec := by
-  intro n
-  simp only [A115836, Nat.add_sub_cancel, A115836.P10145531998054862272.f1, A115836.P10145531998054862272.a, A115836.P18280907676742156159.f1, A115836.P18280907676742156159.a, SequenceMachineLib.memo_apply]
 
 end A115836
 
@@ -4550,29 +4568,6 @@ namespace A115836
 /-- `A080637(n+1)-1` -/
 def P6530148991862328958.Spec : Prop :=
   ∀ n, P6530148991862328958.a n = A115836 (n + 1)
-
-end A115836
-
-/-! ## A115836.P4635970898570071194
-
-`A007378(n+2)-2`
--/
-
-namespace A115836.P4635970898570071194
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007378 (n + 2) - 2
-
-end
-
-end A115836.P4635970898570071194
-
-namespace A115836
-
-/-- `A007378(n+2)-2` -/
-def P4635970898570071194.Spec : Prop :=
-  ∀ n, P4635970898570071194.a n = A115836 (n + 1)
 
 end A115836
 
@@ -9574,7 +9569,7 @@ end A115877.P3561340393297279246
 /-!
 # A115878: a(n) is the number of positive solutions of the Diophantine equation x^2 = y(y+n).
 
-The programs for A115878, the canonical program `A115878.P7524570473930013961` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115878 has offset 1).
+The programs for A115878, the canonical program `A115878.P7524570473930013961` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115878 has offset 1).
 
 The definition of A115878 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9606,7 +9601,7 @@ end A115878
 
 `A046079(gcd(n+1, lcm(2, ∑[n])))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A115878

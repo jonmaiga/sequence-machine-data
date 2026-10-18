@@ -9,25 +9,23 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,25 +34,24 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C002
-import Seq.B006.C001
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,7 +78,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A146205: Number of paths of the simple random walk on condition that the median applied to the partial sums S_0=0, S_1,...,S_n, n odd (n=15 in this example), is equal to half-integer values k+1/2, -[n/2]-1<=k<=[n/2].
@@ -146,20 +142,20 @@ end A146206.P15652344187384717748
 The programs for A146208, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146208.P12773361158966258125
+/-! ## A146208.P14965866349690524726
 
-`A361015(n+2)+A062011(n+2)`
+`A062011(n+2)+A361015(n+2)`
 -/
 
-namespace A146208.P12773361158966258125
+namespace A146208.P14965866349690524726
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A361015 (n + 2) + A062011 (n + 2)
+  A062011 (n + 2) + A361015 (n + 2)
 
 end
 
-end A146208.P12773361158966258125
+end A146208.P14965866349690524726
 
 /-! ## A146208.P16569073884785556788
 
@@ -311,6 +307,21 @@ end A146209.P9459784944343508403
 The programs for A146211, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146211.P16283296004998596846
+
+`A046211(A000040(n+3))`
+-/
+
+namespace A146211.P16283296004998596846
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046211 (A000040 (n + 3)).toNat
+
+end
+
+end A146211.P16283296004998596846
+
 /-! ## A146211.P7861190693201427226
 
 `A121823(n+1)-1`
@@ -370,21 +381,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146211.P3522504152389246391
-
-/-! ## A146211.P3989052257839848430
-
-`A046209(A066047(n+1))`
--/
-
-namespace A146211.P3989052257839848430
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046209 (A066047 (n + 1)).toNat
-
-end
-
-end A146211.P3989052257839848430
 
 /-!
 # A146212: Number of intersection points of all lines through pairs of vertices of a regular n-gon.
@@ -506,7 +502,7 @@ end A146213.P13514940604463880240
 /-!
 # A146214: a(n) = (10^n)-th lower twin prime.
 
-The programs for A146214, the canonical program `A146214.P6156747196117573182` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146214 has offset 0).
+The programs for A146214, the canonical program `A146214.P6156747196117573182` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146214 has offset 0).
 
 The definition of A146214 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -515,7 +511,7 @@ The definition of A146214 is `conditional`: the Lean definition is an OEIS formu
 
 `A001359(10^n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A146214
@@ -4417,6 +4413,21 @@ end A146287.P17603624252386468004
 The programs for A146288, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146288.P9228751365966139900
+
+`A000005(A025487(n+1))`
+-/
+
+namespace A146288.P9228751365966139900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000005 (A025487 (n + 1)).toNat
+
+end
+
+end A146288.P9228751365966139900
+
 /-! ## A146288.P7304173183482333171
 
 `A064553(A181820(n+1))`
@@ -4431,24 +4442,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146288.P7304173183482333171
-
-/-! ## A146288.P12975584141672357036
-
-`∏{e}[A025487(n+1), #+1]`
--/
-
-namespace A146288.P12975584141672357036
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025487 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, (Nat.factorization (f1 n).natAbs p + 1)
-
-end
-
-end A146288.P12975584141672357036
 
 /-! ## A146288.P6003369212296917486
 
@@ -4563,21 +4556,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A146288.P16984350323480069999
-
-/-! ## A146288.P9228751365966139900
-
-`A000005(A025487(n+1))`
--/
-
-namespace A146288.P9228751365966139900
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A025487 (n + 1)).toNat
-
-end
-
-end A146288.P9228751365966139900
 
 /-! ## A146288.P3145383465950213594
 
@@ -5205,7 +5183,7 @@ end A146297.P1312987021977098951
 
 The programs for A146298, the canonical program `A146298.P11485159301145568755` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146298 has offset 0).
 
-The definition of A146298 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A146298 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000578(n)-2*A000292(n)` (program `A146298.P11485159301145568755`, by `A146298.P11485159301145568755.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A146298.P1168283787213284480

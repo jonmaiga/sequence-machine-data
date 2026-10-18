@@ -14,19 +14,19 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,21 +39,18 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -63,6 +60,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -75,7 +73,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2956,34 +2953,27 @@ end A063843
 /-!
 # A063845: a(n) = sigma(usigma(n)), where usigma(n) is the sum of unitary divisors of n (A034448) and sigma(n) is the sum of the divisors (A000203).
 
-The programs for A063845, the canonical program `A063845.P4984766055789301031` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063845 has offset 1).
+The programs for A063845, the canonical program `A063845.P8176048473973946208` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063845 has offset 1).
 
-The definition of A063845 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A063845 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A063845.P10872626814916379624
+/-! ## A063845.P8176048473973946208
 
-`∑{d}[A034448(n+1), #]`
+`A000203(A034448(n+1))`
+
+The canonical program, it is in `Seq.B007.C000`.
 -/
-
-namespace A063845.P10872626814916379624
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034448 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, d
-
-end
-
-end A063845.P10872626814916379624
 
 namespace A063845
 
-/-- `∑{d}[A034448(n+1), #]` -/
-def P10872626814916379624.Spec : Prop :=
-  ∀ n, (P10872626814916379624.a n : ℤ) = A063845 (n + 1)
+/-- `A000203(A034448(n+1))` -/
+def P8176048473973946208.Spec : Prop :=
+  ∀ n, P8176048473973946208.a n = A063845 (n + 1)
+
+theorem P8176048473973946208.correct : P8176048473973946208.Spec := by
+  intro n
+  simp only [A063845, Nat.add_sub_cancel]
 
 end A063845
 
@@ -3068,29 +3058,6 @@ def P15820187452947305248.Spec : Prop :=
 
 end A063845
 
-/-! ## A063845.P8176048473973946208
-
-`A000203(A034448(n+1))`
--/
-
-namespace A063845.P8176048473973946208
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (A034448 (n + 1)).toNat
-
-end
-
-end A063845.P8176048473973946208
-
-namespace A063845
-
-/-- `A000203(A034448(n+1))` -/
-def P8176048473973946208.Spec : Prop :=
-  ∀ n, P8176048473973946208.a n = A063845 (n + 1)
-
-end A063845
-
 /-! ## A063845.P13314698350665644846
 
 `A000203(A345451(n+1)+1)`
@@ -3166,19 +3133,23 @@ end A063845
 /-! ## A063845.P4984766055789301031
 
 `A000203(A064971(n+1)/(n+1))`
-
-The canonical program, it is in `Seq.B003.C001`.
 -/
+
+namespace A063845.P4984766055789301031
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (SequenceMachineLib.roundAway ((A064971 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat
+
+end
+
+end A063845.P4984766055789301031
 
 namespace A063845
 
 /-- `A000203(A064971(n+1)/(n+1))` -/
 def P4984766055789301031.Spec : Prop :=
   ∀ n, P4984766055789301031.a n = A063845 (n + 1)
-
-theorem P4984766055789301031.correct : P4984766055789301031.Spec := by
-  intro n
-  simp only [A063845, Nat.add_sub_cancel]
 
 end A063845
 
@@ -4689,7 +4660,7 @@ end A063870.P1075287593618530861
 /-!
 # A063872: Let m be the n-th positive integer such that phi(m) is divisible by m - phi(m). Then a(n) = phi(m)/(m - phi(m)).
 
-The programs for A063872, the canonical program `A063872.P6653765123513031223` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063872 has offset 1).
+The programs for A063872, the canonical program `A063872.P6653765123513031223` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063872 has offset 1).
 
 The definition of A063872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025473, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4698,7 +4669,7 @@ The definition of A063872 is `conditional`: the Lean definition is an OEIS formu
 
 `A025473(n+2)-1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A063872
@@ -5195,7 +5166,7 @@ end A063872
 /-!
 # A063880: Numbers k such that sigma(k) = 2*usigma(k).
 
-The programs for A063880, the canonical program `A063880.P5681857792840883182` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063880 has offset 1).
+The programs for A063880, the canonical program `A063880.P5681857792840883182` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063880 has offset 1).
 
 The definition of A063880 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5230,7 +5201,7 @@ end A063880
 
 `record[lcm(4, lcm(27, A005117(n+1)))]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A063880
@@ -6010,6 +5981,21 @@ end A063882
 The programs for A063883, there is no canonical definition to state claims against.
 -/
 
+/-! ## A063883.P11743998561029727357
+
+`A054973(2^(n+1))`
+-/
+
+namespace A063883.P11743998561029727357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054973 (2 ^ (n + 1))
+
+end
+
+end A063883.P11743998561029727357
+
 /-! ## A063883.P3638705518311999373
 
 `A000586(A081596(n)+A038502(A108411(n)))`
@@ -6069,21 +6055,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A063883.P6992429195690870036
-
-/-! ## A063883.P14356310307802633471
-
-`A283486(2^n)`
--/
-
-namespace A063883.P14356310307802633471
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283486 (2 ^ n)
-
-end
-
-end A063883.P14356310307802633471
 
 /-!
 # A063884: a(1) = 2, a(2) = 3 and a(k+1) is the least prime not already chosen that divides some a(i)*a(j)+1, where 1<=i<=j<=k.

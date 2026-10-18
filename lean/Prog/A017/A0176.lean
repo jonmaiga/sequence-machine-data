@@ -24,43 +24,49 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +77,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
@@ -79,7 +84,6 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -21020,7 +21024,7 @@ end A017665
 /-!
 # A017666: Denominator of sum of reciprocals of divisors of n.
 
-The programs for A017666, the canonical program `A017666.P16572893466817104564` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017666 has offset 1).
+The programs for A017666, the canonical program `A017666.P11271370801176685649` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017666 has offset 1).
 
 The definition of A017666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21028,20 +21032,9 @@ The definition of A017666 is `conjectured`: the Lean definition is a formula tha
 /-! ## A017666.P11271370801176685649
 
 `(n+1)/gcd(n+1, ∑{d}[n+1, #])`
+
+The canonical program, it is in `Seq.B000.C003`.
 -/
-
-namespace A017666.P11271370801176685649
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (Nat.gcd (n + 1) (∑ d ∈ Nat.divisors (f1 n), d) : ℚ)
-
-end
-
-end A017666.P11271370801176685649
 
 namespace A017666
 
@@ -21198,19 +21191,23 @@ end A017666
 /-! ## A017666.P16572893466817104564
 
 `A388283(n+1)-A390582(n+1)`
-
-The canonical program, it is in `Seq.B003.C000`.
 -/
+
+namespace A017666.P16572893466817104564
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A388283 (n + 1) - A390582 (n + 1)
+
+end
+
+end A017666.P16572893466817104564
 
 namespace A017666
 
 /-- `A388283(n+1)-A390582(n+1)` -/
 def P16572893466817104564.Spec : Prop :=
   ∀ n, P16572893466817104564.a n = A017666 (n + 1)
-
-theorem P16572893466817104564.correct : P16572893466817104564.Spec := by
-  intro n
-  simp only [A017666, Nat.add_sub_cancel]
 
 end A017666
 
@@ -21928,7 +21925,7 @@ end A017669
 /-!
 # A017670: Denominator of sum of -3rd powers of divisors of n.
 
-The programs for A017670, the canonical program `A017670.P10675654441448400355` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017670 has offset 1).
+The programs for A017670, the canonical program `A017670.P10675654441448400355` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017670 has offset 1).
 
 The definition of A017670 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21937,7 +21934,7 @@ The definition of A017670 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)^3/gcd(A001158(n+1), A276634(n+1))`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A017670
@@ -22043,7 +22040,7 @@ end A017670
 /-!
 # A017671: Numerator of sum of -4th powers of divisors of n.
 
-The programs for A017671, the canonical program `A017671.P13542887879619195653` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017671 has offset 1).
+The programs for A017671, the canonical program `A017671.P13542887879619195653` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017671 has offset 1).
 
 The definition of A017671 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22052,7 +22049,7 @@ The definition of A017671 is `conjectured`: the Lean definition is a formula tha
 
 `A001159(n+1)/gcd(A001159(n+1), A279363(n+1))`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A017671
@@ -22699,7 +22696,7 @@ end A017678.P6760089791668414707
 /-!
 # A017679: Numerator of sum of -8th powers of divisors of n.
 
-The programs for A017679, the canonical program `A017679.P5256545410646879571` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017679 has offset 1).
+The programs for A017679, the canonical program `A017679.P5256545410646879571` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017679 has offset 1).
 
 The definition of A017679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22731,7 +22728,7 @@ end A017679
 
 `lcm(A013956(n+1), A053167(n+1))/A053167(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A017679

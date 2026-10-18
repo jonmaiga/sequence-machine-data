@@ -9,20 +9,20 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C024
+import Seq.B000.C021
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,26 +38,24 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -471,7 +469,7 @@ end A336704.P6814785384773782779
 /-!
 # A336705: Coordination sequence for the half-Manhattan lattice.
 
-The programs for A336705, the canonical program `A336705.P9753560575267502364` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336705 has offset 0).
+The programs for A336705, the canonical program `A336705.P9753560575267502364` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336705 has offset 0).
 
 The definition of A336705 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -480,7 +478,7 @@ The definition of A336705 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=1, a(1)=3, a(2)=7, a(3)=12, a(4)=16`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A336705
@@ -798,7 +796,7 @@ end A336714.P11313573512525957896
 /-!
 # A336715: Numbers m that divide the product phi(m) * tau(m), where tau is the number of divisors function (A000005) and phi is the Euler totient function (A000010).
 
-The programs for A336715, the canonical program `A336715.P8758040222245764786` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336715 has offset 1).
+The programs for A336715, the canonical program `A336715.P8758040222245764786` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336715 has offset 1).
 
 The definition of A336715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -807,7 +805,7 @@ The definition of A336715 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A062355(n+1))]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A336715
@@ -3357,7 +3355,7 @@ end A336745.P5268527342390664306
 /-!
 # A336751: Smallest side of integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
-The programs for A336751, the canonical program `A336751.P13144755315143841523` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336751 has offset 1).
+The programs for A336751, the canonical program `A336751.P13144755315143841523` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336751 has offset 1).
 
 The definition of A336751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3366,7 +3364,7 @@ The definition of A336751 is `conjectured`: the Lean definition is a formula tha
 
 `n%floor(sqrt(n+1))+floor(sqrt(n))+2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A336751
@@ -3775,7 +3773,7 @@ end A336752.P2176286692512273923
 /-!
 # A336753: Largest side of integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
-The programs for A336753, the canonical program `A336753.P1679691368398851325` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336753 has offset 1).
+The programs for A336753, the canonical program `A336753.P1679691368398851325` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336753 has offset 1).
 
 The definition of A336753 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3784,7 +3782,7 @@ The definition of A336753 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, floor(sqrt(8*n))%2]-2*n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A336753
@@ -4187,25 +4185,25 @@ end A336753
 /-!
 # A336754: Perimeters in increasing order of integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
-The programs for A336754, the canonical program `A336754.P15075467513885804309` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336754 has offset 1).
+The programs for A336754, the canonical program `A336754.P2752406318557101047` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336754 has offset 1).
 
-The definition of A336754 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A307136, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A336754 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A336754.P15075467513885804309
+/-! ## A336754.P2752406318557101047
 
-`3*A307136(n+1)`
+`3*ceil(2*sqrt(n+1+round(sqrt(n+1))))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A336754
 
-/-- `3*A307136(n+1)` -/
-def P15075467513885804309.Spec : Prop :=
-  ∀ n, P15075467513885804309.a n = A336754 (n + 1)
+/-- `3*ceil(2*sqrt(n+1+round(sqrt(n+1))))` -/
+def P2752406318557101047.Spec : Prop :=
+  ∀ n, P2752406318557101047.a n = A336754 (n + 1)
 
-theorem P15075467513885804309.correct : P15075467513885804309.Spec := by
+theorem P2752406318557101047.correct : P2752406318557101047.Spec := by
   intro n
   simp only [A336754, Nat.add_sub_cancel]
 
@@ -4231,33 +4229,6 @@ namespace A336754
 /-- `a(round(n-sqrt(n)))+3` -/
 def P7594047813518640061.Spec : Prop :=
   ∀ n, (P7594047813518640061.a n : ℤ) = A336754 (n + 1)
-
-end A336754
-
-/-! ## A336754.P319853937654723924
-
-`3*ceil(2*sqrt(comp[n²]))`
--/
-
-namespace A336754.P319853937654723924
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * ⌈2 * Real.sqrt (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n : ℝ)⌉
-
-end
-
-end A336754.P319853937654723924
-
-namespace A336754
-
-/-- `3*ceil(2*sqrt(comp[n²]))` -/
-def P319853937654723924.Spec : Prop :=
-  ∀ n, P319853937654723924.a n = A336754 (n + 1)
 
 end A336754
 
@@ -4690,7 +4661,7 @@ end A336755.P13690624347748571312
 /-!
 # A336756: Perimeters in increasing order of primitive integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
-The programs for A336756, the canonical program `A336756.P6848481102697664019` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336756 has offset 1).
+The programs for A336756, the canonical program `A336756.P6848481102697664019` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336756 has offset 1).
 
 The definition of A336756 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4725,7 +4696,7 @@ end A336756
 
 `3*A038567(2*(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A336756

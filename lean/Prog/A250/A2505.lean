@@ -8,21 +8,24 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C026
+import Seq.B000.C022
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
@@ -32,15 +35,16 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -59,7 +63,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -3305,20 +3308,22 @@ end A250550.P6249687608601021447
 The programs for A250552, there is no canonical definition to state claims against.
 -/
 
-/-! ## A250552.P4699574644395460695
+/-! ## A250552.P3736664336547610705
 
-`A000720(A247797(n+1))`
+`A049084(A247797(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A250552.P4699574644395460695
+namespace A250552.P3736664336547610705
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (A247797 (n + 1)).toNat
+  A049084 (A247797 (n + 1)).toNat
 
 end
 
-end A250552.P4699574644395460695
+end A250552.P3736664336547610705
 
 /-! ## A250552.P18061876676606303930
 
@@ -3383,21 +3388,6 @@ end
 
 end A250552.P17365002708495100063
 
-/-! ## A250552.P9977677790302332797
-
-`A049084(A247797(2*n+1-n))`
--/
-
-namespace A250552.P9977677790302332797
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049084 (A247797 (2 * n + 1 - n)).toNat
-
-end
-
-end A250552.P9977677790302332797
-
 /-! ## A250552.P10549211506102849232
 
 `A056172(2*A247797(n+1))`
@@ -3461,7 +3451,7 @@ end A250552.P16682463438954892430
 /-!
 # A250554: Number of length n+2 0..1 arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A250554, the canonical program `A250554.P11660294058464506872` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250554 has offset 1).
+The programs for A250554, the canonical program `A250554.P11660294058464506872` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250554 has offset 1).
 
 The definition of A250554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3470,7 +3460,7 @@ The definition of A250554 is `conjectured`: the Lean definition is a formula tha
 
 `2*(∑[2^n]+n%2)`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A250554
@@ -5401,7 +5391,7 @@ end A250575.P11242425900798344687
 /-!
 # A250576: Number of (n+1) X (1+1) 0..1 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 
-The programs for A250576, the canonical program `A250576.P15965323562905096149` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250576 has offset 1).
+The programs for A250576, the canonical program `A250576.P15965323562905096149` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250576 has offset 1).
 
 The definition of A250576 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 282 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5410,7 +5400,7 @@ The definition of A250576 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)-a(n-2)-2*a(n-3)+a(n-4)` with `a(0)=10, a(1)=24, a(2)=55, a(3)=125`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A250576

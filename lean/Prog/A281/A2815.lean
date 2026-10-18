@@ -11,25 +11,26 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,7 +55,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -62,6 +62,9 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +91,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 /-!
 # A281500: Reduced denominators of f(n) = (n+1)/(2^(2+n)-2) with A026741(n+1) as numerators.
@@ -702,7 +704,7 @@ end A281502.P15480549010743113944
 /-!
 # A281503: Solutions x to the negative Pell equation y^2 = 33*x^2 - 8 with x,y >= 0.
 
-The programs for A281503, the canonical program `A281503.P9134184356396671799` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281503 has offset 1).
+The programs for A281503, the canonical program `A281503.P9134184356396671799` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281503 has offset 1).
 
 The definition of A281503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -711,7 +713,7 @@ The definition of A281503 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `46*a(n-2)-a(n-4)` with `a(0)=1, a(1)=3, a(2)=43, a(3)=137`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A281503
@@ -882,7 +884,7 @@ end A281503
 /-!
 # A281504: Solutions y to the negative Pell equation y^2 = 33*x^2 - 8 with x,y >= 0.
 
-The programs for A281504, the canonical program `A281504.P14833276301261138524` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281504 has offset 1).
+The programs for A281504, the canonical program `A281504.P14833276301261138524` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281504 has offset 1).
 
 The definition of A281504 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -891,7 +893,7 @@ The definition of A281504 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `46*a(n-2)-a(n-4)` with `a(0)=5, a(1)=17, a(2)=247, a(3)=787`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A281504
@@ -3369,7 +3371,7 @@ end A281545.P489997820370659296
 /-!
 # A281546: a(n) = 27*n + 2.
 
-The programs for A281546, the canonical program `A281546.P13079150482357616982` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281546 has offset 0).
+The programs for A281546, the canonical program `A281546.P13079150482357616982` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281546 has offset 0).
 
 The definition of A281546 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `27*n+2` (program `A281546.P13079150482357616982`, by `A281546.P13079150482357616982.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3378,7 +3380,7 @@ The definition of A281546 is `verified`: the Lean definition is proven equivalen
 
 `27*n+2`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A281546
@@ -3504,25 +3506,25 @@ end A281551.P7213031982023999652
 /-!
 # A281552: Write n in the Elias gamma code and sum the positions where there is a '1' followed immediately to the right by a '0', counting the leftmost digit as position 1.
 
-The programs for A281552, the canonical program `A281552.P14693642784009751994` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281552 has offset 1).
+The programs for A281552, the canonical program `A281552.P11677412151710128902` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281552 has offset 1).
 
-The definition of A281552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A281552 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049501, A171885, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A281552.P14693642784009751994
+/-! ## A281552.P11677412151710128902
 
-`A049501(A171885(n)+1)`
+`A049501(A171885(n+1))`
 
 The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A281552
 
-/-- `A049501(A171885(n)+1)` -/
-def P14693642784009751994.Spec : Prop :=
-  ∀ n, P14693642784009751994.a n = A281552 (n + 1)
+/-- `A049501(A171885(n+1))` -/
+def P11677412151710128902.Spec : Prop :=
+  ∀ n, P11677412151710128902.a n = A281552 (n + 1)
 
-theorem P14693642784009751994.correct : P14693642784009751994.Spec := by
+theorem P11677412151710128902.correct : P11677412151710128902.Spec := by
   intro n
   simp only [A281552, Nat.add_sub_cancel]
 
@@ -5924,7 +5926,7 @@ end A281583.P17435834489097889335
 /-!
 # A281584: Solutions x to the negative Pell equation x^2 - 15*y^2 = -11 with x, y > 0.
 
-The programs for A281584, the canonical program `A281584.P11147839157278959201` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281584 has offset 1).
+The programs for A281584, the canonical program `A281584.P11147839157278959201` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281584 has offset 1).
 
 The definition of A281584 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5933,7 +5935,7 @@ The definition of A281584 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-2)-a(n-4)` with `a(0)=2, a(1)=7, a(2)=23, a(3)=58`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A281584
@@ -6394,7 +6396,7 @@ end A281588.P12385553284639664043
 /-!
 # A281589: Triangular array T(n,k), n > 0 and k = 1..2^(n-1), read by rows, in which row n corresponds to the permutation of [1..2^(n-1)] resulting from folding a horizontal strip of paper, with 2^(n-1) square cells numbered from 1 to 2^(n-1), n-1 times.
 
-The programs for A281589, the canonical program `A281589.P10233469596152794852` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281589 has offset 1).
+The programs for A281589, the canonical program `A281589.P10233469596152794852` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281589 has offset 1).
 
 The definition of A281589 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6403,7 +6405,7 @@ The definition of A281589 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)%2+A119608(n+2)%(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A281589
@@ -6763,7 +6765,7 @@ end A281591.P15869613551664968371
 /-!
 # A281593: a(n) = b(n) - Sum_{j=0..n-1} b(j) with b(n) = binomial(2*n, n).
 
-The programs for A281593, the canonical program `A281593.P9505867882038692606` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281593 has offset 0).
+The programs for A281593, the canonical program `A281593.P9505867882038692606` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281593 has offset 0).
 
 The definition of A281593 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6772,7 +6774,7 @@ The definition of A281593 is `conjectured`: the Lean definition is a formula tha
 
 `2*A279561(n)-1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A281593
@@ -7422,7 +7424,7 @@ end A281594
 /-!
 # A281595: a(n) = (n^n - 3*(n-1)^n + 3*(n-2)^n - (n-3)^n)/6.
 
-The programs for A281595, the canonical program `A281595.P1500226968967288117` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281595 has offset 0).
+The programs for A281595, the canonical program `A281595.P1500226968967288117` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281595 has offset 0).
 
 The definition of A281595 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7431,7 +7433,7 @@ The definition of A281595 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n^n-3*(n-1)^n+3*(n-2)^n-(n-3)^n)/6`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A281595
@@ -7468,7 +7470,7 @@ end A281595
 /-!
 # A281596: a(n) = ((n-2)^n - 2*(n-1)^n + n^n)/2.
 
-The programs for A281596, the canonical program `A281596.P1623002210637556942` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281596 has offset 0).
+The programs for A281596, the canonical program `A281596.P1623002210637556942` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281596 has offset 0).
 
 The definition of A281596 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7477,7 +7479,7 @@ The definition of A281596 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((n-2)^n-2*(n-1)^n+n^n)/2`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A281596

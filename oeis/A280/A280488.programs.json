@@ -14,6 +14,10 @@
         "+",
         "A280489",
         "/"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {
@@ -33,6 +37,10 @@
         "A241909",
         "gcd",
         "/"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

@@ -11,18 +11,17 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C016
+import Seq.B000.C013
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C028
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,6 +36,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
@@ -44,7 +44,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -56,7 +55,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +81,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A234600: Denominators of the expectation of the process defined by randomly moving 2n balls between bins.
@@ -862,25 +860,25 @@ end A234615.P10078967179532030572
 /-!
 # A234617: Numbers of undirected cycles in the 2n-crossed prism graph.
 
-The programs for A234617, the canonical program `A234617.P3165534080521675487` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234617 has offset 1).
+The programs for A234617, the canonical program `A234617.P14389326993764515837` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234617 has offset 1).
 
-The definition of A234617 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A234617 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A234617.P3165534080521675487
+/-! ## A234617.P14389326993764515837
 
-`A000295(2*(n+1))+A000337(n+2)+A000295(n)`
+`2^n+4^(n+1)+(2^(n+2)-3)*(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A234617
 
-/-- `A000295(2*(n+1))+A000337(n+2)+A000295(n)` -/
-def P3165534080521675487.Spec : Prop :=
-  ∀ n, P3165534080521675487.a n = A234617 (n + 1)
+/-- `2^n+4^(n+1)+(2^(n+2)-3)*(n+1)` -/
+def P14389326993764515837.Spec : Prop :=
+  ∀ n, P14389326993764515837.a n = A234617 (n + 1)
 
-theorem P3165534080521675487.correct : P3165534080521675487.Spec := by
+theorem P14389326993764515837.correct : P14389326993764515837.Spec := by
   intro n
   simp only [A234617, Nat.add_sub_cancel]
 
@@ -1005,6 +1003,21 @@ end A234632.P6948984009348552050
 
 The programs for A234633, there is no canonical definition to state claims against.
 -/
+
+/-! ## A234633.P11207606583156982210
+
+`(n+1)!^3*A110706(n+1)`
+-/
+
+namespace A234633.P11207606583156982210
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 1) ^ 3 : ℤ) * A110706 (n + 1)
+
+end
+
+end A234633.P11207606583156982210
 
 /-! ## A234633.P13552648522870514515
 
@@ -2022,7 +2035,7 @@ end A234644.P15368549718876721850
 /-!
 # A234645: Sum of the divisors of n^3+1.
 
-The programs for A234645, the canonical program `A234645.P14684045542751646639` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234645 has offset 0).
+The programs for A234645, the canonical program `A234645.P14684045542751646639` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234645 has offset 0).
 
 The definition of A234645 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2031,7 +2044,7 @@ The definition of A234645 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n^3+1, #]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A234645
@@ -2606,27 +2619,50 @@ end A234647.P11940121282164851490
 /-!
 # A234648: Even sums of 2 consecutive odious numbers (A000069).
 
-The programs for A234648, the canonical program `A234648.P13374418247733756106` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234648 has offset 1).
+The programs for A234648, the canonical program `A234648.P5813461578857952792` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234648 has offset 1).
 
-The definition of A234648 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A234648 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A225822, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A234648.P13374418247733756106
+/-! ## A234648.P5813461578857952792
 
-`A225822(n+1)-A033999(n)`
+`A225822(n+1)+(-1)^(n+1)`
 
 The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A234648
 
-/-- `A225822(n+1)-A033999(n)` -/
-def P13374418247733756106.Spec : Prop :=
-  ∀ n, P13374418247733756106.a n = A234648 (n + 1)
+/-- `A225822(n+1)+(-1)^(n+1)` -/
+def P5813461578857952792.Spec : Prop :=
+  ∀ n, P5813461578857952792.a n = A234648 (n + 1)
 
-theorem P13374418247733756106.correct : P13374418247733756106.Spec := by
+theorem P5813461578857952792.correct : P5813461578857952792.Spec := by
   intro n
   simp only [A234648, Nat.add_sub_cancel]
+
+end A234648
+
+/-! ## A234648.P17662167216586418199
+
+`A234011(A036554(n+1))`
+-/
+
+namespace A234648.P17662167216586418199
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234011 (A036554 (n + 1)).toNat
+
+end
+
+end A234648.P17662167216586418199
+
+namespace A234648
+
+/-- `A234011(A036554(n+1))` -/
+def P17662167216586418199.Spec : Prop :=
+  ∀ n, P17662167216586418199.a n = A234648 (n + 1)
 
 end A234648
 
@@ -2867,29 +2903,6 @@ def P12035989908611109038.Spec : Prop :=
 
 end A234648
 
-/-! ## A234648.P17662167216586418199
-
-`A234011(A036554(n+1))`
--/
-
-namespace A234648.P17662167216586418199
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234011 (A036554 (n + 1)).toNat
-
-end
-
-end A234648.P17662167216586418199
-
-namespace A234648
-
-/-- `A234011(A036554(n+1))` -/
-def P17662167216586418199.Spec : Prop :=
-  ∀ n, P17662167216586418199.a n = A234648 (n + 1)
-
-end A234648
-
 /-! ## A234648.P8481772782333667153
 
 `A234011(A079523(n+1)+1)`
@@ -3079,6 +3092,27 @@ def P11313209529519114998.Spec : Prop :=
   ∀ n, P11313209529519114998.a n = A234648 (n + 1)
 
 end A234648
+
+/-!
+# A234649: Difference between the first members of the widest and the narrowest prime pair having an arithmetic mean of n.
+
+The programs for A234649, there is no canonical definition to state claims against.
+-/
+
+/-! ## A234649.P12482149910339183813
+
+`A078587(n+8)-A002373(n+8)`
+-/
+
+namespace A234649.P12482149910339183813
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078587 (n + 8) - A002373 (n + 8)
+
+end
+
+end A234649.P12482149910339183813
 
 /-!
 # A234650: Number of (n+1) X (n+1) 0..5 arrays with every 2 X 2 subblock having its diagonal sum differing from its antidiagonal sum by 4 (constant-stress 1 X 1 tilings).

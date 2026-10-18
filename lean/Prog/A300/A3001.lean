@@ -5,7 +5,6 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -13,20 +12,19 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -39,18 +37,17 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -59,6 +56,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4479,7 +4478,9 @@ end A300163.P9668786819101316006
 /-!
 # A300164: Numbers of the form n^2+1 not expressible as j^2+k^2 with j>k>1.
 
-The programs for A300164, there is no canonical definition to state claims against.
+The programs for A300164, the canonical program `A300164.P1924434180453968299` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300164 has offset 1).
+
+The definition of A300164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1302 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A300164.P7959572704413769632
@@ -4500,20 +4501,32 @@ end
 
 end A300164.P7959572704413769632
 
+namespace A300164
+
+/-- `record[A065876(n)+C(n, n²)+n]` -/
+def P7959572704413769632.Spec : Prop :=
+  ∀ n, P7959572704413769632.a n = A300164 (n + 1)
+
+end A300164
+
 /-! ## A300164.P1924434180453968299
 
 `A054977(n)+A071557(n+1)²`
+
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
-namespace A300164.P1924434180453968299
-noncomputable section
+namespace A300164
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054977 n + A071557 (n + 1) ^ 2
+/-- `A054977(n)+A071557(n+1)²` -/
+def P1924434180453968299.Spec : Prop :=
+  ∀ n, P1924434180453968299.a n = A300164 (n + 1)
 
-end
+theorem P1924434180453968299.correct : P1924434180453968299.Spec := by
+  intro n
+  simp only [A300164, Nat.add_sub_cancel]
 
-end A300164.P1924434180453968299
+end A300164
 
 /-! ## A300164.P2570442222262699219
 
@@ -4532,6 +4545,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300164.P2570442222262699219
+
+namespace A300164
+
+/-- `record[A065876(n)+A001057(A004275(n)+1)]` -/
+def P2570442222262699219.Spec : Prop :=
+  ∀ n, P2570442222262699219.a n = A300164 (n + 1)
+
+end A300164
 
 /-! ## A300164.P17036043692163342674
 
@@ -4555,6 +4576,14 @@ end
 
 end A300164.P17036043692163342674
 
+namespace A300164
+
+/-- `∩[A224450(n+1), n²+1]` -/
+def P17036043692163342674.Spec : Prop :=
+  ∀ n, (P17036043692163342674.a n : ℤ) = A300164 (n + 1)
+
+end A300164
+
 /-! ## A300164.P11551076367370886994
 
 `∩[A002522(n), A224450(n+1)]`
@@ -4576,6 +4605,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300164.P11551076367370886994
+
+namespace A300164
+
+/-- `∩[A002522(n), A224450(n+1)]` -/
+def P11551076367370886994.Spec : Prop :=
+  ∀ n, (P11551076367370886994.a n : ℤ) = A300164 (n + 1)
+
+end A300164
 
 /-! ## A300164.P4375718441184791519
 
@@ -4599,6 +4636,14 @@ end
 
 end A300164.P4375718441184791519
 
+namespace A300164
+
+/-- `∩[A087279(n+1), A224450(n+1)]` -/
+def P4375718441184791519.Spec : Prop :=
+  ∀ n, (P4375718441184791519.a n : ℤ) = A300164 (n + 1)
+
+end A300164
+
 /-! ## A300164.P8727913755416435539
 
 `filter[A002522(n+1), A354924(#)]`
@@ -4616,6 +4661,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300164.P8727913755416435539
+
+namespace A300164
+
+/-- `filter[A002522(n+1), A354924(#)]` -/
+def P8727913755416435539.Spec : Prop :=
+  ∀ n, P8727913755416435539.a n = A300164 (n + 1)
+
+end A300164
 
 /-! ## A300164.P18173909850449345940
 
@@ -4635,6 +4688,14 @@ end
 
 end A300164.P18173909850449345940
 
+namespace A300164
+
+/-- `filter[A160457(n+2), A354924(#)]` -/
+def P18173909850449345940.Spec : Prop :=
+  ∀ n, P18173909850449345940.a n = A300164 (n + 1)
+
+end A300164
+
 /-! ## A300164.P14473109513294905168
 
 `filter[A013945(2*(n+1)), A354924(#)]`
@@ -4652,6 +4713,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300164.P14473109513294905168
+
+namespace A300164
+
+/-- `filter[A013945(2*(n+1)), A354924(#)]` -/
+def P14473109513294905168.Spec : Prop :=
+  ∀ n, P14473109513294905168.a n = A300164 (n + 1)
+
+end A300164
 
 /-! ## A300164.P9035345086406365523
 
@@ -4671,6 +4740,14 @@ end
 
 end A300164.P9035345086406365523
 
+namespace A300164
+
+/-- `filter[A087279(2*(n+1)), A354924(#)]` -/
+def P9035345086406365523.Spec : Prop :=
+  ∀ n, P9035345086406365523.a n = A300164 (n + 1)
+
+end A300164
+
 /-! ## A300164.P10560443431313218245
 
 `filter[A338284(2*(n+1)), A354924(#)]`
@@ -4688,6 +4765,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300164.P10560443431313218245
+
+namespace A300164
+
+/-- `filter[A338284(2*(n+1)), A354924(#)]` -/
+def P10560443431313218245.Spec : Prop :=
+  ∀ n, P10560443431313218245.a n = A300164 (n + 1)
+
+end A300164
 
 /-!
 # A300165: Numbers m such that m^2 + 1 can be expressed in more than one way as j^2 + k^2 with j > k > 1 and gcd(j,k) = 1.
@@ -5931,7 +6016,7 @@ end A300176.P4590947261194689998
 /-!
 # A300177: Number of nX3 0..1 arrays with every element equal to 0, 1, 2, 3, 4, 5, 6 or 7 king-move adjacent elements, with upper left element zero.
 
-The programs for A300177, the canonical program `A300177.P8645473972523018361` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300177 has offset 1).
+The programs for A300177, the canonical program `A300177.P8645473972523018361` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300177 has offset 1).
 
 The definition of A300177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5940,7 +6025,7 @@ The definition of A300177 is `conjectured`: the Lean definition is a formula tha
 
 `7*a(n-1)+7*a(n-2)+6*a(n-3)` with `a(0)=4, a(1)=32, a(2)=255`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A300177

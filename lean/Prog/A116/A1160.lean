@@ -9,45 +9,42 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C018
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -56,11 +53,12 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4109,7 +4107,7 @@ end A116073
 /-!
 # A116078: Column 0 of triangle A116077.
 
-The programs for A116078, the canonical program `A116078.P123251626147989566` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116078 has offset 0).
+The programs for A116078, the canonical program `A116078.P123251626147989566` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116078 has offset 0).
 
 The definition of A116078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4118,7 +4116,7 @@ The definition of A116078 is `conjectured`: the Lean definition is a formula tha
 
 `A139262(n)+A000984(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A116078
@@ -5078,41 +5076,25 @@ end A116082
 /-!
 # A116083: Numbers k such that phi(sigma(k)) - sigma(phi(k)) = 1.
 
-The programs for A116083, there is no canonical definition to state claims against.
+The programs for A116083, the canonical program `A116083.P2384163169274467344` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116083 has offset 1).
+
+The definition of A116083 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A116083.P12226499983325322490
+/-! ## A116083.P2384163169274467344
 
-`2^(∏[gcd(2, n)]-1)*3^(n%2)`
+`((-1)^(n+1)+2)*2^(2^floor((n+2)/2)-1)`
+
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
-namespace A116083.P12226499983325322490
-noncomputable section
+namespace A116083
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.gcd 2 n
+/-- `((-1)^(n+1)+2)*2^(2^floor((n+2)/2)-1)` -/
+def P2384163169274467344.Spec : Prop :=
+  ∀ n, P2384163169274467344.a n = (A116083 (n + 1) : ℝ)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ (((∏ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - 1 : ℤ) * (3 ^ (n % 2) : ℚ)
-
-end
-
-end A116083.P12226499983325322490
-
-/-! ## A116083.P8214863223702096701
-
-`2*gcd(a(n-1), a(n-2))*a(n-2)` with `a(0)=2, a(1)=6`
--/
-
-namespace A116083.P8214863223702096701
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [2, 6] fun n a =>
-  2 * (Nat.gcd (a (n - 1)) (a (n - 2)) * a (n - 2))
-
-end
-
-end A116083.P8214863223702096701
+end A116083
 
 /-! ## A116083.P18055295604786580464
 
@@ -5139,20 +5121,13 @@ end
 
 end A116083.P18055295604786580464
 
-/-! ## A116083.P7801339967378683847
+namespace A116083
 
-`3^(n%2)*A081294(2^floor(n/2))`
--/
+/-- `A122756(∪[2^n, ∑[2^n]])` -/
+def P18055295604786580464.Spec : Prop :=
+  ∀ n, P18055295604786580464.a n = A116083 (n + 1)
 
-namespace A116083.P7801339967378683847
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 ^ (n % 2) : ℤ) * A081294 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ))).toNat
-
-end
-
-end A116083.P7801339967378683847
+end A116083
 
 /-! ## A116083.P6486670155872374979
 
@@ -5168,6 +5143,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116083.P6486670155872374979
+
+namespace A116083
+
+/-- `A122756(A097110(n))` -/
+def P6486670155872374979.Spec : Prop :=
+  ∀ n, P6486670155872374979.a n = A116083 (n + 1)
+
+end A116083
 
 /-!
 # A116084: Number of partitions of 1 into distinct fractions i/j with 1<=i
@@ -5530,7 +5513,7 @@ end A116087.P15542432087467604089
 /-!
 # A116088: Riordan array (1, x*(1+x)^2).
 
-The programs for A116088, the canonical program `A116088.P545449340874699905` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116088 has offset 0).
+The programs for A116088, the canonical program `A116088.P545449340874699905` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116088 has offset 0).
 
 The definition of A116088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5654,7 +5637,7 @@ end A116088
 
 `C(2*A002262(n), A025581(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A116088
@@ -5974,7 +5957,7 @@ end A116088
 /-!
 # A116089: Riordan array (1, x*(1+x)^3).
 
-The programs for A116089, the canonical program `A116089.P15958432724052264868` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116089 has offset 0).
+The programs for A116089, the canonical program `A116089.P15958432724052264868` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116089 has offset 0).
 
 The definition of A116089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6023,7 +6006,7 @@ end A116089
 
 `C(A008585(A002262(n)), A025581(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A116089

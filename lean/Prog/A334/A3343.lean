@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -16,7 +17,8 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -26,9 +28,10 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -36,30 +39,31 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,6 +73,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -83,7 +88,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -2316,7 +2320,7 @@ end A334340.P11675511121494472007
 /-!
 # A334341: a(n) = Sum_{p|n, p prime} (n - p).
 
-The programs for A334341, the canonical program `A334341.P15771885294790484671` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334341 has offset 1).
+The programs for A334341, the canonical program `A334341.P15771885294790484671` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334341 has offset 1).
 
 The definition of A334341 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2325,7 +2329,7 @@ The definition of A334341 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, 1-#+n]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A334341
@@ -2705,7 +2709,7 @@ end A334342.P2066850777145189509
 /-!
 # A334344: Binary Moran numbers: numbers k such that k divided by its binary weight (A000120) is a prime number.
 
-The programs for A334344, the canonical program `A334344.P8459068774756560917` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334344 has offset 1).
+The programs for A334344, the canonical program `A334344.P8459068774756560917` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334344 has offset 1).
 
 The definition of A334344 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 264 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2714,7 +2718,7 @@ The definition of A334344 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000120(n), A052126(A143051(n+1))]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A334344
@@ -3182,23 +3186,25 @@ end A334352.P2237635819302571261
 /-!
 # A334356: Number of nonequivalent proper colorings of the vertices of a cube using at most n colors up to rotations and reflections of the cube.
 
-The programs for A334356, there is no canonical definition to state claims against.
+The programs for A334356, the canonical program `A334356.P1340419756641511527` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334356 has offset 1).
+
+The definition of A334356 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A334356.P12918039973394375920
+/-! ## A334356.P1340419756641511527
 
-`A152170(n)+A079071(A152266(n))`
+`(n+1)*n*((n+1)*((n+1)*((n+1)*((n+1)*((n-10)*(n+1)+61)-195)+384)-428)+216)/48`
+
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
-namespace A334356.P12918039973394375920
-noncomputable section
+namespace A334356
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152170 n + A079071 (A152266 n).toNat
+/-- `(n+1)*n*((n+1)*((n+1)*((n+1)*((n+1)*((n-10)*(n+1)+61)-195)+384)-428)+216)/48` -/
+def P1340419756641511527.Spec : Prop :=
+  ∀ n, P1340419756641511527.a n = (A334356 (n + 1) : ℚ)
 
-end
-
-end A334356.P12918039973394375920
+end A334356
 
 /-!
 # A334360: Anti-Waring numbers: least number k such that k and all larger numbers can be expressed as the sum of one or more distinct n-th powers.
@@ -4610,7 +4616,7 @@ end A334392.P12578227745642446764
 /-!
 # A334393: Numbers of the form p^q where p and q are either 1 or prime.
 
-The programs for A334393, the canonical program `A334393.P7657371225357082725` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334393 has offset 1).
+The programs for A334393, the canonical program `A334393.P7657371225357082725` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334393 has offset 1).
 
 The definition of A334393 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9988 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4739,7 +4745,7 @@ end A334393
 
 `∩[A164336(n+1), A384419(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A334393
@@ -5099,7 +5105,7 @@ end A334395.P5214549161225623239
 /-!
 # A334396: Number of fault-free tilings of a 3 X n rectangle with squares and dominoes.
 
-The programs for A334396, the canonical program `A334396.P1216478242613319315` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334396 has offset 1).
+The programs for A334396, the canonical program `A334396.P1216478242613319315` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334396 has offset 1).
 
 The definition of A334396 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5108,7 +5114,7 @@ The definition of A334396 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+4*a(n-2)-a(n-3)-a(n-4)` with `a(0)=0, a(1)=0, a(2)=2, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A334396

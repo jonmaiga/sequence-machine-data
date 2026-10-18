@@ -8,38 +8,35 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C022
+import Seq.B000.C029
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -47,6 +44,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6334,6 +6333,21 @@ end A223094.P7518270449815747978
 The programs for A223095, there is no canonical definition to state claims against.
 -/
 
+/-! ## A223095.P185868452646359478
+
+`(2-(n+1)%2)*A217318(n+1)`
+-/
+
+namespace A223095.P185868452646359478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 - (((n + 1) % 2 : ℕ) : ℤ)) * A217318 (n + 1)
+
+end
+
+end A223095.P185868452646359478
+
 /-! ## A223095.P11808663793626543323
 
 `A223094(n+1)-A223093(n+1)`
@@ -6348,6 +6362,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223095.P11808663793626543323
+
+/-! ## A223095.P11324029976807688880
+
+`A000136(n+1)+A077014(n+1)-2*A000682(n+2)`
+-/
+
+namespace A223095.P11324029976807688880
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000136 (n + 1) + A077014 (n + 1) - 2 * A000682 (n + 2)
+
+end
+
+end A223095.P11324029976807688880
 
 /-! ## A223095.P12162434939664256783
 
@@ -6378,36 +6407,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223095.P13266099212777568048
-
-/-! ## A223095.P2996173081786006875
-
-`(A000035(n)+1)*A217318(n+1)`
--/
-
-namespace A223095.P2996173081786006875
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A000035 n + 1) * A217318 (n + 1)
-
-end
-
-end A223095.P2996173081786006875
-
-/-! ## A223095.P13819354731420817133
-
-`A134451(n+1)*A217318(n+1)`
--/
-
-namespace A223095.P13819354731420817133
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134451 (n + 1) * A217318 (n + 1)
-
-end
-
-end A223095.P13819354731420817133
 
 /-!
 # A223096: Number of symmetric meander shapes with 2n+1 crossings.

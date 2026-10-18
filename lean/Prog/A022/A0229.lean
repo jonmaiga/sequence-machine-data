@@ -25,11 +25,13 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,11 +43,10 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -53,10 +54,10 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -76,11 +77,12 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
-import Seq.Opaque.C026
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -271,8 +273,31 @@ end A022904.P12927128019493228852
 
 The programs for A022905, the canonical program `A022905.P16932586740772776458` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022905 has offset 1).
 
-The definition of A022905 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A033485, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A022905 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A022905.P212847417193709125
+
+`a(n-1)+1+a(floor((n+1)/2)-1)+a(ceil((n+1)/2)-1)` with `a(0)=1`
+-/
+
+namespace A022905.P212847417193709125
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + (1 + a (⌊(n + 1 : ℚ) / 2⌋ - 1).toNat) + a (⌈(n + 1 : ℚ) / 2⌉ - 1).toNat
+
+end
+
+end A022905.P212847417193709125
+
+namespace A022905
+
+/-- `a(n-1)+1+a(floor((n+1)/2)-1)+a(ceil((n+1)/2)-1)` -/
+def P212847417193709125.Spec : Prop :=
+  ∀ n, (P212847417193709125.a n : ℤ) = A022905 (n + 1)
+
+end A022905
 
 /-! ## A022905.P16932586740772776458
 
@@ -482,32 +507,6 @@ namespace A022905
 /-- `∑[∑[A007494(A018819(n))]-1]` -/
 def P7396298104319794656.Spec : Prop :=
   ∀ n, P7396298104319794656.a n = A022905 (n + 1)
-
-end A022905
-
-/-! ## A022905.P7041882928815044309
-
-`∑[A032766(A000123(n))]`
--/
-
-namespace A022905.P7041882928815044309
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032766 (A000123 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A022905.P7041882928815044309
-
-namespace A022905
-
-/-- `∑[A032766(A000123(n))]` -/
-def P7041882928815044309.Spec : Prop :=
-  ∀ n, P7041882928815044309.a n = A022905 (n + 1)
 
 end A022905
 

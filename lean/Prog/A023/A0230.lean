@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -18,29 +19,29 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
@@ -50,9 +51,9 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,12 +79,16 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A023000: a(n) = (7^n - 1)/6.
 
 The programs for A023000, the canonical program `A023000.P211291010459174643` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023000 has offset 0).
 
-The definition of A023000 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A023000 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7^n-1)/6` (program `A023000.P9587155750024764488`, by `A023000.P9587155750024764488.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A023000.P211291010459174643
@@ -150,6 +155,23 @@ namespace A023000
 /-- `(7^n-1)/6` -/
 def P9587155750024764488.Spec : Prop :=
   ∀ n, P9587155750024764488.a n = (A023000 n : ℚ)
+
+theorem P9587155750024764488.correct : P9587155750024764488.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A023000, Nat.add_sub_cancel, A023000.P9587155750024764488.a, A023000.P211291010459174643.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A023000, Nat.add_sub_cancel, A023000.P9587155750024764488.a, A023000.P211291010459174643.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A023000
 
@@ -374,7 +396,7 @@ end A023000
 
 The programs for A023001, the canonical program `A023001.P9482498461707251472` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023001 has offset 0).
 
-The definition of A023001 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A023001 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(8^n-1)/7` (program `A023001.P7433515000217407841`, by `A023001.P7433515000217407841.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A023001.P9482498461707251472
@@ -418,6 +440,23 @@ namespace A023001
 /-- `(8^n-1)/7` -/
 def P7433515000217407841.Spec : Prop :=
   ∀ n, P7433515000217407841.a n = (A023001 n : ℚ)
+
+theorem P7433515000217407841.correct : P7433515000217407841.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A023001, Nat.add_sub_cancel, A023001.P7433515000217407841.a, A023001.P9482498461707251472.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A023001, Nat.add_sub_cancel, A023001.P7433515000217407841.a, A023001.P9482498461707251472.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A023001
 
@@ -3126,7 +3165,7 @@ end A023021.P10096558869912774877
 /-!
 # A023022: Number of partitions of n into two relatively prime parts. After initial term, this is the "half-totient" function phi(n)/2 (A000010(n)/2).
 
-The programs for A023022, the canonical program `A023022.P1398771566615799062` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023022 has offset 2).
+The programs for A023022, the canonical program `A023022.P11386116983089774469` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023022 has offset 2).
 
 The definition of A023022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3157,26 +3196,19 @@ end A023022
 /-! ## A023022.P11386116983089774469
 
 `round(Δ[A002088(n+1)]/2)`
+
+The canonical program, it is in `Seq.B006.C000`.
 -/
-
-namespace A023022.P11386116983089774469
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002088 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((f1 (n + 1) - f1 n : ℚ) / 2)
-
-end
-
-end A023022.P11386116983089774469
 
 namespace A023022
 
 /-- `round(Δ[A002088(n+1)]/2)` -/
 def P11386116983089774469.Spec : Prop :=
   ∀ n, P11386116983089774469.a n = A023022 (n + 2)
+
+theorem P11386116983089774469.correct : P11386116983089774469.Spec := by
+  intro n
+  simp only [A023022, Nat.add_sub_cancel]
 
 end A023022
 
@@ -3229,19 +3261,23 @@ end A023022
 /-! ## A023022.P1398771566615799062
 
 `A057001(n+1)+a(n-1)` with `a(0)=1, a(1)=1`
-
-The canonical program, it is in `Seq.B004.C000`.
 -/
+
+namespace A023022.P1398771566615799062
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A057001 (n + 1) + a (n - 1)
+
+end
+
+end A023022.P1398771566615799062
 
 namespace A023022
 
 /-- `A057001(n+1)+a(n-1)` -/
 def P1398771566615799062.Spec : Prop :=
   ∀ n, P1398771566615799062.a n = A023022 (n + 2)
-
-theorem P1398771566615799062.correct : P1398771566615799062.Spec := by
-  intro n
-  simp only [A023022, Nat.add_sub_cancel]
 
 end A023022
 
@@ -3605,7 +3641,7 @@ end A023022
 /-!
 # A023023: Number of partitions of n into 3 unordered relatively prime parts.
 
-The programs for A023023, the canonical program `A023023.P8312334667224594781` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023023 has offset 3).
+The programs for A023023, the canonical program `A023023.P8312334667224594781` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023023 has offset 3).
 
 The definition of A023023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3614,7 +3650,7 @@ The definition of A023023 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A000114(n+3)/3)/2`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A023023

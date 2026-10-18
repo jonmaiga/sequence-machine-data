@@ -14,6 +14,10 @@
         "+",
         "A038566",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

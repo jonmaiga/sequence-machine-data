@@ -15,10 +15,9 @@ import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
@@ -26,10 +25,10 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
@@ -40,25 +39,25 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1921,6 +1920,21 @@ end A236524.P1652381916412010622
 The programs for A236525, there is no canonical definition to state claims against.
 -/
 
+/-! ## A236525.P1190702940280615143
+
+`A000088(n+1)-A033995(n+1)`
+-/
+
+namespace A236525.P1190702940280615143
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000088 (n + 1) - A033995 (n + 1)
+
+end
+
+end A236525.P1190702940280615143
+
 /-! ## A236525.P9172132762460826615
 
 `Δ[A006897(n)]-A033995(n+1)`
@@ -1938,21 +1952,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236525.P9172132762460826615
-
-/-! ## A236525.P1190702940280615143
-
-`A000088(n+1)-A033995(n+1)`
--/
-
-namespace A236525.P1190702940280615143
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000088 (n + 1) - A033995 (n + 1)
-
-end
-
-end A236525.P1190702940280615143
 
 /-! ## A236525.P11234091702107408594
 
@@ -2528,7 +2527,7 @@ end A236533.P6517051613507787637
 /-!
 # A236535: a(n)*Pi is the total length of irregular spiral (center points: 2, 3, 1; pattern 1) after n rotations.
 
-The programs for A236535, the canonical program `A236535.P3667745902746436692` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236535 has offset 1).
+The programs for A236535, the canonical program `A236535.P3667745902746436692` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236535 has offset 1).
 
 The definition of A236535 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2537,7 +2536,7 @@ The definition of A236535 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=2, a(1)=5, a(2)=8, a(3)=10`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A236535
@@ -4308,6 +4307,21 @@ end A236553.P16950212079531443096
 The programs for A236554, there is no canonical definition to state claims against.
 -/
 
+/-! ## A236554.P790447915334212127
+
+`A236553(2^(n+1))`
+-/
+
+namespace A236554.P790447915334212127
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236553 (2 ^ (n + 1))
+
+end
+
+end A236554.P790447915334212127
+
 /-! ## A236554.P4682895601198570698
 
 `A028699(8*A167104(n))`
@@ -4769,7 +4783,7 @@ end A236561.P17615519959871010072
 /-!
 # A236562: Numbers n such that A049820(x) = n has a solution.
 
-The programs for A236562, the canonical program `A236562.P16099528287106471554` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236562 has offset 1).
+The programs for A236562, the canonical program `A236562.P16099528287106471554` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236562 has offset 1).
 
 The definition of A236562 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4863,7 +4877,7 @@ end A236562
 
 `comp[A045765(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A236562
@@ -6857,7 +6871,7 @@ end A236575
 /-!
 # A236576: The number of tilings of a 5 X (3n) floor with 1 X 3 trominoes.
 
-The programs for A236576, the canonical program `A236576.P878116119856439915` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236576 has offset 0).
+The programs for A236576, the canonical program `A236576.P878116119856439915` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236576 has offset 0).
 
 The definition of A236576 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6866,7 +6880,7 @@ The definition of A236576 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=1, a(1)=4, a(2)=22`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A236576

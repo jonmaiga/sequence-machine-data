@@ -1,10 +1,9 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C008
 import Seq.B000.C015
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B001.C001
 import Seq.B002.C001
 import Seq.B003.C001
@@ -17,7 +16,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C009
-import Seq.Opaque.C014
+import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
@@ -409,24 +408,6 @@ end A388655.P10408041601331390013
 
 The programs for A388656, there is no canonical definition to state claims against.
 -/
-
-/-! ## A388656.P12973926187535153749
-
-`A006530(∏{p}[A323330(n+1), #])`
--/
-
-namespace A388656.P12973926187535153749
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323330 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (∏ p ∈ Nat.primeFactors (f1 n).natAbs, p)
-
-end
-
-end A388656.P12973926187535153749
 
 /-! ## A388656.P14797083175579184444
 

@@ -7,23 +7,20 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C022
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,22 +32,24 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C001
+import Seq.B005.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5274,7 +5273,7 @@ end A043455.P13543464748053212070
 /-!
 # A043457: Numbers having one 1 in base 9.
 
-The programs for A043457, the canonical program `A043457.P3491725996769993334` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043457 has offset 1).
+The programs for A043457, the canonical program `A043457.P3491725996769993334` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043457 has offset 1).
 
 The definition of A043457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2049 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5370,7 +5369,7 @@ end A043457
 
 `eq[1, A268643(A052406(n+1))]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A043457
@@ -6455,7 +6454,7 @@ end A043464.P2167878948133593518
 /-!
 # A043465: Numbers having one 3 in base 9.
 
-The programs for A043465, the canonical program `A043465.P15128784765198913118` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043465 has offset 1).
+The programs for A043465, the canonical program `A043465.P15128784765198913118` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043465 has offset 1).
 
 The definition of A043465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6493,7 +6492,7 @@ end A043465
 
 `eq[1, A316864(A052406(n+1))]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A043465
@@ -7359,29 +7358,29 @@ end A043473
 /-!
 # A043474: Numbers having two 5's in base 9.
 
-The programs for A043474, there is no canonical definition to state claims against.
+The programs for A043474, the canonical program `A043474.P3675095178451187142` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043474 has offset 1).
+
+The definition of A043474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A043474.P3675095178451187142
 
 `eq[4, A286361(A338882(n))]`
+
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
-namespace A043474.P3675095178451187142
-noncomputable section
+namespace A043474
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
+/-- `eq[4, A286361(A338882(n))]` -/
+def P3675095178451187142.Spec : Prop :=
+  ∀ n, (P3675095178451187142.a n : ℤ) = A043474 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286361 (A338882 n).toNat
+theorem P3675095178451187142.correct : P3675095178451187142.Spec := by
+  intro n
+  simp only [A043474, Nat.add_sub_cancel]
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A043474.P3675095178451187142
+end A043474
 
 /-! ## A043474.P11745713004631036848
 
@@ -7401,6 +7400,14 @@ end
 
 end A043474.P11745713004631036848
 
+namespace A043474
+
+/-- `record[A008611(A002264(A043475(n+1)))]` -/
+def P11745713004631036848.Spec : Prop :=
+  ∀ n, P11745713004631036848.a n = A043474 (n + 1)
+
+end A043474
+
 /-! ## A043474.P3374928876214182867
 
 `A343609(A043475(n+1)^A117358(n+1))`
@@ -7415,6 +7422,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043474.P3374928876214182867
+
+namespace A043474
+
+/-- `A343609(A043475(n+1)^A117358(n+1))` -/
+def P3374928876214182867.Spec : Prop :=
+  ∀ n, P3374928876214182867.a n = A043474 (n + 1)
+
+end A043474
 
 /-! ## A043474.P16363766676536073334
 
@@ -7431,6 +7446,14 @@ end
 
 end A043474.P16363766676536073334
 
+namespace A043474
+
+/-- `A343609(A117358(n+1)²*A043475(n+1))` -/
+def P16363766676536073334.Spec : Prop :=
+  ∀ n, P16363766676536073334.a n = A043474 (n + 1)
+
+end A043474
+
 /-! ## A043474.P411838675483270516
 
 `A037477(A043442(n+1)%A091083(2*(n+1)))`
@@ -7445,6 +7468,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043474.P411838675483270516
+
+namespace A043474
+
+/-- `A037477(A043442(n+1)%A091083(2*(n+1)))` -/
+def P411838675483270516.Spec : Prop :=
+  ∀ n, P411838675483270516.a n = A043474 (n + 1)
+
+end A043474
 
 /-!
 # A043475: Numbers having three 5's in base 9.
