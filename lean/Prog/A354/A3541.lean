@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -17,18 +16,19 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3362,7 +3362,7 @@ end A354130.P17424280944473641881
 /-!
 # A354131: Number of tilings of a 2 X n rectangle using 2 X 2 and 1 X 1 tiles, right trominoes and dominoes.
 
-The programs for A354131, the canonical program `A354131.P9248415867984586130` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354131 has offset 0).
+The programs for A354131, the canonical program `A354131.P9248415867984586130` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354131 has offset 0).
 
 The definition of A354131 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3371,7 +3371,7 @@ The definition of A354131 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+6*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A354131
@@ -3383,6 +3383,29 @@ def P9248415867984586130.Spec : Prop :=
 theorem P9248415867984586130.correct : P9248415867984586130.Spec := by
   intro n
   simp only [A354131]
+
+end A354131
+
+/-! ## A354131.P7895721911124581034
+
+`ogf((-1+x)/(-1+3x+6x^2))`
+-/
+
+namespace A354131.P7895721911124581034
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -3, -6] n
+
+end
+
+end A354131.P7895721911124581034
+
+namespace A354131
+
+/-- `ogf((-1+x)/(-1+3x+6x^2))` -/
+def P7895721911124581034.Spec : Prop :=
+  ∀ n, P7895721911124581034.a n = A354131 n
 
 end A354131
 
@@ -5503,7 +5526,7 @@ end A354157.P2827670894130047873
 /-!
 # A354158: The Bodlaender function: a(1) = -1; a(2*n) = a(n), a(2*n+1) = a(n+1) + n.
 
-The programs for A354158, the canonical program `A354158.P9497624114601738341` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354158 has offset 1).
+The programs for A354158, the canonical program `A354158.P9497624114601738341` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354158 has offset 1).
 
 The definition of A354158 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5512,7 +5535,7 @@ The definition of A354158 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/2))+n-gcd(n, ∑[n])` with `a(0)=-1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A354158

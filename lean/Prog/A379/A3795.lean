@@ -4,27 +4,25 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1835,7 +1833,7 @@ end A379521.P4536977163110893660
 /-!
 # A379530: a(n) = (A135318(3*n) + A135318(3*n+1) + A135318(3*n+2))/3.
 
-The programs for A379530, the canonical program `A379530.P17922024253956413813` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379530 has offset 0).
+The programs for A379530, the canonical program `A379530.P17922024253956413813` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379530 has offset 0).
 
 The definition of A379530 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1844,7 +1842,7 @@ The definition of A379530 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-2)+8*a(n-4)` with `a(0)=1, a(1)=3, a(2)=8, a(3)=23`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379530
@@ -2079,7 +2077,7 @@ end A379539.P9650474414007743399
 /-!
 # A379540: Row sums of A376832.
 
-The programs for A379540, the canonical program `A379540.P5088240098878821863` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379540 has offset 0).
+The programs for A379540, the canonical program `A379540.P5088240098878821863` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379540 has offset 0).
 
 The definition of A379540 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2088,7 +2086,7 @@ The definition of A379540 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=0, a(2)=3, a(3)=16, a(4)=60, a(5)=168`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379540
@@ -3364,7 +3362,7 @@ end A379576.P8327595494082576911
 /-!
 # A379577: a(n) = (n!)^n + n^n.
 
-The programs for A379577, the canonical program `A379577.P6538245130008192012` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379577 has offset 0).
+The programs for A379577, the canonical program `A379577.P6538245130008192012` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379577 has offset 0).
 
 The definition of A379577 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!^n+n^n` (program `A379577.P6538245130008192012`, by `A379577.P6538245130008192012.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3373,7 +3371,7 @@ The definition of A379577 is `verified`: the Lean definition is proven equivalen
 
 `n!^n+n^n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379577

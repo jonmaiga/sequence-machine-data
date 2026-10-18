@@ -3,19 +3,18 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C014
+import Seq.B000.C016
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -23,13 +22,14 @@ import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
@@ -47,9 +47,9 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -1560,7 +1560,7 @@ end A371842.P2783385885123680127
 /-!
 # A371843: a(n) = 5*Fibonacci(n) + (-1)^n.
 
-The programs for A371843, the canonical program `A371843.P3779927828681777337` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371843 has offset 0).
+The programs for A371843, the canonical program `A371843.P3779927828681777337` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371843 has offset 0).
 
 The definition of A371843 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1569,7 +1569,7 @@ The definition of A371843 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)+a(n-3)` with `a(0)=1, a(1)=4, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A371843
@@ -1627,6 +1627,29 @@ namespace A371843
 /-- `A022088(n)+A033999(n)` -/
 def P13472273686601571635.Spec : Prop :=
   ∀ n, P13472273686601571635.a n = A371843 n
+
+end A371843
+
+/-! ## A371843.P10646130504052648463
+
+`ogf((1+4x+4x^2)/(1-2x^2-x^3))`
+-/
+
+namespace A371843.P10646130504052648463
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, 4] [1, 0, -2, -1] n
+
+end
+
+end A371843.P10646130504052648463
+
+namespace A371843
+
+/-- `ogf((1+4x+4x^2)/(1-2x^2-x^3))` -/
+def P10646130504052648463.Spec : Prop :=
+  ∀ n, P10646130504052648463.a n = A371843 n
 
 end A371843
 
@@ -3462,7 +3485,7 @@ end A371884.P3349491358717867850
 /-!
 # A371886: The number of multiples (k) of n where the interval contained in an equal temperament with k*n divisions of the octave (k*n-ET) that best approximates the just perfect fifth (3:2) is equal to that of an equal temperament with n divisions.
 
-The programs for A371886, the canonical program `A371886.P6723559790389278362` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371886 has offset 1).
+The programs for A371886, the canonical program `A371886.P6723559790389278362` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371886 has offset 1).
 
 The definition of A371886 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3471,7 +3494,7 @@ The definition of A371886 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(1/(2*abs(round((n+1)*log2(3/2))-(n+1)*log2(3/2))))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A371886

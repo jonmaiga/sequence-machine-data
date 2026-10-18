@@ -27,18 +27,21 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -923,7 +926,7 @@ end A369907
 /-!
 # A369908: a(n) = Sum_{p|n, p prime} n^Omega(n/p).
 
-The programs for A369908, the canonical program `A369908.P6626200675664716707` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369908 has offset 1).
+The programs for A369908, the canonical program `A369908.P6626200675664716707` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369908 has offset 1).
 
 The definition of A369908 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -932,7 +935,7 @@ The definition of A369908 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)^(∑{e}[n+1, #]-1)*∑{p}[n+1, gcd(n, #)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A369908
@@ -1458,7 +1461,7 @@ end A369914
 /-!
 # A369915: a(n) = Sum_{p|n, p prime} lcm(p, n/p) / p.
 
-The programs for A369915, the canonical program `A369915.P6789470802173067047` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369915 has offset 1).
+The programs for A369915, the canonical program `A369915.P6789470802173067047` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369915 has offset 1).
 
 The definition of A369915 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1467,7 +1470,7 @@ The definition of A369915 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, (n+1)/gcd(n+1, #²)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A369915
@@ -1891,7 +1894,7 @@ end A369921.P11489241018629381334
 /-!
 # A369922: a(n) = 8*n^3 - 6*n - 1.
 
-The programs for A369922, the canonical program `A369922.P11658645378781673811` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369922 has offset 0).
+The programs for A369922, the canonical program `A369922.P11658645378781673811` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369922 has offset 0).
 
 The definition of A369922 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*n^3-6*n-1` (program `A369922.P11658645378781673811`, by `A369922.P11658645378781673811.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1900,7 +1903,7 @@ The definition of A369922 is `verified`: the Lean definition is proven equivalen
 
 `8*n^3-6*n-1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A369922

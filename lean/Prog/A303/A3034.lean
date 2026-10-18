@@ -22,15 +22,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -1234,16 +1234,39 @@ end A303415.P11010317749570539487
 /-!
 # A303416: Number of n X 3 0..1 arrays with every element equal to 0, 1, 2, 3, 4 or 5 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A303416, the canonical program `A303416.P7099389972717451502` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303416 has offset 1).
+The programs for A303416, the canonical program `A303416.P7099389972717451502` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303416 has offset 1).
 
 The definition of A303416 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A303416.P5158279090369130191
+
+`ogf((4+4x+4x^2)/(1-7x-6x^2-8x^3))`
+-/
+
+namespace A303416.P5158279090369130191
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 4, 4] [1, -7, -6, -8] n
+
+end
+
+end A303416.P5158279090369130191
+
+namespace A303416
+
+/-- `ogf((4+4x+4x^2)/(1-7x-6x^2-8x^3))` -/
+def P5158279090369130191.Spec : Prop :=
+  ∀ n, P5158279090369130191.a n = A303416 (n + 1)
+
+end A303416
 
 /-! ## A303416.P7099389972717451502
 
 `7*a(n-1)+6*a(n-2)+8*a(n-3)` with `a(0)=4, a(1)=32, a(2)=252`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A303416
@@ -2128,7 +2151,7 @@ end A303426.P14379450726593179227
 /-!
 # A303427: Interleaved Lucas and Fibonacci numbers.
 
-The programs for A303427, the canonical program `A303427.P18184235038652700757` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303427 has offset 0).
+The programs for A303427, the canonical program `A303427.P18184235038652700757` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303427 has offset 0).
 
 The definition of A303427 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2137,7 +2160,7 @@ The definition of A303427 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-4)` with `a(0)=2, a(1)=0, a(2)=1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A303427
@@ -2149,6 +2172,29 @@ def P18184235038652700757.Spec : Prop :=
 theorem P18184235038652700757.correct : P18184235038652700757.Spec := by
   intro n
   simp only [A303427]
+
+end A303427
+
+/-! ## A303427.P10006960908171955196
+
+`ogf((2-x^2+x^3)/(1-x^2-x^4))`
+-/
+
+namespace A303427.P10006960908171955196
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 0, -1, 1] [1, 0, -1, 0, -1] n
+
+end
+
+end A303427.P10006960908171955196
+
+namespace A303427
+
+/-- `ogf((2-x^2+x^3)/(1-x^2-x^4))` -/
+def P10006960908171955196.Spec : Prop :=
+  ∀ n, P10006960908171955196.a n = A303427 n
 
 end A303427
 

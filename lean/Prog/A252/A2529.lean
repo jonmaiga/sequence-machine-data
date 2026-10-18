@@ -9,24 +9,24 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C012
+import Seq.B000.C015
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C002
@@ -2058,7 +2058,7 @@ end A252931.P17161411386380631292
 /-!
 # A252932: Number of n X 2 nonnegative integer arrays with upper left 0 and every value within 3 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down.
 
-The programs for A252932, the canonical program `A252932.P13722495293826231897` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252932 has offset 1).
+The programs for A252932, the canonical program `A252932.P13722495293826231897` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252932 has offset 1).
 
 The definition of A252932 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2067,7 +2067,7 @@ The definition of A252932 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=2, a(1)=5, a(2)=13, a(3)=34, a(4)=83, a(5)=176`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A252932
@@ -4933,7 +4933,7 @@ end A252969.P10617174706875279122
 /-!
 # A252970: Number of nX2 nonnegative integer arrays with upper left 0 and lower right n+2-5 and value increasing by 0 or 1 with every step right or down.
 
-The programs for A252970, the canonical program `A252970.P17127633440235983922` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252970 has offset 1).
+The programs for A252970, the canonical program `A252970.P17127633440235983922` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252970 has offset 1).
 
 The definition of A252970 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4942,7 +4942,7 @@ The definition of A252970 is `conjectured`: the Lean definition is a formula tha
 
 `∑[C(n, 5)+(∑[n]-2)*C(n, 2)]`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A252970
@@ -6923,7 +6923,7 @@ end A252992.P18248859865948842780
 /-!
 # A252994: Multiples of 26.
 
-The programs for A252994, the canonical program `A252994.P11791628832872652573` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252994 has offset 0).
+The programs for A252994, the canonical program `A252994.P11791628832872652573` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252994 has offset 0).
 
 The definition of A252994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6932,7 +6932,7 @@ The definition of A252994 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `26*n`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A252994

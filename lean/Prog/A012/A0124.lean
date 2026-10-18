@@ -3,20 +3,20 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
-import Seq.B000.C008
+import Seq.B000.C006
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C018
+import Seq.B000.C021
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,9 +46,8 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 /-!
 # A012401: Expansion of e.g.f.: sinh(arctan(x)*log(x+1))=2/2!*x^2-3/3!*x^3-10/5!*x^5+328/6!*x^6...
@@ -1581,6 +1580,29 @@ The programs for A012493, the canonical program `A012493.P17492376463677172932` 
 
 The definition of A012493 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A012493.P7495610391333742434
+
+`ogf((2x-x^2)/(1-5x+4x^2-x^3))`
+-/
+
+namespace A012493.P7495610391333742434
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -1] [1, -5, 4, -1] n
+
+end
+
+end A012493.P7495610391333742434
+
+namespace A012493
+
+/-- `ogf((2x-x^2)/(1-5x+4x^2-x^3))` -/
+def P7495610391333742434.Spec : Prop :=
+  ∀ n, P7495610391333742434.a n = A012493 n
+
+end A012493
 
 /-! ## A012493.P343963429774145811
 

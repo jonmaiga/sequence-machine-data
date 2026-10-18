@@ -6,24 +6,22 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,6 +30,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
@@ -1167,7 +1166,7 @@ end A370720.P12918812339496129612
 /-!
 # A370722: a(n) = Sum_{k=0..floor(n/7)} binomial(n-4*k,3*k).
 
-The programs for A370722, the canonical program `A370722.P6605018088182093206` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370722 has offset 0).
+The programs for A370722, the canonical program `A370722.P6605018088182093206` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370722 has offset 0).
 
 The definition of A370722 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1176,7 +1175,7 @@ The definition of A370722 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-2)+a(n-3)+a(n-7)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370722
@@ -2761,7 +2760,7 @@ end A370761.P2520946213386265488
 /-!
 # A370762: Triangle read by rows: T(n,k) = 2 * (k mod 2 + 1) * T(n-1,floor(k/2)) + 1 with T(0,0) = 1 for 0 <= k <= 2^n-1.
 
-The programs for A370762, the canonical program `A370762.P7978249327831845572` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370762 has offset 0).
+The programs for A370762, the canonical program `A370762.P7978249327831845572` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370762 has offset 0).
 
 The definition of A370762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2770,7 +2769,7 @@ The definition of A370762 is `conjectured`: the Lean definition is a formula tha
 
 `2*(gcd(2, n)*a(floor((n+1)/2)-1)+1)-1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370762

@@ -18,25 +18,26 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C030
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -10342,6 +10343,29 @@ namespace A002878
 /-- `ceil(∑[record[(-ϕ)^n]])` -/
 def P18001854335290292934.Spec : Prop :=
   ∀ n, P18001854335290292934.a n = A002878 n
+
+end A002878
+
+/-! ## A002878.P15279900494029171783
+
+`ogf((1+x)/(1-3x+x^2))`
+-/
+
+namespace A002878.P15279900494029171783
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, -3, 1] n
+
+end
+
+end A002878.P15279900494029171783
+
+namespace A002878
+
+/-- `ogf((1+x)/(1-3x+x^2))` -/
+def P15279900494029171783.Spec : Prop :=
+  ∀ n, P15279900494029171783.a n = A002878 n
 
 end A002878
 

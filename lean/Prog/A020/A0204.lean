@@ -5,19 +5,20 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
-import Seq.B000.C014
+import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C016
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -26,6 +27,7 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -42,12 +44,14 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
+import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -75,7 +79,7 @@ import Seq.Opaque.C025
 /-!
 # A020447: Expansion of 1/((1-5*x) * (1-8*x) * (1-11*x)).
 
-The programs for A020447, the canonical program `A020447.P10318033105309083517` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020447 has offset 0).
+The programs for A020447, the canonical program `A020447.P10318033105309083517` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020447 has offset 0).
 
 The definition of A020447 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -84,7 +88,7 @@ The definition of A020447 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-1)-88*a(n-2)+5^n` with `a(0)=1, a(1)=24`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A020447
@@ -194,7 +198,7 @@ end A020447
 /-!
 # A020448: Expansion of 1/((1-5x)(1-8x)(1-12x)).
 
-The programs for A020448, the canonical program `A020448.P17408917405240233687` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020448 has offset 0).
+The programs for A020448, the canonical program `A020448.P17408917405240233687` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020448 has offset 0).
 
 The definition of A020448 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -203,7 +207,7 @@ The definition of A020448 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-96*a(n-2)+5^n` with `a(0)=1, a(1)=25`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A020448
@@ -712,7 +716,7 @@ end A020449.P8186106054027786953
 /-!
 # A020450: Primes that contain digits 1 and 2 only.
 
-The programs for A020450, the canonical program `A020450.P15468260384002624119` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020450 has offset 1).
+The programs for A020450, the canonical program `A020450.P15468260384002624119` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020450 has offset 1).
 
 The definition of A020450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1111,7 +1115,7 @@ end A020450
 
 `∩[A260267(n+1), A385773(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A020450
@@ -1755,7 +1759,7 @@ end A020451.P11170745386700998831
 /-!
 # A020452: Primes that contain digits 1 and 4 only.
 
-The programs for A020452, the canonical program `A020452.P1496040102585209443` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020452 has offset 1).
+The programs for A020452, the canonical program `A020452.P1496040102585209443` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020452 has offset 1).
 
 The definition of A020452 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 283 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2064,7 +2068,7 @@ end A020452
 
 `∩[A260267(n+1), A260268(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A020452
@@ -2352,7 +2356,7 @@ end A020452
 /-!
 # A020453: Primes that contain digits 1 and 5 only.
 
-The programs for A020453, the canonical program `A020453.P8994941110389406455` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020453 has offset 1).
+The programs for A020453, the canonical program `A020453.P8994941110389406455` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020453 has offset 1).
 
 The definition of A020453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2571,7 +2575,7 @@ end A020453
 
 `∩[A199325(n+1), A260268(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A020453
@@ -3395,7 +3399,7 @@ end A020454.P16882564911069415045
 /-!
 # A020455: Primes that contain digits 1 and 7 only.
 
-The programs for A020455, the canonical program `A020455.P2685103089182482262` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020455 has offset 1).
+The programs for A020455, the canonical program `A020455.P2685103089182482262` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020455 has offset 1).
 
 The definition of A020455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 320 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3824,7 +3828,7 @@ end A020455
 
 `∩[A079651(n+1), A260889(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A020455
@@ -15181,7 +15185,7 @@ end A020493.P8966423122192067068
 /-!
 # A020494: Expansion of 1/((1-5x)(1-9x)(1-10x)).
 
-The programs for A020494, the canonical program `A020494.P6571133285840443077` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020494 has offset 0).
+The programs for A020494, the canonical program `A020494.P6571133285840443077` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020494 has offset 0).
 
 The definition of A020494 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15190,7 +15194,7 @@ The definition of A020494 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-1)-90*a(n-2)+5^n` with `a(0)=1, a(1)=24`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A020494
@@ -15642,7 +15646,7 @@ end A020498.P18179184656803104746
 /-!
 # A020499: Expansion of 1/((1-5x)(1-9x)(1-11x)).
 
-The programs for A020499, the canonical program `A020499.P5824353386130562467` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020499 has offset 0).
+The programs for A020499, the canonical program `A020499.P5824353386130562467` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020499 has offset 0).
 
 The definition of A020499 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15651,7 +15655,7 @@ The definition of A020499 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-99*a(n-2)+5^n` with `a(0)=1, a(1)=25`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A020499

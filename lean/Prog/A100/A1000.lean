@@ -15,20 +15,24 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +46,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -59,7 +62,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -7254,6 +7256,29 @@ theorem P13956110710116001576.correct : P13956110710116001576.Spec := by
 
 end A100048
 
+/-! ## A100048.P3920389614748225663
+
+`ogf((x-x^3)/(1-2x+x^2-2x^3+x^4))`
+-/
+
+namespace A100048.P3920389614748225663
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -1] [1, -2, 1, -2, 1] n
+
+end
+
+end A100048.P3920389614748225663
+
+namespace A100048
+
+/-- `ogf((x-x^3)/(1-2x+x^2-2x^3+x^4))` -/
+def P3920389614748225663.Spec : Prop :=
+  ∀ n, P3920389614748225663.a n = A100048 n
+
+end A100048
+
 /-! ## A100048.P8256723448021565786
 
 `A045626(n)-A027674(n)`
@@ -7537,6 +7562,55 @@ namespace A100050
 /-- `n*round(cos((1-n)%6))` -/
 def P9459900906847381518.Spec : Prop :=
   ∀ n, P9459900906847381518.a n = A100050 n
+
+end A100050
+
+/-! ## A100050.P14664720473664523507
+
+`n*(∑[ogf(1/(1-x+x^2))]-1)`
+-/
+
+namespace A100050.P14664720473664523507
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -1, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * (∑ j ∈ Finset.range (n + 1), f1 j - 1)
+
+end
+
+end A100050.P14664720473664523507
+
+namespace A100050
+
+/-- `n*(∑[ogf(1/(1-x+x^2))]-1)` -/
+def P14664720473664523507.Spec : Prop :=
+  ∀ n, P14664720473664523507.a n = A100050 n
+
+end A100050
+
+/-! ## A100050.P5299391345512122403
+
+`ogf((x-x^3)/(1-2x+3x^2-2x^3+x^4))`
+-/
+
+namespace A100050.P5299391345512122403
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -1] [1, -2, 3, -2, 1] n
+
+end
+
+end A100050.P5299391345512122403
+
+namespace A100050
+
+/-- `ogf((x-x^3)/(1-2x+3x^2-2x^3+x^4))` -/
+def P5299391345512122403.Spec : Prop :=
+  ∀ n, P5299391345512122403.a n = A100050 n
 
 end A100050
 
@@ -8619,27 +8693,50 @@ end A100057.P6420631588203068571
 /-!
 # A100058: Expansion of 1 / (1 - 3x - x^2 + 2x^3).
 
-The programs for A100058, the canonical program `A100058.P9569428002438376338` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100058 has offset 0).
+The programs for A100058, the canonical program `A100058.P8347065271442415847` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100058 has offset 0).
 
-The definition of A100058 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A100058 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-3x-x^2+2x^3))` (program `A100058.P8347065271442415847`, by `A100058.P8347065271442415847.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A100058.P9569428002438376338
+/-! ## A100058.P8347065271442415847
 
-`3*a(n-1)+a(n-2)-2*a(n-3)` with `a(0)=1, a(1)=3, a(2)=10`
+`ogf(1/(1-3x-x^2+2x^3))`
 
 The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A100058
 
+/-- `ogf(1/(1-3x-x^2+2x^3))` -/
+def P8347065271442415847.Spec : Prop :=
+  ∀ n, P8347065271442415847.a n = A100058 n
+
+theorem P8347065271442415847.correct : P8347065271442415847.Spec := by
+  intro n
+  simp only [A100058]
+
+end A100058
+
+/-! ## A100058.P9569428002438376338
+
+`3*a(n-1)+a(n-2)-2*a(n-3)` with `a(0)=1, a(1)=3, a(2)=10`
+-/
+
+namespace A100058.P9569428002438376338
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 3, 10] fun n a =>
+  3 * a (n - 1) + a (n - 2) - 2 * a (n - 3)
+
+end
+
+end A100058.P9569428002438376338
+
+namespace A100058
+
 /-- `3*a(n-1)+a(n-2)-2*a(n-3)` -/
 def P9569428002438376338.Spec : Prop :=
   ∀ n, P9569428002438376338.a n = A100058 n
-
-theorem P9569428002438376338.correct : P9569428002438376338.Spec := by
-  intro n
-  simp only [A100058]
 
 end A100058
 
@@ -8929,6 +9026,29 @@ def P1717465946971346680.Spec : Prop :=
 theorem P1717465946971346680.correct : P1717465946971346680.Spec := by
   intro n
   simp only [A100059, Nat.add_sub_cancel]
+
+end A100059
+
+/-! ## A100059.P7783946058979610903
+
+`ogf((1+2x-2x^2)/(1-3x-x^2+2x^3))`
+-/
+
+namespace A100059.P7783946058979610903
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, -2] [1, -3, -1, 2] n
+
+end
+
+end A100059.P7783946058979610903
+
+namespace A100059
+
+/-- `ogf((1+2x-2x^2)/(1-3x-x^2+2x^3))` -/
+def P7783946058979610903.Spec : Prop :=
+  ∀ n, P7783946058979610903.a n = A100059 (n + 1)
 
 end A100059
 
@@ -11010,27 +11130,50 @@ end A100087.P4286213253539449552
 /-!
 # A100088: Expansion of (1-x^2)/((1-2*x)*(1+x^2)).
 
-The programs for A100088, the canonical program `A100088.P2623259485786799644` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100088 has offset 0).
+The programs for A100088, the canonical program `A100088.P16898438507576814989` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100088 has offset 0).
 
-The definition of A100088 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A100088 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2)/(1-2x+x^2-2x^3))` (program `A100088.P16898438507576814989`, by `A100088.P16898438507576814989.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A100088.P2623259485786799644
+/-! ## A100088.P16898438507576814989
 
-`2*a(n-1)-a(n-2)+2*a(n-3)` with `a(0)=1, a(1)=2, a(2)=2`
+`ogf((1-x^2)/(1-2x+x^2-2x^3))`
 
 The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A100088
 
+/-- `ogf((1-x^2)/(1-2x+x^2-2x^3))` -/
+def P16898438507576814989.Spec : Prop :=
+  ∀ n, P16898438507576814989.a n = A100088 n
+
+theorem P16898438507576814989.correct : P16898438507576814989.Spec := by
+  intro n
+  simp only [A100088]
+
+end A100088
+
+/-! ## A100088.P2623259485786799644
+
+`2*a(n-1)-a(n-2)+2*a(n-3)` with `a(0)=1, a(1)=2, a(2)=2`
+-/
+
+namespace A100088.P2623259485786799644
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 2] fun n a =>
+  2 * a (n - 1) - a (n - 2) + 2 * a (n - 3)
+
+end
+
+end A100088.P2623259485786799644
+
+namespace A100088
+
 /-- `2*a(n-1)-a(n-2)+2*a(n-3)` -/
 def P2623259485786799644.Spec : Prop :=
   ∀ n, P2623259485786799644.a n = A100088 n
-
-theorem P2623259485786799644.correct : P2623259485786799644.Spec := by
-  intro n
-  simp only [A100088]
 
 end A100088
 

@@ -8,21 +8,23 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C013
+import Seq.B000.C010
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,6 +37,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -6159,7 +6162,7 @@ end A348756.P2335888619656844962
 /-!
 # A348759: (43200/719)*{a(n)} are the times, measured in seconds from 00:00:00, at which the angle of the sector enclosing the three hands of an analog clock has a local minimum.
 
-The programs for A348759, the canonical program `A348759.P18291375995315436187` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348759 has offset 1).
+The programs for A348759, the canonical program `A348759.P18291375995315436187` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348759 has offset 1).
 
 The definition of A348759 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6168,7 +6171,7 @@ The definition of A348759 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(n*719/11)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A348759
@@ -7661,7 +7664,7 @@ end A348773.P12006044780783927494
 /-!
 # A348774: A348773(2*n+1).
 
-The programs for A348774, the canonical program `A348774.P5425050507885369493` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348774 has offset 0).
+The programs for A348774, the canonical program `A348774.P5425050507885369493` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348774 has offset 0).
 
 The definition of A348774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 614 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7695,7 +7698,7 @@ end A348774
 
 `A006005(Δ[n²])+1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A348774
@@ -8234,7 +8237,7 @@ end A348775.P18317679675164521459
 /-!
 # A348776: The numbers >= 2 with 3 repeated.
 
-The programs for A348776, the canonical program `A348776.P12852198876112794032` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348776 has offset 1).
+The programs for A348776, the canonical program `A348776.P12852198876112794032` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348776 has offset 1).
 
 The definition of A348776 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8243,7 +8246,7 @@ The definition of A348776 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=2, a(1)=3, a(2)=3, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A348776
@@ -8867,7 +8870,7 @@ end A348782.P13931020423176069958
 /-!
 # A348783: Let c(i) be the number of times the digit i appears in n, for 0 <= i <= 9; then a(n) is the concatenation of c(9) c(8) ... c(1) c(0), with leading 0's omitted.
 
-The programs for A348783, the canonical program `A348783.P18337028565941183294` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348783 has offset 0).
+The programs for A348783, the canonical program `A348783.P18337028565941183294` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348783 has offset 0).
 
 The definition of A348783 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8876,7 +8879,7 @@ The definition of A348783 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n, 10^#]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A348783

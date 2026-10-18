@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -17,11 +18,12 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C019
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -244,7 +246,7 @@ end A132605.P12859641509247884821
 /-!
 # A132607: X-values of solutions to the equation X*(X + 1) - 11*Y^2 = 0.
 
-The programs for A132607, the canonical program `A132607.P3368982448570919306` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132607 has offset 0).
+The programs for A132607, the canonical program `A132607.P3368982448570919306` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132607 has offset 0).
 
 The definition of A132607 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -253,7 +255,7 @@ The definition of A132607 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `398*a(n-1)-a(n-2)+198` with `a(0)=0, a(1)=99`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A132607
@@ -2497,7 +2499,7 @@ end A132635.P7080860128235678259
 /-!
 # A132636: a(n) = Fibonacci(n) mod n^3.
 
-The programs for A132636, the canonical program `A132636.P15244365434743485777` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132636 has offset 1).
+The programs for A132636, the canonical program `A132636.P15244365434743485777` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132636 has offset 1).
 
 The definition of A132636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2506,7 +2508,7 @@ The definition of A132636 is `conjectured`: the Lean definition is a formula tha
 
 `∑[a(n-1)+a(n-2)]%((n+1)^3)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A132636
@@ -4724,7 +4726,7 @@ end A132665
 /-!
 # A132677: Period 3: repeat [1, 2, -3].
 
-The programs for A132677, the canonical program `A132677.P10492461102840906262` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132677 has offset 0).
+The programs for A132677, the canonical program `A132677.P10492461102840906262` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132677 has offset 0).
 
 The definition of A132677 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4733,7 +4735,7 @@ The definition of A132677 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)` with `a(0)=1, a(1)=2, a(2)=-3, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A132677

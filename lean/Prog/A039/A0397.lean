@@ -19,17 +19,17 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +39,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -63,7 +62,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -6502,7 +6500,7 @@ end A039716
 /-!
 # A039717: Row sums of convolution triangle A030523.
 
-The programs for A039717, the canonical program `A039717.P17407296395431737761` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039717 has offset 1).
+The programs for A039717, the canonical program `A039717.P17407296395431737761` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039717 has offset 1).
 
 The definition of A039717 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6511,7 +6509,7 @@ The definition of A039717 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-5*a(n-2)` with `a(0)=1, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039717
@@ -6546,6 +6544,29 @@ namespace A039717
 /-- `a(n-1)*3+A081567(n-1)` -/
 def P11685557986654137720.Spec : Prop :=
   ∀ n, P11685557986654137720.a n = A039717 (n + 1)
+
+end A039717
+
+/-! ## A039717.P4793782875614010538
+
+`ogf((1-x)/(1-5x+5x^2))`
+-/
+
+namespace A039717.P4793782875614010538
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -5, 5] n
+
+end
+
+end A039717.P4793782875614010538
+
+namespace A039717
+
+/-- `ogf((1-x)/(1-5x+5x^2))` -/
+def P4793782875614010538.Spec : Prop :=
+  ∀ n, P4793782875614010538.a n = A039717 (n + 1)
 
 end A039717
 
@@ -7006,7 +7027,7 @@ end A039719.P13576295005997744092
 /-!
 # A039720: Period of n-countdown club-passing juggling pattern.
 
-The programs for A039720, the canonical program `A039720.P10897226497482615980` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039720 has offset 2).
+The programs for A039720, the canonical program `A039720.P10897226497482615980` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039720 has offset 2).
 
 The definition of A039720 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7057,7 +7078,7 @@ end A039720
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=6, a(1)=8, a(2)=30, a(3)=24, a(4)=70, a(5)=48`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039720
@@ -7460,7 +7481,7 @@ end A039721.P1870705170153491253
 /-!
 # A039722: a(1) = 1, a(m+1) = 2*Sum_{k=1..floor((m+1)/2)} a(k).
 
-The programs for A039722, the canonical program `A039722.P9616311279110399096` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039722 has offset 1).
+The programs for A039722, the canonical program `A039722.P9616311279110399096` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039722 has offset 1).
 
 The definition of A039722 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7469,7 +7490,7 @@ The definition of A039722 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[a(n-1)+2*a(floor(n/2))]` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039722

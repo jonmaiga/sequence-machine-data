@@ -9,19 +9,20 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -33,7 +34,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -896,7 +896,7 @@ end A214111.P17193480075549735363
 /-!
 # A214113: Number of 0..3 colorings of a 2X(n+1) array circular in the n+1 direction with new values 0..3 introduced in row major order.
 
-The programs for A214113, the canonical program `A214113.P3411393089838471369` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214113 has offset 1).
+The programs for A214113, the canonical program `A214113.P3411393089838471369` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214113 has offset 1).
 
 The definition of A214113 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -905,7 +905,7 @@ The definition of A214113 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-1)+22*a(n-2)-4*a(n-3)-21*a(n-4)` with `a(0)=4, a(1)=11, a(2)=111, a(3)=670`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A214113
@@ -2447,7 +2447,7 @@ end A214139.P16124143684204146216
 /-!
 # A214142: Number of 0..4 colorings of a 1 X (n+1) array circular in the n+1 direction with new values 0..4 introduced in row major order.
 
-The programs for A214142, the canonical program `A214142.P12692194807648372891` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214142 has offset 1).
+The programs for A214142, the canonical program `A214142.P12692194807648372891` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214142 has offset 1).
 
 The definition of A214142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2479,7 +2479,7 @@ end A214142
 
 `6*a(n-1)-7*a(n-2)-6*a(n-3)+8*a(n-4)` with `a(0)=1, a(1)=1, a(2)=4, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A214142
@@ -4622,7 +4622,7 @@ end A214180.P4379208349917424303
 /-!
 # A214181: Number of 0..6 colorings of an n X 3 array circular in the 3 direction with new values 0..6 introduced in row major order.
 
-The programs for A214181, the canonical program `A214181.P1449053827076768337` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214181 has offset 1).
+The programs for A214181, the canonical program `A214181.P1449053827076768337` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214181 has offset 1).
 
 The definition of A214181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4631,7 +4631,7 @@ The definition of A214181 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^(n-3)*(67^n+9)+11^n+3*2^(5*(n+1)-7))/3`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A214181

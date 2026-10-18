@@ -13,20 +13,21 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4549,7 +4550,7 @@ end A205958.P10413488608134463790
 /-!
 # A205959: a(n) = n^omega(n)/rad(n).
 
-The programs for A205959, the canonical program `A205959.P963165392652231860` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205959 has offset 1).
+The programs for A205959, the canonical program `A205959.P963165392652231860` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205959 has offset 1).
 
 The definition of A205959 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4558,7 +4559,7 @@ The definition of A205959 is `conjectured`: the Lean definition is a formula tha
 
 `∏{p}[n+1, ceil(n/#)]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A205959
@@ -4837,6 +4838,33 @@ def P15674905860526161134.Spec : Prop :=
   ∀ n, P15674905860526161134.a n = (A205959 (n + 1) : ℚ)
 
 end A205959
+
+/-!
+# A205961: Expansion of 1/(-32*x^5 + 8*x^3 - 4*x^2 - x + 1).
+
+The programs for A205961, the canonical program `A205961.P14816143249975236632` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205961 has offset 0).
+
+The definition of A205961 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-4x^2+8x^3-32x^5))` (program `A205961.P14816143249975236632`, by `A205961.P14816143249975236632.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+-/
+
+/-! ## A205961.P14816143249975236632
+
+`ogf(1/(1-x-4x^2+8x^3-32x^5))`
+
+The canonical program, it is in `Seq.B000.C026`.
+-/
+
+namespace A205961
+
+/-- `ogf(1/(1-x-4x^2+8x^3-32x^5))` -/
+def P14816143249975236632.Spec : Prop :=
+  ∀ n, P14816143249975236632.a n = A205961 n
+
+theorem P14816143249975236632.correct : P14816143249975236632.Spec := by
+  intro n
+  simp only [A205961]
+
+end A205961
 
 /-!
 # A205963: a(n) = Fibonacci(n)*A000118(n) for n>=1 with a(0)=1, where A000118(n) is the number of ways of writing n as a sum of 4 squares.
@@ -8170,7 +8198,7 @@ end A205987
 /-!
 # A205988: Expansion of f(x^1, x^9) in powers of x where f(, ) is Ramanujan's general theta function.
 
-The programs for A205988, the canonical program `A205988.P17863050628738700923` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205988 has offset 0).
+The programs for A205988, the canonical program `A205988.P17863050628738700923` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205988 has offset 0).
 
 The definition of A205988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8209,7 +8237,7 @@ end A205988
 
 `and(1, ∑{d}[5*n+4, #])`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A205988

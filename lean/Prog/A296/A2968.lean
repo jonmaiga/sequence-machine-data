@@ -8,24 +8,25 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -35,7 +36,7 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -48,7 +49,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -507,7 +507,7 @@ end A296804.P12842800700635013271
 /-!
 # A296805: Sum of the larger parts in the partitions of n into two distinct parts with the larger part even.
 
-The programs for A296805, the canonical program `A296805.P5590668815453869995` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296805 has offset 1).
+The programs for A296805, the canonical program `A296805.P5590668815453869995` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296805 has offset 1).
 
 The definition of A296805 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -516,7 +516,7 @@ The definition of A296805 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-4)-2*a(n-5)-a(n-8)+a(n-9)` with `a(0)=0, a(1)=0, a(2)=2, a(3)=0, a(4)=4, a(5)=4, a(6)=10, a(7)=6, a(8)=14`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A296805
@@ -1183,7 +1183,7 @@ end A296813.P14534991894894412094
 /-!
 # A296816: a(n) = a(a(n-1)) + a(n-a(n-2)) with a(1) = a(2) = a(3) = 1.
 
-The programs for A296816, the canonical program `A296816.P30941808870984054` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296816 has offset 1).
+The programs for A296816, the canonical program `A296816.P30941808870984054` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296816 has offset 1).
 
 The definition of A296816 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(a(n-1)-1)+a(n-a(n-2))` (program `A296816.P30941808870984054`, by `A296816.P30941808870984054.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1192,7 +1192,7 @@ The definition of A296816 is `verified`: the Lean definition is proven equivalen
 
 `a(a(n-1)-1)+a(n-a(n-2))` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A296816
@@ -1206,6 +1206,33 @@ theorem P30941808870984054.correct : P30941808870984054.Spec := by
   simp only [A296816, Nat.add_sub_cancel]
 
 end A296816
+
+/-!
+# A296817: Expansion of 1/Sum_{k>=0} (2*k+1)^2*x^k.
+
+The programs for A296817, the canonical program `A296817.P7195134293254911692` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296817 has offset 0).
+
+The definition of A296817 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A296817.P7195134293254911692
+
+`ogf((1-3x+3x^2-x^3)/(1+6x+x^2))`
+
+The canonical program, it is in `Seq.B000.C033`.
+-/
+
+namespace A296817
+
+/-- `ogf((1-3x+3x^2-x^3)/(1+6x+x^2))` -/
+def P7195134293254911692.Spec : Prop :=
+  ∀ n, P7195134293254911692.a n = A296817 n
+
+theorem P7195134293254911692.correct : P7195134293254911692.Spec := by
+  intro n
+  simp only [A296817]
+
+end A296817
 
 /-!
 # A296819: Maximum detour index of any bipartite graph on n nodes.

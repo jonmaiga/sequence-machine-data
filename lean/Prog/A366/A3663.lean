@@ -2,24 +2,23 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C017
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +37,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -54,7 +53,6 @@ import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -673,7 +671,7 @@ end A366310.P3452429145660369398
 /-!
 # A366314: a(n) = a(n-1) + 3*a(n-2) + 9*a(n-3) with a(0)=0, a(1)=1, a(2)=4.
 
-The programs for A366314, the canonical program `A366314.P1446963717835803063` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366314 has offset 0).
+The programs for A366314, the canonical program `A366314.P1446963717835803063` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366314 has offset 0).
 
 The definition of A366314 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+3*a(n-2)+9*a(n-3)` (program `A366314.P1446963717835803063`, by `A366314.P1446963717835803063.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -682,7 +680,7 @@ The definition of A366314 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+3*a(n-2)+9*a(n-3)` with `a(0)=0, a(1)=1, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A366314
@@ -694,6 +692,29 @@ def P1446963717835803063.Spec : Prop :=
 theorem P1446963717835803063.correct : P1446963717835803063.Spec := by
   intro n
   simp only [A366314]
+
+end A366314
+
+/-! ## A366314.P10884332832779070503
+
+`ogf((x+3x^2)/(1-x-3x^2-9x^3))`
+-/
+
+namespace A366314.P10884332832779070503
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 3] [1, -1, -3, -9] n
+
+end
+
+end A366314.P10884332832779070503
+
+namespace A366314
+
+/-- `ogf((x+3x^2)/(1-x-3x^2-9x^3))` -/
+def P10884332832779070503.Spec : Prop :=
+  ∀ n, P10884332832779070503.a n = A366314 n
 
 end A366314
 

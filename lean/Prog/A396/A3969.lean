@@ -1,18 +1,21 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C017
-import Seq.B000.C021
-import Seq.B000.C026
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C014
+import Seq.B000.C018
+import Seq.B000.C022
+import Seq.B000.C027
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
@@ -25,10 +28,8 @@ import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,7 +61,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -1033,7 +1033,7 @@ end A396923.P348799795417620599
 /-!
 # A396927: Breadth-first search (BFS) layer sizes of the Coxeter group of the 5-dimensional right-corner orthoscheme with five pairwise distinct leg lengths.
 
-The programs for A396927, the canonical program `A396927.P10677914664923563345` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396927 has offset 0).
+The programs for A396927, the canonical program `A396927.P10677914664923563345` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396927 has offset 0).
 
 The definition of A396927 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1042,7 +1042,7 @@ The definition of A396927 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-a(n-2)-a(n-3)` with `a(0)=1, a(1)=6, a(2)=20, a(3)=54`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A396927
@@ -1054,6 +1054,29 @@ def P10677914664923563345.Spec : Prop :=
 theorem P10677914664923563345.correct : P10677914664923563345.Spec := by
   intro n
   simp only [A396927]
+
+end A396927
+
+/-! ## A396927.P13527597229042153175
+
+`ogf((1+3x+3x^2+x^3)/(1-3x+x^2+x^3))`
+-/
+
+namespace A396927.P13527597229042153175
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, 3, 1] [1, -3, 1, 1] n
+
+end
+
+end A396927.P13527597229042153175
+
+namespace A396927
+
+/-- `ogf((1+3x+3x^2+x^3)/(1-3x+x^2+x^3))` -/
+def P13527597229042153175.Spec : Prop :=
+  ∀ n, P13527597229042153175.a n = A396927 n
 
 end A396927
 
@@ -1568,7 +1591,7 @@ end A396944.P7205482650835273222
 /-!
 # A396945: Number of divisors of n^3 + 1.
 
-The programs for A396945, the canonical program `A396945.P912619964047640132` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396945 has offset 0).
+The programs for A396945, the canonical program `A396945.P912619964047640132` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396945 has offset 0).
 
 The definition of A396945 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1577,7 +1600,7 @@ The definition of A396945 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n^3+1, #+1]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A396945
@@ -1709,7 +1732,7 @@ end A396949.P5813953445191776408
 /-!
 # A396953: Number of elements of word-length n in the reflection group of a seven-dimensional orthoscheme with distinct edge lengths.
 
-The programs for A396953, the canonical program `A396953.P1454756326558987831` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396953 has offset 0).
+The programs for A396953, the canonical program `A396953.P1454756326558987831` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396953 has offset 0).
 
 The definition of A396953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1718,7 +1741,7 @@ The definition of A396953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-3*a(n-2)-2*a(n-3)+a(n-4)` with `a(0)=1, a(1)=8, a(2)=35, a(3)=118, a(4)=353`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A396953
@@ -2742,7 +2765,7 @@ end A396985.P5090228897916802633
 /-!
 # A396987: The number of n-colorings of the faces of the triakis tetrahedron up to rotation.
 
-The programs for A396987, the canonical program `A396987.P12560411330405832947` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396987 has offset 0).
+The programs for A396987, the canonical program `A396987.P12560411330405832947` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396987 has offset 0).
 
 The definition of A396987 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2751,7 +2774,7 @@ The definition of A396987 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n^4*(n^8+3*n²+8)/12`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A396987

@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -19,12 +18,12 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -34,6 +33,8 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,6 +50,7 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -3721,7 +3723,7 @@ end A355447
 /-!
 # A355448: a(n) = 1 if the number of divisors of n^2 is coprime to 6, otherwise 0.
 
-The programs for A355448, the canonical program `A355448.P13634574740259604985` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355448 has offset 1).
+The programs for A355448, the canonical program `A355448.P13634574740259604985` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355448 has offset 1).
 
 The definition of A355448 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3753,7 +3755,7 @@ end A355448
 
 `∏{e}[n+1, (1-#%3)²]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A355448
@@ -8579,7 +8581,7 @@ end A355486.P8579255885154888203
 /-!
 # A355487: Bitwise XOR of the base-4 digits of n.
 
-The programs for A355487, the canonical program `A355487.P5489829772880939373` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355487 has offset 0).
+The programs for A355487, the canonical program `A355487.P5489829772880939373` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355487 has offset 0).
 
 The definition of A355487 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8588,7 +8590,7 @@ The definition of A355487 is `conjectured`: the Lean definition is a formula tha
 
 `xor(n, a(floor(n/4)))%4` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A355487
@@ -9380,7 +9382,7 @@ end A355490.P10798484010208888765
 /-!
 # A355492: a(n) = 7*3^n - 2.
 
-The programs for A355492, the canonical program `A355492.P5115651979487164574` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355492 has offset 0).
+The programs for A355492, the canonical program `A355492.P5115651979487164574` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355492 has offset 0).
 
 The definition of A355492 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `7*3^n-2` (program `A355492.P5115651979487164574`, by `A355492.P5115651979487164574.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9389,7 +9391,7 @@ The definition of A355492 is `verified`: the Lean definition is proven equivalen
 
 `7*3^n-2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A355492
@@ -9401,6 +9403,29 @@ def P5115651979487164574.Spec : Prop :=
 theorem P5115651979487164574.correct : P5115651979487164574.Spec := by
   intro n
   simp only [A355492]
+
+end A355492
+
+/-! ## A355492.P9376907981538710594
+
+`ogf((5-x)/(1-4x+3x^2))`
+-/
+
+namespace A355492.P9376907981538710594
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -1] [1, -4, 3] n
+
+end
+
+end A355492.P9376907981538710594
+
+namespace A355492
+
+/-- `ogf((5-x)/(1-4x+3x^2))` -/
+def P9376907981538710594.Spec : Prop :=
+  ∀ n, P9376907981538710594.a n = A355492 n
 
 end A355492
 

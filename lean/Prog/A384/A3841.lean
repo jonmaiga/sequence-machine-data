@@ -3,33 +3,35 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
+import Seq.B000.C027
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
@@ -1506,16 +1508,39 @@ end A384149.P6120142490498714655
 /-!
 # A384153: a(n) is the number of binary strings of length n whose shortest run of 1s is of length 1.
 
-The programs for A384153, the canonical program `A384153.P11731211239372390351` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384153 has offset 0).
+The programs for A384153, the canonical program `A384153.P11731211239372390351` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384153 has offset 0).
 
 The definition of A384153 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A384153.P18356673502017201299
+
+`ogf((x-2x^2+x^3)/(1-4x+5x^2-3x^3+2x^4))`
+-/
+
+namespace A384153.P18356673502017201299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -2, 1] [1, -4, 5, -3, 2] n
+
+end
+
+end A384153.P18356673502017201299
+
+namespace A384153
+
+/-- `ogf((x-2x^2+x^3)/(1-4x+5x^2-3x^3+2x^4))` -/
+def P18356673502017201299.Spec : Prop :=
+  ∀ n, P18356673502017201299.a n = A384153 n
+
+end A384153
 
 /-! ## A384153.P11731211239372390351
 
 `2^n-A005251(n+2)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A384153
@@ -1654,7 +1679,7 @@ end A384153
 /-!
 # A384154: a(n) is the number of binary strings of length n whose shortest run of 1s is of length 2.
 
-The programs for A384154, the canonical program `A384154.P3815110510942756679` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384154 has offset 0).
+The programs for A384154, the canonical program `A384154.P3815110510942756679` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384154 has offset 0).
 
 The definition of A384154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 411 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1663,7 +1688,7 @@ The definition of A384154 is `conjectured`: the Lean definition is a formula tha
 
 `A005251(n+2)-A005252(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A384154
@@ -3659,7 +3684,7 @@ end A384195
 /-!
 # A384197: The Barret reducer reciprocal mod n.
 
-The programs for A384197, the canonical program `A384197.P16927393950934576976` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384197 has offset 1).
+The programs for A384197, the canonical program `A384197.P16927393950934576976` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384197 has offset 1).
 
 The definition of A384197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3668,7 +3693,7 @@ The definition of A384197 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A000302(A070939(n+1))/(n+1))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A384197
@@ -3686,7 +3711,7 @@ end A384197
 /-!
 # A384198: a(n) = 3^(n-3)*(binomial(n,3) + 3*binomial(n,2) + 9*n + 27).
 
-The programs for A384198, the canonical program `A384198.P14588015488054928887` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384198 has offset 0).
+The programs for A384198, the canonical program `A384198.P14588015488054928887` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384198 has offset 0).
 
 The definition of A384198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3695,7 +3720,7 @@ The definition of A384198 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^(n-3)*(C(n, 3)+3*C(n, 2)+9*n+27)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A384198

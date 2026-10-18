@@ -8,6 +8,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -19,9 +20,9 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -30,6 +31,7 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4003,7 +4005,7 @@ end A288028.P11855889743144360182
 /-!
 # A288029: Number of minimal edge covers in the ladder graph P_2 X P_n.
 
-The programs for A288029, the canonical program `A288029.P146658989041407590` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288029 has offset 0).
+The programs for A288029, the canonical program `A288029.P146658989041407590` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288029 has offset 0).
 
 The definition of A288029 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4012,7 +4014,7 @@ The definition of A288029 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+a(n-2)+2*a(n-3)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=6, a(4)=17, a(5)=45`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A288029
@@ -4316,7 +4318,7 @@ end A288035.P13796135305420776639
 /-!
 # A288038: Number of independent vertex sets in the n-Andrásfai graph.
 
-The programs for A288038, the canonical program `A288038.P16181383783703015949` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288038 has offset 1).
+The programs for A288038, the canonical program `A288038.P16181383783703015949` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288038 has offset 1).
 
 The definition of A288038 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4325,7 +4327,7 @@ The definition of A288038 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+(3*(n+1)-1)*2^n`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A288038
@@ -4337,6 +4339,32 @@ def P16181383783703015949.Spec : Prop :=
 theorem P16181383783703015949.correct : P16181383783703015949.Spec := by
   intro n
   simp only [A288038, Nat.add_sub_cancel]
+
+end A288038
+
+/-! ## A288038.P2007602327407855915
+
+`∑[ogf((3-4x+2x^2)/(1-4x+4x^2))]`
+-/
+
+namespace A288038.P2007602327407855915
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -4, 2] [1, -4, 4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A288038.P2007602327407855915
+
+namespace A288038
+
+/-- `∑[ogf((3-4x+2x^2)/(1-4x+4x^2))]` -/
+def P2007602327407855915.Spec : Prop :=
+  ∀ n, P2007602327407855915.a n = A288038 (n + 1)
 
 end A288038
 
@@ -4438,6 +4466,29 @@ namespace A288038
 /-- `abs((2*n-A016873(n))*A000079(n)-1)` -/
 def P15449551613679415197.Spec : Prop :=
   ∀ n, P15449551613679415197.a n = A288038 (n + 1)
+
+end A288038
+
+/-! ## A288038.P15960136212243756113
+
+`ogf((3-4x+2x^2)/(1-5x+8x^2-4x^3))`
+-/
+
+namespace A288038.P15960136212243756113
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -4, 2] [1, -5, 8, -4] n
+
+end
+
+end A288038.P15960136212243756113
+
+namespace A288038
+
+/-- `ogf((3-4x+2x^2)/(1-5x+8x^2-4x^3))` -/
+def P15960136212243756113.Spec : Prop :=
+  ∀ n, P15960136212243756113.a n = A288038 (n + 1)
 
 end A288038
 

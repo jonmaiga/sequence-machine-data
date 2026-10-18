@@ -3,19 +3,18 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C019
+import Seq.B000.C021
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +38,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -526,7 +524,7 @@ end A039403
 /-!
 # A039404: Numbers whose base-10 representation has the same nonzero number of 1's and 4's.
 
-The programs for A039404, the canonical program `A039404.P11291830641019790842` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039404 has offset 1).
+The programs for A039404, the canonical program `A039404.P11291830641019790842` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039404 has offset 1).
 
 The definition of A039404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3542 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -535,7 +533,7 @@ The definition of A039404 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A011534(n+1), A039122(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039404
@@ -1426,7 +1424,7 @@ end A039410
 /-!
 # A039411: Numbers whose base-10 representation has the same nonzero number of 2's and 4's.
 
-The programs for A039411, the canonical program `A039411.P1190184811517337393` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039411 has offset 1).
+The programs for A039411, the canonical program `A039411.P1190184811517337393` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039411 has offset 1).
 
 The definition of A039411 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1808 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1465,7 +1463,7 @@ end A039411
 
 `∩[A011534(n+1), A039129(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039411
@@ -2171,7 +2169,7 @@ end A039416
 /-!
 # A039417: Numbers whose base-10 representation has the same nonzero number of 3's and 4's.
 
-The programs for A039417, the canonical program `A039417.P5176249558024436737` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039417 has offset 1).
+The programs for A039417, the canonical program `A039417.P5176249558024436737` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039417 has offset 1).
 
 The definition of A039417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1588 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2210,7 +2208,7 @@ end A039417
 
 `∩[A011534(n+1), A039135(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039417
@@ -3019,7 +3017,7 @@ end A039423.P12261180150370658685
 /-!
 # A039424: Numbers whose base-10 representation has the same nonzero number of 4's and 6's.
 
-The programs for A039424, the canonical program `A039424.P9537314864739578220` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039424 has offset 1).
+The programs for A039424, the canonical program `A039424.P9537314864739578220` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039424 has offset 1).
 
 The definition of A039424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3028,7 +3026,7 @@ The definition of A039424 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A011534(n+1), A039142(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039424
@@ -3148,7 +3146,7 @@ end A039424
 /-!
 # A039425: Numbers whose base-10 representation has the same nonzero number of 4's and 7's.
 
-The programs for A039425, the canonical program `A039425.P18439289750765105462` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039425 has offset 1).
+The programs for A039425, the canonical program `A039425.P18439289750765105462` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039425 has offset 1).
 
 The definition of A039425 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3157,7 +3155,7 @@ The definition of A039425 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A011534(n+1), A039143(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A039425
@@ -3274,7 +3272,7 @@ end A039425
 /-!
 # A039426: Numbers whose base-10 representation has the same nonzero number of 4's and 8's.
 
-The programs for A039426, the canonical program `A039426.P12047223122600376495` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039426 has offset 1).
+The programs for A039426, the canonical program `A039426.P12047223122600376495` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039426 has offset 1).
 
 The definition of A039426 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3283,7 +3281,7 @@ The definition of A039426 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A011534(n+1), A039144(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039426
@@ -3377,7 +3375,7 @@ end A039426
 /-!
 # A039427: Numbers whose base-10 representation has the same nonzero number of 4's and 9's.
 
-The programs for A039427, the canonical program `A039427.P17652112715132831845` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039427 has offset 1).
+The programs for A039427, the canonical program `A039427.P17652112715132831845` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039427 has offset 1).
 
 The definition of A039427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1555 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3386,7 +3384,7 @@ The definition of A039427 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A011534(n+1), A039145(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A039427

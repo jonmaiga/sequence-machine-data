@@ -5,26 +5,30 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C006
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -40,7 +44,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -1795,7 +1798,7 @@ end A373437.P12167820633035747389
 /-!
 # A373438: Expansion of Sum_{k>=1} k * x^(3^(k-1)) / (1 - x^(3^(k-1))).
 
-The programs for A373438, the canonical program `A373438.P4147406972985419538` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373438 has offset 1).
+The programs for A373438, the canonical program `A373438.P4147406972985419538` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373438 has offset 1).
 
 The definition of A373438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1804,7 +1807,7 @@ The definition of A373438 is `conjectured`: the Lean definition is a formula tha
 
 `C(val(n+1, 3)+2, 2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373438
@@ -2742,7 +2745,7 @@ end A373445
 /-!
 # A373447: Number of ternary strings of length n avoiding the substrings 00, 11, 22, 121, 212, 202.
 
-The programs for A373447, the canonical program `A373447.P18091517115601199307` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373447 has offset 0).
+The programs for A373447, the canonical program `A373447.P18091517115601199307` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373447 has offset 0).
 
 The definition of A373447 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2751,7 +2754,7 @@ The definition of A373447 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=9, a(4)=14, a(5)=23, a(6)=36`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373447
@@ -3197,7 +3200,7 @@ end A373455.P10787568961290806707
 /-!
 # A373458: Expansion of Sum_{p prime} x^p/(1 - p*x^p).
 
-The programs for A373458, the canonical program `A373458.P15035220634719010158` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373458 has offset 1).
+The programs for A373458, the canonical program `A373458.P15035220634719010158` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373458 has offset 1).
 
 The definition of A373458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 632 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3206,7 +3209,7 @@ The definition of A373458 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, #^floor(n/#)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373458
@@ -3243,7 +3246,7 @@ end A373458
 /-!
 # A373459: Expansion of Sum_{p prime} x^p/(1 - (p*x)^p).
 
-The programs for A373459, the canonical program `A373459.P1230800658281002445` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373459 has offset 1).
+The programs for A373459, the canonical program `A373459.P1230800658281002445` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373459 has offset 1).
 
 The definition of A373459 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3252,7 +3255,7 @@ The definition of A373459 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, #^(n+1-#)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373459
@@ -3334,8 +3337,29 @@ end A373460.P9383417721897965754
 /-!
 # A373463: Expansion of 1/((1 + x)^5 - 2*x^5).
 
-The programs for A373463, there is no canonical definition to state claims against.
+The programs for A373463, the canonical program `A373463.P9880612305745563483` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373463 has offset 0).
+
+The definition of A373463 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+5x+10x^2+10x^3+5x^4-x^5))` (program `A373463.P9880612305745563483`, by `A373463.P9880612305745563483.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A373463.P9880612305745563483
+
+`ogf(1/(1+5x+10x^2+10x^3+5x^4-x^5))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A373463
+
+/-- `ogf(1/(1+5x+10x^2+10x^3+5x^4-x^5))` -/
+def P9880612305745563483.Spec : Prop :=
+  ∀ n, P9880612305745563483.a n = A373463 n
+
+theorem P9880612305745563483.correct : P9880612305745563483.Spec := by
+  intro n
+  simp only [A373463]
+
+end A373463
 
 /-! ## A373463.P6525710161611885537
 
@@ -3351,6 +3375,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A373463.P6525710161611885537
+
+namespace A373463
+
+/-- `A025480(A051118(n))+A000750(n)` -/
+def P6525710161611885537.Spec : Prop :=
+  ∀ n, P6525710161611885537.a n = A373463 n
+
+end A373463
 
 /-!
 # A373464: Largest of a quadruple of primes p[1..4] such that (p[k]+1, k=1..4) is in geometric progression.

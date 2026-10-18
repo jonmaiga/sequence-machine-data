@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -19,19 +18,20 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -41,7 +41,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
@@ -69,6 +68,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -172,6 +172,29 @@ theorem P9587155750024764488.correct : P9587155750024764488.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A023000
+
+/-! ## A023000.P4060111926776490539
+
+`ogf(x/(1-8x+7x^2))`
+-/
+
+namespace A023000.P4060111926776490539
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -8, 7] n
+
+end
+
+end A023000.P4060111926776490539
+
+namespace A023000
+
+/-- `ogf(x/(1-8x+7x^2))` -/
+def P4060111926776490539.Spec : Prop :=
+  ∀ n, P4060111926776490539.a n = A023000 n
 
 end A023000
 
@@ -457,6 +480,29 @@ theorem P7433515000217407841.correct : P7433515000217407841.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A023001
+
+/-! ## A023001.P17389896707748510745
+
+`ogf(x/(1-9x+8x^2))`
+-/
+
+namespace A023001.P17389896707748510745
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -9, 8] n
+
+end
+
+end A023001.P17389896707748510745
+
+namespace A023001
+
+/-- `ogf(x/(1-9x+8x^2))` -/
+def P17389896707748510745.Spec : Prop :=
+  ∀ n, P17389896707748510745.a n = A023001 n
 
 end A023001
 
@@ -5452,6 +5498,29 @@ namespace A023038
 /-- `((6+sqrt(35))^n+(6-sqrt(35))^n)/2` -/
 def P11098156529825487413.Spec : Prop :=
   ∀ n, P11098156529825487413.a n = (A023038 n : ℝ)
+
+end A023038
+
+/-! ## A023038.P15482020860612400927
+
+`ogf((1-6x)/(1-12x+x^2))`
+-/
+
+namespace A023038.P15482020860612400927
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -6] [1, -12, 1] n
+
+end
+
+end A023038.P15482020860612400927
+
+namespace A023038
+
+/-- `ogf((1-6x)/(1-12x+x^2))` -/
+def P15482020860612400927.Spec : Prop :=
+  ∀ n, P15482020860612400927.a n = A023038 n
 
 end A023038
 

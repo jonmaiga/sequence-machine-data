@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -17,16 +16,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1932,7 +1933,7 @@ end A075723.P2328880968274209803
 /-!
 # A075726: a(n) = Pi * n^2 rounded off.
 
-The programs for A075726, the canonical program `A075726.P17851996568599737352` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075726 has offset 0).
+The programs for A075726, the canonical program `A075726.P17851996568599737352` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075726 has offset 0).
 
 The definition of A075726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1941,7 +1942,7 @@ The definition of A075726 is `conjectured`: the Lean definition is a formula tha
 
 `round(π*n²)`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A075726
@@ -2342,7 +2343,7 @@ end A075726
 /-!
 # A075727: a(n) = 2 Pi * n rounded off.
 
-The programs for A075727, the canonical program `A075727.P9224500291066450500` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075727 has offset 1).
+The programs for A075727, the canonical program `A075727.P9224500291066450500` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075727 has offset 1).
 
 The definition of A075727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2351,7 +2352,7 @@ The definition of A075727 is `conjectured`: the Lean definition is a formula tha
 
 `round(2*π*n)`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A075727
@@ -9713,7 +9714,7 @@ end A075795
 /-!
 # A075796: Numbers k such that 5*k^2 + 5 is a square.
 
-The programs for A075796, the canonical program `A075796.P16011199186827036765` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075796 has offset 1).
+The programs for A075796, the canonical program `A075796.P16011199186827036765` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075796 has offset 1).
 
 The definition of A075796 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9722,7 +9723,7 @@ The definition of A075796 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-1)-a(n-2)` with `a(0)=2, a(1)=38`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A075796
@@ -9780,6 +9781,29 @@ namespace A075796
 /-- `2*A167808(6*n+4)-A167808(6*n+6)` -/
 def P542946903066124955.Spec : Prop :=
   ∀ n, P542946903066124955.a n = A075796 (n + 1)
+
+end A075796
+
+/-! ## A075796.P3270172925601621101
+
+`ogf((2+2x)/(1-18x+x^2))`
+-/
+
+namespace A075796.P3270172925601621101
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 2] [1, -18, 1] n
+
+end
+
+end A075796.P3270172925601621101
+
+namespace A075796
+
+/-- `ogf((2+2x)/(1-18x+x^2))` -/
+def P3270172925601621101.Spec : Prop :=
+  ∀ n, P3270172925601621101.a n = A075796 (n + 1)
 
 end A075796
 

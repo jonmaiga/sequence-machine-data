@@ -8,36 +8,36 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -168,7 +168,7 @@ end A374700.P3459032834239242292
 /-!
 # A374702: Number of integer compositions of n whose leaders of maximal weakly decreasing runs sum to 3. Column k = 3 of A374748.
 
-The programs for A374702, the canonical program `A374702.P15639217034664883611` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374702 has offset 0).
+The programs for A374702, the canonical program `A374702.P15639217034664883611` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374702 has offset 0).
 
 The definition of A374702 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -177,7 +177,7 @@ The definition of A374702 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n²/3-floor(n/2))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A374702
@@ -1005,7 +1005,7 @@ end A374707.P10411564008362202848
 /-!
 # A374709: a(n) = n*(6*n^4 + 8*n^3 + 1 - (-1)^n)/16.
 
-The programs for A374709, the canonical program `A374709.P5551115856895563091` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374709 has offset 0).
+The programs for A374709, the canonical program `A374709.P5551115856895563091` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374709 has offset 0).
 
 The definition of A374709 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1014,7 +1014,7 @@ The definition of A374709 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(6*n^4+8*n^3+1-(-1)^n)/16`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A374709
@@ -1277,7 +1277,7 @@ end A374714.P9249647035527170672
 /-!
 # A374721: Number of nonisomorphic spanning trees of the triangular snake graph nC_3.
 
-The programs for A374721, the canonical program `A374721.P8786458338222523466` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374721 has offset 1).
+The programs for A374721, the canonical program `A374721.P8786458338222523466` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374721 has offset 1).
 
 The definition of A374721 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1286,7 +1286,7 @@ The definition of A374721 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*3^(n-1)+3^floor((n-1)/2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A374721
@@ -1294,6 +1294,29 @@ namespace A374721
 /-- `2*3^(n-1)+3^floor((n-1)/2)` -/
 def P8786458338222523466.Spec : Prop :=
   ∀ n, P8786458338222523466.a n = (A374721 (n + 1) : ℚ)
+
+end A374721
+
+/-! ## A374721.P3195031136615605107
+
+`ogf((1-5x^2)/(1-3x-3x^2+9x^3))`
+-/
+
+namespace A374721.P3195031136615605107
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -5] [1, -3, -3, 9] n
+
+end
+
+end A374721.P3195031136615605107
+
+namespace A374721
+
+/-- `ogf((1-5x^2)/(1-3x-3x^2+9x^3))` -/
+def P3195031136615605107.Spec : Prop :=
+  ∀ n, P3195031136615605107.a n = A374721 (n + 1)
 
 end A374721
 
@@ -2805,6 +2828,29 @@ def P9126795584612520576.Spec : Prop :=
 theorem P9126795584612520576.correct : P9126795584612520576.Spec := by
   intro n
   simp only [A374749, Nat.add_sub_cancel]
+
+end A374749
+
+/-! ## A374749.P65571953086381417
+
+`ogf(9x/(1-2x-8x^2+9x^3))`
+-/
+
+namespace A374749.P65571953086381417
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 9] [1, -2, -8, 9] n
+
+end
+
+end A374749.P65571953086381417
+
+namespace A374749
+
+/-- `ogf(9x/(1-2x-8x^2+9x^3))` -/
+def P65571953086381417.Spec : Prop :=
+  ∀ n, P65571953086381417.a n = A374749 (n + 1)
 
 end A374749
 

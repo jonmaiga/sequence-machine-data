@@ -6,37 +6,36 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -45,10 +44,8 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,7 +55,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
@@ -9678,17 +9674,44 @@ end A052898
 /-!
 # A052899: Expansion of g.f.: (1-2*x) / ((x-1)*(4*x^2+2*x-1)).
 
-The programs for A052899, the canonical program `A052899.P6531935309636985017` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052899 has offset 0).
+The programs for A052899, the canonical program `A052899.P15962383447754984144` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052899 has offset 0).
 
-The definition of A052899 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A052899 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-2x)/(1-3x-2x^2+4x^3))` (program `A052899.P15962383447754984144`, by `A052899.P15962383447754984144.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A052899.P15962383447754984144
+
+`ogf((1-2x)/(1-3x-2x^2+4x^3))`
+
+The canonical program, it is in `Seq.B000.C008`.
+-/
+
+namespace A052899
+
+/-- `ogf((1-2x)/(1-3x-2x^2+4x^3))` -/
+def P15962383447754984144.Spec : Prop :=
+  ∀ n, P15962383447754984144.a n = A052899 n
+
+theorem P15962383447754984144.correct : P15962383447754984144.Spec := by
+  intro n
+  simp only [A052899]
+
+end A052899
 
 /-! ## A052899.P6531935309636985017
 
 `(2*A087131(n)+1)/5`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A052899.P6531935309636985017
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 * A087131 n + 1 : ℚ) / 5
+
+end
+
+end A052899.P6531935309636985017
 
 namespace A052899
 

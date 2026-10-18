@@ -2,25 +2,26 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
+import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -30,7 +31,6 @@ import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -71,6 +71,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -81,7 +82,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A345400: Number of colored set partitions of [n] where (i mod d) identifies the color of i and d is the number of available colors such that within each block the frequency of all colors is equal.
@@ -3994,7 +3994,7 @@ end A345447
 /-!
 # A345448: Number of tilings of a 2 X n rectangle with dominoes and long L-shaped 4-minoes.
 
-The programs for A345448, the canonical program `A345448.P4938330505966610523` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345448 has offset 0).
+The programs for A345448, the canonical program `A345448.P4938330505966610523` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345448 has offset 0).
 
 The definition of A345448 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4003,7 +4003,7 @@ The definition of A345448 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+4*a(n-3)+2*a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=7`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345448
@@ -4015,6 +4015,29 @@ def P4938330505966610523.Spec : Prop :=
 theorem P4938330505966610523.correct : P4938330505966610523.Spec := by
   intro n
   simp only [A345448]
+
+end A345448
+
+/-! ## A345448.P15964269062686078808
+
+`ogf(-1/(-1+x+x^2+4x^3+2x^4))`
+-/
+
+namespace A345448.P15964269062686078808
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -1, -1, -4, -2] n
+
+end
+
+end A345448.P15964269062686078808
+
+namespace A345448
+
+/-- `ogf(-1/(-1+x+x^2+4x^3+2x^4))` -/
+def P15964269062686078808.Spec : Prop :=
+  ∀ n, P15964269062686078808.a n = A345448 n
 
 end A345448
 
@@ -5165,7 +5188,7 @@ end A345452
 /-!
 # A345455: a(n) = Sum_{k=0..n} binomial(5*n+1,5*k).
 
-The programs for A345455, the canonical program `A345455.P15574942020257480669` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345455 has offset 0).
+The programs for A345455, the canonical program `A345455.P15574942020257480669` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345455 has offset 0).
 
 The definition of A345455 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5174,7 +5197,7 @@ The definition of A345455 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `21*a(n-1)+353*a(n-2)-32*a(n-3)` with `a(0)=1, a(1)=7, a(2)=474`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345455
@@ -5339,7 +5362,7 @@ end A345455
 /-!
 # A345456: a(n) = Sum_{k=0..n} binomial(5*n+2,5*k).
 
-The programs for A345456, the canonical program `A345456.P14607025509921182894` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345456 has offset 0).
+The programs for A345456, the canonical program `A345456.P14607025509921182894` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345456 has offset 0).
 
 The definition of A345456 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5348,7 +5371,7 @@ The definition of A345456 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `21*a(n-1)+353*a(n-2)-32*a(n-3)` with `a(0)=1, a(1)=22, a(2)=859`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345456
@@ -6906,7 +6929,7 @@ end A345477.P13266405062275627129
 /-!
 # A345478: Numbers that are the sum of seven squares in one or more ways.
 
-The programs for A345478, the canonical program `A345478.P1383185937309282417` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345478 has offset 1).
+The programs for A345478, the canonical program `A345478.P1383185937309282417` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345478 has offset 1).
 
 The definition of A345478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6915,7 +6938,7 @@ The definition of A345478 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=7, a(1)=10, a(2)=13, a(3)=15, a(4)=16, a(5)=18, a(6)=19, a(7)=21, a(8)=22`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345478
@@ -7035,7 +7058,7 @@ end A345482.P13155200359439445046
 /-!
 # A345483: Numbers that are the sum of seven squares in six or more ways.
 
-The programs for A345483, the canonical program `A345483.P11989192200761921995` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345483 has offset 1).
+The programs for A345483, the canonical program `A345483.P11989192200761921995` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345483 has offset 1).
 
 The definition of A345483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7044,7 +7067,7 @@ The definition of A345483 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=55, a(1)=58, a(2)=61, a(3)=63, a(4)=64, a(5)=66, a(6)=67, a(7)=69, a(8)=70`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345483
@@ -7137,7 +7160,7 @@ end A345486.P5740876079465281891
 /-!
 # A345487: Numbers that are the sum of seven squares in ten or more ways.
 
-The programs for A345487, the canonical program `A345487.P5645223592236633001` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345487 has offset 1).
+The programs for A345487, the canonical program `A345487.P5645223592236633001` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345487 has offset 1).
 
 The definition of A345487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7146,7 +7169,7 @@ The definition of A345487 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=70, a(1)=79, a(2)=82, a(3)=85, a(4)=87, a(5)=88, a(6)=90, a(7)=91, a(8)=93, a(9)=94`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345487
@@ -7164,7 +7187,7 @@ end A345487
 /-!
 # A345488: Numbers that are the sum of eight squares in one or more ways.
 
-The programs for A345488, the canonical program `A345488.P17216432705863839094` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345488 has offset 1).
+The programs for A345488, the canonical program `A345488.P17216432705863839094` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345488 has offset 1).
 
 The definition of A345488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7173,7 +7196,7 @@ The definition of A345488 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=8, a(1)=11, a(2)=14, a(3)=16, a(4)=17, a(5)=19, a(6)=20, a(7)=22, a(8)=23`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345488
@@ -7395,7 +7418,7 @@ end A345497.P14996627236382190250
 /-!
 # A345498: Numbers that are the sum of nine squares in one or more ways.
 
-The programs for A345498, the canonical program `A345498.P14492625060946877738` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345498 has offset 1).
+The programs for A345498, the canonical program `A345498.P14492625060946877738` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345498 has offset 1).
 
 The definition of A345498 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7404,7 +7427,7 @@ The definition of A345498 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=9, a(1)=12, a(2)=15, a(3)=17, a(4)=18, a(5)=20, a(6)=21, a(7)=23, a(8)=24`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345498

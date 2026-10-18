@@ -27,11 +27,13 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1088,7 +1090,7 @@ end A034104
 /-!
 # A034105: Numbers n such that fractional part of square root of n starts with digit 9.
 
-The programs for A034105, the canonical program `A034105.P4830823344881872781` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034105 has offset 1).
+The programs for A034105, the canonical program `A034105.P4830823344881872781` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034105 has offset 1).
 
 The definition of A034105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 950 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1126,7 +1128,7 @@ end A034105
 
 `eq[9, A023961(A028310(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A034105
@@ -1347,7 +1349,7 @@ end A034105
 /-!
 # A034106: Fractional part of square root of n starts with 0: first term of runs (squares excluded).
 
-The programs for A034106, the canonical program `A034106.P14528470251754507863` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034106 has offset 1).
+The programs for A034106, the canonical program `A034106.P14528470251754507863` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034106 has offset 1).
 
 The definition of A034106 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9044 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1356,7 +1358,7 @@ The definition of A034106 is `conjectured`: the Lean definition is a formula tha
 
 `1+(n+5)²`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034106
@@ -1826,7 +1828,7 @@ end A034106
 /-!
 # A034107: Fractional part of square root of a(n) starts with 1: first term of runs.
 
-The programs for A034107, the canonical program `A034107.P10897991379751370644` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034107 has offset 1).
+The programs for A034107, the canonical program `A034107.P10897991379751370644` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034107 has offset 1).
 
 The definition of A034107 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9015 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1835,7 +1837,7 @@ The definition of A034107 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((31/10+n)²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034107
@@ -2040,7 +2042,7 @@ end A034107
 /-!
 # A034108: Fractional part of square root of a(n) starts with 2: first term of runs.
 
-The programs for A034108, the canonical program `A034108.P8067775828640607782` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034108 has offset 1).
+The programs for A034108, the canonical program `A034108.P8067775828640607782` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034108 has offset 1).
 
 The definition of A034108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2049,7 +2051,7 @@ The definition of A034108 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+a(n-5)-2*a(n-6)+a(n-7)` with `a(0)=5, a(1)=18, a(2)=28, a(3)=39, a(4)=52, a(5)=68, a(6)=85, a(7)=105`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034108
@@ -2274,7 +2276,7 @@ end A034108
 /-!
 # A034109: Fractional part of square root of a(n) starts with 3: first term of runs.
 
-The programs for A034109, the canonical program `A034109.P8926590697814807842` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034109 has offset 1).
+The programs for A034109, the canonical program `A034109.P8926590697814807842` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034109 has offset 1).
 
 The definition of A034109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8691 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2283,7 +2285,7 @@ The definition of A034109 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((33/10+n)²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034109
@@ -2488,7 +2490,7 @@ end A034109
 /-!
 # A034110: Fractional part of square root of a(n) starts with 4: first term of runs.
 
-The programs for A034110, the canonical program `A034110.P3181133878637248306` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034110 has offset 1).
+The programs for A034110, the canonical program `A034110.P3181133878637248306` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034110 has offset 1).
 
 The definition of A034110 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8677 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2497,7 +2499,7 @@ The definition of A034110 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((7/5+n)²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034110
@@ -2961,7 +2963,7 @@ end A034110
 /-!
 # A034111: Fractional part of square root of a(n) starts with 5: first term of runs.
 
-The programs for A034111, the canonical program `A034111.P12627641465690712598` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034111 has offset 1).
+The programs for A034111, the canonical program `A034111.P12627641465690712598` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034111 has offset 1).
 
 The definition of A034111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2970,7 +2972,7 @@ The definition of A034111 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²+7*(n+1)+13`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034111
@@ -3441,7 +3443,7 @@ end A034111
 /-!
 # A034112: Fractional part of square root of a(n) starts with 6: first term of runs.
 
-The programs for A034112, the canonical program `A034112.P10496871866684969466` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034112 has offset 1).
+The programs for A034112, the canonical program `A034112.P10496871866684969466` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034112 has offset 1).
 
 The definition of A034112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8477 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3450,7 +3452,7 @@ The definition of A034112 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((13/5+n)²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034112
@@ -3867,7 +3869,7 @@ end A034113
 /-!
 # A034114: Fractional part of square root of a(n) starts with 8: first term of runs.
 
-The programs for A034114, the canonical program `A034114.P16735787600543166370` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034114 has offset 1).
+The programs for A034114, the canonical program `A034114.P16735787600543166370` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034114 has offset 1).
 
 The definition of A034114 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8897 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3876,7 +3878,7 @@ The definition of A034114 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((14/5+n)²)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034114
@@ -4159,7 +4161,7 @@ end A034114
 /-!
 # A034115: Fractional part of square root of a(n) starts with 9: first term of runs.
 
-The programs for A034115, the canonical program `A034115.P12228870001496370244` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034115 has offset 1).
+The programs for A034115, the canonical program `A034115.P12228870001496370244` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034115 has offset 1).
 
 The definition of A034115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4168,7 +4170,7 @@ The definition of A034115 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²+9*(n+1)+25+floor(4*(n+1)/5)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034115
@@ -6129,7 +6131,7 @@ end A034125
 /-!
 # A034126: Decimal part of cube root of a(n) starts with 0: first term of runs (cubes excluded).
 
-The programs for A034126, the canonical program `A034126.P15433944381052957963` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034126 has offset 1).
+The programs for A034126, the canonical program `A034126.P15433944381052957963` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034126 has offset 1).
 
 The definition of A034126 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6138,7 +6140,7 @@ The definition of A034126 is `conjectured`: the Lean definition is a formula tha
 
 `1+(n+2)^3`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034126
@@ -6626,7 +6628,7 @@ end A034126
 /-!
 # A034127: Decimal part of cube root of a(n) starts with 1: first term of runs.
 
-The programs for A034127, the canonical program `A034127.P17746853730717763161` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034127 has offset 1).
+The programs for A034127, the canonical program `A034127.P17746853730717763161` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034127 has offset 1).
 
 The definition of A034127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6635,7 +6637,7 @@ The definition of A034127 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((21/10+n)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034127
@@ -6653,7 +6655,7 @@ end A034127
 /-!
 # A034128: Decimal part of cube root of a(n) starts with 2: first term of runs.
 
-The programs for A034128, the canonical program `A034128.P4607021986100968026` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034128 has offset 1).
+The programs for A034128, the canonical program `A034128.P4607021986100968026` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034128 has offset 1).
 
 The definition of A034128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6662,7 +6664,7 @@ The definition of A034128 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((6/5+n)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034128
@@ -6809,7 +6811,7 @@ end A034128
 /-!
 # A034129: Decimal part of cube root of a(n) starts with 3: first term of runs.
 
-The programs for A034129, the canonical program `A034129.P2846270783544421952` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034129 has offset 1).
+The programs for A034129, the canonical program `A034129.P2846270783544421952` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034129 has offset 1).
 
 The definition of A034129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6818,7 +6820,7 @@ The definition of A034129 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((23/10+n)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034129
@@ -7020,7 +7022,7 @@ end A034129
 /-!
 # A034130: Decimal part of cube root of a(n) starts with 4: first term of runs.
 
-The programs for A034130, the canonical program `A034130.P12060966931585883767` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034130 has offset 1).
+The programs for A034130, the canonical program `A034130.P12060966931585883767` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034130 has offset 1).
 
 The definition of A034130 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7029,7 +7031,7 @@ The definition of A034130 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((7/5+n)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034130
@@ -7185,7 +7187,7 @@ end A034130
 /-!
 # A034131: a(n) = ceiling((n + 1/2)^3).
 
-The programs for A034131, the canonical program `A034131.P1861838187104884455` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034131 has offset 1).
+The programs for A034131, the canonical program `A034131.P1861838187104884455` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034131 has offset 1).
 
 The definition of A034131 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((n+1+1/2)^3)` (program `A034131.P1861838187104884455`, by `A034131.P1861838187104884455.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7194,7 +7196,7 @@ The definition of A034131 is `verified`: the Lean definition is proven equivalen
 
 `ceil((n+1+1/2)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034131
@@ -7431,7 +7433,7 @@ end A034131
 /-!
 # A034132: Decimal part of cube root of a(n) starts with 6: first term of runs.
 
-The programs for A034132, the canonical program `A034132.P10568988092711729101` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034132 has offset 1).
+The programs for A034132, the canonical program `A034132.P10568988092711729101` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034132 has offset 1).
 
 The definition of A034132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7440,7 +7442,7 @@ The definition of A034132 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((13/5+n)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034132
@@ -7619,7 +7621,7 @@ end A034132
 /-!
 # A034133: a(n) = ceiling((n + 7/10)^3).
 
-The programs for A034133, the canonical program `A034133.P3976019179422265857` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034133 has offset 1).
+The programs for A034133, the canonical program `A034133.P3976019179422265857` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034133 has offset 1).
 
 The definition of A034133 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((n+1+7/10)^3)` (program `A034133.P3976019179422265857`, by `A034133.P3976019179422265857.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7628,7 +7630,7 @@ The definition of A034133 is `verified`: the Lean definition is proven equivalen
 
 `ceil((n+1+7/10)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034133
@@ -7761,7 +7763,7 @@ end A034133
 /-!
 # A034134: Decimal part of cube root of a(n) starts with 8: first term of runs.
 
-The programs for A034134, the canonical program `A034134.P1948593362073543312` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034134 has offset 1).
+The programs for A034134, the canonical program `A034134.P1948593362073543312` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034134 has offset 1).
 
 The definition of A034134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7770,7 +7772,7 @@ The definition of A034134 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((9/5+n)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034134
@@ -7880,7 +7882,7 @@ end A034134
 /-!
 # A034135: Decimal part of cube root of n starts with 9: first term of runs.
 
-The programs for A034135, the canonical program `A034135.P11865997059044653479` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034135 has offset 1).
+The programs for A034135, the canonical program `A034135.P11865997059044653479` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034135 has offset 1).
 
 The definition of A034135 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7889,7 +7891,7 @@ The definition of A034135 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil((n+1+9/10)^3)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034135
@@ -9210,7 +9212,7 @@ end A034170.P3132470558476361344
 /-!
 # A034171: Related to triple factorial numbers A007559(n+1).
 
-The programs for A034171, the canonical program `A034171.P15156061293600012407` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034171 has offset 0).
+The programs for A034171, the canonical program `A034171.P15156061293600012407` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034171 has offset 0).
 
 The definition of A034171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9242,7 +9244,7 @@ end A034171
 
 `(9-6/(n+1))*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034171
@@ -9691,7 +9693,7 @@ end A034175.P15907111018694398480
 /-!
 # A034176: One third of quartic factorial numbers.
 
-The programs for A034176, the canonical program `A034176.P8261132067949011157` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034176 has offset 1).
+The programs for A034176, the canonical program `A034176.P8261132067949011157` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034176 has offset 1).
 
 The definition of A034176 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9700,7 +9702,7 @@ The definition of A034176 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4*(n+1)-1)*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034176
@@ -9964,7 +9966,7 @@ end A034176
 /-!
 # A034177: a(n) is the n-th quartic factorial number divided by 4.
 
-The programs for A034177, the canonical program `A034177.P17014864589582442131` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034177 has offset 1).
+The programs for A034177, the canonical program `A034177.P17014864589582442131` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034177 has offset 1).
 
 The definition of A034177 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9973,7 +9975,7 @@ The definition of A034177 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4^n*(n+1)!`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034177
@@ -10723,7 +10725,7 @@ end A034179.P14332182107098713255
 /-!
 # A034182: Number of not-necessarily-symmetric n X 2 crossword puzzle grids.
 
-The programs for A034182, the canonical program `A034182.P10462263895861616260` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034182 has offset 1).
+The programs for A034182, the canonical program `A034182.P10462263895861616260` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034182 has offset 1).
 
 The definition of A034182 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10732,7 +10734,7 @@ The definition of A034182 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+a(n-2)+4` with `a(0)=1, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034182
@@ -10767,6 +10769,29 @@ namespace A034182
 /-- `A001333(n+2)-2` -/
 def P17096325468605170413.Spec : Prop :=
   ∀ n, P17096325468605170413.a n = A034182 (n + 1)
+
+end A034182
+
+/-! ## A034182.P1212594552334492575
+
+`ogf((1+2x+x^2)/(1-3x+x^2+x^3))`
+-/
+
+namespace A034182.P1212594552334492575
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 1] [1, -3, 1, 1] n
+
+end
+
+end A034182.P1212594552334492575
+
+namespace A034182
+
+/-- `ogf((1+2x+x^2)/(1-3x+x^2+x^3))` -/
+def P1212594552334492575.Spec : Prop :=
+  ∀ n, P1212594552334492575.a n = A034182 (n + 1)
 
 end A034182
 
@@ -11796,7 +11821,7 @@ end A034197.P12519059979619394492
 /-!
 # A034198: Number of binary codes (not necessarily linear) of length n with 3 words.
 
-The programs for A034198, the canonical program `A034198.P495696853797558583` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034198 has offset 1).
+The programs for A034198, the canonical program `A034198.P495696853797558583` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034198 has offset 1).
 
 The definition of A034198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11805,7 +11830,7 @@ The definition of A034198 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)-a(n-4)+2*a(n-6)-a(n-7)` with `a(0)=0, a(1)=1, a(2)=3, a(3)=6, a(4)=10, a(5)=16, a(6)=23`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A034198

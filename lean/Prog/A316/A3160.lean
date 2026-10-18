@@ -7,32 +7,33 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -1039,7 +1040,7 @@ end A316024.P1928089571529382725
 /-!
 # A316026: Coordination sequence Gal.3.36.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A316026, the canonical program `A316026.P4023097474816276442` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316026 has offset 0).
+The programs for A316026, the canonical program `A316026.P4023097474816276442` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316026 has offset 0).
 
 The definition of A316026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2399 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1048,7 +1049,7 @@ The definition of A316026 is `conjectured`: the Lean definition is a formula tha
 
 `3*floor(a(n-1)/8+n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A316026
@@ -4903,6 +4904,33 @@ end
 end A316085.P3637340690132175452
 
 /-!
+# A316087: Expansion of 1/(1 + Sum_{k>=1} k^2 * x^k).
+
+The programs for A316087, the canonical program `A316087.P18205932350151207741` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316087 has offset 0).
+
+The definition of A316087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 368 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A316087.P18205932350151207741
+
+`ogf((1-3x+3x^2-x^3)/(1-2x+4x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A316087
+
+/-- `ogf((1-3x+3x^2-x^3)/(1-2x+4x^2-x^3))` -/
+def P18205932350151207741.Spec : Prop :=
+  ∀ n, P18205932350151207741.a n = A316087 n
+
+theorem P18205932350151207741.correct : P18205932350151207741.Spec := by
+  intro n
+  simp only [A316087]
+
+end A316087
+
+/-!
 # A316089: Number of ordered (k_1, k_2, ..., k_r) such that (Z/nZ)* is isomorphic to C_{k_1} X C_{k_2} X ... X C_{k_r}. Here (Z/nZ)* is the multiplicative group of integers modulo n, r = rank((Z/nZ)*).
 
 The programs for A316089, there is no canonical definition to state claims against.
@@ -5604,7 +5632,7 @@ end A316096
 /-!
 # A316097: Numbers m such that A(m+1) = A(m) + 6, where A() = A005101() are the abundant numbers.
 
-The programs for A316097, the canonical program `A316097.P17193600129069061208` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316097 has offset 1).
+The programs for A316097, the canonical program `A316097.P17193600129069061208` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316097 has offset 1).
 
 The definition of A316097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3517 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5636,7 +5664,7 @@ end A316097
 
 `lt[4, A061496(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A316097
@@ -5857,7 +5885,7 @@ end A316097
 /-!
 # A316098: Abundant numbers that differ from the next abundant number by 4.
 
-The programs for A316098, the canonical program `A316098.P17152426692604565992` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316098 has offset 1).
+The programs for A316098, the canonical program `A316098.P17152426692604565992` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316098 has offset 1).
 
 The definition of A316098 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005101, A316096, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5866,7 +5894,7 @@ The definition of A316098 is `conditional`: the Lean definition is an OEIS formu
 
 `A005101(A316096(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A316098

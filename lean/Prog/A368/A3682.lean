@@ -3,33 +3,32 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -37,7 +36,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -428,7 +426,7 @@ end A368203.P6162720577689759805
 /-!
 # A368205: a(n) = 3*a(n-1) - 2*a(n-2) - a(n-3), with a(0)=1, a(1)=3 and a(2)=7.
 
-The programs for A368205, the canonical program `A368205.P12925364709045541498` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368205 has offset 0).
+The programs for A368205, the canonical program `A368205.P12925364709045541498` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368205 has offset 0).
 
 The definition of A368205 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)-2*a(n-2)-a(n-3)` (program `A368205.P12925364709045541498`, by `A368205.P12925364709045541498.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -437,7 +435,7 @@ The definition of A368205 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-2*a(n-2)-a(n-3)` with `a(0)=1, a(1)=3, a(2)=7`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368205
@@ -449,6 +447,29 @@ def P12925364709045541498.Spec : Prop :=
 theorem P12925364709045541498.correct : P12925364709045541498.Spec := by
   intro n
   simp only [A368205]
+
+end A368205
+
+/-! ## A368205.P6032276025878122395
+
+`ogf(1/(1-3x+2x^2+x^3))`
+-/
+
+namespace A368205.P6032276025878122395
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -3, 2, 1] n
+
+end
+
+end A368205.P6032276025878122395
+
+namespace A368205
+
+/-- `ogf(1/(1-3x+2x^2+x^3))` -/
+def P6032276025878122395.Spec : Prop :=
+  ∀ n, P6032276025878122395.a n = A368205 n
 
 end A368205
 
@@ -1901,7 +1922,7 @@ end A368242.P3294085867530297497
 /-!
 # A368244: Number of compositions of n into parts 1, 9, and 10.
 
-The programs for A368244, the canonical program `A368244.P14291836961479602960` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368244 has offset 0).
+The programs for A368244, the canonical program `A368244.P14291836961479602960` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368244 has offset 0).
 
 The definition of A368244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1910,7 +1931,7 @@ The definition of A368244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-9)+a(n-10)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1, a(7)=1, a(8)=1, a(9)=2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368244
@@ -4808,7 +4829,7 @@ end A368297.P8947087070233620562
 /-!
 # A368299: a(n) is the number of permutations pi of [n] that avoid {231,321} so that pi^4 avoids 132.
 
-The programs for A368299, the canonical program `A368299.P7609837562833274100` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368299 has offset 0).
+The programs for A368299, the canonical program `A368299.P7609837562833274100` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368299 has offset 0).
 
 The definition of A368299 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4817,7 +4838,7 @@ The definition of A368299 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+a(n-1)+a(n-2)+a(n-4)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368299
@@ -4852,6 +4873,29 @@ namespace A368299
 /-- `A274110(n+1)-1` -/
 def P1935582540627107996.Spec : Prop :=
   ∀ n, P1935582540627107996.a n = A368299 n
+
+end A368299
+
+/-! ## A368299.P12580224112058752185
+
+`ogf(x/(1-2x+x^3-x^4+x^5))`
+-/
+
+namespace A368299.P12580224112058752185
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -2, 0, 1, -1, 1] n
+
+end
+
+end A368299.P12580224112058752185
+
+namespace A368299
+
+/-- `ogf(x/(1-2x+x^3-x^4+x^5))` -/
+def P12580224112058752185.Spec : Prop :=
+  ∀ n, P12580224112058752185.a n = A368299 n
 
 end A368299
 

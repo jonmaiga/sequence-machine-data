@@ -10,7 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -20,7 +20,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -30,7 +30,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -14272,7 +14272,7 @@ end A045765
 /-!
 # A045766: Number of prime factors of double factorials n!! (A006882), with multiplicity.
 
-The programs for A045766, the canonical program `A045766.P10793017351796934949` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045766 has offset 1).
+The programs for A045766, the canonical program `A045766.P10793017351796934949` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045766 has offset 1).
 
 The definition of A045766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3834 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14281,7 +14281,7 @@ The definition of A045766 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, #]+a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A045766
@@ -14541,7 +14541,7 @@ end A045766
 /-!
 # A045767: Number of prime factors of triple factorials n!!! (A007661), with multiplicity.
 
-The programs for A045767, the canonical program `A045767.P716574645843820968` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045767 has offset 1).
+The programs for A045767, the canonical program `A045767.P716574645843820968` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045767 has offset 1).
 
 The definition of A045767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4742 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14550,7 +14550,7 @@ The definition of A045767 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, #]+a(n-3)` with `a(0)=0, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A045767
@@ -18591,7 +18591,7 @@ end A045793.P14308171192831024862
 /-!
 # A045794: Consider all quadruples {a,b,c,d} which reach {k,k,k,k} in n steps under map {a,b,c,d}->{|a-b|,|b-c|,|c-d|,|d-a|}; look at max{a,b,c,d}; sequence gives minimal value of this.
 
-The programs for A045794, the canonical program `A045794.P10600491498430848618` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045794 has offset 1).
+The programs for A045794, the canonical program `A045794.P10600491498430848618` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045794 has offset 1).
 
 The definition of A045794 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18600,7 +18600,7 @@ The definition of A045794 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)+a(n-6)+a(n-9)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=3, a(4)=3, a(5)=4, a(6)=9, a(7)=11, a(8)=13`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A045794
@@ -18859,7 +18859,7 @@ end A045796.P5825779686769318105
 /-!
 # A045797: Evenish numbers (prime to 10 and 10's digit is even).
 
-The programs for A045797, the canonical program `A045797.P9904687983047091000` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045797 has offset 1).
+The programs for A045797, the canonical program `A045797.P9904687983047091000` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045797 has offset 1).
 
 The definition of A045797 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18868,7 +18868,7 @@ The definition of A045797 is `conjectured`: the Lean definition is a formula tha
 
 `record[or(10, n)-9]+n`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A045797
@@ -19344,7 +19344,7 @@ end A045797
 /-!
 # A045798: Oddish numbers (prime to 10 and 10's digit is odd).
 
-The programs for A045798, the canonical program `A045798.P823104922367124387` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045798 has offset 1).
+The programs for A045798, the canonical program `A045798.P823104922367124387` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045798 has offset 1).
 
 The definition of A045798 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19353,7 +19353,7 @@ The definition of A045798 is `conjectured`: the Lean definition is a formula tha
 
 `record[or(10, n)+1]+n`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A045798

@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,7 +15,9 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -25,9 +26,10 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,11 +38,12 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -3772,7 +3775,7 @@ end A123475.P15589077762859029012
 /-!
 # A123476: a(n) = (n!)^2/phi(n!), where phi is Euler's totient function.
 
-The programs for A123476, the canonical program `A123476.P7575150719699719929` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123476 has offset 1).
+The programs for A123476, the canonical program `A123476.P7575150719699719929` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123476 has offset 1).
 
 The definition of A123476 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A373319, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3781,7 +3784,7 @@ The definition of A123476 is `conditional`: the Lean definition is an OEIS formu
 
 `A373319((n+1)!)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A123476
@@ -3920,7 +3923,7 @@ end A123476
 /-!
 # A123477: Expansion of (1 - b(q)) / 3 in powers of q where b(q) is a cubic AGM theta function.
 
-The programs for A123477, the canonical program `A123477.P8743366837065388473` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123477 has offset 1).
+The programs for A123477, the canonical program `A123477.P8743366837065388473` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123477 has offset 1).
 
 The definition of A123477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1082 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4067,7 +4070,7 @@ end A123477
 
 `A035263(n+1)*A112848(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A123477
@@ -4744,6 +4747,55 @@ namespace A123480
 /-- `A001353(n+1)*A001353(n+2)` -/
 def P3727306023584199618.Spec : Prop :=
   ∀ n, P3727306023584199618.a n = A123480 (n + 1)
+
+end A123480
+
+/-! ## A123480.P10477861215505846248
+
+`∑[ogf(4/(1-14x+x^2))]`
+-/
+
+namespace A123480.P10477861215505846248
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4] [1, -14, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A123480.P10477861215505846248
+
+namespace A123480
+
+/-- `∑[ogf(4/(1-14x+x^2))]` -/
+def P10477861215505846248.Spec : Prop :=
+  ∀ n, P10477861215505846248.a n = A123480 (n + 1)
+
+end A123480
+
+/-! ## A123480.P1082787879285160619
+
+`ogf(4/(1-15x+15x^2-x^3))`
+-/
+
+namespace A123480.P1082787879285160619
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4] [1, -15, 15, -1] n
+
+end
+
+end A123480.P1082787879285160619
+
+namespace A123480
+
+/-- `ogf(4/(1-15x+15x^2-x^3))` -/
+def P1082787879285160619.Spec : Prop :=
+  ∀ n, P1082787879285160619.a n = A123480 (n + 1)
 
 end A123480
 

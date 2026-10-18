@@ -14,28 +14,30 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -43,6 +45,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -191,27 +194,50 @@ end A000600.P14724103681157388599
 /-!
 # A000601: Expansion of 1/((1-x)^2*(1-x^2)*(1-x^3)).
 
-The programs for A000601, the canonical program `A000601.P3202930897057728660` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000601 has offset 0).
+The programs for A000601, the canonical program `A000601.P3823143030787112736` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000601 has offset 0).
 
-The definition of A000601 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A000601 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+x^3+x^4-2x^6+x^7))` (program `A000601.P3823143030787112736`, by `A000601.P3823143030787112736.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A000601.P3202930897057728660
+/-! ## A000601.P3823143030787112736
 
-`2*a(n-1)-a(n-3)-a(n-4)+2*a(n-6)-a(n-7)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=7, a(4)=11, a(5)=16, a(6)=23`
+`ogf(1/(1-2x+x^3+x^4-2x^6+x^7))`
 
 The canonical program, it is in `Seq.B000.C000`.
 -/
 
 namespace A000601
 
+/-- `ogf(1/(1-2x+x^3+x^4-2x^6+x^7))` -/
+def P3823143030787112736.Spec : Prop :=
+  ∀ n, P3823143030787112736.a n = A000601 n
+
+theorem P3823143030787112736.correct : P3823143030787112736.Spec := by
+  intro n
+  simp only [A000601]
+
+end A000601
+
+/-! ## A000601.P3202930897057728660
+
+`2*a(n-1)-a(n-3)-a(n-4)+2*a(n-6)-a(n-7)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=7, a(4)=11, a(5)=16, a(6)=23`
+-/
+
+namespace A000601.P3202930897057728660
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 4, 7, 11, 16, 23] fun n a =>
+  2 * a (n - 1) - a (n - 3) - a (n - 4) + 2 * a (n - 6) - a (n - 7)
+
+end
+
+end A000601.P3202930897057728660
+
+namespace A000601
+
 /-- `2*a(n-1)-a(n-3)-a(n-4)+2*a(n-6)-a(n-7)` -/
 def P3202930897057728660.Spec : Prop :=
   ∀ n, P3202930897057728660.a n = A000601 n
-
-theorem P3202930897057728660.correct : P3202930897057728660.Spec := by
-  intro n
-  simp only [A000601]
 
 end A000601
 

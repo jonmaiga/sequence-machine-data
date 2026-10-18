@@ -9,19 +9,21 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C022
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -443,7 +445,7 @@ end A256007
 /-!
 # A256008: Self-inverse permutation of positive integers: 4k+1 is swapped with 4k+3, and 4k+2 with 4k+4.
 
-The programs for A256008, the canonical program `A256008.P3600819519431906562` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256008 has offset 1).
+The programs for A256008, the canonical program `A256008.P3600819519431906562` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256008 has offset 1).
 
 The definition of A256008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -452,7 +454,7 @@ The definition of A256008 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1-2*(-1)^((2*(n+1)+1-(-1)^(n+1))/4)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A256008
@@ -5875,7 +5877,7 @@ end A256077
 /-!
 # A256078: Write n in binary, exchange digits '0' <-> '1'.
 
-The programs for A256078, the canonical program `A256078.P7966750837771448166` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256078 has offset 0).
+The programs for A256078, the canonical program `A256078.P7966750837771448166` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256078 has offset 0).
 
 The definition of A256078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5884,7 +5886,7 @@ The definition of A256078 is `conjectured`: the Lean definition is a formula tha
 
 `a(n%2)+10*a(floor(n/2))` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A256078
@@ -6835,27 +6837,50 @@ end A256095
 /-!
 # A256096: Expansion of (4+3*x)/(1+3*x).
 
-The programs for A256096, the canonical program `A256096.P4265687195087099225` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256096 has offset 0).
+The programs for A256096, the canonical program `A256096.P18003513400214883330` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256096 has offset 0).
 
-The definition of A256096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 209 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A256096 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((4+3x)/(1+3x))` (program `A256096.P18003513400214883330`, by `A256096.P18003513400214883330.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A256096.P18003513400214883330
+
+`ogf((4+3x)/(1+3x))`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A256096
+
+/-- `ogf((4+3x)/(1+3x))` -/
+def P18003513400214883330.Spec : Prop :=
+  ∀ n, P18003513400214883330.a n = A256096 n
+
+theorem P18003513400214883330.correct : P18003513400214883330.Spec := by
+  intro n
+  simp only [A256096]
+
+end A256096
 
 /-! ## A256096.P4265687195087099225
 
 `3*or(1, -a(n-1))` with `a(0)=4`
-
-The canonical program, it is in `Seq.B000.C029`.
 -/
+
+namespace A256096.P4265687195087099225
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [4] fun n a =>
+  3 * Int.lor 1 (-a (n - 1))
+
+end
+
+end A256096.P4265687195087099225
 
 namespace A256096
 
 /-- `3*or(1, -a(n-1))` -/
 def P4265687195087099225.Spec : Prop :=
   ∀ n, P4265687195087099225.a n = A256096 n
-
-theorem P4265687195087099225.correct : P4265687195087099225.Spec := by
-  intro n
-  simp only [A256096]
 
 end A256096
 

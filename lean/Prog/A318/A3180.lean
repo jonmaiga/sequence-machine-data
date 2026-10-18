@@ -10,8 +10,9 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -19,18 +20,18 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -551,16 +552,39 @@ end A318009.P7289710973059405495
 /-!
 # A318010: Number of nX2 0..1 arrays with every element unequal to 0, 1, 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A318010, the canonical program `A318010.P11700517544221402171` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318010 has offset 1).
+The programs for A318010, the canonical program `A318010.P11700517544221402171` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318010 has offset 1).
 
 The definition of A318010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 184 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A318010.P4059924652652868121
+
+`ogf((2-x^3)/(1-4x+2x^2-x^3+x^4))`
+-/
+
+namespace A318010.P4059924652652868121
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 0, 0, -1] [1, -4, 2, -1, 1] n
+
+end
+
+end A318010.P4059924652652868121
+
+namespace A318010
+
+/-- `ogf((2-x^3)/(1-4x+2x^2-x^3+x^4))` -/
+def P4059924652652868121.Spec : Prop :=
+  ∀ n, P4059924652652868121.a n = A318010 (n + 1)
+
+end A318010
 
 /-! ## A318010.P11700517544221402171
 
 `4*a(n-1)-2*a(n-2)+a(n-3)-a(n-4)` with `a(0)=2, a(1)=8, a(2)=28, a(3)=97`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A318010
@@ -2378,7 +2402,7 @@ end A318030.P11461901533264779886
 /-!
 # A318031: Number of nX2 0..1 arrays with every element unequal to 0, 1, 3 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A318031, the canonical program `A318031.P320335726501133931` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318031 has offset 1).
+The programs for A318031, the canonical program `A318031.P320335726501133931` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318031 has offset 1).
 
 The definition of A318031 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2387,7 +2411,7 @@ The definition of A318031 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+4*a(n-3)+a(n-5)-a(n-6)` with `a(0)=2, a(1)=3, a(2)=6, a(3)=11, a(4)=22, a(5)=46`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A318031
@@ -4151,7 +4175,7 @@ end A318052.P16811225669702302747
 /-!
 # A318053: a(n) = ceiling(sqrt(2*a(n-1)*a(n-2))), a(1) = a(2) = 1.
 
-The programs for A318053, the canonical program `A318053.P6733279276505114503` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318053 has offset 1).
+The programs for A318053, the canonical program `A318053.P6733279276505114503` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318053 has offset 1).
 
 The definition of A318053 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(sqrt(2*a(n-1)*a(n-2)))` (program `A318053.P6733279276505114503`, by `A318053.P6733279276505114503.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4160,7 +4184,7 @@ The definition of A318053 is `verified`: the Lean definition is proven equivalen
 
 `ceil(sqrt(2*a(n-1)*a(n-2)))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A318053
@@ -4282,7 +4306,7 @@ end A318053
 /-!
 # A318054: a(n) = n*(n + 1)*(n^2 + n + 22)/24.
 
-The programs for A318054, the canonical program `A318054.P2618741877506832120` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318054 has offset 0).
+The programs for A318054, the canonical program `A318054.P2618741877506832120` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318054 has offset 0).
 
 The definition of A318054 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n²+n+22)/24` (program `A318054.P16002133835169072679`, by `A318054.P16002133835169072679.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4337,7 +4361,7 @@ end A318054
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=2, a(2)=7, a(3)=17, a(4)=35`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A318054
@@ -5330,16 +5354,39 @@ end A318061.P6374522421493391785
 /-!
 # A318062: Number of nX2 0..1 arrays with every element unequal to 1, 2, 3 or 4 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A318062, the canonical program `A318062.P5353415626621374821` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318062 has offset 1).
+The programs for A318062, the canonical program `A318062.P5353415626621374821` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318062 has offset 1).
 
 The definition of A318062 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 176 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A318062.P17337927740775466153
+
+`ogf((1+2x-x^3)/(1-3x-3x^2+x^3+x^4))`
+-/
+
+namespace A318062.P17337927740775466153
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 0, -1] [1, -3, -3, 1, 1] n
+
+end
+
+end A318062.P17337927740775466153
+
+namespace A318062
+
+/-- `ogf((1+2x-x^3)/(1-3x-3x^2+x^3+x^4))` -/
+def P17337927740775466153.Spec : Prop :=
+  ∀ n, P17337927740775466153.a n = A318062 (n + 1)
+
+end A318062
 
 /-! ## A318062.P5353415626621374821
 
 `3*a(n-1)+3*a(n-2)-a(n-3)-a(n-4)` with `a(0)=1, a(1)=5, a(2)=18, a(3)=67`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A318062

@@ -12,22 +12,25 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -965,7 +968,7 @@ end A025008.P775655675285920463
 /-!
 # A025009: Expansion of 1/((1-x)(1-9x)(1-10x)(1-11x)).
 
-The programs for A025009, the canonical program `A025009.P17912761409874267176` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025009 has offset 0).
+The programs for A025009, the canonical program `A025009.P17912761409874267176` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025009 has offset 0).
 
 The definition of A025009 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -974,7 +977,7 @@ The definition of A025009 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(36*11^(n+3)-80*10^(n+3)+45*9^(n+3)-1)/720`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A025009
@@ -2805,7 +2808,7 @@ end A025030.P6085954367417070471
 /-!
 # A025031: Expansion of 1/((1-x)*(1-9*x)*(1-10*x)*(1-12*x)).
 
-The programs for A025031, the canonical program `A025031.P17676341836520948138` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025031 has offset 0).
+The programs for A025031, the canonical program `A025031.P17676341836520948138` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025031 has offset 0).
 
 The definition of A025031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2814,7 +2817,7 @@ The definition of A025031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(12^(n+4)-44*10^(n+3)+33*9^(n+3)-1)/792`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A025031
@@ -3176,7 +3179,7 @@ end A025033.P9859951071462989355
 /-!
 # A025035: Number of partitions of { 1, 2, ..., 3n } into sets of size 3.
 
-The programs for A025035, the canonical program `A025035.P2213842418962910782` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025035 has offset 0).
+The programs for A025035, the canonical program `A025035.P2213842418962910782` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025035 has offset 0).
 
 The definition of A025035 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3185,7 +3188,7 @@ The definition of A025035 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n)!/(n!*6^n)`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A025035

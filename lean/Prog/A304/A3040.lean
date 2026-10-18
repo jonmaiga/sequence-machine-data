@@ -14,18 +14,20 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -384,7 +386,7 @@ end A304003.P12995947867125569056
 /-!
 # A304004: Number of n X 2 0..1 arrays with every element unequal to 0, 2, 3 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A304004, the canonical program `A304004.P10450761010945913802` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304004 has offset 1).
+The programs for A304004, the canonical program `A304004.P10450761010945913802` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304004 has offset 1).
 
 The definition of A304004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -393,7 +395,7 @@ The definition of A304004 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-2)-4*a(n-4)` with `a(0)=1, a(1)=4, a(2)=7, a(3)=13, a(4)=26`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A304004
@@ -4241,7 +4243,7 @@ end A304051.P5927211961782062397
 /-!
 # A304052: Number of nX2 0..1 arrays with every element unequal to 1, 2, 4 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A304052, the canonical program `A304052.P8303337090333737456` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304052 has offset 1).
+The programs for A304052, the canonical program `A304052.P8303337090333737456` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304052 has offset 1).
 
 The definition of A304052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4250,7 +4252,7 @@ The definition of A304052 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-2)+8*a(n-3)-4*a(n-4)-16*a(n-5)` with `a(0)=1, a(1)=3, a(2)=11, a(3)=10, a(4)=51, a(5)=165`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A304052

@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -18,17 +17,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4113,7 +4114,7 @@ end A337850.P11184159932189013254
 /-!
 # A337851: a(n) = (2^n + 2)^n.
 
-The programs for A337851, the canonical program `A337851.P14870185965211432453` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337851 has offset 0).
+The programs for A337851, the canonical program `A337851.P14870185965211432453` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337851 has offset 0).
 
 The definition of A337851 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^n+2)^n` (program `A337851.P14870185965211432453`, by `A337851.P14870185965211432453.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4122,7 +4123,7 @@ The definition of A337851 is `verified`: the Lean definition is proven equivalen
 
 `(2^n+2)^n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337851
@@ -4237,7 +4238,7 @@ end A337851
 /-!
 # A337852: a(n) = (2^(n+1) + 1)^n.
 
-The programs for A337852, the canonical program `A337852.P6487606752135307910` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337852 has offset 0).
+The programs for A337852, the canonical program `A337852.P6487606752135307910` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337852 has offset 0).
 
 The definition of A337852 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^(n+1)+1)^n` (program `A337852.P6487606752135307910`, by `A337852.P6487606752135307910.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4246,7 +4247,7 @@ The definition of A337852 is `verified`: the Lean definition is proven equivalen
 
 `(2^(n+1)+1)^n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337852
@@ -4364,7 +4365,7 @@ end A337852
 /-!
 # A337855: Number of n-digit positive integers that are the product of two integers ending with 5.
 
-The programs for A337855, the canonical program `A337855.P16586605640458410875` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337855 has offset 1).
+The programs for A337855, the canonical program `A337855.P16586605640458410875` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337855 has offset 1).
 
 The definition of A337855 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4373,7 +4374,7 @@ The definition of A337855 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)` with `a(0)=0, a(1)=2, a(2)=18`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337855
@@ -4385,6 +4386,29 @@ def P16586605640458410875.Spec : Prop :=
 theorem P16586605640458410875.correct : P16586605640458410875.Spec := by
   intro n
   simp only [A337855, Nat.add_sub_cancel]
+
+end A337855
+
+/-! ## A337855.P6034327313234831446
+
+`ogf((-2x+2x^2)/(-1+10x))`
+-/
+
+namespace A337855.P6034327313234831446
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -2] [1, -10] n
+
+end
+
+end A337855.P6034327313234831446
+
+namespace A337855
+
+/-- `ogf((-2x+2x^2)/(-1+10x))` -/
+def P6034327313234831446.Spec : Prop :=
+  ∀ n, P6034327313234831446.a n = A337855 (n + 1)
 
 end A337855
 
@@ -6321,7 +6345,7 @@ end A337878.P3930798369237913553
 /-!
 # A337879: a(n) is the length of the n-th line segment to draw the squares of the Fibonacci spiral without lifting the pencil, including superpositions.
 
-The programs for A337879, the canonical program `A337879.P15350449861583832506` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337879 has offset 1).
+The programs for A337879, the canonical program `A337879.P15350449861583832506` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337879 has offset 1).
 
 The definition of A337879 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6330,7 +6354,7 @@ The definition of A337879 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)+a(n-6)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=1, a(5)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337879

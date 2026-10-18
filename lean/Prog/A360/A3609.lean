@@ -11,23 +11,25 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,7 +39,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,7 +53,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -845,7 +845,7 @@ end A360908
 /-!
 # A360909: Multiplicative with a(p^e) = 3*e + 2.
 
-The programs for A360909, the canonical program `A360909.P10978375197927546357` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360909 has offset 1).
+The programs for A360909, the canonical program `A360909.P10978375197927546357` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360909 has offset 1).
 
 The definition of A360909 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -854,7 +854,7 @@ The definition of A360909 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, 3*#+2]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360909
@@ -1123,7 +1123,7 @@ end A360909
 /-!
 # A360910: Multiplicative with a(p^e) = 3*e - 1.
 
-The programs for A360910, the canonical program `A360910.P16431694558917108348` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360910 has offset 1).
+The programs for A360910, the canonical program `A360910.P16431694558917108348` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360910 has offset 1).
 
 The definition of A360910 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1132,7 +1132,7 @@ The definition of A360910 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, 3*#-1]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360910
@@ -1384,7 +1384,7 @@ end A360910
 /-!
 # A360911: Multiplicative with a(p^e) = 3*e - 2.
 
-The programs for A360911, the canonical program `A360911.P16695268953959511557` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360911 has offset 1).
+The programs for A360911, the canonical program `A360911.P16695268953959511557` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360911 has offset 1).
 
 The definition of A360911 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1393,7 +1393,7 @@ The definition of A360911 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, 3*#-2]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360911
@@ -2318,7 +2318,7 @@ end A360921.P11402101027827282255
 /-!
 # A360924: Smallest number of moves needed to win Integer Lunar Lander with starting position (0,n).
 
-The programs for A360924, the canonical program `A360924.P3366351862879649461` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360924 has offset 0).
+The programs for A360924, the canonical program `A360924.P3366351862879649461` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360924 has offset 0).
 
 The definition of A360924 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2443,7 +2443,7 @@ end A360924
 
 `a(1-a(n-1)+n)+2` with `a(0)=0, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360924
@@ -2830,7 +2830,7 @@ end A360924
 /-!
 # A360925: Smallest number of moves needed to win Integer Lunar Lander from starting position (n,0).
 
-The programs for A360925, the canonical program `A360925.P4337466135380320817` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360925 has offset 0).
+The programs for A360925, the canonical program `A360925.P4337466135380320817` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360925 has offset 0).
 
 The definition of A360925 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 251 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2839,7 +2839,7 @@ The definition of A360925 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(2*sqrt(C(n, 2)))+n`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A360925
@@ -3293,27 +3293,50 @@ end A360926
 /-!
 # A360927: Expansion of the g.f. x*(1 + 3*x + 4*x^2 + 4*x^3)/((1 - x)^2*(1 + x)).
 
-The programs for A360927, the canonical program `A360927.P6422557333736015039` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360927 has offset 0).
+The programs for A360927, the canonical program `A360927.P3978124309396208725` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360927 has offset 0).
 
-The definition of A360927 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A360927 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x+3x^2+4x^3+4x^4)/(1-x-x^2+x^3))` (program `A360927.P3978124309396208725`, by `A360927.P3978124309396208725.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A360927.P3978124309396208725
+
+`ogf((x+3x^2+4x^3+4x^4)/(1-x-x^2+x^3))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A360927
+
+/-- `ogf((x+3x^2+4x^3+4x^4)/(1-x-x^2+x^3))` -/
+def P3978124309396208725.Spec : Prop :=
+  ∀ n, P3978124309396208725.a n = A360927 n
+
+theorem P3978124309396208725.correct : P3978124309396208725.Spec := by
+  intro n
+  simp only [A360927]
+
+end A360927
 
 /-! ## A360927.P6422557333736015039
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=0, a(1)=1, a(2)=4, a(3)=9, a(4)=16`
-
-The canonical program, it is in `Seq.B000.C034`.
 -/
+
+namespace A360927.P6422557333736015039
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 4, 9, 16] fun n a =>
+  a (n - 1) + a (n - 2) - a (n - 3)
+
+end
+
+end A360927.P6422557333736015039
 
 namespace A360927
 
 /-- `a(n-1)+a(n-2)-a(n-3)` -/
 def P6422557333736015039.Spec : Prop :=
   ∀ n, P6422557333736015039.a n = A360927 n
-
-theorem P6422557333736015039.correct : P6422557333736015039.Spec := by
-  intro n
-  simp only [A360927]
 
 end A360927
 

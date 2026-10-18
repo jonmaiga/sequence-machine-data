@@ -15,22 +15,23 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -175,6 +176,32 @@ namespace A033200
 /-- `p?[a(n-2)+8]` -/
 def P6698478023438319414.Spec : Prop :=
   ∀ n, (P6698478023438319414.a n : ℤ) = A033200 (n + 1)
+
+end A033200
+
+/-! ## A033200.P1221098384854510318
+
+`p?[ogf((x+2x^2+5x^3)/(1-x-x^3+x^4))]`
+-/
+
+namespace A033200.P1221098384854510318
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 2, 5] [1, -1, 0, -1, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A033200.P1221098384854510318
+
+namespace A033200
+
+/-- `p?[ogf((x+2x^2+5x^3)/(1-x-x^3+x^4))]` -/
+def P1221098384854510318.Spec : Prop :=
+  ∀ n, P1221098384854510318.a n = A033200 (n + 1)
 
 end A033200
 
@@ -605,7 +632,7 @@ end A033200
 /-!
 # A033201: Primes of the form x^2 + 10*y^2.
 
-The programs for A033201, the canonical program `A033201.P17519900448362923426` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033201 has offset 1).
+The programs for A033201, the canonical program `A033201.P17519900448362923426` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033201 has offset 1).
 
 The definition of A033201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -614,7 +641,7 @@ The definition of A033201 is `conjectured`: the Lean definition is a formula tha
 
 `p?[or(5, 5*n)-60]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033201
@@ -1632,7 +1659,7 @@ end A033202.P17010340650717709478
 /-!
 # A033203: Primes p congruent to {1, 2, 3} (mod 8); or primes p of form x^2 + 2*y^2; or primes p such that x^2 = -2 has a solution mod p.
 
-The programs for A033203, the canonical program `A033203.P9190961186185627516` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033203 has offset 1).
+The programs for A033203, the canonical program `A033203.P9190961186185627516` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033203 has offset 1).
 
 The definition of A033203 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1668,7 @@ The definition of A033203 is `conjectured`: the Lean definition is a formula tha
 
 `p?[a(n-3)+8]` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033203
@@ -1653,6 +1680,32 @@ def P9190961186185627516.Spec : Prop :=
 theorem P9190961186185627516.correct : P9190961186185627516.Spec := by
   intro n
   simp only [A033203, Nat.add_sub_cancel]
+
+end A033203
+
+/-! ## A033203.P49259463987102903
+
+`p?[ogf((1+x+x^2+5x^3)/(1-x-x^3+x^4))]`
+-/
+
+namespace A033203.P49259463987102903
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 1, 5] [1, -1, 0, -1, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A033203.P49259463987102903
+
+namespace A033203
+
+/-- `p?[ogf((1+x+x^2+5x^3)/(1-x-x^3+x^4))]` -/
+def P49259463987102903.Spec : Prop :=
+  ∀ n, P49259463987102903.a n = A033203 (n + 1)
 
 end A033203
 
@@ -2142,7 +2195,7 @@ end A033203
 /-!
 # A033205: Primes of form x^2 + 5*y^2.
 
-The programs for A033205, the canonical program `A033205.P5950798907388333844` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033205 has offset 1).
+The programs for A033205, the canonical program `A033205.P5950798907388333844` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033205 has offset 1).
 
 The definition of A033205 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2151,7 +2204,7 @@ The definition of A033205 is `conjectured`: the Lean definition is a formula tha
 
 `p?[10*n-a(n-2)]` with `a(0)=5, a(1)=9`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033205
@@ -2767,7 +2820,7 @@ end A033206.P1916076926239324089
 /-!
 # A033207: Primes of the form x^2 + 7*y^2.
 
-The programs for A033207, the canonical program `A033207.P10182917039636896758` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033207 has offset 1).
+The programs for A033207, the canonical program `A033207.P10182917039636896758` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033207 has offset 1).
 
 The definition of A033207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2776,7 +2829,7 @@ The definition of A033207 is `conjectured`: the Lean definition is a formula tha
 
 `p?[a(n-1)+a(n-1)%7]` with `a(0)=1, a(1)=7, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033207
@@ -4669,7 +4722,7 @@ end A033211.P5449660263236354703
 /-!
 # A033212: Primes congruent to 1 or 19 (mod 30).
 
-The programs for A033212, the canonical program `A033212.P16958498900936851691` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033212 has offset 1).
+The programs for A033212, the canonical program `A033212.P16958498900936851691` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033212 has offset 1).
 
 The definition of A033212 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4678,7 +4731,7 @@ The definition of A033212 is `conjectured`: the Lean definition is a formula tha
 
 `p?[a(n-2)+15]` with `a(0)=1, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033212
@@ -4690,6 +4743,32 @@ def P16958498900936851691.Spec : Prop :=
 theorem P16958498900936851691.correct : P16958498900936851691.Spec := by
   intro n
   simp only [A033212, Nat.add_sub_cancel]
+
+end A033212
+
+/-! ## A033212.P3927648943625540133
+
+`p?[ogf((x+3x^2+2x^3+9x^4)/(1-x-x^3+x^4))]`
+-/
+
+namespace A033212.P3927648943625540133
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 3, 2, 9] [1, -1, 0, -1, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A033212.P3927648943625540133
+
+namespace A033212
+
+/-- `p?[ogf((x+3x^2+2x^3+9x^4)/(1-x-x^3+x^4))]` -/
+def P3927648943625540133.Spec : Prop :=
+  ∀ n, P3927648943625540133.a n = A033212 (n + 1)
 
 end A033212
 
@@ -6760,7 +6839,7 @@ end A033219.P12041697585860199131
 /-!
 # A033220: Primes of form x^2+30*y^2.
 
-The programs for A033220, the canonical program `A033220.P3937927307044317153` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033220 has offset 1).
+The programs for A033220, the canonical program `A033220.P3937927307044317153` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033220 has offset 1).
 
 The definition of A033220 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9735 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6799,7 +6878,7 @@ end A033220
 
 `p?[and(5, n+1)+15*n]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033220
@@ -13908,7 +13987,7 @@ end A033268.P7578579679322449174
 /-!
 # A033270: Number of odd primes <= n.
 
-The programs for A033270, the canonical program `A033270.P17547381595511500328` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033270 has offset 1).
+The programs for A033270, the canonical program `A033270.P17547381595511500328` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033270 has offset 1).
 
 The definition of A033270 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13983,7 +14062,7 @@ end A033270
 
 `∑[∑{p}[n+1, (#%n)%#]]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033270
@@ -14480,7 +14559,7 @@ end A033270
 /-!
 # A033271: Number of odd nonprimes <= n.
 
-The programs for A033271, the canonical program `A033271.P12654991856704208328` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033271 has offset 1).
+The programs for A033271, the canonical program `A033271.P12654991856704208328` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033271 has offset 1).
 
 The definition of A033271 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14489,7 +14568,7 @@ The definition of A033271 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∏{p}[n+1, (#%(n+1))%2]]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033271
@@ -16414,7 +16493,7 @@ end A033274.P14147595224820791930
 /-!
 # A033275: Number of diagonal dissections of an n-gon into 3 regions.
 
-The programs for A033275, the canonical program `A033275.P7566039285234230669` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033275 has offset 4).
+The programs for A033275, the canonical program `A033275.P7566039285234230669` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033275 has offset 4).
 
 The definition of A033275 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16423,7 +16502,7 @@ The definition of A033275 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[n*(n+3)]+n]`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A033275

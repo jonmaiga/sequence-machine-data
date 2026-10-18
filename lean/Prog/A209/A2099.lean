@@ -17,17 +17,20 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,8 +43,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -92,7 +93,7 @@ import Seq.Opaque.C025
 /-!
 # A209900: Floor of the expected number of occupied cells in a random placement of 2n balls into n cells.
 
-The programs for A209900, the canonical program `A209900.P7183521504004063701` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209900 has offset 1).
+The programs for A209900, the canonical program `A209900.P7183521504004063701` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209900 has offset 1).
 
 The definition of A209900 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -101,7 +102,7 @@ The definition of A209900 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*(1-(1-1/(n+1))^(2*(n+1))))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209900
@@ -2647,7 +2648,7 @@ end A209928.P2149323590335073983
 /-!
 # A209929: Smallest digit of all divisors of n.
 
-The programs for A209929, the canonical program `A209929.P9729360077625781388` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209929 has offset 1).
+The programs for A209929, the canonical program `A209929.P9729360077625781388` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209929 has offset 1).
 
 The definition of A209929 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2682,7 +2683,7 @@ end A209929
 
 `round(sqrt(atan(A190997(n+1))))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A209929
@@ -4502,7 +4503,7 @@ end A209943.P18209251342324907479
 /-!
 # A209944: a(n) is half the number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having at most one duplicate clockwise edge difference.
 
-The programs for A209944, the canonical program `A209944.P3639716379324919871` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209944 has offset 1).
+The programs for A209944, the canonical program `A209944.P3639716379324919871` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209944 has offset 1).
 
 The definition of A209944 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4511,7 +4512,7 @@ The definition of A209944 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)+12*a(n-2)` with `a(0)=34, a(1)=258`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209944
@@ -6442,6 +6443,55 @@ namespace A209971
 /-- `4*a(n-1)-4*a(n-2)+a(n-4)` -/
 def P18418241424219024253.Spec : Prop :=
   ∀ n, P18418241424219024253.a n = A209971 n
+
+end A209971
+
+/-! ## A209971.P12909580425042781852
+
+`∑[ogf((2x-4x^2)/(1-3x+x^2+x^3))]`
+-/
+
+namespace A209971.P12909580425042781852
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -4] [1, -3, 1, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A209971.P12909580425042781852
+
+namespace A209971
+
+/-- `∑[ogf((2x-4x^2)/(1-3x+x^2+x^3))]` -/
+def P12909580425042781852.Spec : Prop :=
+  ∀ n, P12909580425042781852.a n = A209971 n
+
+end A209971
+
+/-! ## A209971.P1449819236293067754
+
+`ogf((2x-4x^2)/(1-4x+4x^2-x^4))`
+-/
+
+namespace A209971.P1449819236293067754
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -4] [1, -4, 4, 0, -1] n
+
+end
+
+end A209971.P1449819236293067754
+
+namespace A209971
+
+/-- `ogf((2x-4x^2)/(1-4x+4x^2-x^4))` -/
+def P1449819236293067754.Spec : Prop :=
+  ∀ n, P1449819236293067754.a n = A209971 n
 
 end A209971
 

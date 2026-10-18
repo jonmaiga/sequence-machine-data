@@ -12,33 +12,34 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -46,7 +47,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -1530,7 +1530,7 @@ end A325313
 /-!
 # A325314: a(n) = n - A162296(n), where A162296(n) is the sum of divisors of n that have a square factor.
 
-The programs for A325314, the canonical program `A325314.P1683321656325189174` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325314 has offset 1).
+The programs for A325314, the canonical program `A325314.P1683321656325189174` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325314 has offset 1).
 
 The definition of A325314 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A162296, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1539,7 +1539,7 @@ The definition of A325314 is `conditional`: the Lean definition is an OEIS formu
 
 `n+1-A162296(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A325314
@@ -2120,7 +2120,7 @@ end A325315.P1611034206781780086
 /-!
 # A325316: a(n) = A048250(n) OR A162296(n), where OR is the bitwise-OR, A003986.
 
-The programs for A325316, the canonical program `A325316.P12631045043239332165` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325316 has offset 1).
+The programs for A325316, the canonical program `A325316.P12631045043239332165` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325316 has offset 1).
 
 The definition of A325316 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2175,7 +2175,7 @@ end A325316
 
 `or(∑{d}[n+1, #]-∏{p}[n+1, #+1], ∏{p}[n+1, #+1])`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A325316
@@ -2707,7 +2707,7 @@ end A325317
 /-!
 # A325318: a(n) = A048250(n) AND A162296(n), where AND is the bitwise-AND, A004198.
 
-The programs for A325318, the canonical program `A325318.P11183084377846561957` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325318 has offset 1).
+The programs for A325318, the canonical program `A325318.P11183084377846561957` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325318 has offset 1).
 
 The definition of A325318 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A325316, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2716,7 +2716,7 @@ The definition of A325318 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(n+1)-A325316(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A325318

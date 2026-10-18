@@ -3,13 +3,13 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -18,12 +18,13 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -31,7 +32,9 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1546,6 +1549,29 @@ namespace A035104
 /-- `∑[∑[1-a(n-1)]]` -/
 def P10087368047370941358.Spec : Prop :=
   ∀ n, P10087368047370941358.a n = A035104 n
+
+end A035104
+
+/-! ## A035104.P10232274799577628694
+
+`ogf((1+2x+x^2-3x^3)/(1-2x+2x^3-x^4))`
+-/
+
+namespace A035104.P10232274799577628694
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 1, -3] [1, -2, 0, 2, -1] n
+
+end
+
+end A035104.P10232274799577628694
+
+namespace A035104
+
+/-- `ogf((1+2x+x^2-3x^3)/(1-2x+2x^3-x^4))` -/
+def P10232274799577628694.Spec : Prop :=
+  ∀ n, P10232274799577628694.a n = A035104 n
 
 end A035104
 
@@ -12633,7 +12659,9 @@ end A035179
 /-!
 # A035180: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -10.
 
-The programs for A035180, there is no canonical definition to state claims against.
+The programs for A035180, the canonical program `A035180.P4525785097877172751` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035180 has offset 1).
+
+The definition of A035180 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A035180.P13745657932234306465
@@ -12651,23 +12679,32 @@ end
 
 end A035180.P13745657932234306465
 
+namespace A035180
+
+/-- `abs(A163819(n+1))` -/
+def P13745657932234306465.Spec : Prop :=
+  ∀ n, P13745657932234306465.a n = A035180 (n + 1)
+
+end A035180
+
 /-! ## A035180.P4525785097877172751
 
 `∑{d}[n+1, A388072(#)]`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
-namespace A035180.P4525785097877172751
-noncomputable section
+namespace A035180
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+/-- `∑{d}[n+1, A388072(#)]` -/
+def P4525785097877172751.Spec : Prop :=
+  ∀ n, P4525785097877172751.a n = A035180 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n), A388072 d
+theorem P4525785097877172751.correct : P4525785097877172751.Spec := by
+  intro n
+  simp only [A035180, Nat.add_sub_cancel]
 
-end
-
-end A035180.P4525785097877172751
+end A035180
 
 /-! ## A035180.P7520609786497425267
 
@@ -12684,6 +12721,14 @@ end
 
 end A035180.P7520609786497425267
 
+namespace A035180
+
+/-- `gcd(A000038(n), A163819(n+1))` -/
+def P7520609786497425267.Spec : Prop :=
+  ∀ n, (P7520609786497425267.a n : ℤ) = A035180 (n + 1)
+
+end A035180
+
 /-! ## A035180.P10062920823615789377
 
 `lcm(A014709(n), A163819(n+1))`
@@ -12698,6 +12743,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A035180.P10062920823615789377
+
+namespace A035180
+
+/-- `lcm(A014709(n), A163819(n+1))` -/
+def P10062920823615789377.Spec : Prop :=
+  ∀ n, (P10062920823615789377.a n : ℤ) = A035180 (n + 1)
+
+end A035180
 
 /-! ## A035180.P8900572379546716239
 
@@ -12714,6 +12767,14 @@ end
 
 end A035180.P8900572379546716239
 
+namespace A035180
+
+/-- `gcd(A034947(n+1)*A163819(n+1), A163819(n+1)²)` -/
+def P8900572379546716239.Spec : Prop :=
+  ∀ n, (P8900572379546716239.a n : ℤ) = A035180 (n + 1)
+
+end A035180
+
 /-! ## A035180.P6895539409853803794
 
 `dr(A163819(2*(n+1)))`
@@ -12728,6 +12789,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A035180.P6895539409853803794
+
+namespace A035180
+
+/-- `dr(A163819(2*(n+1)))` -/
+def P6895539409853803794.Spec : Prop :=
+  ∀ n, (P6895539409853803794.a n : ℤ) = A035180 (n + 1)
+
+end A035180
 
 /-! ## A035180.P8130053812024384546
 
@@ -12744,6 +12813,14 @@ end
 
 end A035180.P8130053812024384546
 
+namespace A035180
+
+/-- `gcd(A061006(2*(n+1)), A163819(2*(n+1)))` -/
+def P8130053812024384546.Spec : Prop :=
+  ∀ n, (P8130053812024384546.a n : ℤ) = A035180 (n + 1)
+
+end A035180
+
 /-! ## A035180.P6888752448902317732
 
 `A142150(A317641(2*(n+1))+A317641(n+1))`
@@ -12759,6 +12836,14 @@ end
 
 end A035180.P6888752448902317732
 
+namespace A035180
+
+/-- `A142150(A317641(2*(n+1))+A317641(n+1))` -/
+def P6888752448902317732.Spec : Prop :=
+  ∀ n, P6888752448902317732.a n = A035180 (n + 1)
+
+end A035180
+
 /-! ## A035180.P6336191262283230848
 
 `abs((A317641(n+1)-A317641(A188167(n+1)))/2)`
@@ -12773,6 +12858,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A035180.P6336191262283230848
+
+namespace A035180
+
+/-- `abs((A317641(n+1)-A317641(A188167(n+1)))/2)` -/
+def P6336191262283230848.Spec : Prop :=
+  ∀ n, P6336191262283230848.a n = (A035180 (n + 1) : ℚ)
+
+end A035180
 
 /-!
 # A035181: a(n) = Sum_{d|n} Kronecker(-9, d).

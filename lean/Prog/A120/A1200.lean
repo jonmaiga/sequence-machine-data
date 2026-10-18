@@ -8,26 +8,23 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,13 +32,13 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -5438,7 +5435,7 @@ end A120066.P9660475783532649816
 /-!
 # A120068: Numbers n such that n-th prime + 1 is squarefree.
 
-The programs for A120068, the canonical program `A120068.P10133728377091870438` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120068 has offset 1).
+The programs for A120068, the canonical program `A120068.P10133728377091870438` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120068 has offset 1).
 
 The definition of A120068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3724 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5534,7 +5531,7 @@ end A120068
 
 `eq[1, A054024(3*∏{e}[A000040(n+1)+1, #])]+1`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A120068
@@ -9285,7 +9282,7 @@ end A120095.P142127212671386647
 /-!
 # A120096: a(n) = (A046717(n))^2 (starting with n=1).
 
-The programs for A120096, the canonical program `A120096.P14687869589434560623` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120096 has offset 1).
+The programs for A120096, the canonical program `A120096.P14687869589434560623` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120096 has offset 1).
 
 The definition of A120096 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A046717(n+1)²` (program `A120096.P14687869589434560623`, by `A120096.P14687869589434560623.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9340,7 +9337,7 @@ end A120096
 
 `A046717(n+1)²`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A120096

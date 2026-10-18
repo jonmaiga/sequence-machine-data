@@ -3,28 +3,31 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C005
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -87,7 +90,7 @@ set_option linter.unreachableTactic false
 /-!
 # A289500: Number of primes in the interval [9n, 10n].
 
-The programs for A289500, the canonical program `A289500.P6623169090579863016` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289500 has offset 1).
+The programs for A289500, the canonical program `A289500.P6623169090579863016` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289500 has offset 1).
 
 The definition of A289500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -119,7 +122,7 @@ end A289500
 
 `A038801(n+1)-A100637(A016789(n))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A289500
@@ -1038,7 +1041,7 @@ end A289518.P4662685185574074550
 /-!
 # A289521: Number of vertices in a planar Apollonian graph at iteration n.
 
-The programs for A289521, the canonical program `A289521.P9254726694826321527` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289521 has offset 1).
+The programs for A289521, the canonical program `A289521.P9254726694826321527` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289521 has offset 1).
 
 The definition of A289521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1047,7 +1050,7 @@ The definition of A289521 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+3^n` with `a(0)=4`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A289521
@@ -1122,6 +1125,29 @@ namespace A289521
 /-- `4*a(n-1)-3*a(n-2)` -/
 def P14021211228119853162.Spec : Prop :=
   ∀ n, P14021211228119853162.a n = A289521 (n + 1)
+
+end A289521
+
+/-! ## A289521.P4477943902366520125
+
+`ogf((4-9x)/(1-4x+3x^2))`
+-/
+
+namespace A289521.P4477943902366520125
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -9] [1, -4, 3] n
+
+end
+
+end A289521.P4477943902366520125
+
+namespace A289521
+
+/-- `ogf((4-9x)/(1-4x+3x^2))` -/
+def P4477943902366520125.Spec : Prop :=
+  ∀ n, P4477943902366520125.a n = A289521 (n + 1)
 
 end A289521
 
@@ -3561,7 +3587,7 @@ end A289554
 /-!
 # A289555: Numbers that are not the product of two distinct composite numbers (A002808).
 
-The programs for A289555, the canonical program `A289555.P9214579124908911506` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289555 has offset 1).
+The programs for A289555, the canonical program `A289555.P9214579124908911506` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289555 has offset 1).
 
 The definition of A289555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6428 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3686,7 +3712,7 @@ end A289555
 
 `lt[A122179(n+1), 2]+1`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A289555
@@ -5387,16 +5413,39 @@ end A289585
 /-!
 # A289586: Numbers k whose smallest multiple that is a Fibonacci number is Fibonacci(k).
 
-The programs for A289586, the canonical program `A289586.P18278495137004132385` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289586 has offset 1).
+The programs for A289586, the canonical program `A289586.P18278495137004132385` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289586 has offset 1).
 
 The definition of A289586 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A289586.P12205230912019150907
+
+`ogf((1+5x+7x^2)/(1-5x^2))`
+-/
+
+namespace A289586.P12205230912019150907
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 5, 7] [1, 0, -5] n
+
+end
+
+end A289586.P12205230912019150907
+
+namespace A289586
+
+/-- `ogf((1+5x+7x^2)/(1-5x^2))` -/
+def P12205230912019150907.Spec : Prop :=
+  ∀ n, P12205230912019150907.a n = A289586 (n + 1)
+
+end A289586
 
 /-! ## A289586.P18278495137004132385
 
 `5*a(n-2)` with `a(0)=1, a(1)=5, a(2)=12`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A289586

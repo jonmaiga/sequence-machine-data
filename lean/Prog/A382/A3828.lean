@@ -7,26 +7,26 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
+import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +36,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -291,7 +290,7 @@ end A382806.P3998634401217413789
 /-!
 # A382809: a(n) = (6*n + 1)*(12*n + 1)*(18*n + 1).
 
-The programs for A382809, the canonical program `A382809.P2780309391022202313` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382809 has offset 0).
+The programs for A382809, the canonical program `A382809.P2780309391022202313` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382809 has offset 0).
 
 The definition of A382809 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(6*n+1)*(12*n+1)*(18*n+1)` (program `A382809.P2780309391022202313`, by `A382809.P2780309391022202313.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -300,7 +299,7 @@ The definition of A382809 is `verified`: the Lean definition is proven equivalen
 
 `(6*n+1)*(12*n+1)*(18*n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382809
@@ -725,7 +724,7 @@ end A382817.P6803156048593518954
 /-!
 # A382819: Number of Grassmannian permutations on [n] of order dividing 3.
 
-The programs for A382819, the canonical program `A382819.P15750206394619055152` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382819 has offset 0).
+The programs for A382819, the canonical program `A382819.P15750206394619055152` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382819 has offset 0).
 
 The definition of A382819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -767,7 +766,7 @@ end A382819
 
 `A144677(n)-n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382819
@@ -1219,7 +1218,7 @@ end A382842.P8893892269295311197
 /-!
 # A382843: Length of the long leg in the unique primitive Pythagorean triple (x,y,z) such that (x-y+z)/2 = A000045(n) and its long leg and hypotenuse are consecutive natural numbers.
 
-The programs for A382843, the canonical program `A382843.P16467974130948964599` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382843 has offset 0).
+The programs for A382843, the canonical program `A382843.P16467974130948964599` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382843 has offset 0).
 
 The definition of A382843 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1228,7 +1227,7 @@ The definition of A382843 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A000045(n)*(A000045(n)-1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382843
@@ -1499,7 +1498,7 @@ end A382843
 /-!
 # A382844: Area of the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 = A000045(n) and its long leg and hypotenuse are consecutive natural numbers.
 
-The programs for A382844, the canonical program `A382844.P3099565265804280121` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382844 has offset 0).
+The programs for A382844, the canonical program `A382844.P3099565265804280121` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382844 has offset 0).
 
 The definition of A382844 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 161 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1508,7 +1507,7 @@ The definition of A382844 is `conjectured`: the Lean definition is a formula tha
 
 `(A000045(n)-1)*A095122(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382844
@@ -1622,6 +1621,29 @@ The programs for A382845, the canonical program `A382845.P12683852924989043468` 
 
 The definition of A382845 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 241 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A382845.P10642380438890908674
+
+`ogf((-1+4x-2x^2+x^3)/(1-3x+3x^3-x^4))`
+-/
+
+namespace A382845.P10642380438890908674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [-1, 4, -2, 1] [1, -3, 0, 3, -1] n
+
+end
+
+end A382845.P10642380438890908674
+
+namespace A382845
+
+/-- `ogf((-1+4x-2x^2+x^3)/(1-3x+3x^3-x^4))` -/
+def P10642380438890908674.Spec : Prop :=
+  ∀ n, P10642380438890908674.a n = A382845 n
+
+end A382845
 
 /-! ## A382845.P12683852924989043468
 
@@ -2798,7 +2820,7 @@ end A382864.P10003003059937176411
 /-!
 # A382865: Bitwise XOR of all integers between n and 2n (endpoints included).
 
-The programs for A382865, the canonical program `A382865.P12036789506198600243` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382865 has offset 0).
+The programs for A382865, the canonical program `A382865.P12036789506198600243` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382865 has offset 0).
 
 The definition of A382865 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2807,7 +2829,7 @@ The definition of A382865 is `conjectured`: the Lean definition is a formula tha
 
 `xor(A047541(n+1), A093178(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382865

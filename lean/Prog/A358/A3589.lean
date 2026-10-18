@@ -10,32 +10,34 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C017
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -708,7 +710,7 @@ end A358916.P18432691928575290864
 /-!
 # A358917: a(n) = Fibonacci(n+1)^4 - Fibonacci(n-1)^4.
 
-The programs for A358917, the canonical program `A358917.P12183193250221227758` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358917 has offset 0).
+The programs for A358917, the canonical program `A358917.P12183193250221227758` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358917 has offset 0).
 
 The definition of A358917 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -717,7 +719,7 @@ The definition of A358917 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+19*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=15, a(3)=80`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A358917
@@ -2750,7 +2752,7 @@ end A358984.P6492688928346802551
 /-!
 # A358985: a(n) is the number of numbers of the form k + reverse(k) for at least one n-digit number k.
 
-The programs for A358985, the canonical program `A358985.P1024131715830197092` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358985 has offset 1).
+The programs for A358985, the canonical program `A358985.P1024131715830197092` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358985 has offset 1).
 
 The definition of A358985 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2759,7 +2761,7 @@ The definition of A358985 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-2)` with `a(0)=10, a(1)=18, a(2)=180`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A358985
@@ -3432,7 +3434,7 @@ end A358993.P8006347593094263019
 /-!
 # A358994: The sum of the numbers that are inside the contour of an n-story Christmas tree drawn at the top of the numerical pyramid containing the positive integers in natural order.
 
-The programs for A358994, the canonical program `A358994.P14166584572061671563` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358994 has offset 1).
+The programs for A358994, the canonical program `A358994.P14166584572061671563` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358994 has offset 1).
 
 The definition of A358994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3441,7 +3443,7 @@ The definition of A358994 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*((n+1)*(3*(n+1)*(9*(n+1)+22)+49)+26)/8`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A358994

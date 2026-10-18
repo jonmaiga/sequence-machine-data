@@ -8,26 +8,27 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
@@ -38,7 +39,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -828,16 +828,39 @@ end A119015.P86056704897321668
 /-!
 # A119016: Numerators of "Farey fraction" approximations to sqrt(2).
 
-The programs for A119016, the canonical program `A119016.P13460822893404206293` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
+The programs for A119016, the canonical program `A119016.P13460822893404206293` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
 
 The definition of A119016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 525 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A119016.P1320719277521536636
+
+`ogf((1-x^2+2x^3)/(1-2x^2-x^4))`
+-/
+
+namespace A119016.P1320719277521536636
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -1, 2] [1, 0, -2, 0, -1] n
+
+end
+
+end A119016.P1320719277521536636
+
+namespace A119016
+
+/-- `ogf((1-x^2+2x^3)/(1-2x^2-x^4))` -/
+def P1320719277521536636.Spec : Prop :=
+  ∀ n, P1320719277521536636.a n = A119016 n
+
+end A119016
 
 /-! ## A119016.P13460822893404206293
 
 `a(n-4)+2*a(n-2)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A119016
@@ -2281,6 +2304,24 @@ end A119031.P16765424466258726806
 
 The programs for A119032, there is no canonical definition to state claims against.
 -/
+
+/-! ## A119032.P15809395174634971338
+
+`∑[ogf((1-9x)/(1-18x+x^2))]-1`
+-/
+
+namespace A119032.P15809395174634971338
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -9] [1, -18, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - 1
+
+end
+
+end A119032.P15809395174634971338
 
 /-! ## A119032.P6801861983739660494
 

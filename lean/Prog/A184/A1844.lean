@@ -10,9 +10,8 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -34,6 +33,7 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,13 +44,11 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2285,7 +2283,7 @@ end A184417
 /-!
 # A184418: Convolution square of A040001.
 
-The programs for A184418, the canonical program `A184418.P11752725616120910994` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184418 has offset 0).
+The programs for A184418, the canonical program `A184418.P11752725616120910994` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184418 has offset 0).
 
 The definition of A184418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2317,7 +2315,7 @@ end A184418
 
 `gcd(2, n)+a(n-2)+3` with `a(0)=1, a(1)=2, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A184418
@@ -4113,7 +4111,7 @@ end A184426.P17574532240824689557
 /-!
 # A184427: Lower s-Wythoff sequence of A000290 (the squares). Complement of A184428.
 
-The programs for A184427, the canonical program `A184427.P18072499117235604643` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184427 has offset 1).
+The programs for A184427, the canonical program `A184427.P18072499117235604643` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184427 has offset 1).
 
 The definition of A184427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4122,7 +4120,7 @@ The definition of A184427 is `conjectured`: the Lean definition is a formula tha
 
 `comp[round(n*(n-atan(1)))]`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A184427
@@ -10747,7 +10745,7 @@ end A184485.P2117430269564519078
 /-!
 # A184486: Lower s-Wythoff sequence, where s(n)=4n+1. Complement of A184487.
 
-The programs for A184486, the canonical program `A184486.P235648414909405234` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184486 has offset 1).
+The programs for A184486, the canonical program `A184486.P235648414909405234` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184486 has offset 1).
 
 The definition of A184486 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10783,7 +10781,7 @@ end A184486
 
 `comp[A007064(2*n+1)-1]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A184486

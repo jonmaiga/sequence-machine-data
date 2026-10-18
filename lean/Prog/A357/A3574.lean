@@ -17,19 +17,19 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C018
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -80,6 +80,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -4452,7 +4453,7 @@ end A357476
 /-!
 # A357479: a(n) = (n!/6) * Sum_{k=0..n-3} 1/k!.
 
-The programs for A357479, the canonical program `A357479.P12570726233584423552` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357479 has offset 0).
+The programs for A357479, the canonical program `A357479.P12570726233584423552` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357479 has offset 0).
 
 The definition of A357479 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4461,7 +4462,7 @@ The definition of A357479 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+C(n, 3)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357479
@@ -4589,7 +4590,7 @@ end A357479
 /-!
 # A357480: a(n) = (n!/24) * Sum_{k=0..n-4} 1/k!.
 
-The programs for A357480, the canonical program `A357480.P6128717014901503624` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357480 has offset 0).
+The programs for A357480, the canonical program `A357480.P6128717014901503624` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357480 has offset 0).
 
 The definition of A357480 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4598,7 +4599,7 @@ The definition of A357480 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+C(n, 4)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357480

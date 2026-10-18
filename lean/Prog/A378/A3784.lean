@@ -6,30 +6,31 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -668,7 +669,7 @@ end A378416.P496585261534696278
 /-!
 # A378422: Primes of the form floor(k*log(k)).
 
-The programs for A378422, the canonical program `A378422.P16183056484297808619` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378422 has offset 1).
+The programs for A378422, the canonical program `A378422.P16183056484297808619` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378422 has offset 1).
 
 The definition of A378422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7044 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -677,7 +678,7 @@ The definition of A378422 is `conjectured`: the Lean definition is a formula tha
 
 `p?[floor((n+1)*log(n+1))]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A378422
@@ -5162,7 +5163,7 @@ end A378471.P12665726189731768954
 /-!
 # A378475: The number of n-colorings of the vertices of the snub cube up to rotation.
 
-The programs for A378475, the canonical program `A378475.P41768347042816994` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378475 has offset 0).
+The programs for A378475, the canonical program `A378475.P41768347042816994` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378475 has offset 0).
 
 The definition of A378475 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5171,7 +5172,7 @@ The definition of A378475 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n^6*(n^18+9*n^6+8*n²+6)/24`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A378475
@@ -6582,7 +6583,7 @@ end A378496.P14740198823595977785
 /-!
 # A378497: a(n) is the number whose base-4 digits are 1 followed by the first n-1 terms of the periodic sequence with initial period 2,0,3.
 
-The programs for A378497, the canonical program `A378497.P5905425179696047770` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378497 has offset 1).
+The programs for A378497, the canonical program `A378497.P5905425179696047770` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378497 has offset 1).
 
 The definition of A378497 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6591,7 +6592,7 @@ The definition of A378497 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(7/18*4^(n+1))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A378497
@@ -6603,6 +6604,29 @@ def P5905425179696047770.Spec : Prop :=
 theorem P5905425179696047770.correct : P5905425179696047770.Spec := by
   intro n
   simp only [A378497, Nat.add_sub_cancel]
+
+end A378497
+
+/-! ## A378497.P3129220245602319730
+
+`ogf((1+2x+2x^3)/(1-4x-x^3+4x^4))`
+-/
+
+namespace A378497.P3129220245602319730
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 0, 2] [1, -4, 0, -1, 4] n
+
+end
+
+end A378497.P3129220245602319730
+
+namespace A378497
+
+/-- `ogf((1+2x+2x^3)/(1-4x-x^3+4x^4))` -/
+def P3129220245602319730.Spec : Prop :=
+  ∀ n, P3129220245602319730.a n = A378497 (n + 1)
 
 end A378497
 
@@ -7043,7 +7067,7 @@ end A378498.P8749052455546499948
 /-!
 # A378499: a(n) is the number whose base-4 digits are 1 followed by the first n-1 terms of the periodic sequence with initial period 0,3,2.
 
-The programs for A378499, the canonical program `A378499.P16723912667862187755` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378499 has offset 1).
+The programs for A378499, the canonical program `A378499.P16723912667862187755` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378499 has offset 1).
 
 The definition of A378499 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7052,7 +7076,7 @@ The definition of A378499 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=4, a(2)=19, a(3)=78`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A378499
@@ -7064,6 +7088,29 @@ def P16723912667862187755.Spec : Prop :=
 theorem P16723912667862187755.correct : P16723912667862187755.Spec := by
   intro n
   simp only [A378499, Nat.add_sub_cancel]
+
+end A378499
+
+/-! ## A378499.P7275771554616763004
+
+`ogf((1+3x^2+x^3)/(1-4x-x^3+4x^4))`
+-/
+
+namespace A378499.P7275771554616763004
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 3, 1] [1, -4, 0, -1, 4] n
+
+end
+
+end A378499.P7275771554616763004
+
+namespace A378499
+
+/-- `ogf((1+3x^2+x^3)/(1-4x-x^3+4x^4))` -/
+def P7275771554616763004.Spec : Prop :=
+  ∀ n, P7275771554616763004.a n = A378499 (n + 1)
 
 end A378499
 

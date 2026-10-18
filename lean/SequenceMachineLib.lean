@@ -1,2 +1,3 @@
 import SequenceMachineLib.Basic
+import SequenceMachineLib.Ogf
 import SequenceMachineLib.Real

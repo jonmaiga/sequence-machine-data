@@ -4,28 +4,28 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
-import Seq.B000.C010
+import Seq.B000.C006
+import Seq.B000.C008
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C019
+import Seq.B000.C021
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -6018,7 +6018,7 @@ end A136852.P14592980974746842310
 /-!
 # A136853: Numbers k such that k and k^2 use only the digits 0, 1, 3, and 9.
 
-The programs for A136853, the canonical program `A136853.P9307651076024166048` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136853 has offset 1).
+The programs for A136853, the canonical program `A136853.P9307651076024166048` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136853 has offset 1).
 
 The definition of A136853 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6027,7 +6027,7 @@ The definition of A136853 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-2)` with `a(0)=0, a(1)=1, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C019`.
 -/
 
 namespace A136853
@@ -6039,6 +6039,29 @@ def P9307651076024166048.Spec : Prop :=
 theorem P9307651076024166048.correct : P9307651076024166048.Spec := by
   intro n
   simp only [A136853, Nat.add_sub_cancel]
+
+end A136853
+
+/-! ## A136853.P14952790367315427193
+
+`ogf((x+3x^2)/(1-10x^2))`
+-/
+
+namespace A136853.P14952790367315427193
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 3] [1, 0, -10] n
+
+end
+
+end A136853.P14952790367315427193
+
+namespace A136853
+
+/-- `ogf((x+3x^2)/(1-10x^2))` -/
+def P14952790367315427193.Spec : Prop :=
+  ∀ n, P14952790367315427193.a n = A136853 (n + 1)
 
 end A136853
 
@@ -6374,7 +6397,7 @@ end A136858.P68981534148652650
 /-!
 # A136859: Numbers k such that k and k^2 use only the digits 0, 1, 4 and 6.
 
-The programs for A136859, the canonical program `A136859.P8638019729773281219` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136859 has offset 1).
+The programs for A136859, the canonical program `A136859.P8638019729773281219` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136859 has offset 1).
 
 The definition of A136859 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6383,7 +6406,7 @@ The definition of A136859 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-2)` with `a(0)=0, a(1)=1, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C019`.
 -/
 
 namespace A136859
@@ -6395,6 +6418,29 @@ def P8638019729773281219.Spec : Prop :=
 theorem P8638019729773281219.correct : P8638019729773281219.Spec := by
   intro n
   simp only [A136859, Nat.add_sub_cancel]
+
+end A136859
+
+/-! ## A136859.P298866994290786849
+
+`ogf((x+4x^2)/(1-10x^2))`
+-/
+
+namespace A136859.P298866994290786849
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 4] [1, 0, -10] n
+
+end
+
+end A136859.P298866994290786849
+
+namespace A136859
+
+/-- `ogf((x+4x^2)/(1-10x^2))` -/
+def P298866994290786849.Spec : Prop :=
+  ∀ n, P298866994290786849.a n = A136859 (n + 1)
 
 end A136859
 

@@ -7,28 +7,28 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C017
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
@@ -45,7 +45,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -2181,7 +2180,7 @@ end A340130
 /-!
 # A340134: a(n+1) = a(n-2*a(n)) + 1, starting with a(1) = a(2) = 0.
 
-The programs for A340134, the canonical program `A340134.P4954548322694541411` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340134 has offset 1).
+The programs for A340134, the canonical program `A340134.P4954548322694541411` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340134 has offset 1).
 
 The definition of A340134 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2190,7 +2189,7 @@ The definition of A340134 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n))+((-1)^(n+1+floor(sqrt(n+1)))-1)/2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340134
@@ -5286,7 +5285,7 @@ end A340161
 /-!
 # A340162: a(1) = 7; thereafter a(n) is the smallest number k with exactly three 1-bits, not already in the sequence, for which k*a(n - 1) has exactly three 1-bits (A014311).
 
-The programs for A340162, the canonical program `A340162.P6033627073434879638` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340162 has offset 1).
+The programs for A340162, the canonical program `A340162.P6033627073434879638` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340162 has offset 1).
 
 The definition of A340162 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5295,7 +5294,7 @@ The definition of A340162 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)+2*a(n-4)-4*a(n-6)` with `a(0)=7, a(1)=14, a(2)=19, a(3)=28, a(4)=37, a(5)=56, a(6)=38`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340162
@@ -5808,7 +5807,7 @@ end A340172
 /-!
 # A340173: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(4,n) (with n at least 3) missing two edges, where the two removed edges are not incident to the same vertex in the 4-point set but are incident to the same vertex in the other set.
 
-The programs for A340173, the canonical program `A340173.P10364993221521954539` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340173 has offset 3).
+The programs for A340173, the canonical program `A340173.P10364993221521954539` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340173 has offset 3).
 
 The definition of A340173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5817,7 +5816,7 @@ The definition of A340173 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*15^(n+2)-8*7^(n+2)+7*3^(n+2)-2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340173
@@ -5835,7 +5834,7 @@ end A340173
 /-!
 # A340174: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(5,n) (with n at least 3) missing two edges, where the two removed edges are not incident to the same vertex in the 5-point set but are incident to the same vertex in the other set.
 
-The programs for A340174, the canonical program `A340174.P1096778608167523810` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340174 has offset 3).
+The programs for A340174, the canonical program `A340174.P1096778608167523810` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340174 has offset 3).
 
 The definition of A340174 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5844,7 +5843,7 @@ The definition of A340174 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*31^(n+2)-23*15^(n+2)+4*7^(n+3)-5*3^(n+3)+3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340174
@@ -7463,7 +7462,7 @@ end A340198.P3112651863117831644
 /-!
 # A340199: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(3,n) (with n at least 3) missing two edges, where the two removed edges are not incident to the same vertex in the 3-point set and are also not incident to the same vertex in the other set.
 
-The programs for A340199, the canonical program `A340199.P1439775220284465717` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340199 has offset 3).
+The programs for A340199, the canonical program `A340199.P1439775220284465717` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340199 has offset 3).
 
 The definition of A340199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7472,7 +7471,7 @@ The definition of A340199 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*7^(n+1)-7*3^(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340199

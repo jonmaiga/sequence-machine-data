@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -19,15 +20,17 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -971,7 +974,7 @@ end A334908.P5314560407227552595
 /-!
 # A334909: Area/6 of primitive Pythagorean triangles given in A334638 as triples.
 
-The programs for A334909, the canonical program `A334909.P11791441391849801855` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334909 has offset 0).
+The programs for A334909, the canonical program `A334909.P11791441391849801855` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334909 has offset 0).
 
 The definition of A334909 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -980,7 +983,7 @@ The definition of A334909 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n-1)*(3*2^n-1)*(2^(n+1)-1)*(2^(n+2)-1)/3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A334909
@@ -9545,7 +9548,7 @@ end A334990.P5070157119857526582
 /-!
 # A334991: a(n) = 4^n + 3 * 18^n.
 
-The programs for A334991, the canonical program `A334991.P17018460124387327371` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334991 has offset 0).
+The programs for A334991, the canonical program `A334991.P17018460124387327371` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334991 has offset 0).
 
 The definition of A334991 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n+3*18^n` (program `A334991.P17018460124387327371`, by `A334991.P17018460124387327371.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9554,7 +9557,7 @@ The definition of A334991 is `verified`: the Lean definition is proven equivalen
 
 `4^n+3*18^n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A334991
@@ -9779,7 +9782,7 @@ end A334991
 /-!
 # A334992: a(n) is the smallest number larger than a(n-1) whose a(i)-th binary digit is 0 for all i
 
-The programs for A334992, the canonical program `A334992.P5220326445913978837` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334992 has offset 1).
+The programs for A334992, the canonical program `A334992.P5220326445913978837` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334992 has offset 1).
 
 The definition of A334992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9788,7 +9791,7 @@ The definition of A334992 is `conjectured`: the Lean definition is a formula tha
 
 `and(a(n-1)-A052899(n+1), A052899(n+1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A334992

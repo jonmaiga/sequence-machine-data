@@ -3,25 +3,26 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C011
+import Seq.B000.C013
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -436,7 +437,7 @@ end A155211.P3914249665505351538
 /-!
 # A155212: a(n) = (n^2 + 9*n + 4)/2.
 
-The programs for A155212, the canonical program `A155212.P18289356943293586603` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155212 has offset 0).
+The programs for A155212, the canonical program `A155212.P18289356943293586603` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155212 has offset 0).
 
 The definition of A155212 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n²+9*n+4)/2` (program `A155212.P4387845708213689030`, by `A155212.P4387845708213689030.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -489,7 +490,7 @@ end A155212
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=2, a(1)=7, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A155212
@@ -524,6 +525,55 @@ namespace A155212
 /-- `a(n-1)+n+4` -/
 def P17657526798777039039.Spec : Prop :=
   ∀ n, (P17657526798777039039.a n : ℤ) = A155212 n
+
+end A155212
+
+/-! ## A155212.P1573706994786276878
+
+`∑[ogf((2+x-2x^2)/(1-2x+x^2))]`
+-/
+
+namespace A155212.P1573706994786276878
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1, -2] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A155212.P1573706994786276878
+
+namespace A155212
+
+/-- `∑[ogf((2+x-2x^2)/(1-2x+x^2))]` -/
+def P1573706994786276878.Spec : Prop :=
+  ∀ n, P1573706994786276878.a n = A155212 n
+
+end A155212
+
+/-! ## A155212.P1890360204427655583
+
+`ogf((2+x-2x^2)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A155212.P1890360204427655583
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1, -2] [1, -3, 3, -1] n
+
+end
+
+end A155212.P1890360204427655583
+
+namespace A155212
+
+/-- `ogf((2+x-2x^2)/(1-3x+3x^2-x^3))` -/
+def P1890360204427655583.Spec : Prop :=
+  ∀ n, P1890360204427655583.a n = A155212 n
 
 end A155212
 

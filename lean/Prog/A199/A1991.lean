@@ -3,31 +3,30 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
@@ -337,7 +336,7 @@ end A199105.P14801132849140195462
 /-!
 # A199106: a(n) = 4*12^n - 1.
 
-The programs for A199106, the canonical program `A199106.P7137659470193310895` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199106 has offset 0).
+The programs for A199106, the canonical program `A199106.P7137659470193310895` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199106 has offset 0).
 
 The definition of A199106 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*12^n-1` (program `A199106.P7137659470193310895`, by `A199106.P7137659470193310895.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -346,7 +345,7 @@ The definition of A199106 is `verified`: the Lean definition is proven equivalen
 
 `4*12^n-1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199106
@@ -358,6 +357,29 @@ def P7137659470193310895.Spec : Prop :=
 theorem P7137659470193310895.correct : P7137659470193310895.Spec := by
   intro n
   simp only [A199106]
+
+end A199106
+
+/-! ## A199106.P5009105073925585396
+
+`ogf((3+8x)/(1-13x+12x^2))`
+-/
+
+namespace A199106.P5009105073925585396
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 8] [1, -13, 12] n
+
+end
+
+end A199106.P5009105073925585396
+
+namespace A199106
+
+/-- `ogf((3+8x)/(1-13x+12x^2))` -/
+def P5009105073925585396.Spec : Prop :=
+  ∀ n, P5009105073925585396.a n = A199106 n
 
 end A199106
 
@@ -511,7 +533,7 @@ end A199106
 /-!
 # A199107: a(n) = 5*12^n - 1.
 
-The programs for A199107, the canonical program `A199107.P1233943977852573305` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199107 has offset 0).
+The programs for A199107, the canonical program `A199107.P1233943977852573305` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199107 has offset 0).
 
 The definition of A199107 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*12^n-1` (program `A199107.P1233943977852573305`, by `A199107.P1233943977852573305.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -520,7 +542,7 @@ The definition of A199107 is `verified`: the Lean definition is proven equivalen
 
 `5*12^n-1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199107
@@ -532,6 +554,29 @@ def P1233943977852573305.Spec : Prop :=
 theorem P1233943977852573305.correct : P1233943977852573305.Spec := by
   intro n
   simp only [A199107]
+
+end A199107
+
+/-! ## A199107.P14553373312034715478
+
+`ogf((4+7x)/(1-13x+12x^2))`
+-/
+
+namespace A199107.P14553373312034715478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 7] [1, -13, 12] n
+
+end
+
+end A199107.P14553373312034715478
+
+namespace A199107
+
+/-- `ogf((4+7x)/(1-13x+12x^2))` -/
+def P14553373312034715478.Spec : Prop :=
+  ∀ n, P14553373312034715478.a n = A199107 n
 
 end A199107
 
@@ -662,7 +707,7 @@ end A199107
 /-!
 # A199108: a(n) = 4*3^n + 1.
 
-The programs for A199108, the canonical program `A199108.P18019774811813591843` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199108 has offset 0).
+The programs for A199108, the canonical program `A199108.P18019774811813591843` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199108 has offset 0).
 
 The definition of A199108 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*3^n+1` (program `A199108.P18019774811813591843`, by `A199108.P18019774811813591843.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -671,7 +716,7 @@ The definition of A199108 is `verified`: the Lean definition is proven equivalen
 
 `4*3^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199108
@@ -729,6 +774,29 @@ namespace A199108
 /-- `xor(1, 4*3^n)` -/
 def P11712408561644054111.Spec : Prop :=
   ∀ n, (P11712408561644054111.a n : ℤ) = A199108 n
+
+end A199108
+
+/-! ## A199108.P4801861257465488082
+
+`ogf((5-7x)/(1-4x+3x^2))`
+-/
+
+namespace A199108.P4801861257465488082
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -7] [1, -4, 3] n
+
+end
+
+end A199108.P4801861257465488082
+
+namespace A199108
+
+/-- `ogf((5-7x)/(1-4x+3x^2))` -/
+def P4801861257465488082.Spec : Prop :=
+  ∀ n, P4801861257465488082.a n = A199108 n
 
 end A199108
 
@@ -1107,7 +1175,7 @@ end A199108
 /-!
 # A199109: a(n) = (7*3^n + 1)/2.
 
-The programs for A199109, the canonical program `A199109.P6137584353103682020` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199109 has offset 0).
+The programs for A199109, the canonical program `A199109.P6137584353103682020` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199109 has offset 0).
 
 The definition of A199109 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7*3^n+1)/2` (program `A199109.P1380724493336933800`, by `A199109.P1380724493336933800.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1116,7 +1184,7 @@ The definition of A199109 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-1` with `a(0)=4`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199109
@@ -1216,6 +1284,29 @@ theorem P1380724493336933800.correct : P1380724493336933800.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A199109
+
+/-! ## A199109.P7131107077943282478
+
+`ogf((4-5x)/(1-4x+3x^2))`
+-/
+
+namespace A199109.P7131107077943282478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -5] [1, -4, 3] n
+
+end
+
+end A199109.P7131107077943282478
+
+namespace A199109
+
+/-- `ogf((4-5x)/(1-4x+3x^2))` -/
+def P7131107077943282478.Spec : Prop :=
+  ∀ n, P7131107077943282478.a n = A199109 n
 
 end A199109
 
@@ -1571,7 +1662,7 @@ end A199109
 /-!
 # A199110: a(n) = 7*3^n + 1.
 
-The programs for A199110, the canonical program `A199110.P7196430325754821755` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199110 has offset 0).
+The programs for A199110, the canonical program `A199110.P7196430325754821755` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199110 has offset 0).
 
 The definition of A199110 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `7*3^n+1` (program `A199110.P7196430325754821755`, by `A199110.P7196430325754821755.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1580,7 +1671,7 @@ The definition of A199110 is `verified`: the Lean definition is proven equivalen
 
 `7*3^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199110
@@ -1615,6 +1706,29 @@ namespace A199110
 /-- `2*A199109(n)` -/
 def P15598014568578060831.Spec : Prop :=
   ∀ n, P15598014568578060831.a n = A199110 n
+
+end A199110
+
+/-! ## A199110.P67987164411690651
+
+`ogf((8-10x)/(1-4x+3x^2))`
+-/
+
+namespace A199110.P67987164411690651
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [8, -10] [1, -4, 3] n
+
+end
+
+end A199110.P67987164411690651
+
+namespace A199110
+
+/-- `ogf((8-10x)/(1-4x+3x^2))` -/
+def P67987164411690651.Spec : Prop :=
+  ∀ n, P67987164411690651.a n = A199110 n
 
 end A199110
 
@@ -1924,7 +2038,7 @@ end A199110
 /-!
 # A199111: a(n) = 8*3^n + 1.
 
-The programs for A199111, the canonical program `A199111.P16186390846937489639` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199111 has offset 0).
+The programs for A199111, the canonical program `A199111.P16186390846937489639` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199111 has offset 0).
 
 The definition of A199111 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*3^n+1` (program `A199111.P16186390846937489639`, by `A199111.P16186390846937489639.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1933,7 +2047,7 @@ The definition of A199111 is `verified`: the Lean definition is proven equivalen
 
 `8*3^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199111
@@ -1991,6 +2105,29 @@ namespace A199111
 /-- `xor(1, 8*3^n)` -/
 def P1733883280428626107.Spec : Prop :=
   ∀ n, (P1733883280428626107.a n : ℤ) = A199111 n
+
+end A199111
+
+/-! ## A199111.P12703109450595347180
+
+`ogf((9-11x)/(1-4x+3x^2))`
+-/
+
+namespace A199111.P12703109450595347180
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [9, -11] [1, -4, 3] n
+
+end
+
+end A199111.P12703109450595347180
+
+namespace A199111
+
+/-- `ogf((9-11x)/(1-4x+3x^2))` -/
+def P12703109450595347180.Spec : Prop :=
+  ∀ n, P12703109450595347180.a n = A199111 n
 
 end A199111
 
@@ -2202,7 +2339,7 @@ end A199111
 /-!
 # A199112: a(n) = 10*3^n+1.
 
-The programs for A199112, the canonical program `A199112.P3820334855337971107` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199112 has offset 0).
+The programs for A199112, the canonical program `A199112.P3820334855337971107` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199112 has offset 0).
 
 The definition of A199112 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `10*3^n+1` (program `A199112.P3820334855337971107`, by `A199112.P3820334855337971107.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2211,7 +2348,7 @@ The definition of A199112 is `verified`: the Lean definition is proven equivalen
 
 `10*3^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199112
@@ -2269,6 +2406,29 @@ namespace A199112
 /-- `xor(1, 10*3^n)` -/
 def P100242375629234896.Spec : Prop :=
   ∀ n, (P100242375629234896.a n : ℤ) = A199112 n
+
+end A199112
+
+/-! ## A199112.P5971087240262299392
+
+`ogf((11-13x)/(1-4x+3x^2))`
+-/
+
+namespace A199112.P5971087240262299392
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [11, -13] [1, -4, 3] n
+
+end
+
+end A199112.P5971087240262299392
+
+namespace A199112
+
+/-- `ogf((11-13x)/(1-4x+3x^2))` -/
+def P5971087240262299392.Spec : Prop :=
+  ∀ n, P5971087240262299392.a n = A199112 n
 
 end A199112
 
@@ -2537,7 +2697,7 @@ end A199112
 /-!
 # A199113: a(n) = (11*3^n+1)/2.
 
-The programs for A199113, the canonical program `A199113.P8564963332754865843` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199113 has offset 0).
+The programs for A199113, the canonical program `A199113.P8564963332754865843` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199113 has offset 0).
 
 The definition of A199113 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(11*3^n+1)/2` (program `A199113.P9921092473701571148`, by `A199113.P9921092473701571148.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2546,7 +2706,7 @@ The definition of A199113 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-1` with `a(0)=6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199113
@@ -2600,6 +2760,29 @@ theorem P9921092473701571148.correct : P9921092473701571148.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A199113
+
+/-! ## A199113.P15806288706874940739
+
+`ogf((6-7x)/(1-4x+3x^2))`
+-/
+
+namespace A199113.P15806288706874940739
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -7] [1, -4, 3] n
+
+end
+
+end A199113.P15806288706874940739
+
+namespace A199113
+
+/-- `ogf((6-7x)/(1-4x+3x^2))` -/
+def P15806288706874940739.Spec : Prop :=
+  ∀ n, P15806288706874940739.a n = A199113 n
 
 end A199113
 
@@ -2974,7 +3157,7 @@ end A199113
 /-!
 # A199114: a(n) = 11*3^n+1.
 
-The programs for A199114, the canonical program `A199114.P12823177751072762605` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199114 has offset 0).
+The programs for A199114, the canonical program `A199114.P12823177751072762605` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199114 has offset 0).
 
 The definition of A199114 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `11*3^n+1` (program `A199114.P12823177751072762605`, by `A199114.P12823177751072762605.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2983,7 +3166,7 @@ The definition of A199114 is `verified`: the Lean definition is proven equivalen
 
 `11*3^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199114
@@ -3018,6 +3201,29 @@ namespace A199114
 /-- `2*A199113(n)` -/
 def P16917468309737273916.Spec : Prop :=
   ∀ n, P16917468309737273916.a n = A199114 n
+
+end A199114
+
+/-! ## A199114.P7093915952375386472
+
+`ogf((12-14x)/(1-4x+3x^2))`
+-/
+
+namespace A199114.P7093915952375386472
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [12, -14] [1, -4, 3] n
+
+end
+
+end A199114.P7093915952375386472
+
+namespace A199114
+
+/-- `ogf((12-14x)/(1-4x+3x^2))` -/
+def P7093915952375386472.Spec : Prop :=
+  ∀ n, P7093915952375386472.a n = A199114 n
 
 end A199114
 
@@ -3352,7 +3558,7 @@ end A199114
 /-!
 # A199115: a(n) = 5*4^n+1.
 
-The programs for A199115, the canonical program `A199115.P17558246874276297654` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199115 has offset 0).
+The programs for A199115, the canonical program `A199115.P17558246874276297654` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199115 has offset 0).
 
 The definition of A199115 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*4^n+1` (program `A199115.P17558246874276297654`, by `A199115.P17558246874276297654.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3361,7 +3567,7 @@ The definition of A199115 is `verified`: the Lean definition is proven equivalen
 
 `5*4^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199115
@@ -3396,6 +3602,29 @@ namespace A199115
 /-- `3*A136412(n)` -/
 def P12793492300114991219.Spec : Prop :=
   ∀ n, P12793492300114991219.a n = A199115 n
+
+end A199115
+
+/-! ## A199115.P5546513617671297348
+
+`ogf((6-9x)/(1-5x+4x^2))`
+-/
+
+namespace A199115.P5546513617671297348
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -9] [1, -5, 4] n
+
+end
+
+end A199115.P5546513617671297348
+
+namespace A199115
+
+/-- `ogf((6-9x)/(1-5x+4x^2))` -/
+def P5546513617671297348.Spec : Prop :=
+  ∀ n, P5546513617671297348.a n = A199115 n
 
 end A199115
 
@@ -3782,7 +4011,7 @@ end A199115
 /-!
 # A199116: a(n) = 6*4^n + 1.
 
-The programs for A199116, the canonical program `A199116.P5574724828079957201` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199116 has offset 0).
+The programs for A199116, the canonical program `A199116.P5574724828079957201` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199116 has offset 0).
 
 The definition of A199116 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6*4^n+1` (program `A199116.P5574724828079957201`, by `A199116.P5574724828079957201.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3791,7 +4020,7 @@ The definition of A199116 is `verified`: the Lean definition is proven equivalen
 
 `6*4^n+1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199116
@@ -3849,6 +4078,29 @@ namespace A199116
 /-- `xor(1, 6*4^n)` -/
 def P11445550021397608157.Spec : Prop :=
   ∀ n, (P11445550021397608157.a n : ℤ) = A199116 n
+
+end A199116
+
+/-! ## A199116.P2442278981970507954
+
+`ogf((7-10x)/(1-5x+4x^2))`
+-/
+
+namespace A199116.P2442278981970507954
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, -10] [1, -5, 4] n
+
+end
+
+end A199116.P2442278981970507954
+
+namespace A199116
+
+/-- `ogf((7-10x)/(1-5x+4x^2))` -/
+def P2442278981970507954.Spec : Prop :=
+  ∀ n, P2442278981970507954.a n = A199116 n
 
 end A199116
 
@@ -5907,7 +6159,7 @@ end A199141.P16142825007656931567
 /-!
 # A199142: Number of n X 1 0..3 arrays with values 0..3 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.
 
-The programs for A199142, the canonical program `A199142.P7959540127299029398` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199142 has offset 1).
+The programs for A199142, the canonical program `A199142.P7959540127299029398` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199142 has offset 1).
 
 The definition of A199142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5916,7 +6168,7 @@ The definition of A199142 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)+a(n-2)-7*a(n-3)+a(n-4)+3*a(n-5)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2, a(4)=3, a(5)=6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A199142

@@ -6,36 +6,36 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C001
@@ -65,8 +65,9 @@ import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C021
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -3338,7 +3339,7 @@ end A058480.P2419662982521692943
 /-!
 # A058481: a(n) = 3^n - 2.
 
-The programs for A058481, the canonical program `A058481.P14870397075544163787` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058481 has offset 1).
+The programs for A058481, the canonical program `A058481.P14870397075544163787` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058481 has offset 1).
 
 The definition of A058481 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(n+1)-2` (program `A058481.P14870397075544163787`, by `A058481.P14870397075544163787.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3347,7 +3348,7 @@ The definition of A058481 is `verified`: the Lean definition is proven equivalen
 
 `3^(n+1)-2`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A058481
@@ -3359,6 +3360,29 @@ def P14870397075544163787.Spec : Prop :=
 theorem P14870397075544163787.correct : P14870397075544163787.Spec := by
   intro n
   simp only [A058481, Nat.add_sub_cancel]
+
+end A058481
+
+/-! ## A058481.P13243874417642619469
+
+`ogf((1+3x)/(1-4x+3x^2))`
+-/
+
+namespace A058481.P13243874417642619469
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3] [1, -4, 3] n
+
+end
+
+end A058481.P13243874417642619469
+
+namespace A058481
+
+/-- `ogf((1+3x)/(1-4x+3x^2))` -/
+def P13243874417642619469.Spec : Prop :=
+  ∀ n, P13243874417642619469.a n = A058481 (n + 1)
 
 end A058481
 
@@ -3841,7 +3865,7 @@ end A058481
 /-!
 # A058482: Number of 3 X n binary matrices with no zero rows or columns.
 
-The programs for A058482, the canonical program `A058482.P12276682187950633990` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058482 has offset 1).
+The programs for A058482, the canonical program `A058482.P12276682187950633990` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058482 has offset 1).
 
 The definition of A058482 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3850,7 +3874,7 @@ The definition of A058482 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7^(n+1)-3*3^(n+1)+3`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A058482

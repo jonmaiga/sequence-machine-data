@@ -9,22 +9,22 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1989,7 +1989,7 @@ end A368130.P548185498882020270
 /-!
 # A368131: a(n) = floor(n * log(4/3) / log(3/2)).
 
-The programs for A368131, the canonical program `A368131.P4340374644539258575` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368131 has offset 0).
+The programs for A368131, the canonical program `A368131.P4340374644539258575` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368131 has offset 0).
 
 The definition of A368131 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n*log(4/3)/log(3/2))` (program `A368131.P4340374644539258575`, by `A368131.P4340374644539258575.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1998,7 +1998,7 @@ The definition of A368131 is `verified`: the Lean definition is proven equivalen
 
 `floor(n*log(4/3)/log(3/2))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368131
@@ -2420,7 +2420,7 @@ end A368144.P12237925069429136301
 /-!
 # A368146: Decimal expansion of 174/96 = 29/16, being the highest possible win/loss points ratio in a completed 5-set tennis match, with 10-point final tie-break, which the player loses.
 
-The programs for A368146, the canonical program `A368146.P16394658131120442199` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368146 has offset 1).
+The programs for A368146, the canonical program `A368146.P16394658131120442199` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368146 has offset 1).
 
 The definition of A368146 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2429,7 +2429,7 @@ The definition of A368146 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=1, a(1)=8, a(2)=1, a(3)=2, a(4)=5, a(5)=0`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368146

@@ -3,13 +3,13 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -18,7 +18,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -29,8 +29,9 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +49,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -5209,7 +5209,7 @@ end A114443
 /-!
 # A114444: a(n) = 16*n*(n+2).
 
-The programs for A114444, the canonical program `A114444.P4566381897916165919` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114444 has offset 0).
+The programs for A114444, the canonical program `A114444.P4566381897916165919` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114444 has offset 0).
 
 The definition of A114444 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `16*n*(n+2)` (program `A114444.P4566381897916165919`, by `A114444.P4566381897916165919.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5218,7 +5218,7 @@ The definition of A114444 is `verified`: the Lean definition is proven equivalen
 
 `16*n*(n+2)`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A114444
@@ -7275,7 +7275,7 @@ end A114456
 /-!
 # A114458: Integer part of sqrt(n)+sqrt(n+1)+sqrt(n+2).
 
-The programs for A114458, the canonical program `A114458.P13895863133896173440` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114458 has offset 1).
+The programs for A114458, the canonical program `A114458.P13895863133896173440` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114458 has offset 1).
 
 The definition of A114458 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7284,7 +7284,7 @@ The definition of A114458 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(9*(n+1)+8))`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A114458
@@ -7631,7 +7631,7 @@ end A114458
 /-!
 # A114459: Integer part of sqrt(n)+sqrt(n+1)+sqrt(n+2)+sqrt(n+3).
 
-The programs for A114459, the canonical program `A114459.P8850751171218531829` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114459 has offset 1).
+The programs for A114459, the canonical program `A114459.P8850751171218531829` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114459 has offset 1).
 
 The definition of A114459 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7640,7 +7640,7 @@ The definition of A114459 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(16*(n+1)+20))`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A114459
@@ -7871,7 +7871,7 @@ end A114459
 /-!
 # A114460: Integer part of sqrt(n)+sqrt(n+1)+sqrt(n+2)+sqrt(n+3)+sqrt(n+4).
 
-The programs for A114460, the canonical program `A114460.P5713913181511546452` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114460 has offset 1).
+The programs for A114460, the canonical program `A114460.P5713913181511546452` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114460 has offset 1).
 
 The definition of A114460 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7880,7 +7880,7 @@ The definition of A114460 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(25*(n+1)+49))`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A114460
@@ -9060,7 +9060,7 @@ end A114477.P14235929534319878016
 /-!
 # A114479: Kekulé numbers for certain benzenoids.
 
-The programs for A114479, the canonical program `A114479.P15948085007358780953` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114479 has offset 1).
+The programs for A114479, the canonical program `A114479.P15948085007358780953` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114479 has offset 1).
 
 The definition of A114479 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9069,7 +9069,7 @@ The definition of A114479 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-8*a(n-2)` with `a(0)=3, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A114479
@@ -9127,6 +9127,29 @@ namespace A114479
 /-- `((4+sqrt(8))^(n+2)+(4-sqrt(8))^(n+2))/16` -/
 def P1731184465936059790.Spec : Prop :=
   ∀ n, P1731184465936059790.a n = (A114479 (n + 1) : ℝ)
+
+end A114479
+
+/-! ## A114479.P3755212708759035521
+
+`ogf((3-4x)/(1-8x+8x^2))`
+-/
+
+namespace A114479.P3755212708759035521
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -4] [1, -8, 8] n
+
+end
+
+end A114479.P3755212708759035521
+
+namespace A114479
+
+/-- `ogf((3-4x)/(1-8x+8x^2))` -/
+def P3755212708759035521.Spec : Prop :=
+  ∀ n, P3755212708759035521.a n = A114479 (n + 1)
 
 end A114479
 
@@ -9528,7 +9551,7 @@ end A114479
 /-!
 # A114480: Kekulé numbers for certain benzenoids.
 
-The programs for A114480, the canonical program `A114480.P7868779738620357469` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114480 has offset 1).
+The programs for A114480, the canonical program `A114480.P7868779738620357469` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114480 has offset 1).
 
 The definition of A114480 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9537,7 +9560,7 @@ The definition of A114480 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15*a(n-1)-25*a(n-2)` with `a(0)=4, a(1)=50`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A114480
@@ -9549,6 +9572,29 @@ def P7868779738620357469.Spec : Prop :=
 theorem P7868779738620357469.correct : P7868779738620357469.Spec := by
   intro n
   simp only [A114480, Nat.add_sub_cancel]
+
+end A114480
+
+/-! ## A114480.P1532459664203229106
+
+`ogf((4-10x)/(1-15x+25x^2))`
+-/
+
+namespace A114480.P1532459664203229106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -10] [1, -15, 25] n
+
+end
+
+end A114480.P1532459664203229106
+
+namespace A114480
+
+/-- `ogf((4-10x)/(1-15x+25x^2))` -/
+def P1532459664203229106.Spec : Prop :=
+  ∀ n, P1532459664203229106.a n = A114480 (n + 1)
 
 end A114480
 

@@ -17,21 +17,23 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -46,6 +48,7 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -73,7 +76,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -778,27 +780,50 @@ end A293709.P18143169709922976002
 /-!
 # A293710: Expansion of x^2/(1 - 4*x - 4*x^2 - x^3).
 
-The programs for A293710, the canonical program `A293710.P12078816348934774693` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293710 has offset 0).
+The programs for A293710, the canonical program `A293710.P5526450087690189851` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293710 has offset 0).
 
-The definition of A293710 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A293710 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(x^2/(1-4x-4x^2-x^3))` (program `A293710.P5526450087690189851`, by `A293710.P5526450087690189851.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A293710.P5526450087690189851
+
+`ogf(x^2/(1-4x-4x^2-x^3))`
+
+The canonical program, it is in `Seq.B000.C033`.
+-/
+
+namespace A293710
+
+/-- `ogf(x^2/(1-4x-4x^2-x^3))` -/
+def P5526450087690189851.Spec : Prop :=
+  ∀ n, P5526450087690189851.a n = A293710 n
+
+theorem P5526450087690189851.correct : P5526450087690189851.Spec := by
+  intro n
+  simp only [A293710]
+
+end A293710
 
 /-! ## A293710.P12078816348934774693
 
 `4*a(n-1)+4*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=1`
-
-The canonical program, it is in `Seq.B000.C031`.
 -/
+
+namespace A293710.P12078816348934774693
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 0, 1] fun n a =>
+  4 * a (n - 1) + 4 * a (n - 2) + a (n - 3)
+
+end
+
+end A293710.P12078816348934774693
 
 namespace A293710
 
 /-- `4*a(n-1)+4*a(n-2)+a(n-3)` -/
 def P12078816348934774693.Spec : Prop :=
   ∀ n, (P12078816348934774693.a n : ℤ) = A293710 n
-
-theorem P12078816348934774693.correct : P12078816348934774693.Spec := by
-  intro n
-  simp only [A293710]
 
 end A293710
 

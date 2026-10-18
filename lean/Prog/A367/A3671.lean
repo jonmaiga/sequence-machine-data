@@ -6,27 +6,30 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C016
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -51,7 +54,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -884,7 +886,7 @@ end A367116.P5951884960230787629
 /-!
 # A367117: Place n points in general position on each side of an equilateral triangle, and join every pair of the 3*n+3 boundary points by a chord; sequence gives number of vertices in the resulting planar graph.
 
-The programs for A367117, the canonical program `A367117.P5781427818143851539` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367117 has offset 0).
+The programs for A367117, the canonical program `A367117.P5781427818143851539` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367117 has offset 0).
 
 The definition of A367117 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -937,7 +939,7 @@ end A367117
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=3, a(1)=12, a(2)=72, a(3)=282, a(4)=795`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367117
@@ -1630,7 +1632,7 @@ end A367138.P11238299307795265159
 /-!
 # A367140: a(n) = Sum_{prime p|n} p^A001222(n).
 
-The programs for A367140, the canonical program `A367140.P12237919558071202463` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367140 has offset 1).
+The programs for A367140, the canonical program `A367140.P12237919558071202463` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367140 has offset 1).
 
 The definition of A367140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1639,7 +1641,7 @@ The definition of A367140 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, #^A001222(n+1)]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A367140
@@ -4582,7 +4584,7 @@ end A367192.P3031106051096124384
 /-!
 # A367193: The x-coordinate of the point where x + y = n, x and y are integers and x/y is as close as possible to Pi.
 
-The programs for A367193, the canonical program `A367193.P8063041996176496184` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367193 has offset 1).
+The programs for A367193, the canonical program `A367193.P8063041996176496184` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367193 has offset 1).
 
 The definition of A367193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4591,7 +4593,7 @@ The definition of A367193 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round((2*(n+1)*π+n+1-sqrt(π²+2*π+(n+1)²+1))/(2*π+2))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367193

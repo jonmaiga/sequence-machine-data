@@ -12,24 +12,21 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,11 +37,11 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
@@ -1167,7 +1164,7 @@ end A200038.P426113534972202548
 /-!
 # A200039: Number of -n..n arrays x(0..2) of 3 elements with sum zero and with zeroth through 2nd differences all nonzero.
 
-The programs for A200039, the canonical program `A200039.P13130355510944201552` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200039 has offset 1).
+The programs for A200039, the canonical program `A200039.P13130355510944201552` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200039 has offset 1).
 
 The definition of A200039 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1176,7 +1173,7 @@ The definition of A200039 is `conjectured`: the Lean definition is a formula tha
 
 `∑[xor(2, 6*n)-2]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A200039
@@ -4252,7 +4249,7 @@ end A200063.P12411043273356329726
 /-!
 # A200067: Maximum sum of all products of absolute differences and distances between element pairs among the integer partitions of n.
 
-The programs for A200067, the canonical program `A200067.P5475478222933441891` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200067 has offset 0).
+The programs for A200067, the canonical program `A200067.P5475478222933441891` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200067 has offset 0).
 
 The definition of A200067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4294,7 +4291,7 @@ end A200067
 
 `A190798(n-1)-a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A200067
@@ -4676,7 +4673,7 @@ end A200068.P3057531879155144291
 /-!
 # A200069: a(n) = 4*a(n-1) + 13*a(n-2) for n>2, a(1)=1, a(2)=4.
 
-The programs for A200069, the canonical program `A200069.P4010690251819971858` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200069 has offset 1).
+The programs for A200069, the canonical program `A200069.P4010690251819971858` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200069 has offset 1).
 
 The definition of A200069 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*a(n-1)+13*a(n-2)` (program `A200069.P4010690251819971858`, by `A200069.P4010690251819971858.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4685,7 +4682,7 @@ The definition of A200069 is `verified`: the Lean definition is proven equivalen
 
 `4*a(n-1)+13*a(n-2)` with `a(0)=1, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A200069
@@ -4720,6 +4717,29 @@ namespace A200069
 /-- `((2+sqrt(17))^(n+1)-(2-sqrt(17))^(n+1))/(2*sqrt(17))` -/
 def P13322764160219456724.Spec : Prop :=
   ∀ n, P13322764160219456724.a n = (A200069 (n + 1) : ℝ)
+
+end A200069
+
+/-! ## A200069.P15120417826624495734
+
+`ogf(1/(1-4x-13x^2))`
+-/
+
+namespace A200069.P15120417826624495734
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -4, -13] n
+
+end
+
+end A200069.P15120417826624495734
+
+namespace A200069
+
+/-- `ogf(1/(1-4x-13x^2))` -/
+def P15120417826624495734.Spec : Prop :=
+  ∀ n, P15120417826624495734.a n = A200069 (n + 1)
 
 end A200069
 

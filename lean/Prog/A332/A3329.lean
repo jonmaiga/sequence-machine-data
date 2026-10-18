@@ -1,7 +1,6 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -9,22 +8,26 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,7 +40,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1424,7 +1427,7 @@ end A332918.P15996010976584638774
 /-!
 # A332919: a(n) is the sum of the sums of squared digits of all n-digit numbers.
 
-The programs for A332919, the canonical program `A332919.P13899088447934731004` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332919 has offset 1).
+The programs for A332919, the canonical program `A332919.P13899088447934731004` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332919 has offset 1).
 
 The definition of A332919 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1433,7 +1436,7 @@ The definition of A332919 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `57*2^(n-1)*5^n*(1+9*(n+1))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332919
@@ -1689,7 +1692,7 @@ end A332930.P2852244689351230757
 /-!
 # A332931: Sum of round(sqrt(d)) where d runs through the divisors of n.
 
-The programs for A332931, the canonical program `A332931.P8008434739767910089` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332931 has offset 1).
+The programs for A332931, the canonical program `A332931.P8008434739767910089` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332931 has offset 1).
 
 The definition of A332931 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1698,7 +1701,7 @@ The definition of A332931 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, floor(1/2+sqrt(#))]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332931
@@ -1901,7 +1904,7 @@ end A332931
 /-!
 # A332932: Sum of ceiling(sqrt(d)) where d runs through the divisors of n.
 
-The programs for A332932, the canonical program `A332932.P1495681285893349047` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332932 has offset 1).
+The programs for A332932, the canonical program `A332932.P1495681285893349047` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332932 has offset 1).
 
 The definition of A332932 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1910,7 +1913,7 @@ The definition of A332932 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, ceil(sqrt(#))]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332932
@@ -2078,7 +2081,7 @@ end A332932
 /-!
 # A332933: Sum of floor(d^(3/2)) where d runs through the divisors of n.
 
-The programs for A332933, the canonical program `A332933.P13431352946191094713` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332933 has offset 1).
+The programs for A332933, the canonical program `A332933.P13431352946191094713` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332933 has offset 1).
 
 The definition of A332933 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2087,7 +2090,7 @@ The definition of A332933 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, floor(sqrt(#^3))]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332933
@@ -2340,7 +2343,7 @@ end A332933
 /-!
 # A332934: Sum of round(d^(3/2)) where d runs through the divisors of n.
 
-The programs for A332934, the canonical program `A332934.P5186518608748175517` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332934 has offset 1).
+The programs for A332934, the canonical program `A332934.P5186518608748175517` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332934 has offset 1).
 
 The definition of A332934 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2349,7 +2352,7 @@ The definition of A332934 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, floor(1/2+sqrt(#^3))]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332934
@@ -2582,7 +2585,7 @@ end A332934
 /-!
 # A332935: Sum of ceiling(n^(3/2)) where d runs through the divisors of n.
 
-The programs for A332935, the canonical program `A332935.P18370354576889052317` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332935 has offset 1).
+The programs for A332935, the canonical program `A332935.P18370354576889052317` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332935 has offset 1).
 
 The definition of A332935 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2591,7 +2594,7 @@ The definition of A332935 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, ceil(sqrt(#^3))]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332935
@@ -2869,7 +2872,7 @@ end A332935
 /-!
 # A332936: Number of blue nodes in n-th power graph W exponentiation of a cycle graph with 7 blue nodes and 1 green node.
 
-The programs for A332936, the canonical program `A332936.P17568384257703294195` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332936 has offset 0).
+The programs for A332936, the canonical program `A332936.P17568384257703294195` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332936 has offset 0).
 
 The definition of A332936 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2878,7 +2881,7 @@ The definition of A332936 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-3*a(n-2)` with `a(0)=7, a(1)=51`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A332936
@@ -2913,6 +2916,29 @@ namespace A332936
 /-- `7*A190976(n+1)-5*A190976(n)` -/
 def P10641487625533395544.Spec : Prop :=
   ∀ n, P10641487625533395544.a n = A332936 n
+
+end A332936
+
+/-! ## A332936.P4069240321380781378
+
+`ogf((7-5x)/(1-8x+3x^2))`
+-/
+
+namespace A332936.P4069240321380781378
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, -5] [1, -8, 3] n
+
+end
+
+end A332936.P4069240321380781378
+
+namespace A332936
+
+/-- `ogf((7-5x)/(1-8x+3x^2))` -/
+def P4069240321380781378.Spec : Prop :=
+  ∀ n, P4069240321380781378.a n = A332936 n
 
 end A332936
 

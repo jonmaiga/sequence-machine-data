@@ -5,33 +5,33 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C004
 import Seq.B002.C000
 import Seq.Opaque.C013
 
@@ -11994,6 +11994,32 @@ def P14066668317560991241.Spec : Prop :=
 
 end A017234
 
+/-! ## A017234.P17281510738031717710
+
+`9*∑[ogf((4+13x+x^2)/(1-2x+x^2))]`
+-/
+
+namespace A017234.P17281510738031717710
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 13, 1] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  9 * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A017234.P17281510738031717710
+
+namespace A017234
+
+/-- `9*∑[ogf((4+13x+x^2)/(1-2x+x^2))]` -/
+def P17281510738031717710.Spec : Prop :=
+  ∀ n, P17281510738031717710.a n = A017234 n
+
+end A017234
+
 /-! ## A017234.P8167988328097467399
 
 `record[((n+1)/dr(n+1)+5)²]`
@@ -23837,27 +23863,50 @@ end A017268.P17851094233313384930
 /-!
 # A017269: Expansion of 1/((1-3x)(1-5x)(1-6x)).
 
-The programs for A017269, the canonical program `A017269.P17935317223829690995` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017269 has offset 0).
+The programs for A017269, the canonical program `A017269.P6427660025962019252` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017269 has offset 0).
 
-The definition of A017269 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A017269 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-14x+63x^2-90x^3))` (program `A017269.P6427660025962019252`, by `A017269.P6427660025962019252.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A017269.P17935317223829690995
+/-! ## A017269.P6427660025962019252
 
-`11*a(n-1)-30*a(n-2)+3^n` with `a(0)=1, a(1)=14`
+`ogf(1/(1-14x+63x^2-90x^3))`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A017269
 
+/-- `ogf(1/(1-14x+63x^2-90x^3))` -/
+def P6427660025962019252.Spec : Prop :=
+  ∀ n, P6427660025962019252.a n = A017269 n
+
+theorem P6427660025962019252.correct : P6427660025962019252.Spec := by
+  intro n
+  simp only [A017269]
+
+end A017269
+
+/-! ## A017269.P17935317223829690995
+
+`11*a(n-1)-30*a(n-2)+3^n` with `a(0)=1, a(1)=14`
+-/
+
+namespace A017269.P17935317223829690995
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 14] fun n a =>
+  11 * a (n - 1) - 30 * a (n - 2) + (3 ^ n : ℤ)
+
+end
+
+end A017269.P17935317223829690995
+
+namespace A017269
+
 /-- `11*a(n-1)-30*a(n-2)+3^n` -/
 def P17935317223829690995.Spec : Prop :=
   ∀ n, P17935317223829690995.a n = A017269 n
-
-theorem P17935317223829690995.correct : P17935317223829690995.Spec := by
-  intro n
-  simp only [A017269]
 
 end A017269
 
@@ -23881,24 +23930,6 @@ namespace A017269
 /-- `(2*6^(n+2)-3*5^(n+2)+3^(n+2))/6` -/
 def P2983885996816003716.Spec : Prop :=
   ∀ n, P2983885996816003716.a n = (A017269 n : ℚ)
-
-theorem P2983885996816003716.correct : P2983885996816003716.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A017269, Nat.add_sub_cancel, A017269.P2983885996816003716.a, A017269.P17935317223829690995.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A017269, Nat.add_sub_cancel, A017269.P2983885996816003716.a, A017269.P17935317223829690995.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A017269
 

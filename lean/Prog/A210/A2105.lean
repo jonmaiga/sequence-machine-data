@@ -13,14 +13,13 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -30,6 +29,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +39,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2330,7 +2329,7 @@ end A210526.P6163981712190293313
 /-!
 # A210527: a(n) = 9*n^2 + 39*n + 83.
 
-The programs for A210527, the canonical program `A210527.P9963786212683603505` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210527 has offset 0).
+The programs for A210527, the canonical program `A210527.P9963786212683603505` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210527 has offset 0).
 
 The definition of A210527 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `9*n²+39*n+83` (program `A210527.P9963786212683603505`, by `A210527.P9963786212683603505.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2339,7 +2338,7 @@ The definition of A210527 is `verified`: the Lean definition is proven equivalen
 
 `9*n²+39*n+83`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A210527
@@ -7038,7 +7037,7 @@ end A210568.P2266958355782543925
 /-!
 # A210569: a(n) = (n-3)*(n-2)*(n-1)*n*(n+1)/30.
 
-The programs for A210569, the canonical program `A210569.P2904850707922656817` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210569 has offset 0).
+The programs for A210569, the canonical program `A210569.P2904850707922656817` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210569 has offset 0).
 
 The definition of A210569 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7047,7 +7046,7 @@ The definition of A210569 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*C(n, 4)-C(n, 5)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A210569

@@ -10,7 +10,9 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -28,10 +30,11 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +51,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,7 +60,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -2479,7 +2480,7 @@ end A032030.P7400653110427840501
 /-!
 # A032031: Triple factorial numbers: (3n)!!! = 3^n*n!.
 
-The programs for A032031, the canonical program `A032031.P13727891932517305363` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032031 has offset 0).
+The programs for A032031, the canonical program `A032031.P13727891932517305363` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032031 has offset 0).
 
 The definition of A032031 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n*n!` (program `A032031.P13727891932517305363`, by `A032031.P13727891932517305363.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2488,7 +2489,7 @@ The definition of A032031 is `verified`: the Lean definition is proven equivalen
 
 `3^n*n!`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032031
@@ -3242,7 +3243,7 @@ end A032036.P13318976222939742102
 /-!
 # A032037: Doubles (index 2+) under "AIJ" (ordered, indistinct, labeled) transform.
 
-The programs for A032037, the canonical program `A032037.P1506899393758184134` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032037 has offset 1).
+The programs for A032037, the canonical program `A032037.P1506899393758184134` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032037 has offset 1).
 
 The definition of A032037 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3251,7 +3252,7 @@ The definition of A032037 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*(2*(n+1)-3)*a(n-1)-n*(n-2)*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032037
@@ -6373,7 +6374,7 @@ end A032084.P1586024901800081543
 /-!
 # A032085: Number of reversible strings with n beads of 2 colors. If more than 1 bead, not palindromic.
 
-The programs for A032085, the canonical program `A032085.P11728261101407275475` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032085 has offset 1).
+The programs for A032085, the canonical program `A032085.P11728261101407275475` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032085 has offset 1).
 
 The definition of A032085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6382,7 +6383,7 @@ The definition of A032085 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+2*a(n-2)-4*a(n-3)` with `a(0)=2, a(1)=1, a(2)=2, a(3)=6`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032085
@@ -6794,7 +6795,7 @@ end A032085
 /-!
 # A032086: Number of reversible strings with n beads of 3 colors. If more than 1 bead, not palindromic.
 
-The programs for A032086, the canonical program `A032086.P9104185682000459793` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032086 has offset 1).
+The programs for A032086, the canonical program `A032086.P9104185682000459793` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032086 has offset 1).
 
 The definition of A032086 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6803,7 +6804,7 @@ The definition of A032086 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+3*a(n-2)-9*a(n-3)` with `a(0)=3, a(1)=3, a(2)=9, a(3)=36`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032086
@@ -7028,7 +7029,7 @@ end A032086
 /-!
 # A032087: Number of reversible strings with n beads of 4 colors. If more than 1 bead, not palindromic.
 
-The programs for A032087, the canonical program `A032087.P12927161139422861981` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032087 has offset 1).
+The programs for A032087, the canonical program `A032087.P12927161139422861981` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032087 has offset 1).
 
 The definition of A032087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7037,7 +7038,7 @@ The definition of A032087 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+4*a(n-2)-16*a(n-3)` with `a(0)=4, a(1)=6, a(2)=24, a(3)=120`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032087
@@ -7193,7 +7194,7 @@ end A032087
 /-!
 # A032088: Number of reversible strings with n beads of 5 colors. If more than 1 bead, not palindromic.
 
-The programs for A032088, the canonical program `A032088.P239513853229791925` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032088 has offset 1).
+The programs for A032088, the canonical program `A032088.P239513853229791925` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032088 has offset 1).
 
 The definition of A032088 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7202,7 +7203,7 @@ The definition of A032088 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)+5*a(n-2)-25*a(n-3)` with `a(0)=5, a(1)=10, a(2)=50, a(3)=300`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032088
@@ -7751,7 +7752,7 @@ end A032090
 
 The programs for A032091, the canonical program `A032091.P3822543457742477574` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032091 has offset 6).
 
-The definition of A032091 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002624, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A032091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A032091.P3822543457742477574
@@ -8731,7 +8732,7 @@ end A032093
 /-!
 # A032094: Number of reversible strings with n-1 beads of 2 colors. 7 beads are black. String is not palindromic.
 
-The programs for A032094, the canonical program `A032094.P1520495427252306651` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032094 has offset 9).
+The programs for A032094, the canonical program `A032094.P1520495427252306651` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032094 has offset 9).
 
 The definition of A032094 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A031164, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8740,7 +8741,7 @@ The definition of A032094 is `conditional`: the Lean definition is an OEIS formu
 
 `4*A031164(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A032094
@@ -9401,7 +9402,7 @@ end A032095
 /-!
 # A032096: "BHK" (reversible, identity, unlabeled) transform of 2,2,2,2,...
 
-The programs for A032096, the canonical program `A032096.P5572831676854479552` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032096 has offset 1).
+The programs for A032096, the canonical program `A032096.P5572831676854479552` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032096 has offset 1).
 
 The definition of A032096 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9410,7 +9411,7 @@ The definition of A032096 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/6*((-1)^(n+1)-5)*3^floor((n+1)/2)+3^n+2`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032096
@@ -9618,7 +9619,7 @@ end A032097
 /-!
 # A032098: "BHK" (reversible, identity, unlabeled) transform of 3,3,3,3,...
 
-The programs for A032098, the canonical program `A032098.P7091713504265939081` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032098 has offset 1).
+The programs for A032098, the canonical program `A032098.P7091713504265939081` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032098 has offset 1).
 
 The definition of A032098 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9627,7 +9628,7 @@ The definition of A032098 is `conjectured`: the Lean definition is a formula tha
 
 `3*(C(2^n, 2)+1)`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A032098

@@ -8,10 +8,10 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -19,16 +19,16 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3626,7 +3626,7 @@ end A263043.P18096192731235890906
 /-!
 # A263044: a(1) = a(2) = a(3) = 1; for n>3, a(n) = (a(n-3) + a(n-1))*(a(n-2) + a(n-3)).
 
-The programs for A263044, the canonical program `A263044.P5118705259823762397` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263044 has offset 1).
+The programs for A263044, the canonical program `A263044.P5118705259823762397` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263044 has offset 1).
 
 The definition of A263044 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(a(n-3)+a(n-1))*(a(n-2)+a(n-3))` (program `A263044.P5118705259823762397`, by `A263044.P5118705259823762397.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3635,7 +3635,7 @@ The definition of A263044 is `verified`: the Lean definition is proven equivalen
 
 `(a(n-3)+a(n-1))*(a(n-2)+a(n-3))` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A263044
@@ -3699,7 +3699,7 @@ end A263044
 /-!
 # A263045: a(1)=a(2)=1, a(3)=2; for n>3, a(n) = (a(n-1) + a(n-2))*a(n-3) - a(n-1).
 
-The programs for A263045, the canonical program `A263045.P3061787187047994210` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263045 has offset 1).
+The programs for A263045, the canonical program `A263045.P3061787187047994210` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263045 has offset 1).
 
 The definition of A263045 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(a(n-1)+a(n-2))*a(n-3)-a(n-1)` (program `A263045.P3061787187047994210`, by `A263045.P3061787187047994210.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3708,7 +3708,7 @@ The definition of A263045 is `verified`: the Lean definition is proven equivalen
 
 `(a(n-1)+a(n-2))*a(n-3)-a(n-1)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A263045
@@ -3818,7 +3818,7 @@ end A263045
 /-!
 # A263047: a(1)=0, a(2)=1, a(3)=2; for n>3, a(n) = a(n-3)*a(n-1) - a(n-2).
 
-The programs for A263047, the canonical program `A263047.P15818111117233098722` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263047 has offset 1).
+The programs for A263047, the canonical program `A263047.P15818111117233098722` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263047 has offset 1).
 
 The definition of A263047 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-3)*a(n-1)-a(n-2)` (program `A263047.P15818111117233098722`, by `A263047.P15818111117233098722.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3827,7 +3827,7 @@ The definition of A263047 is `verified`: the Lean definition is proven equivalen
 
 `a(n-3)*a(n-1)-a(n-2)` with `a(0)=0, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A263047
@@ -4236,6 +4236,55 @@ namespace A263053
 /-- `a(n-1)+4*a(n-2)-4*a(n-3)` -/
 def P18296417605436915471.Spec : Prop :=
   ∀ n, P18296417605436915471.a n = A263053 (n + 1)
+
+end A263053
+
+/-! ## A263053.P6617197977067826646
+
+`∑[ogf(2/(1-4x^2))]`
+-/
+
+namespace A263053.P6617197977067826646
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2] [1, 0, -4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A263053.P6617197977067826646
+
+namespace A263053
+
+/-- `∑[ogf(2/(1-4x^2))]` -/
+def P6617197977067826646.Spec : Prop :=
+  ∀ n, P6617197977067826646.a n = A263053 (n + 1)
+
+end A263053
+
+/-! ## A263053.P18110319180231314023
+
+`ogf(2/(1-x-4x^2+4x^3))`
+-/
+
+namespace A263053.P18110319180231314023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2] [1, -1, -4, 4] n
+
+end
+
+end A263053.P18110319180231314023
+
+namespace A263053
+
+/-- `ogf(2/(1-x-4x^2+4x^3))` -/
+def P18110319180231314023.Spec : Prop :=
+  ∀ n, P18110319180231314023.a n = A263053 (n + 1)
 
 end A263053
 

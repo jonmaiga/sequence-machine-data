@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,24 +9,26 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -74,7 +75,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -404,7 +404,7 @@ end A372009.P5947747308568023373
 /-!
 # A372010: a(n) is the n-digit number k such that R(k)/k is maximal for any n-digit number.
 
-The programs for A372010, the canonical program `A372010.P13239453453109512660` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372010 has offset 1).
+The programs for A372010, the canonical program `A372010.P13239453453109512660` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372010 has offset 1).
 
 The definition of A372010 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -413,7 +413,7 @@ The definition of A372010 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10^n+10^floor((n+1)/2)-1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372010
@@ -1213,7 +1213,7 @@ end A372024.P15071939419699659510
 /-!
 # A372025: Maximum second Zagreb index of maximal 3-degenerate graphs with n vertices.
 
-The programs for A372025, the canonical program `A372025.P17415173277823043255` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372025 has offset 3).
+The programs for A372025, the canonical program `A372025.P17415173277823043255` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372025 has offset 3).
 
 The definition of A372025 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1222,7 +1222,7 @@ The definition of A372025 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*(n+2)²+9*n*(n+2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372025
@@ -1430,7 +1430,7 @@ end A372025
 /-!
 # A372026: Minimum second Zagreb index of maximal 2-degenerate graphs with n vertices.
 
-The programs for A372026, the canonical program `A372026.P5785917258467364330` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372026 has offset 3).
+The programs for A372026, the canonical program `A372026.P5785917258467364330` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372026 has offset 3).
 
 The definition of A372026 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1439,7 +1439,7 @@ The definition of A372026 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=12, a(1)=33, a(2)=51, a(3)=86, a(4)=116, a(5)=147, a(6)=178, a(7)=210`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372026
@@ -1457,7 +1457,7 @@ end A372026
 /-!
 # A372027: Maximum second Zagreb index of maximal outerplanar graphs with n vertices.
 
-The programs for A372027, the canonical program `A372027.P18365135534611522926` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372027 has offset 3).
+The programs for A372027, the canonical program `A372027.P18365135534611522926` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372027 has offset 3).
 
 The definition of A372027 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1466,7 +1466,7 @@ The definition of A372027 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=12, a(1)=33, a(2)=61, a(3)=96, a(4)=135, a(5)=181, a(6)=233`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372027
@@ -1888,7 +1888,7 @@ end A372044.P7146436546396452853
 /-!
 # A372048: The index of the largest Fibonacci number that divides the sum of Fibonacci numbers with indices 1 through n.
 
-The programs for A372048, the canonical program `A372048.P4205978938136416610` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372048 has offset 1).
+The programs for A372048, the canonical program `A372048.P4205978938136416610` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372048 has offset 1).
 
 The definition of A372048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1897,7 +1897,7 @@ The definition of A372048 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-4)+2` with `a(0)=2, a(1)=3, a(2)=3, a(3)=2, a(4)=4, a(5)=5, a(6)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372048
@@ -3591,7 +3591,7 @@ end A372069.P13118570822268128297
 /-!
 # A372070: Triangular numbers that are 2 mod 4.
 
-The programs for A372070, the canonical program `A372070.P5727672437668011021` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372070 has offset 1).
+The programs for A372070, the canonical program `A372070.P5727672437668011021` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372070 has offset 1).
 
 The definition of A372070 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3600,7 +3600,7 @@ The definition of A372070 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=6, a(1)=10, a(2)=66, a(3)=78, a(4)=190`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372070
@@ -4237,6 +4237,29 @@ The programs for A372076, the canonical program `A372076.P11698522728107779967` 
 The definition of A372076 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 258 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A372076.P1638313793373156882
+
+`ogf((x-x^2)/(1-3x+3x^2-4x^3))`
+-/
+
+namespace A372076.P1638313793373156882
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -1] [1, -3, 3, -4] n
+
+end
+
+end A372076.P1638313793373156882
+
+namespace A372076
+
+/-- `ogf((x-x^2)/(1-3x+3x^2-4x^3))` -/
+def P1638313793373156882.Spec : Prop :=
+  ∀ n, P1638313793373156882.a n = A372076 n
+
+end A372076
+
 /-! ## A372076.P11060587970781514914
 
 `Δ[A372077(n)]`
@@ -4308,6 +4331,29 @@ The programs for A372077, the canonical program `A372077.P9338915996227738608` i
 
 The definition of A372077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 260 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A372077.P1034220919492331611
+
+`ogf(x^2/(1-3x+3x^2-4x^3))`
+-/
+
+namespace A372077.P1034220919492331611
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1] [1, -3, 3, -4] n
+
+end
+
+end A372077.P1034220919492331611
+
+namespace A372077
+
+/-- `ogf(x^2/(1-3x+3x^2-4x^3))` -/
+def P1034220919492331611.Spec : Prop :=
+  ∀ n, P1034220919492331611.a n = A372077 n
+
+end A372077
 
 /-! ## A372077.P9338915996227738608
 

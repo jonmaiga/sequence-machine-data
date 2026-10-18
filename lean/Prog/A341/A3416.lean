@@ -9,6 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -16,18 +17,19 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +43,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -8503,7 +8504,7 @@ end A341645.P11947977134093220049
 /-!
 # A341646: Numbers with a strictly superior squarefree divisor.
 
-The programs for A341646, the canonical program `A341646.P6426192055247341292` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341646 has offset 1).
+The programs for A341646, the canonical program `A341646.P6426192055247341292` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341646 has offset 1).
 
 The definition of A341646 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8752,7 +8753,7 @@ end A341646
 
 `lt[n+2, ∏{p}[n+2, #²]]+2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A341646
@@ -10619,7 +10620,7 @@ end A341669.P3171056512190866445
 /-!
 # A341671: Solutions y of the Diophantine equation 3*(x^2+x+1) = y^2.
 
-The programs for A341671, the canonical program `A341671.P3353358136079603621` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341671 has offset 1).
+The programs for A341671, the canonical program `A341671.P3353358136079603621` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341671 has offset 1).
 
 The definition of A341671 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10628,7 +10629,7 @@ The definition of A341671 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15*a(n-1)-15*a(n-2)+a(n-3)` with `a(0)=3, a(1)=39, a(2)=543`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A341671
@@ -10663,6 +10664,29 @@ namespace A341671
 /-- `3*A001570(n+1)` -/
 def P9612895652316927367.Spec : Prop :=
   ∀ n, P9612895652316927367.a n = A341671 (n + 1)
+
+end A341671
+
+/-! ## A341671.P17774530825068706459
+
+`ogf((3-3x)/(1-14x+x^2))`
+-/
+
+namespace A341671.P17774530825068706459
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -3] [1, -14, 1] n
+
+end
+
+end A341671.P17774530825068706459
+
+namespace A341671
+
+/-- `ogf((3-3x)/(1-14x+x^2))` -/
+def P17774530825068706459.Spec : Prop :=
+  ∀ n, P17774530825068706459.a n = A341671 (n + 1)
 
 end A341671
 

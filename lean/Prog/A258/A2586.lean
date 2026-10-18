@@ -13,25 +13,24 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
@@ -934,7 +933,7 @@ end A258611.P1914202021467415910
 /-!
 # A258613: Numbers m that are coprime to the largest square <= m, cf. A048760.
 
-The programs for A258613, the canonical program `A258613.P17510649986639930531` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258613 has offset 1).
+The programs for A258613, the canonical program `A258613.P17510649986639930531` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258613 has offset 1).
 
 The definition of A258613 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -943,7 +942,7 @@ The definition of A258613 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)/gcd(n+1, floor(sqrt(n+1)))]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258613
@@ -1070,7 +1069,7 @@ end A258613
 /-!
 # A258614: Numbers m having with the largest square <= m a common divisor > 1.
 
-The programs for A258614, the canonical program `A258614.P17162759967621084170` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258614 has offset 1).
+The programs for A258614, the canonical program `A258614.P17162759967621084170` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258614 has offset 1).
 
 The definition of A258614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1079,7 +1078,7 @@ The definition of A258614 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, gcd(n, floor(sqrt(n)))]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258614
@@ -1342,7 +1341,7 @@ end A258616.P16312940056939656515
 /-!
 # A258617: a(n) = (4*n+8)*n^2.
 
-The programs for A258617, the canonical program `A258617.P17463677008758038945` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258617 has offset 0).
+The programs for A258617, the canonical program `A258617.P17463677008758038945` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258617 has offset 0).
 
 The definition of A258617 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(4*n+8)*n²` (program `A258617.P17463677008758038945`, by `A258617.P17463677008758038945.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1351,7 +1350,7 @@ The definition of A258617 is `verified`: the Lean definition is proven equivalen
 
 `(4*n+8)*n²`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258617
@@ -1855,7 +1854,7 @@ end A258617
 /-!
 # A258618: a(n) = (4*n+9)*n^2.
 
-The programs for A258618, the canonical program `A258618.P12239949455466632365` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258618 has offset 0).
+The programs for A258618, the canonical program `A258618.P12239949455466632365` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258618 has offset 0).
 
 The definition of A258618 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(4*n+9)*n²` (program `A258618.P12239949455466632365`, by `A258618.P12239949455466632365.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1864,7 +1863,7 @@ The definition of A258618 is `verified`: the Lean definition is proven equivalen
 
 `(4*n+9)*n²`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258618
@@ -2375,7 +2374,7 @@ end A258620.P16146383296128220478
 /-!
 # A258622: a(1) = 2, a(n+1) = a(n) * (1 + n + a(n))/n.
 
-The programs for A258622, the canonical program `A258622.P16588516200621552141` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258622 has offset 1).
+The programs for A258622, the canonical program `A258622.P16588516200621552141` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258622 has offset 1).
 
 The definition of A258622 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2384,7 +2383,7 @@ The definition of A258622 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*(n+1+a(n-1))/n` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258622

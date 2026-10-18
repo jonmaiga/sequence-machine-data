@@ -4,27 +4,30 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C021
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,7 +35,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1028,6 +1030,21 @@ end A364313.P1691582324632582292
 The programs for A364316, there is no canonical definition to state claims against.
 -/
 
+/-! ## A364316.P4326726161274223510
+
+`ogf((1-x-3x^2+4x^3)/(1-3x-x^2+6x^3))`
+-/
+
+namespace A364316.P4326726161274223510
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -3, 4] [1, -3, -1, 6] n
+
+end
+
+end A364316.P4326726161274223510
+
 /-! ## A364316.P14726828367519763010
 
 `(n-1)*a(n-2)+8*(n-2)` with `a(0)=1, a(1)=2, a(2)=4`
@@ -1088,7 +1105,7 @@ end A364317.P4393507485660904865
 /-!
 # A364319: a(n) = (A077446(n) + 1)/2 for n >= 0.
 
-The programs for A364319, the canonical program `A364319.P2477563347350556282` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364319 has offset 0).
+The programs for A364319, the canonical program `A364319.P2477563347350556282` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364319 has offset 0).
 
 The definition of A364319 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1097,7 +1114,7 @@ The definition of A364319 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-2)-a(n-4)-2` with `a(0)=0, a(1)=1, a(2)=3, a(3)=6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A364319
@@ -3339,7 +3356,7 @@ end A364351
 /-!
 # A364352: a(n) is the number of regions into which the plane is divided by n lines parallel to each edge of an equilateral triangle with side n such that the lines extend the parallel edge and divide the other edges into unit segments.
 
-The programs for A364352, the canonical program `A364352.P2790401577086476792` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364352 has offset 1).
+The programs for A364352, the canonical program `A364352.P2790401577086476792` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364352 has offset 1).
 
 The definition of A364352 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3348,7 +3365,7 @@ The definition of A364352 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*(5*(n+1)+3)/2+3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A364352
@@ -3382,6 +3399,55 @@ namespace A364352
 /-- `∑[a(n-1)+5]` -/
 def P4047993533728262194.Spec : Prop :=
   ∀ n, (P4047993533728262194.a n : ℤ) = A364352 (n + 1)
+
+end A364352
+
+/-! ## A364352.P5837599095285170818
+
+`∑[ogf((7-5x+3x^2)/(1-2x+x^2))]`
+-/
+
+namespace A364352.P5837599095285170818
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, -5, 3] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A364352.P5837599095285170818
+
+namespace A364352
+
+/-- `∑[ogf((7-5x+3x^2)/(1-2x+x^2))]` -/
+def P5837599095285170818.Spec : Prop :=
+  ∀ n, P5837599095285170818.a n = A364352 (n + 1)
+
+end A364352
+
+/-! ## A364352.P15577420210323882218
+
+`ogf((7-5x+3x^2)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A364352.P15577420210323882218
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, -5, 3] [1, -3, 3, -1] n
+
+end
+
+end A364352.P15577420210323882218
+
+namespace A364352
+
+/-- `ogf((7-5x+3x^2)/(1-3x+3x^2-x^3))` -/
+def P15577420210323882218.Spec : Prop :=
+  ∀ n, P15577420210323882218.a n = A364352 (n + 1)
 
 end A364352
 

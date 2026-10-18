@@ -16,7 +16,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -24,11 +24,15 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -145,6 +149,55 @@ namespace A069403
 /-- `1+2*A027941(n)` -/
 def P2022651199511081233.Spec : Prop :=
   ∀ n, P2022651199511081233.a n = A069403 n
+
+end A069403
+
+/-! ## A069403.P4122809750898455963
+
+`∑[ogf((1-x+x^2)/(1-3x+x^2))]`
+-/
+
+namespace A069403.P4122809750898455963
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, 1] [1, -3, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A069403.P4122809750898455963
+
+namespace A069403
+
+/-- `∑[ogf((1-x+x^2)/(1-3x+x^2))]` -/
+def P4122809750898455963.Spec : Prop :=
+  ∀ n, P4122809750898455963.a n = A069403 n
+
+end A069403
+
+/-! ## A069403.P12995985100828454193
+
+`ogf((1-x+x^2)/(1-4x+4x^2-x^3))`
+-/
+
+namespace A069403.P12995985100828454193
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, 1] [1, -4, 4, -1] n
+
+end
+
+end A069403.P12995985100828454193
+
+namespace A069403
+
+/-- `ogf((1-x+x^2)/(1-4x+4x^2-x^3))` -/
+def P12995985100828454193.Spec : Prop :=
+  ∀ n, P12995985100828454193.a n = A069403 n
 
 end A069403
 
@@ -716,6 +769,29 @@ namespace A069429
 /-- `A084326(n+2)/2` -/
 def P11282281024164806613.Spec : Prop :=
   ∀ n, P11282281024164806613.a n = (A069429 (n + 1) : ℚ)
+
+end A069429
+
+/-! ## A069429.P3153427674443216276
+
+`ogf((3-2x)/(1-6x+4x^2))`
+-/
+
+namespace A069429.P3153427674443216276
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2] [1, -6, 4] n
+
+end
+
+end A069429.P3153427674443216276
+
+namespace A069429
+
+/-- `ogf((3-2x)/(1-6x+4x^2))` -/
+def P3153427674443216276.Spec : Prop :=
+  ∀ n, P3153427674443216276.a n = A069429 (n + 1)
 
 end A069429
 
@@ -5449,7 +5525,7 @@ end A069483
 /-!
 # A069484: a(n) = prime(n+1)^2 + prime(n)^2.
 
-The programs for A069484, the canonical program `A069484.P12309562123868272033` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069484 has offset 1).
+The programs for A069484, the canonical program `A069484.P12309562123868272033` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069484 has offset 1).
 
 The definition of A069484 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048851, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5458,7 +5534,7 @@ The definition of A069484 is `conditional`: the Lean definition is an OEIS formu
 
 `A048851(n+2)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A069484

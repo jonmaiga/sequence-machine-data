@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,6 +9,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -17,18 +17,20 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C019
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,11 +44,11 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -1634,7 +1636,7 @@ end A370626.P13124207240195438766
 /-!
 # A370627: a(n) = 2^(n - 1)*((-1)^(n + 1) + 7*2^n)/3 = 2^(n - 1)*A062092(n).
 
-The programs for A370627, the canonical program `A370627.P11802343042202960112` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370627 has offset 0).
+The programs for A370627, the canonical program `A370627.P11802343042202960112` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370627 has offset 0).
 
 The definition of A370627 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1643,7 +1645,7 @@ The definition of A370627 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+8*a(n-2)` with `a(0)=1, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370627
@@ -1728,6 +1730,29 @@ namespace A370627
 /-- `2^(n-1)*A062092(n)` -/
 def P7115654260218414470.Spec : Prop :=
   ∀ n, P7115654260218414470.a n = (A370627 n : ℚ)
+
+end A370627
+
+/-! ## A370627.P4429869637265740488
+
+`ogf((1+3x)/(1-2x-8x^2))`
+-/
+
+namespace A370627.P4429869637265740488
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3] [1, -2, -8] n
+
+end
+
+end A370627.P4429869637265740488
+
+namespace A370627
+
+/-- `ogf((1+3x)/(1-2x-8x^2))` -/
+def P4429869637265740488.Spec : Prop :=
+  ∀ n, P4429869637265740488.a n = A370627 n
 
 end A370627
 
@@ -3279,7 +3304,7 @@ end A370648.P10245580569017476105
 /-!
 # A370649: Dimension of space of equivariant linear maps from R^{n^3} to R^{n^3} under diagonal action of {-1, 1}^n.
 
-The programs for A370649, the canonical program `A370649.P9233916880484194882` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370649 has offset 0).
+The programs for A370649, the canonical program `A370649.P9233916880484194882` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370649 has offset 0).
 
 The definition of A370649 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3288,7 +3313,7 @@ The definition of A370649 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((15*n-30)*n+16)*n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370649
@@ -4107,7 +4132,7 @@ end A370661.P16243110265616340142
 /-!
 # A370662: Numbers m such that 3 does not divide the m-th Catalan number A000108(m); m such that A067397(m) = 0.
 
-The programs for A370662, the canonical program `A370662.P9386268318337991202` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370662 has offset 1).
+The programs for A370662, the canonical program `A370662.P9386268318337991202` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370662 has offset 1).
 
 The definition of A370662 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4116,7 +4141,7 @@ The definition of A370662 is `conjectured`: the Lean definition is a formula tha
 
 `(record[3-(a(n-2)+a(xor(n, n-2)/2))]-2)/3` with `a(0)=2, a(1)=2, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370662
@@ -4549,7 +4574,7 @@ end A370668.P2797950966036356121
 /-!
 # A370669: Expansion of Sum_{k>=0} k! * ( x/(1+x^2) )^k.
 
-The programs for A370669, the canonical program `A370669.P6949341186884511879` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370669 has offset 0).
+The programs for A370669, the canonical program `A370669.P6949341186884511879` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370669 has offset 0).
 
 The definition of A370669 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4558,7 +4583,7 @@ The definition of A370669 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+(n-4)*a(n-3)+a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=5, a(4)=20`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370669
@@ -4628,7 +4653,7 @@ end A370669
 /-!
 # A370670: Expansion of Sum_{k>=0} k! * ( x/(1+x^3) )^k.
 
-The programs for A370670, the canonical program `A370670.P7028708747106469246` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370670 has offset 0).
+The programs for A370670, the canonical program `A370670.P7028708747106469246` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370670 has offset 0).
 
 The definition of A370670 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4637,7 +4662,7 @@ The definition of A370670 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+a(n-3)+(n-6)*a(n-4)+2*a(n-6)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=6, a(4)=23, a(5)=116, a(6)=702`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A370670

@@ -5,7 +5,6 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -17,17 +16,16 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C021
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,12 +34,10 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -692,7 +688,7 @@ end A331209.P9825829046982322552
 /-!
 # A331211: Number of green nodes in n-th power graph W exponentiation of a cycle graph with 7 blue nodes and one green node.
 
-The programs for A331211, the canonical program `A331211.P16800113602452075746` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331211 has offset 0).
+The programs for A331211, the canonical program `A331211.P16800113602452075746` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331211 has offset 0).
 
 The definition of A331211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -701,7 +697,7 @@ The definition of A331211 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-3*a(n-2)` with `a(0)=1, a(1)=15`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A331211
@@ -713,6 +709,29 @@ def P16800113602452075746.Spec : Prop :=
 theorem P16800113602452075746.correct : P16800113602452075746.Spec := by
   intro n
   simp only [A331211]
+
+end A331211
+
+/-! ## A331211.P7094312605874400638
+
+`ogf((1+7x)/(1-8x+3x^2))`
+-/
+
+namespace A331211.P7094312605874400638
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 7] [1, -8, 3] n
+
+end
+
+end A331211.P7094312605874400638
+
+namespace A331211
+
+/-- `ogf((1+7x)/(1-8x+3x^2))` -/
+def P7094312605874400638.Spec : Prop :=
+  ∀ n, P7094312605874400638.a n = A331211 n
 
 end A331211
 
@@ -3993,7 +4012,7 @@ end A331260
 /-!
 # A331261: List of pairs of consecutive integers such that one of them is a square and their sum is also a square.
 
-The programs for A331261, the canonical program `A331261.P13496405217085940053` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331261 has offset 1).
+The programs for A331261, the canonical program `A331261.P13496405217085940053` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331261 has offset 1).
 
 The definition of A331261 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4002,7 +4021,7 @@ The definition of A331261 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A111766(n+1), Δ[A084158(n)]]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A331261

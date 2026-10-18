@@ -12,17 +12,17 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -31,11 +31,12 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -1256,6 +1257,29 @@ def P17304327699620158115.Spec : Prop :=
 theorem P17304327699620158115.correct : P17304327699620158115.Spec := by
   intro n
   simp only [A244213]
+
+end A244213
+
+/-! ## A244213.P10377336848456059356
+
+`ogf((-2-x+5x^2)/(1+2x-x^3))`
+-/
+
+namespace A244213.P10377336848456059356
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [-2, -1, 5] [1, 2, 0, -1] n
+
+end
+
+end A244213.P10377336848456059356
+
+namespace A244213
+
+/-- `ogf((-2-x+5x^2)/(1+2x-x^3))` -/
+def P10377336848456059356.Spec : Prop :=
+  ∀ n, P10377336848456059356.a n = A244213 n
 
 end A244213
 
@@ -6743,7 +6767,7 @@ end A244236.P5524666333246972278
 /-!
 # A244239: Number of partitions of n into 3 parts such that every i-th smallest part (counted with multiplicity) is different from i.
 
-The programs for A244239, the canonical program `A244239.P5054183489572206621` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244239 has offset 9).
+The programs for A244239, the canonical program `A244239.P5054183489572206621` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244239 has offset 9).
 
 The definition of A244239 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6752,7 +6776,7 @@ The definition of A244239 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-4)-a(n-5)+a(n-6)` with `a(0)=1, a(1)=3, a(2)=4, a(3)=6, a(4)=7, a(5)=9, a(6)=11`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244239
@@ -8920,7 +8944,7 @@ end A244276.P16318856669611985883
 /-!
 # A244277: Rounded percent chance that n heads appear in 2n tosses of a fair coin.
 
-The programs for A244277, the canonical program `A244277.P1362876442828692025` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244277 has offset 1).
+The programs for A244277, the canonical program `A244277.P1362876442828692025` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244277 has offset 1).
 
 The definition of A244277 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5758 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8929,7 +8953,7 @@ The definition of A244277 is `conjectured`: the Lean definition is a formula tha
 
 `round(record[(n+1)/a(n-1)]/(n+1))` with `a(0)=50`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A244277

@@ -6,6 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -15,19 +16,20 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,6 +46,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -325,7 +328,7 @@ end A260004.P11674762601792844287
 /-!
 # A260006: a(n) = f(1,n,n), where f is the Sudan function defined in A260002.
 
-The programs for A260006, the canonical program `A260006.P2530189703620274755` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260006 has offset 0).
+The programs for A260006, the canonical program `A260006.P2530189703620274755` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260006 has offset 0).
 
 The definition of A260006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -334,7 +337,7 @@ The definition of A260006 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^n-1)*(n+2)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A260006
@@ -415,6 +418,58 @@ namespace A260006
 /-- `record[n*(2^(n-2)-1)]` -/
 def P12411432233888347763.Spec : Prop :=
   ∀ n, P12411432233888347763.a n = (A260006 n : ℚ)
+
+end A260006
+
+/-! ## A260006.P16137390979506643350
+
+`∑[ogf((1-2x^2)/(1-4x+4x^2))]-(n+1)`
+-/
+
+namespace A260006.P16137390979506643350
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -2] [1, -4, 4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - (n + 1 : ℤ)
+
+end
+
+end A260006.P16137390979506643350
+
+namespace A260006
+
+/-- `∑[ogf((1-2x^2)/(1-4x+4x^2))]-(n+1)` -/
+def P16137390979506643350.Spec : Prop :=
+  ∀ n, P16137390979506643350.a n = A260006 n
+
+end A260006
+
+/-! ## A260006.P2661974877623463100
+
+`∑[ogf((1-2x^2)/(1-4x+4x^2))]-1-n`
+-/
+
+namespace A260006.P2661974877623463100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -2] [1, -4, 4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - 1 - (n : ℤ)
+
+end
+
+end A260006.P2661974877623463100
+
+namespace A260006
+
+/-- `∑[ogf((1-2x^2)/(1-4x+4x^2))]-1-n` -/
+def P2661974877623463100.Spec : Prop :=
+  ∀ n, P2661974877623463100.a n = A260006 n
 
 end A260006
 
@@ -1765,7 +1820,7 @@ end A260022
 /-!
 # A260023: a(1)=77; thereafter form the product of the digits of the previous term.
 
-The programs for A260023, the canonical program `A260023.P14841697363405765265` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260023 has offset 1).
+The programs for A260023, the canonical program `A260023.P14841697363405765265` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260023 has offset 1).
 
 The definition of A260023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1774,7 +1829,7 @@ The definition of A260023 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=77, a(1)=49, a(2)=36, a(3)=18, a(4)=8`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A260023
@@ -1792,7 +1847,7 @@ end A260023
 /-!
 # A260033: Number of configurations of the general monomer-dimer model for a 2 X 2n square lattice.
 
-The programs for A260033, the canonical program `A260033.P6308168287745909786` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260033 has offset 0).
+The programs for A260033, the canonical program `A260033.P6308168287745909786` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260033 has offset 0).
 
 The definition of A260033 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1801,7 +1856,7 @@ The definition of A260033 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `11*a(n-1)-7*a(n-2)+a(n-3)` with `a(0)=1, a(1)=7, a(2)=71`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A260033

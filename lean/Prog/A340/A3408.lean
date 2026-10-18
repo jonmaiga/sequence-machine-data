@@ -17,18 +17,19 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2591,6 +2593,29 @@ namespace A340849
 /-- `n+floor(2^n/3)` -/
 def P14040821464964834838.Spec : Prop :=
   ∀ n, P14040821464964834838.a n = A340849 n
+
+end A340849
+
+/-! ## A340849.P12727964150073180882
+
+`ogf((x-3x^3)/(1-3x+x^2+3x^3-2x^4))`
+-/
+
+namespace A340849.P12727964150073180882
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, -3] [1, -3, 1, 3, -2] n
+
+end
+
+end A340849.P12727964150073180882
+
+namespace A340849
+
+/-- `ogf((x-3x^3)/(1-3x+x^2+3x^3-2x^4))` -/
+def P12727964150073180882.Spec : Prop :=
+  ∀ n, P12727964150073180882.a n = A340849 n
 
 end A340849
 
@@ -6232,7 +6257,7 @@ end A340896.P11902055978957877591
 /-!
 # A340898: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(3,n) (with n at least 4) missing three edges, where all three removed edges are incident to the same vertex in the 3-point set.
 
-The programs for A340898, the canonical program `A340898.P15552997699913965440` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340898 has offset 4).
+The programs for A340898, the canonical program `A340898.P15552997699913965440` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340898 has offset 4).
 
 The definition of A340898 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6241,7 +6266,7 @@ The definition of A340898 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `27*7^(n+1)-29*3^(n+1)+2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340898
@@ -6259,7 +6284,7 @@ end A340898
 /-!
 # A340899: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(4,n) (with n at least 4) missing three edges, where all three removed edges are incident to the same vertex in the 4-point set.
 
-The programs for A340899, the canonical program `A340899.P11700652085156554926` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340899 has offset 4).
+The programs for A340899, the canonical program `A340899.P11700652085156554926` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340899 has offset 4).
 
 The definition of A340899 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6268,7 +6293,7 @@ The definition of A340899 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `343*15^(n+1)-424*7^(n+1)+28*3^(n+2)-3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A340899

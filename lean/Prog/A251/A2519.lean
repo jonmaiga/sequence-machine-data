@@ -10,24 +10,22 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2943,7 +2941,7 @@ end A251934.P15191983098513494206
 /-!
 # A251936: Number of length 2+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 
-The programs for A251936, the canonical program `A251936.P1853242683888625401` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251936 has offset 1).
+The programs for A251936, the canonical program `A251936.P1853242683888625401` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251936 has offset 1).
 
 The definition of A251936 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2952,7 +2950,7 @@ The definition of A251936 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=10, a(1)=43, a(2)=120, a(3)=265, a(4)=506`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A251936
@@ -4942,7 +4940,7 @@ end A251961.P8400272610899721244
 /-!
 # A251963: Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to an octagonal number N(m) for some m.
 
-The programs for A251963, the canonical program `A251963.P15171526515360193077` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251963 has offset 1).
+The programs for A251963, the canonical program `A251963.P15171526515360193077` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251963 has offset 1).
 
 The definition of A251963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4951,7 +4949,7 @@ The definition of A251963 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `14*a(n-1)-a(n-2)+12` with `a(0)=0, a(1)=14`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A251963
@@ -4963,6 +4961,32 @@ def P15171526515360193077.Spec : Prop :=
 theorem P15171526515360193077.correct : P15171526515360193077.Spec := by
   intro n
   simp only [A251963, Nat.add_sub_cancel]
+
+end A251963
+
+/-! ## A251963.P11352588483687406836
+
+`∑[ogf((2-14x)/(1-14x+x^2))]-2`
+-/
+
+namespace A251963.P11352588483687406836
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -14] [1, -14, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - 2
+
+end
+
+end A251963.P11352588483687406836
+
+namespace A251963
+
+/-- `∑[ogf((2-14x)/(1-14x+x^2))]-2` -/
+def P11352588483687406836.Spec : Prop :=
+  ∀ n, P11352588483687406836.a n = A251963 (n + 1)
 
 end A251963
 

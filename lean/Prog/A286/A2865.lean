@@ -9,10 +9,10 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -29,7 +29,8 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -548,7 +549,7 @@ end A286506.P12704824166477603223
 /-!
 # A286507: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 190", based on the 5-celled von Neumann neighborhood.
 
-The programs for A286507, the canonical program `A286507.P11972298538238567441` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286507 has offset 0).
+The programs for A286507, the canonical program `A286507.P11972298538238567441` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286507 has offset 0).
 
 The definition of A286507 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -557,7 +558,7 @@ The definition of A286507 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10^floor(n/2)`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A286507
@@ -565,6 +566,29 @@ namespace A286507
 /-- `10^floor(n/2)` -/
 def P11972298538238567441.Spec : Prop :=
   ∀ n, P11972298538238567441.a n = (A286507 n : ℚ)
+
+end A286507
+
+/-! ## A286507.P17111416946191238578
+
+`ogf((1+x)/(1-10x^2))`
+-/
+
+namespace A286507.P17111416946191238578
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, 0, -10] n
+
+end
+
+end A286507.P17111416946191238578
+
+namespace A286507
+
+/-- `ogf((1+x)/(1-10x^2))` -/
+def P17111416946191238578.Spec : Prop :=
+  ∀ n, P17111416946191238578.a n = A286507 n
 
 end A286507
 
@@ -1004,7 +1028,7 @@ end A286507
 /-!
 # A286508: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 190", based on the 5-celled von Neumann neighborhood.
 
-The programs for A286508, the canonical program `A286508.P14124605830329588782` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286508 has offset 0).
+The programs for A286508, the canonical program `A286508.P14124605830329588782` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286508 has offset 0).
 
 The definition of A286508 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1088,7 +1112,7 @@ end A286508
 
 `∏[C(10, and(1, n))]`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A286508
@@ -1152,6 +1176,29 @@ namespace A286508
 /-- `∏[gcd(10, log2(gcd(2, n)))]` -/
 def P10893422720728468776.Spec : Prop :=
   ∀ n, (P10893422720728468776.a n : ℤ) = A286508 n
+
+end A286508
+
+/-! ## A286508.P973668342472739322
+
+`ogf((1+10x)/(1-10x^2))`
+-/
+
+namespace A286508.P973668342472739322
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 10] [1, 0, -10] n
+
+end
+
+end A286508.P973668342472739322
+
+namespace A286508
+
+/-- `ogf((1+10x)/(1-10x^2))` -/
+def P973668342472739322.Spec : Prop :=
+  ∀ n, P973668342472739322.a n = A286508 n
 
 end A286508
 
@@ -2668,7 +2715,7 @@ end A286520.P9192993731271329674
 /-!
 # A286521: Decimal representation of the diagonal from the origin to the corner (or of the corner to the origin) of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 659", based on the 5-celled von Neumann neighborhood.
 
-The programs for A286521, the canonical program `A286521.P12715905332727512032` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286521 has offset 0).
+The programs for A286521, the canonical program `A286521.P12715905332727512032` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286521 has offset 0).
 
 The definition of A286521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2677,7 +2724,7 @@ The definition of A286521 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-2*a(n-2)` with `a(0)=1, a(1)=3, a(2)=5, a(3)=15, a(4)=31`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A286521
@@ -2689,6 +2736,29 @@ def P12715905332727512032.Spec : Prop :=
 theorem P12715905332727512032.correct : P12715905332727512032.Spec := by
   intro n
   simp only [A286521]
+
+end A286521
+
+/-! ## A286521.P126994347414957647
+
+`ogf((1-2x^2+6x^3-4x^4)/(1-3x+2x^2))`
+-/
+
+namespace A286521.P126994347414957647
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -2, 6, -4] [1, -3, 2] n
+
+end
+
+end A286521.P126994347414957647
+
+namespace A286521
+
+/-- `ogf((1-2x^2+6x^3-4x^4)/(1-3x+2x^2))` -/
+def P126994347414957647.Spec : Prop :=
+  ∀ n, P126994347414957647.a n = A286521 n
 
 end A286521
 

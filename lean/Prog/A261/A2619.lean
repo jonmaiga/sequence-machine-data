@@ -17,6 +17,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -24,9 +25,12 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C027
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,17 +44,18 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3573,7 +3578,7 @@ end A261949.P10845048986429440449
 /-!
 # A261950: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable vertex of the triangles of the (n-1)-th generation (this is the "side to vertex" version); for the even n-th generation use the "vertex to vertex" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261950, the canonical program `A261950.P8490719290162573377` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261950 has offset 0).
+The programs for A261950, the canonical program `A261950.P8490719290162573377` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261950 has offset 0).
 
 The definition of A261950 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3582,7 +3587,7 @@ The definition of A261950 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=12, a(4)=30, a(5)=18, a(6)=45`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A261950
@@ -3600,7 +3605,7 @@ end A261950
 /-!
 # A261952: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable vertex of the triangles of the (n-1)-th generation (this is the "vertex to vertex" version); for the even n-th generation use the "side to side" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261952, the canonical program `A261952.P12319966046607131847` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261952 has offset 0).
+The programs for A261952, the canonical program `A261952.P12319966046607131847` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261952 has offset 0).
 
 The definition of A261952 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3609,7 +3614,7 @@ The definition of A261952 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=18, a(4)=18, a(5)=24, a(6)=27`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A261952
@@ -3650,7 +3655,7 @@ end A261952
 /-!
 # A261953: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable side of the triangles of the (n-1)-th generation (this is the "side to side" version); for the even n-th generation use the "vertex to vertex" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261953, the canonical program `A261953.P16704326897162781353` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261953 has offset 0).
+The programs for A261953, the canonical program `A261953.P16704326897162781353` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261953 has offset 0).
 
 The definition of A261953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3659,7 +3664,7 @@ The definition of A261953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=12`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A261953
@@ -3801,6 +3806,35 @@ def P10553751469386036271.Spec : Prop :=
 
 end A261953
 
+/-! ## A261953.P16408471401083128939
+
+`∑[∑[ogf((1+2x+5x^2+x^3)/(1+x))]]`
+-/
+
+namespace A261953.P16408471401083128939
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 5, 1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A261953.P16408471401083128939
+
+namespace A261953
+
+/-- `∑[∑[ogf((1+2x+5x^2+x^3)/(1+x))]]` -/
+def P16408471401083128939.Spec : Prop :=
+  ∀ n, P16408471401083128939.a n = A261953 n
+
+end A261953
+
 /-! ## A261953.P4270139601262353370
 
 `∑[3*a(∑[(-1)^n])]` with `a(0)=1, a(1)=2`
@@ -3827,6 +3861,29 @@ namespace A261953
 /-- `∑[3*a(∑[(-1)^n])]` -/
 def P4270139601262353370.Spec : Prop :=
   ∀ n, (P4270139601262353370.a n : ℤ) = A261953 n
+
+end A261953
+
+/-! ## A261953.P4684867709428164186
+
+`ogf((1+2x+5x^2+x^3)/(1-x-x^2+x^3))`
+-/
+
+namespace A261953.P4684867709428164186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 5, 1] [1, -1, -1, 1] n
+
+end
+
+end A261953.P4684867709428164186
+
+namespace A261953
+
+/-- `ogf((1+2x+5x^2+x^3)/(1-x-x^2+x^3))` -/
+def P4684867709428164186.Spec : Prop :=
+  ∀ n, P4684867709428164186.a n = A261953 n
 
 end A261953
 
@@ -4092,7 +4149,7 @@ end A261953
 /-!
 # A261954: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable side of the triangles of the (n-1)-th generation (this is the "side to side" version); for the even n-th generation use the "side to vertex" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261954, the canonical program `A261954.P7192592713755380136` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261954 has offset 0).
+The programs for A261954, the canonical program `A261954.P7192592713755380136` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261954 has offset 0).
 
 The definition of A261954 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4101,7 +4158,7 @@ The definition of A261954 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=3, a(3)=6, a(4)=12, a(5)=15, a(6)=21`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A261954

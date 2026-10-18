@@ -2,38 +2,39 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C032
+import Seq.B000.C027
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
@@ -1643,7 +1644,7 @@ end A381218
 /-!
 # A381219: a(n) = (6^n+2^n-2*3^n)*(n-1)!/2.
 
-The programs for A381219, the canonical program `A381219.P13015048653927296569` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381219 has offset 1).
+The programs for A381219, the canonical program `A381219.P13015048653927296569` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381219 has offset 1).
 
 The definition of A381219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1652,7 +1653,7 @@ The definition of A381219 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6^(n+1)+2^(n+1)-2*3^(n+1))*n!/2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A381219
@@ -2098,7 +2099,7 @@ end A381226.P6186931687847521433
 /-!
 # A381232: Count down from k to -k for k = 0, 1, 2, ... .
 
-The programs for A381232, the canonical program `A381232.P8771641921475039308` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381232 has offset 0).
+The programs for A381232, the canonical program `A381232.P8771641921475039308` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381232 has offset 0).
 
 The definition of A381232 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2107,7 +2108,7 @@ The definition of A381232 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n))*(floor(sqrt(n))+1)-n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A381232
@@ -2447,7 +2448,7 @@ end A381232
 /-!
 # A381233: Concatenate the sequences S(k) = [0, 1, -1, ..., k, -k] for k = 0, 1, ...
 
-The programs for A381233, the canonical program `A381233.P13633514905474936498` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381233 has offset 0).
+The programs for A381233, the canonical program `A381233.P13633514905474936498` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381233 has offset 0).
 
 The definition of A381233 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2456,7 +2457,7 @@ The definition of A381233 is `conjectured`: the Lean definition is a formula tha
 
 `A001057(n-floor(sqrt(n))²)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A381233
@@ -3418,7 +3419,7 @@ end A381253.P14127032165213169068
 /-!
 # A381255: Positive integers not of the form round(2^(k+2)/5). Complement of A007910.
 
-The programs for A381255, the canonical program `A381255.P14805503171048512925` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381255 has offset 1).
+The programs for A381255, the canonical program `A381255.P14805503171048512925` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381255 has offset 1).
 
 The definition of A381255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3427,7 +3428,7 @@ The definition of A381255 is `conjectured`: the Lean definition is a formula tha
 
 `comp[floor(A056469(n)/5)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A381255

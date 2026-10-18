@@ -3,30 +3,28 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -74,7 +72,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -801,7 +798,7 @@ end A379917
 /-!
 # A379921: Partial alternating sums of the sigma_2 function: a(n) = Sum_{k=1..n} (-1)^(k+1) * sigma_2(k).
 
-The programs for A379921, the canonical program `A379921.P2332222602136164390` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379921 has offset 1).
+The programs for A379921, the canonical program `A379921.P2332222602136164390` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379921 has offset 1).
 
 The definition of A379921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -810,7 +807,7 @@ The definition of A379921 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(-1)^n*∑{d}[n+1, #²]]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379921
@@ -2510,7 +2507,7 @@ end A379957.P13036605244770301504
 /-!
 # A379958: a(n) = 1 if n has more semiprime divisors than distinct prime factors, otherwise 0.
 
-The programs for A379958, the canonical program `A379958.P5255491644438947746` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379958 has offset 1).
+The programs for A379958, the canonical program `A379958.P5255491644438947746` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379958 has offset 1).
 
 The definition of A379958 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2519,7 +2516,7 @@ The definition of A379958 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑{e}[n+1, ceil(atan(#))]/4)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379958
@@ -2665,7 +2662,7 @@ end A379958
 /-!
 # A379959: a(n) = 1 if sigma(phi(n)) < n, otherwise 0.
 
-The programs for A379959, the canonical program `A379959.P2753635732202418070` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379959 has offset 1).
+The programs for A379959, the canonical program `A379959.P2753635732202418070` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379959 has offset 1).
 
 The definition of A379959 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2674,7 +2671,7 @@ The definition of A379959 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n/∑{d}[(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], #])`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379959

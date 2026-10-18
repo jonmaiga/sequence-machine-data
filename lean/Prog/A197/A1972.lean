@@ -6,26 +6,26 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1068,7 +1068,7 @@ end A197210.P1662030529903095723
 /-!
 # A197211: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,3,2,1,0 for x=0,1,2,3,4.
 
-The programs for A197211, the canonical program `A197211.P7418357946200209690` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197211 has offset 1).
+The programs for A197211, the canonical program `A197211.P7418357946200209690` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197211 has offset 1).
 
 The definition of A197211 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1077,7 +1077,7 @@ The definition of A197211 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-2)+2*a(n-3)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=5, a(3)=8, a(4)=18`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197211
@@ -4161,7 +4161,7 @@ end A197243.P6908191415842016689
 /-!
 # A197244: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 0,0,1,1,1 for x=0,1,2,3,4.
 
-The programs for A197244, the canonical program `A197244.P17749954141902796861` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197244 has offset 1).
+The programs for A197244, the canonical program `A197244.P17749954141902796861` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197244 has offset 1).
 
 The definition of A197244 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4170,7 +4170,7 @@ The definition of A197244 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-2)+2*a(n-3)+a(n-4)-2*a(n-5)` with `a(0)=2, a(1)=4, a(2)=8, a(3)=16, a(4)=40`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197244

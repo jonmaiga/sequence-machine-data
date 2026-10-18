@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,21 +9,24 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C011
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,6 +34,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2362,7 +2365,7 @@ end A241028.P8073050244576671263
 /-!
 # A241029: Sum of n-th powers of divisors of 22.
 
-The programs for A241029, the canonical program `A241029.P6849882888799114982` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241029 has offset 0).
+The programs for A241029, the canonical program `A241029.P6849882888799114982` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241029 has offset 0).
 
 The definition of A241029 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2371,7 +2374,7 @@ The definition of A241029 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+2^n)*(1+11^n)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241029
@@ -2504,7 +2507,7 @@ end A241029
 /-!
 # A241030: Sum of n-th powers of divisors of 26.
 
-The programs for A241030, the canonical program `A241030.P4556483321455772948` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241030 has offset 0).
+The programs for A241030, the canonical program `A241030.P4556483321455772948` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241030 has offset 0).
 
 The definition of A241030 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2513,7 +2516,7 @@ The definition of A241030 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+2^n)*(1+13^n)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241030
@@ -2626,7 +2629,7 @@ end A241030
 /-!
 # A241031: Sum of n-th powers of divisors of 28.
 
-The programs for A241031, the canonical program `A241031.P16690926330113496279` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241031 has offset 0).
+The programs for A241031, the canonical program `A241031.P16690926330113496279` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241031 has offset 0).
 
 The definition of A241031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2635,7 +2638,7 @@ The definition of A241031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4^n+2^n+1)*(7^n+1)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241031
@@ -2722,7 +2725,7 @@ end A241031
 /-!
 # A241032: Sum of n-th powers of divisors of 30.
 
-The programs for A241032, the canonical program `A241032.P10091637073097410406` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241032 has offset 0).
+The programs for A241032, the canonical program `A241032.P10091637073097410406` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241032 has offset 0).
 
 The definition of A241032 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2731,7 +2734,7 @@ The definition of A241032 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+2^n)*(1+3^n)*(1+5^n)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241032
@@ -3309,7 +3312,7 @@ end A241037.P2641117982356664208
 /-!
 # A241038: a(n) = A000217(A058481(n)).
 
-The programs for A241038, the canonical program `A241038.P1926185971484958833` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241038 has offset 0).
+The programs for A241038, the canonical program `A241038.P1926185971484958833` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241038 has offset 0).
 
 The definition of A241038 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3318,7 +3321,7 @@ The definition of A241038 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/2*3^(2*n)-3/2*3^n+1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241038
@@ -7455,7 +7458,7 @@ end A241082.P4586507579570541342
 /-!
 # A241083: LCM of n and largest integer <= sqrt(n).
 
-The programs for A241083, the canonical program `A241083.P5344495399168875109` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241083 has offset 1).
+The programs for A241083, the canonical program `A241083.P5344495399168875109` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241083 has offset 1).
 
 The definition of A241083 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7464,7 +7467,7 @@ The definition of A241083 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `lcm(n+1, floor(sqrt(n+1)))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241083
@@ -9060,7 +9063,7 @@ end A241093.P7442999562242636555
 /-!
 # A241095: a(n) = (5^n - 1)^n.
 
-The programs for A241095, the canonical program `A241095.P15583364560229032221` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241095 has offset 0).
+The programs for A241095, the canonical program `A241095.P15583364560229032221` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241095 has offset 0).
 
 The definition of A241095 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5^n-1)^n` (program `A241095.P15583364560229032221`, by `A241095.P15583364560229032221.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9069,7 +9072,7 @@ The definition of A241095 is `verified`: the Lean definition is proven equivalen
 
 `(5^n-1)^n`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241095
@@ -9345,7 +9348,7 @@ end A241097.P9748941843593675219
 /-!
 # A241098: a(n) = (4^n - 1)^n.
 
-The programs for A241098, the canonical program `A241098.P17497424048117264642` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241098 has offset 0).
+The programs for A241098, the canonical program `A241098.P17497424048117264642` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241098 has offset 0).
 
 The definition of A241098 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(4^n-1)^n` (program `A241098.P17497424048117264642`, by `A241098.P17497424048117264642.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9354,7 +9357,7 @@ The definition of A241098 is `verified`: the Lean definition is proven equivalen
 
 `(4^n-1)^n`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A241098

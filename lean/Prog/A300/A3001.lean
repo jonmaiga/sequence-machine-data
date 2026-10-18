@@ -2,9 +2,9 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -13,21 +13,23 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
+import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B002.C000
@@ -38,10 +40,10 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -6016,16 +6018,39 @@ end A300176.P4590947261194689998
 /-!
 # A300177: Number of nX3 0..1 arrays with every element equal to 0, 1, 2, 3, 4, 5, 6 or 7 king-move adjacent elements, with upper left element zero.
 
-The programs for A300177, the canonical program `A300177.P8645473972523018361` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300177 has offset 1).
+The programs for A300177, the canonical program `A300177.P8645473972523018361` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300177 has offset 1).
 
 The definition of A300177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A300177.P8050366397697792325
+
+`ogf((4+4x+3x^2)/(1-7x-7x^2-6x^3))`
+-/
+
+namespace A300177.P8050366397697792325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 4, 3] [1, -7, -7, -6] n
+
+end
+
+end A300177.P8050366397697792325
+
+namespace A300177
+
+/-- `ogf((4+4x+3x^2)/(1-7x-7x^2-6x^3))` -/
+def P8050366397697792325.Spec : Prop :=
+  ∀ n, P8050366397697792325.a n = A300177 (n + 1)
+
+end A300177
 
 /-! ## A300177.P8645473972523018361
 
 `7*a(n-1)+7*a(n-2)+6*a(n-3)` with `a(0)=4, a(1)=32, a(2)=255`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A300177

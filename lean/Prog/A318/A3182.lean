@@ -9,22 +9,22 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -81,7 +81,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1951,7 +1950,7 @@ end A318231.P11790465748354611493
 /-!
 # A318236: a(n) = (3*2^(4*n+3) + 1)/5.
 
-The programs for A318236, the canonical program `A318236.P17979229431790872304` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318236 has offset 0).
+The programs for A318236, the canonical program `A318236.P17979229431790872304` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A318236 has offset 0).
 
 The definition of A318236 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3*2^(4*n+3)+1)/5` (program `A318236.P16385439092479771146`, by `A318236.P16385439092479771146.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1960,7 +1959,7 @@ The definition of A318236 is `verified`: the Lean definition is proven equivalen
 
 `17*a(n-1)-16*a(n-2)` with `a(0)=5, a(1)=77`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A318236
@@ -2015,6 +2014,29 @@ theorem P16385439092479771146.correct : P16385439092479771146.Spec := by
       push_cast at h1 h2 ⊢
       rw [← h1, ← h2]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A318236
+
+/-! ## A318236.P18389584712743324835
+
+`ogf((5-8x)/(1-17x+16x^2))`
+-/
+
+namespace A318236.P18389584712743324835
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -8] [1, -17, 16] n
+
+end
+
+end A318236.P18389584712743324835
+
+namespace A318236
+
+/-- `ogf((5-8x)/(1-17x+16x^2))` -/
+def P18389584712743324835.Spec : Prop :=
+  ∀ n, P18389584712743324835.a n = A318236 n
 
 end A318236
 

@@ -10,30 +10,30 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -62,7 +62,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -948,7 +947,7 @@ end A071315.P15996176746667674792
 /-!
 # A071317: a(n) = a(n-1) + sum of digits of n^2.
 
-The programs for A071317, the canonical program `A071317.P5540191964969439295` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071317 has offset 0).
+The programs for A071317, the canonical program `A071317.P5540191964969439295` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071317 has offset 0).
 
 The definition of A071317 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -957,7 +956,7 @@ The definition of A071317 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{digits}[n², #]]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071317
@@ -3653,7 +3652,7 @@ end A071326
 /-!
 # A071327: Sum of the squared primes dividing n.
 
-The programs for A071327, the canonical program `A071327.P13489380316522062641` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071327 has offset 1).
+The programs for A071327, the canonical program `A071327.P13489380316522062641` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071327 has offset 1).
 
 The definition of A071327 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3662,7 +3661,7 @@ The definition of A071327 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[(n+1)/∏{p}[n+1, #], #²]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071327
@@ -8096,6 +8095,39 @@ end
 
 end A071355.P7819065228579889142
 
+/-! ## A071355.P10249141466976019645
+
+`∑[ogf((3+3x-2x^2)/(1-2x+x^2))]`
+-/
+
+namespace A071355.P10249141466976019645
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 3, -2] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A071355.P10249141466976019645
+
+/-! ## A071355.P5925851302473698859
+
+`ogf((3+3x-2x^2)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A071355.P5925851302473698859
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 3, -2] [1, -3, 3, -1] n
+
+end
+
+end A071355.P5925851302473698859
+
 /-! ## A071355.P4299307573231857660
 
 `record[abs(2*n²-(n+3))]`
@@ -9882,7 +9914,7 @@ end A071375.P2934108132896565607
 /-!
 # A071377: Number of positive integers <= n which are the sum of 3 squares.
 
-The programs for A071377, the canonical program `A071377.P2407551919736960090` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071377 has offset 0).
+The programs for A071377, the canonical program `A071377.P2407551919736960090` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071377 has offset 0).
 
 The definition of A071377 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9891,7 +9923,7 @@ The definition of A071377 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[lt[((n+1)/4^val(n+1, 4))%8, 7]]]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071377
@@ -11653,7 +11685,7 @@ end A071395.P14096547830380190424
 /-!
 # A071396: Rounded total surface area of a regular octahedron with edge length n.
 
-The programs for A071396, the canonical program `A071396.P12393238637168195905` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071396 has offset 0).
+The programs for A071396, the canonical program `A071396.P12393238637168195905` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071396 has offset 0).
 
 The definition of A071396 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11662,7 +11694,7 @@ The definition of A071396 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(2*n²*sqrt(3))`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071396
@@ -11914,7 +11946,7 @@ end A071396
 /-!
 # A071397: Rounded total surface area of a regular dodecahedron with edge length n.
 
-The programs for A071397, the canonical program `A071397.P7697405912600638367` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071397 has offset 0).
+The programs for A071397, the canonical program `A071397.P7697405912600638367` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071397 has offset 0).
 
 The definition of A071397 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11923,7 +11955,7 @@ The definition of A071397 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(3*n²*sqrt(25+10*sqrt(5)))`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071397
@@ -11994,7 +12026,7 @@ end A071397
 /-!
 # A071398: Rounded total surface area of a regular icosahedron with edge length n.
 
-The programs for A071398, the canonical program `A071398.P12537645114860663724` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071398 has offset 0).
+The programs for A071398, the canonical program `A071398.P12537645114860663724` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071398 has offset 0).
 
 The definition of A071398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12003,7 +12035,7 @@ The definition of A071398 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(5*n²*sqrt(3))`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071398
@@ -12116,7 +12148,7 @@ end A071398
 /-!
 # A071399: Rounded volume of a regular tetrahedron with edge length n.
 
-The programs for A071399, the canonical program `A071399.P1893784392322432552` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071399 has offset 0).
+The programs for A071399, the canonical program `A071399.P1893784392322432552` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071399 has offset 0).
 
 The definition of A071399 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12125,7 +12157,7 @@ The definition of A071399 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(n^3*sqrt(2)/12)`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A071399

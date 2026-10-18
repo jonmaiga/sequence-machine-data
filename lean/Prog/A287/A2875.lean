@@ -9,6 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -19,22 +20,26 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -2155,7 +2160,7 @@ end A287522.P1984143416859232006
 /-!
 # A287523: Fixed point starting with 1 of the morphism 0->01, 1->101.
 
-The programs for A287523, the canonical program `A287523.P6616077702644599050` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287523 has offset 1).
+The programs for A287523, the canonical program `A287523.P6616077702644599050` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287523 has offset 1).
 
 The definition of A287523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2503,7 +2508,7 @@ end A287523
 
 `Δ[n+2-a(a(n-1))]` with `a(0)=1, a(1)=2, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A287523
@@ -3048,7 +3053,7 @@ end A287524
 /-!
 # A287525: a(n) = a(n-1) + a(n-2) - a(n-3) +a(n-4) + a(n-5) for n >= 6, where a(0) = 2, a(1) = 4, a(2) = 7, a(3) = 12, a(4) = 19, a(5) = 31.
 
-The programs for A287525, the canonical program `A287525.P10262016671981005508` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287525 has offset 0).
+The programs for A287525, the canonical program `A287525.P10262016671981005508` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287525 has offset 0).
 
 The definition of A287525 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)-a(n-3)+a(n-4)+a(n-5)` (program `A287525.P10262016671981005508`, by `A287525.P10262016671981005508.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3057,7 +3062,7 @@ The definition of A287525 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+a(n-2)-a(n-3)+a(n-4)+a(n-5)` with `a(0)=2, a(1)=4, a(2)=7, a(3)=12, a(4)=19, a(5)=31`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A287525
@@ -4018,7 +4023,7 @@ end A287528
 /-!
 # A287529: Positions of 0 in A287528.
 
-The programs for A287529, the canonical program `A287529.P12551350988628766671` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287529 has offset 1).
+The programs for A287529, the canonical program `A287529.P12551350988628766671` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287529 has offset 1).
 
 The definition of A287529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4027,7 +4032,7 @@ The definition of A287529 is `conjectured`: the Lean definition is a formula tha
 
 `A287528(n+1)+3*n+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A287529
@@ -5021,7 +5026,7 @@ end A287532.P11990865868367122256
 /-!
 # A287533: Fibonacci numbers modulo 20.
 
-The programs for A287533, the canonical program `A287533.P8501293128969011381` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287533 has offset 0).
+The programs for A287533, the canonical program `A287533.P8501293128969011381` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287533 has offset 0).
 
 The definition of A287533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5030,7 +5035,7 @@ The definition of A287533 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)+a(n-2))%20` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A287533
@@ -11894,6 +11899,29 @@ namespace A287594
 /-- `4*a(n-1)-2*a(n-2)-4*a(n-3)` -/
 def P783764956773434842.Spec : Prop :=
   ∀ n, P783764956773434842.a n = A287594 n
+
+end A287594
+
+/-! ## A287594.P10708360465510556980
+
+`ogf((3-8x+2x^2)/(1-4x+2x^2+4x^3))`
+-/
+
+namespace A287594.P10708360465510556980
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -8, 2] [1, -4, 2, 4] n
+
+end
+
+end A287594.P10708360465510556980
+
+namespace A287594
+
+/-- `ogf((3-8x+2x^2)/(1-4x+2x^2+4x^3))` -/
+def P10708360465510556980.Spec : Prop :=
+  ∀ n, P10708360465510556980.a n = A287594 n
 
 end A287594
 

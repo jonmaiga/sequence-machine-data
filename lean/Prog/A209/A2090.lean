@@ -8,25 +8,29 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,6 +45,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C001
@@ -727,7 +732,7 @@ end A209006.P13026432574032655199
 /-!
 # A209008: Number of 4-bead necklaces labeled with numbers -n..n not allowing reversal, with sum zero and first and second differences in -n..n.
 
-The programs for A209008, the canonical program `A209008.P9852520947703827443` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209008 has offset 1).
+The programs for A209008, the canonical program `A209008.P9852520947703827443` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209008 has offset 1).
 
 The definition of A209008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -736,7 +741,7 @@ The definition of A209008 is `conjectured`: the Lean definition is a formula tha
 
 `∑[ceil(record[xor(1, n²)/4])]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209008
@@ -6349,7 +6354,7 @@ end A209079.P9913122953562864001
 /-!
 # A209081: Floor(A152170(n)/n^n). Floor of the expected value of the cardinality of the image of a function from [n] to [n].
 
-The programs for A209081, the canonical program `A209081.P15403903494236758463` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209081 has offset 1).
+The programs for A209081, the canonical program `A209081.P15403903494236758463` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209081 has offset 1).
 
 The definition of A209081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1313 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6358,7 +6363,7 @@ The definition of A209081 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n+1-n*(n/(n+1))^n)`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209081
@@ -6595,7 +6600,7 @@ end A209083.P12937809016197463684
 /-!
 # A209084: a(n) = 2*a(n-1) + 4*a(n-2) with n>1, a(0)=0, a(1)=4.
 
-The programs for A209084, the canonical program `A209084.P17628721794901898696` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209084 has offset 0).
+The programs for A209084, the canonical program `A209084.P17628721794901898696` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209084 has offset 0).
 
 The definition of A209084 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)+4*a(n-2)` (program `A209084.P17628721794901898696`, by `A209084.P17628721794901898696.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6604,7 +6609,7 @@ The definition of A209084 is `verified`: the Lean definition is proven equivalen
 
 `2*a(n-1)+4*a(n-2)` with `a(0)=0, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209084
@@ -6662,6 +6667,29 @@ namespace A209084
 /-- `4*A085449(n)` -/
 def P6730785613082099295.Spec : Prop :=
   ∀ n, P6730785613082099295.a n = A209084 n
+
+end A209084
+
+/-! ## A209084.P16908811483159913073
+
+`ogf(4x/(1-2x-4x^2))`
+-/
+
+namespace A209084.P16908811483159913073
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 4] [1, -2, -4] n
+
+end
+
+end A209084.P16908811483159913073
+
+namespace A209084
+
+/-- `ogf(4x/(1-2x-4x^2))` -/
+def P16908811483159913073.Spec : Prop :=
+  ∀ n, P16908811483159913073.a n = A209084 n
 
 end A209084
 
@@ -7660,16 +7688,39 @@ end A209093.P1911079161036572436
 /-!
 # A209094: Number of n X 2 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.
 
-The programs for A209094, the canonical program `A209094.P988925749288172618` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209094 has offset 1).
+The programs for A209094, the canonical program `A209094.P988925749288172618` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209094 has offset 1).
 
 The definition of A209094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 115 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A209094.P10358909686552547934
+
+`ogf((2-5x+2x^2)/(1-8x+4x^2))`
+-/
+
+namespace A209094.P10358909686552547934
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -5, 2] [1, -8, 4] n
+
+end
+
+end A209094.P10358909686552547934
+
+namespace A209094
+
+/-- `ogf((2-5x+2x^2)/(1-8x+4x^2))` -/
+def P10358909686552547934.Spec : Prop :=
+  ∀ n, P10358909686552547934.a n = A209094 (n + 1)
+
+end A209094
 
 /-! ## A209094.P988925749288172618
 
 `8*a(n-1)-4*a(n-2)` with `a(0)=2, a(1)=11, a(2)=82`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A209094

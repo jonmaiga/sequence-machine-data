@@ -8,19 +8,20 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C023
+import Seq.B000.C017
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1132,7 +1133,7 @@ end A375408.P9124159494408150990
 /-!
 # A375409: Expansion of e.g.f. exp(-x * (1 - x)) / (1 - x).
 
-The programs for A375409, the canonical program `A375409.P11156999550607660290` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375409 has offset 0).
+The programs for A375409, the canonical program `A375409.P11156999550607660290` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375409 has offset 0).
 
 The definition of A375409 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1141,7 +1142,7 @@ The definition of A375409 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-1)*(a(n-1)+3*a(n-2)-2*(n-2)*a(n-3))` with `a(0)=1, a(1)=0, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A375409
@@ -1519,7 +1520,7 @@ end A375422.P11790191501736819
 /-!
 # A375424: Expansion of e.g.f. exp(-x * (1 - x)) / (1 - x)^2.
 
-The programs for A375424, the canonical program `A375424.P13525796360598704993` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375424 has offset 0).
+The programs for A375424, the canonical program `A375424.P13525796360598704993` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375424 has offset 0).
 
 The definition of A375424 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1528,7 +1529,7 @@ The definition of A375424 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+3*(n-1)*a(n-2)-2*(n-1)*(n-2)*a(n-3)` with `a(0)=1, a(1)=1, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A375424

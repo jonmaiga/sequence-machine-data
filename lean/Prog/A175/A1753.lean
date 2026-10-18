@@ -11,13 +11,14 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -26,12 +27,12 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +42,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1669,7 +1669,7 @@ end A175317
 /-!
 # A175318: a(n) = Sum_{k<=n} A007955(k), where A007955(m) = product of divisors of m.
 
-The programs for A175318, the canonical program `A175318.P13298413136417052649` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175318 has offset 1).
+The programs for A175318, the canonical program `A175318.P13298413136417052649` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175318 has offset 1).
 
 The definition of A175318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1678,7 +1678,7 @@ The definition of A175318 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∏{d}[n+1, #]]`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A175318
@@ -2967,7 +2967,7 @@ end A175328.P1571332105112792923
 /-!
 # A175329: a(n) = bitwise OR of prime(n) and prime(n+1).
 
-The programs for A175329, the canonical program `A175329.P995532335207651195` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175329 has offset 1).
+The programs for A175329, the canonical program `A175329.P995532335207651195` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175329 has offset 1).
 
 The definition of A175329 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2976,7 +2976,7 @@ The definition of A175329 is `conjectured`: the Lean definition is a formula tha
 
 `or(p?[a(n-4)+5], p?[2*n+1])` with `a(0)=2, a(1)=1, a(2)=2, a(3)=3, a(4)=4`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A175329
@@ -11587,6 +11587,29 @@ def P17598903217825691316.Spec : Prop :=
 theorem P17598903217825691316.correct : P17598903217825691316.Spec := by
   intro n
   simp only [A175395]
+
+end A175395
+
+/-! ## A175395.P9241055491053505728
+
+`ogf((2x-2x^2)/(1-2x-2x^2+x^3))`
+-/
+
+namespace A175395.P9241055491053505728
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 2, -2] [1, -2, -2, 1] n
+
+end
+
+end A175395.P9241055491053505728
+
+namespace A175395
+
+/-- `ogf((2x-2x^2)/(1-2x-2x^2+x^3))` -/
+def P9241055491053505728.Spec : Prop :=
+  ∀ n, P9241055491053505728.a n = A175395 n
 
 end A175395
 

@@ -32,9 +32,10 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,6 +43,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -82,7 +84,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1045,6 +1046,29 @@ theorem P13914117859844792663.correct : P13914117859844792663.Spec := by
 
 end A028402
 
+/-! ## A028402.P1112169270121874360
+
+`ogf((6-16x)/(1-6x+8x^2))`
+-/
+
+namespace A028402.P1112169270121874360
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -16] [1, -6, 8] n
+
+end
+
+end A028402.P1112169270121874360
+
+namespace A028402
+
+/-- `ogf((6-16x)/(1-6x+8x^2))` -/
+def P1112169270121874360.Spec : Prop :=
+  ∀ n, P1112169270121874360.a n = A028402 (n + 2)
+
+end A028402
+
 /-! ## A028402.P9784071669686999886
 
 `or(2^(n+1), 4^(n+1))`
@@ -1478,6 +1502,29 @@ namespace A028403
 /-- `A081294(n+1)+A000079(n+1)` -/
 def P3472714392273116105.Spec : Prop :=
   ∀ n, P3472714392273116105.a n = A028403 (n + 1)
+
+end A028403
+
+/-! ## A028403.P17640868404129849722
+
+`ogf((4-12x)/(1-6x+8x^2))`
+-/
+
+namespace A028403.P17640868404129849722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -12] [1, -6, 8] n
+
+end
+
+end A028403.P17640868404129849722
+
+namespace A028403
+
+/-- `ogf((4-12x)/(1-6x+8x^2))` -/
+def P17640868404129849722.Spec : Prop :=
+  ∀ n, P17640868404129849722.a n = A028403 (n + 1)
 
 end A028403
 
@@ -8966,27 +9013,50 @@ end A028494
 /-!
 # A028495: Expansion of g.f. (1-x^2)/(1-x-2*x^2+x^3).
 
-The programs for A028495, the canonical program `A028495.P17317205473415381950` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028495 has offset 0).
+The programs for A028495, the canonical program `A028495.P14445890505411110476` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028495 has offset 0).
 
-The definition of A028495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A028495 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2)/(1-x-2x^2+x^3))` (program `A028495.P14445890505411110476`, by `A028495.P14445890505411110476.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A028495.P17317205473415381950
+/-! ## A028495.P14445890505411110476
 
-`5*a(n-2)-6*a(n-4)+a(n-6)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=6, a(5)=10`
+`ogf((1-x^2)/(1-x-2x^2+x^3))`
 
 The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A028495
 
+/-- `ogf((1-x^2)/(1-x-2x^2+x^3))` -/
+def P14445890505411110476.Spec : Prop :=
+  ∀ n, P14445890505411110476.a n = A028495 n
+
+theorem P14445890505411110476.correct : P14445890505411110476.Spec := by
+  intro n
+  simp only [A028495]
+
+end A028495
+
+/-! ## A028495.P17317205473415381950
+
+`5*a(n-2)-6*a(n-4)+a(n-6)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=6, a(5)=10`
+-/
+
+namespace A028495.P17317205473415381950
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 2, 3, 6, 10] fun n a =>
+  5 * a (n - 2) - 6 * a (n - 4) + a (n - 6)
+
+end
+
+end A028495.P17317205473415381950
+
+namespace A028495
+
 /-- `5*a(n-2)-6*a(n-4)+a(n-6)` -/
 def P17317205473415381950.Spec : Prop :=
   ∀ n, P17317205473415381950.a n = A028495 n
-
-theorem P17317205473415381950.correct : P17317205473415381950.Spec := by
-  intro n
-  simp only [A028495]
 
 end A028495
 

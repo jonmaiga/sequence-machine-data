@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -10,24 +11,25 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +40,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -455,7 +456,7 @@ end A321702.P16067664368604257382
 /-!
 # A321703: a(n) = 3*a(n-1) + 4*a(n-2) + a(n-3), a(0) = 1, a(1) = 1, a(2) = 5.
 
-The programs for A321703, the canonical program `A321703.P15535657896170768555` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321703 has offset 0).
+The programs for A321703, the canonical program `A321703.P15535657896170768555` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321703 has offset 0).
 
 The definition of A321703 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+4*a(n-2)+a(n-3)` (program `A321703.P15535657896170768555`, by `A321703.P15535657896170768555.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -464,7 +465,7 @@ The definition of A321703 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)+4*a(n-2)+a(n-3)` with `a(0)=1, a(1)=1, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A321703
@@ -476,6 +477,29 @@ def P15535657896170768555.Spec : Prop :=
 theorem P15535657896170768555.correct : P15535657896170768555.Spec := by
   intro n
   simp only [A321703]
+
+end A321703
+
+/-! ## A321703.P15021764097937292562
+
+`ogf((-1+2x+2x^2)/(-1+3x+4x^2+x^3))`
+-/
+
+namespace A321703.P15021764097937292562
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -2] [1, -3, -4, -1] n
+
+end
+
+end A321703.P15021764097937292562
+
+namespace A321703
+
+/-- `ogf((-1+2x+2x^2)/(-1+3x+4x^2+x^3))` -/
+def P15021764097937292562.Spec : Prop :=
+  ∀ n, P15021764097937292562.a n = A321703 n
 
 end A321703
 
@@ -968,7 +992,7 @@ end A321714.P6832904522429903963
 /-!
 # A321715: a(n) = 3*a(n-1) + 4*a(n-2) + a(n-3), a(0) = 1, a(1) = -1, a(2) = -1 .
 
-The programs for A321715, the canonical program `A321715.P7889089140073733628` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321715 has offset 0).
+The programs for A321715, the canonical program `A321715.P7889089140073733628` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321715 has offset 0).
 
 The definition of A321715 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+4*a(n-2)+a(n-3)` (program `A321715.P7889089140073733628`, by `A321715.P7889089140073733628.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -977,7 +1001,7 @@ The definition of A321715 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)+4*a(n-2)+a(n-3)` with `a(0)=1, a(1)=-1, a(2)=-1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A321715
@@ -989,6 +1013,29 @@ def P7889089140073733628.Spec : Prop :=
 theorem P7889089140073733628.correct : P7889089140073733628.Spec := by
   intro n
   simp only [A321715]
+
+end A321715
+
+/-! ## A321715.P13047215232073048346
+
+`ogf((-1+4x+2x^2)/(-1+3x+4x^2+x^3))`
+-/
+
+namespace A321715.P13047215232073048346
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -4, -2] [1, -3, -4, -1] n
+
+end
+
+end A321715.P13047215232073048346
+
+namespace A321715
+
+/-- `ogf((-1+4x+2x^2)/(-1+3x+4x^2+x^3))` -/
+def P13047215232073048346.Spec : Prop :=
+  ∀ n, P13047215232073048346.a n = A321715 n
 
 end A321715
 
@@ -5994,7 +6041,7 @@ end A321772.P4423537380608554631
 /-!
 # A321773: Number of compositions of n into parts with distinct multiplicities and with exactly three parts.
 
-The programs for A321773, the canonical program `A321773.P4697706764734148102` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321773 has offset 3).
+The programs for A321773, the canonical program `A321773.P4697706764734148102` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321773 has offset 3).
 
 The definition of A321773 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6003,7 +6050,7 @@ The definition of A321773 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=4, a(4)=9`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A321773
@@ -6015,6 +6062,35 @@ def P4697706764734148102.Spec : Prop :=
 theorem P4697706764734148102.correct : P4697706764734148102.Spec := by
   intro n
   simp only [A321773, Nat.add_sub_cancel]
+
+end A321773
+
+/-! ## A321773.P11572288863652036712
+
+`∑[∑[ogf((1+3x+5x^2)/(1+2x+2x^2+x^3))]]`
+-/
+
+namespace A321773.P11572288863652036712
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, 5] [1, 2, 2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A321773.P11572288863652036712
+
+namespace A321773
+
+/-- `∑[∑[ogf((1+3x+5x^2)/(1+2x+2x^2+x^3))]]` -/
+def P11572288863652036712.Spec : Prop :=
+  ∀ n, P11572288863652036712.a n = A321773 (n + 3)
 
 end A321773
 
@@ -6448,7 +6524,7 @@ end A321773
 /-!
 # A321774: Number of compositions of n into parts with distinct multiplicities and with exactly four parts.
 
-The programs for A321774, the canonical program `A321774.P16232909308658278851` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321774 has offset 4).
+The programs for A321774, the canonical program `A321774.P16232909308658278851` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321774 has offset 4).
 
 The definition of A321774 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6457,7 +6533,7 @@ The definition of A321774 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)+a(n-4)-a(n-7)` with `a(0)=1, a(1)=4, a(2)=4, a(3)=8, a(4)=5, a(5)=8, a(6)=12`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A321774

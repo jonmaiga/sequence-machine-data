@@ -12,29 +12,29 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1156,7 +1156,7 @@ end A383832
 /-!
 # A383833: Area of the unique primitive Pythagorean triple whose inradius is A000217(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A383833, the canonical program `A383833.P14610981022286609116` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383833 has offset 0).
+The programs for A383833, the canonical program `A383833.P14610981022286609116` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383833 has offset 0).
 
 The definition of A383833 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1165,7 +1165,7 @@ The definition of A383833 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(n+1)*(n²+n+1)*(n²+n+2)/4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A383833
@@ -1487,7 +1487,7 @@ end A383833
 /-!
 # A383834: Sum of the legs of the unique primitive Pythagorean triple whose inradius is A000217(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A383834, the canonical program `A383834.P10743144755230545223` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383834 has offset 0).
+The programs for A383834, the canonical program `A383834.P10743144755230545223` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383834 has offset 0).
 
 The definition of A383834 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1519,7 +1519,7 @@ end A383834
 
 `6*A006007(n)+1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A383834
@@ -2787,7 +2787,7 @@ end A383850.P5457367934659289829
 /-!
 # A383854: a(n) = 4*n^3 + 5*n - 1.
 
-The programs for A383854, the canonical program `A383854.P7702102812663462635` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383854 has offset 1).
+The programs for A383854, the canonical program `A383854.P7702102812663462635` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383854 has offset 1).
 
 The definition of A383854 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*(n+1)^3+5*(n+1)-1` (program `A383854.P7702102812663462635`, by `A383854.P7702102812663462635.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2796,7 +2796,7 @@ The definition of A383854 is `verified`: the Lean definition is proven equivalen
 
 `4*(n+1)^3+5*(n+1)-1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A383854
@@ -3130,7 +3130,7 @@ end A383867.P2397284504868588512
 /-!
 # A383868: a(n) = 2^(n-3)*(3*binomial(n,4) + 4*binomial(n,2) + 8).
 
-The programs for A383868, the canonical program `A383868.P9420525451582998741` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383868 has offset 0).
+The programs for A383868, the canonical program `A383868.P9420525451582998741` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383868 has offset 0).
 
 The definition of A383868 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3139,7 +3139,7 @@ The definition of A383868 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n-3)*(3*C(n, 4)+4*C(n, 2)+8)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A383868
@@ -3393,7 +3393,7 @@ end A383872.P12423874739553990987
 /-!
 # A383873: a(n) = 3*a(n-1) - 2*a(n-2) + 5*a(n-3) starting with 1, 2, 3.
 
-The programs for A383873, the canonical program `A383873.P1849854743493215426` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383873 has offset 0).
+The programs for A383873, the canonical program `A383873.P1849854743493215426` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383873 has offset 0).
 
 The definition of A383873 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)-2*a(n-2)+5*a(n-3)` (program `A383873.P1849854743493215426`, by `A383873.P1849854743493215426.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3402,7 +3402,7 @@ The definition of A383873 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-2*a(n-2)+5*a(n-3)` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A383873
@@ -3414,6 +3414,29 @@ def P1849854743493215426.Spec : Prop :=
 theorem P1849854743493215426.correct : P1849854743493215426.Spec := by
   intro n
   simp only [A383873]
+
+end A383873
+
+/-! ## A383873.P13503406755220392797
+
+`ogf((-1+x+x^2)/(-1+3x-2x^2+5x^3))`
+-/
+
+namespace A383873.P13503406755220392797
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -1] [1, -3, 2, -5] n
+
+end
+
+end A383873.P13503406755220392797
+
+namespace A383873
+
+/-- `ogf((-1+x+x^2)/(-1+3x-2x^2+5x^3))` -/
+def P13503406755220392797.Spec : Prop :=
+  ∀ n, P13503406755220392797.a n = A383873 n
 
 end A383873
 

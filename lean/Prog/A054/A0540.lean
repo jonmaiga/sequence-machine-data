@@ -26,14 +26,15 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -94,7 +95,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -176,6 +176,55 @@ namespace A054000
 /-- `∑[a(n-1)+4]` -/
 def P132566814929521371.Spec : Prop :=
   ∀ n, (P132566814929521371.a n : ℤ) = A054000 (n + 1)
+
+end A054000
+
+/-! ## A054000.P3799306272421686791
+
+`∑[ogf((6x-2x^2)/(1-2x+x^2))]`
+-/
+
+namespace A054000.P3799306272421686791
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 6, -2] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A054000.P3799306272421686791
+
+namespace A054000
+
+/-- `∑[ogf((6x-2x^2)/(1-2x+x^2))]` -/
+def P3799306272421686791.Spec : Prop :=
+  ∀ n, P3799306272421686791.a n = A054000 (n + 1)
+
+end A054000
+
+/-! ## A054000.P7091383551726891735
+
+`ogf((6x-2x^2)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A054000.P7091383551726891735
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 6, -2] [1, -3, 3, -1] n
+
+end
+
+end A054000.P7091383551726891735
+
+namespace A054000
+
+/-- `ogf((6x-2x^2)/(1-3x+3x^2-x^3))` -/
+def P7091383551726891735.Spec : Prop :=
+  ∀ n, P7091383551726891735.a n = A054000 (n + 1)
 
 end A054000
 
@@ -7964,7 +8013,7 @@ end A054046.P10556361631645785909
 /-!
 # A054047: Numbers which can be read as (possibly different) numbers when rotated by 180 degrees (final zeros allowed).
 
-The programs for A054047, the canonical program `A054047.P6609416197519698243` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054047 has offset 0).
+The programs for A054047, the canonical program `A054047.P6609416197519698243` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054047 has offset 0).
 
 The definition of A054047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1250 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7973,7 +8022,7 @@ The definition of A054047 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A008541(n+1), A084984(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A054047

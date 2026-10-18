@@ -3,7 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -15,16 +15,17 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C032
+import Seq.B000.C027
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
@@ -503,7 +504,7 @@ end A374620.P13695606219493705018
 /-!
 # A374621: Expansion of e.g.f. 1 - x^4/24 - log(1 - x).
 
-The programs for A374621, the canonical program `A374621.P9032341510515200819` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374621 has offset 0).
+The programs for A374621, the canonical program `A374621.P9032341510515200819` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374621 has offset 0).
 
 The definition of A374621 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -512,7 +513,7 @@ The definition of A374621 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-1)*a(n-1)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=5, a(5)=24`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A374621
@@ -2067,7 +2068,7 @@ end A374640.P17275708891184800730
 /-!
 # A374646: Paradiddle version of Thue-Morse sequence.
 
-The programs for A374646, the canonical program `A374646.P1262386193735930242` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374646 has offset 0).
+The programs for A374646, the canonical program `A374646.P1262386193735930242` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374646 has offset 0).
 
 The definition of A374646 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2076,7 +2077,7 @@ The definition of A374646 is `conjectured`: the Lean definition is a formula tha
 
 `(a(floor(n/4))+(C(n+2, 3)^2)%2)%2` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A374646
@@ -2278,7 +2279,7 @@ end A374646
 /-!
 # A374647: a(n) = n! / floor(2n/3)!.
 
-The programs for A374647, the canonical program `A374647.P12708923997918845111` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374647 has offset 0).
+The programs for A374647, the canonical program `A374647.P12708923997918845111` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374647 has offset 0).
 
 The definition of A374647 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2287,7 +2288,7 @@ The definition of A374647 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!/floor(2*n/3)!`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A374647

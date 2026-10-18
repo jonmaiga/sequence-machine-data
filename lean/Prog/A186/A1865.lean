@@ -10,6 +10,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -22,20 +23,18 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C027
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -98,7 +97,7 @@ set_option linter.unreachableTactic false
 /-!
 # A186500: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=-4+5j^2. Complement of A186499.
 
-The programs for A186500, the canonical program `A186500.P9619045521986740230` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186500 has offset 1).
+The programs for A186500, the canonical program `A186500.P9619045521986740230` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186500 has offset 1).
 
 The definition of A186500 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -107,7 +106,7 @@ The definition of A186500 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(5*(n+1)²-7/2))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186500
@@ -468,7 +467,7 @@ end A186510.P5499931798251453206
 /-!
 # A186511: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=-4+5j^2. Complement of A186512.
 
-The programs for A186511, the canonical program `A186511.P4252327057303222338` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186511 has offset 1).
+The programs for A186511, the canonical program `A186511.P4252327057303222338` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186511 has offset 1).
 
 The definition of A186511 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -477,7 +476,7 @@ The definition of A186511 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt((n+1)²/5+9/10))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186511
@@ -590,7 +589,7 @@ end A186511
 /-!
 # A186512: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=-4+5j^2. Complement of A186511.
 
-The programs for A186512, the canonical program `A186512.P6987244113700464767` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186512 has offset 1).
+The programs for A186512, the canonical program `A186512.P6987244113700464767` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186512 has offset 1).
 
 The definition of A186512 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -599,7 +598,7 @@ The definition of A186512 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(5*(n+1)²-9/2))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186512
@@ -709,7 +708,7 @@ end A186512
 /-!
 # A186513: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=4+5j^2. Complement of A186514.
 
-The programs for A186513, the canonical program `A186513.P11653591617409960415` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186513 has offset 1).
+The programs for A186513, the canonical program `A186513.P11653591617409960415` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186513 has offset 1).
 
 The definition of A186513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -718,7 +717,7 @@ The definition of A186513 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A186514(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A186513
@@ -901,7 +900,7 @@ end A186513
 /-!
 # A186514: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=4+5j^2. Complement of A186513.
 
-The programs for A186514, the canonical program `A186514.P2717258701859519625` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186514 has offset 1).
+The programs for A186514, the canonical program `A186514.P2717258701859519625` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186514 has offset 1).
 
 The definition of A186514 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -910,7 +909,7 @@ The definition of A186514 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(5*(n+1)²+4))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186514
@@ -1135,7 +1134,7 @@ end A186514
 /-!
 # A186515: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=4+5j^2. Complement of A186516.
 
-The programs for A186515, the canonical program `A186515.P18183641407450854378` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186515 has offset 1).
+The programs for A186515, the canonical program `A186515.P18183641407450854378` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186515 has offset 1).
 
 The definition of A186515 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1144,7 +1143,7 @@ The definition of A186515 is `conjectured`: the Lean definition is a formula tha
 
 `2*n+1-A005378(A005206(a(n-1)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A186515
@@ -1303,7 +1302,7 @@ end A186515
 /-!
 # A186516: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=4+5j^2. Complement of A186515.
 
-The programs for A186516, the canonical program `A186516.P7489468236530869185` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186516 has offset 1).
+The programs for A186516, the canonical program `A186516.P7489468236530869185` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186516 has offset 1).
 
 The definition of A186516 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1312,7 +1311,7 @@ The definition of A186516 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(5*(n+1)²+7/2))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186516
@@ -3495,7 +3494,7 @@ end A186537.P18003679898018644561
 /-!
 # A186539: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=-2+3j^2. Complement of A186540.
 
-The programs for A186539, the canonical program `A186539.P4529541868566530237` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186539 has offset 1).
+The programs for A186539, the canonical program `A186539.P4529541868566530237` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186539 has offset 1).
 
 The definition of A186539 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3504,7 +3503,7 @@ The definition of A186539 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(1/3*(n+1)²))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186539
@@ -3679,7 +3678,7 @@ end A186539
 /-!
 # A186541: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=-2+3j^2. Complement of A186542.
 
-The programs for A186541, the canonical program `A186541.P17060601686119103478` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186541 has offset 1).
+The programs for A186541, the canonical program `A186541.P17060601686119103478` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186541 has offset 1).
 
 The definition of A186541 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3688,7 +3687,7 @@ The definition of A186541 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(1/3*(n+1)²+5/6))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186541
@@ -3732,7 +3731,7 @@ end A186541
 /-!
 # A186542: Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f(i)=i^2 and g(j)=-2+3j^2. Complement of A186541.
 
-The programs for A186542, the canonical program `A186542.P265499563007818074` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186542 has offset 1).
+The programs for A186542, the canonical program `A186542.P265499563007818074` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186542 has offset 1).
 
 The definition of A186542 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3741,7 +3740,7 @@ The definition of A186542 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+floor(sqrt(3*(n+1)²-5/2))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186542
@@ -3893,7 +3892,7 @@ end A186543.P15204918920331014981
 /-!
 # A186544: a(n) = floor((Pi-2)*n/(Pi-3)); complement of A187320.
 
-The programs for A186544, the canonical program `A186544.P12373539751613071509` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186544 has offset 1).
+The programs for A186544, the canonical program `A186544.P12373539751613071509` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186544 has offset 1).
 
 The definition of A186544 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((π-2)*(n+1)/(π-3))` (program `A186544.P6034248342519698479`, by `A186544.P6034248342519698479.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3902,7 +3901,7 @@ The definition of A186544 is `verified`: the Lean definition is proven equivalen
 
 `floor((π-2)/(π-3)*(n+1))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A186544
@@ -4127,7 +4126,7 @@ end A186544
 /-!
 # A186546: Floor-Sqrt transform of Catalan numbers (A000108).
 
-The programs for A186546, the canonical program `A186546.P4788402888265503125` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186546 has offset 0).
+The programs for A186546, the canonical program `A186546.P4788402888265503125` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186546 has offset 0).
 
 The definition of A186546 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4136,7 +4135,7 @@ The definition of A186546 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(A000108(n)))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A186546
@@ -6545,27 +6544,50 @@ end A186573.P3600809878911501724
 /-!
 # A186575: Expansion of (1 + 2*x + 6*x^2)/(1 - x - x^2 - 2*x^3) in powers of x.
 
-The programs for A186575, the canonical program `A186575.P13380780233263443366` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186575 has offset 0).
+The programs for A186575, the canonical program `A186575.P17962324891392911200` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186575 has offset 0).
 
-The definition of A186575 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A186575 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+2x+6x^2)/(1-x-x^2-2x^3))` (program `A186575.P17962324891392911200`, by `A186575.P17962324891392911200.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A186575.P17962324891392911200
+
+`ogf((1+2x+6x^2)/(1-x-x^2-2x^3))`
+
+The canonical program, it is in `Seq.B000.C025`.
+-/
+
+namespace A186575
+
+/-- `ogf((1+2x+6x^2)/(1-x-x^2-2x^3))` -/
+def P17962324891392911200.Spec : Prop :=
+  ∀ n, P17962324891392911200.a n = A186575 n
+
+theorem P17962324891392911200.correct : P17962324891392911200.Spec := by
+  intro n
+  simp only [A186575]
+
+end A186575
 
 /-! ## A186575.P13380780233263443366
 
 `a(n-1)+a(n-2)+2*a(n-3)` with `a(0)=1, a(1)=3, a(2)=10`
-
-The canonical program, it is in `Seq.B000.C024`.
 -/
+
+namespace A186575.P13380780233263443366
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 3, 10] fun n a =>
+  a (n - 1) + a (n - 2) + 2 * a (n - 3)
+
+end
+
+end A186575.P13380780233263443366
 
 namespace A186575
 
 /-- `a(n-1)+a(n-2)+2*a(n-3)` -/
 def P13380780233263443366.Spec : Prop :=
   ∀ n, (P13380780233263443366.a n : ℤ) = A186575 n
-
-theorem P13380780233263443366.correct : P13380780233263443366.Spec := by
-  intro n
-  simp only [A186575]
 
 end A186575
 

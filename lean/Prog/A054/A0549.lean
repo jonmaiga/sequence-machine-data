@@ -19,19 +19,21 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7180,7 +7182,7 @@ end A054967
 /-!
 # A054968: 3*Fibonacci(n) - 11.
 
-The programs for A054968, the canonical program `A054968.P7743431138080066211` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054968 has offset 5).
+The programs for A054968, the canonical program `A054968.P7743431138080066211` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054968 has offset 5).
 
 The definition of A054968 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7189,7 +7191,7 @@ The definition of A054968 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)` with `a(0)=4, a(1)=13, a(2)=28`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A054968
@@ -7201,6 +7203,29 @@ def P7743431138080066211.Spec : Prop :=
 theorem P7743431138080066211.correct : P7743431138080066211.Spec := by
   intro n
   simp only [A054968, Nat.add_sub_cancel]
+
+end A054968
+
+/-! ## A054968.P11227169132299832423
+
+`ogf((4+5x+2x^2)/(1-2x+x^3))`
+-/
+
+namespace A054968.P11227169132299832423
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, 5, 2] [1, -2, 0, 1] n
+
+end
+
+end A054968.P11227169132299832423
+
+namespace A054968
+
+/-- `ogf((4+5x+2x^2)/(1-2x+x^3))` -/
+def P11227169132299832423.Spec : Prop :=
+  ∀ n, P11227169132299832423.a n = A054968 (n + 5)
 
 end A054968
 
@@ -8070,7 +8095,7 @@ end A054973.P5533360611507377076
 /-!
 # A054974: Number of nonnegative integer 2 X 2 matrices with no zero rows or columns and with sum of elements equal to n, up to row and column permutation.
 
-The programs for A054974, the canonical program `A054974.P196157130754299281` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054974 has offset 2).
+The programs for A054974, the canonical program `A054974.P196157130754299281` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054974 has offset 2).
 
 The definition of A054974 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8079,7 +8104,7 @@ The definition of A054974 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6-6*(-1)^(n+2)+(9*(-1)^(n+2)-17)*(n+2)+12*(n+2)²+2*(n+2)^3)/48`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A054974
@@ -10994,7 +11019,7 @@ end A054994.P6309990136769992350
 /-!
 # A054995: A version of Josephus problem: a(n) is the surviving integer under the following elimination process. Arrange 1,2,3,...,n in a circle, increasing clockwise. Starting with i=1, delete the integer two places clockwise from i. Repeat, counting two places from the next undeleted integer, until only one integer remains.
 
-The programs for A054995, the canonical program `A054995.P11298376971174057498` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054995 has offset 1).
+The programs for A054995, the canonical program `A054995.P11298376971174057498` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054995 has offset 1).
 
 The definition of A054995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11003,7 +11028,7 @@ The definition of A054995 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)+2)%(n+1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A054995

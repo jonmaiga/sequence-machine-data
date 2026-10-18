@@ -3,24 +3,25 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C016
+import Seq.B000.C018
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -924,7 +925,7 @@ end A159805.P640750344038102805
 /-!
 # A159807: Numerator of Hermite(n, 3/22).
 
-The programs for A159807, the canonical program `A159807.P15767742987961178427` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159807 has offset 0).
+The programs for A159807, the canonical program `A159807.P15767742987961178427` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159807 has offset 0).
 
 The definition of A159807 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -933,7 +934,7 @@ The definition of A159807 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-242*(n-1)*a(n-2)` with `a(0)=1, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A159807
@@ -1637,7 +1638,7 @@ end A159830.P11374469998326143440
 /-!
 # A159833: a(n) = n^2*(n^2 + 15)/4.
 
-The programs for A159833, the canonical program `A159833.P13326523052479323052` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159833 has offset 0).
+The programs for A159833, the canonical program `A159833.P13326523052479323052` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159833 has offset 0).
 
 The definition of A159833 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²*(n²+15)/4` (program `A159833.P11497748408761770021`, by `A159833.P11497748408761770021.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1692,7 +1693,7 @@ end A159833
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=4, a(2)=19, a(3)=54, a(4)=124`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A159833
@@ -3128,7 +3129,7 @@ end A159849.P11518510037251191704
 /-!
 # A159850: Numerator of Hermite(n, 17/22).
 
-The programs for A159850, the canonical program `A159850.P17574961876759190000` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159850 has offset 0).
+The programs for A159850, the canonical program `A159850.P17574961876759190000` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159850 has offset 0).
 
 The definition of A159850 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3137,7 +3138,7 @@ The definition of A159850 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-1)+242*(1-n)*a(n-2)` with `a(0)=1, a(1)=17`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A159850
@@ -3155,7 +3156,7 @@ end A159850
 /-!
 # A159852: n^2 mod 60.
 
-The programs for A159852, the canonical program `A159852.P7691123275581502811` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159852 has offset 0).
+The programs for A159852, the canonical program `A159852.P7691123275581502811` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159852 has offset 0).
 
 The definition of A159852 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3164,7 +3165,7 @@ The definition of A159852 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n²%60`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A159852
@@ -3962,7 +3963,7 @@ end A159855
 /-!
 # A159857: Numerator of Hermite(n, 21/22).
 
-The programs for A159857, the canonical program `A159857.P11380715886456608459` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159857 has offset 0).
+The programs for A159857, the canonical program `A159857.P11380715886456608459` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159857 has offset 0).
 
 The definition of A159857 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3971,7 +3972,7 @@ The definition of A159857 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `21*a(n-1)+242*(1-n)*a(n-2)` with `a(0)=1, a(1)=21`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A159857
@@ -3989,7 +3990,7 @@ end A159857
 /-!
 # A159860: The maximum length of a string of identical characters which can be reduced to one character in "n" nested substitution operations, e.g. replace(string, substring, character) such that all shorter strings will also reduce to one character.
 
-The programs for A159860, the canonical program `A159860.P1389312191841532084` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159860 has offset 1).
+The programs for A159860, the canonical program `A159860.P1389312191841532084` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159860 has offset 1).
 
 The definition of A159860 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3998,7 +3999,7 @@ The definition of A159860 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*(a(n-1)+6)/4` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A159860

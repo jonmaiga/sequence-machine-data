@@ -6,15 +6,16 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -22,7 +23,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -30,7 +31,8 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -250,7 +252,7 @@ end A193002.P9408503599038133995
 /-!
 # A193004: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193004, the canonical program `A193004.P14118123259240090036` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193004 has offset 0).
+The programs for A193004, the canonical program `A193004.P14118123259240090036` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193004 has offset 0).
 
 The definition of A193004 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -259,7 +261,7 @@ The definition of A193004 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-5*a(n-2)+a(n-3)+2*a(n-4)-a(n-5)` with `a(0)=1, a(1)=1, a(2)=9, a(3)=29, a(4)=75`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193004
@@ -476,7 +478,7 @@ end A193004
 /-!
 # A193005: Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193005, the canonical program `A193005.P18273417435065265651` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193005 has offset 0).
+The programs for A193005, the canonical program `A193005.P18273417435065265651` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193005 has offset 0).
 
 The definition of A193005 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 471 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -485,7 +487,7 @@ The definition of A193005 is `conjectured`: the Lean definition is a formula tha
 
 `(n-1)^3+a(n-1)+a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193005
@@ -713,7 +715,7 @@ end A193005
 /-!
 # A193006: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193006, the canonical program `A193006.P2425708564637493765` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193006 has offset 0).
+The programs for A193006, the canonical program `A193006.P2425708564637493765` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193006 has offset 0).
 
 The definition of A193006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -722,7 +724,7 @@ The definition of A193006 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-5*a(n-2)+a(n-3)+2*a(n-4)-a(n-5)` with `a(0)=1, a(1)=0, a(2)=8, a(3)=27, a(4)=72`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193006
@@ -1153,7 +1155,7 @@ end A193007
 /-!
 # A193008: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193008, the canonical program `A193008.P5745610349608384695` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193008 has offset 0).
+The programs for A193008, the canonical program `A193008.P5745610349608384695` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193008 has offset 0).
 
 The definition of A193008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1162,7 +1164,7 @@ The definition of A193008 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-5*a(n-2)+a(n-3)+2*a(n-4)-a(n-5)` with `a(0)=1, a(1)=2, a(2)=10, a(3)=31, a(4)=78`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193008
@@ -2532,7 +2534,7 @@ end A193043.P16041791647418448071
 /-!
 # A193044: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193044, the canonical program `A193044.P17935013301325074945` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193044 has offset 0).
+The programs for A193044, the canonical program `A193044.P17935013301325074945` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193044 has offset 0).
 
 The definition of A193044 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2541,7 +2543,7 @@ The definition of A193044 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-5*a(n-2)+a(n-3)+2*a(n-4)-a(n-5)` with `a(0)=1, a(1)=0, a(2)=2, a(3)=5, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193044
@@ -3244,7 +3246,7 @@ end A193045
 /-!
 # A193046: Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193046, the canonical program `A193046.P4195873391393066853` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193046 has offset 0).
+The programs for A193046, the canonical program `A193046.P4195873391393066853` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193046 has offset 0).
 
 The definition of A193046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 467 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3253,7 +3255,7 @@ The definition of A193046 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[(1-n)^4]+a(n-1)+a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193046
@@ -3346,7 +3348,7 @@ end A193046
 /-!
 # A193047: Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x) defined at Comments.
 
-The programs for A193047, the canonical program `A193047.P17711022330559835664` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193047 has offset 0).
+The programs for A193047, the canonical program `A193047.P17711022330559835664` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193047 has offset 0).
 
 The definition of A193047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 466 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3355,7 +3357,7 @@ The definition of A193047 is `conjectured`: the Lean definition is a formula tha
 
 `(1-n)²²+a(n-1)+a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193047
@@ -3772,7 +3774,7 @@ end A193051.P2854276284434670886
 /-!
 # A193052: a(n) = 5^n - 4^n - 3^n.
 
-The programs for A193052, the canonical program `A193052.P8142829727168776448` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193052 has offset 0).
+The programs for A193052, the canonical program `A193052.P8142829727168776448` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193052 has offset 0).
 
 The definition of A193052 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n-4^n-3^n` (program `A193052.P8142829727168776448`, by `A193052.P8142829727168776448.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3810,7 +3812,7 @@ end A193052
 
 `5^n-4^n-3^n`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193052
@@ -5217,7 +5219,7 @@ end A193067.P17222177822584459820
 /-!
 # A193068: Generating primitive Pythagorean triangles by using (n, n+1) gives perimeters for each n. This sequence lists the sum of these perimeters for each n triangles.
 
-The programs for A193068, the canonical program `A193068.P6563937793198231246` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193068 has offset 1).
+The programs for A193068, the canonical program `A193068.P6563937793198231246` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193068 has offset 1).
 
 The definition of A193068 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5269,7 +5271,7 @@ end A193068
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=12, a(1)=42, a(2)=98, a(3)=188`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193068
@@ -6351,7 +6353,7 @@ end A193074.P14995506563113345072
 /-!
 # A193090: Digital roots of the nonzero pentagonal numbers.
 
-The programs for A193090, the canonical program `A193090.P4664892587809053047` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193090 has offset 1).
+The programs for A193090, the canonical program `A193090.P4664892587809053047` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193090 has offset 1).
 
 The definition of A193090 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6360,7 +6362,7 @@ The definition of A193090 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-9)` with `a(0)=1, a(1)=5, a(2)=3, a(3)=4, a(4)=8, a(5)=6, a(6)=7, a(7)=2, a(8)=9`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A193090

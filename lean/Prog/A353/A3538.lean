@@ -14,25 +14,27 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -60,7 +62,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -100,7 +101,7 @@ import Seq.Opaque.C025
 /-!
 # A353800: a(n) = 1 if n is a power of prime with an even exponent, otherwise 0.
 
-The programs for A353800, the canonical program `A353800.P5626433138732261385` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353800 has offset 1).
+The programs for A353800, the canonical program `A353800.P5626433138732261385` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353800 has offset 1).
 
 The definition of A353800 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -132,7 +133,7 @@ end A353800
 
 `and(∑{e}[∏{p}[n+1, #], #]!%2, ∏{e}[n+1, #+1])`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A353800
@@ -11841,7 +11842,7 @@ end A353897.P4477396985746762194
 /-!
 # A353898: a(n) is the number of divisors of n whose exponents in their prime factorizations are all powers of 2 (A138302).
 
-The programs for A353898, the canonical program `A353898.P9652589498491851610` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353898 has offset 1).
+The programs for A353898, the canonical program `A353898.P9652589498491851610` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353898 has offset 1).
 
 The definition of A353898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11850,7 +11851,7 @@ The definition of A353898 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, floor(log2(#))+2]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A353898

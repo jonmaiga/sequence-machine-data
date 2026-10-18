@@ -13,21 +13,21 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3110,7 +3110,7 @@ end A247425
 /-!
 # A247426: Complement of A247425.
 
-The programs for A247426, the canonical program `A247426.P7295270182602039639` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247426 has offset 1).
+The programs for A247426, the canonical program `A247426.P7295270182602039639` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247426 has offset 1).
 
 The definition of A247426 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3119,7 +3119,7 @@ The definition of A247426 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt((n+1)*(a(n-1)+2)))+n+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A247426
@@ -7545,7 +7545,7 @@ end A247480.P8520688511555783238
 /-!
 # A247485: Integer part of 2*sqrt(prime(n)) + 1.
 
-The programs for A247485, the canonical program `A247485.P2928913063424222719` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247485 has offset 1).
+The programs for A247485, the canonical program `A247485.P2928913063424222719` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247485 has offset 1).
 
 The definition of A247485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7554,7 +7554,7 @@ The definition of A247485 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(sqrt(4*p?[round(8*n/7)]))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A247485
@@ -7920,17 +7920,25 @@ end A247485
 /-!
 # A247487: Expansion of (2 + x + x^2 + x^3 - x^4 - 2*x^5 - 4*x^6 - 8*x^7) / (1 - x^4 + 16*x^8) in powers of x.
 
-The programs for A247487, the canonical program `A247487.P13124545003033750447` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247487 has offset 0).
+The programs for A247487, the canonical program `A247487.P4702979583577531915` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247487 has offset 0).
 
-The definition of A247487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A247487 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((2+x+x^2+x^3-x^4-2x^5-4x^6-8x^7)/(1-x^4+16x^8))` (program `A247487.P4702979583577531915`, by `A247487.P4702979583577531915.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A247487.P13124545003033750447
 
 `a(n-4)-16*a(n-8)` with `a(0)=2, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=-1, a(6)=-3, a(7)=-7`
-
-The canonical program, it is in `Seq.B000.C028`.
 -/
+
+namespace A247487.P13124545003033750447
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2, 1, 1, 1, 1, -1, -3, -7] fun n a =>
+  a (n - 4) - 16 * a (n - 8)
+
+end
+
+end A247487.P13124545003033750447
 
 namespace A247487
 
@@ -7938,7 +7946,22 @@ namespace A247487
 def P13124545003033750447.Spec : Prop :=
   ∀ n, P13124545003033750447.a n = A247487 n
 
-theorem P13124545003033750447.correct : P13124545003033750447.Spec := by
+end A247487
+
+/-! ## A247487.P4702979583577531915
+
+`ogf((2+x+x^2+x^3-x^4-2x^5-4x^6-8x^7)/(1-x^4+16x^8))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A247487
+
+/-- `ogf((2+x+x^2+x^3-x^4-2x^5-4x^6-8x^7)/(1-x^4+16x^8))` -/
+def P4702979583577531915.Spec : Prop :=
+  ∀ n, P4702979583577531915.a n = A247487 n
+
+theorem P4702979583577531915.correct : P4702979583577531915.Spec := by
   intro n
   simp only [A247487]
 

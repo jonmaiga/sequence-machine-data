@@ -18,17 +18,17 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +48,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -3835,7 +3834,7 @@ end A194640
 /-!
 # A194641: Digital roots of the nonzero heptagonal numbers.
 
-The programs for A194641, the canonical program `A194641.P11718273077551296675` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194641 has offset 1).
+The programs for A194641, the canonical program `A194641.P11718273077551296675` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194641 has offset 1).
 
 The definition of A194641 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3844,7 +3843,7 @@ The definition of A194641 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-9)` with `a(0)=1, a(1)=7, a(2)=9, a(3)=7, a(4)=1, a(5)=9, a(6)=4, a(7)=4, a(8)=9`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194641
@@ -3889,7 +3888,7 @@ end A194642
 /-!
 # A194644: Number of ways to place 2n nonattacking kings on a 4 X 2n cylindrical chessboard.
 
-The programs for A194644, the canonical program `A194644.P6909967390781083576` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194644 has offset 1).
+The programs for A194644, the canonical program `A194644.P6909967390781083576` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194644 has offset 1).
 
 The definition of A194644 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3898,7 +3897,7 @@ The definition of A194644 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)-10*a(n-2)+6*a(n-1)` with `a(0)=12, a(1)=32, a(2)=90`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194644
@@ -4008,7 +4007,7 @@ end A194644
 /-!
 # A194645: Number of ways to place 3n nonattacking kings on a 6 X 2n cylindrical chessboard.
 
-The programs for A194645, the canonical program `A194645.P14084386627878416144` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194645 has offset 1).
+The programs for A194645, the canonical program `A194645.P14084386627878416144` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194645 has offset 1).
 
 The definition of A194645 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4017,7 +4016,7 @@ The definition of A194645 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*4^(n+1)+2*3^(n+1)+4*(2+sqrt(2))^(n+1)+4*(2-sqrt(2))^(n+1)+2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194645
@@ -6001,7 +6000,7 @@ end A194685.P3708271948759557004
 /-!
 # A194688: First differences of A036554 (numbers whose binary representation ends in an odd number of zeros).
 
-The programs for A194688, the canonical program `A194688.P1822334739734173254` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194688 has offset 1).
+The programs for A194688, the canonical program `A194688.P1822334739734173254` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194688 has offset 1).
 
 The definition of A194688 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6010,7 +6009,7 @@ The definition of A194688 is `conjectured`: the Lean definition is a formula tha
 
 `7-p?[xor(n, n-3)%6]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194688
@@ -7402,7 +7401,7 @@ end A194697.P16045740127062189062
 /-!
 # A194698: a(n) = floor((n - 1)/12) - floor((n^2 - 1)/(24*n)).
 
-The programs for A194698, the canonical program `A194698.P16628847952051049688` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194698 has offset 1).
+The programs for A194698, the canonical program `A194698.P16628847952051049688` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194698 has offset 1).
 
 The definition of A194698 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n/12)-floor(((n+1)²-1)/(24*(n+1)))` (program `A194698.P16628847952051049688`, by `A194698.P16628847952051049688.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7411,7 +7410,7 @@ The definition of A194698 is `verified`: the Lean definition is proven equivalen
 
 `floor(n/12)-floor(((n+1)²-1)/(24*(n+1)))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194698

@@ -6,24 +6,24 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +36,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -74,7 +73,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -2576,7 +2574,7 @@ end A224231.P5728372649099921735
 /-!
 # A224232: a(n) = n! if n <= 3, otherwise a(n) = 2*(a(n-1) + a(n-3)) + a(n-2).
 
-The programs for A224232, the canonical program `A224232.P10103781980325146721` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224232 has offset 0).
+The programs for A224232, the canonical program `A224232.P10103781980325146721` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224232 has offset 0).
 
 The definition of A224232 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(a(n-1)+a(n-3))+a(n-2)` (program `A224232.P10103781980325146721`, by `A224232.P10103781980325146721.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2585,7 +2583,7 @@ The definition of A224232 is `verified`: the Lean definition is proven equivalen
 
 `2*(a(n-1)+a(n-3))+a(n-2)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=6`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A224232
@@ -2597,6 +2595,29 @@ def P10103781980325146721.Spec : Prop :=
 theorem P10103781980325146721.correct : P10103781980325146721.Spec := by
   intro n
   simp only [A224232]
+
+end A224232
+
+/-! ## A224232.P9152141877276040381
+
+`ogf((-1+x+x^2+x^3)/(-1+2x+x^2+2x^3))`
+-/
+
+namespace A224232.P9152141877276040381
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -1, -1] [1, -2, -1, -2] n
+
+end
+
+end A224232.P9152141877276040381
+
+namespace A224232
+
+/-- `ogf((-1+x+x^2+x^3)/(-1+2x+x^2+2x^3))` -/
+def P9152141877276040381.Spec : Prop :=
+  ∀ n, P9152141877276040381.a n = A224232 n
 
 end A224232
 
@@ -3128,7 +3149,7 @@ end A224250.P11839883222627676813
 /-!
 # A224251: Numbers, a(n) where binomial(a(n), 5n-1) == 0 (mod 5) and binomial(a(n), k) != 0 (mod 5) for k != 5n - 1.
 
-The programs for A224251, the canonical program `A224251.P16511171723725799977` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224251 has offset 1).
+The programs for A224251, the canonical program `A224251.P16511171723725799977` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224251 has offset 1).
 
 The definition of A224251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3137,7 +3158,7 @@ The definition of A224251 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+5*a(n-4)-5*a(n-5)` with `a(0)=8, a(1)=13, a(2)=18, a(3)=23, a(4)=48`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A224251

@@ -9,21 +9,24 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -8580,7 +8583,7 @@ end A049558.P18154848728258712928
 /-!
 # A049559: a(n) = gcd(n - 1, phi(n)).
 
-The programs for A049559, the canonical program `A049559.P5853835734044541127` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049559 has offset 1).
+The programs for A049559, the canonical program `A049559.P5853835734044541127` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049559 has offset 1).
 
 The definition of A049559 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8681,7 +8684,7 @@ end A049559
 
 `gcd(n, ∏{p}[n+1, 1-#])`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A049559
@@ -17302,7 +17305,7 @@ end A049597.P14000271754821735439
 /-!
 # A049598: 12 times triangular numbers.
 
-The programs for A049598, the canonical program `A049598.P16136948666978036778` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049598 has offset 0).
+The programs for A049598, the canonical program `A049598.P16136948666978036778` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049598 has offset 0).
 
 The definition of A049598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17311,7 +17314,7 @@ The definition of A049598 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*n*(n+1)`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A049598
@@ -17372,6 +17375,29 @@ namespace A049598
 /-- `lcm(2, Δ[n^3])-2` -/
 def P14173627565282422241.Spec : Prop :=
   ∀ n, P14173627565282422241.a n = A049598 n
+
+end A049598
+
+/-! ## A049598.P4313123036335218085
+
+`ogf(12x/(1-3x+3x^2-x^3))`
+-/
+
+namespace A049598.P4313123036335218085
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 12] [1, -3, 3, -1] n
+
+end
+
+end A049598.P4313123036335218085
+
+namespace A049598
+
+/-- `ogf(12x/(1-3x+3x^2-x^3))` -/
+def P4313123036335218085.Spec : Prop :=
+  ∀ n, P4313123036335218085.a n = A049598 n
 
 end A049598
 

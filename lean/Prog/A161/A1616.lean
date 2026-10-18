@@ -9,24 +9,28 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +47,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -3056,7 +3059,7 @@ end A161616.P16954107315970815155
 /-!
 # A161617: a(n) = 8*n^2 + 20*n + 1.
 
-The programs for A161617, the canonical program `A161617.P6959847450103032667` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161617 has offset 0).
+The programs for A161617, the canonical program `A161617.P6959847450103032667` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161617 has offset 0).
 
 The definition of A161617 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*n²+20*n+1` (program `A161617.P6959847450103032667`, by `A161617.P6959847450103032667.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3065,7 +3068,7 @@ The definition of A161617 is `verified`: the Lean definition is proven equivalen
 
 `8*n²+20*n+1`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161617
@@ -9531,7 +9534,7 @@ end A161673
 /-!
 # A161674: Positions n such that A010060(n) + A010060(n+2) = 1.
 
-The programs for A161674, the canonical program `A161674.P5419154146212136035` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161674 has offset 1).
+The programs for A161674, the canonical program `A161674.P5419154146212136035` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161674 has offset 1).
 
 The definition of A161674 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9540,7 +9543,7 @@ The definition of A161674 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, xor(n, n+2)%3]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161674
@@ -10194,7 +10197,7 @@ end A161677.P12293589679423878625
 /-!
 # A161680: a(n) = binomial(n,2): number of size-2 subsets of {0,1,...,n} that contain no consecutive integers.
 
-The programs for A161680, the canonical program `A161680.P17206074215489759881` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161680 has offset 0).
+The programs for A161680, the canonical program `A161680.P17206074215489759881` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161680 has offset 0).
 
 The definition of A161680 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n, 2)` (program `A161680.P17206074215489759881`, by `A161680.P17206074215489759881.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10203,7 +10206,7 @@ The definition of A161680 is `verified`: the Lean definition is proven equivalen
 
 `C(n, 2)`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161680
@@ -11367,7 +11370,7 @@ end A161695.P7880319343957523306
 /-!
 # A161696: Number of reduced words of length n in the Weyl group B_3.
 
-The programs for A161696, the canonical program `A161696.P7354928358902214541` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161696 has offset 0).
+The programs for A161696, the canonical program `A161696.P7354928358902214541` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161696 has offset 0).
 
 The definition of A161696 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11376,7 +11379,7 @@ The definition of A161696 is `conjectured`: the Lean definition is a formula tha
 
 `floor(7*a(n-1)/(2-acot(n)+n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161696

@@ -21,7 +21,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C021
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -31,21 +31,21 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C001
@@ -125,7 +125,7 @@ end A355701.P16034832411215637198
 /-!
 # A355703: a(n) = binomial(n, floor(log(n))).
 
-The programs for A355703, the canonical program `A355703.P13795620908958740707` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355703 has offset 1).
+The programs for A355703, the canonical program `A355703.P13795620908958740707` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355703 has offset 1).
 
 The definition of A355703 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+1, floor(log(n+1)))` (program `A355703.P13795620908958740707`, by `A355703.P13795620908958740707.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -134,7 +134,7 @@ The definition of A355703 is `verified`: the Lean definition is proven equivalen
 
 `C(n+1, floor(log(n+1)))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A355703
@@ -3621,7 +3621,7 @@ end A355750
 /-!
 # A355751: Positive numbers k such that the centered cube number k^3 + (k+1)^3 is equal to the difference of two positive cubes and to A352759(n).
 
-The programs for A355751, the canonical program `A355751.P16066944130714536049` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355751 has offset 1).
+The programs for A355751, the canonical program `A355751.P16066944130714536049` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355751 has offset 1).
 
 The definition of A355751 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3672,7 +3672,7 @@ end A355751
 
 `3*a(n-1)-3*a(n-2)+a(n-3)+216` with `a(0)=4, a(1)=121, a(2)=562`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A355751
@@ -4084,7 +4084,7 @@ end A355751
 /-!
 # A355752: a(n) = 3*(2*n - 1)*(3*(2*n - 1)^3 + 1) / 2.
 
-The programs for A355752, the canonical program `A355752.P14782290727704087451` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355752 has offset 1).
+The programs for A355752, the canonical program `A355752.P14782290727704087451` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355752 has offset 1).
 
 The definition of A355752 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4093,7 +4093,7 @@ The definition of A355752 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*(2*(n+1)-1)*(3*(2*(n+1)-1)^3+1)/2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A355752

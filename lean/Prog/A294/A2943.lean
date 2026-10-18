@@ -8,10 +8,12 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -20,13 +22,13 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1270,7 +1272,7 @@ end A294312.P18289005057745695000
 /-!
 # A294315: a(n) = 3*n^3 + n^2.
 
-The programs for A294315, the canonical program `A294315.P3866111110080714343` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294315 has offset 0).
+The programs for A294315, the canonical program `A294315.P3866111110080714343` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294315 has offset 0).
 
 The definition of A294315 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*n^3+n²` (program `A294315.P3866111110080714343`, by `A294315.P3866111110080714343.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1279,7 +1281,7 @@ The definition of A294315 is `verified`: the Lean definition is proven equivalen
 
 `3*n^3+n²`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A294315
@@ -4351,7 +4353,7 @@ end A294343.P4564090071439981538
 /-!
 # A294344: a(n) = ((-9*n + 82)*10^n - 1)/81.
 
-The programs for A294344, the canonical program `A294344.P14838759609438362989` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294344 has offset 0).
+The programs for A294344, the canonical program `A294344.P14838759609438362989` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294344 has offset 0).
 
 The definition of A294344 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4360,7 +4362,7 @@ The definition of A294344 is `conjectured`: the Lean definition is a formula tha
 
 `10*a(n-1)-floor(10^n/9)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A294344
@@ -5201,7 +5203,7 @@ end A294353.P16345780913885715968
 /-!
 # A294354: a(1) = a(3) = a(4) = 2, a(2) = 4; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 4.
 
-The programs for A294354, the canonical program `A294354.P15776141741150967985` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294354 has offset 1).
+The programs for A294354, the canonical program `A294354.P15776141741150967985` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294354 has offset 1).
 
 The definition of A294354 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-a(n-1))+a(n-a(n-2))` (program `A294354.P15776141741150967985`, by `A294354.P15776141741150967985.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5210,7 +5212,7 @@ The definition of A294354 is `verified`: the Lean definition is proven equivalen
 
 `a(n-a(n-1))+a(n-a(n-2))` with `a(0)=2, a(1)=4, a(2)=2, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A294354
@@ -6282,6 +6284,33 @@ end
 end A294370.P7021715106319293663
 
 /-!
+# A294372: Expansion of (1-x)^4/(x^2 + 4*x + 1).
+
+The programs for A294372, the canonical program `A294372.P14491113079916990850` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294372 has offset 0).
+
+The definition of A294372 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-4x+6x^2-4x^3+x^4)/(1+4x+x^2))` (program `A294372.P14491113079916990850`, by `A294372.P14491113079916990850.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+-/
+
+/-! ## A294372.P14491113079916990850
+
+`ogf((1-4x+6x^2-4x^3+x^4)/(1+4x+x^2))`
+
+The canonical program, it is in `Seq.B000.C033`.
+-/
+
+namespace A294372
+
+/-- `ogf((1-4x+6x^2-4x^3+x^4)/(1+4x+x^2))` -/
+def P14491113079916990850.Spec : Prop :=
+  ∀ n, P14491113079916990850.a n = A294372 n
+
+theorem P14491113079916990850.correct : P14491113079916990850.Spec := by
+  intro n
+  simp only [A294372]
+
+end A294372
+
+/-!
 # A294373: Product of first n Bell numbers.
 
 The programs for A294373, there is no canonical definition to state claims against.
@@ -7116,7 +7145,7 @@ end A294388.P11064067452073317396
 /-!
 # A294389: a(n) = 2^(n-3) mod n, for n >= 3.
 
-The programs for A294389, the canonical program `A294389.P16442988502026631211` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294389 has offset 3).
+The programs for A294389, the canonical program `A294389.P16442988502026631211` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294389 has offset 3).
 
 The definition of A294389 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7125,7 +7154,7 @@ The definition of A294389 is `conjectured`: the Lean definition is a formula tha
 
 `(2^n)%(n+3)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A294389
@@ -7304,7 +7333,7 @@ end A294389
 /-!
 # A294390: a(n) = 2^(n-4) mod n, for n >= 4.
 
-The programs for A294390, the canonical program `A294390.P18173516052431740010` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294390 has offset 4).
+The programs for A294390, the canonical program `A294390.P18173516052431740010` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294390 has offset 4).
 
 The definition of A294390 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7313,7 +7342,7 @@ The definition of A294390 is `conjectured`: the Lean definition is a formula tha
 
 `(2^n)%(n+4)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A294390

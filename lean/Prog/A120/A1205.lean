@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -19,6 +18,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -33,6 +33,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +50,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
@@ -7893,7 +7893,7 @@ end A120529
 /-!
 # A120530: First differences of successive generalized meta-Fibonacci numbers A120508.
 
-The programs for A120530, the canonical program `A120530.P7873409400076462526` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120530 has offset 1).
+The programs for A120530, the canonical program `A120530.P7873409400076462526` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120530 has offset 1).
 
 The definition of A120530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8040,7 +8040,7 @@ end A120530
 
 `Δ[A120508(A028310(n))]^n`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A120530
@@ -11043,6 +11043,29 @@ The programs for A120580, the canonical program `A120580.P13996279121683827108` 
 The definition of A120580 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A120580.P5348608356772679119
+
+`ogf((1-2x)/(1-2x+4x^2))`
+-/
+
+namespace A120580.P5348608356772679119
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2] [1, -2, 4] n
+
+end
+
+end A120580.P5348608356772679119
+
+namespace A120580
+
+/-- `ogf((1-2x)/(1-2x+4x^2))` -/
+def P5348608356772679119.Spec : Prop :=
+  ∀ n, P5348608356772679119.a n = A120580 n
+
+end A120580
+
 /-! ## A120580.P13996279121683827108
 
 `(1-n%3)*(-2)^n`
@@ -11482,16 +11505,16 @@ end A120580
 /-!
 # A120581: Hankel transform of sum{k=0..n, C(2k,k)*2^k}.
 
-The programs for A120581, the canonical program `A120581.P14531339546796847337` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120581 has offset 0).
+The programs for A120581, the canonical program `A120581.P14531339546796847337` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120581 has offset 0).
 
-The definition of A120581 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A087168, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A120581 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A120581.P14531339546796847337
 
 `4^n*4^C(n, 2)*(-1)^n*A087168(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A120581

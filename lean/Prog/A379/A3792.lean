@@ -12,12 +12,12 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -30,7 +30,9 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +45,6 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
@@ -62,7 +63,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
@@ -626,7 +626,7 @@ end A379210
 /-!
 # A379211: List of positive integers that are congruent to {2, 7, 8, 13} mod 15.
 
-The programs for A379211, the canonical program `A379211.P5538660320542451109` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379211 has offset 1).
+The programs for A379211, the canonical program `A379211.P5538660320542451109` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379211 has offset 1).
 
 The definition of A379211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -635,7 +635,7 @@ The definition of A379211 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15+a(n-4)` with `a(0)=2, a(1)=7, a(2)=8, a(3)=13`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379211
@@ -1255,7 +1255,7 @@ end A379212.P17793664777764942101
 /-!
 # A379213: a(n) is the number of nonnegative integers m such that A184615(m) = A003714(n).
 
-The programs for A379213, the canonical program `A379213.P13710358421444218836` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379213 has offset 0).
+The programs for A379213, the canonical program `A379213.P13710358421444218836` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379213 has offset 0).
 
 The definition of A379213 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1264,7 +1264,7 @@ The definition of A379213 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A277331(n), A000045(#)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379213
@@ -1770,7 +1770,7 @@ end A379221.P11363991913346572895
 /-!
 # A379222: Number of trailing 1-bits in the binary representation of the sum of the divisors of the n-th odd square: a(n) = sigma((2*n-1)^2).
 
-The programs for A379222, the canonical program `A379222.P16799102987765888211` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379222 has offset 1).
+The programs for A379222, the canonical program `A379222.P16799102987765888211` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379222 has offset 1).
 
 The definition of A379222 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1779,7 +1779,7 @@ The definition of A379222 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A378999(2*n+1)`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379222
@@ -4680,7 +4680,7 @@ end A379266.P126125321813973829
 /-!
 # A379267: Numbers whose binary representation contains exactly two zeros.
 
-The programs for A379267, the canonical program `A379267.P15908437696186355973` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379267 has offset 1).
+The programs for A379267, the canonical program `A379267.P15908437696186355973` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379267 has offset 1).
 
 The definition of A379267 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 469 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4741,7 +4741,7 @@ end A379267
 
 `∩[A144754(n+1), A059010(n)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379267

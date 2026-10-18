@@ -1,25 +1,28 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C016
+import Seq.B000.C012
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -27,7 +30,7 @@ import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
@@ -5393,7 +5396,7 @@ end A197595.P7990067409024726063
 /-!
 # A197596: a(n) = Floor((7n+1/n)^n).
 
-The programs for A197596, the canonical program `A197596.P13465623577577287123` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197596 has offset 1).
+The programs for A197596, the canonical program `A197596.P13465623577577287123` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197596 has offset 1).
 
 The definition of A197596 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((7*(n+1)+1/(n+1))^(n+1))` (program `A197596.P13465623577577287123`, by `A197596.P13465623577577287123.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5402,7 +5405,7 @@ The definition of A197596 is `verified`: the Lean definition is proven equivalen
 
 `floor((7*(n+1)+1/(n+1))^(n+1))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197596
@@ -5512,7 +5515,7 @@ end A197596
 /-!
 # A197597: Floor((8n+1/n)^n).
 
-The programs for A197597, the canonical program `A197597.P3518355192494855765` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197597 has offset 1).
+The programs for A197597, the canonical program `A197597.P3518355192494855765` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197597 has offset 1).
 
 The definition of A197597 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((8*(n+1)+1/(n+1))^(n+1))` (program `A197597.P3518355192494855765`, by `A197597.P3518355192494855765.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5521,7 +5524,7 @@ The definition of A197597 is `verified`: the Lean definition is proven equivalen
 
 `floor((8*(n+1)+1/(n+1))^(n+1))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197597
@@ -5635,7 +5638,7 @@ end A197597
 /-!
 # A197598: Floor((9n+1/n)^n).
 
-The programs for A197598, the canonical program `A197598.P14859663712501341182` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197598 has offset 1).
+The programs for A197598, the canonical program `A197598.P14859663712501341182` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197598 has offset 1).
 
 The definition of A197598 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((9*(n+1)+1/(n+1))^(n+1))` (program `A197598.P14859663712501341182`, by `A197598.P14859663712501341182.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5644,7 +5647,7 @@ The definition of A197598 is `verified`: the Lean definition is proven equivalen
 
 `floor((9*(n+1)+1/(n+1))^(n+1))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197598
@@ -5731,7 +5734,7 @@ end A197598
 /-!
 # A197599: Floor((10n+1/n)^n).
 
-The programs for A197599, the canonical program `A197599.P11287781586585469061` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197599 has offset 1).
+The programs for A197599, the canonical program `A197599.P11287781586585469061` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197599 has offset 1).
 
 The definition of A197599 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((10*(n+1)+1/(n+1))^(n+1))` (program `A197599.P11287781586585469061`, by `A197599.P11287781586585469061.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5740,7 +5743,7 @@ The definition of A197599 is `verified`: the Lean definition is proven equivalen
 
 `floor((10*(n+1)+1/(n+1))^(n+1))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197599

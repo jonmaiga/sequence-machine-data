@@ -11,22 +11,24 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1844,7 +1846,7 @@ end A211812.P2416902007149835022
 /-!
 # A211813: Number of (n+1) X (n+1) -10..10 symmetric matrices with every 2 X 2 subblock having sum zero and two distinct values.
 
-The programs for A211813, the canonical program `A211813.P4229429204270368905` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211813 has offset 1).
+The programs for A211813, the canonical program `A211813.P4229429204270368905` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211813 has offset 1).
 
 The definition of A211813 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 473 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1853,7 +1855,7 @@ The definition of A211813 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-2)-14` with `a(0)=32, a(1)=44`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A211813
@@ -3652,7 +3654,7 @@ end A211836.P3737675128159631593
 /-!
 # A211837: Number of nonnegative integer arrays of length n+4 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value n+1.
 
-The programs for A211837, the canonical program `A211837.P5322037994114808625` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211837 has offset 1).
+The programs for A211837, the canonical program `A211837.P5322037994114808625` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211837 has offset 1).
 
 The definition of A211837 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3661,7 +3663,7 @@ The definition of A211837 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=33, a(1)=77, a(2)=157, a(3)=289, a(4)=492`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A211837
@@ -5051,7 +5053,7 @@ end A211849.P12053497007808772878
 /-!
 # A211850: Number of nonnegative integer arrays of length 2n+5 with new values 0 upwards introduced in order, no three adjacent elements all unequal, and containing the value n+1.
 
-The programs for A211850, the canonical program `A211850.P12959323677804407206` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211850 has offset 1).
+The programs for A211850, the canonical program `A211850.P12959323677804407206` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211850 has offset 1).
 
 The definition of A211850 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5060,7 +5062,7 @@ The definition of A211850 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=63, a(1)=147, a(2)=286, a(3)=494`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A211850
@@ -6095,7 +6097,7 @@ end A211865.P12143738829105079626
 /-!
 # A211866: a(n) = (9^n - 5) / 4.
 
-The programs for A211866, the canonical program `A211866.P6026757489020905335` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211866 has offset 1).
+The programs for A211866, the canonical program `A211866.P6026757489020905335` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211866 has offset 1).
 
 The definition of A211866 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(9^(n+1)-5)/4` (program `A211866.P7080741418637948122`, by `A211866.P7080741418637948122.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6104,7 +6106,7 @@ The definition of A211866 is `verified`: the Lean definition is proven equivalen
 
 `9*a(n-1)+10` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A211866
@@ -6181,6 +6183,29 @@ theorem P7080741418637948122.correct : P7080741418637948122.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A211866
+
+/-! ## A211866.P6366390009166670909
+
+`ogf((1+9x)/(1-10x+9x^2))`
+-/
+
+namespace A211866.P6366390009166670909
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 9] [1, -10, 9] n
+
+end
+
+end A211866.P6366390009166670909
+
+namespace A211866
+
+/-- `ogf((1+9x)/(1-10x+9x^2))` -/
+def P6366390009166670909.Spec : Prop :=
+  ∀ n, P6366390009166670909.a n = A211866 (n + 1)
 
 end A211866
 
@@ -8101,7 +8126,7 @@ end A211898.P12815543762408942249
 /-!
 # A211899: Number of triangular n X n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any neighbor, and containing the value n(n+1)/2-2.
 
-The programs for A211899, the canonical program `A211899.P18024240149601656115` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211899 has offset 1).
+The programs for A211899, the canonical program `A211899.P18024240149601656115` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211899 has offset 1).
 
 The definition of A211899 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8110,7 +8135,7 @@ The definition of A211899 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=1, a(2)=7, a(3)=28, a(4)=76, a(5)=166`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A211899

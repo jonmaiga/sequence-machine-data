@@ -21,16 +21,17 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2352,7 +2353,7 @@ end A039915
 /-!
 # A039916: Concatenation of the decimal digits of Pi-3.
 
-The programs for A039916, the canonical program `A039916.P387445281154121364` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039916 has offset 1).
+The programs for A039916, the canonical program `A039916.P387445281154121364` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039916 has offset 1).
 
 The definition of A039916 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2361,7 +2362,7 @@ The definition of A039916 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((π-3)*10^(n+1))`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039916
@@ -3906,7 +3907,7 @@ end A039933.P12725287797265404556
 /-!
 # A039936: Smallest k for which k, 2k, ... nk all contain the digit 5.
 
-The programs for A039936, the canonical program `A039936.P4292264429620002064` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039936 has offset 1).
+The programs for A039936, the canonical program `A039936.P4292264429620002064` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039936 has offset 1).
 
 The definition of A039936 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3938,7 +3939,7 @@ end A039936
 
 `5*a(floor((n-1)/2))` with `a(0)=5`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039936
@@ -9046,7 +9047,7 @@ end A039965
 /-!
 # A039966: a(0) = 1; thereafter a(3n+2) = 0, a(3n) = a(3n+1) = a(n).
 
-The programs for A039966, the canonical program `A039966.P2983732039827484293` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039966 has offset 0).
+The programs for A039966, the canonical program `A039966.P2983732039827484293` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039966 has offset 0).
 
 The definition of A039966 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9055,7 +9056,7 @@ The definition of A039966 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/3))*a(n%3)` with `a(0)=1, a(1)=1, a(2)=0`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039966
@@ -14330,7 +14331,7 @@ end A039981.P3767486667674861136
 /-!
 # A039982: Let phi denote the morphism 0 -> 11, 1 -> 10. This sequence is the limit S(oo) where S(0) = 1; S(n+1) = 1.phi(S(n)).
 
-The programs for A039982, the canonical program `A039982.P3162502639953544015` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039982 has offset 0).
+The programs for A039982, the canonical program `A039982.P3162502639953544015` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039982 has offset 0).
 
 The definition of A039982 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14362,7 +14363,7 @@ end A039982
 
 `Δ[n-a(floor((n-1)/2))]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039982
@@ -15305,7 +15306,7 @@ end A039983
 /-!
 # A039984: An example of a d-perfect sequence.
 
-The programs for A039984, the canonical program `A039984.P12452810510463565344` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039984 has offset 1).
+The programs for A039984, the canonical program `A039984.P12452810510463565344` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039984 has offset 1).
 
 The definition of A039984 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15337,7 +15338,7 @@ end A039984
 
 `abs(Δ[n%(2-a(floor(n/2)))])` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039984

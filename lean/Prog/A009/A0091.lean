@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -20,12 +21,13 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1246,6 +1248,29 @@ def P18313409195488538803.Spec : Prop :=
 
 end A009116
 
+/-! ## A009116.P13049958890488879020
+
+`ogf((1+x)/(1+2x+2x^2))`
+-/
+
+namespace A009116.P13049958890488879020
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1] [1, 2, 2] n
+
+end
+
+end A009116.P13049958890488879020
+
+namespace A009116
+
+/-- `ogf((1+x)/(1+2x+2x^2))` -/
+def P13049958890488879020.Spec : Prop :=
+  ∀ n, P13049958890488879020.a n = A009116 n
+
+end A009116
+
 /-! ## A009116.P14674822965862348520
 
 `A321632(n+1)+A321632(n)`
@@ -1500,6 +1525,29 @@ def P9076829232289267854.Spec : Prop :=
 theorem P9076829232289267854.correct : P9076829232289267854.Spec := by
   intro n
   simp only [A009117]
+
+end A009117
+
+/-! ## A009117.P2949238670878955520
+
+`ogf((1+2x)/(1+4x))`
+-/
+
+namespace A009117.P2949238670878955520
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2] [1, 4] n
+
+end
+
+end A009117.P2949238670878955520
+
+namespace A009117
+
+/-- `ogf((1+2x)/(1+4x))` -/
+def P2949238670878955520.Spec : Prop :=
+  ∀ n, P2949238670878955520.a n = A009117 n
 
 end A009117
 

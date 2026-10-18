@@ -4,21 +4,22 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C024
+import Seq.B000.C019
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -31,7 +32,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -3377,7 +3378,7 @@ end A368343.P4193199980801932293
 /-!
 # A368344: a(n) = Sum_{k=0..n} 3^(n-k) * floor(k/3).
 
-The programs for A368344, the canonical program `A368344.P1204575797105107372` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368344 has offset 0).
+The programs for A368344, the canonical program `A368344.P1204575797105107372` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368344 has offset 0).
 
 The definition of A368344 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3409,7 +3410,7 @@ end A368344
 
 `4*a(n-1)-3*a(n-2)+a(n-3)-4*a(n-4)+3*a(n-5)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368344
@@ -3568,7 +3569,7 @@ end A368344
 /-!
 # A368345: a(n) = Sum_{k=0..n} 4^(n-k) * floor(k/3).
 
-The programs for A368345, the canonical program `A368345.P15596673633477586949` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368345 has offset 0).
+The programs for A368345, the canonical program `A368345.P15596673633477586949` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368345 has offset 0).
 
 The definition of A368345 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3600,7 +3601,7 @@ end A368345
 
 `5*a(n-1)-4*a(n-2)+a(n-3)-5*a(n-4)+4*a(n-5)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=5`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368345
@@ -3762,7 +3763,7 @@ end A368345
 /-!
 # A368346: a(n) = Sum_{k=0..n} 2^(n-k) * floor(k/4).
 
-The programs for A368346, the canonical program `A368346.P10125156157257497537` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368346 has offset 0).
+The programs for A368346, the canonical program `A368346.P10125156157257497537` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368346 has offset 0).
 
 The definition of A368346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3794,7 +3795,7 @@ end A368346
 
 `3*a(n-1)-2*a(n-2)+a(n-4)-3*a(n-5)+2*a(n-6)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0, a(4)=1, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368346
@@ -4759,7 +4760,7 @@ end A368365.P12133183349795661343
 /-!
 # A368366: AGM transform of positive integers (see Comments for definition).
 
-The programs for A368366, the canonical program `A368366.P6656122928088608787` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368366 has offset 1).
+The programs for A368366, the canonical program `A368366.P6656122928088608787` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368366 has offset 1).
 
 The definition of A368366 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4768,7 +4769,7 @@ The definition of A368366 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)^(n+1)*(((n+2)/2)^(n+1)-(n+1)!)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368366

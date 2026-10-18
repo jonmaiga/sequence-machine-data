@@ -10,7 +10,6 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -21,16 +20,16 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +45,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -14244,6 +14244,55 @@ The programs for A036999, the canonical program `A036999.P18067301399788480176` 
 
 The definition of A036999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 476 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A036999.P6362300477146668987
+
+`∑[ogf((-6+3x+6x^2)/(-1+x+x^2))]`
+-/
+
+namespace A036999.P6362300477146668987
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -3, -6] [1, -1, -1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A036999.P6362300477146668987
+
+namespace A036999
+
+/-- `∑[ogf((-6+3x+6x^2)/(-1+x+x^2))]` -/
+def P6362300477146668987.Spec : Prop :=
+  ∀ n, P6362300477146668987.a n = A036999 n
+
+end A036999
+
+/-! ## A036999.P2198827071262309820
+
+`ogf((6-3x-6x^2)/(1-2x+x^3))`
+-/
+
+namespace A036999.P2198827071262309820
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -3, -6] [1, -2, 0, 1] n
+
+end
+
+end A036999.P2198827071262309820
+
+namespace A036999
+
+/-- `ogf((6-3x-6x^2)/(1-2x+x^3))` -/
+def P2198827071262309820.Spec : Prop :=
+  ∀ n, P2198827071262309820.a n = A036999 n
+
+end A036999
 
 /-! ## A036999.P18067301399788480176
 

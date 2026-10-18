@@ -17,16 +17,17 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +44,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2018,7 +2018,7 @@ end A161822.P2300128896073549685
 /-!
 # A161823: Among any n lines on the plane, there exists a pair at an angle not more than a(n) degrees.
 
-The programs for A161823, the canonical program `A161823.P14772837221372451884` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161823 has offset 2).
+The programs for A161823, the canonical program `A161823.P14772837221372451884` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161823 has offset 2).
 
 The definition of A161823 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2027,7 +2027,7 @@ The definition of A161823 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(180/(n+2))`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161823
@@ -2645,7 +2645,7 @@ end A161826.P13639135698743369908
 /-!
 # A161827: Complement of A006446.
 
-The programs for A161827, the canonical program `A161827.P18149568597438859992` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161827 has offset 1).
+The programs for A161827, the canonical program `A161827.P18149568597438859992` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161827 has offset 1).
 
 The definition of A161827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2654,7 +2654,7 @@ The definition of A161827 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n, lcm(n, floor(sqrt(n)))]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161827
@@ -8029,7 +8029,7 @@ end A161851.P15258187981475041651
 /-!
 # A161852: Solutions to the simultaneous equations m(n)+1=a(n)^2 and 7*m(n)+1=b(n)^2.
 
-The programs for A161852, the canonical program `A161852.P13496728816473145261` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161852 has offset 1).
+The programs for A161852, the canonical program `A161852.P13496728816473145261` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161852 has offset 1).
 
 The definition of A161852 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8038,7 +8038,7 @@ The definition of A161852 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*a(n-2)-a(n-4)` with `a(0)=1, a(1)=5, a(2)=11, a(3)=79`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A161852

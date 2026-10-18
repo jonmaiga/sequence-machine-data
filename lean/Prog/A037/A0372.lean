@@ -11,6 +11,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -31,9 +32,9 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -51,7 +52,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -92,6 +92,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -5562,6 +5563,35 @@ def P12529728448540317409.Spec : Prop :=
 
 end A037235
 
+/-! ## A037235.P11627531097221564663
+
+`∑[∑[ogf((x+3x^3)/(1-2x+x^2))]]`
+-/
+
+namespace A037235.P11627531097221564663
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 0, 3] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A037235.P11627531097221564663
+
+namespace A037235
+
+/-- `∑[∑[ogf((x+3x^3)/(1-2x+x^2))]]` -/
+def P11627531097221564663.Spec : Prop :=
+  ∀ n, P11627531097221564663.a n = A037235 n
+
+end A037235
+
 /-! ## A037235.P900574229224385411
 
 `floor(A161712(n)/2)`
@@ -5847,10 +5877,29 @@ end A037235
 /-!
 # A037236: Expansion of (3+2*x^2)/(1-x)^4.
 
-The programs for A037236, the canonical program `A037236.P1227965196782982956` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037236 has offset 0).
+The programs for A037236, the canonical program `A037236.P7771006786247151192` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037236 has offset 0).
 
-The definition of A037236 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A037236 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((3+2x^2)/(1-4x+6x^2-4x^3+x^4))` (program `A037236.P7771006786247151192`, by `A037236.P7771006786247151192.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A037236.P7771006786247151192
+
+`ogf((3+2x^2)/(1-4x+6x^2-4x^3+x^4))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A037236
+
+/-- `ogf((3+2x^2)/(1-4x+6x^2-4x^3+x^4))` -/
+def P7771006786247151192.Spec : Prop :=
+  ∀ n, P7771006786247151192.a n = A037236 n
+
+theorem P7771006786247151192.correct : P7771006786247151192.Spec := by
+  intro n
+  simp only [A037236]
+
+end A037236
 
 /-! ## A037236.P8875776931254324751
 
@@ -5873,44 +5922,28 @@ namespace A037236
 def P8875776931254324751.Spec : Prop :=
   ∀ n, P8875776931254324751.a n = (A037236 n : ℚ)
 
-theorem P8875776931254324751.correct : P8875776931254324751.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 | 2 | 3 =>
-      simp [A037236, Nat.add_sub_cancel, A037236.P8875776931254324751.a, A037236.P1227965196782982956.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 4 =>
-      have h1 := ih (m + 3) (by omega)
-      have h2 := ih (m + 2) (by omega)
-      have h3 := ih (m + 1) (by omega)
-      have h4 := ih m (by omega)
-      simp only [A037236, Nat.add_sub_cancel, A037236.P8875776931254324751.a, A037236.P1227965196782982956.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
-      push_cast at h1 h2 h3 h4 ⊢
-      rw [← h1, ← h2, ← h3, ← h4]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
-
 end A037236
 
 /-! ## A037236.P1227965196782982956
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=3, a(1)=12, a(2)=32, a(3)=68`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A037236.P1227965196782982956
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3, 12, 32, 68] fun n a =>
+  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
+
+end
+
+end A037236.P1227965196782982956
 
 namespace A037236
 
 /-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
 def P1227965196782982956.Spec : Prop :=
   ∀ n, P1227965196782982956.a n = A037236 n
-
-theorem P1227965196782982956.correct : P1227965196782982956.Spec := by
-  intro n
-  simp only [A037236]
 
 end A037236
 
@@ -6330,10 +6363,29 @@ end A037236
 /-!
 # A037237: Expansion of (3 + x^2) / (1 - x)^4.
 
-The programs for A037237, the canonical program `A037237.P7909188683932824269` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037237 has offset 0).
+The programs for A037237, the canonical program `A037237.P1349574544955953072` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037237 has offset 0).
 
-The definition of A037237 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A037237 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((3+x^2)/(1-4x+6x^2-4x^3+x^4))` (program `A037237.P1349574544955953072`, by `A037237.P1349574544955953072.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A037237.P1349574544955953072
+
+`ogf((3+x^2)/(1-4x+6x^2-4x^3+x^4))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A037237
+
+/-- `ogf((3+x^2)/(1-4x+6x^2-4x^3+x^4))` -/
+def P1349574544955953072.Spec : Prop :=
+  ∀ n, P1349574544955953072.a n = A037237 n
+
+theorem P1349574544955953072.correct : P1349574544955953072.Spec := by
+  intro n
+  simp only [A037237]
+
+end A037237
 
 /-! ## A037237.P11477332566898616496
 
@@ -6356,44 +6408,28 @@ namespace A037237
 def P11477332566898616496.Spec : Prop :=
   ∀ n, P11477332566898616496.a n = (A037237 n : ℚ)
 
-theorem P11477332566898616496.correct : P11477332566898616496.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 | 2 | 3 =>
-      simp [A037237, Nat.add_sub_cancel, A037237.P11477332566898616496.a, A037237.P7909188683932824269.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 4 =>
-      have h1 := ih (m + 3) (by omega)
-      have h2 := ih (m + 2) (by omega)
-      have h3 := ih (m + 1) (by omega)
-      have h4 := ih m (by omega)
-      simp only [A037237, Nat.add_sub_cancel, A037237.P11477332566898616496.a, A037237.P7909188683932824269.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
-      push_cast at h1 h2 h3 h4 ⊢
-      rw [← h1, ← h2, ← h3, ← h4]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
-
 end A037237
 
 /-! ## A037237.P7909188683932824269
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=3, a(1)=12, a(2)=31, a(3)=64`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A037237.P7909188683932824269
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3, 12, 31, 64] fun n a =>
+  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
+
+end
+
+end A037237.P7909188683932824269
 
 namespace A037237
 
 /-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
 def P7909188683932824269.Spec : Prop :=
   ∀ n, P7909188683932824269.a n = A037237 n
-
-theorem P7909188683932824269.correct : P7909188683932824269.Spec := by
-  intro n
-  simp only [A037237]
 
 end A037237
 
@@ -6822,6 +6858,29 @@ namespace A037237
 /-- `∑[A033816(n)+n]` -/
 def P13666539138000872830.Spec : Prop :=
   ∀ n, P13666539138000872830.a n = A037237 n
+
+end A037237
+
+/-! ## A037237.P9359055359526108894
+
+`n+1+A006331(n+1)`
+-/
+
+namespace A037237.P9359055359526108894
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) + A006331 (n + 1)
+
+end
+
+end A037237.P9359055359526108894
+
+namespace A037237
+
+/-- `n+1+A006331(n+1)` -/
+def P9359055359526108894.Spec : Prop :=
+  ∀ n, P9359055359526108894.a n = A037237 n
 
 end A037237
 
@@ -7485,6 +7544,33 @@ def P3763032614894584148.Spec : Prop :=
   ∀ n, P3763032614894584148.a n = A037240 n
 
 end A037240
+
+/-!
+# A037241: Expansion of (1+3*x^2+7*x^3+15*x^4+13*x^5+15*x^6+8*x^7+4*x^8)/((1-x)*(1-x^2)^3*(1-x^3)^2).
+
+The programs for A037241, the canonical program `A037241.P6777902179529882618` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037241 has offset 0).
+
+The definition of A037241 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+3x^2+7x^3+15x^4+13x^5+15x^6+8x^7+4x^8)/(1-x-3x^2+x^3+5x^4+3x^5-6x^6-6x^7+3x^8+5x^9+x^10-3x^11-x^12+x^13))` (program `A037241.P6777902179529882618`, by `A037241.P6777902179529882618.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+-/
+
+/-! ## A037241.P6777902179529882618
+
+`ogf((1+3x^2+7x^3+15x^4+13x^5+15x^6+8x^7+4x^8)/(1-x-3x^2+x^3+5x^4+3x^5-6x^6-6x^7+3x^8+5x^9+x^10-3x^11-x^12+x^13))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A037241
+
+/-- `ogf((1+3x^2+7x^3+15x^4+13x^5+15x^6+8x^7+4x^8)/(1-x-3x^2+x^3+5x^4+3x^5-6x^6-6x^7+3x^8+5x^9+x^10-3x^11-x^12+x^13))` -/
+def P6777902179529882618.Spec : Prop :=
+  ∀ n, P6777902179529882618.a n = A037241 n
+
+theorem P6777902179529882618.correct : P6777902179529882618.Spec := by
+  intro n
+  simp only [A037241]
+
+end A037241
 
 /-!
 # A037242: Molien series for 3-D group R2+R3.

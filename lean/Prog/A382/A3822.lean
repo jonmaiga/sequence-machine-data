@@ -4,11 +4,11 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C010
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -18,18 +18,18 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C028
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -667,7 +667,7 @@ end A382208.P8237346150198299270
 /-!
 # A382209: Numbers k such that 10+k and 10*k are perfect squares.
 
-The programs for A382209, the canonical program `A382209.P7297455351468283173` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382209 has offset 1).
+The programs for A382209, the canonical program `A382209.P7297455351468283173` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382209 has offset 1).
 
 The definition of A382209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -676,7 +676,7 @@ The definition of A382209 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*(1/2*(3+sqrt(10))^(2*(n+1)-1)+1/2*(3-sqrt(10))^(2*(n+1)-1))²`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382209
@@ -1986,7 +1986,7 @@ end A382250.P6061050869333592338
 /-!
 # A382251: a(n) = 7*n^3 - 6*n^2.
 
-The programs for A382251, the canonical program `A382251.P12350763960256523374` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382251 has offset 1).
+The programs for A382251, the canonical program `A382251.P12350763960256523374` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382251 has offset 1).
 
 The definition of A382251 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `7*(n+1)^3-6*(n+1)²` (program `A382251.P12350763960256523374`, by `A382251.P12350763960256523374.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1995,7 +1995,7 @@ The definition of A382251 is `verified`: the Lean definition is proven equivalen
 
 `7*(n+1)^3-6*(n+1)²`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382251
@@ -3081,7 +3081,7 @@ end A382271.P13124504315751023515
 /-!
 # A382274: Expansion of 1/(1 - 4*x/(1-x)^2)^(5/2).
 
-The programs for A382274, the canonical program `A382274.P1891969757382348578` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382274 has offset 0).
+The programs for A382274, the canonical program `A382274.P1891969757382348578` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382274 has offset 0).
 
 The definition of A382274 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3090,7 +3090,7 @@ The definition of A382274 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((7*n+3)*a(n-1)-(7*n-24)*a(n-2)+(n-3)*a(n-3))/n` with `a(0)=1, a(1)=10, a(2)=90`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382274

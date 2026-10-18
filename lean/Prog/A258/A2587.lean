@@ -14,22 +14,23 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +40,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -114,7 +114,7 @@ end A258700.P6541326077899248633
 /-!
 # A258703: a(n) = floor(n/sqrt(2) - 1/2).
 
-The programs for A258703, the canonical program `A258703.P9502853239000925438` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258703 has offset 1).
+The programs for A258703, the canonical program `A258703.P9502853239000925438` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258703 has offset 1).
 
 The definition of A258703 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -123,7 +123,7 @@ The definition of A258703 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(((n+1)*sqrt(2)-1)/2)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258703
@@ -2082,7 +2082,7 @@ end A258713.P17021703597574342059
 /-!
 # A258717: If n even then 2*n^2-4*n else 2*n^2-4*n-3.
 
-The programs for A258717, the canonical program `A258717.P16291948896691762798` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258717 has offset 2).
+The programs for A258717, the canonical program `A258717.P16291948896691762798` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258717 has offset 2).
 
 The definition of A258717 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2091,7 +2091,7 @@ The definition of A258717 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=0, a(1)=3, a(2)=16, a(3)=27`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258717
@@ -2612,7 +2612,7 @@ end A258720.P4310668997504870069
 /-!
 # A258721: a(n) = 24*n^2 + 52*n + 29.
 
-The programs for A258721, the canonical program `A258721.P9918933584044179914` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258721 has offset 0).
+The programs for A258721, the canonical program `A258721.P9918933584044179914` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258721 has offset 0).
 
 The definition of A258721 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `24*n²+52*n+29` (program `A258721.P9918933584044179914`, by `A258721.P9918933584044179914.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2621,7 +2621,7 @@ The definition of A258721 is `verified`: the Lean definition is proven equivalen
 
 `24*n²+52*n+29`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258721
@@ -8178,7 +8178,7 @@ end A258781.P15101351786193959494
 /-!
 # A258782: Nearest integer to log_2(n!).
 
-The programs for A258782, the canonical program `A258782.P6285775056582693187` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258782 has offset 0).
+The programs for A258782, the canonical program `A258782.P6285775056582693187` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258782 has offset 0).
 
 The definition of A258782 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8187,7 +8187,7 @@ The definition of A258782 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(log2(n!))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A258782

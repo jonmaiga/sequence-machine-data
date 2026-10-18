@@ -9,23 +9,21 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C021
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,7 +33,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,7 +45,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -863,7 +859,7 @@ end A382712.P12907028467149571168
 /-!
 # A382713: Simple continued fraction expansion of sqrt(3/2).
 
-The programs for A382713, the canonical program `A382713.P2567413420820071154` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382713 has offset 0).
+The programs for A382713, the canonical program `A382713.P2567413420820071154` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382713 has offset 0).
 
 The definition of A382713 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -872,7 +868,7 @@ The definition of A382713 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)` with `a(0)=1, a(1)=4, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382713
@@ -1265,7 +1261,7 @@ end A382720
 /-!
 # A382721: Number of entries in the n-th row of Pascal's triangle not divisible by 11.
 
-The programs for A382721, the canonical program `A382721.P14372402420305881739` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382721 has offset 0).
+The programs for A382721, the canonical program `A382721.P14372402420305881739` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382721 has offset 0).
 
 The definition of A382721 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1274,7 +1270,7 @@ The definition of A382721 is `conjectured`: the Lean definition is a formula tha
 
 `∑[C(n+11, 11)%11-11*comp[98-11*n]%gcd(11, n)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382721
@@ -1696,7 +1692,7 @@ end A382726
 /-!
 # A382727: Total number of entries in rows 0,1,...,n of Pascal's triangle not divisible by 11.
 
-The programs for A382727, the canonical program `A382727.P6303332765018915185` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382727 has offset 0).
+The programs for A382727, the canonical program `A382727.P6303332765018915185` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382727 has offset 0).
 
 The definition of A382727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1705,7 +1701,7 @@ The definition of A382727 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A382721(n)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382727
@@ -2268,7 +2264,7 @@ end A382731.P1474300666212646206
 /-!
 # A382732: Number of proper hypercubic bipartitions of n.
 
-The programs for A382732, the canonical program `A382732.P8564990345405423015` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382732 has offset 0).
+The programs for A382732, the canonical program `A382732.P8564990345405423015` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382732 has offset 0).
 
 The definition of A382732 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2277,7 +2273,7 @@ The definition of A382732 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(2^ceil(log2(n))-n)+1` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A382732
@@ -2631,7 +2627,7 @@ end A382732
 /-!
 # A382733: Number of hypercubic bipartitions of n.
 
-The programs for A382733, the canonical program `A382733.P7983275454340441927` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382733 has offset 0).
+The programs for A382733, the canonical program `A382733.P7983275454340441927` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382733 has offset 0).
 
 The definition of A382733 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2663,7 +2659,7 @@ end A382733
 
 `A382732(n)+1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382733
@@ -3560,7 +3556,7 @@ end A382744
 /-!
 # A382745: If k appears, 7*k does not.
 
-The programs for A382745, the canonical program `A382745.P15305106904039031028` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382745 has offset 1).
+The programs for A382745, the canonical program `A382745.P15305106904039031028` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382745 has offset 1).
 
 The definition of A382745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3569,7 +3565,7 @@ The definition of A382745 is `conjectured`: the Lean definition is a formula tha
 
 `record[A033999(val(n+1, 7))+n]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382745
@@ -5773,7 +5769,7 @@ end A382788
 /-!
 # A382789: The number of prime factors of Euler phi of the n-th primorial number, counted with multiplicity.
 
-The programs for A382789, the canonical program `A382789.P16110672853359686492` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382789 has offset 0).
+The programs for A382789, the canonical program `A382789.P16110672853359686492` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382789 has offset 0).
 
 The definition of A382789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5782,7 +5778,7 @@ The definition of A382789 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{e}[1-A000040(A028310(n)), #]]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A382789

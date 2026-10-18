@@ -18,7 +18,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -28,10 +28,12 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -63,7 +65,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1370,27 +1371,50 @@ end A108514.P8491225569283645828
 /-!
 # A108520: Expansion of 1/(1+2*x+2*x^2).
 
-The programs for A108520, the canonical program `A108520.P1521124145426792481` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108520 has offset 0).
+The programs for A108520, the canonical program `A108520.P3281839290057182931` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108520 has offset 0).
 
-The definition of A108520 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A075553, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A108520 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x+2x^2))` (program `A108520.P3281839290057182931`, by `A108520.P3281839290057182931.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A108520.P3281839290057182931
+
+`ogf(1/(1+2x+2x^2))`
+
+The canonical program, it is in `Seq.B000.C015`.
+-/
+
+namespace A108520
+
+/-- `ogf(1/(1+2x+2x^2))` -/
+def P3281839290057182931.Spec : Prop :=
+  ∀ n, P3281839290057182931.a n = A108520 n
+
+theorem P3281839290057182931.correct : P3281839290057182931.Spec := by
+  intro n
+  simp only [A108520]
+
+end A108520
 
 /-! ## A108520.P1521124145426792481
 
 `A016116(n+1)*A075553(n+1)`
-
-The canonical program, it is in `Seq.B001.C003`.
 -/
+
+namespace A108520.P1521124145426792481
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016116 (n + 1) * A075553 (n + 1)
+
+end
+
+end A108520.P1521124145426792481
 
 namespace A108520
 
 /-- `A016116(n+1)*A075553(n+1)` -/
 def P1521124145426792481.Spec : Prop :=
   ∀ n, P1521124145426792481.a n = A108520 n
-
-theorem P1521124145426792481.correct : P1521124145426792481.Spec := by
-  intro n
-  simp only [A108520]
 
 end A108520
 

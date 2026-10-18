@@ -10,24 +10,23 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +48,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -75,6 +73,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -84,7 +83,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -4585,7 +4584,7 @@ end A255042.P3051664572943590184
 /-!
 # A255043: a(n) = (5*9^n - 1)/2.
 
-The programs for A255043, the canonical program `A255043.P11816968028690220401` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255043 has offset 0).
+The programs for A255043, the canonical program `A255043.P11816968028690220401` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255043 has offset 0).
 
 The definition of A255043 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5*9^n-1)/2` (program `A255043.P8287702117058467559`, by `A255043.P8287702117058467559.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4637,7 +4636,7 @@ end A255043
 
 `10*a(n-1)-9*a(n-2)` with `a(0)=2, a(1)=22`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A255043
@@ -4672,6 +4671,29 @@ namespace A255043
 /-- `2*A138894(n)` -/
 def P15252058042268016570.Spec : Prop :=
   ∀ n, P15252058042268016570.a n = A255043 n
+
+end A255043
+
+/-! ## A255043.P18355720271944064066
+
+`ogf((2+2x)/(1-10x+9x^2))`
+-/
+
+namespace A255043.P18355720271944064066
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 2] [1, -10, 9] n
+
+end
+
+end A255043.P18355720271944064066
+
+namespace A255043
+
+/-- `ogf((2+2x)/(1-10x+9x^2))` -/
+def P18355720271944064066.Spec : Prop :=
+  ∀ n, P18355720271944064066.a n = A255043 n
 
 end A255043
 
@@ -5641,7 +5663,7 @@ end A255046.P8765459416622616281
 /-!
 # A255047: 1 together with the positive terms of A000225.
 
-The programs for A255047, the canonical program `A255047.P13163507632883428523` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255047 has offset 0).
+The programs for A255047, the canonical program `A255047.P13163507632883428523` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255047 has offset 0).
 
 The definition of A255047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5650,7 +5672,7 @@ The definition of A255047 is `conjectured`: the Lean definition is a formula tha
 
 `or(1, 2^n-1)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A255047
@@ -5800,6 +5822,29 @@ namespace A255047
 /-- `round(2^n-atan(atan(n)))` -/
 def P11882601050877219534.Spec : Prop :=
   ∀ n, P11882601050877219534.a n = A255047 n
+
+end A255047
+
+/-! ## A255047.P15151361186674472798
+
+`ogf((1-2x+2x^2)/(1-3x+2x^2))`
+-/
+
+namespace A255047.P15151361186674472798
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, 2] [1, -3, 2] n
+
+end
+
+end A255047.P15151361186674472798
+
+namespace A255047
+
+/-- `ogf((1-2x+2x^2)/(1-3x+2x^2))` -/
+def P15151361186674472798.Spec : Prop :=
+  ∀ n, P15151361186674472798.a n = A255047 n
 
 end A255047
 
@@ -6742,7 +6787,7 @@ end A255050.P717766346621385423
 /-!
 # A255051: a(1)=1, a(n+1) = a(n)/gcd(a(n),n) if this GCD is > 1, else a(n+1) = a(n) + n + 1.
 
-The programs for A255051, the canonical program `A255051.P17806579451308869438` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255051 has offset 1).
+The programs for A255051, the canonical program `A255051.P17806579451308869438` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255051 has offset 1).
 
 The definition of A255051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6751,7 +6796,7 @@ The definition of A255051 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(2*or(3, n), ∑[n+1])`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A255051

@@ -22,14 +22,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +41,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3805,7 +3805,7 @@ end A294021.P17386439839436045150
 /-!
 # A294022: Sum of the differences of the larger and smaller parts in the partitions of n into two parts with the larger part prime.
 
-The programs for A294022, the canonical program `A294022.P1258060895145082735` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294022 has offset 1).
+The programs for A294022, the canonical program `A294022.P1258060895145082735` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294022 has offset 1).
 
 The definition of A294022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3814,7 +3814,7 @@ The definition of A294022 is `conjectured`: the Lean definition is a formula tha
 
 `A294487(n+1)-A368058(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A294022
@@ -6838,7 +6838,7 @@ end A294059.P16397446946067568795
 /-!
 # A294060: Sum of the differences of the larger and smaller parts in the partitions of n into two parts with the smaller part squarefree.
 
-The programs for A294060, the canonical program `A294060.P329766733442987257` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294060 has offset 1).
+The programs for A294060, the canonical program `A294060.P329766733442987257` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294060 has offset 1).
 
 The definition of A294060 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262869, A262871, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6847,7 +6847,7 @@ The definition of A294060 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A262869(n+1)-2*A262871(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A294060
@@ -7524,7 +7524,7 @@ end A294061
 /-!
 # A294062: Sum of the differences of the larger and smaller parts in the partitions of 2n into two parts with the smaller part squarefree.
 
-The programs for A294062, the canonical program `A294062.P1485664591062810294` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294062 has offset 1).
+The programs for A294062, the canonical program `A294062.P1485664591062810294` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294062 has offset 1).
 
 The definition of A294062 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7569,7 +7569,7 @@ end A294062
 
 `∑[2*(∑[C(∏{p}[n, #], n)]-1)]`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A294062

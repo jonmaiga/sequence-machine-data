@@ -3,25 +3,22 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
@@ -33,7 +30,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -51,7 +47,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3343,7 +3338,7 @@ end A364169.P15640284592802163596
 /-!
 # A364170: Related to expression as an alternating sum of k-th powers.
 
-The programs for A364170, the canonical program `A364170.P12995600981072078621` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364170 has offset 1).
+The programs for A364170, the canonical program `A364170.P12995600981072078621` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364170 has offset 1).
 
 The definition of A364170 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3352,7 +3347,7 @@ The definition of A364170 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/4*(a(n-1)+2)²-a(n-1)` with `a(0)=1, a(1)=3, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A364170
@@ -3875,7 +3870,7 @@ end A364193.P11114642150967050406
 /-!
 # A364194: a(n) = Sum_{k=1..n} k^3*sigma(k), where sigma is A000203.
 
-The programs for A364194, the canonical program `A364194.P6761369851523045404` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364194 has offset 1).
+The programs for A364194, the canonical program `A364194.P6761369851523045404` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364194 has offset 1).
 
 The definition of A364194 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3884,7 +3879,7 @@ The definition of A364194 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(n+1)^3*∑{d}[n+1, #]]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A364194

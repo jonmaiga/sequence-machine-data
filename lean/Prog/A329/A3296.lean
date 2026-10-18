@@ -17,17 +17,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +37,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -7691,7 +7691,7 @@ end A329669.P7382793442870776946
 /-!
 # A329670: Number of excursions of length n with Motzkin-steps allowing only consecutive steps UH and HD.
 
-The programs for A329670, the canonical program `A329670.P2358718000154927643` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329670 has offset 0).
+The programs for A329670, the canonical program `A329670.P2358718000154927643` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329670 has offset 0).
 
 The definition of A329670 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7700,7 +7700,7 @@ The definition of A329670 is `conjectured`: the Lean definition is a formula tha
 
 `char[C(3, n)]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329670
@@ -8147,7 +8147,7 @@ end A329676.P18154370911258946868
 /-!
 # A329677: Number of excursions of length n with Motzkin-steps consisting only of consecutive steps UH, HD, and DH.
 
-The programs for A329677, the canonical program `A329677.P13571739098439761076` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329677 has offset 0).
+The programs for A329677, the canonical program `A329677.P13571739098439761076` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329677 has offset 0).
 
 The definition of A329677 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8156,7 +8156,7 @@ The definition of A329677 is `conjectured`: the Lean definition is a formula tha
 
 `C(4, n)%3`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329677
@@ -8174,7 +8174,7 @@ end A329677
 /-!
 # A329678: Number of excursions of length n with Motzkin-steps consisting only of consecutive steps UD and DH.
 
-The programs for A329678, the canonical program `A329678.P12070301987865077242` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329678 has offset 0).
+The programs for A329678, the canonical program `A329678.P12070301987865077242` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329678 has offset 0).
 
 The definition of A329678 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8183,7 +8183,7 @@ The definition of A329678 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(acot(n)))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329678
@@ -8201,7 +8201,7 @@ end A329678
 /-!
 # A329679: Number of excursions of length n with Motzkin-steps consisting only of consecutive steps UH, UD, HD and DH.
 
-The programs for A329679, the canonical program `A329679.P17387418292297349726` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329679 has offset 0).
+The programs for A329679, the canonical program `A329679.P17387418292297349726` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329679 has offset 0).
 
 The definition of A329679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8210,7 +8210,7 @@ The definition of A329679 is `conjectured`: the Lean definition is a formula tha
 
 `sqrt(C(4, C(n, 3)))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329679
@@ -8224,7 +8224,7 @@ end A329679
 /-!
 # A329680: Number of excursions of length n with Motzkin-steps consisting only of consecutive steps UH, HD and DU.
 
-The programs for A329680, the canonical program `A329680.P1219068244737238337` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329680 has offset 0).
+The programs for A329680, the canonical program `A329680.P1219068244737238337` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329680 has offset 0).
 
 The definition of A329680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8233,7 +8233,7 @@ The definition of A329680 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, lcm(3, n)-n)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329680
@@ -8332,7 +8332,7 @@ end A329681.P4638342081442281524
 /-!
 # A329682: Number of excursions of length n with Motzkin-steps forbidding all consecutive steps of length 2 except UH, UD, HU and DD.
 
-The programs for A329682, the canonical program `A329682.P10608613262572423220` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329682 has offset 0).
+The programs for A329682, the canonical program `A329682.P10608613262572423220` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329682 has offset 0).
 
 The definition of A329682 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8341,7 +8341,7 @@ The definition of A329682 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=0`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329682
@@ -8359,7 +8359,7 @@ end A329682
 /-!
 # A329683: Number of excursions of length n with Motzkin-steps forbidding all consecutive steps of length 2 except UH, HH and HD.
 
-The programs for A329683, the canonical program `A329683.P13128253643030484216` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329683 has offset 0).
+The programs for A329683, the canonical program `A329683.P13128253643030484216` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329683 has offset 0).
 
 The definition of A329683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8368,7 +8368,7 @@ The definition of A329683 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(acot(C(2, n)))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329683
@@ -8386,7 +8386,7 @@ end A329683
 /-!
 # A329684: Number of excursions of length n with Motzkin-steps forbidding all consecutive steps of length 2 except UD and HH.
 
-The programs for A329684, the canonical program `A329684.P3930370660964505865` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329684 has offset 0).
+The programs for A329684, the canonical program `A329684.P3930370660964505865` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329684 has offset 0).
 
 The definition of A329684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8395,7 +8395,7 @@ The definition of A329684 is `conjectured`: the Lean definition is a formula tha
 
 `char[2]+1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A329684

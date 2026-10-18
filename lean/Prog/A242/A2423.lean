@@ -19,6 +19,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -32,6 +33,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,7 +41,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2148,7 +2150,7 @@ end A242326.P11518617230354180816
 /-!
 # A242328: a(n) = 5^n + 2.
 
-The programs for A242328, the canonical program `A242328.P4220867818708811592` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242328 has offset 0).
+The programs for A242328, the canonical program `A242328.P4220867818708811592` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242328 has offset 0).
 
 The definition of A242328 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+2` (program `A242328.P4220867818708811592`, by `A242328.P4220867818708811592.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2157,7 +2159,7 @@ The definition of A242328 is `verified`: the Lean definition is proven equivalen
 
 `5^n+2`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A242328
@@ -2175,7 +2177,7 @@ end A242328
 /-!
 # A242329: a(n) = 5^n + 4.
 
-The programs for A242329, the canonical program `A242329.P16916798702912977067` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242329 has offset 0).
+The programs for A242329, the canonical program `A242329.P16916798702912977067` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242329 has offset 0).
 
 The definition of A242329 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+4` (program `A242329.P16916798702912977067`, by `A242329.P16916798702912977067.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2184,7 +2186,7 @@ The definition of A242329 is `verified`: the Lean definition is proven equivalen
 
 `5^n+4`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A242329
@@ -3627,7 +3629,7 @@ end A242343
 /-!
 # A242344: Triangular numbers T such that T-2 is semiprime.
 
-The programs for A242344, the canonical program `A242344.P15652734479812600202` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242344 has offset 1).
+The programs for A242344, the canonical program `A242344.P15652734479812600202` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242344 has offset 1).
 
 The definition of A242344 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 494 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3636,7 +3638,7 @@ The definition of A242344 is `conjectured`: the Lean definition is a formula tha
 
 `C(eq[2, ∑{e}[∑[n-2]+1, #]]-1, 2)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A242344
@@ -5391,7 +5393,7 @@ end A242369.P4314647283683739564
 /-!
 # A242371: Modified eccentric connectivity index of the cycle graph with n vertices, C[n].
 
-The programs for A242371, the canonical program `A242371.P3678626598398996588` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242371 has offset 3).
+The programs for A242371, the canonical program `A242371.P3678626598398996588` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242371 has offset 3).
 
 The definition of A242371 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5400,7 +5402,7 @@ The definition of A242371 is `conjectured`: the Lean definition is a formula tha
 
 `(xor(1, n+5)+n)*(n+3)`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A242371
@@ -5867,7 +5869,7 @@ end A242371
 /-!
 # A242374: Number of digits in the decimal expansion of n^8.
 
-The programs for A242374, the canonical program `A242374.P11448369374376941394` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242374 has offset 0).
+The programs for A242374, the canonical program `A242374.P11448369374376941394` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242374 has offset 0).
 
 The definition of A242374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5876,7 +5878,7 @@ The definition of A242374 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n^8, (#%2)!]`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A242374

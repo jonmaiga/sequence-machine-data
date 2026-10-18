@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -25,14 +24,14 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2746,7 +2745,7 @@ end A337927.P17911394664264648967
 /-!
 # A337928: Numbers w such that (F(2n+1)^2, -F(2n)^2, -w) are primitive solutions of the Diophantine equation 2*x^3 + 2*y^3 + z^3 = 1, where F(n) is the n-th Fibonacci number (A000045).
 
-The programs for A337928, the canonical program `A337928.P11158227494426758904` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337928 has offset 0).
+The programs for A337928, the canonical program `A337928.P11158227494426758904` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337928 has offset 0).
 
 The definition of A337928 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2755,7 +2754,7 @@ The definition of A337928 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-8*a(n-2)+a(n-3)` with `a(0)=1, a(1)=5, a(2)=31`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337928
@@ -2813,6 +2812,29 @@ namespace A337928
 /-- `A064170(n+2)+A033888(n)` -/
 def P17225636801150290915.Spec : Prop :=
   ∀ n, P17225636801150290915.a n = A337928 n
+
+end A337928
+
+/-! ## A337928.P11613013677375823540
+
+`ogf((-1+3x+x^2)/(-1+8x-8x^2+x^3))`
+-/
+
+namespace A337928.P11613013677375823540
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, -1] [1, -8, 8, -1] n
+
+end
+
+end A337928.P11613013677375823540
+
+namespace A337928
+
+/-- `ogf((-1+3x+x^2)/(-1+8x-8x^2+x^3))` -/
+def P11613013677375823540.Spec : Prop :=
+  ∀ n, P11613013677375823540.a n = A337928 n
 
 end A337928
 
@@ -3211,7 +3233,7 @@ end A337928
 /-!
 # A337929: Numbers w such that (F(2*n-1)^2, -F(2*n)^2, w) are primitive solutions of the Diophantine equation 2*x^3 + 2*y^3 + z^3 = 1, where F(n) is the n-th Fibonacci number (A000045).
 
-The programs for A337929, the canonical program `A337929.P5212933509807674459` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337929 has offset 1).
+The programs for A337929, the canonical program `A337929.P5212933509807674459` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337929 has offset 1).
 
 The definition of A337929 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3220,7 +3242,7 @@ The definition of A337929 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-8*a(n-2)+a(n-3)` with `a(0)=1, a(1)=11, a(2)=79`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337929
@@ -3278,6 +3300,55 @@ namespace A337929
 /-- `A033888(n+1)-A064170(n+3)` -/
 def P10032641031316621204.Spec : Prop :=
   ∀ n, P10032641031316621204.a n = A337929 (n + 1)
+
+end A337929
+
+/-! ## A337929.P11176481192847852860
+
+`∑[ogf((1+3x-x^2)/(1-7x+x^2))]`
+-/
+
+namespace A337929.P11176481192847852860
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, -1] [1, -7, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A337929.P11176481192847852860
+
+namespace A337929
+
+/-- `∑[ogf((1+3x-x^2)/(1-7x+x^2))]` -/
+def P11176481192847852860.Spec : Prop :=
+  ∀ n, P11176481192847852860.a n = A337929 (n + 1)
+
+end A337929
+
+/-! ## A337929.P7456219591893459442
+
+`ogf((1+3x-x^2)/(1-8x+8x^2-x^3))`
+-/
+
+namespace A337929.P7456219591893459442
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, -1] [1, -8, 8, -1] n
+
+end
+
+end A337929.P7456219591893459442
+
+namespace A337929
+
+/-- `ogf((1+3x-x^2)/(1-8x+8x^2-x^3))` -/
+def P7456219591893459442.Spec : Prop :=
+  ∀ n, P7456219591893459442.a n = A337929 (n + 1)
 
 end A337929
 
@@ -5895,7 +5966,7 @@ end A337951.P4658458615193352889
 /-!
 # A337952: Number of oriented colorings of the 16 tetrahedral facets of a hyperoctahedron or of the 16 vertices of a tesseract.
 
-The programs for A337952, the canonical program `A337952.P2656668591242931786` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337952 has offset 1).
+The programs for A337952, the canonical program `A337952.P2656668591242931786` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337952 has offset 1).
 
 The definition of A337952 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5904,7 +5975,7 @@ The definition of A337952 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²*((n+1)^14+12*(n+1)^8+63*(n+1)^6+68*(n+1)²+48)/192`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337952
@@ -6010,7 +6081,7 @@ end A337952
 /-!
 # A337953: Number of achiral colorings of the 30 edges of a regular dodecahedron or icosahedron using n or fewer colors.
 
-The programs for A337953, the canonical program `A337953.P2552747621931778234` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337953 has offset 1).
+The programs for A337953, the canonical program `A337953.P2552747621931778234` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337953 has offset 1).
 
 The definition of A337953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6019,7 +6090,7 @@ The definition of A337953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)^3*(15*(n+1)^14+(n+1)^12+20*(n+1)²+24)/60`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337953
@@ -6152,7 +6223,7 @@ end A337954
 /-!
 # A337955: Number of achiral colorings of the 16 tetrahedral facets of a hyperoctahedron or of the 16 vertices of a tesseract.
 
-The programs for A337955, the canonical program `A337955.P4046798399948475638` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337955 has offset 1).
+The programs for A337955, the canonical program `A337955.P4046798399948475638` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337955 has offset 1).
 
 The definition of A337955 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6161,7 +6232,7 @@ The definition of A337955 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)^4*(3*(n+1)^8+5*(n+1)^4+12*(n+1)²+28)/48`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337955
@@ -6609,7 +6680,7 @@ end A337956
 /-!
 # A337957: Number of unoriented colorings of the 8 cubic facets of a tesseract or of the 8 vertices of a hyperoctahedron.
 
-The programs for A337957, the canonical program `A337957.P86526632370406334` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337957 has offset 1).
+The programs for A337957, the canonical program `A337957.P86526632370406334` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337957 has offset 1).
 
 The definition of A337957 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6618,7 +6689,7 @@ The definition of A337957 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*(n+2)*((n+1)²+n+3)*((n+1)²+n+5)*((n+1)²+n+7)/384`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337957
@@ -7085,7 +7156,7 @@ end A337957
 /-!
 # A337958: Number of achiral colorings of the 8 cubic facets of a tesseract or of the 8 vertices of a hyperoctahedron.
 
-The programs for A337958, the canonical program `A337958.P6589202691571074810` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337958 has offset 1).
+The programs for A337958, the canonical program `A337958.P6589202691571074810` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337958 has offset 1).
 
 The definition of A337958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7094,7 +7165,7 @@ The definition of A337958 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²*(n+2)²*(n+4)*((n+1)²-2*(n+1)+4)/48`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337958
@@ -7451,7 +7522,7 @@ end A337959
 /-!
 # A337960: Number of achiral colorings of the 30 triangular faces of a regular icosahedron or the 30 vertices of a regular dodecahedron using n or fewer colors.
 
-The programs for A337960, the canonical program `A337960.P17505618210171408263` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337960 has offset 1).
+The programs for A337960, the canonical program `A337960.P17505618210171408263` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337960 has offset 1).
 
 The definition of A337960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7460,7 +7531,7 @@ The definition of A337960 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²*(15*(n+1)^10+(n+1)^8+20*(n+1)²+24)/60`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337960
@@ -9380,7 +9451,7 @@ end A337984.P524342284690187093
 /-!
 # A337985: a(n) is the exponent of the highest power of 2 dividing the n-th Bell number.
 
-The programs for A337985, the canonical program `A337985.P4904060652538816858` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337985 has offset 1).
+The programs for A337985, the canonical program `A337985.P4904060652538816858` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337985 has offset 1).
 
 The definition of A337985 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9389,7 +9460,7 @@ The definition of A337985 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)-a(n-6)+a(n-9)` with `a(0)=0, a(1)=1, a(2)=0, a(3)=0, a(4)=2, a(5)=0, a(6)=0, a(7)=2, a(8)=0`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A337985

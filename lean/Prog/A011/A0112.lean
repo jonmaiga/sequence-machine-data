@@ -3,12 +3,13 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C009
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C029
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +42,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C016
 import Seq.Opaque.C018
@@ -50,7 +50,7 @@ import Seq.Opaque.C024
 /-!
 # A011245: a(n) = (n+1)*(2*n+1)*(3*n+1)*(4*n+1).
 
-The programs for A011245, the canonical program `A011245.P12456975784510852771` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011245 has offset 0).
+The programs for A011245, the canonical program `A011245.P12456975784510852771` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011245 has offset 0).
 
 The definition of A011245 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(2*n+1)*(3*n+1)*(4*n+1)` (program `A011245.P12456975784510852771`, by `A011245.P12456975784510852771.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -59,7 +59,7 @@ The definition of A011245 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)*(2*n+1)*(3*n+1)*(4*n+1)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011245
@@ -1776,7 +1776,7 @@ end A011264
 /-!
 # A011266: a(n) = 2^(n*(n-1)/2)*n!.
 
-The programs for A011266, the canonical program `A011266.P6787923704054306565` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011266 has offset 0).
+The programs for A011266, the canonical program `A011266.P6787923704054306565` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011266 has offset 0).
 
 The definition of A011266 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1785,7 +1785,7 @@ The definition of A011266 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n*(n-1)/2)*n!`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011266

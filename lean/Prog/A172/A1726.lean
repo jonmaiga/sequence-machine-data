@@ -1,11 +1,12 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C020
+import Seq.B000.C012
+import Seq.B000.C021
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C000
@@ -34,7 +35,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A172603: a(n) = (7n)!/(7!^n).

@@ -6,11 +6,9 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -18,17 +16,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C026
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +36,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -58,7 +58,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
@@ -3287,7 +3286,7 @@ end A194919.P1843275590827033856
 /-!
 # A194920: a(n) = n - floor(n/sqrt(2)).
 
-The programs for A194920, the canonical program `A194920.P17169438026661939179` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194920 has offset 1).
+The programs for A194920, the canonical program `A194920.P17169438026661939179` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194920 has offset 1).
 
 The definition of A194920 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+1-floor((n+1)/sqrt(2))` (program `A194920.P17169438026661939179`, by `A194920.P17169438026661939179.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3296,7 +3295,7 @@ The definition of A194920 is `verified`: the Lean definition is proven equivalen
 
 `n+1-floor((n+1)/sqrt(2))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194920
@@ -4613,7 +4612,7 @@ end A194938.P5664834309997495424
 /-!
 # A194939: Table T read by rows, where T(n, k) is the sum of the largest k primes up to and including prime(n), for 1 <= k <= n.
 
-The programs for A194939, the canonical program `A194939.P5364823241840886690` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194939 has offset 1).
+The programs for A194939, the canonical program `A194939.P5364823241840886690` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194939 has offset 1).
 
 The definition of A194939 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5050 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4862,7 +4861,7 @@ end A194939
 
 `A014284(A003057(n+2))-A014284(A004736(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A194939
@@ -6483,7 +6482,7 @@ end A194959
 /-!
 # A194960: a(n) = floor((n+2)/3) + ((n-1) mod 3).
 
-The programs for A194960, the canonical program `A194960.P16175288645252624048` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194960 has offset 1).
+The programs for A194960, the canonical program `A194960.P16175288645252624048` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194960 has offset 1).
 
 The definition of A194960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6492,7 +6491,7 @@ The definition of A194960 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)+1` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194960
@@ -6745,6 +6744,29 @@ namespace A194960
 /-- `∑[a(n-3)^3]` -/
 def P3095105134208478514.Spec : Prop :=
   ∀ n, P3095105134208478514.a n = A194960 (n + 1)
+
+end A194960
+
+/-! ## A194960.P276686667172918813
+
+`ogf((1+x+x^2-2x^3)/(1-x-x^3+x^4))`
+-/
+
+namespace A194960.P276686667172918813
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 1, -2] [1, -1, 0, -1, 1] n
+
+end
+
+end A194960.P276686667172918813
+
+namespace A194960
+
+/-- `ogf((1+x+x^2-2x^3)/(1-x-x^3+x^4))` -/
+def P276686667172918813.Spec : Prop :=
+  ∀ n, P276686667172918813.a n = A194960 (n + 1)
 
 end A194960
 
@@ -7266,7 +7288,7 @@ end A194963.P14484701105516899047
 /-!
 # A194964: a(n) = 1 + floor(n/sqrt(5)).
 
-The programs for A194964, the canonical program `A194964.P10846368277780127856` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194964 has offset 1).
+The programs for A194964, the canonical program `A194964.P10846368277780127856` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194964 has offset 1).
 
 The definition of A194964 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+floor((n+1)/sqrt(5))` (program `A194964.P10846368277780127856`, by `A194964.P10846368277780127856.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7275,7 +7297,7 @@ The definition of A194964 is `verified`: the Lean definition is proven equivalen
 
 `1+floor((n+1)/sqrt(5))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194964
@@ -9229,7 +9251,7 @@ end A194978.P7697632207193811644
 /-!
 # A194979: a(n) = 1 + floor(n/sqrt(3)).
 
-The programs for A194979, the canonical program `A194979.P6230833483973760340` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194979 has offset 1).
+The programs for A194979, the canonical program `A194979.P6230833483973760340` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194979 has offset 1).
 
 The definition of A194979 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+floor((n+1)/sqrt(3))` (program `A194979.P6230833483973760340`, by `A194979.P6230833483973760340.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9238,7 +9260,7 @@ The definition of A194979 is `verified`: the Lean definition is proven equivalen
 
 `1+floor((n+1)/sqrt(3))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194979
@@ -10339,7 +10361,7 @@ end A194985.P4747590407256773606
 /-!
 # A194986: a(n) = 1 + floor(n/sqrt(6)).
 
-The programs for A194986, the canonical program `A194986.P2155819097948204991` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194986 has offset 1).
+The programs for A194986, the canonical program `A194986.P2155819097948204991` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194986 has offset 1).
 
 The definition of A194986 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+floor((n+1)/sqrt(6))` (program `A194986.P2155819097948204991`, by `A194986.P2155819097948204991.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10348,7 +10370,7 @@ The definition of A194986 is `verified`: the Lean definition is proven equivalen
 
 `1+floor((n+1)/sqrt(6))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194986
@@ -11133,7 +11155,7 @@ end A194989.P6744488485995769392
 /-!
 # A194990: a(n) = 1+ floor(n/sqrt(8)).
 
-The programs for A194990, the canonical program `A194990.P6660003488787912063` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194990 has offset 1).
+The programs for A194990, the canonical program `A194990.P6660003488787912063` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194990 has offset 1).
 
 The definition of A194990 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+floor((n+1)/sqrt(8))` (program `A194990.P6660003488787912063`, by `A194990.P6660003488787912063.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11142,7 +11164,7 @@ The definition of A194990 is `verified`: the Lean definition is proven equivalen
 
 `1+floor((n+1)/sqrt(8))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194990
@@ -12598,7 +12620,7 @@ end A194998.P377931514498209035
 /-!
 # A194999: Number of lower triangles of a 3 X 3 0..n array with each element differing from all of its horizontal and vertical neighbors by one.
 
-The programs for A194999, the canonical program `A194999.P38311086543029073` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194999 has offset 1).
+The programs for A194999, the canonical program `A194999.P38311086543029073` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194999 has offset 1).
 
 The definition of A194999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12607,7 +12629,7 @@ The definition of A194999 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+24` with `a(0)=2, a(1)=20, a(2)=42`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A194999

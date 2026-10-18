@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -21,14 +22,14 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -89,6 +91,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -13237,7 +13240,7 @@ end A037864
 /-!
 # A037865: a(n)=(number of digits <=2)-(number of digits >2) in base 6 representation of n.
 
-The programs for A037865, the canonical program `A037865.P13548342733616205246` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037865 has offset 1).
+The programs for A037865, the canonical program `A037865.P13548342733616205246` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037865 has offset 1).
 
 The definition of A037865 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13246,7 +13249,7 @@ The definition of A037865 is `conjectured`: the Lean definition is a formula tha
 
 `A037866(A249102(n+1)+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037865
@@ -13402,7 +13405,7 @@ end A037865
 /-!
 # A037866: a(n)=(number of digits <=3)-(number of digits >3) in base 7 representation of n.
 
-The programs for A037866, the canonical program `A037866.P11074449320022151340` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037866 has offset 1).
+The programs for A037866, the canonical program `A037866.P11074449320022151340` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037866 has offset 1).
 
 The definition of A037866 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6041 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13411,7 +13414,7 @@ The definition of A037866 is `conjectured`: the Lean definition is a formula tha
 
 `A037867(A037474(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A037866
@@ -13452,7 +13455,7 @@ end A037866
 /-!
 # A037867: a(n)=(number of digits <=3)-(number of digits >3) in base 8 representation of n.
 
-The programs for A037867, the canonical program `A037867.P5061930620395652087` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037867 has offset 1).
+The programs for A037867, the canonical program `A037867.P5061930620395652087` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037867 has offset 1).
 
 The definition of A037867 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13461,7 +13464,7 @@ The definition of A037867 is `conjectured`: the Lean definition is a formula tha
 
 `A037869(A008541(n+2))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A037867

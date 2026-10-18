@@ -3,25 +3,26 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C018
+import Seq.B000.C021
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3011,7 +3012,7 @@ end A096533.P9529079369821331698
 /-!
 # A096534: a(1) = 0; a(2) = 1; a(n) = (a(n-1) + a(n-2)) mod n.
 
-The programs for A096534, the canonical program `A096534.P15806187201365784891` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096534 has offset 1).
+The programs for A096534, the canonical program `A096534.P15806187201365784891` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096534 has offset 1).
 
 The definition of A096534 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3020,7 +3021,7 @@ The definition of A096534 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)+a(n-2))%(n+1)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A096534
@@ -3187,7 +3188,7 @@ end A096534
 /-!
 # A096535: a(0) = a(1) = 1; a(n) = (a(n-1) + a(n-2)) mod n.
 
-The programs for A096535, the canonical program `A096535.P6716721430726769045` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096535 has offset 0).
+The programs for A096535, the canonical program `A096535.P6716721430726769045` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096535 has offset 0).
 
 The definition of A096535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3196,7 +3197,7 @@ The definition of A096535 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)+a(n-2))%n` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A096535
@@ -5046,7 +5047,7 @@ end A096581.P14065260285424494078
 /-!
 # A096582: From the "100 Green Bottles" song.
 
-The programs for A096582, the canonical program `A096582.P14526000618292949311` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096582 has offset 1).
+The programs for A096582, the canonical program `A096582.P14526000618292949311` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096582 has offset 1).
 
 The definition of A096582 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5055,7 +5056,7 @@ The definition of A096582 is `conjectured`: the Lean definition is a formula tha
 
 `200/2-n`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A096582

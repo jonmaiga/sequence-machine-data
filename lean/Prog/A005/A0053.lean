@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -22,9 +21,9 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -35,6 +34,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +44,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,7 +53,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -1373,6 +1371,29 @@ namespace A005314
 /-- `a(n-2)+A049853(n-1)` -/
 def P10502281039242516580.Spec : Prop :=
   ∀ n, P10502281039242516580.a n = A005314 n
+
+end A005314
+
+/-! ## A005314.P10730029919350318948
+
+`ogf(x/(1-2x+x^2-x^3))`
+-/
+
+namespace A005314.P10730029919350318948
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -2, 1, -1] n
+
+end
+
+end A005314.P10730029919350318948
+
+namespace A005314
+
+/-- `ogf(x/(1-2x+x^2-x^3))` -/
+def P10730029919350318948.Spec : Prop :=
+  ∀ n, P10730029919350318948.a n = A005314 n
 
 end A005314
 
@@ -2713,6 +2734,29 @@ def P2919795980447610009.Spec : Prop :=
 
 end A005319
 
+/-! ## A005319.P5720113953823891507
+
+`ogf(4x/(1-6x+x^2))`
+-/
+
+namespace A005319.P5720113953823891507
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 4] [1, -6, 1] n
+
+end
+
+end A005319.P5720113953823891507
+
+namespace A005319
+
+/-- `ogf(4x/(1-6x+x^2))` -/
+def P5720113953823891507.Spec : Prop :=
+  ∀ n, P5720113953823891507.a n = A005319 n
+
+end A005319
+
 /-! ## A005319.P14213830525540503337
 
 `Δ[floor(a(n-1)/(3-sqrt(8)))]` with `a(0)=1, a(1)=1`
@@ -3152,6 +3196,29 @@ namespace A005320
 /-- `3*A001353(n)` -/
 def P7809773714748047289.Spec : Prop :=
   ∀ n, P7809773714748047289.a n = A005320 n
+
+end A005320
+
+/-! ## A005320.P10952073080342140567
+
+`ogf(3x/(1-4x+x^2))`
+-/
+
+namespace A005320.P10952073080342140567
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3] [1, -4, 1] n
+
+end
+
+end A005320.P10952073080342140567
+
+namespace A005320
+
+/-- `ogf(3x/(1-4x+x^2))` -/
+def P10952073080342140567.Spec : Prop :=
+  ∀ n, P10952073080342140567.a n = A005320 n
 
 end A005320
 
@@ -9875,6 +9942,55 @@ theorem P16062577987583062096.correct : P16062577987583062096.Spec := by
 
 end A005367
 
+/-! ## A005367.P8410535247916464291
+
+`∑[ogf((4-10x)/(1-6x+8x^2))]`
+-/
+
+namespace A005367.P8410535247916464291
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -10] [1, -6, 8] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A005367.P8410535247916464291
+
+namespace A005367
+
+/-- `∑[ogf((4-10x)/(1-6x+8x^2))]` -/
+def P8410535247916464291.Spec : Prop :=
+  ∀ n, P8410535247916464291.a n = A005367 n
+
+end A005367
+
+/-! ## A005367.P8557430539218158132
+
+`ogf((4-10x)/(1-7x+14x^2-8x^3))`
+-/
+
+namespace A005367.P8557430539218158132
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -10] [1, -7, 14, -8] n
+
+end
+
+end A005367.P8557430539218158132
+
+namespace A005367
+
+/-- `ogf((4-10x)/(1-7x+14x^2-8x^3))` -/
+def P8557430539218158132.Spec : Prop :=
+  ∀ n, P8557430539218158132.a n = A005367 n
+
+end A005367
+
 /-! ## A005367.P4881821801202684486
 
 `∑[4*a(n-1)-2^n]` with `a(0)=4`
@@ -15251,6 +15367,29 @@ def P16618846221246300221.Spec : Prop :=
 theorem P16618846221246300221.correct : P16618846221246300221.Spec := by
   intro n
   simp only [A005386, Nat.add_sub_cancel]
+
+end A005386
+
+/-! ## A005386.P18107048308392649490
+
+`ogf((1-x)/(1-4x-4x^2+x^3))`
+-/
+
+namespace A005386.P18107048308392649490
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -4, -4, 1] n
+
+end
+
+end A005386.P18107048308392649490
+
+namespace A005386
+
+/-- `ogf((1-x)/(1-4x-4x^2+x^3))` -/
+def P18107048308392649490.Spec : Prop :=
+  ∀ n, P18107048308392649490.a n = A005386 (n + 1)
 
 end A005386
 

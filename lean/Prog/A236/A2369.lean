@@ -10,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -21,15 +20,16 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,7 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,7 +49,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -7202,10 +7201,29 @@ end A236966.P5935522130351526063
 /-!
 # A236967: Expansion of (1+3*x)^2/(1-3*x)^2.
 
-The programs for A236967, the canonical program `A236967.P12101104675129617930` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236967 has offset 0).
+The programs for A236967, the canonical program `A236967.P11485579401680264996` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236967 has offset 0).
 
-The definition of A236967 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 204 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A236967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+6x+9x^2)/(1-6x+9x^2))` (program `A236967.P11485579401680264996`, by `A236967.P11485579401680264996.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A236967.P11485579401680264996
+
+`ogf((1+6x+9x^2)/(1-6x+9x^2))`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A236967
+
+/-- `ogf((1+6x+9x^2)/(1-6x+9x^2))` -/
+def P11485579401680264996.Spec : Prop :=
+  ∀ n, P11485579401680264996.a n = A236967 n
+
+theorem P11485579401680264996.correct : P11485579401680264996.Spec := by
+  intro n
+  simp only [A236967]
+
+end A236967
 
 /-! ## A236967.P68410646526107056
 
@@ -7331,19 +7349,23 @@ end A236967
 /-! ## A236967.P12101104675129617930
 
 `3^n*A008574(n)`
-
-The canonical program, it is in `Seq.B001.C007`.
 -/
+
+namespace A236967.P12101104675129617930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (3 ^ n : ℤ) * A008574 n
+
+end
+
+end A236967.P12101104675129617930
 
 namespace A236967
 
 /-- `3^n*A008574(n)` -/
 def P12101104675129617930.Spec : Prop :=
   ∀ n, P12101104675129617930.a n = A236967 n
-
-theorem P12101104675129617930.correct : P12101104675129617930.Spec := by
-  intro n
-  simp only [A236967]
 
 end A236967
 

@@ -14,19 +14,20 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -93,7 +94,7 @@ set_option linter.unreachableTactic false
 /-!
 # A240001: Number of 2 X n 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240001, the canonical program `A240001.P145074708384494669` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240001 has offset 1).
+The programs for A240001, the canonical program `A240001.P145074708384494669` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240001 has offset 1).
 
 The definition of A240001 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -102,7 +103,7 @@ The definition of A240001 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=5, a(1)=13, a(2)=25, a(3)=42`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A240001
@@ -2619,6 +2620,33 @@ def P480243995031096811.Spec : Prop :=
 
 end A240025
 
+/-! ## A240025.P12279168310852076656
+
+`1-xor(1, char[ogf(x/(1-2x+2x^3-x^4))])`
+-/
+
+namespace A240025.P12279168310852076656
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -2, 0, 2, -1] n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 - (Nat.xor 1 (if ∃ j, f1 j = (n : ℤ) then 1 else 0) : ℤ)
+
+end
+
+end A240025.P12279168310852076656
+
+namespace A240025
+
+/-- `1-xor(1, char[ogf(x/(1-2x+2x^3-x^4))])` -/
+def P12279168310852076656.Spec : Prop :=
+  ∀ n, P12279168310852076656.a n = A240025 n
+
+end A240025
+
 /-! ## A240025.P7626838315525621600
 
 `Δ[A080037(n)]-1`
@@ -3209,7 +3237,7 @@ end A240033.P7209655441696501329
 /-!
 # A240034: Number of n X 3 0..2 arrays with no element equal to zero plus the sum of elements to its left or zero plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 3.
 
-The programs for A240034, the canonical program `A240034.P9031001120643243665` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240034 has offset 1).
+The programs for A240034, the canonical program `A240034.P9031001120643243665` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240034 has offset 1).
 
 The definition of A240034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 444 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3218,7 +3246,7 @@ The definition of A240034 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-2)-3*a(n-4)-a(n-6)` with `a(0)=4, a(1)=6, a(2)=16, a(3)=16, a(4)=42, a(5)=44, a(6)=114`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A240034

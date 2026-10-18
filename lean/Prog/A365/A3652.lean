@@ -5,10 +5,10 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
@@ -19,14 +19,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,16 +36,13 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -219,7 +217,7 @@ end A365200.P8718088100440573906
 /-!
 # A365204: Centered icositetrachoral numbers.
 
-The programs for A365204, the canonical program `A365204.P14635358423837541919` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365204 has offset 1).
+The programs for A365204, the canonical program `A365204.P14635358423837541919` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365204 has offset 1).
 
 The definition of A365204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -228,7 +226,7 @@ The definition of A365204 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `24*(n+1)^4-48*(n+1)^3+48*(n+1)²-24*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A365204
@@ -748,7 +746,7 @@ end A365205
 /-!
 # A365206: Centered octachoral numbers.
 
-The programs for A365206, the canonical program `A365206.P12264015237008943708` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365206 has offset 1).
+The programs for A365206, the canonical program `A365206.P12264015237008943708` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365206 has offset 1).
 
 The definition of A365206 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -757,7 +755,7 @@ The definition of A365206 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*(n+1)^4-16*(n+1)^3+16*(n+1)²-8*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A365206
@@ -4518,7 +4516,7 @@ end A365271.P9546644935726915396
 /-!
 # A365273: Number of vertices in the Laakso graph of order n.
 
-The programs for A365273, the canonical program `A365273.P5187645854283801386` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365273 has offset 1).
+The programs for A365273, the canonical program `A365273.P5187645854283801386` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365273 has offset 1).
 
 The definition of A365273 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4527,7 +4525,7 @@ The definition of A365273 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+4*6^n` with `a(0)=6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A365273
@@ -4602,6 +4600,29 @@ namespace A365273
 /-- `7*a(n-1)-6*a(n-2)` -/
 def P7514270094756570526.Spec : Prop :=
   ∀ n, P7514270094756570526.a n = A365273 (n + 1)
+
+end A365273
+
+/-! ## A365273.P12677700018211866899
+
+`ogf((6-12x)/(1-7x+6x^2))`
+-/
+
+namespace A365273.P12677700018211866899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -12] [1, -7, 6] n
+
+end
+
+end A365273.P12677700018211866899
+
+namespace A365273
+
+/-- `ogf((6-12x)/(1-7x+6x^2))` -/
+def P12677700018211866899.Spec : Prop :=
+  ∀ n, P12677700018211866899.a n = A365273 (n + 1)
 
 end A365273
 
@@ -4683,7 +4704,7 @@ end A365273
 /-!
 # A365274: a(n) = a(n-2) + 4*a(n-4) - 2*a(n-8) - a(n-10), with a[0..9] = [1, 1, 1, 2, 3, 5, 7, 13, 18, 31].
 
-The programs for A365274, the canonical program `A365274.P13207553493180967841` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365274 has offset 0).
+The programs for A365274, the canonical program `A365274.P13207553493180967841` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365274 has offset 0).
 
 The definition of A365274 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-2)+4*a(n-4)-2*a(n-8)-a(n-10)` (program `A365274.P13207553493180967841`, by `A365274.P13207553493180967841.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4692,7 +4713,7 @@ The definition of A365274 is `verified`: the Lean definition is proven equivalen
 
 `a(n-2)+4*a(n-4)-2*a(n-8)-a(n-10)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=3, a(5)=5, a(6)=7, a(7)=13, a(8)=18, a(9)=31`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A365274

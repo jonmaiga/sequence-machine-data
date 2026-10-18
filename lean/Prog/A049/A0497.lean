@@ -27,10 +27,11 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -14222,7 +14223,7 @@ end A049774.P10218303331273650408
 /-!
 # A049775: a(n) is the sum of all integers from 2^(n-2)+1 to 2^(n-1).
 
-The programs for A049775, the canonical program `A049775.P13386507242461119712` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049775 has offset 2).
+The programs for A049775, the canonical program `A049775.P13386507242461119712` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049775 has offset 2).
 
 The definition of A049775 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14254,7 +14255,7 @@ end A049775
 
 `6*a(n-1)-8*a(n-2)` with `a(0)=2, a(1)=7`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A049775
@@ -14289,6 +14290,29 @@ namespace A049775
 /-- `A007582(n+1)-A007582(n)` -/
 def P16426071237934978782.Spec : Prop :=
   ∀ n, P16426071237934978782.a n = A049775 (n + 2)
+
+end A049775
+
+/-! ## A049775.P13157432994985089990
+
+`ogf((2-5x)/(1-6x+8x^2))`
+-/
+
+namespace A049775.P13157432994985089990
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -5] [1, -6, 8] n
+
+end
+
+end A049775.P13157432994985089990
+
+namespace A049775
+
+/-- `ogf((2-5x)/(1-6x+8x^2))` -/
+def P13157432994985089990.Spec : Prop :=
+  ∀ n, P13157432994985089990.a n = A049775 (n + 2)
 
 end A049775
 
@@ -15344,7 +15368,7 @@ end A049777
 /-!
 # A049778: a(n) = Sum_{k=1..floor((n+1)/2)} T(n,2k-1), array T as in A049777.
 
-The programs for A049778, the canonical program `A049778.P3744806661604496967` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049778 has offset 1).
+The programs for A049778, the canonical program `A049778.P3744806661604496967` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049778 has offset 1).
 
 The definition of A049778 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15447,7 +15471,7 @@ end A049778
 
 `∑[∑[n²%Δ[n²]]]+n+1`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A049778
@@ -15885,7 +15909,7 @@ end A049778
 /-!
 # A049779: a(n) = Sum_{k=1..floor(n/2)} T(n, 2k), array T as in A049777.
 
-The programs for A049779, the canonical program `A049779.P6245626203980019557` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049779 has offset 2).
+The programs for A049779, the canonical program `A049779.P6245626203980019557` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049779 has offset 2).
 
 The definition of A049779 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15959,7 +15983,7 @@ end A049779
 
 `a(n-1)+(n+2)*(floor(n/2)+1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A049779

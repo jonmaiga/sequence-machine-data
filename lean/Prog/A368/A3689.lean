@@ -16,23 +16,26 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -3471,7 +3474,7 @@ end A368922
 /-!
 # A368923: Number of congruences of the 0-twisted Brauer monoid of degree n.
 
-The programs for A368923, the canonical program `A368923.P5413835815451681948` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368923 has offset 0).
+The programs for A368923, the canonical program `A368923.P5413835815451681948` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368923 has offset 0).
 
 The definition of A368923 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3480,7 +3483,7 @@ The definition of A368923 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+3` with `a(0)=2, a(1)=2, a(2)=5, a(3)=5, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368923
@@ -4667,7 +4670,7 @@ end A368941
 /-!
 # A368942: Burning number of the n-antiprism graph.
 
-The programs for A368942, the canonical program `A368942.P14870500008882824552` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368942 has offset 1).
+The programs for A368942, the canonical program `A368942.P14870500008882824552` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368942 has offset 1).
 
 The definition of A368942 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4676,7 +4679,7 @@ The definition of A368942 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((sqrt(16*(n+1)-1)+5)/4)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368942
@@ -5687,7 +5690,7 @@ end A368954.P6676358952497903009
 /-!
 # A368956: a(n) = 3^n - 2^(n+1) - 1.
 
-The programs for A368956, the canonical program `A368956.P10050442384758841331` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368956 has offset 1).
+The programs for A368956, the canonical program `A368956.P10050442384758841331` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368956 has offset 1).
 
 The definition of A368956 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(n+1)-2^(n+2)-1` (program `A368956.P10050442384758841331`, by `A368956.P10050442384758841331.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5696,7 +5699,7 @@ The definition of A368956 is `verified`: the Lean definition is proven equivalen
 
 `3^(n+1)-2^(n+2)-1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A368956

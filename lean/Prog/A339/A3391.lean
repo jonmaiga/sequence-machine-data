@@ -15,28 +15,26 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -80,6 +78,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -2725,7 +2724,7 @@ end A339123.P1291961575939117981
 /-!
 # A339124: a(n) is the number of squares at distance n from the central square of a golden square fractal.
 
-The programs for A339124, the canonical program `A339124.P11922231893244906762` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339124 has offset 0).
+The programs for A339124, the canonical program `A339124.P11922231893244906762` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339124 has offset 0).
 
 The definition of A339124 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2734,7 +2733,7 @@ The definition of A339124 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-2*a(n-2)+2*a(n-4)` with `a(0)=1, a(1)=4, a(2)=12, a(3)=28, a(4)=60`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A339124
@@ -3344,7 +3343,7 @@ end A339134.P16252200899388841266
 /-!
 # A339136: Number of (undirected) cycles in the graph C_3 X P_n.
 
-The programs for A339136, the canonical program `A339136.P15022024842046345411` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339136 has offset 1).
+The programs for A339136, the canonical program `A339136.P15022024842046345411` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339136 has offset 1).
 
 The definition of A339136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3353,7 +3352,7 @@ The definition of A339136 is `conjectured`: the Lean definition is a formula tha
 
 `∑[6*3^n-5]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A339136
@@ -3365,6 +3364,29 @@ def P15022024842046345411.Spec : Prop :=
 theorem P15022024842046345411.correct : P15022024842046345411.Spec := by
   intro n
   simp only [A339136, Nat.add_sub_cancel]
+
+end A339136
+
+/-! ## A339136.P4847893133581543883
+
+`ogf((1+9x)/(1-5x+7x^2-3x^3))`
+-/
+
+namespace A339136.P4847893133581543883
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 9] [1, -5, 7, -3] n
+
+end
+
+end A339136.P4847893133581543883
+
+namespace A339136
+
+/-- `ogf((1+9x)/(1-5x+7x^2-3x^3))` -/
+def P4847893133581543883.Spec : Prop :=
+  ∀ n, P4847893133581543883.a n = A339136 (n + 1)
 
 end A339136
 
@@ -5864,7 +5886,7 @@ end A339180.P6813488557428058969
 /-!
 # A339183: Number of partitions of n into two parts such that the smaller part is a nonzero square.
 
-The programs for A339183, the canonical program `A339183.P14330859921888403389` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339183 has offset 0).
+The programs for A339183, the canonical program `A339183.P14330859921888403389` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339183 has offset 0).
 
 The definition of A339183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5873,7 +5895,7 @@ The definition of A339183 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n/2))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A339183
@@ -7741,7 +7763,7 @@ end A339195.P9231246778905207546
 /-!
 # A339196: Number of (undirected) cycles on the n X 2 king graph.
 
-The programs for A339196, the canonical program `A339196.P5186645465537012145` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339196 has offset 2).
+The programs for A339196, the canonical program `A339196.P5186645465537012145` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339196 has offset 2).
 
 The definition of A339196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 328 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7750,7 +7772,7 @@ The definition of A339196 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2^(n+4)-9]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A339196
@@ -7762,6 +7784,29 @@ def P5186645465537012145.Spec : Prop :=
 theorem P5186645465537012145.correct : P5186645465537012145.Spec := by
   intro n
   simp only [A339196, Nat.add_sub_cancel]
+
+end A339196
+
+/-! ## A339196.P2132042407293539927
+
+`ogf((7+2x)/(1-4x+5x^2-2x^3))`
+-/
+
+namespace A339196.P2132042407293539927
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [7, 2] [1, -4, 5, -2] n
+
+end
+
+end A339196.P2132042407293539927
+
+namespace A339196
+
+/-- `ogf((7+2x)/(1-4x+5x^2-2x^3))` -/
+def P2132042407293539927.Spec : Prop :=
+  ∀ n, P2132042407293539927.a n = A339196 (n + 2)
 
 end A339196
 

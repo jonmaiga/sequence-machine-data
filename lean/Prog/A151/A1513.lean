@@ -9,6 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -24,11 +25,13 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -533,7 +536,7 @@ end A151311.P13122014159591557468
 /-!
 # A151312: Number of walks within N^2 (the first quadrant of Z^2) starting at (0, 0) and consisting of n steps taken from {(-1, -1), (-1, 1), (-1, 0), (1, -1), (1, 0), (1, 1)}.
 
-The programs for A151312, the canonical program `A151312.P7620929976732303030` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151312 has offset 0).
+The programs for A151312, the canonical program `A151312.P7620929976732303030` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151312 has offset 0).
 
 The definition of A151312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -542,7 +545,7 @@ The definition of A151312 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001405(n)*A005773(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A151312
@@ -1502,7 +1505,7 @@ end A151331.P9479064409281517758
 /-!
 # A151332: Number of walks within N^2 (the first quadrant of Z^2) starting and ending at (0,0) and consisting of 4 n steps taken from {(-1, -1), (-1, 1), (1, 0)}.
 
-The programs for A151332, the canonical program `A151332.P11971355065547530043` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151332 has offset 0).
+The programs for A151332, the canonical program `A151332.P11971355065547530043` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151332 has offset 0).
 
 The definition of A151332 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1511,7 +1514,7 @@ The definition of A151332 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000108(n)*A000108(2*n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A151332
@@ -1937,7 +1940,7 @@ end A151340.P7078812272872392107
 /-!
 # A151341: Number of walks within N^2 (the first quadrant of Z^2) starting and ending at (0,0) and consisting of 2 n steps taken from {(-1, -1), (-1, 0), (-1, 1), (1, 0)}.
 
-The programs for A151341, the canonical program `A151341.P3277958052713237890` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151341 has offset 0).
+The programs for A151341, the canonical program `A151341.P3277958052713237890` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151341 has offset 0).
 
 The definition of A151341 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1946,7 +1949,7 @@ The definition of A151341 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000108(n)*A001006(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A151341
@@ -3593,7 +3596,7 @@ end A151373.P15326268391825330452
 /-!
 # A151374: Number of walks within N^2 (the first quadrant of Z^2) starting at (0, 0), ending on the vertical axis and consisting of 2n steps taken from {(-1, -1), (-1, 0), (1, 1)}.
 
-The programs for A151374, the canonical program `A151374.P6151249607190276974` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151374 has offset 0).
+The programs for A151374, the canonical program `A151374.P6151249607190276974` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151374 has offset 0).
 
 The definition of A151374 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3602,7 +3605,7 @@ The definition of A151374 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n*A000108(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A151374
@@ -4235,7 +4238,7 @@ end A151378.P2193612475408005922
 /-!
 # A151379: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of 2 n steps taken from {(-1, 0), (1, -1), (1, 1)}.
 
-The programs for A151379, the canonical program `A151379.P18367321496078500137` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151379 has offset 0).
+The programs for A151379, the canonical program `A151379.P18367321496078500137` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151379 has offset 0).
 
 The definition of A151379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4244,7 +4247,7 @@ The definition of A151379 is `conjectured`: the Lean definition is a formula tha
 
 `C(n, floor(n/2))*A000108(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A151379

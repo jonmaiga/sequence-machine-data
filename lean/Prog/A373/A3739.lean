@@ -18,21 +18,23 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -82,6 +84,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -1149,7 +1152,7 @@ end A373915.P3580631824577466287
 /-!
 # A373917: Triangle read by rows: T(n,k) = k*10 mod n, with n >= 1, k >= 0.
 
-The programs for A373917, the canonical program `A373917.P2234265821470361716` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373917 has offset 1).
+The programs for A373917, the canonical program `A373917.P2234265821470361716` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373917 has offset 1).
 
 The definition of A373917 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1158,7 +1161,7 @@ The definition of A373917 is `conjectured`: the Lean definition is a formula tha
 
 `(10*n)%round(sqrt(2*n+1))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373917
@@ -4779,7 +4782,7 @@ end A373951.P13890329675597749787
 /-!
 # A373952: Number of integer compositions of n whose run-compression sums to 3.
 
-The programs for A373952, the canonical program `A373952.P9018593955600060429` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373952 has offset 0).
+The programs for A373952, the canonical program `A373952.P9018593955600060429` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373952 has offset 0).
 
 The definition of A373952 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4788,7 +4791,7 @@ The definition of A373952 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+3-n%3` with `a(0)=0, a(1)=0, a(2)=0`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373952
@@ -8298,7 +8301,7 @@ end A373973.P10663157142594432929
 /-!
 # A373975: a(n) = 1 if the number of prime factors with multiplicity is a multiple of 3, otherwise 0.
 
-The programs for A373975, the canonical program `A373975.P11632175774384080347` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373975 has offset 1).
+The programs for A373975, the canonical program `A373975.P11632175774384080347` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373975 has offset 1).
 
 The definition of A373975 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8307,7 +8310,7 @@ The definition of A373975 is `conjectured`: the Lean definition is a formula tha
 
 `4%gcd(3, ∑{e}[n+1, #])`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373975

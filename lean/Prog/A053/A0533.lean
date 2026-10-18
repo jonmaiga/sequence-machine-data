@@ -6,6 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -18,7 +19,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -28,12 +29,13 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,6 +43,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1622,6 +1625,29 @@ namespace A053311
 /-- `A000071(n+3)+3*A000071(n+2)` -/
 def P2985961570615611526.Spec : Prop :=
   ∀ n, P2985961570615611526.a n = A053311 n
+
+end A053311
+
+/-! ## A053311.P3536888932072701334
+
+`ogf((1+3x)/(1-2x+x^3))`
+-/
+
+namespace A053311.P3536888932072701334
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3] [1, -2, 0, 1] n
+
+end
+
+end A053311.P3536888932072701334
+
+namespace A053311
+
+/-- `ogf((1+3x)/(1-2x+x^3))` -/
+def P3536888932072701334.Spec : Prop :=
+  ∀ n, P3536888932072701334.a n = A053311 n
 
 end A053311
 

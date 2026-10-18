@@ -7,25 +7,26 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,7 +35,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -6156,7 +6157,7 @@ end A215772.P8440307712397621687
 /-!
 # A215773: Number of undirected labeled graphs on n+3 nodes with exactly n cycle graphs as connected components.
 
-The programs for A215773, the canonical program `A215773.P17304163739616101335` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215773 has offset 0).
+The programs for A215773, the canonical program `A215773.P17304163739616101335` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215773 has offset 0).
 
 The definition of A215773 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6165,7 +6166,7 @@ The definition of A215773 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(n+1)*(n+2)*(n+3)*(n²+n+4)/48`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A215773
@@ -6714,7 +6715,7 @@ end A215780.P1435480355735374439
 /-!
 # A215781: a(n) = ceiling(n*(sqrt(3)-1)).
 
-The programs for A215781, the canonical program `A215781.P8685925691909719972` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215781 has offset 0).
+The programs for A215781, the canonical program `A215781.P8685925691909719972` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215781 has offset 0).
 
 The definition of A215781 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(n*(sqrt(3)-1))` (program `A215781.P8685925691909719972`, by `A215781.P8685925691909719972.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6723,7 +6724,7 @@ The definition of A215781 is `verified`: the Lean definition is proven equivalen
 
 `ceil(n*(sqrt(3)-1))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A215781
@@ -7287,7 +7288,7 @@ end A215782.P18394563038186588814
 /-!
 # A215784: Number of permutations of 0..floor((n*6-1)/2) on even squares of an n X 6 array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing.
 
-The programs for A215784, the canonical program `A215784.P4077106587217208287` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215784 has offset 1).
+The programs for A215784, the canonical program `A215784.P4077106587217208287` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215784 has offset 1).
 
 The definition of A215784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7296,7 +7297,7 @@ The definition of A215784 is `conjectured`: the Lean definition is a formula tha
 
 `16*a(n-2)-3*a(n-4)` with `a(0)=1, a(1)=2, a(2)=12, a(3)=29`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A215784

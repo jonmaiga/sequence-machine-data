@@ -9,25 +9,25 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C010
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -199,7 +199,7 @@ end A357501.P16503753554235509390
 /-!
 # A357502: a(n) = ((1 + sqrt(n))^n - (1 - sqrt(n))^n)/(2*sqrt(n)).
 
-The programs for A357502, the canonical program `A357502.P3166181043493976716` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357502 has offset 1).
+The programs for A357502, the canonical program `A357502.P3166181043493976716` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357502 has offset 1).
 
 The definition of A357502 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -231,7 +231,7 @@ end A357502
 
 `((1+sqrt(n+1))^(n+1)-(1-sqrt(n+1))^(n+1))/(2*sqrt(n+1))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357502
@@ -900,7 +900,7 @@ end A357510.P2643914263362178967
 /-!
 # A357518: Unique fixed point of the two-block substitution 00->111, 01->110, 10->101, 11->100.
 
-The programs for A357518, the canonical program `A357518.P17713771982726608828` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357518 has offset 1).
+The programs for A357518, the canonical program `A357518.P17713771982726608828` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357518 has offset 1).
 
 The definition of A357518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -909,7 +909,7 @@ The definition of A357518 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[n-a(floor(abs(n/3-n)))]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357518
@@ -1856,7 +1856,7 @@ end A357531
 /-!
 # A357532: a(n) = Sum_{k=0..floor(n/3)} (n-2*k)!/(n-3*k)!.
 
-The programs for A357532, the canonical program `A357532.P6851154421488513148` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357532 has offset 0).
+The programs for A357532, the canonical program `A357532.P6851154421488513148` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357532 has offset 0).
 
 The definition of A357532 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1865,7 +1865,7 @@ The definition of A357532 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*a(n-1)+n*a(n-3)+1)/3` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357532
@@ -1971,7 +1971,7 @@ end A357532
 /-!
 # A357533: a(n) = Sum_{k=0..floor(n/4)} (n-3*k)!/(n-4*k)!.
 
-The programs for A357533, the canonical program `A357533.P5313426221476350499` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357533 has offset 0).
+The programs for A357533, the canonical program `A357533.P5313426221476350499` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357533 has offset 0).
 
 The definition of A357533 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1980,7 +1980,7 @@ The definition of A357533 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*a(n-1)+n*a(n-4)+1)/4` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357533
@@ -3746,7 +3746,7 @@ end A357569
 /-!
 # A357570: a(n) = Sum_{k=0..floor(n/5)} (n-4*k)!/(n-5*k)!.
 
-The programs for A357570, the canonical program `A357570.P15757640958290080094` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357570 has offset 0).
+The programs for A357570, the canonical program `A357570.P15757640958290080094` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357570 has offset 0).
 
 The definition of A357570 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3755,7 +3755,7 @@ The definition of A357570 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4*a(n-1)+n*a(n-5)+1)/5` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A357570

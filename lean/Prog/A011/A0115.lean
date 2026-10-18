@@ -6,7 +6,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -14,17 +13,18 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C016
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,6 +33,7 @@ import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -71,7 +72,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A011522: Stirling numbers of first kind S1(12,n).
@@ -1703,7 +1703,7 @@ end A011532
 /-!
 # A011533: Numbers that contain a 3.
 
-The programs for A011533, the canonical program `A011533.P1863259757055016485` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011533 has offset 1).
+The programs for A011533, the canonical program `A011533.P1863259757055016485` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011533 has offset 1).
 
 The definition of A011533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3439 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1739,7 +1739,7 @@ end A011533
 
 `eq[0, ∏{digits}[n, 3-#]]`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011533
@@ -2282,7 +2282,7 @@ end A011533
 /-!
 # A011534: Numbers that contain a 4.
 
-The programs for A011534, the canonical program `A011534.P15152361579944605440` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011534 has offset 1).
+The programs for A011534, the canonical program `A011534.P15152361579944605440` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011534 has offset 1).
 
 The definition of A011534 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2291,7 +2291,7 @@ The definition of A011534 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A064532(n), A064692(n)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A011534
@@ -5882,7 +5882,7 @@ end A011542.P14963181243236651896
 /-!
 # A011543: Decimal expansion of e truncated to n places.
 
-The programs for A011543, the canonical program `A011543.P16723415302719657556` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011543 has offset 0).
+The programs for A011543, the canonical program `A011543.P16723415302719657556` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011543 has offset 0).
 
 The definition of A011543 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5891,7 +5891,7 @@ The definition of A011543 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(e*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011543
@@ -6004,7 +6004,7 @@ end A011543
 /-!
 # A011544: Decimal expansion of e rounded to n places.
 
-The programs for A011544, the canonical program `A011544.P11984496564108768631` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011544 has offset 0).
+The programs for A011544, the canonical program `A011544.P11984496564108768631` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011544 has offset 0).
 
 The definition of A011544 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6013,7 +6013,7 @@ The definition of A011544 is `conjectured`: the Lean definition is a formula tha
 
 `round(e*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011544
@@ -6126,7 +6126,7 @@ end A011544
 /-!
 # A011545: a(n) is the integer whose decimal digits are the first n+1 decimal digits of Pi.
 
-The programs for A011545, the canonical program `A011545.P11957435309712970283` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011545 has offset 0).
+The programs for A011545, the canonical program `A011545.P11957435309712970283` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011545 has offset 0).
 
 The definition of A011545 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6135,7 +6135,7 @@ The definition of A011545 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(π*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011545
@@ -6277,7 +6277,7 @@ end A011545
 /-!
 # A011546: Decimal expansion of Pi rounded to n places.
 
-The programs for A011546, the canonical program `A011546.P568019388730443924` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011546 has offset 0).
+The programs for A011546, the canonical program `A011546.P568019388730443924` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011546 has offset 0).
 
 The definition of A011546 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6286,7 +6286,7 @@ The definition of A011546 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(10^n*π)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011546
@@ -6396,7 +6396,7 @@ end A011546
 /-!
 # A011547: Decimal expansion of sqrt(2) truncated to n places.
 
-The programs for A011547, the canonical program `A011547.P3617800658743322912` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011547 has offset 0).
+The programs for A011547, the canonical program `A011547.P3617800658743322912` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011547 has offset 0).
 
 The definition of A011547 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6405,7 +6405,7 @@ The definition of A011547 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(2)*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011547
@@ -7218,7 +7218,7 @@ end A011548
 /-!
 # A011549: a(n) = floor(sqrt(3)*10^n).
 
-The programs for A011549, the canonical program `A011549.P48620962862839204` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011549 has offset 0).
+The programs for A011549, the canonical program `A011549.P48620962862839204` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011549 has offset 0).
 
 The definition of A011549 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(3)*10^n)` (program `A011549.P48620962862839204`, by `A011549.P48620962862839204.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7227,7 +7227,7 @@ The definition of A011549 is `verified`: the Lean definition is proven equivalen
 
 `floor(sqrt(3)*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011549
@@ -7429,7 +7429,7 @@ end A011549
 /-!
 # A011550: Decimal expansion of sqrt(3) rounded to n places.
 
-The programs for A011550, the canonical program `A011550.P11723360858412860179` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011550 has offset 0).
+The programs for A011550, the canonical program `A011550.P11723360858412860179` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011550 has offset 0).
 
 The definition of A011550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7438,7 +7438,7 @@ The definition of A011550 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(3)*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011550
@@ -7502,7 +7502,7 @@ end A011550
 /-!
 # A011551: Decimal expansion of phi truncated to n places.
 
-The programs for A011551, the canonical program `A011551.P14703979892889341066` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011551 has offset 0).
+The programs for A011551, the canonical program `A011551.P14703979892889341066` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011551 has offset 0).
 
 The definition of A011551 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7511,7 +7511,7 @@ The definition of A011551 is `conjectured`: the Lean definition is a formula tha
 
 `floor(ϕ*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011551
@@ -7621,7 +7621,7 @@ end A011551
 /-!
 # A011552: Decimal expansion of phi rounded to n places.
 
-The programs for A011552, the canonical program `A011552.P17431479292703560334` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011552 has offset 0).
+The programs for A011552, the canonical program `A011552.P17431479292703560334` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011552 has offset 0).
 
 The definition of A011552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7630,7 +7630,7 @@ The definition of A011552 is `conjectured`: the Lean definition is a formula tha
 
 `round(ϕ*10^n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011552
@@ -7760,7 +7760,7 @@ end A011554.P14301878624725931856
 /-!
 # A011557: Powers of 10: a(n) = 10^n.
 
-The programs for A011557, the canonical program `A011557.P11220211478167790856` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011557 has offset 0).
+The programs for A011557, the canonical program `A011557.P11220211478167790856` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011557 has offset 0).
 
 The definition of A011557 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `10^n` (program `A011557.P11220211478167790856`, by `A011557.P11220211478167790856.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7769,7 +7769,7 @@ The definition of A011557 is `verified`: the Lean definition is proven equivalen
 
 `10^n`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011557

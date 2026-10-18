@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -19,12 +20,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -82,6 +86,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -2235,7 +2240,7 @@ end A264937.P3985572489802970471
 /-!
 # A264938: a(n) = n*(2*n-1) + floor(n/3).
 
-The programs for A264938, the canonical program `A264938.P1361556350688262366` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264938 has offset 0).
+The programs for A264938, the canonical program `A264938.P1361556350688262366` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264938 has offset 0).
 
 The definition of A264938 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(2*n-1)+floor(n/3)` (program `A264938.P1361556350688262366`, by `A264938.P1361556350688262366.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2244,7 +2249,7 @@ The definition of A264938 is `verified`: the Lean definition is proven equivalen
 
 `n*(2*n-1)+floor(n/3)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A264938
@@ -7325,7 +7330,7 @@ end A264980.P7120267874268749075
 /-!
 # A264981: Highest power of 9 dividing n.
 
-The programs for A264981, the canonical program `A264981.P16186755701617293099` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264981 has offset 1).
+The programs for A264981, the canonical program `A264981.P16186755701617293099` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264981 has offset 1).
 
 The definition of A264981 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7334,7 +7339,7 @@ The definition of A264981 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9^val(n+1, 9)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A264981

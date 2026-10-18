@@ -2,34 +2,36 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
@@ -40,7 +42,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,6 +75,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -487,7 +489,7 @@ end A233105.P10926437173040527841
 /-!
 # A233106: Number of n X 1 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally or vertically, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order.
 
-The programs for A233106, the canonical program `A233106.P12902737924150097618` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233106 has offset 1).
+The programs for A233106, the canonical program `A233106.P12902737924150097618` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233106 has offset 1).
 
 The definition of A233106 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -496,7 +498,7 @@ The definition of A233106 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(75+10*3^(n+1)+3*5^(n+1))/120`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A233106
@@ -732,7 +734,7 @@ end A233106
 /-!
 # A233107: Number of n X 2 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally or vertically, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order.
 
-The programs for A233107, the canonical program `A233107.P5037911681175604551` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233107 has offset 1).
+The programs for A233107, the canonical program `A233107.P5037911681175604551` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233107 has offset 1).
 
 The definition of A233107 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -741,7 +743,7 @@ The definition of A233107 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(105+18*7^(n+1)+5*21^(n+1))/168`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A233107
@@ -1579,7 +1581,7 @@ end A233122.P14542726361670339260
 /-!
 # A233123: Number of n X 2 0..5 arrays with no element x(i,j) adjacent to itself or value 5-x(i,j) horizontally or vertically, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order (unlabelled 6-colorings with no clashing color pairs).
 
-The programs for A233123, the canonical program `A233123.P17467484296530907216` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233123 has offset 1).
+The programs for A233123, the canonical program `A233123.P17467484296530907216` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233123 has offset 1).
 
 The definition of A233123 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1588,7 +1590,7 @@ The definition of A233123 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(2*(n+1)-3)*(3^(n+1)+3)/3`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A233123
@@ -2871,7 +2873,7 @@ end A233138.P8002349357236642636
 /-!
 # A233139: Number of tilings of a 4 X n rectangle using T and Z tetrominoes.
 
-The programs for A233139, the canonical program `A233139.P12112664299954791325` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233139 has offset 0).
+The programs for A233139, the canonical program `A233139.P12112664299954791325` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233139 has offset 0).
 
 The definition of A233139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2880,7 +2882,7 @@ The definition of A233139 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+a(n-3)+2*a(n-4)` with `a(0)=1, a(1)=0, a(2)=0, a(3)=0`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A233139
@@ -2892,6 +2894,29 @@ def P12112664299954791325.Spec : Prop :=
 theorem P12112664299954791325.correct : P12112664299954791325.Spec := by
   intro n
   simp only [A233139]
+
+end A233139
+
+/-! ## A233139.P3020551265774714697
+
+`ogf((-1+2x+x^3)/(-1+2x+x^3+2x^4))`
+-/
+
+namespace A233139.P3020551265774714697
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, 0, -1] [1, -2, 0, -1, -2] n
+
+end
+
+end A233139.P3020551265774714697
+
+namespace A233139
+
+/-- `ogf((-1+2x+x^3)/(-1+2x+x^3+2x^4))` -/
+def P3020551265774714697.Spec : Prop :=
+  ∀ n, P3020551265774714697.a n = A233139 n
 
 end A233139
 
@@ -4364,7 +4389,7 @@ end A233161.P15838943635085210058
 /-!
 # A233162: Number of n X 1 0..7 arrays with no element x(i,j) adjacent to itself or value 7-x(i,j) horizontally, diagonally, antidiagonally or vertically, top left element zero, and 1 appearing before 2 3 4 5 and 6, 2 appearing before 3 4 and 5, and 3 appearing before 4 in row major order (unlabeled 8-colorings with no clashing color pairs).
 
-The programs for A233162, the canonical program `A233162.P8274408616495409963` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233162 has offset 1).
+The programs for A233162, the canonical program `A233162.P8274408616495409963` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233162 has offset 1).
 
 The definition of A233162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4373,7 +4398,7 @@ The definition of A233162 is `conjectured`: the Lean definition is a formula tha
 
 `12*a(n-1)-44*a(n-2)+48*a(n-3)` with `a(0)=1, a(1)=1, a(2)=3, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A233162

@@ -12,9 +12,8 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -29,12 +28,13 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -44,7 +44,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -88,6 +87,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -5186,7 +5186,7 @@ end A119272
 /-!
 # A119273: Absolute value of the difference between largest square and largest cube each with n decimal digits.
 
-The programs for A119273, the canonical program `A119273.P17359762583477795759` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119273 has offset 1).
+The programs for A119273, the canonical program `A119273.P17359762583477795759` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119273 has offset 1).
 
 The definition of A119273 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5195,7 +5195,7 @@ The definition of A119273 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(ceil(10^((n+1)/2))-1)²-(ceil(10^((n+1)/3))-1)^3`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A119273
@@ -6060,7 +6060,7 @@ end A119281
 /-!
 # A119282: Alternating sum of the first n Fibonacci numbers.
 
-The programs for A119282, the canonical program `A119282.P657726413145377931` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119282 has offset 0).
+The programs for A119282, the canonical program `A119282.P657726413145377931` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119282 has offset 0).
 
 The definition of A119282 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6069,7 +6069,7 @@ The definition of A119282 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)-a(n-1)-1` with `a(0)=0, a(1)=-1`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A119282
@@ -6081,6 +6081,29 @@ def P657726413145377931.Spec : Prop :=
 theorem P657726413145377931.correct : P657726413145377931.Spec := by
   intro n
   simp only [A119282]
+
+end A119282
+
+/-! ## A119282.P11442292310477806018
+
+`ogf(-x/(1-2x^2+x^3))`
+-/
+
+namespace A119282.P11442292310477806018
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, -1] [1, 0, -2, 1] n
+
+end
+
+end A119282.P11442292310477806018
+
+namespace A119282
+
+/-- `ogf(-x/(1-2x^2+x^3))` -/
+def P11442292310477806018.Spec : Prop :=
+  ∀ n, P11442292310477806018.a n = A119282 n
 
 end A119282
 
@@ -6456,10 +6479,33 @@ end A119282
 /-!
 # A119283: Alternating sum of the squares of the first n Fibonacci numbers.
 
-The programs for A119283, the canonical program `A119283.P13203872640390937685` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119283 has offset 0).
+The programs for A119283, the canonical program `A119283.P13203872640390937685` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119283 has offset 0).
 
 The definition of A119283 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 241 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A119283.P15541518863880739951
+
+`ogf((-x-x^2)/(1+x-4x^2+x^3+x^4))`
+-/
+
+namespace A119283.P15541518863880739951
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, -1, -1] [1, 1, -4, 1, 1] n
+
+end
+
+end A119283.P15541518863880739951
+
+namespace A119283
+
+/-- `ogf((-x-x^2)/(1+x-4x^2+x^3+x^4))` -/
+def P15541518863880739951.Spec : Prop :=
+  ∀ n, P15541518863880739951.a n = A119283 n
+
+end A119283
 
 /-! ## A119283.P6731158464893239980
 
@@ -6491,7 +6537,7 @@ end A119283
 
 `∑[(-1)^n*A007598(n)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A119283
@@ -6801,7 +6847,7 @@ end A119283
 /-!
 # A119284: Alternating sum of the cubes of the first n Fibonacci numbers.
 
-The programs for A119284, the canonical program `A119284.P9734605523275152558` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119284 has offset 0).
+The programs for A119284, the canonical program `A119284.P9734605523275152558` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119284 has offset 0).
 
 The definition of A119284 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6810,7 +6856,7 @@ The definition of A119284 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[a(n-2)-a(n-1)]^3]` with `a(0)=0, a(1)=-1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A119284
@@ -6987,7 +7033,7 @@ end A119284
 /-!
 # A119285: Alternating sum of the fourth powers of the first n Fibonacci numbers.
 
-The programs for A119285, the canonical program `A119285.P16234836750788060480` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119285 has offset 0).
+The programs for A119285, the canonical program `A119285.P16234836750788060480` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119285 has offset 0).
 
 The definition of A119285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6996,7 +7042,7 @@ The definition of A119285 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(1-A001611(n))²²*(-1)^n]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A119285

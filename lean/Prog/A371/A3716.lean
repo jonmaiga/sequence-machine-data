@@ -14,18 +14,17 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -33,6 +32,7 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -568,6 +568,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371618.P5726840215597286126
+
+/-!
+# A371620: Fractal sequence based on a heptagon: a(n) = number of unobscured heptagons remaining after completing step n.
+
+The programs for A371620, there is no canonical definition to state claims against.
+-/
+
+/-! ## A371620.P8864641011872572047
+
+`ogf((-1+4x)/(-1+5x+3x^2+5x^3-3x^4))`
+-/
+
+namespace A371620.P8864641011872572047
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -4] [1, -5, -3, -5, 3] n
+
+end
+
+end A371620.P8864641011872572047
 
 /-!
 # A371622: Primes p such that p - 2 and p + 2 have the same number of prime factors, counted with multiplicity.
@@ -2008,7 +2029,7 @@ end A371637.P14244875041345313457
 /-!
 # A371638: a(n) = 2*n + valuation(n, 3) with valuation(n, 3) = A007949(n).
 
-The programs for A371638, the canonical program `A371638.P3848879041737044132` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371638 has offset 1).
+The programs for A371638, the canonical program `A371638.P3848879041737044132` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371638 has offset 1).
 
 The definition of A371638 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(n+1)+val(n+1, 3)` (program `A371638.P3848879041737044132`, by `A371638.P3848879041737044132.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2017,7 +2038,7 @@ The definition of A371638 is `verified`: the Lean definition is proven equivalen
 
 `2*(n+1)+val(n+1, 3)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A371638

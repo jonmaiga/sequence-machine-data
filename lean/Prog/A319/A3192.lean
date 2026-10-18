@@ -2,13 +2,13 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -18,16 +18,19 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -95,16 +98,39 @@ import Seq.Opaque.C024
 /-!
 # A319200: a(n) = -(A(n) - A(n-1)) where A(n) = A057597(n+1), for n >= 0.
 
-The programs for A319200, the canonical program `A319200.P16183584655872643402` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319200 has offset 0).
+The programs for A319200, the canonical program `A319200.P16183584655872643402` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319200 has offset 0).
 
 The definition of A319200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 752 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A319200.P1882560134056792452
+
+`ogf((-x+x^2)/(1+x+x^2-x^3))`
+-/
+
+namespace A319200.P1882560134056792452
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, -1, 1] [1, 1, 1, -1] n
+
+end
+
+end A319200.P1882560134056792452
+
+namespace A319200
+
+/-- `ogf((-x+x^2)/(1+x+x^2-x^3))` -/
+def P1882560134056792452.Spec : Prop :=
+  ∀ n, P1882560134056792452.a n = A319200 n
+
+end A319200
 
 /-! ## A319200.P16183584655872643402
 
 `2*a(n-3)-a(n-4)` with `a(0)=0, a(1)=-1, a(2)=2, a(3)=-1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319200
@@ -6409,7 +6435,7 @@ end A319278.P5449043200156588001
 /-!
 # A319279: Numbers that are congruent to {0, 3, 7, 10} mod 12.
 
-The programs for A319279, the canonical program `A319279.P18019565050650500501` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319279 has offset 1).
+The programs for A319279, the canonical program `A319279.P18019565050650500501` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319279 has offset 1).
 
 The definition of A319279 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6418,7 +6444,7 @@ The definition of A319279 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)+12` with `a(0)=0, a(1)=3, a(2)=7, a(3)=10`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319279
@@ -6613,6 +6639,29 @@ namespace A319279
 /-- `∑[3-∑[(-1)^∑[n]]]-2` -/
 def P15476214055352174630.Spec : Prop :=
   ∀ n, P15476214055352174630.a n = A319279 (n + 1)
+
+end A319279
+
+/-! ## A319279.P5062663869838502930
+
+`ogf((3x+x^2+2x^3)/(1-2x+2x^2-2x^3+x^4))`
+-/
+
+namespace A319279.P5062663869838502930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 1, 2] [1, -2, 2, -2, 1] n
+
+end
+
+end A319279.P5062663869838502930
+
+namespace A319279
+
+/-- `ogf((3x+x^2+2x^3)/(1-2x+2x^2-2x^3+x^4))` -/
+def P5062663869838502930.Spec : Prop :=
+  ∀ n, P5062663869838502930.a n = A319279 (n + 1)
 
 end A319279
 
@@ -6928,7 +6977,7 @@ end A319279
 /-!
 # A319280: Numbers that are congruent to {0, 4, 7, 11} mod 12.
 
-The programs for A319280, the canonical program `A319280.P285428568535865696` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319280 has offset 1).
+The programs for A319280, the canonical program `A319280.P285428568535865696` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319280 has offset 1).
 
 The definition of A319280 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6937,7 +6986,7 @@ The definition of A319280 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)+12` with `a(0)=0, a(1)=4, a(2)=7, a(3)=11`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319280
@@ -7130,6 +7179,35 @@ namespace A319280
 /-- `∑[∑[3/a(n-2)]]` -/
 def P7585238277898359579.Spec : Prop :=
   ∀ n, P7585238277898359579.a n = (A319280 (n + 1) : ℚ)
+
+end A319280
+
+/-! ## A319280.P13503507339538252871
+
+`∑[∑[ogf((1+4x+3x^2+4x^3)/(1+x+x^2+x^3))]]-1`
+-/
+
+namespace A319280.P13503507339538252871
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, 3, 4] [1, 1, 1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - 1
+
+end
+
+end A319280.P13503507339538252871
+
+namespace A319280
+
+/-- `∑[∑[ogf((1+4x+3x^2+4x^3)/(1+x+x^2+x^3))]]-1` -/
+def P13503507339538252871.Spec : Prop :=
+  ∀ n, P13503507339538252871.a n = A319280 (n + 1)
 
 end A319280
 

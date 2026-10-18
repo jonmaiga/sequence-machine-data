@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -14,20 +13,21 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +41,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -101,7 +100,7 @@ set_option linter.unreachableTactic false
 /-!
 # A309000: Number of strings of length n from a 3-symbol alphabet (A,B,C, say) containing at least one "A" and at least two "B"s.
 
-The programs for A309000, the canonical program `A309000.P11925545143809429888` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309000 has offset 3).
+The programs for A309000, the canonical program `A309000.P11925545143809429888` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309000 has offset 3).
 
 The definition of A309000 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -110,7 +109,7 @@ The definition of A309000 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^(n+3)-2^(n+4)-(n+3)*2^(n+2)+n+4`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A309000
@@ -1265,7 +1264,7 @@ end A309005
 /-!
 # A309006: Product minus sum of the two previous terms in the sequence, with a(1) = 2 and a(2) = 5.
 
-The programs for A309006, the canonical program `A309006.P16758744338293183012` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309006 has offset 1).
+The programs for A309006, the canonical program `A309006.P16758744338293183012` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309006 has offset 1).
 
 The definition of A309006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1274,7 +1273,7 @@ The definition of A309006 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*a(n-2)-(a(n-1)+a(n-2))` with `a(0)=2, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A309006
@@ -1632,7 +1631,7 @@ end A309013.P13035425318535567795
 /-!
 # A309014: a(n) = Sum_{k=0..n} (-1)^(n-k) * (Stirling2(n,k) mod 2).
 
-The programs for A309014, the canonical program `A309014.P17833545605554751906` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309014 has offset 0).
+The programs for A309014, the canonical program `A309014.P17833545605554751906` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309014 has offset 0).
 
 The definition of A309014 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2581 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1640,7 @@ The definition of A309014 is `conjectured`: the Lean definition is a formula tha
 
 `abs(Δ[A002487(abs(1-n))])`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A309014
@@ -4517,7 +4516,7 @@ end A309055.P4804903864030373984
 /-!
 # A309057: a(0) = 1; a(2*n) = 3*a(n), a(2*n+1) = a(n).
 
-The programs for A309057, the canonical program `A309057.P15821371437043951061` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309057 has offset 0).
+The programs for A309057, the canonical program `A309057.P15821371437043951061` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309057 has offset 0).
 
 The definition of A309057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4526,7 +4525,7 @@ The definition of A309057 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(3, n%2)*a(floor(n/2))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A309057
@@ -5942,7 +5941,7 @@ end A309073.P2763440802243895063
 /-!
 # A309074: a(0) = 1; a(2*n) = 4*a(n), a(2*n+1) = a(n).
 
-The programs for A309074, the canonical program `A309074.P13561482286292081399` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309074 has offset 0).
+The programs for A309074, the canonical program `A309074.P13561482286292081399` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309074 has offset 0).
 
 The definition of A309074 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5951,7 +5950,7 @@ The definition of A309074 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(2, n)²*a(floor(n/2))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A309074
@@ -8206,7 +8205,7 @@ end A309096.P2033020568094895251
 /-!
 # A309097: Number of partitions of n avoiding the partition (4,2,1).
 
-The programs for A309097, the canonical program `A309097.P9673110000560192453` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309097 has offset 0).
+The programs for A309097, the canonical program `A309097.P9673110000560192453` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309097 has offset 0).
 
 The definition of A309097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8215,7 +8214,7 @@ The definition of A309097 is `conjectured`: the Lean definition is a formula tha
 
 `∑[abs(∏{e}[1-n, #+1]-n)]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A309097

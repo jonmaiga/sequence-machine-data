@@ -2,26 +2,26 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C005
-import Seq.B000.C008
-import Seq.B000.C011
+import Seq.B000.C006
+import Seq.B000.C009
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C013
+import Seq.B000.C016
+import Seq.B000.C018
+import Seq.B000.C021
+import Seq.B000.C025
+import Seq.B000.C027
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B002.C001
+import Seq.B002.C000
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C003
@@ -199,7 +199,7 @@ end A397802.P18209623836552255310
 /-!
 # A397803: a(n) = 2^((3^n - 1)/2).
 
-The programs for A397803, the canonical program `A397803.P13251402341683626943` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397803 has offset 0).
+The programs for A397803, the canonical program `A397803.P13251402341683626943` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397803 has offset 0).
 
 The definition of A397803 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -208,7 +208,7 @@ The definition of A397803 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^((3^n-1)/2)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A397803
@@ -625,7 +625,7 @@ end A397835
 /-!
 # A397837: Number of ternary words of length n over {a,b,c} avoiding the consecutive word abcabc.
 
-The programs for A397837, the canonical program `A397837.P11095280767987462011` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397837 has offset 0).
+The programs for A397837, the canonical program `A397837.P11095280767987462011` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397837 has offset 0).
 
 The definition of A397837 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -634,7 +634,7 @@ The definition of A397837 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-a(n-3)+3*a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=27, a(4)=81, a(5)=243`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A397837

@@ -12,21 +12,20 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C028
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4517,7 +4516,7 @@ end A354278.P17242436142315296114
 /-!
 # A354280: a(n) is the numerator of Cesàro means sequence c(n) of A237420 when the denominator is A141310(n).
 
-The programs for A354280, the canonical program `A354280.P7386474038231386870` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354280 has offset 0).
+The programs for A354280, the canonical program `A354280.P7386474038231386870` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354280 has offset 0).
 
 The definition of A354280 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4526,7 +4525,7 @@ The definition of A354280 is `conjectured`: the Lean definition is a formula tha
 
 `floor(lcm(n, xor(n, -2))/2)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A354280
@@ -5239,7 +5238,7 @@ end A354292.P3828200578926392697
 /-!
 # A354294: Number of palindromic compositions of 2*n into parts <= n.
 
-The programs for A354294, the canonical program `A354294.P1783386101127792393` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354294 has offset 0).
+The programs for A354294, the canonical program `A354294.P1783386101127792393` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354294 has offset 0).
 
 The definition of A354294 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5248,7 +5247,7 @@ The definition of A354294 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(2^n-2^floor((n-1)/2))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A354294
@@ -5260,6 +5259,29 @@ def P1783386101127792393.Spec : Prop :=
 theorem P1783386101127792393.correct : P1783386101127792393.Spec := by
   intro n
   simp only [A354294]
+
+end A354294
+
+/-! ## A354294.P7205257973858819982
+
+`ogf((1-x-x^2+2x^3)/(1-2x-2x^2+4x^3))`
+-/
+
+namespace A354294.P7205257973858819982
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -1, 2] [1, -2, -2, 4] n
+
+end
+
+end A354294.P7205257973858819982
+
+namespace A354294
+
+/-- `ogf((1-x-x^2+2x^3)/(1-2x-2x^2+4x^3))` -/
+def P7205257973858819982.Spec : Prop :=
+  ∀ n, P7205257973858819982.a n = A354294 n
 
 end A354294
 

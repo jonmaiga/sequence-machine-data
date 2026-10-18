@@ -10,24 +10,25 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -39,12 +40,10 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -485,7 +484,7 @@ end A373010.P17582736149861796144
 /-!
 # A373011: Number of congruences of the 0-twisted Temperley-Lieb monoid of degree n.
 
-The programs for A373011, the canonical program `A373011.P18277648109206096857` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373011 has offset 0).
+The programs for A373011, the canonical program `A373011.P18277648109206096857` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373011 has offset 0).
 
 The definition of A373011 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -494,7 +493,7 @@ The definition of A373011 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+1` with `a(0)=2, a(1)=2, a(2)=3, a(3)=3, a(4)=7`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373011
@@ -555,6 +554,29 @@ namespace A373011
 /-- `6-(a(n-1)-n)` -/
 def P16054123982660671174.Spec : Prop :=
   ∀ n, P16054123982660671174.a n = A373011 n
+
+end A373011
+
+/-! ## A373011.P3434496672014927286
+
+`ogf((-2+x^2-3x^4+3x^5)/(-1+x+x^2-x^3))`
+-/
+
+namespace A373011.P3434496672014927286
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 0, -1, 0, 3, -3] [1, -1, -1, 1] n
+
+end
+
+end A373011.P3434496672014927286
+
+namespace A373011
+
+/-- `ogf((-2+x^2-3x^4+3x^5)/(-1+x+x^2-x^3))` -/
+def P3434496672014927286.Spec : Prop :=
+  ∀ n, P3434496672014927286.a n = A373011 n
 
 end A373011
 
@@ -1767,7 +1789,7 @@ end A373045.P5856918944001796526
 /-!
 # A373046: Number of binary strings of length n that contain the substring 1000.
 
-The programs for A373046, the canonical program `A373046.P16169006219568415686` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373046 has offset 0).
+The programs for A373046, the canonical program `A373046.P16169006219568415686` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373046 has offset 0).
 
 The definition of A373046 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1799,7 +1821,7 @@ end A373046
 
 `3*a(n-1)-a(n-2)-a(n-3)-2*a(n-4)+1` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373046
@@ -3009,7 +3031,7 @@ end A373064.P7322816503372322086
 /-!
 # A373065: Expansion of e.g.f. (1/2)*(x^2*exp(x))*(cosh(x))^2.
 
-The programs for A373065, the canonical program `A373065.P9981293170409576141` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373065 has offset 0).
+The programs for A373065, the canonical program `A373065.P9981293170409576141` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373065 has offset 0).
 
 The definition of A373065 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3018,7 +3040,7 @@ The definition of A373065 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(n, 2)*(3^(n-2)+(-1)^n+2)/4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373065
@@ -3614,7 +3636,7 @@ end A373077.P5759596335249203382
 /-!
 # A373080: a(n) is the number of binary strings of length n not containing the substrings 0000, 0001, 0011, 0111, 1111.
 
-The programs for A373080, the canonical program `A373080.P11143827667309540259` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373080 has offset 0).
+The programs for A373080, the canonical program `A373080.P11143827667309540259` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373080 has offset 0).
 
 The definition of A373080 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3623,7 +3645,7 @@ The definition of A373080 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=11, a(5)=18, a(6)=28`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A373080

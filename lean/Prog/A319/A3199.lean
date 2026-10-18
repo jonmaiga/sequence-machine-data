@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -15,19 +14,20 @@ import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +42,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -2071,7 +2070,7 @@ end A319929.P12334544279208200956
 /-!
 # A319930: a(n) = (1/24)*n*(n - 1)*(n - 3)*(n - 14).
 
-The programs for A319930, the canonical program `A319930.P15752654091676764985` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319930 has offset 0).
+The programs for A319930, the canonical program `A319930.P15752654091676764985` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319930 has offset 0).
 
 The definition of A319930 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1/24*n*(n-1)*(n-3)*(n-14)` (program `A319930.P4428452161597374654`, by `A319930.P4428452161597374654.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2170,7 +2169,7 @@ end A319930
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=0, a(2)=1, a(3)=0, a(4)=-5`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319930
@@ -2551,7 +2550,7 @@ end A319931.P12630714490413955065
 /-!
 # A319932: a(n) = (1/720)*n*(n - 10)*(n - 1)*(n^3 - 34*n^2 + 181*n - 144).
 
-The programs for A319932, the canonical program `A319932.P2646568628310993506` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319932 has offset 0).
+The programs for A319932, the canonical program `A319932.P2646568628310993506` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319932 has offset 0).
 
 The definition of A319932 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2560,7 +2559,7 @@ The definition of A319932 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(n-10)*(n-1)*(n^3-34*n²+181*n-144)/720`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319932
@@ -3894,7 +3893,7 @@ end A319950.P3497507018230236877
 /-!
 # A319951: Take Golomb's sequence A001462 and extend all the runs by 1; prepend an initial 0.
 
-The programs for A319951, the canonical program `A319951.P1222084147885741169` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319951 has offset 0).
+The programs for A319951, the canonical program `A319951.P1222084147885741169` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319951 has offset 0).
 
 The definition of A319951 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3903,7 +3902,7 @@ The definition of A319951 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n^sin(59))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319951
@@ -8459,27 +8458,50 @@ end A319972
 /-!
 # A319973: Expansion of (1-x^5+x^8+x^10)/((1-x^4)*(1-x^5)*(1-x^6)).
 
-The programs for A319973, the canonical program `A319973.P96671686183417` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319973 has offset 0).
+The programs for A319973, the canonical program `A319973.P10670516954566269406` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319973 has offset 0).
 
-The definition of A319973 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A319973 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^5+x^8+x^10)/(1-x^4-x^5-x^6+x^9+x^10+x^11-x^15))` (program `A319973.P10670516954566269406`, by `A319973.P10670516954566269406.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A319973.P10670516954566269406
+
+`ogf((1-x^5+x^8+x^10)/(1-x^4-x^5-x^6+x^9+x^10+x^11-x^15))`
+
+The canonical program, it is in `Seq.B000.C034`.
+-/
+
+namespace A319973
+
+/-- `ogf((1-x^5+x^8+x^10)/(1-x^4-x^5-x^6+x^9+x^10+x^11-x^15))` -/
+def P10670516954566269406.Spec : Prop :=
+  ∀ n, P10670516954566269406.a n = A319973 n
+
+theorem P10670516954566269406.correct : P10670516954566269406.Spec := by
+  intro n
+  simp only [A319973]
+
+end A319973
 
 /-! ## A319973.P96671686183417
 
 `A008680(n)-A142150(A008611(n))`
-
-The canonical program, it is in `Seq.B001.C008`.
 -/
+
+namespace A319973.P96671686183417
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008680 n - A142150 (A008611 n).toNat
+
+end
+
+end A319973.P96671686183417
 
 namespace A319973
 
 /-- `A008680(n)-A142150(A008611(n))` -/
 def P96671686183417.Spec : Prop :=
   ∀ n, P96671686183417.a n = A319973 n
-
-theorem P96671686183417.correct : P96671686183417.Spec := by
-  intro n
-  simp only [A319973]
 
 end A319973
 
@@ -8879,7 +8901,7 @@ end A319978.P12714136448950416933
 /-!
 # A319981: a(n) is the number of integer partitions of n with largest part <= 3 for which the index of the seaweed algebra formed by the integer partition paired with its weight is 0.
 
-The programs for A319981, the canonical program `A319981.P8145217756245707857` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319981 has offset 1).
+The programs for A319981, the canonical program `A319981.P8145217756245707857` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319981 has offset 1).
 
 The definition of A319981 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8888,7 +8910,7 @@ The definition of A319981 is `conjectured`: the Lean definition is a formula tha
 
 `round((n+2)²/∑[n])-a(n-1)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A319981

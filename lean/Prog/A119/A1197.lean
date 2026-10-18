@@ -10,15 +10,15 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
@@ -28,7 +28,9 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +40,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,7 +58,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1005,7 +1007,7 @@ end A119702
 /-!
 # A119703: a(n) = n^3*binomial(2*n, n)*Fibonacci(n).
 
-The programs for A119703, the canonical program `A119703.P9452330850278476009` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119703 has offset 0).
+The programs for A119703, the canonical program `A119703.P9452330850278476009` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119703 has offset 0).
 
 The definition of A119703 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1014,7 +1016,7 @@ The definition of A119703 is `conjectured`: the Lean definition is a formula tha
 
 `n*A119702(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A119703
@@ -4128,7 +4130,7 @@ end A119736.P4573698922109317867
 /-!
 # A119737: a(n) = Sum_{k=1..n} Fibonacci(floor(n/k)).
 
-The programs for A119737, the canonical program `A119737.P16586167656667184699` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119737 has offset 1).
+The programs for A119737, the canonical program `A119737.P16586167656667184699` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119737 has offset 1).
 
 The definition of A119737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4166,7 +4168,7 @@ end A119737
 
 `∑[∑{d}[n+1, A000045(abs(2-#))]]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A119737
@@ -5000,16 +5002,39 @@ end A119744.P13331674430582032783
 /-!
 # A119749: Number of compositions of n into odd blocks with one element in each block distinguished.
 
-The programs for A119749, the canonical program `A119749.P8910904632272446904` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119749 has offset 1).
+The programs for A119749, the canonical program `A119749.P8910904632272446904` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119749 has offset 1).
 
 The definition of A119749 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 315 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A119749.P16630134230883218259
+
+`ogf((1+x^2)/(1-x-2x^2-x^3+x^4))`
+-/
+
+namespace A119749.P16630134230883218259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, 1] [1, -1, -2, -1, 1] n
+
+end
+
+end A119749.P16630134230883218259
+
+namespace A119749
+
+/-- `ogf((1+x^2)/(1-x-2x^2-x^3+x^4))` -/
+def P16630134230883218259.Spec : Prop :=
+  ∀ n, P16630134230883218259.a n = A119749 (n + 1)
+
+end A119749
 
 /-! ## A119749.P8910904632272446904
 
 `A101400(n)-A092886(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A119749

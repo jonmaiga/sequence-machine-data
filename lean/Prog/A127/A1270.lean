@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -19,18 +18,19 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1991,7 +1991,7 @@ end A127030.P1105417659557240081
 /-!
 # A127032: Maximal value of m such that 5^m <= n! : a(n) = floor( log(n!) / log(5) ).
 
-The programs for A127032, the canonical program `A127032.P2043947788583924539` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127032 has offset 1).
+The programs for A127032, the canonical program `A127032.P2043947788583924539` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127032 has offset 1).
 
 The definition of A127032 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(log((n+1)!)/log(5))` (program `A127032.P2043947788583924539`, by `A127032.P2043947788583924539.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2000,7 +2000,7 @@ The definition of A127032 is `verified`: the Lean definition is proven equivalen
 
 `floor(log((n+1)!)/log(5))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127032
@@ -2208,7 +2208,7 @@ end A127032
 /-!
 # A127033: Maximal value of m such that 7^m <= n!: a(n) = floor( log(n!) / log(7) ).
 
-The programs for A127033, the canonical program `A127033.P9956069441177557534` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127033 has offset 1).
+The programs for A127033, the canonical program `A127033.P9956069441177557534` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127033 has offset 1).
 
 The definition of A127033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2217,7 +2217,7 @@ The definition of A127033 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[log(n+1)/log(7)])`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127033
@@ -2333,7 +2333,7 @@ end A127033
 /-!
 # A127034: Maximal value of m such that 11^m <= n! : a(n) = floor( log(n!) / log(11) ).
 
-The programs for A127034, the canonical program `A127034.P2074452124633372055` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127034 has offset 1).
+The programs for A127034, the canonical program `A127034.P2074452124633372055` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127034 has offset 1).
 
 The definition of A127034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2342,7 +2342,7 @@ The definition of A127034 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[log(n+1)/log(11)])`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127034
@@ -2452,7 +2452,7 @@ end A127034
 /-!
 # A127035: Maximal value of m such that 13^m <= n! : a(n) = floor( log(n!) / log(13) ).
 
-The programs for A127035, the canonical program `A127035.P8630739095290489449` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127035 has offset 1).
+The programs for A127035, the canonical program `A127035.P8630739095290489449` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127035 has offset 1).
 
 The definition of A127035 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2461,7 +2461,7 @@ The definition of A127035 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[log(n+1)/log(13)])`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127035
@@ -2551,7 +2551,7 @@ end A127035
 /-!
 # A127037: Maximal value of m such that 19^m <= n! : a(n) = floor( log(n!) / log(19) ).
 
-The programs for A127037, the canonical program `A127037.P2310791268182029548` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127037 has offset 1).
+The programs for A127037, the canonical program `A127037.P2310791268182029548` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127037 has offset 1).
 
 The definition of A127037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2560,7 +2560,7 @@ The definition of A127037 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[log(n+1)/log(19)])`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127037
@@ -2682,7 +2682,7 @@ end A127037
 /-!
 # A127038: Maximal value of m such that 23^m <= n! : a(n) = floor( log(n!) / log(23) ).
 
-The programs for A127038, the canonical program `A127038.P12131880037865704544` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127038 has offset 1).
+The programs for A127038, the canonical program `A127038.P12131880037865704544` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127038 has offset 1).
 
 The definition of A127038 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(log((n+1)!)/log(23))` (program `A127038.P12131880037865704544`, by `A127038.P12131880037865704544.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2691,7 +2691,7 @@ The definition of A127038 is `verified`: the Lean definition is proven equivalen
 
 `floor(log((n+1)!)/log(23))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127038
@@ -2813,7 +2813,7 @@ end A127038
 /-!
 # A127039: Maximal value of m such that 29^m <= n! : a(n) = floor( log(n!) / log(29) ).
 
-The programs for A127039, the canonical program `A127039.P12268345303378149403` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127039 has offset 1).
+The programs for A127039, the canonical program `A127039.P12268345303378149403` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127039 has offset 1).
 
 The definition of A127039 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(log((n+1)!)/log(29))` (program `A127039.P12268345303378149403`, by `A127039.P12268345303378149403.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2822,7 +2822,7 @@ The definition of A127039 is `verified`: the Lean definition is proven equivalen
 
 `floor(log((n+1)!)/log(29))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127039
@@ -3188,7 +3188,7 @@ end A127040
 /-!
 # A127041: Maximal value of m such that 31^m <= n! : a(n) = floor( log(n!) / log(31) ).
 
-The programs for A127041, the canonical program `A127041.P4739988172823762288` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127041 has offset 1).
+The programs for A127041, the canonical program `A127041.P4739988172823762288` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127041 has offset 1).
 
 The definition of A127041 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(log((n+1)!)/log(31))` (program `A127041.P4739988172823762288`, by `A127041.P4739988172823762288.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3197,7 +3197,7 @@ The definition of A127041 is `verified`: the Lean definition is proven equivalen
 
 `floor(log((n+1)!)/log(31))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127041
@@ -5390,7 +5390,7 @@ end A127064
 /-!
 # A127065: a(n) = n! - (n-2)^2.
 
-The programs for A127065, the canonical program `A127065.P9501574552731225243` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127065 has offset 1).
+The programs for A127065, the canonical program `A127065.P9501574552731225243` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127065 has offset 1).
 
 The definition of A127065 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5399,7 +5399,7 @@ The definition of A127065 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)!-(n-1)²`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127065
@@ -5834,7 +5834,7 @@ end A127068.P328603371626005317
 /-!
 # A127069: Number of lines in a Pauli graph of order n.
 
-The programs for A127069, the canonical program `A127069.P11111184606818111237` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127069 has offset 2).
+The programs for A127069, the canonical program `A127069.P11111184606818111237` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127069 has offset 2).
 
 The definition of A127069 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5885,7 +5885,7 @@ end A127069
 
 `7*a(n-1)-14*a(n-2)+8*a(n-3)` with `a(0)=15, a(1)=45, a(2)=153`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A127069

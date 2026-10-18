@@ -22,13 +22,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -87,7 +89,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A204100: Number of integers between successive twin primes, divided by 3.
@@ -3062,7 +3063,7 @@ end A204123
 /-!
 # A204125: Symmetric matrix based on f(i,j)=(i if i=j and 1 otherwise), by antidiagonals.
 
-The programs for A204125, the canonical program `A204125.P6521554713757744225` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204125 has offset 1).
+The programs for A204125, the canonical program `A204125.P6521554713757744225` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204125 has offset 1).
 
 The definition of A204125 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3071,7 +3072,7 @@ The definition of A204125 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(n, ceil(∏{d}[2*n+1, #]/2))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A204125
@@ -4123,7 +4124,7 @@ end A204129
 /-!
 # A204131: Symmetric matrix based on f(i,j)=(2i-1 if i=j and 1 otherwise), by antidiagonals.
 
-The programs for A204131, the canonical program `A204131.P13811493532618554559` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204131 has offset 1).
+The programs for A204131, the canonical program `A204131.P13811493532618554559` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204131 has offset 1).
 
 The definition of A204131 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4162,7 +4163,7 @@ end A204131
 
 `gcd(∏{d}[2*n+1, #]+1, 2*n)-1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A204131
@@ -5657,7 +5658,7 @@ end A204142.P8476679969470991270
 /-!
 # A204143: Symmetric matrix based on f(i,j)=max(ceiling(i/j),ceiling(j/i)), by antidiagonals.
 
-The programs for A204143, the canonical program `A204143.P7169083616238944113` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204143 has offset 1).
+The programs for A204143, the canonical program `A204143.P7169083616238944113` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204143 has offset 1).
 
 The definition of A204143 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5830,7 +5831,7 @@ end A204143
 
 `A010783(n+1)*A010783(A038722(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A204143
@@ -8697,7 +8698,7 @@ end A204162
 /-!
 # A204164: Symmetric matrix based on f(i,j) = floor((i+j)/2), by antidiagonals.
 
-The programs for A204164, the canonical program `A204164.P12102871025011169980` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204164 has offset 1).
+The programs for A204164, the canonical program `A204164.P12102871025011169980` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204164 has offset 1).
 
 The definition of A204164 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8706,7 +8707,7 @@ The definition of A204164 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil((sqrt(8*(n+1)+1)-1)/4)`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A204164
@@ -8966,6 +8967,39 @@ def P4561039116729594671.Spec : Prop :=
 
 end A204164
 
+/-! ## A204164.P609505021680464152
+
+`∑[char[∑[ogf((3x+x^2)/(1-2x+x^2))]]]`
+-/
+
+namespace A204164.P609505021680464152
+noncomputable section
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 1] [1, -2, 1] n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A204164.P609505021680464152
+
+namespace A204164
+
+/-- `∑[char[∑[ogf((3x+x^2)/(1-2x+x^2))]]]` -/
+def P609505021680464152.Spec : Prop :=
+  ∀ n, (P609505021680464152.a n : ℤ) = A204164 (n + 1)
+
+end A204164
+
 /-! ## A204164.P6822970674352997735
 
 `∑[char[A014105(n)]]`
@@ -9188,7 +9222,7 @@ end A204164
 /-!
 # A204166: Symmetric matrix based on f(i,j)=ceiling[(i+j)/2], by antidiagonals.
 
-The programs for A204166, the canonical program `A204166.P15712391369213546967` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204166 has offset 1).
+The programs for A204166, the canonical program `A204166.P15712391369213546967` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204166 has offset 1).
 
 The definition of A204166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9369,11 +9403,44 @@ def P13828479859834426312.Spec : Prop :=
 
 end A204166
 
+/-! ## A204166.P9975182606025790203
+
+`∑[char[∑[ogf((x+3x^2)/(1-2x+x^2))]]]`
+-/
+
+namespace A204166.P9975182606025790203
+noncomputable section
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, 3] [1, -2, 1] n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A204166.P9975182606025790203
+
+namespace A204166
+
+/-- `∑[char[∑[ogf((x+3x^2)/(1-2x+x^2))]]]` -/
+def P9975182606025790203.Spec : Prop :=
+  ∀ n, (P9975182606025790203.a n : ℤ) = A204166 (n + 1)
+
+end A204166
+
 /-! ## A204166.P15712391369213546967
 
 `floor(a(n-1)-n/((1-2*a(n-1))*a(n-1)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A204166
@@ -10518,7 +10585,7 @@ end A204173
 /-!
 # A204175: Symmetric matrix based on f(i,j)=(1 if max(i,j) is even, and 0 otherwise), by antidiagonals.
 
-The programs for A204175, the canonical program `A204175.P4096975912672246987` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204175 has offset 1).
+The programs for A204175, the canonical program `A204175.P4096975912672246987` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204175 has offset 1).
 
 The definition of A204175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10787,7 +10854,7 @@ end A204175
 
 `1-A204171(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A204175
@@ -11023,7 +11090,7 @@ end A204175
 /-!
 # A204177: Symmetric matrix based on f(i,j)=(1 if i=1 or j=1 or i=j, and 0 otherwise), by antidiagonals.
 
-The programs for A204177, the canonical program `A204177.P4715536723901757887` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204177 has offset 1).
+The programs for A204177, the canonical program `A204177.P4715536723901757887` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204177 has offset 1).
 
 The definition of A204177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11078,7 +11145,7 @@ end A204177
 
 `abs(A185917(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A204177
@@ -11988,7 +12055,7 @@ end A204179
 /-!
 # A204181: Symmetric matrix based on f(i,j) defined by f(i,1)=f(1,j)=1; f(i,i)= 2i-1; f(i,j)=0 otherwise; by antidiagonals.
 
-The programs for A204181, the canonical program `A204181.P7402957696718526263` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204181 has offset 1).
+The programs for A204181, the canonical program `A204181.P7402957696718526263` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204181 has offset 1).
 
 The definition of A204181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12043,7 +12110,7 @@ end A204181
 
 `and(A099375(n), A185917(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A204181
@@ -12931,7 +12998,7 @@ end A204183
 /-!
 # A204185: Number of quadrilaterals in a triangular matchstick arrangement of side n.
 
-The programs for A204185, the canonical program `A204185.P5593093421064660786` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204185 has offset 0).
+The programs for A204185, the canonical program `A204185.P5593093421064660786` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204185 has offset 0).
 
 The definition of A204185 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12940,7 +13007,7 @@ The definition of A204185 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+floor((n+1)*(n-1)*(10*n-3)/8)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A204185

@@ -2,19 +2,20 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
-import Seq.B000.C012
+import Seq.B000.C010
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C019
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -27,7 +28,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -4460,7 +4461,7 @@ end A345887
 /-!
 # A345888: a(n) = n + (n - 1) * pi(n).
 
-The programs for A345888, the canonical program `A345888.P3197163480927102092` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345888 has offset 1).
+The programs for A345888, the canonical program `A345888.P3197163480927102092` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345888 has offset 1).
 
 The definition of A345888 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4469,7 +4470,7 @@ The definition of A345888 is `conjectured`: the Lean definition is a formula tha
 
 `n*∑[∑{e}[n+1, #]!%2]+1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345888
@@ -4934,7 +4935,7 @@ end A345888
 /-!
 # A345889: Number of tilings of an n-cell circular array with rectangular tiles of any size, and where the number of possible colors of a tile is given by the smallest cell covered.
 
-The programs for A345889, the canonical program `A345889.P5355872161182548140` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345889 has offset 1).
+The programs for A345889, the canonical program `A345889.P5355872161182548140` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345889 has offset 1).
 
 The definition of A345889 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4943,7 +4944,7 @@ The definition of A345889 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A014288(n+2)-1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A345889
@@ -5192,7 +5193,7 @@ end A345889
 /-!
 # A345890: a(n) = n + (n - 1) * (n - pi(n)).
 
-The programs for A345890, the canonical program `A345890.P5198866474465879892` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345890 has offset 1).
+The programs for A345890, the canonical program `A345890.P5198866474465879892` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345890 has offset 1).
 
 The definition of A345890 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5201,7 +5202,7 @@ The definition of A345890 is `conjectured`: the Lean definition is a formula tha
 
 `n*(∑[C(n, ∑{p}[n+1, C(#, n)])]+1)+1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345890
@@ -6613,7 +6614,7 @@ end A345895.P7290345666337255986
 /-!
 # A345897: a(n) = 2*n^4/3 - 4*n^3/3 + 11*n^2/6 - 13*n/6 + 1.
 
-The programs for A345897, the canonical program `A345897.P4022482089561530445` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345897 has offset 0).
+The programs for A345897, the canonical program `A345897.P4022482089561530445` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345897 has offset 0).
 
 The definition of A345897 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6622,7 +6623,7 @@ The definition of A345897 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=1, a(1)=0, a(2)=4, a(3)=29, a(4)=107`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A345897

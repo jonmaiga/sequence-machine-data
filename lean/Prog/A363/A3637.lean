@@ -17,20 +17,21 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -575,7 +576,7 @@ end A363700
 /-!
 # A363705: The minimum irregularity of all maximal 2-degenerate graphs with n vertices.
 
-The programs for A363705, the canonical program `A363705.P2080429883833388353` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363705 has offset 3).
+The programs for A363705, the canonical program `A363705.P2080429883833388353` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363705 has offset 3).
 
 The definition of A363705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -584,7 +585,7 @@ The definition of A363705 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=0, a(1)=4, a(2)=2, a(3)=6, a(4)=8`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363705
@@ -2657,7 +2658,7 @@ end A363733.P11736311602281251091
 /-!
 # A363734: a(n) = Sum_{k=0..n} n^divides(k, n), where divides(k, n) = 1 if k divides n, otherwise 0.
 
-The programs for A363734, the canonical program `A363734.P4451940321919636705` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363734 has offset 0).
+The programs for A363734, the canonical program `A363734.P4451940321919636705` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363734 has offset 0).
 
 The definition of A363734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2689,7 +2690,7 @@ end A363734
 
 `(n-1)*∏{e}[n, #+1]+1+n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363734
@@ -5357,6 +5358,55 @@ def P15156331002441011728.Spec : Prop :=
 
 end A363773
 
+/-! ## A363773.P926428192572090136
+
+`∑[ogf((-1+2x+2x^2)/(-1+3x+4x^2))]`
+-/
+
+namespace A363773.P926428192572090136
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -2] [1, -3, -4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A363773.P926428192572090136
+
+namespace A363773
+
+/-- `∑[ogf((-1+2x+2x^2)/(-1+3x+4x^2))]` -/
+def P926428192572090136.Spec : Prop :=
+  ∀ n, P926428192572090136.a n = A363773 n
+
+end A363773
+
+/-! ## A363773.P11913104182534632284
+
+`ogf((-1+2x+2x^2)/(-1+4x+x^2-4x^3))`
+-/
+
+namespace A363773.P11913104182534632284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -2] [1, -4, -1, 4] n
+
+end
+
+end A363773.P11913104182534632284
+
+namespace A363773
+
+/-- `ogf((-1+2x+2x^2)/(-1+4x+x^2-4x^3))` -/
+def P11913104182534632284.Spec : Prop :=
+  ∀ n, P11913104182534632284.a n = A363773 n
+
+end A363773
+
 /-! ## A363773.P8431186641160581211
 
 `4*a(n-1)-(n%2+1)` with `a(0)=1`
@@ -6562,7 +6612,7 @@ end A363788.P2579183373740794463
 /-!
 # A363789: a(n) is the smallest primitive binary Niven number (A363787) whose binary representation is ending with n zeros.
 
-The programs for A363789, the canonical program `A363789.P1663472503739411414` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363789 has offset 0).
+The programs for A363789, the canonical program `A363789.P1663472503739411414` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363789 has offset 0).
 
 The definition of A363789 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6571,7 +6621,7 @@ The definition of A363789 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^2^n-1)*2^n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363789

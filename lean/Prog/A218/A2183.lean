@@ -10,6 +10,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -26,11 +27,13 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,6 +50,7 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -89,7 +93,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1856,7 +1859,7 @@ end A218323.P16587409602056900628
 /-!
 # A218324: Odd heptagonal pyramidal numbers.
 
-The programs for A218324, the canonical program `A218324.P12235748189100371305` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218324 has offset 1).
+The programs for A218324, the canonical program `A218324.P12235748189100371305` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218324 has offset 1).
 
 The definition of A218324 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1865,7 +1868,7 @@ The definition of A218324 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-2)+a(n-3)+320` with `a(0)=1, a(1)=115, a(2)=645`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A218324
@@ -2479,7 +2482,7 @@ end A218325
 /-!
 # A218326: Odd octagonal pyramidal numbers.
 
-The programs for A218326, the canonical program `A218326.P1667549857107495393` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218326 has offset 1).
+The programs for A218326, the canonical program `A218326.P1667549857107495393` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218326 has offset 1).
 
 The definition of A218326 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2488,7 +2491,7 @@ The definition of A218326 is `conjectured`: the Lean definition is a formula tha
 
 `record[(2*n+1)*C(xor(2, n), 2)]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A218326
@@ -2726,7 +2729,7 @@ end A218326
 /-!
 # A218327: Even octagonal pyramidal numbers (A002414).
 
-The programs for A218327, the canonical program `A218327.P14503477968820940798` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218327 has offset 1).
+The programs for A218327, the canonical program `A218327.P14503477968820940798` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218327 has offset 1).
 
 The definition of A218327 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2735,7 +2738,7 @@ The definition of A218327 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4*(n+1)-(-1)^(n+1)+1)*(4*(n+1)-(-1)^(n+1)+3)*(4*(n+1)-(-1)^(n+1))/8`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A218327
@@ -3164,7 +3167,7 @@ end A218327
 /-!
 # A218328: Odd 9-gonal (nonagonal) pyramidal numbers.
 
-The programs for A218328, the canonical program `A218328.P13046838586411393809` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218328 has offset 1).
+The programs for A218328, the canonical program `A218328.P13046838586411393809` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218328 has offset 1).
 
 The definition of A218328 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3173,7 +3176,7 @@ The definition of A218328 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-2)+a(n-3)+448` with `a(0)=1, a(1)=155, a(2)=885`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A218328
@@ -5637,7 +5640,7 @@ end A218347.P17096376525679549189
 /-!
 # A218348: Number of n X 2 binary arrays with every 0 a horizontal or vertical neighbor to some 1.
 
-The programs for A218348, the canonical program `A218348.P8017053463798429977` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218348 has offset 1).
+The programs for A218348, the canonical program `A218348.P8017053463798429977` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218348 has offset 1).
 
 The definition of A218348 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5646,7 +5649,7 @@ The definition of A218348 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+2*a(n-2)+2*a(n-3)-a(n-4)-a(n-5)` with `a(0)=3, a(1)=11, a(2)=41, a(3)=149, a(4)=547`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A218348
@@ -8102,7 +8105,7 @@ end A218375.P5667723024624842879
 /-!
 # A218376: a(n) = 5^n*sum_{i=1..n} i^5/5^i.
 
-The programs for A218376, the canonical program `A218376.P15950120744180533195` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218376 has offset 0).
+The programs for A218376, the canonical program `A218376.P15950120744180533195` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218376 has offset 0).
 
 The definition of A218376 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8111,7 +8114,7 @@ The definition of A218376 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)+n^5` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A218376

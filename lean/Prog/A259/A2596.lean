@@ -8,7 +8,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -17,16 +17,18 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -997,7 +999,7 @@ end A259613.P16335762655312651606
 /-!
 # A259614: Numbers congruent to {17,29} mod 36.
 
-The programs for A259614, the canonical program `A259614.P4298083814225706518` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259614 has offset 1).
+The programs for A259614, the canonical program `A259614.P4298083814225706518` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259614 has offset 1).
 
 The definition of A259614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1006,7 +1008,7 @@ The definition of A259614 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+36` with `a(0)=17, a(1)=29`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259614
@@ -3443,7 +3445,7 @@ end A259634.P17711692084875582495
 /-!
 # A259635: Number of (n+2) X (1+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00000000 or 00000001.
 
-The programs for A259635, the canonical program `A259635.P4316822982236587402` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259635 has offset 1).
+The programs for A259635, the canonical program `A259635.P4316822982236587402` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259635 has offset 1).
 
 The definition of A259635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 344 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3452,7 +3454,7 @@ The definition of A259635 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)+a(n-4)` with `a(0)=18, a(1)=29, a(2)=69, a(3)=133, a(4)=236`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259635
@@ -6430,16 +6432,39 @@ end A259660.P14943555470668242115
 /-!
 # A259661: Binary representation of the middle column of the "Rule 54" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A259661, the canonical program `A259661.P9181825910576241245` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259661 has offset 0).
+The programs for A259661, the canonical program `A259661.P9181825910576241245` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259661 has offset 0).
 
 The definition of A259661 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A259661.P5650036259671513905
+
+`ogf(1/(1-11x+11x^2-11x^3+10x^4))`
+-/
+
+namespace A259661.P5650036259671513905
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -11, 11, -11, 10] n
+
+end
+
+end A259661.P5650036259671513905
+
+namespace A259661
+
+/-- `ogf(1/(1-11x+11x^2-11x^3+10x^4))` -/
+def P5650036259671513905.Spec : Prop :=
+  ∀ n, P5650036259671513905.a n = A259661 n
+
+end A259661
 
 /-! ## A259661.P9181825910576241245
 
 `∑[10^n-a(n-2)]` with `a(0)=1, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259661

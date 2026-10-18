@@ -24,6 +24,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -34,6 +35,7 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7528,6 +7530,29 @@ def P12534714118127537351.Spec : Prop :=
 
 end A000032
 
+/-! ## A000032.P16662307858082016597
+
+`ogf((-2+x)/(-1+x+x^2))`
+-/
+
+namespace A000032.P16662307858082016597
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -1] [1, -1, -1] n
+
+end
+
+end A000032.P16662307858082016597
+
+namespace A000032
+
+/-- `ogf((-2+x)/(-1+x+x^2))` -/
+def P16662307858082016597.Spec : Prop :=
+  ∀ n, P16662307858082016597.a n = A000032 n
+
+end A000032
+
 /-! ## A000032.P9282441536704597979
 
 `a(n-1)-floor(-a(n-2))` with `a(0)=2, a(1)=1`
@@ -9390,6 +9415,29 @@ theorem P15089885815703470759.correct : P15089885815703470759.Spec := by
 
 end A000042
 
+/-! ## A000042.P14641185990890157964
+
+`ogf(1/(1-11x+10x^2))`
+-/
+
+namespace A000042.P14641185990890157964
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, -11, 10] n
+
+end
+
+end A000042.P14641185990890157964
+
+namespace A000042
+
+/-- `ogf(1/(1-11x+10x^2))` -/
+def P14641185990890157964.Spec : Prop :=
+  ∀ n, P14641185990890157964.a n = A000042 (n + 1)
+
+end A000042
+
 /-! ## A000042.P3967731725743067305
 
 `lcm(10, a(n-1))+1` with `a(0)=1`
@@ -10043,6 +10091,29 @@ namespace A000045
 /-- `((1+sqrt(5))^n-(1-sqrt(5))^n)/(2^n*sqrt(5))` -/
 def P14831479706637998627.Spec : Prop :=
   ∀ n, P14831479706637998627.a n = (A000045 n : ℝ)
+
+end A000045
+
+/-! ## A000045.P12835276111398517534
+
+`ogf(x/(1-x-x^2))`
+-/
+
+namespace A000045.P12835276111398517534
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1] [1, -1, -1] n
+
+end
+
+end A000045.P12835276111398517534
+
+namespace A000045
+
+/-- `ogf(x/(1-x-x^2))` -/
+def P12835276111398517534.Spec : Prop :=
+  ∀ n, P12835276111398517534.a n = A000045 n
 
 end A000045
 
@@ -15970,6 +16041,29 @@ def P8558475351112750373.Spec : Prop :=
 
 end A000071
 
+/-! ## A000071.P10709070802637133973
+
+`ogf(x^2/(1-2x+x^3))`
+-/
+
+namespace A000071.P10709070802637133973
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1] [1, -2, 0, 1] n
+
+end
+
+end A000071.P10709070802637133973
+
+namespace A000071
+
+/-- `ogf(x^2/(1-2x+x^3))` -/
+def P10709070802637133973.Spec : Prop :=
+  ∀ n, P10709070802637133973.a n = A000071 (n + 1)
+
+end A000071
+
 /-! ## A000071.P15784081049893866004
 
 `floor(ϕ*a(n-1))+1` with `a(0)=0, a(1)=0`
@@ -16474,6 +16568,29 @@ namespace A000073
 /-- `(A000213(n+1)-A000213(n))/2` -/
 def P13396975721235345917.Spec : Prop :=
   ∀ n, P13396975721235345917.a n = (A000073 n : ℚ)
+
+end A000073
+
+/-! ## A000073.P17368705431265982338
+
+`ogf(-x^2/(-1+x+x^2+x^3))`
+-/
+
+namespace A000073.P17368705431265982338
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1] [1, -1, -1, -1] n
+
+end
+
+end A000073.P17368705431265982338
+
+namespace A000073
+
+/-- `ogf(-x^2/(-1+x+x^2+x^3))` -/
+def P17368705431265982338.Spec : Prop :=
+  ∀ n, P17368705431265982338.a n = A000073 n
 
 end A000073
 
@@ -17251,6 +17368,29 @@ def P12373634374590648917.Spec : Prop :=
 theorem P12373634374590648917.correct : P12373634374590648917.Spec := by
   intro n
   simp only [A000078]
+
+end A000078
+
+/-! ## A000078.P10192270500684634027
+
+`ogf(-x^3/(-1+x+x^2+x^3+x^4))`
+-/
+
+namespace A000078.P10192270500684634027
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 1] [1, -1, -1, -1, -1] n
+
+end
+
+end A000078.P10192270500684634027
+
+namespace A000078
+
+/-- `ogf(-x^3/(-1+x+x^2+x^3+x^4))` -/
+def P10192270500684634027.Spec : Prop :=
+  ∀ n, P10192270500684634027.a n = A000078 n
 
 end A000078
 

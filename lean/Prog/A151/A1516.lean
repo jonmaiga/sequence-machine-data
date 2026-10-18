@@ -10,21 +10,23 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,7 +52,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -706,7 +707,7 @@ end A151623.P15255414529784698284
 /-!
 # A151624: Number of permutations of 2 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151624, the canonical program `A151624.P4252746170593615957` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151624 has offset 1).
+The programs for A151624, the canonical program `A151624.P4252746170593615957` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151624 has offset 1).
 
 The definition of A151624 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -715,7 +716,7 @@ The definition of A151624 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6^(n+1)-(2*(n+1)+1)*3^(n+1)+(n+1)*(2*(n+1)+1)`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151624
@@ -835,7 +836,7 @@ end A151630.P13274135322959579036
 /-!
 # A151632: Number of permutations of 3 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151632, the canonical program `A151632.P8005264565305265464` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151632 has offset 1).
+The programs for A151632, the canonical program `A151632.P8005264565305265464` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151632 has offset 1).
 
 The definition of A151632 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -844,7 +845,7 @@ The definition of A151632 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10^(n+1)-(3*(n+1)+1)*4^(n+1)+3*(n+1)*(3*(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151632
@@ -900,7 +901,7 @@ end A151639.P1919448605444541910
 /-!
 # A151640: Number of permutations of 4 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151640, the canonical program `A151640.P6105211994563394791` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151640 has offset 1).
+The programs for A151640, the canonical program `A151640.P6105211994563394791` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151640 has offset 1).
 
 The definition of A151640 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -909,7 +910,7 @@ The definition of A151640 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15^(n+1)-(4*(n+1)+1)*5^(n+1)+2*(n+1)*(4*(n+1)+1)`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151640
@@ -927,7 +928,7 @@ end A151640
 /-!
 # A151647: Number of permutations of 5 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151647, the canonical program `A151647.P14797964563736485906` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151647 has offset 1).
+The programs for A151647, the canonical program `A151647.P14797964563736485906` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151647 has offset 1).
 
 The definition of A151647 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -936,7 +937,7 @@ The definition of A151647 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `21^(n+1)-(5*(n+1)+1)*6^(n+1)+5*(n+1)*(5*(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151647
@@ -950,7 +951,7 @@ end A151647
 /-!
 # A151651: Number of permutations of 6 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151651, the canonical program `A151651.P5678623882238220178` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151651 has offset 1).
+The programs for A151651, the canonical program `A151651.P5678623882238220178` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151651 has offset 1).
 
 The definition of A151651 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -959,7 +960,7 @@ The definition of A151651 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `28^(n+1)-(6*(n+1)+1)*7^(n+1)+3*(n+1)*(6*(n+1)+1)`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151651
@@ -977,7 +978,7 @@ end A151651
 /-!
 # A151656: Number of permutations of 7 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151656, the canonical program `A151656.P4160280279126442219` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151656 has offset 1).
+The programs for A151656, the canonical program `A151656.P4160280279126442219` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151656 has offset 1).
 
 The definition of A151656 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -986,7 +987,7 @@ The definition of A151656 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `36^(n+1)-(7*(n+1)+1)*8^(n+1)+7*(n+1)*(7*(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151656
@@ -1000,7 +1001,7 @@ end A151656
 /-!
 # A151658: Number of permutations of 8 indistinguishable copies of 1..n with exactly 2 adjacent element pairs in decreasing order.
 
-The programs for A151658, the canonical program `A151658.P7853633605197631592` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151658 has offset 1).
+The programs for A151658, the canonical program `A151658.P7853633605197631592` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151658 has offset 1).
 
 The definition of A151658 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1009,7 +1010,7 @@ The definition of A151658 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `45^(n+1)-(8*(n+1)+1)*9^(n+1)+4*(n+1)*(8*(n+1)+1)`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151658
@@ -1950,7 +1951,7 @@ end A151665
 /-!
 # A151666: Number of partitions of n into distinct powers of 4.
 
-The programs for A151666, the canonical program `A151666.P1623333586014949659` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151666 has offset 0).
+The programs for A151666, the canonical program `A151666.P1623333586014949659` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151666 has offset 0).
 
 The definition of A151666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2016,7 +2017,7 @@ end A151666
 
 `a(floor(n/4))-a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151666
@@ -2891,7 +2892,7 @@ end A151667
 /-!
 # A151668: G.f.: Product_{k>=0} (1 + 2*x^(3^k)).
 
-The programs for A151668, the canonical program `A151668.P5934042210554537885` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151668 has offset 0).
+The programs for A151668, the canonical program `A151668.P5934042210554537885` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151668 has offset 0).
 
 The definition of A151668 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2900,7 +2901,7 @@ The definition of A151668 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/3))*a(n%3)` with `a(0)=1, a(1)=2, a(2)=0`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151668
@@ -4527,7 +4528,7 @@ end A151671
 /-!
 # A151672: G.f.: Product_{k>=0} (1 + 4*x^(3^k)).
 
-The programs for A151672, the canonical program `A151672.P7047860861079958099` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151672 has offset 0).
+The programs for A151672, the canonical program `A151672.P7047860861079958099` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151672 has offset 0).
 
 The definition of A151672 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4536,7 +4537,7 @@ The definition of A151672 is `conjectured`: the Lean definition is a formula tha
 
 `a(floor(n/3))*a(n%3)` with `a(0)=1, a(1)=4, a(2)=0`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151672
@@ -5891,7 +5892,7 @@ end A151674
 /-!
 # A151675: Row sums of A154685.
 
-The programs for A151675, the canonical program `A151675.P3600609076066140792` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151675 has offset 1).
+The programs for A151675, the canonical program `A151675.P3600609076066140792` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151675 has offset 1).
 
 The definition of A151675 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5943,7 +5944,7 @@ end A151675
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=8, a(1)=27, a(2)=63, a(3)=122`
 
-The canonical program, it is in `Seq.B000.C019`.
+The canonical program, it is in `Seq.B000.C020`.
 -/
 
 namespace A151675

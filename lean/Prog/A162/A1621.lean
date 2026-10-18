@@ -4,31 +4,33 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C007
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
@@ -51,7 +53,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -1989,7 +1990,7 @@ end A162146.P757935458591715163
 /-!
 # A162147: a(n) = n*(n+1)*(5*n + 4)/6.
 
-The programs for A162147, the canonical program `A162147.P15035152424134388892` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162147 has offset 0).
+The programs for A162147, the canonical program `A162147.P15035152424134388892` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162147 has offset 0).
 
 The definition of A162147 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(5*n+4)/6` (program `A162147.P15064046075416223604`, by `A162147.P15064046075416223604.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2043,7 +2044,7 @@ end A162147
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=0, a(1)=3, a(2)=14, a(3)=38`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A162147
@@ -2162,6 +2163,58 @@ namespace A162147
 /-- `lcm(n, (n+1)²)-∑[∑[n]]` -/
 def P3354214482820902201.Spec : Prop :=
   ∀ n, P3354214482820902201.a n = A162147 n
+
+end A162147
+
+/-! ## A162147.P17141824194646709286
+
+`∑[∑[ogf((3x+2x^2)/(1-2x+x^2))]]`
+-/
+
+namespace A162147.P17141824194646709286
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 2] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A162147.P17141824194646709286
+
+namespace A162147
+
+/-- `∑[∑[ogf((3x+2x^2)/(1-2x+x^2))]]` -/
+def P17141824194646709286.Spec : Prop :=
+  ∀ n, P17141824194646709286.a n = A162147 n
+
+end A162147
+
+/-! ## A162147.P5165915866260878920
+
+`ogf((3x+2x^2)/(1-4x+6x^2-4x^3+x^4))`
+-/
+
+namespace A162147.P5165915866260878920
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 2] [1, -4, 6, -4, 1] n
+
+end
+
+end A162147.P5165915866260878920
+
+namespace A162147
+
+/-- `ogf((3x+2x^2)/(1-4x+6x^2-4x^3+x^4))` -/
+def P5165915866260878920.Spec : Prop :=
+  ∀ n, P5165915866260878920.a n = A162147 n
 
 end A162147
 
@@ -2486,7 +2539,7 @@ end A162147
 /-!
 # A162148: a(n) = n*(n+1)*(5*n+7)/6.
 
-The programs for A162148, the canonical program `A162148.P5430377255311413739` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162148 has offset 0).
+The programs for A162148, the canonical program `A162148.P5430377255311413739` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162148 has offset 0).
 
 The definition of A162148 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(5*n+7)/6` (program `A162148.P5585248117153112762`, by `A162148.P5585248117153112762.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2540,7 +2593,7 @@ end A162148
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=0, a(1)=4, a(2)=17, a(3)=44`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A162148
@@ -2604,6 +2657,58 @@ namespace A162148
 /-- `∑[∑[a(n-1)+5]]` -/
 def P12052965505563640239.Spec : Prop :=
   ∀ n, (P12052965505563640239.a n : ℤ) = A162148 n
+
+end A162148
+
+/-! ## A162148.P13823976347525224819
+
+`∑[∑[ogf((4x+x^2)/(1-2x+x^2))]]`
+-/
+
+namespace A162148.P13823976347525224819
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 4, 1] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A162148.P13823976347525224819
+
+namespace A162148
+
+/-- `∑[∑[ogf((4x+x^2)/(1-2x+x^2))]]` -/
+def P13823976347525224819.Spec : Prop :=
+  ∀ n, P13823976347525224819.a n = A162148 n
+
+end A162148
+
+/-! ## A162148.P3365111685848265866
+
+`ogf((4x+x^2)/(1-4x+6x^2-4x^3+x^4))`
+-/
+
+namespace A162148.P3365111685848265866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 4, 1] [1, -4, 6, -4, 1] n
+
+end
+
+end A162148.P3365111685848265866
+
+namespace A162148
+
+/-- `ogf((4x+x^2)/(1-4x+6x^2-4x^3+x^4))` -/
+def P3365111685848265866.Spec : Prop :=
+  ∀ n, P3365111685848265866.a n = A162148 n
 
 end A162148
 

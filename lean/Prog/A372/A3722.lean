@@ -16,33 +16,29 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -830,6 +826,29 @@ The programs for A372225, the canonical program `A372225.P14310858455345929520` 
 
 The definition of A372225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A372225.P3434066185731008260
+
+`ogf((1+3x)/(1-3x-6x^2+3x^3+x^4))`
+-/
+
+namespace A372225.P3434066185731008260
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3] [1, -3, -6, 3, 1] n
+
+end
+
+end A372225.P3434066185731008260
+
+namespace A372225
+
+/-- `ogf((1+3x)/(1-3x-6x^2+3x^3+x^4))` -/
+def P3434066185731008260.Spec : Prop :=
+  ∀ n, P3434066185731008260.a n = A372225 (n + 1)
+
+end A372225
 
 /-! ## A372225.P4465398141435396147
 
@@ -2835,6 +2854,29 @@ def P897443957806248753.Spec : Prop :=
 
 end A372242
 
+/-! ## A372242.P437692201073212381
+
+`ogf((1+9x+9x^2)/(1-2x^2-x^3))`
+-/
+
+namespace A372242.P437692201073212381
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 9, 9] [1, 0, -2, -1] n
+
+end
+
+end A372242.P437692201073212381
+
+namespace A372242
+
+/-- `ogf((1+9x+9x^2)/(1-2x^2-x^3))` -/
+def P437692201073212381.Spec : Prop :=
+  ∀ n, P437692201073212381.a n = A372242 n
+
+end A372242
+
 /-! ## A372242.P4725312302433487195
 
 `A022092(n)+A008346(n)`
@@ -3953,7 +3995,7 @@ end A372255.P17941170912352429721
 /-!
 # A372256: a(n) = (n-1)!/2^floor((n-1)/2) + floor((n-1)/2).
 
-The programs for A372256, the canonical program `A372256.P11977261990455443582` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372256 has offset 1).
+The programs for A372256, the canonical program `A372256.P11977261990455443582` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372256 has offset 1).
 
 The definition of A372256 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3962,7 +4004,7 @@ The definition of A372256 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!/2^floor(n/2)+floor(n/2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A372256

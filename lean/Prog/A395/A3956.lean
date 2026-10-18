@@ -2,27 +2,24 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
-import Seq.B000.C006
-import Seq.B000.C011
+import Seq.B000.C007
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -44,6 +41,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -75,7 +73,7 @@ end A395605.P6780843966048618070
 /-!
 # A395607: a(n) = a(n-1) + a(n-3) + a(n-4), a(0) = 1, a(1) = 6, a(2) = 36, a(3) = 42.
 
-The programs for A395607, the canonical program `A395607.P18184942053276312114` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395607 has offset 0).
+The programs for A395607, the canonical program `A395607.P18184942053276312114` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395607 has offset 0).
 
 The definition of A395607 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-3)+a(n-4)` (program `A395607.P18184942053276312114`, by `A395607.P18184942053276312114.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -84,7 +82,7 @@ The definition of A395607 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+a(n-3)+a(n-4)` with `a(0)=1, a(1)=6, a(2)=36, a(3)=42`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A395607
@@ -317,7 +315,7 @@ end A395627.P7410928632507272653
 /-!
 # A395628: a(n) = f(n+1) * n! where f(n) = n/f(n-1), f(1) = 1.
 
-The programs for A395628, the canonical program `A395628.P10171134918520284731` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395628 has offset 0).
+The programs for A395628, the canonical program `A395628.P10171134918520284731` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395628 has offset 0).
 
 The definition of A395628 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -326,7 +324,7 @@ The definition of A395628 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)!*(n-1)!/a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A395628

@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,16 +11,15 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -31,6 +29,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +40,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -314,7 +312,7 @@ end A259102.P12445615946754867819
 /-!
 # A259103: Number of steps to get from n to 1 by process of replacing with the Euler totient function phi if the result is odd, or dividing by 2 if even.
 
-The programs for A259103, the canonical program `A259103.P17430711073458267779` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259103 has offset 1).
+The programs for A259103, the canonical program `A259103.P17430711073458267779` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259103 has offset 1).
 
 The definition of A259103 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -323,7 +321,7 @@ The definition of A259103 is `conjectured`: the Lean definition is a formula tha
 
 `n%2+a((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1]-1)+1-char[2^n-1]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259103
@@ -1449,7 +1447,7 @@ end A259108
 /-!
 # A259109: 2*A000540.
 
-The programs for A259109, the canonical program `A259109.P4108732426856012358` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259109 has offset 0).
+The programs for A259109, the canonical program `A259109.P4108732426856012358` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259109 has offset 0).
 
 The definition of A259109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1458,7 +1456,7 @@ The definition of A259109 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*n^6]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259109
@@ -3380,7 +3378,7 @@ end A259129.P10474691369615960104
 /-!
 # A259131: Numbers n such that 13*n^2 + 52 is a square.
 
-The programs for A259131, the canonical program `A259131.P1281206066783231155` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259131 has offset 1).
+The programs for A259131, the canonical program `A259131.P1281206066783231155` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259131 has offset 1).
 
 The definition of A259131 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3389,7 +3387,7 @@ The definition of A259131 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `11*a(n-1)-a(n-2)` with `a(0)=3, a(1)=36`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259131
@@ -3424,6 +3422,29 @@ namespace A259131
 /-- `3*A097783(n)` -/
 def P1962644003808917929.Spec : Prop :=
   ∀ n, P1962644003808917929.a n = A259131 (n + 1)
+
+end A259131
+
+/-! ## A259131.P390382274924768506
+
+`ogf((3+3x)/(1-11x+x^2))`
+-/
+
+namespace A259131.P390382274924768506
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 3] [1, -11, 1] n
+
+end
+
+end A259131.P390382274924768506
+
+namespace A259131
+
+/-- `ogf((3+3x)/(1-11x+x^2))` -/
+def P390382274924768506.Spec : Prop :=
+  ∀ n, P390382274924768506.a n = A259131 (n + 1)
 
 end A259131
 
@@ -6592,7 +6613,7 @@ end A259180.P1581298844739649842
 /-!
 # A259181: a(n) = n*(n+1)*(n+2)*(n+3)*(2*n^2+6*n+7)/360.
 
-The programs for A259181, the canonical program `A259181.P10564156022614885399` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259181 has offset 0).
+The programs for A259181, the canonical program `A259181.P10564156022614885399` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259181 has offset 0).
 
 The definition of A259181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6601,7 +6622,7 @@ The definition of A259181 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(n+1)*(n+2)*(n+3)*(2*n*(n+3)+7)/360`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A259181

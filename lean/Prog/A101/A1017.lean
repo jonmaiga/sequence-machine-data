@@ -8,7 +8,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
+import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -20,11 +20,12 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +53,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -4661,7 +4661,7 @@ end A101775.P12283231031552930466
 /-!
 # A101776: Smallest k such that k^2 is equal to the sum of n not-necessarily-distinct primes plus 1.
 
-The programs for A101776, the canonical program `A101776.P7591987110136871603` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101776 has offset 0).
+The programs for A101776, the canonical program `A101776.P7591987110136871603` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101776 has offset 0).
 
 The definition of A101776 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4670,7 +4670,7 @@ The definition of A101776 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(2*n+1))`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A101776
@@ -5344,7 +5344,7 @@ end A101779.P13898148376958530856
 /-!
 # A101780: Primes of the form 100*n + 3.
 
-The programs for A101780, the canonical program `A101780.P5426429691116946271` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101780 has offset 1).
+The programs for A101780, the canonical program `A101780.P5426429691116946271` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101780 has offset 1).
 
 The definition of A101780 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1969 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5383,7 +5383,7 @@ end A101780
 
 `p?[10*10*n+3]`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A101780

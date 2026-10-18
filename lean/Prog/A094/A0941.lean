@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,30 +11,30 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -3318,6 +3317,29 @@ theorem P5563388245735425865.correct : P5563388245735425865.Spec := by
 
 end A094125
 
+/-! ## A094125.P151356979692310360
+
+`ogf((5-13x)/(1-5x+6x^2))`
+-/
+
+namespace A094125.P151356979692310360
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [5, -13] [1, -5, 6] n
+
+end
+
+end A094125.P151356979692310360
+
+namespace A094125
+
+/-- `ogf((5-13x)/(1-5x+6x^2))` -/
+def P151356979692310360.Spec : Prop :=
+  ∀ n, P151356979692310360.a n = A094125 n
+
+end A094125
+
 /-! ## A094125.P17181702971138751335
 
 `lcm(3, 2^(n-1)-a(n-1))` with `a(0)=5`
@@ -4750,6 +4772,55 @@ def P7528500960968058579.Spec : Prop :=
 
 end A094159
 
+/-! ## A094159.P4675457492887048338
+
+`∑[ogf((3x+9x^2)/(1-2x+x^2))]`
+-/
+
+namespace A094159.P4675457492887048338
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 9] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A094159.P4675457492887048338
+
+namespace A094159
+
+/-- `∑[ogf((3x+9x^2)/(1-2x+x^2))]` -/
+def P4675457492887048338.Spec : Prop :=
+  ∀ n, P4675457492887048338.a n = A094159 n
+
+end A094159
+
+/-! ## A094159.P8771188485260472021
+
+`ogf((3x+9x^2)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A094159.P8771188485260472021
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, 9] [1, -3, 3, -1] n
+
+end
+
+end A094159.P8771188485260472021
+
+namespace A094159
+
+/-- `ogf((3x+9x^2)/(1-3x+3x^2-x^3))` -/
+def P8771188485260472021.Spec : Prop :=
+  ∀ n, P8771188485260472021.a n = A094159 n
+
+end A094159
+
 /-! ## A094159.P14120613278693417062
 
 `record[lcm(2*n+1, n+2)%(n+1)²]`
@@ -5779,7 +5850,7 @@ end A094176.P1826878975189668674
 /-!
 # A094178: Numbers n such that 4n+1 is divisible only by primes of form 4m+1 (i.e., by the Pythagorean primes A002144).
 
-The programs for A094178, the canonical program `A094178.P10442744756588594346` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094178 has offset 1).
+The programs for A094178, the canonical program `A094178.P10442744756588594346` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094178 has offset 1).
 
 The definition of A094178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5788,7 +5859,7 @@ The definition of A094178 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A008846(n+1)/4)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A094178
@@ -7864,6 +7935,29 @@ def P4201381918541415933.Spec : Prop :=
 
 end A094188
 
+/-! ## A094188.P12475315048730919322
+
+`ogf((1-x)/(1-x-3x^2+x^3+3x^4+x^5))`
+-/
+
+namespace A094188.P12475315048730919322
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -1, -3, 1, 3, 1] n
+
+end
+
+end A094188.P12475315048730919322
+
+namespace A094188
+
+/-- `ogf((1-x)/(1-x-3x^2+x^3+3x^4+x^5))` -/
+def P12475315048730919322.Spec : Prop :=
+  ∀ n, P12475315048730919322.a n = A094188 (n + 2)
+
+end A094188
+
 /-! ## A094188.P850129796393839165
 
 `A010049(n+1)-a(n-1)` with `a(0)=1`
@@ -9345,27 +9439,50 @@ end A094194
 /-!
 # A094195: Expansion of g.f.: (1-4*x)/((1-5*x)*(1-x)^2).
 
-The programs for A094195, the canonical program `A094195.P6737605810842354831` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094195 has offset 0).
+The programs for A094195, the canonical program `A094195.P10967249381415277547` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094195 has offset 0).
 
-The definition of A094195 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A094195 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-4x)/(1-7x+11x^2-5x^3))` (program `A094195.P10967249381415277547`, by `A094195.P10967249381415277547.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A094195.P6737605810842354831
+/-! ## A094195.P10967249381415277547
 
-`7*a(n-1)-11*a(n-2)+5*a(n-3)` with `a(0)=1, a(1)=3, a(2)=10`
+`ogf((1-4x)/(1-7x+11x^2-5x^3))`
 
 The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A094195
 
+/-- `ogf((1-4x)/(1-7x+11x^2-5x^3))` -/
+def P10967249381415277547.Spec : Prop :=
+  ∀ n, P10967249381415277547.a n = A094195 n
+
+theorem P10967249381415277547.correct : P10967249381415277547.Spec := by
+  intro n
+  simp only [A094195]
+
+end A094195
+
+/-! ## A094195.P6737605810842354831
+
+`7*a(n-1)-11*a(n-2)+5*a(n-3)` with `a(0)=1, a(1)=3, a(2)=10`
+-/
+
+namespace A094195.P6737605810842354831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 3, 10] fun n a =>
+  7 * a (n - 1) - 11 * a (n - 2) + 5 * a (n - 3)
+
+end
+
+end A094195.P6737605810842354831
+
+namespace A094195
+
 /-- `7*a(n-1)-11*a(n-2)+5*a(n-3)` -/
 def P6737605810842354831.Spec : Prop :=
   ∀ n, P6737605810842354831.a n = A094195 n
-
-theorem P6737605810842354831.correct : P6737605810842354831.Spec := by
-  intro n
-  simp only [A094195]
 
 end A094195
 
@@ -9389,25 +9506,6 @@ namespace A094195
 /-- `(5^(n+1)+12*n+11)/16` -/
 def P15230999700502283771.Spec : Prop :=
   ∀ n, P15230999700502283771.a n = (A094195 n : ℚ)
-
-theorem P15230999700502283771.correct : P15230999700502283771.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 | 2 =>
-      simp [A094195, Nat.add_sub_cancel, A094195.P15230999700502283771.a, A094195.P6737605810842354831.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 3 =>
-      have h1 := ih (m + 2) (by omega)
-      have h2 := ih (m + 1) (by omega)
-      have h3 := ih m (by omega)
-      simp only [A094195, Nat.add_sub_cancel, A094195.P15230999700502283771.a, A094195.P6737605810842354831.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
-      push_cast at h1 h2 h3 ⊢
-      rw [← h1, ← h2, ← h3]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A094195
 

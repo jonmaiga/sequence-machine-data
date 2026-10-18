@@ -1,22 +1,22 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C007
+import Seq.B000.C005
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -29,13 +29,11 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B008.C000
 import Seq.B010.C000
@@ -646,6 +644,21 @@ end A394024.P10399671063769645366
 The programs for A394031, there is no canonical definition to state claims against.
 -/
 
+/-! ## A394031.P1678320805578228272
+
+`ogf((2+x+x^2+2x^3+x^4+2x^5+3x^6+6x^7+6x^8+10x^9)/(1-x))`
+-/
+
+namespace A394031.P1678320805578228272
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1, 1, 2, 1, 2, 3, 6, 6, 10] [1, -1] n
+
+end
+
+end A394031.P1678320805578228272
+
 /-! ## A394031.P10124277006551588616
 
 `A022306(A343942(n))+1`
@@ -1001,7 +1014,7 @@ end A394050.P4491249029564125814
 /-!
 # A394051: Hofstadter Q-sequence perturbed by (-1)^n.
 
-The programs for A394051, the canonical program `A394051.P14398310074069352782` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394051 has offset 1).
+The programs for A394051, the canonical program `A394051.P14398310074069352782` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394051 has offset 1).
 
 The definition of A394051 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1010,7 +1023,7 @@ The definition of A394051 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-a(n-1))+a(n-a(n-2))+(-1)^(n+1)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A394051

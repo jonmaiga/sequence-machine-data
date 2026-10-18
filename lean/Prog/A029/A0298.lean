@@ -5,35 +5,37 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -41,7 +43,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -3795,7 +3796,7 @@ end A029836
 /-!
 # A029837: Binary order of n: log_2(n) rounded up to next integer.
 
-The programs for A029837, the canonical program `A029837.P1050578713049589` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029837 has offset 1).
+The programs for A029837, the canonical program `A029837.P1050578713049589` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029837 has offset 1).
 
 The definition of A029837 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3827,7 +3828,7 @@ end A029837
 
 `1+a(ceil((n+1)/2)-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A029837
@@ -6357,7 +6358,7 @@ end A029857.P17710416308799253075
 /-!
 # A029858: a(n) = (3^n - 3)/2.
 
-The programs for A029858, the canonical program `A029858.P4049020238019730915` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029858 has offset 1).
+The programs for A029858, the canonical program `A029858.P4049020238019730915` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029858 has offset 1).
 
 The definition of A029858 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(n+1)-3)/2` (program `A029858.P18292048773196394634`, by `A029858.P18292048773196394634.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6366,7 +6367,7 @@ The definition of A029858 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)+3` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A029858
@@ -6489,6 +6490,29 @@ theorem P18292048773196394634.correct : P18292048773196394634.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A029858
+
+/-! ## A029858.P482913434758062989
+
+`ogf(3x/(1-4x+3x^2))`
+-/
+
+namespace A029858.P482913434758062989
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3] [1, -4, 3] n
+
+end
+
+end A029858.P482913434758062989
+
+namespace A029858
+
+/-- `ogf(3x/(1-4x+3x^2))` -/
+def P482913434758062989.Spec : Prop :=
+  ∀ n, P482913434758062989.a n = A029858 (n + 1)
 
 end A029858
 
@@ -10353,7 +10377,7 @@ end A029896.P3222330195564822462
 /-!
 # A029898: Pitoun's sequence: a(n+1) is digital root of a(0) + ... + a(n).
 
-The programs for A029898, the canonical program `A029898.P17011348564142529168` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029898 has offset 0).
+The programs for A029898, the canonical program `A029898.P17011348564142529168` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029898 has offset 0).
 
 The definition of A029898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10362,7 +10386,7 @@ The definition of A029898 is `conjectured`: the Lean definition is a formula tha
 
 `dr(2*a(n-1))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C005`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A029898

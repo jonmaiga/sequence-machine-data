@@ -12,25 +12,25 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C016
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
@@ -47,7 +47,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -169,7 +168,7 @@ end A371509.P6429431940021497859
 /-!
 # A371515: Centered truncated octahedral numbers: the number of integer triples (x,y,z) such that max(|x|,|y|,|z|) <= 2n and |x|+|y|+|z| <= 3n.
 
-The programs for A371515, the canonical program `A371515.P14566401465883106100` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371515 has offset 0).
+The programs for A371515, the canonical program `A371515.P14566401465883106100` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371515 has offset 0).
 
 The definition of A371515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -178,7 +177,7 @@ The definition of A371515 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(n*(32*n+18)+6)+1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A371515
@@ -839,7 +838,7 @@ end A371531.P11016179881615938771
 /-!
 # A371532: Centered cuboctahedral numbers: the number of integer triples (x,y,z) such that max(|x|,|y|,|z|) <= n and |x|+|y|+|z| <= 2n.
 
-The programs for A371532, the canonical program `A371532.P1408315877249718398` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371532 has offset 0).
+The programs for A371532, the canonical program `A371532.P1408315877249718398` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371532 has offset 0).
 
 The definition of A371532 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -891,7 +890,7 @@ end A371532
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=1, a(1)=19, a(2)=93, a(3)=263`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A371532
@@ -3161,16 +3160,39 @@ end A371595.P9089406362246772076
 /-!
 # A371596: The number of unilevel points (unique points at their height) on Delannoy paths ending when x = n.
 
-The programs for A371596, the canonical program `A371596.P6475309989599802734` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371596 has offset 0).
+The programs for A371596, the canonical program `A371596.P6475309989599802734` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371596 has offset 0).
 
 The definition of A371596 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 261 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A371596.P15969821183237881701
+
+`ogf((1+2x-x^2)/(1-2x-x^2))`
+-/
+
+namespace A371596.P15969821183237881701
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, -1] [1, -2, -1] n
+
+end
+
+end A371596.P15969821183237881701
+
+namespace A371596
+
+/-- `ogf((1+2x-x^2)/(1-2x-x^2))` -/
+def P15969821183237881701.Spec : Prop :=
+  ∀ n, P15969821183237881701.a n = A371596 n
+
+end A371596
 
 /-! ## A371596.P6475309989599802734
 
 `2*a(n-1)+a(n-2)` with `a(0)=1, a(1)=4, a(2)=8`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A371596

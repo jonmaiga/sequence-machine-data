@@ -9,30 +9,32 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -42,7 +44,6 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -1264,7 +1265,7 @@ end A197122.P6146354911980290397
 /-!
 # A197125: Numbers such that sum of digits and sum of the square of digits are both a square.
 
-The programs for A197125, the canonical program `A197125.P18255023952800122517` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197125 has offset 1).
+The programs for A197125, the canonical program `A197125.P18255023952800122517` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197125 has offset 1).
 
 The definition of A197125 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 499 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1273,7 +1274,7 @@ The definition of A197125 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A028839(n+1), A175396(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A197125
@@ -3561,7 +3562,7 @@ end A197180.P6969846496919456927
 /-!
 # A197181: Numbers that are a divisor of the product of the factorials of their digits in decimal representation.
 
-The programs for A197181, the canonical program `A197181.P8476354362970603215` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197181 has offset 1).
+The programs for A197181, the canonical program `A197181.P8476354362970603215` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197181 has offset 1).
 
 The definition of A197181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3570,7 +3571,7 @@ The definition of A197181 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n, ∏{digits}[n, #!])]`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197181
@@ -4273,7 +4274,7 @@ end A197188.P4346520699347232892
 /-!
 # A197189: a(n) = 3*a(n-1) + 5*a(n-2), with a(0)=1, a(1)=2.
 
-The programs for A197189, the canonical program `A197189.P14980981763412799243` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197189 has offset 0).
+The programs for A197189, the canonical program `A197189.P14980981763412799243` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197189 has offset 0).
 
 The definition of A197189 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)+5*a(n-2)` (program `A197189.P14980981763412799243`, by `A197189.P14980981763412799243.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4282,7 +4283,7 @@ The definition of A197189 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)+5*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197189
@@ -4340,6 +4341,29 @@ namespace A197189
 /-- `((29+sqrt(29))*(3+sqrt(29))^n+(29-sqrt(29))*(3-sqrt(29))^n)/(58*2^n)` -/
 def P63874462790026529.Spec : Prop :=
   ∀ n, P63874462790026529.a n = (A197189 n : ℝ)
+
+end A197189
+
+/-! ## A197189.P4261980259736792464
+
+`ogf((-1+x)/(-1+3x+5x^2))`
+-/
+
+namespace A197189.P4261980259736792464
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -3, -5] n
+
+end
+
+end A197189.P4261980259736792464
+
+namespace A197189
+
+/-- `ogf((-1+x)/(-1+3x+5x^2))` -/
+def P4261980259736792464.Spec : Prop :=
+  ∀ n, P4261980259736792464.a n = A197189 n
 
 end A197189
 
@@ -4764,7 +4788,7 @@ end A197191.P5675425043455454370
 /-!
 # A197192: a(n) = binomial(n+9, 9)*7^n.
 
-The programs for A197192, the canonical program `A197192.P5342645709158969280` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197192 has offset 0).
+The programs for A197192, the canonical program `A197192.P5342645709158969280` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197192 has offset 0).
 
 The definition of A197192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4773,7 +4797,7 @@ The definition of A197192 is `conjectured`: the Lean definition is a formula tha
 
 `7^n*C(n+9, 9)`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A197192

@@ -5,47 +5,46 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,7 +57,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -816,7 +814,7 @@ end A379716.P11392412836693409005
 /-!
 # A379717: The second Jordan totient function applied to the cubefree numbers.
 
-The programs for A379717, the canonical program `A379717.P10074037294569084625` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379717 has offset 1).
+The programs for A379717, the canonical program `A379717.P10074037294569084625` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379717 has offset 1).
 
 The definition of A379717 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, A007434, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -825,7 +823,7 @@ The definition of A379717 is `conditional`: the Lean definition is an OEIS formu
 
 `A007434(A004709(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379717
@@ -3176,7 +3174,7 @@ end A379739
 /-!
 # A379741: Number of cyclic edge cuts in the (2n-1)-triangular snake graph.
 
-The programs for A379741, the canonical program `A379741.P7962448710645430471` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379741 has offset 1).
+The programs for A379741, the canonical program `A379741.P7962448710645430471` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379741 has offset 1).
 
 The definition of A379741 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3185,7 +3183,7 @@ The definition of A379741 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8^(n+1)-6*(2*(n+1)+5)*7^(n-1)-2*5^n)/8`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379741
@@ -3339,7 +3337,7 @@ end A379743.P5604297361141660669
 /-!
 # A379745: a(n) = Sum_{k=1..n-1} binomial(n,k)*2^(n-k-1)*(k-1).
 
-The programs for A379745, the canonical program `A379745.P598446087134160750` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379745 has offset 1).
+The programs for A379745, the canonical program `A379745.P598446087134160750` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379745 has offset 1).
 
 The definition of A379745 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3348,7 +3346,7 @@ The definition of A379745 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3^n-1)*(n-2)/2+2^n-1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379745
@@ -3761,6 +3759,21 @@ end A379754.P16512450328405308318
 The programs for A379755, there is no canonical definition to state claims against.
 -/
 
+/-! ## A379755.P120000010951515015
+
+`ogf((-3+2x+2x^2+4x^3)/(-1+2x))`
+-/
+
+namespace A379755.P120000010951515015
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -2, -2, -4] [1, -2] n
+
+end
+
+end A379755.P120000010951515015
+
 /-! ## A379755.P8584606053194910218
 
 `2*a(n-1)` with `a(0)=3, a(1)=4, a(2)=6, a(3)=8`
@@ -4058,7 +4071,7 @@ end A379761.P11624337281908273485
 /-!
 # A379762: Products of 4 distinct prime numbers (or tetraprimes) that are abundant.
 
-The programs for A379762, the canonical program `A379762.P18428336242211905384` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379762 has offset 1).
+The programs for A379762, the canonical program `A379762.P18428336242211905384` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379762 has offset 1).
 
 The definition of A379762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3651 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4097,7 +4110,7 @@ end A379762
 
 `∩[A046386(n+1), A087248(n+1)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379762
@@ -4756,7 +4769,7 @@ end A379767.P7401962892307275697
 /-!
 # A379769: a(n) = (A006218(n) mod n).
 
-The programs for A379769, the canonical program `A379769.P9402370930965686627` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379769 has offset 1).
+The programs for A379769, the canonical program `A379769.P9402370930965686627` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379769 has offset 1).
 
 The definition of A379769 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4765,7 +4778,7 @@ The definition of A379769 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∏{e}[n+1, #+1]]%(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A379769

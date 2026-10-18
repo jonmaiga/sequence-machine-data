@@ -2,32 +2,32 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1185,7 +1185,7 @@ end A363408.P17189057220646987839
 /-!
 # A363409: a(n) = the real part of Product_{k = 1..n} (1 + k*sqrt(-2)).
 
-The programs for A363409, the canonical program `A363409.P958808639372594646` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363409 has offset 0).
+The programs for A363409, the canonical program `A363409.P958808639372594646` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363409 has offset 0).
 
 The definition of A363409 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1194,7 +1194,7 @@ The definition of A363409 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((2*n-1)*a(n-1)-n*(2*n²-4*n+3)*a(n-2))/(n-1)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363409
@@ -1234,7 +1234,7 @@ end A363409
 /-!
 # A363410: a(n)= 1/sqrt(2) * the imaginary part of Product_{k = 1..n} (1 + k*sqrt(-2)).
 
-The programs for A363410, the canonical program `A363410.P14438717118059856681` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363410 has offset 0).
+The programs for A363410, the canonical program `A363410.P14438717118059856681` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363410 has offset 0).
 
 The definition of A363410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1243,7 +1243,7 @@ The definition of A363410 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((2*n-1)*a(n-1)-n*(2*n²-4*n+3)*a(n-2))/(n-1)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363410
@@ -2262,7 +2262,7 @@ end A363432.P12865180012286519902
 /-!
 # A363433: Number of (123,231)-avoiding stabilized-interval-free permutations of size n.
 
-The programs for A363433, the canonical program `A363433.P10545237636097557499` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363433 has offset 0).
+The programs for A363433, the canonical program `A363433.P10545237636097557499` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363433 has offset 0).
 
 The definition of A363433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2271,7 +2271,7 @@ The definition of A363433 is `conjectured`: the Lean definition is a formula tha
 
 `round((n+3)²/12)-a(n-1)-2` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363433
@@ -2800,7 +2800,7 @@ end A363443.P8704579386315949148
 /-!
 # A363447: a(0) = 0; a(n) = a(a(n-1))-1 mod (n+1) for all n >= 1.
 
-The programs for A363447, the canonical program `A363447.P9352887814135850751` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363447 has offset 0).
+The programs for A363447, the canonical program `A363447.P9352887814135850751` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363447 has offset 0).
 
 The definition of A363447 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2809,7 +2809,7 @@ The definition of A363447 is `conjectured`: the Lean definition is a formula tha
 
 `(a(a(n-1))+n)%(n+1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363447
@@ -5803,7 +5803,7 @@ end A363496.P2390555785288491926
 /-!
 # A363497: a(n) = Sum_{k=0..n} floor(sqrt(k))^3.
 
-The programs for A363497, the canonical program `A363497.P9176856105177611331` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363497 has offset 0).
+The programs for A363497, the canonical program `A363497.P9176856105177611331` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363497 has offset 0).
 
 The definition of A363497 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5812,7 +5812,7 @@ The definition of A363497 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(sqrt(n))^3]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363497
@@ -5931,7 +5931,7 @@ end A363497
 /-!
 # A363498: a(n) = Sum_{k=0..n} floor(sqrt(k))^4.
 
-The programs for A363498, the canonical program `A363498.P3306703456032946991` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363498 has offset 0).
+The programs for A363498, the canonical program `A363498.P3306703456032946991` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363498 has offset 0).
 
 The definition of A363498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5940,7 +5940,7 @@ The definition of A363498 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(sqrt(n))^4]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363498
@@ -6062,7 +6062,7 @@ end A363498
 /-!
 # A363499: a(n) = Sum_{k=0..n} floor(sqrt(k))^5.
 
-The programs for A363499, the canonical program `A363499.P11666707829786267100` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363499 has offset 0).
+The programs for A363499, the canonical program `A363499.P11666707829786267100` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363499 has offset 0).
 
 The definition of A363499 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6071,7 +6071,7 @@ The definition of A363499 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(sqrt(n))^5]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A363499

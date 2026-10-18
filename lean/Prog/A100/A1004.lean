@@ -23,14 +23,15 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,7 +50,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -4340,17 +4340,44 @@ end A100433.P10113247173846615256
 /-!
 # A100434: Expansion of g.f. (1+x)*(3+x)/(1+6*x^2+x^4).
 
-The programs for A100434, the canonical program `A100434.P12715157221917597726` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100434 has offset 0).
+The programs for A100434, the canonical program `A100434.P14202553700757604113` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100434 has offset 0).
 
-The definition of A100434 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A100434 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((3+4x+x^2)/(1+6x^2+x^4))` (program `A100434.P14202553700757604113`, by `A100434.P14202553700757604113.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A100434.P14202553700757604113
+
+`ogf((3+4x+x^2)/(1+6x^2+x^4))`
+
+The canonical program, it is in `Seq.B000.C014`.
+-/
+
+namespace A100434
+
+/-- `ogf((3+4x+x^2)/(1+6x^2+x^4))` -/
+def P14202553700757604113.Spec : Prop :=
+  ∀ n, P14202553700757604113.a n = A100434 n
+
+theorem P14202553700757604113.correct : P14202553700757604113.Spec := by
+  intro n
+  simp only [A100434]
+
+end A100434
 
 /-! ## A100434.P12715157221917597726
 
 `(-1)^floor(n/2)*A000034(n)*A126354(n+3)`
-
-The canonical program, it is in `Seq.B001.C003`.
 -/
+
+namespace A100434.P12715157221917597726
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (-1 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ) * (A000034 n : ℚ) * (A126354 (n + 3) : ℚ)
+
+end
+
+end A100434.P12715157221917597726
 
 namespace A100434
 
@@ -7405,6 +7432,29 @@ def P5542281933124311440.Spec : Prop :=
 
 end A100455
 
+/-! ## A100455.P9064382936537074272
+
+`ogf((1+x-x^2)/(1-2x+x^2-2x^3))`
+-/
+
+namespace A100455.P9064382936537074272
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, -1] [1, -2, 1, -2] n
+
+end
+
+end A100455.P9064382936537074272
+
+namespace A100455
+
+/-- `ogf((1+x-x^2)/(1-2x+x^2-2x^3))` -/
+def P9064382936537074272.Spec : Prop :=
+  ∀ n, P9064382936537074272.a n = A100455 n
+
+end A100455
+
 /-! ## A100455.P16334781451509649388
 
 `(2-n%4)%2+2^n`
@@ -9167,6 +9217,29 @@ def P3838154944413729847.Spec : Prop :=
 theorem P3838154944413729847.correct : P3838154944413729847.Spec := by
   intro n
   simp only [A100477]
+
+end A100477
+
+/-! ## A100477.P862806744784478272
+
+`ogf((-x+x^2)/(-1+3x+2x^2+x^3))`
+-/
+
+namespace A100477.P862806744784478272
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 1, -1] [1, -3, -2, -1] n
+
+end
+
+end A100477.P862806744784478272
+
+namespace A100477
+
+/-- `ogf((-x+x^2)/(-1+3x+2x^2+x^3))` -/
+def P862806744784478272.Spec : Prop :=
+  ∀ n, P862806744784478272.a n = A100477 n
 
 end A100477
 

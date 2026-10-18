@@ -2,13 +2,13 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -16,14 +16,14 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -31,11 +31,10 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -44,7 +43,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -56,6 +54,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
@@ -2685,7 +2684,7 @@ end A365823.P4023162866433759447
 /-!
 # A365824: a(n) = a(n-1) + 5*a(n-2), for n >= 0, with a(0) = 1 and a(1) = 0.
 
-The programs for A365824, the canonical program `A365824.P7791578248549038231` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365824 has offset 0).
+The programs for A365824, the canonical program `A365824.P7791578248549038231` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365824 has offset 0).
 
 The definition of A365824 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+5*a(n-2)` (program `A365824.P7791578248549038231`, by `A365824.P7791578248549038231.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2694,7 +2693,7 @@ The definition of A365824 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+5*a(n-2)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A365824
@@ -2706,6 +2705,29 @@ def P7791578248549038231.Spec : Prop :=
 theorem P7791578248549038231.correct : P7791578248549038231.Spec := by
   intro n
   simp only [A365824]
+
+end A365824
+
+/-! ## A365824.P16100157516206264121
+
+`ogf((-1+x)/(-1+x+5x^2))`
+-/
+
+namespace A365824.P16100157516206264121
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1] [1, -1, -5] n
+
+end
+
+end A365824.P16100157516206264121
+
+namespace A365824
+
+/-- `ogf((-1+x)/(-1+x+5x^2))` -/
+def P16100157516206264121.Spec : Prop :=
+  ∀ n, P16100157516206264121.a n = A365824 n
 
 end A365824
 
@@ -6267,7 +6289,7 @@ end A365890
 /-!
 # A365892: a(n) is the index of the n-th term of A365876 that includes at least one equation with at least one integer solution.
 
-The programs for A365892, the canonical program `A365892.P14482851802269866717` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365892 has offset 1).
+The programs for A365892, the canonical program `A365892.P14482851802269866717` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365892 has offset 1).
 
 The definition of A365892 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6276,7 +6298,7 @@ The definition of A365892 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=1, a(1)=4, a(2)=9, a(3)=11, a(4)=20, a(5)=22`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A365892

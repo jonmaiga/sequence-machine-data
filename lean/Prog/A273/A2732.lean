@@ -15,8 +15,8 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -25,12 +25,13 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -1878,7 +1879,7 @@ end A273217.P18310868485123399168
 /-!
 # A273220: a(n) = 8n^2 - 12n + 1.
 
-The programs for A273220, the canonical program `A273220.P22215574643113122` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273220 has offset 2).
+The programs for A273220, the canonical program `A273220.P22215574643113122` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273220 has offset 2).
 
 The definition of A273220 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `8*(n+2)²-12*(n+2)+1` (program `A273220.P22215574643113122`, by `A273220.P22215574643113122.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1887,7 +1888,7 @@ The definition of A273220 is `verified`: the Lean definition is proven equivalen
 
 `8*(n+2)²-12*(n+2)+1`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A273220
@@ -1925,6 +1926,55 @@ namespace A273220
 /-- `∑[a(n-1)+16]` -/
 def P1411353896260481160.Spec : Prop :=
   ∀ n, (P1411353896260481160.a n : ℤ) = A273220 (n + 2)
+
+end A273220
+
+/-! ## A273220.P6885205480433479036
+
+`∑[ogf((9+10x-3x^2)/(1-2x+x^2))]`
+-/
+
+namespace A273220.P6885205480433479036
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [9, 10, -3] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A273220.P6885205480433479036
+
+namespace A273220
+
+/-- `∑[ogf((9+10x-3x^2)/(1-2x+x^2))]` -/
+def P6885205480433479036.Spec : Prop :=
+  ∀ n, P6885205480433479036.a n = A273220 (n + 2)
+
+end A273220
+
+/-! ## A273220.P140568166186592759
+
+`ogf((9+10x-3x^2)/(1-3x+3x^2-x^3))`
+-/
+
+namespace A273220.P140568166186592759
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [9, 10, -3] [1, -3, 3, -1] n
+
+end
+
+end A273220.P140568166186592759
+
+namespace A273220
+
+/-- `ogf((9+10x-3x^2)/(1-3x+3x^2-x^3))` -/
+def P140568166186592759.Spec : Prop :=
+  ∀ n, P140568166186592759.a n = A273220 (n + 2)
 
 end A273220
 
@@ -4339,7 +4389,7 @@ end A273250.P10479089866703956169
 /-!
 # A273251: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 619", based on the 5-celled von Neumann neighborhood.
 
-The programs for A273251, the canonical program `A273251.P17702948702381260396` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273251 has offset 0).
+The programs for A273251, the canonical program `A273251.P17702948702381260396` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273251 has offset 0).
 
 The definition of A273251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4348,7 +4398,7 @@ The definition of A273251 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-14*a(n-2)+8*a(n-3)` with `a(0)=1, a(1)=5, a(2)=37, a(3)=181`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A273251

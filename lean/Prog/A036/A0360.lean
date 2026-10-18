@@ -10,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -18,16 +17,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
@@ -53,7 +55,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6584,10 +6585,29 @@ end A036065.P2636965541911958326
 /-!
 # A036068: Expansion of (-1+1/(1-3*x)^3)/(9*x).
 
-The programs for A036068, the canonical program `A036068.P8933591916315605299` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036068 has offset 0).
+The programs for A036068, the canonical program `A036068.P896442951730299409` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036068 has offset 0).
 
-The definition of A036068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 202 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A036068 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-3x+3x^2)/(1-9x+27x^2-27x^3))` (program `A036068.P896442951730299409`, by `A036068.P896442951730299409.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A036068.P896442951730299409
+
+`ogf((1-3x+3x^2)/(1-9x+27x^2-27x^3))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A036068
+
+/-- `ogf((1-3x+3x^2)/(1-9x+27x^2-27x^3))` -/
+def P896442951730299409.Spec : Prop :=
+  ∀ n, P896442951730299409.a n = A036068 n
+
+theorem P896442951730299409.correct : P896442951730299409.Spec := by
+  intro n
+  simp only [A036068]
+
+end A036068
 
 /-! ## A036068.P8442238896799406209
 
@@ -6641,19 +6661,23 @@ end A036068
 /-! ## A036068.P8933591916315605299
 
 `A080420(n)-lcm(n, n/3*3^n)`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A036068.P8933591916315605299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080420 n - (Int.lcm (n : ℤ) (SequenceMachineLib.roundAway ((n : ℚ) / 3 * (3 ^ n : ℚ))) : ℤ)
+
+end
+
+end A036068.P8933591916315605299
 
 namespace A036068
 
 /-- `A080420(n)-lcm(n, n/3*3^n)` -/
 def P8933591916315605299.Spec : Prop :=
   ∀ n, P8933591916315605299.a n = A036068 n
-
-theorem P8933591916315605299.correct : P8933591916315605299.Spec := by
-  intro n
-  simp only [A036068]
 
 end A036068
 
@@ -7034,35 +7058,6 @@ namespace A036068
 /-- `A036216(n)/(n+1)` -/
 def P8842838438696112010.Spec : Prop :=
   ∀ n, P8842838438696112010.a n = (A036068 n : ℚ)
-
-end A036068
-
-/-! ## A036068.P6442308526528790971
-
-`3^n*∑[∑[n+1]]/A000027(n+1)`
--/
-
-namespace A036068.P6442308526528790971
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((3 ^ n * (∑ j ∈ Finset.range (n + 1), f1 j) : ℕ) : ℚ) / (A000027 (n + 1) : ℚ)
-
-end
-
-end A036068.P6442308526528790971
-
-namespace A036068
-
-/-- `3^n*∑[∑[n+1]]/A000027(n+1)` -/
-def P6442308526528790971.Spec : Prop :=
-  ∀ n, P6442308526528790971.a n = (A036068 n : ℚ)
 
 end A036068
 

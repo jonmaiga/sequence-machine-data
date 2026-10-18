@@ -9,7 +9,8 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -27,10 +28,10 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,14 +39,13 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -755,7 +755,7 @@ end A115804.P13960971136448702947
 /-!
 # A115805: Numbers k such that 13*k = A048720(29,k), where A048720 is carryless base-2 multiplication.
 
-The programs for A115805, the canonical program `A115805.P17491870474035783323` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115805 has offset 1).
+The programs for A115805, the canonical program `A115805.P17491870474035783323` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115805 has offset 1).
 
 The definition of A115805 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 313 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -974,7 +974,7 @@ end A115805
 
 `∩[A115767(n), A115823(n)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A115805
@@ -1951,7 +1951,7 @@ end A115812.P15274954227511430329
 /-!
 # A115813: Integers i such that 2*i XOR 5*i = 7*i.
 
-The programs for A115813, the canonical program `A115813.P8680093844829378281` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115813 has offset 0).
+The programs for A115813, the canonical program `A115813.P8680093844829378281` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115813 has offset 0).
 
 The definition of A115813 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1960,7 +1960,7 @@ The definition of A115813 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, and(2*n, 5*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115813
@@ -2338,7 +2338,7 @@ end A115814
 /-!
 # A115815: Integers i such that 2*i XOR 7*i = 9*i.
 
-The programs for A115815, the canonical program `A115815.P16109940933439980634` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115815 has offset 0).
+The programs for A115815, the canonical program `A115815.P16109940933439980634` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115815 has offset 0).
 
 The definition of A115815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2347,7 +2347,7 @@ The definition of A115815 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, and(2*n, 7*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115815
@@ -2664,7 +2664,7 @@ end A115816
 /-!
 # A115817: Integers i such that 4*i XOR 13*i = 17*i.
 
-The programs for A115817, the canonical program `A115817.P3939822631794788705` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115817 has offset 0).
+The programs for A115817, the canonical program `A115817.P3939822631794788705` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115817 has offset 0).
 
 The definition of A115817 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 396 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2673,7 +2673,7 @@ The definition of A115817 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, and(4*n, 13*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115817
@@ -2912,7 +2912,7 @@ end A115818
 /-!
 # A115819: Integers n such that 4*n XOR 15*n = 19*n.
 
-The programs for A115819, the canonical program `A115819.P16880299145439504198` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115819 has offset 1).
+The programs for A115819, the canonical program `A115819.P16880299145439504198` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115819 has offset 1).
 
 The definition of A115819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 406 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2921,7 +2921,7 @@ The definition of A115819 is `conjectured`: the Lean definition is a formula tha
 
 `lt[and(16*n, 60*n), 1]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115819
@@ -3134,7 +3134,7 @@ end A115820
 /-!
 # A115821: Integers i such that 6*i XOR 15*i = 21*i.
 
-The programs for A115821, the canonical program `A115821.P562963444630615089` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115821 has offset 0).
+The programs for A115821, the canonical program `A115821.P562963444630615089` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115821 has offset 0).
 
 The definition of A115821 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 278 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3172,7 +3172,7 @@ end A115821
 
 `eq[0, and(A008588(n), A008597(n))]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A115821
@@ -3379,7 +3379,7 @@ end A115822
 /-!
 # A115823: Integers i such that 8*i XOR 13*i = 21*i.
 
-The programs for A115823, the canonical program `A115823.P15645709274732949001` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115823 has offset 0).
+The programs for A115823, the canonical program `A115823.P15645709274732949001` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115823 has offset 0).
 
 The definition of A115823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 820 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3388,7 +3388,7 @@ The definition of A115823 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, and(8*n, 13*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115823
@@ -3747,7 +3747,7 @@ end A115826.P12151533802740651906
 /-!
 # A115827: Integers i such that 5*i XOR 6*i = 11*i.
 
-The programs for A115827, the canonical program `A115827.P2135130010281420525` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115827 has offset 0).
+The programs for A115827, the canonical program `A115827.P2135130010281420525` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115827 has offset 0).
 
 The definition of A115827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3756,7 +3756,7 @@ The definition of A115827 is `conjectured`: the Lean definition is a formula tha
 
 `lt[and(6*n, 5*n), 2]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115827
@@ -5305,7 +5305,7 @@ end A115844.P14432637342738873520
 /-!
 # A115845: Numbers n such that there is no bit position where the binary expansions of n and 8n are both 1.
 
-The programs for A115845, the canonical program `A115845.P15250239200828192666` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115845 has offset 1).
+The programs for A115845, the canonical program `A115845.P15250239200828192666` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115845 has offset 1).
 
 The definition of A115845 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5203 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5340,7 +5340,7 @@ end A115845
 
 `record[n-and(n, 8*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115845
@@ -5947,7 +5947,7 @@ end A115846.P14300483918420725910
 /-!
 # A115847: Integers i such that 17*i = 17 X i, i.e., 16*i XOR i = 17*i.
 
-The programs for A115847, the canonical program `A115847.P14806839785668101338` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115847 has offset 0).
+The programs for A115847, the canonical program `A115847.P14806839785668101338` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115847 has offset 0).
 
 The definition of A115847 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3733 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5956,7 +5956,7 @@ The definition of A115847 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, and(n, 4*4*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115847
@@ -6235,7 +6235,7 @@ end A115848
 /-!
 # A115849: Integers i such that 17*i is not 17 X i.
 
-The programs for A115849, the canonical program `A115849.P16685866387706139103` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115849 has offset 1).
+The programs for A115849, the canonical program `A115849.P16685866387706139103` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115849 has offset 1).
 
 The definition of A115849 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6244,7 +6244,7 @@ The definition of A115849 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, and(n, 16*n)]`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115849
@@ -6604,16 +6604,42 @@ end A115850.P7956853453715813424
 /-!
 # A115851: G.f. x^2*(-1+x+x^2)/((1-x)*(2*x-1)*(x+1)*(x^2+1)).
 
-The programs for A115851, the canonical program `A115851.P17311392507695367030` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115851 has offset 0).
+The programs for A115851, the canonical program `A115851.P17311392507695367030` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115851 has offset 0).
 
 The definition of A115851 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A115851.P2250449552506553736
+
+`∑[ogf((-x^2+x^3+x^4)/(-1+x+x^2+x^3+2x^4))]`
+-/
+
+namespace A115851.P2250449552506553736
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1, -1, -1] [1, -1, -1, -1, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A115851.P2250449552506553736
+
+namespace A115851
+
+/-- `∑[ogf((-x^2+x^3+x^4)/(-1+x+x^2+x^3+2x^4))]` -/
+def P2250449552506553736.Spec : Prop :=
+  ∀ n, P2250449552506553736.a n = A115851 n
+
+end A115851
 
 /-! ## A115851.P17311392507695367030
 
 `a(n-1)+xor((a(n-2)+n)%2, a(n-1))` with `a(0)=0, a(1)=0, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115851
@@ -7078,7 +7104,7 @@ end A115852.P11464362195865675512
 /-!
 # A115853: Numbers where every digit that is present occurs more than once (not necessarily consecutively).
 
-The programs for A115853, the canonical program `A115853.P14934770177720905592` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115853 has offset 1).
+The programs for A115853, the canonical program `A115853.P14934770177720905592` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115853 has offset 1).
 
 The definition of A115853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 270 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7087,7 +7113,7 @@ The definition of A115853 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A320485(n), 0]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A115853
@@ -10129,7 +10155,7 @@ end A115879.P18414608337195365363
 /-!
 # A115880: Largest positive x satisfying the Diophantine equation x^2 = y*(y+n), a(n)=0 if there are no solutions.
 
-The programs for A115880, the canonical program `A115880.P18443925606698590040` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115880 has offset 1).
+The programs for A115880, the canonical program `A115880.P18443925606698590040` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115880 has offset 1).
 
 The definition of A115880 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10138,7 +10164,7 @@ The definition of A115880 is `conjectured`: the Lean definition is a formula tha
 
 `floor(((n+1)*lcm(4, n+1)/4-1)/4)`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A115880
@@ -10490,7 +10516,7 @@ end A115880
 /-!
 # A115881: a(n) is the largest positive y satisfying the Diophantine equation x^2=y(y+n). a(n)=0 if there are no solutions.
 
-The programs for A115881, the canonical program `A115881.P4143255658260624620` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115881 has offset 1).
+The programs for A115881, the canonical program `A115881.P4143255658260624620` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115881 has offset 1).
 
 The definition of A115881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10499,7 +10525,7 @@ The definition of A115881 is `conjectured`: the Lean definition is a formula tha
 
 `A115880(n+1)-A004524(A004442(n))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A115881

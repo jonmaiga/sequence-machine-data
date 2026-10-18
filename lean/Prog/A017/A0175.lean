@@ -5,26 +5,28 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C008
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.Opaque.C001
 import Seq.Opaque.C007
 
@@ -26792,6 +26794,32 @@ namespace A017594
 /-- `(6*(2*n+1))^ceil(atan(n+2))` -/
 def P16780225494237544496.Spec : Prop :=
   ∀ n, P16780225494237544496.a n = (A017594 n : ℚ)
+
+end A017594
+
+/-! ## A017594.P16482877952701876819
+
+`9*4*(∑[ogf(8x/(1-2x+x^2))]+1)`
+-/
+
+namespace A017594.P16482877952701876819
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 8] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  9 * (4 * (∑ j ∈ Finset.range (n + 1), f1 j + 1))
+
+end
+
+end A017594.P16482877952701876819
+
+namespace A017594
+
+/-- `9*4*(∑[ogf(8x/(1-2x+x^2))]+1)` -/
+def P16482877952701876819.Spec : Prop :=
+  ∀ n, P16482877952701876819.a n = A017594 n
 
 end A017594
 

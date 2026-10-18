@@ -3,29 +3,32 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,6 +36,7 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -179,7 +183,7 @@ end A352601.P1378682466642852394
 /-!
 # A352602: a(n) = 4^n*(2^(2*n+1)-1)*(2*n)!.
 
-The programs for A352602, the canonical program `A352602.P18173817587250333388` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352602 has offset 0).
+The programs for A352602, the canonical program `A352602.P18173817587250333388` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352602 has offset 0).
 
 The definition of A352602 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4^n*(2^(2*n+1)-1)*(2*n)!` (program `A352602.P18173817587250333388`, by `A352602.P18173817587250333388.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -188,7 +192,7 @@ The definition of A352602 is `verified`: the Lean definition is proven equivalen
 
 `4^n*(2^(2*n+1)-1)*(2*n)!`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A352602
@@ -4251,7 +4255,7 @@ end A352672.P18273384945701497496
 /-!
 # A352674: Beatty sequence for (3/2)(1+sqrt(3)).
 
-The programs for A352674, the canonical program `A352674.P4008254636090288362` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352674 has offset 1).
+The programs for A352674, the canonical program `A352674.P4008254636090288362` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352674 has offset 1).
 
 The definition of A352674 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4260,7 +4264,7 @@ The definition of A352674 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(3/2*(1+sqrt(3))*(n+1))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A352674
@@ -4485,7 +4489,7 @@ end A352674
 /-!
 # A352675: Beatty sequence for (3/13)(4+sqrt(3)).
 
-The programs for A352675, the canonical program `A352675.P5532788502531396028` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352675 has offset 1).
+The programs for A352675, the canonical program `A352675.P5532788502531396028` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352675 has offset 1).
 
 The definition of A352675 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4494,7 +4498,7 @@ The definition of A352675 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(3/13*(4+sqrt(3))*(n+1))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A352675
@@ -5180,7 +5184,7 @@ end A352680.P11708318378473490145
 /-!
 # A352681: a(n) = [x^n] (3*x + 1)*(1 - sqrt(1 - 4*x))/(2*x).
 
-The programs for A352681, the canonical program `A352681.P7199430868513506540` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352681 has offset 0).
+The programs for A352681, the canonical program `A352681.P7199430868513506540` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352681 has offset 0).
 
 The definition of A352681 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5189,7 +5193,7 @@ The definition of A352681 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)*(14*n+2)*(2*n-3)/((7*n-6)*(n+1))` with `a(0)=1, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A352681
@@ -5893,6 +5897,29 @@ namespace A352692
 /-- `(11*(-1)^n+2^n)/3` -/
 def P1808499661958028279.Spec : Prop :=
   ∀ n, P1808499661958028279.a n = (A352692 n : ℚ)
+
+end A352692
+
+/-! ## A352692.P14474085401962406574
+
+`ogf((-4+7x)/(-1+x+2x^2))`
+-/
+
+namespace A352692.P14474085401962406574
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -7] [1, -1, -2] n
+
+end
+
+end A352692.P14474085401962406574
+
+namespace A352692
+
+/-- `ogf((-4+7x)/(-1+x+2x^2))` -/
+def P14474085401962406574.Spec : Prop :=
+  ∀ n, P14474085401962406574.a n = A352692 n
 
 end A352692
 

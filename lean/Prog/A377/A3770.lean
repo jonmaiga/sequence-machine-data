@@ -4,33 +4,31 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C013
+import Seq.B000.C009
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
@@ -706,7 +704,7 @@ end A377012.P9960060045283552513
 /-!
 # A377013: a(n) = floor(n!*(e - 1/24)).
 
-The programs for A377013, the canonical program `A377013.P341106306071925957` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377013 has offset 0).
+The programs for A377013, the canonical program `A377013.P341106306071925957` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377013 has offset 0).
 
 The definition of A377013 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n!*(e-1/24))` (program `A377013.P341106306071925957`, by `A377013.P341106306071925957.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -715,7 +713,7 @@ The definition of A377013 is `verified`: the Lean definition is proven equivalen
 
 `floor(n!*(e-1/24))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A377013
@@ -3554,7 +3552,7 @@ end A377066.P9159408402242166287
 /-!
 # A377067: Number of n X 3 0..2 matrices with row sums 3 and column sums n up to permutations of rows.
 
-The programs for A377067, the canonical program `A377067.P5656588650854042994` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377067 has offset 0).
+The programs for A377067, the canonical program `A377067.P5656588650854042994` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377067 has offset 0).
 
 The definition of A377067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3563,7 +3561,7 @@ The definition of A377067 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[ceil(∑[(n+1)/3])-a(n-1)]-a(n-1)]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A377067

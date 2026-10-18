@@ -4,36 +4,36 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -42,6 +42,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C002
@@ -280,7 +281,7 @@ end A367203
 /-!
 # A367204: Number of diagonals in a regular n-gon that are parallel to an edge.
 
-The programs for A367204, the canonical program `A367204.P5287494782937733080` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367204 has offset 3).
+The programs for A367204, the canonical program `A367204.P5287494782937733080` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367204 has offset 3).
 
 The definition of A367204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -289,7 +290,7 @@ The definition of A367204 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=0, a(1)=0, a(2)=5, a(3)=3, a(4)=14, a(5)=8`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367204
@@ -2807,7 +2808,7 @@ end A367242.P15928172118939526215
 /-!
 # A367243: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 2.
 
-The programs for A367243, the canonical program `A367243.P9043573996983531769` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367243 has offset 1).
+The programs for A367243, the canonical program `A367243.P9043573996983531769` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367243 has offset 1).
 
 The definition of A367243 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2816,7 +2817,7 @@ The definition of A367243 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*a(n-1)-11*a(n-2)+6*a(n-3)` with `a(0)=0, a(1)=15, a(2)=91`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367243
@@ -2876,7 +2877,7 @@ end A367243
 /-!
 # A367244: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 3.
 
-The programs for A367244, the canonical program `A367244.P15024154384499462599` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367244 has offset 1).
+The programs for A367244, the canonical program `A367244.P15024154384499462599` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367244 has offset 1).
 
 The definition of A367244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2885,7 +2886,7 @@ The definition of A367244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `27*4^n-41*3^n+7*2^(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367244
@@ -2903,7 +2904,7 @@ end A367244
 /-!
 # A367245: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 4.
 
-The programs for A367245, the canonical program `A367245.P18315297920019430573` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367245 has offset 1).
+The programs for A367245, the canonical program `A367245.P18315297920019430573` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367245 has offset 1).
 
 The definition of A367245 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2912,7 +2913,7 @@ The definition of A367245 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `29*5^n-47*4^n+2*3^(n+2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367245
@@ -2930,7 +2931,7 @@ end A367245
 /-!
 # A367246: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 5.
 
-The programs for A367246, the canonical program `A367246.P7190475376441370750` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367246 has offset 1).
+The programs for A367246, the canonical program `A367246.P7190475376441370750` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367246 has offset 1).
 
 The definition of A367246 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2939,7 +2940,7 @@ The definition of A367246 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `29*6^n-49*5^n+5*4^(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367246
@@ -2957,7 +2958,7 @@ end A367246
 /-!
 # A367247: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 6.
 
-The programs for A367247, the canonical program `A367247.P17077043657358533388` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367247 has offset 1).
+The programs for A367247, the canonical program `A367247.P17077043657358533388` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367247 has offset 1).
 
 The definition of A367247 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2966,7 +2967,7 @@ The definition of A367247 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `27*7^n-47*6^n+4*5^(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367247
@@ -2984,7 +2985,7 @@ end A367247
 /-!
 # A367248: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 7.
 
-The programs for A367248, the canonical program `A367248.P14367439059734941222` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367248 has offset 1).
+The programs for A367248, the canonical program `A367248.P14367439059734941222` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367248 has offset 1).
 
 The definition of A367248 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2993,7 +2994,7 @@ The definition of A367248 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `23*8^n-41*7^n+3*6^(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367248
@@ -3011,7 +3012,7 @@ end A367248
 /-!
 # A367249: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 8.
 
-The programs for A367249, the canonical program `A367249.P9053356514132181826` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367249 has offset 1).
+The programs for A367249, the canonical program `A367249.P9053356514132181826` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367249 has offset 1).
 
 The definition of A367249 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3020,7 +3021,7 @@ The definition of A367249 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*9^n-31*8^n+2*7^(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367249
@@ -3038,7 +3039,7 @@ end A367249
 /-!
 # A367250: a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 9.
 
-The programs for A367250, the canonical program `A367250.P8528951362059641013` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367250 has offset 1).
+The programs for A367250, the canonical program `A367250.P8528951362059641013` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367250 has offset 1).
 
 The definition of A367250 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3047,7 +3048,7 @@ The definition of A367250 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*10^n-17*9^n+8^(n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367250
@@ -3197,7 +3198,7 @@ end A367254.P11696820992217405937
 /-!
 # A367255: a(n) = (n + 1)^(n - 2)*(3*n + 1).
 
-The programs for A367255, the canonical program `A367255.P3734428243993847854` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367255 has offset 0).
+The programs for A367255, the canonical program `A367255.P3734428243993847854` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367255 has offset 0).
 
 The definition of A367255 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3206,7 +3207,7 @@ The definition of A367255 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)^(n-2)*(3*n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367255
@@ -4408,7 +4409,7 @@ end A367274.P7820411816253416710
 /-!
 # A367275: a(n) = 3^(n - 1) * (9^n - 1) / 8, n >= 1.
 
-The programs for A367275, the canonical program `A367275.P3783398042523088868` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367275 has offset 1).
+The programs for A367275, the canonical program `A367275.P3783398042523088868` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367275 has offset 1).
 
 The definition of A367275 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4442,7 +4443,7 @@ end A367275
 
 `3*a(n-1)+3^(3*n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367275
@@ -4982,7 +4983,7 @@ end A367285.P5600260847151507123
 /-!
 # A367286: Inverse of A342131.
 
-The programs for A367286, the canonical program `A367286.P10401290249193770778` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367286 has offset 0).
+The programs for A367286, the canonical program `A367286.P10401290249193770778` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367286 has offset 0).
 
 The definition of A367286 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4991,7 +4992,7 @@ The definition of A367286 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-3)-a(n-6)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=4, a(4)=6, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A367286
