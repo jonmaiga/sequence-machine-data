@@ -31,10 +31,14 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,11 +59,9 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -96,7 +98,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -6141,29 +6142,6 @@ def P11450943462128126418.Spec : Prop :=
 
 end A073555
 
-/-! ## A073555.P18401469751614057128
-
-`and(-2, 10^n)+1-floor(10^n/3)`
--/
-
-namespace A073555.P18401469751614057128
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (-2) (10 ^ n : ℤ) + 1 - ⌊(10 ^ n : ℚ) / 3⌋
-
-end
-
-end A073555.P18401469751614057128
-
-namespace A073555
-
-/-- `and(-2, 10^n)+1-floor(10^n/3)` -/
-def P18401469751614057128.Spec : Prop :=
-  ∀ n, P18401469751614057128.a n = A073555 (n + 1)
-
-end A073555
-
 /-! ## A073555.P12461194837283544231
 
 `A020639((n%2)^n+n)+floor(2/3*10^n)`
@@ -6184,29 +6162,6 @@ namespace A073555
 /-- `A020639((n%2)^n+n)+floor(2/3*10^n)` -/
 def P12461194837283544231.Spec : Prop :=
   ∀ n, P12461194837283544231.a n = A073555 (n + 1)
-
-end A073555
-
-/-! ## A073555.P546075521240149491
-
-`A000533(n)-A002277(n)`
--/
-
-namespace A073555.P546075521240149491
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000533 n - A002277 n
-
-end
-
-end A073555.P546075521240149491
-
-namespace A073555
-
-/-- `A000533(n)-A002277(n)` -/
-def P546075521240149491.Spec : Prop :=
-  ∀ n, P546075521240149491.a n = A073555 (n + 1)
 
 end A073555
 
@@ -6351,6 +6306,29 @@ def P4167600479279177314.Spec : Prop :=
 
 end A073555
 
+/-! ## A073555.P18401469751614057128
+
+`and(-2, 10^n)+1-floor(10^n/3)`
+-/
+
+namespace A073555.P18401469751614057128
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (-2) (10 ^ n : ℤ) + 1 - ⌊(10 ^ n : ℚ) / 3⌋
+
+end
+
+end A073555.P18401469751614057128
+
+namespace A073555
+
+/-- `and(-2, 10^n)+1-floor(10^n/3)` -/
+def P18401469751614057128.Spec : Prop :=
+  ∀ n, P18401469751614057128.a n = A073555 (n + 1)
+
+end A073555
+
 /-! ## A073555.P13166107158023961040
 
 `A073554(n+1)/2+1`
@@ -6371,6 +6349,29 @@ namespace A073555
 /-- `A073554(n+1)/2+1` -/
 def P13166107158023961040.Spec : Prop :=
   ∀ n, P13166107158023961040.a n = (A073555 (n + 1) : ℚ)
+
+end A073555
+
+/-! ## A073555.P546075521240149491
+
+`A000533(n)-A002277(n)`
+-/
+
+namespace A073555.P546075521240149491
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000533 n - A002277 n
+
+end
+
+end A073555.P546075521240149491
+
+namespace A073555
+
+/-- `A000533(n)-A002277(n)` -/
+def P546075521240149491.Spec : Prop :=
+  ∀ n, P546075521240149491.a n = A073555 (n + 1)
 
 end A073555
 

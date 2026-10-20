@@ -22,15 +22,17 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6092,60 +6094,6 @@ namespace A044441
 /-- `eq[A132471(A348940(n+1)), A180595(n+3)]` -/
 def P16079285598197210609.Spec : Prop :=
   ∀ n, (P16079285598197210609.a n : ℤ) = A044441 (n + 1)
-
-end A044441
-
-/-! ## A044441.P13356364655414115470
-
-`A017257(comp[17-A017173(n)])`
--/
-
-namespace A044441.P13356364655414115470
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  17 - A017173 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017257 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A044441.P13356364655414115470
-
-namespace A044441
-
-/-- `A017257(comp[17-A017173(n)])` -/
-def P13356364655414115470.Spec : Prop :=
-  ∀ n, P13356364655414115470.a n = A044441 (n + 1)
-
-end A044441
-
-/-! ## A044441.P5867524957573549635
-
-`A017257(comp[A017257(n)-A301547(n)])`
--/
-
-namespace A044441.P5867524957573549635
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017257 n - A301547 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017257 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A044441.P5867524957573549635
-
-namespace A044441
-
-/-- `A017257(comp[A017257(n)-A301547(n)])` -/
-def P5867524957573549635.Spec : Prop :=
-  ∀ n, P5867524957573549635.a n = A044441 (n + 1)
 
 end A044441
 

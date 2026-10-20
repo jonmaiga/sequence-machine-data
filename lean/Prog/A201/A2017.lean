@@ -6,6 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -21,14 +22,16 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -53,7 +56,6 @@ import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -77,7 +79,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -1691,7 +1692,7 @@ end A201711.P947954172822263151
 /-!
 # A201712: Primes of the form 2n^2 - 3.
 
-The programs for A201712, the canonical program `A201712.P13264653286749342928` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201712 has offset 1).
+The programs for A201712, the canonical program `A201712.P13264653286749342928` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201712 has offset 1).
 
 The definition of A201712 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 128 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1700,7 +1701,7 @@ The definition of A201712 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*n²-3]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201712
@@ -2346,7 +2347,7 @@ end A201713.P18357704657412799526
 /-!
 # A201714: Primes of the form 2n^2 - 7.
 
-The programs for A201714, the canonical program `A201714.P16069665242124546805` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201714 has offset 1).
+The programs for A201714, the canonical program `A201714.P16069665242124546805` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201714 has offset 1).
 
 The definition of A201714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 139 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2355,7 +2356,7 @@ The definition of A201714 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*n²-7]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201714
@@ -3113,7 +3114,7 @@ end A201715.P16296448852964957798
 /-!
 # A201716: Primes of the form 3*m^2 - 4.
 
-The programs for A201716, the canonical program `A201716.P13219196250872832578` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201716 has offset 1).
+The programs for A201716, the canonical program `A201716.P13219196250872832578` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201716 has offset 1).
 
 The definition of A201716 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3122,7 +3123,7 @@ The definition of A201716 is `conjectured`: the Lean definition is a formula tha
 
 `p?[3*n²-4]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201716
@@ -4041,25 +4042,6 @@ end
 
 end A201719.P17005174025805833517
 
-/-! ## A201719.P12612914658983403379
-
-`A163183(comp[A030250(n)²])`
--/
-
-namespace A201719.P12612914658983403379
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030250 n ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163183 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A201719.P12612914658983403379
-
 /-! ## A201719.P13812297645015224001
 
 `A294993(∑[A090182(n)!])`
@@ -4162,29 +4144,10 @@ end A201721.P7114916955336645872
 /-!
 # A201722: Number of n X 1 0..4 arrays with rows and columns lexicographically nondecreasing and no element equal to the number of horizontal and vertical neighbors equal to itself.
 
-The programs for A201722, the canonical program `A201722.P8755741246545386823` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201722 has offset 1).
+The programs for A201722, the canonical program `A201722.P8755741246545386823` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201722 has offset 1).
 
-The definition of A201722 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A201722 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A201722.P8755741246545386823
-
-`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=4, a(1)=10, a(2)=20, a(3)=35, a(4)=56`
-
-The canonical program, it is in `Seq.B000.C026`.
--/
-
-namespace A201722
-
-/-- `3*a(n-1)-3*a(n-2)+a(n-3)` -/
-def P8755741246545386823.Spec : Prop :=
-  ∀ n, P8755741246545386823.a n = A201722 (n + 1)
-
-theorem P8755741246545386823.correct : P8755741246545386823.Spec := by
-  intro n
-  simp only [A201722, Nat.add_sub_cancel]
-
-end A201722
 
 /-! ## A201722.P2837802660962618026
 
@@ -4229,6 +4192,25 @@ namespace A201722
 /-- `floor(3*(sqrt(2)+n*sqrt(n²+3)))` -/
 def P15572440446936602254.Spec : Prop :=
   ∀ n, P15572440446936602254.a n = A201722 (n + 1)
+
+end A201722
+
+/-! ## A201722.P8755741246545386823
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=4, a(1)=10, a(2)=20, a(3)=35, a(4)=56`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A201722
+
+/-- `3*a(n-1)-3*a(n-2)+a(n-3)` -/
+def P8755741246545386823.Spec : Prop :=
+  ∀ n, P8755741246545386823.a n = A201722 (n + 1)
+
+theorem P8755741246545386823.correct : P8755741246545386823.Spec := by
+  intro n
+  simp only [A201722, Nat.add_sub_cancel]
 
 end A201722
 
@@ -5717,7 +5699,7 @@ end A201771.P6848260536912764953
 
 /-! ## A201771.P13863345661986089032
 
-`60^a(n-1)^2` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0`
+`(60^a(n-1))^2` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0`
 -/
 
 namespace A201771.P13863345661986089032
@@ -7887,7 +7869,7 @@ end A201791.P2451721665841376219
 /-!
 # A201792: Primes of the form 6n^2 - 7.
 
-The programs for A201792, the canonical program `A201792.P10767721486925243781` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201792 has offset 1).
+The programs for A201792, the canonical program `A201792.P10767721486925243781` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201792 has offset 1).
 
 The definition of A201792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7896,7 +7878,7 @@ The definition of A201792 is `conjectured`: the Lean definition is a formula tha
 
 `p?[6*n²-7]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201792

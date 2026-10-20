@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -18,20 +19,19 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,14 +40,12 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -62,7 +60,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -90,7 +87,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A032200: Number of rooted compound windmills (mobiles) of n nodes.
@@ -112,28 +108,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032200.P12811067919099830690
-
-/-! ## A032200.P10551863877667054545
-
-`A130969(comp[gcd(n, ∑[n])+9])`
--/
-
-namespace A032200.P10551863877667054545
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.gcd n (∑ j ∈ Finset.range (n + 1), f2 j) + 9
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130969 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)
-
-end
-
-end A032200.P10551863877667054545
 
 /-! ## A032200.P4936813098288858882
 
@@ -3366,27 +3340,50 @@ end A032259.P326520270870802937
 /-!
 # A032260: Number of n X n (0,1) matrices such that each row and each column is nondecreasing or nonincreasing.
 
-The programs for A032260, the canonical program `A032260.P251616276541126924` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032260 has offset 1).
+The programs for A032260, the canonical program `A032260.P16820418409441747498` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032260 has offset 1).
 
-The definition of A032260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A032260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A032260.P16820418409441747498
+
+`2*(n+1)*(C(2*(n+1), n+1)-(n+1))`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A032260
+
+/-- `2*(n+1)*(C(2*(n+1), n+1)-(n+1))` -/
+def P16820418409441747498.Spec : Prop :=
+  ∀ n, P16820418409441747498.a n = A032260 (n + 1)
+
+theorem P16820418409441747498.correct : P16820418409441747498.Spec := by
+  intro n
+  simp only [A032260, Nat.add_sub_cancel]
+
+end A032260
 
 /-! ## A032260.P251616276541126924
 
 `A002011(n)-2*(n+1)²`
-
-The canonical program, it is in `Seq.B002.C000`.
 -/
+
+namespace A032260.P251616276541126924
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002011 n - (2 * (n + 1) ^ 2 : ℤ)
+
+end
+
+end A032260.P251616276541126924
 
 namespace A032260
 
 /-- `A002011(n)-2*(n+1)²` -/
 def P251616276541126924.Spec : Prop :=
   ∀ n, P251616276541126924.a n = A032260 (n + 1)
-
-theorem P251616276541126924.correct : P251616276541126924.Spec := by
-  intro n
-  simp only [A032260, Nat.add_sub_cancel]
 
 end A032260
 
@@ -5075,17 +5072,40 @@ end A032278.P18303945598780397191
 /-!
 # A032279: Number of bracelets (turnover necklaces) of n beads of 2 colors, 5 of them black.
 
-The programs for A032279, the canonical program `A032279.P16514170401848741144` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032279 has offset 5).
+The programs for A032279, the canonical program `A032279.P18072235396307489489` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032279 has offset 5).
 
-The definition of A032279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A032279 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A032279.P18072235396307489489
+
+`(A008646(n)+C(floor((n+4)/2), 2))/2`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A032279
+
+/-- `(A008646(n)+C(floor((n+4)/2), 2))/2` -/
+def P18072235396307489489.Spec : Prop :=
+  ∀ n, P18072235396307489489.a n = (A032279 (n + 5) : ℚ)
+
+end A032279
 
 /-! ## A032279.P16514170401848741144
 
 `(ceil(C(n+4, 4)/5)+C(floor(n/2)+2, 2))/2`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A032279.P16514170401848741144
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (⌈(Nat.choose (n + 4) 4 : ℚ) / 5⌉ + (Nat.choose (⌊(n : ℚ) / 2⌋ + 2).toNat 2 : ℤ) : ℚ) / 2
+
+end
+
+end A032279.P16514170401848741144
 
 namespace A032279
 

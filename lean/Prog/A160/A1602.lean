@@ -9,19 +9,21 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C020
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C024
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -55,6 +57,7 @@ import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
+import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -84,7 +87,7 @@ set_option linter.unreachableTactic false
 /-!
 # A160215: Primes congruent to 2^k+1 (mod 2^(k+1)), where k is any even integer >=0.
 
-The programs for A160215, the canonical program `A160215.P17175051034793309939` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160215 has offset 1).
+The programs for A160215, the canonical program `A160215.P17175051034793309939` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160215 has offset 1).
 
 The definition of A160215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -93,7 +96,7 @@ The definition of A160215 is `conjectured`: the Lean definition is a formula tha
 
 `p?[(n+2)*xor(n, n+1)%3]`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A160215
@@ -1898,7 +1901,7 @@ end A160241.P16946228953018553347
 /-!
 # A160242: Triangle A(n,m) read by rows: a quarter of the Fourier coefficient [cos(m*t)] of the shifted Boubaker polynomial B_n(2*cos t)-2*cos(n*t).
 
-The programs for A160242, the canonical program `A160242.P7635650058513831389` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160242 has offset 2).
+The programs for A160242, the canonical program `A160242.P7635650058513831389` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160242 has offset 2).
 
 The definition of A160242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1907,7 +1910,7 @@ The definition of A160242 is `conjectured`: the Lean definition is a formula tha
 
 `2-Δ[round(sqrt(n))]`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A160242
@@ -3260,7 +3263,7 @@ end A160248.P7444568833985009736
 /-!
 # A160250: a(n) = 64*n^3 - 168*n^2 + 148*n - 43.
 
-The programs for A160250, the canonical program `A160250.P11515129830727363970` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160250 has offset 1).
+The programs for A160250, the canonical program `A160250.P11515129830727363970` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160250 has offset 1).
 
 The definition of A160250 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `64*(n+1)^3-168*(n+1)²+148*(n+1)-43` (program `A160250.P11515129830727363970`, by `A160250.P11515129830727363970.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3298,7 +3301,7 @@ end A160250
 
 `64*(n+1)^3-168*(n+1)²+148*(n+1)-43`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A160250

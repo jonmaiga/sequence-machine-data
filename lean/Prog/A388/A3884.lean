@@ -3,11 +3,11 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C008
-import Seq.B000.C018
-import Seq.B000.C023
-import Seq.B000.C037
+import Seq.B000.C019
+import Seq.B000.C024
+import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B003.C002
@@ -30,6 +30,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C017
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -347,7 +348,7 @@ end A388423.P3823635476621280925
 /-!
 # A388424: Number of axis-aligned 2 X 2 squares in the 3D projection of a (3n+2)-dimensional hypercube with side length 2.
 
-The programs for A388424, the canonical program `A388424.P17691383906920712434` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388424 has offset 0).
+The programs for A388424, the canonical program `A388424.P17691383906920712434` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388424 has offset 0).
 
 The definition of A388424 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -356,7 +357,7 @@ The definition of A388424 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*2^(3*n)-16*2^(2*n)+5*2^n`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A388424
@@ -600,36 +601,6 @@ def P4207848281327105067.Spec : Prop :=
 
 end A388427
 
-/-! ## A388427.P10463067039997393644
-
-`∩[A188654(n+1), A303554(n+1)]`
--/
-
-namespace A388427.P10463067039997393644
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188654 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303554 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A388427.P10463067039997393644
-
-namespace A388427
-
-/-- `∩[A188654(n+1), A303554(n+1)]` -/
-def P10463067039997393644.Spec : Prop :=
-  ∀ n, (P10463067039997393644.a n : ℤ) = A388427 (n + 1)
-
-end A388427
-
 /-! ## A388427.P15345399516904346052
 
 `∩[A002808(n+1), A303554(n+1)]`
@@ -657,6 +628,36 @@ namespace A388427
 /-- `∩[A002808(n+1), A303554(n+1)]` -/
 def P15345399516904346052.Spec : Prop :=
   ∀ n, (P15345399516904346052.a n : ℤ) = A388427 (n + 1)
+
+end A388427
+
+/-! ## A388427.P10463067039997393644
+
+`∩[A188654(n+1), A303554(n+1)]`
+-/
+
+namespace A388427.P10463067039997393644
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188654 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303554 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388427.P10463067039997393644
+
+namespace A388427
+
+/-- `∩[A188654(n+1), A303554(n+1)]` -/
+def P10463067039997393644.Spec : Prop :=
+  ∀ n, (P10463067039997393644.a n : ℤ) = A388427 (n + 1)
 
 end A388427
 

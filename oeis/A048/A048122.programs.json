@@ -21,6 +21,10 @@
         "3",
         "^",
         "sub"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

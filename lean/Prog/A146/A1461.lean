@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -11,18 +12,20 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -31,7 +34,7 @@ import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -42,9 +45,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -5280,6 +5283,48 @@ end
 end A146168.P5484769263350936664
 
 /-!
+# A146169: Percentage (rounded) of semiprimes <= 2^n which are odd and squarefree.
+
+The programs for A146169, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146169.P3773313506564430547
+
+`round(A146168(n+2)/A125527(n+2)*100)`
+-/
+
+namespace A146169.P3773313506564430547
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A146168 (n + 2) : ℚ) / (A125527 (n + 2) : ℚ) * 100)
+
+end
+
+end A146169.P3773313506564430547
+
+/-!
+# A146170: Percentage (rounded) of odd numbers < 2^n which are primes or squarefree semiprimes.
+
+The programs for A146170, there is no canonical definition to state claims against.
+-/
+
+/-! ## A146170.P15771287166551394704
+
+`round((A146168(n+1)+A007053(n+1)-1)/2^n*100)`
+-/
+
+namespace A146170.P15771287166551394704
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((A146168 (n + 1) + A007053 (n + 1) - 1 : ℚ) / (2 ^ n : ℚ) * 100)
+
+end
+
+end A146170.P15771287166551394704
+
+/-!
 # A146171: Number of n X n binary arrays with all ones connected only in a 110-100-111 pattern in any orientation.
 
 The programs for A146171, there is no canonical definition to state claims against.
@@ -5879,7 +5924,7 @@ end A146178.P5297075386637963486
 /-!
 # A146179: Digit sums of Cullen numbers.
 
-The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
+The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
 
 The definition of A146179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5888,7 +5933,7 @@ The definition of A146179 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n*2^n+1, #]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A146179

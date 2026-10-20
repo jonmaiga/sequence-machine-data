@@ -15,15 +15,15 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,6 +41,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -1079,7 +1080,7 @@ end A077318.P10723252911061595425
 
 /-! ## A077318.P17601137774016372874
 
-`-xor(n, -1)*A077319(ϕ²-(ϕ-n))`
+`-(xor(n, -1)*A077319(ϕ²-(ϕ-n)))`
 -/
 
 namespace A077318.P17601137774016372874
@@ -2926,25 +2927,6 @@ end
 
 end A077344.P3127892236573591722
 
-/-! ## A077344.P12082058377522762887
-
-`A210757(comp[A272619(n+1)-A006015(n)])`
--/
-
-namespace A077344.P12082058377522762887
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272619 (n + 1) - A006015 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210757 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A077344.P12082058377522762887
-
 /-!
 # A077345: a(n) is the n-th prime whose decimal expansion begins with the decimal expansion of n.
 
@@ -4585,34 +4567,6 @@ end
 
 end A077356.P908741653124618339
 
-/-! ## A077356.P8633097150939887015
-
-`∪[lt[A064216(3*n+1), 48]², A244155(n)²]`
--/
-
-namespace A077356.P8633097150939887015
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064216 (3 * n + 1)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  48
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < (f3 j : ℤ)) n ^ 2
-
-def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244155 n ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
-
-end
-
-end A077356.P8633097150939887015
-
 /-! ## A077356.P16268314687902064806
 
 `∪[(and(4, A006764(n+1))+n)², A077357(n+1)]`
@@ -4918,28 +4872,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A077360.P65395107555815903
-
-/-! ## A077360.P2154340654085924181
-
-`∩[A069686(n+1), A190731(n+1)]`
--/
-
-namespace A077360.P2154340654085924181
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069686 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A190731 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A077360.P2154340654085924181
 
 /-!
 # A077361: Smallest n-digit prime whose external digits as well as internal digits form a prime, or 0 if no such number exists.
@@ -7040,7 +6972,7 @@ end A077396.P10840996272933394229
 /-!
 # A077397: Expansion of (1+31*x-2*x^2-2*x^3)/(1-16*x^2+x^4).
 
-The programs for A077397, the canonical program `A077397.P7456031142027412149` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077397 has offset 0).
+The programs for A077397, the canonical program `A077397.P7456031142027412149` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077397 has offset 0).
 
 The definition of A077397 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+31x-2x^2-2x^3)/(1-16x^2+x^4))` (program `A077397.P7456031142027412149`, by `A077397.P7456031142027412149.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7049,7 +6981,7 @@ The definition of A077397 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+31x-2x^2-2x^3)/(1-16x^2+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077397
@@ -7257,7 +7189,7 @@ end A077397
 /-!
 # A077398: First member of the Diophantine pair (m,k) that satisfies 7*(m^2+m) = k^2+k; a(n)=m.
 
-The programs for A077398, the canonical program `A077398.P7595743396008062868` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077398 has offset 0).
+The programs for A077398, the canonical program `A077398.P7595743396008062868` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077398 has offset 0).
 
 The definition of A077398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7266,7 +7198,7 @@ The definition of A077398 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*a(n-2)-a(n-4)+7` with `a(0)=0, a(1)=2, a(2)=5, a(3)=39`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077398
@@ -7402,7 +7334,7 @@ end A077398
 /-!
 # A077399: Triangular numbers that are 1/7 of triangular numbers.
 
-The programs for A077399, the canonical program `A077399.P16597783867148407357` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077399 has offset 0).
+The programs for A077399, the canonical program `A077399.P16597783867148407357` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077399 has offset 0).
 
 The definition of A077399 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7411,7 +7343,7 @@ The definition of A077399 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `254*a(n-2)-a(n-4)+18` with `a(0)=0, a(1)=3, a(2)=15, a(3)=780`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077399

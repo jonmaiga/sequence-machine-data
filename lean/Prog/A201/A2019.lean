@@ -4,36 +4,36 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -68,7 +68,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A201908: Irregular triangle of 2^k mod (2n-1).
@@ -673,25 +672,6 @@ end
 
 end A201947.P9329914917750984226
 
-/-! ## A201947.P17643096346466372743
-
-`char[A163357(n)]*A123585(A061579(n))`
--/
-
-namespace A201947.P17643096346466372743
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163357 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A123585 (A061579 n).toNat
-
-end
-
-end A201947.P17643096346466372743
-
 /-! ## A201947.P17513030406224354262
 
 `A123585(A061579(n))*A158388(n+1)`
@@ -818,6 +798,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201947.P12386222438534720851
+
+/-! ## A201947.P17643096346466372743
+
+`char[A163357(n)]*A123585(A061579(n))`
+-/
+
+namespace A201947.P17643096346466372743
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163357 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A123585 (A061579 n).toNat
+
+end
+
+end A201947.P17643096346466372743
 
 /-! ## A201947.P16000251775769010287
 
@@ -2535,7 +2534,7 @@ end A201965.P17731411259778888423
 /-!
 # A201967: Expansion of 1/(1-2*x-3*x^2+x^4) in powers of x.
 
-The programs for A201967, the canonical program `A201967.P1570897232147631291` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201967 has offset 0).
+The programs for A201967, the canonical program `A201967.P1570897232147631291` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201967 has offset 0).
 
 The definition of A201967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-3x^2+x^4))` (program `A201967.P1570897232147631291`, by `A201967.P1570897232147631291.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2544,7 +2543,7 @@ The definition of A201967 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-3x^2+x^4))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A201967
@@ -2821,53 +2820,27 @@ end A201974.P8184088998992276777
 /-!
 # A201975: Number of n X 2 0..3 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards.
 
-The programs for A201975, the canonical program `A201975.P13393330812320921213` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201975 has offset 1).
+The programs for A201975, the canonical program `A201975.P8699609633938881539` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201975 has offset 1).
 
-The definition of A201975 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A201975 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A201975.P13393330812320921213
-
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=4, a(1)=30, a(2)=72, a(3)=131`
-
-The canonical program, it is in `Seq.B000.C026`.
--/
-
-namespace A201975
-
-/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
-def P13393330812320921213.Spec : Prop :=
-  ∀ n, P13393330812320921213.a n = A201975 (n + 1)
-
-theorem P13393330812320921213.correct : P13393330812320921213.Spec := by
-  intro n
-  simp only [A201975, Nat.add_sub_cancel]
-
-end A201975
 
 /-! ## A201975.P8699609633938881539
 
 `∑[a(n-1)+14+n]` with `a(0)=4, a(1)=26`
+
+The canonical program, it is in `Seq.B000.C028`.
 -/
-
-namespace A201975.P8699609633938881539
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [4, 26] fun n f1 =>
-  f1 (n - 1) + 14 + n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A201975.P8699609633938881539
 
 namespace A201975
 
 /-- `∑[a(n-1)+14+n]` -/
 def P8699609633938881539.Spec : Prop :=
   ∀ n, (P8699609633938881539.a n : ℤ) = A201975 (n + 1)
+
+theorem P8699609633938881539.correct : P8699609633938881539.Spec := by
+  intro n
+  simp only [A201975, Nat.add_sub_cancel]
 
 end A201975
 

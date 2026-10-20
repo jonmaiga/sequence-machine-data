@@ -6,27 +6,30 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C015
+import Seq.B000.C012
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C024
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -64,6 +67,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
@@ -1068,7 +1072,7 @@ end A197210.P1662030529903095723
 /-!
 # A197211: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,3,2,1,0 for x=0,1,2,3,4.
 
-The programs for A197211, the canonical program `A197211.P7418357946200209690` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197211 has offset 1).
+The programs for A197211, the canonical program `A197211.P7418357946200209690` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197211 has offset 1).
 
 The definition of A197211 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1077,7 +1081,7 @@ The definition of A197211 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-2)+2*a(n-3)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=5, a(3)=8, a(4)=18`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A197211
@@ -4161,7 +4165,7 @@ end A197243.P6908191415842016689
 /-!
 # A197244: Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 0,0,1,1,1 for x=0,1,2,3,4.
 
-The programs for A197244, the canonical program `A197244.P17749954141902796861` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197244 has offset 1).
+The programs for A197244, the canonical program `A197244.P17749954141902796861` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197244 has offset 1).
 
 The definition of A197244 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4170,7 +4174,7 @@ The definition of A197244 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-2)+2*a(n-3)+a(n-4)-2*a(n-5)` with `a(0)=2, a(1)=4, a(2)=8, a(3)=16, a(4)=40`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A197244
@@ -4700,23 +4704,48 @@ end A197249.P5570550885735258712
 /-!
 # A197271: a(n) = (10 / ((3*n+1)*(3*n+2))) * binomial(4*n, n).
 
-The programs for A197271, the canonical program `A197271.P6105395958063050445` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197271 has offset 0).
+The programs for A197271, the canonical program `A197271.P10709753192351263941` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197271 has offset 0).
 
-The definition of A197271 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000260, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A197271 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A197271.P6105395958063050445
+/-! ## A197271.P10709753192351263941
 
 `A000260(n)*5*(n+1)/(4*n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A197271
 
 /-- `A000260(n)*5*(n+1)/(4*n+1)` -/
-def P6105395958063050445.Spec : Prop :=
-  ∀ n, P6105395958063050445.a n = (A197271 n : ℚ)
+def P10709753192351263941.Spec : Prop :=
+  ∀ n, P10709753192351263941.a n = (A197271 n : ℚ)
+
+end A197271
+
+/-! ## A197271.P3907293439162149586
+
+`10/((3*n+1)*(3*n+2))*C(4*n, n)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A197271.P3907293439162149586
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  10 / ((3 * n + 1) * (3 * n + 2) : ℚ) * (Nat.choose (4 * n) n : ℚ)
+
+end
+
+end A197271.P3907293439162149586
+
+namespace A197271
+
+/-- `10/((3*n+1)*(3*n+2))*C(4*n, n)` -/
+def P3907293439162149586.Spec : Prop :=
+  ∀ n, P3907293439162149586.a n = (A197271 n : ℚ)
 
 end A197271
 
@@ -4815,8 +4844,25 @@ end A197271
 /-!
 # A197272: a(n) = (6/((4*n+1)*(4*n+2)))*binomial(5*n,n).
 
-The programs for A197272, there is no canonical definition to state claims against.
+The programs for A197272, the canonical program `A197272.P6611341782457821211` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197272 has offset 0).
+
+The definition of A197272 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A197272.P6611341782457821211
+
+`6/((4*n+1)*(4*n+2))*C(5*n, n)`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A197272
+
+/-- `6/((4*n+1)*(4*n+2))*C(5*n, n)` -/
+def P6611341782457821211.Spec : Prop :=
+  ∀ n, P6611341782457821211.a n = (A197272 n : ℚ)
+
+end A197272
 
 /-! ## A197272.P2985118756704552283
 
@@ -4833,6 +4879,14 @@ end
 
 end A197272.P2985118756704552283
 
+namespace A197272
+
+/-- `3*A002294(n)/A005408(n)` -/
+def P2985118756704552283.Spec : Prop :=
+  ∀ n, P2985118756704552283.a n = (A197272 n : ℚ)
+
+end A197272
+
 /-! ## A197272.P1073791573213292709
 
 `3/A016861(n)*A118969(n)`
@@ -4848,6 +4902,14 @@ end
 
 end A197272.P1073791573213292709
 
+namespace A197272
+
+/-- `3/A016861(n)*A118969(n)` -/
+def P1073791573213292709.Spec : Prop :=
+  ∀ n, P1073791573213292709.a n = (A197272 n : ℚ)
+
+end A197272
+
 /-! ## A197272.P12781171004246196131
 
 `3/(2*n+1)*A070914(A052905(n+2))`
@@ -4862,6 +4924,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A197272.P12781171004246196131
+
+namespace A197272
+
+/-- `3/(2*n+1)*A070914(A052905(n+2))` -/
+def P12781171004246196131.Spec : Prop :=
+  ∀ n, P12781171004246196131.a n = (A197272 n : ℚ)
+
+end A197272
 
 /-!
 # A197273: Number of n X n 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 2,0,1,1,1 for x=0,1,2,3,4.

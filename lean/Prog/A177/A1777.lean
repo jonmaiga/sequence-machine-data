@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -15,7 +16,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -31,15 +32,17 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -98,7 +101,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -179,7 +181,7 @@ end A177701.P3734058557329612521
 /-!
 # A177702: Period 3: repeat [1, 1, 2].
 
-The programs for A177702, the canonical program `A177702.P3114234873330636102` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177702 has offset 0).
+The programs for A177702, the canonical program `A177702.P3114234873330636102` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177702 has offset 0).
 
 The definition of A177702 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -188,7 +190,7 @@ The definition of A177702 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177702
@@ -206,7 +208,7 @@ end A177702
 /-!
 # A177704: Period 4: repeat [1, 1, 1, 2].
 
-The programs for A177704, the canonical program `A177704.P8770811667183017524` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177704 has offset 0).
+The programs for A177704, the canonical program `A177704.P8770811667183017524` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177704 has offset 0).
 
 The definition of A177704 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -215,7 +217,7 @@ The definition of A177704 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177704
@@ -233,7 +235,7 @@ end A177704
 /-!
 # A177706: Period 5: repeat [1, 1, 1, 1, 2].
 
-The programs for A177706, the canonical program `A177706.P15820019009912401589` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177706 has offset 0).
+The programs for A177706, the canonical program `A177706.P15820019009912401589` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177706 has offset 0).
 
 The definition of A177706 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -242,7 +244,7 @@ The definition of A177706 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-5)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177706
@@ -3473,6 +3475,27 @@ end
 
 end A177729.P15599263976225867
 
+/-! ## A177729.P16268586725307365941
+
+`eq[A008908(n+1), A008908(A070167(n+1))]+1`
+-/
+
+namespace A177729.P16268586725307365941
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008908 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008908 (A070167 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
+
+end
+
+end A177729.P16268586725307365941
+
 /-! ## A177729.P17385918116094912481
 
 `A070167(comp[comp[A070167(n+1)]-1]+1)`
@@ -3496,27 +3519,6 @@ end
 
 end A177729.P17385918116094912481
 
-/-! ## A177729.P16268586725307365941
-
-`eq[A008908(n+1), A008908(A070167(n+1))]+1`
--/
-
-namespace A177729.P16268586725307365941
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008908 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008908 (A070167 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
-
-end
-
-end A177729.P16268586725307365941
-
 /-! ## A177729.P2290631013891208564
 
 `A235452(a(n-1))+1` with `a(0)=1`
@@ -3535,7 +3537,7 @@ end A177729.P2290631013891208564
 /-!
 # A177730: Expansion of (6*x + 1) / ((x - 1)*(2*x - 1)*(4*x - 1)*(8*x - 1)).
 
-The programs for A177730, the canonical program `A177730.P17802875165745839644` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177730 has offset 0).
+The programs for A177730, the canonical program `A177730.P17802875165745839644` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177730 has offset 0).
 
 The definition of A177730 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3544,7 +3546,7 @@ The definition of A177730 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^(n+1)-1)²*(2^(n+2)-1)/3`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177730
@@ -5321,7 +5323,7 @@ end A177746.P4611335092799613759
 /-!
 # A177747: Convolution of A008805 (triangular numbers repeated) with itself.
 
-The programs for A177747, the canonical program `A177747.P8418798792489768579` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177747 has offset 0).
+The programs for A177747, the canonical program `A177747.P8418798792489768579` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177747 has offset 0).
 
 The definition of A177747 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5330,7 +5332,7 @@ The definition of A177747 is `conjectured`: the Lean definition is a formula tha
 
 `∑[C(floor(n/2)+4, 4)]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177747
@@ -6412,27 +6414,23 @@ end A177754
 /-!
 # A177755: Number of ways to place 2 nonattacking bishops on an n X n toroidal board.
 
-The programs for A177755, the canonical program `A177755.P15063598767837681029` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177755 has offset 1).
+The programs for A177755, the canonical program `A177755.P15746514770599142484` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177755 has offset 1).
 
-The definition of A177755 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A177755 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A177755.P15063598767837681029
+/-! ## A177755.P15746514770599142484
 
-`(n+1)²*ceil(n²/2)`
+`(n+1)²*(2*(n+1)²-4*(n+1)+3+(-1)^(n+1))/4`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177755
 
-/-- `(n+1)²*ceil(n²/2)` -/
-def P15063598767837681029.Spec : Prop :=
-  ∀ n, P15063598767837681029.a n = A177755 (n + 1)
-
-theorem P15063598767837681029.correct : P15063598767837681029.Spec := by
-  intro n
-  simp only [A177755, Nat.add_sub_cancel]
+/-- `(n+1)²*(2*(n+1)²-4*(n+1)+3+(-1)^(n+1))/4` -/
+def P15746514770599142484.Spec : Prop :=
+  ∀ n, P15746514770599142484.a n = (A177755 (n + 1) : ℚ)
 
 end A177755
 
@@ -6485,29 +6483,6 @@ namespace A177755
 /-- `(∑[n]+1)*(n+1)²-(n+1)²*∑[log2(gcd(2, n))]` -/
 def P8146661402122133862.Spec : Prop :=
   ∀ n, P8146661402122133862.a n = (A177755 (n + 1) : ℝ)
-
-end A177755
-
-/-! ## A177755.P4431352973829712315
-
-`A000982(n)/(1/(n+1))²`
--/
-
-namespace A177755.P4431352973829712315
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000982 n : ℚ) / (1 / (n + 1 : ℚ)) ^ 2
-
-end
-
-end A177755.P4431352973829712315
-
-namespace A177755
-
-/-- `A000982(n)/(1/(n+1))²` -/
-def P4431352973829712315.Spec : Prop :=
-  ∀ n, P4431352973829712315.a n = (A177755 (n + 1) : ℚ)
 
 end A177755
 
@@ -6678,38 +6653,25 @@ end A177755
 /-!
 # A177756: Number of ways to place 3 nonattacking bishops on an n X n toroidal board.
 
-The programs for A177756, there is no canonical definition to state claims against.
+The programs for A177756, the canonical program `A177756.P15272795354350671764` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177756 has offset 1).
+
+The definition of A177756 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A177756.P17393146815445539022
+/-! ## A177756.P15272795354350671764
 
-`A065942(n)*A324815(A002110(n))`
+`1/12*(n-1)²*(n+1)²*(2*(n+1)²-4*(n+1)+5+3*(-1)^(n+1))`
+
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
-namespace A177756.P17393146815445539022
-noncomputable section
+namespace A177756
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065942 n * A324815 (A002110 n).toNat
+/-- `1/12*(n-1)²*(n+1)²*(2*(n+1)²-4*(n+1)+5+3*(-1)^(n+1))` -/
+def P15272795354350671764.Spec : Prop :=
+  ∀ n, P15272795354350671764.a n = (A177756 (n + 1) : ℚ)
 
-end
-
-end A177756.P17393146815445539022
-
-/-! ## A177756.P9184817865322169729
-
-`A146557(n+1)*A183096(A072262(n+1))`
--/
-
-namespace A177756.P9184817865322169729
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146557 (n + 1) * A183096 (A072262 (n + 1)).toNat
-
-end
-
-end A177756.P9184817865322169729
+end A177756
 
 /-!
 # A177757: Number of ways to place 4 nonattacking bishops on an n X n toroidal board.
@@ -7255,7 +7217,7 @@ end A177768.P4389736089131062687
 /-!
 # A177769: a(n) = 111*n.
 
-The programs for A177769, the canonical program `A177769.P9128237477351893085` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177769 has offset 1).
+The programs for A177769, the canonical program `A177769.P9128237477351893085` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177769 has offset 1).
 
 The definition of A177769 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `111*(n+1)` (program `A177769.P9128237477351893085`, by `A177769.P9128237477351893085.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7264,7 +7226,7 @@ The definition of A177769 is `verified`: the Lean definition is proven equivalen
 
 `111*(n+1)`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177769
@@ -7774,8 +7736,50 @@ end A177781.P16328942626563845809
 /-!
 # A177784: a(n) = binomial(n^2, n) / ( n*(n+1) ).
 
-The programs for A177784, there is no canonical definition to state claims against.
+The programs for A177784, the canonical program `A177784.P2066892306272755620` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177784 has offset 2).
+
+The definition of A177784 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A177784.P2066892306272755620
+
+`C((n+2)², n+2)/(2*C(n+3, 2))`
+
+The canonical program, it is in `Seq.B000.C025`.
+-/
+
+namespace A177784
+
+/-- `C((n+2)², n+2)/(2*C(n+3, 2))` -/
+def P2066892306272755620.Spec : Prop :=
+  ∀ n, P2066892306272755620.a n = (A177784 (n + 2) : ℚ)
+
+end A177784
+
+/-! ## A177784.P7690523631426812467
+
+`C((n+2)², n+2)/((n+2)*(n+3))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A177784.P7690523631426812467
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose ((n + 2) ^ 2) (n + 2) : ℚ) / ((n + 2) * (n + 3) : ℚ)
+
+end
+
+end A177784.P7690523631426812467
+
+namespace A177784
+
+/-- `C((n+2)², n+2)/((n+2)*(n+3))` -/
+def P7690523631426812467.Spec : Prop :=
+  ∀ n, P7690523631426812467.a n = (A177784 (n + 2) : ℚ)
+
+end A177784
 
 /-! ## A177784.P13842580771895652281
 
@@ -7792,23 +7796,13 @@ end
 
 end A177784.P13842580771895652281
 
-/-! ## A177784.P15813895214501012122
+namespace A177784
 
-`C(∑[2*n+3], n+1)/(n+3)`
--/
+/-- `C((n+2)²-2, n)` -/
+def P13842580771895652281.Spec : Prop :=
+  ∀ n, (P13842580771895652281.a n : ℤ) = A177784 (n + 2)
 
-namespace A177784.P15813895214501012122
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 3
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (∑ j ∈ Finset.range (n + 1), f1 j) (n + 1) : ℚ) / (n + 3 : ℚ)
-
-end
-
-end A177784.P15813895214501012122
+end A177784
 
 /-! ## A177784.P17031052582386991508
 
@@ -7828,6 +7822,14 @@ end
 
 end A177784.P17031052582386991508
 
+namespace A177784
+
+/-- `floor(C(∑[n+3+n], n+1)/(n+3))` -/
+def P17031052582386991508.Spec : Prop :=
+  ∀ n, P17031052582386991508.a n = A177784 (n + 2)
+
+end A177784
+
 /-! ## A177784.P12187381592924049320
 
 `ceil(C((n+3)*(n+1), n+1)/(n+3))`
@@ -7843,25 +7845,18 @@ end
 
 end A177784.P12187381592924049320
 
-/-! ## A177784.P11954941324437258205
+namespace A177784
 
-`round(C((n+3)*(n+1), n+1)/(n+3))`
--/
+/-- `ceil(C((n+3)*(n+1), n+1)/(n+3))` -/
+def P12187381592924049320.Spec : Prop :=
+  ∀ n, P12187381592924049320.a n = A177784 (n + 2)
 
-namespace A177784.P11954941324437258205
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((Nat.choose ((n + 3) * (n + 1)) (n + 1) : ℚ) / (n + 3 : ℚ))
-
-end
-
-end A177784.P11954941324437258205
+end A177784
 
 /-!
 # A177785: a(n) = a(n-1)^2 - a(n-2) for n > 2; a(1)=3, a(2)=0.
 
-The programs for A177785, the canonical program `A177785.P14439202525696818677` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177785 has offset 1).
+The programs for A177785, the canonical program `A177785.P14439202525696818677` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177785 has offset 1).
 
 The definition of A177785 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)²-a(n-2)` (program `A177785.P14439202525696818677`, by `A177785.P14439202525696818677.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7870,7 +7865,7 @@ The definition of A177785 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)²-a(n-2)` with `a(0)=3, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177785
@@ -7944,46 +7939,46 @@ end A177785
 /-!
 # A177787: Number of paths from (0,0) to (n+2,n) using only up and right steps and avoiding two or more consecutive moves up or three or more consecutive moves right.
 
-The programs for A177787, the canonical program `A177787.P18203894524224014824` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177787 has offset 1).
+The programs for A177787, the canonical program `A177787.P18203894524224014824` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177787 has offset 1).
 
 The definition of A177787 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A177787.P8771272552232839517
+/-! ## A177787.P1575057268504456422
 
-`(n+1)*(11+(n+1)²)/6`
+`(n+1)/6*(11+(n+1)²)`
 -/
 
-namespace A177787.P8771272552232839517
+namespace A177787.P1575057268504456422
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) * ((11 + (n + 1) ^ 2 : ℚ) / 6)
+  (n + 1 : ℚ) / 6 * (11 + (n + 1) ^ 2 : ℚ)
 
 end
 
-end A177787.P8771272552232839517
+end A177787.P1575057268504456422
 
 namespace A177787
 
-/-- `(n+1)*(11+(n+1)²)/6` -/
-def P8771272552232839517.Spec : Prop :=
-  ∀ n, P8771272552232839517.a n = (A177787 (n + 1) : ℚ)
+/-- `(n+1)/6*(11+(n+1)²)` -/
+def P1575057268504456422.Spec : Prop :=
+  ∀ n, P1575057268504456422.a n = (A177787 (n + 1) : ℚ)
 
-theorem P8771272552232839517.correct : P8771272552232839517.Spec := by
+theorem P1575057268504456422.correct : P1575057268504456422.Spec := by
   intro n
   induction n using Nat.strong_induction_on with
   | _ n ih =>
     match n with
     | 0 | 1 | 2 | 3 =>
-      simp [A177787, Nat.add_sub_cancel, A177787.P8771272552232839517.a, A177787.P18203894524224014824.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A177787, Nat.add_sub_cancel, A177787.P1575057268504456422.a, A177787.P18203894524224014824.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 4 =>
       have h1 := ih (m + 3) (by omega)
       have h2 := ih (m + 2) (by omega)
       have h3 := ih (m + 1) (by omega)
       have h4 := ih m (by omega)
-      simp only [A177787, Nat.add_sub_cancel, A177787.P8771272552232839517.a, A177787.P18203894524224014824.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      simp only [A177787, Nat.add_sub_cancel, A177787.P1575057268504456422.a, A177787.P18203894524224014824.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
       push_cast at h1 h2 h3 h4 ⊢
@@ -7996,7 +7991,7 @@ end A177787
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=2, a(1)=5, a(2)=10, a(3)=18`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A177787
@@ -8008,29 +8003,6 @@ def P18203894524224014824.Spec : Prop :=
 theorem P18203894524224014824.correct : P18203894524224014824.Spec := by
   intro n
   simp only [A177787, Nat.add_sub_cancel]
-
-end A177787
-
-/-! ## A177787.P6168882276426586925
-
-`A140226(n+1)/2`
--/
-
-namespace A177787.P6168882276426586925
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A140226 (n + 1) : ℚ) / 2
-
-end
-
-end A177787.P6168882276426586925
-
-namespace A177787
-
-/-- `A140226(n+1)/2` -/
-def P6168882276426586925.Spec : Prop :=
-  ∀ n, P6168882276426586925.a n = (A177787 (n + 1) : ℚ)
 
 end A177787
 
@@ -8439,26 +8411,55 @@ def P5824205349807592866.Spec : Prop :=
 
 end A177787
 
+/-! ## A177787.P6168882276426586925
+
+`A140226(n+1)/2`
+-/
+
+namespace A177787.P6168882276426586925
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A140226 (n + 1) : ℚ) / 2
+
+end
+
+end A177787.P6168882276426586925
+
+namespace A177787
+
+/-- `A140226(n+1)/2` -/
+def P6168882276426586925.Spec : Prop :=
+  ∀ n, P6168882276426586925.a n = (A177787 (n + 1) : ℚ)
+
+end A177787
+
 /-!
 # A177788: a(n) = binomial(n^2, n+1)/(n-1).
 
-The programs for A177788, there is no canonical definition to state claims against.
+The programs for A177788, the canonical program `A177788.P1309928515328305027` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177788 has offset 2).
+
+The definition of A177788 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A177788.P1309928515328305027
 
 `(n+2)*A177234(n+2)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
-namespace A177788.P1309928515328305027
-noncomputable section
+namespace A177788
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 2 : ℤ) * A177234 (n + 2)
+/-- `(n+2)*A177234(n+2)` -/
+def P1309928515328305027.Spec : Prop :=
+  ∀ n, P1309928515328305027.a n = A177788 (n + 2)
 
-end
+theorem P1309928515328305027.correct : P1309928515328305027.Spec := by
+  intro n
+  simp only [A177788, Nat.add_sub_cancel]
 
-end A177788.P1309928515328305027
+end A177788
 
 /-! ## A177788.P11625583954013284643
 
@@ -8475,6 +8476,14 @@ end
 
 end A177788.P11625583954013284643
 
+namespace A177788
+
+/-- `A178842(n+3)/(n+1)` -/
+def P11625583954013284643.Spec : Prop :=
+  ∀ n, P11625583954013284643.a n = (A177788 (n + 2) : ℚ)
+
+end A177788
+
 /-! ## A177788.P15727629821339147113
 
 `(n+2)²*A177784(n+2)`
@@ -8489,6 +8498,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A177788.P15727629821339147113
+
+namespace A177788
+
+/-- `(n+2)²*A177784(n+2)` -/
+def P15727629821339147113.Spec : Prop :=
+  ∀ n, P15727629821339147113.a n = A177788 (n + 2)
+
+end A177788
+
+/-! ## A177788.P14236819623277783160
+
+`C((n+2)², n+3)/(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A177788.P14236819623277783160
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose ((n + 2) ^ 2) (n + 3) : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A177788.P14236819623277783160
+
+namespace A177788
+
+/-- `C((n+2)², n+3)/(n+1)` -/
+def P14236819623277783160.Spec : Prop :=
+  ∀ n, P14236819623277783160.a n = (A177788 (n + 2) : ℚ)
+
+end A177788
 
 /-! ## A177788.P11472279108537211251
 
@@ -8505,23 +8547,13 @@ end
 
 end A177788.P11472279108537211251
 
-/-! ## A177788.P9329218781338591765
+namespace A177788
 
-`(n+2)*C((n+1)*(n+3), n+2)/(n+3)*ratio[n+1]`
--/
+/-- `(n+2)²*C((n+2)²-2, n)` -/
+def P11472279108537211251.Spec : Prop :=
+  ∀ n, (P11472279108537211251.a n : ℤ) = A177788 (n + 2)
 
-namespace A177788.P9329218781338591765
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 2 : ℚ) * ((Nat.choose ((n + 1) * (n + 3)) (n + 2) : ℚ) / (n + 3 : ℚ)) * ((f1 (n + 1) : ℚ) / (f1 n : ℚ))
-
-end
-
-end A177788.P9329218781338591765
+end A177788
 
 /-!
 # A177790: Number of paths from (0,0) to (n,n) avoiding 3 or more consecutive east steps and 3 or more consecutive north steps.

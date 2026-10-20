@@ -9,34 +9,33 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -88,7 +87,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A225900: T(n,k)=Number of nXk binary arrays whose sum with another nXk binary array containing no more than a single 1 has rows and columns in lexicographically nondecreasing order.
@@ -854,6 +852,21 @@ end A225908.P6200577891428041830
 
 The programs for A225909, there is no canonical definition to state claims against.
 -/
+
+/-! ## A225909.P18167773826720091074
+
+`(A226902(n+1)+1)^3-A226902(n+1)^3`
+-/
+
+namespace A225909.P18167773826720091074
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A226902 (n + 1) + 1) ^ 3 - A226902 (n + 1) ^ 3
+
+end
+
+end A225909.P18167773826720091074
 
 /-! ## A225909.P12391230367050463912
 
@@ -1639,107 +1652,6 @@ end
 end A225924.P8574549146302658006
 
 /-!
-# A225926: Least number of prime powers needed to sum up to n.
-
-The programs for A225926, there is no canonical definition to state claims against.
--/
-
-/-! ## A225926.P11065596938567585696
-
-`A063274(comp[A151654(n+1)])`
--/
-
-namespace A225926.P11065596938567585696
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151654 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063274 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A225926.P11065596938567585696
-
-/-! ## A225926.P12102154045081563670
-
-`A274459(comp[A151654(n+1)])`
--/
-
-namespace A225926.P12102154045081563670
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151654 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274459 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A225926.P12102154045081563670
-
-/-! ## A225926.P14824209102608534909
-
-`A063274(comp[A173760(n+1)²])`
--/
-
-namespace A225926.P14824209102608534909
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173760 (n + 1) ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063274 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A225926.P14824209102608534909
-
-/-! ## A225926.P8757388665212097363
-
-`A274459(comp[A173760(n+1)²])`
--/
-
-namespace A225926.P8757388665212097363
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173760 (n + 1) ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274459 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A225926.P8757388665212097363
-
-/-! ## A225926.P17612854081107178068
-
-`A063274(comp[A156444(n+4)²])`
--/
-
-namespace A225926.P17612854081107178068
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156444 (n + 4) ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063274 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A225926.P17612854081107178068
-
-/-!
 # A225927: Least number of prime powers greater than 1 needed to sum up to n, or 0 if n cannot be represented as a sum of prime powers.
 
 The programs for A225927, there is no canonical definition to state claims against.
@@ -1826,7 +1738,7 @@ end A225927.P11512336096607420704
 /-!
 # A225928: a(n) = 4*16^n + 8*4^n + 17.
 
-The programs for A225928, the canonical program `A225928.P13436948195386558090` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225928 has offset 0).
+The programs for A225928, the canonical program `A225928.P13436948195386558090` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225928 has offset 0).
 
 The definition of A225928 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*16^n+8*4^n+17` (program `A225928.P13436948195386558090`, by `A225928.P13436948195386558090.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1835,7 +1747,7 @@ The definition of A225928 is `verified`: the Lean definition is proven equivalen
 
 `4*16^n+8*4^n+17`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A225928
@@ -2150,6 +2062,29 @@ The programs for A225948, the canonical program `A225948.P11567398781708977786` 
 The definition of A225948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A225948.P12358287417159123307
+
+`(n²-16)/gcd(n²-16, 16*n)`
+-/
+
+namespace A225948.P12358287417159123307
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n ^ 2 : ℤ) - 16 : ℚ) / (Int.gcd ((n ^ 2 : ℤ) - 16) (16 * n : ℤ) : ℚ)
+
+end
+
+end A225948.P12358287417159123307
+
+namespace A225948
+
+/-- `(n²-16)/gcd(n²-16, 16*n)` -/
+def P12358287417159123307.Spec : Prop :=
+  ∀ n, P12358287417159123307.a n = (A225948 n : ℚ)
+
+end A225948
+
 /-! ## A225948.P11567398781708977786
 
 `(A225975(n)-A106609(n+4))*A106609(n+4)`
@@ -2238,29 +2173,6 @@ namespace A225948
 /-- `A014695(A174683(n))*A173651(∑[n+4]+3)` -/
 def P13050825265966478503.Spec : Prop :=
   ∀ n, P13050825265966478503.a n = A225948 n
-
-end A225948
-
-/-! ## A225948.P16356432985470693189
-
-`A139551(A212993(n))*A174680(n)`
--/
-
-namespace A225948.P16356432985470693189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139551 (A212993 n).toNat * A174680 n
-
-end
-
-end A225948.P16356432985470693189
-
-namespace A225948
-
-/-- `A139551(A212993(n))*A174680(n)` -/
-def P16356432985470693189.Spec : Prop :=
-  ∀ n, P16356432985470693189.a n = A225948 n
 
 end A225948
 
@@ -3441,23 +3353,23 @@ end A225964.P16723445763230116179
 /-!
 # A225972: The number of binary pattern classes in the (2,n)-rectangular grid with 3 '1's and (2n-3) '0's: two patterns are in same class if one of them can be obtained by a reflection or 180-degree rotation of the other.
 
-The programs for A225972, the canonical program `A225972.P10118941957907071` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225972 has offset 0).
+The programs for A225972, the canonical program `A225972.P12077912823201308333` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225972 has offset 0).
 
 The definition of A225972 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A225972.P10118941957907071
+/-! ## A225972.P12077912823201308333
 
 `(n-1)*(4*n²-2*n-3*(-1)^n+3)/12`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A225972
 
 /-- `(n-1)*(4*n²-2*n-3*(-1)^n+3)/12` -/
-def P10118941957907071.Spec : Prop :=
-  ∀ n, P10118941957907071.a n = (A225972 n : ℚ)
+def P12077912823201308333.Spec : Prop :=
+  ∀ n, P12077912823201308333.a n = (A225972 n : ℚ)
 
 end A225972
 
@@ -4967,6 +4879,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A225983.P11110049162613898522
+
+/-!
+# A225984: Linear recurrence sequence with infrequent pseudoprimes, a(n) = -a(n-1) + a(n-2) - a(n-3) + a(n-5), with initial terms (5, -1, 3, -7, 11).
+
+The programs for A225984, the canonical program `A225984.P10893283797276211328` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225984 has offset 0).
+
+The definition of A225984 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-a(n-1)+a(n-2)-a(n-3)+a(n-5)` (program `A225984.P10893283797276211328`, by `A225984.P10893283797276211328.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+-/
+
+/-! ## A225984.P10893283797276211328
+
+`-a(n-1)+a(n-2)-a(n-3)+a(n-5)` with `a(0)=5, a(1)=-1, a(2)=3, a(3)=-7, a(4)=11`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A225984
+
+/-- `-a(n-1)+a(n-2)-a(n-3)+a(n-5)` -/
+def P10893283797276211328.Spec : Prop :=
+  ∀ n, P10893283797276211328.a n = A225984 n
+
+theorem P10893283797276211328.correct : P10893283797276211328.Spec := by
+  intro n
+  simp only [A225984]
+
+end A225984
 
 /-!
 # A225985: List the positive numbers, remove even digits (including zeros) from each term; sequence = remaining terms.

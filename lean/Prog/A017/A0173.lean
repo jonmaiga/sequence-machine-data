@@ -5,10 +5,9 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C018
+import Seq.B000.C014
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -18,11 +17,12 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C001
 import Seq.B001.C005
 import Seq.B001.C007
@@ -12442,6 +12442,36 @@ def P1715960398164561300.Spec : Prop :=
 
 end A017335
 
+/-! ## A017335.P1048456583555866306
+
+`∩[A016855(2*n+1), A016855(n)]`
+-/
+
+namespace A017335.P1048456583555866306
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016855 (2 * n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016855 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A017335.P1048456583555866306
+
+namespace A017335
+
+/-- `∩[A016855(2*n+1), A016855(n)]` -/
+def P1048456583555866306.Spec : Prop :=
+  ∀ n, (P1048456583555866306.a n : ℤ) = A017335 n
+
+end A017335
+
 /-! ## A017335.P2932939531434510031
 
 `A016850(2*n+1)²²/A008587(2*n+1)`
@@ -12485,36 +12515,6 @@ namespace A017335
 /-- `A016850(2*n+1)²²/A008706(2*n+1)` -/
 def P2317509740907542912.Spec : Prop :=
   ∀ n, P2317509740907542912.a n = (A017335 n : ℚ)
-
-end A017335
-
-/-! ## A017335.P1048456583555866306
-
-`∩[A016855(2*n+1), A016855(n)]`
--/
-
-namespace A017335.P1048456583555866306
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016855 (2 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016855 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A017335.P1048456583555866306
-
-namespace A017335
-
-/-- `∩[A016855(2*n+1), A016855(n)]` -/
-def P1048456583555866306.Spec : Prop :=
-  ∀ n, (P1048456583555866306.a n : ℤ) = A017335 n
 
 end A017335
 

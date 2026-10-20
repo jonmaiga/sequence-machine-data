@@ -2,22 +2,24 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C027
+import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -28,6 +30,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -2778,7 +2781,7 @@ end A146759.P13986179827598209372
 /-!
 # A146761: Period 6: repeat [0, 0, 6, 6, 3, 3].
 
-The programs for A146761, the canonical program `A146761.P2499493355366120269` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146761 has offset 0).
+The programs for A146761, the canonical program `A146761.P2499493355366120269` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146761 has offset 0).
 
 The definition of A146761 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2787,7 +2790,7 @@ The definition of A146761 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)-a(n-2)+a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=0, a(2)=6, a(3)=6, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A146761
@@ -2947,7 +2950,7 @@ end A146762
 /-!
 # A146763: Rank of terms ending in 0 in A061039.
 
-The programs for A146763, the canonical program `A146763.P7672107579147738351` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146763 has offset 0).
+The programs for A146763, the canonical program `A146763.P7672107579147738351` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146763 has offset 0).
 
 The definition of A146763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2956,7 +2959,7 @@ The definition of A146763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*n-n%2`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A146763
@@ -2971,26 +2974,26 @@ theorem P7672107579147738351.correct : P7672107579147738351.Spec := by
 
 end A146763
 
-/-! ## A146763.P7314227232809404403
+/-! ## A146763.P10237969465490016599
 
-`a(n-1)+a(n-2)-a(n-3)` with `a(0)=0, a(1)=4, a(2)=10`
+`10*n-6-a(n-1)` with `a(0)=0`
 -/
 
-namespace A146763.P7314227232809404403
+namespace A146763.P10237969465490016599
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 4, 10] fun n a =>
-  a (n - 1) + a (n - 2) - a (n - 3)
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (10 * n : ℤ) - 6 - a (n - 1)
 
 end
 
-end A146763.P7314227232809404403
+end A146763.P10237969465490016599
 
 namespace A146763
 
-/-- `a(n-1)+a(n-2)-a(n-3)` -/
-def P7314227232809404403.Spec : Prop :=
-  ∀ n, P7314227232809404403.a n = A146763 n
+/-- `10*n-6-a(n-1)` -/
+def P10237969465490016599.Spec : Prop :=
+  ∀ n, P10237969465490016599.a n = A146763 n
 
 end A146763
 

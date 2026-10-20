@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -15,20 +14,22 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C018
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,8 +44,9 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -92,12 +94,12 @@ set_option linter.unreachableTactic false
 /-!
 # A086500: Group the natural numbers such that the n-th group sum is divisible by the n-th triangular number: (1), (2, 3, 4), (5, 6, 7), (8, 9, 10, 11, 12), (13, 14, 15, 16, 17), (18, 19, 20, 21, 22, 23, 24), ... Sequence contains the group sum.
 
-The programs for A086500, the canonical program `A086500.P17256799305221975629` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086500 has offset 1).
+The programs for A086500, the canonical program `A086500.P18287603341731169927` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086500 has offset 1).
 
 The definition of A086500 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086500.P17256799305221975629
+/-! ## A086500.P18287603341731169927
 
 `(n+1)*(n+2)*(2*(n+1)+1+(-1)^(n+1))/4`
 
@@ -107,8 +109,8 @@ The canonical program, it is in `Seq.B000.C013`.
 namespace A086500
 
 /-- `(n+1)*(n+2)*(2*(n+1)+1+(-1)^(n+1))/4` -/
-def P17256799305221975629.Spec : Prop :=
-  ∀ n, P17256799305221975629.a n = (A086500 (n + 1) : ℚ)
+def P18287603341731169927.Spec : Prop :=
+  ∀ n, P18287603341731169927.a n = (A086500 (n + 1) : ℚ)
 
 end A086500
 
@@ -1073,12 +1075,12 @@ end A086513.P6768096983915576986
 /-!
 # A086514: Difference between the arithmetic mean of the neighbors of the terms and the term itself follows the pattern 0,1,2,3,4,5,...
 
-The programs for A086514, the canonical program `A086514.P8956390532414888166` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086514 has offset 1).
+The programs for A086514, the canonical program `A086514.P1195065844824538051` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086514 has offset 1).
 
 The definition of A086514 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086514.P8956390532414888166
+/-! ## A086514.P1195065844824538051
 
 `(n+1)*((n-5)*(n+1)+14)/3-2`
 
@@ -1088,8 +1090,8 @@ The canonical program, it is in `Seq.B000.C013`.
 namespace A086514
 
 /-- `(n+1)*((n-5)*(n+1)+14)/3-2` -/
-def P8956390532414888166.Spec : Prop :=
-  ∀ n, P8956390532414888166.a n = (A086514 (n + 1) : ℚ)
+def P1195065844824538051.Spec : Prop :=
+  ∀ n, P1195065844824538051.a n = (A086514 (n + 1) : ℚ)
 
 end A086514
 
@@ -2372,28 +2374,6 @@ end
 
 end A086525.P2167013195714501496
 
-/-! ## A086525.P1273953526710940033
-
-`∑[char[(n+2)*A285358(n+1)]]`
--/
-
-namespace A086525.P1273953526710940033
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 2 : ℤ) * A285358 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A086525.P1273953526710940033
-
 /-! ## A086525.P5716951337900783732
 
 `A285358(n-1)+a(n-1)` with `a(0)=1, a(1)=1`
@@ -2448,6 +2428,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A086525.P15901043998922727705
+
+/-! ## A086525.P1273953526710940033
+
+`∑[char[(n+2)*A285358(n+1)]]`
+-/
+
+namespace A086525.P1273953526710940033
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℤ) * A285358 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A086525.P1273953526710940033
 
 /-!
 # A086526: Beginning with 2, the smallest even number not included earlier such that the arithmetic mean of a pair of successive terms is a prime.

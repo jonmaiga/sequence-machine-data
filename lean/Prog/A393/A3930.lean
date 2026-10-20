@@ -2,23 +2,23 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C020
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -29,6 +29,8 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -44,7 +46,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -317,8 +318,29 @@ end A393007.P12207430785733067531
 /-!
 # A393011: a(n) = (7*n)!/((5*n)!*(2*n)!).
 
-The programs for A393011, there is no canonical definition to state claims against.
+The programs for A393011, the canonical program `A393011.P16048391216167990832` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393011 has offset 0).
+
+The definition of A393011 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A393011.P16048391216167990832
+
+`C(7*n, 2*n)`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A393011
+
+/-- `C(7*n, 2*n)` -/
+def P16048391216167990832.Spec : Prop :=
+  ∀ n, (P16048391216167990832.a n : ℤ) = A393011 n
+
+theorem P16048391216167990832.correct : P16048391216167990832.Spec := by
+  intro n
+  simp only [A393011]
+
+end A393011
 
 /-! ## A393011.P18357634051731380231
 
@@ -335,20 +357,13 @@ end
 
 end A393011.P18357634051731380231
 
-/-! ## A393011.P16048391216167990832
+namespace A393011
 
-`C(7*n, 2*n)`
--/
+/-- `A004355(n)/A000984(n)*A004368(n)` -/
+def P18357634051731380231.Spec : Prop :=
+  ∀ n, P18357634051731380231.a n = (A393011 n : ℚ)
 
-namespace A393011.P16048391216167990832
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (7 * n) (2 * n)
-
-end
-
-end A393011.P16048391216167990832
+end A393011
 
 /-! ## A393011.P2052319681076000122
 
@@ -368,6 +383,14 @@ end
 
 end A393011.P2052319681076000122
 
+namespace A393011
+
+/-- `record[C(A195159(n), n)]` -/
+def P2052319681076000122.Spec : Prop :=
+  ∀ n, (P2052319681076000122.a n : ℤ) = A393011 n
+
+end A393011
+
 /-! ## A393011.P5367642699938288537
 
 `A159965(A062725(n))`
@@ -383,6 +406,14 @@ end
 
 end A393011.P5367642699938288537
 
+namespace A393011
+
+/-- `A159965(A062725(n))` -/
+def P5367642699938288537.Spec : Prop :=
+  ∀ n, P5367642699938288537.a n = A393011 n
+
+end A393011
+
 /-! ## A393011.P16732080334501746238
 
 `A193635(A062728(n))`
@@ -397,6 +428,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393011.P16732080334501746238
+
+namespace A393011
+
+/-- `A193635(A062728(n))` -/
+def P16732080334501746238.Spec : Prop :=
+  ∀ n, P16732080334501746238.a n = A393011 n
+
+end A393011
 
 /-!
 # A393012: List giving least 5-rough number (A007310) of each prime signature.
@@ -1524,28 +1563,6 @@ end
 
 end A393057.P8064878092367786365
 
-/-! ## A393057.P13470317374675778819
-
-`∑[comp[A234615(A114689(n))]%2]+1`
--/
-
-namespace A393057.P13470317374675778819
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234615 (A114689 n).toNat
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n % 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 1
-
-end
-
-end A393057.P13470317374675778819
-
 /-! ## A393057.P11350110272909109094
 
 `A000523(A318678(3*(n+1))+A302698(2*(n+2)))`
@@ -2606,7 +2623,7 @@ end A393071.P8767709245177707459
 /-!
 # A393073: Convolution of the two tribonacci sequences A000073 and A001590.
 
-The programs for A393073, the canonical program `A393073.P2538012477291526266` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393073 has offset 0).
+The programs for A393073, the canonical program `A393073.P2538012477291526266` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393073 has offset 0).
 
 The definition of A393073 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2615,7 +2632,7 @@ The definition of A393073 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+a(n-2)-3*a(n-4)-2*a(n-5)-a(n-6)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=1, a(5)=3`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A393073
@@ -3181,7 +3198,7 @@ end A393092.P4374432021950001375
 /-!
 # A393093: Group the partitions of n into 3 parts into sets whose smallest parts are equal. a(n) is the sum of the maximum values of all the middle parts in each set.
 
-The programs for A393093, the canonical program `A393093.P5340454546163931360` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393093 has offset 0).
+The programs for A393093, the canonical program `A393093.P5340454546163931360` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393093 has offset 0).
 
 The definition of A393093 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3190,7 +3207,7 @@ The definition of A393093 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)-2*a(n-5)-a(n-6)+a(n-8)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=1, a(5)=2, a(6)=4, a(7)=5`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A393093
@@ -3300,7 +3317,7 @@ end A393093
 /-!
 # A393095: Group the partitions of n into 3 parts into sets whose smallest parts are equal. a(n) is the sum of the minimum values of all the largest parts in each set.
 
-The programs for A393095, the canonical program `A393095.P8856493313611828990` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393095 has offset 0).
+The programs for A393095, the canonical program `A393095.P8856493313611828990` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393095 has offset 0).
 
 The definition of A393095 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3309,7 +3326,7 @@ The definition of A393095 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)-2*a(n-5)-a(n-6)+a(n-8)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=2, a(5)=2, a(6)=5, a(7)=6`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A393095

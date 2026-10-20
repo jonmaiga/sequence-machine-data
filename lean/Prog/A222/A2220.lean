@@ -8,20 +8,23 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C031
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -31,7 +34,6 @@ import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
@@ -43,7 +45,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
@@ -103,7 +104,7 @@ end A222000.P4446748524435900771
 /-!
 # A222001: Number of n X 3 arrays with each row a permutation of 1..3 having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order.
 
-The programs for A222001, the canonical program `A222001.P3078309820610259511` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222001 has offset 1).
+The programs for A222001, the canonical program `A222001.P3078309820610259511` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222001 has offset 1).
 
 The definition of A222001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -112,7 +113,7 @@ The definition of A222001 is `conjectured`: the Lean definition is a formula tha
 
 `C(n+4, 3)+2`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A222001
@@ -1362,7 +1363,7 @@ end A222019.P4012114328471356933
 /-!
 # A222021: Number of binary arrays indicating the locations of trailing edge maxima of a random length-n 0..2 array extended with zeros and convolved with 1,3,3,1.
 
-The programs for A222021, the canonical program `A222021.P5142535665459494344` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222021 has offset 1).
+The programs for A222021, the canonical program `A222021.P5142535665459494344` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222021 has offset 1).
 
 The definition of A222021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 537 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1371,7 +1372,7 @@ The definition of A222021 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-3)+a(n-7)+a(n-9)` with `a(0)=2, a(1)=3, a(2)=4, a(3)=6, a(4)=10, a(5)=15, a(6)=23, a(7)=36, a(8)=55`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A222021
@@ -4171,6 +4172,21 @@ end A222050.P12244930457147093926
 The programs for A222051, there is no canonical definition to state claims against.
 -/
 
+/-! ## A222051.P1961157479356313248
+
+`(2*n+1)*C(2*n, n)*A222050(n)`
+-/
+
+namespace A222051.P1961157479356313248
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((2 * n + 1) * Nat.choose (2 * n) n : ℤ) * A222050 n
+
+end
+
+end A222051.P1961157479356313248
+
 /-! ## A222051.P12943142957765332472
 
 `A000984(n)*A222052(n)`
@@ -4272,6 +4288,23 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222052.P11832697723355471250
+
+/-! ## A222052.P13221446472311004997
+
+`A222051(n)/C(2*n, n)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A222052.P13221446472311004997
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A222051 n : ℚ) / (Nat.choose (2 * n) n : ℚ)
+
+end
+
+end A222052.P13221446472311004997
 
 /-! ## A222052.P5119839154702544060
 
@@ -4933,23 +4966,29 @@ end A222065.P4807022033273121452
 /-!
 # A222080: 1 = Sum_{n>=0} a(n) * x^n * (1 - (2*n+1)*x)^2.
 
-The programs for A222080, there is no canonical definition to state claims against.
+The programs for A222080, the canonical program `A222080.P680315458236521643` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222080 has offset 0).
+
+The definition of A222080 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A222080.P3644028115888088591
+/-! ## A222080.P680315458236521643
 
-`A005229(4*n*a(n-1)+n)-1` with `a(0)=1`
+`2*(2*n-1)*a(n-1)-(2*n-3)²*a(n-2)` with `a(0)=1, a(1)=2`
+
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
-namespace A222080.P3644028115888088591
-noncomputable section
+namespace A222080
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A005229 ((4 * n : ℤ) * a (n - 1) + (n : ℤ)).toNat - 1
+/-- `2*(2*n-1)*a(n-1)-(2*n-3)²*a(n-2)` -/
+def P680315458236521643.Spec : Prop :=
+  ∀ n, P680315458236521643.a n = A222080 n
 
-end
+theorem P680315458236521643.correct : P680315458236521643.Spec := by
+  intro n
+  simp only [A222080]
 
-end A222080.P3644028115888088591
+end A222080
 
 /-!
 # A222081: Self-convolution equals A222080.

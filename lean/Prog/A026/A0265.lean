@@ -18,25 +18,29 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -68,14 +72,12 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -85,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A026500: For n >= 3, a(n) = least positive integer > a(n-1) and not a(i)^2 + a(j)^2 + a(k)^2 for 1<=i<=j<=k<=n.
@@ -3632,12 +3633,12 @@ end A026531.P3489615298731879633
 /-!
 # A026532: Ratios of successive terms are 3, 2, 3, 2, 3, 2, 3, 2, ...
 
-The programs for A026532, the canonical program `A026532.P1783635827408520011` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026532 has offset 1).
+The programs for A026532, the canonical program `A026532.P11644222334377413788` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026532 has offset 1).
 
 The definition of A026532 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A026532.P1783635827408520011
+/-! ## A026532.P11644222334377413788
 
 `1/2*(5+(-1)^(n+1))*a(n-1)` with `a(0)=1`
 
@@ -3647,31 +3648,31 @@ The canonical program, it is in `Seq.B000.C005`.
 namespace A026532
 
 /-- `1/2*(5+(-1)^(n+1))*a(n-1)` -/
-def P1783635827408520011.Spec : Prop :=
-  ∀ n, P1783635827408520011.a n = (A026532 (n + 1) : ℚ)
+def P11644222334377413788.Spec : Prop :=
+  ∀ n, P11644222334377413788.a n = (A026532 (n + 1) : ℚ)
 
 end A026532
 
-/-! ## A026532.P5900954438023988907
+/-! ## A026532.P2509457357592207402
 
 `1/4*(3-(-1)^(n+1))*6^floor((n+1)/2)`
 -/
 
-namespace A026532.P5900954438023988907
+namespace A026532.P2509457357592207402
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 4 * ((3 - (-1) ^ (n + 1) : ℚ) * (6 : ℚ) ^ (⌊(n + 1 : ℚ) / 2⌋ : ℤ))
+  (1 : ℚ) / 4 * (3 - (-1) ^ (n + 1) : ℚ) * (6 : ℚ) ^ (⌊(n + 1 : ℚ) / 2⌋ : ℤ)
 
 end
 
-end A026532.P5900954438023988907
+end A026532.P2509457357592207402
 
 namespace A026532
 
 /-- `1/4*(3-(-1)^(n+1))*6^floor((n+1)/2)` -/
-def P5900954438023988907.Spec : Prop :=
-  ∀ n, P5900954438023988907.a n = (A026532 (n + 1) : ℚ)
+def P2509457357592207402.Spec : Prop :=
+  ∀ n, P2509457357592207402.a n = (A026532 (n + 1) : ℚ)
 
 end A026532
 
@@ -6631,26 +6632,26 @@ theorem P5486993898927830943.correct : P5486993898927830943.Spec := by
 
 end A026549
 
-/-! ## A026549.P18038600626607277574
+/-! ## A026549.P5506250015259784279
 
 `1/2*(3-(-1)^n)*6^floor(n/2)`
 -/
 
-namespace A026549.P18038600626607277574
+namespace A026549.P5506250015259784279
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 2 * ((3 - (-1) ^ n : ℚ) * (6 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ))
+  (1 : ℚ) / 2 * (3 - (-1) ^ n : ℚ) * (6 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ)
 
 end
 
-end A026549.P18038600626607277574
+end A026549.P5506250015259784279
 
 namespace A026549
 
 /-- `1/2*(3-(-1)^n)*6^floor(n/2)` -/
-def P18038600626607277574.Spec : Prop :=
-  ∀ n, P18038600626607277574.a n = (A026549 n : ℚ)
+def P5506250015259784279.Spec : Prop :=
+  ∀ n, P5506250015259784279.a n = (A026549 n : ℚ)
 
 end A026549
 

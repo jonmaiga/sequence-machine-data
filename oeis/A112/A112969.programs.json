@@ -21,6 +21,10 @@
         "4",
         "^",
         "+"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

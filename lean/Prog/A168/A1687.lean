@@ -2,15 +2,14 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
-import Seq.B000.C018
+import Seq.B000.C013
+import Seq.B000.C019
 import Seq.B001.C001
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -21,97 +20,11 @@ import Seq.Opaque.C006
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-
-/-!
-# A168704: 
-
-The programs for A168704, there is no canonical definition to state claims against.
--/
-
-/-! ## A168704.P6606979799565780801
-
-`or(26*a(n-1), record[A118824(n+1)])` with `a(0)=1`
--/
-
-namespace A168704.P6606979799565780801
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118824 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  Int.lor (26 * a (n - 1)) (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))
-
-end
-
-end A168704.P6606979799565780801
-
-/-! ## A168704.P1070615433071724
-
-`record[26*a((n+1)/A006530(n+1)-1)]` with `a(0)=1, a(1)=27`
--/
-
-namespace A168704.P1070615433071724
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 27] fun n f1 =>
-  26 * f1 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A006530 (n + 1) : ℚ) - 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A168704.P1070615433071724
-
-/-!
-# A168706: 
-
-The programs for A168706, there is no canonical definition to state claims against.
--/
-
-/-! ## A168706.P3701887636606775737
-
-`(29-A057427(C(n-1, floor(n/2))))*a(n-1)` with `a(0)=1, a(1)=29`
--/
-
-namespace A168706.P3701887636606775737
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 29] fun n a =>
-  (29 - A057427 (Nat.choose ((n : ℤ) - 1).toNat ⌊(n : ℚ) / 2⌋.toNat)) * a (n - 1)
-
-end
-
-end A168706.P3701887636606775737
-
-/-!
-# A168712: 
-
-The programs for A168712, there is no canonical definition to state claims against.
--/
-
-/-! ## A168712.P4730090821702997889
-
-`34*a(n-1)*A000265(2^n)` with `a(0)=1, a(1)=35`
--/
-
-namespace A168712.P4730090821702997889
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 35] fun n a =>
-  34 * (a (n - 1) * A000265 (2 ^ n))
-
-end
-
-end A168712.P4730090821702997889
 
 /-!
 # A168728: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^18 = I.

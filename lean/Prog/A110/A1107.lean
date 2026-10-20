@@ -1,31 +1,30 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C017
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -338,33 +337,28 @@ end
 
 end A110705.P380432420186234153
 
-/-! ## A110705.P17501214802598153035
-
-`∪[A331912(A105401(n+1)), A143608(n)]`
--/
-
-namespace A110705.P17501214802598153035
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331912 (A105401 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143608 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A110705.P17501214802598153035
-
 /-!
 # A110706: Number of linear arrangements of n blue, n red and n green items such that there are no adjacent items of the same color.
 
-The programs for A110706, there is no canonical definition to state claims against.
+The programs for A110706, the canonical program `A110706.P6436888114095995053` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110706 has offset 0).
+
+The definition of A110706 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A110706.P6436888114095995053
+
+`((7*n-4)*a(n-1)+8*(n-2)²*a(n-2)/(n+1))/n` with `a(0)=1, a(1)=6`
+
+The canonical program, it is in `Seq.B000.C016`.
+-/
+
+namespace A110706
+
+/-- `((7*n-4)*a(n-1)+8*(n-2)²*a(n-2)/(n+1))/n` -/
+def P6436888114095995053.Spec : Prop :=
+  ∀ n, P6436888114095995053.a n = (A110706 n : ℚ)
+
+end A110706
 
 /-! ## A110706.P2115147920522641863
 
@@ -384,6 +378,14 @@ end
 
 end A110706.P2115147920522641863
 
+namespace A110706
+
+/-- `A322093(∑[n+1]+n)` -/
+def P2115147920522641863.Spec : Prop :=
+  ∀ n, P2115147920522641863.a n = A110706 n
+
+end A110706
+
 /-! ## A110706.P5036433558772022578
 
 `or(A000007(n), A322093(A034856(n+1)))`
@@ -398,6 +400,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A110706.P5036433558772022578
+
+namespace A110706
+
+/-- `or(A000007(n), A322093(A034856(n+1)))` -/
+def P5036433558772022578.Spec : Prop :=
+  ∀ n, P5036433558772022578.a n = A110706 n
+
+end A110706
 
 /-! ## A110706.P16896124775271307132
 
@@ -414,6 +424,14 @@ end
 
 end A110706.P16896124775271307132
 
+namespace A110706
+
+/-- `A322093(A034856(n+1))+C(A085159(n)%2, 2)` -/
+def P16896124775271307132.Spec : Prop :=
+  ∀ n, P16896124775271307132.a n = A110706 n
+
+end A110706
+
 /-! ## A110706.P10039242253127112743
 
 `A283613(n*(n+2))`
@@ -429,20 +447,13 @@ end
 
 end A110706.P10039242253127112743
 
-/-! ## A110706.P9210924897523398883
+namespace A110706
 
-`A283613(A005563(n))+A062535(n+1)`
--/
+/-- `A283613(n*(n+2))` -/
+def P10039242253127112743.Spec : Prop :=
+  ∀ n, P10039242253127112743.a n = A110706 n
 
-namespace A110706.P9210924897523398883
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283613 (A005563 n).toNat + A062535 (n + 1)
-
-end
-
-end A110706.P9210924897523398883
+end A110706
 
 /-!
 # A110707: Number of linear arrangements of n blue, n red and n green items such that there are no adjacent items of the same color (first and last elements considered as adjacent).
@@ -3068,28 +3079,6 @@ end A110739.P1915097788518161154
 
 The programs for A110740, there is no canonical definition to state claims against.
 -/
-
-/-! ## A110740.P3878547394150282105
-
-`∩[A029455(n+1), A251535(n)]`
--/
-
-namespace A110740.P3878547394150282105
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029455 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251535 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A110740.P3878547394150282105
 
 /-! ## A110740.P13895866112317207810
 
@@ -5909,28 +5898,6 @@ end
 
 end A110784.P12019919195424797372
 
-/-! ## A110784.P3686497289784123856
-
-`∩[A072544(n+1), A110751(n+1)]`
--/
-
-namespace A110784.P3686497289784123856
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072544 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110751 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A110784.P3686497289784123856
-
 /-! ## A110784.P15692433932599966460
 
 `A193408(n+1)%A055685(A005728(n))`
@@ -6003,28 +5970,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A110785.P16715307464096391652
-
-/-! ## A110785.P4608857153692689101
-
-`∩[A072543(n+1), A110751(n+1)]`
--/
-
-namespace A110785.P4608857153692689101
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072543 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110751 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A110785.P4608857153692689101
 
 /-!
 # A110786: To obtain a(n), take the n-th palindrome P = A002113(n) and concatenate it with the smallest palindrome Q such that PQ is a prime.

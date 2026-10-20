@@ -2,33 +2,33 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C021
 import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -62,6 +62,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -736,78 +737,6 @@ end
 end A073917.P11673025572771691136
 
 /-!
-# A073918: Smallest prime which is 1 more than a product of n distinct primes: a(n) is a prime and a(n) - 1 is a squarefree number with n prime factors.
-
-The programs for A073918, there is no canonical definition to state claims against.
--/
-
-/-! ## A073918.P14364249044773927593
-
-`∪[A289125(2*n+5), A241196(n+1)%A241116(n+1)]`
--/
-
-namespace A073918.P14364249044773927593
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289125 (2 * n + 5)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A241196 (n + 1)) (A241116 (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073918.P14364249044773927593
-
-/-! ## A073918.P2861970458434007379
-
-`A241196(∪[A316529(n+1), A241162(n+3)])`
--/
-
-namespace A073918.P2861970458434007379
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316529 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241162 (n + 3)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241196 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A073918.P2861970458434007379
-
-/-! ## A073918.P10026363263577715884
-
-`A241196(∪[A241158(n+2), A241162(n+3)])`
--/
-
-namespace A073918.P10026363263577715884
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241158 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241162 (n + 3)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A241196 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A073918.P10026363263577715884
-
-/-!
 # A073919: Smallest prime p with bigomega(p-1)=n, where bigomega(m)=A001222(m) is the number of prime divisors of m (counted with multiplicity).
 
 The programs for A073919, there is no canonical definition to state claims against.
@@ -1431,28 +1360,6 @@ end A073929
 The programs for A073930, there is no canonical definition to state claims against.
 -/
 
-/-! ## A073930.P16641889748681263589
-
-`∩[A214842(n+1), A229861(n+1)]`
--/
-
-namespace A073930.P16641889748681263589
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214842 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229861 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073930.P16641889748681263589
-
 /-! ## A073930.P3615461954890678986
 
 `∩[A192272(n+1), A229861(n+1)]`
@@ -1475,19 +1382,19 @@ end
 
 end A073930.P3615461954890678986
 
-/-! ## A073930.P13209828475839939958
+/-! ## A073930.P16641889748681263589
 
-`∩[A214842(n+1), A229860(n+1)]`
+`∩[A214842(n+1), A229861(n+1)]`
 -/
 
-namespace A073930.P13209828475839939958
+namespace A073930.P16641889748681263589
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A214842 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229860 (n + 1)
+  A229861 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1495,7 +1402,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A073930.P13209828475839939958
+end A073930.P16641889748681263589
 
 /-! ## A073930.P2857842395265479295
 
@@ -1540,6 +1447,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A073930.P16038859615045165304
+
+/-! ## A073930.P13209828475839939958
+
+`∩[A214842(n+1), A229860(n+1)]`
+-/
+
+namespace A073930.P13209828475839939958
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214842 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229860 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073930.P13209828475839939958
 
 /-!
 # A073932: Define f(n) = n - largest nontrivial divisor of n or f(n) = n-1 if n is a prime [that is, f(n) = A060681(n)]. Form a triangle in which the n-th row contains terms n, f(n), f(f(n)), ... until a 1 is reached; sequence gives triangle read by rows.
@@ -2800,7 +2729,7 @@ end A073940.P13270372583161685256
 /-!
 # A073941: a(n) = ceiling((Sum_{k=1..n-1} a(k)) / 2) for n >= 2 starting with a(1) = 1.
 
-The programs for A073941, the canonical program `A073941.P15569608911463552460` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073941 has offset 1).
+The programs for A073941, the canonical program `A073941.P15569608911463552460` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073941 has offset 1).
 
 The definition of A073941 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A081848, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2809,7 +2738,7 @@ The definition of A073941 is `conditional`: the Lean definition is an OEIS formu
 
 `A081848(n+1)/3`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A073941

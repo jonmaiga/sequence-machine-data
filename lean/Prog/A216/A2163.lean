@@ -5,28 +5,31 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -76,7 +79,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -89,7 +91,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A216300: Numbers k such that 10k+3 is composite but 10k+1, 10k+7, 10k+9 are all prime.
@@ -3688,7 +3689,7 @@ end A216314.P8144373527465285656
 /-!
 # A216315: Primes congruent to 1 mod 59.
 
-The programs for A216315, the canonical program `A216315.P17924968363353530023` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216315 has offset 1).
+The programs for A216315, the canonical program `A216315.P17924968363353530023` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216315 has offset 1).
 
 The definition of A216315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1349 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3697,7 +3698,7 @@ The definition of A216315 is `conjectured`: the Lean definition is a formula tha
 
 `p?[59*n+1]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A216315
@@ -4203,7 +4204,7 @@ end A216317.P5736538773391580384
 /-!
 # A216318: Number of peaks in all Dyck n-paths after changing each valley to a peak by the transform DU -> UD.
 
-The programs for A216318, the canonical program `A216318.P9466305550885392496` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216318 has offset 0).
+The programs for A216318, the canonical program `A216318.P9466305550885392496` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216318 has offset 0).
 
 The definition of A216318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4212,7 +4213,7 @@ The definition of A216318 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A028270(n)/2)-A000108(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A216318
@@ -7487,7 +7488,7 @@ end A216356.P3143949763735232219
 /-!
 # A216357: Expansion of 1/( (1-16*x)*(1+4*x)^2 )^(1/4).
 
-The programs for A216357, the canonical program `A216357.P11040272788375143837` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216357 has offset 0).
+The programs for A216357, the canonical program `A216357.P11040272788375143837` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216357 has offset 0).
 
 The definition of A216357 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7496,7 +7497,7 @@ The definition of A216357 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((64*n-80)*a(n-2)+(12*n-10)*a(n-1))/n` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A216357
@@ -7757,78 +7758,6 @@ namespace A216361
 /-- `eq[1, A062173(2*59*n+1)]` -/
 def P3720811582650545319.Spec : Prop :=
   ∀ n, (P3720811582650545319.a n : ℤ) = A216361 (n + 1)
-
-end A216361
-
-/-! ## A216361.P9603500672174061991
-
-`∪[eq[1, A101264(59*n)], A216360(n+1)]`
--/
-
-namespace A216361.P9603500672174061991
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101264 (59 * n)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f2 j : ℤ) = f3 j) n
-
-def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216360 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
-
-end
-
-end A216361.P9603500672174061991
-
-namespace A216361
-
-/-- `∪[eq[1, A101264(59*n)], A216360(n+1)]` -/
-def P9603500672174061991.Spec : Prop :=
-  ∀ n, (P9603500672174061991.a n : ℤ) = A216361 (n + 1)
-
-end A216361
-
-/-! ## A216361.P3300127576951307528
-
-`∪[eq[2, A000005(2*59*n+1)], A216360(n+1)]`
--/
-
-namespace A216361.P3300127576951307528
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (2 * (59 * n) + 1)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f2 j : ℤ) = f3 j) n
-
-def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216360 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
-
-end
-
-end A216361.P3300127576951307528
-
-namespace A216361
-
-/-- `∪[eq[2, A000005(2*59*n+1)], A216360(n+1)]` -/
-def P3300127576951307528.Spec : Prop :=
-  ∀ n, (P3300127576951307528.a n : ℤ) = A216361 (n + 1)
 
 end A216361
 
@@ -8693,6 +8622,28 @@ end
 
 end A216371.P13821279567744961536
 
+/-! ## A216371.P2451136737200515884
+
+`∩[A015919(n+1), A179538(n+1)]`
+-/
+
+namespace A216371.P2451136737200515884
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179538 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216371.P2451136737200515884
+
 /-! ## A216371.P15286334301254932174
 
 `p?[A007885(n+3)]`
@@ -9029,28 +8980,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A216371.P5769535301589382964
-
-/-! ## A216371.P2451136737200515884
-
-`∩[A015919(n+1), A179538(n+1)]`
--/
-
-namespace A216371.P2451136737200515884
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015919 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A179538 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216371.P2451136737200515884
 
 /-! ## A216371.P5663436480163690624
 
@@ -9569,34 +9498,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A216383.P5010978981086098982
-
-/-!
-# A216384: Numbers that can be expressed as the sum of their first k consecutive arithmetic derivatives for some k > 1.
-
-The programs for A216384, there is no canonical definition to state claims against.
--/
-
-/-! ## A216384.P15983002727287843026
-
-`∩[A027754(n+1), A379898(n+1)]`
--/
-
-namespace A216384.P15983002727287843026
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027754 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379898 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216384.P15983002727287843026
 
 /-!
 # A216385: Number of values of k for which phi(k) is a permutation of decimal digits of k, for k < 10^n.

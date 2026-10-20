@@ -4,31 +4,29 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +43,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -6224,25 +6221,6 @@ end
 
 end A278537.P13628510849324169630
 
-/-! ## A278537.P7190732907871860362
-
-`A278529(n+1)+char[A243501(n+1)]`
--/
-
-namespace A278537.P7190732907871860362
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243501 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278529 (n + 1) + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A278537.P7190732907871860362
-
 /-! ## A278537.P11315289710820320988
 
 `A278529(n+1)+(A028310(n)+1)%2`
@@ -6272,6 +6250,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278537.P6523388696845973817
+
+/-! ## A278537.P7190732907871860362
+
+`A278529(n+1)+char[A243501(n+1)]`
+-/
+
+namespace A278537.P7190732907871860362
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243501 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278529 (n + 1) + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A278537.P7190732907871860362
 
 /-! ## A278537.P1598155886145743877
 
@@ -7575,8 +7572,29 @@ end A278546.P11320925836569749246
 /-!
 # A278547: Number of n X 1 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly two mistakes.
 
-The programs for A278547, there is no canonical definition to state claims against.
+The programs for A278547, the canonical program `A278547.P16001027706530451381` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278547 has offset 1).
+
+The definition of A278547 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A278547.P16001027706530451381
+
+`C(n+12, n+1)-(n+2)*C(n+8, n+1)+C(n+4, n+1)*C(n+2, 2)`
+
+The canonical program, it is in `Seq.B000.C033`.
+-/
+
+namespace A278547
+
+/-- `C(n+12, n+1)-(n+2)*C(n+8, n+1)+C(n+4, n+1)*C(n+2, 2)` -/
+def P16001027706530451381.Spec : Prop :=
+  ∀ n, P16001027706530451381.a n = A278547 (n + 1)
+
+theorem P16001027706530451381.correct : P16001027706530451381.Spec := by
+  intro n
+  simp only [A278547, Nat.add_sub_cancel]
+
+end A278547
 
 /-! ## A278547.P18126121551901143485
 
@@ -7596,6 +7614,14 @@ end
 
 end A278547.P18126121551901143485
 
+namespace A278547
+
+/-- `A278798(∑[n]+1)` -/
+def P18126121551901143485.Spec : Prop :=
+  ∀ n, P18126121551901143485.a n = A278547 (n + 1)
+
+end A278547
+
 /-! ## A278547.P4974366389356354143
 
 `A278798(A000124(n))+A025469(n)`
@@ -7610,6 +7636,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278547.P4974366389356354143
+
+namespace A278547
+
+/-- `A278798(A000124(n))+A025469(n)` -/
+def P4974366389356354143.Spec : Prop :=
+  ∀ n, P4974366389356354143.a n = A278547 (n + 1)
+
+end A278547
 
 /-! ## A278547.P8275234584541021840
 
@@ -7626,6 +7660,14 @@ end
 
 end A278547.P8275234584541021840
 
+namespace A278547
+
+/-- `A278798(A000124(n))+A235044(n)` -/
+def P8275234584541021840.Spec : Prop :=
+  ∀ n, P8275234584541021840.a n = A278547 (n + 1)
+
+end A278547
+
 /-! ## A278547.P10704554135574046999
 
 `A178489(n)*A278798(A000124(n))`
@@ -7641,20 +7683,13 @@ end
 
 end A278547.P10704554135574046999
 
-/-! ## A278547.P11356395534368022701
+namespace A278547
 
-`A278798(A000124(n))%A206372(n)`
--/
+/-- `A178489(n)*A278798(A000124(n))` -/
+def P10704554135574046999.Spec : Prop :=
+  ∀ n, P10704554135574046999.a n = A278547 (n + 1)
 
-namespace A278547.P11356395534368022701
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A278798 (A000124 n).toNat) (A206372 n)
-
-end
-
-end A278547.P11356395534368022701
+end A278547
 
 /-!
 # A278548: Number of nX2 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly two mistakes.

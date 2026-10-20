@@ -3,14 +3,14 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -18,12 +18,13 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,10 +40,9 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B008.C001
@@ -584,7 +584,7 @@ end A119011.P4030364113748239087
 /-!
 # A119012: Number of valleys strictly above the x-axis in all hill-free Dyck paths of semilength n (a hill in a Dyck path is a peak at level 1).
 
-The programs for A119012, the canonical program `A119012.P17349838365231914682` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119012 has offset 1).
+The programs for A119012, the canonical program `A119012.P17349838365231914682` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119012 has offset 1).
 
 The definition of A119012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -616,7 +616,7 @@ end A119012
 
 `A114515(n+1)-A114495(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A119012
@@ -828,7 +828,7 @@ end A119015.P86056704897321668
 /-!
 # A119016: Numerators of "Farey fraction" approximations to sqrt(2).
 
-The programs for A119016, the canonical program `A119016.P13460822893404206293` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
+The programs for A119016, the canonical program `A119016.P13460822893404206293` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119016 has offset 0).
 
 The definition of A119016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 525 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -860,7 +860,7 @@ end A119016
 
 `a(n-4)+2*a(n-2)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A119016
@@ -2040,6 +2040,27 @@ end A119027.P13397991767766967802
 The programs for A119028, there is no canonical definition to state claims against.
 -/
 
+/-! ## A119028.P16042130944696308376
+
+`lt[2, A119646(n+3)]+3`
+-/
+
+namespace A119028.P16042130944696308376
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119646 (n + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 3
+
+end
+
+end A119028.P16042130944696308376
+
 /-! ## A119028.P4396762641074710047
 
 `comp[A321993(n+1)-1]+1`
@@ -2058,44 +2079,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119028.P4396762641074710047
-
-/-! ## A119028.P7799981315291210192
-
-`comp[A321993(A027750(n+1))%(n+1)]`
--/
-
-namespace A119028.P7799981315291210192
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A321993 (A027750 (n + 1)).toNat) (n + 1 : ℤ)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A119028.P7799981315291210192
-
-/-! ## A119028.P17397064474542190067
-
-`comp[A321993(A053646(n+1)+1)%(n+1)]`
--/
-
-namespace A119028.P17397064474542190067
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A321993 (A053646 (n + 1) + 1).toNat) (n + 1 : ℤ)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A119028.P17397064474542190067
 
 /-! ## A119028.P10660745858608877176
 
@@ -2122,27 +2105,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A119028.P10660745858608877176
-
-/-! ## A119028.P16042130944696308376
-
-`lt[2, A119646(n+3)]+3`
--/
-
-namespace A119028.P16042130944696308376
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119646 (n + 3)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 3
-
-end
-
-end A119028.P16042130944696308376
 
 /-!
 # A119029: Numerator of Sum_{k=1..n} n^(k-1)/k!.
@@ -2204,8 +2166,6 @@ The programs for A119030, there is no canonical definition to state claims again
 /-! ## A119030.P791248151855908932
 
 `A117731(n+1)-A117664(n+1)`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A119030.P791248151855908932
@@ -3212,6 +3172,28 @@ end
 
 end A119045.P61934252919924432
 
+/-! ## A119045.P12765019825893886639
+
+`∩[A000217(n+1), A046031(n)]`
+-/
+
+namespace A119045.P12765019825893886639
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046031 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A119045.P12765019825893886639
+
 /-! ## A119045.P14747933475490079384
 
 `A161680(A119046(n+1)+1)`
@@ -3241,28 +3223,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119045.P14660027378252143685
-
-/-! ## A119045.P12765019825893886639
-
-`∩[A000217(n+1), A046031(n)]`
--/
-
-namespace A119045.P12765019825893886639
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046031 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A119045.P12765019825893886639
 
 /-! ## A119045.P14011674092922291034
 

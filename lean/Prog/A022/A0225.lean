@@ -11,22 +11,25 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +46,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -76,7 +80,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C014
+import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -85,6 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -5743,54 +5748,8 @@ end A022543.P12467674064528356091
 
 The programs for A022544, the canonical program `A022544.P380429781793413128` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022544 has offset 1).
 
-The definition of A022544 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A022544 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7257 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A022544.P380429781793413128
-
-`comp[A069011(n)]`
-
-The canonical program, it is in `Seq.B004.C000`.
--/
-
-namespace A022544
-
-/-- `comp[A069011(n)]` -/
-def P380429781793413128.Spec : Prop :=
-  ∀ n, (P380429781793413128.a n : ℤ) = A022544 (n + 1)
-
-theorem P380429781793413128.correct : P380429781793413128.Spec := by
-  intro n
-  simp only [A022544, Nat.add_sub_cancel]
-
-end A022544
-
-/-! ## A022544.P12792138722557545823
-
-`comp[A163531(n)]`
--/
-
-namespace A022544.P12792138722557545823
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163531 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A022544.P12792138722557545823
-
-namespace A022544
-
-/-- `comp[A163531(n)]` -/
-def P12792138722557545823.Spec : Prop :=
-  ∀ n, (P12792138722557545823.a n : ℤ) = A022544 (n + 1)
-
-end A022544
 
 /-! ## A022544.P2353916854378939195
 
@@ -6096,6 +6055,33 @@ def P18420951781618914311.Spec : Prop :=
 
 end A022544
 
+/-! ## A022544.P12792138722557545823
+
+`comp[A163531(n)]`
+-/
+
+namespace A022544.P12792138722557545823
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163531 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A022544.P12792138722557545823
+
+namespace A022544
+
+/-- `comp[A163531(n)]` -/
+def P12792138722557545823.Spec : Prop :=
+  ∀ n, (P12792138722557545823.a n : ℤ) = A022544 (n + 1)
+
+end A022544
+
 /-! ## A022544.P13364432417737568965
 
 `∩[A004435(n+1), A248150(n+1)]`
@@ -6306,33 +6292,30 @@ def P9250508728955337087.Spec : Prop :=
 
 end A022544
 
+/-! ## A022544.P380429781793413128
+
+`comp[A069011(n)]`
+
+The canonical program, it is in `Seq.B004.C000`.
+-/
+
+namespace A022544
+
+/-- `comp[A069011(n)]` -/
+def P380429781793413128.Spec : Prop :=
+  ∀ n, (P380429781793413128.a n : ℤ) = A022544 (n + 1)
+
+theorem P380429781793413128.correct : P380429781793413128.Spec := by
+  intro n
+  simp only [A022544, Nat.add_sub_cancel]
+
+end A022544
+
 /-!
 # A022545: Initial members of prime nonuplets (p, p+2, p+6, p+8, p+12, p+18, p+20, p+26, p+30).
 
 The programs for A022545, there is no canonical definition to state claims against.
 -/
-
-/-! ## A022545.P1233699960938968424
-
-`∩[A022011(n+1), A257125(n+1)]`
--/
-
-namespace A022545.P1233699960938968424
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022011 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257125 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A022545.P1233699960938968424
 
 /-! ## A022545.P17613662428093118988
 
@@ -6355,6 +6338,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A022545.P17613662428093118988
+
+/-! ## A022545.P1233699960938968424
+
+`∩[A022011(n+1), A257125(n+1)]`
+-/
+
+namespace A022545.P1233699960938968424
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022011 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257125 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A022545.P1233699960938968424
 
 /-! ## A022545.P5309501470542840806
 
@@ -6819,31 +6824,6 @@ end
 
 end A022550.P4037521632843646979
 
-/-! ## A022550.P12506717745362034298
-
-`eq[0, char[A022549(A141256(n))]]`
--/
-
-namespace A022550.P12506717745362034298
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022549 (A141256 n).toNat
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A022550.P12506717745362034298
-
 /-! ## A022550.P3740624458820044042
 
 `eq[char[A022549(n+1)], A000038(n)]`
@@ -6868,6 +6848,31 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A022550.P3740624458820044042
+
+/-! ## A022550.P12506717745362034298
+
+`eq[0, char[A022549(A141256(n))]]`
+-/
+
+namespace A022550.P12506717745362034298
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022549 (A141256 n).toNat
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f3 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A022550.P12506717745362034298
 
 /-!
 # A022551: Numbers that are the sum of 2 squares and a nonnegative cube.
@@ -7431,27 +7436,23 @@ end A022553.P3033837033163785906
 /-!
 # A022554: a(n) = Sum_{k=0..n} floor(sqrt(k)).
 
-The programs for A022554, the canonical program `A022554.P15392886114079128357` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022554 has offset 0).
+The programs for A022554, the canonical program `A022554.P13549060750151666021` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022554 has offset 0).
 
-The definition of A022554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A022554 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A022554.P15392886114079128357
+/-! ## A022554.P13549060750151666021
 
-`∑[floor(sqrt(n))]`
+`floor(sqrt(n))*(n-1/6*(2*floor(sqrt(n))+5)*(floor(sqrt(n))-1))`
 
 The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A022554
 
-/-- `∑[floor(sqrt(n))]` -/
-def P15392886114079128357.Spec : Prop :=
-  ∀ n, (P15392886114079128357.a n : ℤ) = A022554 n
-
-theorem P15392886114079128357.correct : P15392886114079128357.Spec := by
-  intro n
-  simp only [A022554]
+/-- `floor(sqrt(n))*(n-1/6*(2*floor(sqrt(n))+5)*(floor(sqrt(n))-1))` -/
+def P13549060750151666021.Spec : Prop :=
+  ∀ n, P13549060750151666021.a n = (A022554 n : ℚ)
 
 end A022554
 
@@ -10765,25 +10766,6 @@ end
 
 end A022567.P11121862536177046839
 
-/-! ## A022567.P14424812291290851413
-
-`A290133(n)+char[A290082(n+1)]`
--/
-
-namespace A022567.P14424812291290851413
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290082 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290133 n + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A022567.P14424812291290851413
-
 /-! ## A022567.P6211452726245846023
 
 `A290133(n)+A002262(1-A002262(n)+n)`
@@ -10828,6 +10810,25 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A022567.P8730999874952060682
+
+/-! ## A022567.P14424812291290851413
+
+`A290133(n)+char[A290082(n+1)]`
+-/
+
+namespace A022567.P14424812291290851413
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290082 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290133 n + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A022567.P14424812291290851413
 
 /-! ## A022567.P14441280735112294438
 

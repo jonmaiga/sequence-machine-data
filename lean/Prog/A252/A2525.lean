@@ -1,37 +1,39 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C010
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C030
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
@@ -62,9 +64,9 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -6533,23 +6535,29 @@ end A252581.P8529320131070322561
 /-!
 # A252583: a(n) = a(n-1)^3 + a(n-2)^6, a(0) = 0, a(1) = 1.
 
-The programs for A252583, there is no canonical definition to state claims against.
+The programs for A252583, the canonical program `A252583.P203768269246270493` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252583 has offset 0).
+
+The definition of A252583 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)^3+a(n-2)^6` (program `A252583.P203768269246270493`, by `A252583.P203768269246270493.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A252583.P203768269246270493
 
 `a(n-1)^3+a(n-2)^6` with `a(0)=0, a(1)=1`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
-namespace A252583.P203768269246270493
-noncomputable section
+namespace A252583
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
-  a (n - 1) ^ 3 + a (n - 2) ^ 6
+/-- `a(n-1)^3+a(n-2)^6` -/
+def P203768269246270493.Spec : Prop :=
+  ∀ n, (P203768269246270493.a n : ℤ) = A252583 n
 
-end
+theorem P203768269246270493.correct : P203768269246270493.Spec := by
+  intro n
+  simp only [A252583]
 
-end A252583.P203768269246270493
+end A252583
 
 /-! ## A252583.P6504490240963570872
 
@@ -6566,26 +6574,40 @@ end
 
 end A252583.P6504490240963570872
 
+namespace A252583
+
+/-- `A003052(a(n-1)²+1)` -/
+def P6504490240963570872.Spec : Prop :=
+  ∀ n, P6504490240963570872.a n = A252583 n
+
+end A252583
+
 /-!
 # A252584: a(n) = a(n-1)^3 + a(n-2)^9, a(0) = 0, a(1) = 1.
 
-The programs for A252584, there is no canonical definition to state claims against.
+The programs for A252584, the canonical program `A252584.P9355758870910634848` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252584 has offset 0).
+
+The definition of A252584 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)^3+a(n-2)^9` (program `A252584.P9355758870910634848`, by `A252584.P9355758870910634848.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A252584.P9355758870910634848
 
 `a(n-1)^3+a(n-2)^9` with `a(0)=0, a(1)=1`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
-namespace A252584.P9355758870910634848
-noncomputable section
+namespace A252584
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
-  a (n - 1) ^ 3 + a (n - 2) ^ 9
+/-- `a(n-1)^3+a(n-2)^9` -/
+def P9355758870910634848.Spec : Prop :=
+  ∀ n, (P9355758870910634848.a n : ℤ) = A252584 n
 
-end
+theorem P9355758870910634848.correct : P9355758870910634848.Spec := by
+  intro n
+  simp only [A252584]
 
-end A252584.P9355758870910634848
+end A252584
 
 /-! ## A252584.P3379144140984470790
 
@@ -6601,6 +6623,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 1, 2] fun n a =>
 end
 
 end A252584.P3379144140984470790
+
+namespace A252584
+
+/-- `A217097(a(n-1)+a(n-3)+1)` -/
+def P3379144140984470790.Spec : Prop :=
+  ∀ n, P3379144140984470790.a n = A252584 n
+
+end A252584
 
 /-!
 # A252587: Number of (n+2)X(1+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 0 1 2 7 8 or 9.

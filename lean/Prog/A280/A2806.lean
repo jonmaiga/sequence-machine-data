@@ -7,10 +7,9 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -26,10 +25,13 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
+import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,6 +40,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -59,6 +62,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -90,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A280600: Number of n X 4 0..1 arrays with no element equal to more than two of its horizontal, vertical and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
@@ -598,21 +601,6 @@ end A280605.P5532252406814257876
 The programs for A280606, there is no canonical definition to state claims against.
 -/
 
-/-! ## A280606.P15108206860540267262
-
-`A280607(n)+A283348(n)-A282871(n)`
--/
-
-namespace A280606.P15108206860540267262
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280607 n + (A283348 n - A282871 n)
-
-end
-
-end A280606.P15108206860540267262
-
 /-! ## A280606.P16624177655164115951
 
 `A000042(n+1)-A282871(A028310(n))`
@@ -627,6 +615,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A280606.P16624177655164115951
+
+/-! ## A280606.P15108206860540267262
+
+`A280607(n)+A283348(n)-A282871(n)`
+-/
+
+namespace A280606.P15108206860540267262
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280607 n + (A283348 n - A282871 n)
+
+end
+
+end A280606.P15108206860540267262
 
 /-! ## A280606.P9892023199259367834
 
@@ -679,21 +682,6 @@ end A280606.P15610111219828306784
 The programs for A280607, there is no canonical definition to state claims against.
 -/
 
-/-! ## A280607.P5600451472665217508
-
-`A280606(n)+A282871(n)-A283348(n)`
--/
-
-namespace A280607.P5600451472665217508
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280606 n + (A282871 n - A283348 n)
-
-end
-
-end A280607.P5600451472665217508
-
 /-! ## A280607.P13541802032437429196
 
 `∑[10^n]-A283348(A028310(n))`
@@ -726,6 +714,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A280607.P11394525763111583957
+
+/-! ## A280607.P5600451472665217508
+
+`A280606(n)+A282871(n)-A283348(n)`
+-/
+
+namespace A280607.P5600451472665217508
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280606 n + (A282871 n - A283348 n)
+
+end
+
+end A280607.P5600451472665217508
 
 /-! ## A280607.P13878630056188354373
 
@@ -760,16 +763,16 @@ end A280607.P7521854316893812590
 /-!
 # A280608: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 294", based on the 5-celled von Neumann neighborhood.
 
-The programs for A280608, the canonical program `A280608.P14150978127026932976` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280608 has offset 0).
+The programs for A280608, the canonical program `A280608.P14150978127026932976` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280608 has offset 0).
 
-The definition of A280608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A280608 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A280608.P14150978127026932976
 
 `a(n-1)+4*a(n-2)-4*a(n-3)` with `a(0)=1, a(1)=3, a(2)=4, a(3)=14, a(4)=17, a(5)=57, a(6)=65`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A280608
@@ -1208,16 +1211,16 @@ end A280609.P5250402977196860056
 /-!
 # A280610: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 294", based on the 5-celled von Neumann neighborhood.
 
-The programs for A280610, the canonical program `A280610.P12477911629004095253` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280610 has offset 0).
+The programs for A280610, the canonical program `A280610.P12477911629004095253` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280610 has offset 0).
 
-The definition of A280610 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A280610 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A280610.P12477911629004095253
 
 `2*a(n-1)+a(n-2)-2*a(n-3)` with `a(0)=1, a(1)=3, a(2)=1, a(3)=7, a(4)=17, a(5)=39, a(6)=65`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A280610
@@ -2007,31 +2010,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A280619.P16914613100217660290
-
-/-! ## A280619.P5149806451646397966
-
-`lt[A092976(n)², comp[A092976(n)]]`
--/
-
-namespace A280619.P5149806451646397966
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092976 n ^ 2
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092976 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A280619.P5149806451646397966
 
 /-! ## A280619.P6048693464355177702
 
@@ -2986,7 +2964,7 @@ end A280636.P5248836723129342144
 
 The programs for A280637, the canonical program `A280637.P1583501028177231652` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280637 has offset 0).
 
-The definition of A280637 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A280637 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A280637.P1583501028177231652
@@ -3939,7 +3917,7 @@ end A280657.P4671414316671473706
 /-!
 # A280658: Numbers ending with their digital root in decimal representation.
 
-The programs for A280658, the canonical program `A280658.P6901563278753084783` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280658 has offset 1).
+The programs for A280658, the canonical program `A280658.P6901563278753084783` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280658 has offset 1).
 
 The definition of A280658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5005 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3948,7 +3926,7 @@ The definition of A280658 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n*n%10, n*dr(n)]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A280658
@@ -5634,7 +5612,7 @@ end A280681.P3818232127345657719
 /-!
 # A280682: Integers m such that floor(sqrt(m)) is even.
 
-The programs for A280682, the canonical program `A280682.P18058985131140404268` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280682 has offset 1).
+The programs for A280682, the canonical program `A280682.P18058985131140404268` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280682 has offset 1).
 
 The definition of A280682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4950 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5643,7 +5621,7 @@ The definition of A280682 is `conjectured`: the Lean definition is a formula tha
 
 `lt[floor(sqrt(n))%2, 1]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A280682
@@ -8416,7 +8394,7 @@ end A280698.P13608630785505303726
 /-!
 # A280699: Greatest Lucas number that is a divisor of the n-th Fibonacci number, a(1) = a(2) = 1.
 
-The programs for A280699, the canonical program `A280699.P3664510402392200407` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280699 has offset 1).
+The programs for A280699, the canonical program `A280699.P3664510402392200407` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280699 has offset 1).
 
 The definition of A280699 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 957 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8448,7 +8426,7 @@ end A280699
 
 `gcd(A115339(n+1), A176742(n))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A280699

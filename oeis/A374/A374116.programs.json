@@ -11,6 +11,10 @@
         "n",
         "A328845",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     }
   ]

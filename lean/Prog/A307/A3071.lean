@@ -6,7 +6,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -17,21 +16,22 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,7 +47,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -55,7 +54,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -472,20 +470,20 @@ end A307103.P4299612946591846972
 The programs for A307104, there is no canonical definition to state claims against.
 -/
 
-/-! ## A307104.P9121831094726030020
+/-! ## A307104.P2721197264797892745
 
 `A003226(n+1)*(A003226(n+1)-1)/10^A055642(A003226(n+1))`
 -/
 
-namespace A307104.P9121831094726030020
+namespace A307104.P2721197264797892745
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A003226 (n + 1) : ℚ) * ((A003226 (n + 1) - 1 : ℚ) / (10 : ℚ) ^ (A055642 (A003226 (n + 1)).toNat : ℤ))
+  (A003226 (n + 1) * (A003226 (n + 1) - 1) : ℚ) / (10 : ℚ) ^ (A055642 (A003226 (n + 1)).toNat : ℤ)
 
 end
 
-end A307104.P9121831094726030020
+end A307104.P2721197264797892745
 
 /-! ## A307104.P13206425602127275623
 
@@ -2247,6 +2245,21 @@ end A307122.P10931453974623143474
 The programs for A307124, there is no canonical definition to state claims against.
 -/
 
+/-! ## A307124.P3472363838436474427
+
+`2*A005867(n+1)²`
+-/
+
+namespace A307124.P3472363838436474427
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A005867 (n + 1) ^ 2
+
+end
+
+end A307124.P3472363838436474427
+
 /-! ## A307124.P17041251808379785710
 
 `(p?[abs(xor(n, -2))]-1)²*a(n-1)` with `a(0)=2`
@@ -2303,21 +2316,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
 end
 
 end A307124.P7327750393775611224
-
-/-! ## A307124.P3472363838436474427
-
-`2*A005867(n+1)²`
--/
-
-namespace A307124.P3472363838436474427
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A005867 (n + 1) ^ 2
-
-end
-
-end A307124.P3472363838436474427
 
 /-! ## A307124.P15975195865778499414
 
@@ -5089,6 +5087,21 @@ end A307169.P17701455942158997528
 The programs for A307172, there is no canonical definition to state claims against.
 -/
 
+/-! ## A307172.P3853476783898680102
+
+`sqrt(9+7*A307173(n+1)²)`
+-/
+
+namespace A307172.P3853476783898680102
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (9 + 7 * A307173 (n + 1) ^ 2 : ℝ)
+
+end
+
+end A307172.P3853476783898680102
+
 /-! ## A307172.P16679509841299163831
 
 `ogf((4-11x)/(1-16x+x^2))`
@@ -5229,21 +5242,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A307172.P271172484290192881
-
-/-! ## A307172.P2224545592238646532
-
-`A307169(n+1)+A001081(n)-A307173(n+1)`
--/
-
-namespace A307172.P2224545592238646532
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307169 (n + 1) + (A001081 n - A307173 (n + 1))
-
-end
-
-end A307172.P2224545592238646532
 
 /-!
 # A307173: Second class of all proper positive solutions y2(n) = a(n) of the Pell equation x^2 - 7*y^2 = 9.
@@ -5551,16 +5549,16 @@ end A307177.P17487273607195287781
 /-!
 # A307181: a(n) is the first Zagreb index of the Lucas cube Lambda(n).
 
-The programs for A307181, the canonical program `A307181.P18433559893680351854` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307181 has offset 1).
+The programs for A307181, the canonical program `A307181.P18433559893680351854` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307181 has offset 1).
 
-The definition of A307181 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A307181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 454 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A307181.P18433559893680351854
 
 `3*a(n-1)-5*a(n-3)+3*a(n-5)+a(n-6)` with `a(0)=0, a(1)=6, a(2)=12, a(3)=40, a(4)=90, a(5)=216, a(6)=462, a(7)=976`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A307181
@@ -5601,7 +5599,7 @@ end A307181
 /-!
 # A307182: Crossing number of the n-crown graph (conjectured).
 
-The programs for A307182, the canonical program `A307182.P5569572041584570587` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307182 has offset 1).
+The programs for A307182, the canonical program `A307182.P5569572041584570587` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307182 has offset 1).
 
 The definition of A307182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5610,7 +5608,7 @@ The definition of A307182 is `conjectured`: the Lean definition is a formula tha
 
 `floor((n/2-floor((n/2)²))²)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A307182

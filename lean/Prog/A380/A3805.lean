@@ -2,15 +2,15 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -20,20 +20,22 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -90,56 +92,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-/-!
-# A380503: Split A377091 into sublists consisting of runs of terms with the same sign. Sequence gives k's such that A377091(k) is the first term of those sublists whose terms (in absolute value) form an arithmetic progression with common difference 1.
-
-The programs for A380503, there is no canonical definition to state claims against.
--/
-
-/-! ## A380503.P15781433378648657545
-
-`∩[A143575(n+1), A380505(n+1)]`
--/
-
-namespace A380503.P15781433378648657545
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143575 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380505 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380503.P15781433378648657545
-
-/-! ## A380503.P1673485125039876168
-
-`∩[A257058(n+1), A380505(n+1)]`
--/
-
-namespace A380503.P1673485125039876168
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257058 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380505 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380503.P1673485125039876168
 
 /-!
 # A380504: Split A377091 into sublists consisting of runs of terms with the same sign. Sequence gives k's such that A377091(k) is the first term of those sublists whose terms (in absolute value) form an arithmetic progression with common difference -1.
@@ -304,33 +256,6 @@ theorem P17107691641625589008.correct : P17107691641625589008.Spec := by
 
 end A380509
 
-/-! ## A380509.P4842884426450978845
-
-`comp[(n*ceil((n/2)²))%A020639(n+1)]`
--/
-
-namespace A380509.P4842884426450978845
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ((n : ℤ) * ⌈((n : ℚ) / 2) ^ 2⌉) (A020639 (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A380509.P4842884426450978845
-
-namespace A380509
-
-/-- `comp[(n*ceil((n/2)²))%A020639(n+1)]` -/
-def P4842884426450978845.Spec : Prop :=
-  ∀ n, (P4842884426450978845.a n : ℤ) = A380509 (n + 1)
-
-end A380509
-
 /-! ## A380509.P676267177332651066
 
 `lt[3, A305801((4*n+1)/gcd(3, n+1))]`
@@ -357,6 +282,33 @@ namespace A380509
 /-- `lt[3, A305801((4*n+1)/gcd(3, n+1))]` -/
 def P676267177332651066.Spec : Prop :=
   ∀ n, (P676267177332651066.a n : ℤ) = A380509 (n + 1)
+
+end A380509
+
+/-! ## A380509.P4842884426450978845
+
+`comp[(n*ceil((n/2)²))%A020639(n+1)]`
+-/
+
+namespace A380509.P4842884426450978845
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod ((n : ℤ) * ⌈((n : ℚ) / 2) ^ 2⌉) (A020639 (n + 1))
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A380509.P4842884426450978845
+
+namespace A380509
+
+/-- `comp[(n*ceil((n/2)²))%A020639(n+1)]` -/
+def P4842884426450978845.Spec : Prop :=
+  ∀ n, (P4842884426450978845.a n : ℤ) = A380509 (n + 1)
 
 end A380509
 
@@ -1304,6 +1256,28 @@ end A380524.P6225864394741247722
 The programs for A380525, there is no canonical definition to state claims against.
 -/
 
+/-! ## A380525.P18111019109337793478
+
+`∩[A005117(n+1), A358673(n+1)]`
+-/
+
+namespace A380525.P18111019109337793478
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358673 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380525.P18111019109337793478
+
 /-! ## A380525.P3435296261080765825
 
 `filter[A358673(n+1), A008966(#)]`
@@ -1378,28 +1352,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A380525.P5632577264773680476
-
-/-! ## A380525.P18111019109337793478
-
-`∩[A005117(n+1), A358673(n+1)]`
--/
-
-namespace A380525.P18111019109337793478
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005117 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358673 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380525.P18111019109337793478
 
 /-! ## A380525.P7582565325043987076
 
@@ -3270,6 +3222,28 @@ end
 
 end A380543.P10100321255319927770
 
+/-! ## A380543.P9982839362292845104
+
+`∩[A066312(n+1), A391026(n+1)]`
+-/
+
+namespace A380543.P9982839362292845104
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066312 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391026 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380543.P9982839362292845104
+
 /-! ## A380543.P13334925729600117521
 
 `∩[A073491(n+1), A391026(n+1)]`
@@ -3375,28 +3349,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A380543.P13634730391047900733
-
-/-! ## A380543.P9982839362292845104
-
-`∩[A066312(n+1), A391026(n+1)]`
--/
-
-namespace A380543.P9982839362292845104
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066312 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391026 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380543.P9982839362292845104
 
 /-! ## A380543.P2874939677841368385
 
@@ -3741,7 +3693,7 @@ end A380546.P10770102165457386037
 /-!
 # A380548: Main diagonal of A125585.
 
-The programs for A380548, the canonical program `A380548.P5588617361391462724` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380548 has offset 1).
+The programs for A380548, the canonical program `A380548.P5588617361391462724` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380548 has offset 1).
 
 The definition of A380548 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3750,7 +3702,7 @@ The definition of A380548 is `conjectured`: the Lean definition is a formula tha
 
 `∑[n]+n-C(A083920(n), 2)+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A380548
@@ -6068,44 +6020,6 @@ end A380591.P13031959473465638529
 
 The programs for A380596, there is no canonical definition to state claims against.
 -/
-
-/-! ## A380596.P14076722390364837003
-
-`comp[A321801(n)]`
--/
-
-namespace A380596.P14076722390364837003
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321801 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A380596.P14076722390364837003
-
-/-! ## A380596.P7774285192348487813
-
-`comp[A321802(n)]`
--/
-
-namespace A380596.P7774285192348487813
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321802 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A380596.P7774285192348487813
 
 /-! ## A380596.P15195836641945857004
 

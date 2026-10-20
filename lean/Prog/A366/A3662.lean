@@ -4,23 +4,23 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C017
+import Seq.B000.C020
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -74,7 +74,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -1568,7 +1567,7 @@ end A366245.P14879837155139206710
 /-!
 # A366246: The number of infinitary divisors of n that are "Fermi-Dirac primes" (A050376) and terms of A366242.
 
-The programs for A366246, the canonical program `A366246.P5159459724350524259` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366246 has offset 1).
+The programs for A366246, the canonical program `A366246.P5159459724350524259` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366246 has offset 1).
 
 The definition of A366246 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1623,7 +1622,7 @@ end A366246
 
 `∑{e}[n+1, and(5, #)%3]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A366246
@@ -2809,7 +2808,7 @@ end A366254.P2318704694250441613
 
 The programs for A366255, the canonical program `A366255.P8099353301085392430` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366255 has offset 0).
 
-The definition of A366255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A366255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A366255.P14712236670735119828
@@ -2931,52 +2930,6 @@ def P10780531013271522041.Spec : Prop :=
 
 end A366255
 
-/-! ## A366255.P8099353301085392430
-
-`char[A303768(2*n+1)]`
-
-The canonical program, it is in `Seq.B002.C006`.
--/
-
-namespace A366255
-
-/-- `char[A303768(2*n+1)]` -/
-def P8099353301085392430.Spec : Prop :=
-  ∀ n, (P8099353301085392430.a n : ℤ) = A366255 n
-
-theorem P8099353301085392430.correct : P8099353301085392430.Spec := by
-  intro n
-  simp only [A366255]
-
-end A366255
-
-/-! ## A366255.P17608859997285441154
-
-`1-char[A303768(2*n)]`
--/
-
-namespace A366255.P17608859997285441154
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303768 (2 * n)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A366255.P17608859997285441154
-
-namespace A366255
-
-/-- `1-char[A303768(2*n)]` -/
-def P17608859997285441154.Spec : Prop :=
-  ∀ n, P17608859997285441154.a n = A366255 n
-
-end A366255
-
 /-! ## A366255.P16475485530606870139
 
 `and(A054977(n), A303767(n))`
@@ -3066,6 +3019,52 @@ namespace A366255
 /-- `and(A057427(n), A304747(n))` -/
 def P16850253050185047308.Spec : Prop :=
   ∀ n, P16850253050185047308.a n = A366255 n
+
+end A366255
+
+/-! ## A366255.P17608859997285441154
+
+`1-char[A303768(2*n)]`
+-/
+
+namespace A366255.P17608859997285441154
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303768 (2 * n)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A366255.P17608859997285441154
+
+namespace A366255
+
+/-- `1-char[A303768(2*n)]` -/
+def P17608859997285441154.Spec : Prop :=
+  ∀ n, P17608859997285441154.a n = A366255 n
+
+end A366255
+
+/-! ## A366255.P8099353301085392430
+
+`char[A303768(2*n+1)]`
+
+The canonical program, it is in `Seq.B002.C006`.
+-/
+
+namespace A366255
+
+/-- `char[A303768(2*n+1)]` -/
+def P8099353301085392430.Spec : Prop :=
+  ∀ n, (P8099353301085392430.a n : ℤ) = A366255 n
+
+theorem P8099353301085392430.correct : P8099353301085392430.Spec := by
+  intro n
+  simp only [A366255]
 
 end A366255
 

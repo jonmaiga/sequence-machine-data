@@ -3,10 +3,8 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -21,11 +19,13 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,7 +56,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -472,28 +471,6 @@ end
 
 end A376305.P13743662100620247843
 
-/-! ## A376305.P9229359187571967320
-
-`A076259(∪[(6*n+5)^5, A376592(n+1)])`
--/
-
-namespace A376305.P9229359187571967320
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (6 * n + 5) ^ 5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376592 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076259 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A376305.P9229359187571967320
-
 /-! ## A376305.P9071913334266495245
 
 `A076259(A376592(n+1))`
@@ -746,7 +723,7 @@ end A376312.P1990747389955446130
 /-!
 # A376313: Independence number of the 2-supertoken graph FF_2(C_n) of the cycle C_n on n vertices.
 
-The programs for A376313, the canonical program `A376313.P8085545222053621016` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376313 has offset 2).
+The programs for A376313, the canonical program `A376313.P8085545222053621016` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376313 has offset 2).
 
 The definition of A376313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -755,7 +732,7 @@ The definition of A376313 is `conjectured`: the Lean definition is a formula tha
 
 `or(2, n+2)*ceil((n+1)/4)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A376313
@@ -1262,28 +1239,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A376314.P15065980881322951863
-
-/-! ## A376314.P6499190345565679715
-
-`∩[A029776(n+1), A159952(n+1)]`
--/
-
-namespace A376314.P6499190345565679715
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029776 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159952 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A376314.P6499190345565679715
 
 /-! ## A376314.P1270074841582927442
 
@@ -2094,28 +2049,6 @@ end A376332.P6884476924725818016
 
 The programs for A376333, there is no canonical definition to state claims against.
 -/
-
-/-! ## A376333.P14722999197606630214
-
-`∩[A238524(n+1), A343281(n+1)]`
--/
-
-namespace A376333.P14722999197606630214
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238524 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343281 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A376333.P14722999197606630214
 
 /-! ## A376333.P4382371404001315702
 
@@ -6596,28 +6529,6 @@ end A376393.P12871766111038719237
 
 The programs for A376396, there is no canonical definition to state claims against.
 -/
-
-/-! ## A376396.P16438789714417235657
-
-`∩[A363750(n+1), A248196(n)]`
--/
-
-namespace A376396.P16438789714417235657
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363750 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A248196 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A376396.P16438789714417235657
 
 /-! ## A376396.P1631103179621292112
 

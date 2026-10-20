@@ -2,24 +2,24 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C013
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -7770,9 +7770,9 @@ end A050375.P9919240778246284403
 /-!
 # A050376: "Fermi-Dirac primes": numbers of the form p^(2^k) where p is prime and k >= 0.
 
-The programs for A050376, the canonical program `A050376.P5652592925068507923` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050376 has offset 1).
+The programs for A050376, the canonical program `A050376.P8445497075527543903` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050376 has offset 1).
 
-The definition of A050376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A050376 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A050376.P11968746704421999495
@@ -7920,45 +7920,22 @@ def P13923683111964839870.Spec : Prop :=
 
 end A050376
 
-/-! ## A050376.P5652592925068507923
+/-! ## A050376.P8445497075527543903
 
-`∪[A000040(n+1), A084400(n+2)]`
+`A084400(n+2)`
 
 The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A050376
 
-/-- `∪[A000040(n+1), A084400(n+2)]` -/
-def P5652592925068507923.Spec : Prop :=
-  ∀ n, (P5652592925068507923.a n : ℤ) = A050376 (n + 1)
-
-theorem P5652592925068507923.correct : P5652592925068507923.Spec := by
-  intro n
-  simp only [A050376, Nat.add_sub_cancel]
-
-end A050376
-
-/-! ## A050376.P8445497075527543903
-
-`A084400(n+2)`
--/
-
-namespace A050376.P8445497075527543903
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084400 (n + 2)
-
-end
-
-end A050376.P8445497075527543903
-
-namespace A050376
-
 /-- `A084400(n+2)` -/
 def P8445497075527543903.Spec : Prop :=
   ∀ n, P8445497075527543903.a n = A050376 (n + 1)
+
+theorem P8445497075527543903.correct : P8445497075527543903.Spec := by
+  intro n
+  simp only [A050376, Nat.add_sub_cancel]
 
 end A050376
 

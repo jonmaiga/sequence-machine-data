@@ -11,22 +11,23 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -37,9 +38,9 @@ import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -52,7 +53,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -75,11 +75,9 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
 
 /-!
 # A233900: Number of (n+1)X(4+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 35.
@@ -732,8 +730,25 @@ end A233906.P8237599089735387967
 /-!
 # A233907: a(n) = 9*binomial(7*n+9, n)/(7*n+9).
 
-The programs for A233907, there is no canonical definition to state claims against.
+The programs for A233907, the canonical program `A233907.P1605500090284288055` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233907 has offset 0).
+
+The definition of A233907 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233907.P1605500090284288055
+
+`9*C(7*n+9, n)/(7*n+9)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233907
+
+/-- `9*C(7*n+9, n)/(7*n+9)` -/
+def P1605500090284288055.Spec : Prop :=
+  ∀ n, P1605500090284288055.a n = (A233907 n : ℚ)
+
+end A233907
 
 /-! ## A233907.P11637505009217628790
 
@@ -750,6 +765,14 @@ end
 
 end A233907.P11637505009217628790
 
+namespace A233907
+
+/-- `A233833(n+1)-A233832(n+1)` -/
+def P11637505009217628790.Spec : Prop :=
+  ∀ n, P11637505009217628790.a n = A233907 n
+
+end A233907
+
 /-! ## A233907.P5536769698344243401
 
 `A233833(A023443(n)+2)%A233832(n+1)`
@@ -764,6 +787,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233907.P5536769698344243401
+
+namespace A233907
+
+/-- `A233833(A023443(n)+2)%A233832(n+1)` -/
+def P5536769698344243401.Spec : Prop :=
+  ∀ n, P5536769698344243401.a n = A233907 n
+
+end A233907
 
 /-! ## A233907.P13208785703118239401
 
@@ -780,6 +811,14 @@ end
 
 end A233907.P13208785703118239401
 
+namespace A233907
+
+/-- `A233833(n+1)-(A233835(n)+A002296(n+1))` -/
+def P13208785703118239401.Spec : Prop :=
+  ∀ n, P13208785703118239401.a n = A233907 n
+
+end A233907
+
 /-! ## A233907.P6162716884248331135
 
 `A233833(n+1)%(A233832(n+1)/A033999(n))`
@@ -794,6 +833,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233907.P6162716884248331135
+
+namespace A233907
+
+/-- `A233833(n+1)%(A233832(n+1)/A033999(n))` -/
+def P6162716884248331135.Spec : Prop :=
+  ∀ n, P6162716884248331135.a n = A233907 n
+
+end A233907
 
 /-! ## A233907.P3896926771100067817
 
@@ -810,6 +857,14 @@ end
 
 end A233907.P3896926771100067817
 
+namespace A233907
+
+/-- `A233833(n+1)+A033999(2*n+1)*A233832(n+1)` -/
+def P3896926771100067817.Spec : Prop :=
+  ∀ n, P3896926771100067817.a n = A233907 n
+
+end A233907
+
 /-! ## A233907.P15585668067546718246
 
 `A233833(A008683(64*(n+1))+n+1)%A233832(n+1)`
@@ -825,11 +880,36 @@ end
 
 end A233907.P15585668067546718246
 
+namespace A233907
+
+/-- `A233833(A008683(64*(n+1))+n+1)%A233832(n+1)` -/
+def P15585668067546718246.Spec : Prop :=
+  ∀ n, P15585668067546718246.a n = A233907 n
+
+end A233907
+
 /-!
 # A233908: a(n) = 10*binomial(7*n+10,n)/(7*n+10).
 
-The programs for A233908, there is no canonical definition to state claims against.
+The programs for A233908, the canonical program `A233908.P1028036176363625222` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233908 has offset 0).
+
+The definition of A233908 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233908.P1028036176363625222
+
+`10*C(7*n+10, n)/(7*n+10)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233908
+
+/-- `10*C(7*n+10, n)/(7*n+10)` -/
+def P1028036176363625222.Spec : Prop :=
+  ∀ n, P1028036176363625222.a n = (A233908 n : ℚ)
+
+end A233908
 
 /-! ## A233908.P8226393072369353471
 
@@ -845,6 +925,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233908.P8226393072369353471
+
+namespace A233908
+
+/-- `A386392(n+1)-A233833(n+1)` -/
+def P8226393072369353471.Spec : Prop :=
+  ∀ n, P8226393072369353471.a n = A233908 n
+
+end A233908
 
 /-!
 # A233909: Number of (n+1)X(n+1) 0..7 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30, and no two adjacent values equal.
@@ -7224,7 +7312,7 @@ end A233981.P9713263275826435680
 /-!
 # A233982: Number of (n+1) X (1+1) 0..4 arrays with every 2 X 2 subblock having the sum of the squares of the edge differences equal to 10, and no two adjacent values equal.
 
-The programs for A233982, the canonical program `A233982.P12133902707415322674` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233982 has offset 1).
+The programs for A233982, the canonical program `A233982.P12133902707415322674` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233982 has offset 1).
 
 The definition of A233982 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7233,7 +7321,7 @@ The definition of A233982 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+8*a(n-2)+4*a(n-3)` with `a(0)=56, a(1)=236, a(2)=976`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A233982

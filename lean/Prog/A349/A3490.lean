@@ -13,20 +13,21 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -78,7 +79,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -94,6 +94,21 @@ import Seq.Opaque.C024
 
 The programs for A349000, there is no canonical definition to state claims against.
 -/
+
+/-! ## A349000.P2280877207652939351
+
+`gcd(A276086(n), A348996(n))`
+-/
+
+namespace A349000.P2280877207652939351
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A276086 n) (A348996 n)
+
+end
+
+end A349000.P2280877207652939351
 
 /-! ## A349000.P1791452410364978276
 
@@ -111,21 +126,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349000.P1791452410364978276
-
-/-! ## A349000.P2280877207652939351
-
-`gcd(A276086(n), A348996(n))`
--/
-
-namespace A349000.P2280877207652939351
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A276086 n) (A348996 n)
-
-end
-
-end A349000.P2280877207652939351
 
 /-! ## A349000.P10111925109452619646
 
@@ -561,7 +561,7 @@ The programs for A349006, there is no canonical definition to state claims again
 
 /-! ## A349006.P6443663589059298207
 
-`A319068(2^∑{e}[n+1, #]^(n+1))`
+`A319068((2^∑{e}[n+1, #])^(n+1))`
 -/
 
 namespace A349006.P6443663589059298207
@@ -2379,7 +2379,7 @@ end A349041.P5000213864311983039
 
 /-! ## A349041.P12677104591640316971
 
-`-A349040(9*n)/3`
+`-(A349040(9*n)/3)`
 -/
 
 namespace A349041.P12677104591640316971
@@ -2410,7 +2410,7 @@ end A349041.P67955429699413825
 /-!
 # A349043: Number of solutions to n = s + t such that 1 <= s <= t and s | 2*t.
 
-The programs for A349043, the canonical program `A349043.P12655725755035742614` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349043 has offset 0).
+The programs for A349043, the canonical program `A349043.P12655725755035742614` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349043 has offset 0).
 
 The definition of A349043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2419,7 +2419,7 @@ The definition of A349043 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[2*n, C(3%#, 3)]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A349043
@@ -2906,7 +2906,7 @@ end A349049
 /-!
 # A349050: Number of multisets of size n that have no alternating permutations and cover an initial interval of positive integers.
 
-The programs for A349050, the canonical program `A349050.P7865045838321686078` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349050 has offset 0).
+The programs for A349050, the canonical program `A349050.P7865045838321686078` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349050 has offset 0).
 
 The definition of A349050 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 651 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2938,7 +2938,7 @@ end A349050
 
 `4*(a(n-2)-a(n-4))` with `a(0)=0, a(1)=0, a(2)=1, a(3)=1, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A349050
@@ -4296,28 +4296,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349064.P4076080584802007808
-
-/-! ## A349064.P14192119224362256328
-
-`∩[A001694(n+1), A270308(A118844(n+1))]`
--/
-
-namespace A349064.P14192119224362256328
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001694 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A270308 (A118844 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A349064.P14192119224362256328
 
 /-!
 # A349070: a(n) = T(3*n, n), where T(n, x) is the Chebyshev polynomial of the first kind.

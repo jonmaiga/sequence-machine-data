@@ -1,7 +1,6 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
@@ -9,22 +8,26 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
+import Seq.B000.C010
+import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,6 +38,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -50,7 +54,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1295,29 +1298,6 @@ end
 
 end A298534.P14174800746909171691
 
-/-! ## A298534.P15058873946305290870
-
-`comp[A103164(comp[A291442(n+1)])]`
--/
-
-namespace A298534.P15058873946305290870
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291442 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103164 (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A298534.P15058873946305290870
-
 /-! ## A298534.P5100778326339185455
 
 `∪[A291442(n+1), Δ[A007504(n)]]`
@@ -1452,6 +1432,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A298534.P7232787611713665147
+
+/-! ## A298534.P15058873946305290870
+
+`comp[A103164(comp[A291442(n+1)])]`
+-/
+
+namespace A298534.P15058873946305290870
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291442 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103164 (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A298534.P15058873946305290870
 
 /-!
 # A298535: Number of unlabeled rooted trees with n vertices such that every branch of the root has a different number of leaves.
@@ -3707,7 +3710,7 @@ end A298563.P15889171357448815988
 /-!
 # A298564: a(n) = (3^(n+2)+11)/2 - 5*2^(n+1) + 2*n.
 
-The programs for A298564, the canonical program `A298564.P17143947217949679530` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298564 has offset 0).
+The programs for A298564, the canonical program `A298564.P17143947217949679530` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298564 has offset 0).
 
 The definition of A298564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3716,7 +3719,7 @@ The definition of A298564 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3^(n+2)+11)/2-5*2^(n+1)+2*n`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A298564
@@ -4010,7 +4013,7 @@ end A298568.P8149818433518169462
 /-!
 # A298569: Number of nX2 0..1 arrays with every element equal to 0, 2, 4, 5 or 7 king-move adjacent elements, with upper left element zero.
 
-The programs for A298569, the canonical program `A298569.P3385328400592347379` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298569 has offset 1).
+The programs for A298569, the canonical program `A298569.P3385328400592347379` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298569 has offset 1).
 
 The definition of A298569 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4019,7 +4022,7 @@ The definition of A298569 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+8*a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=4, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A298569
@@ -5632,6 +5635,21 @@ end A298588.P7338384948409741965
 The programs for A298590, there is no canonical definition to state claims against.
 -/
 
+/-! ## A298590.P9677212486199183752
+
+`(1+A293630(A291481(n-1)))*a(n-1)-A293630(A291481(n-1))²` with `a(0)=3`
+-/
+
+namespace A298590.P9677212486199183752
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
+  (1 + A293630 (A291481 (n - 1)).toNat) * a (n - 1) - A293630 (A291481 (n - 1)).toNat ^ 2
+
+end
+
+end A298590.P9677212486199183752
+
 /-! ## A298590.P8808679427741932863
 
 `A298606(A291481(n))`
@@ -5682,27 +5700,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298590.P6760889062440806774
-
-/-! ## A298590.P9074486554779234405
-
-`2*eq[23, A106609(lcm(23, n))]+1`
--/
-
-namespace A298590.P9074486554779234405
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  23
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106609 (Nat.lcm 23 n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A298590.P9074486554779234405
 
 /-!
 # A298592: Triangle read by rows: T(n,k) = number of parking functions of length n whose lead number is k.

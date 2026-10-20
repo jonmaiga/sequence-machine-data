@@ -4,10 +4,8 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -15,29 +13,29 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -55,6 +53,7 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -7313,27 +7312,50 @@ end A000679.P5019340232983593547
 /-!
 # A000680: a(n) = (2n)!/2^n.
 
-The programs for A000680, the canonical program `A000680.P8395856750134243269` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000680 has offset 0).
+The programs for A000680, the canonical program `A000680.P15809450990320406680` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000680 has offset 0).
 
 The definition of A000680 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A000680.P8395856750134243269
+/-! ## A000680.P15809450990320406680
 
-`a(n-1)*(2*n-1)*n` with `a(0)=1`
+`C(2*n, 2)*a(n-1)` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C000`.
 -/
 
 namespace A000680
 
-/-- `a(n-1)*(2*n-1)*n` -/
-def P8395856750134243269.Spec : Prop :=
-  ∀ n, P8395856750134243269.a n = A000680 n
+/-- `C(2*n, 2)*a(n-1)` -/
+def P15809450990320406680.Spec : Prop :=
+  ∀ n, (P15809450990320406680.a n : ℤ) = A000680 n
 
-theorem P8395856750134243269.correct : P8395856750134243269.Spec := by
+theorem P15809450990320406680.correct : P15809450990320406680.Spec := by
   intro n
   simp only [A000680]
+
+end A000680
+
+/-! ## A000680.P7634219510007611219
+
+`a(n-1)*(2*n-1)*n` with `a(0)=1`
+-/
+
+namespace A000680.P7634219510007611219
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) * ((2 * n : ℤ) - 1) * (n : ℤ)
+
+end
+
+end A000680.P7634219510007611219
+
+namespace A000680
+
+/-- `a(n-1)*(2*n-1)*n` -/
+def P7634219510007611219.Spec : Prop :=
+  ∀ n, P7634219510007611219.a n = A000680 n
 
 end A000680
 
@@ -7411,37 +7433,28 @@ def P15539604428140441620.Spec : Prop :=
 
 end A000680
 
-/-! ## A000680.P8524481858430547978
-
-`∏[abs(1-2*n)]*n!`
--/
-
-namespace A000680.P8524481858430547978
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |1 - (2 * n : ℤ)|
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∏ j ∈ Finset.range (n + 1), f1 j) * (Nat.factorial n : ℤ)
-
-end
-
-end A000680.P8524481858430547978
-
-namespace A000680
-
-/-- `∏[abs(1-2*n)]*n!` -/
-def P8524481858430547978.Spec : Prop :=
-  ∀ n, P8524481858430547978.a n = A000680 n
-
-end A000680
-
 /-!
 # A000681: Number of n X n matrices with nonnegative entries and every row and column sum 2.
 
-The programs for A000681, there is no canonical definition to state claims against.
+The programs for A000681, the canonical program `A000681.P17461210728371993315` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000681 has offset 0).
+
+The definition of A000681 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A000681.P17461210728371993315
+
+`n²*a(n-1)-1/2*n*(n-1)²*a(n-2)` with `a(0)=1, a(1)=1`
+
+The canonical program, it is in `Seq.B000.C000`.
+-/
+
+namespace A000681
+
+/-- `n²*a(n-1)-1/2*n*(n-1)²*a(n-2)` -/
+def P17461210728371993315.Spec : Prop :=
+  ∀ n, P17461210728371993315.a n = (A000681 n : ℚ)
+
+end A000681
 
 /-! ## A000681.P11768037821452708510
 
@@ -7461,6 +7474,14 @@ end
 
 end A000681.P11768037821452708510
 
+namespace A000681
+
+/-- `A257493(∑[n+3])` -/
+def P11768037821452708510.Spec : Prop :=
+  ∀ n, P11768037821452708510.a n = A000681 n
+
+end A000681
+
 /-! ## A000681.P5339201826394418363
 
 `A257493(A141214(n))^A178334(n)`
@@ -7475,6 +7496,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A000681.P5339201826394418363
+
+namespace A000681
+
+/-- `A257493(A141214(n))^A178334(n)` -/
+def P5339201826394418363.Spec : Prop :=
+  ∀ n, P5339201826394418363.a n = (A000681 n : ℚ)
+
+end A000681
 
 /-! ## A000681.P12567393128990636497
 
@@ -7491,6 +7520,14 @@ end
 
 end A000681.P12567393128990636497
 
+namespace A000681
+
+/-- `lcm(A020985(n), A257493(A141214(n)))` -/
+def P12567393128990636497.Spec : Prop :=
+  ∀ n, (P12567393128990636497.a n : ℤ) = A000681 n
+
+end A000681
+
 /-! ## A000681.P16470458244813810170
 
 `or(A063524(n), A257493(A141214(n)))`
@@ -7506,20 +7543,13 @@ end
 
 end A000681.P16470458244813810170
 
-/-! ## A000681.P11377335737271413245
+namespace A000681
 
-`A060576(3*n)*A257493(A141214(n))`
--/
+/-- `or(A063524(n), A257493(A141214(n)))` -/
+def P16470458244813810170.Spec : Prop :=
+  ∀ n, P16470458244813810170.a n = A000681 n
 
-namespace A000681.P11377335737271413245
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060576 (3 * n) * A257493 (A141214 n).toNat
-
-end
-
-end A000681.P11377335737271413245
+end A000681
 
 /-!
 # A000682: Semi-meanders: number of ways a semi-infinite directed curve can cross a straight line n times.
@@ -7769,6 +7799,21 @@ end A000684.P2250533308347656869
 
 The programs for A000685, there is no canonical definition to state claims against.
 -/
+
+/-! ## A000685.P11202949326319641245
+
+`1/3*A191371(n+1)`
+-/
+
+namespace A000685.P11202949326319641245
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 3 * (A191371 (n + 1) : ℚ)
+
+end
+
+end A000685.P11202949326319641245
 
 /-! ## A000685.P10989204914498001312
 
@@ -9295,6 +9340,24 @@ end A000695
 The programs for A000696, there is no canonical definition to state claims against.
 -/
 
+/-! ## A000696.P12003933602903985131
+
+`∑[A004151(A110738(n+1)!)]`
+-/
+
+namespace A000696.P12003933602903985131
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004151 (Nat.factorial (A110738 (n + 1)).toNat)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A000696.P12003933602903985131
+
 /-! ## A000696.P8414945471515262639
 
 `∪[A282414(2*n), A241985(A241988(n))]`
@@ -9316,24 +9379,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A000696.P8414945471515262639
-
-/-! ## A000696.P12003933602903985131
-
-`∑[A004151(A110738(n+1)!)]`
--/
-
-namespace A000696.P12003933602903985131
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004151 (Nat.factorial (A110738 (n + 1)).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A000696.P12003933602903985131
 
 /-!
 # A000697: Boustrophedon transform of 1, 1, 4, 9, 16, ...

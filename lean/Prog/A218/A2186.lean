@@ -2,44 +2,44 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -52,6 +52,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1825,21 +1826,6 @@ end A218617.P1657641300986894784
 The programs for A218618, there is no canonical definition to state claims against.
 -/
 
-/-! ## A218618.P7469663701593299749
-
-`(-1)^A213730(n)*A213727(A213730(n))`
--/
-
-namespace A218618.P7469663701593299749
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (-1 : ℚ) ^ (A213730 n : ℤ) * (A213727 (A213730 n).toNat : ℚ)
-
-end
-
-end A218618.P7469663701593299749
-
 /-! ## A218618.P18259191013746965105
 
 `Δ[A218789(A028310(n)-1)]`
@@ -1959,6 +1945,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218618.P15678401332573510646
+
+/-! ## A218618.P7469663701593299749
+
+`(-1)^A213730(n)*A213727(A213730(n))`
+-/
+
+namespace A218618.P7469663701593299749
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (-1 : ℚ) ^ (A213730 n : ℤ) * (A213727 (A213730 n).toNat : ℚ)
+
+end
+
+end A218618.P7469663701593299749
 
 /-! ## A218618.P2748141821083384081
 
@@ -5832,7 +5833,7 @@ end A218656.P11127873941758896894
 /-!
 # A218657: Number of n X 2 binary arrays with every 0 a king-move neighbor to some 1.
 
-The programs for A218657, the canonical program `A218657.P17859511460360803181` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218657 has offset 1).
+The programs for A218657, the canonical program `A218657.P17859511460360803181` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218657 has offset 1).
 
 The definition of A218657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5864,7 +5865,7 @@ end A218657
 
 `3*a(n-1)+3*a(n-2)+3*a(n-3)` with `a(0)=3, a(1)=15, a(2)=57`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A218657
@@ -7387,7 +7388,7 @@ end A218696.P10858782297409711670
 
 The programs for A218697, the canonical program `A218697.P15989170104601870858` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218697 has offset 1).
 
-The definition of A218697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1807 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A218697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2469 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A218697.P10839895539270088069

@@ -3,26 +3,31 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C023
+import Seq.B000.C018
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -30,7 +35,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -51,7 +55,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -1949,25 +1952,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122315.P15467353612231385728
-
-/-! ## A122315.P1143970354964035902
-
-`A082352(comp[A004804(n+1)²])`
--/
-
-namespace A122315.P1143970354964035902
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004804 (n + 1) ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082352 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A122315.P1143970354964035902
 
 /-!
 # A122316: Row 11 of A122284.
@@ -7216,7 +7200,7 @@ end A122364.P2510538688938692075
 /-!
 # A122365: The (1,6)-entry of the matrix M^n, where M is the 6 X 6 matrix {{1, 1, 1, 1, 1, 1},{1, 0, 0, 0, 1, 0},{1, 0, 0, 1, 0, 0},{1, 0, 1, 0, 0, 0},{1, 1, 0, 0, 0, 0}, {1, 0, 0, 0, 0, 0}}.
 
-The programs for A122365, the canonical program `A122365.P8828210464506390571` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122365 has offset 0).
+The programs for A122365, the canonical program `A122365.P8828210464506390571` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122365 has offset 0).
 
 The definition of A122365 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7225,7 +7209,7 @@ The definition of A122365 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+4*a(n-2)-a(n-3)` with `a(0)=0, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A122365
@@ -7789,7 +7773,7 @@ end A122366
 /-!
 # A122367: Dimension of 3-variable non-commutative harmonics (twisted derivative) of order n. The dimension of the space of non-commutative polynomials of degree n in 3 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( xi w ) = w and d_{xi} ( xj w ) = 0 for i != j).
 
-The programs for A122367, the canonical program `A122367.P7867433205098725434` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122367 has offset 0).
+The programs for A122367, the canonical program `A122367.P7867433205098725434` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122367 has offset 0).
 
 The definition of A122367 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7798,7 +7782,7 @@ The definition of A122367 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A122367
@@ -7953,7 +7937,7 @@ end A122367
 
 /-! ## A122367.P5647950897262404207
 
-`-ceil(-ϕ²*a(n-1))` with `a(0)=1`
+`-ceil(-(ϕ²*a(n-1)))` with `a(0)=1`
 -/
 
 namespace A122367.P5647950897262404207
@@ -7968,7 +7952,7 @@ end A122367.P5647950897262404207
 
 namespace A122367
 
-/-- `-ceil(-ϕ²*a(n-1))` -/
+/-- `-ceil(-(ϕ²*a(n-1)))` -/
 def P5647950897262404207.Spec : Prop :=
   ∀ n, P5647950897262404207.a n = A122367 n
 
@@ -9773,7 +9757,7 @@ end A122388.P13556955573567804416
 /-!
 # A122391: Dimension of 2-variable non-commutative harmonics (Hausdorff derivative). The dimension of the space of non-commutative polynomials in 2 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( w ) = sum over all subwords of w deleting xi once).
 
-The programs for A122391, the canonical program `A122391.P14502299646733092786` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122391 has offset 0).
+The programs for A122391, the canonical program `A122391.P14502299646733092786` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122391 has offset 0).
 
 The definition of A122391 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9782,7 +9766,7 @@ The definition of A122391 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(2^(n-2))+floor(2^(n-3))`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A122391
@@ -10240,7 +10224,7 @@ end A122391
 /-!
 # A122392: Dimension of 3-variable non-commutative harmonics (Hausdorff derivative). The dimension of the space of non-commutative polynomials in 3 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( w ) = sum over all subwords of w deleting xi once).
 
-The programs for A122392, the canonical program `A122392.P7331985287370614680` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122392 has offset 0).
+The programs for A122392, the canonical program `A122392.P7331985287370614680` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122392 has offset 0).
 
 The definition of A122392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10249,7 +10233,7 @@ The definition of A122392 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((-1+x+x^2-x^4-x^5+x^6)/(-1+3x))`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A122392

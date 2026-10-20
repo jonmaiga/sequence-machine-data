@@ -21,10 +21,8 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -36,6 +34,8 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -889,7 +889,7 @@ end A260303.P5763991741387166868
 /-!
 # A260304: a(n) = 5*a(n-1) - 5*a(n-2) for n>1, a(0)=2, a(1)=3.
 
-The programs for A260304, the canonical program `A260304.P34385759155988327` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260304 has offset 0).
+The programs for A260304, the canonical program `A260304.P34385759155988327` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260304 has offset 0).
 
 The definition of A260304 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*a(n-1)-5*a(n-2)` (program `A260304.P34385759155988327`, by `A260304.P34385759155988327.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -898,7 +898,7 @@ The definition of A260304 is `verified`: the Lean definition is proven equivalen
 
 `5*a(n-1)-5*a(n-2)` with `a(0)=2, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260304
@@ -1432,7 +1432,7 @@ end A260306.P9903704925356071440
 /-!
 # A260307: a(n) = a(n-1) + a(n-2) - a(n-3) + a(n-6) - a(n-7) - a(n-8) + a(n-9) with a(0) - a(8) as shown below.
 
-The programs for A260307, the canonical program `A260307.P1339697567186230125` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260307 has offset 0).
+The programs for A260307, the canonical program `A260307.P1339697567186230125` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260307 has offset 0).
 
 The definition of A260307 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1441,7 +1441,7 @@ The definition of A260307 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-6)-a(n-8)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=6, a(5)=5, a(6)=8, a(7)=7`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260307
@@ -1476,6 +1476,29 @@ namespace A260307
 /-- `A260708(n+1)-A260708(n)` -/
 def P2125896597094917059.Spec : Prop :=
   ∀ n, P2125896597094917059.a n = A260307 n
+
+end A260307
+
+/-! ## A260307.P10709244175851391148
+
+`n+1+(-1)^n*A152467(n+2)`
+-/
+
+namespace A260307.P10709244175851391148
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) + (-1) ^ n * A152467 (n + 2)
+
+end
+
+end A260307.P10709244175851391148
+
+namespace A260307
+
+/-- `n+1+(-1)^n*A152467(n+2)` -/
+def P10709244175851391148.Spec : Prop :=
+  ∀ n, P10709244175851391148.a n = A260307 n
 
 end A260307
 
@@ -2490,7 +2513,7 @@ end A260314.P1310887004191741839
 /-!
 # A260316: n/3 if 3 divides n, else n-1.
 
-The programs for A260316, the canonical program `A260316.P16468644166714572972` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260316 has offset 0).
+The programs for A260316, the canonical program `A260316.P16468644166714572972` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260316 has offset 0).
 
 The definition of A260316 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2499,7 +2522,7 @@ The definition of A260316 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-3)-a(n-6)` with `a(0)=0, a(1)=0, a(2)=1, a(3)=1, a(4)=3, a(5)=4`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260316
@@ -3504,7 +3527,7 @@ end A260330.P12199353938994280340
 /-!
 # A260331: Labelings of n diamond-shaped posets with 4 vertices per diamond where the labels follow the poset relations.
 
-The programs for A260331, the canonical program `A260331.P14129713740941353952` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260331 has offset 0).
+The programs for A260331, the canonical program `A260331.P14129713740941353952` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260331 has offset 0).
 
 The definition of A260331 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3513,7 +3536,7 @@ The definition of A260331 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4*n)!/12^n`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260331
@@ -5868,7 +5891,7 @@ end A260372.P7491026269869155499
 /-!
 # A260373: The nearest perfect square to n!
 
-The programs for A260373, the canonical program `A260373.P8346771822283774754` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260373 has offset 0).
+The programs for A260373, the canonical program `A260373.P8346771822283774754` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260373 has offset 0).
 
 The definition of A260373 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5877,7 +5900,7 @@ The definition of A260373 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(sqrt(n!))²`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260373
@@ -6092,38 +6115,52 @@ end A260373
 /-!
 # A260374: The distance between n! and the nearest perfect square.
 
-The programs for A260374, there is no canonical definition to state claims against.
+The programs for A260374, the canonical program `A260374.P11691029667165819522` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260374 has offset 0).
+
+The definition of A260374 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A260374.P11033707393192935739
+/-! ## A260374.P14605055225179745519
 
-`abs(round(sqrt(n!))²-n!)`
+`abs(n!-round(sqrt(n!))²)`
 -/
 
-namespace A260374.P11033707393192935739
+namespace A260374.P14605055225179745519
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |SequenceMachineLib.roundAway (Real.sqrt (Nat.factorial n : ℝ)) ^ 2 - (Nat.factorial n : ℤ)|
+  |(Nat.factorial n : ℤ) - SequenceMachineLib.roundAway (Real.sqrt (Nat.factorial n : ℝ)) ^ 2|
 
 end
 
-end A260374.P11033707393192935739
+end A260374.P14605055225179745519
+
+namespace A260374
+
+/-- `abs(n!-round(sqrt(n!))²)` -/
+def P14605055225179745519.Spec : Prop :=
+  ∀ n, P14605055225179745519.a n = A260374 n
+
+end A260374
 
 /-! ## A260374.P11691029667165819522
 
 `abs(n!-A260373(n))`
+
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
-namespace A260374.P11691029667165819522
-noncomputable section
+namespace A260374
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |(Nat.factorial n : ℤ) - A260373 n|
+/-- `abs(n!-A260373(n))` -/
+def P11691029667165819522.Spec : Prop :=
+  ∀ n, P11691029667165819522.a n = A260374 n
 
-end
+theorem P11691029667165819522.correct : P11691029667165819522.Spec := by
+  intro n
+  simp only [A260374]
 
-end A260374.P11691029667165819522
+end A260374
 
 /-! ## A260374.P6449158442824498943
 
@@ -6140,6 +6177,14 @@ end
 
 end A260374.P6449158442824498943
 
+namespace A260374
+
+/-- `abs(A000142(n)-A260373(n))` -/
+def P6449158442824498943.Spec : Prop :=
+  ∀ n, P6449158442824498943.a n = A260374 n
+
+end A260374
+
 /-! ## A260374.P1482647884668963697
 
 `abs(A000142(n)-A055227(n)²)`
@@ -6154,6 +6199,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260374.P1482647884668963697
+
+namespace A260374
+
+/-- `abs(A000142(n)-A055227(n)²)` -/
+def P1482647884668963697.Spec : Prop :=
+  ∀ n, P1482647884668963697.a n = A260374 n
+
+end A260374
 
 /-!
 # A260376: Values of n such that prime(prime(n)) + n is a prime number.

@@ -4,9 +4,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -24,14 +22,16 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -52,7 +52,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -90,7 +89,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2328,28 +2326,6 @@ end
 
 end A065212.P5836938015134149993
 
-/-! ## A065212.P13553976398648527429
-
-`A015986(comp[Δ[A229687(n+1)]])`
--/
-
-namespace A065212.P13553976398648527429
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229687 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015986 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A065212.P13553976398648527429
-
 /-!
 # A065213: Numbers which need eight 'Reverse and Add' steps to reach a palindrome.
 
@@ -2541,25 +2517,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A065215.P11006107203055551698
-
-/-! ## A065215.P9382372184109643726
-
-`A015991(comp[A185203(3*n)])`
--/
-
-namespace A065215.P9382372184109643726
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185203 (3 * n)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015991 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A065215.P9382372184109643726
 
 /-!
 # A065216: Numbers which need eleven 'Reverse and Add' steps to reach a palindrome.
@@ -3050,12 +3007,12 @@ end A065219.P13335815915675160255
 /-!
 # A065220: a(n) = Fibonacci(n) - n.
 
-The programs for A065220, the canonical program `A065220.P9399318287820856505` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065220 has offset 0).
+The programs for A065220, the canonical program `A065220.P7997563245578391607` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065220 has offset 0).
 
 The definition of A065220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A065220.P9399318287820856505
+/-! ## A065220.P7997563245578391607
 
 `a(n-1)+a(n-2)+n-3` with `a(0)=0, a(1)=0`
 
@@ -3065,10 +3022,10 @@ The canonical program, it is in `Seq.B000.C010`.
 namespace A065220
 
 /-- `a(n-1)+a(n-2)+n-3` -/
-def P9399318287820856505.Spec : Prop :=
-  ∀ n, P9399318287820856505.a n = A065220 n
+def P7997563245578391607.Spec : Prop :=
+  ∀ n, P7997563245578391607.a n = A065220 n
 
-theorem P9399318287820856505.correct : P9399318287820856505.Spec := by
+theorem P7997563245578391607.correct : P7997563245578391607.Spec := by
   intro n
   simp only [A065220]
 
@@ -3166,7 +3123,7 @@ def P1815314293109498790.Spec : Prop :=
 
 theorem P1815314293109498790.correct : P1815314293109498790.Spec := by
   intro n
-  simp only [A065220, Nat.add_sub_cancel, A065220.P1815314293109498790.a, A065220.P9399318287820856505.a, SequenceMachineLib.memo_apply]
+  simp only [A065220, Nat.add_sub_cancel, A065220.P1815314293109498790.a, A065220.P7997563245578391607.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 

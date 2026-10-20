@@ -11,7 +11,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -20,20 +19,19 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,12 +42,12 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -65,7 +63,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -703,23 +700,50 @@ end A035601
 /-!
 # A035602: Number of points of L1 norm 8 in cubic lattice Z^n.
 
-The programs for A035602, the canonical program `A035602.P15886527680312708843` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035602 has offset 0).
+The programs for A035602, the canonical program `A035602.P11295284103592876625` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035602 has offset 0).
 
 The definition of A035602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A035602.P15886527680312708843
+/-! ## A035602.P16528086253765950299
 
 `2*n²*(n^6+28*n^4+154*n²+132)/315`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A035602.P16528086253765950299
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 * n ^ 2 * (n ^ 6 + 28 * n ^ 4 + 154 * n ^ 2 + 132) : ℚ) / 315
+
+end
+
+end A035602.P16528086253765950299
 
 namespace A035602
 
 /-- `2*n²*(n^6+28*n^4+154*n²+132)/315` -/
-def P15886527680312708843.Spec : Prop :=
-  ∀ n, P15886527680312708843.a n = (A035602 n : ℚ)
+def P16528086253765950299.Spec : Prop :=
+  ∀ n, P16528086253765950299.a n = (A035602 n : ℚ)
+
+end A035602
+
+/-! ## A035602.P11295284103592876625
+
+`2*A099195(n)`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A035602
+
+/-- `2*A099195(n)` -/
+def P11295284103592876625.Spec : Prop :=
+  ∀ n, P11295284103592876625.a n = A035602 n
+
+theorem P11295284103592876625.correct : P11295284103592876625.Spec := by
+  intro n
+  simp only [A035602]
 
 end A035602
 
@@ -2084,52 +2108,6 @@ def P13919477619303120902.Spec : Prop :=
 
 end A035608
 
-/-! ## A035608.P11178897896882174010
-
-`A002378(n)-A004526(n+1)`
--/
-
-namespace A035608.P11178897896882174010
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002378 n - A004526 (n + 1)
-
-end
-
-end A035608.P11178897896882174010
-
-namespace A035608
-
-/-- `A002378(n)-A004526(n+1)` -/
-def P11178897896882174010.Spec : Prop :=
-  ∀ n, P11178897896882174010.a n = A035608 n
-
-end A035608
-
-/-! ## A035608.P6586553969925396090
-
-`A002265(n+2)+A173562(n)`
--/
-
-namespace A035608.P6586553969925396090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002265 (n + 2) + A173562 n
-
-end
-
-end A035608.P6586553969925396090
-
-namespace A035608
-
-/-- `A002265(n+2)+A173562(n)` -/
-def P6586553969925396090.Spec : Prop :=
-  ∀ n, P6586553969925396090.a n = A035608 n
-
-end A035608
-
 /-! ## A035608.P12366257996061643096
 
 `A011848(2*n+1)`
@@ -2503,6 +2481,52 @@ namespace A035608
 /-- `∑[2*n-n%2]` -/
 def P1658240953387774203.Spec : Prop :=
   ∀ n, P1658240953387774203.a n = A035608 n
+
+end A035608
+
+/-! ## A035608.P205851932658224155
+
+`n*A005408(n-1)-a(n-1)` with `a(0)=0`
+-/
+
+namespace A035608.P205851932658224155
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (n : ℤ) * A005408 (n - 1) - a (n - 1)
+
+end
+
+end A035608.P205851932658224155
+
+namespace A035608
+
+/-- `n*A005408(n-1)-a(n-1)` -/
+def P205851932658224155.Spec : Prop :=
+  ∀ n, P205851932658224155.a n = A035608 n
+
+end A035608
+
+/-! ## A035608.P11178897896882174010
+
+`A002378(n)-A004526(n+1)`
+-/
+
+namespace A035608.P11178897896882174010
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002378 n - A004526 (n + 1)
+
+end
+
+end A035608.P11178897896882174010
+
+namespace A035608
+
+/-- `A002378(n)-A004526(n+1)` -/
+def P11178897896882174010.Spec : Prop :=
+  ∀ n, P11178897896882174010.a n = A035608 n
 
 end A035608
 
@@ -5090,28 +5114,6 @@ end
 
 end A035627.P2558226075462275185
 
-/-! ## A035627.P16258008663807786106
-
-`A035637(∪[A047253(n+1), A090887(n+1)])`
--/
-
-namespace A035627.P16258008663807786106
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047253 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090887 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035637 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A035627.P16258008663807786106
-
 /-!
 # A035628: Number of partitions of n into parts 5k and 5k+2 with at least one part of each type.
 
@@ -7454,25 +7456,6 @@ end
 
 end A035661.P7238386732697277068
 
-/-! ## A035661.P9291297632691334269
-
-`A035684(comp[A356053(3*n+4)-A300335(n)²]+1)`
--/
-
-namespace A035661.P9291297632691334269
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356053 (3 * n + 4) - A300335 n ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035684 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A035661.P9291297632691334269
-
 /-!
 # A035663: Number of partitions of n into parts 7k+2 and 7k+4 with at least one part of each type.
 
@@ -7922,28 +7905,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035671.P746413756088794375
-
-/-! ## A035671.P6399595786930278955
-
-`A035699(∪[A047253(n+1), A090887(n+1)])`
--/
-
-namespace A035671.P6399595786930278955
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047253 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090887 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035699 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A035671.P6399595786930278955
 
 /-! ## A035671.P884281655762098535
 

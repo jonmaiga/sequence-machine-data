@@ -16,12 +16,14 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C025
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B002.C000
 import Seq.B004.C000
@@ -55,7 +57,7 @@ end A013800.P5132665371345325123
 
 /-! ## A013800.P4550035504580069538
 
-`record[14^Δ[-n*(-1)^n]]`
+`record[14^Δ[-(n*(-1)^n)]]`
 -/
 
 namespace A013800.P4550035504580069538
@@ -592,7 +594,7 @@ end A013806.P8602345919239471390
 
 /-! ## A013806.P4909273756739448531
 
-`record[17^Δ[-n*(-1)^n]]`
+`record[17^Δ[-(n*(-1)^n)]]`
 -/
 
 namespace A013806.P4909273756739448531
@@ -1858,7 +1860,7 @@ end A013820.P5187517439723057133
 
 /-! ## A013820.P18403233695273379087
 
-`record[24^Δ[-n*(-1)^n]]`
+`record[24^Δ[-(n*(-1)^n)]]`
 -/
 
 namespace A013820.P18403233695273379087
@@ -3739,29 +3741,6 @@ theorem P12176834696164211990.correct : P12176834696164211990.Spec := by
 
 end A013831
 
-/-! ## A013831.P9751281285537735715
-
-`4*A013830(n)`
--/
-
-namespace A013831.P9751281285537735715
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A013830 n
-
-end
-
-end A013831.P9751281285537735715
-
-namespace A013831
-
-/-- `4*A013830(n)` -/
-def P9751281285537735715.Spec : Prop :=
-  ∀ n, P9751281285537735715.a n = A013831 n
-
-end A013831
-
 /-! ## A013831.P4157911019116743446
 
 `32*32*a(n-1)` with `a(0)=16`
@@ -3851,6 +3830,29 @@ def P981393678248716417.Spec : Prop :=
 
 end A013831
 
+/-! ## A013831.P9751281285537735715
+
+`4*A013830(n)`
+-/
+
+namespace A013831.P9751281285537735715
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  4 * A013830 n
+
+end
+
+end A013831.P9751281285537735715
+
+namespace A013831
+
+/-- `4*A013830(n)` -/
+def P9751281285537735715.Spec : Prop :=
+  ∀ n, P9751281285537735715.a n = A013831 n
+
+end A013831
+
 /-!
 # A013832: a(n) = 4^(5*n + 3).
 
@@ -3875,29 +3877,6 @@ def P2872893367710367040.Spec : Prop :=
 theorem P2872893367710367040.correct : P2872893367710367040.Spec := by
   intro n
   simp only [A013832]
-
-end A013832
-
-/-! ## A013832.P13544528811408913792
-
-`4*A013831(n)`
--/
-
-namespace A013832.P13544528811408913792
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A013831 n
-
-end
-
-end A013832.P13544528811408913792
-
-namespace A013832
-
-/-- `4*A013831(n)` -/
-def P13544528811408913792.Spec : Prop :=
-  ∀ n, P13544528811408913792.a n = A013832 n
 
 end A013832
 
@@ -4004,6 +3983,29 @@ def P3937960594768071797.Spec : Prop :=
 
 end A013832
 
+/-! ## A013832.P13544528811408913792
+
+`4*A013831(n)`
+-/
+
+namespace A013832.P13544528811408913792
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  4 * A013831 n
+
+end
+
+end A013832.P13544528811408913792
+
+namespace A013832
+
+/-- `4*A013831(n)` -/
+def P13544528811408913792.Spec : Prop :=
+  ∀ n, P13544528811408913792.a n = A013832 n
+
+end A013832
+
 /-!
 # A013833: a(n) = 4^(5*n + 4).
 
@@ -4031,29 +4033,6 @@ theorem P4848068160502465529.correct : P4848068160502465529.Spec := by
 
 end A013833
 
-/-! ## A013833.P14818863990163467073
-
-`4*A013832(n)`
--/
-
-namespace A013833.P14818863990163467073
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A013832 n
-
-end
-
-end A013833.P14818863990163467073
-
-namespace A013833
-
-/-- `4*A013832(n)` -/
-def P14818863990163467073.Spec : Prop :=
-  ∀ n, P14818863990163467073.a n = A013833 n
-
-end A013833
-
 /-! ## A013833.P6845938386728677324
 
 `A013825(n)²`
@@ -4074,6 +4053,29 @@ namespace A013833
 /-- `A013825(n)²` -/
 def P6845938386728677324.Spec : Prop :=
   ∀ n, P6845938386728677324.a n = A013833 n
+
+end A013833
+
+/-! ## A013833.P14818863990163467073
+
+`4*A013832(n)`
+-/
+
+namespace A013833.P14818863990163467073
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  4 * A013832 n
+
+end
+
+end A013833.P14818863990163467073
+
+namespace A013833
+
+/-- `4*A013832(n)` -/
+def P14818863990163467073.Spec : Prop :=
+  ∀ n, P14818863990163467073.a n = A013833 n
 
 end A013833
 

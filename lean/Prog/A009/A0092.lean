@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -18,25 +17,27 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -52,12 +53,12 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -79,6 +80,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -86,7 +88,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1576,62 +1577,36 @@ end A009220.P9281837599468762034
 /-!
 # A009223: a(n) = gcd(sigma(n), phi(n)).
 
-The programs for A009223, the canonical program `A009223.P2879337094983073241` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009223 has offset 1).
+The programs for A009223, the canonical program `A009223.P16138447125390320102` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009223 has offset 1).
 
-The definition of A009223 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A009223 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
-/-! ## A009223.P2879337094983073241
+/-! ## A009223.P16138447125390320102
 
-`gcd((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], ∑{d}[n+1, #])`
+`gcd(A000203(n+1), A000010(n+1))`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A009223
 
-/-- `gcd((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], ∑{d}[n+1, #])` -/
-def P2879337094983073241.Spec : Prop :=
-  ∀ n, (P2879337094983073241.a n : ℤ) = A009223 (n + 1)
+/-- `gcd(A000203(n+1), A000010(n+1))` -/
+def P16138447125390320102.Spec : Prop :=
+  ∀ n, (P16138447125390320102.a n : ℤ) = A009223 (n + 1)
 
-theorem P2879337094983073241.correct : P2879337094983073241.Spec := by
+theorem P16138447125390320102.correct : P16138447125390320102.Spec := by
   intro n
   simp only [A009223, Nat.add_sub_cancel]
 
 end A009223
 
-/-! ## A009223.P166679870533466262
+/-! ## A009223.P2879337094983073241
 
-`gcd(A000010(n+1), ∑{d}[n+1, #])`
+`gcd((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], ∑{d}[n+1, #])`
 -/
 
-namespace A009223.P166679870533466262
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000010 (n + 1)) ((∑ d ∈ Nat.divisors (f1 n), d : ℕ) : ℤ)
-
-end
-
-end A009223.P166679870533466262
-
-namespace A009223
-
-/-- `gcd(A000010(n+1), ∑{d}[n+1, #])` -/
-def P166679870533466262.Spec : Prop :=
-  ∀ n, (P166679870533466262.a n : ℤ) = A009223 (n + 1)
-
-end A009223
-
-/-! ## A009223.P5513027674707908308
-
-`gcd((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], A000203(n+1))`
--/
-
-namespace A009223.P5513027674707908308
+namespace A009223.P2879337094983073241
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1640,18 +1615,21 @@ def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (SequenceMachineLib.roundAway ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ) * ((∏ p ∈ Nat.primeFactors (f2 n), ((p : ℤ) - 1) : ℤ) : ℚ))) (A000203 (n + 1))
+  Int.gcd (SequenceMachineLib.roundAway ((n + 1 : ℚ) / ((∏ p ∈ Nat.primeFactors (f1 n), p : ℕ) : ℚ) * ((∏ p ∈ Nat.primeFactors (f2 n), ((p : ℤ) - 1) : ℤ) : ℚ))) ((∑ d ∈ Nat.divisors (f3 n), d : ℕ) : ℤ)
 
 end
 
-end A009223.P5513027674707908308
+end A009223.P2879337094983073241
 
 namespace A009223
 
-/-- `gcd((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], A000203(n+1))` -/
-def P5513027674707908308.Spec : Prop :=
-  ∀ n, (P5513027674707908308.a n : ℤ) = A009223 (n + 1)
+/-- `gcd((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1], ∑{d}[n+1, #])` -/
+def P2879337094983073241.Spec : Prop :=
+  ∀ n, (P2879337094983073241.a n : ℤ) = A009223 (n + 1)
 
 end A009223
 
@@ -6109,7 +6087,7 @@ end A009280.P15489949068533008187
 /-!
 # A009281: Expansion of e.g.f. exp(x)*cosh(log(1+x)).
 
-The programs for A009281, the canonical program `A009281.P16715583283193038702` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009281 has offset 0).
+The programs for A009281, the canonical program `A009281.P16715583283193038702` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009281 has offset 0).
 
 The definition of A009281 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6118,7 +6096,7 @@ The definition of A009281 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^n*A000387(n)+1`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A009281

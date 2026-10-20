@@ -2,42 +2,42 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -56,6 +56,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -329,6 +330,29 @@ theorem P8708475813081284006.correct : P8708475813081284006.Spec := by
 
 end A234306
 
+/-! ## A234306.P9248342731599843434
+
+`n+2-A000005(2*(n+1))`
+-/
+
+namespace A234306.P9248342731599843434
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℤ) - A000005 (2 * (n + 1))
+
+end
+
+end A234306.P9248342731599843434
+
+namespace A234306
+
+/-- `n+2-A000005(2*(n+1))` -/
+def P9248342731599843434.Spec : Prop :=
+  ∀ n, P9248342731599843434.a n = A234306 (n + 1)
+
+end A234306
+
 /-! ## A234306.P8275768940686037591
 
 `n+2-∏{e}[2*(n+1), #+1]`
@@ -450,29 +474,6 @@ def P11634559434935523266.Spec : Prop :=
 
 end A234306
 
-/-! ## A234306.P12817962098847108916
-
-`2-A000005(2*(n+1))+n`
--/
-
-namespace A234306.P12817962098847108916
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A000005 (2 * (n + 1)) + (n : ℤ)
-
-end
-
-end A234306.P12817962098847108916
-
-namespace A234306
-
-/-- `2-A000005(2*(n+1))+n` -/
-def P12817962098847108916.Spec : Prop :=
-  ∀ n, P12817962098847108916.a n = A234306 (n + 1)
-
-end A234306
-
 /-! ## A234306.P16864366783413023246
 
 `n+1-A111150(n+1)/2`
@@ -493,29 +494,6 @@ namespace A234306
 /-- `n+1-A111150(n+1)/2` -/
 def P16864366783413023246.Spec : Prop :=
   ∀ n, P16864366783413023246.a n = (A234306 (n + 1) : ℚ)
-
-end A234306
-
-/-! ## A234306.P2888880501262957022
-
-`n+2-A000005(n+2+n)`
--/
-
-namespace A234306.P2888880501262957022
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 2 : ℤ) - A000005 (n + 2 + n)
-
-end
-
-end A234306.P2888880501262957022
-
-namespace A234306
-
-/-- `n+2-A000005(n+2+n)` -/
-def P2888880501262957022.Spec : Prop :=
-  ∀ n, P2888880501262957022.a n = A234306 (n + 1)
 
 end A234306
 
@@ -1102,7 +1080,7 @@ end A234310.P2960378986731709958
 /-!
 # A234312: Number of tilings of a 5 X n rectangle using n pentominoes of shapes L, X.
 
-The programs for A234312, the canonical program `A234312.P9543954268648629567` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234312 has offset 0).
+The programs for A234312, the canonical program `A234312.P9543954268648629567` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234312 has offset 0).
 
 The definition of A234312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1111,7 +1089,7 @@ The definition of A234312 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(a(n-2)+a(n-5))` with `a(0)=1, a(1)=0, a(2)=2, a(3)=0, a(4)=4`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A234312
@@ -1359,7 +1337,7 @@ end A234316.P16906414511728655360
 /-!
 # A234317: Number of primes <= R_n where R_n is 11...111 with n 1's.
 
-The programs for A234317, the canonical program `A234317.P7470704803388070308` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234317 has offset 1).
+The programs for A234317, the canonical program `A234317.P7470704803388070308` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234317 has offset 1).
 
 The definition of A234317 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1368,7 +1346,7 @@ The definition of A234317 is `conditional`: the Lean definition is an OEIS formu
 
 `A000720(A002275(n+1))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A234317
@@ -3576,20 +3554,20 @@ end
 
 end A234365.P16649965560723596650
 
-/-! ## A234365.P12370586654311964795
+/-! ## A234365.P12627109360737535861
 
 `(n+1)!²*n!*(A000172(n)+A000172(n+1))*2/3`
 -/
 
-namespace A234365.P12370586654311964795
+namespace A234365.P12627109360737535861
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 1) ^ 2 * Nat.factorial n : ℚ) * ((A000172 n + A000172 (n + 1) : ℚ) * ((2 : ℚ) / 3))
+  ((Nat.factorial (n + 1) ^ 2 * Nat.factorial n : ℤ) * (A000172 n + A000172 (n + 1)) * 2 : ℚ) / 3
 
 end
 
-end A234365.P12370586654311964795
+end A234365.P12627109360737535861
 
 /-! ## A234365.P9662694509819513091
 

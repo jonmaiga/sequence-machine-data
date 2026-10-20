@@ -13,25 +13,25 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -49,9 +49,9 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -2618,20 +2618,20 @@ end A293224.P11509940817192137816
 The programs for A293225, there is no canonical definition to state claims against.
 -/
 
-/-! ## A293225.P10791744622675016171
+/-! ## A293225.P1448598993828097992
 
 `1/2*(2+(A293224(n+1)+A293223(n+1))²-A293224(n+1)-3*A293223(n+1))`
 -/
 
-namespace A293225.P10791744622675016171
+namespace A293225.P1448598993828097992
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 2 * (2 + ((A293224 (n + 1) + A293223 (n + 1)) ^ 2 - A293224 (n + 1)) - 3 * A293223 (n + 1) : ℚ)
+  (1 : ℚ) / 2 * (2 + (A293224 (n + 1) + A293223 (n + 1)) ^ 2 - A293224 (n + 1) - 3 * A293223 (n + 1) : ℚ)
 
 end
 
-end A293225.P10791744622675016171
+end A293225.P1448598993828097992
 
 /-!
 # A293226: Restricted growth sequence transform of A293225, a filter combining two products, the other formed from the 1-digits (A293221) and the other from the 2-digits (A293222) present in the ternary expansions of proper divisors of n.
@@ -2726,36 +2726,26 @@ theorem P10221016559153575789.correct : P10221016559153575789.Spec := by
 
 end A293227
 
-/-! ## A293227.P14154756059031175746
+/-! ## A293227.P16686887926206441376
 
-`A000005(∏{p}[n+1, #])-char[∏{p}[n, #]-1]`
+`2^A001221(n+1)-A008683(n+1)²`
 -/
 
-namespace A293227.P14154756059031175746
+namespace A293227.P16686887926206441376
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ p ∈ Nat.primeFactors (f3 n), p : ℕ) : ℤ) - 1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (∏ p ∈ Nat.primeFactors (f1 n), p) - ((if ∃ j, f2 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (A001221 (n + 1) : ℤ) - (A008683 (n + 1) ^ 2 : ℚ)
 
 end
 
-end A293227.P14154756059031175746
+end A293227.P16686887926206441376
 
 namespace A293227
 
-/-- `A000005(∏{p}[n+1, #])-char[∏{p}[n, #]-1]` -/
-def P14154756059031175746.Spec : Prop :=
-  ∀ n, P14154756059031175746.a n = A293227 (n + 1)
+/-- `2^A001221(n+1)-A008683(n+1)²` -/
+def P16686887926206441376.Spec : Prop :=
+  ∀ n, P16686887926206441376.a n = (A293227 (n + 1) : ℚ)
 
 end A293227
 
@@ -2989,29 +2979,6 @@ namespace A293227
 /-- `A000005(∏{p}[n+1, #])-A008966(n+1)` -/
 def P5038809218123820517.Spec : Prop :=
   ∀ n, P5038809218123820517.a n = A293227 (n + 1)
-
-end A293227
-
-/-! ## A293227.P16686887926206441376
-
-`2^A001221(n+1)-A008683(n+1)²`
--/
-
-namespace A293227.P16686887926206441376
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ (A001221 (n + 1) : ℤ) - (A008683 (n + 1) ^ 2 : ℚ)
-
-end
-
-end A293227.P16686887926206441376
-
-namespace A293227
-
-/-- `2^A001221(n+1)-A008683(n+1)²` -/
-def P16686887926206441376.Spec : Prop :=
-  ∀ n, P16686887926206441376.a n = (A293227 (n + 1) : ℚ)
 
 end A293227
 
@@ -3446,7 +3413,7 @@ end A293228
 /-!
 # A293229: a(0) = 0; and for n > 0, a(n) = a(n-1) + (A008966(4n+3) - A008966(4n+1)).
 
-The programs for A293229, the canonical program `A293229.P498718017162210645` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293229 has offset 0).
+The programs for A293229, the canonical program `A293229.P498718017162210645` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293229 has offset 0).
 
 The definition of A293229 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3455,7 +3422,7 @@ The definition of A293229 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+A008966(4*n+3)-A008966(4*n+1)` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A293229
@@ -3612,20 +3579,20 @@ end
 
 end A293230.P12232921034927624425
 
-/-! ## A293230.P13367408482869465382
+/-! ## A293230.P8267813722753764718
 
 `A293520(n)+A293518(n)+A293519(n)+A293522(n)`
 -/
 
-namespace A293230.P13367408482869465382
+namespace A293230.P8267813722753764718
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293520 n + (A293518 n + A293519 n + A293522 n)
+  A293520 n + (A293518 n + A293519 n) + A293522 n
 
 end
 
-end A293230.P13367408482869465382
+end A293230.P8267813722753764718
 
 /-! ## A293230.P7369449959639393109
 
@@ -7618,7 +7585,7 @@ end A293290.P10393650690516061854
 /-!
 # A293292: Numbers with last digit less than 5 (in base 10).
 
-The programs for A293292, the canonical program `A293292.P10621231772857430164` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293292 has offset 1).
+The programs for A293292, the canonical program `A293292.P10621231772857430164` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293292 has offset 1).
 
 The definition of A293292 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7627,7 +7594,7 @@ The definition of A293292 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+5*floor(n/5)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A293292
@@ -8406,7 +8373,7 @@ end A293295.P13347948828219327596
 /-!
 # A293296: a(n) = 2*n^2 - floor(n/4).
 
-The programs for A293296, the canonical program `A293296.P12632130320180863566` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293296 has offset 0).
+The programs for A293296, the canonical program `A293296.P12632130320180863566` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293296 has offset 0).
 
 The definition of A293296 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n²-floor(n/4)` (program `A293296.P12632130320180863566`, by `A293296.P12632130320180863566.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8415,7 +8382,7 @@ The definition of A293296 is `verified`: the Lean definition is proven equivalen
 
 `2*n²-floor(n/4)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A293296

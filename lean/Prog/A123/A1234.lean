@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,10 +17,8 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -27,9 +26,12 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +40,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -89,7 +90,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1121,50 +1121,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123426.P17578098193006516593
-
-/-! ## A123426.P18290525690152903863
-
-`∪[A123453(n+1), A123437(A270831(n+1))]`
--/
-
-namespace A123426.P18290525690152903863
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123453 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123437 (A270831 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A123426.P18290525690152903863
-
-/-! ## A123426.P2035582901081847045
-
-`∪[A123459(n+1), A123437(A270831(n+1))]`
--/
-
-namespace A123426.P2035582901081847045
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123459 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123437 (A270831 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A123426.P2035582901081847045
 
 /-!
 # A123427: Number of i-triangulated perfect graphs on n nodes.
@@ -3930,7 +3886,7 @@ The definition of A123477 is `conjectured`: the Lean definition is a formula tha
 
 /-! ## A123477.P11470584708187797065
 
-`-A005928(n+1)/3`
+`-(A005928(n+1)/3)`
 -/
 
 namespace A123477.P11470584708187797065
@@ -3945,7 +3901,7 @@ end A123477.P11470584708187797065
 
 namespace A123477
 
-/-- `-A005928(n+1)/3` -/
+/-- `-(A005928(n+1)/3)` -/
 def P11470584708187797065.Spec : Prop :=
   ∀ n, P11470584708187797065.a n = (A123477 (n + 1) : ℚ)
 
@@ -5417,7 +5373,7 @@ end A123485.P9896362021965484913
 /-!
 # A123486: Riordan array (1/(1-2*x), x/(1-4*x^2)).
 
-The programs for A123486, the canonical program `A123486.P6303469310712278846` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123486 has offset 0).
+The programs for A123486, the canonical program `A123486.P6303469310712278846` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123486 has offset 0).
 
 The definition of A123486 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5426,7 +5382,7 @@ The definition of A123486 is `conjectured`: the Lean definition is a formula tha
 
 `A046854(n)*A130321(n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A123486

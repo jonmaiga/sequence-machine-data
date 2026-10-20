@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -13,21 +12,21 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,6 +36,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -74,17 +74,18 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A063801: Number of nonisomorphic oriented matroids with n points in 3 dimensions.
@@ -1488,10 +1489,29 @@ end A063824.P2994709241842517370
 /-!
 # A063826: Let 1, 2, 3, 4 represent moves to the right, down, left and up; this sequence describes the movements in the clockwise square spiral (a.k.a. Ulam Spiral).
 
-The programs for A063826, the canonical program `A063826.P4687858328118668891` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063826 has offset 0).
+The programs for A063826, the canonical program `A063826.P8789404684877679419` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063826 has offset 0).
 
-The definition of A063826 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A063826 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A063826.P8789404684877679419
+
+`(floor(sqrt(4*n+1))+3)%4+1`
+
+The canonical program, it is in `Seq.B000.C010`.
+-/
+
+namespace A063826
+
+/-- `(floor(sqrt(4*n+1))+3)%4+1` -/
+def P8789404684877679419.Spec : Prop :=
+  ∀ n, (P8789404684877679419.a n : ℤ) = A063826 n
+
+theorem P8789404684877679419.correct : P8789404684877679419.Spec := by
+  intro n
+  simp only [A063826]
+
+end A063826
 
 /-! ## A063826.P10806371187047581821
 
@@ -1516,25 +1536,6 @@ namespace A063826
 /-- `and(3, floor(1/Δ[sqrt(n)])-1)+1` -/
 def P10806371187047581821.Spec : Prop :=
   ∀ n, P10806371187047581821.a n = A063826 n
-
-end A063826
-
-/-! ## A063826.P4687858328118668891
-
-`(floor(sqrt(4*n+1))-1)%4+1`
-
-The canonical program, it is in `Seq.B000.C010`.
--/
-
-namespace A063826
-
-/-- `(floor(sqrt(4*n+1))-1)%4+1` -/
-def P4687858328118668891.Spec : Prop :=
-  ∀ n, P4687858328118668891.a n = A063826 n
-
-theorem P4687858328118668891.correct : P4687858328118668891.Spec := by
-  intro n
-  simp only [A063826]
 
 end A063826
 
@@ -1711,7 +1712,7 @@ end A063826
 
 The programs for A063827, the canonical program `A063827.P9213320766622095947` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063827 has offset 0).
 
-The definition of A063827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 477 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A063827 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `round(sqrt(a(n-2)²+a(n-1)²))` (program `A063827.P9213320766622095947`, by `A063827.P9213320766622095947.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A063827.P9213320766622095947
@@ -2483,28 +2484,6 @@ end A063839.P10778648690097365185
 The programs for A063840, there is no canonical definition to state claims against.
 -/
 
-/-! ## A063840.P18309369006794716401
-
-`∩[A071707(n+1), A153144(n+1)]`
--/
-
-namespace A063840.P18309369006794716401
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071707 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153144 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A063840.P18309369006794716401
-
 /-! ## A063840.P7302328941262414337
 
 `A305791(C(A179887(n+1), A215904(n+5)))`
@@ -2859,12 +2838,12 @@ end A063842
 /-!
 # A063843: Number of n-multigraphs on 5 nodes.
 
-The programs for A063843, the canonical program `A063843.P4769205565620020737` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063843 has offset 0).
+The programs for A063843, the canonical program `A063843.P8757640975091430616` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063843 has offset 0).
 
 The definition of A063843 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A063843.P4769205565620020737
+/-! ## A063843.P8757640975091430616
 
 `n²*(n^8+10*n^5+15*n^4+20*n²+50*n+24)/120`
 
@@ -2874,8 +2853,8 @@ The canonical program, it is in `Seq.B000.C010`.
 namespace A063843
 
 /-- `n²*(n^8+10*n^5+15*n^4+20*n²+50*n+24)/120` -/
-def P4769205565620020737.Spec : Prop :=
-  ∀ n, P4769205565620020737.a n = (A063843 n : ℚ)
+def P8757640975091430616.Spec : Prop :=
+  ∀ n, P8757640975091430616.a n = (A063843 n : ℚ)
 
 end A063843
 
@@ -6164,12 +6143,12 @@ end A063884.P4458101991100851654
 /-!
 # A063886: Number of n-step walks on a line starting from the origin but not returning to it.
 
-The programs for A063886, the canonical program `A063886.P9006225015591204980` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063886 has offset 0).
+The programs for A063886, the canonical program `A063886.P2008880257839641201` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063886 has offset 0).
 
 The definition of A063886 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A063886.P9006225015591204980
+/-! ## A063886.P2008880257839641201
 
 `4*a(n-2)+2*(a(n-1)-4*a(n-2))/n` with `a(0)=1, a(1)=2`
 
@@ -6179,8 +6158,8 @@ The canonical program, it is in `Seq.B000.C010`.
 namespace A063886
 
 /-- `4*a(n-2)+2*(a(n-1)-4*a(n-2))/n` -/
-def P9006225015591204980.Spec : Prop :=
-  ∀ n, P9006225015591204980.a n = (A063886 n : ℚ)
+def P2008880257839641201.Spec : Prop :=
+  ∀ n, P2008880257839641201.a n = (A063886 n : ℚ)
 
 end A063886
 

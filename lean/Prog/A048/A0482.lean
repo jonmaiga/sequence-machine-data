@@ -12,22 +12,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -9686,20 +9687,20 @@ end A048275.P6393146702843060457
 The programs for A048276, there is no canonical definition to state claims against.
 -/
 
-/-! ## A048276.P13557367367015152665
+/-! ## A048276.P232002248737705188
 
 `n+1-A048277(n)`
 -/
 
-namespace A048276.P13557367367015152665
+namespace A048276.P232002248737705188
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) + (1 - A048277 n)
+  (n + 1 : ℤ) - A048277 n
 
 end
 
-end A048276.P13557367367015152665
+end A048276.P232002248737705188
 
 /-! ## A048276.P9518737034835099826
 
@@ -9836,20 +9837,20 @@ end A048276.P16265453667570120976
 The programs for A048277, there is no canonical definition to state claims against.
 -/
 
-/-! ## A048277.P1714865613900570018
+/-! ## A048277.P6503844279563270612
 
 `1+n-A048276(n)`
 -/
 
-namespace A048277.P1714865613900570018
+namespace A048277.P6503844279563270612
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + ((n : ℤ) - A048276 n)
+  (1 + n : ℤ) - A048276 n
 
 end
 
-end A048277.P1714865613900570018
+end A048277.P6503844279563270612
 
 /-! ## A048277.P2621260690029445853
 
@@ -9865,21 +9866,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048277.P2621260690029445853
-
-/-! ## A048277.P227587477918554350
-
-`A008619(2*n)-A048276(n)`
--/
-
-namespace A048277.P227587477918554350
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (2 * n) - A048276 n
-
-end
-
-end A048277.P227587477918554350
 
 /-! ## A048277.P17982393641624543387
 

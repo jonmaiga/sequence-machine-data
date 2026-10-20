@@ -7,26 +7,23 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C022
+import Seq.B000.C019
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -8969,69 +8966,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A035789.P9570624686392449063
-
-/-!
-# A035790: Start of a string of exactly 2 consecutive (but disjoint) pairs of twin primes.
-
-The programs for A035790, there is no canonical definition to state claims against.
--/
-
-/-! ## A035790.P8810774521837060461
-
-`A069457(comp[A239037(n+4)-(n+1)])`
--/
-
-namespace A035790.P8810774521837060461
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A239037 (n + 4) - (n + 1 : ℤ)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069457 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A035790.P8810774521837060461
-
-/-! ## A035790.P16828622354602092977
-
-`A069457(comp[A201822(n+1)-A067089(n+1)])`
--/
-
-namespace A035790.P16828622354602092977
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201822 (n + 1) - A067089 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069457 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A035790.P16828622354602092977
-
-/-! ## A035790.P1344020808719864845
-
-`A069457(comp[A239068(n+1)-A190803(n+1)])`
--/
-
-namespace A035790.P1344020808719864845
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A239068 (n + 1) - A190803 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069457 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A035790.P1344020808719864845
 
 /-!
 # A035791: Start of a string of exactly 3 consecutive (but disjoint) pairs of twin primes.

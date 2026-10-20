@@ -12,9 +12,8 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -22,16 +21,18 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +47,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
@@ -560,27 +562,46 @@ end A209403.P16274109555702804376
 /-!
 # A209404: Negated coefficients of Chebyshev T polynomials: a(n) = -A053120(n+14, n), n >= 0.
 
-The programs for A209404, the canonical program `A209404.P12353609741474841919` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209404 has offset 0).
+The programs for A209404, the canonical program `A209404.P13542389710227724718` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209404 has offset 0).
 
-The definition of A209404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A209404 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A209404.P13542389710227724718
+
+`2^(n-1)*C(n+6, 6)*(n+14)/7`
+
+The canonical program, it is in `Seq.B000.C028`.
+-/
+
+namespace A209404
+
+/-- `2^(n-1)*C(n+6, 6)*(n+14)/7` -/
+def P13542389710227724718.Spec : Prop :=
+  ∀ n, P13542389710227724718.a n = (A209404 n : ℚ)
+
+end A209404
 
 /-! ## A209404.P12353609741474841919
 
 `a(n-1)+A006976(n)+a(n-1)` with `a(0)=1`
-
-The canonical program, it is in `Seq.B004.C002`.
 -/
+
+namespace A209404.P12353609741474841919
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + (A006976 n + a (n - 1))
+
+end
+
+end A209404.P12353609741474841919
 
 namespace A209404
 
 /-- `a(n-1)+A006976(n)+a(n-1)` -/
 def P12353609741474841919.Spec : Prop :=
   ∀ n, P12353609741474841919.a n = A209404 n
-
-theorem P12353609741474841919.correct : P12353609741474841919.Spec := by
-  intro n
-  simp only [A209404]
 
 end A209404
 

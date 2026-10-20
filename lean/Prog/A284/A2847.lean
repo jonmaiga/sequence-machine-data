@@ -9,7 +9,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -17,27 +16,25 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -46,7 +43,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -66,7 +62,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -95,7 +90,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A284701: Number of maximal matchings in the n-antiprism graph.
@@ -1294,22 +1288,22 @@ end A284721.P469415068914726446
 The programs for A284722, there is no canonical definition to state claims against.
 -/
 
-/-! ## A284722.P13749898543011206296
+/-! ## A284722.P16514806689732026414
 
 `(2*n+1-A284721(n))/2`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A284722.P13749898543011206296
+namespace A284722.P16514806689732026414
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((2 * n : ℤ) + (1 - A284721 n) : ℚ) / 2
+  ((2 * n + 1 : ℤ) - A284721 n : ℚ) / 2
 
 end
 
-end A284722.P13749898543011206296
+end A284722.P16514806689732026414
 
 /-! ## A284722.P15627015985722850185
 
@@ -1370,21 +1364,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A284722.P11353245047777085116
-
-/-! ## A284722.P8377813242715481059
-
-`(A005408(n)-A284721(n))/2`
--/
-
-namespace A284722.P8377813242715481059
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A005408 n - A284721 n : ℚ) / 2
-
-end
-
-end A284722.P8377813242715481059
 
 /-! ## A284722.P16921674573616859936
 
@@ -6613,33 +6592,6 @@ def P6858203690307376980.Spec : Prop :=
 
 end A284775
 
-/-! ## A284775.P6448222160613924448
-
-`char[n*A285305(n+1)+1]`
--/
-
-namespace A284775.P6448222160613924448
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A285305 (n + 1) + 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A284775.P6448222160613924448
-
-namespace A284775
-
-/-- `char[n*A285305(n+1)+1]` -/
-def P6448222160613924448.Spec : Prop :=
-  ∀ n, (P6448222160613924448.a n : ℤ) = A284775 (n + 1)
-
-end A284775
-
 /-! ## A284775.P12375731803545850008
 
 `char[A014681(A285306(n+1))]`
@@ -7021,37 +6973,6 @@ def P4749967447510723020.Spec : Prop :=
 
 end A284776
 
-/-! ## A284776.P1706795842308943118
-
-`comp[char[A189666(n+1)]+2*n]`
--/
-
-namespace A284776.P1706795842308943118
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189666 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f2 j = (n : ℤ) then 1 else 0) + 2 * n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
-
-end
-
-end A284776.P1706795842308943118
-
-namespace A284776
-
-/-- `comp[char[A189666(n+1)]+2*n]` -/
-def P1706795842308943118.Spec : Prop :=
-  ∀ n, (P1706795842308943118.a n : ℤ) = A284776 (n + 1)
-
-end A284776
-
 /-! ## A284776.P12625188356120516945
 
 `char[A284818(n+1)-1]+n+n`
@@ -7144,6 +7065,37 @@ namespace A284776
 /-- `∪[A284794(n+1)+1, A284796(n+1)]` -/
 def P16411021029082154473.Spec : Prop :=
   ∀ n, (P16411021029082154473.a n : ℤ) = A284776 (n + 1)
+
+end A284776
+
+/-! ## A284776.P1706795842308943118
+
+`comp[char[A189666(n+1)]+2*n]`
+-/
+
+namespace A284776.P1706795842308943118
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189666 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (if ∃ j, f2 j = (n : ℤ) then 1 else 0) + 2 * n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A284776.P1706795842308943118
+
+namespace A284776
+
+/-- `comp[char[A189666(n+1)]+2*n]` -/
+def P1706795842308943118.Spec : Prop :=
+  ∀ n, (P1706795842308943118.a n : ℤ) = A284776 (n + 1)
 
 end A284776
 

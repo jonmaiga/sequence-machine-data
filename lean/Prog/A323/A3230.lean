@@ -17,29 +17,29 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -503,7 +503,7 @@ end A323011
 
 /-! ## A323011.P12772505350590869645
 
-`∑[-A280314(n+1)%2]`
+`∑[-(A280314(n+1)%2)]`
 -/
 
 namespace A323011.P12772505350590869645
@@ -521,7 +521,7 @@ end A323011.P12772505350590869645
 
 namespace A323011
 
-/-- `∑[-A280314(n+1)%2]` -/
+/-- `∑[-(A280314(n+1)%2)]` -/
 def P12772505350590869645.Spec : Prop :=
   ∀ n, P12772505350590869645.a n = A323011 (n + 1)
 
@@ -1213,28 +1213,6 @@ end A323018.P11716318271002995495
 
 The programs for A323019, there is no canonical definition to state claims against.
 -/
-
-/-! ## A323019.P7065764355776090761
-
-`∩[A033858(n+1), A279254(n+1)]`
--/
-
-namespace A323019.P7065764355776090761
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033858 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279254 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A323019.P7065764355776090761
 
 /-! ## A323019.P10474211707173018975
 
@@ -2434,7 +2412,7 @@ end A323047.P12761741933248260209
 /-!
 # A323048: Sums of no more than two 5-smooth numbers.
 
-The programs for A323048, the canonical program `A323048.P11595341694664684331` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323048 has offset 1).
+The programs for A323048, the canonical program `A323048.P11595341694664684331` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323048 has offset 1).
 
 The definition of A323048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2443,7 +2421,7 @@ The definition of A323048 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n/71+n)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A323048
@@ -6069,6 +6047,28 @@ end A323096.P4777582688132671810
 The programs for A323097, there is no canonical definition to state claims against.
 -/
 
+/-! ## A323097.P16908006249806353376
+
+`∩[A181666(n+1), A225878(n+1)]`
+-/
+
+namespace A323097.P16908006249806353376
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181666 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225878 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A323097.P16908006249806353376
+
 /-! ## A323097.P3818373493729257317
 
 `filter[A225878(n+1), A085357(#)]`
@@ -6105,28 +6105,6 @@ end
 
 end A323097.P8176297724105944881
 
-/-! ## A323097.P16908006249806353376
-
-`∩[A181666(n+1), A225878(n+1)]`
--/
-
-namespace A323097.P16908006249806353376
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181666 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225878 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A323097.P16908006249806353376
-
 /-! ## A323097.P9572131081921201429
 
 `A225878(lt[A322670(3*n), A225919(n+1)])`
@@ -6147,28 +6125,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A323097.P9572131081921201429
-
-/-! ## A323097.P458620671060566225
-
-`∩[A032533(n+1), A225878(n+1)]`
--/
-
-namespace A323097.P458620671060566225
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032533 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225878 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A323097.P458620671060566225
 
 /-!
 # A323099: Number T(n,k) of colored set partitions of [n] where exactly k colors are used for the elements; triangle T(n,k), n>=0, 0<=k<=n, read by rows.

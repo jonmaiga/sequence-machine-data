@@ -2,20 +2,6 @@
   "oi": 171524,
   "ps": [
     {
-      "d": "2021-11-30",
-      "ix": "comp[n*comp[p?[contfrac[π]]]]",
-      "mt": 50,
-      "px": [
-        "n",
-        "π",
-        "contfrac",
-        "p?",
-        "comp",
-        "*",
-        "comp"
-      ]
-    },
-    {
       "d": "2023-06-04",
       "ix": "comp[n*comp[p?[xor(1, n)]]]",
       "mt": 50,

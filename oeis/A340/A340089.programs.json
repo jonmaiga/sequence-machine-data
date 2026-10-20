@@ -30,6 +30,10 @@
         "A091732",
         "gcd",
         "/"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

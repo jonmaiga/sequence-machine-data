@@ -9,28 +9,27 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
@@ -6484,31 +6483,23 @@ end A251090.P10851247248040576846
 /-!
 # A251091: a(n) = n^2 / gcd(n+2, 4).
 
-The programs for A251091, the canonical program `A251091.P12513217065155171978` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251091 has offset 0).
+The programs for A251091, the canonical program `A251091.P13345940998005277488` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251091 has offset 0).
 
-The definition of A251091 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A251091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A251091.P13177780278785995303
+/-! ## A251091.P13345940998005277488
 
-`n²/gcd(4, n+2)`
+`n²/gcd(n+2, 4)`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
-
-namespace A251091.P13177780278785995303
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n ^ 2 : ℚ) / (Nat.gcd 4 (n + 2) : ℚ)
-
-end
-
-end A251091.P13177780278785995303
 
 namespace A251091
 
-/-- `n²/gcd(4, n+2)` -/
-def P13177780278785995303.Spec : Prop :=
-  ∀ n, P13177780278785995303.a n = (A251091 n : ℚ)
+/-- `n²/gcd(n+2, 4)` -/
+def P13345940998005277488.Spec : Prop :=
+  ∀ n, P13345940998005277488.a n = (A251091 n : ℚ)
 
 end A251091
 
@@ -6561,19 +6552,29 @@ end A251091
 /-! ## A251091.P12513217065155171978
 
 `gcd(n, ∑[n]²)*gcd(n, ∑[n])`
-
-The canonical program, it is in `Seq.B000.C029`.
 -/
+
+namespace A251091.P12513217065155171978
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd n ((∑ j ∈ Finset.range (n + 1), f1 j) ^ 2) * Nat.gcd n (∑ j ∈ Finset.range (n + 1), f2 j)
+
+end
+
+end A251091.P12513217065155171978
 
 namespace A251091
 
 /-- `gcd(n, ∑[n]²)*gcd(n, ∑[n])` -/
 def P12513217065155171978.Spec : Prop :=
   ∀ n, (P12513217065155171978.a n : ℤ) = A251091 n
-
-theorem P12513217065155171978.correct : P12513217065155171978.Spec := by
-  intro n
-  simp only [A251091]
 
 end A251091
 

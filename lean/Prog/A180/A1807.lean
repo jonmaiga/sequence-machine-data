@@ -11,18 +11,19 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -31,7 +32,9 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,7 +50,6 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C001
@@ -707,33 +709,6 @@ def P9442252789016544148.Spec : Prop :=
 
 end A180713
 
-/-! ## A180713.P1216190756804913298
-
-`xor(3*n+1, char[A059029(n)])`
--/
-
-namespace A180713.P1216190756804913298
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059029 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor (3 * n + 1) (if ∃ j, f1 j = (n : ℤ) then 1 else 0)
-
-end
-
-end A180713.P1216190756804913298
-
-namespace A180713
-
-/-- `xor(3*n+1, char[A059029(n)])` -/
-def P1216190756804913298.Spec : Prop :=
-  ∀ n, (P1216190756804913298.a n : ℤ) = A180713 n
-
-end A180713
-
 /-! ## A180713.P2779187396853438057
 
 `xor(A166486(n+3), 3*n+1)`
@@ -823,33 +798,6 @@ namespace A180713
 /-- `A140201(n)+A014601(n)` -/
 def P70862436936544554.Spec : Prop :=
   ∀ n, P70862436936544554.a n = A180713 n
-
-end A180713
-
-/-! ## A180713.P13519215341050838946
-
-`xor(char[A059029(n)], A016777(n))`
--/
-
-namespace A180713.P13519215341050838946
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059029 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A016777 n)
-
-end
-
-end A180713.P13519215341050838946
-
-namespace A180713
-
-/-- `xor(char[A059029(n)], A016777(n))` -/
-def P13519215341050838946.Spec : Prop :=
-  ∀ n, P13519215341050838946.a n = A180713 n
 
 end A180713
 
@@ -968,10 +916,64 @@ def P1812441591608554172.Spec : Prop :=
 
 end A180713
 
+/-! ## A180713.P1216190756804913298
+
+`xor(3*n+1, char[A059029(n)])`
+-/
+
+namespace A180713.P1216190756804913298
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059029 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor (3 * n + 1) (if ∃ j, f1 j = (n : ℤ) then 1 else 0)
+
+end
+
+end A180713.P1216190756804913298
+
+namespace A180713
+
+/-- `xor(3*n+1, char[A059029(n)])` -/
+def P1216190756804913298.Spec : Prop :=
+  ∀ n, (P1216190756804913298.a n : ℤ) = A180713 n
+
+end A180713
+
+/-! ## A180713.P13519215341050838946
+
+`xor(char[A059029(n)], A016777(n))`
+-/
+
+namespace A180713.P13519215341050838946
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059029 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A016777 n)
+
+end
+
+end A180713.P13519215341050838946
+
+namespace A180713
+
+/-- `xor(char[A059029(n)], A016777(n))` -/
+def P13519215341050838946.Spec : Prop :=
+  ∀ n, P13519215341050838946.a n = A180713 n
+
+end A180713
+
 /-!
 # A180714: Sum of the x- and y-coordinates of a point moving in a clockwise spiral.
 
-The programs for A180714, the canonical program `A180714.P5061028925191492414` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180714 has offset 0).
+The programs for A180714, the canonical program `A180714.P5061028925191492414` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180714 has offset 0).
 
 The definition of A180714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1006,7 +1008,7 @@ end A180714
 
 `∑[A062157(A000194(n))]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A180714
@@ -2210,7 +2212,7 @@ end A180733.P3890638389146214234
 /-!
 # A180735: Expansion of (1+x)*(1-x)/(1 - x + x^2 + x^3).
 
-The programs for A180735, the canonical program `A180735.P17258631466494082503` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180735 has offset 0).
+The programs for A180735, the canonical program `A180735.P17258631466494082503` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180735 has offset 0).
 
 The definition of A180735 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2)/(1-x+x^2+x^3))` (program `A180735.P17258631466494082503`, by `A180735.P17258631466494082503.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2265,7 +2267,7 @@ end A180735
 
 `ogf((1-x^2)/(1-x+x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A180735
@@ -2556,7 +2558,7 @@ end A180738.P10638094935171423991
 /-!
 # A180739: Number of numerical semigroups of multiplicity n and genus n+2.
 
-The programs for A180739, the canonical program `A180739.P13207891884943685947` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180739 has offset 2).
+The programs for A180739, the canonical program `A180739.P13207891884943685947` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180739 has offset 2).
 
 The definition of A180739 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2595,7 +2597,7 @@ end A180739
 
 `∑[C(n, 2)+1]+2%(n+1)`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A180739
@@ -3736,7 +3738,7 @@ end A180751.P13104213028039270605
 /-!
 # A180752: Half the number of nX3 binary arrays with each element equal to at least two neighbors.
 
-The programs for A180752, the canonical program `A180752.P5843443647452936310` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180752 has offset 1).
+The programs for A180752, the canonical program `A180752.P5843443647452936310` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180752 has offset 1).
 
 The definition of A180752 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3745,7 +3747,7 @@ The definition of A180752 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+a(n-2)-a(n-3)-a(n-5)` with `a(0)=0, a(1)=1, a(2)=1, a(3)=2, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A180752
@@ -4644,7 +4646,7 @@ end A180761.P9649299059739155650
 /-!
 # A180762: Half the number of nX2 binary arrays with each element equal to at least one neighbor.
 
-The programs for A180762, the canonical program `A180762.P14794715841614087808` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180762 has offset 1).
+The programs for A180762, the canonical program `A180762.P14794715841614087808` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180762 has offset 1).
 
 The definition of A180762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4676,7 +4678,7 @@ end A180762
 
 `3*a(n-1)+a(n-2)-2*a(n-4)` with `a(0)=1, a(1)=3, a(2)=11, a(3)=34`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A180762

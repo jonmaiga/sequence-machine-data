@@ -19,7 +19,6 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -33,10 +32,11 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -61,7 +61,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1005,28 +1004,6 @@ end
 
 end A032911.P13664026588520458142
 
-/-! ## A032911.P9259575627649739381
-
-`∩[A032890(n+1), A247648(n+1)]`
--/
-
-namespace A032911.P9259575627649739381
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032890 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247648 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A032911.P9259575627649739381
-
 /-! ## A032911.P5914900065986269929
 
 `∩[A003754(n+1), A032890(n+1)]`
@@ -1048,6 +1025,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032911.P5914900065986269929
+
+/-! ## A032911.P9259575627649739381
+
+`∩[A032890(n+1), A247648(n+1)]`
+-/
+
+namespace A032911.P9259575627649739381
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032890 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247648 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A032911.P9259575627649739381
 
 /-! ## A032911.P16075465808048235139
 
@@ -6232,6 +6231,50 @@ end
 
 end A032930.P12027280025460226595
 
+/-! ## A032930.P598708868390727738
+
+`∩[A031941(n+1), A037314(n)]`
+-/
+
+namespace A032930.P598708868390727738
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031941 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037314 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A032930.P598708868390727738
+
+/-! ## A032930.P15647106132765343497
+
+`∩[A032874(n+1), A328727(n+1)]`
+-/
+
+namespace A032930.P15647106132765343497
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032874 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328727 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A032930.P15647106132765343497
+
 /-! ## A032930.P11043520288000725085
 
 `A037463(∑[A115716(n)])`
@@ -6286,50 +6329,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032930.P1686165676807335425
-
-/-! ## A032930.P598708868390727738
-
-`∩[A031941(n+1), A037314(n)]`
--/
-
-namespace A032930.P598708868390727738
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031941 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037314 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A032930.P598708868390727738
-
-/-! ## A032930.P15647106132765343497
-
-`∩[A032874(n+1), A328727(n+1)]`
--/
-
-namespace A032930.P15647106132765343497
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032874 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328727 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A032930.P15647106132765343497
 
 /-! ## A032930.P3185607078590021171
 
@@ -9382,27 +9381,6 @@ end
 
 end A032951.P205580255973954059
 
-/-! ## A032951.P16329340815699814652
-
-`∑[∑[A217581(A271816(n+1))]]-n²`
--/
-
-namespace A032951.P16329340815699814652
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217581 (A271816 (n + 1)).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - (n ^ 2 : ℤ)
-
-end
-
-end A032951.P16329340815699814652
-
 /-! ## A032951.P18312077827839434887
 
 `∩[A023797(n+1), A371477(n+1)]`
@@ -9424,6 +9402,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032951.P18312077827839434887
+
+/-! ## A032951.P16329340815699814652
+
+`∑[∑[A217581(A271816(n+1))]]-n²`
+-/
+
+namespace A032951.P16329340815699814652
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217581 (A271816 (n + 1)).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - (n ^ 2 : ℤ)
+
+end
+
+end A032951.P16329340815699814652
 
 /-!
 # A032952: Expansion of (1+x*C^4)*C^2, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.
@@ -14699,31 +14698,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032993.P11363031487856134022
-
-/-! ## A032993.P2474726338213222727
-
-`lt[A106201(n), comp[A106205(n)]]`
--/
-
-namespace A032993.P2474726338213222727
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106201 n
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106205 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A032993.P2474726338213222727
 
 /-!
 # A032994: If d,e are consecutive digits of n in base 12, then |d-e|>=4.

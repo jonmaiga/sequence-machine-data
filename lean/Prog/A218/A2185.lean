@@ -10,23 +10,27 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,9 +41,9 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -416,7 +420,7 @@ end A218502.P6565185399128178260
 /-!
 # A218503: q-factorial numbers 5!_q.
 
-The programs for A218503, the canonical program `A218503.P11395741053979960510` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218503 has offset 0).
+The programs for A218503, the canonical program `A218503.P11395741053979960510` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218503 has offset 0).
 
 The definition of A218503 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -448,7 +452,7 @@ end A218503
 
 `((n+1)*(n^3+n)+1)*(n²+1+n)*(n²+1)*(n+1)²`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A218503
@@ -540,7 +544,7 @@ The programs for A218504, there is no canonical definition to state claims again
 
 /-! ## A218504.P4998531575370656337
 
-`A090223(A005651(n)+floor(5^(n/2)^(2/5)))`
+`A090223(A005651(n)+floor((5^(n/2))^(2/5)))`
 -/
 
 namespace A218504.P4998531575370656337
@@ -586,7 +590,7 @@ end A218504.P3452384258404490745
 /-!
 # A218506: Number of partitions of n in which any two parts differ by at most 4.
 
-The programs for A218506, the canonical program `A218506.P14739239847812447530` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218506 has offset 0).
+The programs for A218506, the canonical program `A218506.P14739239847812447530` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218506 has offset 0).
 
 The definition of A218506 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3242 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -595,7 +599,7 @@ The definition of A218506 is `conjectured`: the Lean definition is a formula tha
 
 `A308733(n+4)-char[4*(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A218506
@@ -1079,28 +1083,6 @@ end A218511.P18269573374477721175
 
 The programs for A218512, there is no canonical definition to state claims against.
 -/
-
-/-! ## A218512.P15782408005474437895
-
-`A194621(∑[char[A255404(n)]+n])`
--/
-
-namespace A218512.P15782408005474437895
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255404 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f2 j = (n : ℤ) then 1 else 0) + n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194621 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A218512.P15782408005474437895
 
 /-! ## A218512.P5977996572157071512
 
@@ -2540,7 +2522,7 @@ end A218529.P3166300383286786142
 /-!
 # A218530: Partial sums of floor(n/11).
 
-The programs for A218530, the canonical program `A218530.P5434774884141080743` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218530 has offset 0).
+The programs for A218530, the canonical program `A218530.P5434774884141080743` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218530 has offset 0).
 
 The definition of A218530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2549,7 +2531,7 @@ The definition of A218530 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(n/11)]`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A218530
@@ -3630,21 +3612,6 @@ end A218543.P8682106723475818841
 The programs for A218544, there is no canonical definition to state claims against.
 -/
 
-/-! ## A218544.P14743435416397178717
-
-`1+A218784(n)`
--/
-
-namespace A218544.P14743435416397178717
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A218784 n
-
-end
-
-end A218544.P14743435416397178717
-
 /-! ## A218544.P13220620842150085699
 
 `A218784(n)+1`
@@ -3901,21 +3868,6 @@ end A218546.P3946993291635713533
 
 The programs for A218547, there is no canonical definition to state claims against.
 -/
-
-/-! ## A218547.P11727636463466363773
-
-`1+A218617(n+1)`
--/
-
-namespace A218547.P11727636463466363773
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 + A218617 (n + 1)
-
-end
-
-end A218547.P11727636463466363773
 
 /-! ## A218547.P941529018926537164
 

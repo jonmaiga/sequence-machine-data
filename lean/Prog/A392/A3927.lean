@@ -7,18 +7,20 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C008
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C037
+import Seq.B000.C034
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
@@ -31,6 +33,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
@@ -367,6 +370,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A392707.P13080243467976641368
+
+/-! ## A392707.P9492669668109009234
+
+`∩[A392694(n+1), A392695(n+1)]`
+-/
+
+namespace A392707.P9492669668109009234
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392694 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392695 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392707.P9492669668109009234
 
 /-! ## A392707.P10973564925074692307
 
@@ -1641,25 +1666,6 @@ end A392737.P8508588451784243033
 The programs for A392738, there is no canonical definition to state claims against.
 -/
 
-/-! ## A392738.P12230101873415852742
-
-`comp[A392737(n+1)]`
--/
-
-namespace A392738.P12230101873415852742
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392737 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A392738.P12230101873415852742
-
 /-! ## A392738.P8292352032358854046
 
 `A016813(n)-A392737(n+1)`
@@ -1704,6 +1710,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392738.P11225770304250087098
+
+/-! ## A392738.P12230101873415852742
+
+`comp[A392737(n+1)]`
+-/
+
+namespace A392738.P12230101873415852742
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392737 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A392738.P12230101873415852742
 
 /-! ## A392738.P6232948399939428299
 
@@ -2008,22 +2033,22 @@ end A392742.P4829411362666512000
 The programs for A392743, there is no canonical definition to state claims against.
 -/
 
-/-! ## A392743.P18317568657545467399
+/-! ## A392743.P14241666156807992499
 
 `A392736(2*n+1-A392736(n))`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A392743.P18317568657545467399
+namespace A392743.P14241666156807992499
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392736 ((2 * n : ℤ) + (1 - A392736 n)).toNat
+  A392736 ((2 * n + 1 : ℤ) - A392736 n).toNat
 
 end
 
-end A392743.P18317568657545467399
+end A392743.P14241666156807992499
 
 /-! ## A392743.P3596797922598951000
 
@@ -2881,7 +2906,7 @@ end A392781
 /-!
 # A392782: Complement of A000792.
 
-The programs for A392782, the canonical program `A392782.P7874202101078099020` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392782 has offset 1).
+The programs for A392782, the canonical program `A392782.P7874202101078099020` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392782 has offset 1).
 
 The definition of A392782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2890,7 +2915,7 @@ The definition of A392782 is `conjectured`: the Lean definition is a formula tha
 
 `comp[3*a(n-3)]` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A392782

@@ -10,24 +10,24 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C019
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +43,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
@@ -5187,26 +5188,26 @@ The programs for A146298, the canonical program `A146298.P11485159301145568755` 
 The definition of A146298 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000578(n)-2*A000292(n)` (program `A146298.P11485159301145568755`, by `A146298.P11485159301145568755.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A146298.P1168283787213284480
+/-! ## A146298.P6615606876900268007
 
 `(n-2)*n*(2*n+1)/3`
 -/
 
-namespace A146298.P1168283787213284480
+namespace A146298.P6615606876900268007
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - 2 : ℚ) * ((n : ℚ) * ((2 * n + 1 : ℚ) / 3))
+  (((n : ℤ) - 2) * (n : ℤ) * (2 * n + 1 : ℤ) : ℚ) / 3
 
 end
 
-end A146298.P1168283787213284480
+end A146298.P6615606876900268007
 
 namespace A146298
 
 /-- `(n-2)*n*(2*n+1)/3` -/
-def P1168283787213284480.Spec : Prop :=
-  ∀ n, P1168283787213284480.a n = (A146298 n : ℚ)
+def P6615606876900268007.Spec : Prop :=
+  ∀ n, P6615606876900268007.a n = (A146298 n : ℚ)
 
 end A146298
 
@@ -5535,29 +5536,6 @@ namespace A146298
 /-- `∑[A005893(n)-(4*n+1)]` -/
 def P2191253299057655375.Spec : Prop :=
   ∀ n, P2191253299057655375.a n = A146298 n
-
-end A146298
-
-/-! ## A146298.P10566049155779278256
-
-`(n-2)*A000217(2*n)/3`
--/
-
-namespace A146298.P10566049155779278256
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (((n : ℤ) - 2) * A000217 (2 * n) : ℚ) / 3
-
-end
-
-end A146298.P10566049155779278256
-
-namespace A146298
-
-/-- `(n-2)*A000217(2*n)/3` -/
-def P10566049155779278256.Spec : Prop :=
-  ∀ n, P10566049155779278256.a n = (A146298 n : ℚ)
 
 end A146298
 

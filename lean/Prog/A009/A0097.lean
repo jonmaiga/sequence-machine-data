@@ -7,25 +7,25 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C018
+import Seq.B000.C021
+import Seq.B000.C024
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -65,6 +65,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 /-!
@@ -1838,28 +1839,6 @@ end
 
 end A009739.P17194686903630298216
 
-/-! ## A009739.P11162839707398282616
-
-`∪[A003719(n), A009747(n)]`
--/
-
-namespace A009739.P11162839707398282616
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003719 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009747 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A009739.P11162839707398282616
-
 /-! ## A009739.P14907766585442632854
 
 `A003701(n)-Δ[A009334(n)]`
@@ -1937,6 +1916,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009739.P24511319731206600
+
+/-! ## A009739.P11162839707398282616
+
+`∪[A003719(n), A009747(n)]`
+-/
+
+namespace A009739.P11162839707398282616
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003719 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009747 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A009739.P11162839707398282616
 
 /-!
 # A009740: Expansion of tan(x)*sin(sin(x)).
@@ -2192,7 +2193,7 @@ end A009743.P5593871806895550409
 
 /-! ## A009743.P6618995673896923220
 
-`-A009830(2*n)/A033999(n)`
+`-(A009830(2*n)/A033999(n))`
 -/
 
 namespace A009743.P6618995673896923220

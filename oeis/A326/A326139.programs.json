@@ -15,6 +15,10 @@
         "+",
         "A302042",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

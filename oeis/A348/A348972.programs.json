@@ -53,6 +53,10 @@
         "+",
         "A129283",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

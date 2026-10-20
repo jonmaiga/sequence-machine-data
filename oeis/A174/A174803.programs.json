@@ -2,13 +2,18 @@
   "oi": 174803,
   "ps": [
     {
-      "d": "2025-04-13",
-      "ix": "n+A038759(n)",
+      "d": "2026-10-19",
+      "ix": "n+floor(sqrt(n))*ceil(sqrt(n))",
       "mt": 10000,
       "px": [
         "n",
         "n",
-        "A038759",
+        "sqrt",
+        "floor",
+        "n",
+        "sqrt",
+        "ceil",
+        "*",
         "+"
       ],
       "s": "oeis",
@@ -17,19 +22,24 @@
       ]
     },
     {
-      "d": "2021-10-01",
-      "ix": "floor(sqrt(n))*ceil(sqrt(n))+n",
+      "d": "2026-10-19",
+      "ix": "n+ceil(sqrt(n))*floor(sqrt(n))",
       "mt": 10000,
       "px": [
         "n",
-        "sqrt",
-        "floor",
         "n",
         "sqrt",
         "ceil",
-        "*",
         "n",
+        "sqrt",
+        "floor",
+        "*",
         "+"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

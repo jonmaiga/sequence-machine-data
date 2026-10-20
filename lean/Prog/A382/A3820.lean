@@ -3,39 +3,38 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -81,7 +80,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A382000: E.g.f. A(x) satisfies A(x) = 1 + x*exp(2*x)*A(x)^5.
@@ -988,50 +986,6 @@ end A382049.P6746698442109963247
 
 The programs for A382051, there is no canonical definition to state claims against.
 -/
-
-/-! ## A382051.P7836771300846345080
-
-`∩[A061116(n+1), A362017(n+1)]`
--/
-
-namespace A382051.P7836771300846345080
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061116 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362017 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A382051.P7836771300846345080
-
-/-! ## A382051.P9390203538997283507
-
-`∩[A162903(n+1), A362017(n+1)]`
--/
-
-namespace A382051.P9390203538997283507
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162903 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362017 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A382051.P9390203538997283507
 
 /-! ## A382051.P9888902548919682595
 
@@ -2982,7 +2936,7 @@ end A382080.P3401258283549900583
 /-!
 # A382081: a(n) = binomial(n,3) + 6*binomial(n,4) + 15*binomial(n,5) + 15*binomial(n,6).
 
-The programs for A382081, the canonical program `A382081.P16347205408547733036` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382081 has offset 0).
+The programs for A382081, the canonical program `A382081.P16347205408547733036` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382081 has offset 0).
 
 The definition of A382081 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n, 3)+6*C(n, 4)+15*C(n, 5)+15*C(n, 6)` (program `A382081.P16347205408547733036`, by `A382081.P16347205408547733036.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2991,7 +2945,7 @@ The definition of A382081 is `verified`: the Lean definition is proven equivalen
 
 `C(n, 3)+6*C(n, 4)+15*C(n, 5)+15*C(n, 6)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A382081
@@ -3006,26 +2960,26 @@ theorem P16347205408547733036.correct : P16347205408547733036.Spec := by
 
 end A382081
 
-/-! ## A382081.P16083974524886612466
+/-! ## A382081.P1270244790301346318
 
 `(n-2)*(n-1)*n*(n^3-6*n²+17*n-16)/48`
 -/
 
-namespace A382081.P16083974524886612466
+namespace A382081.P1270244790301346318
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - 2 : ℚ) * (((n : ℤ) - 1 : ℚ) * ((n : ℚ) * (((n ^ 3 : ℤ) - (6 * n ^ 2 : ℤ) + (17 * n : ℤ) - 16 : ℚ) / 48)))
+  (((n : ℤ) - 2) * ((n : ℤ) - 1) * (n : ℤ) * ((n ^ 3 : ℤ) - (6 * n ^ 2 : ℤ) + (17 * n : ℤ) - 16) : ℚ) / 48
 
 end
 
-end A382081.P16083974524886612466
+end A382081.P1270244790301346318
 
 namespace A382081
 
 /-- `(n-2)*(n-1)*n*(n^3-6*n²+17*n-16)/48` -/
-def P16083974524886612466.Spec : Prop :=
-  ∀ n, P16083974524886612466.a n = (A382081 n : ℚ)
+def P1270244790301346318.Spec : Prop :=
+  ∀ n, P1270244790301346318.a n = (A382081 n : ℚ)
 
 end A382081
 
@@ -3172,7 +3126,7 @@ end A382083.P3858172976788196375
 /-!
 # A382084: a(n) = 90*binomial(n,6) + 18*binomial(n,4) + 3*binomial(n,2) + 1.
 
-The programs for A382084, the canonical program `A382084.P17271633145304171838` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382084 has offset 0).
+The programs for A382084, the canonical program `A382084.P17271633145304171838` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382084 has offset 0).
 
 The definition of A382084 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `90*C(n, 6)+18*C(n, 4)+3*C(n, 2)+1` (program `A382084.P17271633145304171838`, by `A382084.P17271633145304171838.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3181,7 +3135,7 @@ The definition of A382084 is `verified`: the Lean definition is proven equivalen
 
 `90*C(n, 6)+18*C(n, 4)+3*C(n, 2)+1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A382084

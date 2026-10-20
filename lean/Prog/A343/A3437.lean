@@ -10,24 +10,24 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C028
+import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +58,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -615,50 +614,6 @@ end
 
 end A343712.P17366072105047980907
 
-/-! ## A343712.P7437980576750974742
-
-`∩[A111166(n+1), A343711(n+1)]`
--/
-
-namespace A343712.P7437980576750974742
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111166 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343711 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343712.P7437980576750974742
-
-/-! ## A343712.P11464757285745294967
-
-`∩[A014574(n+1)-1, A343711(n+1)]`
--/
-
-namespace A343712.P11464757285745294967
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014574 (n + 1) - 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343711 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343712.P11464757285745294967
-
 /-! ## A343712.P3108356261532258782
 
 `∩[A001359(n+1), A086168(n+1)-n]`
@@ -702,6 +657,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A343712.P6615419502015637941
+
+/-! ## A343712.P7437980576750974742
+
+`∩[A111166(n+1), A343711(n+1)]`
+-/
+
+namespace A343712.P7437980576750974742
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111166 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343711 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343712.P7437980576750974742
+
+/-! ## A343712.P11464757285745294967
+
+`∩[A014574(n+1)-1, A343711(n+1)]`
+-/
+
+namespace A343712.P11464757285745294967
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014574 (n + 1) - 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343711 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343712.P11464757285745294967
 
 /-!
 # A343713: Table read by rows: row n lists the residues of the triangular numbers modulo n.
@@ -884,6 +883,21 @@ end
 
 end A343715.P8440969148318306677
 
+/-! ## A343715.P12984978371879444157
+
+`A343714(A356451(n+1)%A246446(n+2))`
+-/
+
+namespace A343715.P12984978371879444157
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343714 (Int.tmod (A356451 (n + 1)) (A246446 (n + 2))).toNat
+
+end
+
+end A343715.P12984978371879444157
+
 /-! ## A343715.P708620284282113737
 
 `∪[A343714(A348579(n+1)), A177678(n+4)]`
@@ -905,21 +919,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A343715.P708620284282113737
-
-/-! ## A343715.P12984978371879444157
-
-`A343714(A356451(n+1)%A246446(n+2))`
--/
-
-namespace A343715.P12984978371879444157
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343714 (Int.tmod (A356451 (n + 1)) (A246446 (n + 2))).toNat
-
-end
-
-end A343715.P12984978371879444157
 
 /-!
 # A343718: Record values in A343717.
@@ -3007,72 +3006,6 @@ end
 
 end A343744.P16355999260011423873
 
-/-! ## A343744.P8646963320777572656
-
-`∩[A238985(n+1), A343681(n+1)]`
--/
-
-namespace A343744.P8646963320777572656
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238985 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343681 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343744.P8646963320777572656
-
-/-! ## A343744.P11554476953523319798
-
-`∩[A342950(n+1), A343681(n+1)]`
--/
-
-namespace A343744.P11554476953523319798
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342950 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343681 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343744.P11554476953523319798
-
-/-! ## A343744.P6749211045324567660
-
-`∩[A002473(A052382(n+1)), A343681(n+1)]`
--/
-
-namespace A343744.P6749211045324567660
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002473 (A052382 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343681 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343744.P6749211045324567660
-
 /-!
 # A343747: The x coordinates of the points visited by a knight on a 3D cubic lattice using the step rules given in A343678.
 
@@ -4894,26 +4827,26 @@ def P16845759966367742883.Spec : Prop :=
 
 end A343773
 
-/-! ## A343773.P8144523840223758905
+/-! ## A343773.P1869079596134355669
 
 `((2*n+1)*a(n-1)-5*(n-1)*a(n-2))/(n+2)` with `a(0)=1, a(1)=1`
 -/
 
-namespace A343773.P8144523840223758905
+namespace A343773.P1869079596134355669
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.rec [1, 1] fun n a =>
-  ((2 * n + 1 : ℚ) * a (n - 1) - 5 * (((n : ℤ) - 1 : ℚ) * a (n - 2))) / (n + 2 : ℚ)
+  ((2 * n + 1 : ℚ) * a (n - 1) - (5 * ((n : ℤ) - 1) : ℚ) * a (n - 2)) / (n + 2 : ℚ)
 
 end
 
-end A343773.P8144523840223758905
+end A343773.P1869079596134355669
 
 namespace A343773
 
 /-- `((2*n+1)*a(n-1)-5*(n-1)*a(n-2))/(n+2)` -/
-def P8144523840223758905.Spec : Prop :=
-  ∀ n, P8144523840223758905.a n = (A343773 n : ℚ)
+def P1869079596134355669.Spec : Prop :=
+  ∀ n, P1869079596134355669.a n = (A343773 n : ℚ)
 
 end A343773
 

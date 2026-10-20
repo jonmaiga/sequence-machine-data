@@ -20,11 +20,7 @@
         "*",
         "floor"
       ],
-      "s": "oeis",
-      "tags": [
-        "proven",
-        "definition"
-      ]
+      "s": "oeis"
     },
     {
       "d": "2026-08-16",

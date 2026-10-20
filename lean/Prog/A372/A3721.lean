@@ -4,23 +4,26 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
-import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C031
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -30,6 +33,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -1859,28 +1863,6 @@ end A372140.P2005817849796489348
 The programs for A372141, there is no canonical definition to state claims against.
 -/
 
-/-! ## A372141.P4793110530746620250
-
-`∩[A092195(n+1), A239427(n+1)]`
--/
-
-namespace A372141.P4793110530746620250
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092195 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A239427 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A372141.P4793110530746620250
-
 /-! ## A372141.P1606912794986574430
 
 `record[A134204(A326625(n+1))]`
@@ -2878,16 +2860,39 @@ end A372181.P12877405022825964371
 /-!
 # A372184: a(n) = 2^(1-3*n)*((2*n)!)^2/n.
 
-The programs for A372184, the canonical program `A372184.P7206485816613753275` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372184 has offset 1).
+The programs for A372184, the canonical program `A372184.P7206485816613753275` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372184 has offset 1).
 
 The definition of A372184 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A372184.P7017058819938669493
+
+`A139757(n)*8^(1-(n+1))*A134372(n)`
+-/
+
+namespace A372184.P7017058819938669493
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A139757 n : ℚ) * (8 : ℚ) ^ (1 - (n + 1 : ℤ) : ℤ) * (A134372 n : ℚ)
+
+end
+
+end A372184.P7017058819938669493
+
+namespace A372184
+
+/-- `A139757(n)*8^(1-(n+1))*A134372(n)` -/
+def P7017058819938669493.Spec : Prop :=
+  ∀ n, P7017058819938669493.a n = (A372184 (n + 1) : ℚ)
+
+end A372184
 
 /-! ## A372184.P7206485816613753275
 
 `2^(1-3*(n+1))*(2*(n+1))!²/(n+1)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A372184
@@ -2970,29 +2975,6 @@ namespace A372184
 /-- `(2*n+1)*(2*n+1)*a(n-1)*∑[n]` -/
 def P14534127405450729205.Spec : Prop :=
   ∀ n, (P14534127405450729205.a n : ℤ) = A372184 (n + 1)
-
-end A372184
-
-/-! ## A372184.P6962562976379090371
-
-`a(n-1)*A339483(n)` with `a(0)=1`
--/
-
-namespace A372184.P6962562976379090371
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) * A339483 n
-
-end
-
-end A372184.P6962562976379090371
-
-namespace A372184
-
-/-- `a(n-1)*A339483(n)` -/
-def P6962562976379090371.Spec : Prop :=
-  ∀ n, P6962562976379090371.a n = A372184 (n + 1)
 
 end A372184
 
@@ -3571,9 +3553,9 @@ end A372197.P8139877978641968291
 /-!
 # A372199: a(n) = n! * F(n) * H(n), where F(n) is the n-th Fibonacci number and H(n) the n-th harmonic number.
 
-The programs for A372199, the canonical program `A372199.P3867827337780857125` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372199 has offset 1).
+The programs for A372199, the canonical program `A372199.P3867827337780857125` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372199 has offset 1).
 
-The definition of A372199 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001008, A002805, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A372199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A372199.P3909301240150666674
@@ -3603,7 +3585,7 @@ end A372199
 
 `(n+1)!*A000045(n+1)*A001008(n+1)/A002805(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A372199

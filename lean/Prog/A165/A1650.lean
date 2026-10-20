@@ -3,30 +3,28 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1265,6 +1263,27 @@ end
 
 end A165017.P12646076090484399392
 
+/-! ## A165017.P11855275785135933676
+
+`eq[n, A165012(A165012(n))]`
+-/
+
+namespace A165017.P11855275785135933676
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165012 (A165012 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A165017.P11855275785135933676
+
 /-! ## A165017.P16377521598037393370
 
 `∪[A165012(A165021(n+1)), A165021(n+2)]`
@@ -1287,59 +1306,10 @@ end
 
 end A165017.P16377521598037393370
 
-/-! ## A165017.P11855275785135933676
-
-`eq[n, A165012(A165012(n))]`
--/
-
-namespace A165017.P11855275785135933676
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165012 (A165012 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A165017.P11855275785135933676
-
-/-! ## A165017.P6581744093488380842
-
-`∪[A165021(n+1), lt[A165014(n), 1]]`
--/
-
-namespace A165017.P6581744093488380842
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165021 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165014 n
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f3 j < (f4 j : ℤ)) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = x) n
-
-end
-
-end A165017.P6581744093488380842
-
 /-!
 # A165020: Length of cycle mentioned in A165019.
 
-The programs for A165020, the canonical program `A165020.P5387324205332587883` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165020 has offset 1).
+The programs for A165020, the canonical program `A165020.P5387324205332587883` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165020 has offset 1).
 
 The definition of A165020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 199 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1348,7 +1318,7 @@ The definition of A165020 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(cosh(acot(acot(n))))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A165020
@@ -1640,16 +1610,16 @@ end A165025.P16670354269922066136
 /-!
 # A165027: Number of n-digit fixed points under the base-4 Kaprekar map A165012.
 
-The programs for A165027, the canonical program `A165027.P6129569149110595286` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165027 has offset 1).
+The programs for A165027, the canonical program `A165027.P6129569149110595286` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165027 has offset 1).
 
-The definition of A165027 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A165027 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A165027.P6129569149110595286
 
 `2*a(n-2)+a(n-3)-a(n-4)-2*a(n-5)+a(n-7)` with `a(0)=1, a(1)=0, a(2)=1, a(3)=1, a(4)=0, a(5)=3, a(6)=1, a(7)=3`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A165027
@@ -2614,78 +2584,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165040.P2748729776658800837
-
-/-!
-# A165041: Consider the base-5 Kaprekar map n->K(n) defined in A165032. Sequence gives least elements of each cycle, including fixed points.
-
-The programs for A165041, there is no canonical definition to state claims against.
--/
-
-/-! ## A165041.P12324875501216264902
-
-`∪[A165049(A051903(2^(n+1))), A165043(n+1)]`
--/
-
-namespace A165041.P12324875501216264902
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165049 (A051903 (2 ^ (n + 1))).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165043 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A165041.P12324875501216264902
-
-/-! ## A165041.P16419186081093009966
-
-`∪[A165043(n+1), A165049(n+1)%A001395(n)]`
--/
-
-namespace A165041.P16419186081093009966
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165043 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A165049 (n + 1)) (A001395 n)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A165041.P16419186081093009966
-
-/-! ## A165041.P4807478867258299151
-
-`∪[A165043(n+1), A015070(n)!*A165049(n+1)]`
--/
-
-namespace A165041.P4807478867258299151
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165043 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (A015070 n).toNat : ℤ) * A165049 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A165041.P4807478867258299151
 
 /-!
 # A165042: Length of cycle mentioned in A165041.
@@ -4124,7 +4022,7 @@ end A165062.P4715017052242253861
 /-!
 # A165063: Length of cycle mentioned in A165062.
 
-The programs for A165063, the canonical program `A165063.P9027625364471019247` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165063 has offset 1).
+The programs for A165063, the canonical program `A165063.P9027625364471019247` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165063 has offset 1).
 
 The definition of A165063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4133,7 +4031,7 @@ The definition of A165063 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=6, a(1)=2, a(2)=3, a(3)=2, a(4)=7, a(5)=2`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A165063
@@ -6165,50 +6063,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A165095.P2921255776737321354
-
-/-! ## A165095.P2693468151608821107
-
-`∪[A165097(n+1), A165099(n+1)*A165263(3*n+5)]`
--/
-
-namespace A165095.P2693468151608821107
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165097 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165099 (n + 1) * A165263 (3 * n + 5)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A165095.P2693468151608821107
-
-/-! ## A165095.P7850823323406183849
-
-`∪[A165097(n+1), A030346((n+8)*8^(n-1)+2)*A165099(n+1)]`
--/
-
-namespace A165095.P7850823323406183849
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165097 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030346 (SequenceMachineLib.roundAway ((n + 8 : ℚ) * (8 : ℚ) ^ ((n : ℤ) - 1 : ℤ) + 2)).toNat * A165099 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A165095.P7850823323406183849
 
 /-!
 # A165097: Consider the base-8 Kaprekar map n->K(n) defined in A165090. Sequence gives numbers belonging to cycles of length greater than 1.

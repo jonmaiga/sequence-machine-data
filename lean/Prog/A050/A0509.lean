@@ -33,16 +33,14 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -63,7 +61,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -134,23 +131,29 @@ end A050904.P4846357262934145926
 /-!
 # A050909: Iterated triangular numbers with seed 9.
 
-The programs for A050909, there is no canonical definition to state claims against.
+The programs for A050909, the canonical program `A050909.P12396744796371579053` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050909 has offset 0).
+
+The definition of A050909 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A050909.P12396744796371579053
 
 `C(a(n-1)+1, 2)` with `a(0)=9`
+
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
-namespace A050909.P12396744796371579053
-noncomputable section
+namespace A050909
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [9] fun n a =>
-  Nat.choose (a (n - 1) + 1) 2
+/-- `C(a(n-1)+1, 2)` -/
+def P12396744796371579053.Spec : Prop :=
+  ∀ n, (P12396744796371579053.a n : ℤ) = A050909 n
 
-end
+theorem P12396744796371579053.correct : P12396744796371579053.Spec := by
+  intro n
+  simp only [A050909]
 
-end A050909.P12396744796371579053
+end A050909
 
 /-! ## A050909.P4928917124966692412
 
@@ -167,6 +170,14 @@ end
 
 end A050909.P4928917124966692412
 
+namespace A050909
+
+/-- `(a(n-1)+a(n-1)²)/2` -/
+def P4928917124966692412.Spec : Prop :=
+  ∀ n, P4928917124966692412.a n = (A050909 n : ℚ)
+
+end A050909
+
 /-! ## A050909.P11520148654281007547
 
 `(a(n-1)+1)/2*a(n-1)` with `a(0)=9`
@@ -181,6 +192,14 @@ def a : ℕ → ℚ := SequenceMachineLib.rec [9] fun n a =>
 end
 
 end A050909.P11520148654281007547
+
+namespace A050909
+
+/-- `(a(n-1)+1)/2*a(n-1)` -/
+def P11520148654281007547.Spec : Prop :=
+  ∀ n, P11520148654281007547.a n = (A050909 n : ℚ)
+
+end A050909
 
 /-!
 # A050910: Number of pure 3-complexes on 8 unlabeled nodes with n multiple 3-simplexes.
@@ -2259,29 +2278,23 @@ end A050923
 /-!
 # A050924: a(n) = (a(n-1)+1)^(a(n-1)), a(0) = 0.
 
-The programs for A050924, the canonical program `A050924.P17686619806461808251` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050924 has offset 0).
-
-The definition of A050924 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(a(n-1)+1)^a(n-1)` (program `A050924.P17686619806461808251`, by `A050924.P17686619806461808251.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The programs for A050924, there is no canonical definition to state claims against.
 -/
 
 /-! ## A050924.P17686619806461808251
 
 `(a(n-1)+1)^a(n-1)` with `a(0)=0`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
 
-namespace A050924
+namespace A050924.P17686619806461808251
+noncomputable section
 
-/-- `(a(n-1)+1)^a(n-1)` -/
-def P17686619806461808251.Spec : Prop :=
-  ∀ n, (P17686619806461808251.a n : ℤ) = A050924 n
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+  (a (n - 1) + 1) ^ a (n - 1)
 
-theorem P17686619806461808251.correct : P17686619806461808251.Spec := by
-  intro n
-  simp only [A050924]
+end
 
-end A050924
+end A050924.P17686619806461808251
 
 /-!
 # A050925: Numerator of (n+1)*Bernoulli(n).
@@ -2486,7 +2499,7 @@ end A050925.P17371511710388212496
 /-!
 # A050926: Binary representation of A007908(n).
 
-The programs for A050926, the canonical program `A050926.P6020126411824028661` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050926 has offset 1).
+The programs for A050926, the canonical program `A050926.P6020126411824028661` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050926 has offset 1).
 
 The definition of A050926 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2495,7 +2508,7 @@ The definition of A050926 is `conditional`: the Lean definition is an OEIS formu
 
 `A007088(A007908(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A050926
@@ -6820,34 +6833,6 @@ end
 end A050954.P2138137341219307161
 
 /-!
-# A050955: Discriminants of real quadratic fields with class number 1 and related continued fraction period length of 6.
-
-The programs for A050955, there is no canonical definition to state claims against.
--/
-
-/-! ## A050955.P2795971428044209041
-
-`∩[A192189(n+1), A020347(A377436(n+1))]`
--/
-
-namespace A050955.P2795971428044209041
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A192189 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020347 (A377436 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050955.P2795971428044209041
-
-/-!
 # A050956: Discriminants of real quadratic fields with class number 1 and related continued fraction period length of 7.
 
 The programs for A050956, there is no canonical definition to state claims against.
@@ -7008,6 +6993,28 @@ end
 
 end A050958.P4061994425147792152
 
+/-! ## A050958.P7604249302617005660
+
+`∩[A003172(n+1), A146354(n+1)]`
+-/
+
+namespace A050958.P7604249302617005660
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003172 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146354 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050958.P7604249302617005660
+
 /-! ## A050958.P4711575706732657195
 
 `∩[A143577(n+1), A391423(n+1)]`
@@ -7051,28 +7058,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A050958.P9573335092900517332
-
-/-! ## A050958.P7604249302617005660
-
-`∩[A003172(n+1), A146354(n+1)]`
--/
-
-namespace A050958.P7604249302617005660
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003172 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146354 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050958.P7604249302617005660
 
 /-! ## A050958.P10927836458799475748
 
@@ -7486,25 +7471,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050966.P966668210716408785
-
-/-! ## A050966.P10546249380144556104
-
-`A146362(comp[A277798(n)*A277798(3*(n+1))])`
--/
-
-namespace A050966.P10546249380144556104
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277798 n * A277798 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146362 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A050966.P10546249380144556104
 
 /-!
 # A050970: Numerator of S(n)/Pi^n, where S(n) = Sum_{k=-inf..+inf} (4k+1)^(-n).

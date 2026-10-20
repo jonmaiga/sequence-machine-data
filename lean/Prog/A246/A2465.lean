@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -14,26 +13,26 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -43,7 +42,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -226,27 +224,46 @@ end A246503.P12056981133227673524
 /-!
 # A246507: a(n) = 70*(n+1)*binomial(2*n+1,n+1)/(n+5).
 
-The programs for A246507, the canonical program `A246507.P17824389023818354113` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246507 has offset 0).
+The programs for A246507, the canonical program `A246507.P18214482059826779392` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246507 has offset 0).
 
-The definition of A246507 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A246507 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A246507.P18214482059826779392
+
+`70*(n+1)*C(2*n+1, n+1)/(n+5)`
+
+The canonical program, it is in `Seq.B000.C031`.
+-/
+
+namespace A246507
+
+/-- `70*(n+1)*C(2*n+1, n+1)/(n+5)` -/
+def P18214482059826779392.Spec : Prop :=
+  ∀ n, P18214482059826779392.a n = (A246507 n : ℚ)
+
+end A246507
 
 /-! ## A246507.P17824389023818354113
 
 `A078817(A000096(n+3)+5)`
-
-The canonical program, it is in `Seq.B008.C001`.
 -/
+
+namespace A246507.P17824389023818354113
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078817 (A000096 (n + 3) + 5).toNat
+
+end
+
+end A246507.P17824389023818354113
 
 namespace A246507
 
 /-- `A078817(A000096(n+3)+5)` -/
 def P17824389023818354113.Spec : Prop :=
   ∀ n, P17824389023818354113.a n = A246507 n
-
-theorem P17824389023818354113.correct : P17824389023818354113.Spec := by
-  intro n
-  simp only [A246507]
 
 end A246507
 
@@ -2895,28 +2912,6 @@ end
 
 end A246547.P7828638527571135549
 
-/-! ## A246547.P354786697115491978
-
-`∩[A249125(n+1), A080062(n+1)]`
--/
-
-namespace A246547.P354786697115491978
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249125 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080062 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A246547.P354786697115491978
-
 /-! ## A246547.P12100267735800520499
 
 `∩[A080062(n+1), A134611(n+1)]`
@@ -2939,20 +2934,27 @@ end
 
 end A246547.P12100267735800520499
 
-/-! ## A246547.P17360305325100757799
+/-! ## A246547.P354786697115491978
 
-`A060847(n+1)+A060845(n+1)`
+`∩[A249125(n+1), A080062(n+1)]`
 -/
 
-namespace A246547.P17360305325100757799
+namespace A246547.P354786697115491978
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060847 (n + 1) + A060845 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A249125 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080062 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A246547.P17360305325100757799
+end A246547.P354786697115491978
 
 /-! ## A246547.P4986388587283227068
 
@@ -2976,28 +2978,6 @@ end
 
 end A246547.P4986388587283227068
 
-/-! ## A246547.P3775065781282657468
-
-`∩[A073540(n+1), A076292(n+1)]`
--/
-
-namespace A246547.P3775065781282657468
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073540 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076292 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A246547.P3775065781282657468
-
 /-! ## A246547.P4121080148042263296
 
 `∩[A072777(n+1), A134611(n+1)]`
@@ -3019,6 +2999,43 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246547.P4121080148042263296
+
+/-! ## A246547.P17360305325100757799
+
+`A060847(n+1)+A060845(n+1)`
+-/
+
+namespace A246547.P17360305325100757799
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060847 (n + 1) + A060845 (n + 1)
+
+end
+
+end A246547.P17360305325100757799
+
+/-! ## A246547.P3775065781282657468
+
+`∩[A073540(n+1), A076292(n+1)]`
+-/
+
+namespace A246547.P3775065781282657468
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073540 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076292 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246547.P3775065781282657468
 
 /-!
 # A246549: Prime powers p^e where p is a prime and e >= 3 (prime powers without 1, the primes, or the squares of primes).
@@ -4180,7 +4197,7 @@ end A246551
 /-!
 # A246552: 2-adic valuation of the number of involutions of n (A000085).
 
-The programs for A246552, the canonical program `A246552.P18374111538547114065` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246552 has offset 0).
+The programs for A246552, the canonical program `A246552.P18374111538547114065` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246552 has offset 0).
 
 The definition of A246552 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4189,7 +4206,7 @@ The definition of A246552 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n-2*floor(n/4)-floor((n+3)/4)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A246552
@@ -4204,26 +4221,26 @@ theorem P18374111538547114065.correct : P18374111538547114065.Spec := by
 
 end A246552
 
-/-! ## A246552.P8579204445028803975
+/-! ## A246552.P11336773041529276614
 
 `(2*n+3-2*cos(n*π/2)-cos(n*π)-6*sin(n*π/2))/8`
 -/
 
-namespace A246552.P8579204445028803975
+namespace A246552.P11336773041529276614
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  ((2 * n : ℝ) + (3 - 2 * Real.cos ((n : ℝ) * (Real.pi / 2))) - Real.cos ((n : ℝ) * Real.pi) - 6 * Real.sin ((n : ℝ) * (Real.pi / 2))) / 8
+  ((2 * n + 3 : ℝ) - 2 * Real.cos ((n : ℝ) * Real.pi / 2) - Real.cos ((n : ℝ) * Real.pi) - 6 * Real.sin ((n : ℝ) * Real.pi / 2)) / 8
 
 end
 
-end A246552.P8579204445028803975
+end A246552.P11336773041529276614
 
 namespace A246552
 
 /-- `(2*n+3-2*cos(n*π/2)-cos(n*π)-6*sin(n*π/2))/8` -/
-def P8579204445028803975.Spec : Prop :=
-  ∀ n, P8579204445028803975.a n = (A246552 n : ℝ)
+def P11336773041529276614.Spec : Prop :=
+  ∀ n, P11336773041529276614.a n = (A246552 n : ℝ)
 
 end A246552
 

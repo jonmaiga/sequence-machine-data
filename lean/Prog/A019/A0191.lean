@@ -1,7 +1,8 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C005
+import Seq.B000.C018
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B005.C002
@@ -15,9 +16,9 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
-import Seq.Opaque.C021
+import Seq.Opaque.C020
 
 /-!
 # A019129: Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan[AlnSi112-nO224] starting with a T10 atom.

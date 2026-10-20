@@ -19,17 +19,24 @@ import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -37,13 +44,12 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -56,7 +62,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1206,7 +1211,7 @@ end A018002
 /-!
 # A018003: Powers of cube root of 10 rounded down.
 
-The programs for A018003, the canonical program `A018003.P8392069369485400393` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018003 has offset 0).
+The programs for A018003, the canonical program `A018003.P8392069369485400393` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018003 has offset 0).
 
 The definition of A018003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 301 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1215,7 +1220,7 @@ The definition of A018003 is `conjectured`: the Lean definition is a formula tha
 
 `floor(10^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018003
@@ -1493,7 +1498,7 @@ end A018003
 /-!
 # A018004: Powers of cube root of 10 rounded to nearest integer.
 
-The programs for A018004, the canonical program `A018004.P16559126696998755901` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018004 has offset 0).
+The programs for A018004, the canonical program `A018004.P16559126696998755901` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018004 has offset 0).
 
 The definition of A018004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 301 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1502,7 +1507,7 @@ The definition of A018004 is `conjectured`: the Lean definition is a formula tha
 
 `round(10^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018004
@@ -1823,29 +1828,6 @@ def P4218191232902432388.Spec : Prop :=
 
 end A018005
 
-/-! ## A018005.P13610653103378939691
-
-`A057428(2*n+1)+A130080(2*n+1)+1`
--/
-
-namespace A018005.P13610653103378939691
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057428 (2 * n + 1) + (A130080 (2 * n + 1) + 1)
-
-end
-
-end A018005.P13610653103378939691
-
-namespace A018005
-
-/-- `A057428(2*n+1)+A130080(2*n+1)+1` -/
-def P13610653103378939691.Spec : Prop :=
-  ∀ n, P13610653103378939691.a n = A018005 (n + 1)
-
-end A018005
-
 /-! ## A018005.P3787019365206694485
 
 `A119288(A119288(n+2))*A130080(2*n+1)`
@@ -1912,6 +1894,29 @@ namespace A018005
 /-- `A130080(2*n+1)+A130130(2*n+1)-A130130(n+1)` -/
 def P17666838635675296684.Spec : Prop :=
   ∀ n, P17666838635675296684.a n = A018005 (n + 1)
+
+end A018005
+
+/-! ## A018005.P13610653103378939691
+
+`A057428(2*n+1)+A130080(2*n+1)+1`
+-/
+
+namespace A018005.P13610653103378939691
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057428 (2 * n + 1) + (A130080 (2 * n + 1) + 1)
+
+end
+
+end A018005.P13610653103378939691
+
+namespace A018005
+
+/-- `A057428(2*n+1)+A130080(2*n+1)+1` -/
+def P13610653103378939691.Spec : Prop :=
+  ∀ n, P13610653103378939691.a n = A018005 (n + 1)
 
 end A018005
 
@@ -1987,7 +1992,7 @@ end A018005
 /-!
 # A018006: Powers of cube root of 11 rounded down.
 
-The programs for A018006, the canonical program `A018006.P12550283863343103991` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018006 has offset 0).
+The programs for A018006, the canonical program `A018006.P12550283863343103991` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018006 has offset 0).
 
 The definition of A018006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1996,7 +2001,7 @@ The definition of A018006 is `conjectured`: the Lean definition is a formula tha
 
 `floor(11^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018006
@@ -2227,7 +2232,7 @@ end A018006
 /-!
 # A018007: Powers of cube root of 11 rounded to nearest integer.
 
-The programs for A018007, the canonical program `A018007.P16703951481824979667` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018007 has offset 0).
+The programs for A018007, the canonical program `A018007.P16703951481824979667` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018007 has offset 0).
 
 The definition of A018007 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2236,7 +2241,7 @@ The definition of A018007 is `conjectured`: the Lean definition is a formula tha
 
 `round(11^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018007
@@ -2713,7 +2718,7 @@ end A018009
 /-!
 # A018010: Powers of cube root of 12 rounded to nearest integer.
 
-The programs for A018010, the canonical program `A018010.P3177161722198752500` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018010 has offset 0).
+The programs for A018010, the canonical program `A018010.P3177161722198752500` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018010 has offset 0).
 
 The definition of A018010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 278 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2722,7 +2727,7 @@ The definition of A018010 is `conjectured`: the Lean definition is a formula tha
 
 `round(12^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018010
@@ -3486,7 +3491,7 @@ end A018012
 /-!
 # A018013: Powers of cube root of 13 rounded to nearest integer.
 
-The programs for A018013, the canonical program `A018013.P10968953885026456035` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018013 has offset 0).
+The programs for A018013, the canonical program `A018013.P10968953885026456035` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018013 has offset 0).
 
 The definition of A018013 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 270 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3495,7 +3500,7 @@ The definition of A018013 is `conjectured`: the Lean definition is a formula tha
 
 `round(13^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018013
@@ -3869,7 +3874,7 @@ end A018014
 /-!
 # A018015: Powers of cube root of 14 rounded down.
 
-The programs for A018015, the canonical program `A018015.P13557129458488737064` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018015 has offset 0).
+The programs for A018015, the canonical program `A018015.P13557129458488737064` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018015 has offset 0).
 
 The definition of A018015 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3878,7 +3883,7 @@ The definition of A018015 is `conjectured`: the Lean definition is a formula tha
 
 `floor(14^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018015
@@ -4110,7 +4115,7 @@ end A018015
 /-!
 # A018016: Powers of cube root of 14 rounded to nearest integer.
 
-The programs for A018016, the canonical program `A018016.P16812204082695019236` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018016 has offset 0).
+The programs for A018016, the canonical program `A018016.P16812204082695019236` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018016 has offset 0).
 
 The definition of A018016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4119,7 +4124,7 @@ The definition of A018016 is `conjectured`: the Lean definition is a formula tha
 
 `round(14^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018016
@@ -4470,7 +4475,7 @@ end A018017
 /-!
 # A018018: Powers of cube root of 15 rounded down.
 
-The programs for A018018, the canonical program `A018018.P6699755399368029623` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018018 has offset 0).
+The programs for A018018, the canonical program `A018018.P6699755399368029623` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018018 has offset 0).
 
 The definition of A018018 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4479,7 +4484,7 @@ The definition of A018018 is `conjectured`: the Lean definition is a formula tha
 
 `floor(15^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018018
@@ -4665,7 +4670,7 @@ end A018018
 /-!
 # A018019: Powers of cube root of 15 rounded to nearest integer.
 
-The programs for A018019, the canonical program `A018019.P8371660953020754817` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018019 has offset 0).
+The programs for A018019, the canonical program `A018019.P8371660953020754817` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018019 has offset 0).
 
 The definition of A018019 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4674,7 +4679,7 @@ The definition of A018019 is `conjectured`: the Lean definition is a formula tha
 
 `round(15^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018019
@@ -6105,7 +6110,7 @@ end A018023
 /-!
 # A018024: Powers of cube root of 17 rounded down.
 
-The programs for A018024, the canonical program `A018024.P14954635159169993979` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018024 has offset 0).
+The programs for A018024, the canonical program `A018024.P14954635159169993979` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018024 has offset 0).
 
 The definition of A018024 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6114,7 +6119,7 @@ The definition of A018024 is `conjectured`: the Lean definition is a formula tha
 
 `floor(17^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018024
@@ -6416,7 +6421,7 @@ end A018024
 /-!
 # A018025: Powers of cube root of 17 rounded to nearest integer.
 
-The programs for A018025, the canonical program `A018025.P7099176975664744632` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018025 has offset 0).
+The programs for A018025, the canonical program `A018025.P7099176975664744632` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018025 has offset 0).
 
 The definition of A018025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6425,7 +6430,7 @@ The definition of A018025 is `conjectured`: the Lean definition is a formula tha
 
 `round(17^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018025
@@ -6849,7 +6854,7 @@ end A018026
 /-!
 # A018027: Powers of cube root of 18 rounded down.
 
-The programs for A018027, the canonical program `A018027.P3102652915185541206` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018027 has offset 0).
+The programs for A018027, the canonical program `A018027.P3102652915185541206` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018027 has offset 0).
 
 The definition of A018027 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6858,7 +6863,7 @@ The definition of A018027 is `conjectured`: the Lean definition is a formula tha
 
 `floor(18^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018027
@@ -7162,7 +7167,7 @@ end A018027
 /-!
 # A018028: Powers of cube root of 18 rounded to nearest integer.
 
-The programs for A018028, the canonical program `A018028.P5830603224487268178` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018028 has offset 0).
+The programs for A018028, the canonical program `A018028.P5830603224487268178` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018028 has offset 0).
 
 The definition of A018028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7171,7 +7176,7 @@ The definition of A018028 is `conjectured`: the Lean definition is a formula tha
 
 `round(18^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018028
@@ -7591,7 +7596,7 @@ end A018029
 /-!
 # A018030: Powers of cube root of 19 rounded down.
 
-The programs for A018030, the canonical program `A018030.P4560821027132420570` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018030 has offset 0).
+The programs for A018030, the canonical program `A018030.P4560821027132420570` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018030 has offset 0).
 
 The definition of A018030 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 235 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7600,7 +7605,7 @@ The definition of A018030 is `conjectured`: the Lean definition is a formula tha
 
 `floor(19^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018030
@@ -8314,7 +8319,7 @@ end A018032
 /-!
 # A018033: Powers of cube root of 20 rounded down.
 
-The programs for A018033, the canonical program `A018033.P15720440222189732780` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018033 has offset 0).
+The programs for A018033, the canonical program `A018033.P15720440222189732780` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018033 has offset 0).
 
 The definition of A018033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 231 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8323,7 +8328,7 @@ The definition of A018033 is `conjectured`: the Lean definition is a formula tha
 
 `floor(20^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018033
@@ -8892,7 +8897,7 @@ end A018035
 /-!
 # A018036: Powers of cube root of 21 rounded down.
 
-The programs for A018036, the canonical program `A018036.P15418198874529348123` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018036 has offset 0).
+The programs for A018036, the canonical program `A018036.P15418198874529348123` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018036 has offset 0).
 
 The definition of A018036 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 227 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8901,7 +8906,7 @@ The definition of A018036 is `conjectured`: the Lean definition is a formula tha
 
 `floor(21^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018036
@@ -9513,7 +9518,7 @@ end A018038
 /-!
 # A018039: Powers of cube root of 22 rounded down.
 
-The programs for A018039, the canonical program `A018039.P10423894034091347797` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018039 has offset 0).
+The programs for A018039, the canonical program `A018039.P10423894034091347797` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018039 has offset 0).
 
 The definition of A018039 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 224 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9522,7 +9527,7 @@ The definition of A018039 is `conjectured`: the Lean definition is a formula tha
 
 `floor(22^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018039
@@ -10137,7 +10142,7 @@ end A018041
 /-!
 # A018042: Powers of cube root of 23 rounded down.
 
-The programs for A018042, the canonical program `A018042.P3459466618623817975` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018042 has offset 0).
+The programs for A018042, the canonical program `A018042.P3459466618623817975` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018042 has offset 0).
 
 The definition of A018042 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10146,7 +10151,7 @@ The definition of A018042 is `conjectured`: the Lean definition is a formula tha
 
 `floor(23^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018042
@@ -10451,7 +10456,7 @@ end A018042
 /-!
 # A018043: Powers of cube root of 23 rounded to nearest integer.
 
-The programs for A018043, the canonical program `A018043.P7123361039262672170` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018043 has offset 0).
+The programs for A018043, the canonical program `A018043.P7123361039262672170` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018043 has offset 0).
 
 The definition of A018043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10460,7 +10465,7 @@ The definition of A018043 is `conjectured`: the Lean definition is a formula tha
 
 `round(23^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018043
@@ -10976,7 +10981,7 @@ end A018044
 /-!
 # A018045: Powers of cube root of 24 rounded down.
 
-The programs for A018045, the canonical program `A018045.P11791116757497946798` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018045 has offset 0).
+The programs for A018045, the canonical program `A018045.P11791116757497946798` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018045 has offset 0).
 
 The definition of A018045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10985,7 +10990,7 @@ The definition of A018045 is `conjectured`: the Lean definition is a formula tha
 
 `floor(24^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018045
@@ -11285,7 +11290,7 @@ end A018045
 /-!
 # A018046: Powers of cube root of 24 rounded to nearest integer.
 
-The programs for A018046, the canonical program `A018046.P4298966318019453348` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018046 has offset 0).
+The programs for A018046, the canonical program `A018046.P4298966318019453348` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018046 has offset 0).
 
 The definition of A018046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11294,7 +11299,7 @@ The definition of A018046 is `conjectured`: the Lean definition is a formula tha
 
 `round((2*root(3, 3))^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018046
@@ -11687,7 +11692,7 @@ end A018047
 /-!
 # A018048: Powers of fourth root of 2 rounded down.
 
-The programs for A018048, the canonical program `A018048.P631130173082114317` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018048 has offset 0).
+The programs for A018048, the canonical program `A018048.P631130173082114317` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018048 has offset 0).
 
 The definition of A018048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11696,7 +11701,7 @@ The definition of A018048 is `conjectured`: the Lean definition is a formula tha
 
 `floor(2^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018048
@@ -12366,7 +12371,7 @@ end A018050
 /-!
 # A018051: Powers of fourth root of 3 rounded down.
 
-The programs for A018051, the canonical program `A018051.P9620246204428925504` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018051 has offset 0).
+The programs for A018051, the canonical program `A018051.P9620246204428925504` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018051 has offset 0).
 
 The definition of A018051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 839 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12375,7 +12380,7 @@ The definition of A018051 is `conjectured`: the Lean definition is a formula tha
 
 `floor(3^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018051
@@ -12557,7 +12562,7 @@ end A018051
 /-!
 # A018052: Powers of fourth root of 3 rounded to nearest integer.
 
-The programs for A018052, the canonical program `A018052.P5388622727807734156` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018052 has offset 0).
+The programs for A018052, the canonical program `A018052.P5388622727807734156` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018052 has offset 0).
 
 The definition of A018052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 839 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12566,7 +12571,7 @@ The definition of A018052 is `conjectured`: the Lean definition is a formula tha
 
 `round(3^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018052
@@ -12838,29 +12843,6 @@ def P3438186185422508070.Spec : Prop :=
 
 end A018053
 
-/-! ## A018053.P4706518075759585961
-
-`floor(A019425(2*n)+sqrt(sqrt(3)^n))`
--/
-
-namespace A018053.P4706518075759585961
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A019425 (2 * n) : ℝ) + Real.sqrt (Real.sqrt (3 : ℝ) ^ n)⌋
-
-end
-
-end A018053.P4706518075759585961
-
-namespace A018053
-
-/-- `floor(A019425(2*n)+sqrt(sqrt(3)^n))` -/
-def P4706518075759585961.Spec : Prop :=
-  ∀ n, P4706518075759585961.a n = A018053 n
-
-end A018053
-
 /-! ## A018053.P4328970393595749124
 
 `ceil(sqrt(sqrt(3)^n))*A000034(2*n)`
@@ -12910,7 +12892,7 @@ end A018053
 /-!
 # A018054: Expansion of 1/((1-3*x)*(1-7*x)*(1-11*x)).
 
-The programs for A018054, the canonical program `A018054.P5032301371897729527` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018054 has offset 0).
+The programs for A018054, the canonical program `A018054.P5032301371897729527` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018054 has offset 0).
 
 The definition of A018054 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12919,7 +12901,7 @@ The definition of A018054 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-1)-77*a(n-2)+3^n` with `a(0)=1, a(1)=21`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018054
@@ -13050,7 +13032,7 @@ end A018054
 /-!
 # A018055: Expansion of 1/((1-3*x)*(1-7*x)*(1-12*x)).
 
-The programs for A018055, the canonical program `A018055.P15742584883694483210` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018055 has offset 0).
+The programs for A018055, the canonical program `A018055.P15742584883694483210` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018055 has offset 0).
 
 The definition of A018055 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13059,7 +13041,7 @@ The definition of A018055 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-1)-84*a(n-2)+3^n` with `a(0)=1, a(1)=22`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018055
@@ -13210,7 +13192,7 @@ end A018055
 /-!
 # A018056: Expansion of g.f. 1/((1-3*x)*(1-8*x)*(1-9*x)).
 
-The programs for A018056, the canonical program `A018056.P10299247954942043490` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018056 has offset 0).
+The programs for A018056, the canonical program `A018056.P10299247954942043490` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018056 has offset 0).
 
 The definition of A018056 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13219,7 +13201,7 @@ The definition of A018056 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-1)-72*a(n-2)+3^n` with `a(0)=1, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018056
@@ -13347,7 +13329,7 @@ end A018056
 /-!
 # A018057: Powers of fourth root of 5 rounded down.
 
-The programs for A018057, the canonical program `A018057.P3909655468605073223` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018057 has offset 0).
+The programs for A018057, the canonical program `A018057.P3909655468605073223` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018057 has offset 0).
 
 The definition of A018057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 573 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13356,7 +13338,7 @@ The definition of A018057 is `conjectured`: the Lean definition is a formula tha
 
 `floor(5^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018057
@@ -13588,7 +13570,7 @@ end A018057
 /-!
 # A018058: Powers of fourth root of 5 rounded to nearest integer.
 
-The programs for A018058, the canonical program `A018058.P5996780747590626093` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018058 has offset 0).
+The programs for A018058, the canonical program `A018058.P5996780747590626093` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018058 has offset 0).
 
 The definition of A018058 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 573 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13597,7 +13579,7 @@ The definition of A018058 is `conjectured`: the Lean definition is a formula tha
 
 `round(5^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018058
@@ -13987,7 +13969,7 @@ end A018059
 /-!
 # A018060: Powers of fourth root of 6 rounded down.
 
-The programs for A018060, the canonical program `A018060.P7176242607218543114` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018060 has offset 0).
+The programs for A018060, the canonical program `A018060.P7176242607218543114` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018060 has offset 0).
 
 The definition of A018060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 515 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13996,7 +13978,7 @@ The definition of A018060 is `conjectured`: the Lean definition is a formula tha
 
 `floor(6^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018060
@@ -14155,7 +14137,7 @@ end A018060
 /-!
 # A018061: Powers of fourth root of 6 rounded to nearest integer.
 
-The programs for A018061, the canonical program `A018061.P6372660784948082056` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018061 has offset 0).
+The programs for A018061, the canonical program `A018061.P6372660784948082056` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018061 has offset 0).
 
 The definition of A018061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 515 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14164,7 +14146,7 @@ The definition of A018061 is `conjectured`: the Lean definition is a formula tha
 
 `round(6^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018061
@@ -14534,7 +14516,7 @@ end A018062
 /-!
 # A018063: Powers of fourth root of 7 rounded down.
 
-The programs for A018063, the canonical program `A018063.P10331666004157670674` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018063 has offset 0).
+The programs for A018063, the canonical program `A018063.P10331666004157670674` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018063 has offset 0).
 
 The definition of A018063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14543,7 +14525,7 @@ The definition of A018063 is `conjectured`: the Lean definition is a formula tha
 
 `floor(7^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018063
@@ -14722,7 +14704,7 @@ end A018063
 /-!
 # A018064: Powers of fourth root of 7 rounded to nearest integer.
 
-The programs for A018064, the canonical program `A018064.P4767528338658594735` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018064 has offset 0).
+The programs for A018064, the canonical program `A018064.P4767528338658594735` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018064 has offset 0).
 
 The definition of A018064 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14731,7 +14713,7 @@ The definition of A018064 is `conjectured`: the Lean definition is a formula tha
 
 `round(7^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018064
@@ -15431,7 +15413,7 @@ end A018066
 /-!
 # A018067: Powers of fourth root of 8 rounded to nearest integer.
 
-The programs for A018067, the canonical program `A018067.P17008007606671554914` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018067 has offset 0).
+The programs for A018067, the canonical program `A018067.P17008007606671554914` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018067 has offset 0).
 
 The definition of A018067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 443 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15440,7 +15422,7 @@ The definition of A018067 is `conjectured`: the Lean definition is a formula tha
 
 `round(8^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018067
@@ -15691,7 +15673,7 @@ end A018067
 /-!
 # A018068: Powers of fourth root of 8 rounded up.
 
-The programs for A018068, the canonical program `A018068.P1534183736500244742` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018068 has offset 0).
+The programs for A018068, the canonical program `A018068.P1534183736500244742` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018068 has offset 0).
 
 The definition of A018068 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15700,7 +15682,7 @@ The definition of A018068 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(8^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018068
@@ -15833,7 +15815,7 @@ end A018068
 /-!
 # A018069: Expansion of 1/((1-3*x)*(1-8*x)*(1-10*x)).
 
-The programs for A018069, the canonical program `A018069.P7359042238384290821` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018069 has offset 0).
+The programs for A018069, the canonical program `A018069.P7359042238384290821` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018069 has offset 0).
 
 The definition of A018069 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15842,7 +15824,7 @@ The definition of A018069 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-1)-80*a(n-2)+3^n` with `a(0)=1, a(1)=21`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018069
@@ -15993,7 +15975,7 @@ end A018069
 /-!
 # A018070: Expansion of 1/((1-3*x)*(1-8*x)*(1-11*x)).
 
-The programs for A018070, the canonical program `A018070.P10301211138478499902` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018070 has offset 0).
+The programs for A018070, the canonical program `A018070.P10301211138478499902` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018070 has offset 0).
 
 The definition of A018070 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16002,7 +15984,7 @@ The definition of A018070 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-1)-88*a(n-2)+3^n` with `a(0)=1, a(1)=22`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018070
@@ -16130,7 +16112,7 @@ end A018070
 /-!
 # A018071: Expansion of 1/((1-3x)(1-8x)(1-12x)).
 
-The programs for A018071, the canonical program `A018071.P15916146401560535248` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018071 has offset 0).
+The programs for A018071, the canonical program `A018071.P15916146401560535248` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018071 has offset 0).
 
 The definition of A018071 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16139,7 +16121,7 @@ The definition of A018071 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-96*a(n-2)+3^n` with `a(0)=1, a(1)=23`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018071
@@ -16293,7 +16275,7 @@ end A018071
 /-!
 # A018072: Powers of fourth root of 10 rounded down.
 
-The programs for A018072, the canonical program `A018072.P17045503792565000917` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018072 has offset 0).
+The programs for A018072, the canonical program `A018072.P17045503792565000917` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018072 has offset 0).
 
 The definition of A018072 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 401 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16302,7 +16284,7 @@ The definition of A018072 is `conjectured`: the Lean definition is a formula tha
 
 `floor(10^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018072
@@ -16648,7 +16630,7 @@ end A018072
 /-!
 # A018073: Powers of fourth root of 10 rounded to nearest integer.
 
-The programs for A018073, the canonical program `A018073.P12688293634514484333` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018073 has offset 0).
+The programs for A018073, the canonical program `A018073.P12688293634514484333` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018073 has offset 0).
 
 The definition of A018073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 401 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16657,7 +16639,7 @@ The definition of A018073 is `conjectured`: the Lean definition is a formula tha
 
 `round(10^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018073
@@ -17160,7 +17142,7 @@ end A018074
 /-!
 # A018075: Powers of fourth root of 11 rounded down.
 
-The programs for A018075, the canonical program `A018075.P11047111669678635786` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018075 has offset 0).
+The programs for A018075, the canonical program `A018075.P11047111669678635786` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018075 has offset 0).
 
 The definition of A018075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 385 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17169,7 +17151,7 @@ The definition of A018075 is `conjectured`: the Lean definition is a formula tha
 
 `floor(11^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018075
@@ -17302,7 +17284,7 @@ end A018075
 /-!
 # A018076: Powers of fourth root of 11 rounded to nearest integer.
 
-The programs for A018076, the canonical program `A018076.P10992735860476291149` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018076 has offset 0).
+The programs for A018076, the canonical program `A018076.P10992735860476291149` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018076 has offset 0).
 
 The definition of A018076 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 385 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17311,7 +17293,7 @@ The definition of A018076 is `conjectured`: the Lean definition is a formula tha
 
 `round(11^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018076
@@ -17635,7 +17617,7 @@ end A018077
 /-!
 # A018078: Powers of fourth root of 12 rounded down.
 
-The programs for A018078, the canonical program `A018078.P5495665511050030366` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018078 has offset 0).
+The programs for A018078, the canonical program `A018078.P5495665511050030366` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018078 has offset 0).
 
 The definition of A018078 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17644,7 +17626,7 @@ The definition of A018078 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(12^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018078
@@ -17754,7 +17736,7 @@ end A018078
 /-!
 # A018079: Powers of fourth root of 12 rounded to nearest integer.
 
-The programs for A018079, the canonical program `A018079.P14753023873512482232` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018079 has offset 0).
+The programs for A018079, the canonical program `A018079.P14753023873512482232` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018079 has offset 0).
 
 The definition of A018079 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 371 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17763,7 +17745,7 @@ The definition of A018079 is `conjectured`: the Lean definition is a formula tha
 
 `round(12^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018079
@@ -18015,7 +17997,7 @@ end A018080
 /-!
 # A018081: Powers of fourth root of 13 rounded down.
 
-The programs for A018081, the canonical program `A018081.P4755878940651221397` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018081 has offset 0).
+The programs for A018081, the canonical program `A018081.P4755878940651221397` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018081 has offset 0).
 
 The definition of A018081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 360 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18024,7 +18006,7 @@ The definition of A018081 is `conjectured`: the Lean definition is a formula tha
 
 `floor(13^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018081
@@ -18207,7 +18189,7 @@ end A018081
 /-!
 # A018082: Powers of fourth root of 13 rounded to nearest integer.
 
-The programs for A018082, the canonical program `A018082.P16674709508726984476` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018082 has offset 0).
+The programs for A018082, the canonical program `A018082.P16674709508726984476` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018082 has offset 0).
 
 The definition of A018082 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 360 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18216,7 +18198,7 @@ The definition of A018082 is `conjectured`: the Lean definition is a formula tha
 
 `round(13^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018082
@@ -18468,7 +18450,7 @@ end A018083
 /-!
 # A018084: Powers of fourth root of 14 rounded down.
 
-The programs for A018084, the canonical program `A018084.P17169660407450006236` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018084 has offset 0).
+The programs for A018084, the canonical program `A018084.P17169660407450006236` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018084 has offset 0).
 
 The definition of A018084 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 350 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18477,7 +18459,7 @@ The definition of A018084 is `conjectured`: the Lean definition is a formula tha
 
 `floor(14^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018084
@@ -18587,7 +18569,7 @@ end A018084
 /-!
 # A018085: Powers of fourth root of 14 rounded to nearest integer.
 
-The programs for A018085, the canonical program `A018085.P14192843371343894989` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018085 has offset 0).
+The programs for A018085, the canonical program `A018085.P14192843371343894989` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018085 has offset 0).
 
 The definition of A018085 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 350 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18596,7 +18578,7 @@ The definition of A018085 is `conjectured`: the Lean definition is a formula tha
 
 `round(14^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018085
@@ -18825,7 +18807,7 @@ end A018086
 /-!
 # A018087: Powers of fourth root of 15 rounded down.
 
-The programs for A018087, the canonical program `A018087.P17454763579600374980` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018087 has offset 0).
+The programs for A018087, the canonical program `A018087.P17454763579600374980` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018087 has offset 0).
 
 The definition of A018087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18834,7 +18816,7 @@ The definition of A018087 is `conjectured`: the Lean definition is a formula tha
 
 `floor(15^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018087
@@ -18967,7 +18949,7 @@ end A018087
 /-!
 # A018088: Powers of fourth root of 15 rounded to nearest integer.
 
-The programs for A018088, the canonical program `A018088.P18234037345618883268` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018088 has offset 0).
+The programs for A018088, the canonical program `A018088.P18234037345618883268` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018088 has offset 0).
 
 The definition of A018088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18976,7 +18958,7 @@ The definition of A018088 is `conjectured`: the Lean definition is a formula tha
 
 `round(15^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018088
@@ -19300,7 +19282,7 @@ end A018089
 /-!
 # A018090: Expansion of 1/((1-3*x)*(1-9*x)*(1-10*x)).
 
-The programs for A018090, the canonical program `A018090.P12180470080737213326` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018090 has offset 0).
+The programs for A018090, the canonical program `A018090.P12180470080737213326` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018090 has offset 0).
 
 The definition of A018090 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19309,7 +19291,7 @@ The definition of A018090 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-1)-90*a(n-2)+3^n` with `a(0)=1, a(1)=22`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018090
@@ -19437,7 +19419,7 @@ end A018090
 /-!
 # A018091: Expansion of 1/((1-3*x)*(1-9*x)*(1-11*x)).
 
-The programs for A018091, the canonical program `A018091.P3203867766343799681` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018091 has offset 0).
+The programs for A018091, the canonical program `A018091.P3203867766343799681` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018091 has offset 0).
 
 The definition of A018091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19446,7 +19428,7 @@ The definition of A018091 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-99*a(n-2)+3^n` with `a(0)=1, a(1)=23`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018091
@@ -19574,7 +19556,7 @@ end A018091
 /-!
 # A018092: Expansion of 1/((1-3*x)*(1-9*x)*(1-12*x)).
 
-The programs for A018092, the canonical program `A018092.P16612837315512449844` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018092 has offset 0).
+The programs for A018092, the canonical program `A018092.P16612837315512449844` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018092 has offset 0).
 
 The definition of A018092 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19606,7 +19588,7 @@ end A018092
 
 `24*a(n-1)-171*a(n-2)+324*a(n-3)` with `a(0)=1, a(1)=24, a(2)=405`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018092
@@ -19742,7 +19724,7 @@ end A018092
 /-!
 # A018093: Powers of fourth root of 17 rounded down.
 
-The programs for A018093, the canonical program `A018093.P14036620867546097494` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018093 has offset 0).
+The programs for A018093, the canonical program `A018093.P14036620867546097494` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018093 has offset 0).
 
 The definition of A018093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19751,7 +19733,7 @@ The definition of A018093 is `conjectured`: the Lean definition is a formula tha
 
 `floor(17^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018093
@@ -19887,7 +19869,7 @@ end A018093
 /-!
 # A018094: Powers of fourth root of 17 rounded to nearest integer.
 
-The programs for A018094, the canonical program `A018094.P7089206949465162185` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018094 has offset 0).
+The programs for A018094, the canonical program `A018094.P7089206949465162185` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018094 has offset 0).
 
 The definition of A018094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19896,7 +19878,7 @@ The definition of A018094 is `conjectured`: the Lean definition is a formula tha
 
 `round(17^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018094
@@ -20266,7 +20248,7 @@ end A018095
 /-!
 # A018096: Powers of fourth root of 18 rounded down.
 
-The programs for A018096, the canonical program `A018096.P153842857525541908` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018096 has offset 0).
+The programs for A018096, the canonical program `A018096.P153842857525541908` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018096 has offset 0).
 
 The definition of A018096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20275,7 +20257,7 @@ The definition of A018096 is `conjectured`: the Lean definition is a formula tha
 
 `floor(18^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018096
@@ -20408,7 +20390,7 @@ end A018096
 /-!
 # A018097: Powers of fourth root of 18 rounded to nearest integer.
 
-The programs for A018097, the canonical program `A018097.P8047196703899382887` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018097 has offset 0).
+The programs for A018097, the canonical program `A018097.P8047196703899382887` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018097 has offset 0).
 
 The definition of A018097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20417,7 +20399,7 @@ The definition of A018097 is `conjectured`: the Lean definition is a formula tha
 
 `round(18^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018097
@@ -20669,7 +20651,7 @@ end A018098
 /-!
 # A018099: Powers of fourth root of 19 rounded down.
 
-The programs for A018099, the canonical program `A018099.P4236248226109878105` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018099 has offset 0).
+The programs for A018099, the canonical program `A018099.P4236248226109878105` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018099 has offset 0).
 
 The definition of A018099 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 313 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20678,7 +20660,7 @@ The definition of A018099 is `conjectured`: the Lean definition is a formula tha
 
 `floor(19^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018099

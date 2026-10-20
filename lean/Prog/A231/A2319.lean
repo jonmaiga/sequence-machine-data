@@ -7,24 +7,24 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -41,7 +41,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -76,7 +76,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -1006,6 +1005,33 @@ end
 end A231916.P15634776362981340808
 
 /-!
+# A231919: a(n) = 3^n + (4^n - 3^n) * (d(n) - 3), where d(n) = A000005(n).
+
+The programs for A231919, the canonical program `A231919.P14365543587404789061` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231919 has offset 1).
+
+The definition of A231919 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+-/
+
+/-! ## A231919.P14365543587404789061
+
+`A000244(n+1)+A005061(n+1)*(A000005(n+1)-3)`
+
+The canonical program, it is in `Seq.B002.C004`.
+-/
+
+namespace A231919
+
+/-- `A000244(n+1)+A005061(n+1)*(A000005(n+1)-3)` -/
+def P14365543587404789061.Spec : Prop :=
+  ∀ n, P14365543587404789061.a n = A231919 (n + 1)
+
+theorem P14365543587404789061.correct : P14365543587404789061.Spec := by
+  intro n
+  simp only [A231919, Nat.add_sub_cancel]
+
+end A231919
+
+/-!
 # A231920: Working in base 3: a(0)=0, thereafter a(n+1) is the smallest number not already in the sequence such that the bits of a(n) and a(n+1) together can be rearranged to form a palindrome.
 
 The programs for A231920, there is no canonical definition to state claims against.
@@ -1469,25 +1495,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A231928.P17754186246117510059
-
-/-! ## A231928.P8676823460943620669
-
-`char[A265020(n)]*A228407(n)`
--/
-
-namespace A231928.P8676823460943620669
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265020 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A228407 n
-
-end
-
-end A231928.P8676823460943620669
 
 /-! ## A231928.P1646462453865358005
 
@@ -3141,7 +3148,7 @@ end A231949.P1983427756385978343
 /-!
 # A231950: Number of (n+1)X(1+1) 0..1 arrays with every element equal to some horizontal, vertical, diagonal or antidiagonal neighbor, with top left element zero.
 
-The programs for A231950, the canonical program `A231950.P8987690091065455676` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231950 has offset 1).
+The programs for A231950, the canonical program `A231950.P8987690091065455676` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231950 has offset 1).
 
 The definition of A231950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3173,7 +3180,7 @@ end A231950
 
 `4*a(n-1)-2*a(n-2)+4*a(n-3)` with `a(0)=4, a(1)=18, a(2)=64`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A231950
@@ -4912,20 +4919,20 @@ end A231967.P6971022599818692925
 The programs for A231968, there is no canonical definition to state claims against.
 -/
 
-/-! ## A231968.P13056070842703971044
+/-! ## A231968.P11534233606068320097
 
 `A023272(n+1)*(2*A023272(n+1)+1)*(4*A023272(n+1)+3)*(8*A023272(n+1)+7)`
 -/
 
-namespace A231968.P13056070842703971044
+namespace A231968.P11534233606068320097
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023272 (n + 1) * ((2 * A023272 (n + 1) + 1) * ((4 * A023272 (n + 1) + 3) * (8 * A023272 (n + 1) + 7)))
+  A023272 (n + 1) * (2 * A023272 (n + 1) + 1) * (4 * A023272 (n + 1) + 3) * (8 * A023272 (n + 1) + 7)
 
 end
 
-end A231968.P13056070842703971044
+end A231968.P11534233606068320097
 
 /-!
 # A231969: a(n) = the smallest squarefree number (A005117) with n prime factors in a 2p+1 progression.

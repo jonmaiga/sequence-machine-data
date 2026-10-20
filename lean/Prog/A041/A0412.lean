@@ -8,18 +8,18 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C018
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B002.C000
@@ -42,7 +42,6 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -53,10 +52,10 @@ import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -5463,10 +5462,29 @@ end A041286.P611061607521418873
 /-!
 # A041287: Denominators of continued fraction convergents to sqrt(156).
 
-The programs for A041287, the canonical program `A041287.P975289710968767227` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041287 has offset 0).
+The programs for A041287, the canonical program `A041287.P748369230420467140` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A041287 has offset 0).
 
-The definition of A041287 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A041287 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A041287.P748369230420467140
+
+`50*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=49, a(3)=100`
+
+The canonical program, it is in `Seq.B000.C007`.
+-/
+
+namespace A041287
+
+/-- `50*a(n-2)-a(n-4)` -/
+def P748369230420467140.Spec : Prop :=
+  ∀ n, P748369230420467140.a n = A041287 n
+
+theorem P748369230420467140.correct : P748369230420467140.Spec := by
+  intro n
+  simp only [A041287]
+
+end A041287
 
 /-! ## A041287.P12135100393322031730
 
@@ -5563,9 +5581,17 @@ end A041287
 /-! ## A041287.P975289710968767227
 
 `A041065(n)/(A000035(n)+1)`
-
-The canonical program, it is in `Seq.B001.C001`.
 -/
+
+namespace A041287.P975289710968767227
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A041065 n : ℚ) / (A000035 n + 1 : ℚ)
+
+end
+
+end A041287.P975289710968767227
 
 namespace A041287
 

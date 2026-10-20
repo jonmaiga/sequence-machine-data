@@ -2,31 +2,33 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C025
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -34,8 +36,8 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -1530,7 +1532,7 @@ end A249219.P1651062613502499289
 /-!
 # A249221: Expansion of x*(1+5*x-2*x^3)/(1-6*x^2+2*x^4).
 
-The programs for A249221, the canonical program `A249221.P1893190362601694124` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249221 has offset 1).
+The programs for A249221, the canonical program `A249221.P1893190362601694124` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249221 has offset 1).
 
 The definition of A249221 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+5x-2x^3)/(1-6x^2+2x^4))` (program `A249221.P1893190362601694124`, by `A249221.P1893190362601694124.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1539,7 +1541,7 @@ The definition of A249221 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+5x-2x^3)/(1-6x^2+2x^4))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A249221
@@ -1643,7 +1645,7 @@ end A249221
 /-!
 # A249222: Expansion of x*(1+5*x-5*x^3)/(1-6*x^2+5*x^4).
 
-The programs for A249222, the canonical program `A249222.P12469744307020110175` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249222 has offset 1).
+The programs for A249222, the canonical program `A249222.P12469744307020110175` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249222 has offset 1).
 
 The definition of A249222 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+5x-5x^3)/(1-6x^2+5x^4))` (program `A249222.P12469744307020110175`, by `A249222.P12469744307020110175.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1652,7 +1654,7 @@ The definition of A249222 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+5x-5x^3)/(1-6x^2+5x^4))`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A249222
@@ -1687,39 +1689,6 @@ namespace A249222
 /-- `6*a(n-2)-5*a(n-4)` -/
 def P14356600746983245691.Spec : Prop :=
   ∀ n, P14356600746983245691.a n = A249222 (n + 1)
-
-end A249222
-
-/-! ## A249222.P8260065113738854735
-
-`∪[5^(n+1), ∑[5^n]]`
--/
-
-namespace A249222.P8260065113738854735
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 ^ (n + 1)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 ^ n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f3 j
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
-
-end
-
-end A249222.P8260065113738854735
-
-namespace A249222
-
-/-- `∪[5^(n+1), ∑[5^n]]` -/
-def P8260065113738854735.Spec : Prop :=
-  ∀ n, (P8260065113738854735.a n : ℤ) = A249222 (n + 1)
 
 end A249222
 
@@ -1815,6 +1784,39 @@ namespace A249222
 /-- `floor(A056451(n+1)/ratio[A056450(n)])` -/
 def P11661911698242022891.Spec : Prop :=
   ∀ n, P11661911698242022891.a n = A249222 (n + 1)
+
+end A249222
+
+/-! ## A249222.P8260065113738854735
+
+`∪[5^(n+1), ∑[5^n]]`
+-/
+
+namespace A249222.P8260065113738854735
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5 ^ (n + 1)
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5 ^ n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
+
+end
+
+end A249222.P8260065113738854735
+
+namespace A249222
+
+/-- `∪[5^(n+1), ∑[5^n]]` -/
+def P8260065113738854735.Spec : Prop :=
+  ∀ n, (P8260065113738854735.a n : ℤ) = A249222 (n + 1)
 
 end A249222
 
@@ -1969,20 +1971,20 @@ end A249223.P5993206516583366937
 The programs for A249224, there is no canonical definition to state claims against.
 -/
 
-/-! ## A249224.P4382082815949140729
+/-! ## A249224.P11735330604214829012
 
 `A020639((n+1)*(n+12)/2)`
 -/
 
-namespace A249224.P4382082815949140729
+namespace A249224.P11735330604214829012
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (SequenceMachineLib.roundAway ((n + 1 : ℚ) * ((n + 12 : ℚ) / 2))).toNat
+  A020639 (SequenceMachineLib.roundAway (((n + 1) * (n + 12) : ℚ) / 2)).toNat
 
 end
 
-end A249224.P4382082815949140729
+end A249224.P11735330604214829012
 
 /-! ## A249224.P3000285057208926905
 
@@ -2254,7 +2256,7 @@ end A249226.P810186972298293829
 /-!
 # A249227: Number of length n+5 0..2 arrays with no six consecutive terms having two times the sum of any two elements equal to the sum of the remaining four.
 
-The programs for A249227, the canonical program `A249227.P164281632648431121` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249227 has offset 1).
+The programs for A249227, the canonical program `A249227.P164281632648431121` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249227 has offset 1).
 
 The definition of A249227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2263,7 +2265,7 @@ The definition of A249227 is `conjectured`: the Lean definition is a formula tha
 
 `18*27*2^n`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A249227
@@ -4552,25 +4554,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A249247.P11920714463494053875
-
-/-! ## A249247.P2103109960998364965
-
-`A155856(comp[A190744(3*n+5)-A001597(2*n+3)])`
--/
-
-namespace A249247.P2103109960998364965
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A190744 (3 * n + 5) - A001597 (2 * n + 3)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155856 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A249247.P2103109960998364965
 
 /-!
 # A249249: Total number of occurrences of the consecutive step pattern given by the binary expansion of n (where 1=up and 0=down) in all permutations of [n].

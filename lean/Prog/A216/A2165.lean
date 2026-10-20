@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -16,8 +15,9 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -27,10 +27,11 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,7 +51,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -85,7 +85,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -1971,7 +1970,7 @@ end A216521.P239362115531848284
 /-!
 # A216522: Integers of the form 2*x + 3*y with nonnegative x and y, with repetitions.
 
-The programs for A216522, the canonical program `A216522.P3465743372947743099` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216522 has offset 0).
+The programs for A216522, the canonical program `A216522.P3465743372947743099` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216522 has offset 0).
 
 The definition of A216522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1980,7 +1979,7 @@ The definition of A216522 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(12*n+4))-2`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A216522
@@ -2889,50 +2888,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A216527.P16944009197439160246
-
-/-! ## A216527.P17731749292987925899
-
-`∩[A007775(n+1), A216525(n+1)]`
--/
-
-namespace A216527.P17731749292987925899
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007775 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216525 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216527.P17731749292987925899
-
-/-! ## A216527.P3909203771729532075
-
-`∩[A093893(n+1), A216525(n+1)]`
--/
-
-namespace A216527.P3909203771729532075
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093893 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216525 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216527.P3909203771729532075
 
 /-!
 # A216531: Numbers n such that (10^n + 1)/11 is prime and can be written in the form a^2 + 7*b^2.
@@ -4897,27 +4852,6 @@ end
 
 end A216560.P1123987430651204811
 
-/-! ## A216560.P14541523779381474084
-
-`A216570(lt[A247442(n+2), A247420(n+1)])`
--/
-
-namespace A216560.P14541523779381474084
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247442 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247420 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216570 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A216560.P14541523779381474084
-
 /-! ## A216560.P17717694053599139884
 
 `∩[A040102(n+1), A152012(n+1)]`
@@ -4940,27 +4874,26 @@ end
 
 end A216560.P17717694053599139884
 
-/-! ## A216560.P5200112529707745412
+/-! ## A216560.P14541523779381474084
 
-`∩[A045318(n+1), A152012(n+1)]`
+`A216570(lt[A247442(n+2), A247420(n+1)])`
 -/
 
-namespace A216560.P5200112529707745412
+namespace A216560.P14541523779381474084
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045318 (n + 1)
+  A247442 (n + 2)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152012 (n + 1)
+  A247420 (n + 1)
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216570 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
 
 end
 
-end A216560.P5200112529707745412
+end A216560.P14541523779381474084
 
 /-!
 # A216561: Numbers n such that the n-th Fibonacci number is prime, but cannot be written in the form a^2 + 5*b^2.
@@ -4989,6 +4922,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A216561.P12066962695059589646
+
+/-! ## A216561.P15452699842210277154
+
+`∩[A072556(n+1), A075776(n+1)]`
+-/
+
+namespace A216561.P15452699842210277154
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072556 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075776 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216561.P15452699842210277154
 
 /-! ## A216561.P10150959597378891243
 
@@ -5050,28 +5005,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A216561.P10110132585393438851
-
-/-! ## A216561.P15452699842210277154
-
-`∩[A072556(n+1), A075776(n+1)]`
--/
-
-namespace A216561.P15452699842210277154
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072556 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075776 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216561.P15452699842210277154
 
 /-!
 # A216562: Numbers n such that the n-th Lucas number is prime and can be written in the form a^2 + 2*b^2.
@@ -5349,49 +5282,6 @@ end A216566.P17854169515661088972
 The programs for A216567, there is no canonical definition to state claims against.
 -/
 
-/-! ## A216567.P14646572896758123681
-
-`eq[A010892(n), A086599(n)]`
--/
-
-namespace A216567.P14646572896758123681
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010892 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086599 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A216567.P14646572896758123681
-
-/-! ## A216567.P5782708816465537470
-
-`∩[A001606(n+1), A124130(n+1)]`
--/
-
-namespace A216567.P5782708816465537470
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001606 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124130 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216567.P5782708816465537470
-
 /-! ## A216567.P4747202673753853906
 
 `∩[A001606(n+1), A034017(n+1)]`
@@ -5435,6 +5325,49 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A216567.P506935852921661014
+
+/-! ## A216567.P14646572896758123681
+
+`eq[A010892(n), A086599(n)]`
+-/
+
+namespace A216567.P14646572896758123681
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010892 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086599 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A216567.P14646572896758123681
+
+/-! ## A216567.P5782708816465537470
+
+`∩[A001606(n+1), A124130(n+1)]`
+-/
+
+namespace A216567.P5782708816465537470
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001606 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124130 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216567.P5782708816465537470
 
 /-!
 # A216568: Smallest k such that prime(n)*k-1 is prime.
@@ -7309,7 +7242,7 @@ end A216583.P4326854272034857320
 /-!
 # A216584: a(n) = A002426(n)*A000984(n); product of central trinomial coefficients and central binomial coefficients.
 
-The programs for A216584, the canonical program `A216584.P10493900783905801092` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216584 has offset 0).
+The programs for A216584, the canonical program `A216584.P10493900783905801092` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216584 has offset 0).
 
 The definition of A216584 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7318,7 +7251,7 @@ The definition of A216584 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002426(n)*A000984(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A216584
@@ -7734,25 +7667,6 @@ end
 
 end A216589.P15621065811108986385
 
-/-! ## A216589.P14635218501356994947
-
-`comp[A053392(A051022(n)+10)]`
--/
-
-namespace A216589.P14635218501356994947
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053392 (A051022 n + 10).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A216589.P14635218501356994947
-
 /-! ## A216589.P9760377408745417718
 
 `A352464(n+10)%A110804(n+1)`
@@ -7807,33 +7721,24 @@ end
 
 end A216589.P17339626547816831149
 
-/-!
-# A216590: Primes p with property that there exists a number d>0 such that numbers p-k*d, k=1...7, are seven primes.
+/-! ## A216589.P14635218501356994947
 
-The programs for A216590, there is no canonical definition to state claims against.
+`comp[A053392(A051022(n)+10)]`
 -/
 
-/-! ## A216590.P17061905591903468837
-
-`∩[A216468(n+1), A216468(A226808(n+3))]`
--/
-
-namespace A216590.P17061905591903468837
+namespace A216589.P14635218501356994947
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216468 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216468 (A226808 (n + 3)).toNat
+  A053392 (A051022 n + 10).toNat
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A216590.P17061905591903468837
+end A216589.P14635218501356994947
 
 /-!
 # A216595: Number of distinct connected planar figures that can be formed from 1 X 2 rectangles (or dominoes) such that each pair of touching rectangles shares exactly one edge, of length 1.

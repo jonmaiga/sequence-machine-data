@@ -16,21 +16,20 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,6 +41,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
@@ -1023,7 +1023,7 @@ end A347615.P5767809606242396033
 /-!
 # A347616: a(n) = Sum_{k=1..n} k^Omega(k).
 
-The programs for A347616, the canonical program `A347616.P15670111867370556904` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347616 has offset 1).
+The programs for A347616, the canonical program `A347616.P15670111867370556904` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347616 has offset 1).
 
 The definition of A347616 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1061,7 +1061,7 @@ end A347616
 
 `∑[∏{e}[n+1, (n+1)^#]]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A347616
@@ -2322,7 +2322,7 @@ end A347628.P13062236329550981321
 /-!
 # A347629: Number of minimum dominating sets in the n-pan graph (for n > 2).
 
-The programs for A347629, the canonical program `A347629.P15522527695085579299` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347629 has offset 1).
+The programs for A347629, the canonical program `A347629.P15522527695085579299` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347629 has offset 1).
 
 The definition of A347629 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2331,7 +2331,7 @@ The definition of A347629 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)-3*a(n-6)+a(n-9)` with `a(0)=2, a(1)=1, a(2)=1, a(3)=4, a(4)=2, a(5)=1, a(6)=7, a(7)=3, a(8)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A347629
@@ -2684,7 +2684,7 @@ end A347632.P8044640633107718363
 /-!
 # A347633: Number of minimum dominating sets in the path graph P_n.
 
-The programs for A347633, the canonical program `A347633.P9187570170048257440` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347633 has offset 1).
+The programs for A347633, the canonical program `A347633.P9187570170048257440` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347633 has offset 1).
 
 The definition of A347633 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2693,7 +2693,7 @@ The definition of A347633 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)-3*a(n-6)+a(n-9)` with `a(0)=1, a(1)=2, a(2)=1, a(3)=4, a(4)=3, a(5)=1, a(6)=8, a(7)=4, a(8)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A347633
@@ -2963,113 +2963,9 @@ def P2438935014774493010.Spec : Prop :=
 end A347633
 
 /-!
-# A347635: Given n equally spaced points on the circumference of a circle, a(n) is the maximum number of those points that can be chosen so that the lengths of the line segments drawn connecting those a(n) points as vertices are all different.
-
-The programs for A347635, there is no canonical definition to state claims against.
--/
-
-/-! ## A347635.P17811565768402635654
-
-`floor(sqrt(comp[A061342(n+1)]))`
--/
-
-namespace A347635.P17811565768402635654
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061342 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.sqrt (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A347635.P17811565768402635654
-
-/-! ## A347635.P10704735425087404099
-
-`A000196(comp[A109649(∑[n])])`
--/
-
-namespace A347635.P10704735425087404099
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109649 (∑ j ∈ Finset.range (n + 1), f2 j)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A347635.P10704735425087404099
-
-/-! ## A347635.P18177390113416374113
-
-`A000196(comp[A061342(n+1)])`
--/
-
-namespace A347635.P18177390113416374113
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061342 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A347635.P18177390113416374113
-
-/-! ## A347635.P964599966323115488
-
-`A000196(comp[A317791(62*n²+1)])`
--/
-
-namespace A347635.P964599966323115488
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317791 (62 * n ^ 2 + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A347635.P964599966323115488
-
-/-! ## A347635.P8849228392830497378
-
-`A000196(comp[A341607(2^val(n+1, 2))])`
--/
-
-namespace A347635.P8849228392830497378
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341607 (2 ^ SequenceMachineLib.valuation (n + 1) 2)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A347635.P8849228392830497378
-
-/-!
 # A347638: Number of minimal dominating sets in the n-dipyramidal graph (for n > 3).
 
-The programs for A347638, the canonical program `A347638.P2564707530814494524` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347638 has offset 1).
+The programs for A347638, the canonical program `A347638.P2564707530814494524` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347638 has offset 1).
 
 The definition of A347638 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3078,7 +2974,7 @@ The definition of A347638 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)-a(n-5)+2*a(n-7)-a(n-8)` with `a(0)=3, a(1)=7, a(2)=10, a(3)=15, a(4)=16, a(5)=18, a(6)=29, a(7)=31`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A347638
@@ -6706,6 +6602,8 @@ The programs for A347686, there is no canonical definition to state claims again
 /-! ## A347686.P9755934758819185354
 
 `(n+1)!-A345882(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A347686.P9755934758819185354

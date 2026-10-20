@@ -1,42 +1,6 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.Opaque.C011
-
-/-!
-# A170628: 
-
-The programs for A170628, there is no canonical definition to state claims against.
--/
-
-/-! ## A170628.P13082794682105832083
-
-`ogf((1+x)/(1-42x))`
--/
-
-namespace A170628.P13082794682105832083
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 1] [1, -42] n
-
-end
-
-end A170628.P13082794682105832083
-
-/-! ## A170628.P12334992548760741891
-
-`42*a(n-1)` with `a(0)=1, a(1)=43`
--/
-
-namespace A170628.P12334992548760741891
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 43] fun n a =>
-  42 * a (n - 1)
-
-end
-
-end A170628.P12334992548760741891
 
 /-!
 # A170636: 

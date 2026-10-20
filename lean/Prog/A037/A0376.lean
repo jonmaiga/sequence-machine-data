@@ -22,18 +22,20 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
@@ -471,7 +473,7 @@ end A037600
 /-!
 # A037601: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0.
 
-The programs for A037601, the canonical program `A037601.P478568719940207731` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037601 has offset 1).
+The programs for A037601, the canonical program `A037601.P478568719940207731` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037601 has offset 1).
 
 The definition of A037601 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -503,7 +505,7 @@ end A037601
 
 `xor(2, 8*a(n-1)-(1-n)%3+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037601
@@ -1107,7 +1109,7 @@ end A037603
 /-!
 # A037604: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3.
 
-The programs for A037604, the canonical program `A037604.P9552812687882311232` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037604 has offset 1).
+The programs for A037604, the canonical program `A037604.P9552812687882311232` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037604 has offset 1).
 
 The definition of A037604 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1116,7 +1118,7 @@ The definition of A037604 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=6, a(2)=27, a(3)=109`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037604
@@ -1595,7 +1597,7 @@ end A037604
 /-!
 # A037605: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3.
 
-The programs for A037605, the canonical program `A037605.P8447811669916736584` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037605 has offset 1).
+The programs for A037605, the canonical program `A037605.P8447811669916736584` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037605 has offset 1).
 
 The definition of A037605 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1627,7 +1629,7 @@ end A037605
 
 `5*a(n-1)+n%3+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037605
@@ -1809,7 +1811,7 @@ end A037605
 /-!
 # A037606: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3.
 
-The programs for A037606, the canonical program `A037606.P6950765051620298847` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037606 has offset 1).
+The programs for A037606, the canonical program `A037606.P6950765051620298847` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037606 has offset 1).
 
 The definition of A037606 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1841,7 +1843,7 @@ end A037606
 
 `6*a(n-1)+1--n%3` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037606
@@ -2243,7 +2245,7 @@ end A037607
 /-!
 # A037608: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3.
 
-The programs for A037608, the canonical program `A037608.P3172134688616158549` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037608 has offset 1).
+The programs for A037608, the canonical program `A037608.P3172134688616158549` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037608 has offset 1).
 
 The definition of A037608 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2252,7 +2254,7 @@ The definition of A037608 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)+a(n-3)-8*a(n-4)` with `a(0)=1, a(1)=10, a(2)=83, a(3)=665`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037608
@@ -2864,7 +2866,7 @@ end A037609
 /-!
 # A037610: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 1,2,3.
 
-The programs for A037610, the canonical program `A037610.P18057771962140916572` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037610 has offset 1).
+The programs for A037610, the canonical program `A037610.P18057771962140916572` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037610 has offset 1).
 
 The definition of A037610 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2873,7 +2875,7 @@ The definition of A037610 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(41/333*10^(n+1))`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037610
@@ -3087,7 +3089,7 @@ end A037610
 /-!
 # A037611: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2.
 
-The programs for A037611, the canonical program `A037611.P10226676681078345726` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037611 has offset 1).
+The programs for A037611, the canonical program `A037611.P10226676681078345726` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037611 has offset 1).
 
 The definition of A037611 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3119,7 +3121,7 @@ end A037611
 
 `or(4*a(n-1), dr(3*n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037611
@@ -3578,7 +3580,7 @@ end A037611
 /-!
 # A037612: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2.
 
-The programs for A037612, the canonical program `A037612.P15379460889894354523` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037612 has offset 1).
+The programs for A037612, the canonical program `A037612.P15379460889894354523` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037612 has offset 1).
 
 The definition of A037612 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3610,7 +3612,7 @@ end A037612
 
 `5*a(n-1)+3-(n-1)%3` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037612
@@ -4246,7 +4248,7 @@ end A037614
 /-!
 # A037615: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2.
 
-The programs for A037615, the canonical program `A037615.P7177393196109911626` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037615 has offset 1).
+The programs for A037615, the canonical program `A037615.P7177393196109911626` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037615 has offset 1).
 
 The definition of A037615 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4278,7 +4280,7 @@ end A037615
 
 `xor(3, 8*a(n-1)-(1-n)%3)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037615
@@ -4506,7 +4508,7 @@ end A037615
 /-!
 # A037616: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2.
 
-The programs for A037616, the canonical program `A037616.P2789638312819498099` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037616 has offset 1).
+The programs for A037616, the canonical program `A037616.P2789638312819498099` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037616 has offset 1).
 
 The definition of A037616 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4515,7 +4517,7 @@ The definition of A037616 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*a(n-1)+a(n-3)-9*a(n-4)` with `a(0)=1, a(1)=12, a(2)=110, a(3)=991`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037616
@@ -4877,7 +4879,7 @@ end A037617
 /-!
 # A037618: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,3.
 
-The programs for A037618, the canonical program `A037618.P7225440960202106372` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037618 has offset 1).
+The programs for A037618, the canonical program `A037618.P7225440960202106372` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037618 has offset 1).
 
 The definition of A037618 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4886,7 +4888,7 @@ The definition of A037618 is `conjectured`: the Lean definition is a formula tha
 
 `round(5/3*∑[4^n])`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037618
@@ -6487,7 +6489,7 @@ end A037624
 /-!
 # A037625: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0.
 
-The programs for A037625, the canonical program `A037625.P3489549200557216245` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037625 has offset 1).
+The programs for A037625, the canonical program `A037625.P3489549200557216245` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037625 has offset 1).
 
 The definition of A037625 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6519,7 +6521,7 @@ end A037625
 
 `xor(2*(2*a(n-1)+1), n%3)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037625
@@ -7812,7 +7814,7 @@ end A037628
 /-!
 # A037629: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,0.
 
-The programs for A037629, the canonical program `A037629.P13910407384209085798` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037629 has offset 1).
+The programs for A037629, the canonical program `A037629.P13910407384209085798` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037629 has offset 1).
 
 The definition of A037629 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7844,7 +7846,7 @@ end A037629
 
 `xor(8*a(n-1)+2-n²%3, (2*n)%3)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037629
@@ -8666,7 +8668,7 @@ end A037630
 /-!
 # A037631: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,3,0.
 
-The programs for A037631, the canonical program `A037631.P8282552389647622044` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037631 has offset 1).
+The programs for A037631, the canonical program `A037631.P8282552389647622044` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037631 has offset 1).
 
 The definition of A037631 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8698,7 +8700,7 @@ end A037631
 
 `xor(2, n%3)+10*a(n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037631
@@ -8811,7 +8813,7 @@ end A037631
 /-!
 # A037632: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3.
 
-The programs for A037632, the canonical program `A037632.P15028626328816743045` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037632 has offset 1).
+The programs for A037632, the canonical program `A037632.P15028626328816743045` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037632 has offset 1).
 
 The definition of A037632 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8820,7 +8822,7 @@ The definition of A037632 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+a(n-3)-4*a(n-4)` with `a(0)=2, a(1)=9, a(2)=39, a(3)=158`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037632
@@ -9293,7 +9295,7 @@ end A037632
 /-!
 # A037633: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3.
 
-The programs for A037633, the canonical program `A037633.P2248933226734604356` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037633 has offset 1).
+The programs for A037633, the canonical program `A037633.P2248933226734604356` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037633 has offset 1).
 
 The definition of A037633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9325,7 +9327,7 @@ end A037633
 
 `5*a(n-1)+3-(n+1)%3` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037633
@@ -9655,7 +9657,7 @@ end A037634
 /-!
 # A037635: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3.
 
-The programs for A037635, the canonical program `A037635.P9359658036191781758` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037635 has offset 1).
+The programs for A037635, the canonical program `A037635.P9359658036191781758` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037635 has offset 1).
 
 The definition of A037635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9687,7 +9689,7 @@ end A037635
 
 `xor(3, (n+1)%3+8*a(n-1))-a(n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037635
@@ -9872,7 +9874,7 @@ end A037635
 /-!
 # A037636: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3.
 
-The programs for A037636, the canonical program `A037636.P1889350488178368916` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037636 has offset 1).
+The programs for A037636, the canonical program `A037636.P1889350488178368916` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037636 has offset 1).
 
 The definition of A037636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9904,7 +9906,7 @@ end A037636
 
 `xor(3, (n+1)%3+8*a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037636
@@ -10155,7 +10157,7 @@ end A037636
 /-!
 # A037637: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,3.
 
-The programs for A037637, the canonical program `A037637.P7276121262270544448` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037637 has offset 1).
+The programs for A037637, the canonical program `A037637.P7276121262270544448` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037637 has offset 1).
 
 The definition of A037637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10187,7 +10189,7 @@ end A037637
 
 `a(n-1)+xor(3, (n+1)%3+8*a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037637
@@ -10498,7 +10500,7 @@ end A037638
 /-!
 # A037639: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1.
 
-The programs for A037639, the canonical program `A037639.P8185927116418185793` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037639 has offset 1).
+The programs for A037639, the canonical program `A037639.P8185927116418185793` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037639 has offset 1).
 
 The definition of A037639 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10507,7 +10509,7 @@ The definition of A037639 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+a(n-3)-4*a(n-4)` with `a(0)=2, a(1)=11, a(2)=45, a(3)=182`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037639
@@ -10977,7 +10979,7 @@ end A037639
 /-!
 # A037640: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1.
 
-The programs for A037640, the canonical program `A037640.P8676259652554583598` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037640 has offset 1).
+The programs for A037640, the canonical program `A037640.P8676259652554583598` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037640 has offset 1).
 
 The definition of A037640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11009,7 +11011,7 @@ end A037640
 
 `5*a(n-1)+(n+1)%3+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037640
@@ -11353,7 +11355,7 @@ end A037641
 /-!
 # A037642: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1.
 
-The programs for A037642, the canonical program `A037642.P6377176343451741549` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037642 has offset 1).
+The programs for A037642, the canonical program `A037642.P6377176343451741549` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037642 has offset 1).
 
 The definition of A037642 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11385,7 +11387,7 @@ end A037642
 
 `(n+1)%3+7*a(n-1)+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037642
@@ -11665,7 +11667,7 @@ end A037642
 /-!
 # A037643: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1.
 
-The programs for A037643, the canonical program `A037643.P9311204941093430127` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037643 has offset 1).
+The programs for A037643, the canonical program `A037643.P9311204941093430127` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037643 has offset 1).
 
 The definition of A037643 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11697,7 +11699,7 @@ end A037643
 
 `(n+1)%3+8*a(n-1)+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037643
@@ -11925,7 +11927,7 @@ end A037643
 /-!
 # A037644: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1.
 
-The programs for A037644, the canonical program `A037644.P18169131705346232968` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037644 has offset 1).
+The programs for A037644, the canonical program `A037644.P18169131705346232968` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037644 has offset 1).
 
 The definition of A037644 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11957,7 +11959,7 @@ end A037644
 
 `(n+1)%3+9*a(n-1)+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037644
@@ -12116,7 +12118,7 @@ end A037644
 /-!
 # A037645: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,3,1.
 
-The programs for A037645, the canonical program `A037645.P7062246738727833335` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037645 has offset 1).
+The programs for A037645, the canonical program `A037645.P7062246738727833335` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037645 has offset 1).
 
 The definition of A037645 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12148,7 +12150,7 @@ end A037645
 
 `(n+1)%3+10*a(n-1)+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037645
@@ -12235,7 +12237,7 @@ end A037645
 /-!
 # A037646: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,1.
 
-The programs for A037646, the canonical program `A037646.P5535459887030610652` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037646 has offset 1).
+The programs for A037646, the canonical program `A037646.P5535459887030610652` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037646 has offset 1).
 
 The definition of A037646 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12244,7 +12246,7 @@ The definition of A037646 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(7/3*∑[4^n])`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037646
@@ -12712,7 +12714,7 @@ end A037646
 /-!
 # A037647: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,1.
 
-The programs for A037647, the canonical program `A037647.P4263462015147500010` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037647 has offset 1).
+The programs for A037647, the canonical program `A037647.P4263462015147500010` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037647 has offset 1).
 
 The definition of A037647 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12744,7 +12746,7 @@ end A037647
 
 `gcd(4, n%3)-(1-5*a(n-1))` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037647
@@ -13088,7 +13090,7 @@ end A037648
 /-!
 # A037649: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,1.
 
-The programs for A037649, the canonical program `A037649.P13263363897181959732` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037649 has offset 1).
+The programs for A037649, the canonical program `A037649.P13263363897181959732` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037649 has offset 1).
 
 The definition of A037649 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13097,7 +13099,7 @@ The definition of A037649 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(74*7^(n+1)/171)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037649
@@ -13891,7 +13893,7 @@ end A037651
 /-!
 # A037652: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 3,0,1.
 
-The programs for A037652, the canonical program `A037652.P15871230901910890562` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037652 has offset 1).
+The programs for A037652, the canonical program `A037652.P15871230901910890562` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037652 has offset 1).
 
 The definition of A037652 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13900,7 +13902,7 @@ The definition of A037652 is `conjectured`: the Lean definition is a formula tha
 
 `char[3*n]+5*a(n-1)+(n-1)%3+5*a(n-1)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037652
@@ -15079,7 +15081,7 @@ end A037656
 /-!
 # A037657: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,2.
 
-The programs for A037657, the canonical program `A037657.P11691003737513348901` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037657 has offset 1).
+The programs for A037657, the canonical program `A037657.P11691003737513348901` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037657 has offset 1).
 
 The definition of A037657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15088,7 +15090,7 @@ The definition of A037657 is `conjectured`: the Lean definition is a formula tha
 
 `xor(2, (n+1)%3+8*a(n-1))` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037657
@@ -15628,7 +15630,7 @@ end A037658
 /-!
 # A037659: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 3,0,2.
 
-The programs for A037659, the canonical program `A037659.P14837718224344973064` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037659 has offset 1).
+The programs for A037659, the canonical program `A037659.P14837718224344973064` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037659 has offset 1).
 
 The definition of A037659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15664,7 +15666,7 @@ end A037659
 
 `or(2, a(n-1)+9*a(n-1)+2-(n+1)%3)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037659
@@ -15757,7 +15759,7 @@ end A037659
 /-!
 # A037660: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 3,1,0.
 
-The programs for A037660, the canonical program `A037660.P13941213720165980682` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037660 has offset 1).
+The programs for A037660, the canonical program `A037660.P13941213720165980682` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037660 has offset 1).
 
 The definition of A037660 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15766,7 +15768,7 @@ The definition of A037660 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)+a(n-3)-4*a(n-4)` with `a(0)=3, a(1)=13, a(2)=52, a(3)=211`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037660
@@ -16224,7 +16226,7 @@ end A037660
 /-!
 # A037661: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 3,1,0.
 
-The programs for A037661, the canonical program `A037661.P2623140632495811862` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037661 has offset 1).
+The programs for A037661, the canonical program `A037661.P2623140632495811862` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037661 has offset 1).
 
 The definition of A037661 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16233,7 +16235,7 @@ The definition of A037661 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)+a(n-3)-5*a(n-4)` with `a(0)=3, a(1)=16, a(2)=80, a(3)=403`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037661
@@ -16964,7 +16966,7 @@ end A037663
 /-!
 # A037664: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 3,1,0.
 
-The programs for A037664, the canonical program `A037664.P12011888614752622125` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037664 has offset 1).
+The programs for A037664, the canonical program `A037664.P12011888614752622125` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037664 has offset 1).
 
 The definition of A037664 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16996,7 +16998,7 @@ end A037664
 
 `xor(1, 8*a(n-1)-(1-n)%3)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037664
@@ -17873,7 +17875,7 @@ end A037665
 /-!
 # A037666: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 3,1,0.
 
-The programs for A037666, the canonical program `A037666.P3152033718375423894` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037666 has offset 1).
+The programs for A037666, the canonical program `A037666.P3152033718375423894` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037666 has offset 1).
 
 The definition of A037666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17905,7 +17907,7 @@ end A037666
 
 `or(2, or(10*a(n-1), dr(3*n)))` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037666
@@ -18021,7 +18023,7 @@ end A037666
 /-!
 # A037667: Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 3,2,0.
 
-The programs for A037667, the canonical program `A037667.P15861966374494071556` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037667 has offset 1).
+The programs for A037667, the canonical program `A037667.P15861966374494071556` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037667 has offset 1).
 
 The definition of A037667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18030,7 +18032,7 @@ The definition of A037667 is `conjectured`: the Lean definition is a formula tha
 
 `floor(32*4^n/9)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037667
@@ -19029,7 +19031,7 @@ end A037669
 /-!
 # A037670: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 3,2,0.
 
-The programs for A037670, the canonical program `A037670.P10481012056122873768` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037670 has offset 1).
+The programs for A037670, the canonical program `A037670.P10481012056122873768` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037670 has offset 1).
 
 The definition of A037670 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19038,7 +19040,7 @@ The definition of A037670 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(161*7^(n+1)/342)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037670
@@ -19315,7 +19317,7 @@ end A037670
 /-!
 # A037671: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 3,2,0.
 
-The programs for A037671, the canonical program `A037671.P205215305874122641` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037671 has offset 1).
+The programs for A037671, the canonical program `A037671.P205215305874122641` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037671 has offset 1).
 
 The definition of A037671 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19324,7 +19326,7 @@ The definition of A037671 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(208*8^(n+1)/511)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037671
@@ -20115,7 +20117,7 @@ end A037673
 /-!
 # A037674: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2,3.
 
-The programs for A037674, the canonical program `A037674.P130980568173129161` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037674 has offset 1).
+The programs for A037674, the canonical program `A037674.P130980568173129161` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037674 has offset 1).
 
 The definition of A037674 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20124,7 +20126,7 @@ The definition of A037674 is `conjectured`: the Lean definition is a formula tha
 
 `floor(5*4^(n+1)/17)`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037674
@@ -20372,7 +20374,7 @@ end A037674
 /-!
 # A037675: Base-5 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2,3.
 
-The programs for A037675, the canonical program `A037675.P13074106034015113982` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037675 has offset 1).
+The programs for A037675, the canonical program `A037675.P13074106034015113982` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037675 has offset 1).
 
 The definition of A037675 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20404,7 +20406,7 @@ end A037675
 
 `∑[xor(5*a(n-1), gcd(2, n))]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037675
@@ -20674,7 +20676,7 @@ end A037676
 /-!
 # A037677: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2,3.
 
-The programs for A037677, the canonical program `A037677.P748078075638042481` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037677 has offset 1).
+The programs for A037677, the canonical program `A037677.P748078075638042481` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037677 has offset 1).
 
 The definition of A037677 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20683,7 +20685,7 @@ The definition of A037677 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)-8*a(n-2)+8*a(n-3)-7*a(n-4)` with `a(0)=1, a(1)=7, a(2)=51, a(3)=360`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037677
@@ -20964,7 +20966,7 @@ end A037678
 /-!
 # A037679: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,2,3.
 
-The programs for A037679, the canonical program `A037679.P16565271596860764363` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037679 has offset 1).
+The programs for A037679, the canonical program `A037679.P16565271596860764363` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037679 has offset 1).
 
 The definition of A037679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20973,7 +20975,7 @@ The definition of A037679 is `conjectured`: the Lean definition is a formula tha
 
 `∑[xor(9*a(n-1), gcd(2, n))]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037679
@@ -21191,7 +21193,7 @@ end A037680
 /-!
 # A037681: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3,2.
 
-The programs for A037681, the canonical program `A037681.P14844236043975556058` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037681 has offset 1).
+The programs for A037681, the canonical program `A037681.P14844236043975556058` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037681 has offset 1).
 
 The definition of A037681 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21223,7 +21225,7 @@ end A037681
 
 `and(3, 1-n)+4*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037681
@@ -21494,7 +21496,7 @@ end A037681
 /-!
 # A037682: Base-5 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3,2.
 
-The programs for A037682, the canonical program `A037682.P7397137621328689751` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037682 has offset 1).
+The programs for A037682, the canonical program `A037682.P7397137621328689751` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037682 has offset 1).
 
 The definition of A037682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21503,7 +21505,7 @@ The definition of A037682 is `conjectured`: the Lean definition is a formula tha
 
 `∑[5*a(n-1)-(1-and(4, n²))]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037682
@@ -21642,7 +21644,7 @@ end A037682
 /-!
 # A037683: Base-6 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3,2.
 
-The programs for A037683, the canonical program `A037683.P2203083503947360209` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037683 has offset 1).
+The programs for A037683, the canonical program `A037683.P2203083503947360209` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037683 has offset 1).
 
 The definition of A037683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21651,7 +21653,7 @@ The definition of A037683 is `conjectured`: the Lean definition is a formula tha
 
 `and(3, 1-n)+6*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037683
@@ -21909,7 +21911,7 @@ end A037684
 /-!
 # A037685: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3,2.
 
-The programs for A037685, the canonical program `A037685.P15733559239927117828` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037685 has offset 1).
+The programs for A037685, the canonical program `A037685.P15733559239927117828` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037685 has offset 1).
 
 The definition of A037685 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21918,7 +21920,7 @@ The definition of A037685 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+or(3, 7*a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037685
@@ -22103,7 +22105,7 @@ end A037685
 /-!
 # A037686: Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3,2.
 
-The programs for A037686, the canonical program `A037686.P2747248462982251601` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037686 has offset 1).
+The programs for A037686, the canonical program `A037686.P2747248462982251601` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037686 has offset 1).
 
 The definition of A037686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22112,7 +22114,7 @@ The definition of A037686 is `conjectured`: the Lean definition is a formula tha
 
 `and(3, 1-n)+9*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037686
@@ -22245,7 +22247,7 @@ end A037686
 /-!
 # A037687: Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 1,0,3,2.
 
-The programs for A037687, the canonical program `A037687.P5949606701607296405` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037687 has offset 1).
+The programs for A037687, the canonical program `A037687.P5949606701607296405` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037687 has offset 1).
 
 The definition of A037687 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22254,7 +22256,7 @@ The definition of A037687 is `conjectured`: the Lean definition is a formula tha
 
 `and(3, 1-n)+10*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037687
@@ -23461,7 +23463,7 @@ end A037694.P935761364351364505
 /-!
 # A037695: Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037695, the canonical program `A037695.P1505977341628650606` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037695 has offset 1).
+The programs for A037695, the canonical program `A037695.P1505977341628650606` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037695 has offset 1).
 
 The definition of A037695 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23493,7 +23495,7 @@ end A037695
 
 `(n+1)%4+4*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037695
@@ -23790,7 +23792,7 @@ end A037695
 /-!
 # A037696: Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037696, the canonical program `A037696.P7838453811284979200` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037696 has offset 1).
+The programs for A037696, the canonical program `A037696.P7838453811284979200` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037696 has offset 1).
 
 The definition of A037696 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23799,7 +23801,7 @@ The definition of A037696 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)%4+5*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037696
@@ -23938,7 +23940,7 @@ end A037696
 /-!
 # A037697: Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037697, the canonical program `A037697.P8112122253678047784` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037697 has offset 1).
+The programs for A037697, the canonical program `A037697.P8112122253678047784` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037697 has offset 1).
 
 The definition of A037697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23947,7 +23949,7 @@ The definition of A037697 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)%4+6*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037697
@@ -24059,7 +24061,7 @@ end A037697
 /-!
 # A037698: Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037698, the canonical program `A037698.P13802440831282890987` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037698 has offset 1).
+The programs for A037698, the canonical program `A037698.P13802440831282890987` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037698 has offset 1).
 
 The definition of A037698 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24068,7 +24070,7 @@ The definition of A037698 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)%4+7*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037698
@@ -24210,7 +24212,7 @@ end A037698
 /-!
 # A037699: Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3,0.
 
-The programs for A037699, the canonical program `A037699.P4637923517044693852` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037699 has offset 1).
+The programs for A037699, the canonical program `A037699.P4637923517044693852` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037699 has offset 1).
 
 The definition of A037699 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24219,7 +24221,7 @@ The definition of A037699 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)%4+8*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A037699

@@ -17,19 +17,20 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,6 +40,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,6 +62,7 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -282,7 +285,7 @@ end A307701.P4527501031644293280
 /-!
 # A307702: Clique covering number of the n-Sierpinski tetrahedron graph.
 
-The programs for A307702, the canonical program `A307702.P11180949952363773510` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307702 has offset 1).
+The programs for A307702, the canonical program `A307702.P11180949952363773510` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307702 has offset 1).
 
 The definition of A307702 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -291,7 +294,7 @@ The definition of A307702 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-4*a(n-2)` with `a(0)=1, a(1)=4, a(2)=11, a(3)=41`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A307702
@@ -621,7 +624,7 @@ end A307702
 /-!
 # A307704: Expansion of (1/(1 - x)) * Sum_{k>=1} (-x)^k/(1 - (-x)^k).
 
-The programs for A307704, the canonical program `A307704.P16369658975903990754` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307704 has offset 1).
+The programs for A307704, the canonical program `A307704.P16369658975903990754` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307704 has offset 1).
 
 The definition of A307704 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -630,7 +633,7 @@ The definition of A307704 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{d}[n+1, (-(-1)^n)^#]]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A307704
@@ -647,7 +650,7 @@ end A307704
 
 /-! ## A307704.P3394407696301560581
 
-`∑[-A000005(n+1)/(-1)^n]`
+`∑[-(A000005(n+1)/(-1)^n)]`
 -/
 
 namespace A307704.P3394407696301560581
@@ -665,7 +668,7 @@ end A307704.P3394407696301560581
 
 namespace A307704
 
-/-- `∑[-A000005(n+1)/(-1)^n]` -/
+/-- `∑[-(A000005(n+1)/(-1)^n)]` -/
 def P3394407696301560581.Spec : Prop :=
   ∀ n, P3394407696301560581.a n = (A307704 (n + 1) : ℚ)
 
@@ -1850,7 +1853,7 @@ end A307714.P2265979393459653919
 /-!
 # A307716: Denominator of the barycenter of first n primes defined as a(n) = denominator(Sum_{i=1..n} (i*prime(i)) / Sum_{i=1..n} prime(i)).
 
-The programs for A307716, the canonical program `A307716.P13840358709468437809` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307716 has offset 1).
+The programs for A307716, the canonical program `A307716.P13840358709468437809` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307716 has offset 1).
 
 The definition of A307716 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1882,7 +1885,7 @@ end A307716
 
 `∑[A000040(n+1)]/A309036(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A307716
@@ -5256,6 +5259,28 @@ end
 
 end A307758.P12907396926059369746
 
+/-! ## A307758.P9998562866720640058
+
+`∩[2*A040040(n+1), A286195(n+1)]`
+-/
+
+namespace A307758.P9998562866720640058
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A040040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286195 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A307758.P9998562866720640058
+
 /-! ## A307758.P13033614882381732634
 
 `∩[A014574(n+1), A286195(n+1)]`
@@ -5365,28 +5390,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A307758.P717823620405308595
-
-/-! ## A307758.P9998562866720640058
-
-`∩[2*A040040(n+1), A286195(n+1)]`
--/
-
-namespace A307758.P9998562866720640058
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A040040 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286195 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A307758.P9998562866720640058
 
 /-! ## A307758.P17804503738585736999
 

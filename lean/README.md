@@ -13,7 +13,8 @@ The provenance of a sequence, `Axxxxxx.provenance`, tells how far its definition
 
 - **verified**: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS
   name, parsed automatically) or to an independent definition, e.g. from Mathlib, and every sequence that one uses is
-  verified too. Lean does not check the parsing of the name.
+  verified too. A formula that the name only filters or wraps, as in "Primes of the form 2^(2^n) + 27", is not a name
+  formula. Lean does not check the parsing of the name.
 - **OEIS-proven**: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses
   is verified or OEIS-proven. Lean has not checked the formula.
 - **conditional**: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses sequences
@@ -35,7 +36,9 @@ A proof of a `Spec` only shows that the program equals the Lean definition, it i
   of 100 sequences, e.g. `Prog/A000/A0002.lean` holds A000200 to A000299.
 - `Proof/`: hand-written proofs, one file per sequence, e.g. `Proof/A000/A000045.lean`: the anchor `A000045.anchor`, a
   theorem that the definition equals an independent definition, and the proofs `A000045.P<hash>.correct` of the
-  claims in `Prog/`. A proof is used once it is checked to build without `sorry`.
+  claims in `Prog/`. A proof is used once it is checked to prove its statement (the `Spec`, or the statement of the
+  anchor, a claim about its sequence) with no axioms but `propext`, `Classical.choice` and `Quot.sound`. The anchor
+  statement must read on its own, with the file's `open` commands but without its local notation.
 - `provenance.tsv`: per sequence, its provenance, the sequences a conditional definition relies on, the module of its
   definition, its canonical program, the name formula that verifies it and its programs.
 - `statistics.tsv`: the number of sequences, programs and proofs by kind.

@@ -6,26 +6,26 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -35,7 +35,6 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -62,13 +61,11 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A251802: Number of (2+1)X(n+1) 0..3 arrays with no 2X2 subblock having x11-x00 less than x10-x01.
@@ -3897,7 +3894,7 @@ end A251857.P3518440194066258658
 /-!
 # A251861: Number of non-palindromic words (length n>0) over the alphabet of 26 letters.
 
-The programs for A251861, the canonical program `A251861.P12595956357876353781` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251861 has offset 1).
+The programs for A251861, the canonical program `A251861.P12595956357876353781` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251861 has offset 1).
 
 The definition of A251861 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3906,7 +3903,7 @@ The definition of A251861 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `26^(n+1)-26^ceil((n+1)/2)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A251861
@@ -4041,7 +4038,7 @@ end A251864.P12394601541713734738
 /-!
 # A251867: Numbers n such that n^2 + (n+1)^2 is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.
 
-The programs for A251867, the canonical program `A251867.P16106857954171248714` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251867 has offset 1).
+The programs for A251867, the canonical program `A251867.P16106857954171248714` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251867 has offset 1).
 
 The definition of A251867 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4050,7 +4047,7 @@ The definition of A251867 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `35*a(n-1)-35*a(n-2)+a(n-3)` with `a(0)=0, a(1)=14, a(2)=492`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A251867
@@ -4085,6 +4082,29 @@ namespace A251867
 /-- `A105635(4*n)` -/
 def P4012484410494140828.Spec : Prop :=
   ∀ n, P4012484410494140828.a n = A251867 (n + 1)
+
+end A251867
+
+/-! ## A251867.P8020694027690731303
+
+`A220185(n+1)+A001542(n)²`
+-/
+
+namespace A251867.P8020694027690731303
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A220185 (n + 1) + A001542 n ^ 2
+
+end
+
+end A251867.P8020694027690731303
+
+namespace A251867
+
+/-- `A220185(n+1)+A001542(n)²` -/
+def P8020694027690731303.Spec : Prop :=
+  ∀ n, P8020694027690731303.a n = A251867 (n + 1)
 
 end A251867
 
@@ -4246,29 +4266,6 @@ namespace A251867
 /-- `floor(A001653(2*n+1)/2)` -/
 def P4057233251756731654.Spec : Prop :=
   ∀ n, P4057233251756731654.a n = A251867 (n + 1)
-
-end A251867
-
-/-! ## A251867.P9804211818808895043
-
-`A001542(n)*A002315(n)`
--/
-
-namespace A251867.P9804211818808895043
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001542 n * A002315 n
-
-end
-
-end A251867.P9804211818808895043
-
-namespace A251867
-
-/-- `A001542(n)*A002315(n)` -/
-def P9804211818808895043.Spec : Prop :=
-  ∀ n, P9804211818808895043.a n = A251867 (n + 1)
 
 end A251867
 

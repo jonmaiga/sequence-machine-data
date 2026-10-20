@@ -19,15 +19,17 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,6 +40,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -136,34 +139,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A001790.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A002544.P18026945423642297502
-
-`A002457(n)*(n+1)`
--/
-
-namespace A002544.P18026945423642297502
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002457 n * (n + 1 : ℤ)
-
-end
-
-end A002544.P18026945423642297502
-
-noncomputable section
-
-/-- A002544: a(n) = binomial(2*n+1,n)*(n+1)^2.
-
-Offset 0, canonical program `A002544.P18026945423642297502`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A002544 (n : ℕ) : ℤ :=
-  A002544.P18026945423642297502.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A002544.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A008889.P2877282476747895501
 
 `A008888(n+1)`
@@ -192,117 +167,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A008889.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A024486.P14309275763816620096
+/-! ## A014719.P3871794258725070210
 
-`A006480(n)/(2*n+1)`
+`A014410(n+2)²`
 -/
 
-namespace A024486.P14309275763816620096
+namespace A014719.P3871794258725070210
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006480 n : ℚ) / (2 * n + 1 : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014410 (n + 2) ^ 2
 
 end
 
-end A024486.P14309275763816620096
+end A014719.P3871794258725070210
 
 noncomputable section
 
-/-- A024486: a(n) = (1/(2n+1))*Multinomial(3n; n,n,n).
+/-- A014719: Squares of elements in Pascal triangle (by row) that are not 1.
 
-Offset 0, canonical program `A024486.P14309275763816620096`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024486 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A024486.P14309275763816620096.a n)
+Offset 2, canonical program `A014719.P3871794258725070210`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A014719 (n : ℕ) : ℤ :=
+  A014719.P3871794258725070210.a (n - 2)
 
 end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024486.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A024487.P10819537129561088428
-
-`A006480(n+1)/(4*(n+1)+2)`
--/
-
-namespace A024487.P10819537129561088428
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006480 (n + 1) : ℚ) / (4 * (n + 1) + 2 : ℚ)
-
-end
-
-end A024487.P10819537129561088428
-
-noncomputable section
-
-/-- A024487: a(n) = (1/(4n+2))*M(3n; n,n,n).
-
-Offset 1, canonical program `A024487.P10819537129561088428`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024487 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A024487.P10819537129561088428.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024487.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A024488.P3098859233003656087
-
-`A006480(n+1)/(3*(n+1)-1)`
--/
-
-namespace A024488.P3098859233003656087
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006480 (n + 1) : ℚ) / ((3 * (n + 1) : ℤ) - 1 : ℚ)
-
-end
-
-end A024488.P3098859233003656087
-
-noncomputable section
-
-/-- A024488: a(n) = (1/(3n-1))*M(3n; n,n,n), where M(...) is a multinomial coefficient.
-
-Offset 1, canonical program `A024488.P3098859233003656087`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024488 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A024488.P3098859233003656087.a (n - 1))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024488.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A024491.P11557080651820310435
-
-`A001448(n)/(4*n-1)`
--/
-
-namespace A024491.P11557080651820310435
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A001448 n : ℚ) / ((4 * n : ℤ) - 1 : ℚ)
-
-end
-
-end A024491.P11557080651820310435
-
-noncomputable section
-
-/-- A024491: a(n) = (1/(4n-1))*C(4n,2n).
-
-Offset 0, canonical program `A024491.P11557080651820310435`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024491 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A024491.P11557080651820310435.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024491.provenance : SequenceMachineLib.Provenance := .assumedProven
+def A014719.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A026029.P1005494940722334040
 
@@ -444,34 +335,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A048896.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A051960.P3694803677626322338
-
-`A051924(n+1)+A000108(n)`
--/
-
-namespace A051960.P3694803677626322338
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051924 (n + 1) + A000108 n
-
-end
-
-end A051960.P3694803677626322338
-
-noncomputable section
-
-/-- A051960: a(n) = C(n)*(3n+2) where C(n) = Catalan numbers = A000108.
-
-Offset 0, canonical program `A051960.P3694803677626322338`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A051960 (n : ℕ) : ℤ :=
-  A051960.P3694803677626322338.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A051960.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A057528.P16000590645068387962
 
 `a(n-1)*A057527(n)` with `a(0)=1`
@@ -530,6 +393,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A060632.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A061320.P9216718962236497877
+
+`A061318(n)+A061319(n)²`
+-/
+
+namespace A061320.P9216718962236497877
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061318 n + A061319 n ^ 2
+
+end
+
+end A061320.P9216718962236497877
+
+noncomputable section
+
+/-- A061320: Column 4 of A061314.
+
+Offset 0, canonical program `A061320.P9216718962236497877`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A061320 (n : ℕ) : ℤ :=
+  A061320.P9216718962236497877.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A061320.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A061548.P13837351600793897947
 
 `A001448(n)/A001316(n)`
@@ -585,6 +476,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A061549.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A066104.P13868707387582401079
+
+`2*A065423(n+2)`
+-/
+
+namespace A066104.P13868707387582401079
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A065423 (n + 2)
+
+end
+
+end A066104.P13868707387582401079
+
+noncomputable section
+
+/-- A066104: a(2n) = 2n, a(2n+1) = 4(n+1).
+
+Offset 0, canonical program `A066104.P13868707387582401079`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A066104 (n : ℕ) : ℤ :=
+  A066104.P13868707387582401079.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A066104.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A068983.P5879960668105085223
 
@@ -670,34 +589,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A000782.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A000897.P14910180461201994835
-
-`A000984(n)*A001448(n)`
--/
-
-namespace A000897.P14910180461201994835
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000984 n * A001448 n
-
-end
-
-end A000897.P14910180461201994835
-
-noncomputable section
-
-/-- A000897: a(n) = (4*n)! / ((2*n)!*n!^2).
-
-Offset 0, canonical program `A000897.P14910180461201994835`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000897 (n : ℕ) : ℤ :=
-  A000897.P14910180461201994835.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A000897.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A001285.P11616636227895161122
 
 `1+A010060(n)`
@@ -725,6 +616,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A001285.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A001969.P9139304774861292784
+
+`2*(n+1)-2+A010060(n)`
+-/
+
+namespace A001969.P9139304774861292784
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * (n + 1) : ℤ) - 2 + A010060 n
+
+end
+
+end A001969.P9139304774861292784
+
+noncomputable section
+
+/-- A001969: Evil numbers: nonnegative integers with an even number of 1's in their binary expansion.
+
+Offset 1, canonical program `A001969.P9139304774861292784`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A001969 (n : ℕ) : ℤ :=
+  A001969.P9139304774861292784.a (n - 1)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A001969.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A002889.P5912892682402209234
 
@@ -810,34 +729,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A004247.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A006013.P4079729848362006556
-
-`A024485(n+1)/3`
--/
-
-namespace A006013.P4079729848362006556
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A024485 (n + 1) : ℚ) / 3
-
-end
-
-end A006013.P4079729848362006556
-
-noncomputable section
-
-/-- A006013: a(n) = binomial(3*n+1,n)/(n+1).
-
-Offset 0, canonical program `A006013.P4079729848362006556`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A006013 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A006013.P4079729848362006556.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A006013.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A010059.P6338678923093357896
 
 `1-A010060(n)`
@@ -922,34 +813,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A020942.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A024482.P14906535760265305364
-
-`A051924(n+2)/2`
--/
-
-namespace A024482.P14906535760265305364
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A051924 (n + 2) : ℚ) / 2
-
-end
-
-end A024482.P14906535760265305364
-
-noncomputable section
-
-/-- A024482: a(n) = (1/2)*(binomial(2n, n) - binomial(2n-2, n-1)).
-
-Offset 2, canonical program `A024482.P14906535760265305364`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024482 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A024482.P14906535760265305364.a (n - 2))
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A024482.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A025480.P15873863116418380882
 
 `((n+1)/A006519(n+1)-1)/2`
@@ -977,34 +840,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A025480.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A030662.P11997165729521447290
-
-`A115112(n+1)+1`
--/
-
-namespace A030662.P11997165729521447290
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115112 (n + 1) + 1
-
-end
-
-end A030662.P11997165729521447290
-
-noncomputable section
-
-/-- A030662: Number of combinations of n things from 1 to n at a time, with repeats allowed.
-
-Offset 1, canonical program `A030662.P11997165729521447290`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A030662 (n : ℕ) : ℤ :=
-  A030662.P11997165729521447290.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A030662.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A032924.P18310276245285467851
 
@@ -1454,6 +1289,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A055261.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A056567.P16017620500270924614
+
+`76*a(n-1)+a(n-2)+(-1)^n*A056565(n)` with `a(0)=1, a(1)=55`
+-/
+
+namespace A056567.P16017620500270924614
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 55] fun n a =>
+  76 * a (n - 1) + a (n - 2) + (-1) ^ n * A056565 n
+
+end
+
+end A056567.P16017620500270924614
+
+noncomputable section
+
+/-- A056567: Fibonomial coefficients.
+
+Offset 0, canonical program `A056567.P16017620500270924614`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A056567 (n : ℕ) : ℤ :=
+  A056567.P16017620500270924614.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A056567.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A057945.P8114443607598857798
 
 `a(A002262(n))+1` with `a(0)=0`
@@ -1736,6 +1599,64 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A068553.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A069580.P13053955226640931518
+
+`4^(n+1)²-A065128(n+1)`
+-/
+
+namespace A069580.P13053955226640931518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (4 ^ (n + 1) ^ 2 : ℤ) - A065128 (n + 1)
+
+end
+
+end A069580.P13053955226640931518
+
+noncomputable section
+
+/-- A069580: Number of noninvertible n X n matrices mod 4 (i.e., over the ring Z_4).
+
+Offset 1, canonical program `A069580.P13053955226640931518`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A069580 (n : ℕ) : ℤ :=
+  A069580.P13053955226640931518.a (n - 1)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A069580.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A070871.P12544793481948704650
+
+`A002487(n+1)*A002487(n+2)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A070871.P12544793481948704650
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002487 (n + 1) * A002487 (n + 2)
+
+end
+
+end A070871.P12544793481948704650
+
+noncomputable section
+
+/-- A070871: a(n) = A002487(n) * A002487(n+1) (Conway's alimentary function).
+
+Offset 1, canonical program `A070871.P12544793481948704650`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A070871 (n : ℕ) : ℤ :=
+  A070871.P12544793481948704650.a (n - 1)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A070871.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A000989.P3200241698253008454
 
 `A007949(n+1)+A067397(n)`
@@ -1876,90 +1797,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A003071.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A004207.P9379893475422078749
-
-`A062028(a(n-1))` with `a(0)=1, a(1)=1`
--/
-
-namespace A004207.P9379893475422078749
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
-  A062028 (a (n - 1)).toNat
-
-end
-
-end A004207.P9379893475422078749
-
-noncomputable section
-
-/-- A004207: a(0) = 1, a(n) = sum of digits of all previous terms.
-
-Offset 0, canonical program `A004207.P9379893475422078749`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A004207 (n : ℕ) : ℤ :=
-  A004207.P9379893475422078749.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A004207.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A006507.P10105666352366520478
-
-`A062028(a(n-1))` with `a(0)=7`
--/
-
-namespace A006507.P10105666352366520478
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [7] fun n a =>
-  A062028 (a (n - 1)).toNat
-
-end
-
-end A006507.P10105666352366520478
-
-noncomputable section
-
-/-- A006507: a(n+1) = a(n) + sum of digits of a(n), with a(1)=7.
-
-Offset 1, canonical program `A006507.P10105666352366520478`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A006507 (n : ℕ) : ℤ :=
-  A006507.P10105666352366520478.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A006507.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A007618.P6018863421737465196
-
-`A062028(a(n-1))` with `a(0)=5`
--/
-
-namespace A007618.P6018863421737465196
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [5] fun n a =>
-  A062028 (a (n - 1)).toNat
-
-end
-
-end A007618.P6018863421737465196
-
-noncomputable section
-
-/-- A007618: a(n) = a(n-1) + sum of digits of a(n-1), a(1) = 5.
-
-Offset 1, canonical program `A007618.P6018863421737465196`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A007618 (n : ℕ) : ℤ :=
-  A007618.P6018863421737465196.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A007618.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A011787.P10772697605245278222
 
 `A065128(n+1)/2`
@@ -2016,62 +1853,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A014701.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A016052.P16387825715003404480
-
-`A062028(a(n-1))` with `a(0)=3`
--/
-
-namespace A016052.P16387825715003404480
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
-  A062028 (a (n - 1)).toNat
-
-end
-
-end A016052.P16387825715003404480
-
-noncomputable section
-
-/-- A016052: a(1) = 3; for n >= 1, a(n+1) = a(n) + sum of its digits.
-
-Offset 1, canonical program `A016052.P16387825715003404480`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016052 (n : ℕ) : ℤ :=
-  A016052.P16387825715003404480.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016052.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A016096.P6894083767046586145
-
-`A062028(a(n-1))` with `a(0)=9`
--/
-
-namespace A016096.P6894083767046586145
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [9] fun n a =>
-  A062028 (a (n - 1)).toNat
-
-end
-
-end A016096.P6894083767046586145
-
-noncomputable section
-
-/-- A016096: a(n+1) = a(n) + sum of its digits, with a(1) = 9.
-
-Offset 1, canonical program `A016096.P6894083767046586145`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016096 (n : ℕ) : ℤ :=
-  A016096.P6894083767046586145.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016096.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A038192.P7022833363305945768
 
 `12*A089893(n)+3`
@@ -2127,62 +1908,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A048967.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A056528.P4442300986705318360
-
-`A004159(A004159(n+1))`
--/
-
-namespace A056528.P4442300986705318360
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004159 (A004159 (n + 1)).toNat
-
-end
-
-end A056528.P4442300986705318360
-
-noncomputable section
-
-/-- A056528: Sum of digits of square of sum of digits of square.
-
-Offset 1, canonical program `A056528.P4442300986705318360`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A056528 (n : ℕ) : ℤ :=
-  A056528.P4442300986705318360.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A056528.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A067552.P17186920303504174424
-
-`A007953(n)²-A004159(n)`
--/
-
-namespace A067552.P17186920303504174424
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007953 n ^ 2 - A004159 n
-
-end
-
-end A067552.P17186920303504174424
-
-noncomputable section
-
-/-- A067552: a(n) = SumOfDigits(n)^2 - SumOfDigits(n^2), where SumOfDigits = A007953.
-
-Offset 0, canonical program `A067552.P17186920303504174424`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A067552 (n : ℕ) : ℤ :=
-  A067552.P17186920303504174424.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A067552.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A001302.P14737467050433742912
 
@@ -2329,62 +2054,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 447 terms. -/
 def A001926.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A002055.P6743341208794558895
-
-`A002457(n+1)-A002054(n+2)`
--/
-
-namespace A002055.P6743341208794558895
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002457 (n + 1) - A002054 (n + 2)
-
-end
-
-end A002055.P6743341208794558895
-
-noncomputable section
-
-/-- A002055: Number of diagonal dissections of a convex n-gon into n-4 regions.
-
-Offset 5, canonical program `A002055.P6743341208794558895`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A002055 (n : ℕ) : ℤ :=
-  A002055.P6743341208794558895.a (n - 5)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A002055.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A003583.P13992419334370876741
-
-`A081039(n)-n*A114121(n)`
--/
-
-namespace A003583.P13992419334370876741
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081039 n - (n : ℤ) * A114121 n
-
-end
-
-end A003583.P13992419334370876741
-
-noncomputable section
-
-/-- A003583: a(n) = (n+2)*2^(2*n-1) - (n/2)*binomial(2*n,n).
-
-Offset 0, canonical program `A003583.P13992419334370876741`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. -/
-def A003583 (n : ℕ) : ℤ :=
-  A003583.P13992419334370876741.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. -/
-def A003583.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A003986.P12926496113833734776
 
@@ -2616,89 +2285,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 462 terms. -/
 def A005182.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A005429.P13277658660728260534
+/-! ## A006859.P302366829295062184
 
-`n*A002736(n)`
+`A006333(n+1)/2`
 -/
 
-namespace A005429.P13277658660728260534
+namespace A006859.P302366829295062184
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A002736 n
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A006333 (n + 1) : ℚ) / 2
 
 end
 
-end A005429.P13277658660728260534
+end A006859.P302366829295062184
 
 noncomputable section
 
-/-- A005429: Apéry numbers: n^3*C(2n,n).
+/-- A006859: From paths in the plane.
 
-Offset 0, canonical program `A005429.P13277658660728260534`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
-def A005429 (n : ℕ) : ℤ :=
-  A005429.P13277658660728260534.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
-def A005429.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A006659.P11778441097935589513
-
-`2*A002694(n+2)`
--/
-
-namespace A006659.P11778441097935589513
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A002694 (n + 2)
+Offset 0, canonical program `A006859.P302366829295062184`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A006859 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A006859.P302366829295062184.a n)
 
 end
 
-end A006659.P11778441097935589513
-
-noncomputable section
-
-/-- A006659: Number of closed meander systems of order n+1 with n components.
-
-Offset 1, canonical program `A006659.P11778441097935589513`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. -/
-def A006659 (n : ℕ) : ℤ :=
-  A006659.P11778441097935589513.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. -/
-def A006659.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A006976.P4043253609936143795
-
-`a(n-1)+A006975(n)+a(n-1)` with `a(0)=1`
--/
-
-namespace A006976.P4043253609936143795
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (A006975 n + a (n - 1))
-
-end
-
-end A006976.P4043253609936143795
-
-noncomputable section
-
-/-- A006976: Coefficients of Chebyshev T polynomials: a(n) = A053120(n+12, n), n >= 0.
-
-Offset 0, canonical program `A006976.P4043253609936143795`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. -/
-def A006976 (n : ℕ) : ℤ :=
-  A006976.P4043253609936143795.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. -/
-def A006976.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A006859.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A007064.P15353569760162023814
 
@@ -2727,6 +2340,37 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A007064.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A007406.P9044966727249400815
+
+`∑[(1/(n+1))²]*A007407(n+1)`
+-/
+
+namespace A007406.P9044966727249400815
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 / (n + 1 : ℚ)) ^ 2
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f1 j) * (A007407 (n + 1) : ℚ)
+
+end
+
+end A007406.P9044966727249400815
+
+noncomputable section
+
+/-- A007406: Wolstenholme numbers: numerator of Sum_{k=1..n} 1/k^2.
+
+Offset 1, canonical program `A007406.P9044966727249400815`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. -/
+def A007406 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A007406.P9044966727249400815.a (n - 1))
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. -/
+def A007406.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A007430.P555181855500848548
 
@@ -2758,34 +2402,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A007430.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A007857.P12156564883507010954
-
-`A007226(n)-A000108(n)`
--/
-
-namespace A007857.P12156564883507010954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007226 n - A000108 n
-
-end
-
-end A007857.P12156564883507010954
-
-noncomputable section
-
-/-- A007857: Number of independent sets in rooted plane trees on n nodes.
-
-Offset 1, canonical program `A007857.P12156564883507010954`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007226, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A007857 (n : ℕ) : ℤ :=
-  A007857.P12156564883507010954.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007226, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A007857.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A008279.P7177801246737440238
 
@@ -2870,34 +2486,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A008860.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A008875.P10416676355482975149
-
-`A008874(n+2)`
--/
-
-namespace A008875.P10416676355482975149
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008874 (n + 2)
-
-end
-
-end A008875.P10416676355482975149
-
-noncomputable section
-
-/-- A008875: 3x+1 sequence starting at 95.
-
-Offset 0, canonical program `A008875.P10416676355482975149`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008874, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A008875 (n : ℕ) : ℤ :=
-  A008875.P10416676355482975149.a n
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008874, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A008875.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A010063.P7006521606686204256
 
@@ -3042,6 +2630,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. -/
 def A014175.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A014430.P11701806938926061192
+
+`A014410(n+2)-1`
+-/
+
+namespace A014430.P11701806938926061192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014410 (n + 2) - 1
+
+end
+
+end A014430.P11701806938926061192
+
+noncomputable section
+
+/-- A014430: Subtract 1 from Pascal's triangle, read by rows.
+
+Offset 0, canonical program `A014430.P11701806938926061192`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A014430 (n : ℕ) : ℤ :=
+  A014430.P11701806938926061192.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A014430.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A018161.P6356870683678075885
 
 `A018125(2*n)`
@@ -3070,34 +2686,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 416 terms. -/
 def A018161.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A018217.P16026018910762649906
-
-`2*(n+1)*A008549(n)`
--/
-
-namespace A018217.P16026018910762649906
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * ((n + 1 : ℤ) * A008549 n)
-
-end
-
-end A018217.P16026018910762649906
-
-noncomputable section
-
-/-- A018217: a(n) = Sum_{j=0..n-1} C(j)*(n-j)*4^(n-j), C = Catalan numbers.
-
-Offset 0, canonical program `A018217.P16026018910762649906`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. -/
-def A018217 (n : ℕ) : ℤ :=
-  A018217.P16026018910762649906.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. -/
-def A018217.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A019300.P12876685790779178674
 
 `A010060(n)+2*a(n-1)` with `a(0)=0`
@@ -3125,6 +2713,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. -/
 def A019300.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A019561.P14281502706415574798
+
+`A008413(2*n)`
+-/
+
+namespace A019561.P14281502706415574798
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008413 (2 * n)
+
+end
+
+end A019561.P14281502706415574798
+
+noncomputable section
+
+/-- A019561: Coordination sequence for C_5 lattice.
+
+Offset 0, canonical program `A019561.P14281502706415574798`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008413, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A019561 (n : ℕ) : ℤ :=
+  A019561.P14281502706415574798.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008413, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A019561.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A019562.P12290986405228145388
 
@@ -3182,33 +2798,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A020906.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A020918.P10037703926254174420
+/-! ## A020951.P2561957398097553159
 
-`A002803(n)-a(n-1)` with `a(0)=1`
+`A002487(A053646(n+1)+A000007(n))`
 -/
 
-namespace A020918.P10037703926254174420
+namespace A020951.P2561957398097553159
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A002803 n - a (n - 1)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002487 (A053646 (n + 1) + A000007 n).toNat
 
 end
 
-end A020918.P10037703926254174420
+end A020951.P2561957398097553159
 
 noncomputable section
 
-/-- A020918: Expansion of 1/(1-4*x)^(7/2).
+/-- A020951: a(2n+1)=a(n), a(2n)=a(n)+a(n-1).
 
-Offset 0, canonical program `A020918.P10037703926254174420`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
-def A020918 (n : ℕ) : ℤ :=
-  A020918.P10037703926254174420.a n
+Offset 0, canonical program `A020951.P2561957398097553159`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A020951 (n : ℕ) : ℤ :=
+  A020951.P2561957398097553159.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
-def A020918.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A020951.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A022155.P5220891945683012309
 
@@ -3533,34 +3149,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. -/
 def A023864.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A024306.P12319263228253453196
-
-`A024305(n+1)+A008805(n)+A008619(n)`
--/
-
-namespace A024306.P12319263228253453196
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024305 (n + 1) + (A008805 n + A008619 n)
-
-end
-
-end A024306.P12319263228253453196
-
-noncomputable section
-
-/-- A024306: a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k=[ (n+1)/2 ], s = (natural numbers >= 2), t = (natural numbers >= 3).
-
-Offset 1, canonical program `A024306.P12319263228253453196`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A024306 (n : ℕ) : ℤ :=
-  A024306.P12319263228253453196.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A024306.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A024309.P18160775639560700928
 
 `A129361(n)+A023860(n+1)`
@@ -3822,6 +3410,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A024715.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A024869.P18052300217753289267
+
+`2*A024306(n+1)-A024305(n+1)`
+-/
+
+namespace A024869.P18052300217753289267
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A024306 (n + 1) - A024305 (n + 1)
+
+end
+
+end A024869.P18052300217753289267
+
+noncomputable section
+
+/-- A024869: a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = floor( n/2 ), s = natural numbers >= 2, t = natural numbers >= 3.
+
+Offset 2, canonical program `A024869.P18052300217753289267`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A024869 (n : ℕ) : ℤ :=
+  A024869.P18052300217753289267.a (n - 2)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A024869.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A024872.P6809425359056890803
 
 `A023860(n+3)-A020695(n)`
@@ -3849,6 +3465,71 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. -/
 def A024872.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A025505.P1645131615138266658
+
+`record[2*A022303(n+1)+n]`
+-/
+
+namespace A025505.P1645131615138266658
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A022303 (n + 1) + (n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A025505.P1645131615138266658
+
+noncomputable section
+
+/-- A025505: Index of n-th 2 in A006928.
+
+Offset 1, canonical program `A025505.P1645131615138266658`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A025505 (n : ℕ) : ℤ :=
+  A025505.P1645131615138266658.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A025505.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A025516.P3323921667527838167
+
+`lt[1, A022303(n+1)]+1`
+-/
+
+namespace A025516.P3323921667527838167
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022303 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
+
+end
+
+end A025516.P3323921667527838167
+
+noncomputable section
+
+/-- A025516: Index of n-th 2 in A022303.
+
+Offset 1, canonical program `A025516.P3323921667527838167`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A025516 (n : ℕ) : ℤ :=
+  (A025516.P3323921667527838167.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A025516.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A025577.P12205511382632223493
 
@@ -3908,37 +3589,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. -/
 def A026018.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A026021.P624873047912347274
-
-`A026016(A065033(n))+Δ[A208355(n)]`
--/
-
-namespace A026021.P624873047912347274
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A208355 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026016 (A065033 n).toNat + (f1 (n + 1) - f1 n)
-
-end
-
-end A026021.P624873047912347274
-
-noncomputable section
-
-/-- A026021: a(n) = T(n, [n/2]), where T is the array defined in A026009.
-
-Offset 0, canonical program `A026021.P624873047912347274`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. -/
-def A026021 (n : ℕ) : ℤ :=
-  A026021.P624873047912347274.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. -/
-def A026021.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A026027.P8038761387081336440
 
@@ -4285,34 +3935,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A026612.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A026616.P7774796732190663953
-
-`A028329(n)-A000984((2*n)%(n+1))`
--/
-
-namespace A026616.P7774796732190663953
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028329 n - A000984 (2 * n % (n + 1))
-
-end
-
-end A026616.P7774796732190663953
-
-noncomputable section
-
-/-- A026616: a(n) = A026615(2*n, n).
-
-Offset 0, canonical program `A026616.P7774796732190663953`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. -/
-def A026616 (n : ℕ) : ℤ :=
-  A026616.P7774796732190663953.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. -/
-def A026616.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A026729.P18212919796410262121
 
 `C(A002262(n), A025581(n))`
@@ -4456,99 +4078,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005351, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A027615.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A027787.P6331187292566275208
-
-`∑[A027786(n)+A027773(n)]`
--/
-
-namespace A027787.P6331187292566275208
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027786 (n + 11) + A027773 (n + 12)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A027787.P6331187292566275208
-
-noncomputable section
-
-/-- A027787: a(n) = 7*(n+1)*binomial(n+2,14).
-
-Offset 12, canonical program `A027787.P6331187292566275208`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A027787 (n : ℕ) : ℤ :=
-  A027787.P6331187292566275208.a (n - 12)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A027787.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A027796.P14895296671750171779
-
-`∑[A027795(n+7)+A027783(n+8)]`
--/
-
-namespace A027796.P14895296671750171779
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027795 (n + 7) + A027783 (n + 8)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A027796.P14895296671750171779
-
-noncomputable section
-
-/-- A027796: a(n) = 55*(n+1)*binomial(n+3,11)/3.
-
-Offset 8, canonical program `A027796.P14895296671750171779`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A027796 (n : ℕ) : ℤ :=
-  A027796.P14895296671750171779.a (n - 8)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A027796.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A027806.P6442495618936108017
-
-`∑[A027805(n+5)+A027794(n+6)]`
--/
-
-namespace A027806.P6442495618936108017
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027805 (n + 5) + A027794 (n + 6)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A027806.P6442495618936108017
-
-noncomputable section
-
-/-- A027806: a(n) = 30*(n+1)*binomial(n+4,10).
-
-Offset 6, canonical program `A027806.P6442495618936108017`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A027806 (n : ℕ) : ℤ :=
-  A027806.P6442495618936108017.a (n - 6)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A027806.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A027931.P1336290053932205075
 
 `A027930(n+3)+a(n-1)` with `a(0)=1`
@@ -4604,34 +4133,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A027970.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A028283.P13523606839211364512
-
-`A028270(n)+A028270(n)-A000984(n)`
--/
-
-namespace A028283.P13523606839211364512
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028270 n + (A028270 n - A000984 n)
-
-end
-
-end A028283.P13523606839211364512
-
-noncomputable section
-
-/-- A028283: Central elements in 4-Pascal triangle A028275 (by row).
-
-Offset 0, canonical program `A028283.P13523606839211364512`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
-def A028283 (n : ℕ) : ℤ :=
-  A028283.P13523606839211364512.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
-def A028283.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A029225.P16486130044195142611
 
@@ -4913,34 +4414,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A029440.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A029760.P12701853743882014842
-
-`A002457(n+1)-A000346(n+1)`
--/
-
-namespace A029760.P12701853743882014842
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002457 (n + 1) - A000346 (n + 1)
-
-end
-
-end A029760.P12701853743882014842
-
-noncomputable section
-
-/-- A029760: A sum with next-to-central binomial coefficients of even order, Catalan related.
-
-Offset 0, canonical program `A029760.P12701853743882014842`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A029760 (n : ℕ) : ℤ :=
-  A029760.P12701853743882014842.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A029760.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A029884.P4429559380778062282
 
 `Δ[A010060(n+1)-A010060(n)]`
@@ -4971,34 +4444,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A029884.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A030053.P13797506381645707024
-
-`A002696(n+4)-A003516(n+3)`
--/
-
-namespace A030053.P13797506381645707024
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002696 (n + 4) - A003516 (n + 3)
-
-end
-
-end A030053.P13797506381645707024
-
-noncomputable section
-
-/-- A030053: a(n) = binomial(2n+1,n-3).
-
-Offset 3, canonical program `A030053.P13797506381645707024`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A030053 (n : ℕ) : ℤ :=
-  A030053.P13797506381645707024.a (n - 3)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A030053.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A031339.P13047857505135678834
 
@@ -5323,126 +4768,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. -/
 def A031921.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A031970.P16426183550128537138
+/-! ## A032795.P3387722789288988087
 
-`A000531(n+1)-A026023(2*n)`
+`A032794(n+1)/A032793(n+1)`
 -/
 
-namespace A031970.P16426183550128537138
+namespace A032795.P3387722789288988087
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000531 (n + 1) - A026023 (2 * n)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A032794 (n + 1) : ℚ) / (A032793 (n + 1) : ℚ)
 
 end
 
-end A031970.P16426183550128537138
+end A032795.P3387722789288988087
 
 noncomputable section
 
-/-- A031970: Tennis ball problem: Balls 1 and 2 are thrown into a room; you throw one on lawn; then balls 3 and 4 are thrown in and you throw any of the 3 balls onto the lawn; then balls 5 and 6 are thrown in and you throw one of the 4 balls onto the lawn; after n turns, consider all possible collections on lawn and add all the values.
+/-- A032795: Positive numbers k such that (k+1)*(k+2)*(k+3)*(k+4)/(k+(k+1)+(k+2)+(k+3)+(k+4)) is an integer.
 
-Offset 0, canonical program `A031970.P16426183550128537138`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A031970 (n : ℕ) : ℤ :=
-  A031970.P16426183550128537138.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A031970.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A032093.P17812668640305024204
-
-`∑[A032092(n+7)]`
--/
-
-namespace A032093.P17812668640305024204
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032092 (n + 7)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+Offset 1, canonical program `A032795.P3387722789288988087`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A032794, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A032795 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A032795.P3387722789288988087.a (n - 1))
 
 end
 
-end A032093.P17812668640305024204
-
-noncomputable section
-
-/-- A032093: Number of reversible strings with n-1 beads of 2 colors. 6 beads are black. Strings are not palindromic.
-
-Offset 8, canonical program `A032093.P17812668640305024204`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A032093 (n : ℕ) : ℤ :=
-  A032093.P17812668640305024204.a (n - 8)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A032093.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A032095.P17238562505437964512
-
-`A005317(A028310(n))-A027306(n)`
--/
-
-namespace A032095.P17238562505437964512
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005317 (A028310 n).toNat - A027306 n
-
-end
-
-end A032095.P17238562505437964512
-
-noncomputable section
-
-/-- A032095: Number of reversible strings with n-1 black beads and n-1 white beads. String is not palindromic.
-
-Offset 1, canonical program `A032095.P17238562505437964512`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
-def A032095 (n : ℕ) : ℤ :=
-  A032095.P17238562505437964512.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
-def A032095.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A032770.P4188714620119748451
-
-`A032768(lt[n, lcm(5, 3-n)])`
--/
-
-namespace A032770.P4188714620119748451
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 5 (3 - (n : ℤ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032768 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A032770.P4188714620119748451
-
-noncomputable section
-
-/-- A032770: Integer quotients of n(n + 1)(n + 2)(n + 3)(n + 4) / (n+(n+1)+(n+2)+(n+3)+(n+4)).
-
-Offset 0, canonical program `A032770.P4188714620119748451`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8000 terms. -/
-def A032770 (n : ℕ) : ℤ :=
-  A032770.P4188714620119748451.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8000 terms. -/
-def A032770.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A032794, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A032795.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A032952.P14319785002090626155
 
@@ -5528,37 +4880,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A033163.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A033434.P16108752292041278544
-
-`Δ[A026012(n)]`
--/
-
-namespace A033434.P16108752292041278544
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026012 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A033434.P16108752292041278544
-
-noncomputable section
-
-/-- A033434: Third differences of Catalan numbers A000108.
-
-Offset 0, canonical program `A033434.P16108752292041278544`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. -/
-def A033434 (n : ℕ) : ℤ :=
-  A033434.P16108752292041278544.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. -/
-def A033434.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A033761.P11731263425258369509
 
 `A027414(8*n+3)`
@@ -5615,33 +4936,33 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023196, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A033882.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A034267.P8758762277003965209
+/-! ## A034102.P5014734774195026149
 
-`A000245(n)+n*A276666(n)`
+`A034097(n+1)-floor(sqrt(A034097(n+1)))`
 -/
 
-namespace A034267.P8758762277003965209
+namespace A034102.P5014734774195026149
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000245 n + (n : ℤ) * A276666 n
+  A034097 (n + 1) - Int.sqrt (A034097 (n + 1))
 
 end
 
-end A034267.P8758762277003965209
+end A034102.P5014734774195026149
 
 noncomputable section
 
-/-- A034267: a(n) = f(n,n) where f is given in A034261.
+/-- A034102: Fractional part of square root of a(n) starts with digit 6.
 
-Offset 0, canonical program `A034267.P8758762277003965209`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A034267 (n : ℕ) : ℤ :=
-  A034267.P8758762277003965209.a n
+Offset 1, canonical program `A034102.P5014734774195026149`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A034102 (n : ℕ) : ℤ :=
+  A034102.P5014734774195026149.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A034267.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A034102.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A034761.P7021873278512007717
 
@@ -5851,34 +5172,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A035605.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A036227.P6221341663879694796
-
-`A062028(a(n-1))` with `a(0)=20`
--/
-
-namespace A036227.P6221341663879694796
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [20] fun n a =>
-  A062028 (a (n - 1)).toNat
-
-end
-
-end A036227.P6221341663879694796
-
-noncomputable section
-
-/-- A036227: a(1) = 20; a(n+1) = a(n) + sum of decimal digits of a(n).
-
-Offset 1, canonical program `A036227.P6221341663879694796`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 589 terms. -/
-def A036227 (n : ℕ) : ℤ :=
-  A036227.P6221341663879694796.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 589 terms. -/
-def A036227.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A036555.P9976746027563483838
 
 `val(A001316(A008585(n)), 2)`
@@ -5962,40 +5255,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A037167.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A037315.P7198483397476573084
-
-`lt[(n*A180019(n))², n]`
--/
-
-namespace A037315.P7198483397476573084
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) * A180019 n) ^ 2
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A037315.P7198483397476573084
-
-noncomputable section
-
-/-- A037315: Numbers whose base-3 and base-10 expansions have the same digit sum.
-
-Offset 1, canonical program `A037315.P7198483397476573084`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. -/
-def A037315 (n : ℕ) : ℤ :=
-  (A037315.P7198483397476573084.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. -/
-def A037315.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A037628.P14679779907453231846
 
@@ -6084,33 +5343,61 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A037879.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A038408.P14381304774561669787
+/-! ## A037957.P523599438952609535
 
-`floor(A019561(n)/A005901(n))`
+`A001405(n)-A026021(n)`
 -/
 
-namespace A038408.P14381304774561669787
+namespace A037957.P523599438952609535
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A019561 n : ℚ) / (A005901 n : ℚ)⌋
+  A001405 n - A026021 n
 
 end
 
-end A038408.P14381304774561669787
+end A037957.P523599438952609535
 
 noncomputable section
 
-/-- A038408: Coordination sequence for Zeolite Code DFT.
+/-- A037957: a(n) = binomial(n, floor((n-6)/2)).
 
-Offset 0, canonical program `A038408.P14381304774561669787`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A038408 (n : ℕ) : ℤ :=
-  A038408.P14381304774561669787.a n
+Offset 0, canonical program `A037957.P523599438952609535`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. -/
+def A037957 (n : ℕ) : ℤ :=
+  A037957.P523599438952609535.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A038408.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. -/
+def A037957.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A038610.P10588143395137606958
+
+`A002944(n+1)/A133910(n+1)`
+-/
+
+namespace A038610.P10588143395137606958
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002944 (n + 1) : ℚ) / (A133910 (n + 1) : ℚ)
+
+end
+
+end A038610.P10588143395137606958
+
+noncomputable section
+
+/-- A038610: Least common multiple of integers less than and prime to n.
+
+Offset 1, canonical program `A038610.P10588143395137606958`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. -/
+def A038610 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A038610.P10588143395137606958.a (n - 1))
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. -/
+def A038610.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A038734.P8844479592814247932
 
@@ -6238,34 +5525,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 130 terms. -/
 def A041542.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A042939.P563178382816472669
-
-`A040997(A000040(n+1))`
--/
-
-namespace A042939.P563178382816472669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040997 (A000040 (n + 1)).toNat
-
-end
-
-end A042939.P563178382816472669
-
-noncomputable section
-
-/-- A042939: Absolute values between digits of primes.
-
-Offset 1, canonical program `A042939.P563178382816472669`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A040997, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A042939 (n : ℕ) : ℤ :=
-  A042939.P563178382816472669.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A040997, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A042939.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A043734.P2081533944662856459
 
@@ -7245,33 +6504,61 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A045412.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A045776.P5877182421305232441
+/-! ## A045722.P9382885105584645516
 
-`A062028(a(n-1))-a(n-1)%A007953(a(n-1))` with `a(0)=1`
+`A006013(n)*A008619(A103517(n))`
 -/
 
-namespace A045776.P5877182421305232441
+namespace A045722.P9382885105584645516
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A062028 (a (n - 1)).toNat - Int.tmod (a (n - 1)) (A007953 (a (n - 1)).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006013 n * A008619 (A103517 n).toNat
 
 end
 
-end A045776.P5877182421305232441
+end A045722.P9382885105584645516
 
 noncomputable section
 
-/-- A045776: a(n+1) is smallest multiple of (sum of digits of a(n)) which is > a(n).
+/-- A045722: Number of border edges in all noncrossing rooted trees on n nodes.
 
-Offset 0, canonical program `A045776.P5877182421305232441`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 670 terms. -/
-def A045776 (n : ℕ) : ℤ :=
-  A045776.P5877182421305232441.a n
+Offset 1, canonical program `A045722.P9382885105584645516`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. -/
+def A045722 (n : ℕ) : ℤ :=
+  A045722.P9382885105584645516.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 670 terms. -/
-def A045776.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. -/
+def A045722.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A045724.P14771865039815941813
+
+`2*A020918(n)-A042941(n)`
+-/
+
+namespace A045724.P14771865039815941813
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A020918 n - A042941 n
+
+end
+
+end A045724.P14771865039815941813
+
+noncomputable section
+
+/-- A045724: Convolution of Catalan numbers A000108 with A020918.
+
+Offset 0, canonical program `A045724.P14771865039815941813`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
+def A045724 (n : ℕ) : ℤ :=
+  A045724.P14771865039815941813.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
+def A045724.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A046133.P4421906355673300745
 
@@ -7478,6 +6765,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A046930.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A047009.P16609204866922919021
+
+`A006013(n)-A030983(A028310(n)+2)`
+-/
+
+namespace A047009.P16609204866922919021
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006013 n - A030983 (A028310 n + 2).toNat
+
+end
+
+end A047009.P16609204866922919021
+
+noncomputable section
+
+/-- A047009: T(2n,n), array T given by A047000.
+
+Offset 0, canonical program `A047009.P16609204866922919021`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. -/
+def A047009 (n : ℕ) : ℤ :=
+  A047009.P16609204866922919021.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. -/
+def A047009.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A047182.P3338192460869076266
 
 `A037955(A028310(n)+1)-1`
@@ -7505,37 +6820,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 336 terms. -/
 def A047182.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A047819.P16248126213952327268
-
-`∑[A107891(n)]`
--/
-
-namespace A047819.P16248126213952327268
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107891 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A047819.P16248126213952327268
-
-noncomputable section
-
-/-- A047819: a(n) = Product_{i=1..n} ((i+3)*(i+4)*(i+5))/(i*(i+1)*(i+2)).
-
-Offset 0, canonical program `A047819.P16248126213952327268`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A047819 (n : ℕ) : ℤ :=
-  A047819.P16248126213952327268.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A047819.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A047999.P4496697157608863547
 
@@ -7649,42 +6933,33 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A049090, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A049203.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A049343.P4245191771258133539
+/-! ## A049710.P6790608665925512686
 
-`eq[∑{digits}[n², #], A004092(n)]`
+`3-A006928(n+1)`
 -/
 
-namespace A049343.P4245191771258133539
+namespace A049710.P6790608665925512686
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x).sum
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004092 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 - A006928 (n + 1)
 
 end
 
-end A049343.P4245191771258133539
+end A049710.P6790608665925512686
 
 noncomputable section
 
-/-- A049343: Numbers m such that 2m and m^2 have same digit sum.
+/-- A049710: a(n)=3-k(n), where k=A006928; also, a and k have the same runlength sequence, with n-th term k(n-1) for n >= 2.
 
-Offset 1, canonical program `A049343.P4245191771258133539`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. -/
-def A049343 (n : ℕ) : ℤ :=
-  (A049343.P4245191771258133539.a (n - 1) : ℤ)
+Offset 1, canonical program `A049710.P6790608665925512686`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A049710 (n : ℕ) : ℤ :=
+  A049710.P6790608665925512686.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. -/
-def A049343.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A049710.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A049759.P4392440920391466402
 
@@ -8062,93 +7337,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A051341.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A051351.P6493723572968094148
-
-`∑[A007605(A000007(n)+n)]-2`
--/
-
-namespace A051351.P6493723572968094148
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007605 (A000007 n + (n : ℤ)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - 2
-
-end
-
-end A051351.P6493723572968094148
-
-noncomputable section
-
-/-- A051351: a(n) = a(n-1) + sum of digits of n-th prime.
-
-Offset 0, canonical program `A051351.P6493723572968094148`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A051351 (n : ℕ) : ℤ :=
-  A051351.P6493723572968094148.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A051351.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A051369.P3720303996826784203
-
-`A004159(a(n-1))+a(n-1)` with `a(0)=3`
--/
-
-namespace A051369.P3720303996826784203
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
-  A004159 (a (n - 1)).toNat + a (n - 1)
-
-end
-
-end A051369.P3720303996826784203
-
-noncomputable section
-
-/-- A051369: a(n+1) = a(n) + sum of digits of a(n)^2, with a(1) = 3.
-
-Offset 1, canonical program `A051369.P3720303996826784203`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 318 terms. -/
-def A051369 (n : ℕ) : ℤ :=
-  A051369.P3720303996826784203.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 318 terms. -/
-def A051369.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A051370.P16333339530751387422
-
-`A004159(a(n-1))+a(n-1)` with `a(0)=8`
--/
-
-namespace A051370.P16333339530751387422
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [8] fun n a =>
-  A004159 (a (n - 1)).toNat + a (n - 1)
-
-end
-
-end A051370.P16333339530751387422
-
-noncomputable section
-
-/-- A051370: a(n+1) = a(n) + sum of digits of a(n)^2, with a(1) = 8.
-
-Offset 1, canonical program `A051370.P16333339530751387422`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. -/
-def A051370 (n : ℕ) : ℤ :=
-  A051370.P16333339530751387422.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. -/
-def A051370.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A051677.P145270310871526407
 
 `∑[C(A002262(n)+2, 2)]`
@@ -8385,39 +7573,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 304 terms. -/
 def A052793.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A053057.P8917643215926025307
+/-! ## A053201.P1741911093947549040
 
-`eq[1, A010052(A004159(n))]²`
+`A014410(n+2)%A003057(n+2)`
 -/
 
-namespace A053057.P8917643215926025307
+namespace A053201.P1741911093947549040
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010052 (A004159 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n ^ 2
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A014410 (n + 2)) (A003057 (n + 2))
 
 end
 
-end A053057.P8917643215926025307
+end A053201.P1741911093947549040
 
 noncomputable section
 
-/-- A053057: Squares whose digit sum is also a square.
+/-- A053201: Pascal's triangle (excluding first, last element of each row) read by rows, row n read mod n.
 
-Offset 1, canonical program `A053057.P8917643215926025307`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2238 terms. -/
-def A053057 (n : ℕ) : ℤ :=
-  (A053057.P8917643215926025307.a (n - 1) : ℤ)
+Offset 2, canonical program `A053201.P1741911093947549040`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A053201 (n : ℕ) : ℤ :=
+  A053201.P1741911093947549040.a (n - 2)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2238 terms. -/
-def A053057.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A053201.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A053233.P10130912460607265282
 
@@ -8801,68 +7983,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A055630.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A055663.P5131911919764471879
-
-`∑[∑[n+1]]*A002696(n+6)`
--/
-
-namespace A055663.P5131911919764471879
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * A002696 (n + 6)
-
-end
-
-end A055663.P5131911919764471879
-
-noncomputable section
-
-/-- A055663: Number of (3,3; n,n)-partitions of a chain of length n^2 + n.
-
-Offset 9, canonical program `A055663.P5131911919764471879`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 153 terms. -/
-def A055663 (n : ℕ) : ℤ :=
-  A055663.P5131911919764471879.a (n - 9)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 153 terms. -/
-def A055663.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A056174.P3001330646264561605
-
-`A000312(n)-A045992(n)`
--/
-
-namespace A056174.P3001330646264561605
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000312 n - A045992 n
-
-end
-
-end A056174.P3001330646264561605
-
-noncomputable section
-
-/-- A056174: Number of non-monotone maps from 1,...,n to 1,...,n.
-
-Offset 0, canonical program `A056174.P3001330646264561605`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A045992, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A056174 (n : ℕ) : ℤ :=
-  A056174.P3001330646264561605.a n
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A045992, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A056174.provenance : SequenceMachineLib.Provenance := .conditional
-
 /-! ## A056557.P17486820174551382648
 
 `A003056(n-A000292(A056556(n)))`
@@ -8890,40 +8010,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056556, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A056557.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A057532.P4710718478601077176
-
-`A057531(eq[1, A057531(n+1)%2]+1)`
--/
-
-namespace A057532.P4710718478601077176
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A057531 (n + 1)) 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057531 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
-
-end
-
-end A057532.P4710718478601077176
-
-noncomputable section
-
-/-- A057532: n is odd and sum of digits of n equals the numbers of divisors of n.
-
-Offset 1, canonical program `A057532.P4710718478601077176`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1840 terms. -/
-def A057532 (n : ℕ) : ℤ :=
-  A057532.P4710718478601077176.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1840 terms. -/
-def A057532.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A057843.P1375060347392083398
 
@@ -8981,40 +8067,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049090, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A057850.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A058079.P6918650657682453408
-
-`A000040(eq[1, A058078(n+1)]+3)`
--/
-
-namespace A058079.P6918650657682453408
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058078 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 3)
-
-end
-
-end A058079.P6918650657682453408
-
-noncomputable section
-
-/-- A058079: a(n) = p3, where {p1,p2,p3} are 3 consecutive primes with increasing order such that gcd(C(p3,p2), C(p2,p1)) = 1, where C is the binomial coefficient.
-
-Offset 1, canonical program `A058079.P6918650657682453408`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1290 terms. -/
-def A058079 (n : ℕ) : ℤ :=
-  A058079.P6918650657682453408.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1290 terms. -/
-def A058079.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A058256.P14492067050455526603
 
 `A058254(n+2)/A058254(n+1)`
@@ -9044,40 +8096,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058254, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A058256.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A058369.P43549229018123999
-
-`eq[A004159(n), A007953(n)]`
--/
-
-namespace A058369.P43549229018123999
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004159 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007953 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A058369.P43549229018123999
-
-noncomputable section
-
-/-- A058369: Numbers k such that k and k^2 have same digit sum.
-
-Offset 1, canonical program `A058369.P43549229018123999`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. -/
-def A058369 (n : ℕ) : ℤ :=
-  (A058369.P43549229018123999.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. -/
-def A058369.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A058384.P14718833059081358407
 
@@ -9349,34 +8367,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 961 terms. -/
 def A060333.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A060552.P11706960557964166570
-
-`floor(A060551(A008619(2*n))/6)`
--/
-
-namespace A060552.P11706960557964166570
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A060551 (A008619 (2 * n)).toNat : ℚ) / 6⌋
-
-end
-
-end A060552.P11706960557964166570
-
-noncomputable section
-
-/-- A060552: a(n) is the number of distinct (modulo geometric D3-operations) nonsymmetric (no reflective nor rotational symmetry) patterns which can be formed by an equilateral triangular arrangement of closely packed black and white cells satisfying the local matching rule of Pascal's triangle modulo 2, where n is the number of cells in each edge of the arrangement. The matching rule is such that any elementary top-down triangle of three neighboring cells in the arrangement contains either one or three white cells.
-
-Offset 1, canonical program `A060552.P11706960557964166570`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. -/
-def A060552 (n : ℕ) : ℤ :=
-  A060552.P11706960557964166570.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. -/
-def A060552.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A060800.P2009094709202359605
 
 `A036690(n+1)+1`
@@ -9404,40 +8394,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A036690, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A060800.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A060979.P5913686302778209989
-
-`11*eq[A000007(n), A142150(A245627(n))]`
--/
-
-namespace A060979.P5913686302778209989
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000007 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142150 (A245627 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11 * SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A060979.P5913686302778209989
-
-noncomputable section
-
-/-- A060979: |First digit - second digit + third digit - fourth digit ...| = 11.
-
-Offset 1, canonical program `A060979.P5913686302778209989`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4374 terms. -/
-def A060979 (n : ℕ) : ℤ :=
-  (A060979.P5913686302778209989.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4374 terms. -/
-def A060979.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A061554.P3186504673658884258
 
@@ -9557,73 +8513,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6000 terms. -/
 def A061814.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A062269.P6653936082748876429
+/-! ## A061928.P7626325743492745551
 
-`eq[0, A053188(A038128(n))]`
+`A014410(n+2)*A133196(n+1)`
 -/
 
-namespace A062269.P6653936082748876429
+namespace A061928.P7626325743492745551
 noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053188 (A038128 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A062269.P6653936082748876429
-
-noncomputable section
-
-/-- A062269: Numbers k such that floor(gamma * k) is a square, where gamma is the Euler-Mascheroni constant (A001620).
-
-Offset 0, canonical program `A062269.P6653936082748876429`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. -/
-def A062269 (n : ℕ) : ℤ :=
-  (A062269.P6653936082748876429.a n : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. -/
-def A062269.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A062338.P8695219899618334486
-
-`A000040(lt[A007605(n+1)%4, 1]+1)`
--/
-
-namespace A062338.P8695219899618334486
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007605 (n + 1)) 4
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1)
+  A014410 (n + 2) * A133196 (n + 1)
 
 end
 
-end A062338.P8695219899618334486
+end A061928.P7626325743492745551
 
 noncomputable section
 
-/-- A062338: Primes whose sum of digits is a multiple of 4.
+/-- A061928: Array T(n,m) = 1/beta(n+1,m+1) read by antidiagonals.
 
-Offset 1, canonical program `A062338.P8695219899618334486`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2462 terms. -/
-def A062338 (n : ℕ) : ℤ :=
-  A062338.P8695219899618334486.a (n - 1)
+Offset 1, canonical program `A061928.P7626325743492745551`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A061928 (n : ℕ) : ℤ :=
+  A061928.P7626325743492745551.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2462 terms. -/
-def A062338.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A061928.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A062707.P7585015757933557598
 
@@ -9714,183 +8630,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A062957.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A064058.P300498006429403485
-
-`∑[A064057(n)-C(n+3, 3)]`
--/
-
-namespace A064058.P300498006429403485
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064057 n - (Nat.choose (n + 3) 3 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A064058.P300498006429403485
-
-noncomputable section
-
-/-- A064058: Ninth column of quintinomial coefficients.
-
-Offset 0, canonical program `A064058.P300498006429403485`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A064058 (n : ℕ) : ℤ :=
-  A064058.P300498006429403485.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A064058.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A064399.P18127450818113564184
-
-`lt[A004159(n), A007953(n)]`
--/
-
-namespace A064399.P18127450818113564184
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004159 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007953 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A064399.P18127450818113564184
-
-noncomputable section
-
-/-- A064399: Numbers k whose sum of digits exceeds the sum of the digits of k^2.
-
-Offset 1, canonical program `A064399.P18127450818113564184`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. -/
-def A064399 (n : ℕ) : ℤ :=
-  (A064399.P18127450818113564184.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. -/
-def A064399.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A064464.P4731212445350682202
-
-`ceil(log2(A060692(n+1)))`
--/
-
-namespace A064464.P4731212445350682202
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.logb 2 (A060692 (n + 1) : ℝ)⌉
-
-end
-
-end A064464.P4731212445350682202
-
-noncomputable section
-
-/-- A064464: Binary order (cf. A029837) of the number of parts if 3^n is partitioned into parts of size 2^n as far as possible and into parts of size 1^n (cf. A060692).
-
-Offset 1, canonical program `A064464.P4731212445350682202`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060692, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A064464 (n : ℕ) : ℤ :=
-  A064464.P4731212445350682202.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060692, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A064464.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A064789.P9104811540179186593
-
-`A057944(n)+abs(A056951(n+1))`
--/
-
-namespace A064789.P9104811540179186593
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057944 n + |A056951 (n + 1)|
-
-end
-
-end A064789.P9104811540179186593
-
-noncomputable section
-
-/-- A064789: Inverse permutation to A057028.
-
-Offset 1, canonical program `A064789.P9104811540179186593`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A064789 (n : ℕ) : ℤ :=
-  A064789.P9104811540179186593.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A064789.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A065073.P8599182111085404624
-
-`A062028(A000040(n+1))`
--/
-
-namespace A065073.P8599182111085404624
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062028 (A000040 (n + 1)).toNat
-
-end
-
-end A065073.P8599182111085404624
-
-noncomputable section
-
-/-- A065073: a(n) = prime(n) + (sum of digits of prime(n)).
-
-Offset 1, canonical program `A065073.P8599182111085404624`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A065073 (n : ℕ) : ℤ :=
-  A065073.P8599182111085404624.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A065073.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A065713.P2914558267731047984
-
-`A001370(2*n)`
--/
-
-namespace A065713.P2914558267731047984
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001370 (2 * n)
-
-end
-
-end A065713.P2914558267731047984
-
-noncomputable section
-
-/-- A065713: Sum of digits of 4^n.
-
-Offset 0, canonical program `A065713.P2914558267731047984`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
-def A065713 (n : ℕ) : ℤ :=
-  A065713.P2914558267731047984.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
-def A065713.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A065722.P14518484525193958893
 
@@ -10017,34 +8756,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014689, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A065890.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A065982.P2143420065164690676
-
-`A162551(n)+4*a(n-1)` with `a(0)=2`
--/
-
-namespace A065982.P2143420065164690676
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  A162551 n + 4 * a (n - 1)
-
-end
-
-end A065982.P2143420065164690676
-
-noncomputable section
-
-/-- A065982: a(n) = (n+1)*binomial(2*n,n) - 2^(2*n-1).
-
-Offset 1, canonical program `A065982.P2143420065164690676`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A065982 (n : ℕ) : ℤ :=
-  A065982.P2143420065164690676.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A065982.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A065994.P17973856597640154254
 
 `A000040(A014689(n+1))`
@@ -10072,65 +8783,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A014689, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A065994.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A066004.P14525788820147274037
-
-`A001370(3*n)`
--/
-
-namespace A066004.P14525788820147274037
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001370 (3 * n)
-
-end
-
-end A066004.P14525788820147274037
-
-noncomputable section
-
-/-- A066004: Sum of digits of 8^n.
-
-Offset 0, canonical program `A066004.P14525788820147274037`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3334 terms. -/
-def A066004 (n : ℕ) : ℤ :=
-  A066004.P14525788820147274037.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3334 terms. -/
-def A066004.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A066635.P3813954879404359062
-
-`A053188(n+1)+Δ[A000196(n)²]`
--/
-
-namespace A066635.P3813954879404359062
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053188 (n + 1) + (f1 (n + 1) - f1 n)
-
-end
-
-end A066635.P3813954879404359062
-
-noncomputable section
-
-/-- A066635: Distance from n to closest square different from n.
-
-Offset 1, canonical program `A066635.P3813954879404359062`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A066635 (n : ℕ) : ℤ :=
-  A066635.P3813954879404359062.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A066635.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A067002.P16545474126586428194
 
@@ -10160,34 +8812,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. -/
 def A067002.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A067294.P8664796393436630874
-
-`A038629(n)+A000108(n+2)`
--/
-
-namespace A067294.P8664796393436630874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038629 n + A000108 (n + 2)
-
-end
-
-end A067294.P8664796393436630874
-
-noncomputable section
-
-/-- A067294: Third column of triangle A028364.
-
-Offset 0, canonical program `A067294.P8664796393436630874`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. -/
-def A067294 (n : ℕ) : ℤ :=
-  A067294.P8664796393436630874.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. -/
-def A067294.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A067325.P15197000550133949116
 
 `A067324(n+1)-2*A000108(n+1)`
@@ -10215,74 +8839,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
 def A067325.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A067343.P8902143204584263014
-
-`eq[A007953(n), A067342(A028310(n))]`
--/
-
-namespace A067343.P8902143204584263014
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007953 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067342 (A028310 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A067343.P8902143204584263014
-
-noncomputable section
-
-/-- A067343: Sum of decimal digits of n equals sum of decimal digits of sum of divisors of n.
-
-Offset 1, canonical program `A067343.P8902143204584263014`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 459 terms. -/
-def A067343 (n : ℕ) : ℤ :=
-  (A067343.P8902143204584263014.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 459 terms. -/
-def A067343.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A067521.P8006543298138063662
-
-`(lt[(n+1)%A004159(n+1), 1]+1)²`
--/
-
-namespace A067521.P8006543298138063662
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (n + 1 : ℤ) (A004159 (n + 1))
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1) ^ 2
-
-end
-
-end A067521.P8006543298138063662
-
-noncomputable section
-
-/-- A067521: Numbers n such that the square root of n is an integer and a multiple of the sum of the digits of n.
-
-Offset 1, canonical program `A067521.P8006543298138063662`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 564 terms. -/
-def A067521 (n : ℕ) : ℤ :=
-  (A067521.P8006543298138063662.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 564 terms. -/
-def A067521.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A067673.P1166334490651037384
 
@@ -10403,108 +8959,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 462 terms. -/
 def A067981.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A068130.P8380932321966618756
-
-`A000217(eq[15, A004157(n)])`
--/
-
-namespace A068130.P8380932321966618756
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  15
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004157 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A068130.P8380932321966618756
-
-noncomputable section
-
-/-- A068130: Triangular numbers with sum of digits = 15.
-
-Offset 1, canonical program `A068130.P8380932321966618756`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 191 terms. -/
-def A068130 (n : ℕ) : ℤ :=
-  A068130.P8380932321966618756.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 191 terms. -/
-def A068130.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A068131.P296359315164383935
-
-`A000217(eq[21, A004157(n)])`
--/
-
-namespace A068131.P296359315164383935
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  21
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004157 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A068131.P296359315164383935
-
-noncomputable section
-
-/-- A068131: Triangular numbers with sum of digits = 21.
-
-Offset 1, canonical program `A068131.P296359315164383935`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. -/
-def A068131 (n : ℕ) : ℤ :=
-  A068131.P296359315164383935.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. -/
-def A068131.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A068132.P10501098146319111768
-
-`A000217(eq[28, A004157(n)])`
--/
-
-namespace A068132.P10501098146319111768
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  28
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004157 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A068132.P10501098146319111768
-
-noncomputable section
-
-/-- A068132: Triangular numbers with sum of digits = 28.
-
-Offset 1, canonical program `A068132.P10501098146319111768`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1185 terms. -/
-def A068132 (n : ℕ) : ℤ :=
-  A068132.P10501098146319111768.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1185 terms. -/
-def A068132.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A068363.P395449518968758804
 
 `p?[A034961(n+1)+A031165(n+2)]`
@@ -10536,93 +8990,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2086 terms. -/
 def A068363.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A068552.P16266079210275203260
-
-`n*A028329(n)-4^n`
--/
-
-namespace A068552.P16266079210275203260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A028329 n - (4 ^ n : ℤ)
-
-end
-
-end A068552.P16266079210275203260
-
-noncomputable section
-
-/-- A068552: 2n*binomial(2n,n) - 4^n.
-
-Offset 0, canonical program `A068552.P16266079210275203260`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A068552 (n : ℕ) : ℤ :=
-  A068552.P16266079210275203260.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A068552.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A068554.P15412628013919998094
-
-`A005430(n)-A000302(n)`
--/
-
-namespace A068554.P15412628013919998094
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005430 n - A000302 n
-
-end
-
-end A068554.P15412628013919998094
-
-noncomputable section
-
-/-- A068554: a(n) = n*binomial(2n, n) - 4^n.
-
-Offset 0, canonical program `A068554.P15412628013919998094`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005430, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A068554 (n : ℕ) : ℤ :=
-  A068554.P15412628013919998094.a n
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005430, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A068554.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A068807.P3891556660410364740
-
-`p?[A028838(n+1)]`
--/
-
-namespace A068807.P3891556660410364740
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028838 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A068807.P3891556660410364740
-
-noncomputable section
-
-/-- A068807: Primes whose sum of digits is a power of 2.
-
-Offset 1, canonical program `A068807.P3891556660410364740`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1409 terms. -/
-def A068807 (n : ℕ) : ℤ :=
-  A068807.P3891556660410364740.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1409 terms. -/
-def A068807.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A069011.P9337676359071489470
 
 `A002262(n)²+A003056(n)²`
@@ -10650,6 +9017,180 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A069011.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069482.P16607122436003558489
+
+`Δ[A066872(n+1)]`
+-/
+
+namespace A069482.P16607122436003558489
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066872 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A069482.P16607122436003558489
+
+noncomputable section
+
+/-- A069482: a(n) = prime(n+1)^2 - prime(n)^2.
+
+Offset 1, canonical program `A069482.P16607122436003558489`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069482 (n : ℕ) : ℤ :=
+  A069482.P16607122436003558489.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069482.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069896.P13065951481713959796
+
+`gcd(A048050(n+1), A053246(n+1))`
+-/
+
+namespace A069896.P13065951481713959796
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A048050 (n + 1)) (A053246 (n + 1))
+
+end
+
+end A069896.P13065951481713959796
+
+noncomputable section
+
+/-- A069896: GCD of consecutive values of Chowla's function.
+
+Offset 1, canonical program `A069896.P13065951481713959796`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069896 (n : ℕ) : ℤ :=
+  (A069896.P13065951481713959796.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069896.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069913.P4643640867168244816
+
+`A007429(n+1)-A007425(n+1)`
+-/
+
+namespace A069913.P4643640867168244816
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007429 (n + 1) - A007425 (n + 1)
+
+end
+
+end A069913.P4643640867168244816
+
+noncomputable section
+
+/-- A069913: a(n) = Sum_{d|n} (d-1)*tau(n/d).
+
+Offset 1, canonical program `A069913.P4643640867168244816`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A007429, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069913 (n : ℕ) : ℤ :=
+  A069913.P4643640867168244816.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A007429, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069913.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A070879.P1905303007827206191
+
+`A002487(∑[C(and(n+1, 2*n), n)]-n)`
+-/
+
+namespace A070879.P1905303007827206191
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (Nat.land (n + 1) (2 * n)) n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002487 (∑ j ∈ Finset.range (n + 1), f1 j - n)
+
+end
+
+end A070879.P1905303007827206191
+
+noncomputable section
+
+/-- A070879: Stern's diatomic array read by rows (version 3 - same as version 2, A070878, but with final 0 in each row omitted).
+
+Offset 0, canonical program `A070879.P1905303007827206191`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. -/
+def A070879 (n : ℕ) : ℤ :=
+  A070879.P1905303007827206191.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. -/
+def A070879.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A071029.P18335059563736865083
+
+`A070886(or(n, A021913(n)))`
+-/
+
+namespace A071029.P18335059563736865083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070886 (Int.lor (n : ℤ) (A021913 n)).toNat
+
+end
+
+end A071029.P18335059563736865083
+
+noncomputable section
+
+/-- A071029: Triangle read by rows giving successive states of cellular automaton generated by "Rule 22".
+
+Offset 0, canonical program `A071029.P18335059563736865083`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A071029 (n : ℕ) : ℤ :=
+  A071029.P18335059563736865083.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A071029.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A071040.P15735918044442240438
+
+`A071037(A020703(n+1)-1)`
+-/
+
+namespace A071040.P15735918044442240438
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071037 (A020703 (n + 1) - 1).toNat
+
+end
+
+end A071040.P15735918044442240438
+
+noncomputable section
+
+/-- A071040: Triangle read by rows giving successive states of cellular automaton generated by "Rule 214".
+
+Offset 0, canonical program `A071040.P15735918044442240438`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A071040 (n : ℕ) : ℤ :=
+  A071040.P15735918044442240438.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A071040.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A000150.P13871546353888305123
 
@@ -10713,6 +9254,37 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7206 terms. -/
 def A000452.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A000575.P241324822496640098
+
+`∑[A064058(n+1)]-A062988(n)`
+-/
+
+namespace A000575.P241324822496640098
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064058 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - A062988 n
+
+end
+
+end A000575.P241324822496640098
+
+noncomputable section
+
+/-- A000575: Tenth column of quintinomial coefficients.
+
+Offset 0, canonical program `A000575.P241324822496640098`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
+def A000575 (n : ℕ) : ℤ :=
+  A000575.P241324822496640098.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
+def A000575.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A001307.P15031898288533116587
 
 `∑[A358206(n)]`
@@ -10772,34 +9344,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. -/
 def A001656.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A001704.P2802870690856380017
-
-`A127421(n+2)`
--/
-
-namespace A001704.P2802870690856380017
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127421 (n + 2)
-
-end
-
-end A001704.P2802870690856380017
-
-noncomputable section
-
-/-- A001704: a(n) = n concatenated with n + 1.
-
-Offset 1, canonical program `A001704.P2802870690856380017`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A001704 (n : ℕ) : ℤ :=
-  A001704.P2802870690856380017.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A001704.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A001742.P4076269078881375086
 
 `A202267(A248910(n+1)+1)`
@@ -10827,62 +9371,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4298 terms. -/
 def A001742.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A002058.P5384101461092554470
-
-`2*A003516(n+2)`
--/
-
-namespace A002058.P5384101461092554470
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A003516 (n + 2)
-
-end
-
-end A002058.P5384101461092554470
-
-noncomputable section
-
-/-- A002058: Number of internal triangles in all triangulations of an (n+1)-gon.
-
-Offset 5, canonical program `A002058.P5384101461092554470`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003516, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A002058 (n : ℕ) : ℤ :=
-  A002058.P5384101461092554470.a (n - 5)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003516, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A002058.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A002059.P3521197572160926616
-
-`(n+3)*A002696(n+3)`
--/
-
-namespace A002059.P3521197572160926616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 3 : ℤ) * A002696 (n + 3)
-
-end
-
-end A002059.P3521197572160926616
-
-noncomputable section
-
-/-- A002059: Number of partitions of an n-gon into (n-4) parts.
-
-Offset 6, canonical program `A002059.P3521197572160926616`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. -/
-def A002059 (n : ℕ) : ℤ :=
-  A002059.P3521197572160926616.a (n - 6)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. -/
-def A002059.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A002215.P493053246518222214
 
@@ -10996,34 +9484,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001401, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A002622.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A002738.P2427408757081123955
-
-`3*A007744(n)`
--/
-
-namespace A002738.P2427408757081123955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A007744 n
-
-end
-
-end A002738.P2427408757081123955
-
-noncomputable section
-
-/-- A002738: Coefficients for extrapolation.
-
-Offset 0, canonical program `A002738.P2427408757081123955`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007744, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A002738 (n : ℕ) : ℤ :=
-  A002738.P2427408757081123955.a n
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007744, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A002738.provenance : SequenceMachineLib.Provenance := .conditional
-
 /-! ## A003082.P8532452631219291351
 
 `A090491(n)+a(n-3)` with `a(0)=1, a(1)=1, a(2)=3`
@@ -11085,6 +9545,37 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A003144.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A003247.P11452999673818249551
+
+`∑[A001950(n+1)-A003259(n+1)]`
+-/
+
+namespace A003247.P11452999673818249551
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001950 (n + 1) - A003259 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A003247.P11452999673818249551
+
+noncomputable section
+
+/-- A003247: Complement of A003248.
+
+Offset 1, canonical program `A003247.P11452999673818249551`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A003247 (n : ℕ) : ℤ :=
+  A003247.P11452999673818249551.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A003247.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A003402.P1085761914811690435
 
@@ -11170,34 +9661,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. -/
 def A004117.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A004331.P8053934310919869715
-
-`(n+1)*A002293(n+1)`
--/
-
-namespace A004331.P8053934310919869715
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A002293 (n + 1)
-
-end
-
-end A004331.P8053934310919869715
-
-noncomputable section
-
-/-- A004331: Binomial coefficient C(4n,n-1).
-
-Offset 1, canonical program `A004331.P8053934310919869715`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. -/
-def A004331 (n : ℕ) : ℤ :=
-  A004331.P8053934310919869715.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. -/
-def A004331.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A004735.P16541191645354368629
 
 `A004731(n+3)/gcd(2, n)`
@@ -11260,6 +9723,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A004764.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A004936.P716954522649507303
+
+`(A000108(n)/A170829(n))²`
+-/
+
+namespace A004936.P716954522649507303
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((A000108 n : ℚ) / (A170829 n : ℚ)) ^ 2
+
+end
+
+end A004936.P716954522649507303
+
+noncomputable section
+
+/-- A004936: Numerator of (binomial(2*n-2,n-1)/n!)^2.
+
+Offset 1, canonical program `A004936.P716954522649507303`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. -/
+def A004936 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A004936.P716954522649507303.a (n - 1))
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. -/
+def A004936.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A005559.P6024995097356233494
 
 `A005817(n+1)*A008619(n)`
@@ -11287,6 +9778,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. -/
 def A005559.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A005590.P3379431448846241054
+
+`A145865(A122155(n))`
+-/
+
+namespace A005590.P3379431448846241054
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A145865 (A122155 n).toNat
+
+end
+
+end A005590.P3379431448846241054
+
+noncomputable section
+
+/-- A005590: a(0) = 0, a(1) = 1, a(2n) = a(n), a(2n+1) = a(n+1) - a(n).
+
+Offset 0, canonical program `A005590.P3379431448846241054`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. -/
+def A005590 (n : ℕ) : ℤ :=
+  A005590.P3379431448846241054.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. -/
+def A005590.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A005929.P17002143773609211712
 
@@ -11352,34 +9871,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3156 terms. -/
 def A006073.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A007228.P14647912928645817974
-
-`A006632(n+1)+A069271(n)+A002293(n)`
--/
-
-namespace A007228.P14647912928645817974
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006632 (n + 1) + (A069271 n + A002293 n)
-
-end
-
-end A007228.P14647912928645817974
-
-noncomputable section
-
-/-- A007228: a(n) = 3*binomial(4*n,n)/(n+1).
-
-Offset 0, canonical program `A007228.P14647912928645817974`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
-def A007228 (n : ℕ) : ℤ :=
-  A007228.P14647912928645817974.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
-def A007228.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A007432.P16663120023730915232
 
@@ -11642,36 +10133,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A008442.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A008503.P1208465169182441661
+/-! ## A008493.P15021164243418089667
 
-`∑[A008492(n)]`
+`A000582(n+9)+A008503(n)-A008492(n)`
 -/
 
-namespace A008503.P1208465169182441661
+namespace A008493.P15021164243418089667
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008492 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A000582 (n + 9) + (A008503 n - A008492 n)
 
 end
 
-end A008503.P1208465169182441661
+end A008493.P15021164243418089667
 
 noncomputable section
 
-/-- A008503: 9-dimensional centered tetrahedral numbers.
+/-- A008493: Expansion of (1-x^11) / (1-x)^11.
 
-Offset 0, canonical program `A008503.P1208465169182441661`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A008503 (n : ℕ) : ℤ :=
-  A008503.P1208465169182441661.a n
+Offset 0, canonical program `A008493.P15021164243418089667`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A008493 (n : ℕ) : ℤ :=
+  A008493.P15021164243418089667.a n
 
 end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A008503.provenance : SequenceMachineLib.Provenance := .conjectured
+def A008493.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A008507.P5510179153814837351
 
@@ -12124,6 +10612,37 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 368 terms. -/
 def A018180.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A018212.P17984279171058020025
+
+`∑[A018211(n)]`
+-/
+
+namespace A018212.P17984279171058020025
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018211 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A018212.P17984279171058020025
+
+noncomputable section
+
+/-- A018212: Alkane (or paraffin) numbers l(11,n).
+
+Offset 0, canonical program `A018212.P17984279171058020025`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A018212 (n : ℕ) : ℤ :=
+  A018212.P17984279171058020025.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A018212.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A019460.P18320416044288335793
 
 `A081123(n)+A019463(n)`
@@ -12235,34 +10754,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060885, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A020519.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A020951.P2561957398097553159
-
-`A002487(A053646(n+1)+A000007(n))`
--/
-
-namespace A020951.P2561957398097553159
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002487 (A053646 (n + 1) + A000007 n).toNat
-
-end
-
-end A020951.P2561957398097553159
-
-noncomputable section
-
-/-- A020951: a(2n+1)=a(n), a(2n)=a(n)+a(n-1).
-
-Offset 0, canonical program `A020951.P2561957398097553159`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A020951 (n : ℕ) : ℤ :=
-  A020951.P2561957398097553159.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A020951.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A020966.P16300765011735899529
 
@@ -13336,42 +11827,14 @@ noncomputable section
 
 /-- A024469: a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n+1-k), where k = [ (n+1)/2 ], s = (Lucas numbers).
 
-Offset 1, canonical program `A024469.P6946807686841820033`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 466 terms. -/
+Offset 1, canonical program `A024469.P6946807686841820033`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 465 terms. -/
 def A024469 (n : ℕ) : ℤ :=
   (A024469.P6946807686841820033.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 466 terms. -/
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 465 terms. -/
 def A024469.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A024496.P15472247577001934284
-
-`A006632(n+1)+2*A069271(n)`
--/
-
-namespace A024496.P15472247577001934284
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006632 (n + 1) + 2 * A069271 n
-
-end
-
-end A024496.P15472247577001934284
-
-noncomputable section
-
-/-- A024496: a(n) = (3/(8n-4))*C(4n,n).
-
-Offset 1, canonical program `A024496.P15472247577001934284`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
-def A024496 (n : ℕ) : ℤ :=
-  A024496.P15472247577001934284.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
-def A024496.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A024553.P1583672994999301604
 
@@ -13428,34 +11891,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A024619.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A024720.P13827087372202772204
-
-`A224274(n)+a(n-1)` with `a(0)=1`
--/
-
-namespace A024720.P13827087372202772204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A224274 n + a (n - 1)
-
-end
-
-end A024720.P13827087372202772204
-
-noncomputable section
-
-/-- A024720: a(n) = (1/4)*(3 + Sum_{k=0..n} C(4k,k)).
-
-Offset 0, canonical program `A024720.P13827087372202772204`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. -/
-def A024720 (n : ℕ) : ℤ :=
-  A024720.P13827087372202772204.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. -/
-def A024720.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A024820.P4165797963061232133
 
@@ -13749,71 +12184,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. -/
 def A025304.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A025505.P1645131615138266658
-
-`record[2*A022303(n+1)+n]`
--/
-
-namespace A025505.P1645131615138266658
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A022303 (n + 1) + (n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A025505.P1645131615138266658
-
-noncomputable section
-
-/-- A025505: Index of n-th 2 in A006928.
-
-Offset 1, canonical program `A025505.P1645131615138266658`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A025505 (n : ℕ) : ℤ :=
-  A025505.P1645131615138266658.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A025505.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A025516.P3323921667527838167
-
-`lt[1, A022303(n+1)]+1`
--/
-
-namespace A025516.P3323921667527838167
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022303 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
-
-end
-
-end A025516.P3323921667527838167
-
-noncomputable section
-
-/-- A025516: Index of n-th 2 in A022303.
-
-Offset 1, canonical program `A025516.P3323921667527838167`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A025516 (n : ℕ) : ℤ :=
-  (A025516.P3323921667527838167.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A025516.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A025543.P5462002278886021902
 
 `lcm(a(n-1), A002808(n))` with `a(0)=1`
@@ -13872,34 +12242,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. -/
 def A025643.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A026005.P1831924511019717742
-
-`(n+1)*A069271(n)`
--/
-
-namespace A026005.P1831924511019717742
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A069271 n
-
-end
-
-end A026005.P1831924511019717742
-
-noncomputable section
-
-/-- A026005: a(n) = T(4*n,n), where T = Catalan triangle (A008315).
-
-Offset 0, canonical program `A026005.P1831924511019717742`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. -/
-def A026005 (n : ℕ) : ℤ :=
-  A026005.P1831924511019717742.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. -/
-def A026005.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A026008.P1049361676505189419
 
@@ -14020,6 +12362,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A026232.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A026239.P15837365085214578308
+
+`A073846(xor(A057427(n), A073898(n+1)))`
+-/
+
+namespace A026239.P15837365085214578308
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073846 (Int.xor (A057427 n) (A073898 (n + 1))).toNat
+
+end
+
+end A026239.P15837365085214578308
+
+noncomputable section
+
+/-- A026239: Beginning with the natural numbers, swap the k-th prime and k-th composite.
+
+Offset 1, canonical program `A026239.P15837365085214578308`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5758 terms. -/
+def A026239 (n : ℕ) : ℤ :=
+  A026239.P15837365085214578308.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5758 terms. -/
+def A026239.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A026360.P12649275342122522798
 
 `2*A026359(n+1)-1+n`
@@ -14048,95 +12418,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A026360.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A026617.P650469128402918254
+/-! ## A026671.P11258807246634829896
 
-`A053369(n)-A071721(n)`
+`A001076(n)+A176280(n)`
 -/
 
-namespace A026617.P650469128402918254
+namespace A026671.P11258807246634829896
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053369 n - A071721 n
+  A001076 n + A176280 n
 
 end
 
-end A026617.P650469128402918254
+end A026671.P11258807246634829896
 
 noncomputable section
 
-/-- A026617: a(n) = A026615(2*n, n-1).
+/-- A026671: Number of lattice paths from (0,0) to (n,n) with steps (0,1), (1,0) and, when on the diagonal, (1,1).
 
-Offset 1, canonical program `A026617.P650469128402918254`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. -/
-def A026617 (n : ℕ) : ℤ :=
-  A026617.P650469128402918254.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. -/
-def A026617.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A026618.P9524897013692992318
-
-`A002694(n+3)-Δ[Δ[A048060(2*(n+1))]]`
--/
-
-namespace A026618.P9524897013692992318
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048060 (2 * (n + 1))
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002694 (n + 3) - (f1 (n + 1) - f1 n)
+Offset 0, canonical program `A026671.P11258807246634829896`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A176280, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A026671 (n : ℕ) : ℤ :=
+  A026671.P11258807246634829896.a n
 
 end
 
-end A026618.P9524897013692992318
-
-noncomputable section
-
-/-- A026618: a(n) = A026618(2*n, n-2).
-
-Offset 2, canonical program `A026618.P9524897013692992318`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. -/
-def A026618 (n : ℕ) : ℤ :=
-  A026618.P9524897013692992318.a (n - 2)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. -/
-def A026618.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A026630.P8169030177295979061
-
-`A026619(n+1)-A014301(n+1)`
--/
-
-namespace A026630.P8169030177295979061
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026619 (n + 1) - A014301 (n + 1)
-
-end
-
-end A026630.P8169030177295979061
-
-noncomputable section
-
-/-- A026630: a(n) = A026626(2*n-1, n-1).
-
-Offset 1, canonical program `A026630.P8169030177295979061`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. -/
-def A026630 (n : ℕ) : ℤ :=
-  A026630.P8169030177295979061.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. -/
-def A026630.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A176280, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A026671.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A026812.P368867106460486570
 
@@ -14196,90 +12504,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. -/
 def A026943.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A027172.P9065674503103710683
-
-`A027175(n+1)+2`
--/
-
-namespace A027172.P9065674503103710683
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027175 (n + 1) + 2
-
-end
-
-end A027172.P9065674503103710683
-
-noncomputable section
-
-/-- A027172: a(n) = (1/2) * A027170(2n, n).
-
-Offset 1, canonical program `A027172.P9065674503103710683`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027175, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A027172 (n : ℕ) : ℤ :=
-  A027172.P9065674503103710683.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027175, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A027172.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A027305.P4063068465224588303
-
-`A242172(n)-A093387(n+1)`
--/
-
-namespace A027305.P4063068465224588303
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A242172 n - A093387 (n + 1)
-
-end
-
-end A027305.P4063068465224588303
-
-noncomputable section
-
-/-- A027305: a(n) = Sum_{k=0..floor((n+1)/2)} (k+1) * A008315(n, k).
-
-Offset 0, canonical program `A027305.P4063068465224588303`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. -/
-def A027305 (n : ℕ) : ℤ :=
-  A027305.P4063068465224588303.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. -/
-def A027305.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A027822.P16244193656879862890
-
-`2*(n+1)/10*A027821(n+4)`
--/
-
-namespace A027822.P16244193656879862890
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  2 * ((n + 1 : ℚ) / 10 * (A027821 (n + 4) : ℚ))
-
-end
-
-end A027822.P16244193656879862890
-
-noncomputable section
-
-/-- A027822: a(n) = 42*(n+1)*binomial(n+6,10).
-
-Offset 4, canonical program `A027822.P16244193656879862890`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
-def A027822 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A027822.P16244193656879862890.a (n - 4))
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
-def A027822.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A027833.P2673229578852313683
 
@@ -14345,37 +12569,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 927 terms. -/
 def A027857.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A027952.P14487123218290733274
-
-`A053309(record[n*n%2])`
--/
-
-namespace A027952.P14487123218290733274
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * (n % 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053309 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))
-
-end
-
-end A027952.P14487123218290733274
-
-noncomputable section
-
-/-- A027952: a(n) = T(2n,n+4), T given by A027948.
-
-Offset 4, canonical program `A027952.P14487123218290733274`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. -/
-def A027952 (n : ℕ) : ℤ :=
-  A027952.P14487123218290733274.a (n - 4)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. -/
-def A027952.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A028334.P17947733201026886086
 
@@ -14639,13 +12832,13 @@ noncomputable section
 
 /-- A029740: Odd numbers with distinct digits.
 
-Offset 1, canonical program `A029740.P619217809888464575`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3949 terms. -/
+Offset 1, canonical program `A029740.P619217809888464575`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4888 terms. -/
 def A029740 (n : ℕ) : ℤ :=
   (A029740.P619217809888464575.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3949 terms. -/
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4888 terms. -/
 def A029740.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A029741.P12647028783667257905
@@ -14674,13 +12867,13 @@ noncomputable section
 
 /-- A029741: Even numbers with distinct digits.
 
-Offset 1, canonical program `A029741.P12647028783667257905`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4350 terms. -/
+Offset 1, canonical program `A029741.P12647028783667257905`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5112 terms. -/
 def A029741 (n : ℕ) : ℤ :=
   (A029741.P12647028783667257905.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4350 terms. -/
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5112 terms. -/
 def A029741.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A029832.P6927503962102262836
@@ -14738,34 +12931,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A029833.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A029883.P16402799982168113119
-
-`2-A007413(n+1)`
--/
-
-namespace A029883.P16402799982168113119
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A007413 (n + 1)
-
-end
-
-end A029883.P16402799982168113119
-
-noncomputable section
-
-/-- A029883: First differences of Thue-Morse sequence A001285.
-
-Offset 1, canonical program `A029883.P16402799982168113119`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007413, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A029883 (n : ℕ) : ℤ :=
-  A029883.P16402799982168113119.a (n - 1)
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007413, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A029883.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A030006.P7736794775842458342
 
@@ -14881,37 +13046,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
 def A030513.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A030656.P12769284707998713729
-
-`A127421(Δ[n²])`
--/
-
-namespace A030656.P12769284707998713729
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127421 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
-
-end
-
-end A030656.P12769284707998713729
-
-noncomputable section
-
-/-- A030656: Pair up the numbers.
-
-Offset 0, canonical program `A030656.P12769284707998713729`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A030656 (n : ℕ) : ℤ :=
-  A030656.P12769284707998713729.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A030656.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A031167.P10444615864616743603
 
@@ -15246,6 +13380,65 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 894 terms. -/
 def A034051.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A034274.P3693840692117694116
+
+`1/2*A180266(n+2)`
+-/
+
+namespace A034274.P3693840692117694116
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 2 * (A180266 (n + 2) : ℚ)
+
+end
+
+end A034274.P3693840692117694116
+
+noncomputable section
+
+/-- A034274: a(n)=f(n,n-1) where f is given in A034261.
+
+Offset 1, canonical program `A034274.P3693840692117694116`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A180266, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A034274 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A034274.P3693840692117694116.a (n - 1))
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A180266, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A034274.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A034737.P1233646584205894789
+
+`∑{d}[n+1, #*A034729((n+1)/#)]`
+-/
+
+namespace A034737.P1233646584205894789
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), (d : ℤ) * A034729 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat
+
+end
+
+end A034737.P1233646584205894789
+
+noncomputable section
+
+/-- A034737: Dirichlet convolution of b_n=2^(n-1) with sigma(n).
+
+Offset 1, canonical program `A034737.P1233646584205894789`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. -/
+def A034737 (n : ℕ) : ℤ :=
+  A034737.P1233646584205894789.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. -/
+def A034737.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A034746.P17647171061663066197
 
 `∑{d}[n+1, A000045(#)*A008578((n+1)/#)]`
@@ -15369,6 +13562,37 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A034759.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A034771.P14136708575511469544
+
+`∑{d}[n+1, A034729(#)]`
+-/
+
+namespace A034771.P14136708575511469544
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n), A034729 d
+
+end
+
+end A034771.P14136708575511469544
+
+noncomputable section
+
+/-- A034771: Dirichlet convolution of d(n) (# of divisors) with b_n=2^(n-1).
+
+Offset 1, canonical program `A034771.P14136708575511469544`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. -/
+def A034771 (n : ℕ) : ℤ :=
+  A034771.P14136708575511469544.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. -/
+def A034771.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A034772.P11684027232908170233
 
@@ -16454,6 +14678,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. -/
 def A041001.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A042971.P10072078429808819715
+
+`A005654(n+1)-A116406(n+1)`
+-/
+
+namespace A042971.P10072078429808819715
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005654 (n + 1) - A116406 (n + 1)
+
+end
+
+end A042971.P10072078429808819715
+
+noncomputable section
+
+/-- A042971: a(n) = (C(2n, n)/2 - (2^(n-1) + ((n+1) mod 2)*C(n-1, n/2-1)))/2.
+
+Offset 1, canonical program `A042971.P10072078429808819715`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
+def A042971 (n : ℕ) : ℤ :=
+  A042971.P10072078429808819715.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. -/
+def A042971.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A043285.P857067819011013542
 
 `A089309(A137688(n))+val(n+1, 12)`
@@ -17385,6 +15637,36 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9721 terms. -/
 def A047075.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A047099.P10041740196740171464
+
+`A047098(n+1)/2`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A047099.P10041740196740171464
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A047098 (n + 1) : ℚ) / 2
+
+end
+
+end A047099.P10041740196740171464
+
+noncomputable section
+
+/-- A047099: a(n) = A047098(n)/2.
+
+Offset 1, canonical program `A047099.P10041740196740171464`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A047098, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A047099 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A047099.P10041740196740171464.a (n - 1))
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A047098, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A047099.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A047171.P3617621157085985974
 
 `A057428(n)+A037952(n)`
@@ -17412,37 +15694,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. -/
 def A047171.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A047791.P9707445729224729229
-
-`record[(n+1)*A010051(A062028(n+1))]`
--/
-
-namespace A047791.P9707445729224729229
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A010051 (A062028 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A047791.P9707445729224729229
-
-noncomputable section
-
-/-- A047791: Numbers n such that n plus digit sum of n (A007953) equals a prime.
-
-Offset 1, canonical program `A047791.P9707445729224729229`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1234 terms. -/
-def A047791 (n : ℕ) : ℤ :=
-  A047791.P9707445729224729229.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1234 terms. -/
-def A047791.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A048105.P14513846835403787716
 
@@ -17737,34 +15988,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8730 terms. -/
 def A049591.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A049710.P6790608665925512686
-
-`3-A006928(n+1)`
--/
-
-namespace A049710.P6790608665925512686
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 - A006928 (n + 1)
-
-end
-
-end A049710.P6790608665925512686
-
-noncomputable section
-
-/-- A049710: a(n)=3-k(n), where k=A006928; also, a and k have the same runlength sequence, with n-th term k(n-1) for n >= 2.
-
-Offset 1, canonical program `A049710.P6790608665925512686`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A049710 (n : ℕ) : ℤ :=
-  A049710.P6790608665925512686.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A049710.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A050361.P4609984906141832222
 
@@ -18394,6 +16617,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1508 terms. -/
 def A053240.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A053405.P14811944541059498351
+
+`A257213(n+3)+1`
+-/
+
+namespace A053405.P14811944541059498351
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257213 (n + 3) + 1
+
+end
+
+end A053405.P14811944541059498351
+
+noncomputable section
+
+/-- A053405: Definition: A kara B = C, where C is the least nonnegative integer such that C * B >= A and C * (B-1) < A. a(n) is the smallest k such that n kara k is undefined.
+
+Offset 4, canonical program `A053405.P14811944541059498351`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A257213, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A053405 (n : ℕ) : ℤ :=
+  A053405.P14811944541059498351.a (n - 4)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A257213, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A053405.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A053619.P10354207084326631963
 
 `A053621(n+1)-∑[A010051(n+1)]`
@@ -18639,33 +16890,33 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A054072.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A054429.P15830505809377255820
+/-! ## A054388.P5591882632319717874
 
-`A063946(A117120(n+1))`
+`A002595(n)/gcd(A002595(n), A008574(n))`
 -/
 
-namespace A054429.P15830505809377255820
+namespace A054388.P5591882632319717874
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063946 (A117120 (n + 1)).toNat
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002595 n : ℚ) / (Int.gcd (A002595 n) (A008574 n) : ℚ)
 
 end
 
-end A054429.P15830505809377255820
+end A054388.P5591882632319717874
 
 noncomputable section
 
-/-- A054429: Simple self-inverse permutation of natural numbers: list each block of 2^n numbers (from 2^n to 2^(n+1) - 1) in reverse order.
+/-- A054388: Denominators of coefficients of 1/2^(2n+1) in Newton's series for Pi.
 
-Offset 1, canonical program `A054429.P15830505809377255820`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063946, A117120, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A054429 (n : ℕ) : ℤ :=
-  A054429.P15830505809377255820.a (n - 1)
+Offset 0, canonical program `A054388.P5591882632319717874`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
+def A054388 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A054388.P5591882632319717874.a n)
 
 end
 
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063946, A117120, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A054429.provenance : SequenceMachineLib.Provenance := .conditional
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
+def A054388.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A054519.P3292618312068876157
 
@@ -18834,34 +17085,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. -/
 def A055220.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A055400.P8178279629635040158
-
-`n-A048762(n)`
--/
-
-namespace A055400.P8178279629635040158
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - A048762 n
-
-end
-
-end A055400.P8178279629635040158
-
-noncomputable section
-
-/-- A055400: Cube excess: difference between n and largest cube <= n.
-
-Offset 0, canonical program `A055400.P8178279629635040158`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048762, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A055400 (n : ℕ) : ℤ :=
-  A055400.P8178279629635040158.a n
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048762, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A055400.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A055436.P5718012716904594171
 
@@ -19189,34 +17412,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056324, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A056329.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A056615.P1407836327564812227
-
-`(A099908(n+1)-1)%(n+1)²`
--/
-
-namespace A056615.P1407836327564812227
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A099908 (n + 1) - 1) ((n + 1) ^ 2 : ℤ)
-
-end
-
-end A056615.P1407836327564812227
-
-noncomputable section
-
-/-- A056615: Binomial(2*n - 1, n - 1) - 1 (mod n^2).
-
-Offset 1, canonical program `A056615.P1407836327564812227`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A056615 (n : ℕ) : ℤ :=
-  A056615.P1407836327564812227.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A056615.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A056925.P9728593941335423866
 
 `(n+1)^A056924(n+1)`
@@ -19304,33 +17499,33 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A057334.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A057467.P16767717287509129443
+/-! ## A057467.P15766535263390806898
 
-`gcd(A001223(n+1), A031131(n+1))`
+`gcd(A001223(n+2), A001223(n+1))`
 -/
 
-namespace A057467.P16767717287509129443
+namespace A057467.P15766535263390806898
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A001223 (n + 1)) (A031131 (n + 1))
+  Int.gcd (A001223 (n + 2)) (A001223 (n + 1))
 
 end
 
-end A057467.P16767717287509129443
+end A057467.P15766535263390806898
 
 noncomputable section
 
 /-- A057467: GCD of n-th and (n+1)-st term in the sequence of first differences between primes, A001223.
 
-Offset 1, canonical program `A057467.P16767717287509129443`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+Offset 1, canonical program `A057467.P15766535263390806898`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001223, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A057467 (n : ℕ) : ℤ :=
-  (A057467.P16767717287509129443.a (n - 1) : ℤ)
+  (A057467.P15766535263390806898.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A057467.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001223, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A057467.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A057494.P2374338064675521297
 
@@ -19481,6 +17676,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A057891.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A058077.P18344595170933867662
+
+`C(A000040(n+2), A001223(n+1))`
+-/
+
+namespace A058077.P18344595170933867662
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A000040 (n + 2)).toNat (A001223 (n + 1)).toNat
+
+end
+
+end A058077.P18344595170933867662
+
+noncomputable section
+
+/-- A058077: Binomial coefficients formed from consecutive primes: a(n) = binomial( prime(n+1), prime(n) ).
+
+Offset 1, canonical program `A058077.P18344595170933867662`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A001223, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A058077 (n : ℕ) : ℤ :=
+  (A058077.P18344595170933867662.a (n - 1) : ℤ)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A001223, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A058077.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A059246.P1456171731783157114
 
 `lcm(n+1, A006218(n+1))/(n+1)`
@@ -19509,34 +17732,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A059246.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A059288.P6667582842905046233
-
-`(2*A099908(n+1))%(n+1)`
--/
-
-namespace A059288.P6667582842905046233
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (2 * A099908 (n + 1)) (n + 1 : ℤ)
-
-end
-
-end A059288.P6667582842905046233
-
-noncomputable section
-
-/-- A059288: a(n) = binomial(2*n,n) mod n.
-
-Offset 1, canonical program `A059288.P6667582842905046233`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A059288 (n : ℕ) : ℤ :=
-  A059288.P6667582842905046233.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A059288.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A059292.P13391037705740320393
 
 `A049820(n+1)+2`
@@ -19564,37 +17759,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049820, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A059292.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A060105.P4951254481858871071
-
-`∑[A059602(n)+A059601(n)]-A059602(n)`
--/
-
-namespace A060105.P4951254481858871071
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059602 n + A059601 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - A059602 n
-
-end
-
-end A060105.P4951254481858871071
-
-noncomputable section
-
-/-- A060105: Sixth column (m=5) of triangle A060102.
-
-Offset 0, canonical program `A060105.P4951254481858871071`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A060105 (n : ℕ) : ℤ :=
-  A060105.P4951254481858871071.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A060105.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A060234.P17356311295307121818
 
@@ -19652,65 +17816,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A080846, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A060236.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A060278.P961630484478703475
-
-`A206773(n+1)-round(n/(n+1))`
--/
-
-namespace A060278.P961630484478703475
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A206773 (n + 1) - SequenceMachineLib.roundAway ((n : ℚ) / (n + 1 : ℚ))
-
-end
-
-end A060278.P961630484478703475
-
-noncomputable section
-
-/-- A060278: Sum of composite divisors of n less than n.
-
-Offset 1, canonical program `A060278.P961630484478703475`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A060278 (n : ℕ) : ℤ :=
-  A060278.P961630484478703475.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A060278.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A060559.P18293250184439803468
-
-`∑[(A059602(n)+A059601(n))/2]`
--/
-
-namespace A060559.P18293250184439803468
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A059602 n + A059601 n : ℚ) / 2
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A060559.P18293250184439803468
-
-noncomputable section
-
-/-- A060559: One half of sixth column (m=5) of triangle A060556.
-
-Offset 0, canonical program `A060559.P18293250184439803468`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A060559 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A060559.P18293250184439803468.a n)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A060559.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A060832.P6221694055297476933
 
 `a(n-1)+A055881(n)` with `a(0)=0`
@@ -19766,6 +17871,36 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005097, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A061066.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A061085.P5924400067001465222
+
+`A019550(n+1)/3`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A061085.P5924400067001465222
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A019550 (n + 1) : ℚ) / 3
+
+end
+
+end A061085.P5924400067001465222
+
+noncomputable section
+
+/-- A061085: a(n) = A019550(n) / 3.
+
+Offset 1, canonical program `A061085.P5924400067001465222`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019550, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A061085 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A061085.P5924400067001465222.a (n - 1))
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019550, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A061085.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A061397.P17730824645895443051
 
@@ -19907,6 +18042,34 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034444, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A061537.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A061680.P8755189030702859138
+
+`gcd(A048691(n+1), A000005(n+1))`
+-/
+
+namespace A061680.P8755189030702859138
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A048691 (n + 1)) (A000005 (n + 1))
+
+end
+
+end A061680.P8755189030702859138
+
+noncomputable section
+
+/-- A061680: a(n) = gcd(d(n^2), d(n)).
+
+Offset 1, canonical program `A061680.P8755189030702859138`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A048691, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A061680 (n : ℕ) : ℤ :=
+  (A061680.P8755189030702859138.a (n - 1) : ℤ)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A048691, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A061680.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A061838.P10671917777384719382
 
 `A061751(n+1)-2`
@@ -19968,99 +18131,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 127 terms. -/
 def A061867.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A062037.P16385492444936946523
-
-`eq[A007954(n), A008486(A169805(n))]`
--/
-
-namespace A062037.P16385492444936946523
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007954 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008486 (A169805 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A062037.P16385492444936946523
-
-noncomputable section
-
-/-- A062037: Positive numbers whose product of digits is 6 times their sum.
-
-Offset 1, canonical program `A062037.P16385492444936946523`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. -/
-def A062037 (n : ℕ) : ℤ :=
-  (A062037.P16385492444936946523.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. -/
-def A062037.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A062330.P1434482193101896200
-
-`A062331(a(n-1))` with `a(0)=2`
--/
-
-namespace A062330.P1434482193101896200
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  A062331 (a (n - 1)).toNat
-
-end
-
-end A062330.P1434482193101896200
-
-noncomputable section
-
-/-- A062330: a(n) = product of the sum and product of the digits of a(n-1) (0 is not to be considered a factor in the product).
-
-Offset 1, canonical program `A062330.P1434482193101896200`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A062330 (n : ℕ) : ℤ :=
-  A062330.P1434482193101896200.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A062330.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A062342.P3421117723688188329
-
-`p?[A273188(n+1)]`
--/
-
-namespace A062342.P3421117723688188329
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A273188 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A062342.P3421117723688188329
-
-noncomputable section
-
-/-- A062342: Primes whose sum of digits is a multiple of 8.
-
-Offset 1, canonical program `A062342.P3421117723688188329`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 782 terms. -/
-def A062342 (n : ℕ) : ℤ :=
-  A062342.P3421117723688188329.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 782 terms. -/
-def A062342.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A062371.P18105862137816597211
 
@@ -20181,37 +18251,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, A029835, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A062590.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A062753.P6486166718394067354
-
-`filter[A268620(n+2), A121262(#)]`
--/
-
-namespace A062753.P6486166718394067354
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A268620 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A121262 (f1 j).toNat = 1) n)
-
-end
-
-end A062753.P6486166718394067354
-
-noncomputable section
-
-/-- A062753: Multiples of 4 whose sum of digits is also a multiple of 4.
-
-Offset 1, canonical program `A062753.P6486166718394067354`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2499 terms. -/
-def A062753 (n : ℕ) : ℤ :=
-  A062753.P6486166718394067354.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2499 terms. -/
-def A062753.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A062758.P10816466318006647829
 
@@ -20473,6 +18512,37 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A063086.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A063264.P15008203233816380364
+
+`A034263(n)+∑[A064058(n)]`
+-/
+
+namespace A063264.P15008203233816380364
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064058 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034263 n + ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A063264.P15008203233816380364
+
+noncomputable section
+
+/-- A063264: Tenth column (k=9) of sextinomial array A063260.
+
+Offset 0, canonical program `A063264.P15008203233816380364`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A063264 (n : ℕ) : ℤ :=
+  A063264.P15008203233816380364.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A063264.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A063479.P3402868684958619055
 
@@ -21067,40 +19137,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. -/
 def A065228.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A065348.P1935091354727821189
-
-`eq[0, A065345(n+1)]+1`
--/
-
-namespace A065348.P1935091354727821189
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065345 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A065348.P1935091354727821189
-
-noncomputable section
-
-/-- A065348: Positions of zeros in A065345.
-
-Offset 1, canonical program `A065348.P1935091354727821189`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8862 terms. -/
-def A065348 (n : ℕ) : ℤ :=
-  (A065348.P1935091354727821189.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8862 terms. -/
-def A065348.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A065359.P2716114422933254065
 
 `A139351(n)-A139352(n)`
@@ -21276,6 +19312,34 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A065858.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A065859.P11041658421309913817
+
+`A000040(n+1)%A002808(n+1)`
+-/
+
+namespace A065859.P11041658421309913817
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000040 (n + 1)) (A002808 (n + 1))
+
+end
+
+end A065859.P11041658421309913817
+
+noncomputable section
+
+/-- A065859: Remainder when the n-th prime is divided by the n-th composite number.
+
+Offset 1, canonical program `A065859.P11041658421309913817`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A065859 (n : ℕ) : ℤ :=
+  A065859.P11041658421309913817.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A065859.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A065861.P13523811029634715553
 
@@ -21522,14 +19586,14 @@ noncomputable section
 
 /-- A067563: Product of n-th prime number and n-th composite number.
 
-Offset 1, canonical program `A067563.P8241945958915333115`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+Offset 1, canonical program `A067563.P8241945958915333115`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A067563 (n : ℕ) : ℤ :=
   A067563.P8241945958915333115.a (n - 1)
 
 end
 
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
-def A067563.provenance : SequenceMachineLib.Provenance := .conditional
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A067563.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A067720.P10605338190023800648
 
@@ -21564,6 +19628,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 181 terms. -/
 def A067720.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A067747.P14118183397394803050
+
+`A000040(ceil((n+1)/2))*A000035(n+1)+A002808(ceil((n+1)/2))*A059841(n+1)`
+-/
+
+namespace A067747.P14118183397394803050
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 ⌈(n + 1 : ℚ) / 2⌉.toNat * A000035 (n + 1) + A002808 ⌈(n + 1 : ℚ) / 2⌉.toNat * A059841 (n + 1)
+
+end
+
+end A067747.P14118183397394803050
+
+noncomputable section
+
+/-- A067747: Primes interleaved between composite numbers: n-th prime followed by the n-th composite number.
+
+Offset 1, canonical program `A067747.P14118183397394803050`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A067747 (n : ℕ) : ℤ :=
+  A067747.P14118183397394803050.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A067747.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A067792.P11711498623631889729
 
@@ -22077,6 +20169,329 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A069102.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A069171.P16058303323936119467
+
+`A002808(eq[3, A260626(n+1)])`
+-/
+
+namespace A069171.P16058303323936119467
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260626 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002808 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A069171.P16058303323936119467
+
+noncomputable section
+
+/-- A069171: Numbers k such that gcd(k, 2^k-1) = 3.
+
+Offset 1, canonical program `A069171.P16058303323936119467`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 906 terms. -/
+def A069171 (n : ℕ) : ℤ :=
+  A069171.P16058303323936119467.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 906 terms. -/
+def A069171.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069549.P12382925364838237052
+
+`A007918(n+1)²`
+-/
+
+namespace A069549.P12382925364838237052
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007918 (n + 1) ^ 2
+
+end
+
+end A069549.P12382925364838237052
+
+noncomputable section
+
+/-- A069549: Smallest composite k such that phi(k) > k*(1-1/n).
+
+Offset 1, canonical program `A069549.P12382925364838237052`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069549 (n : ℕ) : ℤ :=
+  A069549.P12382925364838237052.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069549.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069709.P16883846701480238033
+
+`p?[A061383(n)]`
+-/
+
+namespace A069709.P16883846701480238033
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061383 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A069709.P16883846701480238033
+
+noncomputable section
+
+/-- A069709: Primes with arithmetic mean of digits an integer (sum of digits = a multiple of number of digits).
+
+Offset 1, canonical program `A069709.P16883846701480238033`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1009 terms. -/
+def A069709 (n : ℕ) : ℤ :=
+  A069709.P16883846701480238033.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1009 terms. -/
+def A069709.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069754.P3749326683592309517
+
+`∑[(A010051(n+1)-A010051(A028310(n)))²]`
+-/
+
+namespace A069754.P3749326683592309517
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A010051 (n + 1) - A010051 (A028310 n).toNat) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A069754.P3749326683592309517
+
+noncomputable section
+
+/-- A069754: Counts transitions between prime and nonprime to reach the number n.
+
+Offset 1, canonical program `A069754.P3749326683592309517`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069754 (n : ℕ) : ℤ :=
+  A069754.P3749326683592309517.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069754.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A070546.P6456143545485569330
+
+`∑[A036987(A009191(n+1)²)]`
+-/
+
+namespace A070546.P6456143545485569330
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036987 (A009191 (n + 1) ^ 2).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A070546.P6456143545485569330
+
+noncomputable section
+
+/-- A070546: a(n) = Card( k, 0
+
+Offset 1, canonical program `A070546.P6456143545485569330`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A070546 (n : ℕ) : ℤ :=
+  A070546.P6456143545485569330.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A070546.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A070866.P12632349183962327222
+
+`A007918(2*a(n-1)-a(n-2))` with `a(0)=2, a(1)=3`
+-/
+
+namespace A070866.P12632349183962327222
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2, 3] fun n a =>
+  A007918 (2 * a (n - 1) - a (n - 2)).toNat
+
+end
+
+end A070866.P12632349183962327222
+
+noncomputable section
+
+/-- A070866: Smallest prime such that the difference of successive terms is nondecreasing.
+
+Offset 1, canonical program `A070866.P12632349183962327222`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A070866 (n : ℕ) : ℤ :=
+  A070866.P12632349183962327222.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A070866.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A070909.P18225673285116895919
+
+`A128227(n)%2`
+-/
+
+namespace A070909.P18225673285116895919
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A128227 n) 2
+
+end
+
+end A070909.P18225673285116895919
+
+noncomputable section
+
+/-- A070909: Triangle read by rows giving successive states of cellular automaton generated by "Rule 28" and by "Rule 156".
+
+Offset 0, canonical program `A070909.P18225673285116895919`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A070909 (n : ℕ) : ℤ :=
+  A070909.P18225673285116895919.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A070909.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A071111.P7558974791234017135
+
+`A001000(n+2)`
+-/
+
+namespace A071111.P7558974791234017135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001000 (n + 2)
+
+end
+
+end A071111.P7558974791234017135
+
+noncomputable section
+
+/-- A071111: a(n) is the least integer x such that there exists an integer in the open interval (x/(i+1), x/i) for i= n-1, n-2 ..., 3, 2, 1.
+
+Offset 2, canonical program `A071111.P7558974791234017135`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1006 terms. -/
+def A071111 (n : ℕ) : ℤ :=
+  A071111.P7558974791234017135.a (n - 2)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1006 terms. -/
+def A071111.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A071228.P4535194681487630780
+
+`(n+1)*A002808(n+1)`
+-/
+
+namespace A071228.P4535194681487630780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A002808 (n + 1)
+
+end
+
+end A071228.P4535194681487630780
+
+noncomputable section
+
+/-- A071228: a(n) = n*(n-th composite number).
+
+Offset 1, canonical program `A071228.P4535194681487630780`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A071228 (n : ℕ) : ℤ :=
+  A071228.P4535194681487630780.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A071228.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A071259.P17396136488218185286
+
+`floor((A000040(n+1)+A002808(n+1))/2)`
+-/
+
+namespace A071259.P17396136488218185286
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A000040 (n + 1) + A002808 (n + 1) : ℚ) / 2⌋
+
+end
+
+end A071259.P17396136488218185286
+
+noncomputable section
+
+/-- A071259: Integer part of the arithmetic mean of the n-th prime p(n) and the n-th composite number C(n).
+
+Offset 1, canonical program `A071259.P17396136488218185286`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A071259 (n : ℕ) : ℤ :=
+  A071259.P17396136488218185286.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A071259.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A071263.P13313201786565210703
+
+`A017281(n+1)+A010051(A017281(n+1))`
+-/
+
+namespace A071263.P13313201786565210703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017281 (n + 1) + A010051 (A017281 (n + 1)).toNat
+
+end
+
+end A071263.P13313201786565210703
+
+noncomputable section
+
+/-- A071263: Smallest nontrivial composite number beginning with n.
+
+Offset 1, canonical program `A071263.P13313201786565210703`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
+def A071263 (n : ℕ) : ℤ :=
+  A071263.P13313201786565210703.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
+def A071263.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A000086.P3359847833353072450
 
 `A065959(n+1)%9`
@@ -22104,34 +20519,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A000086.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A000260.P7752680408884611661
-
-`gcd(A006632(n+1), A069271(n))`
--/
-
-namespace A000260.P7752680408884611661
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A006632 (n + 1)) (A069271 n)
-
-end
-
-end A000260.P7752680408884611661
-
-noncomputable section
-
-/-- A000260: Number of rooted simplicial 3-polytopes with n+3 nodes; or rooted 3-connected triangulations with 2n+2 faces; or rooted 3-connected trivalent maps with 2n+2 vertices.
-
-Offset 0, canonical program `A000260.P7752680408884611661`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
-def A000260 (n : ℕ) : ℤ :=
-  (A000260.P7752680408884611661.a n : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
-def A000260.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A001157.P6892814788348726787
 
@@ -22276,34 +20663,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006218, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A002541.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A002595.P16312294971091469907
-
-`A046161(n)*A056617(n)`
--/
-
-namespace A002595.P16312294971091469907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046161 n * A056617 n
-
-end
-
-end A002595.P16312294971091469907
-
-noncomputable section
-
-/-- A002595: Denominators of Taylor series expansion of arcsin(x). Also arises from arccos(x), arccsc(x), arcsec(x), arcsinh(x).
-
-Offset 0, canonical program `A002595.P16312294971091469907`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A002595 (n : ℕ) : ℤ :=
-  A002595.P16312294971091469907.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. -/
-def A002595.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A003158.P15521823830310252341
 
 `A003157(n+1)-1`
@@ -22331,37 +20690,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003157, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A003158.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A003247.P11452999673818249551
-
-`∑[A001950(n+1)-A003259(n+1)]`
--/
-
-namespace A003247.P11452999673818249551
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001950 (n + 1) - A003259 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A003247.P11452999673818249551
-
-noncomputable section
-
-/-- A003247: Complement of A003248.
-
-Offset 1, canonical program `A003247.P11452999673818249551`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A003247 (n : ℕ) : ℤ :=
-  A003247.P11452999673818249551.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A003247.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A003645.P9793536378345761660
 
@@ -23167,34 +21495,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 467 terms. -/
 def A024459.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A024548.P12287716097256940790
-
-`floor(A194028(n+1)/A120864(n+1))`
--/
-
-namespace A024548.P12287716097256940790
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A194028 (n + 1) : ℚ) / (A120864 (n + 1) : ℚ)⌋
-
-end
-
-end A024548.P12287716097256940790
-
-noncomputable section
-
-/-- A024548: [ 1/{n*sqrt(3)} ], where {x} := x - [ x ].
-
-Offset 1, canonical program `A024548.P12287716097256940790`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A024548 (n : ℕ) : ℤ :=
-  A024548.P12287716097256940790.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A024548.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A025225.P15758787713115943274
 
@@ -24399,40 +22699,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6561 terms. -/
 def A037912.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A038366.P4711874104874146746
-
-`eq[lcm(n, A061762(n)), A028310(n)]`
--/
-
-namespace A038366.P4711874104874146746
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (n : ℤ) (A061762 n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A038366.P4711874104874146746
-
-noncomputable section
-
-/-- A038366: n is divisible by (product of digits) + (sum of digits).
-
-Offset 1, canonical program `A038366.P4711874104874146746`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 769 terms. -/
-def A038366 (n : ℕ) : ℤ :=
-  (A038366.P4711874104874146746.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 769 terms. -/
-def A038366.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A038513.P216814139241609581
 
 `filter[A046316(n+1), A187074(#)]`
@@ -24615,41 +22881,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9905 terms. -/
 def A038618.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A039393.P4198254221456296311
-
-`∩[A039112(n+1), A062997(n+1)]`
--/
-
-namespace A039393.P4198254221456296311
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039112 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062997 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A039393.P4198254221456296311
-
-noncomputable section
-
-/-- A039393: Numbers whose base-10 representation has the same nonzero number of 0's and 1's.
-
-Offset 1, canonical program `A039393.P4198254221456296311`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3336 terms. -/
-def A039393 (n : ℕ) : ℤ :=
-  (A039393.P4198254221456296311.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3336 terms. -/
-def A039393.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A039416.P5541879360622471767
 
@@ -25228,39 +23459,32 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5050 terms. -/
 def A050165.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A050376.P5652592925068507923
+/-! ## A050376.P8445497075527543903
 
-`∪[A000040(n+1), A084400(n+2)]`
+`A084400(n+2)`
 -/
 
-namespace A050376.P5652592925068507923
+namespace A050376.P8445497075527543903
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A084400 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A050376.P5652592925068507923
+end A050376.P8445497075527543903
 
 noncomputable section
 
 /-- A050376: "Fermi-Dirac primes": numbers of the form p^(2^k) where p is prime and k >= 0.
 
-Offset 1, canonical program `A050376.P5652592925068507923`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+Offset 1, canonical program `A050376.P8445497075527543903`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
 def A050376 (n : ℕ) : ℤ :=
-  (A050376.P5652592925068507923.a (n - 1) : ℤ)
+  A050376.P8445497075527543903.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
 def A050376.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A051288.P12667383771510004661
@@ -25524,6 +23748,37 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
 def A060254.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A060715.P10581007485109841961
+
+`A099801(n)-∑[A010051(n+1)]`
+-/
+
+namespace A060715.P10581007485109841961
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010051 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099801 n - ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A060715.P10581007485109841961
+
+noncomputable section
+
+/-- A060715: Number of primes between n and 2n exclusive.
+
+Offset 1, canonical program `A060715.P10581007485109841961`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A060715 (n : ℕ) : ℤ :=
+  A060715.P10581007485109841961.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A060715.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A061384.P2326583486309432145
 
 `A001202(A031448(n+1)+1)`
@@ -25586,34 +23841,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2833 terms. -/
 def A061430.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A061496.P7102702704020189861
-
-`gcd(A005101(n+1), A125115(n+1))`
--/
-
-namespace A061496.P7102702704020189861
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A005101 (n + 1)) (A125115 (n + 1))
-
-end
-
-end A061496.P7102702704020189861
-
-noncomputable section
-
-/-- A061496: a(n) = gcd(abundant(n), abundant(n+1)) where abundant(n) is the n-th abundant number.
-
-Offset 1, canonical program `A061496.P7102702704020189861`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A061496 (n : ℕ) : ℤ :=
-  (A061496.P7102702704020189861.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A061496.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A062091.P6979132532382001810
 
 `record[2*A065883(A084400(n+1))]`
@@ -25645,37 +23872,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2301 terms. -/
 def A062091.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A062372.P14434391431021769466
-
-`record[(n+1)*(1-A070923(A051801(n+1)))]`
--/
-
-namespace A062372.P14434391431021769466
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (1 - A070923 (A051801 (n + 1)).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A062372.P14434391431021769466
-
-noncomputable section
-
-/-- A062372: Numbers the product of whose nonzero digits is a cube.
-
-Offset 1, canonical program `A062372.P14434391431021769466`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 525 terms. -/
-def A062372 (n : ℕ) : ℤ :=
-  A062372.P14434391431021769466.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 525 terms. -/
-def A062372.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A062879.P8862703960269035905
 
 `A171070(n+1)-A036796(n)`
@@ -25703,41 +23899,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4097 terms. -/
 def A062879.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A062996.P11625453850010715147
-
-`∪[A055933(n+1), A062997(n+1)]`
--/
-
-namespace A062996.P11625453850010715147
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055933 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062997 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A062996.P11625453850010715147
-
-noncomputable section
-
-/-- A062996: Numbers whose sum of digits is greater than or equal to its product of digits.
-
-Offset 1, canonical program `A062996.P11625453850010715147`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A062996 (n : ℕ) : ℤ :=
-  (A062996.P11625453850010715147.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A062996.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A063101.P351098770969771744
 
@@ -25825,37 +23986,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 209 terms. -/
 def A064865.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A065344.P697457149190660026
-
-`A065345(n+1)%Δ[A180118(n)]`
--/
-
-namespace A065344.P697457149190660026
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180118 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A065345 (n + 1)) (f1 (n + 1) - f1 n)
-
-end
-
-end A065344.P697457149190660026
-
-noncomputable section
-
-/-- A065344: a(n) = binomial(2*n,n) mod ((n+1)*(n+2)).
-
-Offset 1, canonical program `A065344.P697457149190660026`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
-def A065344 (n : ℕ) : ℤ :=
-  A065344.P697457149190660026.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. -/
-def A065344.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A066136.P8726344444493965524
 
@@ -26068,34 +24198,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A029610.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A037904.P3734509193850289562
-
-`A054055(n+1)-A054054(n+1)`
--/
-
-namespace A037904.P3734509193850289562
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054055 (n + 1) - A054054 (n + 1)
-
-end
-
-end A037904.P3734509193850289562
-
-noncomputable section
-
-/-- A037904: Greatest digit of n - least digit of n.
-
-Offset 1, canonical program `A037904.P3734509193850289562`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A037904 (n : ℕ) : ℤ :=
-  A037904.P3734509193850289562.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A037904.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A042990.P10404979310700425933
 
 `∪[A003625(n+1), A042994(n+1)]`
@@ -26131,34 +24233,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A042990.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A048898.P8648144042409933418
-
-`5^n-A048899(n)-A000007(n)`
--/
-
-namespace A048898.P8648144042409933418
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (5 ^ n : ℤ) - A048899 n - A000007 n
-
-end
-
-end A048898.P8648144042409933418
-
-noncomputable section
-
-/-- A048898: One of the two successive approximations up to 5^n for the 5-adic integer sqrt(-1).
-
-Offset 0, canonical program `A048898.P8648144042409933418`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. -/
-def A048898 (n : ℕ) : ℤ :=
-  A048898.P8648144042409933418.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. -/
-def A048898.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A066436.P14967679808844480665
 
 `∪[A090684(n+1), A264823(n+1)]`
@@ -26193,6 +24267,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A066436.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A002695.P1761537967106017533
+
+`(n+2)*(n+1)*A001003(n+1)/2`
+-/
+
+namespace A002695.P1761537967106017533
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n + 2) * (n + 1) : ℤ) * A001003 (n + 1) : ℚ) / 2
+
+end
+
+end A002695.P1761537967106017533
+
+noncomputable section
+
+/-- A002695: P_n'(3), where P_n is n-th Legendre polynomial.
+
+Offset 1, canonical program `A002695.P1761537967106017533`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A002695 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A002695.P1761537967106017533.a (n - 1))
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A002695.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A003013.P16339675636839990099
 
@@ -26249,6 +24351,62 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005063, A005071, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A005075.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A010683.P1762741132413524874
+
+`(A001003(n)+A001003(n+1))/2`
+-/
+
+namespace A010683.P1762741132413524874
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001003 n + A001003 (n + 1) : ℚ) / 2
+
+end
+
+end A010683.P1762741132413524874
+
+noncomputable section
+
+/-- A010683: Let S(x,y) = number of lattice paths from (0,0) to (x,y) that use the step set { (0,1), (1,0), (2,0), (3,0), ...} and never pass below y = x. Sequence gives S(n-1,n) = number of 'Schröder' trees with n+1 leaves and root of degree 2.
+
+Offset 0, canonical program `A010683.P1762741132413524874`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A010683 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A010683.P1762741132413524874.a n)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A010683.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A010736.P2490338144400101786
+
+`(A001003(n+2)+A001003(n))/4`
+-/
+
+namespace A010736.P2490338144400101786
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001003 (n + 2) + A001003 n : ℚ) / 4
+
+end
+
+end A010736.P2490338144400101786
+
+noncomputable section
+
+/-- A010736: Let S(x,y) = number of lattice paths from (0,0) to (x,y) that use the step set { (0,1), (1,0), (2,0), (3,0), ....} and never pass below y = x. Sequence gives S(n-2,n).
+
+Offset 0, canonical program `A010736.P2490338144400101786`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. -/
+def A010736 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A010736.P2490338144400101786.a n)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. -/
+def A010736.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A010815.P5219802530418017542
 
@@ -26401,6 +24559,34 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024997, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A025179.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A025240.P15418065983883315172
+
+`A000007(n)+2*A001003(n)`
+-/
+
+namespace A025240.P15418065983883315172
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000007 n + 2 * A001003 n
+
+end
+
+end A025240.P15418065983883315172
+
+noncomputable section
+
+/-- A025240: a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-2)*a(2) for n >= 3.
+
+Offset 1, canonical program `A025240.P15418065983883315172`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. -/
+def A025240 (n : ℕ) : ℤ :=
+  A025240.P15418065983883315172.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. -/
+def A025240.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A030109.P14199666590729784855
 
@@ -27120,6 +25306,34 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A057820.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A059435.P3368301534231985512
+
+`2^n*A001003(n)`
+-/
+
+namespace A059435.P3368301534231985512
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℤ) * A001003 n
+
+end
+
+end A059435.P3368301534231985512
+
+noncomputable section
+
+/-- A059435: Number of lattice paths in plane starting at (0,0) and ending at (n,n) with steps from {(i,j): i+j > 0, i, j >= 0} that never go below the line y = x.
+
+Offset 0, canonical program `A059435.P3368301534231985512`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A059435 (n : ℕ) : ℤ :=
+  A059435.P3368301534231985512.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A059435.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A059786.P8715638951535635433
 
 `A045344(A020900(n+1))`
@@ -27231,34 +25445,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A060615.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A061320.P9216718962236497877
-
-`A061318(n)+A061319(n)²`
--/
-
-namespace A061320.P9216718962236497877
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061318 n + A061319 n ^ 2
-
-end
-
-end A061320.P9216718962236497877
-
-noncomputable section
-
-/-- A061320: Column 4 of A061314.
-
-Offset 0, canonical program `A061320.P9216718962236497877`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A061320 (n : ℕ) : ℤ :=
-  A061320.P9216718962236497877.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A061320.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A061774.P2339286912223203709
 
@@ -27436,6 +25622,34 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007917, A064722, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A064924.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A065862.P10454594518190021057
+
+`A002808(n+1)%(n+1-A000720(n+1))`
+-/
+
+namespace A065862.P10454594518190021057
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A002808 (n + 1)) ((n + 1 : ℤ) - A000720 (n + 1))
+
+end
+
+end A065862.P10454594518190021057
+
+noncomputable section
+
+/-- A065862: Remainder when n-th composite number is divided by the number of nonprimes not exceeding n.
+
+Offset 1, canonical program `A065862.P10454594518190021057`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A065862 (n : ℕ) : ℤ :=
+  A065862.P10454594518190021057.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A065862.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A065891.P1397768470395087824
 
@@ -27681,6 +25895,136 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 272 terms. -/
 def A069084.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069231.P1710982746878742749
+
+`eq[3, A069230(n+1)]+1`
+-/
+
+namespace A069231.P1710982746878742749
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069230 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A069231.P1710982746878742749
+
+noncomputable section
+
+/-- A069231: Numbers n such that there are exactly 3 primes p satisfying the inequality n < p < n + tau(n)^2 where tau(n) = A000005(n).
+
+Offset 1, canonical program `A069231.P1710982746878742749`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 628 terms. -/
+def A069231 (n : ℕ) : ℤ :=
+  (A069231.P1710982746878742749.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 628 terms. -/
+def A069231.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069232.P17517502900018142505
+
+`eq[2, A069230(n+1)]+1`
+-/
+
+namespace A069232.P17517502900018142505
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069230 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A069232.P17517502900018142505
+
+noncomputable section
+
+/-- A069232: Numbers n such that there are exactly 2 primes p satisfying the inequality n < p < n + tau(n)^2 where tau(n) = A000005(n).
+
+Offset 1, canonical program `A069232.P17517502900018142505`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1034 terms. -/
+def A069232 (n : ℕ) : ℤ :=
+  (A069232.P17517502900018142505.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1034 terms. -/
+def A069232.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069233.P13448844956543040906
+
+`eq[1, A069230(n+1)]+1`
+-/
+
+namespace A069233.P13448844956543040906
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069230 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A069233.P13448844956543040906
+
+noncomputable section
+
+/-- A069233: Numbers k such that there is exactly 1 prime p satisfying the inequality k < p < k + tau(k)^2 where tau(k) = A000005(k).
+
+Offset 1, canonical program `A069233.P13448844956543040906`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1029 terms. -/
+def A069233 (n : ℕ) : ℤ :=
+  (A069233.P13448844956543040906.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1029 terms. -/
+def A069233.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069470.P7953847650601744514
+
+`a(n-1)+A007862(n)` with `a(0)=0`
+-/
+
+namespace A069470.P7953847650601744514
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  a (n - 1) + A007862 n
+
+end
+
+end A069470.P7953847650601744514
+
+noncomputable section
+
+/-- A069470: a(n) = Sum_{k>=1} floor(n/(k*(k+1)/2)).
+
+Offset 0, canonical program `A069470.P7953847650601744514`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007862, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069470 (n : ℕ) : ℤ :=
+  A069470.P7953847650601744514.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007862, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069470.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A001083.P5643140285671293949
 
@@ -28428,6 +26772,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8919 terms. -/
 def A034784.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A037228.P8123356914219364626
+
+`A152993(n+1)-A045763(n+1)`
+-/
+
+namespace A037228.P8123356914219364626
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152993 (n + 1) - A045763 (n + 1)
+
+end
+
+end A037228.P8123356914219364626
+
+noncomputable section
+
+/-- A037228: a(n) = phi(n) - pi(n).
+
+Offset 1, canonical program `A037228.P8123356914219364626`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A037228 (n : ℕ) : ℤ :=
+  A037228.P8123356914219364626.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A037228.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A038669.P16373294596466858069
 
 `∑[A304092(n+1)-1]`
@@ -28486,6 +26858,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A039724.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A042939.P563178382816472669
+
+`A040997(A000040(n+1))`
+-/
+
+namespace A042939.P563178382816472669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040997 (A000040 (n + 1)).toNat
+
+end
+
+end A042939.P563178382816472669
+
+noncomputable section
+
+/-- A042939: Absolute values between digits of primes.
+
+Offset 1, canonical program `A042939.P563178382816472669`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A040997, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A042939 (n : ℕ) : ℤ :=
+  A042939.P563178382816472669.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A040997, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A042939.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A044436.P3602461463815188657
 
@@ -28707,6 +27107,40 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A056562.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A057532.P4710718478601077176
+
+`A057531(eq[1, A057531(n+1)%2]+1)`
+-/
+
+namespace A057532.P4710718478601077176
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A057531 (n + 1)) 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057531 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
+
+end
+
+end A057532.P4710718478601077176
+
+noncomputable section
+
+/-- A057532: n is odd and sum of digits of n equals the numbers of divisors of n.
+
+Offset 1, canonical program `A057532.P4710718478601077176`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1840 terms. -/
+def A057532 (n : ℕ) : ℤ :=
+  A057532.P4710718478601077176.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1840 terms. -/
+def A057532.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A059249.P4278260831633000860
 
 `A004488(n+1)-1`
@@ -28794,6 +27228,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A059981.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A060303.P1967111491772057259
+
+`A168048(n+1)-A291440(n+1)`
+-/
+
+namespace A060303.P1967111491772057259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168048 (n + 1) - A291440 (n + 1)
+
+end
+
+end A060303.P1967111491772057259
+
+noncomputable section
+
+/-- A060303: Number of primes below n^2 does not exceed n times the number of primes below n.
+
+Offset 1, canonical program `A060303.P1967111491772057259`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A060303 (n : ℕ) : ℤ :=
+  A060303.P1967111491772057259.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A060303.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A061884.P16971839620340354771
 
 `A057670(n+1)*A173557(n+1)/A007947(n+1)`
@@ -28850,6 +27312,34 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A072774, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A062770.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A065073.P8599182111085404624
+
+`A062028(A000040(n+1))`
+-/
+
+namespace A065073.P8599182111085404624
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062028 (A000040 (n + 1)).toNat
+
+end
+
+end A065073.P8599182111085404624
+
+noncomputable section
+
+/-- A065073: a(n) = prime(n) + (sum of digits of prime(n)).
+
+Offset 1, canonical program `A065073.P8599182111085404624`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A062028, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A065073 (n : ℕ) : ℤ :=
+  A065073.P8599182111085404624.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A062028, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A065073.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A065620.P132964274324401119
 
 `(2*A265263(n)-n)*(2*A010060(n)-1)`
@@ -28877,6 +27367,101 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A265263, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A065620.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A066086.P8501771591660618369
+
+`gcd(A048250(n+1), A173557(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A066086.P8501771591660618369
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A048250 (n + 1)) (A173557 (n + 1))
+
+end
+
+end A066086.P8501771591660618369
+
+noncomputable section
+
+/-- A066086: Greatest common divisor of product (p-1) and product (p+1), where p ranges over distinct prime divisors of n; a(n) = gcd(A048250(n), A173557(n)).
+
+Offset 1, canonical program `A066086.P8501771591660618369`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048250, A173557, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A066086 (n : ℕ) : ℤ :=
+  (A066086.P8501771591660618369.a (n - 1) : ℤ)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048250, A173557, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A066086.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A067343.P8902143204584263014
+
+`eq[A007953(n), A067342(A028310(n))]`
+-/
+
+namespace A067343.P8902143204584263014
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067342 (A028310 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A067343.P8902143204584263014
+
+noncomputable section
+
+/-- A067343: Sum of decimal digits of n equals sum of decimal digits of sum of divisors of n.
+
+Offset 1, canonical program `A067343.P8902143204584263014`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 459 terms. -/
+def A067343 (n : ℕ) : ℤ :=
+  (A067343.P8902143204584263014.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 459 terms. -/
+def A067343.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A068807.P3891556660410364740
+
+`p?[A028838(n+1)]`
+-/
+
+namespace A068807.P3891556660410364740
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028838 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A068807.P3891556660410364740
+
+noncomputable section
+
+/-- A068807: Primes whose sum of digits is a power of 2.
+
+Offset 1, canonical program `A068807.P3891556660410364740`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1409 terms. -/
+def A068807 (n : ℕ) : ℤ :=
+  A068807.P3891556660410364740.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1409 terms. -/
+def A068807.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A068984.P5244751518024861276
 
@@ -28908,6 +27493,181 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A068984.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069158.P10112105031369206397
+
+`A008966(n+1)-2*A010051(n+1)`
+-/
+
+namespace A069158.P10112105031369206397
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008966 (n + 1) - 2 * A010051 (n + 1)
+
+end
+
+end A069158.P10112105031369206397
+
+noncomputable section
+
+/-- A069158: a(n) = Product_{d|n} mu(d), product over positive divisors, d, of n, where mu(d) = Moebius function (A008683).
+
+Offset 1, canonical program `A069158.P10112105031369206397`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, A010051, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069158 (n : ℕ) : ℤ :=
+  A069158.P10112105031369206397.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, A010051, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069158.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069828.P7975132913255653083
+
+`A058026(n+1)*A065033(n)`
+-/
+
+namespace A069828.P7975132913255653083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058026 (n + 1) * A065033 n
+
+end
+
+end A069828.P7975132913255653083
+
+noncomputable section
+
+/-- A069828: Sum of positive integers k for k <= n and gcd(k,n) = gcd(k+1,n).
+
+Offset 1, canonical program `A069828.P7975132913255653083`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069828 (n : ℕ) : ℤ :=
+  A069828.P7975132913255653083.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069828.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A070554.P17760410811391301141
+
+`A058026(2*n+1)`
+-/
+
+namespace A070554.P17760410811391301141
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058026 (2 * n + 1)
+
+end
+
+end A070554.P17760410811391301141
+
+noncomputable section
+
+/-- A070554: Number of positive integers, k, where k <= 2n+1 and gcd(k, 2n+1) = gcd(k+1, 2n+1) = 1.
+
+Offset 0, canonical program `A070554.P17760410811391301141`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058026, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A070554 (n : ℕ) : ℤ :=
+  A070554.P17760410811391301141.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058026, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A070554.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A070713.P188697954911876999
+
+`∩[A028839(n+1), A050626(n+1)]`
+-/
+
+namespace A070713.P188697954911876999
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028839 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050626 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070713.P188697954911876999
+
+noncomputable section
+
+/-- A070713: Integers whose sum of digits as well as product of digits is a nonzero square.
+
+Offset 1, canonical program `A070713.P188697954911876999`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 749 terms. -/
+def A070713 (n : ℕ) : ℤ :=
+  (A070713.P188697954911876999.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 749 terms. -/
+def A070713.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A004207.P9379893475422078749
+
+`A062028(a(n-1))` with `a(0)=1, a(1)=1`
+-/
+
+namespace A004207.P9379893475422078749
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
+  A062028 (a (n - 1)).toNat
+
+end
+
+end A004207.P9379893475422078749
+
+noncomputable section
+
+/-- A004207: a(0) = 1, a(n) = sum of digits of all previous terms.
+
+Offset 0, canonical program `A004207.P9379893475422078749`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A004207 (n : ℕ) : ℤ :=
+  A004207.P9379893475422078749.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A004207.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A006507.P10105666352366520478
+
+`A062028(a(n-1))` with `a(0)=7`
+-/
+
+namespace A006507.P10105666352366520478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [7] fun n a =>
+  A062028 (a (n - 1)).toNat
+
+end
+
+end A006507.P10105666352366520478
+
+noncomputable section
+
+/-- A006507: a(n+1) = a(n) + sum of digits of a(n), with a(1)=7.
+
+Offset 1, canonical program `A006507.P10105666352366520478`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A006507 (n : ℕ) : ℤ :=
+  A006507.P10105666352366520478.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A006507.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A007304.P8931890627172899564
 
@@ -28942,6 +27702,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9724 terms. -/
 def A007304.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A007618.P6018863421737465196
+
+`A062028(a(n-1))` with `a(0)=5`
+-/
+
+namespace A007618.P6018863421737465196
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [5] fun n a =>
+  A062028 (a (n - 1)).toNat
+
+end
+
+end A007618.P6018863421737465196
+
+noncomputable section
+
+/-- A007618: a(n) = a(n-1) + sum of digits of a(n-1), a(1) = 5.
+
+Offset 1, canonical program `A007618.P6018863421737465196`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A007618 (n : ℕ) : ℤ :=
+  A007618.P6018863421737465196.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A007618.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A008833.P18388074464065390543
 
@@ -29055,6 +27843,62 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A013946.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A016052.P16387825715003404480
+
+`A062028(a(n-1))` with `a(0)=3`
+-/
+
+namespace A016052.P16387825715003404480
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
+  A062028 (a (n - 1)).toNat
+
+end
+
+end A016052.P16387825715003404480
+
+noncomputable section
+
+/-- A016052: a(1) = 3; for n >= 1, a(n+1) = a(n) + sum of its digits.
+
+Offset 1, canonical program `A016052.P16387825715003404480`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A016052 (n : ℕ) : ℤ :=
+  A016052.P16387825715003404480.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A016052.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A016096.P6894083767046586145
+
+`A062028(a(n-1))` with `a(0)=9`
+-/
+
+namespace A016096.P6894083767046586145
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [9] fun n a =>
+  A062028 (a (n - 1)).toNat
+
+end
+
+end A016096.P6894083767046586145
+
+noncomputable section
+
+/-- A016096: a(n+1) = a(n) + sum of its digits, with a(1) = 9.
+
+Offset 1, canonical program `A016096.P6894083767046586145`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A016096 (n : ℕ) : ℤ :=
+  A016096.P6894083767046586145.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062028, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A016096.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A019554.P934973065694448032
 
 `sqrt((n+1)*A007913(n+1))`
@@ -29137,14 +27981,42 @@ noncomputable section
 
 /-- A034836: Number of ways to write n as n = x*y*z with 1 <= x <= y <= z.
 
-Offset 1, canonical program `A034836.P5569050917274678762`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A010057, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+Offset 1, canonical program `A034836.P5569050917274678762`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A034836 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A034836.P5569050917274678762.a (n - 1))
 
 end
 
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A010057, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A034836.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A036227.P6221341663879694796
+
+`A062028(a(n-1))` with `a(0)=20`
+-/
+
+namespace A036227.P6221341663879694796
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [20] fun n a =>
+  A062028 (a (n - 1)).toNat
+
+end
+
+end A036227.P6221341663879694796
+
+noncomputable section
+
+/-- A036227: a(1) = 20; a(n+1) = a(n) + sum of decimal digits of a(n).
+
+Offset 1, canonical program `A036227.P6221341663879694796`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 589 terms. -/
+def A036227 (n : ℕ) : ℤ :=
+  A036227.P6221341663879694796.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 589 terms. -/
+def A036227.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A036952.P13828119613374093574
 
@@ -29179,6 +28051,40 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 482 terms. -/
 def A036952.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A037315.P7198483397476573084
+
+`lt[(n*A180019(n))², n]`
+-/
+
+namespace A037315.P7198483397476573084
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * A180019 n) ^ 2
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+
+end
+
+end A037315.P7198483397476573084
+
+noncomputable section
+
+/-- A037315: Numbers whose base-3 and base-10 expansions have the same digit sum.
+
+Offset 1, canonical program `A037315.P7198483397476573084`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. -/
+def A037315 (n : ℕ) : ℤ :=
+  (A037315.P7198483397476573084.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. -/
+def A037315.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A037331.P10183187185978453703
 
@@ -29242,6 +28148,40 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A037449.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A038366.P4711874104874146746
+
+`eq[lcm(n, A061762(n)), A028310(n)]`
+-/
+
+namespace A038366.P4711874104874146746
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (n : ℤ) (A061762 n)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028310 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A038366.P4711874104874146746
+
+noncomputable section
+
+/-- A038366: n is divisible by (product of digits) + (sum of digits).
+
+Offset 1, canonical program `A038366.P4711874104874146746`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 769 terms. -/
+def A038366 (n : ℕ) : ℤ :=
+  (A038366.P4711874104874146746.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 769 terms. -/
+def A038366.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A038387.P4721270746372343696
 
 `gcd(2*A007913(2*(n+1)), A000578(n+1))`
@@ -29269,6 +28209,69 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A038387.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A039393.P4198254221456296311
+
+`∩[A039112(n+1), A062997(n+1)]`
+-/
+
+namespace A039393.P4198254221456296311
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039112 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062997 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A039393.P4198254221456296311
+
+noncomputable section
+
+/-- A039393: Numbers whose base-10 representation has the same nonzero number of 0's and 1's.
+
+Offset 1, canonical program `A039393.P4198254221456296311`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3336 terms. -/
+def A039393 (n : ℕ) : ℤ :=
+  (A039393.P4198254221456296311.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3336 terms. -/
+def A039393.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A045776.P5877182421305232441
+
+`A062028(a(n-1))-a(n-1)%A007953(a(n-1))` with `a(0)=1`
+-/
+
+namespace A045776.P5877182421305232441
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A062028 (a (n - 1)).toNat - Int.tmod (a (n - 1)) (A007953 (a (n - 1)).toNat)
+
+end
+
+end A045776.P5877182421305232441
+
+noncomputable section
+
+/-- A045776: a(n+1) is smallest multiple of (sum of digits of a(n)) which is > a(n).
+
+Offset 0, canonical program `A045776.P5877182421305232441`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 670 terms. -/
+def A045776 (n : ℕ) : ℤ :=
+  A045776.P5877182421305232441.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 670 terms. -/
+def A045776.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A046970.P18046929235984925317
 
@@ -29298,6 +28301,74 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023900, A048250, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A046970.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A047791.P9707445729224729229
+
+`record[(n+1)*A010051(A062028(n+1))]`
+-/
+
+namespace A047791.P9707445729224729229
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A010051 (A062028 (n + 1)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A047791.P9707445729224729229
+
+noncomputable section
+
+/-- A047791: Numbers n such that n plus digit sum of n (A007953) equals a prime.
+
+Offset 1, canonical program `A047791.P9707445729224729229`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1234 terms. -/
+def A047791 (n : ℕ) : ℤ :=
+  A047791.P9707445729224729229.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1234 terms. -/
+def A047791.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A049343.P4245191771258133539
+
+`eq[∑{digits}[n², #], A004092(n)]`
+-/
+
+namespace A049343.P4245191771258133539
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x).sum
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004092 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
+
+end
+
+end A049343.P4245191771258133539
+
+noncomputable section
+
+/-- A049343: Numbers m such that 2m and m^2 have same digit sum.
+
+Offset 1, canonical program `A049343.P4245191771258133539`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. -/
+def A049343 (n : ℕ) : ℤ :=
+  (A049343.P4245191771258133539.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. -/
+def A049343.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A049457.P8929492737683068004
 
 `A007913((n+5)*A007913(n+1))`
@@ -29325,6 +28396,127 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 316 terms. -/
 def A049457.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A051351.P6493723572968094148
+
+`∑[A007605(A000007(n)+n)]-2`
+-/
+
+namespace A051351.P6493723572968094148
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007605 (A000007 n + (n : ℤ)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - 2
+
+end
+
+end A051351.P6493723572968094148
+
+noncomputable section
+
+/-- A051351: a(n) = a(n-1) + sum of digits of n-th prime.
+
+Offset 0, canonical program `A051351.P6493723572968094148`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A051351 (n : ℕ) : ℤ :=
+  A051351.P6493723572968094148.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A051351.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A051369.P3720303996826784203
+
+`A004159(a(n-1))+a(n-1)` with `a(0)=3`
+-/
+
+namespace A051369.P3720303996826784203
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
+  A004159 (a (n - 1)).toNat + a (n - 1)
+
+end
+
+end A051369.P3720303996826784203
+
+noncomputable section
+
+/-- A051369: a(n+1) = a(n) + sum of digits of a(n)^2, with a(1) = 3.
+
+Offset 1, canonical program `A051369.P3720303996826784203`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 318 terms. -/
+def A051369 (n : ℕ) : ℤ :=
+  A051369.P3720303996826784203.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 318 terms. -/
+def A051369.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A051370.P16333339530751387422
+
+`A004159(a(n-1))+a(n-1)` with `a(0)=8`
+-/
+
+namespace A051370.P16333339530751387422
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [8] fun n a =>
+  A004159 (a (n - 1)).toNat + a (n - 1)
+
+end
+
+end A051370.P16333339530751387422
+
+noncomputable section
+
+/-- A051370: a(n+1) = a(n) + sum of digits of a(n)^2, with a(1) = 8.
+
+Offset 1, canonical program `A051370.P16333339530751387422`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. -/
+def A051370 (n : ℕ) : ℤ :=
+  A051370.P16333339530751387422.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. -/
+def A051370.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A053057.P8917643215926025307
+
+`eq[1, A010052(A004159(n))]²`
+-/
+
+namespace A053057.P8917643215926025307
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010052 (A004159 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n ^ 2
+
+end
+
+end A053057.P8917643215926025307
+
+noncomputable section
+
+/-- A053057: Squares whose digit sum is also a square.
+
+Offset 1, canonical program `A053057.P8917643215926025307`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2238 terms. -/
+def A053057 (n : ℕ) : ℤ :=
+  (A053057.P8917643215926025307.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2238 terms. -/
+def A053057.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A053981.P11504119553309885411
 
@@ -29422,37 +28614,6 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A055050.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A055229.P9767021454256854735
-
-`gcd(∑{p}[n+1, (n+1)/#], A007913(n+1))`
--/
-
-namespace A055229.P9767021454256854735
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (SequenceMachineLib.roundAway (∑ p ∈ Nat.primeFactors (f1 n), (n + 1 : ℚ) / (p : ℚ))) (A007913 (n + 1))
-
-end
-
-end A055229.P9767021454256854735
-
-noncomputable section
-
-/-- A055229: Greatest common divisor of largest square dividing n and squarefree part of n.
-
-Offset 1, canonical program `A055229.P9767021454256854735`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A055229 (n : ℕ) : ℤ :=
-  (A055229.P9767021454256854735.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A055229.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A055491.P10975517249915323208
 
 `A007913(n+1)²`
@@ -29509,6 +28670,34 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A056058.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A056528.P4442300986705318360
+
+`A004159(A004159(n+1))`
+-/
+
+namespace A056528.P4442300986705318360
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004159 (A004159 (n + 1)).toNat
+
+end
+
+end A056528.P4442300986705318360
+
+noncomputable section
+
+/-- A056528: Sum of digits of square of sum of digits of square.
+
+Offset 1, canonical program `A056528.P4442300986705318360`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004159, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A056528 (n : ℕ) : ℤ :=
+  A056528.P4442300986705318360.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004159, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A056528.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A056839.P9485991888657918283
 
 `A007913(A003418(n))`
@@ -29537,6 +28726,40 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A056839.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A058369.P43549229018123999
+
+`eq[A004159(n), A007953(n)]`
+-/
+
+namespace A058369.P43549229018123999
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004159 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A058369.P43549229018123999
+
+noncomputable section
+
+/-- A058369: Numbers k such that k and k^2 have same digit sum.
+
+Offset 1, canonical program `A058369.P43549229018123999`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. -/
+def A058369 (n : ℕ) : ℤ :=
+  (A058369.P43549229018123999.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. -/
+def A058369.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A059591.P11025850722583355818
 
 `A007913(n²+1)`
@@ -29564,6 +28787,74 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A059591.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A060979.P5913686302778209989
+
+`11*eq[A000007(n), A142150(A245627(n))]`
+-/
+
+namespace A060979.P5913686302778209989
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000007 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A142150 (A245627 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  11 * SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A060979.P5913686302778209989
+
+noncomputable section
+
+/-- A060979: |First digit - second digit + third digit - fourth digit ...| = 11.
+
+Offset 1, canonical program `A060979.P5913686302778209989`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4374 terms. -/
+def A060979 (n : ℕ) : ℤ :=
+  (A060979.P5913686302778209989.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4374 terms. -/
+def A060979.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A062037.P16385492444936946523
+
+`eq[A007954(n), A008486(A169805(n))]`
+-/
+
+namespace A062037.P16385492444936946523
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007954 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008486 (A169805 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A062037.P16385492444936946523
+
+noncomputable section
+
+/-- A062037: Positive numbers whose product of digits is 6 times their sum.
+
+Offset 1, canonical program `A062037.P16385492444936946523`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. -/
+def A062037 (n : ℕ) : ℤ :=
+  (A062037.P16385492444936946523.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. -/
+def A062037.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A062085.P13290386550748108036
 
@@ -29595,6 +28886,165 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1044 terms. -/
 def A062085.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A062330.P1434482193101896200
+
+`A062331(a(n-1))` with `a(0)=2`
+-/
+
+namespace A062330.P1434482193101896200
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
+  A062331 (a (n - 1)).toNat
+
+end
+
+end A062330.P1434482193101896200
+
+noncomputable section
+
+/-- A062330: a(n) = product of the sum and product of the digits of a(n-1) (0 is not to be considered a factor in the product).
+
+Offset 1, canonical program `A062330.P1434482193101896200`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A062330 (n : ℕ) : ℤ :=
+  A062330.P1434482193101896200.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A062330.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A062338.P8695219899618334486
+
+`A000040(lt[A007605(n+1)%4, 1]+1)`
+-/
+
+namespace A062338.P8695219899618334486
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A007605 (n + 1)) 4
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1)
+
+end
+
+end A062338.P8695219899618334486
+
+noncomputable section
+
+/-- A062338: Primes whose sum of digits is a multiple of 4.
+
+Offset 1, canonical program `A062338.P8695219899618334486`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2462 terms. -/
+def A062338 (n : ℕ) : ℤ :=
+  A062338.P8695219899618334486.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2462 terms. -/
+def A062338.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A062342.P3421117723688188329
+
+`p?[A273188(n+1)]`
+-/
+
+namespace A062342.P3421117723688188329
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A273188 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A062342.P3421117723688188329
+
+noncomputable section
+
+/-- A062342: Primes whose sum of digits is a multiple of 8.
+
+Offset 1, canonical program `A062342.P3421117723688188329`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 782 terms. -/
+def A062342 (n : ℕ) : ℤ :=
+  A062342.P3421117723688188329.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 782 terms. -/
+def A062342.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A062753.P6486166718394067354
+
+`filter[A268620(n+2), A121262(#)]`
+-/
+
+namespace A062753.P6486166718394067354
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268620 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A121262 (f1 j).toNat = 1) n)
+
+end
+
+end A062753.P6486166718394067354
+
+noncomputable section
+
+/-- A062753: Multiples of 4 whose sum of digits is also a multiple of 4.
+
+Offset 1, canonical program `A062753.P6486166718394067354`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2499 terms. -/
+def A062753 (n : ℕ) : ℤ :=
+  A062753.P6486166718394067354.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2499 terms. -/
+def A062753.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A062996.P11625453850010715147
+
+`∪[A055933(n+1), A062997(n+1)]`
+-/
+
+namespace A062996.P11625453850010715147
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055933 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062997 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A062996.P11625453850010715147
+
+noncomputable section
+
+/-- A062996: Numbers whose sum of digits is greater than or equal to its product of digits.
+
+Offset 1, canonical program `A062996.P11625453850010715147`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A062996 (n : ℕ) : ℤ :=
+  (A062996.P11625453850010715147.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A062996.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A063531.P3268237155309024633
 
@@ -29629,6 +29079,260 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 795 terms. -/
 def A063531.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A064399.P18127450818113564184
+
+`lt[A004159(n), A007953(n)]`
+-/
+
+namespace A064399.P18127450818113564184
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004159 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A064399.P18127450818113564184
+
+noncomputable section
+
+/-- A064399: Numbers k whose sum of digits exceeds the sum of the digits of k^2.
+
+Offset 1, canonical program `A064399.P18127450818113564184`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. -/
+def A064399 (n : ℕ) : ℤ :=
+  (A064399.P18127450818113564184.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. -/
+def A064399.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A065713.P2914558267731047984
+
+`A001370(2*n)`
+-/
+
+namespace A065713.P2914558267731047984
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001370 (2 * n)
+
+end
+
+end A065713.P2914558267731047984
+
+noncomputable section
+
+/-- A065713: Sum of digits of 4^n.
+
+Offset 0, canonical program `A065713.P2914558267731047984`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
+def A065713 (n : ℕ) : ℤ :=
+  A065713.P2914558267731047984.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
+def A065713.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A066004.P14525788820147274037
+
+`A001370(3*n)`
+-/
+
+namespace A066004.P14525788820147274037
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001370 (3 * n)
+
+end
+
+end A066004.P14525788820147274037
+
+noncomputable section
+
+/-- A066004: Sum of digits of 8^n.
+
+Offset 0, canonical program `A066004.P14525788820147274037`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3334 terms. -/
+def A066004 (n : ℕ) : ℤ :=
+  A066004.P14525788820147274037.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3334 terms. -/
+def A066004.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A067521.P8006543298138063662
+
+`(lt[(n+1)%A004159(n+1), 1]+1)²`
+-/
+
+namespace A067521.P8006543298138063662
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (n + 1 : ℤ) (A004159 (n + 1))
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1) ^ 2
+
+end
+
+end A067521.P8006543298138063662
+
+noncomputable section
+
+/-- A067521: Numbers n such that the square root of n is an integer and a multiple of the sum of the digits of n.
+
+Offset 1, canonical program `A067521.P8006543298138063662`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 564 terms. -/
+def A067521 (n : ℕ) : ℤ :=
+  (A067521.P8006543298138063662.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 564 terms. -/
+def A067521.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A067552.P17186920303504174424
+
+`A007953(n)²-A004159(n)`
+-/
+
+namespace A067552.P17186920303504174424
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 n ^ 2 - A004159 n
+
+end
+
+end A067552.P17186920303504174424
+
+noncomputable section
+
+/-- A067552: a(n) = SumOfDigits(n)^2 - SumOfDigits(n^2), where SumOfDigits = A007953.
+
+Offset 0, canonical program `A067552.P17186920303504174424`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004159, A007953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A067552 (n : ℕ) : ℤ :=
+  A067552.P17186920303504174424.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004159, A007953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A067552.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A068130.P8380932321966618756
+
+`A000217(eq[15, A004157(n)])`
+-/
+
+namespace A068130.P8380932321966618756
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  15
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004157 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A068130.P8380932321966618756
+
+noncomputable section
+
+/-- A068130: Triangular numbers with sum of digits = 15.
+
+Offset 1, canonical program `A068130.P8380932321966618756`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 191 terms. -/
+def A068130 (n : ℕ) : ℤ :=
+  A068130.P8380932321966618756.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 191 terms. -/
+def A068130.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A068131.P296359315164383935
+
+`A000217(eq[21, A004157(n)])`
+-/
+
+namespace A068131.P296359315164383935
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  21
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004157 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A068131.P296359315164383935
+
+noncomputable section
+
+/-- A068131: Triangular numbers with sum of digits = 21.
+
+Offset 1, canonical program `A068131.P296359315164383935`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. -/
+def A068131 (n : ℕ) : ℤ :=
+  A068131.P296359315164383935.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. -/
+def A068131.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A068132.P10501098146319111768
+
+`A000217(eq[28, A004157(n)])`
+-/
+
+namespace A068132.P10501098146319111768
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  28
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004157 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A068132.P10501098146319111768
+
+noncomputable section
+
+/-- A068132: Triangular numbers with sum of digits = 28.
+
+Offset 1, canonical program `A068132.P10501098146319111768`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1185 terms. -/
+def A068132 (n : ℕ) : ℤ :=
+  A068132.P10501098146319111768.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1185 terms. -/
+def A068132.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A068310.P4092952894517886942
 
@@ -29691,6 +29395,301 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. -/
 def A069067.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069111.P12631494153249817284
+
+`A007913(2^n+1)`
+-/
+
+namespace A069111.P12631494153249817284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (2 ^ n + 1)
+
+end
+
+end A069111.P12631494153249817284
+
+noncomputable section
+
+/-- A069111: Squarefree part of 2^n+1 : the smallest number such that a(n)*(2^n+1) is a square.
+
+Offset 0, canonical program `A069111.P12631494153249817284`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069111 (n : ℕ) : ℤ :=
+  A069111.P12631494153249817284.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069111.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069112.P18352756249834380075
+
+`A007913(A000225(n+1))`
+-/
+
+namespace A069112.P18352756249834380075
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (A000225 (n + 1)).toNat
+
+end
+
+end A069112.P18352756249834380075
+
+noncomputable section
+
+/-- A069112: Squarefree part of 2^n-1 : the smallest number such that a(n)*(2^n-1) is a square.
+
+Offset 1, canonical program `A069112.P18352756249834380075`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069112 (n : ℕ) : ℤ :=
+  A069112.P18352756249834380075.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069112.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069113.P8105437494189770969
+
+`A007913(A000984(n))`
+-/
+
+namespace A069113.P8105437494189770969
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (A000984 n).toNat
+
+end
+
+end A069113.P8105437494189770969
+
+noncomputable section
+
+/-- A069113: Squarefree part of C(2n,n), the central binomial numbers: the smallest number such that a(n)*C(2n,n) is a square.
+
+Offset 0, canonical program `A069113.P8105437494189770969`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069113 (n : ℕ) : ℤ :=
+  A069113.P8105437494189770969.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A069113.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069114.P11265781668908461192
+
+`A007913(A006093(n+1))`
+-/
+
+namespace A069114.P11265781668908461192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (A006093 (n + 1)).toNat
+
+end
+
+end A069114.P11265781668908461192
+
+noncomputable section
+
+/-- A069114: Squarefree part of prime(n)-1 : the smallest number such that a(n)*(prime(n)-1) is a square.
+
+Offset 1, canonical program `A069114.P11265781668908461192`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, A007913, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069114 (n : ℕ) : ℤ :=
+  A069114.P11265781668908461192.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, A007913, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069114.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069115.P13502381392976731434
+
+`A007913(A008864(n+1))`
+-/
+
+namespace A069115.P13502381392976731434
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (A008864 (n + 1)).toNat
+
+end
+
+end A069115.P13502381392976731434
+
+noncomputable section
+
+/-- A069115: Squarefree part of prime(n)+1 : the smallest number such that a(n)*(prime(n)+1) is a square.
+
+Offset 1, canonical program `A069115.P13502381392976731434`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, A008864, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069115 (n : ℕ) : ℤ :=
+  A069115.P13502381392976731434.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007913, A008864, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069115.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069122.P5368121479878641074
+
+`lt[A007913(n+2), A007913(n+1)]+1`
+-/
+
+namespace A069122.P5368121479878641074
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
+
+end
+
+end A069122.P5368121479878641074
+
+noncomputable section
+
+/-- A069122: Numbers k such that the squarefree part of k is greater than the squarefree part of (k+1).
+
+Offset 1, canonical program `A069122.P5368121479878641074`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069122 (n : ℕ) : ℤ :=
+  (A069122.P5368121479878641074.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069122.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A069816.P2167086169845687567
+
+`A118881(n)-A003132(n)`
+-/
+
+namespace A069816.P2167086169845687567
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118881 n - A003132 n
+
+end
+
+end A069816.P2167086169845687567
+
+noncomputable section
+
+/-- A069816: a(n) = (sum of digits of n)^2 - (sum of digits^2 of n).
+
+Offset 0, canonical program `A069816.P2167086169845687567`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003132, A118881, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069816 (n : ℕ) : ℤ :=
+  A069816.P2167086169845687567.a n
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003132, A118881, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
+def A069816.provenance : SequenceMachineLib.Provenance := .conditional
+
+/-! ## A069891.P9601038511984379204
+
+`A007913(n)+a(n-1)` with `a(0)=0`
+-/
+
+namespace A069891.P9601038511984379204
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  A007913 n + a (n - 1)
+
+end
+
+end A069891.P9601038511984379204
+
+noncomputable section
+
+/-- A069891: a(n) = Sum_{k=1..n} A007913(k), the squarefree part of k.
+
+Offset 0, canonical program `A069891.P9601038511984379204`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069891 (n : ℕ) : ℤ :=
+  A069891.P9601038511984379204.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A069891.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A070279.P16026357053581798392
+
+`eq[A004092(n+1), A007953(n+1)]+1`
+-/
+
+namespace A070279.P16026357053581798392
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004092 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
+
+end
+
+end A070279.P16026357053581798392
+
+noncomputable section
+
+/-- A070279: Sum of digits of n equals the sum of digits of 2n.
+
+Offset 1, canonical program `A070279.P16026357053581798392`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 791 terms. -/
+def A070279 (n : ℕ) : ℤ :=
+  (A070279.P16026357053581798392.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 791 terms. -/
+def A070279.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A071122.P15622955886049296024
+
+`∑[A001370(n+1)]`
+-/
+
+namespace A071122.P15622955886049296024
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001370 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A071122.P15622955886049296024
+
+noncomputable section
+
+/-- A071122: a(n) = a(n-1) + sum of decimal digits of 2^n.
+
+Offset 1, canonical program `A071122.P15622955886049296024`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A071122 (n : ℕ) : ℤ :=
+  A071122.P15622955886049296024.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A071122.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A002734.P13802522267690957899
 

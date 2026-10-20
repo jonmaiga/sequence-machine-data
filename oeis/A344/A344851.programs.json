@@ -16,7 +16,8 @@
       ],
       "s": "oeis",
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {
@@ -38,7 +39,7 @@
     },
     {
       "d": "2025-04-18",
-      "ix": "--n²%(2^ceil(log2(n+1)))",
+      "ix": "-(-n²%(2^ceil(log2(n+1))))",
       "mt": 10000,
       "px": [
         "n",

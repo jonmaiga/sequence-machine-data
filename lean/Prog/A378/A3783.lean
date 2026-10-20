@@ -2,16 +2,13 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -19,11 +16,11 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,6 +30,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -42,7 +40,7 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -75,6 +73,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -4839,7 +4838,7 @@ end A378384
 /-!
 # A378386: Area of the unique primitive Pythagorean triple whose inradius is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A378386, the canonical program `A378386.P7801827745219322292` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378386 has offset 0).
+The programs for A378386, the canonical program `A378386.P10678097254079986643` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378386 has offset 0).
 
 The definition of A378386 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4867,7 +4866,7 @@ def P4472892201452731916.Spec : Prop :=
 
 end A378386
 
-/-! ## A378386.P7801827745219322292
+/-! ## A378386.P10678097254079986643
 
 `A002315(n)*(A002315(n)+1)*(2*A002315(n)+1)`
 
@@ -4877,10 +4876,10 @@ The canonical program, it is in `Seq.B001.C009`.
 namespace A378386
 
 /-- `A002315(n)*(A002315(n)+1)*(2*A002315(n)+1)` -/
-def P7801827745219322292.Spec : Prop :=
-  ∀ n, P7801827745219322292.a n = A378386 n
+def P10678097254079986643.Spec : Prop :=
+  ∀ n, P10678097254079986643.a n = A378386 n
 
-theorem P7801827745219322292.correct : P7801827745219322292.Spec := by
+theorem P10678097254079986643.correct : P10678097254079986643.Spec := by
   intro n
   simp only [A378386]
 

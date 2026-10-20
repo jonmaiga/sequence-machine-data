@@ -4,8 +4,8 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -14,11 +14,10 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -32,6 +31,8 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +49,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -93,6 +93,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -5708,7 +5709,7 @@ end A286653.P3278360019231024698
 /-!
 # A286654: Characteristic sequence of the Beatty sequence, A022841, of sqrt(7).
 
-The programs for A286654, the canonical program `A286654.P5589144925641845907` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286654 has offset 1).
+The programs for A286654, the canonical program `A286654.P5589144925641845907` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286654 has offset 1).
 
 The definition of A286654 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5717,7 +5718,7 @@ The definition of A286654 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((n+1)/sqrt(7))]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A286654
@@ -9801,33 +9802,6 @@ theorem P10039167065829446357.correct : P10039167065829446357.Spec := by
 
 end A286687
 
-/-! ## A286687.P8042399250625388367
-
-`comp[2*n-A188295(n+1)]`
--/
-
-namespace A286687.P8042399250625388367
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * n : ℤ) - A188295 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A286687.P8042399250625388367
-
-namespace A286687
-
-/-- `comp[2*n-A188295(n+1)]` -/
-def P8042399250625388367.Spec : Prop :=
-  ∀ n, (P8042399250625388367.a n : ℤ) = A286687 (n + 1)
-
-end A286687
-
 /-! ## A286687.P13715122200950499255
 
 `abs(2*(n+1)-A171588(n+1))`
@@ -10031,6 +10005,33 @@ namespace A286687
 /-- `Δ[(n+1)²-A195128(n+1)]` -/
 def P7699405279089342122.Spec : Prop :=
   ∀ n, P7699405279089342122.a n = A286687 (n + 1)
+
+end A286687
+
+/-! ## A286687.P8042399250625388367
+
+`comp[2*n-A188295(n+1)]`
+-/
+
+namespace A286687.P8042399250625388367
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n : ℤ) - A188295 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A286687.P8042399250625388367
+
+namespace A286687
+
+/-- `comp[2*n-A188295(n+1)]` -/
+def P8042399250625388367.Spec : Prop :=
+  ∀ n, (P8042399250625388367.a n : ℤ) = A286687 (n + 1)
 
 end A286687
 
@@ -11062,33 +11063,6 @@ def P8186235510027025916.Spec : Prop :=
 
 end A286689
 
-/-! ## A286689.P2227131979036914977
-
-`comp[A171588(n+1)*A286687(n+1)]`
--/
-
-namespace A286689.P2227131979036914977
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171588 (n + 1) * A286687 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A286689.P2227131979036914977
-
-namespace A286689
-
-/-- `comp[A171588(n+1)*A286687(n+1)]` -/
-def P2227131979036914977.Spec : Prop :=
-  ∀ n, (P2227131979036914977.a n : ℤ) = A286689 (n + 1)
-
-end A286689
-
 /-! ## A286689.P661650578931005020
 
 `∪[A004281(n+1), A286687(n+2)]-1`
@@ -11253,6 +11227,33 @@ namespace A286689
 /-- `∑[A000032(Δ[A006337(n+1)]²)]` -/
 def P14467779894029730152.Spec : Prop :=
   ∀ n, P14467779894029730152.a n = A286689 (n + 1)
+
+end A286689
+
+/-! ## A286689.P2227131979036914977
+
+`comp[A171588(n+1)*A286687(n+1)]`
+-/
+
+namespace A286689.P2227131979036914977
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171588 (n + 1) * A286687 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A286689.P2227131979036914977
+
+namespace A286689
+
+/-- `comp[A171588(n+1)*A286687(n+1)]` -/
+def P2227131979036914977.Spec : Prop :=
+  ∀ n, (P2227131979036914977.a n : ℤ) = A286689 (n + 1)
 
 end A286689
 

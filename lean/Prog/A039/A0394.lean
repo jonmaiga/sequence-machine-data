@@ -5,16 +5,16 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C008
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,6 +38,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -63,7 +64,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 /-!
 # A039400: Numbers whose base-10 representation has the same nonzero number of 0's and 8's.
@@ -1005,36 +1005,6 @@ def P1979692647153965002.Spec : Prop :=
 
 end A039407
 
-/-! ## A039407.P17912900371134210795
-
-`A007095(∪[A039370(n+1), A153432(n+1)])`
--/
-
-namespace A039407.P17912900371134210795
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039370 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153432 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A039407.P17912900371134210795
-
-namespace A039407
-
-/-- `A007095(∪[A039370(n+1), A153432(n+1)])` -/
-def P17912900371134210795.Spec : Prop :=
-  ∀ n, P17912900371134210795.a n = A039407 (n + 1)
-
-end A039407
-
 /-!
 # A039408: Numbers whose base-10 representation has the same nonzero number of 1's and 8's.
 
@@ -1089,36 +1059,6 @@ namespace A039408
 /-- `∩[A011531(n+1), A039126(n+1)]` -/
 def P14702687755458305495.Spec : Prop :=
   ∀ n, (P14702687755458305495.a n : ℤ) = A039408 (n + 1)
-
-end A039408
-
-/-! ## A039408.P5649325202406400499
-
-`∩[A039126(n+1), A291663(n+1)]`
--/
-
-namespace A039408.P5649325202406400499
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039126 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291663 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A039408.P5649325202406400499
-
-namespace A039408
-
-/-- `∩[A039126(n+1), A291663(n+1)]` -/
-def P5649325202406400499.Spec : Prop :=
-  ∀ n, (P5649325202406400499.a n : ℤ) = A039408 (n + 1)
 
 end A039408
 

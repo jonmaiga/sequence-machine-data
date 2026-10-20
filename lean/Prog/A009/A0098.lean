@@ -1,29 +1,30 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C014
+import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -1715,7 +1716,7 @@ end A009838.P12137538699455052491
 
 /-! ## A009838.P18285085141909604343
 
-`floor(-n*a((2*n)%(n+1)))+A122045(n)-A163747(n)` with `a(0)=0`
+`floor(-(n*a((2*n)%(n+1))))+A122045(n)-A163747(n)` with `a(0)=0`
 
 `floor` is left out, it is the identity on integers.
 -/

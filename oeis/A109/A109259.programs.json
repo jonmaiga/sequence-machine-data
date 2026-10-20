@@ -2,20 +2,25 @@
   "oi": 109259,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "floor((n+1)*root(2, root(2, 2)))",
+      "d": "2026-10-19",
+      "ix": "floor((n+1)*sqrt(2)^sqrt(2))",
       "mt": 10000,
       "px": [
         "n",
         "1",
         "+",
         "2",
+        "sqrt",
         "2",
-        "2",
-        "root",
-        "root",
+        "sqrt",
+        "^",
         "*",
         "floor"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

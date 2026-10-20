@@ -3,8 +3,8 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -28,8 +28,11 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -75,7 +78,6 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -2229,7 +2231,7 @@ end A195530.P2130694295503777791
 /-!
 # A195531: Hypotenuses of Pythagorean triples in A195499 and A195503.
 
-The programs for A195531, the canonical program `A195531.P2814914716476778936` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195531 has offset 1).
+The programs for A195531, the canonical program `A195531.P2814914716476778936` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195531 has offset 1).
 
 The definition of A195531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2261,7 +2263,7 @@ end A195531
 
 `3*(a(n-1)+a(n-2))-a(n-3)` with `a(0)=5, a(1)=17, a(2)=65`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195531
@@ -3373,16 +3375,16 @@ end A195548.P18250425102364587290
 /-!
 # A195549: Hypotenuses of primitive Pythagorean triples in A195547 and A195548.
 
-The programs for A195549, the canonical program `A195549.P12232775344250980731` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195549 has offset 1).
+The programs for A195549, the canonical program `A195549.P12232775344250980731` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195549 has offset 1).
 
-The definition of A195549 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A195549 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A195549.P12232775344250980731
 
 `18*a(n-3)-a(n-6)` with `a(0)=1, a(1)=5, a(2)=13, a(3)=17, a(4)=89, a(5)=233`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195549
@@ -4149,43 +4151,6 @@ end
 
 end A195555.P16624831282658536678
 
-/-! ## A195555.P7287105084814316947
-
-`∩[A041047(n+1), A041211(n+1)]`
--/
-
-namespace A195555.P7287105084814316947
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A041047 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A041211 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A195555.P7287105084814316947
-
-/-! ## A195555.P16757965401895756985
-
-`lcm(12, A052918(2*(n+1)))/12`
--/
-
-namespace A195555.P16757965401895756985
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Int.lcm 12 (A052918 (2 * (n + 1))) : ℚ) / 12
-
-end
-
-end A195555.P16757965401895756985
-
 /-! ## A195555.P18439103057901998284
 
 `∩[A041211(n+2), A041047(n)]`
@@ -4207,6 +4172,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A195555.P18439103057901998284
+
+/-! ## A195555.P16757965401895756985
+
+`lcm(12, A052918(2*(n+1)))/12`
+-/
+
+namespace A195555.P16757965401895756985
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Int.lcm 12 (A052918 (2 * (n + 1))) : ℚ) / 12
+
+end
+
+end A195555.P16757965401895756985
 
 /-! ## A195555.P6000207764101287887
 
@@ -5395,7 +5375,7 @@ end A195587
 /-!
 # A195590: Number of ways to place 2n nonattacking kings on a vertical cylinder 4 X 2n.
 
-The programs for A195590, the canonical program `A195590.P14472549165152331506` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195590 has offset 1).
+The programs for A195590, the canonical program `A195590.P14472549165152331506` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195590 has offset 1).
 
 The definition of A195590 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5404,7 +5384,7 @@ The definition of A195590 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(5*(n+1)-3)*2^(n+1)+4`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195590
@@ -5626,7 +5606,7 @@ end A195590
 /-!
 # A195591: Number of ways to place 3n nonattacking kings on a vertical cylinder 6 X 2n.
 
-The programs for A195591, the canonical program `A195591.P13182911666003397043` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195591 has offset 1).
+The programs for A195591, the canonical program `A195591.P13182911666003397043` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195591 has offset 1).
 
 The definition of A195591 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5635,7 +5615,7 @@ The definition of A195591 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(31*(n+1)-65)*2^(n+1)+18*(n+1)+66`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195591
@@ -5653,7 +5633,7 @@ end A195591
 /-!
 # A195592: Number of ways to place 4n nonattacking kings on a vertical cylinder 8 X 2n.
 
-The programs for A195592, the canonical program `A195592.P9576766212288812463` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195592 has offset 1).
+The programs for A195592, the canonical program `A195592.P9576766212288812463` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195592 has offset 1).
 
 The definition of A195592 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5662,7 +5642,7 @@ The definition of A195592 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(221*(n+1)-779)*2^(n+1)+44*(n+1)²+324*(n+1)+780`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195592

@@ -1,23 +1,18 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C001
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B001.C002
 import Seq.B003.C002
 import Seq.B004.C001
-import Seq.B010.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C004
-import Seq.Opaque.C007
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
-import Seq.Opaque.C017
 import Seq.Opaque.C023
 
 /-!
@@ -73,48 +68,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A169400.P15261549766159521310
-
-/-!
-# A169424: 
-
-The programs for A169424, there is no canonical definition to state claims against.
--/
-
-/-! ## A169424.P6722340284060498535
-
-`26*a(n-1)*A001222(A273756(n))` with `a(0)=1, a(1)=27`
--/
-
-namespace A169424.P6722340284060498535
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 27] fun n a =>
-  26 * (a (n - 1) * A001222 (A273756 n).toNat)
-
-end
-
-end A169424.P6722340284060498535
-
-/-!
-# A169432: 
-
-The programs for A169432, there is no canonical definition to state claims against.
--/
-
-/-! ## A169432.P3953126064087011002
-
-`34*lcm(a(n-1), A124778(n))` with `a(0)=1, a(1)=35`
--/
-
-namespace A169432.P3953126064087011002
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 35] fun n a =>
-  34 * Int.lcm (a (n - 1) : ℤ) (A124778 n)
-
-end
-
-end A169432.P3953126064087011002
 
 /-!
 # A169448: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^33 = I.
@@ -217,27 +170,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169449.P18098352696573812499
-
-/-!
-# A169478: 
-
-The programs for A169478, there is no canonical definition to state claims against.
--/
-
-/-! ## A169478.P7789879178909132738
-
-`A009980(n)*A067428(n)/A067429(n)`
--/
-
-namespace A169478.P7789879178909132738
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A009980 n * A067428 n : ℚ) / (A067429 n : ℚ)
-
-end
-
-end A169478.P7789879178909132738
 
 /-!
 # A169496: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^34 = I.

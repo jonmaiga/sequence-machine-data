@@ -14,24 +14,25 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +42,6 @@ import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
@@ -55,8 +55,8 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -934,7 +934,7 @@ end A263417.P6676089665188485531
 
 /-! ## A263417.P8862723106313818279
 
-`∏[sqrt(-∏[n-or(1, -2*n)])]²`
+`∏[sqrt(-∏[n-or(1, -(2*n))])]²`
 -/
 
 namespace A263417.P8862723106313818279
@@ -1843,23 +1843,23 @@ end A263425.P17457203908895874270
 /-!
 # A263426: Permutation of the nonnegative integers: [4k+2, 4k+1, 4k, 4k+3, ...].
 
-The programs for A263426, the canonical program `A263426.P3981647313201753386` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263426 has offset 0).
+The programs for A263426, the canonical program `A263426.P8458699658269426220` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263426 has offset 0).
 
 The definition of A263426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A263426.P3981647313201753386
+/-! ## A263426.P8458699658269426220
 
 `n+(1+(-1)^n)*(-1)^(n*(n+1)/2)`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A263426
 
 /-- `n+(1+(-1)^n)*(-1)^(n*(n+1)/2)` -/
-def P3981647313201753386.Spec : Prop :=
-  ∀ n, P3981647313201753386.a n = (A263426 n : ℝ)
+def P8458699658269426220.Spec : Prop :=
+  ∀ n, P8458699658269426220.a n = (A263426 n : ℝ)
 
 end A263426
 
@@ -3588,23 +3588,23 @@ end A263448.P5205181094664786982
 /-!
 # A263449: Permutation of the natural numbers: [4k+1, 4k+4, 4k+3, 4k+2, ...].
 
-The programs for A263449, the canonical program `A263449.P6118247294194958249` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263449 has offset 0).
+The programs for A263449, the canonical program `A263449.P16267237293989036822` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263449 has offset 0).
 
 The definition of A263449 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A263449.P6118247294194958249
+/-! ## A263449.P16267237293989036822
 
 `n+1+(1-(-1)^n)*(-1)^(n*(n-1)/2)`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A263449
 
 /-- `n+1+(1-(-1)^n)*(-1)^(n*(n-1)/2)` -/
-def P6118247294194958249.Spec : Prop :=
-  ∀ n, P6118247294194958249.a n = (A263449 n : ℝ)
+def P16267237293989036822.Spec : Prop :=
+  ∀ n, P16267237293989036822.a n = (A263449 n : ℝ)
 
 end A263449
 
@@ -4925,7 +4925,7 @@ end A263458.P10128910364247126934
 /-!
 # A263459: Number of (n+1) X (1+1) 0..4 arrays with each row and column divisible by 11, read as a base-5 number with top and left being the most significant digits.
 
-The programs for A263459, the canonical program `A263459.P4082080923444722878` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263459 has offset 1).
+The programs for A263459, the canonical program `A263459.P4082080923444722878` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263459 has offset 1).
 
 The definition of A263459 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4934,7 +4934,7 @@ The definition of A263459 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)+a(n-5)-3*a(n-6)` with `a(0)=2, a(1)=3, a(2)=8, a(3)=23, a(4)=67, a(5)=200`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A263459

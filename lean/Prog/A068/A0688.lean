@@ -4,26 +4,27 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,6 +33,7 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,6 +56,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2885,7 +2888,7 @@ end A068823
 /-!
 # A068824: a(n) = n*c(n), where c(n) is the 10's complement of n.
 
-The programs for A068824, the canonical program `A068824.P8951866495167767291` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068824 has offset 1).
+The programs for A068824, the canonical program `A068824.P8951866495167767291` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068824 has offset 1).
 
 The definition of A068824 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2894,7 +2897,7 @@ The definition of A068824 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*(∏{digits}[n+1, floor(#/10)+10]-(n+1))`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068824
@@ -4232,47 +4235,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A068855.P17943678875866557621
-
-/-! ## A068855.P7491647623817219243
-
-`C(comp[10-∑[A265346(n+1)]]+2, 2)`
--/
-
-namespace A068855.P7491647623817219243
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265346 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  10 - ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 2) 2
-
-end
-
-end A068855.P7491647623817219243
-
-/-! ## A068855.P11818502021439362024
-
-`C(comp[A018252(n+2)-n*xor(3, n)]+2, 2)`
--/
-
-namespace A068855.P11818502021439362024
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018252 (n + 2) - (n * Nat.xor 3 n : ℤ)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 2) 2
-
-end
-
-end A068855.P11818502021439362024
 
 /-! ## A068855.P9458698984688524841
 
@@ -6592,28 +6554,6 @@ end
 
 end A068893.P13521379325088885256
 
-/-! ## A068893.P2988088125906710330
-
-`∩[A085869(n+1), A109019(n+1)]`
--/
-
-namespace A068893.P2988088125906710330
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085869 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109019 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068893.P2988088125906710330
-
 /-! ## A068893.P2335144391314529158
 
 `∩[A062895(n+1), A109019(n+1)]`
@@ -6635,6 +6575,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068893.P2335144391314529158
+
+/-! ## A068893.P2988088125906710330
+
+`∩[A085869(n+1), A109019(n+1)]`
+-/
+
+namespace A068893.P2988088125906710330
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085869 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109019 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068893.P2988088125906710330
 
 /-! ## A068893.P11054339180610315477
 
@@ -6927,28 +6889,6 @@ end A068898.P6948858335668092304
 The programs for A068899, there is no canonical definition to state claims against.
 -/
 
-/-! ## A068899.P11764817813378343478
-
-`∩[A020338(n+1), A068898(n+1)]`
--/
-
-namespace A068899.P11764817813378343478
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020338 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068898 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068899.P11764817813378343478
-
 /-! ## A068899.P2732996440915201280
 
 `∩[ceil(or(1, n*(n+3))/2), A020338(n+3)]`
@@ -6992,6 +6932,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068899.P12106362481955099499
+
+/-! ## A068899.P11764817813378343478
+
+`∩[A020338(n+1), A068898(n+1)]`
+-/
+
+namespace A068899.P11764817813378343478
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020338 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068898 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068899.P11764817813378343478
 
 /-! ## A068899.P15158887101964262932
 

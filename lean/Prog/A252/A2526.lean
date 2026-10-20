@@ -7,19 +7,22 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -57,7 +60,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -4303,7 +4305,7 @@ end A252651
 
 /-! ## A252651.P3471934447766431067
 
-`-A252650(2*n+1)/2`
+`-(A252650(2*n+1)/2)`
 -/
 
 namespace A252651.P3471934447766431067
@@ -4318,7 +4320,7 @@ end A252651.P3471934447766431067
 
 namespace A252651
 
-/-- `-A252650(2*n+1)/2` -/
+/-- `-(A252650(2*n+1)/2)` -/
 def P3471934447766431067.Spec : Prop :=
   ∀ n, P3471934447766431067.a n = (A252651 n : ℚ)
 
@@ -4813,34 +4815,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252665.P5584542690985935362
-
-/-!
-# A252667: Primes formed by an m-digit prime concatenated with its last (m-1) digits, for m > 1.
-
-The programs for A252667, there is no canonical definition to state claims against.
--/
-
-/-! ## A252667.P10248300034045241754
-
-`∩[A061022(n+1), A225082(n+1)]`
--/
-
-namespace A252667.P10248300034045241754
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061022 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225082 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252667.P10248300034045241754
 
 /-!
 # A252669: a(n) is the smallest integer k such that n*k mod (n+k) = 1, or -1 if no such k exists.
@@ -6999,7 +6973,7 @@ end A252694.P7265380783743805051
 /-!
 # A252696: Number of strings of length n over a 3-letter alphabet that do not begin with a nontrivial palindrome.
 
-The programs for A252696, the canonical program `A252696.P6161401064542124124` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252696 has offset 0).
+The programs for A252696, the canonical program `A252696.P6161401064542124124` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252696 has offset 0).
 
 The definition of A252696 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7008,7 +6982,7 @@ The definition of A252696 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)-a(ceil(n/2))` with `a(0)=0, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A252696

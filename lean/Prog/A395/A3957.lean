@@ -3,20 +3,19 @@ import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C005
-import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C036
+import Seq.B000.C020
+import Seq.B000.C025
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C007
+import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -41,7 +40,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -58,7 +56,7 @@ import Seq.Opaque.C025
 /-!
 # A395700: k is term if and only if k = gcd(k^2, k!) / gcd(k^2, k!/floor(k/2)!^2).
 
-The programs for A395700, the canonical program `A395700.P10863328374740441814` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395700 has offset 1).
+The programs for A395700, the canonical program `A395700.P10863328374740441814` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395700 has offset 1).
 
 The definition of A395700 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -67,7 +65,7 @@ The definition of A395700 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n, A181859(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A395700
@@ -751,23 +749,29 @@ end A395765.P4828072718997185116
 /-!
 # A395767: Minimal value of p(1) + Sum_{i=2...n} p(i-1)*p(i), as p ranges over all permutations of powers of 2 {1,2,4,...,2^(n-1)}.
 
-The programs for A395767, there is no canonical definition to state claims against.
+The programs for A395767, the canonical program `A395767.P6540470511524819013` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395767 has offset 1).
+
+The definition of A395767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A395767.P6540470511524819013
 
 `A394572(n)+2^n`
+
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
-namespace A395767.P6540470511524819013
-noncomputable section
+namespace A395767
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394572 n + (2 ^ n : ℤ)
+/-- `A394572(n)+2^n` -/
+def P6540470511524819013.Spec : Prop :=
+  ∀ n, P6540470511524819013.a n = A395767 (n + 1)
 
-end
+theorem P6540470511524819013.correct : P6540470511524819013.Spec := by
+  intro n
+  simp only [A395767, Nat.add_sub_cancel]
 
-end A395767.P6540470511524819013
+end A395767
 
 /-! ## A395767.P16989537861245372279
 
@@ -784,6 +788,14 @@ end
 
 end A395767.P16989537861245372279
 
+namespace A395767
+
+/-- `A395770(n+1)+A011782(n)` -/
+def P16989537861245372279.Spec : Prop :=
+  ∀ n, P16989537861245372279.a n = A395767 (n + 1)
+
+end A395767
+
 /-! ## A395767.P11213690137614388919
 
 `A395770(n+2)+A394572(n)-A394572(n+1)`
@@ -798,6 +810,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395767.P11213690137614388919
+
+namespace A395767
+
+/-- `A395770(n+2)+A394572(n)-A394572(n+1)` -/
+def P11213690137614388919.Spec : Prop :=
+  ∀ n, P11213690137614388919.a n = A395767 (n + 1)
+
+end A395767
 
 /-!
 # A395768: The twisted Euler phi-function for the Dirichlet character kronecker(-4,.) mod 4.
@@ -1142,23 +1162,29 @@ end A395769.P6194955749419262220
 /-!
 # A395770: Minimal value of Sum_{i=1..n-1} p(i)*p(i+1), as p ranges over all permutations of powers of 2 {1,2,4,...,2^(n-1)}.
 
-The programs for A395770, there is no canonical definition to state claims against.
+The programs for A395770, the canonical program `A395770.P6054457820381532371` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395770 has offset 1).
+
+The definition of A395770 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A395770.P6054457820381532371
 
 `A394572(n)+A131577(n)`
+
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
-namespace A395770.P6054457820381532371
-noncomputable section
+namespace A395770
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394572 n + A131577 n
+/-- `A394572(n)+A131577(n)` -/
+def P6054457820381532371.Spec : Prop :=
+  ∀ n, P6054457820381532371.a n = A395770 (n + 1)
 
-end
+theorem P6054457820381532371.correct : P6054457820381532371.Spec := by
+  intro n
+  simp only [A395770, Nat.add_sub_cancel]
 
-end A395770.P6054457820381532371
+end A395770
 
 /-! ## A395770.P16966019493068547943
 
@@ -1174,6 +1200,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395770.P16966019493068547943
+
+namespace A395770
+
+/-- `A395767(n+1)-A011782(n)` -/
+def P16966019493068547943.Spec : Prop :=
+  ∀ n, P16966019493068547943.a n = A395770 (n + 1)
+
+end A395770
 
 /-!
 # A395773: The twisted Euler phi-function for the Dirichlet character kronecker(-15,.) mod 15.
@@ -1326,122 +1360,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395778.P7457415088758513650
-
-/-!
-# A395784: Brick wall numbers: an integer k > 1, written as k = p_1 * p_2 * ... * p_r where p_1 <= p_2 <= ... <= p_r are primes, is a brick wall number if there exist integers h >= 2 and w >= 2 such that the prime factors p_i of k can be stacked up in h horizontal layers of bricks such that the sum of the p_i's in each layer is equal to w.
-
-The programs for A395784, there is no canonical definition to state claims against.
--/
-
-/-! ## A395784.P8803629762163243985
-
-`∩[A109422(n+1), A161579(n+1)]`
--/
-
-namespace A395784.P8803629762163243985
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109422 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161579 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395784.P8803629762163243985
-
-/-! ## A395784.P11326719484360372158
-
-`∩[A109422(n+1), A197911(n)]`
--/
-
-namespace A395784.P11326719484360372158
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109422 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197911 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395784.P11326719484360372158
-
-/-! ## A395784.P9069885164101339784
-
-`∩[A047428(n+1), A109422(n+1)]`
--/
-
-namespace A395784.P9069885164101339784
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047428 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109422 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395784.P9069885164101339784
-
-/-! ## A395784.P9260964505383406347
-
-`∩[A047517(n+1), A109422(n+1)]`
--/
-
-namespace A395784.P9260964505383406347
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047517 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109422 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395784.P9260964505383406347
-
-/-! ## A395784.P11832157103031992177
-
-`∩[A109422(n+1), A183147(n+1)]`
--/
-
-namespace A395784.P11832157103031992177
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109422 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183147 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395784.P11832157103031992177
 
 /-!
 # A395790: Numbers k such that gcd(i!,k) > gcd((i-1)!,k) for every i <= A002034(k) not coprime to k.

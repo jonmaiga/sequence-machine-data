@@ -2,8 +2,8 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -11,36 +11,32 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C025
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -92,7 +88,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A328500: Number of inversion sequences of length n avoiding the consecutive pattern 102.
@@ -1135,6 +1130,28 @@ end A328513.P3928083034347289874
 The programs for A328514, there is no canonical definition to state claims against.
 -/
 
+/-! ## A328514.P6591187372429869003
+
+`∩[A302494(n+1), A318719(n+1)]`
+-/
+
+namespace A328514.P6591187372429869003
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302494 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318719 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328514.P6591187372429869003
+
 /-! ## A328514.P10597484640517026142
 
 `∩[A302494(n+1), A328336(n+1)]`
@@ -1178,28 +1195,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328514.P1602914057723215993
-
-/-! ## A328514.P6591187372429869003
-
-`∩[A302494(n+1), A318719(n+1)]`
--/
-
-namespace A328514.P6591187372429869003
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302494 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318719 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A328514.P6591187372429869003
 
 /-!
 # A328515: Number of primes in permutations of digits per permutation class of the positive integers ordered by smallest member of this class excluding leading zeros.
@@ -3820,6 +3815,28 @@ end
 
 end A328558.P10808020319844018407
 
+/-! ## A328558.P2919677367362235880
+
+`∩[A034793(n+1), A328953(n+1)]`
+-/
+
+namespace A328558.P2919677367362235880
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034793 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328558.P2919677367362235880
+
 /-! ## A328558.P11676016399946990337
 
 `∩[A213011(n+1), A328953(n+1)]`
@@ -3886,16 +3903,16 @@ end
 
 end A328558.P2492434716851941744
 
-/-! ## A328558.P2919677367362235880
+/-! ## A328558.P9936385870504350948
 
-`∩[A034793(n+1), A328953(n+1)]`
+`∩[A138326(n+1), A328953(n+1)]`
 -/
 
-namespace A328558.P2919677367362235880
+namespace A328558.P9936385870504350948
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034793 (n + 1)
+  A138326 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A328953 (n + 1)
@@ -3906,7 +3923,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A328558.P2919677367362235880
+end A328558.P9936385870504350948
 
 /-! ## A328558.P15748738994031781955
 
@@ -3947,28 +3964,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328558.P6137589581396143715
-
-/-! ## A328558.P9936385870504350948
-
-`∩[A138326(n+1), A328953(n+1)]`
--/
-
-namespace A328558.P9936385870504350948
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138326 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328953 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A328558.P9936385870504350948
 
 /-! ## A328558.P8011341716303411116
 
@@ -4036,28 +4031,6 @@ end
 
 end A328558.P5688448914525961811
 
-/-! ## A328558.P14979579083278308583
-
-`∩[A089237(n+1), A342106(n+1)]`
--/
-
-namespace A328558.P14979579083278308583
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089237 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342106 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A328558.P14979579083278308583
-
 /-! ## A328558.P1354031476012716632
 
 `∩[A034793(n+1), A342106(n+1)]`
@@ -4079,6 +4052,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328558.P1354031476012716632
+
+/-! ## A328558.P14979579083278308583
+
+`∩[A089237(n+1), A342106(n+1)]`
+-/
+
+namespace A328558.P14979579083278308583
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089237 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342106 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328558.P14979579083278308583
 
 /-! ## A328558.P16090474151213169443
 
@@ -4596,7 +4591,7 @@ end A328565.P8622461011687683718
 /-!
 # A328567: a(n) is the smallest positive integer divisible by n such that it is possible to strike out a digit from its binary expansion (apart from trailing zeros) so that the resulting number is nonzero and divisible by n.
 
-The programs for A328567, the canonical program `A328567.P8941545944545941635` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328567 has offset 1).
+The programs for A328567, the canonical program `A328567.P8941545944545941635` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328567 has offset 1).
 
 The definition of A328567 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4628,7 +4623,7 @@ end A328567
 
 `2*lcm(n+1, A062383(n+1))-(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A328567
@@ -5094,7 +5089,7 @@ end A328569.P5894787226309339573
 
 /-! ## A328569.P7951052562358955650
 
-`--A328475(n)%A276086(A328580(n))`
+`-(-A328475(n)%A276086(A328580(n)))`
 -/
 
 namespace A328569.P7951052562358955650
@@ -5781,6 +5776,21 @@ end
 
 end A328572.P8585431959010708627
 
+/-! ## A328572.P11900893572450239380
+
+`gcd(A276086(n), A327860(n))`
+-/
+
+namespace A328572.P11900893572450239380
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A276086 n) (A327860 n)
+
+end
+
+end A328572.P11900893572450239380
+
 /-! ## A328572.P961088023590892967
 
 `A328475(n)/A328573(n)`
@@ -5887,21 +5897,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328572.P7980606360549243114
-
-/-! ## A328572.P11900893572450239380
-
-`gcd(A276086(n), A327860(n))`
--/
-
-namespace A328572.P11900893572450239380
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A276086 n) (A327860 n)
-
-end
-
-end A328572.P11900893572450239380
 
 /-! ## A328572.P5535891643404482443
 

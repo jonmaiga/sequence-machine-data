@@ -6,23 +6,21 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -46,7 +44,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
@@ -2738,122 +2735,6 @@ end
 end A237341.P11467561080497104076
 
 /-!
-# A237342: For k in {2,3,...,9} define a sequence as follows: a(0)=0; for n>=0, a(n+1)=a(n)+1, unless a(n) ends in k, in which case a(n+1) is obtained by replacing the last digit of a(n) with the digit(s) of k^2. This is k(5).
-
-The programs for A237342, there is no canonical definition to state claims against.
--/
-
-/-! ## A237342.P17739636899321177337
-
-`∪[A048379(A173735(n)), A237344(n)]`
--/
-
-namespace A237342.P17739636899321177337
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048379 (A173735 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A237344 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237342.P17739636899321177337
-
-/-! ## A237342.P14967064300249386064
-
-`∪[A005408(ceil(10^n/9)), A140665(n+1)]`
--/
-
-namespace A237342.P14967064300249386064
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 ⌈(10 ^ n : ℚ) / 9⌉.toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140665 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237342.P14967064300249386064
-
-/-! ## A237342.P8320518173775855805
-
-`∪[A048380((10^n+17)/9), A099165(n+1)]`
--/
-
-namespace A237342.P8320518173775855805
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048380 (SequenceMachineLib.roundAway ((10 ^ n + 17 : ℚ) / 9)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099165 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237342.P8320518173775855805
-
-/-! ## A237342.P12535775873792082014
-
-`∪[A007095(n), A005408(A047855(n))]`
--/
-
-namespace A237342.P12535775873792082014
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (A047855 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237342.P12535775873792082014
-
-/-! ## A237342.P12002040218475421301
-
-`∪[A024653(n), A005408(A047855(n))]`
--/
-
-namespace A237342.P12002040218475421301
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024653 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (A047855 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237342.P12002040218475421301
-
-/-!
 # A237343: For k in {2,3,...,9} define a sequence as follows: a(0)=0; for n>=0, a(n+1)=a(n)+1, unless a(n) ends in k, in which case a(n+1) is obtained by replacing the last digit of a(n) with the digit(s) of k^2. This is k(6).
 
 The programs for A237343, there is no canonical definition to state claims against.
@@ -2898,28 +2779,6 @@ end
 
 end A237343.P2445973735802494286
 
-/-! ## A237343.P14999291016070775621
-
-`∪[A262868(A047855(n)), A172974(n)]`
--/
-
-namespace A237343.P14999291016070775621
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262868 (A047855 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172974 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237343.P14999291016070775621
-
 /-! ## A237343.P15677562839712103307
 
 `record[A002244(A089759(n))*A082375(n)]`
@@ -2937,28 +2796,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A237343.P15677562839712103307
-
-/-! ## A237343.P4335723668003255442
-
-`∪[A262868(A002275(n)+1), A172974(n)]`
--/
-
-namespace A237343.P4335723668003255442
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262868 (A002275 n + 1).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172974 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A237343.P4335723668003255442
 
 /-!
 # A237344: For k in {2,3,...,9} define a sequence as follows: a(0)=0; for n>=0, a(n+1)=a(n)+1, unless a(n) ends in k, in which case a(n+1) is obtained by replacing the last digit of a(n) with the digit(s) of k^2. This is k(7).
@@ -3246,7 +3083,7 @@ end A237346.P8489448974740387403
 /-!
 # A237347: First differences of A078633.
 
-The programs for A237347, the canonical program `A237347.P11476891004590443588` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237347 has offset 1).
+The programs for A237347, the canonical program `A237347.P11476891004590443588` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237347 has offset 1).
 
 The definition of A237347 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3308,7 +3145,7 @@ end A237347
 
 `xor(2, Δ[floor(sqrt(2*(2*n+1)))%(n+2)])`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A237347

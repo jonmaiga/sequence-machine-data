@@ -50,19 +50,6 @@
       ]
     },
     {
-      "d": "2022-06-12",
-      "ix": "limit[exp(acot(-char[1]))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "char",
-        "neg",
-        "acot",
-        "exp",
-        "limit"
-      ]
-    },
-    {
       "d": "2022-04-22",
       "ix": "limit[exp(atan(-3^n))]",
       "mt": 50,

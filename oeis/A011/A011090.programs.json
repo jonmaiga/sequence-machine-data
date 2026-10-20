@@ -25,23 +25,6 @@
         "sqrt",
         "limit"
       ]
-    },
-    {
-      "d": "2022-07-04",
-      "ix": "limit[sqrt(sqrt(round(sqrt(n+1))-1))]",
-      "mt": 50,
-      "px": [
-        "n",
-        "1",
-        "+",
-        "sqrt",
-        "round",
-        "1",
-        "sub",
-        "sqrt",
-        "sqrt",
-        "limit"
-      ]
     }
   ]
 }

@@ -15,6 +15,10 @@
         "*",
         "floor",
         "C"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

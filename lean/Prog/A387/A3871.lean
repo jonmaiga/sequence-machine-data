@@ -3,7 +3,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -12,29 +11,30 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1114,8 +1114,29 @@ end A387116.P18011166224808956705
 /-!
 # A387117: a(n) = Sum_{k=0..n} binomial(3*n+k,n).
 
-The programs for A387117, there is no canonical definition to state claims against.
+The programs for A387117, the canonical program `A387117.P13677821823471678638` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387117 has offset 0).
+
+The definition of A387117 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A387117.P13677821823471678638
+
+`C(4*n+1, n+1)-C(3*n, n+1)`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A387117
+
+/-- `C(4*n+1, n+1)-C(3*n, n+1)` -/
+def P13677821823471678638.Spec : Prop :=
+  ∀ n, P13677821823471678638.a n = A387117 n
+
+theorem P13677821823471678638.correct : P13677821823471678638.Spec := by
+  intro n
+  simp only [A387117]
+
+end A387117
 
 /-! ## A387117.P17645230499269693932
 
@@ -1131,6 +1152,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387117.P17645230499269693932
+
+namespace A387117
+
+/-- `A085391(A051870(n+1))` -/
+def P17645230499269693932.Spec : Prop :=
+  ∀ n, P17645230499269693932.a n = A387117 n
+
+end A387117
 
 /-!
 # A387118: Number of integer partitions of n without choosable initial intervals.
@@ -1260,72 +1289,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387119.P11694309008525328464
-
-/-! ## A387119.P10603392358771683358
-
-`∩[A305103(n+1), A331386(n+1)]`
--/
-
-namespace A387119.P10603392358771683358
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305103 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331386 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387119.P10603392358771683358
-
-/-! ## A387119.P927386430593718426
-
-`∩[A318978(n+1), A331386(n+1)]`
--/
-
-namespace A387119.P927386430593718426
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318978 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331386 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387119.P927386430593718426
-
-/-! ## A387119.P18217055117449686333
-
-`∩[A328867(n+1), A331386(n+1)]`
--/
-
-namespace A387119.P18217055117449686333
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328867 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331386 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387119.P18217055117449686333
 
 /-!
 # A387121: Array read by antidiagonals: T(n,k) is the number of sets of k integer sided cuboids with distinct volumes that fill an n X n X n cube.
@@ -3862,50 +3825,6 @@ end
 
 end A387161.P2228884935470433201
 
-/-! ## A387161.P5890967665667799362
-
-`∩[A236264(n+1), A251536(n+1)]`
--/
-
-namespace A387161.P5890967665667799362
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236264 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251536 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387161.P5890967665667799362
-
-/-! ## A387161.P4990436500059578215
-
-`∩[A236264(n+1), A353466(n+1)]`
--/
-
-namespace A387161.P4990436500059578215
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236264 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353466 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387161.P4990436500059578215
-
 /-!
 # A387168: Number of isomorphism classes of multigraphs representing particle interactions in phi-4-theory on n non-external vertices.
 
@@ -5284,23 +5203,46 @@ end A387184.P18356172260594171101
 /-!
 # A387185: a(n) = n*2^(n-1) + binomial(n,2)*2^(n-2) + binomial(n,3)*2^(n-3).
 
-The programs for A387185, the canonical program `A387185.P11494096129281402244` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387185 has offset 0).
+The programs for A387185, the canonical program `A387185.P10792436280812433338` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387185 has offset 0).
 
 The definition of A387185 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A387185.P11494096129281402244
+/-! ## A387185.P10792436280812433338
 
-`n*2^n*(20+3*n+n²)/48`
+`n*2^(n-1)+C(n, 2)*2^(n-2)+C(n, 3)*2^(n-3)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A387185
 
+/-- `n*2^(n-1)+C(n, 2)*2^(n-2)+C(n, 3)*2^(n-3)` -/
+def P10792436280812433338.Spec : Prop :=
+  ∀ n, P10792436280812433338.a n = (A387185 n : ℚ)
+
+end A387185
+
+/-! ## A387185.P11012326553883675788
+
+`n*2^n*(20+3*n+n²)/48`
+-/
+
+namespace A387185.P11012326553883675788
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n * 2 ^ n * (20 + 3 * n + n ^ 2) : ℚ) / 48
+
+end
+
+end A387185.P11012326553883675788
+
+namespace A387185
+
 /-- `n*2^n*(20+3*n+n²)/48` -/
-def P11494096129281402244.Spec : Prop :=
-  ∀ n, P11494096129281402244.a n = (A387185 n : ℚ)
+def P11012326553883675788.Spec : Prop :=
+  ∀ n, P11012326553883675788.a n = (A387185 n : ℚ)
 
 end A387185
 
@@ -5478,28 +5420,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A387192.P7750112304594979635
-
-/-! ## A387192.P9913945231500222884
-
-`∩[A139483(n+1), A226017(n+1)]`
--/
-
-namespace A387192.P9913945231500222884
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139483 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226017 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387192.P9913945231500222884
 
 /-!
 # A387199: Numbers which are not themselves palindromes, but a single swap of two digits creates a palindrome.

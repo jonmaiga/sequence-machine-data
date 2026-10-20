@@ -7,13 +7,12 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -23,11 +22,13 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1207,7 +1208,7 @@ end A223416.P13483699790028861391
 /-!
 # A223417: 3-level binary fanout graph coloring a rectangular array: number of nX1 0..6 arrays where 0..6 label nodes of a graph with edges 0,1 1,3 1,4 0,2 2,5 2,6 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223417, the canonical program `A223417.P15604913838622916523` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223417 has offset 1).
+The programs for A223417, the canonical program `A223417.P15604913838622916523` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223417 has offset 1).
 
 The definition of A223417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 330 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1239,7 +1240,7 @@ end A223417
 
 `4*a(n-2)` with `a(0)=7, a(1)=12, a(2)=26`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223417
@@ -3161,7 +3162,7 @@ end A223441.P11395890154307608491
 /-!
 # A223442: 4-level binary fanout graph coloring a rectangular array: number of n X 1 0..14 arrays where 0..14 label nodes of a graph with edges 0,1 1,3 3,5 3,6 1,4 4,7 4,8 0,2 2,9 9,11 9,12 2,10 10,13 10,14 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223442, the canonical program `A223442.P40228728210104024` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223442 has offset 1).
+The programs for A223442, the canonical program `A223442.P40228728210104024` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223442 has offset 1).
 
 The definition of A223442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3170,7 +3171,7 @@ The definition of A223442 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-2)-4*a(n-4)` with `a(0)=15, a(1)=28, a(2)=66, a(3)=144`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223442
@@ -3292,7 +3293,7 @@ end A223442
 /-!
 # A223443: 4-level binary fanout graph coloring a rectangular array: number of n X 2 0..14 arrays where 0..14 label nodes of a graph with edges 0,1 1,3 3,5 3,6 1,4 4,7 4,8 0,2 2,9 9,11 9,12 2,10 10,13 10,14 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223443, the canonical program `A223443.P9736848566471832700` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223443 has offset 1).
+The programs for A223443, the canonical program `A223443.P9736848566471832700` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223443 has offset 1).
 
 The definition of A223443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3301,7 +3302,7 @@ The definition of A223443 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)-8*a(n-2)` with `a(0)=28, a(1)=104, a(2)=408`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223443
@@ -3976,7 +3977,7 @@ end A223448.P9850813417041333732
 /-!
 # A223451: Number of idempotent 2X2 -n..n matrices of rank 1.
 
-The programs for A223451, the canonical program `A223451.P10772190599680636962` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223451 has offset 1).
+The programs for A223451, the canonical program `A223451.P10772190599680636962` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223451 has offset 1).
 
 The definition of A223451 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4014,7 +4015,7 @@ end A223451
 
 `8*∑[∏{p}[n+1, 2%#²]]+2`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223451
@@ -4563,7 +4564,7 @@ end A223453.P1661841273385750988
 /-!
 # A223454: Number of idempotent 2 X 2 -n..n matrices.
 
-The programs for A223454, the canonical program `A223454.P7463534272621350601` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223454 has offset 1).
+The programs for A223454, the canonical program `A223454.P7463534272621350601` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223454 has offset 1).
 
 The definition of A223454 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4601,7 +4602,7 @@ end A223454
 
 `8*∑[∏{e}[∏{p}[n+1, #], #+1]]+4`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223454
@@ -5162,6 +5163,36 @@ def P17533571680209194757.Spec : Prop :=
 
 end A223456
 
+/-! ## A223456.P16706068507249090998
+
+`∩[A002808(n+1), A154893(n+1)]`
+-/
+
+namespace A223456.P16706068507249090998
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002808 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154893 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A223456.P16706068507249090998
+
+namespace A223456
+
+/-- `∩[A002808(n+1), A154893(n+1)]` -/
+def P16706068507249090998.Spec : Prop :=
+  ∀ n, (P16706068507249090998.a n : ℤ) = A223456 (n + 1)
+
+end A223456
+
 /-! ## A223456.P17252620551357519237
 
 `∩[A154893(n+1), A379271(n+1)]`
@@ -5489,36 +5520,6 @@ namespace A223456
 /-- `∩[A154893(n+1), A387319(n+1)]` -/
 def P10289756460708740909.Spec : Prop :=
   ∀ n, (P10289756460708740909.a n : ℤ) = A223456 (n + 1)
-
-end A223456
-
-/-! ## A223456.P16706068507249090998
-
-`∩[A002808(n+1), A154893(n+1)]`
--/
-
-namespace A223456.P16706068507249090998
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002808 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154893 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A223456.P16706068507249090998
-
-namespace A223456
-
-/-- `∩[A002808(n+1), A154893(n+1)]` -/
-def P16706068507249090998.Spec : Prop :=
-  ∀ n, (P16706068507249090998.a n : ℤ) = A223456 (n + 1)
 
 end A223456
 
@@ -9036,6 +9037,21 @@ end A223498.P9246069805114933969
 The programs for A223499, there is no canonical definition to state claims against.
 -/
 
+/-! ## A223499.P16573334921322077078
+
+`(13+(13-2*sqrt(39))*(7-sqrt(39))^(n+1)+(7+sqrt(39))^(n+1)*(13+2*sqrt(39)))/39`
+-/
+
+namespace A223499.P16573334921322077078
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (13 + (13 - 2 * Real.sqrt (39 : ℝ)) * (7 - Real.sqrt (39 : ℝ)) ^ (n + 1) + (7 + Real.sqrt (39 : ℝ)) ^ (n + 1) * (13 + 2 * Real.sqrt (39 : ℝ))) / 39
+
+end
+
+end A223499.P16573334921322077078
+
 /-! ## A223499.P17844844448025090904
 
 `A223504(∑[n+3]+1)`
@@ -9107,22 +9123,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223499.P16918806375500067107
-
-/-! ## A223499.P1178940201076354828
-
-`A087960(2*n)²*A223504(Δ[A008778(n)])`
--/
-
-namespace A223499.P1178940201076354828
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008778 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087960 (2 * n) ^ 2 * A223504 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A223499.P1178940201076354828
 

@@ -3,7 +3,7 @@
   "ps": [
     {
       "d": "2022-07-04",
-      "ix": "or(-ceil(record[sqrt(xor(3, n))])%2, ∑[char[n²]])",
+      "ix": "or(-(ceil(record[sqrt(xor(3, n))])%2), ∑[char[n²]])",
       "mt": 100,
       "px": [
         "3",

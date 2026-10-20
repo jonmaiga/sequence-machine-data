@@ -2,9 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,19 +11,21 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +38,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -48,6 +47,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -5014,24 +5014,6 @@ end A028663.P5408418083571135450
 The programs for A028665, there is no canonical definition to state claims against.
 -/
 
-/-! ## A028665.P8192925057802310789
-
-`∏[3^n*floor((sqrt(3)^n)²)]`
--/
-
-namespace A028665.P8192925057802310789
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 ^ n : ℤ) * ⌊(Real.sqrt (3 : ℝ) ^ n) ^ 2⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A028665.P8192925057802310789
-
 /-! ## A028665.P2646237758769000110
 
 `2*C(3^n, 2)*a(n-1)` with `a(0)=1`
@@ -5464,24 +5446,6 @@ end A028671.P11712490984171770235
 The programs for A028672, there is no canonical definition to state claims against.
 -/
 
-/-! ## A028672.P2613852425925279873
-
-`∏[10^n*floor((sqrt(10)^n)²)]`
--/
-
-namespace A028672.P2613852425925279873
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (10 ^ n : ℤ) * ⌊(Real.sqrt (10 : ℝ) ^ n) ^ 2⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A028672.P2613852425925279873
-
 /-! ## A028672.P12204313907144526220
 
 `((10^n)²-10^n)*a(n-1)` with `a(0)=1`
@@ -5850,24 +5814,6 @@ end A028692.P2399279255781726285
 
 The programs for A028693, there is no canonical definition to state claims against.
 -/
-
-/-! ## A028693.P8814064855730210657
-
-`∏[floor((sqrt(24)^n)²)]`
--/
-
-namespace A028693.P8814064855730210657
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(Real.sqrt (24 : ℝ) ^ n) ^ 2⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A028693.P8814064855730210657
 
 /-! ## A028693.P7697743688656383974
 

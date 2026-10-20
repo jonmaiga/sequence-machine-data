@@ -6,26 +6,25 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
@@ -57,7 +56,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C001
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -2378,28 +2376,28 @@ def P6007532460221023253.Spec : Prop :=
 
 end A197878
 
-/-! ## A197878.P13033525108226626066
+/-! ## A197878.P3828433021846669237
 
 `floor(2*(1+sqrt(2))*(n+1))`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A197878.P13033525108226626066
+namespace A197878.P3828433021846669237
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊2 * ((1 + Real.sqrt (2 : ℝ)) * (n + 1 : ℝ))⌋
+  ⌊2 * (1 + Real.sqrt (2 : ℝ)) * (n + 1 : ℝ)⌋
 
 end
 
-end A197878.P13033525108226626066
+end A197878.P3828433021846669237
 
 namespace A197878
 
 /-- `floor(2*(1+sqrt(2))*(n+1))` -/
-def P13033525108226626066.Spec : Prop :=
-  ∀ n, P13033525108226626066.a n = A197878 (n + 1)
+def P3828433021846669237.Spec : Prop :=
+  ∀ n, P3828433021846669237.a n = A197878 (n + 1)
 
 end A197878
 
@@ -2782,63 +2780,30 @@ def P1043583425591119484.Spec : Prop :=
 
 end A197878
 
-/-! ## A197878.P10418432483061192033
-
-`Δ[∑[A198263(n)]+n²]`
--/
-
-namespace A197878.P10418432483061192033
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198263 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j + (n ^ 2 : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A197878.P10418432483061192033
-
-namespace A197878
-
-/-- `Δ[∑[A198263(n)]+n²]` -/
-def P10418432483061192033.Spec : Prop :=
-  ∀ n, P10418432483061192033.a n = A197878 (n + 1)
-
-end A197878
-
 /-!
 # A197879: Parity of floor(n*sqrt(8)).
 
-The programs for A197879, the canonical program `A197879.P4266122216531450186` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197879 has offset 1).
+The programs for A197879, the canonical program `A197879.P8406148724613814584` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197879 has offset 1).
 
-The definition of A197879 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A197879 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A197879.P5426900717932975851
+/-! ## A197879.P8406148724613814584
 
-`floor((n+1)*sqrt(8))%2`
+`floor(sqrt(8)*(n+1))%2`
+
+The canonical program, it is in `Seq.B000.C027`.
 -/
-
-namespace A197879.P5426900717932975851
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ⌊(n + 1 : ℝ) * Real.sqrt (8 : ℝ)⌋ 2
-
-end
-
-end A197879.P5426900717932975851
 
 namespace A197879
 
-/-- `floor((n+1)*sqrt(8))%2` -/
-def P5426900717932975851.Spec : Prop :=
-  ∀ n, P5426900717932975851.a n = A197879 (n + 1)
+/-- `floor(sqrt(8)*(n+1))%2` -/
+def P8406148724613814584.Spec : Prop :=
+  ∀ n, P8406148724613814584.a n = A197879 (n + 1)
+
+theorem P8406148724613814584.correct : P8406148724613814584.Spec := by
+  intro n
+  simp only [A197879, Nat.add_sub_cancel]
 
 end A197879
 
@@ -2914,19 +2879,23 @@ end A197879
 /-! ## A197879.P4266122216531450186
 
 `(A022842(n+1)%2)²`
-
-The canonical program, it is in `Seq.B001.C006`.
 -/
+
+namespace A197879.P4266122216531450186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A022842 (n + 1)) 2 ^ 2
+
+end
+
+end A197879.P4266122216531450186
 
 namespace A197879
 
 /-- `(A022842(n+1)%2)²` -/
 def P4266122216531450186.Spec : Prop :=
   ∀ n, P4266122216531450186.a n = A197879 (n + 1)
-
-theorem P4266122216531450186.correct : P4266122216531450186.Spec := by
-  intro n
-  simp only [A197879, Nat.add_sub_cancel]
 
 end A197879
 
@@ -3407,7 +3376,7 @@ end A197880.P16840573238903441723
 /-!
 # A197881: Number of times n occurs in A197863.
 
-The programs for A197881, the canonical program `A197881.P10260950731511024877` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197881 has offset 1).
+The programs for A197881, the canonical program `A197881.P10260950731511024877` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197881 has offset 1).
 
 The definition of A197881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3416,7 +3385,7 @@ The definition of A197881 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, C(#, C(2, #))]`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A197881

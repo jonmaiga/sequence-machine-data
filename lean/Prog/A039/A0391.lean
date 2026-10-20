@@ -10,25 +10,27 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,7 +39,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -73,7 +75,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -86,7 +87,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A039100: Numbers whose base-9 representation has the same number of 3's and 7's.
@@ -352,31 +352,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039103.P3374568499449103665
-
-/-! ## A039103.P2562207040607708257
-
-`lt[comp[34-10*n], A004183(A052414(n+2))]`
--/
-
-namespace A039103.P2562207040607708257
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  34 - (10 * n : ℤ)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004183 (A052414 (n + 2)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f3 j) n
-
-end
-
-end A039103.P2562207040607708257
 
 /-!
 # A039104: Numbers whose base-9 representation has the same number of 4's and 7's.
@@ -14244,107 +14219,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039187.P3097027772478870486
-
-/-!
-# A039188: Numbers whose base-11 representation has the same number of 3's and 10's.
-
-The programs for A039188, there is no canonical definition to state claims against.
--/
-
-/-! ## A039188.P14299357416788828418
-
-`comp[26-A314283(n)]`
--/
-
-namespace A039188.P14299357416788828418
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  26 - A314283 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039188.P14299357416788828418
-
-/-! ## A039188.P8965591164354018428
-
-`comp[32-A207871(n+2)]`
--/
-
-namespace A039188.P8965591164354018428
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  32 - A207871 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039188.P8965591164354018428
-
-/-! ## A039188.P553807136949854644
-
-`comp[33-A168670(n+2)]`
--/
-
-namespace A039188.P553807136949854644
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  33 - A168670 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039188.P553807136949854644
-
-/-! ## A039188.P3028841498594637216
-
-`comp[a(A189463(n))+11]` with `a(0)=10, a(1)=3`
--/
-
-namespace A039188.P3028841498594637216
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [10, 3] fun n f1 =>
-  f1 (A189463 n).toNat + 11
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
-
-end
-
-end A039188.P3028841498594637216
-
-/-! ## A039188.P3466232129357585102
-
-`comp[28-A215798(3*n+2)]`
--/
-
-namespace A039188.P3466232129357585102
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  28 - A215798 (3 * n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A039188.P3466232129357585102
 
 /-!
 # A039189: Numbers whose base-11 representation has the same number of 4's and 5's.

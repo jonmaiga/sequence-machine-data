@@ -5,30 +5,31 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C011
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C012
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C030
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B003.C003
@@ -48,7 +49,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C014
@@ -655,28 +655,6 @@ end A396641
 The programs for A396642, there is no canonical definition to state claims against.
 -/
 
-/-! ## A396642.P9431147936701168831
-
-`∩[A009185(n+1), A350140(n+1)]`
--/
-
-namespace A396642.P9431147936701168831
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009185 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350140 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A396642.P9431147936701168831
-
 /-! ## A396642.P11436841191102261738
 
 `filter[A317534(n+1), A340370(#)]`
@@ -1024,27 +1002,52 @@ end A396648.P12511411540174210681
 /-!
 # A396652: a(n) = (2*n-3-(-1)^n)*(6*n+1-(-1)^n)/8.
 
-The programs for A396652, the canonical program `A396652.P17881013438402343694` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396652 has offset 0).
+The programs for A396652, the canonical program `A396652.P9419091518121404480` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396652 has offset 0).
 
 The definition of A396652 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A396652.P17881013438402343694
+/-! ## A396652.P9419091518121404480
 
 `2*floor((n-1)/2)*(n+1+floor((n-1)/2))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A396652
 
 /-- `2*floor((n-1)/2)*(n+1+floor((n-1)/2))` -/
-def P17881013438402343694.Spec : Prop :=
-  ∀ n, P17881013438402343694.a n = A396652 n
+def P9419091518121404480.Spec : Prop :=
+  ∀ n, P9419091518121404480.a n = A396652 n
 
-theorem P17881013438402343694.correct : P17881013438402343694.Spec := by
+theorem P9419091518121404480.correct : P9419091518121404480.Spec := by
   intro n
   simp only [A396652]
+
+end A396652
+
+/-! ## A396652.P16126139125024960913
+
+`(2*n-3-(-1)^n)*(6*n+1-(-1)^n)/8`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A396652.P16126139125024960913
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((2 * n : ℤ) - 3 - (-1) ^ n) * ((6 * n + 1 : ℤ) - (-1) ^ n) : ℚ) / 8
+
+end
+
+end A396652.P16126139125024960913
+
+namespace A396652
+
+/-- `(2*n-3-(-1)^n)*(6*n+1-(-1)^n)/8` -/
+def P16126139125024960913.Spec : Prop :=
+  ∀ n, P16126139125024960913.a n = (A396652 n : ℚ)
 
 end A396652
 

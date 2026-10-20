@@ -13,28 +13,31 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C016
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -89,7 +92,7 @@ import Seq.Opaque.C025
 /-!
 # A367700: Number of degree 2 vertices in the n-Menger sponge graph.
 
-The programs for A367700, the canonical program `A367700.P17883411812266083417` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367700 has offset 1).
+The programs for A367700, the canonical program `A367700.P17883411812266083417` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367700 has offset 1).
 
 The definition of A367700 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -98,7 +101,7 @@ The definition of A367700 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-3/5*8^(n+1)-72/5*3^(n+1)` with `a(0)=12`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367700
@@ -135,7 +138,7 @@ end A367700
 /-!
 # A367701: Number of degree 3 vertices in the n-Menger sponge graph.
 
-The programs for A367701, the canonical program `A367701.P9799478557419957753` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367701 has offset 1).
+The programs for A367701, the canonical program `A367701.P9799478557419957753` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367701 has offset 1).
 
 The definition of A367701 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -144,7 +147,7 @@ The definition of A367701 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-9/5*8^(n+1)+144/5*3^(n+1)-152` with `a(0)=8`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367701
@@ -181,7 +184,7 @@ end A367701
 /-!
 # A367702: Number of degree 4 vertices in the n-Menger sponge graph.
 
-The programs for A367702, the canonical program `A367702.P3996351846515481811` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367702 has offset 1).
+The programs for A367702, the canonical program `A367702.P3996351846515481811` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367702 has offset 1).
 
 The definition of A367702 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -190,7 +193,7 @@ The definition of A367702 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)+6/5*8^(n+1)-216/5*3^(n+1)+456` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367702
@@ -278,7 +281,7 @@ end A367703.P12919915390671334093
 /-!
 # A367705: Coefficients of expansion of (1 + 5*x + 11*x^2 + 5*x^3 + 7*x^4 + x^5)/(1 - x^3)^2 in powers of x.
 
-The programs for A367705, the canonical program `A367705.P12095556615350475222` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367705 has offset 0).
+The programs for A367705, the canonical program `A367705.P12095556615350475222` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367705 has offset 0).
 
 The definition of A367705 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -287,7 +290,7 @@ The definition of A367705 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-3)-a(n-6)` with `a(0)=1, a(1)=5, a(2)=11, a(3)=7, a(4)=17, a(5)=23`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367705
@@ -760,7 +763,7 @@ end A367705
 /-!
 # A367706: Number of degree 5 vertices in the n-Menger sponge graph.
 
-The programs for A367706, the canonical program `A367706.P13184903918680954553` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367706 has offset 1).
+The programs for A367706, the canonical program `A367706.P13184903918680954553` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367706 has offset 1).
 
 The definition of A367706 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -769,7 +772,7 @@ The definition of A367706 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)-3/5*8^(n+1)+288/5*3^(n+1)-456` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367706
@@ -806,7 +809,7 @@ end A367706
 /-!
 # A367707: Number of degree 6 vertices in the n-Menger sponge graph.
 
-The programs for A367707, the canonical program `A367707.P7116135640919201533` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367707 has offset 1).
+The programs for A367707, the canonical program `A367707.P7116135640919201533` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367707 has offset 1).
 
 The definition of A367707 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -815,7 +818,7 @@ The definition of A367707 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `20*a(n-1)+9/5*8^(n+1)-144/5*3^(n+1)+152` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367707
@@ -1703,23 +1706,29 @@ end A367728.P9343798629620725062
 /-!
 # A367733: Numbers k such that the sum of digits of k is equal to the sum of digits of k+9.
 
-The programs for A367733, there is no canonical definition to state claims against.
+The programs for A367733, the canonical program `A367733.P5596006491334651101` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367733 has offset 1).
+
+The definition of A367733 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A367733.P2842459854391820882
+/-! ## A367733.P5596006491334651101
 
-`A007095(n)-(A010051(A046311(3*n+5))-1)`
+`n+1+floor(n/9)+floor(n/81)*10`
+
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
-namespace A367733.P2842459854391820882
-noncomputable section
+namespace A367733
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 n - (A010051 (A046311 (3 * n + 5)).toNat - 1)
+/-- `n+1+floor(n/9)+floor(n/81)*10` -/
+def P5596006491334651101.Spec : Prop :=
+  ∀ n, P5596006491334651101.a n = A367733 (n + 1)
 
-end
+theorem P5596006491334651101.correct : P5596006491334651101.Spec := by
+  intro n
+  simp only [A367733, Nat.add_sub_cancel]
 
-end A367733.P2842459854391820882
+end A367733
 
 /-! ## A367733.P1323607617057254339
 
@@ -1739,56 +1748,13 @@ end
 
 end A367733.P1323607617057254339
 
-/-! ## A367733.P1195970607563747803
+namespace A367733
 
-`1-(A023531(A084849(n))-record[A004184(n)])`
--/
+/-- `record[A235049(A263254(n))+1]` -/
+def P1323607617057254339.Spec : Prop :=
+  ∀ n, P1323607617057254339.a n = A367733 (n + 1)
 
-namespace A367733.P1195970607563747803
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004184 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - (A023531 (A084849 n).toNat - f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))
-
-end
-
-end A367733.P1195970607563747803
-
-/-! ## A367733.P13351472783096664997
-
-`1-(A023531(A084849(n))-record[A004728(n)])`
--/
-
-namespace A367733.P13351472783096664997
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004728 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - (A023531 (A084849 n).toNat - f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))
-
-end
-
-end A367733.P13351472783096664997
-
-/-! ## A367733.P15814520231080932432
-
-`A007095(n)-(1-A181819(A344626(3*n+4)))`
--/
-
-namespace A367733.P15814520231080932432
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007095 n - (1 - A181819 (A344626 (3 * n + 4)).toNat)
-
-end
-
-end A367733.P15814520231080932432
+end A367733
 
 /-! ## A367733.P14415931754716316482
 
@@ -1807,6 +1773,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A367733.P14415931754716316482
+
+namespace A367733
+
+/-- `record[A235049(A025638(n+1))+1]` -/
+def P14415931754716316482.Spec : Prop :=
+  ∀ n, P14415931754716316482.a n = A367733 (n + 1)
+
+end A367733
 
 /-!
 # A367734: Numbers that have no balanced divisors except for 1.
@@ -3040,31 +3014,6 @@ end
 
 end A367768.P17858583965762842525
 
-/-! ## A367768.P5306151068634585633
-
-`eq[char[A367584(n+1)], A151622(n)]`
--/
-
-namespace A367768.P5306151068634585633
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367584 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151622 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
-
-end
-
-end A367768.P5306151068634585633
-
 /-! ## A367768.P3974212994120244682
 
 `A193166(lt[A262501(3*(n+1)), A153672(n+1)])`
@@ -3092,20 +3041,20 @@ end A367768.P3974212994120244682
 The programs for A367769, there is no canonical definition to state claims against.
 -/
 
-/-! ## A367769.P15340145315228630587
+/-! ## A367769.P13571645162393123425
 
-`A016031(n+1)-A367770(n)`
+`2^(2^n-n-1)-A367770(n)`
 -/
 
-namespace A367769.P15340145315228630587
+namespace A367769.P13571645162393123425
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016031 (n + 1) - A367770 n
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((2 ^ n : ℤ) - (n : ℤ) - 1 : ℤ) - (A367770 n : ℚ)
 
 end
 
-end A367769.P15340145315228630587
+end A367769.P13571645162393123425
 
 /-!
 # A367770: Number of sets of nonempty non-singleton subsets of {1..n} satisfying a strict version of the axiom of choice.
@@ -3594,29 +3543,29 @@ end A367780.P10114369978711258789
 /-!
 # A367782: Numbers k such that binomial(2*k,k) mod k is odd.
 
-The programs for A367782, there is no canonical definition to state claims against.
+The programs for A367782, the canonical program `A367782.P17228893178319578665` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367782 has offset 1).
+
+The definition of A367782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1609 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A367782.P17228893178319578665
 
 `lt[n, A000035(n)*A053214(n)]`
+
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
-namespace A367782.P17228893178319578665
-noncomputable section
+namespace A367782
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+/-- `lt[n, A000035(n)*A053214(n)]` -/
+def P17228893178319578665.Spec : Prop :=
+  ∀ n, (P17228893178319578665.a n : ℤ) = A367782 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 n * A053214 n
+theorem P17228893178319578665.correct : P17228893178319578665.Spec := by
+  intro n
+  simp only [A367782, Nat.add_sub_cancel]
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A367782.P17228893178319578665
+end A367782
 
 /-!
 # A367783: Number of subsets of the integer lattice Z^2 of cardinality n such that there is no monotone lattice path which splits the set in half, up to shifts.

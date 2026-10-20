@@ -3,7 +3,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,31 +11,33 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -941,7 +942,7 @@ end A210825
 /-!
 # A210826: G.f.: Sum_{n>=1} a(n)*x^n/(1 - x^n) = Sum_{n>=1} x^(n^3).
 
-The programs for A210826, the canonical program `A210826.P1982609276010569986` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210826 has offset 1).
+The programs for A210826, the canonical program `A210826.P1982609276010569986` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210826 has offset 1).
 
 The definition of A210826 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -950,7 +951,7 @@ The definition of A210826 is `conjectured`: the Lean definition is a formula tha
 
 `(∏{e}[n+1, #+1]+1)%3-1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A210826
@@ -2495,16 +2496,16 @@ end A210845
 /-!
 # A210848: a(n) = (A048898(n)^2 + 1)/5^n, n >= 0.
 
-The programs for A210848, the canonical program `A210848.P7386477562932695241` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210848 has offset 0).
+The programs for A210848, the canonical program `A210848.P7386477562932695241` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210848 has offset 0).
 
-The definition of A210848 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048898, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A210848 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A210848.P7386477562932695241
 
 `(A048898(n)²+1)/5^n`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A210848
@@ -2564,7 +2565,7 @@ end A210848
 /-!
 # A210849: a(n) = (A048899(n)^2 + 1)/5^n, n >= 0.
 
-The programs for A210849, the canonical program `A210849.P10752492383084115412` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210849 has offset 0).
+The programs for A210849, the canonical program `A210849.P10752492383084115412` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210849 has offset 0).
 
 The definition of A210849 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048899, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2573,7 +2574,7 @@ The definition of A210849 is `conditional`: the Lean definition is an OEIS formu
 
 `(A048899(n)²+1)/5^n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A210849
@@ -4936,151 +4937,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A210890.P11110420754946325042
-
-/-!
-# A210891: Number of days after Mar 01 00 such that the date written in the format D.M.YY is palindromic.
-
-The programs for A210891, there is no canonical definition to state claims against.
--/
-
-/-! ## A210891.P2739748026656960843
-
-`A210889(comp[A106605(n+1)-A210886(2*n+1)])`
--/
-
-namespace A210891.P2739748026656960843
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106605 (n + 1) - A210886 (2 * n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210889 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210891.P2739748026656960843
-
-/-! ## A210891.P14381453726884007485
-
-`A210889(comp[A106605(n+1)%A210886(2*n+1)])`
--/
-
-namespace A210891.P14381453726884007485
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A106605 (n + 1)) (A210886 (2 * n + 1))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210889 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210891.P14381453726884007485
-
-/-!
-# A210892: Dates after Jan 01 00 in chronological order which are palindromic when they are written in the format D.M.YY. The terms are listed as numbers. Leading zeros of the terms are suppressed.
-
-The programs for A210892, there is no canonical definition to state claims against.
--/
-
-/-! ## A210892.P12470926104186123814
-
-`A210890(comp[A106605(n+1)-A210886(2*n+1)])`
--/
-
-namespace A210892.P12470926104186123814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106605 (n + 1) - A210886 (2 * n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210890 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210892.P12470926104186123814
-
-/-! ## A210892.P4017018519040229691
-
-`A210890(comp[A000108(n+3)*A192072(2*(n+1))])`
--/
-
-namespace A210892.P4017018519040229691
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000108 (n + 3) * A192072 (2 * (n + 1))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210890 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210892.P4017018519040229691
-
-/-! ## A210892.P3185915973543557244
-
-`A210890(comp[A138163(n+5)*A192072(2*(n+1))])`
--/
-
-namespace A210892.P3185915973543557244
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138163 (n + 5) * A192072 (2 * (n + 1))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210890 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210892.P3185915973543557244
-
-/-! ## A210892.P3486571754663667848
-
-`A210890(comp[A106605(n+1)%A210886(2*n+1)])`
--/
-
-namespace A210892.P3486571754663667848
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A106605 (n + 1)) (A210886 (2 * n + 1))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210890 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210892.P3486571754663667848
-
-/-! ## A210892.P6694933792389292085
-
-`A210890(comp[A192072(2*(n+1))*A350607(2*(n+2))])`
--/
-
-namespace A210892.P6694933792389292085
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A192072 (2 * (n + 1)) * A350607 (2 * (n + 2))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210890 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A210892.P6694933792389292085
 
 /-!
 # A210893: Dates after Jan 01 1000 in chronological order which are palindromic when they are written according to the format MMDDYYYY (American standard). Leading zeros of the terms are suppressed.

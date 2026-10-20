@@ -14,19 +14,20 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C030
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,9 +41,8 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1051,23 +1051,23 @@ end A367014
 /-!
 # A367015: Number of regions formed after n points have been placed in general position on each edge of a triangle (as in A365929).
 
-The programs for A367015, the canonical program `A367015.P15680902792466513827` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367015 has offset 0).
+The programs for A367015, the canonical program `A367015.P17796200513347678177` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367015 has offset 0).
 
 The definition of A367015 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A367015.P15680902792466513827
+/-! ## A367015.P17796200513347678177
 
 `3*n²*(n*(3*n-4)+5)/4+1`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367015
 
 /-- `3*n²*(n*(3*n-4)+5)/4+1` -/
-def P15680902792466513827.Spec : Prop :=
-  ∀ n, P15680902792466513827.a n = (A367015 n : ℚ)
+def P17796200513347678177.Spec : Prop :=
+  ∀ n, P17796200513347678177.a n = (A367015 n : ℚ)
 
 end A367015
 
@@ -3315,7 +3315,7 @@ end A367068.P11899650519301146810
 
 /-! ## A367068.P14809557319562117187
 
-`-ceil(cot(-ϕ/(n+2)))`
+`-ceil(cot(-(ϕ/(n+2))))`
 -/
 
 namespace A367068.P14809557319562117187
@@ -3881,19 +3881,19 @@ end A367080.P73599202338793611
 The programs for A367083, there is no canonical definition to state claims against.
 -/
 
-/-! ## A367083.P4731719750020692126
+/-! ## A367083.P12237497082435281940
 
-`∩[A025613(n+1), A337801(n+1)]`
+`∩[A006899(n+1), A025613(n+1)]`
 -/
 
-namespace A367083.P4731719750020692126
+namespace A367083.P12237497082435281940
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025613 (n + 1)
+  A006899 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337801 (n + 1)
+  A025613 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3901,7 +3901,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A367083.P4731719750020692126
+end A367083.P12237497082435281940
 
 /-! ## A367083.P10297086466836160849
 
@@ -3925,19 +3925,19 @@ end
 
 end A367083.P10297086466836160849
 
-/-! ## A367083.P12237497082435281940
+/-! ## A367083.P4731719750020692126
 
-`∩[A006899(n+1), A025613(n+1)]`
+`∩[A025613(n+1), A337801(n+1)]`
 -/
 
-namespace A367083.P12237497082435281940
+namespace A367083.P4731719750020692126
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006899 (n + 1)
+  A025613 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025613 (n + 1)
+  A337801 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3945,7 +3945,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A367083.P12237497082435281940
+end A367083.P4731719750020692126
 
 /-! ## A367083.P5937974781490116957
 
@@ -4239,7 +4239,7 @@ end A367085.P5797094456635019771
 /-!
 # A367086: Exponents k > 0 such that the interval [4^(k-1), 4^k] contains two powers of 3.
 
-The programs for A367086, the canonical program `A367086.P3116202800278906353` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367086 has offset 0).
+The programs for A367086, the canonical program `A367086.P3116202800278906353` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367086 has offset 0).
 
 The definition of A367086 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4248,7 +4248,7 @@ The definition of A367086 is `conjectured`: the Lean definition is a formula tha
 
 `abs(comp[ceil(2*n/log2(3))]-n)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A367086

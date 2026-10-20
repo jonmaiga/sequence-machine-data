@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,24 +11,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +40,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,7 +57,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -88,7 +84,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -1357,28 +1352,6 @@ end
 
 end A054217.P12692787563474822981
 
-/-! ## A054217.P7828707853997247089
-
-`∩[A090933(n+1), A258084(n+1)]`
--/
-
-namespace A054217.P7828707853997247089
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090933 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A258084 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A054217.P7828707853997247089
-
 /-! ## A054217.P9710357755038935121
 
 `A332088(A084092(n+1))`
@@ -1415,28 +1388,6 @@ end
 
 end A054218.P12087401017096397634
 
-/-! ## A054218.P10267617091524443506
-
-`A056525(∩[A007500(n+1), A258084(n+1)])`
--/
-
-namespace A054218.P10267617091524443506
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007500 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A258084 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056525 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A054218.P10267617091524443506
-
 /-! ## A054218.P4420170847202743946
 
 `∩[A056525(A007500(n+1)), A084092(n+1)]`
@@ -1458,6 +1409,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A054218.P4420170847202743946
+
+/-! ## A054218.P10267617091524443506
+
+`A056525(∩[A007500(n+1), A258084(n+1)])`
+-/
+
+namespace A054218.P10267617091524443506
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007500 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258084 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056525 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n)
+
+end
+
+end A054218.P10267617091524443506
 
 /-! ## A054218.P10933385787822771961
 
@@ -3556,36 +3529,6 @@ def P5450956323805435249.Spec : Prop :=
 
 end A054243
 
-/-! ## A054243.P14259910814015772890
-
-`∏[2-char[A117575(n)]]`
--/
-
-namespace A054243.P14259910814015772890
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117575 n
-
-open Classical in
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - ((if ∃ j, f2 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A054243.P14259910814015772890
-
-namespace A054243
-
-/-- `∏[2-char[A117575(n)]]` -/
-def P14259910814015772890.Spec : Prop :=
-  ∀ n, P14259910814015772890.a n = A054243 n
-
-end A054243
-
 /-! ## A054243.P15322105954389762737
 
 `∏[A000032(∏{p}[n, val(#, 2)])]`
@@ -4854,7 +4797,7 @@ end A054249.P8499567490999373429
 /-!
 # A054254: a(n) is n plus the minimum of the a(i)*a(n-i) of the previous i = 1..n-1.
 
-The programs for A054254, the canonical program `A054254.P11923703867781641244` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054254 has offset 0).
+The programs for A054254, the canonical program `A054254.P11923703867781641244` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054254 has offset 0).
 
 The definition of A054254 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4863,7 +4806,7 @@ The definition of A054254 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+n` with `a(0)=0, a(1)=1, a(2)=2, a(3)=5, a(4)=8`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A054254
@@ -7695,7 +7638,7 @@ end A054271
 /-!
 # A054272: Number of primes in the interval [prime(n), prime(n)^2].
 
-The programs for A054272, the canonical program `A054272.P16500536369367462355` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054272 has offset 1).
+The programs for A054272, the canonical program `A054272.P16500536369367462355` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054272 has offset 1).
 
 The definition of A054272 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A250474, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7704,7 +7647,7 @@ The definition of A054272 is `conditional`: the Lean definition is an OEIS formu
 
 `A250474(n+1)-2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A054272
@@ -8171,7 +8114,7 @@ end A054272
 /-!
 # A054275: Susceptibility series H_2 for 2-dimensional Ising model (divided by 2).
 
-The programs for A054275, the canonical program `A054275.P16507263762178672501` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054275 has offset 0).
+The programs for A054275, the canonical program `A054275.P16507263762178672501` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054275 has offset 0).
 
 The definition of A054275 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8180,7 +8123,7 @@ The definition of A054275 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=1, a(1)=8, a(2)=24, a(3)=52, a(4)=90`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C009`.
 -/
 
 namespace A054275

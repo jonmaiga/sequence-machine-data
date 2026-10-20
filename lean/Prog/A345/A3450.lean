@@ -14,21 +14,22 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,13 +37,11 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -78,6 +77,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -113,6 +113,23 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A345000.P6867067137374484987
+
+/-! ## A345000.P1270652245702239418
+
+`gcd(A003415(n), A003415(A276086(n)))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A345000.P1270652245702239418
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A003415 n) (A003415 (A276086 n).toNat)
+
+end
+
+end A345000.P1270652245702239418
 
 /-! ## A345000.P5878961307823647231
 
@@ -1741,7 +1758,7 @@ end A345018
 /-!
 # A345019: Numbers whose last digit is refactorable.
 
-The programs for A345019, the canonical program `A345019.P5603473894539981261` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345019 has offset 1).
+The programs for A345019, the canonical program `A345019.P5603473894539981261` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345019 has offset 1).
 
 The definition of A345019 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1750,7 +1767,7 @@ The definition of A345019 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-4)-a(n-5)` with `a(0)=1, a(1)=2, a(2)=8, a(3)=9, a(4)=11`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345019
@@ -2720,7 +2737,7 @@ end A345026.P1350542869950273410
 /-!
 # A345028: a(n) = Sum_{k=1..n} 2^(floor(n/k) - 1).
 
-The programs for A345028, the canonical program `A345028.P12947712929757512005` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345028 has offset 1).
+The programs for A345028, the canonical program `A345028.P12947712929757512005` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345028 has offset 1).
 
 The definition of A345028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2729,7 +2746,7 @@ The definition of A345028 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{d}[n+1, ceil(2^(#-2))]]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345028
@@ -3007,7 +3024,7 @@ end A345030.P12848882130043742984
 /-!
 # A345031: a(n) = 6*a(n-1) - 7*a(n-2) - 2*a(n-3) for n >= 3, with a(0) = a(1) = 0, a(2) = 1.
 
-The programs for A345031, the canonical program `A345031.P2350117445831643144` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345031 has offset 0).
+The programs for A345031, the canonical program `A345031.P2350117445831643144` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345031 has offset 0).
 
 The definition of A345031 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6*a(n-1)-7*a(n-2)-2*a(n-3)` (program `A345031.P2350117445831643144`, by `A345031.P2350117445831643144.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3016,7 +3033,7 @@ The definition of A345031 is `verified`: the Lean definition is proven equivalen
 
 `6*a(n-1)-7*a(n-2)-2*a(n-3)` with `a(0)=0, a(1)=0, a(2)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345031
@@ -4324,7 +4341,7 @@ end A345047.P6159786433159244677
 
 /-! ## A345047.P4045313887798515555
 
-`A344879(-(n+1)/or(n+1, -(n+1))%A082994(2*n+3))`
+`A344879(-((n+1)/or(n+1, -(n+1)))%A082994(2*n+3))`
 -/
 
 namespace A345047.P4045313887798515555
@@ -6506,6 +6523,23 @@ end
 
 end A345061.P2483748483143257968
 
+/-! ## A345061.P7401874845754752641
+
+`gcd(A071324(n+1), A206369(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A345061.P7401874845754752641
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A071324 (n + 1)) (A206369 (n + 1))
+
+end
+
+end A345061.P7401874845754752641
+
 /-! ## A345061.P3378600646576069983
 
 `gcd(A061020(n+1), A071323(n+1))`
@@ -6520,21 +6554,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A345061.P3378600646576069983
-
-/-! ## A345061.P7401874845754752641
-
-`gcd(A071324(n+1), A206369(n+1))`
--/
-
-namespace A345061.P7401874845754752641
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A071324 (n + 1)) (A206369 (n + 1))
-
-end
-
-end A345061.P7401874845754752641
 
 /-! ## A345061.P16466420098576237130
 
@@ -6602,6 +6621,23 @@ end
 
 end A345062.P9337733454547326580
 
+/-! ## A345062.P16999280593115491377
+
+`A071324(n+1)/gcd(A071324(n+1), A206369(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A345062.P16999280593115491377
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A071324 (n + 1) : ℚ) / (Int.gcd (A071324 (n + 1)) (A206369 (n + 1)) : ℚ)
+
+end
+
+end A345062.P16999280593115491377
+
 /-! ## A345062.P9030163613498979559
 
 `abs(A071323(n+1)/A345061(n+1))`
@@ -6662,21 +6698,6 @@ end
 
 end A345062.P5611560380144979678
 
-/-! ## A345062.P9799445866678491081
-
-`A071324(n+1)/gcd(A061020(n+1), A071324(n+1))`
--/
-
-namespace A345062.P9799445866678491081
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A071324 (n + 1) : ℚ) / (Int.gcd (A061020 (n + 1)) (A071324 (n + 1)) : ℚ)
-
-end
-
-end A345062.P9799445866678491081
-
 /-!
 # A345063: a(n) = A206369(n) / gcd(A071324(n), A206369(n)).
 
@@ -6697,6 +6718,23 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A345063.P4429961690981947243
+
+/-! ## A345063.P10712256083314432832
+
+`A206369(n+1)/gcd(A071324(n+1), A206369(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A345063.P10712256083314432832
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A206369 (n + 1) : ℚ) / (Int.gcd (A071324 (n + 1)) (A206369 (n + 1)) : ℚ)
+
+end
+
+end A345063.P10712256083314432832
 
 /-! ## A345063.P16284917600749186419
 
@@ -8857,7 +8895,7 @@ end A345072.P15663342405921627048
 /-!
 # A345073: a(n) is the least integer k such that e * (n!)^(1/n) < n + k.
 
-The programs for A345073, the canonical program `A345073.P4902809471837997029` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345073 has offset 1).
+The programs for A345073, the canonical program `A345073.P4902809471837997029` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345073 has offset 1).
 
 The definition of A345073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8866,7 +8904,7 @@ The definition of A345073 is `conjectured`: the Lean definition is a formula tha
 
 `floor(exp(∑[log(n+1)+1]/(n+1)))-n`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345073
