@@ -143,16 +143,15 @@
       ]
     },
     {
-      "d": "2025-06-07",
-      "ix": "val(dr(contfrac[e]!), 9)",
+      "d": "2026-10-20",
+      "ix": "floor(atan(log(contfrac[e])))",
       "mt": 50,
       "px": [
         "e",
         "contfrac",
-        "!",
-        "dr",
-        "9",
-        "val"
+        "log",
+        "atan",
+        "floor"
       ]
     }
   ]

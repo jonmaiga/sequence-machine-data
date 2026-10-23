@@ -1,0 +1,74 @@
+{
+  "oi": 392219,
+  "ps": [
+    {
+      "d": "2026-10-20",
+      "ix": "p?[lt[7, contfrac[tan(1)]]]",
+      "mt": 11,
+      "px": [
+        "7",
+        "1",
+        "tan",
+        "contfrac",
+        "lt",
+        "p?"
+      ]
+    },
+    {
+      "d": "2026-10-20",
+      "ix": "p?[comp[xor(2, contfrac[γ])]]",
+      "mt": 11,
+      "px": [
+        "2",
+        "γ",
+        "contfrac",
+        "xor",
+        "comp",
+        "p?"
+      ]
+    },
+    {
+      "d": "2026-10-20",
+      "ix": "p?[comp[contfrac[atan(acot(10))]]]",
+      "mt": 11,
+      "px": [
+        "10",
+        "acot",
+        "atan",
+        "contfrac",
+        "comp",
+        "p?"
+      ]
+    },
+    {
+      "d": "2026-10-20",
+      "ix": "p?[lt[contfrac[cosh(2)], n-1]]",
+      "mt": 11,
+      "px": [
+        "2",
+        "cosh",
+        "contfrac",
+        "n",
+        "1",
+        "sub",
+        "lt",
+        "p?"
+      ]
+    },
+    {
+      "d": "2026-10-20",
+      "ix": "p?[lt[contfrac[acot(3)], n-1]]",
+      "mt": 11,
+      "px": [
+        "3",
+        "acot",
+        "contfrac",
+        "n",
+        "1",
+        "sub",
+        "lt",
+        "p?"
+      ]
+    }
+  ]
+}
