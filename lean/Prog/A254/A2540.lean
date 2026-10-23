@@ -55,7 +55,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -641,6 +640,29 @@ def P3942822313450824216.Spec : Prop :=
 
 end A254006
 
+/-! ## A254006.P2724967575677461542
+
+`sqrt(A010674(n+1))^n`
+-/
+
+namespace A254006.P2724967575677461542
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A010674 (n + 1) : ℝ) ^ n
+
+end
+
+end A254006.P2724967575677461542
+
+namespace A254006
+
+/-- `sqrt(A010674(n+1))^n` -/
+def P2724967575677461542.Spec : Prop :=
+  ∀ n, P2724967575677461542.a n = (A254006 n : ℝ)
+
+end A254006
+
 /-! ## A254006.P12263988754004731138
 
 `3^(n/2)*A059841(n)`
@@ -661,6 +683,52 @@ namespace A254006
 /-- `3^(n/2)*A059841(n)` -/
 def P12263988754004731138.Spec : Prop :=
   ∀ n, P12263988754004731138.a n = (A254006 n : ℝ)
+
+end A254006
+
+/-! ## A254006.P14773340619691395365
+
+`A108411(n)-a(n-1)` with `a(0)=1`
+-/
+
+namespace A254006.P14773340619691395365
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A108411 n - a (n - 1)
+
+end
+
+end A254006.P14773340619691395365
+
+namespace A254006
+
+/-- `A108411(n)-a(n-1)` -/
+def P14773340619691395365.Spec : Prop :=
+  ∀ n, P14773340619691395365.a n = A254006 n
+
+end A254006
+
+/-! ## A254006.P11918072122925963739
+
+`3^(n+1-A038459(n+1))`
+-/
+
+namespace A254006.P11918072122925963739
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 : ℚ) ^ ((n + 1 : ℤ) - A038459 (n + 1) : ℤ)
+
+end
+
+end A254006.P11918072122925963739
+
+namespace A254006
+
+/-- `3^(n+1-A038459(n+1))` -/
+def P11918072122925963739.Spec : Prop :=
+  ∀ n, P11918072122925963739.a n = (A254006 n : ℚ)
 
 end A254006
 
@@ -4530,6 +4598,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A254038.P15030401532820945705
+
+/-! ## A254038.P2024079278386531998
+
+`∩[A048383(n+1), A244763(n+1)]`
+-/
+
+namespace A254038.P2024079278386531998
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048383 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244763 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A254038.P2024079278386531998
 
 /-!
 # A254040: Number T(n,k) of primitive (= aperiodic) n-bead necklaces with colored beads of exactly k different colors; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.

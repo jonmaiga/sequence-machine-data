@@ -60,6 +60,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -1263,6 +1264,28 @@ end A308616.P16210386895741155792
 The programs for A308618, there is no canonical definition to state claims against.
 -/
 
+/-! ## A308618.P149151816575717055
+
+`∩[A360425(n+1), A377139(n+1)]`
+-/
+
+namespace A308618.P149151816575717055
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360425 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377139 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308618.P149151816575717055
+
 /-! ## A308618.P2782830031379696197
 
 `∩[A015702(n+1), A377139(n+1)]`
@@ -1285,6 +1308,50 @@ end
 
 end A308618.P2782830031379696197
 
+/-! ## A308618.P10819827674075359875
+
+`∩[A007095(n), A333931(n+1)]`
+-/
+
+namespace A308618.P10819827674075359875
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007095 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333931 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308618.P10819827674075359875
+
+/-! ## A308618.P7227802294177534300
+
+`∩[A007095(n), A353899(n+1)]`
+-/
+
+namespace A308618.P7227802294177534300
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007095 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353899 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308618.P7227802294177534300
+
 /-! ## A308618.P9572245052178434265
 
 `∩[A216365(n+1), A220423(n+1)]`
@@ -1306,39 +1373,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A308618.P9572245052178434265
-
-/-! ## A308618.P14187038769993283904
-
-`A353899(A353888(n+1))%A353938(2*(n+2))`
--/
-
-namespace A308618.P14187038769993283904
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A353899 (A353888 (n + 1)).toNat) (A353938 (2 * (n + 2)))
-
-end
-
-end A308618.P14187038769993283904
-
-/-! ## A308618.P2547219477548655992
-
-`filter[A333931(n+1), A178788(#)]`
--/
-
-namespace A308618.P2547219477548655992
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333931 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A178788 (f1 j).toNat = 1) n)
-
-end
-
-end A308618.P2547219477548655992
 
 /-!
 # A308620: Number of states in the evolutionary spatial prisoner's dilemma with n players.
@@ -3520,7 +3554,7 @@ end A308662.P4142906320711246118
 /-!
 # A308663: Partial sums of A097805.
 
-The programs for A308663, the canonical program `A308663.P15674035364685402174` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308663 has offset 0).
+The programs for A308663, the canonical program `A308663.P15674035364685402174` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308663 has offset 0).
 
 The definition of A308663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3578,7 +3612,7 @@ end A308663
 
 `A163866(n)+1-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A308663

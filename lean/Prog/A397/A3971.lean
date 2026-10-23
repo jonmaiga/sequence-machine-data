@@ -1848,6 +1848,29 @@ def P12802751993684018087.Spec : Prop :=
 
 end A397113
 
+/-! ## A397113.P5147058144858387084
+
+`A008217(2*n)-A077814(2*n)`
+-/
+
+namespace A397113.P5147058144858387084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008217 (2 * n) - A077814 (2 * n)
+
+end
+
+end A397113.P5147058144858387084
+
+namespace A397113
+
+/-- `A008217(2*n)-A077814(2*n)` -/
+def P5147058144858387084.Spec : Prop :=
+  ∀ n, P5147058144858387084.a n = A397113 n
+
+end A397113
+
 /-!
 # A397118: Size of clusters of star triples of Family D in the Spectre aperiodic monotile tiling.
 
@@ -2386,6 +2409,28 @@ end A397136
 The programs for A397142, there is no canonical definition to state claims against.
 -/
 
+/-! ## A397142.P17177986101860231148
+
+`∩[A002778(n+1), A007932(n+1)]`
+-/
+
+namespace A397142.P17177986101860231148
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002778 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007932 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397142.P17177986101860231148
+
 /-! ## A397142.P12827304175676466044
 
 `∩[A007932(n+1), A057135(n+1)]`
@@ -2473,28 +2518,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397142.P14847665878947706466
-
-/-! ## A397142.P3430117715074201560
-
-`∩[A057135(n+1), A082207(n+1)]`
--/
-
-namespace A397142.P3430117715074201560
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057135 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082207 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A397142.P3430117715074201560
 
 /-!
 # A397144: G.f. A(x), with A(0) = 0, satisfies A(x-x^2) = x + A(x)^3.
@@ -2957,6 +2980,42 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397171.P5532652901206195807
+
+/-! ## A397171.P9254220054516228179
+
+`eq[A321452(n), A337939(n+1)]`
+-/
+
+namespace A397171.P9254220054516228179
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321452 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337939 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A397171.P9254220054516228179
+
+/-! ## A397171.P10701327130322532195
+
+`A180101(A076273(n+1)+A076273(n))`
+-/
+
+namespace A397171.P10701327130322532195
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180101 (A076273 (n + 1) + A076273 n).toNat
+
+end
+
+end A397171.P10701327130322532195
 
 /-!
 # A397172: Number of primes in n-th block of A280864.

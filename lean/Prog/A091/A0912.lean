@@ -843,6 +843,28 @@ end
 
 end A091206.P17056683989564229802
 
+/-! ## A091206.P8541810669218776352
+
+`∩[A014580(n+1), A066050(n+1)]`
+-/
+
+namespace A091206.P8541810669218776352
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014580 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066050 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091206.P8541810669218776352
+
 /-! ## A091206.P15273017914136176017
 
 `∩[A014580(n+1), A067126(n+1)]`
@@ -988,24 +1010,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A091206.P14962368824137356301
-
-/-! ## A091206.P5702043804755102271
-
-`filter[A008578(n+1), A091225(#)]`
--/
-
-namespace A091206.P5702043804755102271
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008578 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A091225 (f1 j).toNat = 1) n)
-
-end
-
-end A091206.P5702043804755102271
 
 /-!
 # A091207: Indices of primes that are also irreducible GF(2)[X]-polynomials.
@@ -1812,6 +1816,94 @@ end
 
 end A091209.P7821795095346807548
 
+/-! ## A091209.P9536441866991274142
+
+`∩[A000040(n+1), A260427(n+1)]`
+-/
+
+namespace A091209.P9536441866991274142
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260427 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091209.P9536441866991274142
+
+/-! ## A091209.P9754939634093490042
+
+`∩[A006005(n+1), A260427(n+1)]`
+-/
+
+namespace A091209.P9754939634093490042
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006005 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260427 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091209.P9754939634093490042
+
+/-! ## A091209.P13762425735310736348
+
+`∩[A008578(n+1), A260427(n+1)]`
+-/
+
+namespace A091209.P13762425735310736348
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008578 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260427 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091209.P13762425735310736348
+
+/-! ## A091209.P193294567913301845
+
+`∩[A001751(n+1), A260427(n+1)]`
+-/
+
+namespace A091209.P193294567913301845
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001751 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260427 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091209.P193294567913301845
+
 /-! ## A091209.P17808099515291591478
 
 `filter[A257688(n+1), A091247(#)]`
@@ -1829,78 +1921,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A091209.P17808099515291591478
-
-/-! ## A091209.P17295096426455618141
-
-`filter[A372059(n+1), A091247(#)]`
--/
-
-namespace A091209.P17295096426455618141
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A372059 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A091247 (f1 j).toNat = 1) n)
-
-end
-
-end A091209.P17295096426455618141
-
-/-! ## A091209.P15520421878654945027
-
-`filter[A063904(n+1), A091247(#)]`
--/
-
-namespace A091209.P15520421878654945027
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063904 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A091247 (f1 j).toNat = 1) n)
-
-end
-
-end A091209.P15520421878654945027
-
-/-! ## A091209.P2814298665122839505
-
-`filter[A063884(n+1), A091247(#)]`
--/
-
-namespace A091209.P2814298665122839505
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063884 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A091247 (f1 j).toNat = 1) n)
-
-end
-
-end A091209.P2814298665122839505
-
-/-! ## A091209.P17569949256264302216
-
-`filter[A130008(n), A091247(#)]`
--/
-
-namespace A091209.P17569949256264302216
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130008 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A091247 (f1 j).toNat = 1) n)
-
-end
-
-end A091209.P17569949256264302216
 
 /-!
 # A091210: Indices of primes that are composite GF(2)[X]-polynomials.
@@ -7535,49 +7555,47 @@ end
 
 end A091242.P13146902788887142435
 
-/-! ## A091242.P6269895816487415001
+/-! ## A091242.P10294106177950550057
 
-`comp[A305421(a(n-2))]` with `a(0)=0, a(1)=1, a(2)=2`
+`eq[A091225(n), A130779(n)]`
 -/
 
-namespace A091242.P6269895816487415001
+namespace A091242.P10294106177950550057
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 2] fun n f1 =>
-  A305421 (f1 (n - 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091225 n
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A091242.P6269895816487415001
-
-/-! ## A091242.P14226179755937183398
-
-`eq[1, char[A234745(n+1)]]`
--/
-
-namespace A091242.P14226179755937183398
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234745 (n + 1)
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130779 n
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A091242.P14226179755937183398
+end A091242.P10294106177950550057
+
+/-! ## A091242.P8631971451639209567
+
+`eq[A091225(n), A166926(n)]`
+-/
+
+namespace A091242.P8631971451639209567
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091225 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166926 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A091242.P8631971451639209567
 
 /-!
 # A091243: Differences between consecutive reducible GF(2)[X]-polynomials.
@@ -8575,6 +8593,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A091246.P10256999635267998141
+
+/-! ## A091246.P16008895404366107308
+
+`A091245(n+1)-A091225(n+1)*A091245(n)`
+-/
+
+namespace A091246.P16008895404366107308
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091245 (n + 1) - A091225 (n + 1) * A091245 n
+
+end
+
+end A091246.P16008895404366107308
 
 /-!
 # A091247: Characteristic function of A091242: 1 if the n-th GF(2)[X] polynomial is reducible, 0 otherwise.
@@ -14780,6 +14813,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A091285.P14940978028843886955
+
+/-!
+# A091287: Numbers k such that (sigma(k)+sigma(k+1))/sigma(2*k+1) is an integer, where sigma = A000203.
+
+The programs for A091287, there is no canonical definition to state claims against.
+-/
+
+/-! ## A091287.P16557446953063550841
+
+`∪[A067171(n+1), A091289(n+1)]`
+-/
+
+namespace A091287.P16557446953063550841
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067171 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091289 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091287.P16557446953063550841
 
 /-!
 # A091289: Integer solutions x to sigma(x) + sigma(x+1) = 2*sigma(2x+1) where sigma = A000203.

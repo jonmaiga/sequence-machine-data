@@ -636,6 +636,28 @@ end
 
 end A185104.P1349533590669683613
 
+/-! ## A185104.P3482644988637127521
+
+`∩[A090934(n+1), A111347(n+1)]`
+-/
+
+namespace A185104.P3482644988637127521
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090934 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111347 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A185104.P3482644988637127521
+
 /-!
 # A185105: Number T(n,k) of entries in the k-th cycles of all permutations of {1,2,..,n}; each cycle is written with the smallest element first and cycles are arranged in increasing order of their first elements.
 
@@ -5425,6 +5447,21 @@ end
 
 end A185166.P13386477218518300166
 
+/-! ## A185166.P10365422957565043632
+
+`A332992(A069112(n+1))`
+-/
+
+namespace A185166.P10365422957565043632
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332992 (A069112 (n + 1)).toNat
+
+end
+
+end A185166.P10365422957565043632
+
 /-!
 # A185170: a(n) = floor( (2*n^2 - 6*n + 9) / 5).
 
@@ -7605,7 +7642,7 @@ end A185186.P2848885373653685066
 /-!
 # A185189: Powers of 2 >= 16 and powers of odd primes.
 
-The programs for A185189, the canonical program `A185189.P18053497688823494421` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185189 has offset 1).
+The programs for A185189, the canonical program `A185189.P18053497688823494421` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185189 has offset 1).
 
 The definition of A185189 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7644,7 +7681,7 @@ end A185189
 
 `A246655(2*(n+1)-floor(n²/(n+2)))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A185189

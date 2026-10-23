@@ -30,6 +30,7 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -56,7 +57,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B013.C000
@@ -1290,20 +1290,20 @@ end A368827
 The programs for A368830, there is no canonical definition to state claims against.
 -/
 
-/-! ## A368830.P14232164538706914318
+/-! ## A368830.P13301171828363004375
 
-`ogf((1-2x+x^2+x^4+x^5+5x^6+4x^7)/(1-3x+2x^2))`
+`ogf((-1+2x^2+x^3+x^4+x^5+2x^7)/(-1+x+3x^2))`
 -/
 
-namespace A368830.P14232164538706914318
+namespace A368830.P13301171828363004375
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, -2, 1, 0, 1, 1, 5, 4] [1, -3, 2] n
+  SequenceMachineLib.ogf [1, 0, -2, -1, -1, -1, 0, -2] [1, -1, -3] n
 
 end
 
-end A368830.P14232164538706914318
+end A368830.P13301171828363004375
 
 /-! ## A368830.P5771649369296511136
 
@@ -4400,6 +4400,29 @@ def P7184105327507844597.Spec : Prop :=
 
 end A368881
 
+/-! ## A368881.P5461682362711681670
+
+`A051744(n+1)-A095794(n+1)`
+-/
+
+namespace A368881.P5461682362711681670
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051744 (n + 1) - A095794 (n + 1)
+
+end
+
+end A368881.P5461682362711681670
+
+namespace A368881
+
+/-- `A051744(n+1)-A095794(n+1)` -/
+def P5461682362711681670.Spec : Prop :=
+  ∀ n, P5461682362711681670.a n = A368881 n
+
+end A368881
+
 /-!
 # A368883: The number of infinitary divisors of n that are cubefree.
 
@@ -5471,7 +5494,7 @@ end A368885
 /-!
 # A368886: The largest unitary divisor of n without an exponent 2 in its prime factorization (A337050).
 
-The programs for A368886, the canonical program `A368886.P14991200523902703916` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368886 has offset 1).
+The programs for A368886, the canonical program `A368886.P14991200523902703916` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368886 has offset 1).
 
 The definition of A368886 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A368884, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5480,7 +5503,7 @@ The definition of A368886 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)/A368884(n+1)`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A368886

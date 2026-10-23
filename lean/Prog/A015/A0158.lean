@@ -49,7 +49,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -563,6 +562,21 @@ end
 
 end A015807.P9044017704977510957
 
+/-! ## A015807.P18062533762367996268
+
+`A016303(A281873(n+2))`
+-/
+
+namespace A015807.P18062533762367996268
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016303 (A281873 (n + 2)).toNat
+
+end
+
+end A015807.P18062533762367996268
+
 /-!
 # A015809: Odd numbers k such that phi(k) | sigma_3(k).
 
@@ -587,6 +601,36 @@ def P1146351289713362011.Spec : Prop :=
 theorem P1146351289713362011.correct : P1146351289713362011.Spec := by
   intro n
   simp only [A015809, Nat.add_sub_cancel]
+
+end A015809
+
+/-! ## A015809.P6274977664789368104
+
+`∩[2*n+1, A015761(n+1)]`
+-/
+
+namespace A015809.P6274977664789368104
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015761 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A015809.P6274977664789368104
+
+namespace A015809
+
+/-- `∩[2*n+1, A015761(n+1)]` -/
+def P6274977664789368104.Spec : Prop :=
+  ∀ n, (P6274977664789368104.a n : ℤ) = A015809 (n + 1)
 
 end A015809
 
@@ -5817,6 +5861,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A015897.P7622629032302869296
+
+/-! ## A015897.P14244708151216905048
+
+`A330813(A381225(n))`
+-/
+
+namespace A015897.P14244708151216905048
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330813 (A381225 n).toNat
+
+end
+
+end A015897.P14244708151216905048
 
 /-!
 # A015898: Numbers k such that k | 9^k + 9.

@@ -5273,6 +5273,24 @@ end
 
 end A242368.P7663627819922812708
 
+/-! ## A242368.P12762597646261850840
+
+`filter[A342773(n+1), A010051(#)]`
+-/
+
+namespace A242368.P12762597646261850840
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342773 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A242368.P12762597646261850840
+
 /-!
 # A242369: a(n) = P(n, 1, -2*n-1, 1-2*n)/(n+1), P the Jacobi polynomial.
 
@@ -5741,6 +5759,75 @@ namespace A242371
 /-- `A007590(Δ[A035608(n+2)])` -/
 def P5396404967513634694.Spec : Prop :=
   ∀ n, P5396404967513634694.a n = A242371 (n + 3)
+
+end A242371
+
+/-! ## A242371.P15578762003857903421
+
+`A007590(A010710(n)+2*n+1)`
+-/
+
+namespace A242371.P15578762003857903421
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007590 (A010710 n + (2 * n + 1 : ℤ)).toNat
+
+end
+
+end A242371.P15578762003857903421
+
+namespace A242371
+
+/-- `A007590(A010710(n)+2*n+1)` -/
+def P15578762003857903421.Spec : Prop :=
+  ∀ n, P15578762003857903421.a n = A242371 (n + 3)
+
+end A242371
+
+/-! ## A242371.P16342367108134540375
+
+`A001972(A047550(n+2))`
+-/
+
+namespace A242371.P16342367108134540375
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001972 (A047550 (n + 2)).toNat
+
+end
+
+end A242371.P16342367108134540375
+
+namespace A242371
+
+/-- `A001972(A047550(n+2))` -/
+def P16342367108134540375.Spec : Prop :=
+  ∀ n, P16342367108134540375.a n = A242371 (n + 3)
+
+end A242371
+
+/-! ## A242371.P4391658485426443654
+
+`A192544(A079326(n+3))`
+-/
+
+namespace A242371.P4391658485426443654
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192544 (A079326 (n + 3)).toNat
+
+end
+
+end A242371.P4391658485426443654
+
+namespace A242371
+
+/-- `A192544(A079326(n+3))` -/
+def P4391658485426443654.Spec : Prop :=
+  ∀ n, P4391658485426443654.a n = A242371 (n + 3)
 
 end A242371
 

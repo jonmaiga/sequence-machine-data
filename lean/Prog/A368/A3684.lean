@@ -265,6 +265,28 @@ end
 
 end A368404.P2866804857803441380
 
+/-! ## A368404.P2492859170010977071
+
+`∩[A037918(n+1), A342030(n+1)]`
+-/
+
+namespace A368404.P2492859170010977071
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037918 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342030 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A368404.P2492859170010977071
+
 /-! ## A368404.P9574991895623678520
 
 `A342030(A219040(n+1)+A199092(3*n+1))`
@@ -279,27 +301,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368404.P9574991895623678520
-
-/-! ## A368404.P2387193189059336670
-
-`A342030(lt[A277055(3*n+2), A301397(n+1)])`
--/
-
-namespace A368404.P2387193189059336670
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277055 (3 * n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301397 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342030 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A368404.P2387193189059336670
 
 /-!
 # A368405: Infinitary version of Mertens's function: a(n) = Sum_{k=1..n} A064179(k).
@@ -843,21 +844,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368414.P9986994724508109439
-
-/-! ## A368414.P4619435228900013806
-
-`A118462(A000005(n+1)-A001222(n+1))`
--/
-
-namespace A368414.P4619435228900013806
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118462 (A000005 (n + 1) - A001222 (n + 1)).toNat
-
-end
-
-end A368414.P4619435228900013806
 
 /-!
 # A368416: Numbers k whose decimal expansion can be split into two parts s and t with k = s^2 + t^2.
@@ -3741,6 +3727,29 @@ def P8697106479064095354.Spec : Prop :=
 
 end A368472
 
+/-! ## A368472.P2719069889045614689
+
+`A368711(A099257(n+2))`
+-/
+
+namespace A368472.P2719069889045614689
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368711 (A099257 (n + 2)).toNat
+
+end
+
+end A368472.P2719069889045614689
+
+namespace A368472
+
+/-- `A368711(A099257(n+2))` -/
+def P2719069889045614689.Spec : Prop :=
+  ∀ n, P2719069889045614689.a n = A368472 (n + 1)
+
+end A368472
+
 /-!
 # A368473: Product of exponents of prime factorization of the exponentially 2^n-numbers (A138302).
 
@@ -3973,6 +3982,29 @@ def P6138626111674022466.Spec : Prop :=
 
 end A368473
 
+/-! ## A368473.P1648575263732815529
+
+`A072911(A354180(n+1))`
+-/
+
+namespace A368473.P1648575263732815529
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072911 (A354180 (n + 1)).toNat
+
+end
+
+end A368473.P1648575263732815529
+
+namespace A368473
+
+/-- `A072911(A354180(n+1))` -/
+def P1648575263732815529.Spec : Prop :=
+  ∀ n, P1648575263732815529.a n = A368473 (n + 1)
+
+end A368473
+
 /-!
 # A368474: Product of exponents of prime factorization of the numbers whose exponents in their prime power factorization are squares (A197680).
 
@@ -4199,6 +4231,29 @@ namespace A368474
 /-- `A370256(A197680(n+1)²)²` -/
 def P17067117371204999271.Spec : Prop :=
   ∀ n, P17067117371204999271.a n = A368474 (n + 1)
+
+end A368474
+
+/-! ## A368474.P15487487909542455223
+
+`gcd(A137827(n+1), A238020(n))`
+-/
+
+namespace A368474.P15487487909542455223
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A137827 (n + 1)) (A238020 n)
+
+end
+
+end A368474.P15487487909542455223
+
+namespace A368474
+
+/-- `gcd(A137827(n+1), A238020(n))` -/
+def P15487487909542455223.Spec : Prop :=
+  ∀ n, (P15487487909542455223.a n : ℤ) = A368474 (n + 1)
 
 end A368474
 

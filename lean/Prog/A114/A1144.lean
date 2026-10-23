@@ -78,6 +78,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -90,7 +91,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -4736,49 +4736,35 @@ end
 
 end A114440.P4838844435523352145
 
-/-! ## A114440.P10871679019224024560
+/-! ## A114440.P6631728249966168153
 
-`∪[A097569(A044917(n+1)), A171674(n+1)]`
+`A343680(A328617(n+1))`
 -/
 
-namespace A114440.P10871679019224024560
+namespace A114440.P6631728249966168153
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097569 (A044917 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171674 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343680 (A328617 (n + 1)).toNat
 
 end
 
-end A114440.P10871679019224024560
+end A114440.P6631728249966168153
 
-/-! ## A114440.P13389825833661219036
+/-! ## A114440.P678797591201978981
 
-`∪[A097569(A043320(n+1)), A171674(n+2)]`
+`A343680(A351831(n+2))`
 -/
 
-namespace A114440.P13389825833661219036
+namespace A114440.P678797591201978981
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097569 (A043320 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171674 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343680 (A351831 (n + 2)).toNat
 
 end
 
-end A114440.P13389825833661219036
+end A114440.P678797591201978981
 
 /-!
 # A114441: Indices of 3-almost prime pentagonal numbers.
@@ -5638,26 +5624,26 @@ def P7954847111085431158.Spec : Prop :=
 
 end A114444
 
-/-! ## A114444.P9311582291802915894
+/-! ## A114444.P5540586062703390068
 
-`A028566(4*n)`
+`A158639(n+1)%A158693(n+1)`
 -/
 
-namespace A114444.P9311582291802915894
+namespace A114444.P5540586062703390068
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028566 (4 * n)
+  Int.tmod (A158639 (n + 1)) (A158693 (n + 1))
 
 end
 
-end A114444.P9311582291802915894
+end A114444.P5540586062703390068
 
 namespace A114444
 
-/-- `A028566(4*n)` -/
-def P9311582291802915894.Spec : Prop :=
-  ∀ n, P9311582291802915894.a n = A114444 n
+/-- `A158639(n+1)%A158693(n+1)` -/
+def P5540586062703390068.Spec : Prop :=
+  ∀ n, P5540586062703390068.a n = A114444 n
 
 end A114444
 

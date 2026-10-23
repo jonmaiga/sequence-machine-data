@@ -33,6 +33,7 @@ import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -60,7 +61,6 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -80,6 +80,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A331000: Unitary Ruth-Aaron numbers: numbers k such that A008475(k) = A008475(k+1).
@@ -1858,6 +1859,25 @@ end
 
 end A331046.P1142569939318596670
 
+/-! ## A331046.P15679440147235070775
+
+`comp[A329428(n)]`
+-/
+
+namespace A331046.P15679440147235070775
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329428 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A331046.P15679440147235070775
+
 /-! ## A331046.P18301576720966170290
 
 `eq[char[A202259(n+1)], A035457(2*n+1)]`
@@ -2377,6 +2397,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A331051.P18217906917977454316
+
+/-! ## A331051.P15766678836096018940
+
+`∪[A001358(n+1), A388983(n+1)]`
+-/
+
+namespace A331051.P15766678836096018940
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A388983 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331051.P15766678836096018940
+
+/-! ## A331051.P12745347142184376058
+
+`∪[A349931(n+1), A397800(n+1)]`
+-/
+
+namespace A331051.P12745347142184376058
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349931 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A397800 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331051.P12745347142184376058
 
 /-!
 # A331071: a(n) = Sum_{k <= n} r_2(k)^2*d(k+1), where r_2 = A004018, d = A000005.

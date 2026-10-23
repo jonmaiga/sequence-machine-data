@@ -84,6 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A036000: Number of partitions in parts not of the form 25k, 25k+1 or 25k-1. Also number of partitions with no part of size 1 and differences between parts at distance 11 are greater than 1.
@@ -5152,6 +5153,28 @@ end
 
 end A036042.P5260070535174069671
 
+/-! ## A036042.P3861509435274178900
+
+`∑[char[A386638(n+2)]]`
+-/
+
+namespace A036042.P3861509435274178900
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386638 (n + 2)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A036042.P3861509435274178900
+
 /-! ## A036042.P15956365534315070842
 
 `ceil(log2(A114994(n)+1))`
@@ -5181,21 +5204,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A036042.P11047866873017791703
-
-/-! ## A036042.P7118020206971156214
-
-`A056239(A215366(n))`
--/
-
-namespace A036042.P7118020206971156214
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (A215366 n).toNat
-
-end
-
-end A036042.P7118020206971156214
 
 /-!
 # A036043: Irregular triangle read by rows: row n (n >= 0) gives number of parts in all partitions of n (in Abramowitz and Stegun order).
@@ -6155,6 +6163,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036056.P12927569070151016726
+
+/-!
+# A036057: Friedman numbers: can be written in a nontrivial way using their digits and the operations + - * / ^ and concatenation of digits (but not of results).
+
+The programs for A036057, there is no canonical definition to state claims against.
+-/
+
+/-! ## A036057.P12272312142156199787
+
+`∪[A020342(n+1), A083509(n+1)]`
+-/
+
+namespace A036057.P12272312142156199787
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020342 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083509 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A036057.P12272312142156199787
 
 /-!
 # A036059: The summarize Fibonacci sequence: summarize the previous two terms!.
@@ -10807,7 +10843,7 @@ end A036096
 /-!
 # A036097: Centered cube numbers: (n+1)^19+n^19.
 
-The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
+The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
 
 The definition of A036097 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10816,7 +10852,7 @@ The definition of A036097 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^19+n^19`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036097

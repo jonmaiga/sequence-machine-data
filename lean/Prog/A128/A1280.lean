@@ -2440,6 +2440,35 @@ def P11275497420266631270.Spec : Prop :=
 
 end A128018
 
+/-! ## A128018.P6489708515376656211
+
+`∏[Δ[A130508(n+1)]]`
+-/
+
+namespace A128018.P6489708515376656211
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130508 (n + 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A128018.P6489708515376656211
+
+namespace A128018
+
+/-- `∏[Δ[A130508(n+1)]]` -/
+def P6489708515376656211.Spec : Prop :=
+  ∀ n, P6489708515376656211.a n = A128018 n
+
+end A128018
+
 /-!
 # A128019: Expansion of (1 - 3x)/(1 + 3*x^2).
 
@@ -5695,6 +5724,29 @@ def P5479193428423972672.Spec : Prop :=
 
 end A128054
 
+/-! ## A128054.P16161956181847826461
+
+`n-(1-a(a(a(n-1))%3))` with `a(0)=0`
+-/
+
+namespace A128054.P16161956181847826461
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (n : ℤ) - (1 - a (Int.tmod (a (a (n - 1)).toNat) 3).toNat)
+
+end
+
+end A128054.P16161956181847826461
+
+namespace A128054
+
+/-- `n-(1-a(a(a(n-1))%3))` -/
+def P16161956181847826461.Spec : Prop :=
+  ∀ n, P16161956181847826461.a n = A128054 n
+
+end A128054
+
 /-! ## A128054.P14057060525855049724
 
 `n+1-Δ[∪[2*n+1, 5*n]]`
@@ -5987,29 +6039,6 @@ namespace A128054
 /-- `A061800(n)-A110568(n)` -/
 def P7000305513062020001.Spec : Prop :=
   ∀ n, P7000305513062020001.a n = A128054 n
-
-end A128054
-
-/-! ## A128054.P13514882024177131834
-
-`A047504(n+1)-A099480(n)`
--/
-
-namespace A128054.P13514882024177131834
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047504 (n + 1) - A099480 n
-
-end
-
-end A128054.P13514882024177131834
-
-namespace A128054
-
-/-- `A047504(n+1)-A099480(n)` -/
-def P13514882024177131834.Spec : Prop :=
-  ∀ n, P13514882024177131834.a n = A128054 n
 
 end A128054
 
@@ -7968,7 +7997,7 @@ end A128063
 /-!
 # A128064: Triangle T with T(n,n)=n, T(n,n-1)=-(n-1) and otherwise T(n,k)=0; 0
 
-The programs for A128064, the canonical program `A128064.P17736054850047196674` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128064 has offset 1).
+The programs for A128064, the canonical program `A128064.P17736054850047196674` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128064 has offset 1).
 
 The definition of A128064 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7977,7 +8006,7 @@ The definition of A128064 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002260(n+1)*A167374(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A128064
@@ -10173,7 +10202,7 @@ end A128077
 /-!
 # A128078: A002260 * A128064.
 
-The programs for A128078, the canonical program `A128078.P385746566403988126` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128078 has offset 1).
+The programs for A128078, the canonical program `A128078.P385746566403988126` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128078 has offset 1).
 
 The definition of A128078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10182,7 +10211,7 @@ The definition of A128078 is `conjectured`: the Lean definition is a formula tha
 
 `A127733(n+1)-A048151(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A128078

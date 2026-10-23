@@ -6,6 +6,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -61,11 +62,9 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -85,7 +84,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -143,7 +141,7 @@ end A366501.P10858082912979257582
 /-!
 # A366502: Let q = A246655(n) for n >= 2, then a(n) = (q - Kronecker(-4,q))/4 - 1.
 
-The programs for A366502, the canonical program `A366502.P7678879035562133223` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366502 has offset 2).
+The programs for A366502, the canonical program `A366502.P7678879035562133223` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366502 has offset 2).
 
 The definition of A366502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -152,7 +150,7 @@ The definition of A366502 is `conjectured`: the Lean definition is a formula tha
 
 `round(A246655(n+2)/4)-1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A366502
@@ -1267,7 +1265,7 @@ end A366509
 /-!
 # A366510: Largest prime divisor of n which is < sqrt(n), 1 if n is prime, square of prime or 1.
 
-The programs for A366510, the canonical program `A366510.P4604043811337782235` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366510 has offset 1).
+The programs for A366510, the canonical program `A366510.P4604043811337782235` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366510 has offset 1).
 
 The definition of A366510 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1276,7 +1274,7 @@ The definition of A366510 is `conjectured`: the Lean definition is a formula tha
 
 `A217581(A048671(n+1))`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A366510
@@ -1786,6 +1784,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A366519.P7162501426166440265
+
+/-! ## A366519.P16610775941085637427
+
+`gcd(A188263(n+1), A366521(n+1))`
+-/
+
+namespace A366519.P16610775941085637427
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A188263 (n + 1)) (A366521 (n + 1))
+
+end
+
+end A366519.P16610775941085637427
 
 /-! ## A366519.P10128646215738213024
 
@@ -8815,20 +8828,27 @@ end
 
 end A366596.P18050436647931063141
 
-/-! ## A366596.P6348745164150100446
+/-! ## A366596.P10786945604435927934
 
-`lcm(7, A002275(A073788(n)))`
+`∩[A045642(n+1), A244514(n+1)]`
 -/
 
-namespace A366596.P6348745164150100446
+namespace A366596.P10786945604435927934
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045642 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244514 (n + 1)
+
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm 7 (A002275 (A073788 n).toNat)
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A366596.P6348745164150100446
+end A366596.P10786945604435927934
 
 /-!
 # A366597: Irregular triangular array, read by rows: T(n,k) = number of vertices (partitions) that have degree k in the distance graph of the partitions of n, for k = 1..A366429(n).

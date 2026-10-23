@@ -4998,26 +4998,32 @@ def P12745699469310669850.Spec : Prop :=
 
 end A322042
 
-/-! ## A322042.P7085555463050663034
+/-! ## A322042.P16233856118855588023
 
-`2+a(n-3)` with `a(0)=0, a(1)=1, a(2)=2`
+`n-∑[val(∏{p}[n, #], 3)]`
 -/
 
-namespace A322042.P7085555463050663034
+namespace A322042.P16233856118855588023
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1, 2] fun n a =>
-  2 + a (n - 3)
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (∏ p ∈ Nat.primeFactors (f2 n), p) 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
 
 end
 
-end A322042.P7085555463050663034
+end A322042.P16233856118855588023
 
 namespace A322042
 
-/-- `2+a(n-3)` -/
-def P7085555463050663034.Spec : Prop :=
-  ∀ n, (P7085555463050663034.a n : ℤ) = A322042 (n + 1)
+/-- `n-∑[val(∏{p}[n, #], 3)]` -/
+def P16233856118855588023.Spec : Prop :=
+  ∀ n, P16233856118855588023.a n = A322042 (n + 1)
 
 end A322042
 

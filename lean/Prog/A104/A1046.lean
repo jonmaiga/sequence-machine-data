@@ -9789,6 +9789,32 @@ def P9545709968013804057.Spec : Prop :=
 
 end A104675
 
+/-! ## A104675.P10236288187349466986
+
+`∑[ogf((6-4x)/(1-2x+x^2))]`
+-/
+
+namespace A104675.P10236288187349466986
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [6, -4] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A104675.P10236288187349466986
+
+namespace A104675
+
+/-- `∑[ogf((6-4x)/(1-2x+x^2))]` -/
+def P10236288187349466986.Spec : Prop :=
+  ∀ n, P10236288187349466986.a n = A104675 n
+
+end A104675
+
 /-! ## A104675.P12168875499057114373
 
 `ogf((6-4x)/(1-3x+3x^2-x^3))`

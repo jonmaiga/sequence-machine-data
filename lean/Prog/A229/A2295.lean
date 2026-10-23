@@ -59,7 +59,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -67,6 +66,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -162,6 +162,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A229500.P12900834945097193204
+
+/-! ## A229500.P17038799566134233354
+
+`A343495(A032555(n+2))`
+-/
+
+namespace A229500.P17038799566134233354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343495 (A032555 (n + 2)).toNat
+
+end
+
+end A229500.P17038799566134233354
 
 /-!
 # A229502: Expansion of q * f(-q) * f(-q^4) * f(-q^16) * f(q, -q^3) in powers of q where f() is a Ramanujan theta function.
@@ -10250,6 +10265,29 @@ namespace A229593
 /-- `record[A008615(n)*A008619(n)]` -/
 def P8925138314336911284.Spec : Prop :=
   ∀ n, P8925138314336911284.a n = A229593 (n + 2)
+
+end A229593
+
+/-! ## A229593.P10684087143068655825
+
+`A010762(2*(n+1))-A242669(n+1)`
+-/
+
+namespace A229593.P10684087143068655825
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010762 (2 * (n + 1)) - A242669 (n + 1)
+
+end
+
+end A229593.P10684087143068655825
+
+namespace A229593
+
+/-- `A010762(2*(n+1))-A242669(n+1)` -/
+def P10684087143068655825.Spec : Prop :=
+  ∀ n, P10684087143068655825.a n = A229593 (n + 2)
 
 end A229593
 

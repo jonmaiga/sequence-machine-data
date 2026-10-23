@@ -59,7 +59,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -95,6 +94,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -3704,6 +3704,33 @@ namespace A158919
 /-- `A003144(n)+a(A275926(n))` -/
 def P5545667462029603579.Spec : Prop :=
   ∀ n, P5545667462029603579.a n = A158919 n
+
+end A158919
+
+/-! ## A158919.P9175175995194499173
+
+`comp[A276383(n+1)]`
+-/
+
+namespace A158919.P9175175995194499173
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276383 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A158919.P9175175995194499173
+
+namespace A158919
+
+/-- `comp[A276383(n+1)]` -/
+def P9175175995194499173.Spec : Prop :=
+  ∀ n, (P9175175995194499173.a n : ℤ) = A158919 n
 
 end A158919
 

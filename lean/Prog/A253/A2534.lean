@@ -843,6 +843,28 @@ end
 
 end A253408.P3305761155540051365
 
+/-! ## A253408.P7691120248884681335
+
+`∪[A058529(n+1), A093112(n+1)]`
+-/
+
+namespace A253408.P7691120248884681335
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058529 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093112 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A253408.P7691120248884681335
+
 /-! ## A253408.P1899577032454265936
 
 `∪[A058529(n+1), A345702(n+1)]`

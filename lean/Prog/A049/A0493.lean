@@ -25,6 +25,7 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
@@ -3787,6 +3788,105 @@ def P12027533071992475430.Spec : Prop :=
 
 end A049332
 
+/-! ## A049332.P8281279511242622968
+
+`∪[A052539(n), A283070(n)]`
+-/
+
+namespace A049332.P8281279511242622968
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052539 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283070 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A049332.P8281279511242622968
+
+namespace A049332
+
+/-- `∪[A052539(n), A283070(n)]` -/
+def P8281279511242622968.Spec : Prop :=
+  ∀ n, (P8281279511242622968.a n : ℤ) = A049332 n
+
+end A049332
+
+/-! ## A049332.P8809534175648879900
+
+`(A280173(n)+5)/3`
+-/
+
+namespace A049332.P8809534175648879900
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A280173 n + 5 : ℚ) / 3
+
+end
+
+end A049332.P8809534175648879900
+
+namespace A049332
+
+/-- `(A280173(n)+5)/3` -/
+def P8809534175648879900.Spec : Prop :=
+  ∀ n, P8809534175648879900.a n = (A049332 n : ℚ)
+
+end A049332
+
+/-! ## A049332.P9575219645541240945
+
+`A060919(n+1)/A052953(n)`
+-/
+
+namespace A049332.P9575219645541240945
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A060919 (n + 1) : ℚ) / (A052953 n : ℚ)
+
+end
+
+end A049332.P9575219645541240945
+
+namespace A049332
+
+/-- `A060919(n+1)/A052953(n)` -/
+def P9575219645541240945.Spec : Prop :=
+  ∀ n, P9575219645541240945.a n = (A049332 n : ℚ)
+
+end A049332
+
+/-! ## A049332.P13084761309821942486
+
+`A014551(n)*A135440(n)/A140253(n)`
+-/
+
+namespace A049332.P13084761309821942486
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A014551 n * A135440 n : ℚ) / (A140253 n : ℚ)
+
+end
+
+end A049332.P13084761309821942486
+
+namespace A049332
+
+/-- `A014551(n)*A135440(n)/A140253(n)` -/
+def P13084761309821942486.Spec : Prop :=
+  ∀ n, P13084761309821942486.a n = (A049332 n : ℚ)
+
+end A049332
+
 /-!
 # A049334: Triangle read by rows: T(n, k) is the number of unlabeled connected planar simple graphs with n >= 1 nodes and 0<=k<=3*n-6 edges.
 
@@ -6662,6 +6762,29 @@ def P6089236688349124734.Spec : Prop :=
 
 end A049380
 
+/-! ## A049380.P5987284107007915315
+
+`5*(5-3/n)*a(n-1)` with `a(0)=1`
+-/
+
+namespace A049380.P5987284107007915315
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
+  5 * ((5 - 3 / (n : ℚ)) * a (n - 1))
+
+end
+
+end A049380.P5987284107007915315
+
+namespace A049380
+
+/-- `5*(5-3/n)*a(n-1)` -/
+def P5987284107007915315.Spec : Prop :=
+  ∀ n, P5987284107007915315.a n = (A049380 n : ℚ)
+
+end A049380
+
 /-! ## A049380.P12340363506420768399
 
 `A034688(n)/A008548(n)*A047055(n)`
@@ -6705,6 +6828,29 @@ namespace A049381
 /-- `5*(5*n-2)/n*a(n-1)` -/
 def P17287147166203974341.Spec : Prop :=
   ∀ n, P17287147166203974341.a n = (A049381 n : ℚ)
+
+end A049381
+
+/-! ## A049381.P12294710653021153093
+
+`(5-2/n)*5*a(n-1)` with `a(0)=1`
+-/
+
+namespace A049381.P12294710653021153093
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
+  (5 - 2 / (n : ℚ)) * (5 * a (n - 1))
+
+end
+
+end A049381.P12294710653021153093
+
+namespace A049381
+
+/-- `(5-2/n)*5*a(n-1)` -/
+def P12294710653021153093.Spec : Prop :=
+  ∀ n, P12294710653021153093.a n = (A049381 n : ℚ)
 
 end A049381
 
@@ -6900,27 +7046,6 @@ def P334052847881160903.Spec : Prop :=
   ∀ n, P334052847881160903.a n = (A049382 n : ℚ)
 
 end A049382
-
-/-!
-# A049384: a(0) = 1, a(n+1) = (n+1)^a(n).
-
-The programs for A049384, there is no canonical definition to state claims against.
--/
-
-/-! ## A049384.P15482629570987959546
-
-`n^a(n-1)` with `a(0)=1, a(1)=1`
--/
-
-namespace A049384.P15482629570987959546
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1] fun n a =>
-  n ^ a (n - 1)
-
-end
-
-end A049384.P15482629570987959546
 
 /-!
 # A049385: Triangle of numbers related to triangle A049375; generalization of Stirling numbers of second kind A008277, Lah-numbers A008297...

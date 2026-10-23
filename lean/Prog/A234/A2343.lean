@@ -34,6 +34,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -750,6 +751,29 @@ def P2227382885234404096.Spec : Prop :=
 
 end A234306
 
+/-! ## A234306.P3025906230756569014
+
+`A003165(2*(n+1))`
+-/
+
+namespace A234306.P3025906230756569014
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003165 (2 * (n + 1))
+
+end
+
+end A234306.P3025906230756569014
+
+namespace A234306
+
+/-- `A003165(2*(n+1))` -/
+def P3025906230756569014.Spec : Prop :=
+  ∀ n, P3025906230756569014.a n = A234306 (n + 1)
+
+end A234306
+
 /-!
 # A234307: a(n) = Sum_{i=1..n} gcd(2*n-i, i).
 
@@ -987,6 +1011,28 @@ end A234308.P8383128762487454307
 The programs for A234310, there is no canonical definition to state claims against.
 -/
 
+/-! ## A234310.P6826386244526711669
+
+`∩[A045090(n+1), A188713(n+1)]`
+-/
+
+namespace A234310.P6826386244526711669
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045090 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A234310.P6826386244526711669
+
 /-! ## A234310.P7003459258899136392
 
 `p?[A055236(n)-1]`
@@ -1058,24 +1104,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234310.P10940926928909296743
-
-/-! ## A234310.P2960378986731709958
-
-`p?[A057428(n+1)+A055236(n)]`
--/
-
-namespace A234310.P2960378986731709958
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057428 (n + 1) + A055236 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A234310.P2960378986731709958
 
 /-!
 # A234312: Number of tilings of a 5 X n rectangle using n pentominoes of shapes L, X.
@@ -4610,6 +4638,28 @@ end
 
 end A234388.P8290680704947662413
 
+/-! ## A234388.P6634338874767508955
+
+`∩[A152449(n+1), A285958(n+1)]`
+-/
+
+namespace A234388.P6634338874767508955
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152449 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285958 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A234388.P6634338874767508955
+
 /-! ## A234388.P5070151747211996230
 
 `p?[record[A105222(A043569(n+1))]]`
@@ -4648,24 +4698,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234388.P5816685200860714469
-
-/-! ## A234388.P4084206952951349287
-
-`p?[A123087(A016789(A023758(n+1)))]`
--/
-
-namespace A234388.P4084206952951349287
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123087 (A016789 (A023758 (n + 1)).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A234388.P4084206952951349287
 
 /-!
 # A234389: Number of (n+2) X (1+2) 0..3 arrays with no increasing sequence of length 3 vertically, diagonally downwards or antidiagonally downwards.

@@ -77,6 +77,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -5325,6 +5326,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089450.P16624882591217222847
+
+/-! ## A089450.P16789944075639060038
+
+`A073704(A088066(n+1))`
+-/
+
+namespace A089450.P16789944075639060038
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073704 (A088066 (n + 1)).toNat
+
+end
+
+end A089450.P16789944075639060038
 
 /-!
 # A089451: a(n) = mu(prime(n)-1), where mu is the Moebius function (A008683).

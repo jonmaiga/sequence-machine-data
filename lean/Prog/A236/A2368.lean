@@ -85,6 +85,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A236800: Number T(n,k) of equivalence classes of ways of placing k 5 X 5 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=5, 0<=k<=floor(n/5)^2, read by rows.
@@ -3037,6 +3038,28 @@ end
 
 end A236838.P756389565791129358
 
+/-! ## A236838.P13383186939140028024
+
+`∪[A236834(n+1), A236839(n+1)]`
+-/
+
+namespace A236838.P13383186939140028024
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236834 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236839 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A236838.P13383186939140028024
+
 /-! ## A236838.P122575474739527464
 
 `lt[A235042(n), A234742(n)]`
@@ -4492,6 +4515,25 @@ end
 
 end A236844.P16760855138385809421
 
+/-! ## A236844.P6761350136360797184
+
+`comp[A234742(n)]`
+-/
+
+namespace A236844.P6761350136360797184
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234742 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A236844.P6761350136360797184
+
 /-! ## A236844.P4269691071807544245
 
 `lt[n*A236846(2*n), n]`
@@ -4533,25 +4575,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A236844.P4875146307357398673
-
-/-! ## A236844.P16550854172379711405
-
-`comp[A234742(n)]%A234731(n+1)`
--/
-
-namespace A236844.P16550854172379711405
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234742 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A234731 (n + 1))
-
-end
-
-end A236844.P16550854172379711405
 
 /-! ## A236844.P2208387484191941855
 
@@ -5073,6 +5096,25 @@ end A236849.P8628674501668579171
 
 The programs for A236850, there is no canonical definition to state claims against.
 -/
+
+/-! ## A236850.P1989816829092588917
+
+`comp[A236838(n+1)]`
+-/
+
+namespace A236850.P1989816829092588917
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236838 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A236850.P1989816829092588917
 
 /-! ## A236850.P72922865720969147
 
@@ -6633,43 +6675,24 @@ end A236859.P5159453328654298751
 The programs for A236860, there is no canonical definition to state claims against.
 -/
 
-/-! ## A236860.P3027680499434842727
+/-! ## A236860.P8034561640694044387
 
-`comp[A236848(n+1)]%A005471(3*n+1)`
+`comp[A236848(n+1)]`
 -/
 
-namespace A236860.P3027680499434842727
+namespace A236860.P8034561640694044387
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A236848 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A005471 (3 * n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A236860.P3027680499434842727
-
-/-! ## A236860.P8717409618920965817
-
-`A007949(3*n+5)+comp[A236848(n+1)]`
--/
-
-namespace A236860.P8717409618920965817
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236848 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007949 (3 * n + 5) + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
-
-end
-
-end A236860.P8717409618920965817
+end A236860.P8034561640694044387
 
 /-! ## A236860.P5808362061328730658
 

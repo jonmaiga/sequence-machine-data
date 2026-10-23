@@ -98,6 +98,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3808,33 +3809,33 @@ def P10956417106937774409.Spec : Prop :=
 
 end A099019
 
-/-! ## A099019.P11182759693992831994
+/-! ## A099019.P12525346170779444485
 
-`∩[A025583(n+1), A167776(n+1)]`
+`∩[2*n+1, A167776(n+1)]`
 -/
 
-namespace A099019.P11182759693992831994
+namespace A099019.P12525346170779444485
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025583 (n + 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A167776 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A099019.P11182759693992831994
+end A099019.P12525346170779444485
 
 namespace A099019
 
-/-- `∩[A025583(n+1), A167776(n+1)]` -/
-def P11182759693992831994.Spec : Prop :=
-  ∀ n, (P11182759693992831994.a n : ℤ) = A099019 (n + 1)
+/-- `∩[2*n+1, A167776(n+1)]` -/
+def P12525346170779444485.Spec : Prop :=
+  ∀ n, (P12525346170779444485.a n : ℤ) = A099019 (n + 1)
 
 end A099019
 
@@ -3865,36 +3866,6 @@ namespace A099019
 /-- `∩[A071904(n+1), A110673(n+1)]` -/
 def P10628213386366202757.Spec : Prop :=
   ∀ n, (P10628213386366202757.a n : ℤ) = A099019 (n + 1)
-
-end A099019
-
-/-! ## A099019.P6947405693285303765
-
-`∩[A071904(n+1), A167776(n+1)]`
--/
-
-namespace A099019.P6947405693285303765
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071904 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167776 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A099019.P6947405693285303765
-
-namespace A099019
-
-/-- `∩[A071904(n+1), A167776(n+1)]` -/
-def P6947405693285303765.Spec : Prop :=
-  ∀ n, (P6947405693285303765.a n : ℤ) = A099019 (n + 1)
 
 end A099019
 
@@ -3955,6 +3926,36 @@ namespace A099019
 /-- `∩[A007921(n+1), A072492(n+1)]` -/
 def P12620274276818543997.Spec : Prop :=
   ∀ n, (P12620274276818543997.a n : ℤ) = A099019 (n + 1)
+
+end A099019
+
+/-! ## A099019.P11999691618733233616
+
+`∩[A007921(n+1), A109934(n+1)]`
+-/
+
+namespace A099019.P11999691618733233616
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007921 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109934 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A099019.P11999691618733233616
+
+namespace A099019
+
+/-- `∩[A007921(n+1), A109934(n+1)]` -/
+def P11999691618733233616.Spec : Prop :=
+  ∀ n, (P11999691618733233616.a n : ℤ) = A099019 (n + 1)
 
 end A099019
 
@@ -9773,30 +9774,33 @@ def P7109010088054196494.Spec : Prop :=
 
 end A099047
 
-/-! ## A099047.P7769945726493083784
+/-! ## A099047.P4446963938421930667
 
-`comp[A008578(A253887(n+1))+(-1)^n]`
+`∩[A099049(n+1), A100318(n+1)]`
 -/
 
-namespace A099047.P7769945726493083784
+namespace A099047.P4446963938421930667
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008578 (A253887 (n + 1)).toNat + (-1) ^ n
+  A099049 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100318 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A099047.P7769945726493083784
+end A099047.P4446963938421930667
 
 namespace A099047
 
-/-- `comp[A008578(A253887(n+1))+(-1)^n]` -/
-def P7769945726493083784.Spec : Prop :=
-  ∀ n, (P7769945726493083784.a n : ℤ) = A099047 (n + 1)
+/-- `∩[A099049(n+1), A100318(n+1)]` -/
+def P4446963938421930667.Spec : Prop :=
+  ∀ n, (P4446963938421930667.a n : ℤ) = A099047 (n + 1)
 
 end A099047
 

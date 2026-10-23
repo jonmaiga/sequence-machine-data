@@ -14,6 +14,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -72,7 +73,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -1064,6 +1064,29 @@ namespace A254407
 /-- `A134481(n)+A011379(n)` -/
 def P16397710453372837921.Spec : Prop :=
   ∀ n, P16397710453372837921.a n = A254407 n
+
+end A254407
+
+/-! ## A254407.P9819872591285206564
+
+`A092185(n)+A085490(n)`
+-/
+
+namespace A254407.P9819872591285206564
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092185 n + A085490 n
+
+end
+
+end A254407.P9819872591285206564
+
+namespace A254407
+
+/-- `A092185(n)+A085490(n)` -/
+def P9819872591285206564.Spec : Prop :=
+  ∀ n, P9819872591285206564.a n = A254407 n
 
 end A254407
 

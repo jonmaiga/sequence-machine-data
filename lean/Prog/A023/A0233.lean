@@ -27,6 +27,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -290,6 +291,28 @@ end
 
 end A023303.P16374876926905682219
 
+/-! ## A023303.P5868508007751217522
+
+`∩[A156004(n+1), A175159(n+1)]`
+-/
+
+namespace A023303.P5868508007751217522
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156004 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175159 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A023303.P5868508007751217522
+
 /-! ## A023303.P7849288201568325476
 
 `∩[A023273(n+1), A156005(n+1)]`
@@ -333,28 +356,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A023303.P11417109848526580789
-
-/-! ## A023303.P18010757494810085365
-
-`∩[A156010(n+1), A175159(n+1)]`
--/
-
-namespace A023303.P18010757494810085365
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156010 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175159 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A023303.P18010757494810085365
 
 /-!
 # A023304: Primes that remain prime through 4 iterations of function f(x) = 2x + 5.

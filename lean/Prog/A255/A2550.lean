@@ -8222,6 +8222,25 @@ end A255058.P12055153955804346708
 The programs for A255059, there is no canonical definition to state claims against.
 -/
 
+/-! ## A255059.P3417797633461082216
+
+`comp[A255060(n+1)]`
+-/
+
+namespace A255059.P3417797633461082216
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A255060 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A255059.P3417797633461082216
+
 /-! ## A255059.P3447372735856091353
 
 `eq[1, A255054(n)%2]`
@@ -10653,63 +10672,52 @@ def P13595484661211789546.Spec : Prop :=
 
 end A255070
 
-/-! ## A255070.P5566604915019834987
+/-! ## A255070.P1006850479083374999
 
-`∑[char[A322015(n)]]-1`
+`n-∑[A082410(n+1)]`
 -/
 
-namespace A255070.P5566604915019834987
+namespace A255070.P1006850479083374999
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322015 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082410 (n + 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - 1
+  (n : ℤ) - ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A255070.P5566604915019834987
+end A255070.P1006850479083374999
 
 namespace A255070
 
-/-- `∑[char[A322015(n)]]-1` -/
-def P5566604915019834987.Spec : Prop :=
-  ∀ n, P5566604915019834987.a n = A255070 n
+/-- `n-∑[A082410(n+1)]` -/
+def P1006850479083374999.Spec : Prop :=
+  ∀ n, P1006850479083374999.a n = A255070 n
 
 end A255070
 
-/-! ## A255070.P8724988719952117500
+/-! ## A255070.P14164049592519169746
 
-`n-∑[char[A339597(n)]]`
+`1-A088023(n+1)+n`
 -/
 
-namespace A255070.P8724988719952117500
+namespace A255070.P14164049592519169746
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339597 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+  1 - A088023 (n + 1) + (n : ℤ)
 
 end
 
-end A255070.P8724988719952117500
+end A255070.P14164049592519169746
 
 namespace A255070
 
-/-- `n-∑[char[A339597(n)]]` -/
-def P8724988719952117500.Spec : Prop :=
-  ∀ n, P8724988719952117500.a n = A255070 n
+/-- `1-A088023(n+1)+n` -/
+def P14164049592519169746.Spec : Prop :=
+  ∀ n, P14164049592519169746.a n = A255070 n
 
 end A255070
 

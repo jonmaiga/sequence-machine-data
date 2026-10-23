@@ -56,6 +56,7 @@ import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6182,6 +6183,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A253385.P14499338786785176220
+
+/-! ## A253385.P14272802918032390677
+
+`∩[A229306(n+1), A379093(n+1)]`
+-/
+
+namespace A253385.P14272802918032390677
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229306 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379093 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A253385.P14272802918032390677
 
 /-!
 # A253387: A "mod sequence" where a(n) is the eventual constant value attained by the sequence defined as b(1) = n, b(m) = (Sum_{k=1..m-1} b(k)) mod m.

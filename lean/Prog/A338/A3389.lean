@@ -3680,6 +3680,28 @@ end
 
 end A338927.P6065086619406217108
 
+/-! ## A338927.P1301990640576885017
+
+`∩[A052347(n+1), A307866(n+1)]`
+-/
+
+namespace A338927.P1301990640576885017
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052347 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307866 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338927.P1301990640576885017
+
 /-!
 # A338928: Record values of A338565.
 

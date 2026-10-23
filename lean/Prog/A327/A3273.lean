@@ -61,7 +61,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -81,6 +80,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -3782,7 +3782,7 @@ end A327317
 /-!
 # A327318: Triangular array read by rows: row n shows the coefficients of this polynomial of degree n: p(x,n) = 2^(n-1) ((x+r)^n - (x+s)^n)/(r - s), where r = 1 and s = 1/2.
 
-The programs for A327318, the canonical program `A327318.P6576024194411720780` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327318 has offset 1).
+The programs for A327318, the canonical program `A327318.P6576024194411720780` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327318 has offset 1).
 
 The definition of A327318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3791,7 +3791,7 @@ The definition of A327318 is `conjectured`: the Lean definition is a formula tha
 
 `A074909(n)*A130328(n)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A327318
@@ -4506,6 +4506,72 @@ end A327324.P3912598019997150669
 
 The programs for A327325, there is no canonical definition to state claims against.
 -/
+
+/-! ## A327325.P8613908181117902943
+
+`∪[A002385(n+1), A244411(n+1)]`
+-/
+
+namespace A327325.P8613908181117902943
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002385 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244411 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327325.P8613908181117902943
+
+/-! ## A327325.P11935133464772272397
+
+`∪[A244411(n+1), A324989(n+1)]`
+-/
+
+namespace A327325.P11935133464772272397
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244411 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324989 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327325.P11935133464772272397
+
+/-! ## A327325.P14269747174768531137
+
+`∪[A069217(n+1), A244411(n+1)]`
+-/
+
+namespace A327325.P14269747174768531137
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069217 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244411 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327325.P14269747174768531137
 
 /-! ## A327325.P790456237218655456
 
@@ -8009,6 +8075,28 @@ end
 
 end A327368.P9380623133783277759
 
+/-! ## A327368.P1441643232789598451
+
+`∩[A152111(n+1), A334522(n+1)]`
+-/
+
+namespace A327368.P1441643232789598451
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152111 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334522 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327368.P1441643232789598451
+
 /-!
 # A327370: Number of labeled simple graphs with n vertices and exactly n - 1 endpoints (vertices of degree 1).
 
@@ -9808,6 +9896,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A327392.P6100056519270246184
+
+/-! ## A327392.P14669052634661638199
+
+`A112049(A068821(n+1))`
+-/
+
+namespace A327392.P14669052634661638199
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112049 (A068821 (n + 1)).toNat
+
+end
+
+end A327392.P14669052634661638199
 
 /-!
 # A327393: Maximum stable divisor of n.

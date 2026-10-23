@@ -84,6 +84,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -1997,6 +1998,28 @@ end
 
 end A390249.P2647475857529409289
 
+/-! ## A390249.P16889835955316905580
+
+`∩[A333227(n+1), A339955(n+1)]`
+-/
+
+namespace A390249.P16889835955316905580
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339955 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390249.P16889835955316905580
+
 /-!
 # A390250: Numbers m>1 such that e_1 * (p_1 - 1) = ... = e_s * (p_s - 1), where p_1^e_1 * ... * p_s^e_s is the prime factorization of m.
 
@@ -2290,6 +2313,33 @@ def P11456344229222999647.Spec : Prop :=
   ∀ n, (P11456344229222999647.a n : ℤ) = A390251 (n + 1)
 
 end A390251
+
+/-!
+# A390252: Numbers k such that sigma(k) = psi(k) + omega(k)^3.
+
+The programs for A390252, the canonical program `A390252.P10563885878935831131` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390252 has offset 1).
+
+The definition of A390252 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 991 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A390252.P10563885878935831131
+
+`∪[A280076(n+1), A386637(n+1)]`
+
+The canonical program, it is in `Seq.B004.C003`.
+-/
+
+namespace A390252
+
+/-- `∪[A280076(n+1), A386637(n+1)]` -/
+def P10563885878935831131.Spec : Prop :=
+  ∀ n, (P10563885878935831131.a n : ℤ) = A390252 (n + 1)
+
+theorem P10563885878935831131.correct : P10563885878935831131.Spec := by
+  intro n
+  simp only [A390252, Nat.add_sub_cancel]
+
+end A390252
 
 /-!
 # A390253: Numbers k such that sigma(k) = psi(k) + omega(k)^5.
@@ -5958,6 +6008,72 @@ end A390294.P9323473270221813232
 The programs for A390295, there is no canonical definition to state claims against.
 -/
 
+/-! ## A390295.P10087331409320317901
+
+`∩[A014574(n+1), A051916(n+1)]`
+-/
+
+namespace A390295.P10087331409320317901
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014574 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051916 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390295.P10087331409320317901
+
+/-! ## A390295.P17452899743823307817
+
+`∩[A051916(n+1), A217259(n+1)]`
+-/
+
+namespace A390295.P17452899743823307817
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051916 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217259 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390295.P17452899743823307817
+
+/-! ## A390295.P16911860169758997342
+
+`∩[A051916(n+1), A258838(n+1)]`
+-/
+
+namespace A390295.P16911860169758997342
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051916 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258838 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390295.P16911860169758997342
+
 /-! ## A390295.P8666210885337283493
 
 `∩[A003401(n+1), A375197(n+1)]`
@@ -6001,72 +6117,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390295.P12061916280762487518
-
-/-! ## A390295.P6306745456733954773
-
-`∩[A003401(n+1), A393795(n+1)]`
--/
-
-namespace A390295.P6306745456733954773
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003401 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393795 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A390295.P6306745456733954773
-
-/-! ## A390295.P7280484252283091071
-
-`∩[A023758(n+1), A375197(n+1)]`
--/
-
-namespace A390295.P7280484252283091071
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023758 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375197 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A390295.P7280484252283091071
-
-/-! ## A390295.P16349362017692579863
-
-`∩[A023758(n+1), A384530(n+1)]`
--/
-
-namespace A390295.P16349362017692579863
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023758 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384530 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A390295.P16349362017692579863
 
 /-!
 # A390298: Expansion of g/(1 - x^3*g), where g = 1+x*g^4 is the g.f. of A002293.

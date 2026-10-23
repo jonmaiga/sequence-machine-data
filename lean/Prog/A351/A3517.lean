@@ -11,7 +11,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -5398,26 +5397,26 @@ theorem P8966694876515346944.correct : P8966694876515346944.Spec := by
 
 end A351781
 
-/-! ## A351781.P16254622347875795615
+/-! ## A351781.P6908477656679073848
 
-`A065440(n+1)*A091868(n)`
+`A001563(n)^(n+1)`
 -/
 
-namespace A351781.P16254622347875795615
+namespace A351781.P6908477656679073848
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065440 (n + 1) * A091868 n
+  A001563 n ^ (n + 1)
 
 end
 
-end A351781.P16254622347875795615
+end A351781.P6908477656679073848
 
 namespace A351781
 
-/-- `A065440(n+1)*A091868(n)` -/
-def P16254622347875795615.Spec : Prop :=
-  ∀ n, P16254622347875795615.a n = A351781 (n + 1)
+/-- `A001563(n)^(n+1)` -/
+def P6908477656679073848.Spec : Prop :=
+  ∀ n, P6908477656679073848.a n = A351781 (n + 1)
 
 end A351781
 

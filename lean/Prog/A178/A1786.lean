@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A178601: a(n) = s(s(n)), where s(n) = sigma(n)-n = A001065(n).
@@ -8550,6 +8555,21 @@ end
 
 end A178670.P9048647275252196774
 
+/-! ## A178670.P9403413017348605287
+
+`A093955(A166286(n+1))`
+-/
+
+namespace A178670.P9403413017348605287
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093955 (A166286 (n + 1)).toNat
+
+end
+
+end A178670.P9403413017348605287
+
 /-!
 # A178671: a(n) = 5^n - 5.
 
@@ -8647,6 +8667,46 @@ namespace A178672
 /-- `lcm(6, 1-6^n)` -/
 def P12941051795871466525.Spec : Prop :=
   ∀ n, (P12941051795871466525.a n : ℤ) = A178672 (n + 1)
+
+end A178672
+
+/-! ## A178672.P9764754067490320678
+
+`6*(a(n-1)+5)` with `a(0)=0`
+-/
+
+namespace A178672.P9764754067490320678
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+  6 * (a (n - 1) + 5)
+
+end
+
+end A178672.P9764754067490320678
+
+namespace A178672
+
+/-- `6*(a(n-1)+5)` -/
+def P9764754067490320678.Spec : Prop :=
+  ∀ n, (P9764754067490320678.a n : ℤ) = A178672 (n + 1)
+
+theorem P9764754067490320678.correct : P9764754067490320678.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A178672, Nat.add_sub_cancel, A178672.P9764754067490320678.a, A178672.P3625898502281268343.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A178672, Nat.add_sub_cancel, A178672.P9764754067490320678.a, A178672.P3625898502281268343.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A178672
 
@@ -9210,6 +9270,28 @@ end
 
 end A178679.P10643488611256751705
 
+/-! ## A178679.P13410718927943163450
+
+`∩[A037465(n), A178680(n+1)]`
+-/
+
+namespace A178679.P13410718927943163450
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037465 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178680 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A178679.P13410718927943163450
+
 /-! ## A178679.P6237415370375089363
 
 `A178680(A350103(n)+A029804(n+1))`
@@ -9268,28 +9350,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A178679.P15307736828538615836
-
-/-! ## A178679.P10428846900215493541
-
-`A178680(∪[A010353(3*n+4)+4, A010352(n+1)])`
--/
-
-namespace A178679.P10428846900215493541
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010353 (3 * n + 4) + 4
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010352 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178680 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A178679.P10428846900215493541
 
 /-!
 # A178681: a(n) = 6^n + 6.

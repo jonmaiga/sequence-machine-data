@@ -30,6 +30,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
@@ -82,6 +83,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -3611,6 +3613,50 @@ end
 
 end A215642.P16928685867415789541
 
+/-! ## A215642.P1655740717392720485
+
+`∩[A028778(n+1), A057447(n+1)]`
+-/
+
+namespace A215642.P1655740717392720485
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028778 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057447 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215642.P1655740717392720485
+
+/-! ## A215642.P212584172534159058
+
+`∩[A028778(n+1), A095074(n+1)]`
+-/
+
+namespace A215642.P212584172534159058
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028778 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095074 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215642.P212584172534159058
+
 /-!
 # A215643: n-th derivative of x^((x^(x^x))^x) at x=1.
 
@@ -4264,6 +4310,29 @@ namespace A215646
 /-- `A162147(n)+A160378(n)` -/
 def P3148589609620894857.Spec : Prop :=
   ∀ n, P3148589609620894857.a n = A215646 n
+
+end A215646
+
+/-! ## A215646.P10129494499685742793
+
+`A304993(n)+A146298(n)`
+-/
+
+namespace A215646.P10129494499685742793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304993 n + A146298 n
+
+end
+
+end A215646.P10129494499685742793
+
+namespace A215646
+
+/-- `A304993(n)+A146298(n)` -/
+def P10129494499685742793.Spec : Prop :=
+  ∀ n, P10129494499685742793.a n = A215646 n
 
 end A215646
 

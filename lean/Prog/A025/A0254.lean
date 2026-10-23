@@ -57,9 +57,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -10337,7 +10335,7 @@ end A025472
 /-!
 # A025473: a(1) = 1; for n > 1, a(n) = prime root of n-th prime power (A000961).
 
-The programs for A025473, the canonical program `A025473.P8571811305423406731` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025473 has offset 1).
+The programs for A025473, the canonical program `A025473.P8571811305423406731` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025473 has offset 1).
 
 The definition of A025473 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A006530, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10346,7 +10344,7 @@ The definition of A025473 is `conditional`: the Lean definition is an OEIS formu
 
 `A006530(A000961(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A025473
@@ -10808,6 +10806,29 @@ def P13449338729089592434.Spec : Prop :=
 
 end A025473
 
+/-! ## A025473.P9981778142070368951
+
+`A020639(A000961(A250246(A250245(n+1))))`
+-/
+
+namespace A025473.P9981778142070368951
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A000961 (A250246 (A250245 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A025473.P9981778142070368951
+
+namespace A025473
+
+/-- `A020639(A000961(A250246(A250245(n+1))))` -/
+def P9981778142070368951.Spec : Prop :=
+  ∀ n, P9981778142070368951.a n = A025473 (n + 1)
+
+end A025473
+
 /-!
 # A025474: Exponent of the n-th prime power A000961(n).
 
@@ -11258,6 +11279,29 @@ def P2028883820379027854.Spec : Prop :=
 
 end A025474
 
+/-! ## A025474.P1280369637218566988
+
+`A046079(A138929(n+1))`
+-/
+
+namespace A025474.P1280369637218566988
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046079 (A138929 (n + 1)).toNat
+
+end
+
+end A025474.P1280369637218566988
+
+namespace A025474
+
+/-- `A046079(A138929(n+1))` -/
+def P1280369637218566988.Spec : Prop :=
+  ∀ n, P1280369637218566988.a n = A025474 (n + 1)
+
+end A025474
+
 /-!
 # A025475: 1 and the prime powers p^m where m >= 2, thus excluding the primes.
 
@@ -11500,6 +11544,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025475.P7821796078778782051
+
+/-! ## A025475.P2898237061260401366
+
+`∩[A134611(n+1), A336547(n+1)]`
+-/
+
+namespace A025475.P2898237061260401366
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134611 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336547 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A025475.P2898237061260401366
 
 /-! ## A025475.P15820587153673665782
 
@@ -14025,6 +14091,28 @@ end
 
 end A025487.P4939284327833707988
 
+/-! ## A025487.P10321369924725148449
+
+`∪[A140999(n+1), A363280(n+1)]`
+-/
+
+namespace A025487.P10321369924725148449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140999 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363280 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A025487.P10321369924725148449
+
 /-! ## A025487.P11165002842499154360
 
 `∑[A178799(n+1)]+1-A178799(n+1)`
@@ -14108,36 +14196,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025487.P7462167054634155842
-
-/-! ## A025487.P9957778027286029046
-
-`A329899(2*A329898(n+1)-A329898(n+1))`
--/
-
-namespace A025487.P9957778027286029046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329899 (2 * A329898 (n + 1) - A329898 (n + 1)).toNat
-
-end
-
-end A025487.P9957778027286029046
-
-/-! ## A025487.P13375501071571319195
-
-`A055932(A331119(n+1))`
--/
-
-namespace A025487.P13375501071571319195
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055932 (A331119 (n + 1)).toNat
-
-end
-
-end A025487.P13375501071571319195
 
 /-!
 # A025488: Number of distinct prime signatures of the positive integers up to 2^n.

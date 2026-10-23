@@ -3743,27 +3743,6 @@ end
 
 end A206159.P18405566398315136606
 
-/-! ## A206159.P13291916636549601927
-
-`lt[A256824(n+1), A135145(n+1)]+1`
--/
-
-namespace A206159.P13291916636549601927
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256824 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135145 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
-
-end
-
-end A206159.P13291916636549601927
-
 /-!
 # A206162: Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock in a row having an equal number of equal diagonal or equal antidiagonal elements, adjacent rows differing in this number, and new values 0..3 introduced in row major order.
 

@@ -87,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -5109,6 +5108,28 @@ end
 
 end A121939.P1229260061228600441
 
+/-! ## A121939.P6833256072188862688
+
+`∩[A002113(n+1), A385158(n+1)]`
+-/
+
+namespace A121939.P6833256072188862688
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002113 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385158 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A121939.P6833256072188862688
+
 /-!
 # A121940: Product of the first n primes of the form 6k+1.
 
@@ -8955,6 +8976,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A121993.P13625114284832841419
+
+/-! ## A121993.P17369863151454621206
+
+`∩[A010785(n), A127957(n+1)]`
+-/
+
+namespace A121993.P17369863151454621206
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010785 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127957 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A121993.P17369863151454621206
 
 /-!
 # A121996: Sums of two squares mod 100.

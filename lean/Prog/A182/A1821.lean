@@ -3253,6 +3253,28 @@ end A182139
 The programs for A182140, there is no canonical definition to state claims against.
 -/
 
+/-! ## A182140.P8697964416640950020
+
+`∪[A000040(n+1), A235864(n+1)]`
+-/
+
+namespace A182140.P8697964416640950020
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235864 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A182140.P8697964416640950020
+
 /-! ## A182140.P8897628119355156940
 
 `eq[2, A354366(A323774(n))]`
@@ -3324,24 +3346,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A182140.P15634044360977515555
-
-/-! ## A182140.P8771735039597864182
-
-`filter[A316268(n+1), A373486(#)]`
--/
-
-namespace A182140.P8771735039597864182
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316268 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A373486 (f1 j).toNat = 1) n)
-
-end
-
-end A182140.P8771735039597864182
 
 /-!
 # A182142: Abundance d = sigma(N) - 2*N = A033880(N) of numbers N = A153501(n), i.e., N has d > 0 as divisor.
@@ -6314,6 +6318,25 @@ end A182174
 The programs for A182175, there is no canonical definition to state claims against.
 -/
 
+/-! ## A182175.P12361523987905639501
+
+`comp[A219110(n+1)]`
+-/
+
+namespace A182175.P12361523987905639501
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219110 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A182175.P12361523987905639501
+
 /-! ## A182175.P8886768116082704353
 
 `A118759(A252495(n+1))`
@@ -6373,21 +6396,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A182175.P11488499750644052262
-
-/-! ## A182175.P4645608765695978176
-
-`A000194(A252996(n+1)²)`
--/
-
-namespace A182175.P4645608765695978176
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000194 (A252996 (n + 1) ^ 2).toNat
-
-end
-
-end A182175.P4645608765695978176
 
 /-!
 # A182176: Number of affine subspaces of GF(2)^n.

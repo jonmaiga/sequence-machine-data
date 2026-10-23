@@ -55,7 +55,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
@@ -1401,6 +1400,32 @@ def P15314065444967902441.Spec : Prop :=
 
 end A101120
 
+/-! ## A101120.P5856499424287507998
+
+`record[A101119(n+1)]`
+-/
+
+namespace A101120.P5856499424287507998
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101119 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A101120.P5856499424287507998
+
+namespace A101120
+
+/-- `record[A101119(n+1)]` -/
+def P5856499424287507998.Spec : Prop :=
+  ∀ n, P5856499424287507998.a n = A101120 (n + 1)
+
+end A101120
+
 /-!
 # A101121: Bitwise XOR of adjacent terms of A101120; also the nonzero terms of A101122.
 
@@ -1844,6 +1869,33 @@ def P7267049522507112846.Spec : Prop :=
 
 end A101123
 
+/-! ## A101123.P303111565763739872
+
+`comp[A153350(n+1)]`
+-/
+
+namespace A101123.P303111565763739872
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153350 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A101123.P303111565763739872
+
+namespace A101123
+
+/-- `comp[A153350(n+1)]` -/
+def P303111565763739872.Spec : Prop :=
+  ∀ n, (P303111565763739872.a n : ℤ) = A101123 (n + 1)
+
+end A101123
+
 /-! ## A101123.P12139111847895290923
 
 `lt[∏{e}[7*n+11, #+1]-1, 2]`
@@ -2058,35 +2110,6 @@ namespace A101123
 /-- `eq[1, A032741(7*(n+1)-3)]-1` -/
 def P13122243943533256233.Spec : Prop :=
   ∀ n, P13122243943533256233.a n = A101123 (n + 1)
-
-end A101123
-
-/-! ## A101123.P5445589295481631248
-
-`lt[n+3, A014963(5*(n+2)+2*n+1)]`
--/
-
-namespace A101123.P5445589295481631248
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (5 * (n + 2) + (2 * n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A101123.P5445589295481631248
-
-namespace A101123
-
-/-- `lt[n+3, A014963(5*(n+2)+2*n+1)]` -/
-def P5445589295481631248.Spec : Prop :=
-  ∀ n, (P5445589295481631248.a n : ℤ) = A101123 (n + 1)
 
 end A101123
 
@@ -3660,6 +3683,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101144.P3320065679157227937
+
+/-!
+# A101145: List of molecules in Hintze-Adami artificial chemistry (see comments for definition).
+
+The programs for A101145, there is no canonical definition to state claims against.
+-/
+
+/-! ## A101145.P5009806377705103225
+
+`∩[A065816(n+1), A098019(n+1)]`
+-/
+
+namespace A101145.P5009806377705103225
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065816 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098019 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A101145.P5009806377705103225
 
 /-!
 # A101146: Indices of primes in sequence defined by A(0) = 79, A(n) = 10*A(n-1) - 31 for n > 0.

@@ -53,7 +53,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -5573,6 +5572,32 @@ def P5312097278517596170.Spec : Prop :=
 
 end A133953
 
+/-! ## A133953.P17862897887126885589
+
+`A001333(n+1)+Δ[n²]`
+-/
+
+namespace A133953.P17862897887126885589
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001333 (n + 1) + ((f1 (n + 1) : ℤ) - (f1 n : ℤ))
+
+end
+
+end A133953.P17862897887126885589
+
+namespace A133953
+
+/-- `A001333(n+1)+Δ[n²]` -/
+def P17862897887126885589.Spec : Prop :=
+  ∀ n, P17862897887126885589.a n = A133953 (n + 1)
+
+end A133953
+
 /-!
 # A133954: Difference between the numbers of nonnegative evil and odious multiples of p_n less than 2^p_n, where p_n = n-th prime.
 
@@ -8840,6 +8865,28 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A133996.P12031544585396143933
+
+/-! ## A133996.P10336406007209038431
+
+`∩[A317089(n+1), A362804(n+1)]`
+-/
+
+namespace A133996.P10336406007209038431
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317089 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362804 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A133996.P10336406007209038431
 
 /-!
 # A133997: a(n) = the smallest positive integer with exactly n positive "isolated divisors". A divisor, k, of n is isolated if neither (k-1) nor (k+1) divides n.

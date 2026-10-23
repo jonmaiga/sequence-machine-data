@@ -1546,6 +1546,31 @@ def P8266957685406410521.Spec : Prop :=
 
 end A261723
 
+/-! ## A261723.P3838263088859228856
+
+`floor(a(n-2)+(a(n-1)-1)%a(n-2))` with `a(0)=4, a(1)=3`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A261723.P3838263088859228856
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [4, 3] fun n a =>
+  a (n - 2) + Int.tmod (a (n - 1) - 1) (a (n - 2))
+
+end
+
+end A261723.P3838263088859228856
+
+namespace A261723
+
+/-- `floor(a(n-2)+(a(n-1)-1)%a(n-2))` -/
+def P3838263088859228856.Spec : Prop :=
+  ∀ n, P3838263088859228856.a n = A261723 (n + 1)
+
+end A261723
+
 /-! ## A261723.P7340623138799814859
 
 `floor(a(n-2)-(1-a(n-1))%a(n-2))` with `a(0)=4, a(1)=3`

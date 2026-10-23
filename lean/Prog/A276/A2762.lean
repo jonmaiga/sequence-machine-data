@@ -1296,6 +1296,29 @@ def P4811036933913985110.Spec : Prop :=
 
 end A276212
 
+/-! ## A276212.P11164409629170490798
+
+`round(log(A338531(n+2)))`
+-/
+
+namespace A276212.P11164409629170490798
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (Real.log (A338531 (n + 2) : ℝ))
+
+end
+
+end A276212.P11164409629170490798
+
+namespace A276212
+
+/-- `round(log(A338531(n+2)))` -/
+def P11164409629170490798.Spec : Prop :=
+  ∀ n, P11164409629170490798.a n = A276212 (n + 1)
+
+end A276212
+
 /-!
 # A276213: Position of n^s in the joint ranking of {h^r} and {k^s}, where r = sqrt(3), s = sqrt(5), h > 1, k > 1.
 
@@ -6917,6 +6940,28 @@ end
 
 end A276264.P7375526479867666232
 
+/-! ## A276264.P497743703716734438
+
+`∩[A030430(n+1), A054254(n)]`
+-/
+
+namespace A276264.P497743703716734438
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030430 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054254 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A276264.P497743703716734438
+
 /-! ## A276264.P9488046493500191957
 
 `∩[A141927(n+1), A054254(n)]`
@@ -6982,28 +7027,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A276264.P1172718947925282969
-
-/-! ## A276264.P17415697390786445747
-
-`∩[A124199(n+1), A141927(n+1)]`
--/
-
-namespace A276264.P17415697390786445747
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124199 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141927 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A276264.P17415697390786445747
 
 /-!
 # A276265: Expansion of (1 + 2*x)/(1 - 6*x + 6*x^2).

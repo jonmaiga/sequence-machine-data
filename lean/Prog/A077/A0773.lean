@@ -17,7 +17,6 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -4589,6 +4588,21 @@ end
 
 end A077356.P16268314687902064806
 
+/-! ## A077356.P13104931355788652041
+
+`A077357(A043316(n+1))`
+-/
+
+namespace A077356.P13104931355788652041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077357 (A043316 (n + 1)).toNat
+
+end
+
+end A077356.P13104931355788652041
+
 /-!
 # A077357: Squares whose external digits (MSD and LSD) as well as internal digits form squares.
 
@@ -4873,6 +4887,28 @@ end
 
 end A077360.P65395107555815903
 
+/-! ## A077360.P635951672120040975
+
+`∩[A190731(n+1), A359754(n+1)]`
+-/
+
+namespace A077360.P635951672120040975
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190731 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359754 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A077360.P635951672120040975
+
 /-!
 # A077361: Smallest n-digit prime whose external digits as well as internal digits form a prime, or 0 if no such number exists.
 
@@ -4972,6 +5008,28 @@ end A077365.P18402387329998857675
 The programs for A077366, there is no canonical definition to state claims against.
 -/
 
+/-! ## A077366.P14997436476599928618
+
+`∪[A069702(n+1), A077368(n+1)]`
+-/
+
+namespace A077366.P14997436476599928618
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069702 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077368 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A077366.P14997436476599928618
+
 /-! ## A077366.P5701614769677951769
 
 `A000217(lt[A334313(n+1), A340569(n+4)])`
@@ -5055,27 +5113,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A077366.P12627399620725246344
-
-/-! ## A077366.P7008966115336032803
-
-`A000217(lt[A249158(n+1), A106303(n+1)])`
--/
-
-namespace A077366.P7008966115336032803
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249158 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106303 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A077366.P7008966115336032803
 
 /-!
 # A077367: Triangular numbers whose external digits form a triangular number. Or triangular number whose MSD and LSD form a triangular number.
@@ -5550,6 +5587,28 @@ end A077373.P2016919972965240184
 The programs for A077374, there is no canonical definition to state claims against.
 -/
 
+/-! ## A077374.P15487484627562530928
+
+`∩[2*n+1, A108864(n+1)]`
+-/
+
+namespace A077374.P15487484627562530928
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108864 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A077374.P15487484627562530928
+
 /-! ## A077374.P5973988577964960963
 
 `2*lt[A109883(2*n+1), 11]+1`
@@ -5607,19 +5666,19 @@ end
 
 end A077374.P16578605250694435333
 
-/-! ## A077374.P17489721834919601309
+/-! ## A077374.P8007170389857721567
 
-`∩[A108864(n+1), A143452(n)]`
+`∩[A108864(n+1), A340718(n)]`
 -/
 
-namespace A077374.P17489721834919601309
+namespace A077374.P8007170389857721567
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A108864 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143452 n
+  A340718 n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5627,29 +5686,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A077374.P17489721834919601309
-
-/-! ## A077374.P1450910951801772193
-
-`∩[A178864(n+1), A143452(n)]`
--/
-
-namespace A077374.P1450910951801772193
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178864 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143452 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A077374.P1450910951801772193
+end A077374.P8007170389857721567
 
 /-!
 # A077375: Numbers k such that 2^k + prime(k) is prime.

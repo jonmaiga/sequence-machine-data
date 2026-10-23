@@ -1511,6 +1511,28 @@ end
 
 end A390933.P12092493203205776165
 
+/-! ## A390933.P7250668158100640782
+
+`∩[A009087(n+1), A387946(n+1)]`
+-/
+
+namespace A390933.P7250668158100640782
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009087 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387946 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390933.P7250668158100640782
+
 /-! ## A390933.P18309832087684871004
 
 `∩[A040116(n+1), A387946(n+1)]`
@@ -1576,24 +1598,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390933.P9734100714066572763
-
-/-! ## A390933.P6100558559267188652
-
-`filter[A387946(n+1), A010051(#)]`
--/
-
-namespace A390933.P6100558559267188652
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387946 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
-
-end
-
-end A390933.P6100558559267188652
 
 /-!
 # A390937: Number of entries in the map T after the n-th iteration, when initially T[1] = 1 is the only entry, and in subsequent iterations, T[v] := k + (T[v] if defined else 0) for each key-value pair (k, v) in the map.
@@ -4858,6 +4862,66 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390988.P16521834606606922946
+
+/-! ## A390988.P2032862025865901565
+
+`A360551(A043317(n+1))`
+-/
+
+namespace A390988.P2032862025865901565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360551 (A043317 (n + 1)).toNat
+
+end
+
+end A390988.P2032862025865901565
+
+/-! ## A390988.P8323906790110661727
+
+`A360551(A044914(n+1))`
+-/
+
+namespace A390988.P8323906790110661727
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360551 (A044914 (n + 1)).toNat
+
+end
+
+end A390988.P8323906790110661727
+
+/-! ## A390988.P1215797422363229321
+
+`A360551(A055648(n+1))`
+-/
+
+namespace A390988.P1215797422363229321
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360551 (A055648 (n + 1)).toNat
+
+end
+
+end A390988.P1215797422363229321
+
+/-! ## A390988.P4060740387186086244
+
+`A360551(A132378(n+1))`
+-/
+
+namespace A390988.P4060740387186086244
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360551 (A132378 (n + 1)).toNat
+
+end
+
+end A390988.P4060740387186086244
 
 /-!
 # A390989: Triangle read by rows where T(n,k) is the number of integer partitions of n with first sums summing to k+n-1, where 0 <= k < n.

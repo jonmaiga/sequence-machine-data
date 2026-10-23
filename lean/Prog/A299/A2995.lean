@@ -41,7 +41,6 @@ import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -80,6 +79,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A299501: Expansion of (1 - 6*x + 7*x^2 - 2*x^3 + x^4)^(-1/2).

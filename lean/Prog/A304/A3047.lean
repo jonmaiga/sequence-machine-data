@@ -49,7 +49,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -5353,6 +5352,24 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A304767.P6461603356964042158
+
+/-! ## A304767.P6844285111675441410
+
+`filter[A316511(n+1), A105234(#)]`
+-/
+
+namespace A304767.P6844285111675441410
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316511 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A105234 (f1 j).toNat = 1) n)
+
+end
+
+end A304767.P6844285111675441410
 
 /-!
 # A304768: Augmented integer conjugate of n. a(n) = (1/n) * A007947(n)^(1 + A051903(n)) where A007947 is squarefree kernel and A051903 is maximum prime exponent.

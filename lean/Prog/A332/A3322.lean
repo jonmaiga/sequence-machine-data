@@ -69,7 +69,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -680,6 +679,29 @@ namespace A332203
 /-- `round(xor(1, 2^2^n)/2)` -/
 def P16830572243778289032.Spec : Prop :=
   ∀ n, P16830572243778289032.a n = A332203 n
+
+end A332203
+
+/-! ## A332203.P13128990134247936176
+
+`A094373(2^n)`
+-/
+
+namespace A332203.P13128990134247936176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094373 (2 ^ n)
+
+end
+
+end A332203.P13128990134247936176
+
+namespace A332203
+
+/-- `A094373(2^n)` -/
+def P13128990134247936176.Spec : Prop :=
+  ∀ n, P13128990134247936176.a n = A332203 n
 
 end A332203
 
@@ -10462,6 +10484,28 @@ end
 
 end A332282.P15085687798149775720
 
+/-! ## A332282.P11330175488176928787
+
+`∩[A070003(n+1), A332831(n+1)]`
+-/
+
+namespace A332282.P11330175488176928787
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070003 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332831 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332282.P11330175488176928787
+
 /-!
 # A332283: Number of integer partitions of n whose first differences (assuming the last part is zero) are unimodal.
 
@@ -11785,6 +11829,28 @@ end
 
 end A332291.P12680821072646930017
 
+/-! ## A332291.P17178896925803261105
+
+`∩[A209860(n), A384010(n+1)]`
+-/
+
+namespace A332291.P17178896925803261105
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209860 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384010 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332291.P17178896925803261105
+
 /-! ## A332291.P11867178432028748951
 
 `∩[A317589(n+1), A334169(n)]`
@@ -11828,6 +11894,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A332291.P8616429502076447119
+
+/-! ## A332291.P10215089570920789453
+
+`∩[A334169(n), A384010(n+1)]`
+-/
+
+namespace A332291.P10215089570920789453
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334169 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384010 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332291.P10215089570920789453
 
 /-!
 # A332292: Number of widely alternately strongly normal integer partitions of n.
@@ -11981,6 +12069,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A332293.P12088126980689687303
+
+/-! ## A332293.P12380672741387027635
+
+`∩[A110262(n+1), A332290(n+1)]`
+-/
+
+namespace A332293.P12380672741387027635
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110262 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332293.P12380672741387027635
 
 /-!
 # A332294: Number of unimodal permutations of a multiset whose multiplicities are the prime indices of n.

@@ -1678,6 +1678,28 @@ end A129620.P18312203508241624880
 The programs for A129621, there is no canonical definition to state claims against.
 -/
 
+/-! ## A129621.P14898893935910661354
+
+`∩[A123068(n+1), A281295(n+1)]`
+-/
+
+namespace A129621.P14898893935910661354
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123068 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281295 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A129621.P14898893935910661354
+
 /-! ## A129621.P16253932596931841174
 
 `eq[A003415(n), A008292(A299755(n+1))]`
@@ -1761,27 +1783,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A129621.P12446791661599106400
-
-/-! ## A129621.P16726902446071362463
-
-`A000040(lt[A286718(n), A139427(n+1)])`
--/
-
-namespace A129621.P16726902446071362463
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286718 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139427 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A129621.P16726902446071362463
 
 /-!
 # A129627: Sum of the 4th powers of the degrees of irreducible representations of S_n, the symmetric group on n letters.
@@ -10188,6 +10189,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A129692.P8769627976136599626
+
+/-! ## A129692.P10962776794358179466
+
+`A178209(A106000(n+1))`
+-/
+
+namespace A129692.P10962776794358179466
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178209 (A106000 (n + 1)).toNat
+
+end
+
+end A129692.P10962776794358179466
 
 /-!
 # A129693: Right truncatable primes in base 9 (written in decimal form).

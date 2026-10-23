@@ -947,6 +947,24 @@ end
 
 end A321910.P6201850469740039117
 
+/-! ## A321910.P7586504534950152486
+
+`filter[A128898(n+1), A174208(#)]`
+-/
+
+namespace A321910.P7586504534950152486
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128898 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A174208 (f1 j).toNat = 1) n)
+
+end
+
+end A321910.P7586504534950152486
+
 /-!
 # A321911: Number of distinct chromatic symmetric functions of simple connected graphs with n vertices.
 

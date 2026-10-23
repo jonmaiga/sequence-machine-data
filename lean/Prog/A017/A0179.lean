@@ -14214,7 +14214,7 @@ end A017948
 /-!
 # A017949: Powers of sqrt(15) rounded down.
 
-The programs for A017949, the canonical program `A017949.P14583680733829456344` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017949 has offset 0).
+The programs for A017949, the canonical program `A017949.P14583680733829456344` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017949 has offset 0).
 
 The definition of A017949 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14223,7 +14223,7 @@ The definition of A017949 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(15^n))`
 
-The canonical program, it is in `Seq.B000.C004`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A017949
@@ -23464,72 +23464,26 @@ def P927041088811544155.Spec : Prop :=
 
 end A017979
 
-/-! ## A017979.P3287933794395662311
+/-! ## A017979.P17162647675077396844
 
-`floor(root(A001576(n), 6))`
+`floor(root(4^n, 6))`
 -/
 
-namespace A017979.P3287933794395662311
+namespace A017979.P17162647675077396844
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A001576 n : ℝ) ^ (1 / (6 : ℝ))⌋
+  ⌊(4 ^ n : ℝ) ^ (1 / (6 : ℝ))⌋
 
 end
 
-end A017979.P3287933794395662311
+end A017979.P17162647675077396844
 
 namespace A017979
 
-/-- `floor(root(A001576(n), 6))` -/
-def P3287933794395662311.Spec : Prop :=
-  ∀ n, P3287933794395662311.a n = A017979 n
-
-end A017979
-
-/-! ## A017979.P13705101047442645613
-
-`floor(root(A052539(n), 6))`
--/
-
-namespace A017979.P13705101047442645613
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A052539 n : ℝ) ^ (1 / (6 : ℝ))⌋
-
-end
-
-end A017979.P13705101047442645613
-
-namespace A017979
-
-/-- `floor(root(A052539(n), 6))` -/
-def P13705101047442645613.Spec : Prop :=
-  ∀ n, P13705101047442645613.a n = A017979 n
-
-end A017979
-
-/-! ## A017979.P1523531862473112420
-
-`floor(root(A343176(n), 6))`
--/
-
-namespace A017979.P1523531862473112420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A343176 n : ℝ) ^ (1 / (6 : ℝ))⌋
-
-end
-
-end A017979.P1523531862473112420
-
-namespace A017979
-
-/-- `floor(root(A343176(n), 6))` -/
-def P1523531862473112420.Spec : Prop :=
-  ∀ n, P1523531862473112420.a n = A017979 n
+/-- `floor(root(4^n, 6))` -/
+def P17162647675077396844.Spec : Prop :=
+  ∀ n, P17162647675077396844.a n = A017979 n
 
 end A017979
 
@@ -24918,26 +24872,26 @@ def P922762071518332709.Spec : Prop :=
 
 end A017985
 
-/-! ## A017985.P18339423720731321298
+/-! ## A017985.P109404873570036204
 
-`floor((4^n+1)^(1/3))`
+`floor(root(4^n, 3))`
 -/
 
-namespace A017985.P18339423720731321298
+namespace A017985.P109404873570036204
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(4 ^ n + 1 : ℝ) ^ ((1 : ℚ) / 3 : ℝ)⌋
+  ⌊(4 ^ n : ℝ) ^ (1 / (3 : ℝ))⌋
 
 end
 
-end A017985.P18339423720731321298
+end A017985.P109404873570036204
 
 namespace A017985
 
-/-- `floor((4^n+1)^(1/3))` -/
-def P18339423720731321298.Spec : Prop :=
-  ∀ n, P18339423720731321298.a n = A017985 n
+/-- `floor(root(4^n, 3))` -/
+def P109404873570036204.Spec : Prop :=
+  ∀ n, P109404873570036204.a n = A017985 n
 
 end A017985
 

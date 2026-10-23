@@ -50,7 +50,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -599,6 +598,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A347305.P17593945463911544752
+
+/-! ## A347305.P6249306006980137485
+
+`filter[A343878(n), A242718(#)]`
+-/
+
+namespace A347305.P6249306006980137485
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343878 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A242718 (f1 j).toNat = 1) n)
+
+end
+
+end A347305.P6249306006980137485
+
+/-! ## A347305.P13613965466552706827
+
+`filter[A343878(n), A267959(#)]`
+-/
+
+namespace A347305.P13613965466552706827
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343878 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267959 (f1 j).toNat = 1) n)
+
+end
+
+end A347305.P13613965466552706827
 
 /-!
 # A347307: Records in A347113.

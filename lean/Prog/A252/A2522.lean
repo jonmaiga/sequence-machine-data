@@ -36,6 +36,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -43,7 +44,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -78,6 +78,8 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A252200: Number of (n+2)X(7+2) 0..3 arrays with every 3X3 subblock row, column, diagonal and antidiagonal sum not equal to 0 3 5 6 or 7.
@@ -3361,33 +3363,26 @@ def P1074535455338790636.Spec : Prop :=
 
 end A252233
 
-/-! ## A252233.P15396252134497597372
+/-! ## A252233.P13505776308112025747
 
-`char[xor(∏{p}[n+1, -#], -1)]`
+`(n+2)%A080305(n+1)`
 -/
 
-namespace A252233.P15396252134497597372
+namespace A252233.P13505776308112025747
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (∏ p ∈ Nat.primeFactors (f2 n), (-(p : ℤ))) (-1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (n + 2 : ℤ) (A080305 (n + 1))
 
 end
 
-end A252233.P15396252134497597372
+end A252233.P13505776308112025747
 
 namespace A252233
 
-/-- `char[xor(∏{p}[n+1, -#], -1)]` -/
-def P15396252134497597372.Spec : Prop :=
-  ∀ n, (P15396252134497597372.a n : ℤ) = A252233 (n + 1)
+/-- `(n+2)%A080305(n+1)` -/
+def P13505776308112025747.Spec : Prop :=
+  ∀ n, P13505776308112025747.a n = A252233 (n + 1)
 
 end A252233
 
@@ -7115,6 +7110,24 @@ end
 
 end A252281.P5702061701073252358
 
+/-! ## A252281.P11088496582773489532
+
+`filter[A120242(2*(n+1)), A373338(#)]`
+-/
+
+namespace A252281.P11088496582773489532
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120242 (2 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A373338 (f1 j).toNat = 1) n)
+
+end
+
+end A252281.P11088496582773489532
+
 /-!
 # A252282: Intersection of A251964 and A252280.
 
@@ -7143,6 +7156,28 @@ end
 
 end A252282.P13904038455200490900
 
+/-! ## A252282.P3301607350477260617
+
+`∩[A251964(n+1), A371123(n+1)]`
+-/
+
+namespace A252282.P3301607350477260617
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251964 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371123 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252282.P3301607350477260617
+
 /-! ## A252282.P6498346695171565236
 
 `∩[A028804(n+1), A251964(n+1)]`
@@ -7165,6 +7200,28 @@ end
 
 end A252282.P6498346695171565236
 
+/-! ## A252282.P5070914243466023749
+
+`∩[A099649(n+1), A251964(n+1)]`
+-/
+
+namespace A252282.P5070914243466023749
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099649 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251964 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252282.P5070914243466023749
+
 /-! ## A252282.P8045192278702134833
 
 `∩[A122546(n+1), A251964(n+1)]`
@@ -7186,28 +7243,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252282.P8045192278702134833
-
-/-! ## A252282.P16467635246444382978
-
-`∩[A122806(n+1), A251964(n+1)]`
--/
-
-namespace A252282.P16467635246444382978
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122806 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251964 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252282.P16467635246444382978
 
 /-!
 # A252283: Intersection of A251964, A252280 and A252281.

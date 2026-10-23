@@ -5964,6 +5964,21 @@ end
 
 end A000668.P12489131137125064100
 
+/-! ## A000668.P13613818791745487956
+
+`A343733(n+2)`
+-/
+
+namespace A000668.P13613818791745487956
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343733 (n + 2)
+
+end
+
+end A000668.P13613818791745487956
+
 /-!
 # A000669: Number of series-reduced planted trees with n leaves. Also the number of essentially series series-parallel networks with n edges; also the number of essentially parallel series-parallel networks with n edges.
 
@@ -6218,6 +6233,144 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A000670.P9059851809232368888
+
+/-! ## A000670.P7712134389432983715
+
+`A073146(∑[n])`
+-/
+
+namespace A000670.P7712134389432983715
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073146 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A000670.P7712134389432983715
+
+/-! ## A000670.P7454541861154515661
+
+`A122101(∑[n])`
+-/
+
+namespace A000670.P7454541861154515661
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122101 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A000670.P7454541861154515661
+
+/-! ## A000670.P7450319726103609860
+
+`A154921(∑[n])`
+-/
+
+namespace A000670.P7450319726103609860
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154921 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A000670.P7450319726103609860
+
+/-! ## A000670.P481221290657183162
+
+`A052875(n)+1`
+-/
+
+namespace A000670.P481221290657183162
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052875 n + 1
+
+end
+
+end A000670.P481221290657183162
+
+/-! ## A000670.P14532749819811203574
+
+`A226513(∑[n]+n)`
+-/
+
+namespace A000670.P14532749819811203574
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A226513 (∑ j ∈ Finset.range (n + 1), f1 j + n)
+
+end
+
+end A000670.P14532749819811203574
+
+/-! ## A000670.P1649953256408000137
+
+`A355666(∑[n]+n)`
+-/
+
+namespace A000670.P1649953256408000137
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355666 (∑ j ∈ Finset.range (n + 1), f1 j + n)
+
+end
+
+end A000670.P1649953256408000137
+
+/-! ## A000670.P11910091866684118346
+
+`2*A032109(n)-1`
+-/
+
+namespace A000670.P11910091866684118346
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A032109 n - 1
+
+end
+
+end A000670.P11910091866684118346
+
+/-! ## A000670.P12080087076361454012
+
+`A084416(∑[abs(1-n)])`
+-/
+
+namespace A000670.P12080087076361454012
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |1 - (n : ℤ)|
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084416 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A000670.P12080087076361454012
 
 /-!
 # A000671: Number of boron trees with n nodes, i.e. n-node rooted trees with degree <= 3 at root and out-degree <= 2 elsewhere.
@@ -9285,52 +9438,63 @@ def P10713589394027372727.Spec : Prop :=
 
 end A000695
 
-/-! ## A000695.P1119059861155099444
+/-! ## A000695.P9059935203279740508
 
-`A001196(n)+1-A145812(n+1)`
+`∪[A002450(n), A037409(n+1)]`
 -/
 
-namespace A000695.P1119059861155099444
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001196 n + (1 - A145812 (n + 1))
-
-end
-
-end A000695.P1119059861155099444
-
-namespace A000695
-
-/-- `A001196(n)+1-A145812(n+1)` -/
-def P1119059861155099444.Spec : Prop :=
-  ∀ n, P1119059861155099444.a n = A000695 n
-
-end A000695
-
-/-! ## A000695.P15797577000760364080
-
-`∑[A276391(n+1)]-A276391(n+1)`
--/
-
-namespace A000695.P15797577000760364080
+namespace A000695.P9059935203279740508
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276391 (n + 1)
+  A002450 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - A276391 (n + 1)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037409 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A000695.P15797577000760364080
+end A000695.P9059935203279740508
 
 namespace A000695
 
-/-- `∑[A276391(n+1)]-A276391(n+1)` -/
-def P15797577000760364080.Spec : Prop :=
-  ∀ n, P15797577000760364080.a n = A000695 n
+/-- `∪[A002450(n), A037409(n+1)]` -/
+def P9059935203279740508.Spec : Prop :=
+  ∀ n, (P9059935203279740508.a n : ℤ) = A000695 n
+
+end A000695
+
+/-! ## A000695.P16290726290712615711
+
+`∪[A037409(n+1), A080610(n)]`
+-/
+
+namespace A000695.P16290726290712615711
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037409 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080610 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A000695.P16290726290712615711
+
+namespace A000695
+
+/-- `∪[A037409(n+1), A080610(n)]` -/
+def P16290726290712615711.Spec : Prop :=
+  ∀ n, (P16290726290712615711.a n : ℤ) = A000695 n
 
 end A000695
 

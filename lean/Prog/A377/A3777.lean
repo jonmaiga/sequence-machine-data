@@ -43,17 +43,14 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
@@ -113,6 +110,21 @@ end
 
 end A377701.P3462497863306116949
 
+/-! ## A377701.P13471741481886992288
+
+`xor(A000225(n), A377467(n))`
+-/
+
+namespace A377701.P13471741481886992288
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000225 n) (A377467 n)
+
+end
+
+end A377701.P13471741481886992288
+
 /-! ## A377701.P10243835265234956253
 
 `A000079(n)-(A377467(n)+1)`
@@ -127,6 +139,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377701.P10243835265234956253
+
+/-! ## A377701.P12458440166981176585
+
+`A217038(A328080(n))`
+-/
+
+namespace A377701.P12458440166981176585
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217038 (A328080 n).toNat
+
+end
+
+end A377701.P12458440166981176585
 
 /-!
 # A377702: Perfect-powers except for powers of 2.
@@ -1826,6 +1853,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A377723.P7085947493953243880
+
+/-! ## A377723.P3485600128088370314
+
+`∪[A091375(n+1), A134333(n+1)]`
+-/
+
+namespace A377723.P3485600128088370314
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091375 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134333 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377723.P3485600128088370314
 
 /-! ## A377723.P2426094593328379539
 
@@ -3934,6 +3983,28 @@ end
 
 end A377766.P1376539624459878551
 
+/-! ## A377766.P17886382978625467740
+
+`∩[2*n, A037020(n+1)]`
+-/
+
+namespace A377766.P17886382978625467740
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037020 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377766.P17886382978625467740
+
 /-! ## A377766.P18310315997557143966
 
 `∩[A037020(n+1), A128106(n+1)]`
@@ -4013,28 +4084,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A377766.P18206014795223874642
-
-/-! ## A377766.P14854814989153000720
-
-`∩[A037020(n+1), A118286(n+1)]`
--/
-
-namespace A377766.P14854814989153000720
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037020 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118286 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A377766.P14854814989153000720
 
 /-!
 # A377767: Number of edge cuts in the path complement graph bar-P_n.
@@ -4514,7 +4563,7 @@ end A377778.P17555256086351584098
 /-!
 # A377780: First differences of A000015 (smallest prime-power >= n).
 
-The programs for A377780, the canonical program `A377780.P12783059637083081395` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377780 has offset 1).
+The programs for A377780, the canonical program `A377780.P12783059637083081395` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377780 has offset 1).
 
 The definition of A377780 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4592,7 +4641,7 @@ end A377780
 
 `Δ[A000015(n+1)]%(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A377780
@@ -4737,7 +4786,7 @@ end A377780
 /-!
 # A377781: First differences of A065514(n) = greatest number < prime(n) that is 1 or a prime-power.
 
-The programs for A377781, the canonical program `A377781.P17886322484362975724` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377781 has offset 1).
+The programs for A377781, the canonical program `A377781.P17886322484362975724` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377781 has offset 1).
 
 The definition of A377781 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4746,7 +4795,7 @@ The definition of A377781 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A065514(n+1)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A377781
@@ -4973,7 +5022,7 @@ end A377781
 /-!
 # A377782: First-differences of A031218(n) = greatest number <= n that is 1 or a prime-power.
 
-The programs for A377782, the canonical program `A377782.P15768282698416425142` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377782 has offset 1).
+The programs for A377782, the canonical program `A377782.P15768282698416425142` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377782 has offset 1).
 
 The definition of A377782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4982,7 +5031,7 @@ The definition of A377782 is `conjectured`: the Lean definition is a formula tha
 
 `1-Δ[A276781(n+1)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A377782

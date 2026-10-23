@@ -7776,6 +7776,32 @@ def P2044558936089498016.Spec : Prop :=
 
 end A071042
 
+/-! ## A071042.P11767743777744093829
+
+`Δ[A267583(n)]-2`
+-/
+
+namespace A071042.P11767743777744093829
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267583 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n - 2
+
+end
+
+end A071042.P11767743777744093829
+
+namespace A071042
+
+/-- `Δ[A267583(n)]-2` -/
+def P11767743777744093829.Spec : Prop :=
+  ∀ n, P11767743777744093829.a n = A071042 n
+
+end A071042
+
 /-!
 # A071043: Number of 0's in n-th row of triangle in A071029.
 

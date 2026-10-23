@@ -1017,6 +1017,28 @@ end
 
 end A190107.P4078316137248587035
 
+/-! ## A190107.P17455114913025587201
+
+`∩[A111030(n), A111467(n+1)]`
+-/
+
+namespace A190107.P17455114913025587201
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111030 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111467 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A190107.P17455114913025587201
+
 /-!
 # A190108: Numbers with prime factorization p*q*r^3*s^3 (where p, q, r, s are distinct primes).
 
@@ -1242,6 +1264,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A190108.P6963505997028495870
+
+/-! ## A190108.P2033968918263733387
+
+`∩[A109399(n+1), A350375(n+1)]`
+-/
+
+namespace A190108.P2033968918263733387
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109399 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350375 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A190108.P2033968918263733387
 
 /-! ## A190108.P6689354867994855201
 
@@ -8085,6 +8129,29 @@ def P3522501434286409551.Spec : Prop :=
 
 end A190176
 
+/-! ## A190176.P8938300529075382273
+
+`A020739((n+1)²)²/2`
+-/
+
+namespace A190176.P8938300529075382273
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A020739 ((n + 1) ^ 2) ^ 2 : ℚ) / 2
+
+end
+
+end A190176.P8938300529075382273
+
+namespace A190176
+
+/-- `A020739((n+1)²)²/2` -/
+def P8938300529075382273.Spec : Prop :=
+  ∀ n, P8938300529075382273.a n = (A190176 n : ℚ)
+
+end A190176
+
 /-!
 # A190178: Continued fraction of (1+sqrt(2)+sqrt(7+6*sqrt(2)))/2.
 
@@ -8947,6 +9014,29 @@ namespace A190191
 /-- `A080764(A184920(n+1)+A184920(n+1)+n)` -/
 def P14258486055613299102.Spec : Prop :=
   ∀ n, P14258486055613299102.a n = A190191 (n + 1)
+
+end A190191
+
+/-! ## A190191.P716733511710175730
+
+`and(A115342(n+6), A184920(n+1))`
+-/
+
+namespace A190191.P716733511710175730
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A115342 (n + 6)) (A184920 (n + 1))
+
+end
+
+end A190191.P716733511710175730
+
+namespace A190191
+
+/-- `and(A115342(n+6), A184920(n+1))` -/
+def P716733511710175730.Spec : Prop :=
+  ∀ n, P716733511710175730.a n = A190191 (n + 1)
 
 end A190191
 

@@ -86,6 +86,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3582,10 +3583,29 @@ end A273538.P14205958862726046626
 /-!
 # A273539: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 779", based on the 5-celled von Neumann neighborhood.
 
-The programs for A273539, the canonical program `A273539.P15103695151619722771` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273539 has offset 0).
+The programs for A273539, the canonical program `A273539.P3471177294944563189` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273539 has offset 0).
 
 The definition of A273539 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A273539.P3471177294944563189
+
+`(1-∑[2^n])²+1`
+
+The canonical program, it is in `Seq.B000.C033`.
+-/
+
+namespace A273539
+
+/-- `(1-∑[2^n])²+1` -/
+def P3471177294944563189.Spec : Prop :=
+  ∀ n, P3471177294944563189.a n = A273539 n
+
+theorem P3471177294944563189.correct : P3471177294944563189.Spec := by
+  intro n
+  simp only [A273539]
+
+end A273539
 
 /-! ## A273539.P1718806889948918115
 
@@ -3639,22 +3659,29 @@ def P12266257167291034964.Spec : Prop :=
 
 end A273539
 
-/-! ## A273539.P15103695151619722771
+/-! ## A273539.P6486569648204458219
 
-`5-2^(3+n)+4^(1+n)`
-
-The canonical program, it is in `Seq.B000.C033`.
+`∑[4*(a(n-1)+2^n)]` with `a(0)=1, a(1)=4`
 -/
+
+namespace A273539.P6486569648204458219
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 4] fun n f1 =>
+  4 * (f1 (n - 1) + 2 ^ n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A273539.P6486569648204458219
 
 namespace A273539
 
-/-- `5-2^(3+n)+4^(1+n)` -/
-def P15103695151619722771.Spec : Prop :=
-  ∀ n, P15103695151619722771.a n = A273539 n
-
-theorem P15103695151619722771.correct : P15103695151619722771.Spec := by
-  intro n
-  simp only [A273539]
+/-- `∑[4*(a(n-1)+2^n)]` -/
+def P6486569648204458219.Spec : Prop :=
+  ∀ n, (P6486569648204458219.a n : ℤ) = A273539 n
 
 end A273539
 

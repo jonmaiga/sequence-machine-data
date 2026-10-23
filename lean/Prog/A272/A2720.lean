@@ -4838,19 +4838,19 @@ end A272035.P2775297409413228536
 The programs for A272036, there is no canonical definition to state claims against.
 -/
 
-/-! ## A272036.P6217963382696341141
+/-! ## A272036.P5824742407054081500
 
-`∩[A272034(n+1), A272035(n+2)]`
+`∩[A272034(n+1), A272035(n+1)]`
 -/
 
-namespace A272036.P6217963382696341141
+namespace A272036.P5824742407054081500
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A272034 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272035 (n + 2)
+  A272035 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4858,7 +4858,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A272036.P6217963382696341141
+end A272036.P5824742407054081500
 
 /-! ## A272036.P15271122615300577633
 

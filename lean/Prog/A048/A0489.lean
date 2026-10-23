@@ -3140,23 +3140,27 @@ end
 
 end A048945.P7257723214970955012
 
-/-! ## A048945.P10751897706211080426
+/-! ## A048945.P10164600825993604593
 
-`record[(n+1)^A228591(A000005(n+1))]`
+`∩[A036537(n+1), A167758(n+1)]`
 -/
 
-namespace A048945.P10751897706211080426
+namespace A048945.P10164600825993604593
 noncomputable section
 
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ (A228591 (A000005 (n + 1)).toNat : ℤ)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036537 (n + 1)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167758 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A048945.P10751897706211080426
+end A048945.P10164600825993604593
 
 /-!
 # A048946: Numbers k such that the product of divisors of k is a fifth power.
@@ -3333,6 +3337,72 @@ end
 
 end A048950.P17732229975956366954
 
+/-! ## A048950.P9459096042108134818
+
+`∪[A215565(n+1), A329705(n+1)]`
+-/
+
+namespace A048950.P9459096042108134818
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215565 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329705 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A048950.P9459096042108134818
+
+/-! ## A048950.P5349403584450888993
+
+`∪[A020229(n+1), A375917(n+1)]`
+-/
+
+namespace A048950.P5349403584450888993
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020229 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375917 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A048950.P5349403584450888993
+
+/-! ## A048950.P16260788058015310930
+
+`∪[A375917(n+1), A375918(n+1)]`
+-/
+
+namespace A048950.P16260788058015310930
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375917 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375918 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A048950.P16260788058015310930
+
 /-! ## A048950.P844061863584408634
 
 `A262051(lt[A372436(2*n+1), A274078(2*n+3)])`
@@ -3353,40 +3423,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A048950.P844061863584408634
-
-/-! ## A048950.P7760064692054670126
-
-`A080512(A262051(comp[3*n]))`
--/
-
-namespace A048950.P7760064692054670126
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080512 (A262051 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)).toNat
-
-end
-
-end A048950.P7760064692054670126
-
-/-! ## A048950.P14825525617860256490
-
-`A262051(A285401(n+1))+A000007(A003266(n))`
--/
-
-namespace A048950.P14825525617860256490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262051 (A285401 (n + 1)).toNat + A000007 (A003266 n).toNat
-
-end
-
-end A048950.P14825525617860256490
 
 /-!
 # A048951: (2,4) Ulam sequence.
@@ -4751,6 +4787,34 @@ def P10713148254820790509.Spec : Prop :=
   ∀ n, P10713148254820790509.a n = A048967 n
 
 end A048967
+
+/-!
+# A048968: Numbers k such that sigma(k) / d(k) is prime.
+
+The programs for A048968, there is no canonical definition to state claims against.
+-/
+
+/-! ## A048968.P1100737967796224933
+
+`∪[A005383(n+1), A048969(n+1)]`
+-/
+
+namespace A048968.P1100737967796224933
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005383 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048969 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A048968.P1100737967796224933
 
 /-!
 # A048969: Composite numbers k such that sigma(k) / d(k) is prime.
@@ -6245,6 +6309,36 @@ end
 
 end A048980.P14267122624000192841
 
+/-! ## A048980.P17140909984328459452
+
+`A048863(n)+A048863(n)-A005867(n)`
+-/
+
+namespace A048980.P17140909984328459452
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048863 n + (A048863 n - A005867 n)
+
+end
+
+end A048980.P17140909984328459452
+
+/-! ## A048980.P1552134036642627011
+
+`A005867(n)-A048862(n)-A048862(n)`
+-/
+
+namespace A048980.P1552134036642627011
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005867 n - A048862 n - A048862 n
+
+end
+
+end A048980.P1552134036642627011
+
 /-!
 # A048981: Squarefree values of n for which the quadratic field Q[ sqrt(n) ] is norm-Euclidean.
 
@@ -7658,36 +7752,6 @@ namespace A048988
 /-- `∩[A095282(n+1), A366457(n)]` -/
 def P8728165159835919174.Spec : Prop :=
   ∀ n, (P8728165159835919174.a n : ℤ) = A048988 (n + 1)
-
-end A048988
-
-/-! ## A048988.P4968874929273190887
-
-`∩[A051071(n+1), A366457(n)]`
--/
-
-namespace A048988.P4968874929273190887
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051071 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366457 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A048988.P4968874929273190887
-
-namespace A048988
-
-/-- `∩[A051071(n+1), A366457(n)]` -/
-def P4968874929273190887.Spec : Prop :=
-  ∀ n, (P4968874929273190887.a n : ℤ) = A048988 (n + 1)
 
 end A048988
 

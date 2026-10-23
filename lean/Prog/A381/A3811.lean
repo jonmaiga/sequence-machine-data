@@ -51,9 +51,11 @@ import Seq.B003.C004
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3392,6 +3394,28 @@ end
 
 end A381189.P11253563920000520536
 
+/-! ## A381189.P6674805284250972833
+
+`∩[A005117(n+1), A378795(n+1)]`
+-/
+
+namespace A381189.P6674805284250972833
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378795 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A381189.P6674805284250972833
+
 /-! ## A381189.P9930617005966757912
 
 `filter[A002858(n+1), A280710(#)]`
@@ -3720,16 +3744,16 @@ end
 
 end A381189.P9159595130400007619
 
-/-! ## A381189.P14303916738805523031
+/-! ## A381189.P10490619340198902942
 
-`∩[A328338(n+1), A378795(n+1)]`
+`∩[A374472(n+1), A378795(n+1)]`
 -/
 
-namespace A381189.P14303916738805523031
+namespace A381189.P10490619340198902942
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328338 (n + 1)
+  A374472 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A378795 (n + 1)
@@ -3740,29 +3764,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A381189.P14303916738805523031
-
-/-! ## A381189.P16630732336376780015
-
-`∩[A030229(n+1), A378795(n+1)]`
--/
-
-namespace A381189.P16630732336376780015
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030229 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A378795 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A381189.P16630732336376780015
+end A381189.P10490619340198902942
 
 /-!
 # A381190: Number of connected minimal dominating sets in the n-trapezohedral graph.

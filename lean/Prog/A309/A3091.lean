@@ -57,7 +57,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
@@ -118,19 +117,19 @@ end
 
 end A309101.P12289130952895419273
 
-/-! ## A309101.P11084612303709554003
+/-! ## A309101.P12211449297532959026
 
-`∩[A159911(n+1), A056709(A007095(n+4))]`
+`∩[A056709(n+1), A159911(n+1)]`
 -/
 
-namespace A309101.P11084612303709554003
+namespace A309101.P12211449297532959026
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159911 (n + 1)
+  A056709 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056709 (A007095 (n + 4)).toNat
+  A159911 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -138,7 +137,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A309101.P11084612303709554003
+end A309101.P12211449297532959026
 
 /-!
 # A309102: Nonnegative integers that are not the sum of two refactorable numbers.
@@ -5856,7 +5855,7 @@ end A309175.P3044888249127484153
 /-!
 # A309176: a(n) = n^2 * (n + 1)/2 - Sum_{k=1..n} sigma_2(k).
 
-The programs for A309176, the canonical program `A309176.P1940731175005839416` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309176 has offset 1).
+The programs for A309176, the canonical program `A309176.P1940731175005839416` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309176 has offset 1).
 
 The definition of A309176 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064602, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5865,7 +5864,7 @@ The definition of A309176 is `conditional`: the Lean definition is an OEIS formu
 
 `A002411(n+1)-A064602(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A309176

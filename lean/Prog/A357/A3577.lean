@@ -32,6 +32,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
@@ -74,7 +75,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -3393,6 +3393,75 @@ def P9073754895088692993.Spec : Prop :=
 
 end A357753
 
+/-! ## A357753.P9514555218680490267
+
+`A051494(A077625(n+2))`
+-/
+
+namespace A357753.P9514555218680490267
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051494 (A077625 (n + 2)).toNat
+
+end
+
+end A357753.P9514555218680490267
+
+namespace A357753
+
+/-- `A051494(A077625(n+2))` -/
+def P9514555218680490267.Spec : Prop :=
+  ∀ n, P9514555218680490267.a n = A357753 (n + 3)
+
+end A357753
+
+/-! ## A357753.P12156998211872397246
+
+`A248928(2^n-1)`
+-/
+
+namespace A357753.P12156998211872397246
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A248928 (2 ^ n - 1)
+
+end
+
+end A357753.P12156998211872397246
+
+namespace A357753
+
+/-- `A248928(2^n-1)` -/
+def P12156998211872397246.Spec : Prop :=
+  ∀ n, P12156998211872397246.a n = A357753 (n + 3)
+
+end A357753
+
+/-! ## A357753.P13537428031824928695
+
+`A140978(A122746(n))`
+-/
+
+namespace A357753.P13537428031824928695
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140978 (A122746 n).toNat
+
+end
+
+end A357753.P13537428031824928695
+
+namespace A357753
+
+/-- `A140978(A122746(n))` -/
+def P13537428031824928695.Spec : Prop :=
+  ∀ n, P13537428031824928695.a n = A357753 (n + 3)
+
+end A357753
+
 /-!
 # A357754: a(n) is the largest square with n binary digits.
 
@@ -4039,6 +4108,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357768.P9221376854932721047
+
+/-!
+# A357769: Positive numbers with decimal expansion d_1, ..., d_w that are divisible by d_1 + ... + d_k for k = 1..w.
+
+The programs for A357769, there is no canonical definition to state claims against.
+-/
+
+/-! ## A357769.P10850888440464428089
+
+`filter[A271168(n+1), A188641(#)]`
+-/
+
+namespace A357769.P10850888440464428089
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271168 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A188641 (f1 j).toNat = 1) n)
+
+end
+
+end A357769.P10850888440464428089
 
 /-!
 # A357770: Number of 2n-step closed paths on quasi-regular rhombic (rhombille) lattice starting from a degree-3 node.

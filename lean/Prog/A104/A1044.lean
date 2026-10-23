@@ -226,6 +226,33 @@ def P10547038122507512653.Spec : Prop :=
 
 end A104401
 
+/-! ## A104401.P14121340311728353138
+
+`comp[A103543(n+1)]`
+-/
+
+namespace A104401.P14121340311728353138
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103543 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A104401.P14121340311728353138
+
+namespace A104401
+
+/-- `comp[A103543(n+1)]` -/
+def P14121340311728353138.Spec : Prop :=
+  ∀ n, (P14121340311728353138.a n : ℤ) = A104401 n
+
+end A104401
+
 /-! ## A104401.P642686003440993916
 
 `lt[A028233(3*(n+1)), A028233((n+3)²)]`
@@ -3526,6 +3553,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104444.P10894491692417791796
+
+/-! ## A104444.P11942872060791497468
+
+`A084843(A088601(A213879(n+1))+n+1)`
+-/
+
+namespace A104444.P11942872060791497468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084843 (A088601 (A213879 (n + 1)).toNat + (n + 1 : ℤ)).toNat
+
+end
+
+end A104444.P11942872060791497468
 
 /-!
 # A104445: Triangular matrix T, read by rows, that satisfies: SHIFT_LEFT_UP(T) = T^2 - T + I, or, equivalently: T(n+1,k+1) = [T^2](n,k) - T(n,k) + [T^0](n,k) for n>=k>=0, with T(0,0)=1.
@@ -10627,6 +10669,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104491.P12531957476552619363
+
+/-! ## A104491.P1854869517896950892
+
+`∩[A000040(n+1), A102821(n)]`
+-/
+
+namespace A104491.P1854869517896950892
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102821 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A104491.P1854869517896950892
 
 /-!
 # A104492: Cube excess of the n-th prime.

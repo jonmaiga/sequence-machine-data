@@ -47,7 +47,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -2666,6 +2665,28 @@ end
 
 end A290435.P7668062273067800237
 
+/-! ## A290435.P6467532142503451068
+
+`∩[A005117(n+1), A290434(n+1)]`
+-/
+
+namespace A290435.P6467532142503451068
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290434 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290435.P6467532142503451068
+
 /-! ## A290435.P12610812576548638830
 
 `filter[A037020(n+1), A280710(#)]`
@@ -2899,24 +2920,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A290435.P15417777192799504387
-
-/-! ## A290435.P3365079547921119428
-
-`filter[A290434(n+1), A324908(#)]`
--/
-
-namespace A290435.P3365079547921119428
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290434 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A324908 (f1 j).toNat = 1) n)
-
-end
-
-end A290435.P3365079547921119428
 
 /-!
 # A290436: a(n) = A289676(3*n+1).
@@ -4615,6 +4618,100 @@ def P16102014310658455822.Spec : Prop :=
 end A290450
 
 /-!
+# A290451: Irregular triangle read by rows: row n (n>=1) lists the distinct areas of integer-sided triangles whose area equals n times their perimeter.
+
+The programs for A290451, there is no canonical definition to state claims against.
+-/
+
+/-! ## A290451.P15654691314498675588
+
+`∩[A102106(n+1), A333946(n+1)]`
+-/
+
+namespace A290451.P15654691314498675588
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102106 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333946 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290451.P15654691314498675588
+
+/-! ## A290451.P12069030303567867877
+
+`∩[A120370(n+1), A333946(n+1)]`
+-/
+
+namespace A290451.P12069030303567867877
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120370 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333946 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290451.P12069030303567867877
+
+/-! ## A290451.P16249944004324693757
+
+`∩[A333946(n+1), A366847(n+1)]`
+-/
+
+namespace A290451.P16249944004324693757
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333946 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366847 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290451.P16249944004324693757
+
+/-! ## A290451.P12005830170556137995
+
+`∩[A333946(n+1), A346951(n+1)]`
+-/
+
+namespace A290451.P12005830170556137995
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333946 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346951 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290451.P12005830170556137995
+
+/-!
 # A290452: Triangle formed by reading the triangle of Eulerian numbers (A173018) mod 2.
 
 The programs for A290452, the canonical program `A290452.P1449433213042397141` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290452 has offset 0).
@@ -5055,33 +5152,26 @@ def P3366951090025625596.Spec : Prop :=
 
 end A290452
 
-/-! ## A290452.P5264604021289664666
+/-! ## A290452.P13728794608673715953
 
-`char[(n+1)*∑[A007318(n+1)]%2]`
+`and(A017358(n), A290458(n))`
 -/
 
-namespace A290452.P5264604021289664666
+namespace A290452.P13728794608673715953
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * Int.tmod (∑ j ∈ Finset.range (n + 1), f2 j) 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A017358 n) (A290458 n)
 
 end
 
-end A290452.P5264604021289664666
+end A290452.P13728794608673715953
 
 namespace A290452
 
-/-- `char[(n+1)*∑[A007318(n+1)]%2]` -/
-def P5264604021289664666.Spec : Prop :=
-  ∀ n, (P5264604021289664666.a n : ℤ) = A290452 n
+/-- `and(A017358(n), A290458(n))` -/
+def P13728794608673715953.Spec : Prop :=
+  ∀ n, P13728794608673715953.a n = A290452 n
 
 end A290452
 
@@ -6753,6 +6843,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A290466.P1347356118357956962
+
+/-! ## A290466.P13429996548803973835
+
+`∩[A101937(n+1), A296350(n+1)]`
+-/
+
+namespace A290466.P13429996548803973835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101937 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296350 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290466.P13429996548803973835
 
 /-!
 # A290469: Numbers x such that x = Sum_{i=1..k} (x mod d_(x+i)) for some k, where d_(x+i) is the aliquot parts of (x+i).
@@ -9085,6 +9197,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A290498.P4599178914951426837
+
+/-! ## A290498.P11845590721855698724
+
+`A055932(A056239(A317089(A317087(n+1))))`
+-/
+
+namespace A290498.P11845590721855698724
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055932 (A056239 (A317089 (A317087 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A290498.P11845590721855698724
 
 /-!
 # A290499: Hypotenuses for which there exist exactly 8 distinct integer triangles.

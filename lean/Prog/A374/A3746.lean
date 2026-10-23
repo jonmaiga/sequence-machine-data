@@ -8,6 +8,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -24,11 +25,13 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
@@ -43,7 +46,6 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -891,6 +893,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374629.P17160403773463121762
+
+/-! ## A374629.P3382213332728286752
+
+`A283325(A129987(n))`
+-/
+
+namespace A374629.P3382213332728286752
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283325 (A129987 n).toNat
+
+end
+
+end A374629.P3382213332728286752
 
 /-!
 # A374630: Sum of leaders of weakly increasing runs in the n-th composition in standard order.
@@ -1863,6 +1880,25 @@ end A374638.P5220247319758490378
 The programs for A374639, there is no canonical definition to state claims against.
 -/
 
+/-! ## A374639.P15919702399080012159
+
+`comp[A374638(n+1)]`
+-/
+
+namespace A374639.P15919702399080012159
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374638 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A374639.P15919702399080012159
+
 /-! ## A374639.P7077520157408915158
 
 `lt[char[A374520(n+1)], A124762(n)]`
@@ -1887,44 +1923,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A374639.P7077520157408915158
-
-/-! ## A374639.P15360916983969356237
-
-`A000196(comp[A374638(n+1)]²)`
--/
-
-namespace A374639.P15360916983969356237
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374638 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
-
-end
-
-end A374639.P15360916983969356237
-
-/-! ## A374639.P11648967397140130983
-
-`comp[A374638(n+1)]%A241495(n+4)`
--/
-
-namespace A374639.P11648967397140130983
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374638 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A241495 (n + 4))
-
-end
-
-end A374639.P11648967397140130983
 
 /-! ## A374639.P10594841473859673676
 
@@ -2349,6 +2347,29 @@ namespace A374647
 /-- `A000142(n)/A000142(A002264(2*n))` -/
 def P4337655954556245860.Spec : Prop :=
   ∀ n, P4337655954556245860.a n = (A374647 n : ℚ)
+
+end A374647
+
+/-! ## A374647.P8650953618565904029
+
+`A355988(2*n)/A081125(2*n)`
+-/
+
+namespace A374647.P8650953618565904029
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A355988 (2 * n) : ℚ) / (A081125 (2 * n) : ℚ)
+
+end
+
+end A374647.P8650953618565904029
+
+namespace A374647
+
+/-- `A355988(2*n)/A081125(2*n)` -/
+def P8650953618565904029.Spec : Prop :=
+  ∀ n, P8650953618565904029.a n = (A374647 n : ℚ)
 
 end A374647
 
@@ -4600,6 +4621,21 @@ end
 
 end A374683.P14362879111096461253
 
+/-! ## A374683.P14646246810304330354
+
+`A329359(A333386(n+1))`
+-/
+
+namespace A374683.P14646246810304330354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329359 (A333386 (n + 1)).toNat
+
+end
+
+end A374683.P14646246810304330354
+
 /-!
 # A374684: Sum of leaders of strictly increasing runs in the n-th composition in standard order.
 
@@ -5407,6 +5443,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A374699.P1488724669012691563
+
+/-! ## A374699.P7604981524273408436
+
+`A011782(n)%A374682(n)`
+-/
+
+namespace A374699.P7604981524273408436
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A011782 n) (A374682 n)
+
+end
+
+end A374699.P7604981524273408436
+
+/-! ## A374699.P2469773014586415929
+
+`A131577(n)%A374682(n)`
+-/
+
+namespace A374699.P2469773014586415929
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A131577 n) (A374682 n)
+
+end
+
+end A374699.P2469773014586415929
+
+/-! ## A374699.P12268636409341706306
+
+`A090129(n+1)%A374682(n)`
+-/
+
+namespace A374699.P12268636409341706306
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A090129 (n + 1)) (A374682 n)
+
+end
+
+end A374699.P12268636409341706306
 
 /-! ## A374699.P4079169217892701559
 

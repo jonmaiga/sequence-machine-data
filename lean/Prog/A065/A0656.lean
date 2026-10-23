@@ -1359,6 +1359,28 @@ end
 
 end A065609.P9338310637245301929
 
+/-! ## A065609.P1867157667366436123
+
+`∩[A329396(n+1), A368747(n)]`
+-/
+
+namespace A065609.P1867157667366436123
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329396 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368747 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A065609.P1867157667366436123
+
 /-! ## A065609.P1147251689279819002
 
 `record[n+1-A086427(A163380(n+1)-(n+1))]`
@@ -5943,6 +5965,35 @@ def P17824583500606855311.Spec : Prop :=
 
 end A065653
 
+/-! ## A065653.P8933462426423155212
+
+`a(n-2)^2+2` with `a(0)=0, a(1)=1`
+-/
+
+namespace A065653.P8933462426423155212
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
+  a (n - 2) ^ 2 + 2
+
+end
+
+end A065653.P8933462426423155212
+
+namespace A065653
+
+/-- `a(n-2)^2+2` -/
+def P8933462426423155212.Spec : Prop :=
+  ∀ n, (P8933462426423155212.a n : ℤ) = A065653 n
+
+theorem P8933462426423155212.correct : P8933462426423155212.Spec := by
+  intro n
+  simp only [A065653, Nat.add_sub_cancel, A065653.P8933462426423155212.a, A065653.P3135961964413243920.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A065653
+
 /-!
 # A065654: Fixed points for A065652, a permutation of the natural numbers.
 
@@ -7703,6 +7754,52 @@ namespace A065679
 /-- `n²/gcd(2*n, or(1, n))` -/
 def P12765752261534486587.Spec : Prop :=
   ∀ n, P12765752261534486587.a n = (A065679 n : ℚ)
+
+end A065679
+
+/-! ## A065679.P13139622290687988445
+
+`gcd(2*n*floor(n/2), n*n)`
+-/
+
+namespace A065679.P13139622290687988445
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (2 * ((n : ℤ) * ⌊(n : ℚ) / 2⌋)) (n * n : ℤ)
+
+end
+
+end A065679.P13139622290687988445
+
+namespace A065679
+
+/-- `gcd(2*n*floor(n/2), n*n)` -/
+def P13139622290687988445.Spec : Prop :=
+  ∀ n, (P13139622290687988445.a n : ℤ) = A065679 n
+
+end A065679
+
+/-! ## A065679.P17903781186140664292
+
+`n*floor(n²/(a(n-1)+1))` with `a(0)=0`
+-/
+
+namespace A065679.P17903781186140664292
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (n : ℤ) * ⌊(n ^ 2 : ℚ) / (a (n - 1) + 1 : ℚ)⌋
+
+end
+
+end A065679.P17903781186140664292
+
+namespace A065679
+
+/-- `n*floor(n²/(a(n-1)+1))` -/
+def P17903781186140664292.Spec : Prop :=
+  ∀ n, P17903781186140664292.a n = A065679 n
 
 end A065679
 

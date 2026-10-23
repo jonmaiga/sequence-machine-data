@@ -1701,6 +1701,29 @@ theorem P2114487042302130325.correct : P2114487042302130325.Spec := by
 
 end A190508
 
+/-! ## A190508.P9364432567623384293
+
+`A007067(A184657(A001950(n+1))-(n+1))`
+-/
+
+namespace A190508.P9364432567623384293
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007067 (A184657 (A001950 (n + 1)).toNat - (n + 1 : ℤ)).toNat
+
+end
+
+end A190508.P9364432567623384293
+
+namespace A190508
+
+/-- `A007067(A184657(A001950(n+1))-(n+1))` -/
+def P9364432567623384293.Spec : Prop :=
+  ∀ n, P9364432567623384293.a n = A190508 (n + 1)
+
+end A190508
+
 /-! ## A190508.P6140989083993653759
 
 `A007067(A194151(2*(n+1))+A003231(n+1))`
@@ -2323,6 +2346,29 @@ namespace A190509
 /-- `A022839(A001950(n+1))` -/
 def P11781555076048934514.Spec : Prop :=
   ∀ n, P11781555076048934514.a n = A190509 (n + 1)
+
+end A190509
+
+/-! ## A190509.P1721156344038537851
+
+`A050140(A283234(n+1)/2)`
+-/
+
+namespace A190509.P1721156344038537851
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050140 (SequenceMachineLib.roundAway ((A283234 (n + 1) : ℚ) / 2)).toNat
+
+end
+
+end A190509.P1721156344038537851
+
+namespace A190509
+
+/-- `A050140(A283234(n+1)/2)` -/
+def P1721156344038537851.Spec : Prop :=
+  ∀ n, P1721156344038537851.a n = A190509 (n + 1)
 
 end A190509
 
@@ -6186,6 +6232,29 @@ namespace A190541
 /-- `Δ[A109021(n)/2]` -/
 def P21202725240055726.Spec : Prop :=
   ∀ n, P21202725240055726.a n = (A190541 n : ℚ)
+
+end A190541
+
+/-! ## A190541.P3216420751695746523
+
+`(A027474(n+2)-A027472(n+3))/A000217(n+1)`
+-/
+
+namespace A190541.P3216420751695746523
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A027474 (n + 2) - A027472 (n + 3) : ℚ) / (A000217 (n + 1) : ℚ)
+
+end
+
+end A190541.P3216420751695746523
+
+namespace A190541
+
+/-- `(A027474(n+2)-A027472(n+3))/A000217(n+1)` -/
+def P3216420751695746523.Spec : Prop :=
+  ∀ n, P3216420751695746523.a n = (A190541 n : ℚ)
 
 end A190541
 
@@ -14121,6 +14190,75 @@ end
 
 end A190568.P15825379951263963947
 
+/-! ## A190568.P3459612972523190905
+
+`A339184(2^n+1)`
+-/
+
+namespace A190568.P3459612972523190905
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339184 (2 ^ n + 1)
+
+end
+
+end A190568.P3459612972523190905
+
+/-! ## A190568.P6398364832871817981
+
+`Δ[A339183(2^n)]`
+-/
+
+namespace A190568.P6398364832871817981
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339183 (2 ^ n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A190568.P6398364832871817981
+
+/-! ## A190568.P14447699755129080035
+
+`Δ[A083023(2^(n+1))]`
+-/
+
+namespace A190568.P14447699755129080035
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083023 (2 ^ (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A190568.P14447699755129080035
+
+/-! ## A190568.P538101102382620401
+
+`Δ[A268173(2^(n+1))]`
+-/
+
+namespace A190568.P538101102382620401
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268173 (2 ^ (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A190568.P538101102382620401
+
 /-!
 # A190569: Number of n-step one-sided prudent walks, avoiding single west steps and single east steps.
 
@@ -15343,6 +15481,35 @@ namespace A190576
 /-- `A153169(n+1)%A285009(n+3)` -/
 def P2654290701879889606.Spec : Prop :=
   ∀ n, P2654290701879889606.a n = A190576 (n + 1)
+
+end A190576
+
+/-! ## A190576.P17024039432777274187
+
+`Δ[∑[(n+2)*(n-1)]+C(2*n, 2)]`
+-/
+
+namespace A190576.P17024039432777274187
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℤ) * ((n : ℤ) - 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j + (Nat.choose (2 * n) 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A190576.P17024039432777274187
+
+namespace A190576
+
+/-- `Δ[∑[(n+2)*(n-1)]+C(2*n, 2)]` -/
+def P17024039432777274187.Spec : Prop :=
+  ∀ n, P17024039432777274187.a n = A190576 (n + 1)
 
 end A190576
 

@@ -681,6 +681,66 @@ end
 
 end A134708.P10909532531116498013
 
+/-! ## A134708.P17558355946060570254
+
+`sqrt(A152923(n+1))`
+-/
+
+namespace A134708.P17558355946060570254
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A152923 (n + 1) : ℝ)
+
+end
+
+end A134708.P17558355946060570254
+
+/-! ## A134708.P12879846530522510124
+
+`A134709(n+1)+1`
+-/
+
+namespace A134708.P12879846530522510124
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134709 (n + 1) + 1
+
+end
+
+end A134708.P12879846530522510124
+
+/-! ## A134708.P9775357205592143049
+
+`A019279(n+1)/2`
+-/
+
+namespace A134708.P9775357205592143049
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A019279 (n + 1) : ℚ) / 2
+
+end
+
+end A134708.P9775357205592143049
+
+/-! ## A134708.P17939335618255882283
+
+`2^A153798(n+1)`
+-/
+
+namespace A134708.P17939335618255882283
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (A153798 (n + 1) : ℤ)
+
+end
+
+end A134708.P17939335618255882283
+
 /-!
 # A134709: Even superperfect numbers divided by 2, minus 1.
 
@@ -5537,6 +5597,29 @@ def P455445884827897920.Spec : Prop :=
 
 end A134752
 
+/-! ## A134752.P5895496769444118863
+
+`or(1, 3^(2*n+1)+1)`
+-/
+
+namespace A134752.P5895496769444118863
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lor 1 (3 ^ (2 * n + 1) + 1)
+
+end
+
+end A134752.P5895496769444118863
+
+namespace A134752
+
+/-- `or(1, 3^(2*n+1)+1)` -/
+def P5895496769444118863.Spec : Prop :=
+  ∀ n, (P5895496769444118863.a n : ℤ) = A134752 (n + 1)
+
+end A134752
+
 /-! ## A134752.P8898938506760988487
 
 `abs(12-abs(4-9*a(n-1)))` with `a(0)=5`
@@ -5557,6 +5640,56 @@ namespace A134752
 /-- `abs(12-abs(4-9*a(n-1)))` -/
 def P8898938506760988487.Spec : Prop :=
   ∀ n, P8898938506760988487.a n = A134752 (n + 1)
+
+end A134752
+
+/-! ## A134752.P16012791086538615477
+
+`floor(a(n-1)+8*(a(n-1)-2))` with `a(0)=5`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A134752.P16012791086538615477
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [5] fun n a =>
+  a (n - 1) + 8 * (a (n - 1) - 2)
+
+end
+
+end A134752.P16012791086538615477
+
+namespace A134752
+
+/-- `floor(a(n-1)+8*(a(n-1)-2))` -/
+def P16012791086538615477.Spec : Prop :=
+  ∀ n, P16012791086538615477.a n = A134752 (n + 1)
+
+end A134752
+
+/-! ## A134752.P13513557009411226667
+
+`floor(a(n-1)-8*(2-a(n-1)))` with `a(0)=5`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A134752.P13513557009411226667
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [5] fun n a =>
+  a (n - 1) - 8 * (2 - a (n - 1))
+
+end
+
+end A134752.P13513557009411226667
+
+namespace A134752
+
+/-- `floor(a(n-1)-8*(2-a(n-1)))` -/
+def P13513557009411226667.Spec : Prop :=
+  ∀ n, P13513557009411226667.a n = A134752 (n + 1)
 
 end A134752
 
@@ -11211,6 +11344,62 @@ namespace A134797
 /-- `A000040(lt[1, A046929(n+1)]+1)` -/
 def P17779534685136912672.Spec : Prop :=
   ∀ n, P17779534685136912672.a n = A134797 (n + 1)
+
+end A134797
+
+/-! ## A134797.P4217149568236580997
+
+`∩[A061345(n), A167706(n+1)]`
+-/
+
+namespace A134797.P4217149568236580997
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061345 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167706 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A134797.P4217149568236580997
+
+namespace A134797
+
+/-- `∩[A061345(n), A167706(n+1)]` -/
+def P4217149568236580997.Spec : Prop :=
+  ∀ n, (P4217149568236580997.a n : ℤ) = A134797 (n + 1)
+
+end A134797
+
+/-! ## A134797.P15282335771144019805
+
+`filter[A167706(n+1), A353638(#)]`
+-/
+
+namespace A134797.P15282335771144019805
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167706 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353638 (f1 j).toNat = 1) n)
+
+end
+
+end A134797.P15282335771144019805
+
+namespace A134797
+
+/-- `filter[A167706(n+1), A353638(#)]` -/
+def P15282335771144019805.Spec : Prop :=
+  ∀ n, P15282335771144019805.a n = A134797 (n + 1)
 
 end A134797
 

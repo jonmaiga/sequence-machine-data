@@ -58,7 +58,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -7295,6 +7294,28 @@ end A222261
 The programs for A222262, there is no canonical definition to state claims against.
 -/
 
+/-! ## A222262.P13953056808076239216
+
+`∪[A033870(n+1), A033871(n+1)]`
+-/
+
+namespace A222262.P13953056808076239216
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033870 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033871 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A222262.P13953056808076239216
+
 /-! ## A222262.P1353851913450446657
 
 `record[gcd(A008611(2*n), A033870(n+4))]`
@@ -7367,24 +7388,6 @@ end
 
 end A222262.P13297470124038604363
 
-/-! ## A222262.P1216129463607394642
-
-`record[gcd(A014085(n), A243810(n+1))]`
--/
-
-namespace A222262.P1216129463607394642
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A014085 n) (A243810 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A222262.P1216129463607394642
-
 /-!
 # A222263: Odd numbers n such that 2n/sigma(n) - 1 = 1/x for some positive integer x.
 
@@ -7411,6 +7414,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222263.P11170448038043861381
+
+/-! ## A222263.P7333352589382072356
+
+`∩[2*n+1, A222264(n+1)]`
+-/
+
+namespace A222263.P7333352589382072356
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A222264 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A222263.P7333352589382072356
 
 /-! ## A222263.P14315514656342376728
 

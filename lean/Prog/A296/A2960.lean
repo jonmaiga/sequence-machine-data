@@ -53,7 +53,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -64,7 +63,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3440,6 +3438,36 @@ def P311347359523145915.Spec : Prop :=
 
 end A296028
 
+/-! ## A296028.P7981477764076939440
+
+`char[A131737(p?[2*n+1])]`
+-/
+
+namespace A296028.P7981477764076939440
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131737 (f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n))
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A296028.P7981477764076939440
+
+namespace A296028
+
+/-- `char[A131737(p?[2*n+1])]` -/
+def P7981477764076939440.Spec : Prop :=
+  ∀ n, (P7981477764076939440.a n : ℤ) = A296028 (n + 1)
+
+end A296028
+
 /-! ## A296028.P17900312226007618468
 
 `A080545(A133223(n+1))`
@@ -6669,12 +6697,12 @@ def P11656744340422491070.Spec : Prop :=
 
 end A296064
 
-/-! ## A296064.P9298579713256372979
+/-! ## A296064.P3005635231295953088
 
-`ogf((-2x-3x^2+4x^3+x^4-2x^5)/(-1-x+x^2+x^3))`
+`ogf((2x+3x^2-4x^3-x^4+2x^5)/(1+x-x^2-x^3))`
 -/
 
-namespace A296064.P9298579713256372979
+namespace A296064.P3005635231295953088
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -6682,13 +6710,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A296064.P9298579713256372979
+end A296064.P3005635231295953088
 
 namespace A296064
 
-/-- `ogf((-2x-3x^2+4x^3+x^4-2x^5)/(-1-x+x^2+x^3))` -/
-def P9298579713256372979.Spec : Prop :=
-  ∀ n, P9298579713256372979.a n = A296064 (n + 1)
+/-- `ogf((2x+3x^2-4x^3-x^4+2x^5)/(1+x-x^2-x^3))` -/
+def P3005635231295953088.Spec : Prop :=
+  ∀ n, P3005635231295953088.a n = A296064 (n + 1)
 
 end A296064
 
@@ -12646,6 +12674,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A296095.P11223817577692824975
+
+/-! ## A296095.P2118430550956970111
+
+`∪[A300331(n+1), A300332(n+1)]`
+-/
+
+namespace A296095.P2118430550956970111
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300331 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300332 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296095.P2118430550956970111
 
 /-!
 # A296098: a(n) is the smallest triangular number (A000217) that can be represented as a product of k triangular numbers greater than 1 for all k = 1,2,...,n. a(n)=-1 if no such triangular number exists.

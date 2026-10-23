@@ -47,6 +47,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -294,19 +295,19 @@ end
 
 end A336702.P9426712900085729967
 
-/-! ## A336702.P3073418560854911202
+/-! ## A336702.P13542572616936378095
 
-`∩[A007691(n+1), A351440(n+1)]`
+`∩[A007691(n+1), A043305(n+1)]`
 -/
 
-namespace A336702.P3073418560854911202
+namespace A336702.P13542572616936378095
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A007691 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351440 (n + 1)
+  A043305 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -314,21 +315,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A336702.P3073418560854911202
+end A336702.P13542572616936378095
 
-/-! ## A336702.P17275100705775732765
+/-! ## A336702.P4214024088790508534
 
-`∩[A325023(n+1), A351440(n+1)]`
+`∩[A043305(n+1), A216793(n+1)]`
 -/
 
-namespace A336702.P17275100705775732765
+namespace A336702.P4214024088790508534
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325023 (n + 1)
+  A043305 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351440 (n + 1)
+  A216793 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -336,7 +337,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A336702.P17275100705775732765
+end A336702.P4214024088790508534
 
 /-!
 # A336703: Rectangular array read by antidiagonals. T(n,k) is the number of length k walks from {} to [n] in the digraph representation of the superset/subset relation on P([n]) the powerset of [n], n>=0, k>=0.
@@ -4600,6 +4601,29 @@ def P6898534335292167601.Spec : Prop :=
 
 end A336754
 
+/-! ## A336754.P8815089908533476127
+
+`A114458(A000267(A080037(n))²)`
+-/
+
+namespace A336754.P8815089908533476127
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114458 (A000267 (A080037 n).toNat ^ 2).toNat
+
+end
+
+end A336754.P8815089908533476127
+
+namespace A336754
+
+/-- `A114458(A000267(A080037(n))²)` -/
+def P8815089908533476127.Spec : Prop :=
+  ∀ n, P8815089908533476127.a n = A336754 (n + 1)
+
+end A336754
+
 /-!
 # A336755: Primitive triples for integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
@@ -5265,6 +5289,21 @@ end
 
 end A336773.P12157473232980790172
 
+/-! ## A336773.P10027123054761476893
+
+`A241985(A266819(n))`
+-/
+
+namespace A336773.P10027123054761476893
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241985 (A266819 n).toNat
+
+end
+
+end A336773.P10027123054761476893
+
 /-!
 # A336776: a(n) is the least number of repetitions such that the result of the repeated execution of the multiplication f <- f*n started at f=1 produces an overflow, when the multiplication is performed using 32-bit single precision floats according to the IEEE 754 standard.
 
@@ -5429,6 +5468,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A336786.P4005261203952678980
+
+/-! ## A336786.P12922214467702775449
+
+`∩[A040098(n+1), A366142(n+1)]`
+-/
+
+namespace A336786.P12922214467702775449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040098 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336786.P12922214467702775449
+
+/-! ## A336786.P5404823014477089335
+
+`∩[A045315(n+1), A366142(n+1)]`
+-/
+
+namespace A336786.P5404823014477089335
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045315 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336786.P5404823014477089335
 
 /-!
 # A336787: Incrementally largest values of minimal x satisfying the equation x^2 - D*y^2 = 2, where D is a prime number.
@@ -5842,6 +5925,28 @@ end
 
 end A336790.P12195908837702704237
 
+/-! ## A336790.P12529671832979953680
+
+`∪[A201249(n+1), A336792(n+1)]`
+-/
+
+namespace A336790.P12529671832979953680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A201249 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336792 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336790.P12529671832979953680
+
 /-! ## A336790.P16179086186708656453
 
 `∪[A213647(n+1), A336792(n+1)]`
@@ -5863,28 +5968,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A336790.P16179086186708656453
-
-/-! ## A336790.P9595024609164044419
-
-`∪[A253632(n+1), A336792(n+1)]`
--/
-
-namespace A336790.P9595024609164044419
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253632 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336792 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A336790.P9595024609164044419
 
 /-!
 # A336791: Incrementally largest values of minimal x satisfying the equation x^2 - D*y^2 = -2, where D is an odd prime number.
@@ -6078,20 +6161,71 @@ end
 
 end A336792.P12989260734028021755
 
-/-! ## A336792.P5115578820328634374
+/-! ## A336792.P14078653147646099959
 
-`A001221(a(n-1))*A336790(n+2)` with `a(0)=3`
+`∩[A007645(n+1), A336790(n+1)]`
 -/
 
-namespace A336792.P5115578820328634374
+namespace A336792.P14078653147646099959
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
-  A001221 (a (n - 1)).toNat * A336790 (n + 2)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007645 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336790 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A336792.P5115578820328634374
+end A336792.P14078653147646099959
+
+/-! ## A336792.P8253736696502174273
+
+`∩[A038876(n+1), A336790(n+1)]`
+-/
+
+namespace A336792.P8253736696502174273
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038876 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336790 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336792.P8253736696502174273
+
+/-! ## A336792.P2580223999426075214
+
+`∩[A040107(n+1), A336790(n+1)]`
+-/
+
+namespace A336792.P2580223999426075214
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040107 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336790 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336792.P2580223999426075214
 
 /-!
 # A336793: Incrementally largest values of minimal positive y satisfying the equation x^2 - D*y^2 = -2, where D is an odd prime number.

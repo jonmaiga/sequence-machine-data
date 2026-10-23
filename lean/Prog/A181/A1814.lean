@@ -56,7 +56,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -85,7 +84,6 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -1334,6 +1332,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181422.P12896215240720290197
+
+/-!
+# A181423: Primes such that the square of the sum of itself and next prime, when added to 5, is a prime.
+
+The programs for A181423, there is no canonical definition to state claims against.
+-/
+
+/-! ## A181423.P8596108296535818973
+
+`∩[A073654(n+1), A166021(n+1)]`
+-/
+
+namespace A181423.P8596108296535818973
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073654 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166021 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A181423.P8596108296535818973
 
 /-!
 # A181424: Primes p such that p and the two previous primes are in arithmetic progression.
@@ -8613,6 +8639,28 @@ end A181489.P16276368844335782520
 The programs for A181494, there is no canonical definition to state claims against.
 -/
 
+/-! ## A181494.P14009854785539604715
+
+`∩[A097581(n+1), A239711(n+1)]`
+-/
+
+namespace A181494.P14009854785539604715
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097581 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239711 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A181494.P14009854785539604715
+
 /-! ## A181494.P17995185311249204891
 
 `p?[∑[A020639(7*(n-a(n-1))²+4)]]` with `a(0)=4, a(1)=1, a(2)=2, a(3)=4`
@@ -8633,21 +8681,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181494.P17995185311249204891
-
-/-! ## A181494.P94565818437494763
-
-`A308168(A290115(n+2))`
--/
-
-namespace A181494.P94565818437494763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A308168 (A290115 (n + 2)).toNat
-
-end
-
-end A181494.P94565818437494763
 
 /-!
 # A181496: Number of degree n polynomials p(x,y) with all coefficients 0 or 1 such that x+y=1 implies p(x,y)=1.

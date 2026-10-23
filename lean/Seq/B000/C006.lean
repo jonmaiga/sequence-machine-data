@@ -16326,33 +16326,35 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^18+n^18` (program `A036096.P2633988152001810233`, by `A036096.P2633988152001810233.correct`). Lean does not check the parsing of the name. -/
 def A036096.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A028209.P10017964568648344345
+/-! ## A036097.P8683106660414537380
 
-`23*a(n-1)-132*a(n-2)+7^(n+1)-6^(n+1)` with `a(0)=1, a(1)=36`
+`(n+1)^19+n^19`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A028209.P10017964568648344345
+namespace A036097.P8683106660414537380
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 36] fun n a =>
-  23 * a (n - 1) - 132 * a (n - 2) + (7 ^ (n + 1) : ℤ) - (6 ^ (n + 1) : ℤ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 19 + n ^ 19
 
 end
 
-end A028209.P10017964568648344345
+end A036097.P8683106660414537380
 
 noncomputable section
 
-/-- A028209: Expansion of 1/((1-6x)(1-7x)(1-11x)(1-12x)).
+/-- A036097: Centered cube numbers: (n+1)^19+n^19.
 
-Offset 0, canonical program `A028209.P10017964568648344345`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A028209 (n : ℕ) : ℤ :=
-  A028209.P10017964568648344345.a n
+Offset 0, canonical program `A036097.P8683106660414537380`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. -/
+def A036097 (n : ℕ) : ℤ :=
+  (A036097.P8683106660414537380.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A028209.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. -/
+def A036097.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A028210.P1955904657294203338
 

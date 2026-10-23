@@ -58,7 +58,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -612,7 +611,7 @@ end A227505.P6477396500672798072
 /-!
 # A227506: Schroeder triangle sums: a(2*n-1) = A010683(2*n-2) and a(2*n) = A010683(2*n-1) - A001003(2*n-1).
 
-The programs for A227506, the canonical program `A227506.P1241765352015404149` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227506 has offset 1).
+The programs for A227506, the canonical program `A227506.P1241765352015404149` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227506 has offset 1).
 
 The definition of A227506 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -621,7 +620,7 @@ The definition of A227506 is `conjectured`: the Lean definition is a formula tha
 
 `A010683(n)+A000035(n)*A080243(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A227506
@@ -2892,6 +2891,29 @@ namespace A227546
 /-- `A038507(n)+n²` -/
 def P11961812860414454217.Spec : Prop :=
   ∀ n, P11961812860414454217.a n = A227546 n
+
+end A227546
+
+/-! ## A227546.P2666359562575165292
+
+`A066143(n)+1-n`
+-/
+
+namespace A227546.P2666359562575165292
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066143 n + (1 - (n : ℤ))
+
+end
+
+end A227546.P2666359562575165292
+
+namespace A227546
+
+/-- `A066143(n)+1-n` -/
+def P2666359562575165292.Spec : Prop :=
+  ∀ n, P2666359562575165292.a n = A227546 n
 
 end A227546
 

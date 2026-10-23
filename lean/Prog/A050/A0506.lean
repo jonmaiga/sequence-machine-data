@@ -84,6 +84,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -8282,6 +8283,28 @@ end
 
 end A050665.P7669067101434774345
 
+/-! ## A050665.P5966466154383059285
+
+`∩[A042988(n), A050654(n+1)]`
+-/
+
+namespace A050665.P5966466154383059285
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A042988 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050654 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050665.P5966466154383059285
+
 /-! ## A050665.P13473236008981864198
 
 `p?[A050654(A028310(n))-A000007(n)]`
@@ -8299,28 +8322,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050665.P13473236008981864198
-
-/-! ## A050665.P4630708050334117801
-
-`∩[A019344(n+1), A050654(n+1)]`
--/
-
-namespace A050665.P4630708050334117801
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019344 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050654 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050665.P4630708050334117801
 
 /-!
 # A050666: Primes p such that number of primes produced according to rules stipulated in Honaker's A048853 is 4.
@@ -8508,6 +8509,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050667.P17365372419373050626
+
+/-! ## A050667.P5926899637653375121
+
+`∩[A050656(n+1), A339879(n+1)]`
+-/
+
+namespace A050667.P5926899637653375121
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050656 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339879 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050667.P5926899637653375121
 
 /-! ## A050667.P13767179139648600573
 
@@ -8751,6 +8774,28 @@ end
 
 end A050667.P10950204198274413723
 
+/-! ## A050667.P4556381843194713898
+
+`∩[A050656(n+1), A064728(n+1)]`
+-/
+
+namespace A050667.P4556381843194713898
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050656 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064728 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050667.P4556381843194713898
+
 /-! ## A050667.P16149815316043332514
 
 `∩[A050656(n+1), A065091(n+1)]`
@@ -8772,6 +8817,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A050667.P16149815316043332514
+
+/-! ## A050667.P12310776663287725830
+
+`∩[A050656(n+1), A066050(n+1)]`
+-/
+
+namespace A050667.P12310776663287725830
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050656 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066050 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050667.P12310776663287725830
+
+/-! ## A050667.P2873625578083596915
+
+`∩[A050656(n+1), A067126(n+1)]`
+-/
+
+namespace A050667.P2873625578083596915
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050656 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067126 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050667.P2873625578083596915
 
 /-! ## A050667.P11167225742250118247
 
@@ -8838,78 +8927,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A050667.P6306950677119316169
-
-/-! ## A050667.P15781399492601846920
-
-`filter[A050656(n+1), A010051(#)]`
--/
-
-namespace A050667.P15781399492601846920
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050656 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
-
-end
-
-end A050667.P15781399492601846920
-
-/-! ## A050667.P15155775627587682032
-
-`filter[A050656(n+1), A174897(#)]`
--/
-
-namespace A050667.P15155775627587682032
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050656 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A174897 (f1 j).toNat = 1) n)
-
-end
-
-end A050667.P15155775627587682032
-
-/-! ## A050667.P12277783689625743023
-
-`filter[A050656(n+1), A323152(#)]`
--/
-
-namespace A050667.P12277783689625743023
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050656 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A323152 (f1 j).toNat = 1) n)
-
-end
-
-end A050667.P12277783689625743023
-
-/-! ## A050667.P14130584622929292472
-
-`filter[A050656(n+1), A323153(#)]`
--/
-
-namespace A050667.P14130584622929292472
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050656 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A323153 (f1 j).toNat = 1) n)
-
-end
-
-end A050667.P14130584622929292472
 
 /-!
 # A050668: Primes p such that number of primes produced according to rules stipulated in Honaker's A048853 is 6.
@@ -9373,6 +9390,28 @@ end
 
 end A050669.P9903019814181399412
 
+/-! ## A050669.P17990198818784026827
+
+`∩[A050658(n+1), A380468(n+1)]`
+-/
+
+namespace A050669.P17990198818784026827
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050658 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050669.P17990198818784026827
+
 /-! ## A050669.P10426823787592578354
 
 `∩[A004139(n+1), A050658(n+1)]`
@@ -9765,28 +9804,6 @@ end
 
 end A050669.P1969767969543626031
 
-/-! ## A050669.P8978795199333498436
-
-`∩[A046022(n+1), A050658(n+1)]`
--/
-
-namespace A050669.P8978795199333498436
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046022 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050658 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050669.P8978795199333498436
-
 /-!
 # A050670: Primes p such that number of primes produced according to rules stipulated in Honaker's A048853 is 8.
 
@@ -9810,6 +9827,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050670.P9219148495760961906
+
+/-! ## A050670.P11216047413822278316
+
+`∩[A050659(n+1), A380468(n+1)]`
+-/
+
+namespace A050670.P11216047413822278316
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050659 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050670.P11216047413822278316
 
 /-! ## A050670.P12792649306660881901
 
@@ -10050,6 +10089,28 @@ end
 
 end A050670.P16338890109262869427
 
+/-! ## A050670.P5336623891448571689
+
+`∩[A050659(n+1), A093515(n+1)]`
+-/
+
+namespace A050670.P5336623891448571689
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050659 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050670.P5336623891448571689
+
 /-! ## A050670.P15731129862878195954
 
 `A008578(eq[8, A125002(n+1)]+2)`
@@ -10181,50 +10242,6 @@ end
 
 end A050670.P4503742090071518872
 
-/-! ## A050670.P14288782818384058394
-
-`∩[A050659(n+1), A053813(n+1)]`
--/
-
-namespace A050670.P14288782818384058394
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050659 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053813 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050670.P14288782818384058394
-
-/-! ## A050670.P3685760162093414865
-
-`∩[A050659(n+1), A062972(n+1)]`
--/
-
-namespace A050670.P3685760162093414865
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050659 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062972 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050670.P3685760162093414865
-
 /-!
 # A050671: Primes p such that number of primes produced according to rules stipulated in Honaker's A048853 is 9.
 
@@ -10269,6 +10286,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050671.P4572812946729848335
+
+/-! ## A050671.P3504052629942473005
+
+`∩[A050660(n+1), A380468(n+1)]`
+-/
+
+namespace A050671.P3504052629942473005
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050660 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050671.P3504052629942473005
 
 /-! ## A050671.P6612575290062259316
 
@@ -10640,28 +10679,6 @@ end
 
 end A050671.P13621356331106408388
 
-/-! ## A050671.P9718670786532728690
-
-`∩[A050660(n+1), A066050(n+1)]`
--/
-
-namespace A050671.P9718670786532728690
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050660 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066050 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050671.P9718670786532728690
-
 /-!
 # A050672: Primes p such that number of primes produced according to rules stipulated in Honaker's A048853 is 10.
 
@@ -10685,6 +10702,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050672.P12723806109180381790
+
+/-! ## A050672.P11871394408328988410
+
+`∩[A050661(n+1), A380468(n+1)]`
+-/
+
+namespace A050672.P11871394408328988410
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050661 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050672.P11871394408328988410
 
 /-! ## A050672.P10416763519546182397
 
@@ -11078,28 +11117,6 @@ end
 
 end A050672.P595776943419730331
 
-/-! ## A050672.P17262558917715615190
-
-`∩[A050661(n+1), A053813(n+1)]`
--/
-
-namespace A050672.P17262558917715615190
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050661 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053813 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A050672.P17262558917715615190
-
 /-!
 # A050674: Inserting a digit '0' between adjacent digits of n makes a prime.
 
@@ -11169,49 +11186,35 @@ end
 
 end A050674.P10871104477871370753
 
-/-! ## A050674.P16377978123702187424
+/-! ## A050674.P468764782976544718
 
-`∪[A004719(A134809(n+1)), A159236(n+1)]`
+`A004719(A134809(n+1))`
 -/
 
-namespace A050674.P16377978123702187424
+namespace A050674.P468764782976544718
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A004719 (A134809 (n + 1)).toNat
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159236 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
 end
 
-end A050674.P16377978123702187424
+end A050674.P468764782976544718
 
-/-! ## A050674.P16258736408062688882
+/-! ## A050674.P171657469308623054
 
-`∪[A164329(A187829(n+1)), A159236(n+3)]`
+`A118759(A164329(n+1))`
 -/
 
-namespace A050674.P16258736408062688882
+namespace A050674.P171657469308623054
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164329 (A187829 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159236 (n + 3)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118759 (A164329 (n + 1)).toNat
 
 end
 
-end A050674.P16258736408062688882
+end A050674.P171657469308623054
 
 /-!
 # A050675: Numbers n such that concatenation of numbers from 1 to n is nonsquarefree.
@@ -13220,6 +13223,78 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A050693.P3348709795491779842
+
+/-!
+# A050694: Composite numbers k such that all prime factors of k are a substring of k.
+
+The programs for A050694, there is no canonical definition to state claims against.
+-/
+
+/-! ## A050694.P7874948890101021014
+
+`∩[A305704(n+1), A352584(n+1)]`
+-/
+
+namespace A050694.P7874948890101021014
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305704 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352584 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050694.P7874948890101021014
+
+/-! ## A050694.P1390804593097534682
+
+`∩[A259241(n+1), A352584(n+1)]`
+-/
+
+namespace A050694.P1390804593097534682
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259241 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352584 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050694.P1390804593097534682
+
+/-! ## A050694.P11206367599239233952
+
+`∩[A352584(n+1), A396314(n+1)]`
+-/
+
+namespace A050694.P11206367599239233952
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352584 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396314 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050694.P11206367599239233952
 
 /-!
 # A050695: Composite numbers k such that none of the prime factors of k is a substring of k.

@@ -2,7 +2,6 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -62,7 +61,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -1221,34 +1219,12 @@ end
 
 end A198584.P8824129810166194574
 
-/-! ## A198584.P17035043582752391681
+/-! ## A198584.P14133264121582837507
 
-`∪[A228872(n+1), A342815(n+1)]%A228872(n+1)`
+`∪[A342815(n+1), A342816(n+1)]`
 -/
 
-namespace A198584.P17035043582752391681
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228872 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342815 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A228872 (n + 1))
-
-end
-
-end A198584.P17035043582752391681
-
-/-! ## A198584.P9825974295331769260
-
-`∪[A342815(n+1), A342816(n+1)]%A342815(n+4)`
--/
-
-namespace A198584.P9825974295331769260
+namespace A198584.P14133264121582837507
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -1258,19 +1234,19 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A342816 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A342815 (n + 4))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A198584.P9825974295331769260
+end A198584.P14133264121582837507
 
-/-! ## A198584.P1272856630073040380
+/-! ## A198584.P16236755705931616996
 
-`A000027(∪[A228872(n+1), A342815(n+1)])`
+`∪[A228872(n+1), A342815(n+1)]`
 -/
 
-namespace A198584.P1272856630073040380
+namespace A198584.P16236755705931616996
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -1280,12 +1256,30 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A342815 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A198584.P1272856630073040380
+end A198584.P16236755705931616996
+
+/-! ## A198584.P3446739670554542946
+
+`filter[A062053(n+1), A323158(#)]`
+-/
+
+namespace A198584.P3446739670554542946
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062053 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323158 (f1 j).toNat = 1) n)
+
+end
+
+end A198584.P3446739670554542946
 
 /-!
 # A198585: The second odd number appearing in the Collatz sequence starting with A198584(n).
@@ -1943,6 +1937,28 @@ end A198587.P41799207987613380
 The programs for A198588, there is no canonical definition to state claims against.
 -/
 
+/-! ## A198588.P18121104001114817181
+
+`∩[2*n+1, A062055(n+1)]`
+-/
+
+namespace A198588.P18121104001114817181
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062055 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A198588.P18121104001114817181
+
 /-! ## A198588.P11438819215157192835
 
 `record[A000265(A062055(n+1))]`
@@ -2105,24 +2121,6 @@ end
 
 end A198588.P6217542430904579296
 
-/-! ## A198588.P14850305319180721625
-
-`record[A093411(A062055(n+2))]`
--/
-
-namespace A198588.P14850305319180721625
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093411 (A062055 (n + 2)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A198588.P14850305319180721625
-
 /-!
 # A198589: Odd numbers producing 6 odd numbers in the Collatz iteration.
 
@@ -2149,6 +2147,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A198589.P16615732836789507430
+
+/-! ## A198589.P9909100302704789340
+
+`∩[2*n+1, A062056(n+1)]`
+-/
+
+namespace A198589.P9909100302704789340
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062056 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A198589.P9909100302704789340
 
 /-! ## A198589.P893389787045874438
 
@@ -2258,65 +2278,77 @@ end
 
 end A198589.P9514215540505772431
 
-/-! ## A198589.P17595333849728430375
+/-! ## A198589.P11875781316263780637
 
-`record[A093178(A062056(A080513(n)))]`
+`∩[A062056(n+1), A062545(n)]`
 -/
 
-namespace A198589.P17595333849728430375
+namespace A198589.P11875781316263780637
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (A062056 (A080513 n).toNat).toNat
+  A062056 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062545 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A198589.P17595333849728430375
+end A198589.P11875781316263780637
 
-/-! ## A198589.P16390404050956708199
+/-! ## A198589.P7962357717836539329
 
-`record[A093178(A062056(n+1))]%A017461(n)²`
+`∩[A062056(n+1), A130773(n)]`
 -/
 
-namespace A198589.P16390404050956708199
+namespace A198589.P7962357717836539329
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (A062056 (n + 1)).toNat
+  A062056 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A017461 n ^ 2)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130773 n
 
-end
-
-end A198589.P16390404050956708199
-
-/-! ## A198589.P11272901666046131721
-
-`A000007(n+1)+record[A093178(A062056(n+1))]`
--/
-
-namespace A198589.P11272901666046131721
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (A062056 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000007 (n + 1) + f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A198589.P11272901666046131721
+end A198589.P7962357717836539329
 
 /-!
 # A198590: Odd numbers producing 7 odd numbers in the Collatz iteration.
 
 The programs for A198590, there is no canonical definition to state claims against.
 -/
+
+/-! ## A198590.P440183191251881240
+
+`∩[2*n+1, A062057(n+1)]`
+-/
+
+namespace A198590.P440183191251881240
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062057 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A198590.P440183191251881240
 
 /-! ## A198590.P3262904120687646530
 
@@ -2434,6 +2466,28 @@ end
 
 end A198590.P9879975722874361095
 
+/-! ## A198590.P9851847092496806801
+
+`∩[A062057(n+1), A366462(n+1)]`
+-/
+
+namespace A198590.P9851847092496806801
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062057 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366462 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A198590.P9851847092496806801
+
 /-! ## A198590.P6976290597375934315
 
 `∩[A062057(n+1), A004273(n)]`
@@ -2477,42 +2531,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A198590.P17555952492858307345
-
-/-! ## A198590.P16224983739614544661
-
-`record[A093178(A062057(2*n-n+1))]`
--/
-
-namespace A198590.P16224983739614544661
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (A062057 ((2 * n : ℤ) - (n : ℤ) + 1).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A198590.P16224983739614544661
-
-/-! ## A198590.P10841700908436199442
-
-`A093178(record[A093178(A062057(n+1))])`
--/
-
-namespace A198590.P10841700908436199442
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (A062057 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A198590.P10841700908436199442
 
 /-!
 # A198591: Odd numbers producing 8 odd numbers in the Collatz iteration.

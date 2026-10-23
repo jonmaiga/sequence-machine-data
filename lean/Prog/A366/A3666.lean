@@ -29,6 +29,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -361,6 +362,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366602.P3703112727760274048
+
+/-! ## A366602.P15236109046403708705
+
+`A000005(A278240(2*(n+1)))`
+-/
+
+namespace A366602.P15236109046403708705
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000005 (A278240 (2 * (n + 1))).toNat
+
+end
+
+end A366602.P15236109046403708705
 
 /-!
 # A366603: Sum of the divisors of 4^n-1.
@@ -4142,6 +4158,29 @@ theorem P16437631560606292113.correct : P16437631560606292113.Spec := by
 
 end A366653
 
+/-! ## A366653.P5261998553710491797
+
+`A234860(2^(n+1))`
+-/
+
+namespace A366653.P5261998553710491797
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234860 (2 ^ (n + 1))
+
+end
+
+end A366653.P5261998553710491797
+
+namespace A366653
+
+/-- `A234860(2^(n+1))` -/
+def P5261998553710491797.Spec : Prop :=
+  ∀ n, P5261998553710491797.a n = A366653 (n + 1)
+
+end A366653
+
 /-!
 # A366654: a(n) = phi(8^n-1), where phi is Euler's totient function (A000010).
 
@@ -5142,6 +5181,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366662.P10540337059653051103
+
+/-! ## A366662.P15737616656590877429
+
+`A062835(3^(n+1))`
+-/
+
+namespace A366662.P15737616656590877429
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062835 (3 ^ (n + 1))
+
+end
+
+end A366662.P15737616656590877429
 
 /-!
 # A366663: a(n) = phi(9^n-1), where phi is Euler's totient function (A000010).

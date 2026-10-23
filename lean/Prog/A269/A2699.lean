@@ -676,31 +676,27 @@ end A269906
 /-!
 # A269907: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 1", based on the 5-celled von Neumann neighborhood.
 
-The programs for A269907, the canonical program `A269907.P12577551976673132196` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269907 has offset 0).
+The programs for A269907, the canonical program `A269907.P12380457780295308732` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269907 has offset 0).
 
-The definition of A269907 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A269907 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A269907.P12380457780295308732
 
 `lcm(4, a(n-1)+or(3, 2^n))` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C032`.
 -/
-
-namespace A269907.P12380457780295308732
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  Nat.lcm 4 (a (n - 1) + Nat.lor 3 (2 ^ n))
-
-end
-
-end A269907.P12380457780295308732
 
 namespace A269907
 
 /-- `lcm(4, a(n-1)+or(3, 2^n))` -/
 def P12380457780295308732.Spec : Prop :=
   ∀ n, (P12380457780295308732.a n : ℤ) = A269907 n
+
+theorem P12380457780295308732.correct : P12380457780295308732.Spec := by
+  intro n
+  simp only [A269907]
 
 end A269907
 
@@ -1121,22 +1117,26 @@ def P5258347188055844811.Spec : Prop :=
 
 end A269907
 
-/-! ## A269907.P12577551976673132196
+/-! ## A269907.P5197565512241142996
 
-`7*a(n-1)-14*a(n-2)+8*a(n-3)` with `a(0)=1, a(1)=4, a(2)=44, a(3)=220`
-
-The canonical program, it is in `Seq.B000.C032`.
+`A094373(n+1)*A131130(n)-A095121(n)`
 -/
+
+namespace A269907.P5197565512241142996
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094373 (n + 1) * A131130 n - A095121 n
+
+end
+
+end A269907.P5197565512241142996
 
 namespace A269907
 
-/-- `7*a(n-1)-14*a(n-2)+8*a(n-3)` -/
-def P12577551976673132196.Spec : Prop :=
-  ∀ n, P12577551976673132196.a n = A269907 n
-
-theorem P12577551976673132196.correct : P12577551976673132196.Spec := by
-  intro n
-  simp only [A269907]
+/-- `A094373(n+1)*A131130(n)-A095121(n)` -/
+def P5197565512241142996.Spec : Prop :=
+  ∀ n, P5197565512241142996.a n = A269907 n
 
 end A269907
 

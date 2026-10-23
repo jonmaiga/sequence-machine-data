@@ -2194,6 +2194,21 @@ end
 
 end A364144.P6831742216278059826
 
+/-! ## A364144.P17277746809609330687
+
+`A274036(A075833(n+1))`
+-/
+
+namespace A364144.P17277746809609330687
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274036 (A075833 (n + 1)).toNat
+
+end
+
+end A364144.P17277746809609330687
+
 /-!
 # A364145: a(n) is the sum of the first 2*n nonzero n-bonacci numbers.
 

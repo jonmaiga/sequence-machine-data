@@ -20,7 +20,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -2060,6 +2059,29 @@ namespace A293007
 /-- `2*(A052945(n)-A152035(n))` -/
 def P8552782442931539214.Spec : Prop :=
   ∀ n, P8552782442931539214.a n = A293007 n
+
+end A293007
+
+/-! ## A293007.P1313703807745523197
+
+`A162562(n)%A155020(n)`
+-/
+
+namespace A293007.P1313703807745523197
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A162562 n) (A155020 n)
+
+end
+
+end A293007.P1313703807745523197
+
+namespace A293007
+
+/-- `A162562(n)%A155020(n)` -/
+def P1313703807745523197.Spec : Prop :=
+  ∀ n, P1313703807745523197.a n = A293007 n
 
 end A293007
 
@@ -6193,6 +6215,32 @@ def P2457053488063224355.Spec : Prop :=
 theorem P2457053488063224355.correct : P2457053488063224355.Spec := by
   intro n
   simp only [A293064]
+
+end A293064
+
+/-! ## A293064.P18104654006958500912
+
+`∑[ogf(x^3/(1-3x+x^2))]`
+-/
+
+namespace A293064.P18104654006958500912
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 1] [1, -3, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A293064.P18104654006958500912
+
+namespace A293064
+
+/-- `∑[ogf(x^3/(1-3x+x^2))]` -/
+def P18104654006958500912.Spec : Prop :=
+  ∀ n, P18104654006958500912.a n = A293064 n
 
 end A293064
 

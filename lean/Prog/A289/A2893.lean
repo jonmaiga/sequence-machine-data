@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -35,6 +36,7 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -48,7 +50,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -61,6 +62,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -6964,6 +6966,32 @@ def P6006845025438717866.Spec : Prop :=
 
 end A289399
 
+/-! ## A289399.P16309280963160238683
+
+`3*∑[A027471(n+1)]`
+-/
+
+namespace A289399.P16309280963160238683
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027471 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A289399.P16309280963160238683
+
+namespace A289399
+
+/-- `3*∑[A027471(n+1)]` -/
+def P16309280963160238683.Spec : Prop :=
+  ∀ n, P16309280963160238683.a n = A289399 n
+
+end A289399
+
 /-! ## A289399.P14470499590535560114
 
 `Δ[3*A121365(n+2)]`
@@ -7111,6 +7139,32 @@ namespace A289399
 /-- `∑[A116138(n)/(n+1)]` -/
 def P4437859902228291129.Spec : Prop :=
   ∀ n, P4437859902228291129.a n = (A289399 n : ℚ)
+
+end A289399
+
+/-! ## A289399.P5893344110226613580
+
+`3*A259653(∑[n])`
+-/
+
+namespace A289399.P5893344110226613580
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * A259653 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A289399.P5893344110226613580
+
+namespace A289399
+
+/-- `3*A259653(∑[n])` -/
+def P5893344110226613580.Spec : Prop :=
+  ∀ n, P5893344110226613580.a n = A289399 n
 
 end A289399
 

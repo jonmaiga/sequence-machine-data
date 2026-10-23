@@ -4532,6 +4532,21 @@ end
 
 end A198343.P16384569050888779425
 
+/-! ## A198343.P10517461159998789371
+
+`and(A233264(n+1), A359085(n+1))`
+-/
+
+namespace A198343.P10517461159998789371
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A233264 (n + 1)) (A359085 (n + 1))
+
+end
+
+end A198343.P10517461159998789371
+
 /-!
 # A198375: Smallest n-digit number whose product of digits is n or 0 if no number exists.
 

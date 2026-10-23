@@ -11966,3 +11966,24 @@ def P9382393943682397630.Spec : Prop :=
 
 end A098498
 
+/-!
+# A098499: Number of squares on infinite half chessboard at <=n knight moves from a fixed point on the diagonal.
+
+The programs for A098499, there is no canonical definition to state claims against.
+-/
+
+/-! ## A098499.P14536278832235909071
+
+`A316428(A008091(n))`
+-/
+
+namespace A098499.P14536278832235909071
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316428 (A008091 n).toNat
+
+end
+
+end A098499.P14536278832235909071
+

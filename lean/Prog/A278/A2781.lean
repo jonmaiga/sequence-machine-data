@@ -3039,9 +3039,7 @@ end A278137
 /-!
 # A278138: Primes p such that p+2, 3*p+2 and 3*p+8 are also primes.
 
-The programs for A278138, the canonical program `A278138.P16735703307475398826` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278138 has offset 1).
-
-The definition of A278138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 117 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A278138, there is no canonical definition to state claims against.
 -/
 
 /-! ## A278138.P4693090662028832150
@@ -3066,32 +3064,27 @@ end
 
 end A278138.P4693090662028832150
 
-namespace A278138
-
-/-- `∩[A023210(n+1), A174913(n+1)]` -/
-def P4693090662028832150.Spec : Prop :=
-  ∀ n, (P4693090662028832150.a n : ℤ) = A278138 (n + 1)
-
-end A278138
-
 /-! ## A278138.P16735703307475398826
 
 `∩[A023208(n+1)-2, A023208(n+1)]`
-
-The canonical program, it is in `Seq.B005.C001`.
 -/
 
-namespace A278138
+namespace A278138.P16735703307475398826
+noncomputable section
 
-/-- `∩[A023208(n+1)-2, A023208(n+1)]` -/
-def P16735703307475398826.Spec : Prop :=
-  ∀ n, (P16735703307475398826.a n : ℤ) = A278138 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023208 (n + 1) - 2
 
-theorem P16735703307475398826.correct : P16735703307475398826.Spec := by
-  intro n
-  simp only [A278138, Nat.add_sub_cancel]
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023208 (n + 1)
 
-end A278138
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A278138.P16735703307475398826
 
 /-! ## A278138.P4881088048654648266
 
@@ -3115,14 +3108,6 @@ end
 
 end A278138.P4881088048654648266
 
-namespace A278138
-
-/-- `∩[A162338(n+1)-2, A162338(n+1)]` -/
-def P4881088048654648266.Spec : Prop :=
-  ∀ n, (P4881088048654648266.a n : ℤ) = A278138 (n + 1)
-
-end A278138
-
 /-! ## A278138.P4420691657189241218
 
 `∩[A023208(n+1), A058026(A023208(n+1))]`
@@ -3145,14 +3130,6 @@ end
 
 end A278138.P4420691657189241218
 
-namespace A278138
-
-/-- `∩[A023208(n+1), A058026(A023208(n+1))]` -/
-def P4420691657189241218.Spec : Prop :=
-  ∀ n, (P4420691657189241218.a n : ℤ) = A278138 (n + 1)
-
-end A278138
-
 /-! ## A278138.P15128659281449193994
 
 `∩[A023208(n+1), A109606(A023208(n+2))]`
@@ -3174,14 +3151,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A278138.P15128659281449193994
-
-namespace A278138
-
-/-- `∩[A023208(n+1), A109606(A023208(n+2))]` -/
-def P15128659281449193994.Spec : Prop :=
-  ∀ n, (P15128659281449193994.a n : ℤ) = A278138 (n + 1)
-
-end A278138
 
 /-!
 # A278139: Primes, starting with a(1)=2, whose successive differences are increasing triangular numbers.
@@ -5212,6 +5181,29 @@ def P4249608320825935945.Spec : Prop :=
 
 end A278160
 
+/-! ## A278160.P13197234999747565721
+
+`A278497(A260731(A255131((n+2)²)))`
+-/
+
+namespace A278160.P13197234999747565721
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278497 (A260731 (A255131 ((n + 2) ^ 2)).toNat).toNat
+
+end
+
+end A278160.P13197234999747565721
+
+namespace A278160
+
+/-- `A278497(A260731(A255131((n+2)²)))` -/
+def P13197234999747565721.Spec : Prop :=
+  ∀ n, P13197234999747565721.a n = A278160 (n + 1)
+
+end A278160
+
 /-!
 # A278161: Run length transform of A008619 (floor(n/2)+1).
 
@@ -6413,6 +6405,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278166.P11090129128991998936
+
+/-! ## A278166.P17504065942784296230
+
+`A105096(A281104(n+1))`
+-/
+
+namespace A278166.P17504065942784296230
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105096 (A281104 (n + 1)).toNat
+
+end
+
+end A278166.P17504065942784296230
 
 /-!
 # A278167: a(n) = number of primes encountered before reaching 0 when starting from k = ((n+1)^2)-1 and iterating map k -> k - A002828(k).

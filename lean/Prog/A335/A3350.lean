@@ -95,6 +95,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A335000: Orders of the groups PSL(m,q) in increasing order as q runs through the prime powers (with repetitions).
@@ -833,6 +834,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335018.P15231315034796689169
+
+/-! ## A335018.P17174182019068794887
+
+`A093035(A003961(A233819(A393258(n+1))))`
+-/
+
+namespace A335018.P17174182019068794887
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093035 (A003961 (A233819 (A393258 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A335018.P17174182019068794887
 
 /-!
 # A335019: Numbers whose prime exponents generates rotationally symmetric XOR-triangles.
@@ -3263,29 +3279,27 @@ end A335032
 /-!
 # A335033: a(n) is the smallest number larger than a(n-1) that is not a partial sum of 2^a(1),2^a(2),...,2^a(n-1), with a(1)=0.
 
-The programs for A335033, the canonical program `A335033.P13439355236212896509` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335033 has offset 1).
-
-The definition of A335033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A335033, there is no canonical definition to state claims against.
 -/
 
 /-! ## A335033.P13439355236212896509
 
 `comp[A334992(n+1)]`
-
-The canonical program, it is in `Seq.B002.C005`.
 -/
 
-namespace A335033
+namespace A335033.P13439355236212896509
+noncomputable section
 
-/-- `comp[A334992(n+1)]` -/
-def P13439355236212896509.Spec : Prop :=
-  ∀ n, (P13439355236212896509.a n : ℤ) = A335033 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334992 (n + 1)
 
-theorem P13439355236212896509.correct : P13439355236212896509.Spec := by
-  intro n
-  simp only [A335033, Nat.add_sub_cancel]
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
-end A335033
+end
+
+end A335033.P13439355236212896509
 
 /-! ## A335033.P6840281813283155531
 
@@ -3308,14 +3322,6 @@ end
 
 end A335033.P6840281813283155531
 
-namespace A335033
-
-/-- `lt[n²/(1-and(2, n)), A356604(n)]` -/
-def P6840281813283155531.Spec : Prop :=
-  ∀ n, (P6840281813283155531.a n : ℤ) = A335033 (n + 1)
-
-end A335033
-
 /-! ## A335033.P16170017052323925711
 
 `lt[A029839(n), A007504(A322473(n))]`
@@ -3336,14 +3342,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335033.P16170017052323925711
-
-namespace A335033
-
-/-- `lt[A029839(n), A007504(A322473(n))]` -/
-def P16170017052323925711.Spec : Prop :=
-  ∀ n, (P16170017052323925711.a n : ℤ) = A335033 (n + 1)
-
-end A335033
 
 /-!
 # A335035: Ordered perimeters of primitive integer triangles with two perpendicular medians.
@@ -5834,6 +5832,28 @@ end A335065.P5653230690617808427
 The programs for A335067, there is no canonical definition to state claims against.
 -/
 
+/-! ## A335067.P2797751273920900990
+
+`∩[A084515(n), A282531(n+1)]`
+-/
+
+namespace A335067.P2797751273920900990
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084515 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A282531 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335067.P2797751273920900990
+
 /-! ## A335067.P5787971062073414637
 
 `A002182(A072968(10*a(n-1))+n)-1` with `a(0)=1`
@@ -6067,6 +6087,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335070.P8707531818036343834
+
+/-! ## A335070.P15931490367869030291
+
+`∩[A114147(n+1), A343048(n)]`
+-/
+
+namespace A335070.P15931490367869030291
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114147 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343048 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335070.P15931490367869030291
+
+/-! ## A335070.P2040690793745952907
+
+`∩[A343048(n), A356160(n+1)]`
+-/
+
+namespace A335070.P2040690793745952907
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343048 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356160 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335070.P2040690793745952907
 
 /-!
 # A335072: Numbers with property that if you remove any digit and subtract 1 the result is prime.

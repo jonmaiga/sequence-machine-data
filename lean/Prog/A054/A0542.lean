@@ -1367,6 +1367,28 @@ end
 
 end A054217.P9710357755038935121
 
+/-! ## A054217.P11984364461247933332
+
+`∩[A176548(n+1), A332088(n+1)]`
+-/
+
+namespace A054217.P11984364461247933332
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176548 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332088 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A054217.P11984364461247933332
+
 /-!
 # A054218: Palindromic primes of the form 'primemirp' resulting from A054217.
 
@@ -1629,6 +1651,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A054224.P6161869884958412979
+
+/-! ## A054224.P16899628322582352349
+
+`∩[A001476(n+1), A054221(n)]`
+-/
+
+namespace A054224.P16899628322582352349
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001476 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054221 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A054224.P16899628322582352349
 
 /-!
 # A054225: Triangle read by rows: row n (n>=0) gives the number of partitions of (n,0), (n-1,1), (n-2,2), ..., (0,n) respectively into sums of pairs.
@@ -3913,6 +3957,29 @@ namespace A054243
 /-- `A000079(n-A029837(n+1))` -/
 def P11631678971592573515.Spec : Prop :=
   ∀ n, P11631678971592573515.a n = A054243 n
+
+end A054243
+
+/-! ## A054243.P16652567083776186944
+
+`A000079(n+1-A070941(n))`
+-/
+
+namespace A054243.P16652567083776186944
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 ((n + 1 : ℤ) - A070941 n).toNat
+
+end
+
+end A054243.P16652567083776186944
+
+namespace A054243
+
+/-- `A000079(n+1-A070941(n))` -/
+def P16652567083776186944.Spec : Prop :=
+  ∀ n, P16652567083776186944.a n = A054243 n
 
 end A054243
 

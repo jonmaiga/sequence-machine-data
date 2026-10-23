@@ -3438,6 +3438,28 @@ end
 
 end A380446.P18004090836273830421
 
+/-! ## A380446.P10872303733138482274
+
+`∪[A365308(n+1), A389312(n+1)]`
+-/
+
+namespace A380446.P10872303733138482274
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A365308 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389312 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380446.P10872303733138482274
+
 /-! ## A380446.P291351076273079181
 
 `∪[A368682(n+1), A389312(n+1)]`
@@ -3833,28 +3855,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A380446.P11924910409418070385
-
-/-! ## A380446.P1360820768521135874
-
-`∩[A304250(n+1), A391756(n+1)]`
--/
-
-namespace A380446.P1360820768521135874
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304250 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391756 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380446.P1360820768521135874
 
 /-!
 # A380447: Number of primes dividing n plus n times the number of nonprimes dividing n.
@@ -8260,6 +8260,33 @@ namespace A380485
 /-- `filter[A391164(n), A380484(#)]` -/
 def P778603901092455585.Spec : Prop :=
   ∀ n, P778603901092455585.a n = A380485 (n + 1)
+
+end A380485
+
+/-! ## A380485.P13496026552502349170
+
+`comp[A380486(n+1)]`
+-/
+
+namespace A380485.P13496026552502349170
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380486 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A380485.P13496026552502349170
+
+namespace A380485
+
+/-- `comp[A380486(n+1)]` -/
+def P13496026552502349170.Spec : Prop :=
+  ∀ n, (P13496026552502349170.a n : ℤ) = A380485 (n + 1)
 
 end A380485
 

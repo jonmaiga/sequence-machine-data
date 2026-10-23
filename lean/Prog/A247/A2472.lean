@@ -1,8 +1,10 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -20,6 +22,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
@@ -86,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A247201: Numbers m whose reversal divides m+1.
@@ -548,6 +555,34 @@ def P1060399872386107977.Spec : Prop :=
   ∀ n, P1060399872386107977.a n = A247207 n
 
 end A247207
+
+/-!
+# A247208: Common bases of 1093 and 3511 as generalized Wieferich primes.
+
+The programs for A247208, there is no canonical definition to state claims against.
+-/
+
+/-! ## A247208.P2870684293419655756
+
+`∪[A000079(n), A269798(n+1)]`
+-/
+
+namespace A247208.P2870684293419655756
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269798 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A247208.P2870684293419655756
 
 /-!
 # A247209: Number of terms in generalized Swinnerton-Dyer polynomials.
@@ -2196,6 +2231,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A247227.P3813788665075092825
+
+/-! ## A247227.P2949296121386452324
+
+`eq[A110030(n+1), A333807(n+1)]`
+-/
+
+namespace A247227.P2949296121386452324
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110030 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333807 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A247227.P2949296121386452324
 
 /-!
 # A247228: Prime numbers p where 2^p-1 is composite that set records for smallest prime factor of 2^p-1: the smallest prime factor of 2^p-1 is larger than the smallest prime factor of 2^q-1 for all primes q > p.
@@ -4533,6 +4589,28 @@ end
 
 end A247267.P1054063380292063569
 
+/-! ## A247267.P4565278751932467030
+
+`∩[A190941(n), A225885(n+1)]`
+-/
+
+namespace A247267.P4565278751932467030
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190941 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225885 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A247267.P4565278751932467030
+
 /-! ## A247267.P13791771985512955882
 
 `filter[A225885(n+1), A039984(#)]`
@@ -4550,24 +4628,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A247267.P13791771985512955882
-
-/-! ## A247267.P11189350817047170168
-
-`filter[A225885(n+1), A168184(#)]`
--/
-
-namespace A247267.P11189350817047170168
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225885 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A168184 (f1 j).toNat = 1) n)
-
-end
-
-end A247267.P11189350817047170168
 
 /-!
 # A247271: Numbers n such that n^2+1 and 2*n^2+1 are both prime numbers.
@@ -4837,6 +4897,49 @@ def P14774234000981756787.Spec : Prop :=
 
 end A247281
 
+/-! ## A247281.P11998605555748138452
+
+`floor(3*a(n-1)+4*a(n-2))` with `a(0)=0, a(1)=5`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A247281.P11998605555748138452
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 5] fun n a =>
+  3 * a (n - 1) + 4 * a (n - 2)
+
+end
+
+end A247281.P11998605555748138452
+
+namespace A247281
+
+/-- `floor(3*a(n-1)+4*a(n-2))` -/
+def P11998605555748138452.Spec : Prop :=
+  ∀ n, (P11998605555748138452.a n : ℤ) = A247281 n
+
+theorem P11998605555748138452.correct : P11998605555748138452.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A247281, Nat.add_sub_cancel, A247281.P11998605555748138452.a, A247281.P7320534312451355820.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A247281, Nat.add_sub_cancel, A247281.P11998605555748138452.a, A247281.P7320534312451355820.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [h1, h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A247281
+
 /-! ## A247281.P10288406592724571649
 
 `A389432(2*n)`
@@ -4880,6 +4983,52 @@ namespace A247281
 /-- `5*A256494(2*n+1)` -/
 def P11577205235475390988.Spec : Prop :=
   ∀ n, P11577205235475390988.a n = A247281 n
+
+end A247281
+
+/-! ## A247281.P7039928746635469964
+
+`xor(A062510(n), A071930(n+1))`
+-/
+
+namespace A247281.P7039928746635469964
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A062510 n) (A071930 (n + 1))
+
+end
+
+end A247281.P7039928746635469964
+
+namespace A247281
+
+/-- `xor(A062510(n), A071930(n+1))` -/
+def P7039928746635469964.Spec : Prop :=
+  ∀ n, P7039928746635469964.a n = A247281 n
+
+end A247281
+
+/-! ## A247281.P1268615723415536924
+
+`A024036(2*n)/A201455(n)`
+-/
+
+namespace A247281.P1268615723415536924
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A024036 (2 * n) : ℚ) / (A201455 n : ℚ)
+
+end
+
+end A247281.P1268615723415536924
+
+namespace A247281
+
+/-- `A024036(2*n)/A201455(n)` -/
+def P1268615723415536924.Spec : Prop :=
+  ∀ n, P1268615723415536924.a n = (A247281 n : ℚ)
 
 end A247281
 

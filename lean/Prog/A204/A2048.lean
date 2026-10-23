@@ -1316,6 +1316,29 @@ def P5732775908097289335.Spec : Prop :=
 
 end A204822
 
+/-! ## A204822.P8545722071818533000
+
+`A326065(A224907(n+1))`
+-/
+
+namespace A204822.P8545722071818533000
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326065 (A224907 (n + 1)).toNat
+
+end
+
+end A204822.P8545722071818533000
+
+namespace A204822
+
+/-- `A326065(A224907(n+1))` -/
+def P8545722071818533000.Spec : Prop :=
+  ∀ n, P8545722071818533000.a n = A204822 (n + 1)
+
+end A204822
+
 /-!
 # A204823: Sum of divisors (A000203) of deficient numbers (A005100).
 

@@ -1166,6 +1166,24 @@ end
 
 end A331613.P13535109187392860459
 
+/-! ## A331613.P3126457952166158842
+
+`filter[A339886(n+1), A323510(#)]`
+-/
+
+namespace A331613.P3126457952166158842
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339886 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A323510 (f1 j).toNat = 1) n)
+
+end
+
+end A331613.P3126457952166158842
+
 /-!
 # A331614: a(n+1) is the number of times a(n) is the sum of one or more consecutive terms in this sequence so far with a(1) = 1.
 
@@ -3705,6 +3723,122 @@ end
 end A331661.P16446745902715699208
 
 /-!
+# A331662: Odd composite numbers k such that the divisors of the binary reversal of k (A030101) are the binary reversals of the divisors of k.
+
+The programs for A331662, there is no canonical definition to state claims against.
+-/
+
+/-! ## A331662.P2984132818155631649
+
+`∩[A161957(n+1), A177713(n+1)]`
+-/
+
+namespace A331662.P2984132818155631649
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161957 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331662.P2984132818155631649
+
+/-! ## A331662.P9831403766072032542
+
+`∩[A161957(n+1), A180366(n+1)]`
+-/
+
+namespace A331662.P9831403766072032542
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161957 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180366 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331662.P9831403766072032542
+
+/-! ## A331662.P5191132401437189860
+
+`∩[A161957(n+1), A325164(n+1)]`
+-/
+
+namespace A331662.P5191132401437189860
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161957 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325164 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331662.P5191132401437189860
+
+/-! ## A331662.P4282224025116199050
+
+`∩[A161957(n+1), A261614(n+1)]`
+-/
+
+namespace A331662.P4282224025116199050
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161957 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261614 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331662.P4282224025116199050
+
+/-! ## A331662.P3690624946042796532
+
+`∩[A161957(n+1), A327907(n+1)]`
+-/
+
+namespace A331662.P3690624946042796532
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161957 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327907 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331662.P3690624946042796532
+
+/-!
 # A331663: Odd composite numbers k with at least one divisor that is not a binary palindrome (A006995) such that the divisors of the binary reversal of k (A030101) are the binary reversals of the divisors of k.
 
 The programs for A331663, there is no canonical definition to state claims against.
@@ -4989,6 +5123,28 @@ end A331680.P1434114031231037371
 The programs for A331681, there is no canonical definition to state claims against.
 -/
 
+/-! ## A331681.P12743098754924444444
+
+`∩[A250251(n+1), A331994(n+1)]`
+-/
+
+namespace A331681.P12743098754924444444
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250251 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331994 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331681.P12743098754924444444
+
 /-! ## A331681.P8706085059707552366
 
 `∩[A331936(n+1), A331994(n+1)]`
@@ -5076,28 +5232,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A331681.P15618563926532093650
-
-/-! ## A331681.P11450121785921832395
-
-`∩[A331935(n+1), A209638(n)]`
--/
-
-namespace A331681.P11450121785921832395
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331935 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209638 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A331681.P11450121785921832395
 
 /-!
 # A331682: One and all numbers whose prime indices are pairwise coprime and already belong to the sequence, where a singleton is always considered to be coprime.

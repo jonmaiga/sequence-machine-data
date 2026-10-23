@@ -1327,6 +1327,34 @@ end
 end A265807.P10023803165492696672
 
 /-!
+# A265809: Denominators of lower primes-only best approximates (POBAs) to Pi; see Comments.
+
+The programs for A265809, there is no canonical definition to state claims against.
+-/
+
+/-! ## A265809.P15522394254350275876
+
+`∩[A161750(n+1), A216496(n+1)]`
+-/
+
+namespace A265809.P15522394254350275876
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161750 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216496 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A265809.P15522394254350275876
+
+/-!
 # A265811: Denominators of upper primes-only best approximates (POBAs) to Pi; see Comments.
 
 The programs for A265811, there is no canonical definition to state claims against.

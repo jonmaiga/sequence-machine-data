@@ -3472,6 +3472,36 @@ end
 
 end A182941.P17635858903538661111
 
+/-! ## A182941.P17411530354773205893
+
+`A295422(A141551(n+1))`
+-/
+
+namespace A182941.P17411530354773205893
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295422 (A141551 (n + 1)).toNat
+
+end
+
+end A182941.P17411530354773205893
+
+/-! ## A182941.P12314268119054728873
+
+`A295422(A181804(n+1))`
+-/
+
+namespace A182941.P12314268119054728873
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295422 (A181804 (n + 1)).toNat
+
+end
+
+end A182941.P12314268119054728873
+
 /-!
 # A182942: Ranks of primes when all odd prime powers p^j, for j>=1, are jointly ranked.
 

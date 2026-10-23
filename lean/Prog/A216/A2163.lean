@@ -3713,6 +3713,36 @@ theorem P17924968363353530023.correct : P17924968363353530023.Spec := by
 
 end A216315
 
+/-! ## A216315.P9416437169563855783
+
+`∪[A059312(n+1), A216363(n+1)]`
+-/
+
+namespace A216315.P9416437169563855783
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059312 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216363 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216315.P9416437169563855783
+
+namespace A216315
+
+/-- `∪[A059312(n+1), A216363(n+1)]` -/
+def P9416437169563855783.Spec : Prop :=
+  ∀ n, (P9416437169563855783.a n : ℤ) = A216315 (n + 1)
+
+end A216315
+
 /-! ## A216315.P8781758958058498002
 
 `A000038(n+1)+p?[A249674(n)+A248572(n)]`

@@ -11,7 +11,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -81,7 +80,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -1896,6 +1894,32 @@ def P1487249899155742569.Spec : Prop :=
 
 end A259925
 
+/-! ## A259925.P5199581215383695706
+
+`or(1, (∑[2*n]-(2*n+1))^n)`
+-/
+
+namespace A259925.P5199581215383695706
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 1 ((((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - (2 * n + 1 : ℤ)) ^ n)
+
+end
+
+end A259925.P5199581215383695706
+
+namespace A259925
+
+/-- `or(1, (∑[2*n]-(2*n+1))^n)` -/
+def P5199581215383695706.Spec : Prop :=
+  ∀ n, P5199581215383695706.a n = A259925 n
+
+end A259925
+
 /-!
 # A259926: a(n) = n^(2*n) - n^(2*n - 1).
 
@@ -1994,26 +2018,26 @@ def P16495778042376720678.Spec : Prop :=
 
 end A259926
 
-/-! ## A259926.P1064692351302895374
+/-! ## A259926.P10242942326435329659
 
-`A086815(n+1)/(n+1)`
+`n*A085524(n+1)`
 -/
 
-namespace A259926.P1064692351302895374
+namespace A259926.P10242942326435329659
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A086815 (n + 1) : ℚ) / (n + 1 : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * A085524 (n + 1)
 
 end
 
-end A259926.P1064692351302895374
+end A259926.P10242942326435329659
 
 namespace A259926
 
-/-- `A086815(n+1)/(n+1)` -/
-def P1064692351302895374.Spec : Prop :=
-  ∀ n, P1064692351302895374.a n = (A259926 (n + 1) : ℚ)
+/-- `n*A085524(n+1)` -/
+def P10242942326435329659.Spec : Prop :=
+  ∀ n, P10242942326435329659.a n = A259926 (n + 1)
 
 end A259926
 
@@ -2208,6 +2232,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A259933.P1629507303942836820
+
+/-! ## A259933.P12589984429172786384
+
+`A052410(A273259(n+1))`
+-/
+
+namespace A259933.P12589984429172786384
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052410 (A273259 (n + 1)).toNat
+
+end
+
+end A259933.P12589984429172786384
 
 /-!
 # A259934: Infinite sequence starting with a(0)=0 such that A049820(a(k)) = a(k-1) for all k>=1, where A049820(n) = n - (number of divisors of n).

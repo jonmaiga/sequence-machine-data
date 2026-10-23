@@ -1223,6 +1223,28 @@ end
 
 end A356020.P6512193794419621079
 
+/-! ## A356020.P10251932212942358770
+
+`∩[A061904(n+1), A093687(n+1)]`
+-/
+
+namespace A356020.P10251932212942358770
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061904 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093687 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356020.P10251932212942358770
+
 /-!
 # A356021: Positive numbers k such that, for any consecutive prime numbers p, q <= A006530(n), the p-adic and q-adic valuations of n are different.
 

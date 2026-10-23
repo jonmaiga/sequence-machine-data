@@ -22,6 +22,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -3293,19 +3294,19 @@ end
 
 end A121834.P14691881290185289776
 
-/-! ## A121834.P12237452499678167576
+/-! ## A121834.P179255180521010429
 
-`∩[A052291(n+1), A121326(n+1)]`
+`∩[A052291(n+1), A168024(n)]`
 -/
 
-namespace A121834.P12237452499678167576
+namespace A121834.P179255180521010429
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A052291 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121326 (n + 1)
+  A168024 n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3313,7 +3314,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A121834.P12237452499678167576
+end A121834.P179255180521010429
 
 /-!
 # A121835: Hankel transform of A014307.

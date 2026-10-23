@@ -4372,6 +4372,34 @@ end
 end A297847.P5315571864929957156
 
 /-!
+# A297849: Composites c where another composite d < c exists such that c and d satisfy c^(d-1) == 1 (mod d^2) and d^(c-1) == 1 (mod c) or satisfy c^(d-1) == 1 (mod d) and d^(c-1) == 1 (mod c^2).
+
+The programs for A297849, there is no canonical definition to state claims against.
+-/
+
+/-! ## A297849.P6129176526556086896
+
+`∩[A173251(n+1), A216765(n+1)]`
+-/
+
+namespace A297849.P6129176526556086896
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173251 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216765 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A297849.P6129176526556086896
+
+/-!
 # A297851: Number of n X n 0..1 arrays with every element equal to 1, 2 or 4 king-move adjacent elements, with upper left element zero.
 
 The programs for A297851, there is no canonical definition to state claims against.

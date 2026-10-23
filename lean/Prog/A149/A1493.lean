@@ -44,7 +44,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -83,6 +82,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A149300: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 1), (-1, 0, 1), (1, -1, 0), (1, 1, -1), (1, 1, 0)}.

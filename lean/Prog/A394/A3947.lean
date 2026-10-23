@@ -39,6 +39,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
@@ -232,6 +233,94 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394708.P17058845942435776770
+
+/-! ## A394708.P14926691215923864618
+
+`∩[A028812(n+1), A178762(n+1)]`
+-/
+
+namespace A394708.P14926691215923864618
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028812 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178762 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394708.P14926691215923864618
+
+/-! ## A394708.P5502265195063321788
+
+`∩[A123068(n+1), A178762(n+1)]`
+-/
+
+namespace A394708.P5502265195063321788
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123068 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178762 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394708.P5502265195063321788
+
+/-! ## A394708.P10321153349194259478
+
+`∩[A178762(n+1), A246786(n+1)]`
+-/
+
+namespace A394708.P10321153349194259478
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178762 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246786 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394708.P10321153349194259478
+
+/-! ## A394708.P13323160088429942177
+
+`∩[A178762(n+1), A376268(n+1)]`
+-/
+
+namespace A394708.P13323160088429942177
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178762 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376268 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394708.P13323160088429942177
 
 /-!
 # A394716: a(n) = Sum_{1 <= i < j <= n} ( n!/(i*j) )^3.
@@ -1326,6 +1415,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394755.P14047279627891870844
+
+/-!
+# A394757: Numbers k in A014574 (averages of twin prime pairs) such that gcd(k, sigma(k)) is prime.
+
+The programs for A394757, there is no canonical definition to state claims against.
+-/
+
+/-! ## A394757.P4695499318249521116
+
+`∪[A394399(n+1), A394815(n+1)]`
+-/
+
+namespace A394757.P4695499318249521116
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394399 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394815 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394757.P4695499318249521116
 
 /-!
 # A394762: Minimum number of draws without replacement from an urn with n white and n black balls to ensure the probability of drawing at least one ball of each color is >= n/(n+1).
@@ -2848,6 +2965,29 @@ namespace A394799
 /-- `A317492(A202842(n))` -/
 def P11701958151142409450.Spec : Prop :=
   ∀ n, P11701958151142409450.a n = A394799 n
+
+end A394799
+
+/-! ## A394799.P13943904299393470596
+
+`A317492(A202849(n))`
+-/
+
+namespace A394799.P13943904299393470596
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317492 (A202849 n).toNat
+
+end
+
+end A394799.P13943904299393470596
+
+namespace A394799
+
+/-- `A317492(A202849(n))` -/
+def P13943904299393470596.Spec : Prop :=
+  ∀ n, P13943904299393470596.a n = A394799 n
 
 end A394799
 

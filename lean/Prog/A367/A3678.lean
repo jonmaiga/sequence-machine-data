@@ -12,6 +12,7 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
@@ -702,16 +703,16 @@ end
 
 end A367802.P15028466154641630144
 
-/-! ## A367802.P978040733756813132
+/-! ## A367802.P10649396719686476067
 
-`∩[A035233(n+1), A354180(n+1)]`
+`∩[A329609(n+1), A354180(n+1)]`
 -/
 
-namespace A367802.P978040733756813132
+namespace A367802.P10649396719686476067
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035233 (n + 1)
+  A329609 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A354180 (n + 1)
@@ -722,7 +723,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A367802.P978040733756813132
+end A367802.P10649396719686476067
 
 /-!
 # A367803: Exponentially evil squares.

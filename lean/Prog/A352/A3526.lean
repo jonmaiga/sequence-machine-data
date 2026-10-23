@@ -58,10 +58,9 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -2383,6 +2382,28 @@ end
 
 end A352630.P722145175398127008
 
+/-! ## A352630.P11618621607624738155
+
+`∩[A176065(n+1), A270999(n+1)]`
+-/
+
+namespace A352630.P11618621607624738155
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176065 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270999 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A352630.P11618621607624738155
+
 /-!
 # A352631: Minimum number of zeros in a binary n-digit perfect square, or -1 if there are no such numbers.
 
@@ -4679,6 +4700,52 @@ def P4081273119900200133.Spec : Prop :=
 
 end A352675
 
+/-! ## A352675.P6022066611309720343
+
+`A000196(A195041(n+1))`
+-/
+
+namespace A352675.P6022066611309720343
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000196 (A195041 (n + 1)).toNat
+
+end
+
+end A352675.P6022066611309720343
+
+namespace A352675
+
+/-- `A000196(A195041(n+1))` -/
+def P6022066611309720343.Spec : Prop :=
+  ∀ n, P6022066611309720343.a n = A352675 (n + 1)
+
+end A352675
+
+/-! ## A352675.P4785648415402617699
+
+`A339183(A032525(n+1))`
+-/
+
+namespace A352675.P4785648415402617699
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339183 (A032525 (n + 1)).toNat
+
+end
+
+end A352675.P4785648415402617699
+
+namespace A352675
+
+/-- `A339183(A032525(n+1))` -/
+def P4785648415402617699.Spec : Prop :=
+  ∀ n, P4785648415402617699.a n = A352675 (n + 1)
+
+end A352675
+
 /-!
 # A352676: Intersection of Beatty sequences for sqrt(3) and 1+sqrt(3).
 
@@ -6597,6 +6664,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352697.P2813846979107294831
+
+/-! ## A352697.P3615697746659365673
+
+`A391280(A072512(n+2))`
+-/
+
+namespace A352697.P3615697746659365673
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391280 (A072512 (n + 2)).toNat
+
+end
+
+end A352697.P3615697746659365673
 
 /-!
 # A352699: Highly composite numbers that cease to be highly composite if divided by their largest prime factor.

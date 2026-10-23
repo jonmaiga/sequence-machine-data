@@ -470,32 +470,29 @@ def P5566107806601119111.Spec : Prop :=
 
 end A225007
 
-/-! ## A225007.P12817494241265080556
+/-! ## A225007.P16100653371210515692
 
-`a(n-1)+(2*n+1)*∑[∑[2*n+1]]` with `a(0)=1`
+`a(n-1)+(2*n+1)*∑[(n+1)²]` with `a(0)=1`
 -/
 
-namespace A225007.P12817494241265080556
+namespace A225007.P16100653371210515692
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
+  (n + 1) ^ 2
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
   a (n - 1) + (2 * n + 1) * (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A225007.P12817494241265080556
+end A225007.P16100653371210515692
 
 namespace A225007
 
-/-- `a(n-1)+(2*n+1)*∑[∑[2*n+1]]` -/
-def P12817494241265080556.Spec : Prop :=
-  ∀ n, (P12817494241265080556.a n : ℤ) = A225007 n
+/-- `a(n-1)+(2*n+1)*∑[(n+1)²]` -/
+def P16100653371210515692.Spec : Prop :=
+  ∀ n, (P16100653371210515692.a n : ℤ) = A225007 n
 
 end A225007
 
@@ -5394,6 +5391,36 @@ The programs for A225048, the canonical program `A225048.P15967828934244146803` 
 The definition of A225048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1705 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A225048.P14920895500285568448
+
+`comp[∑{digits}[n, #²]+n]`
+-/
+
+namespace A225048.P14920895500285568448
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x ^ 2).sum + n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A225048.P14920895500285568448
+
+namespace A225048
+
+/-- `comp[∑{digits}[n, #²]+n]` -/
+def P14920895500285568448.Spec : Prop :=
+  ∀ n, (P14920895500285568448.a n : ℤ) = A225048 (n + 1)
+
+end A225048
+
 /-! ## A225048.P15967828934244146803
 
 `eq[0, char[∑{digits}[n, #²]+n]]`
@@ -5482,63 +5509,30 @@ def P12187452040772401810.Spec : Prop :=
 
 end A225048
 
-/-! ## A225048.P1782113137696068796
+/-! ## A225048.P16350507625431087900
 
-`log2(A000079(comp[∑{digits}[n, #²]+n]))`
+`comp[A258881(n)]`
 -/
 
-namespace A225048.P1782113137696068796
+namespace A225048.P16350507625431087900
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x ^ 2).sum + n
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258881 n
 
 open Classical in
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.logb 2 (A000079 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n) : ℝ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A225048.P1782113137696068796
+end A225048.P16350507625431087900
 
 namespace A225048
 
-/-- `log2(A000079(comp[∑{digits}[n, #²]+n]))` -/
-def P1782113137696068796.Spec : Prop :=
-  ∀ n, P1782113137696068796.a n = (A225048 (n + 1) : ℝ)
-
-end A225048
-
-/-! ## A225048.P796929801215477409
-
-`comp[∑{digits}[n, #²]+n]%A109902(n+1)`
--/
-
-namespace A225048.P796929801215477409
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x ^ 2).sum + n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n : ℤ) (A109902 (n + 1))
-
-end
-
-end A225048.P796929801215477409
-
-namespace A225048
-
-/-- `comp[∑{digits}[n, #²]+n]%A109902(n+1)` -/
-def P796929801215477409.Spec : Prop :=
-  ∀ n, P796929801215477409.a n = A225048 (n + 1)
+/-- `comp[A258881(n)]` -/
+def P16350507625431087900.Spec : Prop :=
+  ∀ n, (P16350507625431087900.a n : ℤ) = A225048 (n + 1)
 
 end A225048
 

@@ -2743,6 +2743,28 @@ end
 
 end A246547.P14616739310493051767
 
+/-! ## A246547.P14675547877582308929
+
+`∪[A051676(n+1), A088247(n+1)]`
+-/
+
+namespace A246547.P14675547877582308929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051676 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088247 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246547.P14675547877582308929
+
 /-! ## A246547.P13852456530735424394
 
 `∪[A001248(n+1), A246549(n+1)]`
@@ -2764,6 +2786,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246547.P13852456530735424394
+
+/-! ## A246547.P17722790015908956160
+
+`∪[A051676(n+1), A246067(n+1)]`
+-/
+
+namespace A246547.P17722790015908956160
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051676 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246067 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246547.P17722790015908956160
+
+/-! ## A246547.P5572813129007598325
+
+`∪[A051676(n+1), A246549(n+1)]`
+-/
+
+namespace A246547.P5572813129007598325
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051676 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246549 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246547.P5572813129007598325
 
 /-! ## A246547.P2633179639197411543
 
@@ -2808,6 +2874,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246547.P786077165698090032
+
+/-! ## A246547.P16124096796604437673
+
+`∪[A246549(n+1), A383211(n+1)]`
+-/
+
+namespace A246547.P16124096796604437673
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246549 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383211 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246547.P16124096796604437673
 
 /-! ## A246547.P17523674529803426043
 
@@ -2978,65 +3066,6 @@ end
 
 end A246547.P4986388587283227068
 
-/-! ## A246547.P4121080148042263296
-
-`∩[A072777(n+1), A134611(n+1)]`
--/
-
-namespace A246547.P4121080148042263296
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072777 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134611 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A246547.P4121080148042263296
-
-/-! ## A246547.P17360305325100757799
-
-`A060847(n+1)+A060845(n+1)`
--/
-
-namespace A246547.P17360305325100757799
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060847 (n + 1) + A060845 (n + 1)
-
-end
-
-end A246547.P17360305325100757799
-
-/-! ## A246547.P3775065781282657468
-
-`∩[A073540(n+1), A076292(n+1)]`
--/
-
-namespace A246547.P3775065781282657468
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073540 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076292 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A246547.P3775065781282657468
-
 /-!
 # A246549: Prime powers p^e where p is a prime and e >= 3 (prime powers without 1, the primes, or the squares of primes).
 
@@ -3064,6 +3093,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246549.P6792561412808150992
+
+/-! ## A246549.P4401973713056179222
+
+`∪[A030089(n+1), A088247(n+1)]`
+-/
+
+namespace A246549.P4401973713056179222
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030089 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088247 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246549.P4401973713056179222
+
+/-! ## A246549.P3517627775291054001
+
+`∪[A030483(n+1), A088247(n+1)]`
+-/
+
+namespace A246549.P3517627775291054001
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030483 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088247 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246549.P3517627775291054001
 
 /-! ## A246549.P16582235962210811771
 
@@ -3351,50 +3424,6 @@ end
 
 end A246549.P16857809318238908916
 
-/-! ## A246549.P11686059631264466433
-
-`∩[A036966(n+1), A306531(n+1)]`
--/
-
-namespace A246549.P11686059631264466433
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036966 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306531 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A246549.P11686059631264466433
-
-/-! ## A246549.P16209392677631051352
-
-`∩[A076467(n+1), A306531(n+1)]`
--/
-
-namespace A246549.P16209392677631051352
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076467 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306531 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A246549.P16209392677631051352
-
 /-!
 # A246550: Prime powers p^e where p is a prime and e >= 4.
 
@@ -3668,7 +3697,7 @@ end A246550.P10074907703836226161
 /-!
 # A246551: Prime powers p^e where p is a prime and e is odd.
 
-The programs for A246551, the canonical program `A246551.P5525261904559874874` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246551 has offset 1).
+The programs for A246551, the canonical program `A246551.P5525261904559874874` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246551 has offset 1).
 
 The definition of A246551 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9618 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3707,7 +3736,7 @@ end A246551
 
 `filter[A000961(n+1), A066829(#)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A246551

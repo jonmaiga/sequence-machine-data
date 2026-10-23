@@ -36,7 +36,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3669,6 +3668,28 @@ end A126031.P11217088640318154862
 The programs for A126032, there is no canonical definition to state claims against.
 -/
 
+/-! ## A126032.P8567860282650888385
+
+`∪[A291826(n+1), A391762(n+1)]`
+-/
+
+namespace A126032.P8567860282650888385
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291826 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391762 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A126032.P8567860282650888385
+
 /-! ## A126032.P309788647216204124
 
 `A061669(A391762(n+1))`
@@ -3734,24 +3755,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A126032.P2611789334033800372
-
-/-! ## A126032.P4551671804422657976
-
-`filter[A391762(n+1), A131695(#)]`
--/
-
-namespace A126032.P4551671804422657976
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391762 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A131695 (f1 j).toNat = 1) n)
-
-end
-
-end A126032.P4551671804422657976
 
 /-!
 # A126033: a(n) is the largest prime < 5*a(n-1) for n > 1, with a(1) = 2.

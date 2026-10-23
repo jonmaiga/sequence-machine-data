@@ -6,7 +6,7 @@ import Seq.B000.C004
 import Seq.B000.C020
 import Seq.Opaque.C001
 import Seq.Opaque.C019
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false

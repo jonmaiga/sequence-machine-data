@@ -49,7 +49,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -58,8 +57,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1945,7 +1942,7 @@ end A270009
 /-!
 # A270010: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 7", based on the 5-celled von Neumann neighborhood.
 
-The programs for A270010, the canonical program `A270010.P10328405546760581794` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270010 has offset 0).
+The programs for A270010, the canonical program `A270010.P6842430652727830196` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270010 has offset 0).
 
 The definition of A270010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1953,23 +1950,19 @@ The definition of A270010 is `conjectured`: the Lean definition is a formula tha
 /-! ## A270010.P6842430652727830196
 
 `C(lcm(2, n)+1, 2*n)²`
+
+The canonical program, it is in `Seq.B000.C032`.
 -/
-
-namespace A270010.P6842430652727830196
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (Nat.lcm 2 n + 1) (2 * n) ^ 2
-
-end
-
-end A270010.P6842430652727830196
 
 namespace A270010
 
 /-- `C(lcm(2, n)+1, 2*n)²` -/
 def P6842430652727830196.Spec : Prop :=
   ∀ n, (P6842430652727830196.a n : ℤ) = A270010 n
+
+theorem P6842430652727830196.correct : P6842430652727830196.Spec := by
+  intro n
+  simp only [A270010]
 
 end A270010
 
@@ -2426,22 +2419,26 @@ def P17335348576800288425.Spec : Prop :=
 
 end A270010
 
-/-! ## A270010.P10328405546760581794
+/-! ## A270010.P10915971776269571596
 
-`3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=1, a(1)=9, a(2)=0, a(3)=49, a(4)=0, a(5)=121, a(6)=0`
-
-The canonical program, it is in `Seq.B000.C032`.
+`C(2*n+1, 2*n*gcd(2, n²))²`
 -/
+
+namespace A270010.P10915971776269571596
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (2 * n + 1) (2 * n * Nat.gcd 2 (n ^ 2)) ^ 2
+
+end
+
+end A270010.P10915971776269571596
 
 namespace A270010
 
-/-- `3*a(n-2)-3*a(n-4)+a(n-6)` -/
-def P10328405546760581794.Spec : Prop :=
-  ∀ n, P10328405546760581794.a n = A270010 n
-
-theorem P10328405546760581794.correct : P10328405546760581794.Spec := by
-  intro n
-  simp only [A270010]
+/-- `C(2*n+1, 2*n*gcd(2, n²))²` -/
+def P10915971776269571596.Spec : Prop :=
+  ∀ n, (P10915971776269571596.a n : ℤ) = A270010 n
 
 end A270010
 
@@ -5277,7 +5274,7 @@ end A270049
 /-!
 # A270050: Numbers of the form 2 * (x^2 + xy + y^2).
 
-The programs for A270050, the canonical program `A270050.P15374850051776029815` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270050 has offset 1).
+The programs for A270050, the canonical program `A270050.P15374850051776029815` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270050 has offset 1).
 
 The definition of A270050 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003136, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5286,7 +5283,7 @@ The definition of A270050 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A003136(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A270050
@@ -8663,6 +8660,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270083.P1888066645143619765
+
+/-! ## A270083.P14005267053900132593
+
+`∩[A096530(n+1), A286333(n+1)]`
+-/
+
+namespace A270083.P14005267053900132593
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096530 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286333 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A270083.P14005267053900132593
 
 /-!
 # A270084: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 65", based on the 5-celled von Neumann neighborhood.

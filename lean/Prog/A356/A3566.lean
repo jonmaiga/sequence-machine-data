@@ -39,13 +39,13 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -2663,6 +2663,72 @@ end
 
 end A356638.P6327158583949738279
 
+/-! ## A356638.P4849249476915880435
+
+`∩[A020230(n+1), A307767(n+1)]`
+-/
+
+namespace A356638.P4849249476915880435
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020230 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307767 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356638.P4849249476915880435
+
+/-! ## A356638.P3942963125843157812
+
+`∩[A020258(n+1), A307767(n+1)]`
+-/
+
+namespace A356638.P3942963125843157812
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020258 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307767 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356638.P3942963125843157812
+
+/-! ## A356638.P4180583993766617325
+
+`∩[A288153(n+1), A307767(n+1)]`
+-/
+
+namespace A356638.P4180583993766617325
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A288153 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307767 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356638.P4180583993766617325
+
 /-!
 # A356641: Indices of records in A356640.
 
@@ -2936,29 +3002,23 @@ end A356646.P8762735079567959151
 /-!
 # A356647: Concatenation of runs {y..x} for each x>=1, using each y from 1 to x before moving on to the next value for x.
 
-The programs for A356647, the canonical program `A356647.P6767433424201887109` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356647 has offset 1).
-
-The definition of A356647 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A087118, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The programs for A356647, there is no canonical definition to state claims against.
 -/
 
 /-! ## A356647.P6767433424201887109
 
 `A000120(A087118(n+2))`
-
-The canonical program, it is in `Seq.B005.C002`.
 -/
 
-namespace A356647
+namespace A356647.P6767433424201887109
+noncomputable section
 
-/-- `A000120(A087118(n+2))` -/
-def P6767433424201887109.Spec : Prop :=
-  ∀ n, P6767433424201887109.a n = A356647 (n + 1)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000120 (A087118 (n + 2)).toNat
 
-theorem P6767433424201887109.correct : P6767433424201887109.Spec := by
-  intro n
-  simp only [A356647, Nat.add_sub_cancel]
+end
 
-end A356647
+end A356647.P6767433424201887109
 
 /-! ## A356647.P14949396797554605913
 
@@ -2978,14 +3038,6 @@ end
 
 end A356647.P14949396797554605913
 
-namespace A356647
-
-/-- `A357734(∑[n+2])` -/
-def P14949396797554605913.Spec : Prop :=
-  ∀ n, P14949396797554605913.a n = A356647 (n + 1)
-
-end A356647
-
 /-! ## A356647.P2417615759513893759
 
 `A000120(A043687(n+1))`
@@ -3000,14 +3052,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356647.P2417615759513893759
-
-namespace A356647
-
-/-- `A000120(A043687(n+1))` -/
-def P2417615759513893759.Spec : Prop :=
-  ∀ n, P2417615759513893759.a n = A356647 (n + 1)
-
-end A356647
 
 /-! ## A356647.P14992243598223708314
 
@@ -3024,14 +3068,6 @@ end
 
 end A356647.P14992243598223708314
 
-namespace A356647
-
-/-- `A274009(A043570(n+1))` -/
-def P14992243598223708314.Spec : Prop :=
-  ∀ n, P14992243598223708314.a n = A356647 (n + 1)
-
-end A356647
-
 /-! ## A356647.P10981992215557998184
 
 `A274009(A043742(n+1))`
@@ -3046,14 +3082,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356647.P10981992215557998184
-
-namespace A356647
-
-/-- `A274009(A043742(n+1))` -/
-def P10981992215557998184.Spec : Prop :=
-  ∀ n, P10981992215557998184.a n = A356647 (n + 1)
-
-end A356647
 
 /-! ## A356647.P11669826333344662525
 
@@ -3070,14 +3098,6 @@ end
 
 end A356647.P11669826333344662525
 
-namespace A356647
-
-/-- `A048881(A379267(n+1))` -/
-def P11669826333344662525.Spec : Prop :=
-  ∀ n, P11669826333344662525.a n = A356647 (n + 1)
-
-end A356647
-
 /-! ## A356647.P1427065080330218208
 
 `A048881(A043570(n+1)-1)`
@@ -3092,14 +3112,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356647.P1427065080330218208
-
-namespace A356647
-
-/-- `A048881(A043570(n+1)-1)` -/
-def P1427065080330218208.Spec : Prop :=
-  ∀ n, P1427065080330218208.a n = A356647 (n + 1)
-
-end A356647
 
 /-!
 # A356648: Numbers whose square is of the form k + reversal of digits of k, for some k.
@@ -3713,6 +3725,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356657.P1753255462210646601
+
+/-! ## A356657.P17681218132212671494
+
+`A372792(A219676(n+1))`
+-/
+
+namespace A356657.P17681218132212671494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372792 (A219676 (n + 1)).toNat
+
+end
+
+end A356657.P17681218132212671494
 
 /-!
 # A356658: The number of orderings of the hypercube Q_n whose disorder number is equal to the disorder number of Q_n.

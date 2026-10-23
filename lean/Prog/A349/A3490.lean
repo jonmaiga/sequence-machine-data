@@ -4861,6 +4861,28 @@ end A349077.P1113622891896976927
 The programs for A349079, there is no canonical definition to state claims against.
 -/
 
+/-! ## A349079.P6807993435967257672
+
+`∪[A349080(n+1), A349081(n+1)]`
+-/
+
+namespace A349079.P6807993435967257672
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349080 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349081 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A349079.P6807993435967257672
+
 /-! ## A349079.P14930913323400392937
 
 `∑[A060632(A196012(n+1))%6]`
@@ -4932,24 +4954,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349079.P9290119598937389183
-
-/-! ## A349079.P1748004510952587245
-
-`∑[A000005(A354144(n!/floor(n/2)!²))]`
--/
-
-namespace A349079.P1748004510952587245
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A354144 (SequenceMachineLib.roundAway ((Nat.factorial n : ℚ) / (Nat.factorial ⌊(n : ℚ) / 2⌋.toNat ^ 2 : ℚ))).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A349079.P1748004510952587245
 
 /-!
 # A349080: Numbers k for which there exists only one integer m with 1 <= m <= k such that A000178(k) / m! is a square, where A000178(k) = k$ = 1!*2!*...*k! is the superfactorial of k.

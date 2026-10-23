@@ -30,6 +30,7 @@ import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
@@ -1157,6 +1158,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395852.P2412672334315998453
+
+/-!
+# A395853: Numbers that can be written as the sum of a Fibonacci number and the square of a Fibonacci number.
+
+The programs for A395853, the canonical program `A395853.P3335866657025949553` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395853 has offset 1).
+
+The definition of A395853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 185 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A395853.P3335866657025949553
+
+`comp[A354626(n+1)]`
+
+The canonical program, it is in `Seq.B005.C002`.
+-/
+
+namespace A395853
+
+/-- `comp[A354626(n+1)]` -/
+def P3335866657025949553.Spec : Prop :=
+  ∀ n, (P3335866657025949553.a n : ℤ) = A395853 (n + 1)
+
+theorem P3335866657025949553.correct : P3335866657025949553.Spec := by
+  intro n
+  simp only [A395853, Nat.add_sub_cancel]
+
+end A395853
 
 /-!
 # A395862: Triangle read by rows: T(n,k) = numerator(CF(n,k)), where CF(n,k) = (1/k!) * Sum_{j=0..k} (-1)^j * binomial(k,j) * (k/2-j)^n.

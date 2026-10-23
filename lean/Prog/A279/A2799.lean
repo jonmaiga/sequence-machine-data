@@ -97,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A279900: Number of nX6 0..2 arrays with no element unequal to a strict majority of its king-move neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
@@ -2898,6 +2899,50 @@ end
 
 end A279930.P6474253967593679218
 
+/-! ## A279930.P530954667307772657
+
+`∩[A007416(n+1), A066044(n+1)]`
+-/
+
+namespace A279930.P530954667307772657
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007416 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066044 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A279930.P530954667307772657
+
+/-! ## A279930.P6716582334000149194
+
+`∩[A066044(n+1), A181804(n+1)]`
+-/
+
+namespace A279930.P6716582334000149194
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066044 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181804 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A279930.P6716582334000149194
+
 /-! ## A279930.P5758989549077852306
 
 `∩[A002182(n+1), A329383(n+1)]`
@@ -2942,59 +2987,49 @@ end
 
 end A279930.P11962426908090425843
 
-/-! ## A279930.P12575621721490838794
+/-! ## A279930.P13535906461843083421
 
-`record[gcd(A001842(n+9), A061799(n+7))]`
+`∩[A007416(n+1), A329383(n+1)]`
 -/
 
-namespace A279930.P12575621721490838794
+namespace A279930.P13535906461843083421
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A001842 (n + 9)) (A061799 (n + 7))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007416 (n + 1)
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329383 (n + 1)
+
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A279930.P12575621721490838794
+end A279930.P13535906461843083421
 
-/-! ## A279930.P13970114971895005851
+/-! ## A279930.P1515333203932727443
 
-`record[A061799(A063539(A026242(n+1)))]`
+`∩[A181804(n+1), A329383(n+1)]`
 -/
 
-namespace A279930.P13970114971895005851
+namespace A279930.P1515333203932727443
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061799 (A063539 (A026242 (n + 1)).toNat).toNat
+  A181804 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329383 (n + 1)
 
-end
-
-end A279930.P13970114971895005851
-
-/-! ## A279930.P3467438596331753959
-
-`record[A061799(n+1)%A002110(A033273(n+1))]`
--/
-
-namespace A279930.P3467438596331753959
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A061799 (n + 1)) (A002110 (A033273 (n + 1)).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A279930.P3467438596331753959
+end A279930.P1515333203932727443
 
 /-!
 # A279932: Expansion of Product_{k>0} 1/(1 + x^k)^(k*5).

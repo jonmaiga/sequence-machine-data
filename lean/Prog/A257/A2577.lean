@@ -66,6 +66,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -2643,6 +2644,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257745.P15838698755689727296
+
+/-!
+# A257750: Quasi-Carmichael numbers.
+
+The programs for A257750, there is no canonical definition to state claims against.
+-/
+
+/-! ## A257750.P15017638096647435202
+
+`∪[A259282(n+1), A259283(n+1)]`
+-/
+
+namespace A257750.P15017638096647435202
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259282 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259283 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A257750.P15017638096647435202
 
 /-!
 # A257751: Quasi-Carmichael numbers to exactly one base.

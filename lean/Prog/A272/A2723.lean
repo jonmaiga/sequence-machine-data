@@ -3308,6 +3308,50 @@ end
 
 end A272338.P14929335294540063775
 
+/-! ## A272338.P16160697005635918205
+
+`∩[A112398(n+1), A156997(n+1)]`
+-/
+
+namespace A272338.P16160697005635918205
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112398 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156997 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A272338.P16160697005635918205
+
+/-! ## A272338.P2211105937696022263
+
+`∩[A138217(n+1), A156997(n+1)]`
+-/
+
+namespace A272338.P2211105937696022263
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138217 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156997 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A272338.P2211105937696022263
+
 /-!
 # A272340: First differences of 1/p(n), reciprocal of the number p(n) of unrestricted partitions of n (denominator).
 
@@ -5343,6 +5387,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A272368.P17392563187536612905
+
+/-!
+# A272370: Number of geometrically inscriptible regular polygons with fewer than 2^n + 1 sides.
+
+The programs for A272370, there is no canonical definition to state claims against.
+-/
+
+/-! ## A272370.P16785081714553905823
+
+`A141214(n)-(2*n+3)`
+-/
+
+namespace A272370.P16785081714553905823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141214 n - (2 * n + 3 : ℤ)
+
+end
+
+end A272370.P16785081714553905823
 
 /-!
 # A272373: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 601", based on the 5-celled von Neumann neighborhood.

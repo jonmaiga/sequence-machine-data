@@ -43,7 +43,6 @@ import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -2846,6 +2845,21 @@ end
 
 end A324823.P7641026312273397832
 
+/-! ## A324823.P4557600447189089913
+
+`A324867(n+1)%2`
+-/
+
+namespace A324823.P4557600447189089913
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A324867 (n + 1)) 2
+
+end
+
+end A324823.P4557600447189089913
+
 /-!
 # A324824: a(n) = 1 if n>1 and sigma(A156552(n)) is congruent to 2 modulo 4, otherwise a(n) = 0.
 
@@ -3847,6 +3861,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A324828.P7676552415085678403
+
+/-! ## A324828.P3079284575138398500
+
+`and(A000051(n), A324712(n+1))`
+-/
+
+namespace A324828.P3079284575138398500
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A000051 n) (A324712 (n + 1))
+
+end
+
+end A324828.P3079284575138398500
 
 /-!
 # A324829: a(n) = A000120(A324712(n)); binary weight of Xor-Moebius transform of A323243.
@@ -5474,6 +5503,36 @@ def P65559250402228061.Spec : Prop :=
 
 end A324847
 
+/-! ## A324847.P5803358477115623580
+
+`∪[A097216(n+1), A323440(n+1)]`
+-/
+
+namespace A324847.P5803358477115623580
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097216 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323440 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324847.P5803358477115623580
+
+namespace A324847
+
+/-- `∪[A097216(n+1), A323440(n+1)]` -/
+def P5803358477115623580.Spec : Prop :=
+  ∀ n, (P5803358477115623580.a n : ℤ) = A324847 (n + 1)
+
+end A324847
+
 /-!
 # A324848: Number of prime indices of n (counted with multiplicity) that divide n.
 
@@ -6450,6 +6509,28 @@ end
 
 end A324855.P322591179373976171
 
+/-! ## A324855.P17376303369850907627
+
+`∩[A276625(n+1), A324698(n+1)]`
+-/
+
+namespace A324855.P17376303369850907627
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276625 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324698 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324855.P17376303369850907627
+
 /-! ## A324855.P4512947633621853884
 
 `∩[A297571(n+1), A324698(n+1)]`
@@ -6471,28 +6552,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A324855.P4512947633621853884
-
-/-! ## A324855.P4702476420098580432
-
-`∩[A324698(n+1), A276625(n+2)]`
--/
-
-namespace A324855.P4702476420098580432
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324698 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276625 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A324855.P4702476420098580432
 
 /-!
 # A324856: Numbers divisible by exactly one of their prime indices.

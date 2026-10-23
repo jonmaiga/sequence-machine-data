@@ -89,6 +89,32 @@ def P10987935024657733570.Spec : Prop :=
 
 end A015000
 
+/-! ## A015000.P6630608341139959219
+
+`∑[ogf(1/(1+13x))]`
+-/
+
+namespace A015000.P6630608341139959219
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1] [1, 13] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A015000.P6630608341139959219
+
+namespace A015000
+
+/-- `∑[ogf(1/(1+13x))]` -/
+def P6630608341139959219.Spec : Prop :=
+  ∀ n, P6630608341139959219.a n = A015000 (n + 1)
+
+end A015000
+
 /-! ## A015000.P13930383129571415315
 
 `ogf(1/(1+12x-13x^2))`
@@ -5945,6 +5971,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015087.P244374457950118941
+
+/-! ## A015087.P888025977132110839
+
+`A015241(A047565(n+1))`
+-/
+
+namespace A015087.P888025977132110839
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015241 (A047565 (n + 1)).toNat
+
+end
+
+end A015087.P888025977132110839
 
 /-! ## A015087.P2423129958626398006
 

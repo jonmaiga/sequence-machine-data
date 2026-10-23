@@ -30,6 +30,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +59,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -5600,7 +5600,7 @@ end A279356.P6093579675963271204
 /-!
 # A279357: a(n) = A005187(n) XOR A005187(n+1).
 
-The programs for A279357, the canonical program `A279357.P8695073576768170559` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279357 has offset 0).
+The programs for A279357, the canonical program `A279357.P8695073576768170559` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279357 has offset 0).
 
 The definition of A279357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5609,7 +5609,7 @@ The definition of A279357 is `conjectured`: the Lean definition is a formula tha
 
 `xor(Δ[A122247(n)], A005187(n))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279357
@@ -5977,7 +5977,7 @@ end A279361.P16148327313078326952
 /-!
 # A279363: Sum of 4th powers of proper divisors of n.
 
-The programs for A279363, the canonical program `A279363.P36880166466637901` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279363 has offset 1).
+The programs for A279363, the canonical program `A279363.P36880166466637901` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279363 has offset 1).
 
 The definition of A279363 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001159, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5986,7 +5986,7 @@ The definition of A279363 is `conditional`: the Lean definition is an OEIS formu
 
 `A001159(n+1)-A000583(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279363
@@ -6261,6 +6261,52 @@ def P4501190981736906905.Spec : Prop :=
 
 end A279363
 
+/-! ## A279363.P11288131505502474985
+
+`A001159(n+1)-A386784(n+1)/A001159(n+1)`
+-/
+
+namespace A279363.P11288131505502474985
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001159 (n + 1) : ℚ) - (A386784 (n + 1) : ℚ) / (A001159 (n + 1) : ℚ)
+
+end
+
+end A279363.P11288131505502474985
+
+namespace A279363
+
+/-- `A001159(n+1)-A386784(n+1)/A001159(n+1)` -/
+def P11288131505502474985.Spec : Prop :=
+  ∀ n, P11288131505502474985.a n = (A279363 (n + 1) : ℚ)
+
+end A279363
+
+/-! ## A279363.P10078500166831616474
+
+`A001159(n+1)-A386788(n+1)/A013956(n+1)`
+-/
+
+namespace A279363.P10078500166831616474
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001159 (n + 1) : ℚ) - (A386788 (n + 1) : ℚ) / (A013956 (n + 1) : ℚ)
+
+end
+
+end A279363.P10078500166831616474
+
+namespace A279363
+
+/-- `A001159(n+1)-A386788(n+1)/A013956(n+1)` -/
+def P10078500166831616474.Spec : Prop :=
+  ∀ n, P10078500166831616474.a n = (A279363 (n + 1) : ℚ)
+
+end A279363
+
 /-! ## A279363.P954362932472384260
 
 `A328271((n+1)²)-(n+1)²²`
@@ -6281,6 +6327,29 @@ namespace A279363
 /-- `A328271((n+1)²)-(n+1)²²` -/
 def P954362932472384260.Spec : Prop :=
   ∀ n, P954362932472384260.a n = A279363 (n + 1)
+
+end A279363
+
+/-! ## A279363.P11983143881143306662
+
+`A001159(n+1)-A000290(A000290(n+1))`
+-/
+
+namespace A279363.P11983143881143306662
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001159 (n + 1) - A000290 (A000290 (n + 1)).toNat
+
+end
+
+end A279363.P11983143881143306662
+
+namespace A279363
+
+/-- `A001159(n+1)-A000290(A000290(n+1))` -/
+def P11983143881143306662.Spec : Prop :=
+  ∀ n, P11983143881143306662.a n = A279363 (n + 1)
 
 end A279363
 
@@ -8452,6 +8521,28 @@ end
 
 end A279392.P11935616064274139065
 
+/-! ## A279392.P2266694062271023918
+
+`∪[A087877(n+1), A087880(n+1)]`
+-/
+
+namespace A279392.P2266694062271023918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087877 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087880 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A279392.P2266694062271023918
+
 /-!
 # A279393: Bisection of primes congruent to 1 modulo 4 (A002144), depending on the corresponding sum of the A002972 and 2*A002973 entries being congruent to 1 modulo 4 or not. Here we give the second case.
 
@@ -8565,6 +8656,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A279393.P10845175147260958501
+
+/-! ## A279393.P1543508218203407817
+
+`∪[A087878(n+1), A087879(n+1)]`
+-/
+
+namespace A279393.P1543508218203407817
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087878 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087879 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A279393.P1543508218203407817
 
 /-!
 # A279394: Triangle read by rows, T(n,m) = sigma_{n-m}(m) for n >= 1, m = 1,2, ..., n.

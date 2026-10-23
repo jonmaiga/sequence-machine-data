@@ -24,6 +24,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -42,7 +43,6 @@ import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -1813,27 +1813,86 @@ end A188914
 /-!
 # A188915: Union of squares and powers of 2.
 
-The programs for A188915, the canonical program `A188915.P11418170771548926014` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188915 has offset 0).
+The programs for A188915, the canonical program `A188915.P17182178053421537858` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188915 has offset 0).
 
-The definition of A188915 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A188915 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A188915.P17182178053421537858
+
+`∪[n², 2^n]`
+
+The canonical program, it is in `Seq.B000.C026`.
+-/
+
+namespace A188915
+
+/-- `∪[n², 2^n]` -/
+def P17182178053421537858.Spec : Prop :=
+  ∀ n, (P17182178053421537858.a n : ℤ) = A188915 n
+
+theorem P17182178053421537858.correct : P17182178053421537858.Spec := by
+  intro n
+  simp only [A188915]
+
+end A188915
+
+/-! ## A188915.P1268182403989503372
+
+`sqrt(∪[4^n, n^4])`
+-/
+
+namespace A188915.P1268182403989503372
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 ^ n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 4
+
+open Classical in
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n : ℝ)
+
+end
+
+end A188915.P1268182403989503372
+
+namespace A188915
+
+/-- `sqrt(∪[4^n, n^4])` -/
+def P1268182403989503372.Spec : Prop :=
+  ∀ n, P1268182403989503372.a n = (A188915 n : ℝ)
+
+end A188915
 
 /-! ## A188915.P11418170771548926014
 
 `eq[A209229(A056926(n)), A209229(n)]`
-
-The canonical program, it is in `Seq.B002.C003`.
 -/
+
+namespace A188915.P11418170771548926014
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209229 (A056926 n).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209229 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A188915.P11418170771548926014
 
 namespace A188915
 
 /-- `eq[A209229(A056926(n)), A209229(n)]` -/
 def P11418170771548926014.Spec : Prop :=
   ∀ n, (P11418170771548926014.a n : ℤ) = A188915 n
-
-theorem P11418170771548926014.correct : P11418170771548926014.Spec := by
-  intro n
-  simp only [A188915]
 
 end A188915
 

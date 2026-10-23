@@ -1386,6 +1386,25 @@ end
 
 end A004825.P466426082083763588
 
+/-! ## A004825.P13026735682285875652
+
+`comp[A022561(n+1)]`
+-/
+
+namespace A004825.P13026735682285875652
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022561 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A004825.P13026735682285875652
+
 /-! ## A004825.P13703999969768081618
 
 `lt[0, A025447(n)]`
@@ -2115,6 +2134,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004828.P1567723004906040916
+
+/-! ## A004828.P7037904989639541829
+
+`∪[A004827(n+1), A046040(n+1)]`
+-/
+
+namespace A004828.P7037904989639541829
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004827 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046040 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A004828.P7037904989639541829
 
 /-! ## A004828.P3354526903235450950
 
@@ -8664,6 +8705,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A004877.P10751888188117369295
+
+/-! ## A004877.P10278346174069482041
+
+`A039723(A039723(A073794(A073786(A073790(n)))))`
+-/
+
+namespace A004877.P10278346174069482041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039723 (A039723 (A073794 (A073786 (A073790 n).toNat).toNat).toNat).toNat
+
+end
+
+end A004877.P10278346174069482041
 
 /-!
 # A004878: Numbers that are the sum of at most 5 nonzero 8th powers.

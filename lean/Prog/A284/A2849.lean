@@ -62,7 +62,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -2460,6 +2459,32 @@ def P7854867763564588525.Spec : Prop :=
 
 end A284907
 
+/-! ## A284907.P7018162816830494556
+
+`filter[n+1, A284905(#)]`
+-/
+
+namespace A284907.P7018162816830494556
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A284905 (f1 j) = 1) n)
+
+end
+
+end A284907.P7018162816830494556
+
+namespace A284907
+
+/-- `filter[n+1, A284905(#)]` -/
+def P7018162816830494556.Spec : Prop :=
+  ∀ n, (P7018162816830494556.a n : ℤ) = A284907 (n + 1)
+
+end A284907
+
 /-!
 # A284908: a(n) = A000009(A000009(n)).
 
@@ -3861,6 +3886,29 @@ namespace A284913
 /-- `A000463(A189728(n+1)+n)` -/
 def P13612332964827322691.Spec : Prop :=
   ∀ n, P13612332964827322691.a n = A284913 (n + 1)
+
+end A284913
+
+/-! ## A284913.P245900226987838721
+
+`A189671(2*A189728(n+1))`
+-/
+
+namespace A284913.P245900226987838721
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189671 (2 * A189728 (n + 1)).toNat
+
+end
+
+end A284913.P245900226987838721
+
+namespace A284913
+
+/-- `A189671(2*A189728(n+1))` -/
+def P245900226987838721.Spec : Prop :=
+  ∀ n, P245900226987838721.a n = A284913 (n + 1)
 
 end A284913
 
@@ -15407,6 +15455,28 @@ end A284985
 The programs for A284986, there is no canonical definition to state claims against.
 -/
 
+/-! ## A284986.P8640164766573064999
+
+`∩[A035123(n+1), A129914(n+1)]`
+-/
+
+namespace A284986.P8640164766573064999
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035123 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129914 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A284986.P8640164766573064999
+
 /-! ## A284986.P12163425177745450948
 
 `sqrt(A319570(n+1))`
@@ -15457,21 +15527,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A284986.P12193051936712037030
-
-/-! ## A284986.P6821183574616948207
-
-`root(A319570(n+1), A020639(2*(n+1)))`
--/
-
-namespace A284986.P6821183574616948207
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A319570 (n + 1) : ℝ) ^ (1 / (A020639 (2 * (n + 1)) : ℝ))
-
-end
-
-end A284986.P6821183574616948207
 
 /-!
 # A284988: Number of distinct products i*j*k*l*m for 1 <= i <= j <= k <= l <= m <= n.

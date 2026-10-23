@@ -38,6 +38,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -570,6 +571,25 @@ end
 
 end A290808.P14214186158582225330
 
+/-! ## A290808.P8421249043084801183
+
+`char[A352328(n)]`
+-/
+
+namespace A290808.P8421249043084801183
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352328 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A290808.P8421249043084801183
+
 /-! ## A290808.P12960147923296583439
 
 `1-round(n/A138683(n+1))`
@@ -629,21 +649,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A290808.P15748435829611944099
-
-/-! ## A290808.P4561409702461628201
-
-`A000045(xor(1, round(n/A138683(n+1))))`
--/
-
-namespace A290808.P4561409702461628201
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (Int.xor 1 (SequenceMachineLib.roundAway ((n : ℚ) / (A138683 (n + 1) : ℚ)))).toNat
-
-end
-
-end A290808.P4561409702461628201
 
 /-!
 # A290809: One of the two successive approximations up to 7^n for the 7-adic integer sqrt(-5). These are the numbers congruent to 4 mod 7 (except for the initial 0).
@@ -7114,6 +7119,147 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A290895.P8931122566517876749
+
+/-! ## A290895.P8972281611986623523
+
+`A054900(A054360(n+2))`
+-/
+
+namespace A290895.P8972281611986623523
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054900 (A054360 (n + 2)).toNat
+
+end
+
+end A290895.P8972281611986623523
+
+/-! ## A290895.P6844338429571660767
+
+`A178898(A294812(n+2))`
+-/
+
+namespace A290895.P6844338429571660767
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178898 (A294812 (n + 2)).toNat
+
+end
+
+end A290895.P6844338429571660767
+
+/-! ## A290895.P10314478743647449107
+
+`A178898(A349977(n+2))`
+-/
+
+namespace A290895.P10314478743647449107
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178898 (A349977 (n + 2)).toNat
+
+end
+
+end A290895.P10314478743647449107
+
+/-! ## A290895.P15646303227159636172
+
+`A235044(A331944(n+2))`
+-/
+
+namespace A290895.P15646303227159636172
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235044 (A331944 (n + 2)).toNat
+
+end
+
+end A290895.P15646303227159636172
+
+/-!
+# A290896: p-INVERT of the positive integers, where p(S) = 1 - S^8.
+
+The programs for A290896, there is no canonical definition to state claims against.
+-/
+
+/-! ## A290896.P666453416210634868
+
+`A160715(A011852(n))`
+-/
+
+namespace A290896.P666453416210634868
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160715 (A011852 n).toNat
+
+end
+
+end A290896.P666453416210634868
+
+/-! ## A290896.P3146670254227221895
+
+`A111338(A373913(n))`
+-/
+
+namespace A290896.P3146670254227221895
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111338 (A373913 n).toNat
+
+end
+
+end A290896.P3146670254227221895
+
+/-! ## A290896.P5604660910506708158
+
+`A111338(A212387(n+1))`
+-/
+
+namespace A290896.P5604660910506708158
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111338 (A212387 (n + 1)).toNat
+
+end
+
+end A290896.P5604660910506708158
+
+/-! ## A290896.P6647873164181638041
+
+`A111338(A306859(n+1))`
+-/
+
+namespace A290896.P6647873164181638041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111338 (A306859 (n + 1)).toNat
+
+end
+
+end A290896.P6647873164181638041
+
+/-! ## A290896.P3759881677921665606
+
+`A070263(A357291(n+1))`
+-/
+
+namespace A290896.P3759881677921665606
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070263 (A357291 (n + 1)).toNat
+
+end
+
+end A290896.P3759881677921665606
 
 /-!
 # A290897: p-INVERT of the positive integers, where p(S) = 1 - S - S^3.

@@ -5,10 +5,12 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C013
 import Seq.B001.C002
+import Seq.B001.C004
 import Seq.B003.C002
 import Seq.B004.C001
 import Seq.Opaque.C001
 import Seq.Opaque.C002
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -170,6 +172,90 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169449.P18098352696573812499
+
+/-!
+# A169452: 
+
+The programs for A169452, there is no canonical definition to state claims against.
+-/
+
+/-! ## A169452.P12192295241496402208
+
+`A151791(2^n)`
+-/
+
+namespace A169452.P12192295241496402208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151791 (2 ^ n)
+
+end
+
+end A169452.P12192295241496402208
+
+/-! ## A169452.P16140561174564691866
+
+`record[A151791(n+1)]`
+-/
+
+namespace A169452.P16140561174564691866
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151791 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A169452.P16140561174564691866
+
+/-! ## A169452.P576800358301269827
+
+`A033043(A003945(n))`
+-/
+
+namespace A169452.P576800358301269827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033043 (A003945 n).toNat
+
+end
+
+end A169452.P576800358301269827
+
+/-! ## A169452.P568212604665741918
+
+`A033043(A166857(n))`
+-/
+
+namespace A169452.P568212604665741918
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033043 (A166857 n).toNat
+
+end
+
+end A169452.P568212604665741918
+
+/-! ## A169452.P17993054434600551298
+
+`A033043(A167104(n))`
+-/
+
+namespace A169452.P17993054434600551298
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033043 (A167104 n).toNat
+
+end
+
+end A169452.P17993054434600551298
 
 /-!
 # A169496: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^34 = I.

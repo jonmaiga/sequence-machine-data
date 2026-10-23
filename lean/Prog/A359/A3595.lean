@@ -6952,6 +6952,28 @@ end
 
 end A359565.P18134217531498225853
 
+/-! ## A359565.P11876893475161564312
+
+`∩[A227180(n+1), A354583(n+1)]`
+-/
+
+namespace A359565.P11876893475161564312
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227180 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354583 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359565.P11876893475161564312
+
 /-!
 # A359566: Primitive terms of A359565: terms of A359565 with no proper divisor in A359565.
 

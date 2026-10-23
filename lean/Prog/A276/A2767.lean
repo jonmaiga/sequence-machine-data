@@ -5502,7 +5502,7 @@ end A276780.P9705401650993124799
 /-!
 # A276781: a(n) = 1+n-(nearest power of prime <= n); for n > 1, a(n) = minimal b such that the numbers binomial(n,k) for b <= k <= n-b have a common divisor greater than 1.
 
-The programs for A276781, the canonical program `A276781.P2604158077506703315` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276781 has offset 1).
+The programs for A276781, the canonical program `A276781.P2604158077506703315` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276781 has offset 1).
 
 The definition of A276781 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5534,7 +5534,7 @@ end A276781
 
 `2-A031218(n+1)+n`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A276781
@@ -6007,24 +6007,24 @@ end
 
 end A276784.P13185014972587734440
 
-/-! ## A276784.P17352601631608794656
+/-! ## A276784.P17779263724860702540
 
-`comp[A276783(n)]%A276783(n+2)`
+`comp[A276783(n)]`
 -/
 
-namespace A276784.P17352601631608794656
+namespace A276784.P17779263724860702540
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A276783 n
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A276783 (n + 2))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A276784.P17352601631608794656
+end A276784.P17779263724860702540
 
 /-! ## A276784.P2065320240980059826
 
@@ -6044,25 +6044,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A276784.P2065320240980059826
-
-/-! ## A276784.P559807818747906666
-
-`comp[A276783(n)]*A062157((n+1)*A163300(n+1)+1)`
--/
-
-namespace A276784.P559807818747906666
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276783 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) * A062157 ((n + 1 : ℤ) * A163300 (n + 1) + 1).toNat
-
-end
-
-end A276784.P559807818747906666
 
 /-!
 # A276785: Number of binary strings of length n containing the substring 11011.
@@ -8070,34 +8051,26 @@ def P7505443760931186703.Spec : Prop :=
 
 end A276791
 
-/-! ## A276791.P11111827611839100187
+/-! ## A276791.P8851123182951391218
 
-`char[n*char[A003146(n+1)]]`
+`A017557(n)%A305374(n)`
 -/
 
-namespace A276791.P11111827611839100187
+namespace A276791.P8851123182951391218
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003146 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * (if ∃ j, f2 j = (n : ℤ) then 1 else 0)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A017557 n) (A305374 n)
 
 end
 
-end A276791.P11111827611839100187
+end A276791.P8851123182951391218
 
 namespace A276791
 
-/-- `char[n*char[A003146(n+1)]]` -/
-def P11111827611839100187.Spec : Prop :=
-  ∀ n, (P11111827611839100187.a n : ℤ) = A276791 n
+/-- `A017557(n)%A305374(n)` -/
+def P8851123182951391218.Spec : Prop :=
+  ∀ n, P8851123182951391218.a n = A276791 n
 
 end A276791
 

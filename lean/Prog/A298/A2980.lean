@@ -59,7 +59,6 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
@@ -87,6 +86,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
@@ -11654,29 +11654,23 @@ end A298072.P6677919103302013247
 /-!
 # A298073: The first of three consecutive integers the sum of which is equal to the sum of three consecutive prime numbers.
 
-The programs for A298073, the canonical program `A298073.P1727978061545907446` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298073 has offset 1).
-
-The definition of A298073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A298073, there is no canonical definition to state claims against.
 -/
 
 /-! ## A298073.P1727978061545907446
 
 `A075540(n+1)-1`
-
-The canonical program, it is in `Seq.B008.C001`.
 -/
 
-namespace A298073
+namespace A298073.P1727978061545907446
+noncomputable section
 
-/-- `A075540(n+1)-1` -/
-def P1727978061545907446.Spec : Prop :=
-  ∀ n, P1727978061545907446.a n = A298073 (n + 1)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075540 (n + 1) - 1
 
-theorem P1727978061545907446.correct : P1727978061545907446.Spec := by
-  intro n
-  simp only [A298073, Nat.add_sub_cancel]
+end
 
-end A298073
+end A298073.P1727978061545907446
 
 /-! ## A298073.P18008240890509504162
 
@@ -11692,14 +11686,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298073.P18008240890509504162
-
-namespace A298073
-
-/-- `xor(1, A075540(n+1)%A051795(n+1))` -/
-def P18008240890509504162.Spec : Prop :=
-  ∀ n, P18008240890509504162.a n = A298073 (n + 1)
-
-end A298073
 
 /-! ## A298073.P15016538316978374402
 
@@ -11723,14 +11709,6 @@ end
 
 end A298073.P15016538316978374402
 
-namespace A298073
-
-/-- `∪[A006562(n+1), A345363(n+1)]-1` -/
-def P15016538316978374402.Spec : Prop :=
-  ∀ n, P15016538316978374402.a n = A298073 (n + 1)
-
-end A298073
-
 /-! ## A298073.P15712223818576008362
 
 `xor(log2(A020639(2*(n+2))), A075540(n+1))`
@@ -11745,14 +11723,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298073.P15712223818576008362
-
-namespace A298073
-
-/-- `xor(log2(A020639(2*(n+2))), A075540(n+1))` -/
-def P15712223818576008362.Spec : Prop :=
-  ∀ n, P15712223818576008362.a n = A298073 (n + 1)
-
-end A298073
 
 /-! ## A298073.P10539794320002708047
 
@@ -11769,14 +11739,6 @@ end
 
 end A298073.P10539794320002708047
 
-namespace A298073
-
-/-- `xor(A057237(A008458(n)), A075540(n+1))` -/
-def P10539794320002708047.Spec : Prop :=
-  ∀ n, P10539794320002708047.a n = A298073 (n + 1)
-
-end A298073
-
 /-! ## A298073.P3607989268521076467
 
 `xor(A057237(A008574(n)), A075540(n+1))`
@@ -11791,14 +11753,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298073.P3607989268521076467
-
-namespace A298073
-
-/-- `xor(A057237(A008574(n)), A075540(n+1))` -/
-def P3607989268521076467.Spec : Prop :=
-  ∀ n, P3607989268521076467.a n = A298073 (n + 1)
-
-end A298073
 
 /-! ## A298073.P10611431314677090575
 
@@ -11815,14 +11769,6 @@ end
 
 end A298073.P10611431314677090575
 
-namespace A298073
-
-/-- `xor(A008966(A020639(n+1)), A075540(n+1))` -/
-def P10611431314677090575.Spec : Prop :=
-  ∀ n, P10611431314677090575.a n = A298073 (n + 1)
-
-end A298073
-
 /-! ## A298073.P14965542885016132213
 
 `xor(A001222(A054643(n+1)), A075540(n+1))`
@@ -11837,14 +11783,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298073.P14965542885016132213
-
-namespace A298073
-
-/-- `xor(A001222(A054643(n+1)), A075540(n+1))` -/
-def P14965542885016132213.Spec : Prop :=
-  ∀ n, P14965542885016132213.a n = A298073 (n + 1)
-
-end A298073
 
 /-! ## A298073.P14697581426674036239
 
@@ -11861,14 +11799,6 @@ end
 
 end A298073.P14697581426674036239
 
-namespace A298073
-
-/-- `xor(A001222(A006562(n+1)), A075540(n+1))` -/
-def P14697581426674036239.Spec : Prop :=
-  ∀ n, P14697581426674036239.a n = A298073 (n + 1)
-
-end A298073
-
 /-! ## A298073.P3528884371779896283
 
 `xor(A001222(A122535(n+1)), A075540(n+1))`
@@ -11883,14 +11813,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298073.P3528884371779896283
-
-namespace A298073
-
-/-- `xor(A001222(A122535(n+1)), A075540(n+1))` -/
-def P3528884371779896283.Spec : Prop :=
-  ∀ n, P3528884371779896283.a n = A298073 (n + 1)
-
-end A298073
 
 /-! ## A298073.P11034371457085891510
 
@@ -11907,14 +11829,6 @@ end
 
 end A298073.P11034371457085891510
 
-namespace A298073
-
-/-- `xor(A001222(A181424(n+1)), A075540(n+1))` -/
-def P11034371457085891510.Spec : Prop :=
-  ∀ n, P11034371457085891510.a n = A298073 (n + 1)
-
-end A298073
-
 /-! ## A298073.P2890688711276926141
 
 `A075553(A075520(n+1))+A075540(n+1)`
@@ -11930,14 +11844,6 @@ end
 
 end A298073.P2890688711276926141
 
-namespace A298073
-
-/-- `A075553(A075520(n+1))+A075540(n+1)` -/
-def P2890688711276926141.Spec : Prop :=
-  ∀ n, P2890688711276926141.a n = A298073 (n + 1)
-
-end A298073
-
 /-! ## A298073.P3364624516882148811
 
 `A004442(A075540(n+1))`
@@ -11952,14 +11858,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298073.P3364624516882148811
-
-namespace A298073
-
-/-- `A004442(A075540(n+1))` -/
-def P3364624516882148811.Spec : Prop :=
-  ∀ n, P3364624516882148811.a n = A298073 (n + 1)
-
-end A298073
 
 /-!
 # A298075: Primes p whose last digit is the same as that of both its predecessor prime and its successor prime.

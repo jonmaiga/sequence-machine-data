@@ -2820,6 +2820,21 @@ end
 
 end A359763.P16279444479222447966
 
+/-! ## A359763.P12777636453413903289
+
+`A359780(A003961(2*n+1-n))`
+-/
+
+namespace A359763.P12777636453413903289
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359780 (A003961 (2 * n + 1 - n)).toNat
+
+end
+
+end A359763.P12777636453413903289
+
 /-! ## A359763.P14494272683761664473
 
 `A359815(A359600(2*n+1-n))`
@@ -2834,6 +2849,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A359763.P14494272683761664473
+
+/-! ## A359763.P5385173463586041778
+
+`A353418(A357983(n+1))`
+-/
+
+namespace A359763.P5385173463586041778
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353418 (A357983 (n + 1)).toNat
+
+end
+
+end A359763.P5385173463586041778
+
+/-! ## A359763.P17425081485240375312
+
+`A353418(A297002(n+1))`
+-/
+
+namespace A359763.P17425081485240375312
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353418 (A297002 (n + 1)).toNat
+
+end
+
+end A359763.P17425081485240375312
 
 /-!
 # A359764: Parity of A359763, where A359763 is the Dirichlet inverse of characteristic function of the numbers with an even number of prime factors (counted with multiplicity).
@@ -7807,6 +7852,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A359784.P11150891105692912233
+
+/-! ## A359784.P10199991026643216546
+
+`∩[A359782(n+1), A359831(n+1)]`
+-/
+
+namespace A359784.P10199991026643216546
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359782 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359831 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359784.P10199991026643216546
 
 /-!
 # A359785: Dirichlet inverse of A320655, where A320655(n) is the number of factorizations of n into semiprimes.

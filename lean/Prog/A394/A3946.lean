@@ -6,6 +6,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C015
@@ -57,6 +58,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -322,20 +324,20 @@ end
 
 end A394617.P3924115041287688847
 
-/-! ## A394617.P2056883488501859878
+/-! ## A394617.P4071220877758946635
 
-`A027623(n+1)-A186116(n+1)`
+`gcd(A389300(n), A394618(n+1))`
 -/
 
-namespace A394617.P2056883488501859878
+namespace A394617.P4071220877758946635
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027623 (n + 1) - A186116 (n + 1)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A389300 n) (A394618 (n + 1))
 
 end
 
-end A394617.P2056883488501859878
+end A394617.P4071220877758946635
 
 /-!
 # A394618: Number of 5-generated groups of order n: groups that have a generating set of size <= 5.
@@ -1228,6 +1230,29 @@ namespace A394656
 /-- `n*(n-1)*(n-2)²*(n²-7*n+18)/36` -/
 def P10718894364618988177.Spec : Prop :=
   ∀ n, P10718894364618988177.a n = (A394656 n : ℚ)
+
+end A394656
+
+/-! ## A394656.P5520390250157232182
+
+`A002417(n+1)/A047927(n+3)*A395461(n)`
+-/
+
+namespace A394656.P5520390250157232182
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002417 (n + 1) : ℚ) / (A047927 (n + 3) : ℚ) * (A395461 n : ℚ)
+
+end
+
+end A394656.P5520390250157232182
+
+namespace A394656
+
+/-- `A002417(n+1)/A047927(n+3)*A395461(n)` -/
+def P5520390250157232182.Spec : Prop :=
+  ∀ n, P5520390250157232182.a n = (A394656 n : ℚ)
 
 end A394656
 

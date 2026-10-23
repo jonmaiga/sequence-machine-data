@@ -7038,21 +7038,6 @@ end
 
 end A220175.P12754215301139201520
 
-/-! ## A220175.P13194250152398809465
-
-`4^A267654(n²)`
--/
-
-namespace A220175.P13194250152398809465
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (4 : ℚ) ^ (A267654 (n ^ 2) : ℤ)
-
-end
-
-end A220175.P13194250152398809465
-
 /-!
 # A220176: Sum of neighbor maps: number of nX5 binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal, vertical and antidiagonal neighbors in a random 0..2 nX5 array.
 

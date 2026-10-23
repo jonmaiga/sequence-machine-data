@@ -54,6 +54,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -93,7 +94,7 @@ set_option linter.unreachableTactic false
 /-!
 # A079700: a(n) is the 2-adic valuation of the n-th even nontotient.
 
-The programs for A079700, the canonical program `A079700.P9994903105198230930` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079700 has offset 1).
+The programs for A079700, the canonical program `A079700.P9994903105198230930` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079700 has offset 1).
 
 The definition of A079700 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005277, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -102,7 +103,7 @@ The definition of A079700 is `conditional`: the Lean definition is an OEIS formu
 
 `A007814(A005277(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A079700
@@ -8843,26 +8844,26 @@ theorem P3235896766038377865.correct : P3235896766038377865.Spec := by
 
 end A079752
 
-/-! ## A079752.P12704605819697929192
+/-! ## A079752.P4176912151760421300
 
-`n+1+(n+3)*a(n-1)` with `a(0)=0`
+`(a(n-1)+1)*(n+3)-2` with `a(0)=0`
 -/
 
-namespace A079752.P12704605819697929192
+namespace A079752.P4176912151760421300
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  n + 1 + (n + 3) * a (n - 1)
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (a (n - 1) + 1) * (n + 3 : ℤ) - 2
 
 end
 
-end A079752.P12704605819697929192
+end A079752.P4176912151760421300
 
 namespace A079752
 
-/-- `n+1+(n+3)*a(n-1)` -/
-def P12704605819697929192.Spec : Prop :=
-  ∀ n, (P12704605819697929192.a n : ℤ) = A079752 (n + 3)
+/-- `(a(n-1)+1)*(n+3)-2` -/
+def P4176912151760421300.Spec : Prop :=
+  ∀ n, P4176912151760421300.a n = A079752 (n + 3)
 
 end A079752
 
@@ -9147,6 +9148,31 @@ namespace A079754
 /-- `∑[n]+(n+3)*a(n-1)` -/
 def P6966865467954793438.Spec : Prop :=
   ∀ n, (P6966865467954793438.a n : ℤ) = A079754 (n + 3)
+
+end A079754
+
+/-! ## A079754.P16393379881693659358
+
+`floor(C(n+1, 2)+(n+3)*a(n-1))` with `a(0)=0`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A079754.P16393379881693659358
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+  Nat.choose (n + 1) 2 + (n + 3) * a (n - 1)
+
+end
+
+end A079754.P16393379881693659358
+
+namespace A079754
+
+/-- `floor(C(n+1, 2)+(n+3)*a(n-1))` -/
+def P16393379881693659358.Spec : Prop :=
+  ∀ n, (P16393379881693659358.a n : ℤ) = A079754 (n + 3)
 
 end A079754
 

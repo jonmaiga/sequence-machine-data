@@ -1533,6 +1533,32 @@ def P7156195352622891639.Spec : Prop :=
 
 end A217441
 
+/-! ## A217441.P6799464315183959347
+
+`∑[n*A040143(n+1)]`
+-/
+
+namespace A217441.P6799464315183959347
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * A040143 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A217441.P6799464315183959347
+
+namespace A217441
+
+/-- `∑[n*A040143(n+1)]` -/
+def P6799464315183959347.Spec : Prop :=
+  ∀ n, P6799464315183959347.a n = A217441 (n + 1)
+
+end A217441
+
 /-! ## A217441.P6862958540528388581
 
 `A219389(A042948(n+1))/2`
@@ -3073,6 +3099,28 @@ end
 
 end A217460.P3405759358226598088
 
+/-! ## A217460.P7342423896764942978
+
+`∪[A079290(n+1), A216848(n+1)]`
+-/
+
+namespace A217460.P7342423896764942978
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079290 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216848 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217460.P7342423896764942978
+
 /-! ## A217460.P5722925003154522715
 
 `∪[A108989(n+1), A216848(n+1)]`
@@ -3138,28 +3186,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A217460.P5238957950481369628
-
-/-! ## A217460.P10598151326703757661
-
-`∪[A139392(n+1), A216848(n+1)]`
--/
-
-namespace A217460.P10598151326703757661
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139392 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216848 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A217460.P10598151326703757661
 
 /-!
 # A217461: G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} binomial(n,k)^2 * x^k*(4-x)^(n-k).
@@ -3443,6 +3469,50 @@ end
 
 end A217465.P2866764187537785699
 
+/-! ## A217465.P10416818916048673436
+
+`∩[A020144(n+1), A216822(n+1)]`
+-/
+
+namespace A217465.P10416818916048673436
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020144 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216822 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217465.P10416818916048673436
+
+/-! ## A217465.P17798025099075200909
+
+`∩[A020160(n+1), A216822(n+1)]`
+-/
+
+namespace A217465.P17798025099075200909
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020160 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216822 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217465.P17798025099075200909
+
 /-! ## A217465.P8271466361268942001
 
 `∩[A020192(n+1), A216822(n+1)]`
@@ -3553,50 +3623,6 @@ end
 
 end A217465.P17912418777758638389
 
-/-! ## A217465.P14559769223005023687
-
-`∩[A020192(n+1), A375793(n+1)]`
--/
-
-namespace A217465.P14559769223005023687
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020192 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375793 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A217465.P14559769223005023687
-
-/-! ## A217465.P12240833666734592693
-
-`∩[A216822(n+1), A306259(n+1)]`
--/
-
-namespace A217465.P12240833666734592693
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216822 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306259 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A217465.P12240833666734592693
-
 /-!
 # A217466: Primes p such that 2^p == 2 (mod p*(p+1)).
 
@@ -3664,6 +3690,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A217466.P4272471128551202667
+
+/-! ## A217466.P7230835796682247650
+
+`∩[A191218(n+1), A216822(n+1)]`
+-/
+
+namespace A217466.P7230835796682247650
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191218 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216822 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217466.P7230835796682247650
+
+/-! ## A217466.P8552794242378344419
+
+`∩[A191218(n+1), A375793(n+1)]`
+-/
+
+namespace A217466.P8552794242378344419
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191218 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375793 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217466.P8552794242378344419
 
 /-! ## A217466.P17518229202582752765
 
@@ -3994,42 +4064,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A217466.P16107173994797782391
-
-/-! ## A217466.P3959702388663814782
-
-`p?[A192109(n+1)-1]`
--/
-
-namespace A217466.P3959702388663814782
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A192109 (n + 1) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A217466.P3959702388663814782
-
-/-! ## A217466.P6627957205429324052
-
-`p?[2*A179458(n+1)-1]`
--/
-
-namespace A217466.P6627957205429324052
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A179458 (n + 1) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A217466.P6627957205429324052
 
 /-!
 # A217467: a(1) = 1; for n > 1, the maximum exponent k such that n^k divides the double factorial n!!.

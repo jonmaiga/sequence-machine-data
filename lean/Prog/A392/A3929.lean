@@ -569,6 +569,28 @@ end
 
 end A392910.P404456228990400350
 
+/-! ## A392910.P10990567314291463943
+
+`∪[A308710(n+1), A392911(n+1)]`
+-/
+
+namespace A392910.P10990567314291463943
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308710 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392911 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392910.P10990567314291463943
+
 /-!
 # A392911: Unit-anchored semiperfect numbers (A392910) whose odd part (A000265) is not prime.
 
@@ -654,6 +676,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A392911.P5096280243992135979
+
+/-! ## A392911.P1511926290168327848
+
+`∩[A390873(n+1), A392496(n+1)]`
+-/
+
+namespace A392911.P1511926290168327848
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390873 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392496 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392911.P1511926290168327848
 
 /-!
 # A392912: Primitive semiperfect numbers (A006036) that are not unit-anchored semiperfects (A392910).
@@ -900,6 +944,34 @@ end
 end A392919.P10951495922553128306
 
 /-!
+# A392922: Odd composite k such that the odd part of psi(k) divides k-1, where psi = A002322 and odd part = A000265.
+
+The programs for A392922, there is no canonical definition to state claims against.
+-/
+
+/-! ## A392922.P8993125340008183614
+
+`∪[A339880(n+1), A340091(n+1)]`
+-/
+
+namespace A392922.P8993125340008183614
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339880 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340091 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392922.P8993125340008183614
+
+/-!
 # A392924: The number of partitions of n such that there exists a part p, that appears in exactly p*K/100 parts, where K is the total number of parts.
 
 The programs for A392924, there is no canonical definition to state claims against.
@@ -962,19 +1034,19 @@ end
 
 end A392926.P404851777952840402
 
-/-! ## A392926.P9579304225552984359
+/-! ## A392926.P13940669595435454937
 
-`∩[A392288(n+1), A332785(n+1)]`
+`∩[A332785(n+1), A392288(n+1)]`
 -/
 
-namespace A392926.P9579304225552984359
+namespace A392926.P13940669595435454937
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392288 (n + 1)
+  A332785 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332785 (n + 1)
+  A392288 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -982,7 +1054,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A392926.P9579304225552984359
+end A392926.P13940669595435454937
 
 /-! ## A392926.P14743082382278824141
 
@@ -1033,6 +1105,28 @@ end A392926.P2893752317134508234
 
 The programs for A392927, there is no canonical definition to state claims against.
 -/
+
+/-! ## A392927.P4873376082390581850
+
+`∩[A072413(n+1), A394050(n+1)]`
+-/
+
+namespace A392927.P4873376082390581850
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072413 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394050 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392927.P4873376082390581850
 
 /-! ## A392927.P10297325629358826310
 
@@ -1102,24 +1196,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392927.P8704272517100954012
-
-/-! ## A392927.P4183314049623364778
-
-`filter[A394050(n+1), A381735(#)]`
--/
-
-namespace A392927.P4183314049623364778
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394050 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A381735 (f1 j).toNat = 1) n)
-
-end
-
-end A392927.P4183314049623364778
 
 /-!
 # A392929: E.g.f. A(x) satisfies A(x) = 1 - (1/x) * log(1 - x^2*A(x)).

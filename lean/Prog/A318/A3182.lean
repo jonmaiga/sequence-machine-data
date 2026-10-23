@@ -43,7 +43,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1780,6 +1779,21 @@ end A318227.P13700746423877850009
 The programs for A318229, there is no canonical definition to state claims against.
 -/
 
+/-! ## A318229.P14907752615138671076
+
+`ogf((-1+x+2x^2+x^3+x^4+2x^5+2x^6-3x^7)/(-1+2x+2x^2))`
+-/
+
+namespace A318229.P14907752615138671076
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -2, -1, -1, -2, -2, 3] [1, -2, -2] n
+
+end
+
+end A318229.P14907752615138671076
+
 /-! ## A318229.P5557113050456988792
 
 `A165906(floor(cosh(n)))`
@@ -1824,21 +1838,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318229.P2531635358110896058
-
-/-! ## A318229.P14861556867702509735
-
-`ceil(sqrt(A004982(n))/4)`
--/
-
-namespace A318229.P14861556867702509735
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (A004982 n : ℝ) / 4⌉
-
-end
-
-end A318229.P14861556867702509735
 
 /-!
 # A318230: Number of inequivalent leaf-colorings of binary rooted trees with 2n + 1 nodes.
@@ -4512,6 +4511,28 @@ end
 
 end A318275.P17910560702694073545
 
+/-! ## A318275.P1482849959982084600
+
+`∩[A102827(n), A277061(n+1)]`
+-/
+
+namespace A318275.P1482849959982084600
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102827 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277061 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318275.P1482849959982084600
+
 /-! ## A318275.P17179364821041320768
 
 `∩[A277061(n+1), A179239(n)]`
@@ -4555,28 +4576,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A318275.P1435845259337311688
-
-/-! ## A318275.P1678921028348616420
-
-`∩[A032898(n+1), A277061(n+1)]`
--/
-
-namespace A318275.P1678921028348616420
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032898 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277061 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A318275.P1678921028348616420
 
 /-!
 # A318276: Numbers with digits in nondecreasing order without digit 1 whose multiplicative digital root is not 0.
@@ -4956,6 +4955,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318278.P17203505312795048883
+
+/-! ## A318278.P1231046147649531634
+
+`A000290(A365681(n+1))`
+-/
+
+namespace A318278.P1231046147649531634
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 (A365681 (n + 1)).toNat
+
+end
+
+end A318278.P1231046147649531634
 
 /-!
 # A318280: A permutation of the positive integers defined in the comment section such that the sum of the first n terms of the sequence is divisible by n.

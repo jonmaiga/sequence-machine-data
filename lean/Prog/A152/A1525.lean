@@ -1027,7 +1027,7 @@ end A152527
 /-!
 # A152528: a(n) = p(n)*p(n+2) - 3*p(n+1), where p(n) is the n-th prime.
 
-The programs for A152528, the canonical program `A152528.P1727933196065479593` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152528 has offset 1).
+The programs for A152528, the canonical program `A152528.P1727933196065479593` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152528 has offset 1).
 
 The definition of A152528 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1036,7 +1036,7 @@ The definition of A152528 is `conjectured`: the Lean definition is a formula tha
 
 `A152532(n+1)-p?[a(n-1)+2]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A152528
@@ -7494,6 +7494,29 @@ namespace A152581
 /-- `or(1, 8^2^n)` -/
 def P15546746318001879624.Spec : Prop :=
   ∀ n, (P15546746318001879624.a n : ℤ) = A152581 n
+
+end A152581
+
+/-! ## A152581.P2081320582332627248
+
+`A178427(n+1)`
+-/
+
+namespace A152581.P2081320582332627248
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178427 (n + 1)
+
+end
+
+end A152581.P2081320582332627248
+
+namespace A152581
+
+/-- `A178427(n+1)` -/
+def P2081320582332627248.Spec : Prop :=
+  ∀ n, P2081320582332627248.a n = A152581 n
 
 end A152581
 

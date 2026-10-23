@@ -6,36 +6,6 @@ import SequenceMachineLib
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
-/-! ## A295857.P1054551064563261168
-
-`a(n-1)+3*a(n-2)-2*a(n-3)-2*a(n-4)` with `a(0)=0, a(1)=0, a(2)=2, a(3)=3`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A295857.P1054551064563261168
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 2, 3] fun n a =>
-  a (n - 1) + 3 * a (n - 2) - 2 * a (n - 3) - 2 * a (n - 4)
-
-end
-
-end A295857.P1054551064563261168
-
-noncomputable section
-
-/-- A295857: a(n) = a(n-1) + 3*a(n-2) -2*a(n-3) - 2*a(n-4), where a(0) = 0, a(1) = 0, a(2) = 2, a(3) = 3.
-
-Offset 0, canonical program `A295857.P1054551064563261168`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+3*a(n-2)-2*a(n-3)-2*a(n-4)` (program `A295857.P1054551064563261168`, by `A295857.P1054551064563261168.correct`). Lean does not check the parsing of the name. -/
-def A295857 (n : ℕ) : ℤ :=
-  A295857.P1054551064563261168.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+3*a(n-2)-2*a(n-3)-2*a(n-4)` (program `A295857.P1054551064563261168`, by `A295857.P1054551064563261168.correct`). Lean does not check the parsing of the name. -/
-def A295857.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A295858.P17207784706792691384
 
 `a(n-1)+3*a(n-2)-2*a(n-3)-2*a(n-4)` with `a(0)=-2, a(1)=0, a(2)=0, a(3)=1`
@@ -21524,6 +21494,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A299017.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A299232.P17002630097813543278
+
+`ogf((2+x-x^2-x^3+2x^4-2x^5+x^6)/(1-2x+x^2))`
+-/
+
+namespace A299232.P17002630097813543278
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, 1, -1, -1, 2, -2, 1] [1, -2, 1] n
+
+end
+
+end A299232.P17002630097813543278
+
+noncomputable section
+
+/-- A299232: Ranks of {2,3}-power towers that start with 3; see Comments.
+
+Offset 1, canonical program `A299232.P17002630097813543278`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A299232 (n : ℕ) : ℤ :=
+  A299232.P17002630097813543278.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A299232.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A299261.P3230887130282073134
 

@@ -12241,6 +12241,29 @@ def P6059854304364957262.Spec : Prop :=
 
 end A284582
 
+/-! ## A284582.P1815969251377935725
+
+`gcd(A240303(n), A284558(n))`
+-/
+
+namespace A284582.P1815969251377935725
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A240303 n) (A284558 n)
+
+end
+
+end A284582.P1815969251377935725
+
+namespace A284582
+
+/-- `gcd(A240303(n), A284558(n))` -/
+def P1815969251377935725.Spec : Prop :=
+  ∀ n, (P1815969251377935725.a n : ℤ) = A284582 n
+
+end A284582
+
 /-!
 # A284583: a(n) = lcm(A227349(n), A227350(n)).
 

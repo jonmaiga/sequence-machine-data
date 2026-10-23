@@ -7194,6 +7194,28 @@ end A287170
 The programs for A287173, there is no canonical definition to state claims against.
 -/
 
+/-! ## A287173.P4921499776374865093
+
+`∩[A071365(n+1), A286652(n+1)]`
+-/
+
+namespace A287173.P4921499776374865093
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071365 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286652 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A287173.P4921499776374865093
+
 /-! ## A287173.P1955867858951555760
 
 `∩[A286652(n+1), A292705(n+1)]`
@@ -7281,28 +7303,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A287173.P7938534633472053215
-
-/-! ## A287173.P2736586576636304708
-
-`∩[2*A071365(n+1), A286652(n+1)]`
--/
-
-namespace A287173.P2736586576636304708
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A071365 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286652 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A287173.P2736586576636304708
 
 /-!
 # A287174: 2-limiting word of the morphism 0->10, 1->20, 2->0.

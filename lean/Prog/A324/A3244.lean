@@ -3478,6 +3478,29 @@ def P13910457176495656249.Spec : Prop :=
 
 end A324457
 
+/-! ## A324457.P12318733427011778184
+
+`A324459(A077168(n))`
+-/
+
+namespace A324457.P12318733427011778184
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324459 (A077168 n).toNat
+
+end
+
+end A324457.P12318733427011778184
+
+namespace A324457
+
+/-- `A324459(A077168(n))` -/
+def P12318733427011778184.Spec : Prop :=
+  ∀ n, P12318733427011778184.a n = A324457 (n + 1)
+
+end A324457
+
 /-!
 # A324458: Numbers m > 1 such that every prime divisor p of m satisfies s_p(m) = p.
 
@@ -5224,7 +5247,7 @@ end A324468
 /-!
 # A324469: Exponent of highest power of 3 that divides multinomial(4*n;n,n,n,n).
 
-The programs for A324469, the canonical program `A324469.P7402348818447187183` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324469 has offset 0).
+The programs for A324469, the canonical program `A324469.P7402348818447187183` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324469 has offset 0).
 
 The definition of A324469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5233,7 +5256,7 @@ The definition of A324469 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A000989(n)+A000989(2*n)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A324469

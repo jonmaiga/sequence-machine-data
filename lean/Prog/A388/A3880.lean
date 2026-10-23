@@ -26,8 +26,10 @@ import Seq.B001.C003
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -890,6 +892,28 @@ end A388018.P11038215183650310967
 The programs for A388019, there is no canonical definition to state claims against.
 -/
 
+/-! ## A388019.P8553538387838465549
+
+`∪[A307112(n+1), A322377(n+1)]`
+-/
+
+namespace A388019.P8553538387838465549
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307112 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322377 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388019.P8553538387838465549
+
 /-! ## A388019.P3291608224165440576
 
 `A322377(A082743(n))`
@@ -949,21 +973,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388019.P3235826003561425682
-
-/-! ## A388019.P8128848855321233549
-
-`A322377(A023106(n+1))`
--/
-
-namespace A388019.P8128848855321233549
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322377 (A023106 (n + 1)).toNat
-
-end
-
-end A388019.P8128848855321233549
 
 /-!
 # A388020: Primitive terms of A023197 that are of the form 4u+2.
@@ -1302,6 +1311,42 @@ end
 
 end A388030.P853889106321995237
 
+/-! ## A388030.P9435688499543578332
+
+`filter[A308710(n+1), A341602(#)]`
+-/
+
+namespace A388030.P9435688499543578332
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308710 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A341602 (f1 j).toNat = 1) n)
+
+end
+
+end A388030.P9435688499543578332
+
+/-! ## A388030.P6776764758923494412
+
+`filter[A378530(n+1), A341602(#)]`
+-/
+
+namespace A388030.P6776764758923494412
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378530 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A341602 (f1 j).toNat = 1) n)
+
+end
+
+end A388030.P6776764758923494412
+
 /-!
 # A388031: a(n) = A276086(sigma(n)), where A276086 is the primorial base exp-function, and sigma is the sum of divisors function.
 
@@ -1532,6 +1577,30 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388036.P2391255197433395726
+
+/-!
+# A388037: Primitive terms of A388036.
+
+The programs for A388037, there is no canonical definition to state claims against.
+-/
+
+/-! ## A388037.P2561281676071232925
+
+`filter[A322377(n+1), A322217(#)]`
+-/
+
+namespace A388037.P2561281676071232925
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322377 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A322217 (f1 j).toNat = 1) n)
+
+end
+
+end A388037.P2561281676071232925
 
 /-!
 # A388038: a(n) is the number of steps to reach 1 when the Sisyphus sequence (A350877) begins with n, or -1 if 1 is never reached.
@@ -3102,6 +3171,36 @@ namespace A388077
 /-- `A000196(comp[A000332(n)]²)` -/
 def P2791307029936971819.Spec : Prop :=
   ∀ n, P2791307029936971819.a n = A388077 (n + 1)
+
+end A388077
+
+/-! ## A388077.P11971205281952101484
+
+`∪[A090864(n+1), A190784(n+1)]`
+-/
+
+namespace A388077.P11971205281952101484
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090864 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190784 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388077.P11971205281952101484
+
+namespace A388077
+
+/-- `∪[A090864(n+1), A190784(n+1)]` -/
+def P11971205281952101484.Spec : Prop :=
+  ∀ n, (P11971205281952101484.a n : ℤ) = A388077 (n + 1)
 
 end A388077
 

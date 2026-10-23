@@ -3301,24 +3301,27 @@ end
 
 end A319240.P5051162894741240212
 
-/-! ## A319240.P13737885316827016456
+/-! ## A319240.P15821259640531962332
 
-`comp[A319239(n+1)-1]+1`
+`∪[A349931(n+1), A350486(n+1)]`
 -/
 
-namespace A319240.P13737885316827016456
+namespace A319240.P15821259640531962332
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319239 (n + 1) - 1
+  A349931 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350486 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A319240.P13737885316827016456
+end A319240.P15821259640531962332
 
 /-!
 # A319241: Heinz numbers of strict integer partitions of even numbers. Squarefree numbers whose prime indices sum to an even number.

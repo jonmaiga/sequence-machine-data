@@ -877,6 +877,32 @@ def P14308679408034437297.Spec : Prop :=
 
 end A183905
 
+/-! ## A183905.P12466725049704638720
+
+`A131098(n+1)+∑[n]`
+-/
+
+namespace A183905.P12466725049704638720
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131098 (n + 1) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+
+end
+
+end A183905.P12466725049704638720
+
+namespace A183905
+
+/-- `A131098(n+1)+∑[n]` -/
+def P12466725049704638720.Spec : Prop :=
+  ∀ n, P12466725049704638720.a n = A183905 (n + 1)
+
+end A183905
+
 /-!
 # A183906: Number of nondecreasing arrangements of n+2 numbers in 0..3 with each number being the sum mod 4 of two others.
 
@@ -1962,33 +1988,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A183917.P9680934017824035227
-
-/-!
-# A183918: Characteristic sequence for cos(2*Pi/n) being rational.
-
-The programs for A183918, the canonical program `A183918.P10050109521211137489` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183918 has offset 1).
-
-The definition of A183918 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A183918.P10050109521211137489
-
-`char[xor(1, 4-n)]`
-
-The canonical program, it is in `Seq.B000.C026`.
--/
-
-namespace A183918
-
-/-- `char[xor(1, 4-n)]` -/
-def P10050109521211137489.Spec : Prop :=
-  ∀ n, (P10050109521211137489.a n : ℤ) = A183918 (n + 1)
-
-theorem P10050109521211137489.correct : P10050109521211137489.Spec := by
-  intro n
-  simp only [A183918, Nat.add_sub_cancel]
-
-end A183918
 
 /-!
 # A183920: Number of nondecreasing arrangements of n numbers in -2..2 with sum zero and sum of squares not greater than n*6/3.

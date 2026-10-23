@@ -13,7 +13,6 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
@@ -3338,49 +3337,26 @@ def P9392051941083993879.Spec : Prop :=
 
 end A018119
 
-/-! ## A018119.P2579576891534751378
+/-! ## A018119.P4158288754662093471
 
-`ceil(root(A103454(n), 10))`
+`ceil(root(4^n, 10))`
 -/
 
-namespace A018119.P2579576891534751378
+namespace A018119.P4158288754662093471
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A103454 n : ℝ) ^ (1 / (10 : ℝ))⌉
+  ⌈(4 ^ n : ℝ) ^ (1 / (10 : ℝ))⌉
 
 end
 
-end A018119.P2579576891534751378
+end A018119.P4158288754662093471
 
 namespace A018119
 
-/-- `ceil(root(A103454(n), 10))` -/
-def P2579576891534751378.Spec : Prop :=
-  ∀ n, P2579576891534751378.a n = A018119 n
-
-end A018119
-
-/-! ## A018119.P8327374936415949707
-
-`ceil(root(A000740(2*n+1), 10))`
--/
-
-namespace A018119.P8327374936415949707
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A000740 (2 * n + 1) : ℝ) ^ (1 / (10 : ℝ))⌉
-
-end
-
-end A018119.P8327374936415949707
-
-namespace A018119
-
-/-- `ceil(root(A000740(2*n+1), 10))` -/
-def P8327374936415949707.Spec : Prop :=
-  ∀ n, P8327374936415949707.a n = A018119 n
+/-- `ceil(root(4^n, 10))` -/
+def P4158288754662093471.Spec : Prop :=
+  ∀ n, P4158288754662093471.a n = A018119 n
 
 end A018119
 
@@ -3856,26 +3832,26 @@ def P8808687566830043785.Spec : Prop :=
 
 end A018122
 
-/-! ## A018122.P12930591986443317645
+/-! ## A018122.P14380927823416480115
 
-`ceil(root(A006952(n), 5))`
+`ceil(root(3^n, 5))`
 -/
 
-namespace A018122.P12930591986443317645
+namespace A018122.P14380927823416480115
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A006952 n : ℝ) ^ (1 / (5 : ℝ))⌉
+  ⌈(3 ^ n : ℝ) ^ (1 / (5 : ℝ))⌉
 
 end
 
-end A018122.P12930591986443317645
+end A018122.P14380927823416480115
 
 namespace A018122
 
-/-- `ceil(root(A006952(n), 5))` -/
-def P12930591986443317645.Spec : Prop :=
-  ∀ n, P12930591986443317645.a n = A018122 n
+/-- `ceil(root(3^n, 5))` -/
+def P14380927823416480115.Spec : Prop :=
+  ∀ n, P14380927823416480115.a n = A018122 n
 
 end A018122
 
@@ -5009,26 +4985,26 @@ theorem P14907345293032255728.correct : P14907345293032255728.Spec := by
 
 end A018128
 
-/-! ## A018128.P17853629040011640766
+/-! ## A018128.P5421153897717122106
 
-`ceil(root(5^n+1-2^n, 5))`
+`ceil(root(5^n, 5))`
 -/
 
-namespace A018128.P17853629040011640766
+namespace A018128.P5421153897717122106
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈((5 ^ n : ℤ) + (1 - (2 ^ n : ℤ)) : ℝ) ^ (1 / (5 : ℝ))⌉
+  ⌈(5 ^ n : ℝ) ^ (1 / (5 : ℝ))⌉
 
 end
 
-end A018128.P17853629040011640766
+end A018128.P5421153897717122106
 
 namespace A018128
 
-/-- `ceil(root(5^n+1-2^n, 5))` -/
-def P17853629040011640766.Spec : Prop :=
-  ∀ n, P17853629040011640766.a n = A018128 n
+/-- `ceil(root(5^n, 5))` -/
+def P5421153897717122106.Spec : Prop :=
+  ∀ n, P5421153897717122106.a n = A018128 n
 
 end A018128
 
@@ -5339,35 +5315,20 @@ end
 
 end A018131.P7728410309687478233
 
-/-! ## A018131.P12845309146247629830
+/-! ## A018131.P12986721678246618858
 
-`ceil(root(A024063(n), 5))`
+`ceil(root(6^n, 5))`
 -/
 
-namespace A018131.P12845309146247629830
+namespace A018131.P12986721678246618858
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A024063 n : ℝ) ^ (1 / (5 : ℝ))⌉
+  ⌈(6 ^ n : ℝ) ^ (1 / (5 : ℝ))⌉
 
 end
 
-end A018131.P12845309146247629830
-
-/-! ## A018131.P11924441782960999531
-
-`ceil(root(A221578(n), 5))`
--/
-
-namespace A018131.P11924441782960999531
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A221578 n : ℝ) ^ (1 / (5 : ℝ))⌉
-
-end
-
-end A018131.P11924441782960999531
+end A018131.P12986721678246618858
 
 /-! ## A018131.P12506362054342888365
 
@@ -14259,6 +14220,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018189.P5293075683238175637
+
+/-! ## A018189.P8491540246657378237
+
+`∩[A023995(n+1), A101771(n)]`
+-/
+
+namespace A018189.P8491540246657378237
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023995 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101771 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A018189.P8491540246657378237
 
 /-!
 # A018190: Number of planar simply-connected polyhexes (or benzenoid hydrocarbons) with n hexagons.

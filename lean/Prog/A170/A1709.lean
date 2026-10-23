@@ -3873,6 +3873,29 @@ def P17032698688078086201.Spec : Prop :=
 
 end A170934
 
+/-! ## A170934.P15710023925371011478
+
+`A170933(n)-a(n-1)` with `a(0)=4`
+-/
+
+namespace A170934.P15710023925371011478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [4] fun n a =>
+  A170933 n - a (n - 1)
+
+end
+
+end A170934.P15710023925371011478
+
+namespace A170934
+
+/-- `A170933(n)-a(n-1)` -/
+def P15710023925371011478.Spec : Prop :=
+  ∀ n, P15710023925371011478.a n = A170934 n
+
+end A170934
+
 /-!
 # A170935: b(n)*b(n+1), where b() = A000930().
 
@@ -5680,6 +5703,52 @@ def P12030504116576466885.Spec : Prop :=
 
 end A170940
 
+/-! ## A170940.P2932081805330374363
+
+`A000225(n)*A052548(n+2)`
+-/
+
+namespace A170940.P2932081805330374363
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000225 n * A052548 (n + 2)
+
+end
+
+end A170940.P2932081805330374363
+
+namespace A170940
+
+/-- `A000225(n)*A052548(n+2)` -/
+def P2932081805330374363.Spec : Prop :=
+  ∀ n, P2932081805330374363.a n = A170940 (n + 1)
+
+end A170940
+
+/-! ## A170940.P14885099823216679106
+
+`A000051(n+1)*A000918(n+1)`
+-/
+
+namespace A170940.P14885099823216679106
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000051 (n + 1) * A000918 (n + 1)
+
+end
+
+end A170940.P14885099823216679106
+
+namespace A170940
+
+/-- `A000051(n+1)*A000918(n+1)` -/
+def P14885099823216679106.Spec : Prop :=
+  ∀ n, P14885099823216679106.a n = A170940 (n + 1)
+
+end A170940
+
 /-!
 # A170941: a(n+1) = a(n) + n*a(n-1) - a(n-2) + a(n-3).
 
@@ -5915,6 +5984,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A170943.P3604217556975549666
+
+/-! ## A170943.P8702371136641077195
+
+`filter[A054591(n+1), A165728(#)]`
+-/
+
+namespace A170943.P8702371136641077195
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054591 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A165728 (f1 j).toNat = 1) n)
+
+end
+
+end A170943.P8702371136641077195
 
 /-!
 # A170944: Complement of A121153.

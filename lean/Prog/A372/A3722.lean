@@ -89,6 +89,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5887,6 +5888,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A372295.P10644220880921720585
+
+/-! ## A372295.P11125472031147395763
+
+`∩[A005117(n+1), A372308(n+1)]`
+-/
+
+namespace A372295.P11125472031147395763
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372308 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A372295.P11125472031147395763
 
 /-!
 # A372298: Primitive infinitary abundant numbers (definition 1): infinitary abundant numbers (A129656) whose all proper infinitary divisors are infinitary deficient numbers.

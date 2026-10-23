@@ -2069,6 +2069,78 @@ theorem P8865239545503888614.correct : P8865239545503888614.Spec := by
 
 end A195460
 
+/-! ## A195460.P15155321168483875224
+
+`xor(A086224(n), A171472(n))`
+-/
+
+namespace A195460.P15155321168483875224
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A086224 n) (A171472 n)
+
+end
+
+end A195460.P15155321168483875224
+
+namespace A195460
+
+/-- `xor(A086224(n), A171472(n))` -/
+def P15155321168483875224.Spec : Prop :=
+  ∀ n, P15155321168483875224.a n = A195460 (n + 1)
+
+end A195460
+
+/-! ## A195460.P17982864048348618209
+
+`xor(A007283(n), A188530(n+1))`
+-/
+
+namespace A195460.P17982864048348618209
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A007283 n) (A188530 (n + 1))
+
+end
+
+end A195460.P17982864048348618209
+
+namespace A195460
+
+/-- `xor(A007283(n), A188530(n+1))` -/
+def P17982864048348618209.Spec : Prop :=
+  ∀ n, P17982864048348618209.a n = A195460 (n + 1)
+
+end A195460
+
+/-! ## A195460.P7323104557648035178
+
+`record[(n+1)*xor(n+1, n+2)-2]`
+-/
+
+namespace A195460.P7323104557648035178
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n + 1) * Nat.xor (n + 1) (n + 2) : ℤ) - 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A195460.P7323104557648035178
+
+namespace A195460
+
+/-- `record[(n+1)*xor(n+1, n+2)-2]` -/
+def P7323104557648035178.Spec : Prop :=
+  ∀ n, P7323104557648035178.a n = A195460 (n + 1)
+
+end A195460
+
 /-!
 # A195461: Primes in A195460.
 
@@ -2089,6 +2161,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195461.P7435329721286838669
+
+/-! ## A195461.P14104352214082808433
+
+`∩[A082554(n+1), A195460(n+1)]`
+-/
+
+namespace A195461.P14104352214082808433
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082554 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195460 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A195461.P14104352214082808433
 
 /-!
 # A195462: 1!*2!*3!*...*n!*H(n); H(n) the n-th harmonic number.

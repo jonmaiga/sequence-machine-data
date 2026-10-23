@@ -2896,6 +2896,31 @@ end
 end A249330.P1022747545080149534
 
 /-!
+# A249331: Numbers missing in A249299 = list {b(n)} of numbers such that Sum_{k=1..b(n)} b(k) is not in the list.
+
+The programs for A249331, there is no canonical definition to state claims against.
+-/
+
+/-! ## A249331.P17014546485908132362
+
+`comp[A249299(n+1)]`
+-/
+
+namespace A249331.P17014546485908132362
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A249299 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A249331.P17014546485908132362
+
+/-!
 # A249332: a(n) = Sum_{k=0..2*n} binomial(2*n, k)^4.
 
 The programs for A249332, there is no canonical definition to state claims against.
@@ -9246,6 +9271,28 @@ end
 
 end A249374.P1343811205576658507
 
+/-! ## A249374.P7987934853358792471
+
+`∩[A103967(n+1), A380468(n+1)]`
+-/
+
+namespace A249374.P7987934853358792471
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103967 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A249374.P7987934853358792471
+
 /-! ## A249374.P8688895962968620773
 
 `∩[A040044(n+1), A103967(n+1)]`
@@ -9553,28 +9600,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A249374.P15744755381485368528
-
-/-! ## A249374.P73248000314597354
-
-`∩[A040065(n+1), A103967(n+1)]`
--/
-
-namespace A249374.P73248000314597354
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040065 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103967 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A249374.P73248000314597354
 
 /-!
 # A249375: Prime numbers Q such that the concatenation Q,2,Q is prime.

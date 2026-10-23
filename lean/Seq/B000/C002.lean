@@ -26224,6 +26224,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A016316.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A016317.P16055473397431174586
+
+`18*a(n-1)-80*a(n-2)+2^n` with `a(0)=1, a(1)=20`
+-/
+
+namespace A016317.P16055473397431174586
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 20] fun n a =>
+  18 * a (n - 1) - 80 * a (n - 2) + (2 ^ n : ℤ)
+
+end
+
+end A016317.P16055473397431174586
+
+noncomputable section
+
+/-- A016317: Expansion of 1/((1-2x)(1-8x)(1-10x)).
+
+Offset 0, canonical program `A016317.P16055473397431174586`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A016317 (n : ℕ) : ℤ :=
+  A016317.P16055473397431174586.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A016317.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A010465.P1651121411382965073
 
 `floor(sqrt(7)*10^n)%10`
@@ -26616,28 +26644,28 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A010855.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A010856.P14417327040893538002
+/-! ## A010856.P726888886131703003
 
-`34/2`
+`17`
 -/
 
-namespace A010856.P14417327040893538002
+namespace A010856.P726888886131703003
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (34 : ℚ) / 2
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  17
 
 end
 
-end A010856.P14417327040893538002
+end A010856.P726888886131703003
 
 noncomputable section
 
 /-- A010856: Constant sequence: a(n) = 17.
 
-Offset 0, canonical program `A010856.P14417327040893538002`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+Offset 0, canonical program `A010856.P726888886131703003`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A010856 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A010856.P14417327040893538002.a n)
+  (A010856.P726888886131703003.a n : ℤ)
 
 end
 
@@ -27520,41 +27548,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A011664.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A011671.P1914700580021470123
-
-`char[n-∑[n+1]%21]`
--/
-
-namespace A011671.P1914700580021470123
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - (((∑ j ∈ Finset.range (n + 1), f2 j) % 21 : ℕ) : ℤ)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A011671.P1914700580021470123
-
-noncomputable section
-
-/-- A011671: A binary m-sequence: expansion of reciprocal of x^6+x^5+x^4+x^2+1.
-
-Offset 0, canonical program `A011671.P1914700580021470123`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5004 terms. -/
-def A011671 (n : ℕ) : ℤ :=
-  (A011671.P1914700580021470123.a n : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5004 terms. -/
-def A011671.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A011672.P1977448595693471968
 

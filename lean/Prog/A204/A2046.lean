@@ -6226,6 +6226,58 @@ def P4432619452406817247.Spec : Prop :=
 
 end A204674
 
+/-! ## A204674.P14312273814241404851
+
+`∑[A056106(2*n)]`
+-/
+
+namespace A204674.P14312273814241404851
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056106 (2 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A204674.P14312273814241404851
+
+namespace A204674
+
+/-- `∑[A056106(2*n)]` -/
+def P14312273814241404851.Spec : Prop :=
+  ∀ n, P14312273814241404851.a n = A204674 n
+
+end A204674
+
+/-! ## A204674.P3396205257747960998
+
+`∑[A329482(4*n)]`
+-/
+
+namespace A204674.P3396205257747960998
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329482 (4 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A204674.P3396205257747960998
+
+namespace A204674
+
+/-- `∑[A329482(4*n)]` -/
+def P3396205257747960998.Spec : Prop :=
+  ∀ n, P3396205257747960998.a n = A204674 n
+
+end A204674
+
 /-!
 # A204675: a(n) = 16*n^2 + 2*n + 1.
 

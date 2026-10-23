@@ -53,7 +53,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -4934,6 +4933,32 @@ def P14969718687837747173.Spec : Prop :=
 
 end A048058
 
+/-! ## A048058.P17737648002539035374
+
+`A223134(∑[n]+5)`
+-/
+
+namespace A048058.P17737648002539035374
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223134 (∑ j ∈ Finset.range (n + 1), f1 j + 5)
+
+end
+
+end A048058.P17737648002539035374
+
+namespace A048058
+
+/-- `A223134(∑[n]+5)` -/
+def P17737648002539035374.Spec : Prop :=
+  ∀ n, P17737648002539035374.a n = A048058 n
+
+end A048058
+
 /-!
 # A048059: Primes of the form k^2 + k + 11.
 
@@ -5284,6 +5309,28 @@ end
 
 end A048059.P1198007201040483025
 
+/-! ## A048059.P10522741585499733042
+
+`∩[A048058(n), A339879(n+1)]`
+-/
+
+namespace A048059.P10522741585499733042
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048058 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339879 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A048059.P10522741585499733042
+
 /-! ## A048059.P12882977917979827382
 
 `∩[A042997(n+1), A048058(n)]`
@@ -5327,28 +5374,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A048059.P14334105003545944810
-
-/-! ## A048059.P17149412566853577344
-
-`∩[A045334(n+1), A048058(n)]`
--/
-
-namespace A048059.P17149412566853577344
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045334 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048058 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A048059.P17149412566853577344
 
 /-!
 # A048060: Number of nonempty subsets of {1,2,...,n} in which exactly 1/2 of the elements are <= (n-4)/2.
@@ -8769,6 +8794,36 @@ def P8313056884440603433.Spec : Prop :=
 
 end A048098
 
+/-! ## A048098.P17226568947453704853
+
+`∪[A063539(n+1), A063735(n+1)]`
+-/
+
+namespace A048098.P17226568947453704853
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063539 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063735 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A048098.P17226568947453704853
+
+namespace A048098
+
+/-- `∪[A063539(n+1), A063735(n+1)]` -/
+def P17226568947453704853.Spec : Prop :=
+  ∀ n, (P17226568947453704853.a n : ℤ) = A048098 (n + 1)
+
+end A048098
+
 /-! ## A048098.P6801400503138555628
 
 `∪[A063539(n+1), A064599(n+1)]`
@@ -8971,32 +9026,6 @@ namespace A048098
 /-- `lt[A061397(A140271(n+1)), 1]+1` -/
 def P8600473858914883048.Spec : Prop :=
   ∀ n, (P8600473858914883048.a n : ℤ) = A048098 (n + 1)
-
-end A048098
-
-/-! ## A048098.P1334130709499456940
-
-`record[lcm(A057521(n+1), A072504(n+1))]`
--/
-
-namespace A048098.P1334130709499456940
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A057521 (n + 1)) (A072504 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A048098.P1334130709499456940
-
-namespace A048098
-
-/-- `record[lcm(A057521(n+1), A072504(n+1))]` -/
-def P1334130709499456940.Spec : Prop :=
-  ∀ n, (P1334130709499456940.a n : ℤ) = A048098 (n + 1)
 
 end A048098
 

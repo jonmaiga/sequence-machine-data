@@ -78,7 +78,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A221600: Number of nX2 arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out left turns.

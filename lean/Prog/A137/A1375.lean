@@ -55,7 +55,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -6281,6 +6280,72 @@ end A137573.P1864591515281286109
 The programs for A137574, there is no canonical definition to state claims against.
 -/
 
+/-! ## A137574.P2161771746773741302
+
+`∩[A020695(n), A095410(n+1)]`
+-/
+
+namespace A137574.P2161771746773741302
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020695 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095410 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A137574.P2161771746773741302
+
+/-! ## A137574.P15294879776167350622
+
+`∩[A073958(n+1), A095410(n+1)]`
+-/
+
+namespace A137574.P15294879776167350622
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073958 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095410 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A137574.P15294879776167350622
+
+/-! ## A137574.P1156215958207592375
+
+`∩[A074317(n+1), A095410(n+1)]`
+-/
+
+namespace A137574.P1156215958207592375
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074317 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095410 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A137574.P1156215958207592375
+
 /-! ## A137574.P1888271521780087450
 
 `record[A335791(A020695(n))]`
@@ -6313,66 +6378,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A137574.P17024748708620958270
-
-/-! ## A137574.P6780807385643430516
-
-`A087172(∑[p?[A096748(n)]])`
--/
-
-namespace A137574.P6780807385643430516
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096748 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087172 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A137574.P6780807385643430516
-
-/-! ## A137574.P1043215993967225822
-
-`A087172(∑[p?[A247050(n)]])`
--/
-
-namespace A137574.P1043215993967225822
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247050 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087172 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A137574.P1043215993967225822
-
-/-! ## A137574.P16641851310222957476
-
-`record[A035516(A008288(n)+1)]`
--/
-
-namespace A137574.P16641851310222957476
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035516 (A008288 n + 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A137574.P16641851310222957476
 
 /-!
 # A137575: Successive structures central number of Seaborg's periodic table of the elements (extended to 32 columns) for odd rows.

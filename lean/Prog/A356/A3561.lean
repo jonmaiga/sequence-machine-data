@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -58,6 +59,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -69,7 +71,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2942,6 +2943,28 @@ end
 
 end A356121.P10834508819489402553
 
+/-! ## A356121.P5472242510950762343
+
+`∩[A029953(n+1), A298126(n+1)]`
+-/
+
+namespace A356121.P5472242510950762343
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029953 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298126 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356121.P5472242510950762343
+
 /-! ## A356121.P660691877698164720
 
 `A127302(A003242(n)*A084558(n))`
@@ -2956,21 +2979,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356121.P660691877698164720
-
-/-! ## A356121.P11380714492188387629
-
-`A127302(A003984(n)*A177510(n))`
--/
-
-namespace A356121.P11380714492188387629
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127302 (A003984 n * A177510 n).toNat
-
-end
-
-end A356121.P11380714492188387629
 
 /-!
 # A356122: Number of Lucas divisors of the n-th Lucas number.
@@ -4571,36 +4579,26 @@ def P12552252318701188345.Spec : Prop :=
 
 end A356133
 
-/-! ## A356133.P13012017534623021578
+/-! ## A356133.P7726923193393913997
 
-`comp[(-1)^(n%3)+n]-char[xor(n, Δ[n²])]`
+`A047617(n+1)-A160017(n)`
 -/
 
-namespace A356133.P13012017534623021578
+namespace A356133.P7726923193393913997
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (-1) ^ (n % 3) + (n : ℤ)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (n : ℤ) ((f3 (n + 1) : ℤ) - (f3 n : ℤ))
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) - ((if ∃ j, f2 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+  A047617 (n + 1) - A160017 n
 
 end
 
-end A356133.P13012017534623021578
+end A356133.P7726923193393913997
 
 namespace A356133
 
-/-- `comp[(-1)^(n%3)+n]-char[xor(n, Δ[n²])]` -/
-def P13012017534623021578.Spec : Prop :=
-  ∀ n, P13012017534623021578.a n = A356133 (n + 1)
+/-- `A047617(n+1)-A160017(n)` -/
+def P7726923193393913997.Spec : Prop :=
+  ∀ n, P7726923193393913997.a n = A356133 (n + 1)
 
 end A356133
 
@@ -5490,6 +5488,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356147.P4896071219991875254
+
+/-! ## A356147.P5470194493742397787
+
+`filter[A078864(n+1), A179081(#)]`
+-/
+
+namespace A356147.P5470194493742397787
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078864 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A179081 (f1 j).toNat = 1) n)
+
+end
+
+end A356147.P5470194493742397787
 
 /-!
 # A356148: a(n) is the number of positive integers whose binary expansion appears as a substring in the binary expansion of n or its complement.

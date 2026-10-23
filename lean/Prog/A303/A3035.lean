@@ -3524,6 +3524,51 @@ end
 
 end A303540.P3034418917485582211
 
+/-! ## A303540.P12902813379398314823
+
+`and(A186559(n+1), A303539(n+1))`
+-/
+
+namespace A303540.P12902813379398314823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A186559 (n + 1)) (A303539 (n + 1))
+
+end
+
+end A303540.P12902813379398314823
+
+/-! ## A303540.P7623199557042582731
+
+`A303539(A135381(n+1))`
+-/
+
+namespace A303540.P7623199557042582731
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303539 (A135381 (n + 1)).toNat
+
+end
+
+end A303540.P7623199557042582731
+
+/-! ## A303540.P7349243791211189774
+
+`A303539(A135382(n+2))`
+-/
+
+namespace A303540.P7349243791211189774
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303539 (A135382 (n + 2)).toNat
+
+end
+
+end A303540.P7349243791211189774
+
 /-!
 # A303541: Numbers of the form k^2 + binomial(2*m,m) with k and m nonnegative integers.
 

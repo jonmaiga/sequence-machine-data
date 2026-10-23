@@ -2629,6 +2629,28 @@ end
 
 end A229236.P7759090735796766313
 
+/-! ## A229236.P18373402955150525133
+
+`∩[A066569(n+1), A089717(n+1)]`
+-/
+
+namespace A229236.P18373402955150525133
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066569 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089717 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229236.P18373402955150525133
+
 /-! ## A229236.P14291271301662180444
 
 `A000217(A008510(n+1))`
@@ -2643,21 +2665,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A229236.P14291271301662180444
-
-/-! ## A229236.P16831415213609046031
-
-`A004158(A279084(n+2))`
--/
-
-namespace A229236.P16831415213609046031
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004158 (A279084 (n + 2)).toNat
-
-end
-
-end A229236.P16831415213609046031
 
 /-!
 # A229237: E.g.f. A(x) satisfies: A(x)^A(x) = 1/(1 - x*A(x)^4).
@@ -2707,6 +2714,82 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A229238.P14684043790306626607
+
+/-! ## A229238.P13039425332636890411
+
+`filter[A067709(n+1), A053866(#)]`
+-/
+
+namespace A229238.P13039425332636890411
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067709 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A053866 (f1 j).toNat = 1) n)
+
+end
+
+end A229238.P13039425332636890411
+
+/-! ## A229238.P5441419361846885553
+
+`filter[A067709(n+1), A379111(#)]`
+-/
+
+namespace A229238.P5441419361846885553
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067709 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379111 (f1 j).toNat = 1) n)
+
+end
+
+end A229238.P5441419361846885553
+
+/-! ## A229238.P2684375771869012227
+
+`filter[A067709(n+1), A379502(#)]`
+-/
+
+namespace A229238.P2684375771869012227
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067709 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379502 (f1 j).toNat = 1) n)
+
+end
+
+end A229238.P2684375771869012227
+
+/-! ## A229238.P15871939789662242819
+
+`∩[A004834(n+1), A067709(n+1)]`
+-/
+
+namespace A229238.P15871939789662242819
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004834 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067709 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229238.P15871939789662242819
 
 /-!
 # A229239: Total number of parts in all partitions of n^2 into squares.
@@ -8213,6 +8296,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A229289.P4268298424790151755
+
+/-! ## A229289.P13821106466054109324
+
+`∩[A028793(n+1), A350179(n+1)]`
+-/
+
+namespace A229289.P13821106466054109324
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028793 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350179 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229289.P13821106466054109324
+
+/-! ## A229289.P10409030303864218818
+
+`∩[A039786(n+1), A371731(n+1)]`
+-/
+
+namespace A229289.P10409030303864218818
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039786 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371731 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229289.P10409030303864218818
 
 /-!
 # A229292: Exponent of the group of 2 X 2 invertible matrices over Z/nZ.

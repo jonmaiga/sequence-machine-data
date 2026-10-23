@@ -6529,21 +6529,6 @@ end
 
 end A161447.P15198245861728024275
 
-/-! ## A161447.P8864616368116535703
-
-`A161441(n+1)+A161455(n+1)-A161449(n+1)`
--/
-
-namespace A161447.P8864616368116535703
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161441 (n + 1) + (A161455 (n + 1) - A161449 (n + 1))
-
-end
-
-end A161447.P8864616368116535703
-
 /-! ## A161447.P11731261152995238853
 
 `A161442(n+1)+A161453(n+1)-A161448(n+1)`
@@ -6559,20 +6544,35 @@ end
 
 end A161447.P11731261152995238853
 
-/-! ## A161447.P8829513998817174436
+/-! ## A161447.P1442784234320940394
 
-`A161444(n+1)+A161451(n+1)-A161448(n+1)`
+`A161445(n+1)+A161446(n+1)-A161444(n+1)`
 -/
 
-namespace A161447.P8829513998817174436
+namespace A161447.P1442784234320940394
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161444 (n + 1) + (A161451 (n + 1) - A161448 (n + 1))
+  A161445 (n + 1) + (A161446 (n + 1) - A161444 (n + 1))
 
 end
 
-end A161447.P8829513998817174436
+end A161447.P1442784234320940394
+
+/-! ## A161447.P8864616368116535703
+
+`A161441(n+1)+A161455(n+1)-A161449(n+1)`
+-/
+
+namespace A161447.P8864616368116535703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161441 (n + 1) + (A161455 (n + 1) - A161449 (n + 1))
+
+end
+
+end A161447.P8864616368116535703
 
 /-!
 # A161448: Numbers n such that A160700(n) = 8.
@@ -9196,6 +9196,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A161460.P5557529368624290154
+
+/-! ## A161460.P17858688365249166207
+
+`eq[A067461(n+1), A177276(n)]`
+-/
+
+namespace A161460.P17858688365249166207
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067461 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177276 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A161460.P17858688365249166207
 
 /-!
 # A161461: Number of reduced words of length n in the Weyl group A_12.

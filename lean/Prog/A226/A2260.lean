@@ -1005,6 +1005,36 @@ end
 
 end A226014.P616265346555353176
 
+/-! ## A226014.P13975300189572248180
+
+`A254764(A266250(n+1))`
+-/
+
+namespace A226014.P13975300189572248180
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A254764 (A266250 (n + 1)).toNat
+
+end
+
+end A226014.P13975300189572248180
+
+/-! ## A226014.P18204691131373208038
+
+`A180346(A348579(n+1))`
+-/
+
+namespace A226014.P18204691131373208038
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180346 (A348579 (n + 1)).toNat
+
+end
+
+end A226014.P18204691131373208038
+
 /-!
 # A226016: Primes with alternate digits even and odd, and most significant digit even.
 
@@ -1132,6 +1162,28 @@ end
 
 end A226016.P325034816394581379
 
+/-! ## A226016.P6782580736521400530
+
+`∩[A062285(n+1), A068887(n+1)]`
+-/
+
+namespace A226016.P6782580736521400530
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062285 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068887 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A226016.P6782580736521400530
+
 /-! ## A226016.P10509950747580403209
 
 `∩[A355430(n+1), A097962(n)]`
@@ -1197,6 +1249,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A226016.P17548499047200486377
+
+/-! ## A226016.P18088429613070962979
+
+`∩[A068887(n+1), A355430(n+1)]`
+-/
+
+namespace A226016.P18088429613070962979
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068887 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355430 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A226016.P18088429613070962979
 
 /-! ## A226016.P18399012751478637849
 
@@ -1347,41 +1421,77 @@ end
 
 end A226016.P839645009194659803
 
-/-! ## A226016.P5457932383239374019
+/-!
+# A226017: Primes such that sum of odd digits is also prime.
 
-`filter[A068887(n+1), A174282(#)]`
+The programs for A226017, there is no canonical definition to state claims against.
 -/
 
-namespace A226016.P5457932383239374019
+/-! ## A226017.P12015915133265780245
+
+`∩[A089392(n+1), A122124(n+1)]`
+-/
+
+namespace A226017.P12015915133265780245
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068887 (n + 1)
+  A089392 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A174282 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122124 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A226016.P5457932383239374019
+end A226017.P12015915133265780245
 
-/-! ## A226016.P8608704725073977325
+/-! ## A226017.P1919734331236142962
 
-`filter[A068887(n+1), A175253(#)]`
+`∩[A089695(n+1), A122124(n+1)]`
 -/
 
-namespace A226016.P8608704725073977325
+namespace A226017.P1919734331236142962
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068887 (n + 1)
+  A089695 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A175253 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122124 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A226016.P8608704725073977325
+end A226017.P1919734331236142962
+
+/-! ## A226017.P11876239376910640482
+
+`∩[A122124(n+1), A386004(n+1)]`
+-/
+
+namespace A226017.P11876239376910640482
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122124 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386004 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A226017.P11876239376910640482
 
 /-!
 # A226018: Numbers k such that prime(k) divides 2^(k-1) + 1.

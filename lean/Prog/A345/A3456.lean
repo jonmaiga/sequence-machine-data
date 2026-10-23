@@ -164,6 +164,34 @@ end
 end A345600.P10719380034144229968
 
 /-!
+# A345601: Numbers that are the sum of ten fourth powers in eight or more ways.
+
+The programs for A345601, there is no canonical definition to state claims against.
+-/
+
+/-! ## A345601.P7811814130517862514
+
+`∪[A345602(n+1), A345860(n+1)]`
+-/
+
+namespace A345601.P7811814130517862514
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345602 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345860 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345601.P7811814130517862514
+
+/-!
 # A345602: Numbers that are the sum of ten fourth powers in nine or more ways.
 
 The programs for A345602, there is no canonical definition to state claims against.
@@ -610,6 +638,28 @@ end A345613.P12752164482220982915
 The programs for A345614, there is no canonical definition to state claims against.
 -/
 
+/-! ## A345614.P12808150013684216811
+
+`∪[A345615(n+1), A346331(n+1)]`
+-/
+
+namespace A345614.P12808150013684216811
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345615 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346331 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345614.P12808150013684216811
+
 /-! ## A345614.P11984802404182549991
 
 `A346331(∑[A287377(n)])`
@@ -673,26 +723,33 @@ end
 
 end A345614.P6723651969215822873
 
-/-! ## A345614.P8566344046821965762
-
-`A346331(A078213(n+1))`
--/
-
-namespace A345614.P8566344046821965762
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346331 (A078213 (n + 1)).toNat
-
-end
-
-end A345614.P8566344046821965762
-
 /-!
 # A345615: Numbers that are the sum of eight fifth powers in seven or more ways.
 
 The programs for A345615, there is no canonical definition to state claims against.
 -/
+
+/-! ## A345615.P14648110521084052931
+
+`∪[A345616(n+1), A346332(n+1)]`
+-/
+
+namespace A345615.P14648110521084052931
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345616 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346332 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345615.P14648110521084052931
 
 /-! ## A345615.P2961127633327379911
 
@@ -766,33 +823,18 @@ end
 
 end A345615.P17414190897816402053
 
-/-! ## A345615.P16935005579622680462
-
-`A346332(n+1)^A008834(2*n+3)`
--/
-
-namespace A345615.P16935005579622680462
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A346332 (n + 1) : ℚ) ^ (A008834 (2 * n + 3) : ℤ)
-
-end
-
-end A345615.P16935005579622680462
-
 /-!
 # A345616: Numbers that are the sum of eight fifth powers in eight or more ways.
 
 The programs for A345616, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345616.P4378085528449751734
+/-! ## A345616.P13887591633953999401
 
-`∪[A345617(n+1), A346333(n+1)]%A345617(n+1)`
+`∪[A345617(n+1), A346333(n+1)]`
 -/
 
-namespace A345616.P4378085528449751734
+namespace A345616.P13887591633953999401
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -802,12 +844,12 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A346333 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A345617 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A345616.P4378085528449751734
+end A345616.P13887591633953999401
 
 /-!
 # A345617: Numbers that are the sum of eight fifth powers in nine or more ways.
@@ -1569,6 +1611,34 @@ end
 end A345630.P13891116713887777388
 
 /-!
+# A345631: Numbers that are the sum of seven fifth powers in nine or more ways.
+
+The programs for A345631, there is no canonical definition to state claims against.
+-/
+
+/-! ## A345631.P4835281401689789079
+
+`∪[A345643(n+1), A346286(n+1)]`
+-/
+
+namespace A345631.P4835281401689789079
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345643 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346286 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345631.P4835281401689789079
+
+/-!
 # A345632: Sum of terms of even index in the binomial decomposition of n^(n-1).
 
 The programs for A345632, the canonical program `A345632.P9646962262592809252` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345632 has offset 1).
@@ -2218,6 +2288,28 @@ end A345638.P18265783228528892079
 The programs for A345639, there is no canonical definition to state claims against.
 -/
 
+/-! ## A345639.P17331300506599930065
+
+`∪[A345640(n+1), A346352(n+1)]`
+-/
+
+namespace A345639.P17331300506599930065
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345640 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346352 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345639.P17331300506599930065
+
 /-! ## A345639.P929090960096319782
 
 `A346352(A340019(3*n+5)%2+n)`
@@ -2280,21 +2372,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345639.P8701629095218202021
-
-/-! ## A345639.P12236030513162167939
-
-`A346352(n+1)^A219727(A219727(n))`
--/
-
-namespace A345639.P12236030513162167939
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A346352 (n + 1) : ℚ) ^ (A219727 (A219727 n).toNat : ℤ)
-
-end
-
-end A345639.P12236030513162167939
 
 /-!
 # A345640: Numbers that are the sum of ten fifth powers in eight or more ways.

@@ -1996,6 +1996,29 @@ def P13006021469629354972.Spec : Prop :=
 
 end A338522
 
+/-! ## A338522.P15712666196845305200
+
+`A000010(n+1)*A006882(n+1)*A006882(n)`
+-/
+
+namespace A338522.P15712666196845305200
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000010 (n + 1) * A006882 (n + 1) * A006882 n
+
+end
+
+end A338522.P15712666196845305200
+
+namespace A338522
+
+/-- `A000010(n+1)*A006882(n+1)*A006882(n)` -/
+def P15712666196845305200.Spec : Prop :=
+  ∀ n, P15712666196845305200.a n = A338522 (n + 1)
+
+end A338522
+
 /-!
 # A338523: Triangle T(n,m) = (2*m*n+2*n-2*m^2+1)*C(2*n+2,2*m+1)/(4*n+2).
 
@@ -7376,6 +7399,28 @@ end A338576
 
 The programs for A338577, there is no canonical definition to state claims against.
 -/
+
+/-! ## A338577.P12397926079052530300
+
+`∩[A095415(n+1), A191845(n+1)]`
+-/
+
+namespace A338577.P12397926079052530300
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095415 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191845 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338577.P12397926079052530300
 
 /-! ## A338577.P5140895564674694193
 

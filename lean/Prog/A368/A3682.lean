@@ -56,7 +56,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -87,6 +86,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A368200: Terms of A105774 given in ascending order.
@@ -633,20 +633,27 @@ end A368207.P16307858399757655787
 The programs for A368208, there is no canonical definition to state claims against.
 -/
 
-/-! ## A368208.P12481059503093114416
+/-! ## A368208.P13958058024477629469
 
-`A116360(n)+A081960(A377840(n))`
+`∩[A084541(n+1), A183991(n+1)]`
 -/
 
-namespace A368208.P12481059503093114416
+namespace A368208.P13958058024477629469
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116360 n + A081960 (A377840 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084541 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183991 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A368208.P12481059503093114416
+end A368208.P13958058024477629469
 
 /-!
 # A368210: Irregular triangle T(n,k) read by rows (n >= 1, 0 <= k <= max(A001222([1..n]))), giving the number of k-almost primes in [1,n].
@@ -1971,7 +1978,7 @@ end A368245.P11733161982988307262
 /-!
 # A368247: The number of cubefree divisors of the cubefull part of n (A360540).
 
-The programs for A368247, the canonical program `A368247.P6979336993255888350` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368247 has offset 1).
+The programs for A368247, the canonical program `A368247.P6979336993255888350` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368247 has offset 1).
 
 The definition of A368247 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A073184, A360540, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1980,7 +1987,7 @@ The definition of A368247 is `conditional`: the Lean definition is an OEIS formu
 
 `A073184(A360540(n+1))`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A368247

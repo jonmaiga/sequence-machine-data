@@ -5353,7 +5353,7 @@ end A127332
 /-!
 # A127333: Numbers that are the sum of 6 consecutive primes.
 
-The programs for A127333, the canonical program `A127333.P6306977747944234696` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127333 has offset 1).
+The programs for A127333, the canonical program `A127333.P6306977747944234696` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127333 has offset 1).
 
 The definition of A127333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5385,7 +5385,7 @@ end A127333
 
 `A034964(n+2)+A000040(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A127333
@@ -8506,6 +8506,36 @@ def P10049741677668256931.Spec : Prop :=
 
 end A127340
 
+/-! ## A127340.P14070287242086395141
+
+`∩[A073485(n+1), A127338(n+1)]`
+-/
+
+namespace A127340.P14070287242086395141
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073485 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127338 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127340.P14070287242086395141
+
+namespace A127340
+
+/-- `∩[A073485(n+1), A127338(n+1)]` -/
+def P14070287242086395141.Spec : Prop :=
+  ∀ n, (P14070287242086395141.a n : ℤ) = A127340 (n + 1)
+
+end A127340
+
 /-! ## A127340.P17498675027366363587
 
 `∩[A000040(n+1), A127338(n+1)]`
@@ -8833,36 +8863,6 @@ namespace A127340
 /-- `∩[A078132(n+1), A127338(n+1)]` -/
 def P12693320016214612440.Spec : Prop :=
   ∀ n, (P12693320016214612440.a n : ℤ) = A127340 (n + 1)
-
-end A127340
-
-/-! ## A127340.P275541449322254911
-
-`∩[A078138(n+1), A127338(n+1)]`
--/
-
-namespace A127340.P275541449322254911
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078138 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127338 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A127340.P275541449322254911
-
-namespace A127340
-
-/-- `∩[A078138(n+1), A127338(n+1)]` -/
-def P275541449322254911.Spec : Prop :=
-  ∀ n, (P275541449322254911.a n : ℤ) = A127340 (n + 1)
 
 end A127340
 
@@ -9221,7 +9221,7 @@ end A127343.P7328808933884397897
 /-!
 # A127345: a(n) = pq + pr + qr with p = prime(n), q = prime(n+1), and r = prime(n+2).
 
-The programs for A127345, the canonical program `A127345.P18035437064499472931` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127345 has offset 1).
+The programs for A127345, the canonical program `A127345.P18035437064499472931` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127345 has offset 1).
 
 The definition of A127345 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9230,7 +9230,7 @@ The definition of A127345 is `conjectured`: the Lean definition is a formula tha
 
 `A357679(n+2)+A090076(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A127345

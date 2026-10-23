@@ -6067,36 +6067,30 @@ The programs for A288660, the canonical program `A288660.P16979688566341528985` 
 The definition of A288660 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6829 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A288660.P16587618276030018926
+/-! ## A288660.P30701971439132140
 
-`eq[0, char[A288659(n+1)]]`
+`comp[A288659(n+1)]`
 -/
 
-namespace A288660.P16587618276030018926
+namespace A288660.P30701971439132140
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A288659 (n + 1)
 
 open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A288660.P16587618276030018926
+end A288660.P30701971439132140
 
 namespace A288660
 
-/-- `eq[0, char[A288659(n+1)]]` -/
-def P16587618276030018926.Spec : Prop :=
-  ∀ n, (P16587618276030018926.a n : ℤ) = A288660 (n + 1)
+/-- `comp[A288659(n+1)]` -/
+def P30701971439132140.Spec : Prop :=
+  ∀ n, (P30701971439132140.a n : ℤ) = A288660 (n + 1)
 
 end A288660
 

@@ -3854,6 +3854,24 @@ end
 
 end A278448.P14485442286760882818
 
+/-! ## A278448.P4288716285433021422
+
+`∑[A325272((n+1)²)]+3`
+-/
+
+namespace A278448.P4288716285433021422
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325272 ((n + 1) ^ 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j + 3
+
+end
+
+end A278448.P4288716285433021422
+
 /-!
 # A278449: a(n) = nearest integer to b(n) = c^(b(n-1)/(n-1)), where c=3 and b(1) is chosen such that the sequence neither explodes nor goes to 1.
 
@@ -4325,6 +4343,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278454.P13806995013517290485
+
+/-! ## A278454.P633618767437917448
+
+`A123318(A359337(n+1))`
+-/
+
+namespace A278454.P633618767437917448
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123318 (A359337 (n + 1)).toNat
+
+end
+
+end A278454.P633618767437917448
+
+/-! ## A278454.P11007901686953365389
+
+`filter[A380784(n+2), A161996(#)]`
+-/
+
+namespace A278454.P11007901686953365389
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380784 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A161996 (f1 j).toNat = 1) n)
+
+end
+
+end A278454.P11007901686953365389
 
 /-!
 # A278455: Smallest prime that takes n steps to get to 1, each step reducing the prime by the largest power of 2 possible, with the resultant number a prime.
@@ -8381,43 +8432,43 @@ end A278489.P12673179615018028339
 The programs for A278490, there is no canonical definition to state claims against.
 -/
 
-/-! ## A278490.P12380750965481659571
+/-! ## A278490.P12214638161898107940
 
-`A000035(2*n)+comp[A278489(n)]`
+`comp[A278489(n)]`
 -/
 
-namespace A278490.P12380750965481659571
+namespace A278490.P12214638161898107940
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A278489 n
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 (2 * n) + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A278490.P12380750965481659571
+end A278490.P12214638161898107940
 
-/-! ## A278490.P6788082648303002875
+/-! ## A278490.P12865877340183390428
 
-`comp[A278489(n)]%A051662(2*n+1)`
+`comp[A255131(n)]`
 -/
 
-namespace A278490.P6788082648303002875
+namespace A278490.P12865877340183390428
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278489 n
+  A255131 n
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A051662 (2 * n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A278490.P6788082648303002875
+end A278490.P12865877340183390428
 
 /-! ## A278490.P11244263027922180192
 
@@ -8439,31 +8490,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A278490.P11244263027922180192
-
-/-! ## A278490.P10199237050001264877
-
-`lt[char[A255131(n)], 1]`
--/
-
-namespace A278490.P10199237050001264877
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255131 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f3 j) n
-
-end
-
-end A278490.P10199237050001264877
 
 /-! ## A278490.P8931111065852085365
 
@@ -8519,25 +8545,6 @@ end
 
 end A278490.P2233466457467729093
 
-/-! ## A278490.P3101724082445489910
-
-`comp[A255131(n)]*A080427(3*n+5)`
--/
-
-namespace A278490.P3101724082445489910
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255131 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) * A080427 (3 * n + 5)
-
-end
-
-end A278490.P3101724082445489910
-
 /-! ## A278490.P10198396775297966758
 
 `record[(n+1)/A000041(n*A278216(n+1))]`
@@ -8555,82 +8562,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A278490.P10198396775297966758
-
-/-! ## A278490.P7960554620817826664
-
-`A001222(A176112(2*n+1))*comp[A255131(n)]`
--/
-
-namespace A278490.P7960554620817826664
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255131 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A176112 (2 * n + 1)).toNat * (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
-
-end
-
-end A278490.P7960554620817826664
-
-/-! ## A278490.P13617979188379384585
-
-`comp[A255131(n)]%A255149(n+1)`
--/
-
-namespace A278490.P13617979188379384585
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255131 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A255149 (n + 1))
-
-end
-
-end A278490.P13617979188379384585
-
-/-! ## A278490.P10912326307782938619
-
-`comp[A255131(n)]+C(2, A120354(n))`
--/
-
-namespace A278490.P10912326307782938619
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255131 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + Nat.choose 2 (A120354 n).toNat
-
-end
-
-end A278490.P10912326307782938619
-
-/-! ## A278490.P2287245649400359659
-
-`comp[A255131(n+1)]%(2*A120354(n))`
--/
-
-namespace A278490.P2287245649400359659
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255131 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (2 * A120354 n)
-
-end
-
-end A278490.P2287245649400359659
 
 /-!
 # A278491: After a(0)=0, numbers n such that (A002828(1+n) = 1) and (A002828(4+n) = 4).

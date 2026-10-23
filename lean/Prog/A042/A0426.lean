@@ -527,6 +527,28 @@ end A042629.P14261424847246362307
 The programs for A042633, there is no canonical definition to state claims against.
 -/
 
+/-! ## A042633.P2885423762543079861
+
+`∩[A022101(n), A337138(n+1)]`
+-/
+
+namespace A042633.P2885423762543079861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022101 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337138 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A042633.P2885423762543079861
+
 /-! ## A042633.P6753795442337555329
 
 `A022101(record[n-A308109(n+1)])`

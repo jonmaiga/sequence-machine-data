@@ -62,6 +62,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1787,6 +1788,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A298120.P45160597111580953
+
+/-! ## A298120.P13561720961652811785
+
+`A298205(A055647(n+1))`
+-/
+
+namespace A298120.P13561720961652811785
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298205 (A055647 (n + 1)).toNat
+
+end
+
+end A298120.P13561720961652811785
+
+/-! ## A298120.P8494923010374657294
+
+`A298205(A161951(n+1))`
+-/
+
+namespace A298120.P8494923010374657294
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298205 (A161951 (n + 1)).toNat
+
+end
+
+end A298120.P8494923010374657294
 
 /-!
 # A298121: a(n) is the number of triangles (up to congruence) with integer coordinates that have perimeter strictly less than n.

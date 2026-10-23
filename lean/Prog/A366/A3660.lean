@@ -3119,7 +3119,7 @@ end A366075
 /-!
 # A366076: The number of prime factors of the largest divisor of n that is a cubefull number (A036966), counted with multiplicity.
 
-The programs for A366076, the canonical program `A366076.P7794237320208997332` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366076 has offset 1).
+The programs for A366076, the canonical program `A366076.P7794237320208997332` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366076 has offset 1).
 
 The definition of A366076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A360540, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3128,7 +3128,7 @@ The definition of A366076 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A360540(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A366076
@@ -3829,7 +3829,7 @@ end A366077
 /-!
 # A366078: The number of distinct prime factors of the cubefree part of n (A360539).
 
-The programs for A366078, the canonical program `A366078.P11404734746980857531` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366078 has offset 1).
+The programs for A366078, the canonical program `A366078.P11404734746980857531` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366078 has offset 1).
 
 The definition of A366078 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A295659, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3861,7 +3861,7 @@ end A366078
 
 `A001221(n+1)-A295659(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A366078

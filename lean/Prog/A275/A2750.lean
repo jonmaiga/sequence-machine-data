@@ -1835,6 +1835,29 @@ def P13631092276146717339.Spec : Prop :=
 
 end A275019
 
+/-! ## A275019.P10729408001758698552
+
+`A050605(n)+A007814(n+3)`
+-/
+
+namespace A275019.P10729408001758698552
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050605 n + A007814 (n + 3)
+
+end
+
+end A275019.P10729408001758698552
+
+namespace A275019
+
+/-- `A050605(n)+A007814(n+3)` -/
+def P10729408001758698552.Spec : Prop :=
+  ∀ n, P10729408001758698552.a n = A275019 (n + 1)
+
+end A275019
+
 /-!
 # A275021: Pairs of primes p, p+4 such that p-2 and p+6 are composite.
 

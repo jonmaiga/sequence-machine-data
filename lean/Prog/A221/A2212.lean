@@ -35,7 +35,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -387,7 +386,7 @@ end A221204.P531257656476471636
 /-!
 # A221205: a(n) is the nearest integer to sqrt(pi(10^n)) (see A006880).
 
-The programs for A221205, the canonical program `A221205.P3574255995108441508` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221205 has offset 0).
+The programs for A221205, the canonical program `A221205.P3574255995108441508` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221205 has offset 0).
 
 The definition of A221205 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006880, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -396,7 +395,7 @@ The definition of A221205 is `conditional`: the Lean definition is an OEIS formu
 
 `round(sqrt(A006880(n)))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A221205
@@ -530,6 +529,29 @@ def P13585945770861599822.Spec : Prop :=
 theorem P13585945770861599822.correct : P13585945770861599822.Spec := by
   intro n
   simp only [A221206, Nat.add_sub_cancel]
+
+end A221206
+
+/-! ## A221206.P16693469173803158103
+
+`A245473(A150954(n+1))`
+-/
+
+namespace A221206.P16693469173803158103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245473 (A150954 (n + 1)).toNat
+
+end
+
+end A221206.P16693469173803158103
+
+namespace A221206
+
+/-- `A245473(A150954(n+1))` -/
+def P16693469173803158103.Spec : Prop :=
+  ∀ n, P16693469173803158103.a n = A221206 (n + 1)
 
 end A221206
 
@@ -1429,19 +1451,19 @@ end
 
 end A221220.P1667536688189463504
 
-/-! ## A221220.P8809108454128377809
+/-! ## A221220.P6003190776211960171
 
-`∩[A068998(n+1), A327476(n+1)]`
+`∩[A024619(n+1), A209799(n+1)]`
 -/
 
-namespace A221220.P8809108454128377809
+namespace A221220.P6003190776211960171
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068998 (n + 1)
+  A024619 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327476 (n + 1)
+  A209799 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1449,7 +1471,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A221220.P8809108454128377809
+end A221220.P6003190776211960171
 
 /-!
 # A221221: Where powerbacks and powertrains coincide.
@@ -4143,7 +4165,7 @@ end A221261.P10381120277469935119
 /-!
 # A221264: Numbers having fewer distinct prime factors of form 4*k+1 than of 4*k+3.
 
-The programs for A221264, the canonical program `A221264.P4034302150785658829` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221264 has offset 1).
+The programs for A221264, the canonical program `A221264.P4034302150785658829` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221264 has offset 1).
 
 The definition of A221264 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4562 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4152,7 +4174,7 @@ The definition of A221264 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A005094(n+1), 0]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A221264
@@ -4428,7 +4450,7 @@ end A221264
 /-!
 # A221265: Numbers having more distinct prime factors of form 4*k+1 than of 4*k+3.
 
-The programs for A221265, the canonical program `A221265.P6244898558375044085` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221265 has offset 1).
+The programs for A221265, the canonical program `A221265.P6244898558375044085` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221265 has offset 1).
 
 The definition of A221265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2815 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4437,7 +4459,7 @@ The definition of A221265 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A005094(n+2)]+2`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A221265
@@ -6205,7 +6227,7 @@ end A221282
 /-!
 # A221283: Number of totients up to 10^n.
 
-The programs for A221283, the canonical program `A221283.P16155625490231982154` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221283 has offset 0).
+The programs for A221283, the canonical program `A221283.P16155625490231982154` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221283 has offset 0).
 
 The definition of A221283 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A264810, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6214,7 +6236,7 @@ The definition of A221283 is `conditional`: the Lean definition is an OEIS formu
 
 `A264810(10^n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A221283

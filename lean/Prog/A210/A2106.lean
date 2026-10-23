@@ -46,6 +46,7 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -1366,6 +1367,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A210613.P15422311867848946258
+
+/-!
+# A210614: Numbers without digit 0 or 5 whose "waterfall sequence" ends in 0,0,0,...
+
+The programs for A210614, there is no canonical definition to state claims against.
+-/
+
+/-! ## A210614.P12721844288443359384
+
+`∩[A210652(n+1), A261189(n+1)]`
+-/
+
+namespace A210614.P12721844288443359384
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210652 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261189 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A210614.P12721844288443359384
 
 /-!
 # A210615: Least semiprime dividing n, or 0 if no semiprime divides n.
@@ -3811,6 +3840,27 @@ def P839852530538390049.Spec : Prop :=
 end A210645
 
 /-!
+# A210646: Primes which are the sum of two numbers of the form k*(k+1)^2/2.
+
+The programs for A210646, there is no canonical definition to state claims against.
+-/
+
+/-! ## A210646.P8993648414058733834
+
+`A288833(A270988(n))`
+-/
+
+namespace A210646.P8993648414058733834
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A288833 (A270988 n).toNat
+
+end
+
+end A210646.P8993648414058733834
+
+/-!
 # A210647: Least nonnegative m such that k(n) + k(m) is prime, where k(n) = n*(n+1)^2/2.
 
 The programs for A210647, there is no canonical definition to state claims against.
@@ -6056,6 +6106,29 @@ def P15014134094009291664.Spec : Prop :=
 
 end A210673
 
+/-! ## A210673.P12087957398974988518
+
+`A048577(n)-A013915(n)`
+-/
+
+namespace A210673.P12087957398974988518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048577 n - A013915 n
+
+end
+
+end A210673.P12087957398974988518
+
+namespace A210673
+
+/-- `A048577(n)-A013915(n)` -/
+def P12087957398974988518.Spec : Prop :=
+  ∀ n, P12087957398974988518.a n = A210673 n
+
+end A210673
+
 /-!
 # A210675: a(n)=a(n-1)+a(n-2)+n+4, a(0)=0, a(1)=1.
 
@@ -6503,6 +6576,29 @@ def P2858318882977990364.Spec : Prop :=
 
 end A210675
 
+/-! ## A210675.P1157060933717846080
+
+`A001924(n)+A192762(n)-A104161(n)`
+-/
+
+namespace A210675.P1157060933717846080
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001924 n + (A192762 n - A104161 n)
+
+end
+
+end A210675.P1157060933717846080
+
+namespace A210675
+
+/-- `A001924(n)+A192762(n)-A104161(n)` -/
+def P1157060933717846080.Spec : Prop :=
+  ∀ n, P1157060933717846080.a n = A210675 n
+
+end A210675
+
 /-!
 # A210677: a(n) = a(n-1) + a(n-2) + n + 1, a(0) = a(1) = 1.
 
@@ -6941,6 +7037,29 @@ namespace A210677
 /-- `A192760(n)-A152163(n+1)` -/
 def P15143633817208816362.Spec : Prop :=
   ∀ n, P15143633817208816362.a n = A210677 n
+
+end A210677
+
+/-! ## A210677.P7405654406913300982
+
+`A179991(n+1)-A000045(n+2)`
+-/
+
+namespace A210677.P7405654406913300982
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179991 (n + 1) - A000045 (n + 2)
+
+end
+
+end A210677.P7405654406913300982
+
+namespace A210677
+
+/-- `A179991(n+1)-A000045(n+2)` -/
+def P7405654406913300982.Spec : Prop :=
+  ∀ n, P7405654406913300982.a n = A210677 n
 
 end A210677
 
@@ -7384,6 +7503,29 @@ namespace A210678
 /-- `A192762(n)+1-A000045(n)` -/
 def P890272759552072055.Spec : Prop :=
   ∀ n, P890272759552072055.a n = A210678 n
+
+end A210678
+
+/-! ## A210678.P2391262853133988590
+
+`A210677(n)+A210677(n)-A030119(n)`
+-/
+
+namespace A210678.P2391262853133988590
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210677 n + (A210677 n - A030119 n)
+
+end
+
+end A210678.P2391262853133988590
+
+namespace A210678
+
+/-- `A210677(n)+A210677(n)-A030119(n)` -/
+def P2391262853133988590.Spec : Prop :=
+  ∀ n, P2391262853133988590.a n = A210678 n
 
 end A210678
 

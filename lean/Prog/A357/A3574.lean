@@ -54,6 +54,7 @@ import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -3980,6 +3981,122 @@ end
 
 end A357462.P7970245821024131867
 
+/-! ## A357462.P7533380920090788307
+
+`∩[A184967(n+1), A389463(n+1)]`
+-/
+
+namespace A357462.P7533380920090788307
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A184967 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389463 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357462.P7533380920090788307
+
+/-! ## A357462.P11852488245437168587
+
+`∩[A074902(n+1), A143907(n+1)]`
+-/
+
+namespace A357462.P11852488245437168587
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074902 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143907 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357462.P11852488245437168587
+
+/-!
+# A357474: Squarely correct numbers.
+
+The programs for A357474, there is no canonical definition to state claims against.
+-/
+
+/-! ## A357474.P7179898977254260953
+
+`∩[A166498(n+1), A229300(n+1)]`
+-/
+
+namespace A357474.P7179898977254260953
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166498 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229300 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357474.P7179898977254260953
+
+/-! ## A357474.P13657743470518613409
+
+`∩[A166498(n+1), A225859(n+1)]`
+-/
+
+namespace A357474.P13657743470518613409
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166498 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225859 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357474.P13657743470518613409
+
+/-! ## A357474.P15961765482333850380
+
+`∩[A166498(n+1), A346129(n+1)]`
+-/
+
+namespace A357474.P15961765482333850380
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166498 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346129 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357474.P15961765482333850380
+
 /-!
 # A357476: Number of partitions of n into two or more powers of 2.
 
@@ -4491,16 +4608,16 @@ end
 
 end A357485.P12899858103230136716
 
-/-! ## A357485.P5330382504525485127
+/-! ## A357485.P14201239810781366045
 
-`∩[A335127(n+1), A357486(n+1)]`
+`∩[A026422(n+1), A357486(n+1)]`
 -/
 
-namespace A357485.P5330382504525485127
+namespace A357485.P14201239810781366045
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335127 (n + 1)
+  A026422 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A357486 (n + 1)
@@ -4511,7 +4628,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A357485.P5330382504525485127
+end A357485.P14201239810781366045
+
+/-! ## A357485.P16057123398145002312
+
+`∩[A344609(n+1), A357486(n+1)]`
+-/
+
+namespace A357485.P16057123398145002312
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344609 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357486 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357485.P16057123398145002312
 
 /-!
 # A357486: Heinz numbers of integer partitions with the same length as alternating sum.

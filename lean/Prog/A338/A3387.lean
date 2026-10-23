@@ -7817,6 +7817,127 @@ def P17339681952370675176.Spec : Prop :=
 
 end A338795
 
+/-! ## A338795.P18343395687949477094
+
+`A014634(∑[3*n])`
+-/
+
+namespace A338795.P18343395687949477094
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014634 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A338795.P18343395687949477094
+
+namespace A338795
+
+/-- `A014634(∑[3*n])` -/
+def P18343395687949477094.Spec : Prop :=
+  ∀ n, P18343395687949477094.a n = A338795 (n + 1)
+
+end A338795
+
+/-! ## A338795.P9133727183707119712
+
+`A177049(∑[4*n])`
+-/
+
+namespace A338795.P9133727183707119712
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 * n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177049 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A338795.P9133727183707119712
+
+namespace A338795
+
+/-- `A177049(∑[4*n])` -/
+def P9133727183707119712.Spec : Prop :=
+  ∀ n, P9133727183707119712.a n = A338795 (n + 1)
+
+end A338795
+
+/-! ## A338795.P17419243681351598551
+
+`A060544((n+1)²+n²)`
+-/
+
+namespace A338795.P17419243681351598551
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060544 ((n + 1) ^ 2 + n ^ 2)
+
+end
+
+end A338795.P17419243681351598551
+
+namespace A338795
+
+/-- `A060544((n+1)²+n²)` -/
+def P17419243681351598551.Spec : Prop :=
+  ∀ n, P17419243681351598551.a n = A338795 (n + 1)
+
+end A338795
+
+/-! ## A338795.P11828828831469231627
+
+`A318624((n+1)²+n²)`
+-/
+
+namespace A338795.P11828828831469231627
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318624 ((n + 1) ^ 2 + n ^ 2)
+
+end
+
+end A338795.P11828828831469231627
+
+namespace A338795
+
+/-- `A318624((n+1)²+n²)` -/
+def P11828828831469231627.Spec : Prop :=
+  ∀ n, P11828828831469231627.a n = A338795 (n + 1)
+
+end A338795
+
+/-! ## A338795.P1159626763806951242
+
+`A000217(A003154(n+1))`
+-/
+
+namespace A338795.P1159626763806951242
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (A003154 (n + 1)).toNat
+
+end
+
+end A338795.P1159626763806951242
+
+namespace A338795
+
+/-- `A000217(A003154(n+1))` -/
+def P1159626763806951242.Spec : Prop :=
+  ∀ n, P1159626763806951242.a n = A338795 (n + 1)
+
+end A338795
+
 /-!
 # A338796: Triangle T read by rows: T(n, k) is the k-th row sum of the symmetric Toeplitz matrix M(n) whose first row consists of a single zero followed by successive positive integers repeated (A004526).
 

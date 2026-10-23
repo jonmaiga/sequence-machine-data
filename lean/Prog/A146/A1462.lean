@@ -1760,6 +1760,21 @@ end
 
 end A146236.P3101953961623299717
 
+/-! ## A146236.P1288955425592913103
+
+`A260113(A060455(n))`
+-/
+
+namespace A146236.P1288955425592913103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260113 (A060455 n).toNat
+
+end
+
+end A146236.P1288955425592913103
+
 /-!
 # A146237: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 110-111-001 pattern in any orientation.
 
@@ -5657,6 +5672,29 @@ namespace A146298
 /-- `A004126(n)-A006002(n)` -/
 def P9253614212958616624.Spec : Prop :=
   ∀ n, P9253614212958616624.a n = A146298 n
+
+end A146298
+
+/-! ## A146298.P13161445375929348285
+
+`A004466(n)-A011379(n)`
+-/
+
+namespace A146298.P13161445375929348285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004466 n - A011379 n
+
+end
+
+end A146298.P13161445375929348285
+
+namespace A146298
+
+/-- `A004466(n)-A011379(n)` -/
+def P13161445375929348285.Spec : Prop :=
+  ∀ n, P13161445375929348285.a n = A146298 n
 
 end A146298
 

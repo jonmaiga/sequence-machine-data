@@ -39,7 +39,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B007.C001
@@ -60,7 +59,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -3070,20 +3068,27 @@ end
 
 end A041456.P10559553160848695286
 
-/-! ## A041456.P15906938525936922552
+/-! ## A041456.P3210534181322603815
 
-`A022105(A356939(n+1)%A217799(n+2))`
+`∩[A022105(n), A167703(n+1)]`
 -/
 
-namespace A041456.P15906938525936922552
+namespace A041456.P3210534181322603815
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022105 (Int.tmod (A356939 (n + 1)) (A217799 (n + 2))).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022105 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167703 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A041456.P15906938525936922552
+end A041456.P3210534181322603815
 
 /-!
 # A041457: Denominators of continued fraction convergents to sqrt(244).

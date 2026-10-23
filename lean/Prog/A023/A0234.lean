@@ -46,6 +46,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -56,6 +57,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -1832,6 +1834,52 @@ namespace A023416
 /-- `A233273(n)-A103517(n)` -/
 def P5815212014114288518.Spec : Prop :=
   ∀ n, P5815212014114288518.a n = A023416 n
+
+end A023416
+
+/-! ## A023416.P18187390650870689531
+
+`A290251(n)-A158388(n)`
+-/
+
+namespace A023416.P18187390650870689531
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290251 n - A158388 n
+
+end
+
+end A023416.P18187390650870689531
+
+namespace A023416
+
+/-- `A290251(n)-A158388(n)` -/
+def P18187390650870689531.Spec : Prop :=
+  ∀ n, P18187390650870689531.a n = A023416 n
+
+end A023416
+
+/-! ## A023416.P6465944579607282071
+
+`xor(A000120(n), A384956(n))`
+-/
+
+namespace A023416.P6465944579607282071
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000120 n) (A384956 n)
+
+end
+
+end A023416.P6465944579607282071
+
+namespace A023416
+
+/-- `xor(A000120(n), A384956(n))` -/
+def P6465944579607282071.Spec : Prop :=
+  ∀ n, P6465944579607282071.a n = A023416 n
 
 end A023416
 

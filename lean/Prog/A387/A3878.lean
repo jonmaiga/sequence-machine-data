@@ -3155,6 +3155,52 @@ def P10190532524484656703.Spec : Prop :=
 
 end A387869
 
+/-! ## A387869.P4228996726436286371
+
+`A362374(2*n+1)/4`
+-/
+
+namespace A387869.P4228996726436286371
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A362374 (2 * n + 1) : ℚ) / 4
+
+end
+
+end A387869.P4228996726436286371
+
+namespace A387869
+
+/-- `A362374(2*n+1)/4` -/
+def P4228996726436286371.Spec : Prop :=
+  ∀ n, P4228996726436286371.a n = (A387869 n : ℚ)
+
+end A387869
+
+/-! ## A387869.P14023077833088508064
+
+`A323346(n*(2*n+3))`
+-/
+
+namespace A387869.P14023077833088508064
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323346 (n * (2 * n + 3))
+
+end
+
+end A387869.P14023077833088508064
+
+namespace A387869
+
+/-- `A323346(n*(2*n+3))` -/
+def P14023077833088508064.Spec : Prop :=
+  ∀ n, P14023077833088508064.a n = A387869 n
+
+end A387869
+
 /-!
 # A387870: a(n) = Sum_{k=0..n} binomial(3*n+1,4*k).
 
@@ -4064,6 +4110,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387881.P15305673037325426972
+
+/-! ## A387881.P4646140040759607170
+
+`filter[A390626(n+1), A331168(#)]`
+-/
+
+namespace A387881.P4646140040759607170
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390626 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A331168 (f1 j).toNat = 1) n)
+
+end
+
+end A387881.P4646140040759607170
+
+/-! ## A387881.P11662419060133705140
+
+`filter[A390626(n+1), A331281(#)]`
+-/
+
+namespace A387881.P11662419060133705140
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390626 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A331281 (f1 j).toNat = 1) n)
+
+end
+
+end A387881.P11662419060133705140
 
 /-!
 # A387883: a(n) is the number of regions into which the plane is divided by n^2 circles of radius 1, the centers of which are located at the nodes of a square lattice n X n.

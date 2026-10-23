@@ -51,7 +51,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -2041,7 +2040,7 @@ end A193633
 /-!
 # A193634: Triangle: T(n,k)=C(4n+1,2k), 0<=k<=n.
 
-The programs for A193634, the canonical program `A193634.P15265443196833601696` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193634 has offset 0).
+The programs for A193634, the canonical program `A193634.P15265443196833601696` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193634 has offset 0).
 
 The definition of A193634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2050,7 +2049,7 @@ The definition of A193634 is `conjectured`: the Lean definition is a formula tha
 
 `A091042(A292564(n))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A193634
@@ -2455,7 +2454,7 @@ end A193635
 /-!
 # A193636: Triangle: T(n,k) = C(3n-2k,k), 0 <= k <= n.
 
-The programs for A193636, the canonical program `A193636.P16365352576518328121` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193636 has offset 0).
+The programs for A193636, the canonical program `A193636.P16365352576518328121` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193636 has offset 0).
 
 The definition of A193636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9871 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2464,7 +2463,7 @@ The definition of A193636 is `conjectured`: the Lean definition is a formula tha
 
 `A109955(gcd(A061579(n), A198954(n)))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A193636
@@ -6129,33 +6128,26 @@ def P14809130815924705748.Spec : Prop :=
 
 end A193652
 
-/-! ## A193652.P12858471110485636678
+/-! ## A193652.P7112933458886523047
 
-`∪[A007583(n), A020988(n)]`
+`(A153643(n)-A155944(n))*A001045(n)`
 -/
 
-namespace A193652.P12858471110485636678
+namespace A193652.P7112933458886523047
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007583 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020988 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A153643 n - A155944 n) * A001045 n
 
 end
 
-end A193652.P12858471110485636678
+end A193652.P7112933458886523047
 
 namespace A193652
 
-/-- `∪[A007583(n), A020988(n)]` -/
-def P12858471110485636678.Spec : Prop :=
-  ∀ n, (P12858471110485636678.a n : ℤ) = A193652 n
+/-- `(A153643(n)-A155944(n))*A001045(n)` -/
+def P7112933458886523047.Spec : Prop :=
+  ∀ n, P7112933458886523047.a n = A193652 n
 
 end A193652
 
@@ -9525,6 +9517,29 @@ namespace A193678
 /-- `A062971(n+1)/2` -/
 def P11342072983258579742.Spec : Prop :=
   ∀ n, P11342072983258579742.a n = (A193678 (n + 1) : ℚ)
+
+end A193678
+
+/-! ## A193678.P2918848625279445954
+
+`A147662(2*(n+1))/2`
+-/
+
+namespace A193678.P2918848625279445954
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A147662 (2 * (n + 1)) : ℚ) / 2
+
+end
+
+end A193678.P2918848625279445954
+
+namespace A193678
+
+/-- `A147662(2*(n+1))/2` -/
+def P2918848625279445954.Spec : Prop :=
+  ∀ n, P2918848625279445954.a n = (A193678 (n + 1) : ℚ)
 
 end A193678
 

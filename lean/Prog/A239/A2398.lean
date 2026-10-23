@@ -44,6 +44,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
@@ -2018,6 +2019,29 @@ namespace A239831
 /-- `A241151(6*C(n+2, 2)²+2)` -/
 def P12046550330609596471.Spec : Prop :=
   ∀ n, P12046550330609596471.a n = A239831 (n + 1)
+
+end A239831
+
+/-! ## A239831.P12048099870926061342
+
+`A130271(A162673(n+2))`
+-/
+
+namespace A239831.P12048099870926061342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130271 (A162673 (n + 2)).toNat
+
+end
+
+end A239831.P12048099870926061342
+
+namespace A239831
+
+/-- `A130271(A162673(n+2))` -/
+def P12048099870926061342.Spec : Prop :=
+  ∀ n, P12048099870926061342.a n = A239831 (n + 1)
 
 end A239831
 
@@ -7735,6 +7759,28 @@ end A239891.P5240825343436138114
 The programs for A239892, there is no canonical definition to state claims against.
 -/
 
+/-! ## A239892.P9765254402494788287
+
+`∩[A068422(n+1), A275374(n+1)]`
+-/
+
+namespace A239892.P9765254402494788287
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068422 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A275374 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239892.P9765254402494788287
+
 /-! ## A239892.P11816042535069217440
 
 `eq[A323410(2*(n+1)), A344767(n+2)]+1`
@@ -7776,27 +7822,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A239892.P10295787195204802161
-
-/-! ## A239892.P17082419896218091469
-
-`eq[A323410(A004277(n)), A344767(n+1)]`
--/
-
-namespace A239892.P17082419896218091469
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323410 (A004277 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344767 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A239892.P17082419896218091469
 
 /-!
 # A239895: Triangle read by rows: T(n,k) (n >= 1, 1 <= k <= n) = number of alternating anagrams on n letters (of length 2n) which are decomposable into at most k components.

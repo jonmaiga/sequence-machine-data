@@ -54,7 +54,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -8256,6 +8255,52 @@ def P11859002353704001843.Spec : Prop :=
 
 end A162485
 
+/-! ## A162485.P15026290604839970093
+
+`A002203(n+1)+A100828(n+1)-A113224(n+1)`
+-/
+
+namespace A162485.P15026290604839970093
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002203 (n + 1) + (A100828 (n + 1) - A113224 (n + 1))
+
+end
+
+end A162485.P15026290604839970093
+
+namespace A162485
+
+/-- `A002203(n+1)+A100828(n+1)-A113224(n+1)` -/
+def P15026290604839970093.Spec : Prop :=
+  ∀ n, P15026290604839970093.a n = A162485 (n + 1)
+
+end A162485
+
+/-! ## A162485.P6302020375173951889
+
+`A069306(n+2)-A114689(n)`
+-/
+
+namespace A162485.P6302020375173951889
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069306 (n + 2) - A114689 n
+
+end
+
+end A162485.P6302020375173951889
+
+namespace A162485
+
+/-- `A069306(n+2)-A114689(n)` -/
+def P6302020375173951889.Spec : Prop :=
+  ∀ n, P6302020375173951889.a n = A162485 (n + 1)
+
+end A162485
+
 /-!
 # A162488: Numbers x such that x^y + y^x is prime, for some y>1, y
 
@@ -8297,6 +8342,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A162488.P2579952111670481958
+
+/-! ## A162488.P10569115690622400747
+
+`comp[A160044(n+1)]`
+-/
+
+namespace A162488.P10569115690622400747
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160044 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A162488.P10569115690622400747
 
 /-!
 # A162489: Least y such that x^y + y^x is prime, for x = A162488(n).

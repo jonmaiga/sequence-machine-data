@@ -26676,7 +26676,7 @@ end A138460
 /-!
 # A138462: A bisection of A006318.
 
-The programs for A138462, the canonical program `A138462.P1509641166466070185` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138462 has offset 0).
+The programs for A138462, the canonical program `A138462.P1509641166466070185` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138462 has offset 0).
 
 The definition of A138462 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006318, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -26685,7 +26685,7 @@ The definition of A138462 is `conditional`: the Lean definition is an OEIS formu
 
 `A006318(2*n)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A138462
@@ -26940,7 +26940,7 @@ end A138462
 /-!
 # A138463: A bisection of A006318.
 
-The programs for A138463, the canonical program `A138463.P11537261983961229773` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138463 has offset 0).
+The programs for A138463, the canonical program `A138463.P11537261983961229773` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138463 has offset 0).
 
 The definition of A138463 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006318, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -26949,7 +26949,7 @@ The definition of A138463 is `conditional`: the Lean definition is an OEIS formu
 
 `A006318(2*n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A138463

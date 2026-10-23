@@ -836,6 +836,34 @@ def P18031377953256098675.Spec : Prop :=
 end A365007
 
 /-!
+# A365009: Semiprimes that are the concatenation of two or more semiprimes.
+
+The programs for A365009, there is no canonical definition to state claims against.
+-/
+
+/-! ## A365009.P11816711736123444365
+
+`∩[A108631(n+1), A353439(n+1)]`
+-/
+
+namespace A365009.P11816711736123444365
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108631 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353439 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365009.P11816711736123444365
+
+/-!
 # A365010: E.g.f. satisfies A(x) = 1 + x*exp(-x)*A(x)^3.
 
 The programs for A365010, there is no canonical definition to state claims against.
@@ -2257,6 +2285,29 @@ theorem P8489107577493160946.correct : P8489107577493160946.Spec := by
 
 end A365062
 
+/-! ## A365062.P7774270846292516474
+
+`ogf((-1+x+x^4)/(-1+2x))`
+-/
+
+namespace A365062.P7774270846292516474
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, 0, 0, -1] [1, -2] n
+
+end
+
+end A365062.P7774270846292516474
+
+namespace A365062
+
+/-- `ogf((-1+x+x^4)/(-1+2x))` -/
+def P7774270846292516474.Spec : Prop :=
+  ∀ n, P7774270846292516474.a n = A365062 n
+
+end A365062
+
 /-! ## A365062.P1215134682983774886
 
 `a(n-1)+a(n-1)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=4, a(4)=7`
@@ -2796,6 +2847,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365071.P14649203438607061923
+
+/-! ## A365071.P14851859989166389963
+
+`A371625(A097133(n))`
+-/
+
+namespace A365071.P14851859989166389963
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371625 (A097133 n).toNat
+
+end
+
+end A365071.P14851859989166389963
 
 /-!
 # A365073: Number of subsets of {1..n} that can be linearly combined using nonnegative coefficients to obtain n.

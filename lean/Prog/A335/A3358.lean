@@ -5695,6 +5695,28 @@ end
 
 end A335874.P4116222218277844392
 
+/-! ## A335874.P17149091590006143473
+
+`∩[A086983(n+1), A095078(n+1)]`
+-/
+
+namespace A335874.P17149091590006143473
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086983 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095078 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335874.P17149091590006143473
+
 /-! ## A335874.P3428743247488380258
 
 `∩[A086983(n+1), A140707(n+1)]`
@@ -5717,6 +5739,28 @@ end
 
 end A335874.P3428743247488380258
 
+/-! ## A335874.P17086685350042959009
+
+`∩[A086983(n+1), A161793(n+1)]`
+-/
+
+namespace A335874.P17086685350042959009
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086983 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161793 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335874.P17086685350042959009
+
 /-! ## A335874.P17099234927388981662
 
 `∩[A086983(n+1), A164874(n+1)]`
@@ -5738,46 +5782,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335874.P17099234927388981662
-
-/-! ## A335874.P7289305199648388893
-
-`∩[A086983(n+1), A384021(n+1)]`
--/
-
-namespace A335874.P7289305199648388893
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086983 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384021 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335874.P7289305199648388893
-
-/-! ## A335874.P15208341392816678807
-
-`p?[A335431(n+1)-1]`
--/
-
-namespace A335874.P15208341392816678807
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335431 (n + 1) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A335874.P15208341392816678807
 
 /-!
 # A335875: a(n) = min(A329697(n), A331410(n)).

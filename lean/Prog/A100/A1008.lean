@@ -8504,6 +8504,52 @@ def P16432188293318918436.Spec : Prop :=
 
 end A100855
 
+/-! ## A100855.P10309140415044872374
+
+`A168351(n)%A165563(n)`
+-/
+
+namespace A100855.P10309140415044872374
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A168351 n) (A165563 n)
+
+end
+
+end A100855.P10309140415044872374
+
+namespace A100855
+
+/-- `A168351(n)%A165563(n)` -/
+def P10309140415044872374.Spec : Prop :=
+  ∀ n, P10309140415044872374.a n = A100855 n
+
+end A100855
+
+/-! ## A100855.P5768564068827215128
+
+`A135509(n)%A100177(n+1)`
+-/
+
+namespace A100855.P5768564068827215128
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A135509 n) (A100177 (n + 1))
+
+end
+
+end A100855.P5768564068827215128
+
+namespace A100855
+
+/-- `A135509(n)%A100177(n+1)` -/
+def P5768564068827215128.Spec : Prop :=
+  ∀ n, P5768564068827215128.a n = A100855 n
+
+end A100855
+
 /-!
 # A100856: a(n) = (prime(n) - 1)! + prime(n).
 
@@ -12786,12 +12832,12 @@ end A100892
 The programs for A100893, there is no canonical definition to state claims against.
 -/
 
-/-! ## A100893.P14208477992588252973
+/-! ## A100893.P7577282637698900911
 
-`ogf((-2-3x-3x^2-3x^3-3x^4)/(-1+10x))`
+`ogf((2+3x+3x^2+3x^3+3x^4)/(1-10x))`
 -/
 
-namespace A100893.P14208477992588252973
+namespace A100893.P7577282637698900911
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -12799,7 +12845,7 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A100893.P14208477992588252973
+end A100893.P7577282637698900911
 
 /-!
 # A100894: a(n) = smallest n-digit prime formed by appending a digit to a(n-1); a(1) = 3.
@@ -12807,23 +12853,20 @@ end A100893.P14208477992588252973
 The programs for A100894, there is no canonical definition to state claims against.
 -/
 
-/-! ## A100894.P17062147965405434164
+/-! ## A100894.P15735465516153064518
 
-`A048550(∑{digits}[n, #])`
+`ogf((3+x+x^2+9x^3+3x^4)/(1-10x))`
 -/
 
-namespace A100894.P17062147965405434164
+namespace A100894.P15735465516153064518
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048550 ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x).sum
+  SequenceMachineLib.ogf [3, 1, 1, 9, 3] [1, -10] n
 
 end
 
-end A100894.P17062147965405434164
+end A100894.P15735465516153064518
 
 /-!
 # A100895: a(n) = smallest n-digit prime formed by appending a digit to a(n-1); a(1) = 7.
@@ -12831,12 +12874,12 @@ end A100894.P17062147965405434164
 The programs for A100895, there is no canonical definition to state claims against.
 -/
 
-/-! ## A100895.P10002036784271982127
+/-! ## A100895.P631990098883410493
 
-`∑[ogf((-7+6x-8x^2+6x^3)/(-1+10x))]`
+`∑[ogf((7-6x+8x^2-6x^3)/(1-10x))]`
 -/
 
-namespace A100895.P10002036784271982127
+namespace A100895.P631990098883410493
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -12847,7 +12890,7 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A100895.P10002036784271982127
+end A100895.P631990098883410493
 
 /-!
 # A100896: a(n) has decimal expansion 3nn3.

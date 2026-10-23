@@ -9090,6 +9090,28 @@ end
 
 end A100564.P208692830913147616
 
+/-! ## A100564.P7141209090583998180
+
+`∩[A040067(n+1), A227455(n+1)]`
+-/
+
+namespace A100564.P7141209090583998180
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040067 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227455 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A100564.P7141209090583998180
+
 /-! ## A100564.P9162157007024881170
 
 `∩[A040078(n+1), A227455(n+1)]`
@@ -9221,28 +9243,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A100564.P7533265933693627068
-
-/-! ## A100564.P14274728374891668191
-
-`∩[A040970(n+1), A227455(n+1)]`
--/
-
-namespace A100564.P14274728374891668191
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040970 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227455 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A100564.P14274728374891668191
 
 /-!
 # A100565: a(n) = Card{(x,y,z) : x <= y <= z, x|n, y|n, z|n, gcd(x,y)=1, gcd(x,z)=1, gcd(y,z)=1}.
@@ -10335,6 +10335,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A100571.P3133361231787896843
+
+/-! ## A100571.P16606521196589492639
+
+`A000578(A102352(n+1))`
+-/
+
+namespace A100571.P16606521196589492639
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000578 (A102352 (n + 1)).toNat
+
+end
+
+end A100571.P16606521196589492639
 
 /-!
 # A100572: Largest prime p such that the sum of n consecutive primes plus p is equal to (n+1)^3.

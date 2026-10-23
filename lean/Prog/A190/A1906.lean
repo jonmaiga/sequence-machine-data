@@ -59,7 +59,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
@@ -3978,6 +3977,29 @@ def P9399583249329337676.Spec : Prop :=
 
 end A190640
 
+/-! ## A190640.P10929717367825589336
+
+`2*A005836(2*(n+1))`
+-/
+
+namespace A190640.P10929717367825589336
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A005836 (2 * (n + 1))
+
+end
+
+end A190640.P10929717367825589336
+
+namespace A190640
+
+/-- `2*A005836(2*(n+1))` -/
+def P10929717367825589336.Spec : Prop :=
+  ∀ n, P10929717367825589336.a n = A190640 (n + 1)
+
+end A190640
+
 /-!
 # A190641: Numbers having exactly one non-unitary prime factor.
 
@@ -5949,7 +5971,7 @@ end A190664.P2006560977394156321
 /-!
 # A190666: Number of walks from (0,0) to (n+3,n) which take steps from {E, N, NE}.
 
-The programs for A190666, the canonical program `A190666.P12689365777574726580` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190666 has offset 0).
+The programs for A190666, the canonical program `A190666.P12689365777574726580` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190666 has offset 0).
 
 The definition of A190666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6007,7 +6029,7 @@ end A190666
 
 `Δ[A047665(n+1)-A035011(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A190666
@@ -6726,6 +6748,121 @@ namespace A190669
 /-- `A144612(A188082(2*n+1)+2*n)` -/
 def P6872366666603413952.Spec : Prop :=
   ∀ n, P6872366666603413952.a n = A190669 (n + 1)
+
+end A190669
+
+/-! ## A190669.P3006239747563632501
+
+`A000035(A194028(n+1))`
+-/
+
+namespace A190669.P3006239747563632501
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000035 (A194028 (n + 1)).toNat
+
+end
+
+end A190669.P3006239747563632501
+
+namespace A190669
+
+/-- `A000035(A194028(n+1))` -/
+def P3006239747563632501.Spec : Prop :=
+  ∀ n, P3006239747563632501.a n = A190669 (n + 1)
+
+end A190669
+
+/-! ## A190669.P8572343876496153901
+
+`A059841(A198269(n+1))`
+-/
+
+namespace A190669.P8572343876496153901
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059841 (A198269 (n + 1)).toNat
+
+end
+
+end A190669.P8572343876496153901
+
+namespace A190669
+
+/-- `A059841(A198269(n+1))` -/
+def P8572343876496153901.Spec : Prop :=
+  ∀ n, P8572343876496153901.a n = A190669 (n + 1)
+
+end A190669
+
+/-! ## A190669.P16549927250052216900
+
+`A190672(A003512(n+1))`
+-/
+
+namespace A190669.P16549927250052216900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190672 (A003512 (n + 1)).toNat
+
+end
+
+end A190669.P16549927250052216900
+
+namespace A190669
+
+/-- `A190672(A003512(n+1))` -/
+def P16549927250052216900.Spec : Prop :=
+  ∀ n, P16549927250052216900.a n = A190669 (n + 1)
+
+end A190669
+
+/-! ## A190669.P13956429527675154514
+
+`A188082(2*A003512(n+1))`
+-/
+
+namespace A190669.P13956429527675154514
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188082 (2 * A003512 (n + 1)).toNat
+
+end
+
+end A190669.P13956429527675154514
+
+namespace A190669
+
+/-- `A188082(2*A003512(n+1))` -/
+def P13956429527675154514.Spec : Prop :=
+  ∀ n, P13956429527675154514.a n = A190669 (n + 1)
+
+end A190669
+
+/-! ## A190669.P4174223206115774470
+
+`A188082(A003512(n+1)+A003512(n+1))`
+-/
+
+namespace A190669.P4174223206115774470
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188082 (A003512 (n + 1) + A003512 (n + 1)).toNat
+
+end
+
+end A190669.P4174223206115774470
+
+namespace A190669
+
+/-- `A188082(A003512(n+1)+A003512(n+1))` -/
+def P4174223206115774470.Spec : Prop :=
+  ∀ n, P4174223206115774470.a n = A190669 (n + 1)
 
 end A190669
 

@@ -5406,7 +5406,7 @@ end A371291.P11114845283178036154
 /-!
 # A371292: Numbers whose binary indices have prime indices covering an initial interval of positive integers.
 
-The programs for A371292, the canonical program `A371292.P4011090379698081621` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371292 has offset 0).
+The programs for A371292, the canonical program `A371292.P4011090379698081621` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371292 has offset 0).
 
 The definition of A371292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 856 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5415,7 +5415,7 @@ The definition of A371292 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A079068(A271410(n)), 2]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A371292

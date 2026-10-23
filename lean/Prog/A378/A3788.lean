@@ -17,7 +17,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
@@ -4735,6 +4735,28 @@ end A378884
 The programs for A378885, there is no canonical definition to state claims against.
 -/
 
+/-! ## A378885.P13744840355046062707
+
+`∩[A314015(n), A325992(n+1)]`
+-/
+
+namespace A378885.P13744840355046062707
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A314015 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325992 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A378885.P13744840355046062707
+
 /-! ## A378885.P5777217736127892235
 
 `A048691(A001248(2*n+1))*A381433(n+1)`
@@ -4779,6 +4801,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A378885.P17448760846323860947
+
+/-! ## A378885.P3221031362613165526
+
+`∩[A131933(n+1), A284375(n+1)]`
+-/
+
+namespace A378885.P3221031362613165526
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131933 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284375 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A378885.P3221031362613165526
 
 /-!
 # A378886: The number of consecutive primes in the prime factorization of n starting from the smallest prime dividing n; a(1) = 0.

@@ -40,7 +40,6 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -1115,6 +1114,35 @@ theorem P12612246607752910020.correct : P12612246607752910020.Spec := by
       push_cast at h1 h2 h3 ⊢
       rw [← h1, ← h2, ← h3]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A357130
+
+/-! ## A357130.P6509512599617279381
+
+`∑[∑[ogf((4-x+x^2)/(1+x))]]`
+-/
+
+namespace A357130.P6509512599617279381
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -1, 1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A357130.P6509512599617279381
+
+namespace A357130
+
+/-- `∑[∑[ogf((4-x+x^2)/(1+x))]]` -/
+def P6509512599617279381.Spec : Prop :=
+  ∀ n, P6509512599617279381.a n = A357130 (n + 1)
 
 end A357130
 

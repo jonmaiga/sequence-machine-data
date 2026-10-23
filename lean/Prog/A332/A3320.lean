@@ -3604,6 +3604,36 @@ end
 
 end A332039.P6994668388067253094
 
+/-! ## A332039.P8247264131626077900
+
+`A332037(A106000(n+1))`
+-/
+
+namespace A332039.P8247264131626077900
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332037 (A106000 (n + 1)).toNat
+
+end
+
+end A332039.P8247264131626077900
+
+/-! ## A332039.P721580344730343637
+
+`A332037(A064704(n+1))`
+-/
+
+namespace A332039.P721580344730343637
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332037 (A064704 (n + 1)).toNat
+
+end
+
+end A332039.P721580344730343637
+
 /-!
 # A332040: Number of integers whose exponential divisors sum to n.
 
@@ -3864,6 +3894,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A332043.P3547201705433941311
+
+/-! ## A332043.P16501469975382738788
+
+`∩[A124509(n+1), A340014(n+1)]`
+-/
+
+namespace A332043.P16501469975382738788
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124509 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340014 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332043.P16501469975382738788
 
 /-!
 # A332044: a(n) is the length of the shortest circuit that visits every edge of an undirected n X n grid graph.
@@ -4461,26 +4513,27 @@ end
 
 end A332045.P10346454846135017022
 
-/-! ## A332045.P2528128492441176604
+/-! ## A332045.P16396058390816081489
 
-`eq[A028310(A028310(n)-1), A336017(n)]`
+`∩[A047984(n+1), A265739(n+1)]`
 -/
 
-namespace A332045.P2528128492441176604
+namespace A332045.P16396058390816081489
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A028310 n - 1).toNat
+  A047984 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336017 n
+  A265739 (n + 1)
 
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A332045.P2528128492441176604
+end A332045.P16396058390816081489
 
 /-!
 # A332046: a(n) is the smallest positive integer such that there exist exactly n positive integers less than a(n) whose digital sum in base 10 is equal to the digital sum of a(n).

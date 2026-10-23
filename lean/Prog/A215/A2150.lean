@@ -3071,6 +3071,64 @@ end
 
 end A215013.P9772795367000099360
 
+/-! ## A215013.P13777380281013908842
+
+`∩[A163101(n+1), A356627(n+1)]`
+-/
+
+namespace A215013.P13777380281013908842
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163101 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356627 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215013.P13777380281013908842
+
+/-! ## A215013.P1589231934252321478
+
+`A094802(A073534(n+2))`
+-/
+
+namespace A215013.P1589231934252321478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094802 (A073534 (n + 2)).toNat
+
+end
+
+end A215013.P1589231934252321478
+
+/-! ## A215013.P16600653671491294908
+
+`eq[A319954(n), A357618(n)]`
+-/
+
+namespace A215013.P16600653671491294908
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319954 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357618 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A215013.P16600653671491294908
+
 /-!
 # A215014: Numbers where any two consecutive decimal digits differ by 1 after arranging the digits in decreasing order.
 
@@ -3143,6 +3201,28 @@ end
 
 end A215014.P15819973106336761840
 
+/-! ## A215014.P9114654970324662633
+
+`∪[A288528(n+1), A297062(n+1)]`
+-/
+
+namespace A215014.P9114654970324662633
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A288528 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297062 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215014.P9114654970324662633
+
 /-! ## A215014.P9378674964950003542
 
 `filter[A134336(n+1), A178788(#)]`
@@ -3160,27 +3240,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A215014.P9378674964950003542
-
-/-! ## A215014.P17861014623403726412
-
-`eq[1, abs(A307651(n))]`
--/
-
-namespace A215014.P17861014623403726412
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A307651 n|
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A215014.P17861014623403726412
 
 /-!
 # A215015: Number of sphenic twins up to 10^n.
@@ -9675,6 +9734,94 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A215068.P2605728223315233340
+
+/-! ## A215068.P14424587034930981265
+
+`∩[A329855(n+1), A342339(n+1)]`
+-/
+
+namespace A215068.P14424587034930981265
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329855 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342339 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215068.P14424587034930981265
+
+/-! ## A215068.P15418077459567398425
+
+`∩[A329855(n+1), A353744(n+1)]`
+-/
+
+namespace A215068.P15418077459567398425
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329855 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353744 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215068.P15418077459567398425
+
+/-! ## A215068.P1602439365895935217
+
+`∩[A056651(n+1), A329855(n+1)]`
+-/
+
+namespace A215068.P1602439365895935217
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056651 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329855 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215068.P1602439365895935217
+
+/-! ## A215068.P653371068393421949
+
+`∩[A329855(n+1), A334966(n+1)]`
+-/
+
+namespace A215068.P653371068393421949
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329855 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334966 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215068.P653371068393421949
 
 /-!
 # A215069: Natural numbers that when squared can be expressed as sums of a positive square number and a positive triangular number.

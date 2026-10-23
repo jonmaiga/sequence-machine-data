@@ -1066,6 +1066,29 @@ def P11128256264707995440.Spec : Prop :=
 
 end A115607
 
+/-! ## A115607.P18442001508591315129
+
+`A111973(n+1)+A133691(n+1)-A000593(n+1)`
+-/
+
+namespace A115607.P18442001508591315129
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111973 (n + 1) + (A133691 (n + 1) - A000593 (n + 1))
+
+end
+
+end A115607.P18442001508591315129
+
+namespace A115607
+
+/-- `A111973(n+1)+A133691(n+1)-A000593(n+1)` -/
+def P18442001508591315129.Spec : Prop :=
+  ∀ n, P18442001508591315129.a n = A115607 (n + 1)
+
+end A115607
+
 /-!
 # A115612: Number of 7-tuples of primes in arithmetic progression less than 10^n.
 
@@ -3982,6 +4005,28 @@ end
 
 end A115644.P9431898584605263283
 
+/-! ## A115644.P8820230055566862478
+
+`∩[A078972(n+1), A115646(n+1)]`
+-/
+
+namespace A115644.P8820230055566862478
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078972 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115646 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115644.P8820230055566862478
+
 /-! ## A115644.P16133093010005491417
 
 `∩[A078972(n+1), A277011(A048678(n))]`
@@ -4737,6 +4782,50 @@ end
 
 end A115652.P4071250527124688661
 
+/-! ## A115652.P601062587830626872
+
+`∩[A115654(n+1), A162421(n+1)]`
+-/
+
+namespace A115652.P601062587830626872
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115654 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162421 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115652.P601062587830626872
+
+/-! ## A115652.P17690112211324079254
+
+`∩[A115654(n+1), A199009(n+1)]`
+-/
+
+namespace A115652.P17690112211324079254
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115654 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A199009 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115652.P17690112211324079254
+
 /-! ## A115652.P9025058828499368815
 
 `A078972(eq[A008611(n), A086520(n)])`
@@ -4778,27 +4867,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A115652.P14125870330105150439
-
-/-! ## A115652.P12723638076236682814
-
-`A078972(lt[A232696(n), A061963(n+1)])`
--/
-
-namespace A115652.P12723638076236682814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232696 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061963 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078972 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A115652.P12723638076236682814
 
 /-!
 # A115653: Prime numbers which are the sum of distinct double factorials (A006882).
@@ -4887,6 +4955,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A115653.P4514367090559905835
+
+/-! ## A115653.P16312995622733095978
+
+`A216509(A151543(n+1))`
+-/
+
+namespace A115653.P16312995622733095978
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216509 (A151543 (n + 1)).toNat
+
+end
+
+end A115653.P16312995622733095978
 
 /-!
 # A115654: Semiprimes (A001358) which are the sum of distinct double factorials (A006882).
@@ -5059,6 +5142,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A115655.P9254458723928965133
+
+/-! ## A115655.P10873682296556104702
+
+`∪[A084350(n+1), A097435(n+1)]`
+-/
+
+namespace A115655.P10873682296556104702
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084350 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097435 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115655.P10873682296556104702
 
 /-!
 # A115657: Both k and the reverse of k are pentagonal numbers (A000326).
@@ -6185,6 +6290,28 @@ end
 
 end A115664.P17920761992497002599
 
+/-! ## A115664.P13576959147267628758
+
+`∩[A078972(n+1), A115670(n+1)]`
+-/
+
+namespace A115664.P13576959147267628758
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078972 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115670 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115664.P13576959147267628758
+
 /-!
 # A115665: Brilliant numbers (A078972) whose digit reversal is a semiprime (A001358).
 
@@ -6426,6 +6553,28 @@ end
 
 end A115667.P17361267391377662369
 
+/-! ## A115667.P1638171144267693929
+
+`∩[n², A115676(n+1)]`
+-/
+
+namespace A115667.P1638171144267693929
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115676 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115667.P1638171144267693929
+
 /-!
 # A115668: Brilliant numbers (A078972) whose digit reversal is a square.
 
@@ -6476,6 +6625,28 @@ end
 
 end A115668.P891886081542215647
 
+/-! ## A115668.P3826519946031670218
+
+`∩[A078972(n+1), A115710(n+1)]`
+-/
+
+namespace A115668.P3826519946031670218
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078972 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115710 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115668.P3826519946031670218
+
 /-! ## A115668.P16810234607384473686
 
 `∩[A078972(n+1), A356417(n+1)]`
@@ -6498,41 +6669,27 @@ end
 
 end A115668.P16810234607384473686
 
-/-! ## A115668.P1721141455640691653
+/-! ## A115668.P13301852764607105599
 
-`A115675(record[A053737(A005728(n))])`
+`∩[A115710(n+1), A199009(n+1)]`
 -/
 
-namespace A115668.P1721141455640691653
+namespace A115668.P13301852764607105599
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053737 (A005728 n).toNat
+  A115710 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115675 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A199009 (n + 1)
 
-end
-
-end A115668.P1721141455640691653
-
-/-! ## A115668.P14882658783869493929
-
-`record[A115675(n+1)%A115702(3*n+1)]`
--/
-
-namespace A115668.P14882658783869493929
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A115675 (n + 1)) (A115702 (3 * n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A115668.P14882658783869493929
+end A115668.P13301852764607105599
 
 /-!
 # A115669: Numbers the reversal of whose square is a brilliant number (A078972).
@@ -7111,6 +7268,28 @@ end A115673.P10310597461098890992
 The programs for A115674, there is no canonical definition to state claims against.
 -/
 
+/-! ## A115674.P1062276190425709148
+
+`∩[A000578(n), A115676(n+1)]`
+-/
+
+namespace A115674.P1062276190425709148
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000578 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115676 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115674.P1062276190425709148
+
 /-! ## A115674.P5731114067279190786
 
 `∩[A052084(n+1), A115676(n+1)]`
@@ -7282,6 +7461,50 @@ end
 
 end A115681.P2675096982873203733
 
+/-! ## A115681.P753640537815446648
+
+`∩[A115698(n+1), A162421(n+1)]`
+-/
+
+namespace A115681.P753640537815446648
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115698 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162421 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115681.P753640537815446648
+
+/-! ## A115681.P5577329643830551899
+
+`∩[A115698(n+1), A199009(n+1)]`
+-/
+
+namespace A115681.P5577329643830551899
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115698 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A199009 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115681.P5577329643830551899
+
 /-!
 # A115682: Triangular numbers whose digit reversal is a pentagonal number (A000326).
 
@@ -7341,6 +7564,28 @@ end
 
 end A115683.P2163718986950799148
 
+/-! ## A115683.P12379541686518218925
+
+`∪[A115684(n+1), A141322(n+1)]`
+-/
+
+namespace A115683.P12379541686518218925
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115684 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141322 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115683.P12379541686518218925
+
 /-! ## A115683.P15615942207795056776
 
 `∩[A140332(n+1), A088224(n+3)]`
@@ -7362,6 +7607,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A115683.P15615942207795056776
+
+/-! ## A115683.P5306375026632770295
+
+`∩[A088224(n+3), A368955(n+1)]`
+-/
+
+namespace A115683.P5306375026632770295
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088224 (n + 3)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368955 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115683.P5306375026632770295
 
 /-! ## A115683.P4639450084623065629
 
@@ -7517,6 +7784,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A115686.P6615666674414655287
+
+/-!
+# A115688: Semiprimes (A001358) whose digit reversal is a powerful(1) number (A001694).
+
+The programs for A115688, there is no canonical definition to state claims against.
+-/
+
+/-! ## A115688.P17092682720541708678
+
+`∩[A118715(n+1), A351096(n+1)]`
+-/
+
+namespace A115688.P17092682720541708678
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118715 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351096 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A115688.P17092682720541708678
 
 /-!
 # A115689: Powerful(1) numbers (A001694) whose digit reversal is a square.

@@ -1980,29 +1980,32 @@ theorem P13774640098532395319.correct : P13774640098532395319.Spec := by
 
 end A113022
 
-/-! ## A113022.P9232299361638078031
+/-! ## A113022.P10674965201951824649
 
-`∑[ogf((4-7x-x^2)/(1-6x+5x^2))]`
+`∑[∑[ogf((-4+7x+x^2)/(-1+5x))]]`
 -/
 
-namespace A113022.P9232299361638078031
+namespace A113022.P10674965201951824649
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -7, -1] [1, -5] n
+
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [4, -7, -1] [1, -6, 5] n
+  ∑ j ∈ Finset.range (n + 1), f2 j
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A113022.P9232299361638078031
+end A113022.P10674965201951824649
 
 namespace A113022
 
-/-- `∑[ogf((4-7x-x^2)/(1-6x+5x^2))]` -/
-def P9232299361638078031.Spec : Prop :=
-  ∀ n, P9232299361638078031.a n = A113022 (n + 1)
+/-- `∑[∑[ogf((-4+7x+x^2)/(-1+5x))]]` -/
+def P10674965201951824649.Spec : Prop :=
+  ∀ n, P10674965201951824649.a n = A113022 (n + 1)
 
 end A113022
 
@@ -2686,6 +2689,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A113029.P11841311172209749565
+
+/-! ## A113029.P8673840905690688430
+
+`∪[A052014(n+1), A087749(n+1)]`
+-/
+
+namespace A113029.P8673840905690688430
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052014 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087749 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A113029.P8673840905690688430
 
 /-!
 # A113032: a(n) = Sum_{k=0..floor(n/8)} binomial(n-5*k, 3*k).

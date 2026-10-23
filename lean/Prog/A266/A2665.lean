@@ -6407,25 +6407,25 @@ end A266541.P11093496890414614207
 /-!
 # A266542: Number of n X 3 binary arrays with rows and columns lexicographically nondecreasing and row and column sums nonincreasing.
 
-The programs for A266542, the canonical program `A266542.P4368139756314938002` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A266542 has offset 1).
+The programs for A266542, the canonical program `A266542.P8757652584202544832` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A266542 has offset 1).
 
 The definition of A266542 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A266542.P4368139756314938002
+/-! ## A266542.P8757652584202544832
 
-`floor(∑[n+2]/3)+2`
+`floor(∑[(n+2)/3])+2`
 
 The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A266542
 
-/-- `floor(∑[n+2]/3)+2` -/
-def P4368139756314938002.Spec : Prop :=
-  ∀ n, P4368139756314938002.a n = A266542 (n + 1)
+/-- `floor(∑[(n+2)/3])+2` -/
+def P8757652584202544832.Spec : Prop :=
+  ∀ n, P8757652584202544832.a n = A266542 (n + 1)
 
-theorem P4368139756314938002.correct : P4368139756314938002.Spec := by
+theorem P8757652584202544832.correct : P8757652584202544832.Spec := by
   intro n
   simp only [A266542, Nat.add_sub_cancel]
 
@@ -7446,6 +7446,29 @@ theorem P14581450661997540046.correct : P14581450661997540046.Spec := by
 
 end A266550
 
+/-! ## A266550.P8750130375059018697
+
+`ogf((1-2x+x^2+x^3)/(1-3x+2x^2))`
+-/
+
+namespace A266550.P8750130375059018697
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, 1, 1] [1, -3, 2] n
+
+end
+
+end A266550.P8750130375059018697
+
+namespace A266550
+
+/-- `ogf((1-2x+x^2+x^3)/(1-3x+2x^2))` -/
+def P8750130375059018697.Spec : Prop :=
+  ∀ n, P8750130375059018697.a n = A266550 (n + 1)
+
+end A266550
+
 /-! ## A266550.P8341999879072328241
 
 `1+a(n-1)*2` with `a(0)=1, a(1)=1, a(2)=2`
@@ -7869,29 +7892,6 @@ namespace A266550
 /-- `xor(A000225(n), A034008(n))` -/
 def P7913889533128057801.Spec : Prop :=
   ∀ n, P7913889533128057801.a n = A266550 (n + 1)
-
-end A266550
-
-/-! ## A266550.P13199956241808575708
-
-`A083329(n-abs(A057428(n)))`
--/
-
-namespace A266550.P13199956241808575708
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083329 ((n : ℤ) - |A057428 n|).toNat
-
-end
-
-end A266550.P13199956241808575708
-
-namespace A266550
-
-/-- `A083329(n-abs(A057428(n)))` -/
-def P13199956241808575708.Spec : Prop :=
-  ∀ n, P13199956241808575708.a n = A266550 (n + 1)
 
 end A266550
 

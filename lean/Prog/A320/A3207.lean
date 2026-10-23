@@ -142,6 +142,28 @@ end
 
 end A320700.P8461153760644858672
 
+/-! ## A320700.P8470275834648540358
+
+`∩[2*n+1, A320699(n+1)]`
+-/
+
+namespace A320700.P8470275834648540358
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320699 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320700.P8470275834648540358
+
 /-! ## A320700.P6246332690718882298
 
 `record[A000265(A320699(n+1))]`
@@ -159,24 +181,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320700.P6246332690718882298
-
-/-! ## A320700.P14400508445298027666
-
-`filter[A320699(n+1), A000035(#)]`
--/
-
-namespace A320700.P14400508445298027666
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320699 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
-
-end
-
-end A320700.P14400508445298027666
 
 /-!
 # A320701: Indices of primes followed by a gap (distance to next larger prime) of 6.
@@ -1306,6 +1310,35 @@ namespace A320702
 /-- `eq[2*A062876(n+1), A048852(n)]` -/
 def P8745572793383717122.Spec : Prop :=
   ∀ n, (P8745572793383717122.a n : ℤ) = A320702 (n + 1)
+
+end A320702
+
+/-! ## A320702.P14372430518128089736
+
+`eq[8, A230850(2*n+1)]`
+-/
+
+namespace A320702.P14372430518128089736
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  8
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230850 (2 * n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A320702.P14372430518128089736
+
+namespace A320702
+
+/-- `eq[8, A230850(2*n+1)]` -/
+def P14372430518128089736.Spec : Prop :=
+  ∀ n, (P14372430518128089736.a n : ℤ) = A320702 (n + 1)
 
 end A320702
 
@@ -3596,6 +3629,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320709.P12777270027791011975
+
+/-! ## A320709.P14106029404406768354
+
+`A277322(A098976(n+1))`
+-/
+
+namespace A320709.P14106029404406768354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277322 (A098976 (n + 1)).toNat
+
+end
+
+end A320709.P14106029404406768354
 
 /-!
 # A320710: Indices of primes followed by a gap (distance to next larger prime) of 24.

@@ -3038,19 +3038,19 @@ end A350249.P7674752881177048153
 The programs for A350250, there is no canonical definition to state claims against.
 -/
 
-/-! ## A350250.P16528661944068372318
+/-! ## A350250.P17676183436475761267
 
-`∩[A345169(A011760(n+1)), A333218(n+1)]`
+`∩[A333218(n+1), A345169(n+1)]`
 -/
 
-namespace A350250.P16528661944068372318
+namespace A350250.P17676183436475761267
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345169 (A011760 (n + 1)).toNat
+  A333218 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333218 (n + 1)
+  A345169 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3058,29 +3058,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A350250.P16528661944068372318
-
-/-! ## A350250.P7491185758135009026
-
-`∩[A333218(n+1), A345169(A381432(n+1))]`
--/
-
-namespace A350250.P7491185758135009026
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333218 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345169 (A381432 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A350250.P7491185758135009026
+end A350250.P17676183436475761267
 
 /-!
 # A350251: Number of non-alternating permutations of the multiset of prime factors of n.

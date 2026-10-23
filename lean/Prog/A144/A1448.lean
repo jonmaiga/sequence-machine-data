@@ -3385,6 +3385,58 @@ def P18370248249592332351.Spec : Prop :=
 
 end A144843
 
+/-! ## A144843.P5808541751661978787
+
+`A071951(∑[n+1]+2)²`
+-/
+
+namespace A144843.P5808541751661978787
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071951 (∑ j ∈ Finset.range (n + 1), f1 j + 2) ^ 2
+
+end
+
+end A144843.P5808541751661978787
+
+namespace A144843
+
+/-- `A071951(∑[n+1]+2)²` -/
+def P5808541751661978787.Spec : Prop :=
+  ∀ n, P5808541751661978787.a n = A144843 (n + 1)
+
+end A144843
+
+/-! ## A144843.P16703679440813529422
+
+`A191935(∑[n+2])²`
+-/
+
+namespace A144843.P16703679440813529422
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191935 (∑ j ∈ Finset.range (n + 1), f1 j) ^ 2
+
+end
+
+end A144843.P16703679440813529422
+
+namespace A144843
+
+/-- `A191935(∑[n+2])²` -/
+def P16703679440813529422.Spec : Prop :=
+  ∀ n, P16703679440813529422.a n = A144843 (n + 1)
+
+end A144843
+
 /-!
 # A144844: a(n) = ((2 + sqrt(2))^n - (2 - sqrt(2))^n)^2/8.
 
@@ -4075,19 +4127,19 @@ end
 
 end A144856.P13507847115011084115
 
-/-! ## A144856.P18116594679117534661
+/-! ## A144856.P15875511628962004125
 
-`∩[A054784(n+1), A163205(n+1)]`
+`∩[A054784(n+1), A144482(n+1)]`
 -/
 
-namespace A144856.P18116594679117534661
+namespace A144856.P15875511628962004125
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A054784 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163205 (n + 1)
+  A144482 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4095,7 +4147,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A144856.P18116594679117534661
+end A144856.P15875511628962004125
 
 /-!
 # A144857: Numbers k that divide Sum_{i=1..k} phi(i)^2, where phi(i) = totient function A000010.

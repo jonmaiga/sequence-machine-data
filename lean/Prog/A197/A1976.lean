@@ -797,6 +797,29 @@ def P16666288285851157781.Spec : Prop :=
 
 end A197603
 
+/-! ## A197603.P9610134318760141158
+
+`A014052(n+1)+A197903(n+1)-A014058(n+1)`
+-/
+
+namespace A197603.P9610134318760141158
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014052 (n + 1) + (A197903 (n + 1) - A014058 (n + 1))
+
+end
+
+end A197603.P9610134318760141158
+
+namespace A197603
+
+/-- `A014052(n+1)+A197903(n+1)-A014058(n+1)` -/
+def P9610134318760141158.Spec : Prop :=
+  ∀ n, P9610134318760141158.a n = A197603 (n + 1)
+
+end A197603
+
 /-!
 # A197604: a(n) = floor((n+1/n)^5).
 
@@ -6171,6 +6194,32 @@ namespace A197652
 /-- `∑[(3-A040008(n))²]` -/
 def P6545012938872434851.Spec : Prop :=
   ∀ n, P6545012938872434851.a n = A197652 (n + 1)
+
+end A197652
+
+/-! ## A197652.P13009082428402192934
+
+`∑[dr(A090570(n+1))]`
+-/
+
+namespace A197652.P13009082428402192934
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.digitalRoot (A090570 (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A197652.P13009082428402192934
+
+namespace A197652
+
+/-- `∑[dr(A090570(n+1))]` -/
+def P13009082428402192934.Spec : Prop :=
+  ∀ n, (P13009082428402192934.a n : ℤ) = A197652 (n + 1)
 
 end A197652
 

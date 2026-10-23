@@ -374,6 +374,25 @@ end
 
 end A330002.P2824845678060125910
 
+/-! ## A330002.P5535976661307685946
+
+`comp[lcm(5, ceil(tan(n)))]`
+-/
+
+namespace A330002.P5535976661307685946
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm 5 ⌈Real.tan (n : ℝ)⌉
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A330002.P5535976661307685946
+
 /-! ## A330002.P6230818440963504594
 
 `and(comp[5*n], 127)`
@@ -1063,6 +1082,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330007.P8552681440826705575
+
+/-! ## A330007.P7306673186984745157
+
+`p?[record[A113580(n)]]`
+-/
+
+namespace A330007.P7306673186984745157
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113580 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A330007.P7306673186984745157
 
 /-!
 # A330010: Number of length-n ternary strings x with the property that if w is a subword of x and |w| >= 3, then w reversed is not a subword of x.
@@ -2840,6 +2880,28 @@ end A330030.P11632950868389826619
 The programs for A330031, there is no canonical definition to state claims against.
 -/
 
+/-! ## A330031.P16618278258548163786
+
+`∪[A034404(n+1), A102795(n+1)]`
+-/
+
+namespace A330031.P16618278258548163786
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034404 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102795 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330031.P16618278258548163786
+
 /-! ## A330031.P12687001760289265679
 
 `lt[1, A023670(n+1)+1]+2`
@@ -2986,21 +3048,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A330031.P5626492017207533620
-
-/-! ## A330031.P3027547366492136326
-
-`A014963(A000217(n+7))*A051693(A034856(n+2))`
--/
-
-namespace A330031.P3027547366492136326
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (A000217 (n + 7)).toNat * A051693 (A034856 (n + 2)).toNat
-
-end
-
-end A330031.P3027547366492136326
 
 /-!
 # A330032: The number of chains of strictly rooted upper triangular or lower triangular matrices of order n.

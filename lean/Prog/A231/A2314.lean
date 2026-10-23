@@ -357,6 +357,36 @@ The programs for A231404, the canonical program `A231404.P6144611203864488022` i
 The definition of A231404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A231404.P14880636616756900762
+
+`∪[3*(n+1), 2^n]`
+-/
+
+namespace A231404.P14880636616756900762
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * (n + 1)
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
+
+end
+
+end A231404.P14880636616756900762
+
+namespace A231404
+
+/-- `∪[3*(n+1), 2^n]` -/
+def P14880636616756900762.Spec : Prop :=
+  ∀ n, (P14880636616756900762.a n : ℤ) = A231404 (n + 1)
+
+end A231404
+
 /-! ## A231404.P6144611203864488022
 
 `lt[and(n, n-1), gcd(n, n%3)]`
@@ -486,36 +516,6 @@ namespace A231404
 /-- `lt[A020639((n+1)/2^val(n+1, 2)), 4]+1` -/
 def P4837003590676499148.Spec : Prop :=
   ∀ n, (P4837003590676499148.a n : ℤ) = A231404 (n + 1)
-
-end A231404
-
-/-! ## A231404.P12409625455379116612
-
-`∪[A008486(n), A070175(n)]`
--/
-
-namespace A231404.P12409625455379116612
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008486 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070175 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A231404.P12409625455379116612
-
-namespace A231404
-
-/-- `∪[A008486(n), A070175(n)]` -/
-def P12409625455379116612.Spec : Prop :=
-  ∀ n, (P12409625455379116612.a n : ℤ) = A231404 (n + 1)
 
 end A231404
 

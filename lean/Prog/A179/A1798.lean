@@ -13926,19 +13926,19 @@ end
 
 end A179892.P16224364390749431669
 
-/-! ## A179892.P15420859475904834829
+/-! ## A179892.P668775550376440846
 
-`∪[A032964(n+1), A002523(n)]`
+`∪[A001585(n), A032964(n+1)]`
 -/
 
-namespace A179892.P15420859475904834829
+namespace A179892.P668775550376440846
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032964 (n + 1)
+  A001585 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002523 n
+  A032964 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -13946,7 +13946,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A179892.P15420859475904834829
+end A179892.P668775550376440846
 
 /-!
 # A179893: a(n) = 3/2 * (prime(n)-1).

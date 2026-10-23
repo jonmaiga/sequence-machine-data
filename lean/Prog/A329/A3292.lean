@@ -1276,6 +1276,28 @@ end A329228.P8512775960560168229
 The programs for A329229, there is no canonical definition to state claims against.
 -/
 
+/-! ## A329229.P12929091900616862546
+
+`∩[2*n+1, A062373(n+1)]`
+-/
+
+namespace A329229.P12929091900616862546
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062373 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329229.P12929091900616862546
+
 /-! ## A329229.P11590823730343932944
 
 `eq[1, A353677(n+1)]+1`
@@ -1516,28 +1538,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329229.P9848766462022211201
-
-/-! ## A329229.P16553807280610896069
-
-`∩[A061346(n+1), A062373(n+1)]`
--/
-
-namespace A329229.P16553807280610896069
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061346 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062373 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A329229.P16553807280610896069
 
 /-! ## A329229.P4133368311124285849
 
@@ -3551,6 +3551,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A329254.P15673925616480291092
+
+/-! ## A329254.P18433291640881968316
+
+`∩[A083136(n+1), A265126(n+1)]`
+-/
+
+namespace A329254.P18433291640881968316
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083136 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265126 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329254.P18433291640881968316
 
 /-!
 # A329255: Irregular triangle read by rows: T(n,k) is greatest positive integer <= n that have a partition into k consecutive parts, 1 <= k <= A003056(n), n >= 1.

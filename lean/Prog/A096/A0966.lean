@@ -2713,6 +2713,21 @@ end
 
 end A096629.P12898364398495511665
 
+/-! ## A096629.P2209674133586823019
+
+`A000720(A096449(n+2)-1)`
+-/
+
+namespace A096629.P2209674133586823019
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A096449 (n + 2) - 1).toNat
+
+end
+
+end A096629.P2209674133586823019
+
 /-!
 # A096630: Numbers n for which the set of first n primes (mod 3) is biased towards 1.
 
@@ -6521,6 +6536,36 @@ namespace A096677
 /-- `A026099(p?[A060254(n+1)])` -/
 def P13820625106320741633.Spec : Prop :=
   ∀ n, P13820625106320741633.a n = A096677 (n + 1)
+
+end A096677
+
+/-! ## A096677.P5283630378544456918
+
+`∪[A096678(n+1), A096679(n+1)]`
+-/
+
+namespace A096677.P5283630378544456918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096678 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096679 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A096677.P5283630378544456918
+
+namespace A096677
+
+/-- `∪[A096678(n+1), A096679(n+1)]` -/
+def P5283630378544456918.Spec : Prop :=
+  ∀ n, (P5283630378544456918.a n : ℤ) = A096677 (n + 1)
 
 end A096677
 

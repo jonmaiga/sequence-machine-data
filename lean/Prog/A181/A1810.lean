@@ -24,6 +24,7 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
@@ -38,9 +39,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -55,6 +54,7 @@ import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -3778,7 +3778,7 @@ end A181061.P16849735416470271783
 /-!
 # A181062: Prime powers minus 1.
 
-The programs for A181062, the canonical program `A181062.P6529548857799504333` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181062 has offset 1).
+The programs for A181062, the canonical program `A181062.P6529548857799504333` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181062 has offset 1).
 
 The definition of A181062 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3787,7 +3787,7 @@ The definition of A181062 is `conditional`: the Lean definition is an OEIS formu
 
 `A000961(n+1)-1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A181062
@@ -5202,6 +5202,28 @@ end A181085.P3035302602624426850
 The programs for A181086, there is no canonical definition to state claims against.
 -/
 
+/-! ## A181086.P8363974452329184406
+
+`∩[A257529(n+1), A362579(n+1)]`
+-/
+
+namespace A181086.P8363974452329184406
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257529 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362579 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A181086.P8363974452329184406
+
 /-! ## A181086.P13165790534830981637
 
 `A089167(A023242(n+1))`
@@ -5216,28 +5238,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181086.P13165790534830981637
-
-/-! ## A181086.P2088300696983130235
-
-`∩[A145032(n+1), A362579(n+1)]`
--/
-
-namespace A181086.P2088300696983130235
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145032 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362579 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A181086.P2088300696983130235
 
 /-!
 # A181087: Partitions of n in the order of increasing smallest numbers of prime signatures.

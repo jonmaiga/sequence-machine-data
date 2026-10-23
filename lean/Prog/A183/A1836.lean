@@ -2912,6 +2912,104 @@ theorem P9956752237045625953.correct : P9956752237045625953.Spec := by
 
 end A183634
 
+/-! ## A183634.P16603293724138606694
+
+`A183642(∑[n]+1)`
+-/
+
+namespace A183634.P16603293724138606694
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183642 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A183634.P16603293724138606694
+
+namespace A183634
+
+/-- `A183642(∑[n]+1)` -/
+def P16603293724138606694.Spec : Prop :=
+  ∀ n, P16603293724138606694.a n = A183634 (n + 1)
+
+end A183634
+
+/-! ## A183634.P13373132456396414153
+
+`record[A183642(n+1)]`
+-/
+
+namespace A183634.P13373132456396414153
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183642 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A183634.P13373132456396414153
+
+namespace A183634
+
+/-- `record[A183642(n+1)]` -/
+def P13373132456396414153.Spec : Prop :=
+  ∀ n, P13373132456396414153.a n = A183634 (n + 1)
+
+end A183634
+
+/-! ## A183634.P17471459825681987399
+
+`A223066(A374084(n+2))`
+-/
+
+namespace A183634.P17471459825681987399
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223066 (A374084 (n + 2)).toNat
+
+end
+
+end A183634.P17471459825681987399
+
+namespace A183634
+
+/-- `A223066(A374084(n+2))` -/
+def P17471459825681987399.Spec : Prop :=
+  ∀ n, P17471459825681987399.a n = A183634 (n + 1)
+
+end A183634
+
+/-! ## A183634.P14216575947870534874
+
+`A223066(A373662(n+2))`
+-/
+
+namespace A183634.P14216575947870534874
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223066 (A373662 (n + 2)).toNat
+
+end
+
+end A183634.P14216575947870534874
+
+namespace A183634
+
+/-- `A223066(A373662(n+2))` -/
+def P14216575947870534874.Spec : Prop :=
+  ∀ n, P14216575947870534874.a n = A183634 (n + 1)
+
+end A183634
+
 /-!
 # A183635: Number of (n+1) X 3 0..3 arrays with every 2 X 2 subblock summing to 6.
 
@@ -3687,6 +3785,58 @@ def P14759576639881250355.Spec : Prop :=
 
 end A183644
 
+/-! ## A183644.P12112715581242096081
+
+`A183652(∑[n]+1)`
+-/
+
+namespace A183644.P12112715581242096081
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183652 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A183644.P12112715581242096081
+
+namespace A183644
+
+/-- `A183652(∑[n]+1)` -/
+def P12112715581242096081.Spec : Prop :=
+  ∀ n, P12112715581242096081.a n = A183644 (n + 1)
+
+end A183644
+
+/-! ## A183644.P3547302543271151493
+
+`record[A183652(n+1)]`
+-/
+
+namespace A183644.P3547302543271151493
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183652 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A183644.P3547302543271151493
+
+namespace A183644
+
+/-- `record[A183652(n+1)]` -/
+def P3547302543271151493.Spec : Prop :=
+  ∀ n, P3547302543271151493.a n = A183644 (n + 1)
+
+end A183644
+
 /-!
 # A183645: Number of (n+1) X 3 0..4 arrays with every 2 X 2 subblock summing to 8.
 
@@ -4284,6 +4434,32 @@ namespace A183654
 /-- `A051672(A166136(n+4)+2*(n+1))` -/
 def P2122099212832091006.Spec : Prop :=
   ∀ n, P2122099212832091006.a n = A183654 (n + 1)
+
+end A183654
+
+/-! ## A183654.P12450652407413796450
+
+`A183662(∑[n]+1)`
+-/
+
+namespace A183654.P12450652407413796450
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183662 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+
+end
+
+end A183654.P12450652407413796450
+
+namespace A183654
+
+/-- `A183662(∑[n]+1)` -/
+def P12450652407413796450.Spec : Prop :=
+  ∀ n, P12450652407413796450.a n = A183654 (n + 1)
 
 end A183654
 

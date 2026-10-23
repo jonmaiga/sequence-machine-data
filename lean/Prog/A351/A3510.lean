@@ -5685,6 +5685,21 @@ end
 
 end A351086.P9953085264632708745
 
+/-! ## A351086.P14222109965126210615
+
+`gcd(A112388(n+1), A242994(n+1))`
+-/
+
+namespace A351086.P14222109965126210615
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A112388 (n + 1)) (A242994 (n + 1))
+
+end
+
+end A351086.P14222109965126210615
+
 /-!
 # A351087: After initial 0, numbers k such that A327860(k) is a multiple of k.
 

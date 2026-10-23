@@ -2264,6 +2264,29 @@ theorem P13612265772980041886.correct : P13612265772980041886.Spec := by
 
 end A370754
 
+/-! ## A370754.P5357330091176952924
+
+`A020725(A369817(n+1))`
+-/
+
+namespace A370754.P5357330091176952924
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020725 (A369817 (n + 1)).toNat
+
+end
+
+end A370754.P5357330091176952924
+
+namespace A370754
+
+/-- `A020725(A369817(n+1))` -/
+def P5357330091176952924.Spec : Prop :=
+  ∀ n, P5357330091176952924.a n = A370754 (n + 1)
+
+end A370754
+
 /-!
 # A370756: a(n) is the van der Waerden number W_t(2,n) of the Thue-Morse word (A010060).
 
@@ -4039,26 +4062,26 @@ def P7692778665435892675.Spec : Prop :=
 
 end A370784
 
-/-! ## A370784.P9914172962533615647
+/-! ## A370784.P4959887884088691858
 
-`A322966(A007947((n+1)/A007947(n+1)))`
+`A017666(A007947((n+1)/A007947(n+1)))`
 -/
 
-namespace A370784.P9914172962533615647
+namespace A370784.P4959887884088691858
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322966 (A007947 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A007947 (n + 1) : ℚ))).toNat).toNat
+  A017666 (A007947 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A007947 (n + 1) : ℚ))).toNat).toNat
 
 end
 
-end A370784.P9914172962533615647
+end A370784.P4959887884088691858
 
 namespace A370784
 
-/-- `A322966(A007947((n+1)/A007947(n+1)))` -/
-def P9914172962533615647.Spec : Prop :=
-  ∀ n, P9914172962533615647.a n = A370784 (n + 1)
+/-- `A017666(A007947((n+1)/A007947(n+1)))` -/
+def P4959887884088691858.Spec : Prop :=
+  ∀ n, P4959887884088691858.a n = A370784 (n + 1)
 
 end A370784
 

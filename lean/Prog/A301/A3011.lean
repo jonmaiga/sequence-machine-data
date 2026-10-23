@@ -24,7 +24,6 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
@@ -70,6 +69,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A301102: Coordination sequence T2 for Zeolite Code IWW.

@@ -5192,6 +5192,29 @@ def P16656332719269605983.Spec : Prop :=
 
 end A110963
 
+/-! ## A110963.P7687284219028150102
+
+`A353367(n+1)-A353366(n+1)`
+-/
+
+namespace A110963.P7687284219028150102
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353367 (n + 1) - A353366 (n + 1)
+
+end
+
+end A110963.P7687284219028150102
+
+namespace A110963
+
+/-- `A353367(n+1)-A353366(n+1)` -/
+def P7687284219028150102.Spec : Prop :=
+  ∀ n, P7687284219028150102.a n = A110963 (n + 1)
+
+end A110963
+
 /-!
 # A110965: Numbers k such that 23*k^2 + 25 is prime.
 

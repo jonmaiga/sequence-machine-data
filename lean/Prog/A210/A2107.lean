@@ -40,7 +40,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2284,6 +2284,29 @@ def P7610627609077397334.Spec : Prop :=
 
 end A210728
 
+/-! ## A210728.P2936359891558499455
+
+`A192969(n)+A000071(n+1)`
+-/
+
+namespace A210728.P2936359891558499455
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192969 n + A000071 (n + 1)
+
+end
+
+end A210728.P2936359891558499455
+
+namespace A210728
+
+/-- `A192969(n)+A000071(n+1)` -/
+def P2936359891558499455.Spec : Prop :=
+  ∀ n, P2936359891558499455.a n = A210728 n
+
+end A210728
+
 /-!
 # A210729: a(n) = a(n-1) + a(n-2) + n + 3 with n>1, a(0)=1, a(1)=2.
 
@@ -2728,6 +2751,29 @@ def P5404768578648680137.Spec : Prop :=
 
 end A210729
 
+/-! ## A210729.P17415496322359993819
+
+`A210728(n)+A210728(n)-A192969(n)`
+-/
+
+namespace A210729.P17415496322359993819
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210728 n + (A210728 n - A192969 n)
+
+end
+
+end A210729.P17415496322359993819
+
+namespace A210729
+
+/-- `A210728(n)+A210728(n)-A192969(n)` -/
+def P17415496322359993819.Spec : Prop :=
+  ∀ n, P17415496322359993819.a n = A210729 n
+
+end A210729
+
 /-!
 # A210730: a(n) = a(n-1) + a(n-2) + n + 2 with n>1, a(0)=a(1)=0.
 
@@ -3169,6 +3215,29 @@ def P16276574952543532105.Spec : Prop :=
 
 end A210730
 
+/-! ## A210730.P14572928180625862755
+
+`A210728(n)-A000045(n+2)`
+-/
+
+namespace A210730.P14572928180625862755
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210728 n - A000045 (n + 2)
+
+end
+
+end A210730.P14572928180625862755
+
+namespace A210730
+
+/-- `A210728(n)-A000045(n+2)` -/
+def P14572928180625862755.Spec : Prop :=
+  ∀ n, P14572928180625862755.a n = A210730 n
+
+end A210730
+
 /-!
 # A210731: a(n) = a(n-1) + a(n-2) + n + 3 with n>1, a(0) = a(1) = 0.
 
@@ -3607,6 +3676,29 @@ namespace A210731
 /-- `A179991(n+1)-(A001611(n)+1)` -/
 def P11256516288777558506.Spec : Prop :=
   ∀ n, P11256516288777558506.a n = A210731 n
+
+end A210731
+
+/-! ## A210731.P1312348626678605403
+
+`A210677(n)+A210730(n)-A030119(n)`
+-/
+
+namespace A210731.P1312348626678605403
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210677 n + (A210730 n - A030119 n)
+
+end
+
+end A210731.P1312348626678605403
+
+namespace A210731
+
+/-- `A210677(n)+A210730(n)-A030119(n)` -/
+def P1312348626678605403.Spec : Prop :=
+  ∀ n, P1312348626678605403.a n = A210731 n
 
 end A210731
 
@@ -5782,6 +5874,27 @@ def P1494280345633988978.Spec : Prop :=
   ∀ n, P1494280345633988978.a n = (A210766 (n + 1) : ℚ)
 
 end A210766
+
+/-!
+# A210767: Numbers whose digit sum as well as sum of the 4th powers of the digits is a prime.
+
+The programs for A210767, there is no canonical definition to state claims against.
+-/
+
+/-! ## A210767.P15744864533128868189
+
+`A087339(A077741(n+2))`
+-/
+
+namespace A210767.P15744864533128868189
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087339 (A077741 (n + 2)).toNat
+
+end
+
+end A210767.P15744864533128868189
 
 /-!
 # A210770: a(1) = 1, a(2) = 2; for n > 1, a(2*n+2) = smallest number not yet seen, a(2*n+1) = a(2*n) + a(2*n+2).

@@ -3441,6 +3441,21 @@ end
 
 end A334217.P688243315665664392
 
+/-! ## A334217.P2232898401429119819
+
+`A228812(A167620(n+1))`
+-/
+
+namespace A334217.P2232898401429119819
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228812 (A167620 (n + 1)).toNat
+
+end
+
+end A334217.P2232898401429119819
+
 /-!
 # A334218: Triangle read by rows: T(n,k) is the number of permutations of 1..n arranged in a circle with exactly k descents.
 
@@ -9503,6 +9518,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334298.P11237488184547947042
+
+/-! ## A334298.P6211077226299148788
+
+`A364160(A362611(A359178(n+1))+n)`
+-/
+
+namespace A334298.P6211077226299148788
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364160 (A362611 (A359178 (n + 1)).toNat + (n : ℤ)).toNat
+
+end
+
+end A334298.P6211077226299148788
 
 /-!
 # A334299: Number of distinct subsequences (not necessarily contiguous) of compositions in standard order (A066099).

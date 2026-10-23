@@ -5771,6 +5771,94 @@ end
 
 end A293859.P11509707242483782029
 
+/-! ## A293859.P17801426040379216856
+
+`∪[A106889(n+1), A155488(n+1)]`
+-/
+
+namespace A293859.P17801426040379216856
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106889 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155488 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A293859.P17801426040379216856
+
+/-! ## A293859.P8600721776561187961
+
+`∪[A155488(n+1), A236045(n+1)]`
+-/
+
+namespace A293859.P8600721776561187961
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155488 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236045 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A293859.P8600721776561187961
+
+/-! ## A293859.P9850176686378565489
+
+`∪[A155488(n+1), A262203(n+1)]`
+-/
+
+namespace A293859.P9850176686378565489
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155488 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262203 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A293859.P9850176686378565489
+
+/-! ## A293859.P6153315900208954809
+
+`∪[A155488(n+1), A325957(n+1)]`
+-/
+
+namespace A293859.P6153315900208954809
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155488 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325957 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A293859.P6153315900208954809
+
 /-! ## A293859.P6057446778628607532
 
 `p?[(n+1)*gcd(4, A029014(n))]`

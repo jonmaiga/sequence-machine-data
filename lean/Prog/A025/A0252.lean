@@ -54,7 +54,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -5073,7 +5072,7 @@ end A025239.P14301207226621134452
 /-!
 # A025240: a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-2)*a(2) for n >= 3.
 
-The programs for A025240, the canonical program `A025240.P15418065983883315172` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025240 has offset 1).
+The programs for A025240, the canonical program `A025240.P15418065983883315172` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025240 has offset 1).
 
 The definition of A025240 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5396,7 +5395,7 @@ end A025240
 
 `A000007(n)+2*A001003(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A025240
@@ -10471,6 +10470,56 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025297.P10802588118734517835
+
+/-!
+# A025298: Numbers that are the sum of 2 nonzero squares in 7 or more ways.
+
+The programs for A025298, there is no canonical definition to state claims against.
+-/
+
+/-! ## A025298.P7238284863413904226
+
+`∪[A025290(n+1), A025299(n+1)]`
+-/
+
+namespace A025298.P7238284863413904226
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025290 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025299 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A025298.P7238284863413904226
+
+/-! ## A025298.P11355285168820335760
+
+`∪[A025299(n+1), A025308(n+1)]`
+-/
+
+namespace A025298.P11355285168820335760
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025299 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025308 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A025298.P11355285168820335760
 
 /-!
 # A025299: Numbers that are the sum of 2 nonzero squares in 8 or more ways.

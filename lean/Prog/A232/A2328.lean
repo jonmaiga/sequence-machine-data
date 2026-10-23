@@ -4727,6 +4727,36 @@ theorem P9059691283570175263.correct : P9059691283570175263.Spec := by
 
 end A232868
 
+/-! ## A232868.P6806964018349011933
+
+`∪[A232866(n+1), A232867(n+1)]`
+-/
+
+namespace A232868.P6806964018349011933
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232866 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232867 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232868.P6806964018349011933
+
+namespace A232868
+
+/-- `∪[A232866(n+1), A232867(n+1)]` -/
+def P6806964018349011933.Spec : Prop :=
+  ∀ n, (P6806964018349011933.a n : ℤ) = A232868 (n + 1)
+
+end A232868
+
 /-!
 # A232870: Numbers that are the largest value in the Collatz (3x+1) trajectories of exactly three initial values.
 

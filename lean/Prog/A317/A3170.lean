@@ -7397,6 +7397,28 @@ end
 
 end A317089.P7332871071726402006
 
+/-! ## A317089.P10677012539274260590
+
+`∩[A317090(n+1), A325708(n+1)]`
+-/
+
+namespace A317089.P10677012539274260590
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317090 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325708 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317089.P10677012539274260590
+
 /-! ## A317089.P12312932987331773310
 
 `A325708(lt[A113084(2*n+1), A000045(3*n)])`
@@ -7417,6 +7439,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A317089.P12312932987331773310
+
+/-! ## A317089.P7986635056753260443
+
+`∩[A007969(n+1), A317246(n+1)]`
+-/
+
+namespace A317089.P7986635056753260443
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007969 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317246 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317089.P7986635056753260443
 
 /-!
 # A317090: Positive integers whose prime multiplicities span an initial interval of positive integers.
@@ -7760,6 +7804,28 @@ end
 
 end A317091.P15961234346600062814
 
+/-! ## A317091.P3490458537188582863
+
+`∩[A028261(n+1), A375398(n+1)]`
+-/
+
+namespace A317091.P3490458537188582863
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028261 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375398 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317091.P3490458537188582863
+
 /-! ## A317091.P2463278907427971693
 
 `record[A019554(A253560(A000037(n+1)))]`
@@ -7831,24 +7897,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A317091.P6713370061135339426
-
-/-! ## A317091.P7838145695759019306
-
-`filter[A392698(n+2), A380458(#)]`
--/
-
-namespace A317091.P7838145695759019306
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392698 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A380458 (f1 j).toNat = 1) n)
-
-end
-
-end A317091.P7838145695759019306
 
 /-!
 # A317092: Positive integers whose prime multiplicities are weakly decreasing and span an initial interval of positive integers.

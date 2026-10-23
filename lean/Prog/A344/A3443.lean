@@ -3532,6 +3532,28 @@ end A344330.P16018091143530102682
 The programs for A344331, there is no canonical definition to state claims against.
 -/
 
+/-! ## A344331.P652636801594366766
+
+`∩[2*n, A344330(n+1)]`
+-/
+
+namespace A344331.P652636801594366766
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344330 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344331.P652636801594366766
+
 /-! ## A344331.P6976429084368663725
 
 `record[A038608(A344330(n+1))]`
@@ -3604,24 +3626,6 @@ end
 
 end A344331.P11115797663465460538
 
-/-! ## A344331.P3925162846499447234
-
-`filter[A344330(n+1), A267043(#)]`
--/
-
-namespace A344331.P3925162846499447234
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344330 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267043 (f1 j).toNat = 1) n)
-
-end
-
-end A344331.P3925162846499447234
-
 /-!
 # A344332: Side s of squares of type 2 that can be tiled with squares of two different sizes so that the number of large or small squares is the same.
 
@@ -3664,11 +3668,77 @@ end
 
 end A344332.P7203219433186198513
 
+/-! ## A344332.P15774616818078422696
+
+`∩[A097752(n+1), A371287(n+1)]`
+-/
+
+namespace A344332.P15774616818078422696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097752 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371287 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344332.P15774616818078422696
+
+/-! ## A344332.P5910458966553140443
+
+`∩[A111200(n+1), A318981(n+1)]`
+-/
+
+namespace A344332.P5910458966553140443
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111200 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318981 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344332.P5910458966553140443
+
 /-!
 # A344333: Primitive side of squares of type 1 (A344331) that are tiled with squares of two different sizes so that the number of large or small squares is the same.
 
 The programs for A344333, there is no canonical definition to state claims against.
 -/
+
+/-! ## A344333.P10191936162342511148
+
+`∩[A178210(n+1), A345285(n+1)]`
+-/
+
+namespace A344333.P10191936162342511148
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178210 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345285 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344333.P10191936162342511148
 
 /-! ## A344333.P11428090961633539525
 
@@ -3729,21 +3799,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A344333.P3590005694512152318
-
-/-! ## A344333.P3492846786443788162
-
-`A345285(A031943(n+1)%A141638(n+1))`
--/
-
-namespace A344333.P3492846786443788162
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345285 (Int.tmod (A031943 (n + 1)) (A141638 (n + 1))).toNat
-
-end
-
-end A344333.P3492846786443788162
 
 /-!
 # A344334: a(n) is the number of large or small squares that are used to tile primitive squares of type 1 whose length of side is A344333(n).
@@ -6388,6 +6443,28 @@ end A344355.P14315272251669523734
 The programs for A344356, there is no canonical definition to state claims against.
 -/
 
+/-! ## A344356.P1435595338949063419
+
+`∪[A344357(n+1), A344904(n+1)]`
+-/
+
+namespace A344356.P1435595338949063419
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344357 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344904 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344356.P1435595338949063419
+
 /-! ## A344356.P1711078462593889798
 
 `A344357(A292125(n+1))`
@@ -6402,21 +6479,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A344356.P1711078462593889798
-
-/-! ## A344356.P6604277032411929627
-
-`A344357(A228050(n+2))`
--/
-
-namespace A344356.P6604277032411929627
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344357 (A228050 (n + 2)).toNat
-
-end
-
-end A344356.P6604277032411929627
 
 /-!
 # A344357: Numbers that are the sum of four fourth powers in exactly five ways.
@@ -6616,6 +6678,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A344359.P1835101402324595386
+
+/-!
+# A344364: Numbers that are the sum of three fourth powers in five or more ways.
+
+The programs for A344364, there is no canonical definition to state claims against.
+-/
+
+/-! ## A344364.P377885335603656437
+
+`∪[A344365(n+1), A344647(n+1)]`
+-/
+
+namespace A344364.P377885335603656437
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344365 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344647 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344364.P377885335603656437
 
 /-!
 # A344366: Integers k such that the sum of squares of digits of both k and k-1 are prime.

@@ -5813,6 +5813,28 @@ end
 
 end A237057.P12685450757193726920
 
+/-! ## A237057.P2584178807732061159
+
+`∩[A250395(n+1), A308078(n+1)]`
+-/
+
+namespace A237057.P2584178807732061159
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250395 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308078 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A237057.P2584178807732061159
+
 /-!
 # A237058: Inverse permutation to A237056.
 

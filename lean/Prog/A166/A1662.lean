@@ -44,6 +44,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -533,7 +534,7 @@ end A166226.P859588013390456786
 /-!
 # A166228: Alternating sum of large Schroeder numbers.
 
-The programs for A166228, the canonical program `A166228.P7650312400576267198` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166228 has offset 0).
+The programs for A166228, the canonical program `A166228.P7650312400576267198` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166228 has offset 0).
 
 The definition of A166228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -787,7 +788,7 @@ end A166228
 
 `abs(∑[A036453(n+1)*A080243(n)])`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A166228
@@ -4879,6 +4880,36 @@ def P5822832711305631165.Spec : Prop :=
 
 end A166252
 
+/-! ## A166252.P18334802347861800029
+
+`∪[A166576(n+1), A182451(n+1)]`
+-/
+
+namespace A166252.P18334802347861800029
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166576 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182451 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166252.P18334802347861800029
+
+namespace A166252
+
+/-- `∪[A166576(n+1), A182451(n+1)]` -/
+def P18334802347861800029.Spec : Prop :=
+  ∀ n, (P18334802347861800029.a n : ℤ) = A166252 (n + 1)
+
+end A166252
+
 /-!
 # A166253: String substitution 0 -> 01110, 1 -> 10001, started with 1.
 
@@ -5689,6 +5720,21 @@ end
 
 end A166259.P11931026937602925469
 
+/-! ## A166259.P3697341191344537023
+
+`A349194(A191111(n))`
+-/
+
+namespace A166259.P3697341191344537023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349194 (A191111 n).toNat
+
+end
+
+end A166259.P3697341191344537023
+
 /-!
 # A166260: a(n) = A089026(n) - 1.
 
@@ -6172,39 +6218,26 @@ def P16805579897744199158.Spec : Prop :=
 
 end A166260
 
-/-! ## A166260.P8843126157954835004
+/-! ## A166260.P13045016492864391667
 
-`n*char[eq[1, ∑{e}[n+1, #]]]`
+`C(n, A023890(n+1))`
 -/
 
-namespace A166260.P8843126157954835004
+namespace A166260.P13045016492864391667
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f4 n), Nat.factorization (f4 n) p
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j = f3 j) n
-
-open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * (if ∃ j, f1 j = n then 1 else 0)
+  Nat.choose n (A023890 (n + 1)).toNat
 
 end
 
-end A166260.P8843126157954835004
+end A166260.P13045016492864391667
 
 namespace A166260
 
-/-- `n*char[eq[1, ∑{e}[n+1, #]]]` -/
-def P8843126157954835004.Spec : Prop :=
-  ∀ n, (P8843126157954835004.a n : ℤ) = A166260 (n + 1)
+/-- `C(n, A023890(n+1))` -/
+def P13045016492864391667.Spec : Prop :=
+  ∀ n, (P13045016492864391667.a n : ℤ) = A166260 (n + 1)
 
 end A166260
 
@@ -9787,6 +9820,28 @@ end
 
 end A166283.P7088210297713057810
 
+/-! ## A166283.P4749977121342577469
+
+`∪[A155032(n+1), A155036(n+1)]`
+-/
+
+namespace A166283.P4749977121342577469
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155032 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155036 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166283.P4749977121342577469
+
 /-! ## A166283.P2994920495944686368
 
 `p?[A000040(n+1)*A001222(A045532(n+1))]`
@@ -9840,24 +9895,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A166283.P749533821304515872
-
-/-! ## A166283.P6421911139959711985
-
-`p?[A001222(A045532(n+1))*A160656(n+1)]`
--/
-
-namespace A166283.P6421911139959711985
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A045532 (n + 1)).toNat * A160656 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A166283.P6421911139959711985
 
 /-!
 # A166286: Number of Dyck paths with no UUU's and no DDD's, of semilength n having no peak plateaux (U=(1,1), D=(1,-1)).

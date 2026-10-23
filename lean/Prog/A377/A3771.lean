@@ -48,7 +48,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3314,6 +3314,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377174.P2833965315514676047
+
+/-! ## A377174.P3629852058120797730
+
+`∩[A237662(n+1), A320601(n+1)]`
+-/
+
+namespace A377174.P3629852058120797730
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237662 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320601 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377174.P3629852058120797730
+
+/-! ## A377174.P4956300785871246188
+
+`∩[A237662(n+1), A355274(n+1)]`
+-/
+
+namespace A377174.P4956300785871246188
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237662 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355274 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377174.P4956300785871246188
 
 /-!
 # A377175: Primes p such that -5/2 is a primitive root modulo p.

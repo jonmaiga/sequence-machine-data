@@ -3367,6 +3367,29 @@ def P7340999437175075537.Spec : Prop :=
 
 end A265127
 
+/-! ## A265127.P5293750871554833992
+
+`A000079(n+1)*A158611(n+3)`
+-/
+
+namespace A265127.P5293750871554833992
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 (n + 1) * A158611 (n + 3)
+
+end
+
+end A265127.P5293750871554833992
+
+namespace A265127
+
+/-- `A000079(n+1)*A158611(n+3)` -/
+def P5293750871554833992.Spec : Prop :=
+  ∀ n, P5293750871554833992.a n = A265127 (n + 1)
+
+end A265127
+
 /-!
 # A265128: Nonprimes excluding numbers of the forms 2*p and p^i where p is a prime and i is a positive integer.
 
@@ -4564,26 +4587,63 @@ def P15877899896850524239.Spec : Prop :=
 
 end A265133
 
-/-! ## A265133.P6321034783149114199
+/-! ## A265133.P4536723016074013590
 
-`A121902(A301049(n+1))`
+`∑[char[ceil(log2(cosh(n+1)))]]`
 -/
 
-namespace A265133.P6321034783149114199
+namespace A265133.P4536723016074013590
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121902 (A301049 (n + 1)).toNat
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.logb 2 (Real.cosh (n + 1 : ℝ))⌉
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A265133.P6321034783149114199
+end A265133.P4536723016074013590
 
 namespace A265133
 
-/-- `A121902(A301049(n+1))` -/
-def P6321034783149114199.Spec : Prop :=
-  ∀ n, P6321034783149114199.a n = A265133 (n + 1)
+/-- `∑[char[ceil(log2(cosh(n+1)))]]` -/
+def P4536723016074013590.Spec : Prop :=
+  ∀ n, (P4536723016074013590.a n : ℤ) = A265133 (n + 1)
+
+end A265133
+
+/-! ## A265133.P10991658067485152242
+
+`∑[char[ceil(log2(sinh(n+1)))]]`
+-/
+
+namespace A265133.P10991658067485152242
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.logb 2 (Real.sinh (n + 1 : ℝ))⌉
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A265133.P10991658067485152242
+
+namespace A265133
+
+/-- `∑[char[ceil(log2(sinh(n+1)))]]` -/
+def P10991658067485152242.Spec : Prop :=
+  ∀ n, (P10991658067485152242.a n : ℤ) = A265133 (n + 1)
 
 end A265133
 
@@ -5162,6 +5222,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265138.P12305045173244695287
+
+/-! ## A265138.P3618162331087988357
+
+`A265137(A044917(n+1))`
+-/
+
+namespace A265138.P3618162331087988357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265137 (A044917 (n + 1)).toNat
+
+end
+
+end A265138.P3618162331087988357
 
 /-!
 # A265140: Numbers that are the sum of two distinct nonzero triangular numbers in exactly one way.
@@ -6620,6 +6695,29 @@ namespace A265160
 /-- `A173072(n+1)+A131520(n+1)` -/
 def P18077433692707140854.Spec : Prop :=
   ∀ n, P18077433692707140854.a n = A265160 (n + 1)
+
+end A265160
+
+/-! ## A265160.P103475208826218154
+
+`A011782(n+2)+A000040(n+1)`
+-/
+
+namespace A265160.P103475208826218154
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011782 (n + 2) + A000040 (n + 1)
+
+end
+
+end A265160.P103475208826218154
+
+namespace A265160
+
+/-- `A011782(n+2)+A000040(n+1)` -/
+def P103475208826218154.Spec : Prop :=
+  ∀ n, P103475208826218154.a n = A265160 (n + 1)
 
 end A265160
 

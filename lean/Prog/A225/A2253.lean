@@ -2385,6 +2385,28 @@ end
 
 end A225324.P5963454807604204698
 
+/-! ## A225324.P6213997430737071867
+
+`∪[A225358(n+1), A278196(n+1)]`
+-/
+
+namespace A225324.P6213997430737071867
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278196 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225324.P6213997430737071867
+
 /-!
 # A225325: Partition numbers of the form 5k.
 
@@ -5858,6 +5880,28 @@ end A225361.P11851541751309363251
 The programs for A225362, there is no canonical definition to state claims against.
 -/
 
+/-! ## A225362.P1275871340895461098
+
+`∩[A043305(n+1), A225239(n+1)]`
+-/
+
+namespace A225362.P1275871340895461098
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043305 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225239 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225362.P1275871340895461098
+
 /-! ## A225362.P1744174859147425832
 
 `∩[A046528(n+1), A225239(n+1)]`
@@ -7941,20 +7985,20 @@ end A225382.P14166932014822931469
 The programs for A225383, there is no canonical definition to state claims against.
 -/
 
-/-! ## A225383.P9065845861059007151
+/-! ## A225383.P5335658336620954081
 
-`ogf((-1-2x-3x^2+5x^4+6x^5)/(-1+4x-3x^2-4x^3))`
+`ogf((1+2x+4x^2+3x^3+x^4-4x^5)/(1-4x+4x^2+x^3))`
 -/
 
-namespace A225383.P9065845861059007151
+namespace A225383.P5335658336620954081
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 2, 3, 0, -5, -6] [1, -4, 3, 4] n
+  SequenceMachineLib.ogf [1, 2, 4, 3, 1, -4] [1, -4, 4, 1] n
 
 end
 
-end A225383.P9065845861059007151
+end A225383.P5335658336620954081
 
 /-!
 # A225384: Dimensions of homogeneous components of the universal associative envelope for a certain nonassociative triple system.

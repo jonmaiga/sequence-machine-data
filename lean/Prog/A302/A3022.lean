@@ -51,7 +51,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -4107,7 +4106,7 @@ end A302252.P3692819901090801537
 /-!
 # A302253: Positions of 3 in A190436.
 
-The programs for A302253, the canonical program `A302253.P10939319436702998548` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302253 has offset 1).
+The programs for A302253, the canonical program `A302253.P10939319436702998548` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302253 has offset 1).
 
 The definition of A302253 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4139,7 +4138,7 @@ end A302253
 
 `A140398(n+1)+2*A190435(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A302253

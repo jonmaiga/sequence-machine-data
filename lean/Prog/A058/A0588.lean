@@ -61,7 +61,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -4040,6 +4039,50 @@ end
 
 end A058853.P5248982287406527436
 
+/-! ## A058853.P3530574313318176073
+
+`∪[A060192(n), A100725(n+1)]`
+-/
+
+namespace A058853.P3530574313318176073
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060192 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100725 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A058853.P3530574313318176073
+
+/-! ## A058853.P9994836125219754667
+
+`∪[A005110(n+1), A102348(n+1)]`
+-/
+
+namespace A058853.P9994836125219754667
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005110 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102348 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A058853.P9994836125219754667
+
 /-! ## A058853.P12333961578288743110
 
 `A000040(∑[A365167(2*n+5)!])`
@@ -4635,6 +4678,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A058868.P11761114497632168337
+
+/-! ## A058868.P14755373445189558392
+
+`A097450(A298033(n))`
+-/
+
+namespace A058868.P14755373445189558392
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097450 (A298033 n).toNat
+
+end
+
+end A058868.P14755373445189558392
 
 /-!
 # A058870: Number of 2-trees rooted at an asymmetric edge.
@@ -5491,6 +5549,29 @@ namespace A058877
 /-- `∑[A211227(2*n)-1]` -/
 def P9247809127066955888.Spec : Prop :=
   ∀ n, P9247809127066955888.a n = A058877 (n + 1)
+
+end A058877
+
+/-! ## A058877.P12333664912734713926
+
+`A001787(n+1)-(n+1)`
+-/
+
+namespace A058877.P12333664912734713926
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001787 (n + 1) - (n + 1 : ℤ)
+
+end
+
+end A058877.P12333664912734713926
+
+namespace A058877
+
+/-- `A001787(n+1)-(n+1)` -/
+def P12333664912734713926.Spec : Prop :=
+  ∀ n, P12333664912734713926.a n = A058877 (n + 1)
 
 end A058877
 
@@ -6478,6 +6559,32 @@ def P17027559669309791711.Spec : Prop :=
 
 end A058891
 
+/-! ## A058891.P5934962946445214144
+
+`A305860(∑[n])`
+-/
+
+namespace A058891.P5934962946445214144
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305860 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A058891.P5934962946445214144
+
+namespace A058891
+
+/-- `A305860(∑[n])` -/
+def P5934962946445214144.Spec : Prop :=
+  ∀ n, P5934962946445214144.a n = A058891 (n + 1)
+
+end A058891
+
 /-!
 # A058892: E.g.f.: exp(f(x)-1), where f(x) = o.g.f. for partitions (A000041), Product_{k>=1} 1/(1-x^k).
 
@@ -6561,6 +6668,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A058892.P4376780030634545330
+
+/-!
+# A058893: Triangle arising in enumeration of maps on projective plane.
+
+The programs for A058893, there is no canonical definition to state claims against.
+-/
+
+/-! ## A058893.P4080742059409367890
+
+`A113309(A107916(n))`
+-/
+
+namespace A058893.P4080742059409367890
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113309 (A107916 n).toNat
+
+end
+
+end A058893.P4080742059409367890
 
 /-!
 # A058895: a(n) = n^4 - n.

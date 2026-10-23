@@ -8270,3 +8270,119 @@ end
 
 end A263498.P6727564787127935574
 
+/-!
+# A263499: Numbers with nondecreasing digits such that every cyclic shift is a prime.
+
+The programs for A263499, there is no canonical definition to state claims against.
+-/
+
+/-! ## A263499.P15328147627660973931
+
+`∩[A068652(n+1), A179239(n)]`
+-/
+
+namespace A263499.P15328147627660973931
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068652 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179239 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263499.P15328147627660973931
+
+/-! ## A263499.P18165112119946987583
+
+`∩[A009994(n+1), A068652(n+1)]`
+-/
+
+namespace A263499.P18165112119946987583
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009994 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068652 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263499.P18165112119946987583
+
+/-! ## A263499.P2151975481077993900
+
+`∩[A028864(n+1), A068652(n+1)]`
+-/
+
+namespace A263499.P2151975481077993900
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028864 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068652 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263499.P2151975481077993900
+
+/-! ## A263499.P10056817165839663502
+
+`∩[A032524(n+1), A068652(n+1)]`
+-/
+
+namespace A263499.P10056817165839663502
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032524 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068652 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263499.P10056817165839663502
+
+/-! ## A263499.P16207028758824164319
+
+`∩[A068652(n+1), A190221(n+1)]`
+-/
+
+namespace A263499.P16207028758824164319
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068652 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190221 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263499.P16207028758824164319
+

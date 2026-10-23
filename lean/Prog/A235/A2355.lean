@@ -1676,6 +1676,28 @@ end A235523.P5731742742987112527
 The programs for A235524, there is no canonical definition to state claims against.
 -/
 
+/-! ## A235524.P7872970143122110218
+
+`∩[A033950(n+1), A081381(n+1)]`
+-/
+
+namespace A235524.P7872970143122110218
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033950 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A081381 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A235524.P7872970143122110218
+
 /-! ## A235524.P12976814366076277133
 
 `∩[A033950(n+1), A120737(n+1)]`
@@ -1751,24 +1773,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A235524.P15502679672497194540
-
-/-! ## A235524.P2456727818919870258
-
-`record[A122377(A120737(n+1))]`
--/
-
-namespace A235524.P2456727818919870258
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122377 (A120737 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A235524.P2456727818919870258
 
 /-!
 # A235527: Number of (n+1)X(1+1) 0..2 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing rowwise and columnwise.
@@ -2466,6 +2470,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A235533.P5812273376437897221
+
+/-! ## A235533.P16125619399287113098
+
+`∩[A004214(n+1), A390380(n+1)]`
+-/
+
+namespace A235533.P16125619399287113098
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004214 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390380 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A235533.P16125619399287113098
 
 /-! ## A235533.P15312875062479680118
 
@@ -3328,6 +3354,28 @@ end A235538.P17439638338825580028
 
 The programs for A235540, there is no canonical definition to state claims against.
 -/
+
+/-! ## A235540.P5929720231296662902
+
+`∩[A158034(n+1), A316320(n)]`
+-/
+
+namespace A235540.P5929720231296662902
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158034 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316320 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A235540.P5929720231296662902
 
 /-! ## A235540.P14702850809942490754
 
@@ -8045,4 +8093,22 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A235597.P11066650561543967838
+
+/-! ## A235597.P5204175535165057411
+
+`filter[A122683(n+1), A322674(#)]`
+-/
+
+namespace A235597.P5204175535165057411
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122683 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A322674 (f1 j).toNat = 1) n)
+
+end
+
+end A235597.P5204175535165057411
 

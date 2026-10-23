@@ -32,6 +32,7 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C003
@@ -49,7 +50,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B007.C002
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
@@ -805,6 +805,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390626.P8233567339710059045
+
+/-! ## A390626.P12448696150764214549
+
+`∪[A100715(n+1), A390628(n+1)]`
+-/
+
+namespace A390626.P12448696150764214549
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100715 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390628 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390626.P12448696150764214549
 
 /-! ## A390626.P14754460238577931191
 
@@ -1744,6 +1766,29 @@ def P5080801009828281389.Spec : Prop :=
 
 end A390663
 
+/-! ## A390663.P7102675718345806006
+
+`A369720(A053149(2*n+1-n))`
+-/
+
+namespace A390663.P7102675718345806006
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369720 (A053149 (2 * n + 1 - n)).toNat
+
+end
+
+end A390663.P7102675718345806006
+
+namespace A390663
+
+/-- `A369720(A053149(2*n+1-n))` -/
+def P7102675718345806006.Spec : Prop :=
+  ∀ n, P7102675718345806006.a n = A390663 (n + 1)
+
+end A390663
+
 /-!
 # A390664: The sum of the divisors of the smallest number whose cube is divisible by n.
 
@@ -1837,6 +1882,29 @@ namespace A390664
 /-- `A365347(A019555(n+1)*A019555(n+1))` -/
 def P9712410102999364696.Spec : Prop :=
   ∀ n, P9712410102999364696.a n = A390664 (n + 1)
+
+end A390664
+
+/-! ## A390664.P1247490522888131820
+
+`A333843(A053149(n+1))`
+-/
+
+namespace A390664.P1247490522888131820
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333843 (A053149 (n + 1)).toNat
+
+end
+
+end A390664.P1247490522888131820
+
+namespace A390664
+
+/-- `A333843(A053149(n+1))` -/
+def P1247490522888131820.Spec : Prop :=
+  ∀ n, P1247490522888131820.a n = A390664 (n + 1)
 
 end A390664
 
@@ -3020,7 +3088,7 @@ end A390689
 /-!
 # A390690: The sum of the divisors of n that are Loeschian numbers (A003136).
 
-The programs for A390690, the canonical program `A390690.P17610099573045072712` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390690 has offset 1).
+The programs for A390690, the canonical program `A390690.P17610099573045072712` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390690 has offset 1).
 
 The definition of A390690 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3029,7 +3097,7 @@ The definition of A390690 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A353816(#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A390690
@@ -3685,4 +3753,48 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390697.P5982800641487562097
+
+/-! ## A390697.P14119295349905682363
+
+`∩[A051534(n+1), A391021(n+1)]`
+-/
+
+namespace A390697.P14119295349905682363
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051534 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391021 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390697.P14119295349905682363
+
+/-! ## A390697.P188582117269763278
+
+`∩[A069677(n+1), A391021(n+1)]`
+-/
+
+namespace A390697.P188582117269763278
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069677 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391021 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390697.P188582117269763278
 

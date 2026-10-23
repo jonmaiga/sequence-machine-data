@@ -8693,6 +8693,28 @@ end A160747
 The programs for A160748, there is no canonical definition to state claims against.
 -/
 
+/-! ## A160748.P12881237705904175119
+
+`∪[A045336(n+1), A128388(n+1)]`
+-/
+
+namespace A160748.P12881237705904175119
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045336 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128388 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A160748.P12881237705904175119
+
 /-! ## A160748.P2135330537633283199
 
 `∩[A007500(n+1), A019546(n+1)]`
@@ -8759,6 +8781,28 @@ end
 
 end A160748.P805611875422236051
 
+/-! ## A160748.P3756355955371538583
+
+`∩[A019546(n+1), A085869(n+1)]`
+-/
+
+namespace A160748.P3756355955371538583
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019546 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085869 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A160748.P3756355955371538583
+
 /-! ## A160748.P2297667932482371324
 
 `∩[A019546(n+1), A095179(n+1)]`
@@ -8780,28 +8824,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A160748.P2297667932482371324
-
-/-! ## A160748.P10291354374298027089
-
-`∩[A019546(n+1), A062895(n+1)]`
--/
-
-namespace A160748.P10291354374298027089
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019546 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062895 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A160748.P10291354374298027089
 
 /-!
 # A160749: a(n) = (11*n^2 + 19*n + 10)/2.
@@ -9528,6 +9550,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160753.P7300124019491175906
+
+/-!
+# A160754: Numbers k such that k, 2k, 3k and 4k use the same number of characters when expressed in Roman numerals.
+
+The programs for A160754, there is no canonical definition to state claims against.
+-/
+
+/-! ## A160754.P13050529624190038881
+
+`∩[A099647(n+1), A160677(n+1)]`
+-/
+
+namespace A160754.P13050529624190038881
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099647 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160677 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A160754.P13050529624190038881
 
 /-!
 # A160755: Number of correct digits of the MRB constant derived from the sequence of partial sums up to m=10^n terms as defined by S[n]= Sum[(-1)^k*(k^(1/k)-1),{k,m}].
@@ -10548,6 +10598,29 @@ namespace A160765
 /-- `A365205(n+1)-A045943(n)` -/
 def P8697762061880550782.Spec : Prop :=
   ∀ n, P8697762061880550782.a n = A160765 n
+
+end A160765
+
+/-! ## A160765.P15349231582528701317
+
+`A002061(n+1)*A005891(n)`
+-/
+
+namespace A160765.P15349231582528701317
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002061 (n + 1) * A005891 n
+
+end
+
+end A160765.P15349231582528701317
+
+namespace A160765
+
+/-- `A002061(n+1)*A005891(n)` -/
+def P15349231582528701317.Spec : Prop :=
+  ∀ n, P15349231582528701317.a n = A160765 n
 
 end A160765
 

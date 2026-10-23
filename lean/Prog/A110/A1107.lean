@@ -3286,12 +3286,12 @@ end A110743.P7504467986978129823
 The programs for A110744, there is no canonical definition to state claims against.
 -/
 
-/-! ## A110744.P3317087813760298541
+/-! ## A110744.P15875246522159112608
 
-`∪[A079342(n+1), A152957(n+1)]%A152957(n+1)`
+`∪[A079342(n+1), A152957(n+1)]`
 -/
 
-namespace A110744.P3317087813760298541
+namespace A110744.P15875246522159112608
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3301,12 +3301,12 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A152957 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A152957 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A110744.P3317087813760298541
+end A110744.P15875246522159112608
 
 /-!
 # A110746: a(n+1) is the least multiple of a(n) such that the digit reversal of the concatenation of the first n+1 terms is prime.
@@ -5897,6 +5897,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A110784.P12019919195424797372
+
+/-! ## A110784.P16517126377908596723
+
+`∩[A072544(n+1), A281625(n+1)]`
+-/
+
+namespace A110784.P16517126377908596723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072544 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281625 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A110784.P16517126377908596723
 
 /-! ## A110784.P15692433932599966460
 

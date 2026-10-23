@@ -37,6 +37,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,7 +50,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -65,7 +65,6 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -85,6 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -555,6 +555,28 @@ end A291615.P10000313477456844843
 
 The programs for A291616, there is no canonical definition to state claims against.
 -/
+
+/-! ## A291616.P11508813097790770582
+
+`∪[A291612(n+1), A291637(n+1)]`
+-/
+
+namespace A291616.P11508813097790770582
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291612 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291637 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291616.P11508813097790770582
 
 /-! ## A291616.P18339055839309640766
 
@@ -2059,6 +2081,122 @@ def P13788544727886805964.Spec : Prop :=
   ∀ n, P13788544727886805964.a n = A291632 n
 
 end A291632
+
+/-!
+# A291633: Numbers k such that it is possible to form a palindrome by concatenating all the binary strings from 1 to k.
+
+The programs for A291633, there is no canonical definition to state claims against.
+-/
+
+/-! ## A291633.P3015654859004819294
+
+`∩[A004776(n+1), A360320(n+1)]`
+-/
+
+namespace A291633.P3015654859004819294
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004776 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360320 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291633.P3015654859004819294
+
+/-! ## A291633.P10144555244522690378
+
+`∩[A047419(n+1), A360320(n+1)]`
+-/
+
+namespace A291633.P10144555244522690378
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047419 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360320 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291633.P10144555244522690378
+
+/-! ## A291633.P16244783760143904018
+
+`∩[A047420(n+1), A360320(n+1)]`
+-/
+
+namespace A291633.P16244783760143904018
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047420 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360320 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291633.P16244783760143904018
+
+/-! ## A291633.P2573602437260410819
+
+`∩[A047519(n+1), A360320(n+1)]`
+-/
+
+namespace A291633.P2573602437260410819
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047519 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360320 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291633.P2573602437260410819
+
+/-! ## A291633.P4512391955401229601
+
+`∩[A319371(n+1), A360320(n+1)]`
+-/
+
+namespace A291633.P4512391955401229601
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319371 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360320 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291633.P4512391955401229601
 
 /-!
 # A291634: Number of primitive sequences n = b_1 < b_2 < ... < b_t = A006255(n) such that b_1*b_2*...*b_t is a perfect square.
@@ -6399,6 +6537,36 @@ def P7496415094954525455.Spec : Prop :=
 
 end A291681
 
+/-! ## A291681.P7404172661798415835
+
+`Δ[A067046(n+1)]`
+-/
+
+namespace A291681.P7404172661798415835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067046 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A291681.P7404172661798415835
+
+namespace A291681
+
+/-- `Δ[A067046(n+1)]` -/
+def P7404172661798415835.Spec : Prop :=
+  ∀ n, P7404172661798415835.a n = A291681 (n + 1)
+
+theorem P7404172661798415835.correct : P7404172661798415835.Spec := by
+  intro n
+  simp only [A291681, Nat.add_sub_cancel, A291681.P7404172661798415835.f1, A291681.P7404172661798415835.a, A291681.P5930894285660804942.a, SequenceMachineLib.memo_apply]
+
+end A291681
+
 /-! ## A291681.P11883579788232497820
 
 `A129194(n+2)-a(n-1)` with `a(0)=1`
@@ -7442,6 +7610,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A291691.P6844944844618045240
+
+/-! ## A291691.P7730104597551052502
+
+`∩[A235986(n+1), A335331(n+1)]`
+-/
+
+namespace A291691.P7730104597551052502
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235986 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335331 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291691.P7730104597551052502
+
+/-! ## A291691.P17781533162270882554
+
+`∩[A235986(n+1), A371694(n+1)]`
+-/
+
+namespace A291691.P17781533162270882554
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235986 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371694 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291691.P17781533162270882554
 
 /-!
 # A291693: Expansion of Product_{k>=1} (1 + x^q(k)), where q(k) = [x^k] Product_{k>=1} (1 + x^k).

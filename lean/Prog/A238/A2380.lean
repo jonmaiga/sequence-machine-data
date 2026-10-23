@@ -946,6 +946,21 @@ end
 
 end A238006.P14640077231805183851
 
+/-! ## A238006.P18307779098198853832
+
+`A000009(n+1)-(A238005(n+1)+A001227(n+1))`
+-/
+
+namespace A238006.P18307779098198853832
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000009 (n + 1) - (A238005 (n + 1) + A001227 (n + 1))
+
+end
+
+end A238006.P18307779098198853832
+
 /-! ## A238006.P4386470480285563816
 
 `A001227(n+1)+A238007(n+1)-A003056(n+1)`
@@ -1036,21 +1051,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238006.P4837551591259784488
-
-/-! ## A238006.P2319382074206128771
-
-`A054242(A000096(n+1))-A003056(n+1)`
--/
-
-namespace A238006.P2319382074206128771
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054242 (A000096 (n + 1)).toNat - A003056 (n + 1)
-
-end
-
-end A238006.P2319382074206128771
 
 /-!
 # A238007: Number of strict partitions of n such that (greatest part) - (least part) >= (number of parts).

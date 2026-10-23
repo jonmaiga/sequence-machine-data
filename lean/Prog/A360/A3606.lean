@@ -4202,6 +4202,28 @@ end
 
 end A360652.P15828157158156231069
 
+/-! ## A360652.P6095106113676442575
+
+`∩[A016108(n+1), A332226(n+1)]`
+-/
+
+namespace A360652.P6095106113676442575
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016108 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332226 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360652.P6095106113676442575
+
 /-! ## A360652.P4925973934101487847
 
 `∩[A004625(n+1), A014752(n+1)]`
@@ -4289,28 +4311,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A360652.P1758745355803358678
-
-/-! ## A360652.P16523185610997941019
-
-`∩[A040992(n+1), A141170(n+1)]`
--/
-
-namespace A360652.P16523185610997941019
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040992 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141170 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A360652.P16523185610997941019
 
 /-!
 # A360653: Irregular table read by rows; the first row contains the value 1, and for n > 1, the n-th row lists the numbers of the form binomial(m-1, k) such that binomial(m, k) = n.

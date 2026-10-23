@@ -57,7 +57,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -4682,6 +4681,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A193173.P10521438675579107943
+
+/-! ## A193173.P17120765875025069837
+
+`A106487(A171429(n+1))`
+-/
+
+namespace A193173.P17120765875025069837
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106487 (A171429 (n + 1)).toNat
+
+end
+
+end A193173.P17120765875025069837
 
 /-!
 # A193175: Numbers k such that there exists a two-dimensional generalized Bravais lattice with k-fold symmetry.

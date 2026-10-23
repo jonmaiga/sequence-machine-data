@@ -3950,6 +3950,29 @@ def P16083987240876524358.Spec : Prop :=
 
 end A346625
 
+/-! ## A346625.P12032649629860196305
+
+`2*A005828(n)`
+-/
+
+namespace A346625.P12032649629860196305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A005828 n
+
+end
+
+end A346625.P12032649629860196305
+
+namespace A346625
+
+/-- `2*A005828(n)` -/
+def P12032649629860196305.Spec : Prop :=
+  ∀ n, P12032649629860196305.a n = A346625 n
+
+end A346625
+
 /-!
 # A346626: G.f. A(x) satisfies: A(x) = (1 + x * A(x)^3) / (1 - x).
 
@@ -6252,6 +6275,28 @@ end A346644.P6765153550112532098
 The programs for A346645, there is no canonical definition to state claims against.
 -/
 
+/-! ## A346645.P4290523130026738797
+
+`∩[A000043(n+1), A001097(n+1)]`
+-/
+
+namespace A346645.P4290523130026738797
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000043 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001097 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A346645.P4290523130026738797
+
 /-! ## A346645.P3714457123943648387
 
 `∩[A001097(n+1), A048737(n+1)]`
@@ -6274,77 +6319,71 @@ end
 
 end A346645.P3714457123943648387
 
-/-! ## A346645.P2032155187257743613
+/-! ## A346645.P12898508870624394259
 
-`filter[A001097(n+1), A332219(#)]`
+`∩[A001097(n+1), A174265(n+1)]`
 -/
 
-namespace A346645.P2032155187257743613
+namespace A346645.P12898508870624394259
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A001097 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A332219 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174265 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A346645.P2032155187257743613
+end A346645.P12898508870624394259
 
-/-! ## A346645.P2882142043080457547
+/-! ## A346645.P3640428039815028917
 
-`filter[A171821(n+2), A332219(#)]`
+`∩[A001097(n+1), A174269(n+1)]`
 -/
 
-namespace A346645.P2882142043080457547
+namespace A346645.P3640428039815028917
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171821 (n + 2)
+  A001097 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A332219 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174269 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A346645.P2882142043080457547
+end A346645.P3640428039815028917
 
-/-! ## A346645.P14154341306528086108
+/-! ## A346645.P13546477886218440704
 
-`record[A072963(A174265(n+1))]`
+`∩[A001097(n+1), A190213(n+1)]`
 -/
 
-namespace A346645.P14154341306528086108
+namespace A346645.P13546477886218440704
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072963 (A174265 (n + 1)).toNat
+  A001097 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190213 (n + 1)
 
-end
-
-end A346645.P14154341306528086108
-
-/-! ## A346645.P17391243457035861085
-
-`p?[A072963(A000043(n+1))]`
--/
-
-namespace A346645.P17391243457035861085
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072963 (A000043 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A346645.P17391243457035861085
+end A346645.P13546477886218440704
 
 /-!
 # A346646: a(n) = Sum_{k=0..n} binomial(n,k) * binomial(4*k,k) / (3*k + 1).

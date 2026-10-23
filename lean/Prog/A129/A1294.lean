@@ -1054,6 +1054,58 @@ def P5224846310498281464.Spec : Prop :=
 
 end A129401
 
+/-! ## A129401.P13363470577931540689
+
+`filter[A045965(n+1), A005171(#)]`
+-/
+
+namespace A129401.P13363470577931540689
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045965 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A005171 (f1 j).toNat = 1) n)
+
+end
+
+end A129401.P13363470577931540689
+
+namespace A129401
+
+/-- `filter[A045965(n+1), A005171(#)]` -/
+def P13363470577931540689.Spec : Prop :=
+  ∀ n, P13363470577931540689.a n = A129401 (n + 1)
+
+end A129401
+
+/-! ## A129401.P7212914950861001803
+
+`filter[A003961(n+1), A066247(#)]`
+-/
+
+namespace A129401.P7212914950861001803
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003961 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A066247 (f1 j).toNat = 1) n)
+
+end
+
+end A129401.P7212914950861001803
+
+namespace A129401
+
+/-- `filter[A003961(n+1), A066247(#)]` -/
+def P7212914950861001803.Spec : Prop :=
+  ∀ n, P7212914950861001803.a n = A129401 (n + 1)
+
+end A129401
+
 /-!
 # A129402: Expansion of phi(x^3) * psi(x^4) + x * phi(x) * psi(x^12) in powers of x where phi(), psi() are Ramanujan theta functions.
 
@@ -8675,6 +8727,28 @@ end A129470.P8843717356552685703
 The programs for A129471, there is no canonical definition to state claims against.
 -/
 
+/-! ## A129471.P8219552345919892856
+
+`∩[A005107(n+1), A129470(n+1)]`
+-/
+
+namespace A129471.P8219552345919892856
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005107 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129470 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A129471.P8219552345919892856
+
 /-! ## A129471.P177960816463033722
 
 `A129470(record[A014499(n+2)-1])`
@@ -8729,29 +8803,33 @@ end
 
 end A129471.P7971816959791649676
 
-/-! ## A129471.P1786016734373725075
-
-`p?[A129455(A129455(n)²)*A129470(n+1)]`
--/
-
-namespace A129471.P1786016734373725075
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129455 (A129455 n ^ 2).toNat * A129470 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A129471.P1786016734373725075
-
 /-!
 # A129472: Primes p of Erdős-Selfridge class 4+ with largest prime factor of p+1 not of class 3+.
 
 The programs for A129472, there is no canonical definition to state claims against.
 -/
+
+/-! ## A129472.P15049630718774906804
+
+`∩[A005108(n+1), A129470(n+1)]`
+-/
+
+namespace A129472.P15049630718774906804
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005108 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129470 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A129472.P15049630718774906804
 
 /-! ## A129472.P1564819133594302466
 

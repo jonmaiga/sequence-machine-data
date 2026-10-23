@@ -435,6 +435,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001609((n+1)²)` (program `A228647.P11534189553758676802`, by `A228647.P11534189553758676802.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. -/
 def A228647.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A188805.P8005763696363257235
+
+`(-1)^(n+1)*n!*A001906(n+1)`
+-/
+
+namespace A188805.P8005763696363257235
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (-1) ^ (n + 1) * (Nat.factorial n : ℤ) * A001906 (n + 1)
+
+end
+
+end A188805.P8005763696363257235
+
+noncomputable section
+
+/-- A188805: The n-th derivative of 1/(1-x-x^2), evaluated at x=1.
+
+Offset 0, canonical program `A188805.P8005763696363257235`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A188805 (n : ℕ) : ℤ :=
+  A188805.P8005763696363257235.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A188805.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A189154.P14736352262998142675
 
 `A008937(n+2)²`
@@ -6592,34 +6620,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A228778.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A228842.P15669196099016926791
-
-`2*A098648(n)`
--/
-
-namespace A228842.P15669196099016926791
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A098648 n
-
-end
-
-end A228842.P15669196099016926791
-
-noncomputable section
-
-/-- A228842: Binomial transform of A014448.
-
-Offset 0, canonical program `A228842.P15669196099016926791`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A228842 (n : ℕ) : ℤ :=
-  A228842.P15669196099016926791.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A228842.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A193053.P13739462359806345897
 

@@ -575,6 +575,36 @@ def P6294276152119194673.Spec : Prop :=
 
 end A387711
 
+/-! ## A387711.P3529832508438141091
+
+`∪[A387113(n+1), A387712(n+1)]`
+-/
+
+namespace A387711.P3529832508438141091
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387113 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387712 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387711.P3529832508438141091
+
+namespace A387711
+
+/-- `∪[A387113(n+1), A387712(n+1)]` -/
+def P3529832508438141091.Spec : Prop :=
+  ∀ n, (P3529832508438141091.a n : ℤ) = A387711 (n + 1)
+
+end A387711
+
 /-!
 # A387712: Primitive terms of A387711: numbers k for which A003959(k) > 2*k, but for all whose proper divisors d|k, d
 
@@ -1376,6 +1406,50 @@ end A387721.P953060351339290738
 The programs for A387722, there is no canonical definition to state claims against.
 -/
 
+/-! ## A387722.P4243922338054030084
+
+`∩[A084997(n+1), A387721(n+1)]`
+-/
+
+namespace A387722.P4243922338054030084
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084997 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387721 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387722.P4243922338054030084
+
+/-! ## A387722.P16491684574101815730
+
+`∩[A032517(n), A162730(n+1)]`
+-/
+
+namespace A387722.P16491684574101815730
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032517 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162730 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387722.P16491684574101815730
+
 /-! ## A387722.P7375202412653245832
 
 `∩[A162730(n+1), A387721(n+1)]`
@@ -1441,28 +1515,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A387722.P123348680895329450
-
-/-! ## A387722.P14266827035770400292
-
-`∩[A383016(n+1), A387721(n+1)]`
--/
-
-namespace A387722.P14266827035770400292
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383016 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387721 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387722.P14266827035770400292
 
 /-!
 # A387723: Numbers k for which A107758(k) > 2*k, and also for some of the proper divisors d|k, d 2*d.
@@ -1557,6 +1609,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A387723.P16807176230559692309
+
+/-! ## A387723.P17222362307291116238
+
+`∩[A058080(n+1), A340325(n+1)]`
+-/
+
+namespace A387723.P17222362307291116238
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058080 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340325 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387723.P17222362307291116238
 
 /-!
 # A387725: Number of unitary divisors d of n for which A107758(d) > 2*d, where A107758 is sigma+, multiplicative function with a(p^e) = 1+sigma(p^e).
@@ -2156,6 +2230,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387732.P9886314787740501974
+
+/-! ## A387732.P14749166614056992774
+
+`filter[A349111(n+1), A373550(#)]`
+-/
+
+namespace A387732.P14749166614056992774
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349111 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A373550 (f1 j).toNat = 1) n)
+
+end
+
+end A387732.P14749166614056992774
 
 /-!
 # A387734: Expansion of (1/x) * Series_Reversion( x / ((1+x)^2 * (1+x^3*(1+x))) ).

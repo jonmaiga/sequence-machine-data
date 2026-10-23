@@ -27,7 +27,6 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
@@ -2335,6 +2334,28 @@ end A088817.P14182121804924810658
 The programs for A088818, there is no canonical definition to state claims against.
 -/
 
+/-! ## A088818.P12532005705706280608
+
+`∩[A023040(n+1), A317306(n+1)]`
+-/
+
+namespace A088818.P12532005705706280608
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317306 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A088818.P12532005705706280608
+
 /-! ## A088818.P10607546123780262806
 
 `A317306(n+5)-A000122(A007051(n))`
@@ -2415,6 +2436,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088819.P16033926986367020714
+
+/-!
+# A088820: Numbers k with abundance radius of 8, i.e., abs(sigma(k)-2*k) = 8.
+
+The programs for A088820, there is no canonical definition to state claims against.
+-/
+
+/-! ## A088820.P6479214503076161204
+
+`∪[A088833(n+1), A125247(n+1)]`
+-/
+
+namespace A088820.P6479214503076161204
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088833 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125247 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A088820.P6479214503076161204
 
 /-!
 # A088821: a(n) is the sum of smallest prime factors of numbers from 1 to n.
@@ -3433,6 +3482,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088824.P8342708413070520823
+
+/-!
+# A088826: Numbers k such that sigma(k)-2*k = phi(k): abundance of k equals Eulerphi of k.
+
+The programs for A088826, there is no canonical definition to state claims against.
+-/
+
+/-! ## A088826.P9061911966295068204
+
+`∩[A055681(n+1), A068412(n+1)]`
+-/
+
+namespace A088826.P9061911966295068204
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055681 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068412 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A088826.P9061911966295068204
 
 /-!
 # A088827: Even numbers with odd abundance: even squares or two times squares.
@@ -4737,6 +4814,36 @@ def P1461255666140091721.Spec : Prop :=
 
 end A088829
 
+/-! ## A088829.P13550562922058367136
+
+`∩[2*n, A053869(n+1)]`
+-/
+
+namespace A088829.P13550562922058367136
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053869 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A088829.P13550562922058367136
+
+namespace A088829
+
+/-- `∩[2*n, A053869(n+1)]` -/
+def P13550562922058367136.Spec : Prop :=
+  ∀ n, (P13550562922058367136.a n : ℤ) = A088829 (n + 1)
+
+end A088829
+
 /-! ## A088829.P16720796147199120600
 
 `filter[A053869(n+1), A049240(#)]`
@@ -5046,29 +5153,6 @@ def P12226079463733201653.Spec : Prop :=
 
 end A088829
 
-/-! ## A088829.P14112786043910925526
-
-`A245092(A028983(n+1)+A028983(n+1))`
--/
-
-namespace A088829.P14112786043910925526
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245092 (A028983 (n + 1) + A028983 (n + 1)).toNat
-
-end
-
-end A088829.P14112786043910925526
-
-namespace A088829
-
-/-- `A245092(A028983(n+1)+A028983(n+1))` -/
-def P14112786043910925526.Spec : Prop :=
-  ∀ n, P14112786043910925526.a n = A088829 (n + 1)
-
-end A088829
-
 /-!
 # A088831: Numbers k whose abundance is 2: sigma(k) - 2k = 2.
 
@@ -5366,6 +5450,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A088833.P4672092221032005417
+
+/-!
+# A088834: Numbers k such that sigma(k) == 6 (mod k).
+
+The programs for A088834, there is no canonical definition to state claims against.
+-/
+
+/-! ## A088834.P6407549213657824367
+
+`A194698(A042282(n+1))`
+-/
+
+namespace A088834.P6407549213657824367
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194698 (A042282 (n + 1)).toNat
+
+end
+
+end A088834.P6407549213657824367
 
 /-!
 # A088835: a(n) = lcm(A020639(n), A006530(n)).
@@ -9804,6 +9909,36 @@ end A088861.P469428580963478632
 The programs for A088862, there is no canonical definition to state claims against.
 -/
 
+/-! ## A088862.P1277543943668782515
+
+`A086418(3^(n+1))^n`
+-/
+
+namespace A088862.P1277543943668782515
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086418 (3 ^ (n + 1)) ^ n
+
+end
+
+end A088862.P1277543943668782515
+
+/-! ## A088862.P7688492031150241043
+
+`A359507(a(n-1))^n` with `a(0)=1`
+-/
+
+namespace A088862.P7688492031150241043
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A359507 (a (n - 1)).toNat ^ n
+
+end
+
+end A088862.P7688492031150241043
+
 /-! ## A088862.P3076370326862238344
 
 `(5^n)%(A071102(n+1)+1)`
@@ -9836,21 +9971,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A088862.P12950327747791491930
-
-/-! ## A088862.P17939888291049665087
-
-`A000027((A302254(n)+1)^n)`
--/
-
-namespace A088862.P17939888291049665087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 ((A302254 n + 1) ^ n).toNat
-
-end
-
-end A088862.P17939888291049665087
 
 /-!
 # A088863: Number of prime factors of n-th Mersenne number M(p_n).
@@ -12585,6 +12705,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A088884.P8891925902326843966
+
+/-! ## A088884.P10549876048919825344
+
+`A161929(A248613(n+2))`
+-/
+
+namespace A088884.P10549876048919825344
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161929 (A248613 (n + 2)).toNat
+
+end
+
+end A088884.P10549876048919825344
 
 /-!
 # A088886: Minimum number of consecutive previous nonnegative integers to n that must be concatenated together in ascending order such that n divides the concatenated term, or zero if n divides no such concatenation.

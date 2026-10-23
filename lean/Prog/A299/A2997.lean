@@ -7795,6 +7795,50 @@ end
 
 end A299792.P4864091954519625220
 
+/-! ## A299792.P12296522672943187545
+
+`∪[A115853(n+1), A317291(n+1)]`
+-/
+
+namespace A299792.P12296522672943187545
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115853 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317291 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A299792.P12296522672943187545
+
+/-! ## A299792.P1317521717807341108
+
+`∪[A239019(n+1), A317291(n+1)]`
+-/
+
+namespace A299792.P1317521717807341108
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239019 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317291 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A299792.P1317521717807341108
+
 /-! ## A299792.P9358298806460410379
 
 `record[A321797(n)%A349536(n+1)]`
@@ -7830,42 +7874,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299792.P7374863196547078450
-
-/-! ## A299792.P1821902165836356796
-
-`∑{e}[A000079(n), A115853(#)]`
--/
-
-namespace A299792.P1821902165836356796
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, A115853 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A299792.P1821902165836356796
-
-/-! ## A299792.P17984287733362656041
-
-`filter[A321536(n), A136522(#)]`
--/
-
-namespace A299792.P17984287733362656041
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321536 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A136522 (f1 j).toNat = 1) n)
-
-end
-
-end A299792.P17984287733362656041
 
 /-!
 # A299794: Number of ways to write n^2 as x^2 + y^2 + z^2 + w^2 with x >= y >= 0 <= z <= w such that x or 2*y is a power of 4 (including 4^0 = 1) and x + 15*y is also a power of 4.

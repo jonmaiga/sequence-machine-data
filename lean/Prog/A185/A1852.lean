@@ -545,6 +545,51 @@ end
 
 end A185207.P14857542651271080784
 
+/-! ## A185207.P17522052819807274021
+
+`A182929(n)%A087162(n+1)`
+-/
+
+namespace A185207.P17522052819807274021
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A182929 n) (A087162 (n + 1))
+
+end
+
+end A185207.P17522052819807274021
+
+/-! ## A185207.P4129780931723542858
+
+`A285657(A016724(n+1))`
+-/
+
+namespace A185207.P4129780931723542858
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285657 (A016724 (n + 1)).toNat
+
+end
+
+end A185207.P4129780931723542858
+
+/-! ## A185207.P7004843794952252764
+
+`A368281(A151574(n+1))`
+-/
+
+namespace A185207.P7004843794952252764
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368281 (A151574 (n + 1)).toNat
+
+end
+
+end A185207.P7004843794952252764
+
 /-!
 # A185208: Numbers having no divisors d > 1 such that d + 1 are prime powers.
 
@@ -1064,6 +1109,28 @@ end A185208
 The programs for A185210, there is no canonical definition to state claims against.
 -/
 
+/-! ## A185210.P8844872281906788403
+
+`∩[A228383(n+1), A345918(n+1)]`
+-/
+
+namespace A185210.P8844872281906788403
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228383 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345918 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A185210.P8844872281906788403
+
 /-! ## A185210.P13250649561311834692
 
 `∩[A228383(n+1), A246048(n+1)]`
@@ -1085,6 +1152,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A185210.P13250649561311834692
+
+/-! ## A185210.P8808729017524471098
+
+`∩[A114145(n+2), A228383(n+1)]`
+-/
+
+namespace A185210.P8808729017524471098
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114145 (n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228383 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A185210.P8808729017524471098
 
 /-! ## A185210.P1617252622936138554
 
@@ -8730,6 +8819,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A185288.P3269622610238807916
+
+/-! ## A185288.P1900942572854134962
+
+`eq[A193262(n+1), A344760(n)]`
+-/
+
+namespace A185288.P1900942572854134962
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193262 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344760 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A185288.P1900942572854134962
 
 /-!
 # A185289: In a bipartite graph with 2n vertices (|V_1|=|V_2|=n), this sequence gives the number of ways to create n edges, one for each vertex of V_1, and to rank the vertices of V_2 which have incident edges.

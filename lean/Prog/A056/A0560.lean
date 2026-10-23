@@ -75,19 +75,18 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -545,6 +544,29 @@ def P8488028392415024426.Spec : Prop :=
 
 end A056000
 
+/-! ## A056000.P16495793574052808665
+
+`A056119(n)-2*n`
+-/
+
+namespace A056000.P16495793574052808665
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056119 n - (2 * n : ℤ)
+
+end
+
+end A056000.P16495793574052808665
+
+namespace A056000
+
+/-- `A056119(n)-2*n` -/
+def P16495793574052808665.Spec : Prop :=
+  ∀ n, P16495793574052808665.a n = A056000 n
+
+end A056000
+
 /-! ## A056000.P9662305764855426009
 
 `4*n+A000217(n)`
@@ -565,29 +587,6 @@ namespace A056000
 /-- `4*n+A000217(n)` -/
 def P9662305764855426009.Spec : Prop :=
   ∀ n, P9662305764855426009.a n = A056000 n
-
-end A056000
-
-/-! ## A056000.P11987253206576978286
-
-`5*n+A161680(n)`
--/
-
-namespace A056000.P11987253206576978286
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (5 * n : ℤ) + A161680 n
-
-end
-
-end A056000.P11987253206576978286
-
-namespace A056000
-
-/-- `5*n+A161680(n)` -/
-def P11987253206576978286.Spec : Prop :=
-  ∀ n, P11987253206576978286.a n = A056000 n
 
 end A056000
 
@@ -987,6 +986,29 @@ def P6028571122456122413.Spec : Prop :=
 theorem P6028571122456122413.correct : P6028571122456122413.Spec := by
   intro n
   simp only [A056002]
+
+end A056002
+
+/-! ## A056002.P16014946750558774669
+
+`ogf((1-2x+x^2)/(1-11x))`
+-/
+
+namespace A056002.P16014946750558774669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, 1] [1, -11] n
+
+end
+
+end A056002.P16014946750558774669
+
+namespace A056002
+
+/-- `ogf((1-2x+x^2)/(1-11x))` -/
+def P16014946750558774669.Spec : Prop :=
+  ∀ n, P16014946750558774669.a n = A056002 n
 
 end A056002
 
@@ -3387,29 +3409,32 @@ def P7114525910439595890.Spec : Prop :=
 
 end A056020
 
-/-! ## A056020.P13397354435966664332
+/-! ## A056020.P7268743340217635245
 
-`∑[ogf((1+7x+x^2)/(1-x^2))]`
+`∑[∑[ogf((1+7x+x^2)/(1+x))]]`
 -/
 
-namespace A056020.P13397354435966664332
+namespace A056020.P7268743340217635245
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 7, 1] [1, 1] n
+
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 7, 1] [1, 0, -1] n
+  ∑ j ∈ Finset.range (n + 1), f2 j
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A056020.P13397354435966664332
+end A056020.P7268743340217635245
 
 namespace A056020
 
-/-- `∑[ogf((1+7x+x^2)/(1-x^2))]` -/
-def P13397354435966664332.Spec : Prop :=
-  ∀ n, P13397354435966664332.a n = A056020 (n + 1)
+/-- `∑[∑[ogf((1+7x+x^2)/(1+x))]]` -/
+def P7268743340217635245.Spec : Prop :=
+  ∀ n, P7268743340217635245.a n = A056020 (n + 1)
 
 end A056020
 
@@ -4971,6 +4996,28 @@ end A056032.P9341942610288775838
 The programs for A056033, there is no canonical definition to state claims against.
 -/
 
+/-! ## A056033.P10676229766571143443
+
+`∪[A056032(n+1), A056036(n+1)]`
+-/
+
+namespace A056033.P10676229766571143443
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056032 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056036 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A056033.P10676229766571143443
+
 /-! ## A056033.P10985709648607706054
 
 `∩[comp[A003226(n+1)], A068407(n+1)]`
@@ -5074,28 +5121,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A056033.P13542575922764667346
-
-/-! ## A056033.P2309160357211370268
-
-`∩[A127161(n+1), A068407(A127161(n+1))]`
--/
-
-namespace A056033.P2309160357211370268
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127161 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068407 (A127161 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A056033.P2309160357211370268
 
 /-!
 # A056036: 5-morphic but not bimorphic, automorphic nor trimorphic.
@@ -9243,6 +9268,32 @@ def P7492737769579673439.Spec : Prop :=
 
 end A056074
 
+/-! ## A056074.P17787780154674952800
+
+`∑[A056078(n+3)]`
+-/
+
+namespace A056074.P17787780154674952800
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056078 (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A056074.P17787780154674952800
+
+namespace A056074
+
+/-- `∑[A056078(n+3)]` -/
+def P17787780154674952800.Spec : Prop :=
+  ∀ n, P17787780154674952800.a n = A056074 (n + 3)
+
+end A056074
+
 /-! ## A056074.P7176128335216905670
 
 `A252970(n+3)+∑[∑[n+1]]`
@@ -9376,35 +9427,6 @@ namespace A056074
 /-- `Δ[record[A056005(A002262(n))]]` -/
 def P3864388684311181600.Spec : Prop :=
   ∀ n, P3864388684311181600.a n = A056074 (n + 3)
-
-end A056074
-
-/-! ## A056074.P6623242609122872313
-
-`Δ[record[A056005(A137735(n))]]`
--/
-
-namespace A056074.P6623242609122872313
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056005 (A137735 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A056074.P6623242609122872313
-
-namespace A056074
-
-/-- `Δ[record[A056005(A137735(n))]]` -/
-def P6623242609122872313.Spec : Prop :=
-  ∀ n, P6623242609122872313.a n = A056074 (n + 3)
 
 end A056074
 

@@ -5943,6 +5943,29 @@ def P6553124508617444526.Spec : Prop :=
 
 end A094033
 
+/-! ## A094033.P5172618529118855407
+
+`A094729(n)-A094734(n)`
+-/
+
+namespace A094033.P5172618529118855407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094729 n - A094734 n
+
+end
+
+end A094033.P5172618529118855407
+
+namespace A094033
+
+/-- `A094729(n)-A094734(n)` -/
+def P5172618529118855407.Spec : Prop :=
+  ∀ n, P5172618529118855407.a n = A094033 n
+
+end A094033
+
 /-!
 # A094034: Number of connected 3-element antichains on a labeled n-set.
 

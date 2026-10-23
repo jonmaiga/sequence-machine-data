@@ -80,7 +80,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -710,6 +709,21 @@ end
 
 end A265902.P9941185253250990351
 
+/-! ## A265902.P17790250636762506729
+
+`A265352(A265368(A264975(n)))`
+-/
+
+namespace A265902.P17790250636762506729
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265352 (A265368 (A264975 n).toNat).toNat
+
+end
+
+end A265902.P17790250636762506729
+
 /-!
 # A265903: Square array read by descending antidiagonals: A(1,k) = A188163(k), and for n > 1, A(n,k) = A087686(1+A(n-1,k)).
 
@@ -1232,6 +1246,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A265904.P9691885882433500071
+
+/-! ## A265904.P3334742720067460325
+
+`A266641(A264966(A264967(A246200(n))))`
+-/
+
+namespace A265904.P3334742720067460325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266641 (A264966 (A264967 (A246200 n).toNat).toNat).toNat
+
+end
+
+end A265904.P3334742720067460325
 
 /-!
 # A265905: a(1) = 1; for n > 1, a(n) = a(n-1) + A153880(a(n-1)).
@@ -5178,20 +5207,20 @@ end A265946.P248297224971529227
 The programs for A265948, there is no canonical definition to state claims against.
 -/
 
-/-! ## A265948.P16817243159755360687
+/-! ## A265948.P2723164677702075430
 
-`100*n+12`
+`n*100+12`
 -/
 
-namespace A265948.P16817243159755360687
+namespace A265948.P2723164677702075430
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  100 * n + 12
+  n * 100 + 12
 
 end
 
-end A265948.P16817243159755360687
+end A265948.P2723164677702075430
 
 /-!
 # A265949: Expansion of Product_{k>=1} (1 + k^k*x^k).

@@ -8621,23 +8621,27 @@ end
 
 end A250291.P17151680476674162671
 
-/-! ## A250291.P8248827294612495960
+/-! ## A250291.P3620082546855695787
 
-`filter[A363837(n+1), A000035(#)]`
+`∩[2*n+1, A363837(n+1)]`
 -/
 
-namespace A250291.P8248827294612495960
+namespace A250291.P3620082546855695787
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A363837 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A250291.P8248827294612495960
+end A250291.P3620082546855695787
 
 /-!
 # A250292: Numbers k such that Pell(k) is a semiprime.

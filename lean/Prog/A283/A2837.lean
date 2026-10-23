@@ -2988,6 +2988,29 @@ def P3472855295286912546.Spec : Prop :=
 
 end A283733
 
+/-! ## A283733.P15064454605662036028
+
+`a(n-1)-floor(n/(1-ϕ))` with `a(0)=1`
+-/
+
+namespace A283733.P15064454605662036028
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) - ⌊(n : ℝ) / (1 - Real.goldenRatio)⌋
+
+end
+
+end A283733.P15064454605662036028
+
+namespace A283733
+
+/-- `a(n-1)-floor(n/(1-ϕ))` -/
+def P15064454605662036028.Spec : Prop :=
+  ∀ n, P15064454605662036028.a n = A283733 n
+
+end A283733
+
 /-! ## A283733.P2876192274893718741
 
 `∑[n+1-a(a(n-1))]+∑[n]` with `a(0)=1, a(1)=1`
@@ -4164,6 +4187,28 @@ end
 
 end A283744.P5059175361801334401
 
+/-! ## A283744.P16026911056159961859
+
+`∩[A205783(n+1), A283599(n+1)]`
+-/
+
+namespace A283744.P16026911056159961859
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A205783 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283599 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A283744.P16026911056159961859
+
 /-! ## A283744.P15595471598853327059
 
 `∩[A018252(n+1), A283599(n+1)]`
@@ -4229,28 +4274,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A283744.P15866636688105059565
-
-/-! ## A283744.P3100954719922305023
-
-`∩[A139118(n+1), A283599(n+1)]`
--/
-
-namespace A283744.P3100954719922305023
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139118 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283599 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A283744.P3100954719922305023
 
 /-!
 # A283745: a(n) = least m such that 1/(n+1) < f(m) < 1/n, where f(m) = fractional part of m*(golden ratio).

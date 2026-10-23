@@ -61,7 +61,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -5726,6 +5725,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A137732.P6181480502623702095
+
+/-! ## A137732.P7365553728190134979
+
+`A295218(A071357(n+1))`
+-/
+
+namespace A137732.P7365553728190134979
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295218 (A071357 (n + 1)).toNat
+
+end
+
+end A137732.P7365553728190134979
 
 /-!
 # A137734: a(0)=1. a(n) = ceiling(n/b(n)), where b(n) is the largest value among (a(0),a(1),...,a(n-1)).

@@ -51,11 +51,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -2451,7 +2449,7 @@ end A031217.P13831641405563415402
 /-!
 # A031218: Largest prime power <= n.
 
-The programs for A031218, the canonical program `A031218.P11079871404618641815` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031218 has offset 1).
+The programs for A031218, the canonical program `A031218.P11079871404618641815` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031218 has offset 1).
 
 The definition of A031218 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A065515, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2483,7 +2481,7 @@ end A031218
 
 `A000961(A065515(n+1))`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A031218

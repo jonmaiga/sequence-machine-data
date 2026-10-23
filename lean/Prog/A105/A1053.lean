@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,7 +50,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -86,7 +86,12 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A105306: Triangle read by rows: T(n,k) is the number of directed column-convex polyominoes of area n, having the top of the rightmost column at height k.
@@ -5790,20 +5795,27 @@ end
 
 end A105359.P17379140731238648379
 
-/-! ## A105359.P17903576278107486052
+/-! ## A105359.P16429432757848555679
 
-`A105355(n+1)+A000007(A067538(n+1))`
+`∩[A085736(n+1), A105355(n+1)]`
 -/
 
-namespace A105359.P17903576278107486052
+namespace A105359.P16429432757848555679
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105355 (n + 1) + A000007 (A067538 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085736 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105355 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A105359.P17903576278107486052
+end A105359.P16429432757848555679
 
 /-!
 # A105360: Records in A105358.
@@ -7280,6 +7292,29 @@ def P4438493316536689506.Spec : Prop :=
 
 end A105374
 
+/-! ## A105374.P12423591022519220218
+
+`n*(2/cos(atan(n)))²`
+-/
+
+namespace A105374.P12423591022519220218
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (n : ℝ) * (2 / Real.cos (Real.arctan (n : ℝ))) ^ 2
+
+end
+
+end A105374.P12423591022519220218
+
+namespace A105374
+
+/-- `n*(2/cos(atan(n)))²` -/
+def P12423591022519220218.Spec : Prop :=
+  ∀ n, P12423591022519220218.a n = (A105374 n : ℝ)
+
+end A105374
+
 /-! ## A105374.P1163560398565064955
 
 `n/(cos(atan(n))/2)²`
@@ -7300,6 +7335,29 @@ namespace A105374
 /-- `n/(cos(atan(n))/2)²` -/
 def P1163560398565064955.Spec : Prop :=
   ∀ n, P1163560398565064955.a n = (A105374 n : ℝ)
+
+end A105374
+
+/-! ## A105374.P14717351711894273195
+
+`n*(2/sin(acot(n)))²`
+-/
+
+namespace A105374.P14717351711894273195
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (n : ℝ) * (2 / Real.sin (SequenceMachineLib.acot (n : ℝ))) ^ 2
+
+end
+
+end A105374.P14717351711894273195
+
+namespace A105374
+
+/-- `n*(2/sin(acot(n)))²` -/
+def P14717351711894273195.Spec : Prop :=
+  ∀ n, P14717351711894273195.a n = (A105374 n : ℝ)
 
 end A105374
 
@@ -7398,6 +7456,52 @@ namespace A105374
 /-- `lcm(2, n*4*(n²+1))` -/
 def P18408658861049623467.Spec : Prop :=
   ∀ n, (P18408658861049623467.a n : ℤ) = A105374 n
+
+end A105374
+
+/-! ## A105374.P9780235990263153344
+
+`n*(or(1, (2*n)²)+3)`
+-/
+
+namespace A105374.P9780235990263153344
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n * (Nat.lor 1 ((2 * n) ^ 2) + 3)
+
+end
+
+end A105374.P9780235990263153344
+
+namespace A105374
+
+/-- `n*(or(1, (2*n)²)+3)` -/
+def P9780235990263153344.Spec : Prop :=
+  ∀ n, (P9780235990263153344.a n : ℤ) = A105374 n
+
+end A105374
+
+/-! ## A105374.P11892220403416017410
+
+`n*(xor(1, (2*n)²)+3)`
+-/
+
+namespace A105374.P11892220403416017410
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n * (Nat.xor 1 ((2 * n) ^ 2) + 3)
+
+end
+
+end A105374.P11892220403416017410
+
+namespace A105374
+
+/-- `n*(xor(1, (2*n)²)+3)` -/
+def P11892220403416017410.Spec : Prop :=
+  ∀ n, (P11892220403416017410.a n : ℤ) = A105374 n
 
 end A105374
 
@@ -7501,6 +7605,38 @@ namespace A105374
 /-- `floor(n*∑[a(n-1)+8])` -/
 def P9961917281500250829.Spec : Prop :=
   ∀ n, (P9961917281500250829.a n : ℤ) = A105374 n
+
+end A105374
+
+/-! ## A105374.P3306977070102377525
+
+`Δ[(gcd(n, 2*n)+(n-1)²)²]`
+-/
+
+namespace A105374.P3306977070102377525
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((Nat.gcd n (2 * n) : ℤ) + ((n : ℤ) - 1) ^ 2) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A105374.P3306977070102377525
+
+namespace A105374
+
+/-- `Δ[(gcd(n, 2*n)+(n-1)²)²]` -/
+def P3306977070102377525.Spec : Prop :=
+  ∀ n, P3306977070102377525.a n = A105374 n
+
+theorem P3306977070102377525.correct : P3306977070102377525.Spec := by
+  intro n
+  simp only [A105374, Nat.add_sub_cancel, A105374.P3306977070102377525.f1, A105374.P3306977070102377525.a, A105374.P15227727533401661173.a, SequenceMachineLib.memo_apply]
+  try norm_num [Nat.choose_two_right, Nat.factorial]
+  try ring_nf
 
 end A105374
 
@@ -7617,6 +7753,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A105389.P13203994070818287341
+
+/-! ## A105389.P10435493608778928029
+
+`∪[A325067(n+1), A325069(n+1)]`
+-/
+
+namespace A105389.P10435493608778928029
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325067 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325069 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A105389.P10435493608778928029
 
 /-!
 # A105390: Number of Hannah Rollman's numbers <= n.

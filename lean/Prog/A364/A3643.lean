@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -2921,6 +2922,28 @@ end
 
 end A364348.P868190070937942627
 
+/-! ## A364348.P13367782399236703009
+
+`∪[A027788(n), A364537(n+1)]`
+-/
+
+namespace A364348.P13367782399236703009
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027788 (n + 13)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364537 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364348.P13367782399236703009
+
 /-! ## A364348.P8801023227199951148
 
 `∪[A364537(n+1), A133767(n)]`
@@ -3096,28 +3119,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A364348.P9939182278784219011
-
-/-! ## A364348.P12796723096264423864
-
-`∪[A046389(n+1), A364537(n+1)]`
--/
-
-namespace A364348.P12796723096264423864
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046389 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A364537 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A364348.P12796723096264423864
 
 /-!
 # A364349: Number of strict integer partitions of n containing the sum of no subset of the parts.
@@ -3624,6 +3625,31 @@ def P5962519017427632446.Spec : Prop :=
   ∀ n, P5962519017427632446.a n = A364352 (n + 1)
 
 end A364352
+
+/-!
+# A364353: Numbers that cannot be expressed as the sum of the squares of four Fibonacci numbers.
+
+The programs for A364353, there is no canonical definition to state claims against.
+-/
+
+/-! ## A364353.P17677019988504755752
+
+`comp[A364354(n+1)]`
+-/
+
+namespace A364353.P17677019988504755752
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364354 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A364353.P17677019988504755752
 
 /-!
 # A364354: Numbers that can be expressed as the sum of the squares of four Fibonacci numbers.

@@ -5517,6 +5517,75 @@ def P16079884153872179801.Spec : Prop :=
 
 end A225539
 
+/-! ## A225539.P9155440228792328714
+
+`A165367(A165988(n+1)-2)`
+-/
+
+namespace A225539.P9155440228792328714
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165367 (A165988 (n + 1) - 2).toNat
+
+end
+
+end A225539.P9155440228792328714
+
+namespace A225539
+
+/-- `A165367(A165988(n+1)-2)` -/
+def P9155440228792328714.Spec : Prop :=
+  ∀ n, P9155440228792328714.a n = A225539 (n + 1)
+
+end A225539
+
+/-! ## A225539.P2822980253180931042
+
+`A165367(A298028(n+1)-2)`
+-/
+
+namespace A225539.P2822980253180931042
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165367 (A298028 (n + 1) - 2).toNat
+
+end
+
+end A225539.P2822980253180931042
+
+namespace A225539
+
+/-- `A165367(A298028(n+1)-2)` -/
+def P2822980253180931042.Spec : Prop :=
+  ∀ n, P2822980253180931042.a n = A225539 (n + 1)
+
+end A225539
+
+/-! ## A225539.P7316469952392325914
+
+`A001651(A090772(n+1)+n+2)`
+-/
+
+namespace A225539.P7316469952392325914
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001651 (A090772 (n + 1) + (n + 2 : ℤ)).toNat
+
+end
+
+end A225539.P7316469952392325914
+
+namespace A225539
+
+/-- `A001651(A090772(n+1)+n+2)` -/
+def P7316469952392325914.Spec : Prop :=
+  ∀ n, P7316469952392325914.a n = A225539 (n + 1)
+
+end A225539
+
 /-!
 # A225540: Triangle of functions in a size n set for which the sequence of composition powers starts with a length k stem (index) before entering a cycle (period).
 
@@ -8741,6 +8810,29 @@ def P13216137256311893272.Spec : Prop :=
 
 end A225569
 
+/-! ## A225569.P13743170423519435541
+
+`round(3^val(n+1, 3)/(n+2))`
+-/
+
+namespace A225569.P13743170423519435541
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((3 ^ SequenceMachineLib.valuation (n + 1) 3 : ℚ) / (n + 2 : ℚ))
+
+end
+
+end A225569.P13743170423519435541
+
+namespace A225569
+
+/-- `round(3^val(n+1, 3)/(n+2))` -/
+def P13743170423519435541.Spec : Prop :=
+  ∀ n, P13743170423519435541.a n = A225569 n
+
+end A225569
+
 /-! ## A225569.P10132497944466642300
 
 `C(n, A167878(n))`
@@ -8813,29 +8905,6 @@ namespace A225569
 /-- `∑{d}[n+1, A156277(#)]` -/
 def P12071495598026384917.Spec : Prop :=
   ∀ n, P12071495598026384917.a n = A225569 n
-
-end A225569
-
-/-! ## A225569.P2286477481629777310
-
-`C(2, A216913(n+1)+1)`
--/
-
-namespace A225569.P2286477481629777310
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose 2 (A216913 (n + 1) + 1).toNat
-
-end
-
-end A225569.P2286477481629777310
-
-namespace A225569
-
-/-- `C(2, A216913(n+1)+1)` -/
-def P2286477481629777310.Spec : Prop :=
-  ∀ n, (P2286477481629777310.a n : ℤ) = A225569 n
 
 end A225569
 
@@ -8988,6 +9057,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225572.P5494017745116698555
+
+/-! ## A225572.P6124966316246517938
+
+`A005090(A100316(n))`
+-/
+
+namespace A225572.P6124966316246517938
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005090 (A100316 n).toNat
+
+end
+
+end A225572.P6124966316246517938
 
 /-!
 # A225573: Number of trees over all forests of labeled rooted trees in which some (possibly all or none) of the trees have been specially designated.
@@ -9391,6 +9475,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A225575.P11642414876696736115
+
+/-! ## A225575.P1653223870725818298
+
+`∩[A009087(n+1), A034595(n+1)]`
+-/
+
+namespace A225575.P1653223870725818298
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009087 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034595 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225575.P1653223870725818298
 
 /-! ## A225575.P1475026166391711344
 

@@ -5846,6 +5846,28 @@ end A327079.P16690435679922937725
 The programs for A327080, there is no canonical definition to state claims against.
 -/
 
+/-! ## A327080.P10719630793860658060
+
+`∩[A326704(n+1), A330217(n+1)]`
+-/
+
+namespace A327080.P10719630793860658060
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326704 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330217 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327080.P10719630793860658060
+
 /-! ## A327080.P9689827964015649468
 
 `∩[A326785(n+1), A330217(n+1)]`
@@ -6016,6 +6038,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A327082.P8090747751575822919
+
+/-! ## A327082.P13607907403124534896
+
+`A327101(A044914(n+1))`
+-/
+
+namespace A327082.P13607907403124534896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327101 (A044914 (n + 1)).toNat
+
+end
+
+end A327082.P13607907403124534896
 
 /-!
 # A327083: Array read by descending antidiagonals: A(n,k) is the number of oriented colorings of the edges of a regular n-dimensional simplex using up to k colors.

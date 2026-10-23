@@ -46,6 +46,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -5052,6 +5053,28 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A262558.P7022001675867634798
+
+/-! ## A262558.P5741595407091481882
+
+`∑[char[A082625(n+1)]]`
+-/
+
+namespace A262558.P5741595407091481882
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082625 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A262558.P5741595407091481882
 
 /-! ## A262558.P16392862383383024952
 

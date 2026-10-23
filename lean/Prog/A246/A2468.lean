@@ -51,6 +51,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -4883,6 +4884,34 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246854.P7648988250730509911
+
+/-!
+# A246857: Numbers k such that sigma(k + sigma(k)) = 2*sigma(k).
+
+The programs for A246857, there is no canonical definition to state claims against.
+-/
+
+/-! ## A246857.P1643761970794318762
+
+`∪[A005384(n+1), A246858(n+1)]`
+-/
+
+namespace A246857.P1643761970794318762
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005384 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246858 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246857.P1643761970794318762
 
 /-!
 # A246858: Composite numbers k such that sigma(k + sigma(k)) = 2*sigma(k).

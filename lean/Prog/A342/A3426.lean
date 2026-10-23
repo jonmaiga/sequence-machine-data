@@ -15,6 +15,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
@@ -74,6 +75,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -6134,6 +6136,29 @@ def P6815039877661430343.Spec : Prop :=
 
 end A342666
 
+/-! ## A342666.P5915805363625754981
+
+`A339876(A322864(n+2))`
+-/
+
+namespace A342666.P5915805363625754981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339876 (A322864 (n + 2)).toNat
+
+end
+
+end A342666.P5915805363625754981
+
+namespace A342666
+
+/-- `A339876(A322864(n+2))` -/
+def P5915805363625754981.Spec : Prop :=
+  ∀ n, P5915805363625754981.a n = A342666 (n + 2)
+
+end A342666
+
 /-!
 # A342667: Largest prime in the numerator of ratio A341528(n)/A341529(n) (when presented in its lowest terms).
 
@@ -10512,63 +10537,49 @@ def P11451391259849711301.Spec : Prop :=
 
 end A342696
 
-/-! ## A342696.P15539789501741179764
+/-! ## A342696.P10422156362224429994
 
-`∑[char[A109053(n+1)]]`
+`A113763(n+1)-(n+1)`
 -/
 
-namespace A342696.P15539789501741179764
+namespace A342696.P10422156362224429994
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109053 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113763 (n + 1) - (n + 1 : ℤ)
 
 end
 
-end A342696.P15539789501741179764
+end A342696.P10422156362224429994
 
 namespace A342696
 
-/-- `∑[char[A109053(n+1)]]` -/
-def P15539789501741179764.Spec : Prop :=
-  ∀ n, (P15539789501741179764.a n : ℤ) = A342696 n
+/-- `A113763(n+1)-(n+1)` -/
+def P10422156362224429994.Spec : Prop :=
+  ∀ n, P10422156362224429994.a n = A342696 n
 
 end A342696
 
-/-! ## A342696.P12468768486135309458
+/-! ## A342696.P417020632786186673
 
-`∑[char[A109053(n)]]-1`
+`A002265(A002264(n))`
 -/
 
-namespace A342696.P12468768486135309458
+namespace A342696.P417020632786186673
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109053 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - 1
+  A002265 (A002264 n).toNat
 
 end
 
-end A342696.P12468768486135309458
+end A342696.P417020632786186673
 
 namespace A342696
 
-/-- `∑[char[A109053(n)]]-1` -/
-def P12468768486135309458.Spec : Prop :=
-  ∀ n, P12468768486135309458.a n = A342696 n
+/-- `A002265(A002264(n))` -/
+def P417020632786186673.Spec : Prop :=
+  ∀ n, P417020632786186673.a n = A342696 n
 
 end A342696
 

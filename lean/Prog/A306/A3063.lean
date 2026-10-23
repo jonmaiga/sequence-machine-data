@@ -2702,6 +2702,24 @@ end
 
 end A306330.P10361210494846782375
 
+/-! ## A306330.P14033710408148931231
+
+`filter[A152758(n+1), A252233(#)]`
+-/
+
+namespace A306330.P14033710408148931231
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152758 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A252233 (f1 j).toNat = 1) n)
+
+end
+
+end A306330.P14033710408148931231
+
 /-!
 # A306331: Numbers congruent to 6 or 31 mod 38.
 
@@ -2780,6 +2798,29 @@ namespace A306331
 /-- `∑[38-a(n-1)]` -/
 def P3708541686473876300.Spec : Prop :=
   ∀ n, P3708541686473876300.a n = A306331 (n + 1)
+
+end A306331
+
+/-! ## A306331.P6321535436020017756
+
+`A168195(A144619(n))`
+-/
+
+namespace A306331.P6321535436020017756
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168195 (A144619 n).toNat
+
+end
+
+end A306331.P6321535436020017756
+
+namespace A306331
+
+/-- `A168195(A144619(n))` -/
+def P6321535436020017756.Spec : Prop :=
+  ∀ n, P6321535436020017756.a n = A306331 (n + 1)
 
 end A306331
 
@@ -4560,6 +4601,69 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A306361.P14351030574875482977
+
+/-! ## A306361.P3700044977111433871
+
+`eq[A035931(n), A079724(n+1)]`
+-/
+
+namespace A306361.P3700044977111433871
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035931 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079724 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A306361.P3700044977111433871
+
+/-! ## A306361.P1138604681243071183
+
+`eq[A055640(n), A079724(n+1)]`
+-/
+
+namespace A306361.P1138604681243071183
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055640 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079724 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A306361.P1138604681243071183
+
+/-! ## A306361.P3713368379176922999
+
+`eq[A035931(n), A242718(n+1)]`
+-/
+
+namespace A306361.P3713368379176922999
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035931 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242718 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A306361.P3713368379176922999
 
 /-!
 # A306362: Prime numbers in A317298.

@@ -7,6 +7,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -55,6 +56,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -5563,16 +5565,16 @@ end
 
 end A251727.P8630388245957751256
 
-/-! ## A251727.P738737864204080338
+/-! ## A251727.P15206158655822889366
 
-`∩[A330136(n+1), A362982(n+1)]`
+`∩[A047229(n+1), A362982(n+1)]`
 -/
 
-namespace A251727.P738737864204080338
+namespace A251727.P15206158655822889366
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330136 (n + 1)
+  A047229 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A362982 (n + 1)
@@ -5583,7 +5585,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A251727.P738737864204080338
+end A251727.P15206158655822889366
 
 /-!
 # A251728: Semiprimes p*q for which p <= q < p^2.
@@ -7570,6 +7572,32 @@ def P4083808103849833737.Spec : Prop :=
 
 end A251743
 
+/-! ## A251743.P14229477779035061316
+
+`∑[2^n+2*4^n]`
+-/
+
+namespace A251743.P14229477779035061316
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n + 2 * 4 ^ n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A251743.P14229477779035061316
+
+namespace A251743
+
+/-- `∑[2^n+2*4^n]` -/
+def P14229477779035061316.Spec : Prop :=
+  ∀ n, (P14229477779035061316.a n : ℤ) = A251743 (n + 1)
+
+end A251743
+
 /-! ## A251743.P11059777063876483306
 
 `abs(∑[4*a(n-1)-2^n])` with `a(0)=3`
@@ -7989,49 +8017,6 @@ namespace A251743
 /-- `A007582(n+1)+a(n-1)` -/
 def P9379565973519986934.Spec : Prop :=
   ∀ n, P9379565973519986934.a n = A251743 (n + 1)
-
-end A251743
-
-/-! ## A251743.P17819530871755292031
-
-`(3*2^(n+1)+2^(1+2*(n+1))-5)/3`
--/
-
-namespace A251743.P17819530871755292031
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((3 * 2 ^ (n + 1) + 2 ^ (1 + 2 * (n + 1)) : ℤ) - 5 : ℚ) / 3
-
-end
-
-end A251743.P17819530871755292031
-
-namespace A251743
-
-/-- `(3*2^(n+1)+2^(1+2*(n+1))-5)/3` -/
-def P17819530871755292031.Spec : Prop :=
-  ∀ n, P17819530871755292031.a n = (A251743 (n + 1) : ℚ)
-
-theorem P17819530871755292031.correct : P17819530871755292031.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 | 2 | 3 =>
-      simp [A251743, Nat.add_sub_cancel, A251743.P17819530871755292031.a, A251743.P2904173335467476531.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 4 =>
-      have h1 := ih (m + 3) (by omega)
-      have h2 := ih (m + 2) (by omega)
-      have h3 := ih (m + 1) (by omega)
-      have h4 := ih m (by omega)
-      simp only [A251743, Nat.add_sub_cancel, A251743.P17819530871755292031.a, A251743.P2904173335467476531.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
-      push_cast at h1 h2 h3 h4 ⊢
-      rw [← h1, ← h2, ← h3, ← h4]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A251743
 

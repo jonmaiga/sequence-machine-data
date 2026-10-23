@@ -2016,30 +2016,24 @@ end
 
 end A328118.P16148243847132016019
 
-/-! ## A328118.P5367585392965063876
+/-! ## A328118.P3524183357653960164
 
-`eq[0, char[A328119(n+1)]]`
+`comp[A328119(n+1)]`
 -/
 
-namespace A328118.P5367585392965063876
+namespace A328118.P3524183357653960164
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A328119 (n + 1)
 
 open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A328118.P5367585392965063876
+end A328118.P3524183357653960164
 
 /-! ## A328118.P6985613002996826233
 
@@ -3346,6 +3340,50 @@ end
 
 end A328137.P7339822210683947140
 
+/-! ## A328137.P16158435477183213865
+
+`∩[A049233(n+1), A100363(n+1)]`
+-/
+
+namespace A328137.P16158435477183213865
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049233 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100363 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328137.P16158435477183213865
+
+/-! ## A328137.P11444878462568283990
+
+`∩[A063641(n+1), A100363(n+1)]`
+-/
+
+namespace A328137.P11444878462568283990
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063641 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100363 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328137.P11444878462568283990
+
 /-! ## A328137.P1858803520873558947
 
 `∩[A100363(n+1), A112998(n+1)]`
@@ -3389,6 +3427,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328137.P6784874771470443584
+
+/-! ## A328137.P8252962298024634528
+
+`∩[A100363(n+1), A268614(n+1)]`
+-/
+
+namespace A328137.P8252962298024634528
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100363 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268614 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328137.P8252962298024634528
+
+/-! ## A328137.P3332060624636557436
+
+`∩[A100363(n+1), A362410(n+1)]`
+-/
+
+namespace A328137.P3332060624636557436
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100363 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362410 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328137.P3332060624636557436
 
 /-! ## A328137.P9813861629525760860
 
@@ -3477,50 +3559,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328137.P8530127687074944908
-
-/-! ## A328137.P3356753581381431262
-
-`∩[A005383(n+1), A115267(n+1)]`
--/
-
-namespace A328137.P3356753581381431262
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005383 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115267 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A328137.P3356753581381431262
-
-/-! ## A328137.P3043905480389336031
-
-`∩[A048968(n+1), A115267(n+1)]`
--/
-
-namespace A328137.P3043905480389336031
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048968 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115267 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A328137.P3043905480389336031
 
 /-!
 # A328139: Number of self-avoiding planar walks starting at (0,0), ending at (n,0), not extending above the line (x,2x) or below the line (x,-2x), and using steps (0,1), (-1,1), and (1,-1) with the restriction that (-1,1) and (1,-1) are always immediately followed by (0,1).
@@ -3737,16 +3775,16 @@ end
 
 end A328142.P6601474348223838878
 
-/-! ## A328142.P16817955432950727297
+/-! ## A328142.P10368530786566517240
 
-`∩[A032980(n+1), A328279(n+1)]`
+`∩[A032872(n+1), A328279(n+1)]`
 -/
 
-namespace A328142.P16817955432950727297
+namespace A328142.P10368530786566517240
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032980 (n + 1)
+  A032872 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A328279 (n + 1)
@@ -3757,7 +3795,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A328142.P16817955432950727297
+end A328142.P10368530786566517240
 
 /-!
 # A328144: Orders of cubic (i.e., trivalent, 3-regular) distance-transitive connected graphs, from smallest to largest, with duplications when there exist multiple graphs with the same order.
@@ -4327,6 +4365,32 @@ namespace A328152
 /-- `∑[A179904(n)-(2*n+1)]` -/
 def P907829092710593627.Spec : Prop :=
   ∀ n, P907829092710593627.a n = A328152 (n + 1)
+
+end A328152
+
+/-! ## A328152.P12819904098530003308
+
+`∑[A110610(n+1)-(n+1)²]`
+-/
+
+namespace A328152.P12819904098530003308
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110610 (n + 1) - ((n + 1) ^ 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A328152.P12819904098530003308
+
+namespace A328152
+
+/-- `∑[A110610(n+1)-(n+1)²]` -/
+def P12819904098530003308.Spec : Prop :=
+  ∀ n, P12819904098530003308.a n = A328152 (n + 1)
 
 end A328152
 
@@ -6343,6 +6407,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328161.P16055351488361721154
+
+/-! ## A328161.P11089950615454777366
+
+`∪[A005180(n+1), A328028(n+1)]`
+-/
+
+namespace A328161.P11089950615454777366
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005180 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328028 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328161.P11089950615454777366
 
 /-!
 # A328162: Maximum length of a divisibility chain of consecutive divisors of n.

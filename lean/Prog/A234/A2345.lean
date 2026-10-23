@@ -6003,6 +6003,21 @@ end
 
 end A234585.P6195360587501748724
 
+/-! ## A234585.P4992703511860305212
+
+`A070204((n+1)^3)`
+-/
+
+namespace A234585.P4992703511860305212
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070204 ((n + 1) ^ 3)
+
+end
+
+end A234585.P4992703511860305212
+
 /-!
 # A234586: Odd-indexed terms are absolute values of differences.
 

@@ -3301,6 +3301,28 @@ end A362779.P1259198830524294730
 The programs for A362782, there is no canonical definition to state claims against.
 -/
 
+/-! ## A362782.P7168797298398365985
+
+`∩[A168267(n+1), A179834(n+1)]`
+-/
+
+namespace A362782.P7168797298398365985
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168267 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179834 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362782.P7168797298398365985
+
 /-! ## A362782.P16407885210870754305
 
 `∩[A179834(n+1), A308912(n+1)]`

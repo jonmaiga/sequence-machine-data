@@ -1975,17 +1975,28 @@ end A177219.P9906947461951047099
 /-!
 # A177221: Numbers k that are the products of two distinct primes such that 2*k + 1 is also the product of two distinct primes.
 
-The programs for A177221, the canonical program `A177221.P13152769733900551969` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177221 has offset 1).
+The programs for A177221, the canonical program `A177221.P8737910674558711420` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177221 has offset 1).
 
-The definition of A177221 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7657 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A177221 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4359 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A177221.P13152769733900551969
 
 `filter[A111153(n+1), A008966(#)]`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A177221.P13152769733900551969
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111153 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A008966 (f1 j).toNat = 1) n)
+
+end
+
+end A177221.P13152769733900551969
 
 namespace A177221
 
@@ -1993,9 +2004,35 @@ namespace A177221
 def P13152769733900551969.Spec : Prop :=
   ∀ n, P13152769733900551969.a n = A177221 (n + 1)
 
-theorem P13152769733900551969.correct : P13152769733900551969.Spec := by
-  intro n
-  simp only [A177221, Nat.add_sub_cancel]
+end A177221
+
+/-! ## A177221.P10694465512979090061
+
+`∩[A005117(n+1), A111153(n+1)]`
+-/
+
+namespace A177221.P10694465512979090061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111153 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A177221.P10694465512979090061
+
+namespace A177221
+
+/-- `∩[A005117(n+1), A111153(n+1)]` -/
+def P10694465512979090061.Spec : Prop :=
+  ∀ n, (P10694465512979090061.a n : ℤ) = A177221 (n + 1)
 
 end A177221
 
@@ -2366,26 +2403,19 @@ end A177221
 /-! ## A177221.P8737910674558711420
 
 `filter[A117360(n+1), A280710(#)]`
+
+The canonical program, it is in `Seq.B012.C000`.
 -/
-
-namespace A177221.P8737910674558711420
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117360 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A280710 (f1 j).toNat = 1) n)
-
-end
-
-end A177221.P8737910674558711420
 
 namespace A177221
 
 /-- `filter[A117360(n+1), A280710(#)]` -/
 def P8737910674558711420.Spec : Prop :=
   ∀ n, P8737910674558711420.a n = A177221 (n + 1)
+
+theorem P8737910674558711420.correct : P8737910674558711420.Spec := by
+  intro n
+  simp only [A177221, Nat.add_sub_cancel]
 
 end A177221
 
@@ -2475,36 +2505,6 @@ namespace A177221
 /-- `∩[A006881(n+1), A117360(n+1)]` -/
 def P5424232938472612624.Spec : Prop :=
   ∀ n, (P5424232938472612624.a n : ℤ) = A177221 (n + 1)
-
-end A177221
-
-/-! ## A177221.P5826022156095948191
-
-`∩[A007422(n+1), A111153(n+1)]`
--/
-
-namespace A177221.P5826022156095948191
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007422 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111153 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A177221.P5826022156095948191
-
-namespace A177221
-
-/-- `∩[A007422(n+1), A111153(n+1)]` -/
-def P5826022156095948191.Spec : Prop :=
-  ∀ n, (P5826022156095948191.a n : ℤ) = A177221 (n + 1)
 
 end A177221
 
@@ -6041,6 +6041,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A177245.P15535061814875243717
+
+/-! ## A177245.P4273027919472483203
+
+`eq[A004178(n), A035515(n)]`
+-/
+
+namespace A177245.P4273027919472483203
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004178 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035515 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A177245.P4273027919472483203
 
 /-!
 # A177246: Fibonacci numbers whose decimal expansion does not contain any digit 4.

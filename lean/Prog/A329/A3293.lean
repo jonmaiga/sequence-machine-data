@@ -55,7 +55,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -504,6 +503,64 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329306.P12298400507551844910
+
+/-!
+# A329307: Define b(D) = -Sum_{i=1..D} Kronecker(-D,i)*i for D == 0 or 3 (mod 4); sequence gives D such that b(D) = 0 and b(D/k^2) != 0 for k > 1, given that D/k^2 is an integer == 0 or 3 (mod 4).
+
+The programs for A329307, there is no canonical definition to state claims against.
+-/
+
+/-! ## A329307.P2711856182254186525
+
+`∩[A179774(n+1), A329306(n+1)]`
+-/
+
+namespace A329307.P2711856182254186525
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179774 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329306 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329307.P2711856182254186525
+
+/-! ## A329307.P7783911388017396285
+
+`A329306(A038101(n+1))`
+-/
+
+namespace A329307.P7783911388017396285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329306 (A038101 (n + 1)).toNat
+
+end
+
+end A329307.P7783911388017396285
+
+/-! ## A329307.P13905956653960224675
+
+`A329306(A073956(n+1))`
+-/
+
+namespace A329307.P13905956653960224675
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329306 (A073956 (n + 1)).toNat
+
+end
+
+end A329307.P13905956653960224675
 
 /-!
 # A329308: a(n) is the number of k with 1 < k < sqrt(n) such that n mod k^2 is prime.

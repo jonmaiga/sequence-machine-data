@@ -2617,6 +2617,29 @@ def P6695815503349700869.Spec : Prop :=
 
 end A370238
 
+/-! ## A370238.P5217021324776857385
+
+`A212331(n)-(n²+n)`
+-/
+
+namespace A370238.P5217021324776857385
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212331 n - (n ^ 2 + n : ℤ)
+
+end
+
+end A370238.P5217021324776857385
+
+namespace A370238
+
+/-- `A212331(n)-(n²+n)` -/
+def P5217021324776857385.Spec : Prop :=
+  ∀ n, P5217021324776857385.a n = A370238 n
+
+end A370238
+
 /-!
 # A370239: The sum of divisors of n that are squares of squarefree numbers.
 
@@ -3905,6 +3928,29 @@ namespace A370256
 /-- `∑{d}[n+1, A307427(#)*A388067((n+1)/#)]` -/
 def P5086078879597619252.Spec : Prop :=
   ∀ n, P5086078879597619252.a n = A370256 (n + 1)
+
+end A370256
+
+/-! ## A370256.P14288891565754301735
+
+`A393491(n+1)/A266685(n)`
+-/
+
+namespace A370256.P14288891565754301735
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A393491 (n + 1) : ℚ) / (A266685 n : ℚ)
+
+end
+
+end A370256.P14288891565754301735
+
+namespace A370256
+
+/-- `A393491(n+1)/A266685(n)` -/
+def P14288891565754301735.Spec : Prop :=
+  ∀ n, P14288891565754301735.a n = (A370256 (n + 1) : ℚ)
 
 end A370256
 

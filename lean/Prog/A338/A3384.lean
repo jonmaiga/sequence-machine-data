@@ -245,6 +245,28 @@ end
 
 end A338406.P10422441981541425953
 
+/-! ## A338406.P8720624637390566173
+
+`∩[A216500(n+1), A225983(n+1)]`
+-/
+
+namespace A338406.P8720624637390566173
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216500 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225983 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338406.P8720624637390566173
+
 /-!
 # A338407: Values m that allow maximum period in the Blum-Blum-Shub x^2 mod m pseudorandom number generator.
 
@@ -5564,6 +5586,94 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A338486.P14655410783816568521
+
+/-! ## A338486.P347497169114321917
+
+`∩[A279102(n+1), A290965(n+1)]`
+-/
+
+namespace A338486.P347497169114321917
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279102 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290965 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338486.P347497169114321917
+
+/-! ## A338486.P2676701297391152455
+
+`∩[A279102(n+1), A375611(n+1)]`
+-/
+
+namespace A338486.P2676701297391152455
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279102 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375611 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338486.P2676701297391152455
+
+/-! ## A338486.P8438559303824660475
+
+`∩[A279102(n+1), A343281(n+1)]`
+-/
+
+namespace A338486.P8438559303824660475
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279102 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343281 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338486.P8438559303824660475
+
+/-! ## A338486.P5020001122273682522
+
+`∩[A279102(n+1), A344883(n+1)]`
+-/
+
+namespace A338486.P5020001122273682522
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279102 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344883 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338486.P5020001122273682522
 
 /-!
 # A338487: a(n) is the number of non-isomorphic, serial/parallel indecomposable resistor networks with n edges, n >= 5, allowing dead ends.

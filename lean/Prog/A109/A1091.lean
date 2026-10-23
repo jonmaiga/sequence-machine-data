@@ -24,6 +24,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -81,7 +82,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -9551,6 +9551,28 @@ end A109181
 The programs for A109182, there is no canonical definition to state claims against.
 -/
 
+/-! ## A109182.P8865601024391391122
+
+`∪[A109183(n+1), A342874(n+1)]`
+-/
+
+namespace A109182.P8865601024391391122
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109183 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342874 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A109182.P8865601024391391122
+
 /-! ## A109182.P16938994832089238212
 
 `A342874(n+1)-A342854(∑[A342854(n)])`
@@ -9568,21 +9590,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A109182.P16938994832089238212
-
-/-! ## A109182.P5272449630000508135
-
-`A342874(A292125(n+1))`
--/
-
-namespace A109182.P5272449630000508135
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342874 (A292125 (n + 1)).toNat
-
-end
-
-end A109182.P5272449630000508135
 
 /-!
 # A109186: Number of hierarchical orderings of n unlabeled elements where levels are clustered. Labeled analog of A104525.

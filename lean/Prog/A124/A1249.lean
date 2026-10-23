@@ -78,7 +78,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -1253,6 +1252,29 @@ namespace A124923
 /-- `2/(n+1)*A117694(n+1)` -/
 def P2826411041649477136.Spec : Prop :=
   ∀ n, P2826411041649477136.a n = (A124923 (n + 1) : ℚ)
+
+end A124923
+
+/-! ## A124923.P8082072626802541765
+
+`A066068(n+1)/(n+1)`
+-/
+
+namespace A124923.P8082072626802541765
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A066068 (n + 1) : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A124923.P8082072626802541765
+
+namespace A124923
+
+/-- `A066068(n+1)/(n+1)` -/
+def P8082072626802541765.Spec : Prop :=
+  ∀ n, P8082072626802541765.a n = (A124923 (n + 1) : ℚ)
 
 end A124923
 
@@ -6444,6 +6466,28 @@ end A124965.P16354409440837634834
 The programs for A124966, there is no canonical definition to state claims against.
 -/
 
+/-! ## A124966.P11361370437202030044
+
+`∪[A124967(n+1), A224442(n+1)]`
+-/
+
+namespace A124966.P11361370437202030044
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124967 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224442 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124966.P11361370437202030044
+
 /-! ## A124966.P12102792131550068023
 
 `lt[1, A000164(n)]`
@@ -6765,6 +6809,28 @@ end A124966.P18425557838319674552
 The programs for A124967, there is no canonical definition to state claims against.
 -/
 
+/-! ## A124967.P14028662635224698780
+
+`∪[A124968(n+1), A224443(n+1)]`
+-/
+
+namespace A124967.P14028662635224698780
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124968 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224443 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124967.P14028662635224698780
+
 /-! ## A124967.P7311619471841053631
 
 `lt[2, A000164(n)]`
@@ -6960,6 +7026,28 @@ end A124967.P5158879963494435334
 The programs for A124968, there is no canonical definition to state claims against.
 -/
 
+/-! ## A124968.P2089473739876033503
+
+`∪[A124969(n+1), A294577(n+1)]`
+-/
+
+namespace A124968.P2089473739876033503
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124969 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294577 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124968.P2089473739876033503
+
 /-! ## A124968.P14563078274675211837
 
 `lt[3, A000164(n)]`
@@ -7149,32 +7237,33 @@ end
 
 end A124968.P4081358429576780725
 
-/-! ## A124968.P6939697606208604127
-
-`eq[2, A001221(A000164(n)!+2)]`
--/
-
-namespace A124968.P6939697606208604127
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (Nat.factorial (A000164 n).toNat + 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A124968.P6939697606208604127
-
 /-!
 # A124969: Numbers which can be expressed as an ordered sum of 3 squares in 5 or more different ways.
 
 The programs for A124969, there is no canonical definition to state claims against.
 -/
+
+/-! ## A124969.P18053240366390954526
+
+`∪[A294578(n+1), A294594(n+1)]`
+-/
+
+namespace A124969.P18053240366390954526
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294578 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294594 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A124969.P18053240366390954526
 
 /-! ## A124969.P9873952813219028907
 

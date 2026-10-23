@@ -87,6 +87,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A343901: a(n) is the number of primes p such that (p-1)|A000010(n).
@@ -1515,6 +1516,29 @@ namespace A343911
 /-- `∑{d}[A000010(n+1), A069513(#)]` -/
 def P3256248812457944259.Spec : Prop :=
   ∀ n, P3256248812457944259.a n = A343911 (n + 1)
+
+end A343911
+
+/-! ## A343911.P10998292501520516886
+
+`A302242(A048848(n+1))`
+-/
+
+namespace A343911.P10998292501520516886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302242 (A048848 (n + 1)).toNat
+
+end
+
+end A343911.P10998292501520516886
+
+namespace A343911
+
+/-- `A302242(A048848(n+1))` -/
+def P10998292501520516886.Spec : Prop :=
+  ∀ n, P10998292501520516886.a n = A343911 (n + 1)
 
 end A343911
 

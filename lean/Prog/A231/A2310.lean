@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -37,15 +38,17 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -56,6 +59,7 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B014.C000
@@ -224,6 +228,33 @@ def P11805827318185218844.Spec : Prop :=
 
 end A231000
 
+/-! ## A231000.P14504751715958496748
+
+`comp[A231003(n+1)]`
+-/
+
+namespace A231000.P14504751715958496748
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231003 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A231000.P14504751715958496748
+
+namespace A231000
+
+/-- `comp[A231003(n+1)]` -/
+def P14504751715958496748.Spec : Prop :=
+  ∀ n, (P14504751715958496748.a n : ℤ) = A231000 n
+
+end A231000
+
 /-! ## A231000.P1551359110235984917
 
 `eq[1, A305371(A057359(n+2))]`
@@ -299,33 +330,6 @@ namespace A231000
 /-- `record[A047248(A286474(n+1))-n]` -/
 def P11753328877468096381.Spec : Prop :=
   ∀ n, P11753328877468096381.a n = A231000 n
-
-end A231000
-
-/-! ## A231000.P7037651104403351915
-
-`comp[A231003(n+1)]%A231020(n+1)`
--/
-
-namespace A231000.P7037651104403351915
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231003 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A231020 (n + 1))
-
-end
-
-end A231000.P7037651104403351915
-
-namespace A231000
-
-/-- `comp[A231003(n+1)]%A231020(n+1)` -/
-def P7037651104403351915.Spec : Prop :=
-  ∀ n, P7037651104403351915.a n = A231000 n
 
 end A231000
 
@@ -934,6 +938,385 @@ namespace A231002
 /-- `∑[28-a(n-1)]` -/
 def P9931847374157770435.Spec : Prop :=
   ∀ n, P9931847374157770435.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P13648538132099960769
+
+`or(1, A184552(2*n+1))`
+-/
+
+namespace A231002.P13648538132099960769
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 1 (A184552 (2 * n + 1))
+
+end
+
+end A231002.P13648538132099960769
+
+namespace A231002
+
+/-- `or(1, A184552(2*n+1))` -/
+def P13648538132099960769.Spec : Prop :=
+  ∀ n, P13648538132099960769.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P8264667531185688129
+
+`A113805(A042948(n+1))`
+-/
+
+namespace A231002.P8264667531185688129
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113805 (A042948 (n + 1)).toNat
+
+end
+
+end A231002.P8264667531185688129
+
+namespace A231002
+
+/-- `A113805(A042948(n+1))` -/
+def P8264667531185688129.Spec : Prop :=
+  ∀ n, P8264667531185688129.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P1814743905597881807
+
+`∩[2*n+1, A301298(2*n+1)]`
+-/
+
+namespace A231002.P1814743905597881807
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301298 (2 * n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231002.P1814743905597881807
+
+namespace A231002
+
+/-- `∩[2*n+1, A301298(2*n+1)]` -/
+def P1814743905597881807.Spec : Prop :=
+  ∀ n, (P1814743905597881807.a n : ℤ) = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P2380948903846451005
+
+`A301298(A007310(n+1))`
+-/
+
+namespace A231002.P2380948903846451005
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301298 (A007310 (n + 1)).toNat
+
+end
+
+end A231002.P2380948903846451005
+
+namespace A231002
+
+/-- `A301298(A007310(n+1))` -/
+def P2380948903846451005.Spec : Prop :=
+  ∀ n, P2380948903846451005.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P8472188962132830466
+
+`filter[A301298(2*n+1), A035263(#)]`
+-/
+
+namespace A231002.P8472188962132830466
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301298 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A035263 (f1 j).toNat = 1) n)
+
+end
+
+end A231002.P8472188962132830466
+
+namespace A231002
+
+/-- `filter[A301298(2*n+1), A035263(#)]` -/
+def P8472188962132830466.Spec : Prop :=
+  ∀ n, P8472188962132830466.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P16310654478035339047
+
+`A231000(A047336(n+1))`
+-/
+
+namespace A231002.P16310654478035339047
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231000 (A047336 (n + 1)).toNat
+
+end
+
+end A231002.P16310654478035339047
+
+namespace A231002
+
+/-- `A231000(A047336(n+1))` -/
+def P16310654478035339047.Spec : Prop :=
+  ∀ n, P16310654478035339047.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P15189487681441231350
+
+`∩[A113805(n+1), A231000(n)]`
+-/
+
+namespace A231002.P15189487681441231350
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113805 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231000 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231002.P15189487681441231350
+
+namespace A231002
+
+/-- `∩[A113805(n+1), A231000(n)]` -/
+def P15189487681441231350.Spec : Prop :=
+  ∀ n, (P15189487681441231350.a n : ℤ) = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P8597701552633160228
+
+`A047385(A047524(n+1))`
+-/
+
+namespace A231002.P8597701552633160228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047385 (A047524 (n + 1)).toNat
+
+end
+
+end A231002.P8597701552633160228
+
+namespace A231002
+
+/-- `A047385(A047524(n+1))` -/
+def P8597701552633160228.Spec : Prop :=
+  ∀ n, P8597701552633160228.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P724466185799343145
+
+`∩[A047385(n+1), A231000(n)]`
+-/
+
+namespace A231002.P724466185799343145
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047385 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231000 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231002.P724466185799343145
+
+namespace A231002
+
+/-- `∩[A047385(n+1), A231000(n)]` -/
+def P724466185799343145.Spec : Prop :=
+  ∀ n, (P724466185799343145.a n : ℤ) = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P17188622935902298150
+
+`A348236(A090772(n+1))`
+-/
+
+namespace A231002.P17188622935902298150
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348236 (A090772 (n + 1)).toNat
+
+end
+
+end A231002.P17188622935902298150
+
+namespace A231002
+
+/-- `A348236(A090772(n+1))` -/
+def P17188622935902298150.Spec : Prop :=
+  ∀ n, P17188622935902298150.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P10310296098931821119
+
+`filter[A348236(2*n), A324908(#)]`
+-/
+
+namespace A231002.P10310296098931821119
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348236 (2 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A324908 (f1 j).toNat = 1) n)
+
+end
+
+end A231002.P10310296098931821119
+
+namespace A231002
+
+/-- `filter[A348236(2*n), A324908(#)]` -/
+def P10310296098931821119.Spec : Prop :=
+  ∀ n, P10310296098931821119.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P4693798181780200821
+
+`∩[A113805(n+1), A348236(n)]`
+-/
+
+namespace A231002.P4693798181780200821
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113805 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348236 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231002.P4693798181780200821
+
+namespace A231002
+
+/-- `∩[A113805(n+1), A348236(n)]` -/
+def P4693798181780200821.Spec : Prop :=
+  ∀ n, (P4693798181780200821.a n : ℤ) = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P13499317506904763320
+
+`A047323(A091999(n+1))`
+-/
+
+namespace A231002.P13499317506904763320
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047323 (A091999 (n + 1)).toNat
+
+end
+
+end A231002.P13499317506904763320
+
+namespace A231002
+
+/-- `A047323(A091999(n+1))` -/
+def P13499317506904763320.Spec : Prop :=
+  ∀ n, P13499317506904763320.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P119692676299894171
+
+`A162699(A045572(2*n+1)+n+2)`
+-/
+
+namespace A231002.P119692676299894171
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162699 (A045572 (2 * n + 1) + (n + 2 : ℤ)).toNat
+
+end
+
+end A231002.P119692676299894171
+
+namespace A231002
+
+/-- `A162699(A045572(2*n+1)+n+2)` -/
+def P119692676299894171.Spec : Prop :=
+  ∀ n, P119692676299894171.a n = A231002 (n + 1)
+
+end A231002
+
+/-! ## A231002.P12321346459412731245
+
+`A004443(7*(2*n+1))`
+-/
+
+namespace A231002.P12321346459412731245
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004443 (7 * (2 * n + 1))
+
+end
+
+end A231002.P12321346459412731245
+
+namespace A231002
+
+/-- `A004443(7*(2*n+1))` -/
+def P12321346459412731245.Spec : Prop :=
+  ∀ n, P12321346459412731245.a n = A231002 (n + 1)
 
 end A231002
 
@@ -1865,113 +2248,71 @@ end
 
 end A231007.P6689823773699672728
 
+/-! ## A231007.P12338899866144326497
+
+`comp[A231238(n+1)]`
+-/
+
+namespace A231007.P12338899866144326497
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231238 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A231007.P12338899866144326497
+
 /-!
 # A231008: Number of months after which it is not possible to have a date falling on the same day of the week, in the Gregorian calendar.
 
 The programs for A231008, there is no canonical definition to state claims against.
 -/
 
-/-! ## A231008.P11785522925653679987
+/-! ## A231008.P7909548827825515626
 
-`A000194(comp[A231005(n)]²)`
+`comp[A231005(n)]`
 -/
 
-namespace A231008.P11785522925653679987
+namespace A231008.P7909548827825515626
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A231005 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000194 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
-
-end
-
-end A231008.P11785522925653679987
-
-/-! ## A231008.P3800239550194000477
-
-`A053615(comp[A231005(n)]²)`
--/
-
-namespace A231008.P3800239550194000477
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231005 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053615 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
-
-end
-
-end A231008.P3800239550194000477
-
-/-! ## A231008.P8726364899059152183
-
-`comp[A231005(n)]%A098187(n+1)`
--/
-
-namespace A231008.P8726364899059152183
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231005 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A098187 (n + 1))
-
-end
-
-end A231008.P8726364899059152183
-
-/-! ## A231008.P17880234560992054990
-
-`comp[A231005(n)]%A075929(n)`
--/
-
-namespace A231008.P17880234560992054990
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231005 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A075929 n)
-
-end
-
-end A231008.P17880234560992054990
-
-/-! ## A231008.P13162004255045951602
-
-`∩[A231239(n+1), comp[A231005(n)]]`
--/
-
-namespace A231008.P13162004255045951602
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231239 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231005 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A231008.P13162004255045951602
+end A231008.P7909548827825515626
+
+/-! ## A231008.P5279150849446808159
+
+`∩[A231009(n+1), A231238(n+1)]`
+-/
+
+namespace A231008.P5279150849446808159
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231009 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231238 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231008.P5279150849446808159
 
 /-!
 # A231009: Number of months after which it is not possible to have the same calendar for the entire month with the same number of days, in the Gregorian calendar.
@@ -2001,62 +2342,24 @@ end
 
 end A231009.P8453332040092557650
 
-/-! ## A231009.P12540696654475281004
+/-! ## A231009.P8512079805924673856
 
-`comp[A231006(n)]%A249532(n+1)`
+`comp[A231006(n)]`
 -/
 
-namespace A231009.P12540696654475281004
+namespace A231009.P8512079805924673856
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A231006 n
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A249532 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A231009.P12540696654475281004
-
-/-! ## A231009.P13011278119577634471
-
-`comp[A231006(floor((n+1)/ϕ))]%A112038(n+1)`
--/
-
-namespace A231009.P13011278119577634471
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231006 ⌊(n + 1 : ℝ) / Real.goldenRatio⌋.toNat
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A112038 (n + 1))
-
-end
-
-end A231009.P13011278119577634471
-
-/-! ## A231009.P9303252445068458311
-
-`A000038(A309836(n+1))+comp[A231006(n)]`
--/
-
-namespace A231009.P9303252445068458311
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231006 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000038 (A309836 (n + 1)).toNat + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
-
-end
-
-end A231009.P9303252445068458311
+end A231009.P8512079805924673856
 
 /-!
 # A231010: Number of months after which a date can fall on the same day of the week, in the Julian calendar.
@@ -2251,81 +2554,46 @@ end
 
 end A231011.P16574278939984339910
 
-/-! ## A231011.P8463767224350946538
+/-! ## A231011.P3578863666349039465
 
-`comp[A231014(n+1)]%A243655(n+1)`
+`comp[A231014(n+1)]`
 -/
 
-namespace A231011.P8463767224350946538
+namespace A231011.P3578863666349039465
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A231014 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A243655 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A231011.P8463767224350946538
+end A231011.P3578863666349039465
 
-/-! ## A231011.P11769889616359219928
+/-! ## A231011.P16567972185775473421
 
-`comp[A231014(n+1)]-A000007(A143453(n))`
+`∩[A231010(n), A231239(n+1)]`
 -/
 
-namespace A231011.P11769889616359219928
+namespace A231011.P16567972185775473421
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231014 (n + 1)
+  A231010 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231239 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) - A000007 (A143453 n).toNat
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A231011.P11769889616359219928
-
-/-! ## A231011.P5273721972729750151
-
-`comp[A231014(n+1)]%A175298(A005897(n))`
--/
-
-namespace A231011.P5273721972729750151
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231014 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A175298 (A005897 n).toNat)
-
-end
-
-end A231011.P5273721972729750151
-
-/-! ## A231011.P12457671043095240589
-
-`comp[A231014(A055396(n+1)+1)]%A183991(n+5)`
--/
-
-namespace A231011.P12457671043095240589
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231014 (A055396 (n + 1) + 1).toNat
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A183991 (n + 5))
-
-end
-
-end A231011.P12457671043095240589
+end A231011.P16567972185775473421
 
 /-!
 # A231012: Number of months after which a date can fall on the same day of the week, but it is not possible that the two months have the same number of days, in the Julian calendar.
@@ -2407,106 +2675,116 @@ end
 
 end A231012.P1793906502918997190
 
+/-! ## A231012.P15372893998706110570
+
+`comp[A231239(n+1)]`
+-/
+
+namespace A231012.P15372893998706110570
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231239 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A231012.P15372893998706110570
+
 /-!
 # A231013: Number of months after which it is not possible to have a date falling on the same day of the week, in the Julian calendar.
 
 The programs for A231013, there is no canonical definition to state claims against.
 -/
 
-/-! ## A231013.P17220780763175803345
+/-! ## A231013.P16979897244370776435
 
-`comp[A231010(n)]%A373464(n+1)`
+`comp[A231010(n)]`
 -/
 
-namespace A231013.P17220780763175803345
+namespace A231013.P16979897244370776435
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A231010 n
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A373464 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A231013.P17220780763175803345
+end A231013.P16979897244370776435
 
-/-! ## A231013.P4449406182253352737
+/-! ## A231013.P17409469733584945192
 
-`A000194(comp[A231010(n)]²)`
+`∩[A231014(n+1), A231239(n+1)]`
 -/
 
-namespace A231013.P4449406182253352737
+namespace A231013.P17409469733584945192
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231010 n
+  A231014 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231239 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000194 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A231013.P4449406182253352737
+end A231013.P17409469733584945192
 
-/-! ## A231013.P14279345650795166314
+/-! ## A231013.P2657218729835892482
 
-`A000196(comp[A231010(n)]²)`
+`A231008(A043320(n+1))`
 -/
 
-namespace A231013.P14279345650795166314
+namespace A231013.P2657218729835892482
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231010 n
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
+  A231008 (A043320 (n + 1)).toNat
 
 end
 
-end A231013.P14279345650795166314
+end A231013.P2657218729835892482
 
-/-! ## A231013.P4464656321552001693
+/-! ## A231013.P7818899165725642593
 
-`A033677(comp[A231010(n)]²)`
+`A231008(A044917(n+1))`
 -/
 
-namespace A231013.P4464656321552001693
+namespace A231013.P7818899165725642593
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231010 n
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033677 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
+  A231008 (A044917 (n + 1)).toNat
 
 end
 
-end A231013.P4464656321552001693
+end A231013.P7818899165725642593
 
-/-! ## A231013.P3162081147509119977
+/-! ## A231013.P8839265836239092315
 
-`A037213(comp[A231010(n)]²)`
+`A231008(A055645(n+1))`
 -/
 
-namespace A231013.P3162081147509119977
+namespace A231013.P8839265836239092315
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231010 n
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037213 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
+  A231008 (A055645 (n + 1)).toNat
 
 end
 
-end A231013.P3162081147509119977
+end A231013.P8839265836239092315
 
 /-!
 # A231014: Number of months after which it is not possible to have the same calendar for the entire month with the same number of days, in the Julian calendar.

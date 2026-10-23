@@ -16378,6 +16378,21 @@ end A038357.P5850670315003801129
 The programs for A038359, there is no canonical definition to state claims against.
 -/
 
+/-! ## A038359.P16747067731192174921
+
+`ogf((1+x+2x^3+x^4+2x^5+3x^6+2x^7)/(1-2x))`
+-/
+
+namespace A038359.P16747067731192174921
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 0, 2, 1, 2, 3, 2] [1, -2] n
+
+end
+
+end A038359.P16747067731192174921
+
 /-! ## A038359.P2411233639247073822
 
 `floor(A290292(n+2)/4)`
@@ -17459,16 +17474,16 @@ def P9842156643450138386.Spec : Prop :=
 
 end A038366
 
-/-! ## A038366.P15333220310124479196
+/-! ## A038366.P12951720529663049757
 
-`∩[A124404(n+1), A343131(n+1)]`
+`∩[A001637(n+1), A343131(n+1)]`
 -/
 
-namespace A038366.P15333220310124479196
+namespace A038366.P12951720529663049757
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124404 (n + 1)
+  A001637 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A343131 (n + 1)
@@ -17479,13 +17494,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A038366.P15333220310124479196
+end A038366.P12951720529663049757
 
 namespace A038366
 
-/-- `∩[A124404(n+1), A343131(n+1)]` -/
-def P15333220310124479196.Spec : Prop :=
-  ∀ n, (P15333220310124479196.a n : ℤ) = A038366 (n + 1)
+/-- `∩[A001637(n+1), A343131(n+1)]` -/
+def P12951720529663049757.Spec : Prop :=
+  ∀ n, (P12951720529663049757.a n : ℤ) = A038366 (n + 1)
 
 end A038366
 
@@ -18794,6 +18809,29 @@ namespace A038376
 /-- `2*A333319(n+1)-Δ[A330299(n+1)]` -/
 def P871715138578998072.Spec : Prop :=
   ∀ n, P871715138578998072.a n = A038376 n
+
+end A038376
+
+/-! ## A038376.P13830283770201439429
+
+`A159708(A150617(n))`
+-/
+
+namespace A038376.P13830283770201439429
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A159708 (A150617 n).toNat
+
+end
+
+end A038376.P13830283770201439429
+
+namespace A038376
+
+/-- `A159708(A150617(n))` -/
+def P13830283770201439429.Spec : Prop :=
+  ∀ n, P13830283770201439429.a n = A038376 n
 
 end A038376
 

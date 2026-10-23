@@ -660,6 +660,21 @@ end
 
 end A355202.P17527462904247177166
 
+/-! ## A355202.P3064922220663302350
+
+`A104974(A220537(n+1))`
+-/
+
+namespace A355202.P3064922220663302350
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104974 (A220537 (n + 1)).toNat
+
+end
+
+end A355202.P3064922220663302350
+
 /-!
 # A355205: E.g.f. A(x) satisfies A'(x) = 1 + 2 * A(-log(1-x)).
 
@@ -1484,6 +1499,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A355224.P13233118355840746874
+
+/-! ## A355224.P9558842611553148748
+
+`eq[A062003(n), A118759(n)]`
+-/
+
+namespace A355224.P9558842611553148748
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062003 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118759 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A355224.P9558842611553148748
 
 /-!
 # A355225: Number of partitions of n that contain more prime parts than nonprime parts.

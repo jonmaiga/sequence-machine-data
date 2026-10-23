@@ -63,7 +63,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
@@ -13631,6 +13631,36 @@ namespace A110591
 /-- `round(log2(sqrt(2*or(1, n))))` -/
 def P12367003375815049665.Spec : Prop :=
   ∀ n, P12367003375815049665.a n = A110591 n
+
+end A110591
+
+/-! ## A110591.P10101881872989585698
+
+`∑[char[and(n, 1-n)²]]`
+-/
+
+namespace A110591.P10101881872989585698
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (n : ℤ) (1 - (n : ℤ)) ^ 2
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A110591.P10101881872989585698
+
+namespace A110591
+
+/-- `∑[char[and(n, 1-n)²]]` -/
+def P10101881872989585698.Spec : Prop :=
+  ∀ n, (P10101881872989585698.a n : ℤ) = A110591 n
 
 end A110591
 

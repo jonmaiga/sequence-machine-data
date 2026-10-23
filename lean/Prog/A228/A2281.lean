@@ -2926,6 +2926,29 @@ def P18279821517758568488.Spec : Prop :=
 
 end A228124
 
+/-! ## A228124.P15993447361074412902
+
+`A208950(A060819(A123167(A001651(n+2))))`
+-/
+
+namespace A228124.P15993447361074412902
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208950 (A060819 (A123167 (A001651 (n + 2)).toNat).toNat).toNat
+
+end
+
+end A228124.P15993447361074412902
+
+namespace A228124
+
+/-- `A208950(A060819(A123167(A001651(n+2))))` -/
+def P15993447361074412902.Spec : Prop :=
+  ∀ n, P15993447361074412902.a n = A228124 (n + 1)
+
+end A228124
+
 /-!
 # A228125: Triangle read by rows: T(n,k) = number of semistandard Young tableaux with sum of entries equal to n and shape of tableau a partition of k.
 
@@ -3865,6 +3888,28 @@ end
 
 end A228136.P12124670218720963265
 
+/-! ## A228136.P3381481608058176829
+
+`∩[A131396(n+1), A287636(n+1)]`
+-/
+
+namespace A228136.P3381481608058176829
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131396 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A287636 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A228136.P3381481608058176829
+
 /-!
 # A228137: Numbers that are congruent to {1, 4} mod 12.
 
@@ -4656,29 +4701,30 @@ end A228138
 /-!
 # A228139: Primes such that the product of their digits subtracted from the prime number is another prime.
 
-The programs for A228139, the canonical program `A228139.P2229959096761443829` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228139 has offset 1).
-
-The definition of A228139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A228139, there is no canonical definition to state claims against.
 -/
 
 /-! ## A228139.P2229959096761443829
 
 `∩[A038618(n+1), A229221(n+1)]`
-
-The canonical program, it is in `Seq.B004.C002`.
 -/
 
-namespace A228139
+namespace A228139.P2229959096761443829
+noncomputable section
 
-/-- `∩[A038618(n+1), A229221(n+1)]` -/
-def P2229959096761443829.Spec : Prop :=
-  ∀ n, (P2229959096761443829.a n : ℤ) = A228139 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038618 (n + 1)
 
-theorem P2229959096761443829.correct : P2229959096761443829.Spec := by
-  intro n
-  simp only [A228139, Nat.add_sub_cancel]
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229221 (n + 1)
 
-end A228139
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A228139.P2229959096761443829
 
 /-! ## A228139.P1622632551936032979
 
@@ -4705,14 +4751,6 @@ end
 
 end A228139.P1622632551936032979
 
-namespace A228139
-
-/-- `∩[p?[A125290(n+1)], A229221(n+1)]` -/
-def P1622632551936032979.Spec : Prop :=
-  ∀ n, (P1622632551936032979.a n : ℤ) = A228139 (n + 1)
-
-end A228139
-
 /-! ## A228139.P1748649143989651370
 
 `record[A004719(p?[A229221(n+1)])]`
@@ -4734,14 +4772,6 @@ end
 
 end A228139.P1748649143989651370
 
-namespace A228139
-
-/-- `record[A004719(p?[A229221(n+1)])]` -/
-def P1748649143989651370.Spec : Prop :=
-  ∀ n, P1748649143989651370.a n = A228139 (n + 1)
-
-end A228139
-
 /-! ## A228139.P797437075401628527
 
 `record[A004719(A225319(n+1))]`
@@ -4760,14 +4790,6 @@ end
 
 end A228139.P797437075401628527
 
-namespace A228139
-
-/-- `record[A004719(A225319(n+1))]` -/
-def P797437075401628527.Spec : Prop :=
-  ∀ n, P797437075401628527.a n = A228139 (n + 1)
-
-end A228139
-
 /-! ## A228139.P4628100357365338234
 
 `filter[A225319(n+1), A168046(#)]`
@@ -4785,14 +4807,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A228139.P4628100357365338234
-
-namespace A228139
-
-/-- `filter[A225319(n+1), A168046(#)]` -/
-def P4628100357365338234.Spec : Prop :=
-  ∀ n, P4628100357365338234.a n = A228139 (n + 1)
-
-end A228139
 
 /-!
 # A228140: Numbers n such that n^2 - 2 is not squarefree.

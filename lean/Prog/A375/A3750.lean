@@ -616,6 +616,28 @@ end
 
 end A375006.P16443100943822330817
 
+/-! ## A375006.P16574964054465055470
+
+`∩[A196871(n+1), A333943(n+1)]`
+-/
+
+namespace A375006.P16574964054465055470
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196871 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333943 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A375006.P16574964054465055470
+
 /-!
 # A375008: Products m of k = 3 consecutive primes p_1..p_k, where only p_1 < m^(1/k).
 
@@ -2706,6 +2728,75 @@ namespace A375039
 /-- `dr(A376645(2*n+1))` -/
 def P2235828966828323987.Spec : Prop :=
   ∀ n, (P2235828966828323987.a n : ℤ) = A375039 (n + 1)
+
+end A375039
+
+/-! ## A375039.P11665360475613279164
+
+`val(A046523(2*n+1), 2)`
+-/
+
+namespace A375039.P11665360475613279164
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (A046523 (2 * n + 1)).toNat 2
+
+end
+
+end A375039.P11665360475613279164
+
+namespace A375039
+
+/-- `val(A046523(2*n+1), 2)` -/
+def P11665360475613279164.Spec : Prop :=
+  ∀ n, (P11665360475613279164.a n : ℤ) = A375039 (n + 1)
+
+end A375039
+
+/-! ## A375039.P975201393377829488
+
+`val(A359600(2*n+1), 3)`
+-/
+
+namespace A375039.P975201393377829488
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (A359600 (2 * n + 1)).toNat 3
+
+end
+
+end A375039.P975201393377829488
+
+namespace A375039
+
+/-- `val(A359600(2*n+1), 3)` -/
+def P975201393377829488.Spec : Prop :=
+  ∀ n, (P975201393377829488.a n : ℤ) = A375039 (n + 1)
+
+end A375039
+
+/-! ## A375039.P16636482006864219025
+
+`val(A278254(2*n+1), 4)`
+-/
+
+namespace A375039.P16636482006864219025
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (A278254 (2 * n + 1)).toNat 4
+
+end
+
+end A375039.P16636482006864219025
+
+namespace A375039
+
+/-- `val(A278254(2*n+1), 4)` -/
+def P16636482006864219025.Spec : Prop :=
+  ∀ n, (P16636482006864219025.a n : ℤ) = A375039 (n + 1)
 
 end A375039
 

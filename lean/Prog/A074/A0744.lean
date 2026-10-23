@@ -62,7 +62,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -8125,6 +8124,28 @@ end A074485.P3518978341296833852
 The programs for A074486, there is no canonical definition to state claims against.
 -/
 
+/-! ## A074486.P790760810922708265
+
+`∩[A101620(n), A326979(n+1)]`
+-/
+
+namespace A074486.P790760810922708265
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101620 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326979 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A074486.P790760810922708265
+
 /-! ## A074486.P11171851333609438525
 
 `A014486(n+4)-A236434(A052192(n+1))`
@@ -8139,6 +8160,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A074486.P11171851333609438525
+
+/-! ## A074486.P14533540326399844915
+
+`∩[A101620(n), A326966(n+1)]`
+-/
+
+namespace A074486.P14533540326399844915
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101620 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326966 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A074486.P14533540326399844915
 
 /-!
 # A074487: a(1)=1, then "jump over next square": a(n) = 2*(a(n-1)+1)^2-a(n-1).

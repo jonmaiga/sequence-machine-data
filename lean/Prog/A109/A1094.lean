@@ -61,10 +61,8 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -99,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2847,6 +2846,28 @@ end
 
 end A109426.P14411654879417094763
 
+/-! ## A109426.P1128876650727976251
+
+`∩[A240938(n+1), A325261(n+1)]`
+-/
+
+namespace A109426.P1128876650727976251
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240938 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325261 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A109426.P1128876650727976251
+
 /-! ## A109426.P5859904733381586782
 
 `lt[48, A353753(A069626(n+1)+1)]+1`
@@ -2889,6 +2910,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A109426.P7909473370480186397
+
+/-! ## A109426.P17201404103262636120
+
+`∩[A120497(n+1), A350353(n+1)]`
+-/
+
+namespace A109426.P17201404103262636120
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120497 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350353 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A109426.P17201404103262636120
 
 /-!
 # A109427: Numbers n such that sigma(n)/omega(n) is an integer [sigma(n) = sum of divisors of n; omega(n) = number of distinct prime factors of n].
@@ -4548,7 +4591,7 @@ end A109441.P6802077335651563321
 /-!
 # A109442: Cumulative sum of smallest prime power >= n.
 
-The programs for A109442, the canonical program `A109442.P14114175381241493679` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109442 has offset 1).
+The programs for A109442, the canonical program `A109442.P14114175381241493679` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109442 has offset 1).
 
 The definition of A109442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4609,7 +4652,7 @@ end A109442
 
 `∑[A097106(n+1)+A031218(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A109442
@@ -4862,7 +4905,7 @@ end A109442
 /-!
 # A109443: Cumulative sum of largest prime power <= n.
 
-The programs for A109443, the canonical program `A109443.P9246990492100124612` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109443 has offset 1).
+The programs for A109443, the canonical program `A109443.P9246990492100124612` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109443 has offset 1).
 
 The definition of A109443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4871,7 +4914,7 @@ The definition of A109443 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A031218(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A109443
@@ -7969,6 +8012,28 @@ end A109461.P15906705106531696352
 
 The programs for A109463, there is no canonical definition to state claims against.
 -/
+
+/-! ## A109463.P10964098831962063354
+
+`∩[A109448(n+1), A115841(n+1)]`
+-/
+
+namespace A109463.P10964098831962063354
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109448 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115841 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A109463.P10964098831962063354
 
 /-! ## A109463.P16766053981584392935
 

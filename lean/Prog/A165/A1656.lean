@@ -8243,6 +8243,61 @@ def P13690987925991014060.Spec : Prop :=
 
 end A165676
 
+/-! ## A165676.P2129933803160778033
+
+`Δ[(A268581(n)/2)²]`
+-/
+
+namespace A165676.P2129933803160778033
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((A268581 n : ℚ) / 2) ^ 2
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A165676.P2129933803160778033
+
+namespace A165676
+
+/-- `Δ[(A268581(n)/2)²]` -/
+def P2129933803160778033.Spec : Prop :=
+  ∀ n, P2129933803160778033.a n = (A165676 (n + 1) : ℚ)
+
+end A165676
+
+/-! ## A165676.P13128347639193774779
+
+`Δ[2*C(∑[2*n+3], 2)]`
+-/
+
+namespace A165676.P13128347639193774779
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 3
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * Nat.choose (∑ j ∈ Finset.range (n + 1), f2 j) 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A165676.P13128347639193774779
+
+namespace A165676
+
+/-- `Δ[2*C(∑[2*n+3], 2)]` -/
+def P13128347639193774779.Spec : Prop :=
+  ∀ n, P13128347639193774779.a n = A165676 (n + 1)
+
+end A165676
+
 /-! ## A165676.P448068135984588170
 
 `(2*n+5)*A090288(n+1)`
@@ -8335,29 +8390,55 @@ def P1587410999444026193.Spec : Prop :=
 
 end A165676
 
-/-! ## A165676.P466513948485445273
+/-! ## A165676.P3960810263828401739
 
-`abs(Δ[A057722(n+2)])`
+`Δ[A057722(n+2)]`
 -/
 
-namespace A165676.P466513948485445273
+namespace A165676.P3960810263828401739
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A057722 (n + 2)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |f1 (n + 1) - f1 n|
+  f1 (n + 1) - f1 n
 
 end
 
-end A165676.P466513948485445273
+end A165676.P3960810263828401739
 
 namespace A165676
 
-/-- `abs(Δ[A057722(n+2)])` -/
-def P466513948485445273.Spec : Prop :=
-  ∀ n, P466513948485445273.a n = A165676 (n + 1)
+/-- `Δ[A057722(n+2)]` -/
+def P3960810263828401739.Spec : Prop :=
+  ∀ n, P3960810263828401739.a n = A165676 (n + 1)
+
+end A165676
+
+/-! ## A165676.P12215579858558325219
+
+`Δ[sqrt(A208116(2*n+1))]`
+-/
+
+namespace A165676.P12215579858558325219
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A208116 (2 * n + 1) : ℝ)
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A165676.P12215579858558325219
+
+namespace A165676
+
+/-- `Δ[sqrt(A208116(2*n+1))]` -/
+def P12215579858558325219.Spec : Prop :=
+  ∀ n, P12215579858558325219.a n = (A165676 (n + 1) : ℝ)
 
 end A165676
 

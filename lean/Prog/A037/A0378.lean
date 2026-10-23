@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -7281,6 +7280,21 @@ end
 
 end A037832.P10036300586067604008
 
+/-! ## A037832.P15649737681950038444
+
+`A037833(A052406(n+2))`
+-/
+
+namespace A037832.P15649737681950038444
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037833 (A052406 (n + 2)).toNat
+
+end
+
+end A037832.P15649737681950038444
+
 /-! ## A037832.P5430073089611224135
 
 `A037833(A052383(n+2))`
@@ -7388,24 +7402,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037832.P9647528554271217588
-
-/-! ## A037832.P6766316727341602563
-
-`Δ[A025791(n)%A140578(A025789(n))]`
--/
-
-namespace A037832.P6766316727341602563
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A025791 n) (A140578 (A025789 n).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A037832.P6766316727341602563
 
 /-!
 # A037833: Number of i such that d(i) >= d(i-1), where Sum_{i=0..m} d(i)*10^i is the base-10 representation of n.
@@ -13119,29 +13115,23 @@ end A037863
 /-!
 # A037864: a(n)=(number of digits <=2)-(number of digits >2) in base 5 representation of n.
 
-The programs for A037864, the canonical program `A037864.P18080796445639344832` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037864 has offset 1).
-
-The definition of A037864 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A037864, there is no canonical definition to state claims against.
 -/
 
 /-! ## A037864.P18080796445639344832
 
 `A037865(A037465(n+1))`
-
-The canonical program, it is in `Seq.B014.C000`.
 -/
 
-namespace A037864
+namespace A037864.P18080796445639344832
+noncomputable section
 
-/-- `A037865(A037465(n+1))` -/
-def P18080796445639344832.Spec : Prop :=
-  ∀ n, P18080796445639344832.a n = A037864 (n + 1)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037865 (A037465 (n + 1)).toNat
 
-theorem P18080796445639344832.correct : P18080796445639344832.Spec := by
-  intro n
-  simp only [A037864, Nat.add_sub_cancel]
+end
 
-end A037864
+end A037864.P18080796445639344832
 
 /-! ## A037864.P4675517019245145679
 
@@ -13158,14 +13148,6 @@ end
 
 end A037864.P4675517019245145679
 
-namespace A037864
-
-/-- `A037869(A080228(n+2))` -/
-def P4675517019245145679.Spec : Prop :=
-  ∀ n, P4675517019245145679.a n = A037864 (n + 1)
-
-end A037864
-
 /-! ## A037864.P15003387403294405282
 
 `A037868(A037468(n)+A037468(n)+1)`
@@ -13180,14 +13162,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037864.P15003387403294405282
-
-namespace A037864
-
-/-- `A037868(A037468(n)+A037468(n)+1)` -/
-def P15003387403294405282.Spec : Prop :=
-  ∀ n, P15003387403294405282.a n = A037864 (n + 1)
-
-end A037864
 
 /-! ## A037864.P6180350161396874279
 
@@ -13204,14 +13178,6 @@ end
 
 end A037864.P6180350161396874279
 
-namespace A037864
-
-/-- `A037869(A014263(n+2))` -/
-def P6180350161396874279.Spec : Prop :=
-  ∀ n, P6180350161396874279.a n = A037864 (n + 1)
-
-end A037864
-
 /-! ## A037864.P3082952943331701889
 
 `A037868(2*A037468(n+1))`
@@ -13226,14 +13192,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A037864.P3082952943331701889
-
-namespace A037864
-
-/-- `A037868(2*A037468(n+1))` -/
-def P3082952943331701889.Spec : Prop :=
-  ∀ n, P3082952943331701889.a n = A037864 (n + 1)
-
-end A037864
 
 /-!
 # A037865: a(n)=(number of digits <=2)-(number of digits >2) in base 6 representation of n.

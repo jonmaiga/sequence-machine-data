@@ -15,6 +15,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
@@ -35,6 +36,7 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -2428,54 +2430,60 @@ end
 end A391845.P13313483817609958854
 
 /-!
+# A391846: Numbers k such that 11*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.
+
+The programs for A391846, there is no canonical definition to state claims against.
+-/
+
+/-! ## A391846.P14070609861225309722
+
+`∪[A048718(n), A115803(n+1)]`
+-/
+
+namespace A391846.P14070609861225309722
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048718 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115803 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391846.P14070609861225309722
+
+/-!
 # A391847: Odd numbers k such that 11*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.
 
 The programs for A391847, there is no canonical definition to state claims against.
 -/
 
-/-! ## A391847.P9913876586931827450
+/-! ## A391847.P11369105083232180137
 
-`∩[A372293(n+1), A391846(n+1)]`
+`∩[2*n+1, A391846(n+1)]`
 -/
 
-namespace A391847.P9913876586931827450
+namespace A391847.P11369105083232180137
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A372293 (n + 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A391846 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A391847.P9913876586931827450
-
-/-! ## A391847.P1515687295054113212
-
-`∩[A047529(n+1), A391846(n+1)]`
--/
-
-namespace A391847.P1515687295054113212
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047529 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391846 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A391847.P1515687295054113212
+end A391847.P11369105083232180137
 
 /-! ## A391847.P17973140749760874434
 
@@ -2766,11 +2774,55 @@ end
 
 end A391851.P12595159027777265498
 
+/-! ## A391851.P15544414334836841047
+
+`∩[A329358(n+1), A391850(n+1)]`
+-/
+
+namespace A391851.P15544414334836841047
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391850 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391851.P15544414334836841047
+
 /-!
 # A391852: Numbers k such that 17*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.
 
 The programs for A391852, there is no canonical definition to state claims against.
 -/
+
+/-! ## A391852.P14871021739523115129
+
+`∪[A115809(n), A115847(n)]`
+-/
+
+namespace A391852.P14871021739523115129
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115809 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115847 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391852.P14871021739523115129
 
 /-! ## A391852.P3813172465759618301
 
@@ -2855,27 +2907,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A391852.P6533272042343681114
-
-/-! ## A391852.P644181358903563030
-
-`lt[A100347(n), A252192(A000009(n))]`
--/
-
-namespace A391852.P644181358903563030
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100347 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252192 (A000009 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A391852.P644181358903563030
 
 /-!
 # A391853: Odd numbers k such that 17*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.
@@ -3466,6 +3497,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A391860.P10664625420602955731
+
+/-! ## A391860.P6721081275888937861
+
+`∩[A182049(n+1), A200001(n+1)]`
+-/
+
+namespace A391860.P6721081275888937861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182049 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A200001 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391860.P6721081275888937861
 
 /-!
 # A391861: Odd numbers k such that 49*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.

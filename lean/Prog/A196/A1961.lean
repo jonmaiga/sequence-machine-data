@@ -1290,6 +1290,24 @@ end
 
 end A196126.P18102783267250305547
 
+/-! ## A196126.P17043549231806051654
+
+`∑[n+1]-A022554(n)`
+-/
+
+namespace A196126.P17043549231806051654
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A022554 n
+
+end
+
+end A196126.P17043549231806051654
+
 /-!
 # A196127: Union of p-1, 2p-1 and 3p-1 where p is a prime (without repetition).
 

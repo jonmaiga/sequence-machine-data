@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -14,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
@@ -50,7 +50,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -89,10 +88,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A058200: Coefficients of the highest power of r in a sequence of parametric solutions for the Diophantine equation x^3+y^3+z^3=1.
@@ -1866,6 +1861,29 @@ def P3804812975736437208.Spec : Prop :=
 
 end A058212
 
+/-! ## A058212.P3803314819837655073
+
+`A004526(A097922(n+2)-(2*n+1))`
+-/
+
+namespace A058212.P3803314819837655073
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004526 (A097922 (n + 2) - (2 * n + 1 : ℤ)).toNat
+
+end
+
+end A058212.P3803314819837655073
+
+namespace A058212
+
+/-- `A004526(A097922(n+2)-(2*n+1))` -/
+def P3803314819837655073.Spec : Prop :=
+  ∀ n, P3803314819837655073.a n = A058212 n
+
+end A058212
+
 /-!
 # A058213: Triangular arrangement of solutions of phi(x) = 2^n (n >= 0), where phi=A000010 is Euler's totient function. Each row corresponds to a particular n and its length is n+2 for 0 <= n <= 31, 32 for n >= 32. (This assumes that there are only 5 Fermat primes.)
 
@@ -2855,6 +2873,35 @@ The programs for A058227, the canonical program `A058227.P11299073305986486307` 
 The definition of A058227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 320 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A058227.P10901337134712234447
+
+`∑[(n+1)*∑[2^(n+2)]]`
+-/
+
+namespace A058227.P10901337134712234447
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ (n + 2)
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) * (∑ j ∈ Finset.range (n + 1), f2 j)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A058227.P10901337134712234447
+
+namespace A058227
+
+/-- `∑[(n+1)*∑[2^(n+2)]]` -/
+def P10901337134712234447.Spec : Prop :=
+  ∀ n, (P10901337134712234447.a n : ℤ) = A058227 (n + 1)
+
+end A058227
+
 /-! ## A058227.P12608627332927567765
 
 `floor(∑[(n+1)*∑[2*a(n-1)]])` with `a(0)=4`
@@ -2931,46 +2978,6 @@ def P11299073305986486307.Spec : Prop :=
 theorem P11299073305986486307.correct : P11299073305986486307.Spec := by
   intro n
   simp only [A058227, Nat.add_sub_cancel]
-
-end A058227
-
-/-! ## A058227.P5715199681517404241
-
-`(8*(n+1)-8)*2^(n+1)-2*(n+1)²-2*(n+1)+8`
--/
-
-namespace A058227.P5715199681517404241
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((8 * (n + 1) : ℤ) - 8) * (2 ^ (n + 1) : ℤ) - (2 * (n + 1) ^ 2 : ℤ) - (2 * (n + 1) : ℤ) + 8
-
-end
-
-end A058227.P5715199681517404241
-
-namespace A058227
-
-/-- `(8*(n+1)-8)*2^(n+1)-2*(n+1)²-2*(n+1)+8` -/
-def P5715199681517404241.Spec : Prop :=
-  ∀ n, P5715199681517404241.a n = A058227 (n + 1)
-
-theorem P5715199681517404241.correct : P5715199681517404241.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 =>
-      simp [A058227, Nat.add_sub_cancel, A058227.P5715199681517404241.a, A058227.P11299073305986486307.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 1 =>
-      have h1 := ih m (by omega)
-      simp only [A058227, Nat.add_sub_cancel, A058227.P5715199681517404241.a, A058227.P11299073305986486307.a, SequenceMachineLib.memo_apply] at h1 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
-      push_cast at h1 ⊢
-      rw [← h1]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A058227
 

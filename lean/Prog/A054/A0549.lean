@@ -44,9 +44,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -79,6 +79,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -2641,6 +2642,32 @@ namespace A054925
 /-- `round((n²/xor(1, 2*n))²)` -/
 def P11540088909501021327.Spec : Prop :=
   ∀ n, P11540088909501021327.a n = A054925 n
+
+end A054925
+
+/-! ## A054925.P3744530845205260744
+
+`round(cot(2/∑[n+1])-n)`
+-/
+
+namespace A054925.P3744530845205260744
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (Real.cot (2 / ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ) : ℝ) - (n : ℝ))
+
+end
+
+end A054925.P3744530845205260744
+
+namespace A054925
+
+/-- `round(cot(2/∑[n+1])-n)` -/
+def P3744530845205260744.Spec : Prop :=
+  ∀ n, P3744530845205260744.a n = A054925 n
 
 end A054925
 
@@ -5751,6 +5778,36 @@ theorem P645230808875844543.correct : P645230808875844543.Spec := by
 
 end A054964
 
+/-! ## A054964.P4935471859521849482
+
+`∩[A002522(n), A373789(n+1)]`
+-/
+
+namespace A054964.P4935471859521849482
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002522 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A373789 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A054964.P4935471859521849482
+
+namespace A054964
+
+/-- `∩[A002522(n), A373789(n+1)]` -/
+def P4935471859521849482.Spec : Prop :=
+  ∀ n, (P4935471859521849482.a n : ℤ) = A054964 (n + 1)
+
+end A054964
+
 /-! ## A054964.P12370620145216164018
 
 `A391137(n+1)²+1`
@@ -5884,36 +5941,6 @@ namespace A054964
 /-- `∩[A055977(n+1), A002522(n)]` -/
 def P4113731620380978538.Spec : Prop :=
   ∀ n, (P4113731620380978538.a n : ℤ) = A054964 (n + 1)
-
-end A054964
-
-/-! ## A054964.P7683733380250572320
-
-`∩[A066050(n+1), A002522(n)]`
--/
-
-namespace A054964.P7683733380250572320
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066050 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002522 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A054964.P7683733380250572320
-
-namespace A054964
-
-/-- `∩[A066050(n+1), A002522(n)]` -/
-def P7683733380250572320.Spec : Prop :=
-  ∀ n, (P7683733380250572320.a n : ℤ) = A054964 (n + 1)
 
 end A054964
 
@@ -7739,19 +7766,19 @@ end
 
 end A054969.P12899258590846358367
 
-/-! ## A054969.P30718591228680175
+/-! ## A054969.P16833266450587481403
 
-`∩[A002113(n+1), n*A060747(n)]`
+`∩[A000384(n), A003098(n+1)]`
 -/
 
-namespace A054969.P30718591228680175
+namespace A054969.P16833266450587481403
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002113 (n + 1)
+  A000384 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A060747 n
+  A003098 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7759,7 +7786,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A054969.P30718591228680175
+end A054969.P16833266450587481403
 
 /-!
 # A054970: Index numbers for palindromic hexagonal numbers.
@@ -10928,6 +10955,28 @@ end A054993.P15722502331453003510
 The programs for A054994, there is no canonical definition to state claims against.
 -/
 
+/-! ## A054994.P14943028261063222821
+
+`∩[2*n+1, A336542(n+1)]`
+-/
+
+namespace A054994.P14943028261063222821
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336542 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A054994.P14943028261063222821
+
 /-! ## A054994.P5365279393242634351
 
 `record[A000265(A336542(n+1))]`
@@ -10999,24 +11048,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A054994.P4008309377421789402
-
-/-! ## A054994.P6309990136769992350
-
-`filter[A336542(n+1), A373136(#)]`
--/
-
-namespace A054994.P6309990136769992350
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336542 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A373136 (f1 j).toNat = 1) n)
-
-end
-
-end A054994.P6309990136769992350
 
 /-!
 # A054995: A version of Josephus problem: a(n) is the surviving integer under the following elimination process. Arrange 1,2,3,...,n in a circle, increasing clockwise. Starting with i=1, delete the integer two places clockwise from i. Repeat, counting two places from the next undeleted integer, until only one integer remains.

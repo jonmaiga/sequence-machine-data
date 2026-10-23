@@ -51,6 +51,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
@@ -2692,19 +2693,19 @@ end A089314
 The programs for A089316, there is no canonical definition to state claims against.
 -/
 
-/-! ## A089316.P1126010775295929089
+/-! ## A089316.P3365434031171714492
 
-`∩[A089360(n+1), A048399(n+2)]`
+`∩[A033088(n+1), A089360(n+1)]`
 -/
 
-namespace A089316.P1126010775295929089
+namespace A089316.P3365434031171714492
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089360 (n + 1)
+  A033088 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048399 (n + 2)
+  A089360 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2712,7 +2713,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A089316.P1126010775295929089
+end A089316.P3365434031171714492
+
+/-! ## A089316.P5629288926766382926
+
+`∩[A048399(n+1), A089360(n+1)]`
+-/
+
+namespace A089316.P5629288926766382926
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048399 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089360 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A089316.P5629288926766382926
 
 /-!
 # A089320: a(1) = 1, a(n) = smallest multiple of n using nonzero digits beginning with the digit reversal of a(n-1), if n is not == 0 (mod 10), else a(10^r*k) =10^r*{digit Reversal of a(10^r*k-1)}.
@@ -7673,7 +7696,7 @@ end A089382.P11213894698732224271
 /-!
 # A089383: Number of peaks at even level in all Schroeder paths (i.e., consisting of steps U=(1,1), D=(1,-1), H=(2,0) and never going below the axis) from (0,0) to (2n+4,0).
 
-The programs for A089383, the canonical program `A089383.P16769992240081267882` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089383 has offset 0).
+The programs for A089383, the canonical program `A089383.P16769992240081267882` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089383 has offset 0).
 
 The definition of A089383 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7682,7 +7705,7 @@ The definition of A089383 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A026002(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A089383
@@ -8661,6 +8684,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A089392.P1243962773532969629
+
+/-! ## A089392.P1920838937336765189
+
+`A037277(A089695(n+1))`
+-/
+
+namespace A089392.P1920838937336765189
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037277 (A089695 (n + 1)).toNat
+
+end
+
+end A089392.P1920838937336765189
 
 /-!
 # A089394: Largest n-digit member of A089392, or 0 if there is no such n-digit term.

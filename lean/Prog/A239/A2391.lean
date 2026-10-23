@@ -17,7 +17,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -54,7 +53,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -3507,6 +3505,28 @@ end
 
 end A239138.P13872192571812500050
 
+/-! ## A239138.P11181475941723290599
+
+`∩[A051885(n), A076643(n+1)]`
+-/
+
+namespace A239138.P11181475941723290599
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051885 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076643 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239138.P11181475941723290599
+
 /-! ## A239138.P348820284569528511
 
 `∩[A160818(n+1), A051885(n)]`
@@ -3550,24 +3570,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A239138.P711379326949107582
-
-/-! ## A239138.P13992781561142035014
-
-`A010785(∑[(3^A161111(n+1))²])`
--/
-
-namespace A239138.P13992781561142035014
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((3 : ℚ) ^ (A161111 (n + 1) : ℤ)) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010785 (SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A239138.P13992781561142035014
 
 /-!
 # A239139: The sequence S = a(1), a(2), ... is defined by a(1)=1, if d,e,f are consecutive decimal digits then we do not have d <= e = f, and S is always extended with the smallest integer not yet present in S.

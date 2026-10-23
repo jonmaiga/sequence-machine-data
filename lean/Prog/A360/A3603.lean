@@ -88,6 +88,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A360300: a(n) is the least term in the n-th row of A360298.
@@ -2247,6 +2248,36 @@ namespace A360332
 /-- `∩[A087245(n+1), A320628(n+1)]` -/
 def P8738818339206898192.Spec : Prop :=
   ∀ n, (P8738818339206898192.a n : ℤ) = A360332 (n + 1)
+
+end A360332
+
+/-! ## A360332.P5173407136447814539
+
+`∩[A320628(n+1), A395014(n+1)]`
+-/
+
+namespace A360332.P5173407136447814539
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320628 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A395014 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360332.P5173407136447814539
+
+namespace A360332
+
+/-- `∩[A320628(n+1), A395014(n+1)]` -/
+def P5173407136447814539.Spec : Prop :=
+  ∀ n, (P5173407136447814539.a n : ℤ) = A360332 (n + 1)
 
 end A360332
 
@@ -5751,6 +5782,36 @@ def P1701064018632553590.Spec : Prop :=
 theorem P1701064018632553590.correct : P1701064018632553590.Spec := by
   intro n
   simp only [A360393, Nat.add_sub_cancel]
+
+end A360393
+
+/-! ## A360393.P1023920978007642932
+
+`∪[A360403(n+1), A360405(n+1)]`
+-/
+
+namespace A360393.P1023920978007642932
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360403 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360405 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360393.P1023920978007642932
+
+namespace A360393
+
+/-- `∪[A360403(n+1), A360405(n+1)]` -/
+def P1023920978007642932.Spec : Prop :=
+  ∀ n, (P1023920978007642932.a n : ℤ) = A360393 (n + 1)
 
 end A360393
 

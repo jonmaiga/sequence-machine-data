@@ -1955,6 +1955,28 @@ end A376856.P2338730869102015661
 The programs for A376857, there is no canonical definition to state claims against.
 -/
 
+/-! ## A376857.P11146247838532625083
+
+`∩[2*n+1, A235028(n+1)]`
+-/
+
+namespace A376857.P11146247838532625083
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235028 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376857.P11146247838532625083
+
 /-! ## A376857.P16259978616029845452
 
 `∩[A235028(n+1), A060747(n)]`
@@ -3188,6 +3210,28 @@ end
 
 end A376877.P8988619689238810682
 
+/-! ## A376877.P8278584746057208550
+
+`∩[A259231(n+1), A376881(n+1)]`
+-/
+
+namespace A376877.P8278584746057208550
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259231 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376881 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376877.P8278584746057208550
+
 /-! ## A376877.P3152516788514044354
 
 `∩[2*A166402(n+1), A376881(n+1)]`
@@ -3326,6 +3370,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376879.P6092334411249240494
+
+/-!
+# A376881: Numbers that have exactly one Zumkeller divisor.
+
+The programs for A376881, there is no canonical definition to state claims against.
+-/
+
+/-! ## A376881.P13913406467703927439
+
+`∪[A180332(n+1), A376877(n+1)]`
+-/
+
+namespace A376881.P13913406467703927439
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180332 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376877 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376881.P13913406467703927439
 
 /-!
 # A376882: a(n) is the product of the Zumkeller divisors of n.

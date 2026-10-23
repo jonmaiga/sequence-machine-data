@@ -50,6 +50,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
@@ -58,7 +59,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -513,7 +513,7 @@ end A305005.P5262428729803294725
 /-!
 # A305006: Numerators of coefficients in expansion of Sum_{k>=1} x^k/(k*(1 + x^k)).
 
-The programs for A305006, the canonical program `A305006.P10100576833363132034` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305006 has offset 1).
+The programs for A305006, the canonical program `A305006.P10100576833363132034` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305006 has offset 1).
 
 The definition of A305006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -545,7 +545,7 @@ end A305006
 
 `lcm((n+1)², A326238(n+1))/A162395(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A305006
@@ -6837,6 +6837,29 @@ theorem P10479033954878364053.correct : P10479033954878364053.Spec := by
 
 end A305071
 
+/-! ## A305071.P7947201040491927467
+
+`9*A304503(2*n+1)`
+-/
+
+namespace A305071.P7947201040491927467
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  9 * A304503 (2 * n + 1)
+
+end
+
+end A305071.P7947201040491927467
+
+namespace A305071
+
+/-- `9*A304503(2*n+1)` -/
+def P7947201040491927467.Spec : Prop :=
+  ∀ n, P7947201040491927467.a n = A305071 (n + 1)
+
+end A305071
+
 /-! ## A305071.P14025395413374373379
 
 `lcm(A008591(A008588(n+1)), A051866(3*(n+1)))`
@@ -8245,19 +8268,19 @@ end
 
 end A305078.P16985477906402658821
 
-/-! ## A305078.P11309694152477777481
+/-! ## A305078.P11880128631802174308
 
-`∪[A318978(n+1), A042988(n)]`
+`∪[A037028(n), A318978(n+1)]`
 -/
 
-namespace A305078.P11309694152477777481
+namespace A305078.P11880128631802174308
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318978 (n + 1)
+  A037028 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042988 n
+  A318978 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8265,7 +8288,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A305078.P11309694152477777481
+end A305078.P11880128631802174308
 
 /-!
 # A305079: Number of connected components of the integer partition with Heinz number n.

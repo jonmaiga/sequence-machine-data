@@ -36,6 +36,7 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -2935,6 +2936,28 @@ end
 
 end A119152.P371037710122841141
 
+/-! ## A119152.P11393027478932241540
+
+`∩[A111483(n+1), A247016(n+1)]`
+-/
+
+namespace A119152.P11393027478932241540
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111483 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247016 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A119152.P11393027478932241540
+
 /-! ## A119152.P16676802019546857832
 
 `A161680(A119153(n+1)+1)`
@@ -2979,21 +3002,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119152.P8307303168045859004
-
-/-! ## A119152.P143820962734958115
-
-`A000124(A119153(n+1))-A085094(n+1)`
--/
-
-namespace A119152.P143820962734958115
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000124 (A119153 (n + 1)).toNat - A085094 (n + 1)
-
-end
-
-end A119152.P143820962734958115
 
 /-!
 # A119153: Numbers k such that the k-th triangular number contains only digits {2,3,5}.

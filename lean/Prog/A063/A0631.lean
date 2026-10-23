@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -77,6 +78,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -85,6 +87,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -734,6 +737,29 @@ namespace A063102
 /-- `A272574(A063109(n+1))` -/
 def P6906079000188549474.Spec : Prop :=
   ∀ n, P6906079000188549474.a n = A063102 (n + 1)
+
+end A063102
+
+/-! ## A063102.P16778529399975065135
+
+`A213222(A017197(n))`
+-/
+
+namespace A063102.P16778529399975065135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A213222 (A017197 n).toNat
+
+end
+
+end A063102.P16778529399975065135
+
+namespace A063102
+
+/-- `A213222(A017197(n))` -/
+def P16778529399975065135.Spec : Prop :=
+  ∀ n, P16778529399975065135.a n = A063102 (n + 1)
 
 end A063102
 
@@ -2324,6 +2350,29 @@ def P4663239754818179814.Spec : Prop :=
 
 end A063109
 
+/-! ## A063109.P5220167695744351460
+
+`A032796(A063225(n+1))`
+-/
+
+namespace A063109.P5220167695744351460
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032796 (A063225 (n + 1)).toNat
+
+end
+
+end A063109.P5220167695744351460
+
+namespace A063109
+
+/-- `A032796(A063225(n+1))` -/
+def P5220167695744351460.Spec : Prop :=
+  ∀ n, P5220167695744351460.a n = A063109 (n + 1)
+
+end A063109
+
 /-!
 # A063110: Dimension of the space of weight 2n cusp forms for Gamma_0(42).
 
@@ -3683,6 +3732,29 @@ def P16029034323581562445.Spec : Prop :=
 
 end A063117
 
+/-! ## A063117.P8676332086219712327
+
+`A063200(A016993(n))`
+-/
+
+namespace A063117.P8676332086219712327
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063200 (A016993 n).toNat
+
+end
+
+end A063117.P8676332086219712327
+
+namespace A063117
+
+/-- `A063200(A016993(n))` -/
+def P8676332086219712327.Spec : Prop :=
+  ∀ n, P8676332086219712327.a n = A063117 (n + 1)
+
+end A063117
+
 /-!
 # A063118: Dimension of the space of weight 2n cusp forms for Gamma_0(50).
 
@@ -4726,28 +4798,51 @@ def P13603993250648153298.Spec : Prop :=
 
 end A063121
 
+/-! ## A063121.P11721569913687746165
+
+`A286717(A063126(n+1))`
+-/
+
+namespace A063121.P11721569913687746165
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286717 (A063126 (n + 1)).toNat
+
+end
+
+end A063121.P11721569913687746165
+
+namespace A063121
+
+/-- `A286717(A063126(n+1))` -/
+def P11721569913687746165.Spec : Prop :=
+  ∀ n, P11721569913687746165.a n = A063121 (n + 1)
+
+end A063121
+
 /-!
 # A063122: Dimension of the space of weight 2n cusp forms for Gamma_0( 54 ).
 
-The programs for A063122, the canonical program `A063122.P4240174489197770674` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063122 has offset 1).
+The programs for A063122, the canonical program `A063122.P2756250505962267534` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063122 has offset 1).
 
 The definition of A063122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063122.P4240174489197770674
+/-! ## A063122.P2756250505962267534
 
-`2*a(n-1)-a(n-2)` with `a(0)=4, a(1)=21, a(2)=39`
+`a(n-1)+18` with `a(0)=4, a(1)=21`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063122
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P4240174489197770674.Spec : Prop :=
-  ∀ n, P4240174489197770674.a n = A063122 (n + 1)
+/-- `a(n-1)+18` -/
+def P2756250505962267534.Spec : Prop :=
+  ∀ n, (P2756250505962267534.a n : ℤ) = A063122 (n + 1)
 
-theorem P4240174489197770674.correct : P4240174489197770674.Spec := by
+theorem P2756250505962267534.correct : P2756250505962267534.Spec := by
   intro n
   simp only [A063122, Nat.add_sub_cancel]
 
@@ -6739,25 +6834,25 @@ end A063127.P4180015579044545867
 /-!
 # A063128: Dimension of the space of weight 2n cusp forms for Gamma_0( 60 ).
 
-The programs for A063128, the canonical program `A063128.P6793723203641550776` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063128 has offset 1).
+The programs for A063128, the canonical program `A063128.P6589004412541203115` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063128 has offset 1).
 
 The definition of A063128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063128.P6793723203641550776
+/-! ## A063128.P6589004412541203115
 
-`2*a(n-1)-a(n-2)` with `a(0)=7, a(1)=30, a(2)=54`
+`a(n-1)+24` with `a(0)=7, a(1)=30`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063128
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P6793723203641550776.Spec : Prop :=
-  ∀ n, P6793723203641550776.a n = A063128 (n + 1)
+/-- `a(n-1)+24` -/
+def P6589004412541203115.Spec : Prop :=
+  ∀ n, (P6589004412541203115.a n : ℤ) = A063128 (n + 1)
 
-theorem P6793723203641550776.correct : P6793723203641550776.Spec := by
+theorem P6589004412541203115.correct : P6589004412541203115.Spec := by
   intro n
   simp only [A063128, Nat.add_sub_cancel]
 
@@ -7233,25 +7328,25 @@ end A063129
 /-!
 # A063130: Dimension of the space of weight 2n cusp forms for Gamma_0( 62 ).
 
-The programs for A063130, the canonical program `A063130.P8116584610371056665` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063130 has offset 1).
+The programs for A063130, the canonical program `A063130.P16173570973012781931` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063130 has offset 1).
 
 The definition of A063130 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063130.P8116584610371056665
+/-! ## A063130.P16173570973012781931
 
-`2*a(n-1)-a(n-2)` with `a(0)=7, a(1)=22, a(2)=38`
+`a(n-1)+16` with `a(0)=7, a(1)=22`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063130
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P8116584610371056665.Spec : Prop :=
-  ∀ n, P8116584610371056665.a n = A063130 (n + 1)
+/-- `a(n-1)+16` -/
+def P16173570973012781931.Spec : Prop :=
+  ∀ n, (P16173570973012781931.a n : ℤ) = A063130 (n + 1)
 
-theorem P8116584610371056665.correct : P8116584610371056665.Spec := by
+theorem P16173570973012781931.correct : P16173570973012781931.Spec := by
   intro n
   simp only [A063130, Nat.add_sub_cancel]
 
@@ -7841,28 +7936,51 @@ def P3137329975259592875.Spec : Prop :=
 
 end A063133
 
+/-! ## A063133.P3414156471475842950
+
+`A063150(n+1)-A113804(n+1)`
+-/
+
+namespace A063133.P3414156471475842950
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063150 (n + 1) - A113804 (n + 1)
+
+end
+
+end A063133.P3414156471475842950
+
+namespace A063133
+
+/-- `A063150(n+1)-A113804(n+1)` -/
+def P3414156471475842950.Spec : Prop :=
+  ∀ n, P3414156471475842950.a n = A063133 (n + 1)
+
+end A063133
+
 /-!
 # A063134: Dimension of the space of weight 2n cusp forms for Gamma_0( 66 ).
 
-The programs for A063134, the canonical program `A063134.P1965107205420115132` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063134 has offset 1).
+The programs for A063134, the canonical program `A063134.P9836581716311842226` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063134 has offset 1).
 
 The definition of A063134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063134.P1965107205420115132
+/-! ## A063134.P9836581716311842226
 
-`2*a(n-1)-a(n-2)` with `a(0)=9, a(1)=32, a(2)=56`
+`a(n-1)+24` with `a(0)=9, a(1)=32`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063134
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P1965107205420115132.Spec : Prop :=
-  ∀ n, P1965107205420115132.a n = A063134 (n + 1)
+/-- `a(n-1)+24` -/
+def P9836581716311842226.Spec : Prop :=
+  ∀ n, (P9836581716311842226.a n : ℤ) = A063134 (n + 1)
 
-theorem P1965107205420115132.correct : P1965107205420115132.Spec := by
+theorem P9836581716311842226.correct : P9836581716311842226.Spec := by
   intro n
   simp only [A063134, Nat.add_sub_cancel]
 
@@ -8357,25 +8475,25 @@ end A063135
 /-!
 # A063136: Dimension of the space of weight 2n cusp forms for Gamma_0( 68 ).
 
-The programs for A063136, the canonical program `A063136.P3616126280165761000` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063136 has offset 1).
+The programs for A063136, the canonical program `A063136.P10578827165405959575` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063136 has offset 1).
 
 The definition of A063136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063136.P3616126280165761000
+/-! ## A063136.P10578827165405959575
 
-`2*a(n-1)-a(n-2)` with `a(0)=7, a(1)=24, a(2)=42`
+`a(n-1)+18` with `a(0)=7, a(1)=24`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063136
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P3616126280165761000.Spec : Prop :=
-  ∀ n, P3616126280165761000.a n = A063136 (n + 1)
+/-- `a(n-1)+18` -/
+def P10578827165405959575.Spec : Prop :=
+  ∀ n, (P10578827165405959575.a n : ℤ) = A063136 (n + 1)
 
-theorem P3616126280165761000.correct : P3616126280165761000.Spec := by
+theorem P10578827165405959575.correct : P10578827165405959575.Spec := by
   intro n
   simp only [A063136, Nat.add_sub_cancel]
 
@@ -8559,28 +8677,72 @@ end
 
 end A063139.P10769183879232778823
 
+/-! ## A063139.P8624166415171480891
+
+`∩[A372439(n+1), A389917(n+1)]`
+-/
+
+namespace A063139.P8624166415171480891
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372439 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389917 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063139.P8624166415171480891
+
+/-! ## A063139.P14812807921762276043
+
+`∩[A114886(n+1), A389917(n+1)]`
+-/
+
+namespace A063139.P14812807921762276043
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114886 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389917 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063139.P14812807921762276043
+
 /-!
 # A063140: Dimension of the space of weight 2n cusp forms for Gamma_0( 72 ).
 
-The programs for A063140, the canonical program `A063140.P17241022707087559536` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063140 has offset 1).
+The programs for A063140, the canonical program `A063140.P4322434646653930374` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063140 has offset 1).
 
 The definition of A063140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063140.P17241022707087559536
+/-! ## A063140.P4322434646653930374
 
-`2*a(n-1)-a(n-2)` with `a(0)=5, a(1)=28, a(2)=52`
+`a(n-1)+24` with `a(0)=5, a(1)=28`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063140
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P17241022707087559536.Spec : Prop :=
-  ∀ n, P17241022707087559536.a n = A063140 (n + 1)
+/-- `a(n-1)+24` -/
+def P4322434646653930374.Spec : Prop :=
+  ∀ n, (P4322434646653930374.a n : ℤ) = A063140 (n + 1)
 
-theorem P17241022707087559536.correct : P17241022707087559536.Spec := by
+theorem P4322434646653930374.correct : P4322434646653930374.Spec := by
   intro n
   simp only [A063140, Nat.add_sub_cancel]
 
@@ -9167,25 +9329,25 @@ end A063142
 /-!
 # A063143: Dimension of the space of weight 2n cusp forms for Gamma_0( 75 ).
 
-The programs for A063143, the canonical program `A063143.P11237709998098837530` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063143 has offset 1).
+The programs for A063143, the canonical program `A063143.P4759093904244919223` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063143 has offset 1).
 
 The definition of A063143 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063143.P11237709998098837530
+/-! ## A063143.P4759093904244919223
 
-`2*a(n-1)-a(n-2)` with `a(0)=5, a(1)=24, a(2)=44`
+`a(n-1)+20` with `a(0)=5, a(1)=24`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063143
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P11237709998098837530.Spec : Prop :=
-  ∀ n, P11237709998098837530.a n = A063143 (n + 1)
+/-- `a(n-1)+20` -/
+def P4759093904244919223.Spec : Prop :=
+  ∀ n, (P4759093904244919223.a n : ℤ) = A063143 (n + 1)
 
-theorem P11237709998098837530.correct : P11237709998098837530.Spec := by
+theorem P4759093904244919223.correct : P4759093904244919223.Spec := by
   intro n
   simp only [A063143, Nat.add_sub_cancel]
 
@@ -9194,25 +9356,25 @@ end A063143
 /-!
 # A063144: Dimension of the space of weight 2n cusp forms for Gamma_0( 76 ).
 
-The programs for A063144, the canonical program `A063144.P6741670271126821195` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063144 has offset 1).
+The programs for A063144, the canonical program `A063144.P16732099207904328805` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063144 has offset 1).
 
 The definition of A063144 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063144.P6741670271126821195
+/-! ## A063144.P16732099207904328805
 
-`2*a(n-1)-a(n-2)` with `a(0)=8, a(1)=27, a(2)=47`
+`a(n-1)+20` with `a(0)=8, a(1)=27`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063144
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P6741670271126821195.Spec : Prop :=
-  ∀ n, P6741670271126821195.a n = A063144 (n + 1)
+/-- `a(n-1)+20` -/
+def P16732099207904328805.Spec : Prop :=
+  ∀ n, (P16732099207904328805.a n : ℤ) = A063144 (n + 1)
 
-theorem P6741670271126821195.correct : P6741670271126821195.Spec := by
+theorem P16732099207904328805.correct : P16732099207904328805.Spec := by
   intro n
   simp only [A063144, Nat.add_sub_cancel]
 
@@ -9221,25 +9383,25 @@ end A063144
 /-!
 # A063146: Dimension of the space of weight 2n cusp forms for Gamma_0( 78 ).
 
-The programs for A063146, the canonical program `A063146.P11565290397261738495` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063146 has offset 1).
+The programs for A063146, the canonical program `A063146.P12990539570596953237` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063146 has offset 1).
 
 The definition of A063146 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063146.P11565290397261738495
+/-! ## A063146.P12990539570596953237
 
-`2*a(n-1)-a(n-2)` with `a(0)=11, a(1)=38, a(2)=66`
+`a(n-1)+28` with `a(0)=11, a(1)=38`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063146
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P11565290397261738495.Spec : Prop :=
-  ∀ n, P11565290397261738495.a n = A063146 (n + 1)
+/-- `a(n-1)+28` -/
+def P12990539570596953237.Spec : Prop :=
+  ∀ n, (P12990539570596953237.a n : ℤ) = A063146 (n + 1)
 
-theorem P11565290397261738495.correct : P11565290397261738495.Spec := by
+theorem P12990539570596953237.correct : P12990539570596953237.Spec := by
   intro n
   simp only [A063146, Nat.add_sub_cancel]
 
@@ -10386,25 +10548,25 @@ end A063150
 /-!
 # A063151: Dimension of the space of weight 2n cusp forms for Gamma_0( 83 ).
 
-The programs for A063151, the canonical program `A063151.P4761982576470019004` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063151 has offset 1).
+The programs for A063151, the canonical program `A063151.P4873048449995581787` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063151 has offset 1).
 
 The definition of A063151 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063151.P4761982576470019004
+/-! ## A063151.P4873048449995581787
 
-`2*a(n-1)-a(n-2)` with `a(0)=7, a(1)=20, a(2)=34`
+`a(n-1)+14` with `a(0)=7, a(1)=20`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063151
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P4761982576470019004.Spec : Prop :=
-  ∀ n, P4761982576470019004.a n = A063151 (n + 1)
+/-- `a(n-1)+14` -/
+def P4873048449995581787.Spec : Prop :=
+  ∀ n, (P4873048449995581787.a n : ℤ) = A063151 (n + 1)
 
-theorem P4761982576470019004.correct : P4761982576470019004.Spec := by
+theorem P4873048449995581787.correct : P4873048449995581787.Spec := by
   intro n
   simp only [A063151, Nat.add_sub_cancel]
 
@@ -10413,25 +10575,25 @@ end A063151
 /-!
 # A063152: Dimension of the space of weight 2n cusp forms for Gamma_0( 84 ).
 
-The programs for A063152, the canonical program `A063152.P13669433527835332582` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063152 has offset 1).
+The programs for A063152, the canonical program `A063152.P12161494883013233756` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063152 has offset 1).
 
 The definition of A063152 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063152.P13669433527835332582
+/-! ## A063152.P12161494883013233756
 
-`2*a(n-1)-a(n-2)` with `a(0)=11, a(1)=42, a(2)=74`
+`a(n-1)+32` with `a(0)=11, a(1)=42`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063152
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P13669433527835332582.Spec : Prop :=
-  ∀ n, P13669433527835332582.a n = A063152 (n + 1)
+/-- `a(n-1)+32` -/
+def P12161494883013233756.Spec : Prop :=
+  ∀ n, (P12161494883013233756.a n : ℤ) = A063152 (n + 1)
 
-theorem P13669433527835332582.correct : P13669433527835332582.Spec := by
+theorem P12161494883013233756.correct : P12161494883013233756.Spec := by
   intro n
   simp only [A063152, Nat.add_sub_cancel]
 
@@ -10894,28 +11056,51 @@ def P13458398727094098808.Spec : Prop :=
 
 end A063153
 
+/-! ## A063153.P8976802912492576990
+
+`A063154(n+1)-A047621(n+1)`
+-/
+
+namespace A063153.P8976802912492576990
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063154 (n + 1) - A047621 (n + 1)
+
+end
+
+end A063153.P8976802912492576990
+
+namespace A063153
+
+/-- `A063154(n+1)-A047621(n+1)` -/
+def P8976802912492576990.Spec : Prop :=
+  ∀ n, P8976802912492576990.a n = A063153 (n + 1)
+
+end A063153
+
 /-!
 # A063154: Dimension of the space of weight 2n cusp forms for Gamma_0( 86 ).
 
-The programs for A063154, the canonical program `A063154.P16871946908456581068` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063154 has offset 1).
+The programs for A063154, the canonical program `A063154.P15660357612039554166` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063154 has offset 1).
 
 The definition of A063154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063154.P16871946908456581068
+/-! ## A063154.P15660357612039554166
 
-`2*a(n-1)-a(n-2)` with `a(0)=10, a(1)=31, a(2)=53`
+`a(n-1)+22` with `a(0)=10, a(1)=31`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063154
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P16871946908456581068.Spec : Prop :=
-  ∀ n, P16871946908456581068.a n = A063154 (n + 1)
+/-- `a(n-1)+22` -/
+def P15660357612039554166.Spec : Prop :=
+  ∀ n, (P15660357612039554166.a n : ℤ) = A063154 (n + 1)
 
-theorem P16871946908456581068.correct : P16871946908456581068.Spec := by
+theorem P15660357612039554166.correct : P15660357612039554166.Spec := by
   intro n
   simp only [A063154, Nat.add_sub_cancel]
 
@@ -10924,25 +11109,25 @@ end A063154
 /-!
 # A063155: Dimension of the space of weight 2n cusp forms for Gamma_0( 87 ).
 
-The programs for A063155, the canonical program `A063155.P6839356519906210139` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063155 has offset 1).
+The programs for A063155, the canonical program `A063155.P5258305287720346762` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063155 has offset 1).
 
 The definition of A063155 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063155.P6839356519906210139
+/-! ## A063155.P5258305287720346762
 
-`2*a(n-1)-a(n-2)` with `a(0)=9, a(1)=28, a(2)=48`
+`a(n-1)+20` with `a(0)=9, a(1)=28`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063155
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P6839356519906210139.Spec : Prop :=
-  ∀ n, P6839356519906210139.a n = A063155 (n + 1)
+/-- `a(n-1)+20` -/
+def P5258305287720346762.Spec : Prop :=
+  ∀ n, (P5258305287720346762.a n : ℤ) = A063155 (n + 1)
 
-theorem P6839356519906210139.correct : P6839356519906210139.Spec := by
+theorem P5258305287720346762.correct : P5258305287720346762.Spec := by
   intro n
   simp only [A063155, Nat.add_sub_cancel]
 
@@ -11274,25 +11459,25 @@ end A063157
 /-!
 # A063158: Dimension of the space of weight 2n cusp forms for Gamma_0( 90 ).
 
-The programs for A063158, the canonical program `A063158.P4747929295774593561` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063158 has offset 1).
+The programs for A063158, the canonical program `A063158.P4275219641059290703` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063158 has offset 1).
 
 The definition of A063158 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063158.P4747929295774593561
+/-! ## A063158.P4275219641059290703
 
-`2*a(n-1)-a(n-2)` with `a(0)=11, a(1)=46, a(2)=82`
+`a(n-1)+36` with `a(0)=11, a(1)=46`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063158
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P4747929295774593561.Spec : Prop :=
-  ∀ n, P4747929295774593561.a n = A063158 (n + 1)
+/-- `a(n-1)+36` -/
+def P4275219641059290703.Spec : Prop :=
+  ∀ n, (P4275219641059290703.a n : ℤ) = A063158 (n + 1)
 
-theorem P4747929295774593561.correct : P4747929295774593561.Spec := by
+theorem P4275219641059290703.correct : P4275219641059290703.Spec := by
   intro n
   simp only [A063158, Nat.add_sub_cancel]
 
@@ -11660,25 +11845,25 @@ end A063159
 /-!
 # A063160: Dimension of the space of weight 2n cusp forms for Gamma_0( 92 ).
 
-The programs for A063160, the canonical program `A063160.P18167733328148420091` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063160 has offset 1).
+The programs for A063160, the canonical program `A063160.P1114631878864370510` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063160 has offset 1).
 
 The definition of A063160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063160.P18167733328148420091
+/-! ## A063160.P1114631878864370510
 
-`2*a(n-1)-a(n-2)` with `a(0)=10, a(1)=33, a(2)=57`
+`a(n-1)+24` with `a(0)=10, a(1)=33`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063160
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P18167733328148420091.Spec : Prop :=
-  ∀ n, P18167733328148420091.a n = A063160 (n + 1)
+/-- `a(n-1)+24` -/
+def P1114631878864370510.Spec : Prop :=
+  ∀ n, (P1114631878864370510.a n : ℤ) = A063160 (n + 1)
 
-theorem P18167733328148420091.correct : P18167733328148420091.Spec := by
+theorem P1114631878864370510.correct : P1114631878864370510.Spec := by
   intro n
   simp only [A063160, Nat.add_sub_cancel]
 
@@ -12151,25 +12336,25 @@ end A063161
 /-!
 # A063162: Dimension of the space of weight 2n cusp forms for Gamma_0( 94 ).
 
-The programs for A063162, the canonical program `A063162.P6996180765914314155` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063162 has offset 1).
+The programs for A063162, the canonical program `A063162.P12810609293764076423` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063162 has offset 1).
 
 The definition of A063162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063162.P6996180765914314155
+/-! ## A063162.P12810609293764076423
 
-`2*a(n-1)-a(n-2)` with `a(0)=11, a(1)=34, a(2)=58`
+`a(n-1)+24` with `a(0)=11, a(1)=34`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063162
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P6996180765914314155.Spec : Prop :=
-  ∀ n, P6996180765914314155.a n = A063162 (n + 1)
+/-- `a(n-1)+24` -/
+def P12810609293764076423.Spec : Prop :=
+  ∀ n, (P12810609293764076423.a n : ℤ) = A063162 (n + 1)
 
-theorem P6996180765914314155.correct : P6996180765914314155.Spec := by
+theorem P12810609293764076423.correct : P12810609293764076423.Spec := by
   intro n
   simp only [A063162, Nat.add_sub_cancel]
 
@@ -12259,25 +12444,25 @@ end A063163.P17783276476761192320
 /-!
 # A063164: Dimension of the space of weight 2n cusp forms for Gamma_0( 96 ).
 
-The programs for A063164, the canonical program `A063164.P16353583560042366254` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063164 has offset 1).
+The programs for A063164, the canonical program `A063164.P7308328804671390351` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063164 has offset 1).
 
 The definition of A063164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063164.P16353583560042366254
+/-! ## A063164.P7308328804671390351
 
-`2*a(n-1)-a(n-2)` with `a(0)=9, a(1)=40, a(2)=72`
+`a(n-1)+32` with `a(0)=9, a(1)=40`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063164
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P16353583560042366254.Spec : Prop :=
-  ∀ n, P16353583560042366254.a n = A063164 (n + 1)
+/-- `a(n-1)+32` -/
+def P7308328804671390351.Spec : Prop :=
+  ∀ n, (P7308328804671390351.a n : ℤ) = A063164 (n + 1)
 
-theorem P16353583560042366254.correct : P16353583560042366254.Spec := by
+theorem P7308328804671390351.correct : P7308328804671390351.Spec := by
   intro n
   simp only [A063164, Nat.add_sub_cancel]
 
@@ -12641,25 +12826,25 @@ end A063165
 /-!
 # A063166: Dimension of the space of weight 2n cusp forms for Gamma_0( 98 ).
 
-The programs for A063166, the canonical program `A063166.P3730503641675669758` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063166 has offset 1).
+The programs for A063166, the canonical program `A063166.P3560219568074107896` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063166 has offset 1).
 
 The definition of A063166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A063166.P3730503641675669758
+/-! ## A063166.P3560219568074107896
 
-`2*a(n-1)-a(n-2)` with `a(0)=7, a(1)=34, a(2)=62`
+`a(n-1)+28` with `a(0)=7, a(1)=34`
 
 The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A063166
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P3730503641675669758.Spec : Prop :=
-  ∀ n, P3730503641675669758.a n = A063166 (n + 1)
+/-- `a(n-1)+28` -/
+def P3560219568074107896.Spec : Prop :=
+  ∀ n, (P3560219568074107896.a n : ℤ) = A063166 (n + 1)
 
-theorem P3730503641675669758.correct : P3730503641675669758.Spec := by
+theorem P3560219568074107896.correct : P3560219568074107896.Spec := by
   intro n
   simp only [A063166, Nat.add_sub_cancel]
 
@@ -15392,6 +15577,75 @@ namespace A063197
 /-- `floor(A001068(comp[4*n])/2)` -/
 def P9257976349858095482.Spec : Prop :=
   ∀ n, P9257976349858095482.a n = A063197 (n + 1)
+
+end A063197
+
+/-! ## A063197.P12066105174537506899
+
+`A057361(A042968(n+1))`
+-/
+
+namespace A063197.P12066105174537506899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057361 (A042968 (n + 1)).toNat
+
+end
+
+end A063197.P12066105174537506899
+
+namespace A063197
+
+/-- `A057361(A042968(n+1))` -/
+def P12066105174537506899.Spec : Prop :=
+  ∀ n, P12066105174537506899.a n = A063197 (n + 1)
+
+end A063197
+
+/-! ## A063197.P11806318659292601067
+
+`A057361(A047587(n+1))`
+-/
+
+namespace A063197.P11806318659292601067
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057361 (A047587 (n + 1)).toNat
+
+end
+
+end A063197.P11806318659292601067
+
+namespace A063197
+
+/-- `A057361(A047587(n+1))` -/
+def P11806318659292601067.Spec : Prop :=
+  ∀ n, P11806318659292601067.a n = A063197 (n + 1)
+
+end A063197
+
+/-! ## A063197.P6108786823224180889
+
+`A057361(A002264(n)+n+1)`
+-/
+
+namespace A063197.P6108786823224180889
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057361 (A002264 n + (n + 1 : ℤ)).toNat
+
+end
+
+end A063197.P6108786823224180889
+
+namespace A063197
+
+/-- `A057361(A002264(n)+n+1)` -/
+def P6108786823224180889.Spec : Prop :=
+  ∀ n, P6108786823224180889.a n = A063197 (n + 1)
 
 end A063197
 

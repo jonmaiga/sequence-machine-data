@@ -858,7 +858,7 @@ end A353217.P13468330036700624534
 /-!
 # A353219: Positive integers which cannot be expressed as the sum of three or fewer squares, no more than two of which are greater than 1.
 
-The programs for A353219, the canonical program `A353219.P7197214775389791693` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353219 has offset 1).
+The programs for A353219, the canonical program `A353219.P7197214775389791693` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353219 has offset 1).
 
 The definition of A353219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -867,7 +867,7 @@ The definition of A353219 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A022544(n+1)+1, A022544(n+1)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A353219

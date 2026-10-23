@@ -49,7 +49,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1276,6 +1275,28 @@ end A271815.P12044008723824730337
 The programs for A271816, there is no canonical definition to state claims against.
 -/
 
+/-! ## A271816.P14903171599718535001
+
+`∪[A000079(n), A060326(n+1)]`
+-/
+
+namespace A271816.P14903171599718535001
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060326 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A271816.P14903171599718535001
+
 /-! ## A271816.P1553406041122840562
 
 `∩[A097498(n+1), A222264(n+1)]`
@@ -1297,6 +1318,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A271816.P1553406041122840562
+
+/-! ## A271816.P6464752888928531723
+
+`∩[A097498(n+1), A240073(n+1)]`
+-/
+
+namespace A271816.P6464752888928531723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097498 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240073 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A271816.P6464752888928531723
 
 /-! ## A271816.P1180125382213205880
 
@@ -1320,19 +1363,19 @@ end
 
 end A271816.P1180125382213205880
 
-/-! ## A271816.P9050628870502107496
+/-! ## A271816.P17310032053345468459
 
-`∩[A125732(n+1), A222264(n+1)]`
+`∩[A109884(n+1), A240073(n+1)]`
 -/
 
-namespace A271816.P9050628870502107496
+namespace A271816.P17310032053345468459
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125732 (n + 1)
+  A109884 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222264 (n + 1)
+  A240073 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1340,43 +1383,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A271816.P9050628870502107496
-
-/-! ## A271816.P10213274981795635365
-
-`record[A125746(A097498(n+1))]`
--/
-
-namespace A271816.P10213274981795635365
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125746 (A097498 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A271816.P10213274981795635365
-
-/-! ## A271816.P13235430658642820919
-
-`record[A125746(A109884(n+1))]`
--/
-
-namespace A271816.P13235430658642820919
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125746 (A109884 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A271816.P13235430658642820919
+end A271816.P17310032053345468459
 
 /-!
 # A271817: Smallest k > 1 such that none of k^2 + 0, k^2 + 1, k^2 + 2,..., k^2 + n are squarefree.

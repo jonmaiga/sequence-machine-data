@@ -6813,6 +6813,50 @@ end
 
 end A118882.P5808690368976286192
 
+/-! ## A118882.P4350188937446839918
+
+`∪[A007692(n+1), A232438(n+1)]`
+-/
+
+namespace A118882.P4350188937446839918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007692 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232438 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118882.P4350188937446839918
+
+/-! ## A118882.P11454553559192657312
+
+`∪[A024508(n+1), A232438(n+1)]`
+-/
+
+namespace A118882.P11454553559192657312
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024508 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232438 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118882.P11454553559192657312
+
 /-! ## A118882.P14314568038118446423
 
 `filter[A009177(n+1), A229062(#)]`
@@ -7126,48 +7170,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A118882.P3841062791610747544
-
-/-! ## A118882.P11471621736679993331
-
-`lt[2, A113446(n+1)]+1`
--/
-
-namespace A118882.P11471621736679993331
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A113446 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
-
-end
-
-end A118882.P11471621736679993331
-
-/-! ## A118882.P5722738350284064997
-
-`lt[2, A138950(n+1)]+1`
--/
-
-namespace A118882.P5722738350284064997
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138950 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
-
-end
-
-end A118882.P5722738350284064997
 
 /-!
 # A118883: Smallest prime p with bigomega(p+1)=n, where bigomega(m)=A001222(m) is the number of prime divisors of m (counted with multiplicity).

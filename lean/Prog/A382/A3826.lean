@@ -2302,21 +2302,6 @@ end
 
 end A382621.P14086893730987639832
 
-/-! ## A382621.P6802578503606749599
-
-`xor(A014378(A014378(n)), A299702(n+1))`
--/
-
-namespace A382621.P6802578503606749599
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A014378 (A014378 n).toNat) (A299702 (n + 1))
-
-end
-
-end A382621.P6802578503606749599
-
 /-!
 # A382622: First differences of A382621.
 
@@ -4298,7 +4283,7 @@ end A382659.P10057144926634018107
 /-!
 # A382660: The unitary totient function applied to the exponentially odd numbers (A268335).
 
-The programs for A382660, the canonical program `A382660.P13276603593670196303` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382660 has offset 1).
+The programs for A382660, the canonical program `A382660.P13276603593670196303` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382660 has offset 1).
 
 The definition of A382660 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A047994, A268335, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4307,7 +4292,7 @@ The definition of A382660 is `conditional`: the Lean definition is an OEIS formu
 
 `A047994(A268335(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A382660
@@ -4681,7 +4666,7 @@ end A382661
 /-!
 # A382662: The unitary totient function applied to the cubefree numbers (A004709).
 
-The programs for A382662, the canonical program `A382662.P17606153397219342384` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382662 has offset 1).
+The programs for A382662, the canonical program `A382662.P17606153397219342384` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382662 has offset 1).
 
 The definition of A382662 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, A047994, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4690,7 +4675,7 @@ The definition of A382662 is `conditional`: the Lean definition is an OEIS formu
 
 `A047994(A004709(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A382662

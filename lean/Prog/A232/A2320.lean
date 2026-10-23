@@ -5974,6 +5974,28 @@ end
 
 end A232067.P1516094809777534314
 
+/-! ## A232067.P11133927321927311169
+
+`∩[A232354(n+1), A290815(n+1)]`
+-/
+
+namespace A232067.P11133927321927311169
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232354 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290815 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232067.P11133927321927311169
+
 /-!
 # A232069: Number of (n+1)X(n+1) 0..1 arrays with every element equal to some horizontal, diagonal or antidiagonal neighbor, with top left element zero.
 

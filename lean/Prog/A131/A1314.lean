@@ -6580,6 +6580,35 @@ def P5089907109556897564.Spec : Prop :=
 
 end A131423
 
+/-! ## A131423.P3653185305014647491
+
+`∑[∑[ogf((1+4x-x^2)/(1-2x+x^2))]]`
+-/
+
+namespace A131423.P3653185305014647491
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 4, -1] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131423.P3653185305014647491
+
+namespace A131423
+
+/-- `∑[∑[ogf((1+4x-x^2)/(1-2x+x^2))]]` -/
+def P3653185305014647491.Spec : Prop :=
+  ∀ n, P3653185305014647491.a n = A131423 (n + 1)
+
+end A131423
+
 /-! ## A131423.P7187111169879879560
 
 `ogf((1+4x-x^2)/(1-4x+6x^2-4x^3+x^4))`
@@ -6994,29 +7023,6 @@ namespace A131423
 /-- `floor(∑[n-∑[a(n-1)-4]])` -/
 def P12588952335253341048.Spec : Prop :=
   ∀ n, P12588952335253341048.a n = A131423 (n + 1)
-
-end A131423
-
-/-! ## A131423.P3784289563787398128
-
-`a(n-2)+2*(n+1)*2*n` with `a(0)=1, a(1)=8`
--/
-
-namespace A131423.P3784289563787398128
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 8] fun n a =>
-  a (n - 2) + 2 * (n + 1) * (2 * n)
-
-end
-
-end A131423.P3784289563787398128
-
-namespace A131423
-
-/-- `a(n-2)+2*(n+1)*2*n` -/
-def P3784289563787398128.Spec : Prop :=
-  ∀ n, (P3784289563787398128.a n : ℤ) = A131423 (n + 1)
 
 end A131423
 
@@ -10826,6 +10832,35 @@ def P11960610347211127072.Spec : Prop :=
 theorem P11960610347211127072.correct : P11960610347211127072.Spec := by
   intro n
   simp only [A131438, Nat.add_sub_cancel]
+
+end A131438
+
+/-! ## A131438.P7124301900493843989
+
+`∑[∑[ogf((1+2x-6x^2)/(1-4x+4x^2))]]`
+-/
+
+namespace A131438.P7124301900493843989
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, -6] [1, -4, 4] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131438.P7124301900493843989
+
+namespace A131438
+
+/-- `∑[∑[ogf((1+2x-6x^2)/(1-4x+4x^2))]]` -/
+def P7124301900493843989.Spec : Prop :=
+  ∀ n, P7124301900493843989.a n = A131438 (n + 1)
 
 end A131438
 

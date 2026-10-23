@@ -7495,6 +7495,28 @@ end A319875.P8648135064306355175
 The programs for A319878, there is no canonical definition to state claims against.
 -/
 
+/-! ## A319878.P17608481082860734635
+
+`∩[2*n+1, A319877(n+1)]`
+-/
+
+namespace A319878.P17608481082860734635
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319877 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A319878.P17608481082860734635
+
 /-! ## A319878.P11663090541517503004
 
 `record[A000265(A319877(n+1))]`
@@ -7549,44 +7571,27 @@ end
 
 end A319878.P18406167956904527188
 
-/-! ## A319878.P11945556848194912576
+/-! ## A319878.P10800425348075512787
 
-`A319877(lt[(A319877(n+1)+1)%2, 1]+1)`
+`∩[A319877(n+1), A326835(n+1)]`
 -/
 
-namespace A319878.P11945556848194912576
+namespace A319878.P10800425348075512787
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A319877 (n + 1) + 1) 2
+  A319877 (n + 1)
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326835 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319877 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n + 1)
-
-end
-
-end A319878.P11945556848194912576
-
-/-! ## A319878.P10625002688740078743
-
-`record[A093178(A319877(A008621(n)))]`
--/
-
-namespace A319878.P10625002688740078743
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093178 (A319877 (A008621 n).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A319878.P10625002688740078743
+end A319878.P10800425348075512787
 
 /-!
 # A319879: a(n) = minimal number m of unit squares needed to make a figure formed from squares (joined edge to edge) which has n holes.

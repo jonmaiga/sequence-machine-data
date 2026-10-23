@@ -55,7 +55,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -3774,6 +3773,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A120328.P14127669655916716989
+
+/-! ## A120328.P14634543044669339077
+
+`A083196(n)%A222465(n)`
+-/
+
+namespace A120328.P14634543044669339077
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A083196 n) (A222465 n)
+
+end
+
+end A120328.P14634543044669339077
 
 /-!
 # A120330: Primes not congruent to +- 1, 3, or 4 (mod 13).
@@ -8575,6 +8589,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A120384.P3756928383769972187
+
+/-! ## A120384.P11834672872128924132
+
+`A160656(A098969(n+1))`
+-/
+
+namespace A120384.P11834672872128924132
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160656 (A098969 (n + 1)).toNat
+
+end
+
+end A120384.P11834672872128924132
 
 /-!
 # A120385: If a(n-1) = 1 then largest value so far + 1, otherwise floor(a(n-1)/2); or table T(n,k) with T(n,0) = n, T(n,k+1) = floor(T(n,k)/2).

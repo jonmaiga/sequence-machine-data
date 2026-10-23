@@ -2419,6 +2419,21 @@ end
 
 end A130921.P7346004907481792504
 
+/-! ## A130921.P15467438036248118036
+
+`A085159(A085175(A074684(A123719(A123719(n)))))`
+-/
+
+namespace A130921.P15467438036248118036
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085159 (A085175 (A074684 (A123719 (A123719 n).toNat).toNat).toNat).toNat
+
+end
+
+end A130921.P15467438036248118036
+
 /-!
 # A130922: Signature permutation of a Catalan automorphism: composition of automorphisms *A057164 and *A074683.
 

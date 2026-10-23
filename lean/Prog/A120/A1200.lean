@@ -704,6 +704,32 @@ theorem P17212889191585270917.correct : P17212889191585270917.Spec := by
 
 end A120007
 
+/-! ## A120007.P11101076568534365432
+
+`floor(2*n*∏{p}[n+1, #/(2*n)])`
+-/
+
+namespace A120007.P11101076568534365432
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(2 * n : ℚ) * (∏ p ∈ Nat.primeFactors (f1 n), (p : ℚ) / (2 * n : ℚ))⌋
+
+end
+
+end A120007.P11101076568534365432
+
+namespace A120007
+
+/-- `floor(2*n*∏{p}[n+1, #/(2*n)])` -/
+def P11101076568534365432.Spec : Prop :=
+  ∀ n, P11101076568534365432.a n = A120007 (n + 1)
+
+end A120007
+
 /-! ## A120007.P13171184273536123457
 
 `∑{p}[A014963(n+1), #]`
@@ -1139,32 +1165,6 @@ namespace A120007
 /-- `∑{d}[A020500(n+1), A020500(#)]` -/
 def P17281744518494342910.Spec : Prop :=
   ∀ n, P17281744518494342910.a n = A120007 (n + 1)
-
-end A120007
-
-/-! ## A120007.P6637300065190818123
-
-`∑{d}[A014963(n+1), A029908(#)]`
--/
-
-namespace A120007.P6637300065190818123
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A029908 d
-
-end
-
-end A120007.P6637300065190818123
-
-namespace A120007
-
-/-- `∑{d}[A014963(n+1), A029908(#)]` -/
-def P6637300065190818123.Spec : Prop :=
-  ∀ n, P6637300065190818123.a n = A120007 (n + 1)
 
 end A120007
 

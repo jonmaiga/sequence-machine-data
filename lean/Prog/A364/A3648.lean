@@ -725,6 +725,112 @@ def P10591643047389520442.Spec : Prop :=
 end A364813
 
 /-!
+# A364814: Numbers k whose largest divisor <= sqrt(k) is a power of 2, listing only the first such number with any given prime signature.
+
+The programs for A364814, there is no canonical definition to state claims against.
+-/
+
+/-! ## A364814.P9224681951694292067
+
+`eq[A124768(n), A267959(n)]`
+-/
+
+namespace A364814.P9224681951694292067
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124768 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267959 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A364814.P9224681951694292067
+
+/-! ## A364814.P18378872434177898872
+
+`eq[A089803(n), A330955(n)]`
+-/
+
+namespace A364814.P18378872434177898872
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089803 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330955 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A364814.P18378872434177898872
+
+/-! ## A364814.P16680115641378987842
+
+`filter[A346729(n+1), A267959(#)]`
+-/
+
+namespace A364814.P16680115641378987842
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346729 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267959 (f1 j).toNat = 1) n)
+
+end
+
+end A364814.P16680115641378987842
+
+/-! ## A364814.P13335214348300427796
+
+`filter[A333255(n+2), A267959(#)]`
+-/
+
+namespace A364814.P13335214348300427796
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333255 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267959 (f1 j).toNat = 1) n)
+
+end
+
+end A364814.P13335214348300427796
+
+/-! ## A364814.P14100907628674131840
+
+`∩[A005555(n), A270140(n+1)]`
+-/
+
+namespace A364814.P14100907628674131840
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005555 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270140 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364814.P14100907628674131840
+
+/-!
 # A364818: Number of distinct prime divisors of A000129(n) (Pell numbers).
 
 The programs for A364818, there is no canonical definition to state claims against.

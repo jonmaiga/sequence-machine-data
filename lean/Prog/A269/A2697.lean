@@ -5874,6 +5874,21 @@ end
 
 end A269769.P16005936141021539549
 
+/-! ## A269769.P9369700360706498310
+
+`A319163(n+1)-A304464(A319163(n+1))`
+-/
+
+namespace A269769.P9369700360706498310
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319163 (n + 1) - A304464 (A319163 (n + 1)).toNat
+
+end
+
+end A269769.P9369700360706498310
+
 /-!
 # A269770: Number of length-n 0..n arrays with every repeated value unequal to the previous repeated value plus one mod n+1.
 

@@ -2792,6 +2792,29 @@ def P17220723518664316553.Spec : Prop :=
 
 end A027540
 
+/-! ## A027540.P8068785567890523970
+
+`A126136(A167614(n+2))`
+-/
+
+namespace A027540.P8068785567890523970
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126136 (A167614 (n + 2)).toNat
+
+end
+
+end A027540.P8068785567890523970
+
+namespace A027540
+
+/-- `A126136(A167614(n+2))` -/
+def P8068785567890523970.Spec : Prop :=
+  ∀ n, P8068785567890523970.a n = A027540 (n + 2)
+
+end A027540
+
 /-!
 # A027541: Third diagonal of A027537.
 
@@ -5948,19 +5971,25 @@ end A027564.P7569203692036887492
 The programs for A027568, there is no canonical definition to state claims against.
 -/
 
-/-! ## A027568.P13287794877916497143
+/-! ## A027568.P11221080821142036926
 
-`∩[C(n+1, 2), C(n+2, 3)]`
+`∩[C(n+1, 2), ∑[∑[n]]]`
 -/
 
-namespace A027568.P13287794877916497143
+namespace A027568.P11221080821142036926
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   Nat.choose (n + 1) 2
 
+def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f4 j
+
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 2) 3
+  ∑ j ∈ Finset.range (n + 1), f3 j
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5968,7 +5997,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A027568.P13287794877916497143
+end A027568.P11221080821142036926
 
 /-!
 # A027569: Initial members of prime decaplets (p, p+2, p+6, p+8, p+12, p+18, p+20, p+26, p+30, p+32).

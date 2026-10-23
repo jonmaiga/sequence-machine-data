@@ -4108,6 +4108,33 @@ def P4994278502503805142.Spec : Prop :=
 
 end A369655
 
+/-! ## A369655.P12657760752464174405
+
+`char[A369656(n+1)]`
+-/
+
+namespace A369655.P12657760752464174405
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369656 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A369655.P12657760752464174405
+
+namespace A369655
+
+/-- `char[A369656(n+1)]` -/
+def P12657760752464174405.Spec : Prop :=
+  ∀ n, (P12657760752464174405.a n : ℤ) = A369655 n
+
+end A369655
+
 /-! ## A369655.P9664328954367802792
 
 `A353495(A003415(n)²)`

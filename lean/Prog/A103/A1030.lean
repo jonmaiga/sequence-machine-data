@@ -3358,27 +3358,20 @@ end A103080.P498458418117396886
 The programs for A103081, there is no canonical definition to state claims against.
 -/
 
-/-! ## A103081.P11683582296480272823
+/-! ## A103081.P3270217995763076506
 
-`∪[A101068(n+1)+1, A127438(A084264(n))]`
+`A127438(A084264(n))`
 -/
 
-namespace A103081.P11683582296480272823
+namespace A103081.P3270217995763076506
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101068 (n + 1) + 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A127438 (A084264 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A103081.P11683582296480272823
+end A103081.P3270217995763076506
 
 /-!
 # A103082: Numbers k such that 8*10^k + 4*R_k + 5 is prime, where R_k = 11...1 is the repunit (A002275) of length k.

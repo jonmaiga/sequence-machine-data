@@ -17,6 +17,7 @@ import Seq.B000.C023
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B001.C000
@@ -33,6 +34,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -43,6 +45,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1845,53 +1848,49 @@ def P16869622241970657627.Spec : Prop :=
 
 end A128309
 
-/-! ## A128309.P8456317766461142103
+/-! ## A128309.P595130646303250671
 
-`4*n+1+(-1)^A000120(n)`
+`2*(A181155(n+1)-1)`
 -/
 
-namespace A128309.P8456317766461142103
+namespace A128309.P595130646303250671
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (4 * n + 1 : ℚ) + (-1 : ℚ) ^ (A000120 n : ℤ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * (A181155 (n + 1) - 1)
 
 end
 
-end A128309.P8456317766461142103
+end A128309.P595130646303250671
 
 namespace A128309
 
-/-- `4*n+1+(-1)^A000120(n)` -/
-def P8456317766461142103.Spec : Prop :=
-  ∀ n, P8456317766461142103.a n = (A128309 (n + 1) : ℚ)
+/-- `2*(A181155(n+1)-1)` -/
+def P595130646303250671.Spec : Prop :=
+  ∀ n, P595130646303250671.a n = A128309 (n + 1)
 
 end A128309
 
-/-! ## A128309.P11029740379536274201
+/-! ## A128309.P3517922361580063148
 
-`2*comp[A001969(n+1)]`
+`A286728(n+1)+n-1`
 -/
 
-namespace A128309.P11029740379536274201
+namespace A128309.P3517922361580063148
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001969 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286728 (n + 1) + ((n : ℤ) - 1)
 
 end
 
-end A128309.P11029740379536274201
+end A128309.P3517922361580063148
 
 namespace A128309
 
-/-- `2*comp[A001969(n+1)]` -/
-def P11029740379536274201.Spec : Prop :=
-  ∀ n, (P11029740379536274201.a n : ℤ) = A128309 (n + 1)
+/-- `A286728(n+1)+n-1` -/
+def P3517922361580063148.Spec : Prop :=
+  ∀ n, P3517922361580063148.a n = A128309 (n + 1)
 
 end A128309
 
@@ -5112,6 +5111,28 @@ end
 
 end A128395.P15259151408917130089
 
+/-! ## A128395.P14979616243265831811
+
+`∩[A177915(n+1), A334274(n+1)]`
+-/
+
+namespace A128395.P14979616243265831811
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177915 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334274 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A128395.P14979616243265831811
+
 /-!
 # A128396: Numbers k such that k^2 divides 16^k-1.
 
@@ -5251,6 +5272,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128396.P16972386223732040673
+
+/-! ## A128396.P15474722014681715056
+
+`∩[A005117(n+1), A014957(n+1)]`
+-/
+
+namespace A128396.P15474722014681715056
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014957 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A128396.P15474722014681715056
 
 /-! ## A128396.P6530755149135027320
 
@@ -5432,6 +5475,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A128397.P3802723731435892139
+
+/-! ## A128397.P6389255610082842362
+
+`∩[A068563(n+1), A129618(n+1)]`
+-/
+
+namespace A128397.P6389255610082842362
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068563 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A128397.P6389255610082842362
 
 /-!
 # A128399: Numbers k such that k^2 divides 19^k-1.

@@ -1560,6 +1560,27 @@ end
 
 end A332346.P11127033554847479555
 
+/-! ## A332346.P2225440479035568496
+
+`eq[A038699(n+1), A111008(n)]`
+-/
+
+namespace A332346.P2225440479035568496
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038699 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111008 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A332346.P2225440479035568496
+
 /-!
 # A332347: Array read by antidiagonals: T(m,n) is the number of maximal independent sets in the m X n king graph.
 

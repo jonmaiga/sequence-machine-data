@@ -44,7 +44,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -843,6 +842,72 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361908.P9887027401706610342
+
+/-! ## A361908.P9385663096117568314
+
+`∩[A251726(n+1), A364348(n+1)]`
+-/
+
+namespace A361908.P9385663096117568314
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251726 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364348 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A361908.P9385663096117568314
+
+/-! ## A361908.P11293948874420122112
+
+`∩[A251726(n+1), A383513(n+1)]`
+-/
+
+namespace A361908.P11293948874420122112
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251726 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383513 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A361908.P11293948874420122112
+
+/-! ## A361908.P14252309100825307006
+
+`∩[A362981(n+1), A364348(n+1)]`
+-/
+
+namespace A361908.P14252309100825307006
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362981 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364348 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A361908.P14252309100825307006
 
 /-!
 # A361909: Positive integers > 1 whose prime indices satisfy: (maximum) = 2*(length).
@@ -3990,6 +4055,25 @@ end A361976.P13039918932024645694
 
 The programs for A361978, there is no canonical definition to state claims against.
 -/
+
+/-! ## A361978.P9591119827210573344
+
+`comp[A361337(n+1)]`
+-/
+
+namespace A361978.P9591119827210573344
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A361337 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A361978.P9591119827210573344
 
 /-! ## A361978.P303883294298542626
 

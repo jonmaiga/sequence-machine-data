@@ -4901,6 +4901,28 @@ end
 
 end A233462.P16505653909304797035
 
+/-! ## A233462.P13990010410021326345
+
+`∩[A028777(n+1), A316504(n+1)]`
+-/
+
+namespace A233462.P13990010410021326345
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028777 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316504 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A233462.P13990010410021326345
+
 /-!
 # A233467: Numbers n such that sigma(n) = reversal(3n).
 

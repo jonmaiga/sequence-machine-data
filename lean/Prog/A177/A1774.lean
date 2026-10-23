@@ -1726,64 +1726,6 @@ def P10056649315581073010.Spec : Prop :=
 
 end A177425
 
-/-! ## A177425.P2533284296617852926
-
-`eq[A074591(n+1), A327498(n+1)]+1`
--/
-
-namespace A177425.P2533284296617852926
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074591 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327498 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
-
-end
-
-end A177425.P2533284296617852926
-
-namespace A177425
-
-/-- `eq[A074591(n+1), A327498(n+1)]+1` -/
-def P2533284296617852926.Spec : Prop :=
-  ∀ n, (P2533284296617852926.a n : ℤ) = A177425 (n + 1)
-
-end A177425
-
-/-! ## A177425.P18314985962833676763
-
-`A153152(eq[A074591(n+1), A327498(n+1)])`
--/
-
-namespace A177425.P18314985962833676763
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074591 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A327498 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153152 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A177425.P18314985962833676763
-
-namespace A177425
-
-/-- `A153152(eq[A074591(n+1), A327498(n+1)])` -/
-def P18314985962833676763.Spec : Prop :=
-  ∀ n, P18314985962833676763.a n = A177425 (n + 1)
-
-end A177425
-
 /-!
 # A177426: Average of twin prime pairs with multiple and strictly distinct powers.
 
@@ -1928,6 +1870,36 @@ namespace A177426
 /-- `∩[A177425(n+1), A370395(n+1)]` -/
 def P9749284412895043543.Spec : Prop :=
   ∀ n, (P9749284412895043543.a n : ℤ) = A177426 (n + 1)
+
+end A177426
+
+/-! ## A177426.P17988156831951744622
+
+`∩[A129297(n+1), A177425(n+1)]`
+-/
+
+namespace A177426.P17988156831951744622
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129297 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177425 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A177426.P17988156831951744622
+
+namespace A177426
+
+/-- `∩[A129297(n+1), A177425(n+1)]` -/
+def P17988156831951744622.Spec : Prop :=
+  ∀ n, (P17988156831951744622.a n : ℤ) = A177426 (n + 1)
 
 end A177426
 

@@ -3545,6 +3545,44 @@ end
 
 end A346459.P10856074983460842936
 
+/-! ## A346459.P2561792686040672958
+
+`char[A260128(n+2)]`
+-/
+
+namespace A346459.P2561792686040672958
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260128 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A346459.P2561792686040672958
+
+/-! ## A346459.P16537039796934648165
+
+`char[A386046(n+2)]`
+-/
+
+namespace A346459.P16537039796934648165
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386046 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A346459.P16537039796934648165
+
 /-!
 # A346461: a(n) = 2^A042965(n+1).
 
@@ -4004,6 +4042,58 @@ namespace A346461
 /-- `∏[5-lcm(3, n+2)/(n+2)]` -/
 def P6556113679695363301.Spec : Prop :=
   ∀ n, P6556113679695363301.a n = (A346461 (n + 1) : ℚ)
+
+end A346461
+
+/-! ## A346461.P4740855189599375919
+
+`record[2^(n+1-val(n+3, 4))]`
+-/
+
+namespace A346461.P4740855189599375919
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((n + 1 : ℤ) - (SequenceMachineLib.valuation (n + 3) 4 : ℤ) : ℤ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A346461.P4740855189599375919
+
+namespace A346461
+
+/-- `record[2^(n+1-val(n+3, 4))]` -/
+def P4740855189599375919.Spec : Prop :=
+  ∀ n, P4740855189599375919.a n = (A346461 (n + 1) : ℚ)
+
+end A346461
+
+/-! ## A346461.P14536875967393372152
+
+`A132720(Δ[n²])`
+-/
+
+namespace A346461.P14536875967393372152
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132720 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
+
+end
+
+end A346461.P14536875967393372152
+
+namespace A346461
+
+/-- `A132720(Δ[n²])` -/
+def P14536875967393372152.Spec : Prop :=
+  ∀ n, P14536875967393372152.a n = A346461 (n + 1)
 
 end A346461
 

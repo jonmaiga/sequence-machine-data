@@ -1296,16 +1296,16 @@ end
 
 end A347931.P4237068428017971573
 
-/-! ## A347931.P11942737609340573476
+/-! ## A347931.P14443778158427444058
 
-`∩[A328303(n+1), A348284(n+1)]`
+`∩[A018252(n+1), A348284(n+1)]`
 -/
 
-namespace A347931.P11942737609340573476
+namespace A347931.P14443778158427444058
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328303 (n + 1)
+  A018252 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A348284 (n + 1)
@@ -1316,18 +1316,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A347931.P11942737609340573476
+end A347931.P14443778158427444058
 
-/-! ## A347931.P16610747741542296121
+/-! ## A347931.P3245020343281200515
 
-`∩[A289553(n+1), A348284(n+1)]`
+`∩[A141468(n+1), A348284(n+1)]`
 -/
 
-namespace A347931.P16610747741542296121
+namespace A347931.P3245020343281200515
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289553 (n + 1)
+  A141468 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A348284 (n + 1)
@@ -1338,7 +1338,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A347931.P16610747741542296121
+end A347931.P3245020343281200515
 
 /-!
 # A347933: Positive integers that can't be written in the form a+b+c for some positive integers a, b, and c satisfying gcd(a,b)=1, gcd(a,c)>1, and gcd(b,c)>1.

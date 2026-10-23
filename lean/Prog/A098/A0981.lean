@@ -3050,52 +3050,6 @@ def P9334961010232618.Spec : Prop :=
 
 end A098127
 
-/-! ## A098127.P3683997818054572766
-
-`A022379(n)+A022134(n)`
--/
-
-namespace A098127.P3683997818054572766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022379 n + A022134 n
-
-end
-
-end A098127.P3683997818054572766
-
-namespace A098127
-
-/-- `A022379(n)+A022134(n)` -/
-def P3683997818054572766.Spec : Prop :=
-  ∀ n, P3683997818054572766.a n = A098127 (n + 1)
-
-end A098127
-
-/-! ## A098127.P11811338112360804609
-
-`A022381(n)+A022131(n)`
--/
-
-namespace A098127.P11811338112360804609
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022381 n + A022131 n
-
-end
-
-end A098127.P11811338112360804609
-
-namespace A098127
-
-/-- `A022381(n)+A022131(n)` -/
-def P11811338112360804609.Spec : Prop :=
-  ∀ n, P11811338112360804609.a n = A098127 (n + 1)
-
-end A098127
-
 /-! ## A098127.P3090527144384133497
 
 `A022382(n)+A022126(n)`
@@ -3139,6 +3093,52 @@ namespace A098127
 /-- `A022384(n)+A022121(n)` -/
 def P8186704495709782581.Spec : Prop :=
   ∀ n, P8186704495709782581.a n = A098127 (n + 1)
+
+end A098127
+
+/-! ## A098127.P3683997818054572766
+
+`A022379(n)+A022134(n)`
+-/
+
+namespace A098127.P3683997818054572766
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022379 n + A022134 n
+
+end
+
+end A098127.P3683997818054572766
+
+namespace A098127
+
+/-- `A022379(n)+A022134(n)` -/
+def P3683997818054572766.Spec : Prop :=
+  ∀ n, P3683997818054572766.a n = A098127 (n + 1)
+
+end A098127
+
+/-! ## A098127.P11811338112360804609
+
+`A022381(n)+A022131(n)`
+-/
+
+namespace A098127.P11811338112360804609
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022381 n + A022131 n
+
+end
+
+end A098127.P11811338112360804609
+
+namespace A098127
+
+/-- `A022381(n)+A022131(n)` -/
+def P11811338112360804609.Spec : Prop :=
+  ∀ n, P11811338112360804609.a n = A098127 (n + 1)
 
 end A098127
 
@@ -5783,12 +5783,12 @@ The programs for A098156, the canonical program `A098156.P17131941534347252642` 
 The definition of A098156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A098156.P8902215522670377800
+/-! ## A098156.P10348490731476923558
 
-`ogf((-1+2x-x^2-x^3)/(-1+4x-4x^2))`
+`ogf((1-2x+x^2+x^3)/(1-4x+4x^2))`
 -/
 
-namespace A098156.P8902215522670377800
+namespace A098156.P10348490731476923558
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -5796,13 +5796,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A098156.P8902215522670377800
+end A098156.P10348490731476923558
 
 namespace A098156
 
-/-- `ogf((-1+2x-x^2-x^3)/(-1+4x-4x^2))` -/
-def P8902215522670377800.Spec : Prop :=
-  ∀ n, P8902215522670377800.a n = A098156 n
+/-- `ogf((1-2x+x^2+x^3)/(1-4x+4x^2))` -/
+def P10348490731476923558.Spec : Prop :=
+  ∀ n, P10348490731476923558.a n = A098156 n
 
 end A098156
 

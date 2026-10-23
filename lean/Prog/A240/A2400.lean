@@ -8921,6 +8921,28 @@ end
 
 end A240084.P3393986226902917312
 
+/-! ## A240084.P11651764028497895231
+
+`∩[A045320(n+1), A173179(n+1)]`
+-/
+
+namespace A240084.P11651764028497895231
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045320 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173179 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A240084.P11651764028497895231
+
 /-! ## A240084.P13106308517471692330
 
 `∩[A025584(n+1), A173179(n+1)]`
@@ -8942,28 +8964,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A240084.P13106308517471692330
-
-/-! ## A240084.P5611668748264768733
-
-`∩[A000040(n+1), A173179(n+1)]`
--/
-
-namespace A240084.P5611668748264768733
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173179 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A240084.P5611668748264768733
 
 /-!
 # A240085: Number of compositions of n in which no part is unique (every part appears at least twice).

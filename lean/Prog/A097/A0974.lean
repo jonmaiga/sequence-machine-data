@@ -63,7 +63,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -92,7 +91,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -12642,6 +12640,28 @@ end A097497.P13782241324732728335
 The programs for A097498, there is no canonical definition to state claims against.
 -/
 
+/-! ## A097498.P4021493659394927894
+
+`∪[A153501(n+1), A271816(n+1)]`
+-/
+
+namespace A097498.P4021493659394927894
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153501 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271816 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A097498.P4021493659394927894
+
 /-! ## A097498.P9168565811032905525
 
 `eq[n+1, lcm(n+1, A033879(n+1))]+1`
@@ -12722,27 +12742,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A097498.P4610187089192817609
-
-/-! ## A097498.P8174340177644372767
-
-`eq[A124768(n), A374683(A376417(3*n+2))]`
--/
-
-namespace A097498.P8174340177644372767
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124768 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374683 (A376417 (3 * n + 2)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A097498.P8174340177644372767
 
 /-!
 # A097499: Numbers of the form p^q + q^p where p and q are consecutive primes.

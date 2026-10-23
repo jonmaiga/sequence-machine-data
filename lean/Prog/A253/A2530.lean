@@ -5259,16 +5259,16 @@ end
 
 end A253053.P496809149576324500
 
-/-! ## A253053.P7457792227749002275
+/-! ## A253053.P11835561589583757006
 
-`∩[A001750(n+1), A251545(n+1)]`
+`∩[A008587(n), A251545(n+1)]`
 -/
 
-namespace A253053.P7457792227749002275
+namespace A253053.P11835561589583757006
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001750 (n + 1)
+  A008587 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A251545 (n + 1)
@@ -5279,18 +5279,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A253053.P7457792227749002275
+end A253053.P11835561589583757006
 
-/-! ## A253053.P1836204672440018852
+/-! ## A253053.P9931531519978176648
 
-`∩[A063149(n+1), A251545(n+1)]`
+`∩[A008706(n), A251545(n+1)]`
 -/
 
-namespace A253053.P1836204672440018852
+namespace A253053.P9931531519978176648
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063149 (n + 1)
+  A008706 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A251545 (n + 1)
@@ -5301,18 +5301,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A253053.P1836204672440018852
+end A253053.P9931531519978176648
 
-/-! ## A253053.P10213315000441724092
+/-! ## A253053.P5771085826691671246
 
-`∩[A161835(n+1), A251545(n+1)]`
+`∩[A017329(n), A251545(n+1)]`
 -/
 
-namespace A253053.P10213315000441724092
+namespace A253053.P5771085826691671246
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161835 (n + 1)
+  A017329 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A251545 (n + 1)
@@ -5323,7 +5323,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A253053.P10213315000441724092
+end A253053.P5771085826691671246
 
 /-!
 # A253054: If, for some m, A098550(m-2) is a prime p and A098550(m) = 7p, add 7p to the sequence.

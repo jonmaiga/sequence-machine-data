@@ -2611,8 +2611,29 @@ end A338127.P8735238587901759017
 /-!
 # A338129: Positive numbers k such that the binary representation of k^k ends with that of k.
 
-The programs for A338129, there is no canonical definition to state claims against.
+The programs for A338129, the canonical program `A338129.P8432619252608053204` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338129 has offset 1).
+
+The definition of A338129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A338129.P8432619252608053204
+
+`∪[A080075(n+1), A126646(n)]`
+
+The canonical program, it is in `Seq.B002.C005`.
+-/
+
+namespace A338129
+
+/-- `∪[A080075(n+1), A126646(n)]` -/
+def P8432619252608053204.Spec : Prop :=
+  ∀ n, (P8432619252608053204.a n : ℤ) = A338129 (n + 1)
+
+theorem P8432619252608053204.correct : P8432619252608053204.Spec := by
+  intro n
+  simp only [A338129, Nat.add_sub_cancel]
+
+end A338129
 
 /-! ## A338129.P5448186607715990185
 
@@ -2632,6 +2653,14 @@ end
 
 end A338129.P5448186607715990185
 
+namespace A338129
+
+/-- `record[or(A135521(n+1), A331985(n))]` -/
+def P5448186607715990185.Spec : Prop :=
+  ∀ n, P5448186607715990185.a n = A338129 (n + 1)
+
+end A338129
+
 /-! ## A338129.P13905043045640495658
 
 `record[gcd(A139708(n+1), A320561(n+1))]`
@@ -2649,6 +2678,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A338129.P13905043045640495658
+
+namespace A338129
+
+/-- `record[gcd(A139708(n+1), A320561(n+1))]` -/
+def P13905043045640495658.Spec : Prop :=
+  ∀ n, (P13905043045640495658.a n : ℤ) = A338129 (n + 1)
+
+end A338129
 
 /-! ## A338129.P17731819112154564705
 
@@ -2671,6 +2708,14 @@ end
 
 end A338129.P17731819112154564705
 
+namespace A338129
+
+/-- `eq[n, A320561(A132196(n))]` -/
+def P17731819112154564705.Spec : Prop :=
+  ∀ n, (P17731819112154564705.a n : ℤ) = A338129 (n + 1)
+
+end A338129
+
 /-! ## A338129.P15057381050105280695
 
 `record[A331985(2*n+1)-A079945(n)]`
@@ -2689,23 +2734,13 @@ end
 
 end A338129.P15057381050105280695
 
-/-! ## A338129.P15315865812159450843
+namespace A338129
 
-`record[or(1, n)%(2^A087117(n²))]`
--/
+/-- `record[A331985(2*n+1)-A079945(n)]` -/
+def P15057381050105280695.Spec : Prop :=
+  ∀ n, P15057381050105280695.a n = A338129 (n + 1)
 
-namespace A338129.P15315865812159450843
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (Nat.lor 1 n : ℤ) (SequenceMachineLib.roundAway ((2 : ℚ) ^ (A087117 (n ^ 2) : ℤ)))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A338129.P15315865812159450843
+end A338129
 
 /-!
 # A338130: Positive numbers k such that the ternary representation of k^k ends with that of k.
@@ -5764,6 +5799,28 @@ end
 
 end A338175.P2303617568374480855
 
+/-! ## A338175.P14284408597828779613
+
+`∩[A110480(n+1), A380468(n+1)]`
+-/
+
+namespace A338175.P14284408597828779613
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110480 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338175.P14284408597828779613
+
 /-! ## A338175.P1585726683473657383
 
 `∩[A042989(n+1), A110480(n+1)]`
@@ -6005,28 +6062,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A338175.P623108198452228835
-
-/-! ## A338175.P177735520098404907
-
-`∩[A040970(n+1), A110480(n+1)]`
--/
-
-namespace A338175.P177735520098404907
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040970 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110480 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A338175.P177735520098404907
 
 /-!
 # A338176: G.f.: Sum_{n>=0} Product_{k=0..n-1} ( (1+x)^(n+k) - 1 ).

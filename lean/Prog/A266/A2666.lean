@@ -7375,6 +7375,29 @@ def P10777822721861928799.Spec : Prop :=
 
 end A266659
 
+/-! ## A266659.P8205238212108238370
+
+`A266216(A057544(n))`
+-/
+
+namespace A266659.P8205238212108238370
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266216 (A057544 n).toNat
+
+end
+
+end A266659.P8205238212108238370
+
+namespace A266659
+
+/-- `A266216(A057544(n))` -/
+def P8205238212108238370.Spec : Prop :=
+  ∀ n, P8205238212108238370.a n = A266659 n
+
+end A266659
+
 /-!
 # A266661: Decimal representation of the n-th iteration of the "Rule 47" elementary cellular automaton starting with a single ON (black) cell.
 
@@ -10824,20 +10847,27 @@ end
 
 end A266675.P3968903466452534128
 
-/-! ## A266675.P6240975877678569562
+/-! ## A266675.P10969980425462355344
 
-`A180022(A244155(n+1)+n)`
+`∩[A061116(n+1), A176548(n+1)]`
 -/
 
-namespace A266675.P6240975877678569562
+namespace A266675.P10969980425462355344
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180022 (A244155 (n + 1) + (n : ℤ)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061116 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176548 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A266675.P6240975877678569562
+end A266675.P10969980425462355344
 
 /-!
 # A266677: Alternating sum of hexagonal pyramidal numbers.

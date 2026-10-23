@@ -53,7 +53,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -3902,6 +3901,122 @@ end
 end A342142.P11206957407349966390
 
 /-!
+# A342143: Take a(n), sort its digits into ascending order, divide the larger of the two numbers by the smaller and keep only the remainder: this remainder is present in a(n) as a substring of its digits.
+
+The programs for A342143, there is no canonical definition to state claims against.
+-/
+
+/-! ## A342143.P685921267056902358
+
+`∩[A090334(n+1), A342142(n+1)]`
+-/
+
+namespace A342143.P685921267056902358
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090334 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342143.P685921267056902358
+
+/-! ## A342143.P18330231429330151269
+
+`∩[A093511(n+1), A342142(n+1)]`
+-/
+
+namespace A342143.P18330231429330151269
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093511 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342143.P18330231429330151269
+
+/-! ## A342143.P4757232601290440022
+
+`∩[A121540(n+1), A342142(n+1)]`
+-/
+
+namespace A342143.P4757232601290440022
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121540 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342143.P4757232601290440022
+
+/-! ## A342143.P9298706721185071316
+
+`∩[A121541(n+1), A342142(n+1)]`
+-/
+
+namespace A342143.P9298706721185071316
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121541 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342143.P9298706721185071316
+
+/-! ## A342143.P17088589482341965725
+
+`∩[A121542(n+1), A342142(n+1)]`
+-/
+
+namespace A342143.P17088589482341965725
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121542 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342143.P17088589482341965725
+
+/-!
 # A342144: Numbers m with integer solution to x^x == (x+1)^(x+1) (mod m) with x > 0.
 
 The programs for A342144, there is no canonical definition to state claims against.
@@ -4152,6 +4267,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A342145.P3998031407129788801
+
+/-! ## A342145.P8742464451989700849
+
+`∪[A342146(n+1), A342147(n+1)]`
+-/
+
+namespace A342145.P8742464451989700849
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342146 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342147 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342145.P8742464451989700849
 
 /-! ## A342145.P4259595064528185160
 

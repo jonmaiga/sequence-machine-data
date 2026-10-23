@@ -80,6 +80,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -131,6 +132,29 @@ namespace A228700
 /-- `A026740(n)-A228701(n)` -/
 def P16601291479079900004.Spec : Prop :=
   ∀ n, P16601291479079900004.a n = A228700 n
+
+end A228700
+
+/-! ## A228700.P15658487599361556649
+
+`A056503(2*n+1)*A056510(2*n+1)`
+-/
+
+namespace A228700.P15658487599361556649
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056503 (2 * n + 1) * A056510 (2 * n + 1)
+
+end
+
+end A228700.P15658487599361556649
+
+namespace A228700
+
+/-- `A056503(2*n+1)*A056510(2*n+1)` -/
+def P15658487599361556649.Spec : Prop :=
+  ∀ n, P15658487599361556649.a n = A228700 n
 
 end A228700
 
@@ -1662,6 +1686,25 @@ end
 
 end A228709.P7777447766997568120
 
+/-! ## A228709.P1994851852251196931
+
+`comp[A228723(n)]`
+-/
+
+namespace A228709.P1994851852251196931
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228723 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A228709.P1994851852251196931
+
 /-! ## A228709.P11374805523859061485
 
 `lt[n*A228710(n), n]`
@@ -2019,43 +2062,22 @@ end
 
 end A228709.P17619253074157464469
 
-/-! ## A228709.P18174027049410745793
-
-`eq[A228710(n)+A073053(n), A073053(n)]`
--/
-
-namespace A228709.P18174027049410745793
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228710 n + A073053 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073053 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A228709.P18174027049410745793
-
 /-!
 # A228710: Characteristic function of numbers with alternating parities of their digits in decimal representation.
 
 The programs for A228710, there is no canonical definition to state claims against.
 -/
 
-/-! ## A228710.P8211810475230271770
+/-! ## A228710.P9898904021342151629
 
-`char[A228722(n)]`
+`char[A228723(n)]`
 -/
 
-namespace A228710.P8211810475230271770
+namespace A228710.P9898904021342151629
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228722 n
+  A228723 n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2063,7 +2085,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A228710.P8211810475230271770
+end A228710.P9898904021342151629
 
 /-!
 # A228711: G.f. A(x) satisfies: A(x)^4 = A(x^2)^2 + 8*x.

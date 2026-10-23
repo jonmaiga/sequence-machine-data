@@ -39,13 +39,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
@@ -2767,7 +2767,7 @@ end A132636
 /-!
 # A132637: Composite number C(n) raised to power C(n).
 
-The programs for A132637, the canonical program `A132637.P17118528607186897140` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132637 has offset 1).
+The programs for A132637, the canonical program `A132637.P17118528607186897140` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132637 has offset 1).
 
 The definition of A132637 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2776,7 +2776,7 @@ The definition of A132637 is `conditional`: the Lean definition is an OEIS formu
 
 `A002808(n+1)^A002808(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A132637
@@ -5026,7 +5026,7 @@ end A132679
 /-!
 # A132680: Number of ones in binary representation of odious numbers.
 
-The programs for A132680, the canonical program `A132680.P17101137498062770525` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132680 has offset 1).
+The programs for A132680, the canonical program `A132680.P17101137498062770525` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132680 has offset 1).
 
 The definition of A132680 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5035,7 +5035,7 @@ The definition of A132680 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000120(A000069(n+1))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A132680

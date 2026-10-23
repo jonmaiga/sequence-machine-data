@@ -693,6 +693,28 @@ end
 
 end A273803.P15063868207473975724
 
+/-! ## A273803.P1330127668713098113
+
+`∩[A274280(n+1), A274371(n+1)]`
+-/
+
+namespace A273803.P1330127668713098113
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274280 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274371 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A273803.P1330127668713098113
+
 /-!
 # A273813: Composite numbers whose sum of unitary divisors is a multiple of the sum of their aliquot parts.
 

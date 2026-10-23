@@ -49,9 +49,9 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -67,7 +67,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -6751,6 +6750,28 @@ end
 
 end A101782.P1791510041638326860
 
+/-! ## A101782.P3495901361327208125
+
+`∩[A006512(n+1), A085869(n+1)]`
+-/
+
+namespace A101782.P3495901361327208125
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006512 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085869 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A101782.P3495901361327208125
+
 /-! ## A101782.P15779037848460593150
 
 `∩[A001359(n+1)+2, A085869(n+1)]`
@@ -6860,28 +6881,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A101782.P12663710063223227629
-
-/-! ## A101782.P5511369148489107518
-
-`∩[A007500(n+1), A123123(n+1)]`
--/
-
-namespace A101782.P5511369148489107518
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007500 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123123 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A101782.P5511369148489107518
 
 /-!
 # A101783: Lower bound twin primes such that their digital reverse is prime and a lower bound twin prime.
@@ -7197,6 +7196,28 @@ end
 
 end A101783.P12965380802849216762
 
+/-! ## A101783.P5927272566822483875
+
+`∩[A101781(n+1), A165446(n+1)]`
+-/
+
+namespace A101783.P5927272566822483875
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101781 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165446 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A101783.P5927272566822483875
+
 /-! ## A101783.P5027028877012230964
 
 `∩[A101781(n+1), A333207(n+1)]`
@@ -7306,28 +7327,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A101783.P8727896830001007525
-
-/-! ## A101783.P102946336698970683
-
-`∩[A065873(n+1), A333207(n+1)]`
--/
-
-namespace A101783.P102946336698970683
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065873 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333207 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A101783.P102946336698970683
 
 /-!
 # A101784: Primes which remain prime after omitting maximal digit.

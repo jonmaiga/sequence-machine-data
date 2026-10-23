@@ -42,6 +42,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
@@ -3855,6 +3856,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119063.P11784788381478301485
+
+/-! ## A119063.P14462640450650123193
+
+`∩[A062100(n+1), A133869(n+1)]`
+-/
+
+namespace A119063.P14462640450650123193
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062100 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133869 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A119063.P14462640450650123193
 
 /-!
 # A119064: Numbers k such that the k-th triangular number contains only digits {0,3,6}.

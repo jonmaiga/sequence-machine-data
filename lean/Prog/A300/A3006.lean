@@ -45,6 +45,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -55,7 +56,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -92,6 +92,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A300600: Number of nX3 0..1 arrays with every element equal to 0, 2, 3 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
@@ -5854,6 +5855,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300669.P12550707174377552692
+
+/-! ## A300669.P4687446201097764685
+
+`eq[A356352(n), A369028(n)]`
+-/
+
+namespace A300669.P4687446201097764685
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356352 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369028 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A300669.P4687446201097764685
 
 /-!
 # A300670: Table read by antidiagonals: the n-th row is the lexicographically earliest sequence such that no k + 2 points of ((1, a(1)), (2, a(2)), ...) lie on a polynomial of degree k for k < n.

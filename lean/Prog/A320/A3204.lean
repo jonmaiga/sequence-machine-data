@@ -941,6 +941,21 @@ end
 
 end A320410.P12091980345487105632
 
+/-! ## A320410.P1386724107953955264
+
+`A137633(A149737(n))`
+-/
+
+namespace A320410.P1386724107953955264
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137633 (A149737 n).toNat
+
+end
+
+end A320410.P1386724107953955264
+
 /-!
 # A320415: O.g.f. A(x) satisfies: [x^n] 1/A(x)^(n+1) / (1 - (n+1)*x) = 0, for n > 0.
 
@@ -3480,6 +3495,28 @@ end
 
 end A320456.P5437777103780302840
 
+/-! ## A320456.P13176564065621641070
+
+`∪[A320634(n+1), A330060(n+1)]`
+-/
+
+namespace A320456.P13176564065621641070
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320634 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330060 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320456.P13176564065621641070
+
 /-! ## A320456.P3022228671673327640
 
 `eq[1, A079068(A003963(2*(n+1)))]+1`
@@ -3771,6 +3808,28 @@ end A320458.P7326409386045419934
 The programs for A320459, there is no canonical definition to state claims against.
 -/
 
+/-! ## A320459.P12080666734412815459
+
+`∩[A320464(n+1), A339112(n+1)]`
+-/
+
+namespace A320459.P12080666734412815459
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320464 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339112 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320459.P12080666734412815459
+
 /-! ## A320459.P6081143257536027576
 
 `∩[A320462(n+1), A320464(n+1)]`
@@ -3813,27 +3872,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320459.P1525054782959610120
-
-/-! ## A320459.P16680290931948067700
-
-`A320464(lt[A320423(n), A320435(3*n+2)])`
--/
-
-namespace A320459.P16680290931948067700
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320423 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320435 (3 * n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320464 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A320459.P16680290931948067700
 
 /-!
 # A320460: Alphabetic length of a divide-and-conquer approach to the regular expression for permutations of n symbols.
@@ -4161,23 +4199,27 @@ end A320463.P8237477243212270118
 The programs for A320464, there is no canonical definition to state claims against.
 -/
 
-/-! ## A320464.P12153964957156913268
+/-! ## A320464.P5563729552590035404
 
-`record[A193980(7*n)]`
+`∩[A302478(n+1), A320533(n+1)]`
 -/
 
-namespace A320464.P12153964957156913268
+namespace A320464.P5563729552590035404
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193980 (7 * n)
+  A302478 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320533 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A320464.P12153964957156913268
+end A320464.P5563729552590035404
 
 /-!
 # A320465: a(n) = 2^n - (2^(n-1) mod n), where "mod" is the nonnegative remainder operator.
@@ -4203,6 +4245,29 @@ def P15987807680092500097.Spec : Prop :=
 theorem P15987807680092500097.correct : P15987807680092500097.Spec := by
   intro n
   simp only [A320465, Nat.add_sub_cancel]
+
+end A320465
+
+/-! ## A320465.P17697011636624036264
+
+`A185195(A144721(n))`
+-/
+
+namespace A320465.P17697011636624036264
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185195 (A144721 n).toNat
+
+end
+
+end A320465.P17697011636624036264
+
+namespace A320465
+
+/-- `A185195(A144721(n))` -/
+def P17697011636624036264.Spec : Prop :=
+  ∀ n, P17697011636624036264.a n = A320465 (n + 1)
 
 end A320465
 

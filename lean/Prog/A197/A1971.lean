@@ -1649,7 +1649,7 @@ end A197128.P11757561605692492232
 /-!
 # A197129: Numbers such that the sum, sum of the squares, and sum of the cubes of the decimal digits are each a perfect square.
 
-The programs for A197129, the canonical program `A197129.P9586474388136463062` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197129 has offset 1).
+The programs for A197129, the canonical program `A197129.P9586474388136463062` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197129 has offset 1).
 
 The definition of A197129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1688,7 +1688,7 @@ end A197129
 
 `∩[A197039(n+1), A197125(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A197129
@@ -2772,6 +2772,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197171.P5081634328135645609
+
+/-! ## A197171.P11297203873328556341
+
+`∩[A197127(n+1), A235986(n+1)]`
+-/
+
+namespace A197171.P11297203873328556341
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197127 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235986 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A197171.P11297203873328556341
 
 /-!
 # A197172: Values k such that singular quadratic unity of Q(k) have gcd(k, y) = 3.
@@ -4051,6 +4073,27 @@ end
 
 end A197187.P17163843468335486918
 
+/-! ## A197187.P6032567751765122886
+
+`eq[A016376(n), A036997(n+1)]`
+-/
+
+namespace A197187.P6032567751765122886
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016376 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036997 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A197187.P6032567751765122886
+
 /-!
 # A197188: The Riemann primes of the psi type and index 4.
 
@@ -4107,6 +4150,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197188.P14123205538556518836
+
+/-! ## A197188.P10361214760982987401
+
+`∩[A004051(n+1), A161750(n+1)]`
+-/
+
+namespace A197188.P10361214760982987401
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004051 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161750 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A197188.P10361214760982987401
+
+/-! ## A197188.P5367470389193836405
+
+`∩[A144755(n+1), A161750(n+1)]`
+-/
+
+namespace A197188.P5367470389193836405
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144755 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161750 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A197188.P5367470389193836405
 
 /-!
 # A197189: a(n) = 3*a(n-1) + 5*a(n-2), with a(0)=1, a(1)=2.

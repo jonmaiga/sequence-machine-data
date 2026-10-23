@@ -97,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -368,6 +369,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038102.P8994366605770502876
+
+/-! ## A038102.P12119503486788488061
+
+`A181891(A077168(n))`
+-/
+
+namespace A038102.P12119503486788488061
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181891 (A077168 n).toNat
+
+end
+
+end A038102.P12119503486788488061
 
 /-!
 # A038103: Numbers k such that k is a substring of its base-3 representation.
@@ -1935,6 +1951,28 @@ end
 
 end A038113.P16472451548280473170
 
+/-! ## A038113.P17080836359418419616
+
+`∩[A028840(n+1), A038115(n)]`
+-/
+
+namespace A038113.P17080836359418419616
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028840 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038115 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A038113.P17080836359418419616
+
 /-! ## A038113.P15171816741132750356
 
 `filter[A038114(n), A060584(#)]`
@@ -1989,24 +2027,6 @@ end
 
 end A038113.P4546872449985908652
 
-/-! ## A038113.P3112767872961990147
-
-`filter[A038115(n), A329682(#)]`
--/
-
-namespace A038113.P3112767872961990147
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038115 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A329682 (f1 j).toNat = 1) n)
-
-end
-
-end A038113.P3112767872961990147
-
 /-!
 # A038114: Lexicographically earliest strictly increasing base 5 autovarious sequence: a(n) = number of distinct a(k) mod 5^n (written in base 5).
 
@@ -2031,6 +2051,50 @@ end
 
 end A038114.P5448627958470061666
 
+/-! ## A038114.P16951126424572644556
+
+`∩[A001961(n+1), A038115(n)]`
+-/
+
+namespace A038114.P16951126424572644556
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001961 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038115 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A038114.P16951126424572644556
+
+/-! ## A038114.P7814960300068761231
+
+`∩[A004841(n+1), A038115(n)]`
+-/
+
+namespace A038114.P7814960300068761231
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004841 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038115 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A038114.P7814960300068761231
+
 /-! ## A038114.P17656024910297550249
 
 `filter[A038115(n), A161996(#)]`
@@ -2048,6 +2112,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038114.P17656024910297550249
+
+/-! ## A038114.P5645605270312831410
+
+`∩[A023783(n+1), A038115(n)]`
+-/
+
+namespace A038114.P5645605270312831410
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023783 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038115 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A038114.P5645605270312831410
 
 /-!
 # A038115: Lexicographically earliest strictly increasing base 6 autovarious sequence: a(n) = number of distinct a(k) mod 6^n (written in base 6).
@@ -2148,6 +2234,28 @@ end A038115.P11895939049468371679
 The programs for A038116, there is no canonical definition to state claims against.
 -/
 
+/-! ## A038116.P5520867424609461036
+
+`∩[A038117(n), A258833(n)]`
+-/
+
+namespace A038116.P5520867424609461036
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038117 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258833 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A038116.P5520867424609461036
+
 /-! ## A038116.P14394928736882441687
 
 `A038118(A007094(n)%A038120(n))`
@@ -2162,6 +2270,57 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038116.P14394928736882441687
+
+/-! ## A038116.P12461423323475353162
+
+`A038117(A029804(n+1))`
+-/
+
+namespace A038116.P12461423323475353162
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038117 (A029804 (n + 1)).toNat
+
+end
+
+end A038116.P12461423323475353162
+
+/-! ## A038116.P15558483843634880857
+
+`filter[A038117(n), A102609(#)]`
+-/
+
+namespace A038116.P15558483843634880857
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038117 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A102609 (f1 j).toNat = 1) n)
+
+end
+
+end A038116.P15558483843634880857
+
+/-! ## A038116.P7864934351858096701
+
+`filter[A038118(n), A102609(#)]`
+-/
+
+namespace A038116.P7864934351858096701
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038118 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A102609 (f1 j).toNat = 1) n)
+
+end
+
+end A038116.P7864934351858096701
 
 /-!
 # A038117: Lexicographically earliest strictly increasing base 8 autovarious sequence: a(n) = number of distinct a(k) mod 8^n (written in base 8).
@@ -2221,6 +2380,28 @@ end
 
 end A038117.P9056736909923656460
 
+/-! ## A038117.P14524280422279106493
+
+`∩[A037472(n), A038118(n)]`
+-/
+
+namespace A038117.P14524280422279106493
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037472 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038118 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A038117.P14524280422279106493
+
 /-! ## A038117.P17531943186513940339
 
 `∩[A039082(n+1), A037089(n)]`
@@ -2242,28 +2423,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038117.P17531943186513940339
-
-/-! ## A038117.P16705528593232079288
-
-`∩[A039110(n+1), A037089(n)]`
--/
-
-namespace A038117.P16705528593232079288
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039110 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037089 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A038117.P16705528593232079288
 
 /-!
 # A038118: Lexicographically earliest strictly increasing base 9 autovarious sequence: a(n) = number of distinct a(k) mod 9^n (written in base 9).
@@ -3461,6 +3620,33 @@ def P6036730182553862969.Spec : Prop :=
 
 end A038127
 
+/-! ## A038127.P7860755991849316503
+
+`comp[A064724(n+1)]`
+-/
+
+namespace A038127.P7860755991849316503
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064724 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A038127.P7860755991849316503
+
+namespace A038127
+
+/-- `comp[A064724(n+1)]` -/
+def P7860755991849316503.Spec : Prop :=
+  ∀ n, (P7860755991849316503.a n : ℤ) = A038127 n
+
+end A038127
+
 /-! ## A038127.P952290331153470617
 
 `ceil(n*2^sqrt(2))-A001221(A046644(n+1))`
@@ -4556,6 +4742,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038134.P6844401719857986201
+
+/-! ## A038134.P15259917670741867773
+
+`A082876(A389713(n+1))`
+-/
+
+namespace A038134.P15259917670741867773
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082876 (A389713 (n + 1)).toNat
+
+end
+
+end A038134.P15259917670741867773
 
 /-!
 # A038137: Reflection of A037027: T(n,m) = U(n,n-m), m=0..n, where U is as in A037027.
@@ -7687,30 +7888,24 @@ end
 
 end A038161.P13650538807500178248
 
-/-! ## A038161.P11834345802088381342
+/-! ## A038161.P4669014014717684529
 
-`lt[char[A038162(n+1)], 1]`
+`comp[A038162(n+1)]`
 -/
 
-namespace A038161.P11834345802088381342
+namespace A038161.P4669014014717684529
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A038162 (n + 1)
 
 open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f3 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A038161.P11834345802088381342
+end A038161.P4669014014717684529
 
 /-! ## A038161.P3308662057630663166
 
@@ -7903,6 +8098,25 @@ end
 
 end A038162.P7438691684904200924
 
+/-! ## A038162.P16630485707925852219
+
+`comp[A014202(n)]`
+-/
+
+namespace A038162.P16630485707925852219
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014202 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A038162.P16630485707925852219
+
 /-! ## A038162.P13994697227701720800
 
 `eq[char[A014202(n)], A014197(2*n+1)]`
@@ -7927,25 +8141,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038162.P13994697227701720800
-
-/-! ## A038162.P11969655017321908360
-
-`comp[A014202(n)]%A014217(2*(n+2))`
--/
-
-namespace A038162.P11969655017321908360
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014202 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A014217 (2 * (n + 2)))
-
-end
-
-end A038162.P11969655017321908360
 
 /-!
 # A038163: G.f.: 1/((1-x)*(1-x^2))^3.

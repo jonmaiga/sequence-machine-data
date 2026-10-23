@@ -6065,6 +6065,27 @@ end
 
 end A116883.P17532839190663160776
 
+/-! ## A116883.P12244648991543233037
+
+`lt[gcd(n, 2^n)², n+1]`
+-/
+
+namespace A116883.P12244648991543233037
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd n (2 ^ n) ^ 2
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A116883.P12244648991543233037
+
 /-! ## A116883.P14319167584097251371
 
 `lt[(xor(n, n-1)/2)², n]`

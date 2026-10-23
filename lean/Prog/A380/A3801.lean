@@ -60,7 +60,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1265,7 +1264,7 @@ end A380113
 /-!
 # A380114: Triangle read by rows: The convolution triangle of 2^n, where the convolution triangle of a sequence is defined in A357368.
 
-The programs for A380114, the canonical program `A380114.P703305606341716703` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380114 has offset 0).
+The programs for A380114, the canonical program `A380114.P703305606341716703` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380114 has offset 0).
 
 The definition of A380114 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1274,7 +1273,7 @@ The definition of A380114 is `conjectured`: the Lean definition is a formula tha
 
 `A097805(n)*A137688(n)`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A380114
@@ -4279,6 +4278,29 @@ def P123435390628394571.Spec : Prop :=
 
 end A380161
 
+/-! ## A380161.P17229703972040106830
+
+`A114810(2*A055231(n+1))`
+-/
+
+namespace A380161.P17229703972040106830
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114810 (2 * A055231 (n + 1)).toNat
+
+end
+
+end A380161.P17229703972040106830
+
+namespace A380161
+
+/-- `A114810(2*A055231(n+1))` -/
+def P17229703972040106830.Spec : Prop :=
+  ∀ n, P17229703972040106830.a n = A380161 (n + 1)
+
+end A380161
+
 /-!
 # A380162: a(n) is the value of the Euler totient function when applied to the largest square dividing n.
 
@@ -5193,6 +5215,29 @@ def P12302252890900172021.Spec : Prop :=
 
 end A380163
 
+/-! ## A380163.P13461321450480659151
+
+`A062570((n+1)/A235872(n+1))`
+-/
+
+namespace A380163.P13461321450480659151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062570 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (A235872 (n + 1) : ℚ))).toNat
+
+end
+
+end A380163.P13461321450480659151
+
+namespace A380163
+
+/-- `A062570((n+1)/A235872(n+1))` -/
+def P13461321450480659151.Spec : Prop :=
+  ∀ n, P13461321450480659151.a n = A380163 (n + 1)
+
+end A380163
+
 /-!
 # A380164: a(n) is the value of the Euler totient function when applied to the largest unitary divisor of n that is a square.
 
@@ -5430,7 +5475,7 @@ end A380164
 /-!
 # A380165: a(n) is the value of the Euler totient function when applied to the largest unitary divisor of n that is an exponentially odd number.
 
-The programs for A380165, the canonical program `A380165.P2435245022523968233` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380165 has offset 1).
+The programs for A380165, the canonical program `A380165.P2435245022523968233` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380165 has offset 1).
 
 The definition of A380165 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A350389, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5439,7 +5484,7 @@ The definition of A380165 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A350389(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A380165
@@ -5989,6 +6034,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A380175.P13259551769082733691
+
+/-! ## A380175.P10579378845241034724
+
+`∪[n², A242307(n+1)]`
+-/
+
+namespace A380175.P10579378845241034724
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242307 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380175.P10579378845241034724
 
 /-! ## A380175.P18387639162879269669
 

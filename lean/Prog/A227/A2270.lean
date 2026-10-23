@@ -53,7 +53,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -5967,6 +5966,34 @@ def P17180239369662006038.Spec : Prop :=
 end A227062
 
 /-!
+# A227063: Prime in the middle of a list of 7 consecutive primes such that each of them is a member of a twin pair.
+
+The programs for A227063, there is no canonical definition to state claims against.
+-/
+
+/-! ## A227063.P981217812159799104
+
+`∩[A069467(n+1), A227323(n+1)]`
+-/
+
+namespace A227063.P981217812159799104
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069467 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227323 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A227063.P981217812159799104
+
+/-!
 # A227064: Primes prime(k) such that the gap prime(k-1) - prime(k-2) equals the gap prime(k+2) - prime(k+1).
 
 The programs for A227064, the canonical program `A227064.P15989366321493760190` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227064 has offset 1).
@@ -6412,6 +6439,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A227065.P10699815760863890944
+
+/-! ## A227065.P17773240034638913693
+
+`n+1-A083338(2*(n+1))`
+-/
+
+namespace A227065.P17773240034638913693
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A083338 (2 * (n + 1))
+
+end
+
+end A227065.P17773240034638913693
 
 /-!
 # A227066: Number of primes between n and 2n inclusive equals the number of primes between 2n and 3n inclusive.
@@ -7056,16 +7098,16 @@ end
 
 end A227073.P6280847379390650648
 
-/-! ## A227073.P3748031010453438112
+/-! ## A227073.P4094059002790752046
 
-`∩[A007932(n+1), A368550(n+1)]`
+`∩[A001729(n+1), A368550(n+1)]`
 -/
 
-namespace A227073.P3748031010453438112
+namespace A227073.P4094059002790752046
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007932 (n + 1)
+  A001729 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A368550 (n + 1)
@@ -7076,21 +7118,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A227073.P3748031010453438112
+end A227073.P4094059002790752046
 
-/-! ## A227073.P8715366709811304859
+/-! ## A227073.P6579182701506682410
 
-`∩[A038527(n+1), A254621(n+1)]`
+`∩[A039116(n+1), A368550(n+1)]`
 -/
 
-namespace A227073.P8715366709811304859
+namespace A227073.P6579182701506682410
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038527 (n + 1)
+  A039116 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A254621 (n + 1)
+  A368550 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7098,21 +7140,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A227073.P8715366709811304859
+end A227073.P6579182701506682410
 
-/-! ## A227073.P17986830122944907435
+/-! ## A227073.P845303936130260288
 
-`∩[A038528(n+1), A254621(n+1)]`
+`∩[A039117(n+1), A368550(n+1)]`
 -/
 
-namespace A227073.P17986830122944907435
+namespace A227073.P845303936130260288
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038528 (n + 1)
+  A039117 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A254621 (n + 1)
+  A368550 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7120,7 +7162,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A227073.P17986830122944907435
+end A227073.P845303936130260288
+
+/-! ## A227073.P10858396299631095292
+
+`∩[A039118(n+1), A368550(n+1)]`
+-/
+
+namespace A227073.P10858396299631095292
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039118 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368550 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A227073.P10858396299631095292
 
 /-!
 # A227074: A triangle formed like Pascal's triangle, but with 4^n on the borders instead of 1.

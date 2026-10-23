@@ -3690,6 +3690,116 @@ end A096848.P4608523916984741706
 The programs for A096849, there is no canonical definition to state claims against.
 -/
 
+/-! ## A096849.P16201945717430324744
+
+`∪[A007617(n+1), A096851(n+1)]`
+-/
+
+namespace A096849.P16201945717430324744
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007617 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096851 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A096849.P16201945717430324744
+
+/-! ## A096849.P15658892079365761188
+
+`∪[A091066(n+1), A096851(n+1)]`
+-/
+
+namespace A096849.P15658892079365761188
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091066 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096851 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A096849.P15658892079365761188
+
+/-! ## A096849.P15970780951606217330
+
+`∪[A096851(n+1), A144396(n+1)]`
+-/
+
+namespace A096849.P15970780951606217330
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096851 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144396 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A096849.P15970780951606217330
+
+/-! ## A096849.P11529434334945547497
+
+`∪[A096851(n+1), A237287(n+1)]`
+-/
+
+namespace A096849.P11529434334945547497
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096851 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237287 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A096849.P11529434334945547497
+
+/-! ## A096849.P1530140597690712790
+
+`∪[A096851(n+1), A238524(n+1)]`
+-/
+
+namespace A096849.P1530140597690712790
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096851 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238524 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A096849.P1530140597690712790
+
 /-! ## A096849.P4667925142587037765
 
 `eq[char[A096850(n+1)], A000007(n)]`
@@ -3814,31 +3924,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A096849.P3755085242995298650
-
-/-! ## A096849.P7474104664617693999
-
-`eq[char[A096850(n+1)], A151933(n)]`
--/
-
-namespace A096849.P7474104664617693999
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096850 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151933 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
-
-end
-
-end A096849.P7474104664617693999
 
 /-!
 # A096850: Consider iteration of the function f(x) = phi(sigma(x)) = A062401(x). Sequence gives numbers n such that the trajectory of n returns to n.
@@ -7061,7 +7146,7 @@ end A096884
 /-!
 # A096885: Related to diagonals of Pascal's triangle.
 
-The programs for A096885, the canonical program `A096885.P14291906865171675092` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096885 has offset 0).
+The programs for A096885, the canonical program `A096885.P14291906865171675092` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096885 has offset 0).
 
 The definition of A096885 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7070,7 +7155,7 @@ The definition of A096885 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `100*a(n-1)+a(n-2)` with `a(0)=1, a(1)=100`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A096885

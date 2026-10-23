@@ -8376,6 +8376,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*floor(9*2^n/5)` (program `A102653.P8175031074044504269`, by `A102653.P8175031074044504269.correct`). Lean does not check the parsing of the name. -/
 def A102653.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A096885.P14291906865171675092
+
+`100*a(n-1)+a(n-2)` with `a(0)=1, a(1)=100`
+-/
+
+namespace A096885.P14291906865171675092
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 100] fun n a =>
+  100 * a (n - 1) + a (n - 2)
+
+end
+
+end A096885.P14291906865171675092
+
+noncomputable section
+
+/-- A096885: Related to diagonals of Pascal's triangle.
+
+Offset 0, canonical program `A096885.P14291906865171675092`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A096885 (n : ℕ) : ℤ :=
+  (A096885.P14291906865171675092.a n : ℤ)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A096885.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A096941.P14009321199420802782
 
 `(n+15)*(n+2)*(n+1)/6`
@@ -28631,34 +28659,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. -/
 def A102518.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A102526.P4178194287225696711
-
-`a(n-1)+2*a(n-2)-a(n-3)-a(n-5)-a(n-6)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=2, a(4)=4, a(5)=5`
--/
-
-namespace A102526.P4178194287225696711
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 2, 2, 4, 5] fun n a =>
-  a (n - 1) + 2 * a (n - 2) - a (n - 3) - a (n - 5) - a (n - 6)
-
-end
-
-end A102526.P4178194287225696711
-
-noncomputable section
-
-/-- A102526: Antidiagonal sums of Losanitsch's triangle (A034851).
-
-Offset 0, canonical program `A102526.P4178194287225696711`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. -/
-def A102526 (n : ℕ) : ℤ :=
-  A102526.P4178194287225696711.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. -/
-def A102526.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A102550.P3226451876739763872
 

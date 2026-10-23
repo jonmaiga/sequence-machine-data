@@ -3373,6 +3373,27 @@ end
 
 end A345250.P15595317102307354949
 
+/-! ## A345250.P3523829157168331642
+
+`eq[A062831(n+1), A178646(n+1)]`
+-/
+
+namespace A345250.P3523829157168331642
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062831 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178646 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A345250.P3523829157168331642
+
 /-!
 # A345251: Numbers engraved on the 12 sides of an ancient dodecahedral rock crystal from the first century A.D.
 

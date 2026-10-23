@@ -14,6 +14,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -3773,20 +3774,20 @@ end
 
 end A224534.P10699020756161561110
 
-/-! ## A224534.P4299397411512383331
+/-! ## A224534.P3374717287983096663
 
-`A000040(n+8)`
+`A108719(n+5)`
 -/
 
-namespace A224534.P4299397411512383331
+namespace A224534.P3374717287983096663
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 8)
+  A108719 (n + 5)
 
 end
 
-end A224534.P4299397411512383331
+end A224534.P3374717287983096663
 
 /-!
 # A224535: Odd numbers that are the sum of three distinct prime numbers.

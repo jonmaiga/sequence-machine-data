@@ -6126,6 +6126,58 @@ def P1752899052791219200.Spec : Prop :=
 
 end A044441
 
+/-! ## A044441.P8323624598243582351
+
+`filter[A017257(n), A156259(#)]`
+-/
+
+namespace A044441.P8323624598243582351
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017257 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A156259 (f1 j).toNat = 1) n)
+
+end
+
+end A044441.P8323624598243582351
+
+namespace A044441
+
+/-- `filter[A017257(n), A156259(#)]` -/
+def P8323624598243582351.Spec : Prop :=
+  ∀ n, P8323624598243582351.a n = A044441 (n + 1)
+
+end A044441
+
+/-! ## A044441.P4041000326852202112
+
+`filter[A305496(n+1), A156259(#)]`
+-/
+
+namespace A044441.P4041000326852202112
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305496 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A156259 (f1 j).toNat = 1) n)
+
+end
+
+end A044441.P4041000326852202112
+
+namespace A044441
+
+/-- `filter[A305496(n+1), A156259(#)]` -/
+def P4041000326852202112.Spec : Prop :=
+  ∀ n, P4041000326852202112.a n = A044441 (n + 1)
+
+end A044441
+
 /-!
 # A044442: Numbers n such that string 0,0 occurs in the base 4 representation of n but not of n+1.
 

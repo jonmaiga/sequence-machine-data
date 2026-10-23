@@ -2361,16 +2361,16 @@ end
 
 end A357632.P16935447319622423479
 
-/-! ## A357632.P17604576697662250116
+/-! ## A357632.P12012025422590758365
 
-`∩[A340784(n+1), A357636(n+1)]`
+`∩[A028260(n+1), A357636(n+1)]`
 -/
 
-namespace A357632.P17604576697662250116
+namespace A357632.P12012025422590758365
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340784 (n + 1)
+  A028260 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A357636 (n + 1)
@@ -2381,7 +2381,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A357632.P17604576697662250116
+end A357632.P12012025422590758365
 
 /-!
 # A357633: Half-alternating sum of the partition having Heinz number n.
@@ -5558,6 +5558,52 @@ def P3248702109938937618.Spec : Prop :=
 
 end A357679
 
+/-! ## A357679.P8394717211046022408
+
+`A023523(n+2)+A023515(n+3)`
+-/
+
+namespace A357679.P8394717211046022408
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023523 (n + 2) + A023515 (n + 3)
+
+end
+
+end A357679.P8394717211046022408
+
+namespace A357679
+
+/-- `A023523(n+2)+A023515(n+3)` -/
+def P8394717211046022408.Spec : Prop :=
+  ∀ n, P8394717211046022408.a n = A357679 (n + 2)
+
+end A357679
+
+/-! ## A357679.P3998605916469858064
+
+`A000040(n+2)*A176099(n+3)`
+-/
+
+namespace A357679.P3998605916469858064
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 2) * A176099 (n + 3)
+
+end
+
+end A357679.P3998605916469858064
+
+namespace A357679
+
+/-- `A000040(n+2)*A176099(n+3)` -/
+def P3998605916469858064.Spec : Prop :=
+  ∀ n, P3998605916469858064.a n = A357679 (n + 2)
+
+end A357679
+
 /-!
 # A357680: a(n) is the number of primes that can be written as +-1! +- 2! +- 3! +- ... +- n!.
 
@@ -6233,6 +6279,36 @@ The programs for A357686, the canonical program `A357686.P10772089169183460672` 
 
 The definition of A357686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2194 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A357686.P13782899173089652441
+
+`∩[A013929(n+1), A357685(n+1)]`
+-/
+
+namespace A357686.P13782899173089652441
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013929 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357685 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A357686.P13782899173089652441
+
+namespace A357686
+
+/-- `∩[A013929(n+1), A357685(n+1)]` -/
+def P13782899173089652441.Spec : Prop :=
+  ∀ n, (P13782899173089652441.a n : ℤ) = A357686 (n + 1)
+
+end A357686
 
 /-! ## A357686.P3386942634217332526
 

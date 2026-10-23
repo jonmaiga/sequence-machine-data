@@ -6940,6 +6940,50 @@ end
 
 end A230457.P16254634702801895854
 
+/-! ## A230457.P10770018527514949449
+
+`∪[A064362(n+1), A232658(n+1)]`
+-/
+
+namespace A230457.P10770018527514949449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064362 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232658 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A230457.P10770018527514949449
+
+/-! ## A230457.P325456411080230700
+
+`∪[A172019(n+1), A232658(n+1)]`
+-/
+
+namespace A230457.P325456411080230700
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172019 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232658 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A230457.P325456411080230700
+
 /-!
 # A230459: Ordered by increasing m with k < m, a(n) is the n-th record value of gcd(k!+1, m!+1).
 
@@ -7397,6 +7441,36 @@ def P7039207461616672923.Spec : Prop :=
 
 end A230460
 
+/-! ## A230460.P12208237681464430274
+
+`∩[A066207(n+1), A106349(n+1)]`
+-/
+
+namespace A230460.P12208237681464430274
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066207 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106349 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A230460.P12208237681464430274
+
+namespace A230460
+
+/-- `∩[A066207(n+1), A106349(n+1)]` -/
+def P12208237681464430274.Spec : Prop :=
+  ∀ n, (P12208237681464430274.a n : ℤ) = A230460 (n + 1)
+
+end A230460
+
 /-! ## A230460.P13231068436028496591
 
 `A088982(A065897(n+1))`
@@ -7417,29 +7491,6 @@ namespace A230460
 /-- `A088982(A065897(n+1))` -/
 def P13231068436028496591.Spec : Prop :=
   ∀ n, P13231068436028496591.a n = A230460 (n + 1)
-
-end A230460
-
-/-! ## A230460.P7929033597460386003
-
-`A004139(A037168(n+1))`
--/
-
-namespace A230460.P7929033597460386003
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004139 (A037168 (n + 1)).toNat
-
-end
-
-end A230460.P7929033597460386003
-
-namespace A230460
-
-/-- `A004139(A037168(n+1))` -/
-def P7929033597460386003.Spec : Prop :=
-  ∀ n, P7929033597460386003.a n = A230460 (n + 1)
 
 end A230460
 
@@ -9661,6 +9712,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A230484.P7002481038781712772
+
+/-! ## A230484.P12446350199306117117
+
+`∩[A020234(n+1), A224695(n+1)]`
+-/
+
+namespace A230484.P12446350199306117117
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020234 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224695 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A230484.P12446350199306117117
 
 /-!
 # A230486: Numbers n such that n^n is representable as the sum of two nonzero squares.

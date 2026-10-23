@@ -30,6 +30,7 @@ import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -6737,29 +6738,32 @@ def P15187515108845623777.Spec : Prop :=
 
 end A161365
 
-/-! ## A161365.P13895386484827831322
+/-! ## A161365.P10675449030432662229
 
-`∑[ogf((9+x^2)/(1-x^2))]`
+`∑[∑[ogf((9+x^2)/(1+x))]]`
 -/
 
-namespace A161365.P13895386484827831322
+namespace A161365.P10675449030432662229
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [9, 0, 1] [1, 1] n
+
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [9, 0, 1] [1, 0, -1] n
+  ∑ j ∈ Finset.range (n + 1), f2 j
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A161365.P13895386484827831322
+end A161365.P10675449030432662229
 
 namespace A161365
 
-/-- `∑[ogf((9+x^2)/(1-x^2))]` -/
-def P13895386484827831322.Spec : Prop :=
-  ∀ n, P13895386484827831322.a n = A161365 (n + 1)
+/-- `∑[∑[ogf((9+x^2)/(1+x))]]` -/
+def P10675449030432662229.Spec : Prop :=
+  ∀ n, P10675449030432662229.a n = A161365 (n + 1)
 
 end A161365
 
@@ -7085,6 +7089,29 @@ namespace A161365
 /-- `A273669(n+2-A000035(n))` -/
 def P12206363243285075978.Spec : Prop :=
   ∀ n, P12206363243285075978.a n = A161365 (n + 1)
+
+end A161365
+
+/-! ## A161365.P982119243715369281
+
+`A273669(A000034(n+1)+n)`
+-/
+
+namespace A161365.P982119243715369281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A273669 (A000034 (n + 1) + (n : ℤ)).toNat
+
+end
+
+end A161365.P982119243715369281
+
+namespace A161365
+
+/-- `A273669(A000034(n+1)+n)` -/
+def P982119243715369281.Spec : Prop :=
+  ∀ n, P982119243715369281.a n = A161365 (n + 1)
 
 end A161365
 
@@ -9639,6 +9666,28 @@ end
 
 end A161387.P14649696214975494758
 
+/-! ## A161387.P3028822638162718189
+
+`∩[A229086(n+1), A292762(n+1)]`
+-/
+
+namespace A161387.P3028822638162718189
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229086 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A292762 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A161387.P3028822638162718189
+
 /-! ## A161387.P11120166524566180401
 
 `∩[A229086(n+1), A385221(n+1)]`
@@ -9836,28 +9885,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A161387.P11445897604248992159
-
-/-! ## A161387.P11127310208149173050
-
-`∩[A066499(n+1), A229086(n+1)]`
--/
-
-namespace A161387.P11127310208149173050
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066499 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229086 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A161387.P11127310208149173050
 
 /-!
 # A161388: (Odd) binary palindromes n such that 2*n + 1 is a prime.

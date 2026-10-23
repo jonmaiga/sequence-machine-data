@@ -41,6 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -4479,6 +4480,205 @@ def P2936850257676569809.Spec : Prop :=
 
 end A131520
 
+/-! ## A131520.P9937136747074365663
+
+`(a(n-1)+2-n)/(1-1/2)` with `a(0)=2`
+-/
+
+namespace A131520.P9937136747074365663
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [2] fun n a =>
+  (a (n - 1) + (2 - (n : ℤ) : ℚ)) / (1 - (1 : ℚ) / 2)
+
+end
+
+end A131520.P9937136747074365663
+
+namespace A131520
+
+/-- `(a(n-1)+2-n)/(1-1/2)` -/
+def P9937136747074365663.Spec : Prop :=
+  ∀ n, P9937136747074365663.a n = (A131520 (n + 1) : ℚ)
+
+end A131520
+
+/-! ## A131520.P13369662786235568802
+
+`(2-(n-a(n-1)))/(1-1/2)` with `a(0)=2`
+-/
+
+namespace A131520.P13369662786235568802
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [2] fun n a =>
+  (2 - ((n : ℚ) - a (n - 1))) / (1 - (1 : ℚ) / 2)
+
+end
+
+end A131520.P13369662786235568802
+
+namespace A131520
+
+/-- `(2-(n-a(n-1)))/(1-1/2)` -/
+def P13369662786235568802.Spec : Prop :=
+  ∀ n, P13369662786235568802.a n = (A131520 (n + 1) : ℚ)
+
+end A131520
+
+/-! ## A131520.P11003606512310073679
+
+`∑[A133140(n)]`
+-/
+
+namespace A131520.P11003606512310073679
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133140 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131520.P11003606512310073679
+
+namespace A131520
+
+/-- `∑[A133140(n)]` -/
+def P11003606512310073679.Spec : Prop :=
+  ∀ n, P11003606512310073679.a n = A131520 (n + 1)
+
+end A131520
+
+/-! ## A131520.P15418894859219359178
+
+`∑[A083318(n)+1]`
+-/
+
+namespace A131520.P15418894859219359178
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083318 n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131520.P15418894859219359178
+
+namespace A131520
+
+/-- `∑[A083318(n)+1]` -/
+def P15418894859219359178.Spec : Prop :=
+  ∀ n, P15418894859219359178.a n = A131520 (n + 1)
+
+end A131520
+
+/-! ## A131520.P17641812357486956243
+
+`∑[A155559(n)+2]`
+-/
+
+namespace A131520.P17641812357486956243
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155559 n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131520.P17641812357486956243
+
+namespace A131520
+
+/-- `∑[A155559(n)+2]` -/
+def P17641812357486956243.Spec : Prop :=
+  ∀ n, P17641812357486956243.a n = A131520 (n + 1)
+
+end A131520
+
+/-! ## A131520.P11466220120594916536
+
+`∑[A146528(n)-2]`
+-/
+
+namespace A131520.P11466220120594916536
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146528 n - 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131520.P11466220120594916536
+
+namespace A131520
+
+/-- `∑[A146528(n)-2]` -/
+def P11466220120594916536.Spec : Prop :=
+  ∀ n, P11466220120594916536.a n = A131520 (n + 1)
+
+end A131520
+
+/-! ## A131520.P6391790464622882037
+
+`∑[2*A094373(n)]`
+-/
+
+namespace A131520.P6391790464622882037
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A094373 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131520.P6391790464622882037
+
+namespace A131520
+
+/-- `∑[2*A094373(n)]` -/
+def P6391790464622882037.Spec : Prop :=
+  ∀ n, P6391790464622882037.a n = A131520 (n + 1)
+
+end A131520
+
+/-! ## A131520.P11158744112490372028
+
+`2*(A052944(n)+1)`
+-/
+
+namespace A131520.P11158744112490372028
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * (A052944 n + 1)
+
+end
+
+end A131520.P11158744112490372028
+
+namespace A131520
+
+/-- `2*(A052944(n)+1)` -/
+def P11158744112490372028.Spec : Prop :=
+  ∀ n, P11158744112490372028.a n = A131520 (n + 1)
+
+end A131520
+
 /-!
 # A131521: Expansion of 9/(4 + 5*sqrt(1-36*x)).
 
@@ -7542,6 +7742,29 @@ def P2805670011882793258.Spec : Prop :=
 
 end A131572
 
+/-! ## A131572.P5743873134072056565
+
+`A130130(n)*A158780(n)`
+-/
+
+namespace A131572.P5743873134072056565
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130130 n * A158780 n
+
+end
+
+end A131572.P5743873134072056565
+
+namespace A131572
+
+/-- `A130130(n)*A158780(n)` -/
+def P5743873134072056565.Spec : Prop :=
+  ∀ n, P5743873134072056565.a n = A131572 n
+
+end A131572
+
 /-!
 # A131573: Numbers whose square starts with 3 identical digits.
 
@@ -10532,7 +10755,7 @@ end A131589
 /-!
 # A131590: Sum of the squares of the first 2^n primes.
 
-The programs for A131590, the canonical program `A131590.P3790434165472296789` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131590 has offset 0).
+The programs for A131590, the canonical program `A131590.P3790434165472296789` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131590 has offset 0).
 
 The definition of A131590 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024450, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10541,7 +10764,7 @@ The definition of A131590 is `conditional`: the Lean definition is an OEIS formu
 
 `A024450(2^n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A131590
@@ -10660,7 +10883,7 @@ end A131590
 /-!
 # A131591: Sum of the squares of the first 3^n primes.
 
-The programs for A131591, the canonical program `A131591.P7378338396436422358` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131591 has offset 0).
+The programs for A131591, the canonical program `A131591.P7378338396436422358` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131591 has offset 0).
 
 The definition of A131591 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024450, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10669,7 +10892,7 @@ The definition of A131591 is `conditional`: the Lean definition is an OEIS formu
 
 `A024450(3^n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A131591
@@ -10788,7 +11011,7 @@ end A131591
 /-!
 # A131592: Sum of the squares of the first n^n primes.
 
-The programs for A131592, the canonical program `A131592.P8863503537066484247` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131592 has offset 0).
+The programs for A131592, the canonical program `A131592.P8863503537066484247` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131592 has offset 0).
 
 The definition of A131592 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024450, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10797,7 +11020,7 @@ The definition of A131592 is `conditional`: the Lean definition is an OEIS formu
 
 `A024450(A000312(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A131592

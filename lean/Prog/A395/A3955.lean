@@ -12,6 +12,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
@@ -33,6 +34,7 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
@@ -47,6 +49,7 @@ import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1177,6 +1180,52 @@ def P372328196411286099.Spec : Prop :=
 
 end A395540
 
+/-! ## A395540.P8661187088601878910
+
+`A029837(A246520(n+1))`
+-/
+
+namespace A395540.P8661187088601878910
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029837 (A246520 (n + 1)).toNat
+
+end
+
+end A395540.P8661187088601878910
+
+namespace A395540
+
+/-- `A029837(A246520(n+1))` -/
+def P8661187088601878910.Spec : Prop :=
+  ∀ n, P8661187088601878910.a n = A395540 (n + 1)
+
+end A395540
+
+/-! ## A395540.P8325197194426048650
+
+`A100006(A138768(n+1))`
+-/
+
+namespace A395540.P8325197194426048650
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100006 (A138768 (n + 1)).toNat
+
+end
+
+end A395540.P8325197194426048650
+
+namespace A395540
+
+/-- `A100006(A138768(n+1))` -/
+def P8325197194426048650.Spec : Prop :=
+  ∀ n, P8325197194426048650.a n = A395540 (n + 1)
+
+end A395540
+
 /-!
 # A395541: Largest integer of the form r^k whose product of nonzero base-n digits is r and whose number of base-n digits is k.
 
@@ -1698,6 +1747,28 @@ end
 
 end A395558.P6296483530548010136
 
+/-! ## A395558.P11516789958336564747
+
+`∩[A045317(n+1), A392201(n+1)]`
+-/
+
+namespace A395558.P11516789958336564747
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045317 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392201 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395558.P11516789958336564747
+
 /-! ## A395558.P10627980288615306737
 
 `∩[A095282(n+1), A392201(n+1)]`
@@ -2028,28 +2099,6 @@ end
 
 end A395558.P3115104031140992032
 
-/-! ## A395558.P3055636056287540669
-
-`∩[A040060(n+1), A392201(n+1)]`
--/
-
-namespace A395558.P3055636056287540669
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040060 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392201 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395558.P3055636056287540669
-
 /-!
 # A395560: 1 = Sum_{n>=0} a(n) * x^n * (1 - (3*n+1)*x)^2.
 
@@ -2149,6 +2198,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395567.P9945053247462880921
+
+/-! ## A395567.P7062449448648475790
+
+`∩[A331605(n+1), A348283(n+1)]`
+-/
+
+namespace A395567.P7062449448648475790
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331605 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348283 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395567.P7062449448648475790
 
 /-! ## A395567.P3165379984336052089
 
@@ -2523,28 +2594,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395567.P7783540407343302047
-
-/-! ## A395567.P18226551490004209474
-
-`∩[A301987(n+1), A331605(n+1)]`
--/
-
-namespace A395567.P18226551490004209474
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301987 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331605 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395567.P18226551490004209474
 
 /-!
 # A395568: Largest prime of the form x*y + x*z + x*t + y*z + y*t + z*t for integers 0 <= x <= y <= z <= t <= n.

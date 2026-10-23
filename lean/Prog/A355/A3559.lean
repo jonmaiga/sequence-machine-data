@@ -78,7 +78,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -3705,6 +3704,29 @@ def P3428731885407979303.Spec : Prop :=
 
 end A355931
 
+/-! ## A355931.P6001020628735122718
+
+`gcd(A161942(n+1), A176900(n))`
+-/
+
+namespace A355931.P6001020628735122718
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A161942 (n + 1)) (A176900 n)
+
+end
+
+end A355931.P6001020628735122718
+
+namespace A355931
+
+/-- `gcd(A161942(n+1), A176900(n))` -/
+def P6001020628735122718.Spec : Prop :=
+  ∀ n, (P6001020628735122718.a n : ℤ) = A355931 (n + 1)
+
+end A355931
+
 /-!
 # A355932: a(n) = gcd(sigma(n), sigma(A003961(n))), where A003961 is fully multiplicative with a(p) = nextprime(p).
 
@@ -5487,6 +5509,52 @@ namespace A355938
 /-- `A101040(2*A000203((n+1)²))` -/
 def P17496900803599016631.Spec : Prop :=
   ∀ n, P17496900803599016631.a n = A355938 (n + 1)
+
+end A355938
+
+/-! ## A355938.P15142712761895599506
+
+`A323513(A000010(A276528((n+1)²)))`
+-/
+
+namespace A355938.P15142712761895599506
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323513 (A000010 (A276528 ((n + 1) ^ 2)).toNat).toNat
+
+end
+
+end A355938.P15142712761895599506
+
+namespace A355938
+
+/-- `A323513(A000010(A276528((n+1)²)))` -/
+def P15142712761895599506.Spec : Prop :=
+  ∀ n, P15142712761895599506.a n = A355938 (n + 1)
+
+end A355938
+
+/-! ## A355938.P18261688428587415967
+
+`A323513(A277906(A276528((n+1)*(n+1))))`
+-/
+
+namespace A355938.P18261688428587415967
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323513 (A277906 (A276528 ((n + 1) * (n + 1))).toNat).toNat
+
+end
+
+end A355938.P18261688428587415967
+
+namespace A355938
+
+/-- `A323513(A277906(A276528((n+1)*(n+1))))` -/
+def P18261688428587415967.Spec : Prop :=
+  ∀ n, P18261688428587415967.a n = A355938 (n + 1)
 
 end A355938
 

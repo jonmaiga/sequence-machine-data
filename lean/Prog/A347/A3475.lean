@@ -2277,19 +2277,16 @@ def P5275086316970840908.Spec : Prop :=
 
 end A347523
 
-/-! ## A347523.P7819817172408464729
+/-! ## A347523.P2204057924910199525
 
-`1-char[2^∑{e}[n, #]]`
+`1-char[2*a(n-1)]` with `a(0)=1`
 -/
 
-namespace A347523.P7819817172408464729
+namespace A347523.P2204057924910199525
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p)
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f1 =>
+  2 * f1 (n - 1)
 
 open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -2297,43 +2294,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A347523.P7819817172408464729
+end A347523.P2204057924910199525
 
 namespace A347523
 
-/-- `1-char[2^∑{e}[n, #]]` -/
-def P7819817172408464729.Spec : Prop :=
-  ∀ n, P7819817172408464729.a n = A347523 n
+/-- `1-char[2*a(n-1)]` -/
+def P2204057924910199525.Spec : Prop :=
+  ∀ n, P2204057924910199525.a n = A347523 n
 
 end A347523
 
-/-! ## A347523.P4495397999050099451
+/-! ## A347523.P4228266156804142274
 
-`1-char[∏{e}[n, 2^#]]`
+`(1-C(2, ∏{p}[2*n, #]))²`
 -/
 
-namespace A347523.P4495397999050099451
+namespace A347523.P4228266156804142274
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f2 n), 2 ^ Nat.factorization (f2 n) p
+  2 * n
 
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
+  (1 - (Nat.choose 2 (∏ p ∈ Nat.primeFactors (f1 n), p) : ℤ)) ^ 2
 
 end
 
-end A347523.P4495397999050099451
+end A347523.P4228266156804142274
 
 namespace A347523
 
-/-- `1-char[∏{e}[n, 2^#]]` -/
-def P4495397999050099451.Spec : Prop :=
-  ∀ n, P4495397999050099451.a n = A347523 n
+/-- `(1-C(2, ∏{p}[2*n, #]))²` -/
+def P4228266156804142274.Spec : Prop :=
+  ∀ n, P4228266156804142274.a n = A347523 n
 
 end A347523
 
@@ -3668,12 +3661,12 @@ def P16349652195594239866.Spec : Prop :=
 
 end A347535
 
-/-! ## A347535.P2657643057230267239
+/-! ## A347535.P10289169845756184570
 
-`ogf((-2+3x^2-5x^3+2x^4)/(-1+3x-3x^2+x^3))`
+`ogf((2-3x^2+5x^3-2x^4)/(1-3x+3x^2-x^3))`
 -/
 
-namespace A347535.P2657643057230267239
+namespace A347535.P10289169845756184570
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3681,13 +3674,43 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A347535.P2657643057230267239
+end A347535.P10289169845756184570
 
 namespace A347535
 
-/-- `ogf((-2+3x^2-5x^3+2x^4)/(-1+3x-3x^2+x^3))` -/
-def P2657643057230267239.Spec : Prop :=
-  ∀ n, P2657643057230267239.a n = A347535 (n + 1)
+/-- `ogf((2-3x^2+5x^3-2x^4)/(1-3x+3x^2-x^3))` -/
+def P10289169845756184570.Spec : Prop :=
+  ∀ n, P10289169845756184570.a n = A347535 (n + 1)
+
+end A347535
+
+/-! ## A347535.P17105425615511592620
+
+`∪[a(n-1)², (n+3)²]` with `a(0)=2, a(1)=6`
+-/
+
+namespace A347535.P17105425615511592620
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [2, 6] fun n f1 =>
+  f1 (n - 1) ^ 2
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 3) ^ 2
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
+
+end
+
+end A347535.P17105425615511592620
+
+namespace A347535
+
+/-- `∪[a(n-1)², (n+3)²]` -/
+def P17105425615511592620.Spec : Prop :=
+  ∀ n, (P17105425615511592620.a n : ℤ) = A347535 (n + 1)
 
 end A347535
 
@@ -3855,29 +3878,6 @@ namespace A347535
 /-- `A347553(n+3)+∑[n]+1` -/
 def P5140892105845043.Spec : Prop :=
   ∀ n, P5140892105845043.a n = A347535 (n + 1)
-
-end A347535
-
-/-! ## A347535.P8480907886187130869
-
-`gcd(n+2, A000040(n+1))+n*(n+2)`
--/
-
-namespace A347535.P8480907886187130869
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (n + 2 : ℤ) (A000040 (n + 1)) + n * (n + 2)
-
-end
-
-end A347535.P8480907886187130869
-
-namespace A347535
-
-/-- `gcd(n+2, A000040(n+1))+n*(n+2)` -/
-def P8480907886187130869.Spec : Prop :=
-  ∀ n, (P8480907886187130869.a n : ℤ) = A347535 (n + 1)
 
 end A347535
 

@@ -8285,6 +8285,28 @@ end
 
 end A106639.P11262608101433753385
 
+/-! ## A106639.P1129668381955465647
+
+`∩[A028777(n+1), A129621(n+1)]`
+-/
+
+namespace A106639.P1129668381955465647
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028777 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129621 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106639.P1129668381955465647
+
 /-!
 # A106640: Row sums of A059346.
 

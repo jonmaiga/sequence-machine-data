@@ -2073,19 +2073,19 @@ end
 
 end A378133.P6828644798426964473
 
-/-! ## A378133.P17913750091365172502
+/-! ## A378133.P6659337473162274654
 
-`∩[A116998(n+1), A070175(n)]`
+`∩[A070175(n), A392613(n+1)]`
 -/
 
-namespace A378133.P17913750091365172502
+namespace A378133.P6659337473162274654
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116998 (n + 1)
+  A070175 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070175 n
+  A392613 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2093,7 +2093,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A378133.P17913750091365172502
+end A378133.P6659337473162274654
 
 /-!
 # A378134: a(n) is the smallest prime p such that (2*p)^(2^n) + 1 is also prime.

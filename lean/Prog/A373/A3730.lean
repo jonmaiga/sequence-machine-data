@@ -558,12 +558,12 @@ def P16054123982660671174.Spec : Prop :=
 
 end A373011
 
-/-! ## A373011.P3434496672014927286
+/-! ## A373011.P9753677990756740446
 
-`ogf((-2+x^2-3x^4+3x^5)/(-1+x+x^2-x^3))`
+`ogf((2-x^2+3x^4-3x^5)/(1-x-x^2+x^3))`
 -/
 
-namespace A373011.P3434496672014927286
+namespace A373011.P9753677990756740446
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -571,13 +571,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A373011.P3434496672014927286
+end A373011.P9753677990756740446
 
 namespace A373011
 
-/-- `ogf((-2+x^2-3x^4+3x^5)/(-1+x+x^2-x^3))` -/
-def P3434496672014927286.Spec : Prop :=
-  ∀ n, P3434496672014927286.a n = A373011 n
+/-- `ogf((2-x^2+3x^4-3x^5)/(1-x-x^2+x^3))` -/
+def P9753677990756740446.Spec : Prop :=
+  ∀ n, P9753677990756740446.a n = A373011 n
 
 end A373011
 

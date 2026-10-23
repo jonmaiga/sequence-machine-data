@@ -2050,6 +2050,34 @@ end
 end A305129.P639811717244590382
 
 /-!
+# A305130: Numbers k with the property that there exists a positive integer M, called multiplier, such that the sum of the digits of k times the multiplier added to the reversal of this product gives k.
+
+The programs for A305130, there is no canonical definition to state claims against.
+-/
+
+/-! ## A305130.P15160527904304100738
+
+`∩[A323190(n+1), A376598(n+1)]`
+-/
+
+namespace A305130.P15160527904304100738
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323190 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376598 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305130.P15160527904304100738
+
+/-!
 # A305131: Numbers k with the property that there exists a positive integer multiplier M such that M times the sum of the digits of k, multiplied further by the reversal of this product, gives k.
 
 The programs for A305131, there is no canonical definition to state claims against.
@@ -8554,6 +8582,72 @@ end
 
 end A305188.P11405962685935642929
 
+/-! ## A305188.P17741360338396140370
+
+`∪[A006987(n+1), A304391(n+1)]`
+-/
+
+namespace A305188.P17741360338396140370
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006987 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304391 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305188.P17741360338396140370
+
+/-! ## A305188.P17106211139486834675
+
+`∪[A182237(n+1), A304391(n+1)]`
+-/
+
+namespace A305188.P17106211139486834675
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182237 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304391 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305188.P17106211139486834675
+
+/-! ## A305188.P14498918929019058914
+
+`∪[A304391(n+1), A376372(n+1)]`
+-/
+
+namespace A305188.P14498918929019058914
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304391 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376372 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305188.P14498918929019058914
+
 /-!
 # A305189: a(n) = 1*2 + 3 + 4*5 + 6 + 7*8 + 9 + 10*11 + 12 + ... + (up to n).
 
@@ -9171,6 +9265,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A305195.P5133526635220150531
+
+/-! ## A305195.P14563356841522773202
+
+`gcd(A031567(n+1), A040968(n))`
+-/
+
+namespace A305195.P14563356841522773202
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A031567 (n + 1)) (A040968 n)
+
+end
+
+end A305195.P14563356841522773202
 
 /-!
 # A305197: Number of set partitions of [n] with symmetric block size list of length A004525(n).

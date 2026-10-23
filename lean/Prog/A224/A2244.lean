@@ -184,6 +184,28 @@ end
 
 end A224400.P12988028040487565379
 
+/-! ## A224400.P2484643982071324424
+
+`∩[A009995(n+1), A225193(n+1)]`
+-/
+
+namespace A224400.P2484643982071324424
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009995 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225193 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A224400.P2484643982071324424
+
 /-!
 # A224401: a(n) is the row number of triangle A085612 in which n appears.
 
@@ -4837,6 +4859,29 @@ def P1991940920095091001.Spec : Prop :=
 
 end A224454
 
+/-! ## A224454.P14245363822904904858
+
+`A006331(3*(n+1))-(n+1)`
+-/
+
+namespace A224454.P14245363822904904858
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006331 (3 * (n + 1)) - (n + 1 : ℤ)
+
+end
+
+end A224454.P14245363822904904858
+
+namespace A224454
+
+/-- `A006331(3*(n+1))-(n+1)` -/
+def P14245363822904904858.Spec : Prop :=
+  ∀ n, P14245363822904904858.a n = A224454 (n + 1)
+
+end A224454
+
 /-!
 # A224455: The hyper-Wiener index of the linear phenylene with n hexagons.
 
@@ -4857,6 +4902,29 @@ namespace A224455
 /-- `3/2*(n+1)*(n+2)*(9*(n+1)²+3*(n+1)+2)` -/
 def P12077512880858041536.Spec : Prop :=
   ∀ n, P12077512880858041536.a n = (A224455 (n + 1) : ℚ)
+
+end A224455
+
+/-! ## A224455.P5738137709586631176
+
+`A045943(n+1)+A045943(n+1)*A082040(n+1)`
+-/
+
+namespace A224455.P5738137709586631176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045943 (n + 1) + A045943 (n + 1) * A082040 (n + 1)
+
+end
+
+end A224455.P5738137709586631176
+
+namespace A224455
+
+/-- `A045943(n+1)+A045943(n+1)*A082040(n+1)` -/
+def P5738137709586631176.Spec : Prop :=
+  ∀ n, P5738137709586631176.a n = A224455 (n + 1)
 
 end A224455
 
@@ -5351,6 +5419,33 @@ theorem P13325224831687872706.correct : P13325224831687872706.Spec := by
 
 end A224467
 
+/-! ## A224467.P6450290517440115127
+
+`comp[A228373(n+1)]`
+-/
+
+namespace A224467.P6450290517440115127
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228373 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A224467.P6450290517440115127
+
+namespace A224467
+
+/-- `comp[A228373(n+1)]` -/
+def P6450290517440115127.Spec : Prop :=
+  ∀ n, (P6450290517440115127.a n : ℤ) = A224467 (n + 1)
+
+end A224467
+
 /-! ## A224467.P5820680605660982411
 
 `eq[2, ∏{e}[27*n+1, #+1]]`
@@ -5583,35 +5678,6 @@ namespace A224467
 /-- `eq[1, A342001(27*n+1)]` -/
 def P6432482652142505638.Spec : Prop :=
   ∀ n, (P6432482652142505638.a n : ℤ) = A224467 (n + 1)
-
-end A224467
-
-/-! ## A224467.P9162044103580955553
-
-`eq[1, A007920(3*9*n)]`
--/
-
-namespace A224467.P9162044103580955553
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007920 (3 * (9 * n))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A224467.P9162044103580955553
-
-namespace A224467
-
-/-- `eq[1, A007920(3*9*n)]` -/
-def P9162044103580955553.Spec : Prop :=
-  ∀ n, (P9162044103580955553.a n : ℤ) = A224467 (n + 1)
 
 end A224467
 

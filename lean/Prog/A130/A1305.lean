@@ -3174,6 +3174,21 @@ end
 
 end A130518.P4245905589106641768
 
+/-! ## A130518.P17644613863930645041
+
+`round(C(n, 2)/3)`
+-/
+
+namespace A130518.P17644613863930645041
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((Nat.choose n 2 : ℚ) / 3)
+
+end
+
+end A130518.P17644613863930645041
+
 /-! ## A130518.P8632575899810060380
 
 `ceil((C(n, 2)-1)/3)`
@@ -3231,6 +3246,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130518.P2671243633567367161
+
+/-! ## A130518.P965753652097176713
+
+`round((n-1)/(6*acot(n)))`
+-/
+
+namespace A130518.P965753652097176713
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (((n : ℤ) - 1 : ℝ) / (6 * SequenceMachineLib.acot (n : ℝ)))
+
+end
+
+end A130518.P965753652097176713
 
 /-! ## A130518.P11240972433209735936
 
@@ -3388,6 +3418,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130518.P15008899734491793817
+
+/-! ## A130518.P1135616281891302323
+
+`∑[A004773(n)-n]`
+-/
+
+namespace A130518.P1135616281891302323
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004773 n - (n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A130518.P1135616281891302323
+
+/-! ## A130518.P8120778427601414226
+
+`A128422(n+1)/2`
+-/
+
+namespace A130518.P8120778427601414226
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A128422 (n + 1) : ℚ) / 2
+
+end
+
+end A130518.P8120778427601414226
 
 /-!
 # A130519: a(n) = Sum_{k=0..n} floor(k/4). (Partial sums of A002265.)
@@ -4040,6 +4103,29 @@ def P698309011355099912.Spec : Prop :=
 
 end A130520
 
+/-! ## A130520.P4566359979038283333
+
+`a(n-1)-floor((4-n)/5)` with `a(0)=0`
+-/
+
+namespace A130520.P4566359979038283333
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  a (n - 1) - ⌊(4 - (n : ℤ) : ℚ) / 5⌋
+
+end
+
+end A130520.P4566359979038283333
+
+namespace A130520
+
+/-- `a(n-1)-floor((4-n)/5)` -/
+def P4566359979038283333.Spec : Prop :=
+  ∀ n, P4566359979038283333.a n = A130520 n
+
+end A130520
+
 /-! ## A130520.P7688582695529652418
 
 `n-(4-a(n-5))` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0, a(4)=0`
@@ -4305,36 +4391,6 @@ namespace A130520
 /-- `A398052(n)-A281151(n)` -/
 def P3667971111069441764.Spec : Prop :=
   ∀ n, P3667971111069441764.a n = A130520 n
-
-end A130520
-
-/-! ## A130520.P16258477172092910237
-
-`∑[comp[A016969(n)]]-A000217(n)`
--/
-
-namespace A130520.P16258477172092910237
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016969 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A000217 n
-
-end
-
-end A130520.P16258477172092910237
-
-namespace A130520
-
-/-- `∑[comp[A016969(n)]]-A000217(n)` -/
-def P16258477172092910237.Spec : Prop :=
-  ∀ n, P16258477172092910237.a n = A130520 n
 
 end A130520
 

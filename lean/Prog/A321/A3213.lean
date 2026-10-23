@@ -97,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3801,6 +3802,28 @@ end
 
 end A321343.P11860848333178427819
 
+/-! ## A321343.P1812020168904337125
+
+`∩[A093515(n+1), A321342(n+1)]`
+-/
+
+namespace A321343.P1812020168904337125
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321342 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A321343.P1812020168904337125
+
 /-! ## A321343.P2291493778383730885
 
 `∩[A106118(n+1), A321342(n+1)]`
@@ -3822,28 +3845,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A321343.P2291493778383730885
-
-/-! ## A321343.P997716273200199696
-
-`∩[A116974(n+1), A321342(n+1)]`
--/
-
-namespace A321343.P997716273200199696
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A116974 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321342 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A321343.P997716273200199696
 
 /-!
 # A321344: Expansion of 1/(1 - x) * Product_{k>=0} 1/(1 - x^(3^k))^(3^(k+1)).

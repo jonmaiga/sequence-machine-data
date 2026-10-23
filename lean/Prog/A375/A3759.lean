@@ -2229,19 +2229,19 @@ end
 
 end A375934.P9875740353671820697
 
-/-! ## A375934.P7889044574402492241
+/-! ## A375934.P14092612869316458666
 
-`∩[A375142(n+1), A303946(n+1)]`
+`∩[A303946(n+1), A375142(n+1)]`
 -/
 
-namespace A375934.P7889044574402492241
+namespace A375934.P14092612869316458666
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375142 (n + 1)
+  A303946 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303946 (n + 1)
+  A375142 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2249,7 +2249,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A375934.P7889044574402492241
+end A375934.P14092612869316458666
 
 /-! ## A375934.P15585878043949720235
 
@@ -4247,6 +4247,21 @@ end
 
 end A375967.P11816773923470722507
 
+/-! ## A375967.P10689058643860900354
+
+`A161561(A292512(n+1))`
+-/
+
+namespace A375967.P10689058643860900354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161561 (A292512 (n + 1)).toNat
+
+end
+
+end A375967.P10689058643860900354
+
 /-!
 # A375969: Lexicographically earliest sequence of nonnegative integers with distinct digit averages.
 
@@ -4313,6 +4328,25 @@ end
 
 end A375969.P1623744791475118458
 
+/-! ## A375969.P4056544758492325207
+
+`comp[A375967(n+1)]`
+-/
+
+namespace A375969.P4056544758492325207
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375967 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A375969.P4056544758492325207
+
 /-! ## A375969.P16301091828157439451
 
 `lt[A000045(n), A206268(A375968(n)+2)]`
@@ -4333,27 +4367,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A375969.P16301091828157439451
-
-/-! ## A375969.P11988091819555322547
-
-`lt[A107603(n+1), A161598(A007953(n+1))]`
--/
-
-namespace A375969.P11988091819555322547
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107603 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161598 (A007953 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A375969.P11988091819555322547
 
 /-!
 # A375970: a(n) is the largest number k such that k^2 divides the square pyramidal number A000330(n).

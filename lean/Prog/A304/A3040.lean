@@ -54,6 +54,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
@@ -8582,7 +8583,7 @@ end A304094
 /-!
 # A304095: a(n) is the number of the proper divisors of n that are Lucas numbers larger than 3 (4, 7, 11, 18, ...).
 
-The programs for A304095, the canonical program `A304095.P8518165107337469446` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304095 has offset 1).
+The programs for A304095, the canonical program `A304095.P8518165107337469446` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304095 has offset 1).
 
 The definition of A304095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8614,7 +8615,7 @@ end A304095
 
 `∑{d}[n+1, A157658(#)*A304096((n+1)/#)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A304095
@@ -8649,6 +8650,52 @@ namespace A304095
 /-- `A087436(gcd(A038754(n), A304102(n+1)))` -/
 def P6787186761621230979.Spec : Prop :=
   ∀ n, P6787186761621230979.a n = A304095 (n + 1)
+
+end A304095
+
+/-! ## A304095.P14498229350936984075
+
+`A011719(A121432(n+1))`
+-/
+
+namespace A304095.P14498229350936984075
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011719 (A121432 (n + 1)).toNat
+
+end
+
+end A304095.P14498229350936984075
+
+namespace A304095
+
+/-- `A011719(A121432(n+1))` -/
+def P14498229350936984075.Spec : Prop :=
+  ∀ n, P14498229350936984075.a n = A304095 (n + 1)
+
+end A304095
+
+/-! ## A304095.P11279307199249969827
+
+`A088469(A352892(n+1))`
+-/
+
+namespace A304095.P11279307199249969827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088469 (A352892 (n + 1)).toNat
+
+end
+
+end A304095.P11279307199249969827
+
+namespace A304095
+
+/-- `A088469(A352892(n+1))` -/
+def P11279307199249969827.Spec : Prop :=
+  ∀ n, P11279307199249969827.a n = A304095 (n + 1)
 
 end A304095
 

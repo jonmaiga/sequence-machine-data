@@ -3056,6 +3056,33 @@ The programs for A073634, the canonical program `A073634.P3279946231504670858` i
 The definition of A073634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4930 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A073634.P5224880415599852383
+
+`comp[A073632(n+1)]`
+-/
+
+namespace A073634.P5224880415599852383
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073632 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A073634.P5224880415599852383
+
+namespace A073634
+
+/-- `comp[A073632(n+1)]` -/
+def P5224880415599852383.Spec : Prop :=
+  ∀ n, (P5224880415599852383.a n : ℤ) = A073634 (n + 1)
+
+end A073634
+
 /-! ## A073634.P3279946231504670858
 
 `eq[0, A072418(n+2)]+2`
@@ -5838,6 +5865,50 @@ end
 
 end A073649.P18050702057349386340
 
+/-! ## A073649.P16059823228681380359
+
+`∩[A031505(n+1), A141830(n+1)]`
+-/
+
+namespace A073649.P16059823228681380359
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031505 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141830 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073649.P16059823228681380359
+
+/-! ## A073649.P17624259822301237630
+
+`∩[A046132(n+1), A141830(n+1)]`
+-/
+
+namespace A073649.P17624259822301237630
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046132 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141830 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073649.P17624259822301237630
+
 /-! ## A073649.P14460389037714512600
 
 `∩[A378983(n+1), A031505(n+1)]`
@@ -5970,6 +6041,28 @@ end
 
 end A073649.P13051485529835763047
 
+/-! ## A073649.P17827324335871973737
+
+`∩[A054799(n+1), A098414(n+1)]`
+-/
+
+namespace A073649.P17827324335871973737
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054799 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098414 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073649.P17827324335871973737
+
 /-! ## A073649.P4629772738782527678
 
 `∩[A046132(n+1), A111166(n+1)]`
@@ -6013,72 +6106,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A073649.P6139789530099098107
-
-/-! ## A073649.P11067596242343462044
-
-`∩[A238528(n+1), A031505(n+1)]`
--/
-
-namespace A073649.P11067596242343462044
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238528 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031505 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073649.P11067596242343462044
-
-/-! ## A073649.P13539333274099613126
-
-`∩[A031505(n+1), A063693(n+1)]`
--/
-
-namespace A073649.P13539333274099613126
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031505 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063693 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073649.P13539333274099613126
-
-/-! ## A073649.P2976168807542525307
-
-`∩[A046132(n+1), A063693(n+1)]`
--/
-
-namespace A073649.P2976168807542525307
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046132 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063693 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073649.P2976168807542525307
 
 /-!
 # A073650: Define the composite field of a prime q to be f(q) = (t,s) if p, q, r are three consecutive primes and q-p = t and r-q = s. This is a sequence of primes q with field (2,6).

@@ -6057,6 +6057,28 @@ end
 
 end A243367.P2221642156293904813
 
+/-! ## A243367.P13600031263760444037
+
+`∩[A093515(n+1), A114273(n+1)]`
+-/
+
+namespace A243367.P13600031263760444037
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114273 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243367.P13600031263760444037
+
 /-! ## A243367.P3151961969086233856
 
 `∩[A114273(n+1), A116974(n+1)]`
@@ -6210,28 +6232,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A243367.P6913052765187873003
-
-/-! ## A243367.P7166036489321415741
-
-`∩[A053577(n+1), A114273(n+1)]`
--/
-
-namespace A243367.P7166036489321415741
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053577 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114273 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A243367.P7166036489321415741
 
 /-!
 # A243369: Denominators of Egyptian fraction expansion of e, without repetition.

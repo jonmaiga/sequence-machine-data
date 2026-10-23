@@ -28,8 +28,8 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -3081,25 +3081,25 @@ end A011670
 /-!
 # A011671: A binary m-sequence: expansion of reciprocal of x^6+x^5+x^4+x^2+1.
 
-The programs for A011671, the canonical program `A011671.P1914700580021470123` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011671 has offset 0).
+The programs for A011671, the canonical program `A011671.P11374070389795065316` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011671 has offset 0).
 
-The definition of A011671 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5004 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A011671 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A011671.P1914700580021470123
+/-! ## A011671.P11374070389795065316
 
-`char[n-∑[n+1]%21]`
+`A332782(n)%A130196(n)`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A011671
 
-/-- `char[n-∑[n+1]%21]` -/
-def P1914700580021470123.Spec : Prop :=
-  ∀ n, (P1914700580021470123.a n : ℤ) = A011671 n
+/-- `A332782(n)%A130196(n)` -/
+def P11374070389795065316.Spec : Prop :=
+  ∀ n, P11374070389795065316.a n = A011671 n
 
-theorem P1914700580021470123.correct : P1914700580021470123.Spec := by
+theorem P11374070389795065316.correct : P11374070389795065316.Spec := by
   intro n
   simp only [A011671]
 

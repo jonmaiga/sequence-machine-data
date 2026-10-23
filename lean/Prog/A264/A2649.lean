@@ -2118,20 +2118,20 @@ end A264930.P17173090503479129982
 The programs for A264933, there is no canonical definition to state claims against.
 -/
 
-/-! ## A264933.P10940346676076212905
+/-! ## A264933.P16159586134813742280
 
-`n^a(n-1)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=2, a(4)=4, a(5)=256`
+`4^a(n-1)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=2, a(4)=4`
 -/
 
-namespace A264933.P10940346676076212905
+namespace A264933.P16159586134813742280
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1, 2, 2, 4, 256] fun n a =>
-  n ^ a (n - 1)
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1, 2, 2, 4] fun n a =>
+  4 ^ a (n - 1)
 
 end
 
-end A264933.P10940346676076212905
+end A264933.P16159586134813742280
 
 /-!
 # A264935: Numbers k such that the average of the digits of the k-th Fibonacci number is greater than 5.

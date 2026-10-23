@@ -2538,6 +2538,28 @@ end
 
 end A078254.P5820774127016175027
 
+/-! ## A078254.P11214227081567899418
+
+`∩[A033619(n+1), A213516(n+1)]`
+-/
+
+namespace A078254.P11214227081567899418
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033619 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A213516 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A078254.P11214227081567899418
+
 /-! ## A078254.P17440719200062475597
 
 `∩[A033619(n+1), A000124(n)-1]`
@@ -2654,6 +2676,28 @@ end
 
 end A078255.P339668286183237589
 
+/-! ## A078255.P11313013249054839647
+
+`∩[A000290(n), A010784(n+1)]`
+-/
+
+namespace A078255.P11313013249054839647
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010784 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A078255.P11313013249054839647
+
 /-! ## A078255.P3090981907050382287
 
 `record[A137564(n²)]`
@@ -2746,27 +2790,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A078255.P8413554830786996910
-
-/-! ## A078255.P6829773821228020596
-
-`lt[A107846(n²), 1]²`
--/
-
-namespace A078255.P6829773821228020596
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107846 (n ^ 2)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n ^ 2
-
-end
-
-end A078255.P6829773821228020596
 
 /-!
 # A078256: Triangular numbers in which frequency of occurrence of every digit is same.

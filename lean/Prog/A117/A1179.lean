@@ -3443,6 +3443,28 @@ end
 
 end A117912.P6963805558376182409
 
+/-! ## A117912.P2381004699128835532
+
+`∩[A014263(n+1), A116960(n+1)]`
+-/
+
+namespace A117912.P2381004699128835532
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014263 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116960 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A117912.P2381004699128835532
+
 /-! ## A117912.P16991874528654315271
 
 `∩[A045926(n+1), A115569(n+1)]`
@@ -3465,19 +3487,19 @@ end
 
 end A117912.P16991874528654315271
 
-/-! ## A117912.P4115863259734993251
+/-! ## A117912.P511661962369486810
 
-`∩[A115569(n+1), A353007(n+1)]`
+`∩[A045926(n+1), A116960(n+1)]`
 -/
 
-namespace A117912.P4115863259734993251
+namespace A117912.P511661962369486810
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115569 (n + 1)
+  A045926 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353007 (n + 1)
+  A116960 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3485,13 +3507,35 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A117912.P4115863259734993251
+end A117912.P511661962369486810
 
 /-!
 # A117913: Lynch-Bell numbers whose digits are all odd.
 
 The programs for A117913, there is no canonical definition to state claims against.
 -/
+
+/-! ## A117913.P6373141786171253689
+
+`∩[2*n+1, A115569(n+1)]`
+-/
+
+namespace A117913.P6373141786171253689
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115569 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A117913.P6373141786171253689
 
 /-! ## A117913.P15741598464579088400
 
@@ -3551,19 +3595,19 @@ end
 
 end A117913.P16100375809468185969
 
-/-! ## A117913.P6516878145274290712
+/-! ## A117913.P9459216785428097923
 
-`∩[A014261(n+1), A115569(n+1)]`
+`∩[A115569(n+1), A204454(n+1)]`
 -/
 
-namespace A117913.P6516878145274290712
+namespace A117913.P9459216785428097923
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014261 (n + 1)
+  A115569 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115569 (n + 1)
+  A204454 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3571,29 +3615,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A117913.P6516878145274290712
-
-/-! ## A117913.P4553595353526141034
-
-`∩[A115569(n+1), A333369(n+1)]`
--/
-
-namespace A117913.P4553595353526141034
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115569 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333369 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A117913.P4553595353526141034
+end A117913.P9459216785428097923
 
 /-!
 # A117916: a(1) = 4; a(n) is smallest semiprime > 3*a(n-1).
@@ -9425,6 +9447,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A117954.P3418031445018986451
+
+/-! ## A117954.P17675767129785506331
+
+`A342952(a(n-1)+1)` with `a(0)=1`
+-/
+
+namespace A117954.P17675767129785506331
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A342952 (a (n - 1) + 1).toNat
+
+end
+
+end A117954.P17675767129785506331
 
 /-!
 # A117955: Number of partitions of n into exactly 2 types of odd parts.

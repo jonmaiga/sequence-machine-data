@@ -2073,6 +2073,55 @@ def P2330610486226543486.Spec : Prop :=
 
 end A367417
 
+/-! ## A367417.P15793668967799071301
+
+`A365296(A268335(2*n+1-n))`
+-/
+
+namespace A367417.P15793668967799071301
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A365296 (A268335 (2 * n + 1 - n)).toNat
+
+end
+
+end A367417.P15793668967799071301
+
+namespace A367417
+
+/-- `A365296(A268335(2*n+1-n))` -/
+def P15793668967799071301.Spec : Prop :=
+  ∀ n, P15793668967799071301.a n = A367417 (n + 1)
+
+end A367417
+
+/-! ## A367417.P2181495243990010559
+
+`∏{p}[A367406(n+1), #]`
+-/
+
+namespace A367417.P2181495243990010559
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367406 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
+
+end
+
+end A367417.P2181495243990010559
+
+namespace A367417
+
+/-- `∏{p}[A367406(n+1), #]` -/
+def P2181495243990010559.Spec : Prop :=
+  ∀ n, (P2181495243990010559.a n : ℤ) = A367417 (n + 1)
+
+end A367417
+
 /-!
 # A367418: The exponentially odd numbers (A268335) divided by their squarefree kernels (A007947).
 
@@ -2208,6 +2257,29 @@ namespace A367418
 /-- `A374457(n+1)/A380326(n+1)` -/
 def P16863583620158093429.Spec : Prop :=
   ∀ n, P16863583620158093429.a n = (A367418 (n + 1) : ℚ)
+
+end A367418
+
+/-! ## A367418.P5158590253162557151
+
+`A008833(A268335(2*n+1-n))`
+-/
+
+namespace A367418.P5158590253162557151
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008833 (A268335 (2 * n + 1 - n)).toNat
+
+end
+
+end A367418.P5158590253162557151
+
+namespace A367418
+
+/-- `A008833(A268335(2*n+1-n))` -/
+def P5158590253162557151.Spec : Prop :=
+  ∀ n, P5158590253162557151.a n = A367418 (n + 1)
 
 end A367418
 
@@ -2516,29 +2588,6 @@ namespace A367418
 /-- `A336642(record[A350389(n+1)])+1` -/
 def P3636861619388795528.Spec : Prop :=
   ∀ n, P3636861619388795528.a n = A367418 (n + 1)
-
-end A367418
-
-/-! ## A367418.P16039475825669417892
-
-`A003557(A367407(n+1)*A367419(n+1))`
--/
-
-namespace A367418.P16039475825669417892
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003557 (A367407 (n + 1) * A367419 (n + 1)).toNat
-
-end
-
-end A367418.P16039475825669417892
-
-namespace A367418
-
-/-- `A003557(A367407(n+1)*A367419(n+1))` -/
-def P16039475825669417892.Spec : Prop :=
-  ∀ n, P16039475825669417892.a n = A367418 (n + 1)
 
 end A367418
 
@@ -3502,6 +3551,28 @@ end
 
 end A367451.P8137713238837289469
 
+/-! ## A367451.P11668871244258063786
+
+`∩[A000290(n), A353729(n+1)]`
+-/
+
+namespace A367451.P11668871244258063786
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353729 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A367451.P11668871244258063786
+
 /-!
 # A367452: Number of semiprime divisors of the n-th squarefree number (A005117).
 
@@ -3720,6 +3791,29 @@ namespace A367452
 /-- `A079275(A076144(n+2))` -/
 def P18076472393160398961.Spec : Prop :=
   ∀ n, P18076472393160398961.a n = A367452 (n + 1)
+
+end A367452
+
+/-! ## A367452.P1594376610282894684
+
+`A072670(A005117(n+1)-1)`
+-/
+
+namespace A367452.P1594376610282894684
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072670 (A005117 (n + 1) - 1).toNat
+
+end
+
+end A367452.P1594376610282894684
+
+namespace A367452
+
+/-- `A072670(A005117(n+1)-1)` -/
+def P1594376610282894684.Spec : Prop :=
+  ∀ n, P1594376610282894684.a n = A367452 (n + 1)
 
 end A367452
 
@@ -4182,6 +4276,28 @@ end A367462.P5901287553260554411
 The programs for A367463, there is no canonical definition to state claims against.
 -/
 
+/-! ## A367463.P3964389110058675489
+
+`∩[A351467(n+1), A367501(n+1)]`
+-/
+
+namespace A367463.P3964389110058675489
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351467 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367501 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A367463.P3964389110058675489
+
 /-! ## A367463.P10033853445302401254
 
 `A107602(A367501(n+1))`
@@ -4211,6 +4327,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A367463.P13419556550937416413
+
+/-! ## A367463.P11297515586827632305
+
+`∩[A102800(n+1), A367501(n+1)]`
+-/
+
+namespace A367463.P11297515586827632305
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102800 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367501 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A367463.P11297515586827632305
+
+/-! ## A367463.P2093812037306204484
+
+`∩[A123068(n+1), A367501(n+1)]`
+-/
+
+namespace A367463.P2093812037306204484
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123068 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367501 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A367463.P2093812037306204484
 
 /-!
 # A367464: Numbers k such that k^5*2^k - 1 is a prime.

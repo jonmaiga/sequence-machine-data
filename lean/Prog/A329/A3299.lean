@@ -6,6 +6,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -69,9 +70,9 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -84,6 +85,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -764,6 +766,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329904.P11097682193029908892
+
+/-! ## A329904.P14496356757326333361
+
+`A101296(A329899(2*n+1-n))`
+-/
+
+namespace A329904.P14496356757326333361
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101296 (A329899 (2 * n + 1 - n)).toNat
+
+end
+
+end A329904.P14496356757326333361
 
 /-! ## A329904.P6476261658995323844
 
@@ -4770,6 +4787,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A329954.P3688372601821126308
+
+/-! ## A329954.P2279456244850108465
+
+`∩[A028777(n+1), A225083(n+1)]`
+-/
+
+namespace A329954.P2279456244850108465
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028777 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225083 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329954.P2279456244850108465
 
 /-!
 # A329955: Expansion of eta(q) * eta(q^2) * eta(q^3)^3 / eta(q^6)^2 in powers of q.
@@ -9203,6 +9242,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A329994.P16485019040193323674
+
+/-! ## A329994.P11444896793953187971
+
+`A038153(n+1)%A091574(n)`
+-/
+
+namespace A329994.P11444896793953187971
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A038153 (n + 1)) (A091574 n)
+
+end
+
+end A329994.P11444896793953187971
 
 /-!
 # A329996: Beatty sequence for x^3, where 1/x^3 + 1/3^x = 1.

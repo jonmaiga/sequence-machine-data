@@ -97,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A256502: Largest integer not exceeding the harmonic mean of the first n squares.

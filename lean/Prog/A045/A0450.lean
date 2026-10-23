@@ -7761,6 +7761,21 @@ end
 
 end A045051.P14315372891821811117
 
+/-! ## A045051.P167770828713021343
+
+`A030127(A045027(n+1))`
+-/
+
+namespace A045051.P167770828713021343
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030127 (A045027 (n + 1)).toNat
+
+end
+
+end A045051.P167770828713021343
+
 /-!
 # A045052: Numbers whose base-4 representation contains exactly three 0's and no 2's.
 

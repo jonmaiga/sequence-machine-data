@@ -701,6 +701,33 @@ def P9454826622541332033.Spec : Prop :=
 
 end A223909
 
+/-! ## A223909.P4592117415932572218
+
+`comp[A223910(n+1)]`
+-/
+
+namespace A223909.P4592117415932572218
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223910 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A223909.P4592117415932572218
+
+namespace A223909
+
+/-- `comp[A223910(n+1)]` -/
+def P4592117415932572218.Spec : Prop :=
+  ∀ n, (P4592117415932572218.a n : ℤ) = A223909 (n + 1)
+
+end A223909
+
 /-! ## A223909.P11637766373338241616
 
 `eq[1, A008611(a(A213370(n)))]` with `a(0)=2`

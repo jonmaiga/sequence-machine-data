@@ -413,6 +413,52 @@ def P16375199458756887940.Spec : Prop :=
 
 end A185601
 
+/-! ## A185601.P7788686553903215631
+
+`ceil(log2(A091233(n+3)))`
+-/
+
+namespace A185601.P7788686553903215631
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.logb 2 (A091233 (n + 3) : ℝ)⌉
+
+end
+
+end A185601.P7788686553903215631
+
+namespace A185601
+
+/-- `ceil(log2(A091233(n+3)))` -/
+def P7788686553903215631.Spec : Prop :=
+  ∀ n, P7788686553903215631.a n = A185601 (n + 3)
+
+end A185601
+
+/-! ## A185601.P17893670229618200006
+
+`A352241(A095114(n+2))`
+-/
+
+namespace A185601.P17893670229618200006
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352241 (A095114 (n + 2)).toNat
+
+end
+
+end A185601.P17893670229618200006
+
+namespace A185601
+
+/-- `A352241(A095114(n+2))` -/
+def P17893670229618200006.Spec : Prop :=
+  ∀ n, P17893670229618200006.a n = A185601 (n + 3)
+
+end A185601
+
 /-!
 # A185602: Numbers not of the form floor(n^(3/2))-floor(n^(1/2))-n; complement of A185601.
 

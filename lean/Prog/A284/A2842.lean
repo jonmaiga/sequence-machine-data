@@ -50,7 +50,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -3226,25 +3225,25 @@ end A284236
 /-!
 # A284237: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 833", based on the 5-celled von Neumann neighborhood.
 
-The programs for A284237, the canonical program `A284237.P16442392612946154093` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284237 has offset 0).
+The programs for A284237, the canonical program `A284237.P1618666122141262061` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284237 has offset 0).
 
 The definition of A284237 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A284237.P16442392612946154093
+/-! ## A284237.P1618666122141262061
 
-`ogf((-1+2x-2x^2-x^3+3x^4-2x^5)/(-1+2x+x^2-2x^3))`
+`ogf((1-2x+2x^2+x^3-3x^4+2x^5)/(1-2x-x^2+2x^3))`
 
 The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A284237
 
-/-- `ogf((-1+2x-2x^2-x^3+3x^4-2x^5)/(-1+2x+x^2-2x^3))` -/
-def P16442392612946154093.Spec : Prop :=
-  ∀ n, P16442392612946154093.a n = A284237 n
+/-- `ogf((1-2x+2x^2+x^3-3x^4+2x^5)/(1-2x-x^2+2x^3))` -/
+def P1618666122141262061.Spec : Prop :=
+  ∀ n, P1618666122141262061.a n = A284237 n
 
-theorem P16442392612946154093.correct : P16442392612946154093.Spec := by
+theorem P1618666122141262061.correct : P1618666122141262061.Spec := by
   intro n
   simp only [A284237]
 
@@ -9505,23 +9504,27 @@ end
 
 end A284279.P9123357271768635114
 
-/-! ## A284279.P12512050746252931218
+/-! ## A284279.P16795431827953172214
 
-`record[A131884(n+1)%A323328(n+1)]`
+`∩[A102883(n+1), A131884(n+1)]`
 -/
 
-namespace A284279.P12512050746252931218
+namespace A284279.P16795431827953172214
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A131884 (n + 1)) (A323328 (n + 1))
+  A102883 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131884 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A284279.P12512050746252931218
+end A284279.P16795431827953172214
 
 /-!
 # A284280: a(n) = Sum_{d|n, d == 2 (mod 5)} d.
@@ -10948,6 +10951,28 @@ end
 
 end A284291.P15487057804570046787
 
+/-! ## A284291.P13474838693896528210
+
+`∩[A011536(n+1), A066050(n+1)]`
+-/
+
+namespace A284291.P13474838693896528210
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011536 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066050 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A284291.P13474838693896528210
+
 /-! ## A284291.P3271746546117250520
 
 `∩[A011536(n+1), A067126(n+1)]`
@@ -11075,28 +11100,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A284291.P3472587954278145950
-
-/-! ## A284291.P2841045944499802326
-
-`∩[A006005(n+1), A092455(n)]`
--/
-
-namespace A284291.P2841045944499802326
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006005 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092455 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A284291.P2841045944499802326
 
 /-!
 # A284292: 

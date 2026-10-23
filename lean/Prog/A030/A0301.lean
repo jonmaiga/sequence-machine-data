@@ -170,20 +170,27 @@ end
 
 end A030100.P17056486944448490574
 
-/-! ## A030100.P5400054417822461250
+/-! ## A030100.P7712566127581607359
 
-`A016755((A030099(n+1)-1)/2)`
+`∩[A030479(n+1), A076442(n+1)]`
 -/
 
-namespace A030100.P5400054417822461250
+namespace A030100.P7712566127581607359
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016755 (SequenceMachineLib.roundAway ((A030099 (n + 1) - 1 : ℚ) / 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030479 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076442 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A030100.P5400054417822461250
+end A030100.P7712566127581607359
 
 /-!
 # A030101: a(n) is the number produced when n is converted to binary digits, the binary digits are reversed and then converted back into a decimal number.
@@ -6136,6 +6143,36 @@ def P6331368519871840559.Spec : Prop :=
 
 end A030130
 
+/-! ## A030130.P7268445434454473916
+
+`∪[A002446(n), A164874(n+1)]`
+-/
+
+namespace A030130.P7268445434454473916
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002446 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164874 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A030130.P7268445434454473916
+
+namespace A030130
+
+/-- `∪[A002446(n), A164874(n+1)]` -/
+def P7268445434454473916.Spec : Prop :=
+  ∀ n, (P7268445434454473916.a n : ℤ) = A030130 (n + 1)
+
+end A030130
+
 /-! ## A030130.P4388982150811273211
 
 `∩[A087118(n+1), A089633(n)]`
@@ -6770,6 +6807,29 @@ def P4882693016734722686.Spec : Prop :=
 
 end A030140
 
+/-! ## A030140.P17878857101005141001
+
+`A000037(n+1)*A000037(n+1)`
+-/
+
+namespace A030140.P17878857101005141001
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000037 (n + 1) * A000037 (n + 1)
+
+end
+
+end A030140.P17878857101005141001
+
+namespace A030140
+
+/-- `A000037(n+1)*A000037(n+1)` -/
+def P17878857101005141001.Spec : Prop :=
+  ∀ n, P17878857101005141001.a n = A030140 (n + 1)
+
+end A030140
+
 /-! ## A030140.P7233435701423822063
 
 `A179125(n+1)/A000037(n+1)`
@@ -7050,6 +7110,25 @@ end A030140
 
 The programs for A030141, there is no canonical definition to state claims against.
 -/
+
+/-! ## A030141.P16037229282860547295
+
+`comp[A228709(n+1)]`
+-/
+
+namespace A030141.P16037229282860547295
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228709 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A030141.P16037229282860547295
 
 /-! ## A030141.P11260616250768544570
 
@@ -7410,27 +7489,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030141.P7274696881580255081
-
-/-! ## A030141.P2178741890246344171
-
-`lt[1, A047842(n)*A228710(n)]`
--/
-
-namespace A030141.P2178741890246344171
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047842 n * A228710 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A030141.P2178741890246344171
 
 /-!
 # A030142: Odd numbers in which parity of digits alternates.
@@ -7833,6 +7891,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030142.P9649792706277631957
+
+/-! ## A030142.P15195656717098212374
+
+`eq[A052552(n), A228710(n)]`
+-/
+
+namespace A030142.P15195656717098212374
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052552 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228710 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A030142.P15195656717098212374
 
 /-!
 # A030143: Even numbers in which parity of digits alternates.
@@ -9498,6 +9577,28 @@ end
 
 end A030148.P5204915682915690045
 
+/-! ## A030148.P18092344302622778838
+
+`∩[A030142(n+1), A092361(n+1)]`
+-/
+
+namespace A030148.P18092344302622778838
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030142 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092361 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A030148.P18092344302622778838
+
 /-! ## A030148.P17929783458681103809
 
 `∩[A376692(n+1), A002113(n+1)]`
@@ -9566,6 +9667,28 @@ end
 
 end A030149.P685792527419703394
 
+/-! ## A030149.P2328000774708408719
+
+`∩[2*n, A030147(n+1)]`
+-/
+
+namespace A030149.P2328000774708408719
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030147 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A030149.P2328000774708408719
+
 /-! ## A030149.P15655505834321755054
 
 `∩[A002113(n+1), A030143(n+1)]`
@@ -9631,28 +9754,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A030149.P14456381700470198454
-
-/-! ## A030149.P5281207647430403676
-
-`∩[A030143(n+1), A030147(n+1)]`
--/
-
-namespace A030149.P5281207647430403676
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030143 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030147 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A030149.P5281207647430403676
 
 /-! ## A030149.P9356113993679882485
 
@@ -10968,6 +11069,24 @@ end
 
 end A030155.P8994667964276954515
 
+/-! ## A030155.P14856927006871019796
+
+`filter[A030151(n+1), A000035(#)]`
+-/
+
+namespace A030155.P14856927006871019796
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030151 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
+
+end
+
+end A030155.P14856927006871019796
+
 /-!
 # A030156: Odd squares in which parity of digits alternates.
 
@@ -11382,23 +11501,27 @@ end
 
 end A030157.P2146675194327638525
 
-/-! ## A030157.P9611480771203760879
+/-! ## A030157.P7553384903601161929
 
-`record[2*A273943(A030151(n+1))]`
+`∩[2*n, A030151(n+1)]`
 -/
 
-namespace A030157.P9611480771203760879
+namespace A030157.P7553384903601161929
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A273943 (A030151 (n + 1)).toNat
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030151 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A030157.P9611480771203760879
+end A030157.P7553384903601161929
 
 /-! ## A030157.P4010557474553963434
 
@@ -11461,6 +11584,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030157.P11715804743839240016
+
+/-! ## A030157.P8150464929714049109
+
+`filter[A030151(n+1), A059841(#)]`
+-/
+
+namespace A030157.P8150464929714049109
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030151 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A059841 (f1 j).toNat = 1) n)
+
+end
+
+end A030157.P8150464929714049109
 
 /-!
 # A030158: Even squares in which parity of digits alternates.
@@ -14798,23 +14939,24 @@ end
 
 end A030190.P17502595747898570379
 
-/-! ## A030190.P10715900195375661130
+/-! ## A030190.P17028248402606708956
 
-`A098370(∑[n+3]+n+2)`
+`char[A030304(n+1)]`
 -/
 
-namespace A030190.P10715900195375661130
+namespace A030190.P17028248402606708956
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 3
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030304 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A098370 (∑ j ∈ Finset.range (n + 1), f1 j + (n + 2))
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
 
 end
 
-end A030190.P10715900195375661130
+end A030190.P17028248402606708956
 
 /-!
 # A030191: Scaled Chebyshev U-polynomial evaluated at sqrt(5)/2.

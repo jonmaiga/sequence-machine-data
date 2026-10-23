@@ -1129,6 +1129,28 @@ end
 
 end A296520.P12184832974557165365
 
+/-! ## A296520.P18365929825901394860
+
+`∩[A046064(n+1), A283736(n+1)]`
+-/
+
+namespace A296520.P18365929825901394860
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046064 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283736 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296520.P18365929825901394860
+
 /-! ## A296520.P9590070771245032482
 
 `A057427(A359670(n))*A106119(n+4)`
@@ -1143,21 +1165,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A296520.P9590070771245032482
-
-/-! ## A296520.P14192314607844654173
-
-`A106119(n+4)+A000038(A303016(n+1))`
--/
-
-namespace A296520.P14192314607844654173
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106119 (n + 4) + A000038 (A303016 (n + 1)).toNat
-
-end
-
-end A296520.P14192314607844654173
 
 /-!
 # A296523: Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x > 0, y >= 0 and 0 <= z <= w such that 64*x^2 + 65*y^2 = q^2 for some practical number q.

@@ -952,6 +952,32 @@ def P4084224643241490733.Spec : Prop :=
 
 end A363316
 
+/-! ## A363316.P1146778090009874804
+
+`filter[A050449(2*n+1), A267579(#)]`
+-/
+
+namespace A363316.P1146778090009874804
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050449 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267579 (f1 j).toNat = 1) n)
+
+end
+
+end A363316.P1146778090009874804
+
+namespace A363316
+
+/-- `filter[A050449(2*n+1), A267579(#)]` -/
+def P1146778090009874804.Spec : Prop :=
+  ∀ n, P1146778090009874804.a n = A363316 (n + 1)
+
+end A363316
+
 /-!
 # A363317: Sum of divisors of 4*n-3 of form 4*k+1.
 

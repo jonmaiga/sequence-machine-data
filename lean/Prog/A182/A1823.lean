@@ -42,7 +42,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B003.C001
+import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -1645,6 +1645,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A182315.P3496263761546652928
+
+/-! ## A182315.P4597058743661653534
+
+`A000015(A211073(n+1))`
+-/
+
+namespace A182315.P4597058743661653534
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000015 (A211073 (n + 1)).toNat
+
+end
+
+end A182315.P4597058743661653534
+
+/-! ## A182315.P13123590919819465843
+
+`A211073(A032555(n+1))`
+-/
+
+namespace A182315.P13123590919819465843
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211073 (A032555 (n + 1)).toNat
+
+end
+
+end A182315.P13123590919819465843
 
 /-!
 # A182316: a(n) = binomial(n^2 + 3*n, n) / (n+1)^2.
@@ -6270,6 +6300,21 @@ end
 
 end A182365.P5638080534606937913
 
+/-! ## A182365.P9972399777890710398
+
+`A093413(A124136(n+2))`
+-/
+
+namespace A182365.P9972399777890710398
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093413 (A124136 (n + 2)).toNat
+
+end
+
+end A182365.P9972399777890710398
+
 /-!
 # A182366: Records in A194217.
 
@@ -6952,6 +6997,29 @@ namespace A182386
 /-- `1-A054516(n+3)+n` -/
 def P340156709160799114.Spec : Prop :=
   ∀ n, P340156709160799114.a n = A182386 n
+
+end A182386
+
+/-! ## A182386.P8180829453299846909
+
+`A211229(A014494(n))`
+-/
+
+namespace A182386.P8180829453299846909
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211229 (A014494 n).toNat
+
+end
+
+end A182386.P8180829453299846909
+
+namespace A182386
+
+/-- `A211229(A014494(n))` -/
+def P8180829453299846909.Spec : Prop :=
+  ∀ n, P8180829453299846909.a n = A182386 n
 
 end A182386
 

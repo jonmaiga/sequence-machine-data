@@ -49,6 +49,8 @@ import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
+import Seq.Opaque.C022
 
 /-!
 # A031872: Lexically first 9-mark Golomb ruler.
@@ -1764,6 +1766,28 @@ end
 
 end A031880.P7968727357188640090
 
+/-! ## A031880.P17370292488896492753
+
+`∩[A031879(n+1), A092361(n+1)]`
+-/
+
+namespace A031880.P17370292488896492753
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031879 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092361 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A031880.P17370292488896492753
+
 /-! ## A031880.P5063429783510843444
 
 `record[A171435(A031161(n+1))]`
@@ -1781,24 +1805,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031880.P5063429783510843444
-
-/-! ## A031880.P9824259399489154736
-
-`filter[A032350(n+1), A145649(#)]`
--/
-
-namespace A031880.P9824259399489154736
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032350 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A145649 (f1 j).toNat = 1) n)
-
-end
-
-end A031880.P9824259399489154736
 
 /-!
 # A031881: Lucky numbers that are both palindromic and prime.
@@ -1922,6 +1928,28 @@ end A031881.P15743589519993729541
 The programs for A031882, there is no canonical definition to state claims against.
 -/
 
+/-! ## A031882.P8376420098676820673
+
+`∩[A010785(n), A031161(n+1)]`
+-/
+
+namespace A031882.P8376420098676820673
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010785 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031161 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A031882.P8376420098676820673
+
 /-! ## A031882.P14776661560271218814
 
 `∩[A031161(n+1), A048307(n)]`
@@ -1966,19 +1994,19 @@ end
 
 end A031882.P2225517340604378428
 
-/-! ## A031882.P10339529352859539712
+/-! ## A031882.P4205189415027609228
 
-`∩[A031161(n+1), A048321(n+1)]`
+`∩[A010785(n), A309406(n+1)]`
 -/
 
-namespace A031882.P10339529352859539712
+namespace A031882.P4205189415027609228
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031161 (n + 1)
+  A010785 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048321 (n + 1)
+  A309406 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1986,21 +2014,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A031882.P10339529352859539712
+end A031882.P4205189415027609228
 
-/-! ## A031882.P9203941305961046021
+/-! ## A031882.P17111113879832881963
 
-`∩[A031161(n+1), A095227(n+1)]`
+`∩[A064222(n), A309406(n+1)]`
 -/
 
-namespace A031882.P9203941305961046021
+namespace A031882.P17111113879832881963
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031161 (n + 1)
+  A064222 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095227 (n + 1)
+  A309406 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2008,29 +2036,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A031882.P9203941305961046021
-
-/-! ## A031882.P15767683605663671794
-
-`∩[A031161(n+1), A096105(n+1)]`
--/
-
-namespace A031882.P15767683605663671794
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031161 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096105 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A031882.P15767683605663671794
+end A031882.P17111113879832881963
 
 /-!
 # A031883: First differences of lucky numbers.
@@ -2378,6 +2384,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031883.P4050332325150185333
+
+/-! ## A031883.P17920998987375907367
+
+`Δ[A350001(∑[n])]`
+-/
+
+namespace A031883.P17920998987375907367
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350001 (∑ j ∈ Finset.range (n + 1), f2 j)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A031883.P17920998987375907367
 
 /-!
 # A031884: Smaller of a pair of consecutive lucky numbers with a gap of 2n.

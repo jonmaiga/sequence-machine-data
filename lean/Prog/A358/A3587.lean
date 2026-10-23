@@ -1835,6 +1835,42 @@ end
 
 end A358718.P5697398479559661502
 
+/-! ## A358718.P4655207084071097791
+
+`filter[A385856(n+1), A114213(#)]`
+-/
+
+namespace A358718.P4655207084071097791
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385856 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A114213 (f1 j).toNat = 1) n)
+
+end
+
+end A358718.P4655207084071097791
+
+/-! ## A358718.P10296841894946486839
+
+`filter[A385856(n+1), A267959(#)]`
+-/
+
+namespace A358718.P10296841894946486839
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385856 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267959 (f1 j).toNat = 1) n)
+
+end
+
+end A358718.P10296841894946486839
+
 /-!
 # A358720: The lowest positive-integer center for a square spiral whose center lies in an n X n square of nonprimes.
 
@@ -3157,6 +3193,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A358743.P12652981068830849593
+
+/-! ## A358743.P16558753755434619145
+
+`∩[A023236(n+1), A182757(n+1)]`
+-/
+
+namespace A358743.P16558753755434619145
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023236 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182757 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358743.P16558753755434619145
 
 /-!
 # A358744: First of three consecutive primes p, q, r such that p + q - r, p^2 + q^2 - r^2 and p^3 + q^3 - r^3 are all prime.
@@ -9419,6 +9477,29 @@ def P12142748401312950771.Spec : Prop :=
 
 end A358766
 
+/-! ## A358766.P11171484975065428279
+
+`A355684(A072861(n+1))`
+-/
+
+namespace A358766.P11171484975065428279
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355684 (A072861 (n + 1)).toNat
+
+end
+
+end A358766.P11171484975065428279
+
+namespace A358766
+
+/-- `A355684(A072861(n+1))` -/
+def P11171484975065428279.Spec : Prop :=
+  ∀ n, P11171484975065428279.a n = A358766 (n + 1)
+
+end A358766
+
 /-!
 # A358767: Numbers k with an even number of prime factors (when counted with multiplicity) in sigma(k), the sum of divisors of k.
 
@@ -10462,6 +10543,29 @@ namespace A358769
 /-- `A365550(A055076(n+1)+2)` -/
 def P14723930660975456702.Spec : Prop :=
   ∀ n, P14723930660975456702.a n = A358769 (n + 1)
+
+end A358769
+
+/-! ## A358769.P12964691448538801551
+
+`A327166(A007913(2*(n+1)))`
+-/
+
+namespace A358769.P12964691448538801551
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327166 (A007913 (2 * (n + 1))).toNat
+
+end
+
+end A358769.P12964691448538801551
+
+namespace A358769
+
+/-- `A327166(A007913(2*(n+1)))` -/
+def P12964691448538801551.Spec : Prop :=
+  ∀ n, P12964691448538801551.a n = A358769 (n + 1)
 
 end A358769
 

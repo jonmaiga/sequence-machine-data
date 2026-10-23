@@ -71,6 +71,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -9779,30 +9780,26 @@ def P14038781370718960067.Spec : Prop :=
 
 end A214284
 
-/-! ## A214284.P4005716031707765326
+/-! ## A214284.P185630817535747077
 
-`char[n*A030104(A030104(n))]`
+`and(1, A112803(2*n))`
 -/
 
-namespace A214284.P4005716031707765326
+namespace A214284.P185630817535747077
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A030104 (A030104 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land 1 (A112803 (2 * n))
 
 end
 
-end A214284.P4005716031707765326
+end A214284.P185630817535747077
 
 namespace A214284
 
-/-- `char[n*A030104(A030104(n))]` -/
-def P4005716031707765326.Spec : Prop :=
-  ∀ n, (P4005716031707765326.a n : ℤ) = A214284 n
+/-- `and(1, A112803(2*n))` -/
+def P185630817535747077.Spec : Prop :=
+  ∀ n, P185630817535747077.a n = A214284 n
 
 end A214284
 
@@ -12881,27 +12878,23 @@ end
 
 end A214296.P10703172133176980534
 
-/-! ## A214296.P7633531457990046878
+/-! ## A214296.P222362210196731499
 
-`p?[comp[A213356(n+1)]]`
+`filter[A185723(n+1), A257531(#)]`
 -/
 
-namespace A214296.P7633531457990046878
+namespace A214296.P222362210196731499
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213356 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185723 (n + 1)
 
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A257531 (f1 j).toNat = 1) n)
 
 end
 
-end A214296.P7633531457990046878
+end A214296.P222362210196731499
 
 /-!
 # A214297: a(0)=-1, a(1)=0, a(2)=-3; thereafter a(n+2) - 2*a(n+1) + a(n) has period 4: repeat -4, 8, -4, 2.

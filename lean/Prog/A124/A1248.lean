@@ -1861,19 +1861,19 @@ end
 
 end A124809.P6589255320240049211
 
-/-! ## A124809.P12709353229709934209
+/-! ## A124809.P7939479174219964096
 
-`∩[A034025(n), A050800(n+1)]`
+`∩[A034025(n), A034106(n+1)]`
 -/
 
-namespace A124809.P12709353229709934209
+namespace A124809.P7939479174219964096
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A034025 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050800 (n + 1)
+  A034106 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1881,7 +1881,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A124809.P12709353229709934209
+end A124809.P7939479174219964096
 
 /-!
 # A124810: Number of 4-ary Lyndon words of length n with exactly two 1s.
@@ -12291,6 +12291,55 @@ namespace A124897
 /-- `-A008683(∑[6*n+3]+3)` -/
 def P14710705022981246866.Spec : Prop :=
   ∀ n, P14710705022981246866.a n = A124897 (n + 1)
+
+end A124897
+
+/-! ## A124897.P5949418673924673128
+
+`A055132(∑[abs(1-n)])`
+-/
+
+namespace A124897.P5949418673924673128
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |1 - (n : ℤ)|
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055132 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A124897.P5949418673924673128
+
+namespace A124897
+
+/-- `A055132(∑[abs(1-n)])` -/
+def P5949418673924673128.Spec : Prop :=
+  ∀ n, P5949418673924673128.a n = A124897 (n + 1)
+
+end A124897
+
+/-! ## A124897.P13688536069315822624
+
+`A364249((n+1)²+1)`
+-/
+
+namespace A124897.P13688536069315822624
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364249 ((n + 1) ^ 2 + 1)
+
+end
+
+end A124897.P13688536069315822624
+
+namespace A124897
+
+/-- `A364249((n+1)²+1)` -/
+def P13688536069315822624.Spec : Prop :=
+  ∀ n, P13688536069315822624.a n = A124897 (n + 1)
 
 end A124897
 

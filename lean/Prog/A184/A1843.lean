@@ -4288,6 +4288,29 @@ def P10466804673970708342.Spec : Prop :=
 
 end A184337
 
+/-! ## A184337.P1043423437848897142
+
+`A002275(n)*A199689(n)`
+-/
+
+namespace A184337.P1043423437848897142
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002275 n * A199689 n
+
+end
+
+end A184337.P1043423437848897142
+
+namespace A184337
+
+/-- `A002275(n)*A199689(n)` -/
+def P1043423437848897142.Spec : Prop :=
+  ∀ n, P1043423437848897142.a n = A184337 n
+
+end A184337
+
 /-! ## A184337.P6785529240598369299
 
 `lcm(A002283(n), A199689(n))`
@@ -8481,6 +8504,29 @@ def P7504445403283339876.Spec : Prop :=
 
 end A184387
 
+/-! ## A184387.P5257523993001369343
+
+`A000217(A245092(2*n+1))`
+-/
+
+namespace A184387.P5257523993001369343
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (A245092 (2 * n + 1)).toNat
+
+end
+
+end A184387.P5257523993001369343
+
+namespace A184387
+
+/-- `A000217(A245092(2*n+1))` -/
+def P5257523993001369343.Spec : Prop :=
+  ∀ n, P5257523993001369343.a n = A184387 (n + 1)
+
+end A184387
+
 /-!
 # A184388: a(n) = product of numbers from 1 to sigma(n), where sigma(n) = A000203(n).
 
@@ -9062,6 +9108,29 @@ namespace A184389
 /-- `A214928(A000005(n+1)²)` -/
 def P4820807314804541573.Spec : Prop :=
   ∀ n, P4820807314804541573.a n = A184389 (n + 1)
+
+end A184389
+
+/-! ## A184389.P14090295887343655312
+
+`A000217(A032741(n+1)+1)`
+-/
+
+namespace A184389.P14090295887343655312
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (A032741 (n + 1) + 1).toNat
+
+end
+
+end A184389.P14090295887343655312
+
+namespace A184389
+
+/-- `A000217(A032741(n+1)+1)` -/
+def P14090295887343655312.Spec : Prop :=
+  ∀ n, P14090295887343655312.a n = A184389 (n + 1)
 
 end A184389
 

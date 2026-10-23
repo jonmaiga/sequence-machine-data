@@ -36,7 +36,6 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -70,6 +69,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -4402,30 +4402,29 @@ def P13283263926595508876.Spec : Prop :=
 
 end A319432
 
-/-! ## A319432.P17271583193819505383
+/-! ## A319432.P4723729392365832521
 
-`A129761(comp[C(n+1, n*A129761(n+1))])`
+`filter[A129761(n), A049240(#)]`
 -/
 
-namespace A319432.P17271583193819505383
+namespace A319432.P4723729392365832521
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 1) ((n : ℤ) * A129761 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129761 n
 
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129761 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)
+  f1 (SequenceMachineLib.nth (fun j => A049240 (f1 j).toNat = 1) n)
 
 end
 
-end A319432.P17271583193819505383
+end A319432.P4723729392365832521
 
 namespace A319432
 
-/-- `A129761(comp[C(n+1, n*A129761(n+1))])` -/
-def P17271583193819505383.Spec : Prop :=
-  ∀ n, P17271583193819505383.a n = A319432 (n + 1)
+/-- `filter[A129761(n), A049240(#)]` -/
+def P4723729392365832521.Spec : Prop :=
+  ∀ n, P4723729392365832521.a n = A319432 (n + 1)
 
 end A319432
 
@@ -4881,6 +4880,29 @@ namespace A319433
 /-- `A023444(A019446(n+2))` -/
 def P1652332718201181192.Spec : Prop :=
   ∀ n, P1652332718201181192.a n = A319433 n
+
+end A319433
+
+/-! ## A319433.P3662318157239074218
+
+`A026352(n+2)%(n+3)`
+-/
+
+namespace A319433.P3662318157239074218
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A026352 (n + 2)) (n + 3 : ℤ)
+
+end
+
+end A319433.P3662318157239074218
+
+namespace A319433
+
+/-- `A026352(n+2)%(n+3)` -/
+def P3662318157239074218.Spec : Prop :=
+  ∀ n, P3662318157239074218.a n = A319433 n
 
 end A319433
 
@@ -8831,6 +8853,29 @@ def P13300806946795716367.Spec : Prop :=
 
 end A319451
 
+/-! ## A319451.P17225342766367840831
+
+`A350668(n)+A023444(n)`
+-/
+
+namespace A319451.P17225342766367840831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350668 n + A023444 n
+
+end
+
+end A319451.P17225342766367840831
+
+namespace A319451
+
+/-- `A350668(n)+A023444(n)` -/
+def P17225342766367840831.Spec : Prop :=
+  ∀ n, P17225342766367840831.a n = A319451 n
+
+end A319451
+
 /-!
 # A319452: Numbers that are congruent to {0, 3, 6, 10} mod 12.
 
@@ -11126,12 +11171,12 @@ end A319490.P7774078865765222685
 The programs for A319491, there is no canonical definition to state claims against.
 -/
 
-/-! ## A319491.P4231260267035483488
+/-! ## A319491.P11967214317965132301
 
-`ogf((-x-6x^2-7x^3+9x^4)/(-1+4x))`
+`ogf((x+6x^2+7x^3-9x^4)/(1-4x))`
 -/
 
-namespace A319491.P4231260267035483488
+namespace A319491.P11967214317965132301
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -11139,7 +11184,7 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A319491.P4231260267035483488
+end A319491.P11967214317965132301
 
 /-!
 # A319494: Triangle of the consecutive absolute differences between consecutive elements of the previous row, first row being the prime numbers (A000040), read by columns.

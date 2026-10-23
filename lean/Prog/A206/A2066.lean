@@ -185,6 +185,29 @@ def P872859691270636215.Spec : Prop :=
 
 end A206601
 
+/-! ## A206601.P10163845829577437976
+
+`abs(1-3^C(n+1, 2))`
+-/
+
+namespace A206601.P10163845829577437976
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |1 - (3 ^ Nat.choose (n + 1) 2 : ℤ)|
+
+end
+
+end A206601.P10163845829577437976
+
+namespace A206601
+
+/-- `abs(1-3^C(n+1, 2))` -/
+def P10163845829577437976.Spec : Prop :=
+  ∀ n, P10163845829577437976.a n = A206601 n
+
+end A206601
+
 /-!
 # A206602: a(n) is the number of white and black stones lying in a circle; starting with place 1, the first a(n) steps of length 5 give the places of white stones. Beginning with last place, the next a(n) steps give the places of black stones.
 

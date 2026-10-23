@@ -46,7 +46,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -9925,23 +9925,20 @@ end
 
 end A171044.P12552078694102965802
 
-/-! ## A171044.P4016753995286212884
+/-! ## A171044.P18185981171294847479
 
-`A222238(∏{p}[A001248(n+1), #])`
+`A222238(A222254(A171057(A222238(A222238(n+1)))))`
 -/
 
-namespace A171044.P4016753995286212884
+namespace A171044.P18185981171294847479
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001248 (n + 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222238 (∏ p ∈ Nat.primeFactors (f1 n).natAbs, p)
+  A222238 (A222254 (A171057 (A222238 (A222238 (n + 1)).toNat).toNat).toNat).toNat
 
 end
 
-end A171044.P4016753995286212884
+end A171044.P18185981171294847479
 
 /-!
 # A171045: In the sequence of prime numbers, replace all the '8' digits with '4' and vice versa.
@@ -10023,6 +10020,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A171045.P5312743477087231222
+
+/-! ## A171045.P1357587533327632426
+
+`A222243(A222254(A171057(A222243(A222243(n+1)))))`
+-/
+
+namespace A171045.P1357587533327632426
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A222243 (A222254 (A171057 (A222243 (A222243 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A171045.P1357587533327632426
 
 /-!
 # A171046: In the sequence of prime numbers, replace all the '8' digits with '5' and vice versa.

@@ -66,7 +66,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -4949,30 +4948,26 @@ def P18144769878762600097.Spec : Prop :=
 
 end A106344
 
-/-! ## A106344.P893831591627241620
+/-! ## A106344.P966317723451557571
 
-`char[A286099(n)]`
+`A000007(A099026(n))`
 -/
 
-namespace A106344.P893831591627241620
+namespace A106344.P966317723451557571
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286099 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000007 (A099026 n).toNat
 
 end
 
-end A106344.P893831591627241620
+end A106344.P966317723451557571
 
 namespace A106344
 
-/-- `char[A286099(n)]` -/
-def P893831591627241620.Spec : Prop :=
-  ∀ n, (P893831591627241620.a n : ℤ) = A106344 n
+/-- `A000007(A099026(n))` -/
+def P966317723451557571.Spec : Prop :=
+  ∀ n, P966317723451557571.a n = A106344 n
 
 end A106344
 
@@ -6657,6 +6652,29 @@ def P2525908151640728881.Spec : Prop :=
 
 end A106349
 
+/-! ## A106349.P9310155621594632790
+
+`A008578(A088707(n+1))`
+-/
+
+namespace A106349.P9310155621594632790
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008578 (A088707 (n + 1)).toNat
+
+end
+
+end A106349.P9310155621594632790
+
+namespace A106349
+
+/-- `A008578(A088707(n+1))` -/
+def P9310155621594632790.Spec : Prop :=
+  ∀ n, P9310155621594632790.a n = A106349 (n + 1)
+
+end A106349
+
 /-!
 # A106350: Semiprimes indexed by primes.
 
@@ -7107,6 +7125,29 @@ namespace A106350
 /-- `A001358(A100484(n+1)/2)` -/
 def P16392342978594920515.Spec : Prop :=
   ∀ n, P16392342978594920515.a n = A106350 (n + 1)
+
+end A106350
+
+/-! ## A106350.P13465970225562622888
+
+`A001358(A014692(n+1)+n)`
+-/
+
+namespace A106350.P13465970225562622888
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (A014692 (n + 1) + (n : ℤ)).toNat
+
+end
+
+end A106350.P13465970225562622888
+
+namespace A106350
+
+/-- `A001358(A014692(n+1)+n)` -/
+def P13465970225562622888.Spec : Prop :=
+  ∀ n, P13465970225562622888.a n = A106350 (n + 1)
 
 end A106350
 

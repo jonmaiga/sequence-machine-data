@@ -45,7 +45,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -64,6 +63,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1777,6 +1777,29 @@ def P7238826280623587215.Spec : Prop :=
 
 end A233325
 
+/-! ## A233325.P6250066606386923033
+
+`a(n-1)+6^(n+1)/3` with `a(0)=1`
+-/
+
+namespace A233325.P6250066606386923033
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + (6 ^ (n + 1) : ℚ) / 3
+
+end
+
+end A233325.P6250066606386923033
+
+namespace A233325
+
+/-- `a(n-1)+6^(n+1)/3` -/
+def P6250066606386923033.Spec : Prop :=
+  ∀ n, P6250066606386923033.a n = (A233325 n : ℚ)
+
+end A233325
+
 /-!
 # A233326: a(n) = (7^(n+1) - 4) / 3.
 
@@ -2805,6 +2828,29 @@ namespace A233328
 /-- `∑[A011782(A103517(n)+n)]` -/
 def P2576735098250658262.Spec : Prop :=
   ∀ n, P2576735098250658262.a n = A233328 n
+
+end A233328
+
+/-! ## A233328.P2826787280550769503
+
+`A083713(n)+A245599(n+1)+A083713(n)`
+-/
+
+namespace A233328.P2826787280550769503
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083713 n + (A245599 (n + 1) + A083713 n)
+
+end
+
+end A233328.P2826787280550769503
+
+namespace A233328
+
+/-- `A083713(n)+A245599(n+1)+A083713(n)` -/
+def P2826787280550769503.Spec : Prop :=
+  ∀ n, P2826787280550769503.a n = A233328 n
 
 end A233328
 

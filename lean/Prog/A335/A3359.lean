@@ -14,6 +14,7 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
@@ -452,12 +453,12 @@ def P4707606654354226855.Spec : Prop :=
 
 end A335903
 
-/-! ## A335903.P3503882932075867425
+/-! ## A335903.P10383636552807751219
 
-`ogf((-2+2x+x^2-x^3)/(-1+4x-4x^2))`
+`ogf((2-2x-x^2+x^3)/(1-4x+4x^2))`
 -/
 
-namespace A335903.P3503882932075867425
+namespace A335903.P10383636552807751219
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -465,13 +466,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A335903.P3503882932075867425
+end A335903.P10383636552807751219
 
 namespace A335903
 
-/-- `ogf((-2+2x+x^2-x^3)/(-1+4x-4x^2))` -/
-def P3503882932075867425.Spec : Prop :=
-  ∀ n, P3503882932075867425.a n = A335903 (n + 1)
+/-- `ogf((2-2x-x^2+x^3)/(1-4x+4x^2))` -/
+def P10383636552807751219.Spec : Prop :=
+  ∀ n, P10383636552807751219.a n = A335903 (n + 1)
 
 end A335903
 
@@ -3517,6 +3518,50 @@ end
 
 end A335938.P2766329142054239376
 
+/-! ## A335938.P15115232905237471723
+
+`∪[A237009(n+1), A335216(n+1)]`
+-/
+
+namespace A335938.P15115232905237471723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237009 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335216 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335938.P15115232905237471723
+
+/-! ## A335938.P15298673704911519603
+
+`∪[A323342(n+1), A335216(n+1)]`
+-/
+
+namespace A335938.P15298673704911519603
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323342 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335216 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335938.P15298673704911519603
+
 /-!
 # A335939: Bi-unitary weird numbers (A292986) that are not exponentially odd numbers (A268335).
 
@@ -5775,6 +5820,36 @@ namespace A335969
 /-- `∩[A046389(n+1), A181428(n+1)+2*A000040(n+1)]` -/
 def P2868769005342495630.Spec : Prop :=
   ∀ n, (P2868769005342495630.a n : ℤ) = A335969 (n + 1)
+
+end A335969
+
+/-! ## A335969.P14272932585542683282
+
+`∩[A046389(n+1), A207637(n+1)]`
+-/
+
+namespace A335969.P14272932585542683282
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046389 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A207637 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335969.P14272932585542683282
+
+namespace A335969
+
+/-- `∩[A046389(n+1), A207637(n+1)]` -/
+def P14272932585542683282.Spec : Prop :=
+  ∀ n, (P14272932585542683282.a n : ℤ) = A335969 (n + 1)
 
 end A335969
 

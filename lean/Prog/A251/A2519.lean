@@ -2957,6 +2957,32 @@ def P593543211679927712.Spec : Prop :=
 
 end A251936
 
+/-! ## A251936.P12372916664291860266
+
+`A251935(∑[n+1]+2)`
+-/
+
+namespace A251936.P12372916664291860266
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A251935 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
+
+end
+
+end A251936.P12372916664291860266
+
+namespace A251936
+
+/-- `A251935(∑[n+1]+2)` -/
+def P12372916664291860266.Spec : Prop :=
+  ∀ n, P12372916664291860266.a n = A251936 (n + 1)
+
+end A251936
+
 /-!
 # A251937: Number of length 3+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 

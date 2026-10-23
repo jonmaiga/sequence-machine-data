@@ -966,6 +966,29 @@ def P17127199803301730471.Spec : Prop :=
 
 end A260708
 
+/-! ## A260708.P5416315480069313491
+
+`A002264((n+1)*A057353(2*n+1))`
+-/
+
+namespace A260708.P5416315480069313491
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002264 ((n + 1 : ℤ) * A057353 (2 * n + 1)).toNat
+
+end
+
+end A260708.P5416315480069313491
+
+namespace A260708
+
+/-- `A002264((n+1)*A057353(2*n+1))` -/
+def P5416315480069313491.Spec : Prop :=
+  ∀ n, P5416315480069313491.a n = A260708 n
+
+end A260708
+
 /-!
 # A260709: Smallest nonsquare congruent to a square (mod k^2) for all k = 1..n.
 

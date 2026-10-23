@@ -4661,7 +4661,7 @@ end A330668.P15644985767223667977
 /-!
 # A330669: The prime indices of the prime powers (A000961).
 
-The programs for A330669, the canonical program `A330669.P18160544792484395008` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330669 has offset 1).
+The programs for A330669, the canonical program `A330669.P18160544792484395008` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330669 has offset 1).
 
 The definition of A330669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A025473, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4670,7 +4670,7 @@ The definition of A330669 is `conditional`: the Lean definition is an OEIS formu
 
 `A000720(A025473(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A330669
@@ -5301,6 +5301,50 @@ end A330671.P16673750022622392472
 
 The programs for A330672, there is no canonical definition to state claims against.
 -/
+
+/-! ## A330672.P16715007258085876286
+
+`∩[A001967(n), A362780(n+1)]`
+-/
+
+namespace A330672.P16715007258085876286
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001967 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362780 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330672.P16715007258085876286
+
+/-! ## A330672.P14528695581016967158
+
+`∩[A330722(n+1), A362780(n+1)]`
+-/
+
+namespace A330672.P14528695581016967158
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330722 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362780 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330672.P14528695581016967158
 
 /-! ## A330672.P15956535628809341946
 
@@ -6332,6 +6376,21 @@ end
 
 end A330686.P8025206265189666184
 
+/-! ## A330686.P2465567382585760062
+
+`A238745(A307866(n+2))`
+-/
+
+namespace A330686.P2465567382585760062
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A238745 (A307866 (n + 2)).toNat
+
+end
+
+end A330686.P2465567382585760062
+
 /-! ## A330686.P9249992380657074621
 
 `A122111(A181819(A307866(A122111(A122111(n+2)))))`
@@ -6601,6 +6660,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A330689.P15100091839049616332
+
+/-! ## A330689.P16411273446991005566
+
+`A329900(A330684(n+1)*A330684(n+1))`
+-/
+
+namespace A330689.P16411273446991005566
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329900 (A330684 (n + 1) * A330684 (n + 1)).toNat
+
+end
+
+end A330689.P16411273446991005566
 
 /-!
 # A330690: Number of ways to factor A108951(n) into "Fermi-Dirac primes" (A050376), where A108951 is fully multiplicative with a(prime(k)) = k-th primorial.
@@ -7258,6 +7332,24 @@ end
 
 end A330693.P9715937669184830157
 
+/-! ## A330693.P3732845047836188526
+
+`filter[A328773(n+1), A285467(#)]`
+-/
+
+namespace A330693.P3732845047836188526
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328773 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A285467 (f1 j).toNat = 1) n)
+
+end
+
+end A330693.P3732845047836188526
+
 /-!
 # A330696: Flimsy primes.
 
@@ -7688,6 +7780,28 @@ end
 
 end A330699.P13641866053986778772
 
+/-! ## A330699.P13940352534181767167
+
+`∩[A264814(n+1), A380468(n+1)]`
+-/
+
+namespace A330699.P13940352534181767167
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264814 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330699.P13940352534181767167
+
 /-! ## A330699.P8512482222365526653
 
 `∩[A000040(n+1), A264814(n+1)]`
@@ -7952,6 +8066,28 @@ end
 
 end A330699.P2518164031866088134
 
+/-! ## A330699.P7001853187623191320
+
+`∩[A093515(n+1), A264814(n+1)]`
+-/
+
+namespace A330699.P7001853187623191320
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264814 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330699.P7001853187623191320
+
 /-! ## A330699.P1329761677333513961
 
 `∩[A116974(n+1), A264814(n+1)]`
@@ -8061,48 +8197,4 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330699.P6737207668521309461
-
-/-! ## A330699.P15822471390896107844
-
-`∩[A171577(n+1), A264814(n+1)]`
--/
-
-namespace A330699.P15822471390896107844
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171577 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264814 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A330699.P15822471390896107844
-
-/-! ## A330699.P8098700666772382833
-
-`∩[A175787(n+1), A264814(n+1)]`
--/
-
-namespace A330699.P8098700666772382833
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175787 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264814 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A330699.P8098700666772382833
 

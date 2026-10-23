@@ -9,7 +9,6 @@ import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
@@ -6757,26 +6756,26 @@ def P11137669031413782953.Spec : Prop :=
 
 end A016927
 
-/-! ## A016927.P12222583815005117303
+/-! ## A016927.P5251321663519269072
 
-`A016924(n)/A016925(n)*A016928(n)`
+`A016923(n)*A016925(n)/A016921(n)`
 -/
 
-namespace A016927.P12222583815005117303
+namespace A016927.P5251321663519269072
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A016924 n : ℚ) / (A016925 n : ℚ) * (A016928 n : ℚ)
+  (A016923 n * A016925 n : ℚ) / (A016921 n : ℚ)
 
 end
 
-end A016927.P12222583815005117303
+end A016927.P5251321663519269072
 
 namespace A016927
 
-/-- `A016924(n)/A016925(n)*A016928(n)` -/
-def P12222583815005117303.Spec : Prop :=
-  ∀ n, P12222583815005117303.a n = (A016927 n : ℚ)
+/-- `A016923(n)*A016925(n)/A016921(n)` -/
+def P5251321663519269072.Spec : Prop :=
+  ∀ n, P5251321663519269072.a n = (A016927 n : ℚ)
 
 end A016927
 
@@ -14140,6 +14139,29 @@ def P5893257748844469475.Spec : Prop :=
 
 end A016946
 
+/-! ## A016946.P15972110749425204472
+
+`(3*(2*n+1))^acos(cos(2))`
+-/
+
+namespace A016946.P15972110749425204472
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (3 * (2 * n + 1) : ℝ) ^ (Real.arccos (Real.cos (2 : ℝ)))
+
+end
+
+end A016946.P15972110749425204472
+
+namespace A016946
+
+/-- `(3*(2*n+1))^acos(cos(2))` -/
+def P15972110749425204472.Spec : Prop :=
+  ∀ n, P15972110749425204472.a n = (A016946 n : ℝ)
+
+end A016946
+
 /-! ## A016946.P8399526879519287863
 
 `record[(lcm(4, n+1)-(n+1))²]`
@@ -14235,29 +14257,6 @@ namespace A016946
 /-- `(2*n+1)*9*or(1, 2*n)` -/
 def P11078734205380836539.Spec : Prop :=
   ∀ n, (P11078734205380836539.a n : ℤ) = A016946 n
-
-end A016946
-
-/-! ## A016946.P17885113617240086272
-
-`(2*n+1)*9*xor(1, 2*n)`
--/
-
-namespace A016946.P17885113617240086272
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n + 1) * (9 * Nat.xor 1 (2 * n))
-
-end
-
-end A016946.P17885113617240086272
-
-namespace A016946
-
-/-- `(2*n+1)*9*xor(1, 2*n)` -/
-def P17885113617240086272.Spec : Prop :=
-  ∀ n, (P17885113617240086272.a n : ℤ) = A016946 n
 
 end A016946
 
@@ -14990,6 +14989,29 @@ def P2385591522443868655.Spec : Prop :=
 
 end A016948
 
+/-! ## A016948.P15782378181707576041
+
+`((2*n+1)*acos(cos(3)))²²`
+-/
+
+namespace A016948.P15782378181707576041
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (((2 * n + 1 : ℝ) * Real.arccos (Real.cos (3 : ℝ))) ^ 2) ^ 2
+
+end
+
+end A016948.P15782378181707576041
+
+namespace A016948
+
+/-- `((2*n+1)*acos(cos(3)))²²` -/
+def P15782378181707576041.Spec : Prop :=
+  ∀ n, P15782378181707576041.a n = (A016948 n : ℝ)
+
+end A016948
+
 /-! ## A016948.P2694828901529557557
 
 `((2*n+1)/tan(acot(3)))²²`
@@ -15195,36 +15217,6 @@ theorem P3849403891162343599.correct : P3849403891162343599.Spec := by
   simp only [A016948, Nat.add_sub_cancel, A016948.P3849403891162343599.a, A016948.P2499014121543189589.a, SequenceMachineLib.memo_apply]
   try norm_num [Nat.choose_two_right, Nat.factorial]
   try ring_nf
-
-end A016948
-
-/-! ## A016948.P17311793400143029706
-
-`(3*∪[2*n+1, (2*n+1)²])²²`
--/
-
-namespace A016948.P17311793400143029706
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n + 1) ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((3 * SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n) ^ 2) ^ 2
-
-end
-
-end A016948.P17311793400143029706
-
-namespace A016948
-
-/-- `(3*∪[2*n+1, (2*n+1)²])²²` -/
-def P17311793400143029706.Spec : Prop :=
-  ∀ n, (P17311793400143029706.a n : ℤ) = A016948 n
 
 end A016948
 

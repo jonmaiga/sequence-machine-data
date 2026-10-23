@@ -7444,6 +7444,28 @@ end A293644
 The programs for A293645, there is no canonical definition to state claims against.
 -/
 
+/-! ## A293645.P11221472267167218000
+
+`∪[A293646(n+1), A293647(n+1)]`
+-/
+
+namespace A293645.P11221472267167218000
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293646 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293647 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A293645.P11221472267167218000
+
 /-! ## A293645.P13436014626870394988
 
 `∑{e}[2^(n+1), A293646(#)]`
@@ -7506,24 +7528,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A293645.P3155573740662054274
-
-/-! ## A293645.P1918039454394066239
-
-`record[A293646(A002377(n+1))]`
--/
-
-namespace A293645.P1918039454394066239
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293646 (A002377 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A293645.P1918039454394066239
 
 /-!
 # A293646: Sum of two (possibly negative) coprime cubes, but not the sum of 2 non-coprime cubes.

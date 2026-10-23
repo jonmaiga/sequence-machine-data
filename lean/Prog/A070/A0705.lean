@@ -5332,19 +5332,19 @@ end
 
 end A070552.P6842932318606453055
 
-/-! ## A070552.P1625068041766804697
+/-! ## A070552.P11513996613329477360
 
-`∩[A001358(n+1)-1, A001358(n+1)]`
+`∩[A001358(n+1), A108815(n+1)]`
 -/
 
-namespace A070552.P1625068041766804697
+namespace A070552.P11513996613329477360
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001358 (n + 1) - 1
+  A001358 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001358 (n + 1)
+  A108815 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5352,7 +5352,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A070552.P1625068041766804697
+end A070552.P11513996613329477360
+
+/-! ## A070552.P9842541784229807940
+
+`∩[A001358(n+1), A242466(n+1)]`
+-/
+
+namespace A070552.P9842541784229807940
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242466 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070552.P9842541784229807940
 
 /-! ## A070552.P4282465239659227378
 
@@ -5374,6 +5396,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070552.P4282465239659227378
+
+/-! ## A070552.P5221436082267040560
+
+`∩[A001358(n+1), A045920(n+1)]`
+-/
+
+namespace A070552.P5221436082267040560
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045920 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070552.P5221436082267040560
 
 /-! ## A070552.P290241796668804256
 
@@ -5544,50 +5588,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A070552.P7950545533091460850
-
-/-! ## A070552.P3442534946183223963
-
-`∩[A045920(n+1), A068993(n+1)-1]`
--/
-
-namespace A070552.P3442534946183223963
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045920 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068993 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A070552.P3442534946183223963
-
-/-! ## A070552.P2158180744374023853
-
-`∩[A006881(n+1), A278291(n+1)]-1`
--/
-
-namespace A070552.P2158180744374023853
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006881 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278291 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n : ℤ) - 1
-
-end
-
-end A070552.P2158180744374023853
 
 /-!
 # A070553: Rectangular array read by rows: n-th row gives the 7 numbers k*10^n mod 7 for 0 <= k < 7.

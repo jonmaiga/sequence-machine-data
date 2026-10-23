@@ -1046,7 +1046,7 @@ end A080101
 /-!
 # A080102: Smallest prime power in all composite numbers between n-th prime and next prime, a(n) = 1 if no such prime power exists.
 
-The programs for A080102, the canonical program `A080102.P8782798429570687549` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080102 has offset 2).
+The programs for A080102, the canonical program `A080102.P8782798429570687549` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080102 has offset 2).
 
 The definition of A080102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1227 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1107,7 +1107,7 @@ end A080102
 
 `A005451(A345531(n+2))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A080102
@@ -1174,7 +1174,7 @@ end A080102
 /-!
 # A080103: Greatest prime power in all composite numbers between n-th prime and next prime, a(n) = 1 if no such prime power exists.
 
-The programs for A080103, the canonical program `A080103.P15352554582229907592` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080103 has offset 2).
+The programs for A080103, the canonical program `A080103.P15352554582229907592` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080103 has offset 2).
 
 The definition of A080103 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1228 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1183,7 +1183,7 @@ The definition of A080103 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A049084(A065514(n+3)), A065514(n+3))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A080103
@@ -3511,6 +3511,63 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A080116.P13725900851573532317
+
+/-! ## A080116.P4011367185269981495
+
+`char[A213704(n)]`
+-/
+
+namespace A080116.P4011367185269981495
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A213704 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A080116.P4011367185269981495
+
+/-! ## A080116.P2126571215121049850
+
+`char[A075165(n+1)]`
+-/
+
+namespace A080116.P2126571215121049850
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075165 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A080116.P2126571215121049850
+
+/-! ## A080116.P7815017494446486635
+
+`char[A106455(n+1)]`
+-/
+
+namespace A080116.P7815017494446486635
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106455 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A080116.P7815017494446486635
 
 /-!
 # A080117: Binary encoding of quadratic residue set formed for n-th prime, coerced to "complementarily symmetric binary sequence" with A080261 if the prime is of the form 4k+1.
@@ -9743,6 +9800,36 @@ def P5658018439244249992.Spec : Prop :=
 
 end A080160
 
+/-! ## A080160.P3744843668540812458
+
+`∩[A000290(n), A080151(n+1)]`
+-/
+
+namespace A080160.P3744843668540812458
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080151 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A080160.P3744843668540812458
+
+namespace A080160
+
+/-- `∩[A000290(n), A080151(n+1)]` -/
+def P3744843668540812458.Spec : Prop :=
+  ∀ n, (P3744843668540812458.a n : ℤ) = A080160 (n + 1)
+
+end A080160
+
 /-! ## A080160.P5919291393620166011
 
 `∩[A034793(n+1), A080151(n+1)]`
@@ -11835,19 +11922,19 @@ def P2131726926329762178.Spec : Prop :=
 
 end A080167
 
-/-! ## A080167.P14066245735337745866
+/-! ## A080167.P11125690621381533028
 
-`∩[A057653(n+1), A080165(n+1)]`
+`∩[A080165(n+1), A291180(n+1)]`
 -/
 
-namespace A080167.P14066245735337745866
+namespace A080167.P11125690621381533028
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057653 (n + 1)
+  A080165 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080165 (n + 1)
+  A291180 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -11855,13 +11942,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A080167.P14066245735337745866
+end A080167.P11125690621381533028
 
 namespace A080167
 
-/-- `∩[A057653(n+1), A080165(n+1)]` -/
-def P14066245735337745866.Spec : Prop :=
-  ∀ n, (P14066245735337745866.a n : ℤ) = A080167 (n + 1)
+/-- `∩[A080165(n+1), A291180(n+1)]` -/
+def P11125690621381533028.Spec : Prop :=
+  ∀ n, (P11125690621381533028.a n : ℤ) = A080167 (n + 1)
 
 end A080167
 
@@ -14181,6 +14268,28 @@ end
 
 end A080177.P17081411538680568518
 
+/-! ## A080177.P812807376484295819
+
+`∩[A099180(n+1), A232183(n+1)]`
+-/
+
+namespace A080177.P812807376484295819
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099180 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232183 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A080177.P812807376484295819
+
 /-!
 # A080178: Non-palindromic primes which on subtracting their reversal gives perfect cubes.
 
@@ -15707,21 +15816,6 @@ end
 
 end A080194.P3120112775916726225
 
-/-! ## A080194.P15815521851944019711
-
-`A085128(n+1)+A085127(n+1)/2`
--/
-
-namespace A080194.P15815521851944019711
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A085128 (n + 1) : ℚ) + (A085127 (n + 1) : ℚ) / 2
-
-end
-
-end A080194.P15815521851944019711
-
 /-! ## A080194.P3654608256563231083
 
 `2*A085131(n+1)-A085132(n+1)`
@@ -15766,6 +15860,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A080194.P7377224622534969986
+
+/-! ## A080194.P15815521851944019711
+
+`A085128(n+1)+A085127(n+1)/2`
+-/
+
+namespace A080194.P15815521851944019711
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A085128 (n + 1) : ℚ) + (A085127 (n + 1) : ℚ) / 2
+
+end
+
+end A080194.P15815521851944019711
 
 /-! ## A080194.P15930112353184781480
 

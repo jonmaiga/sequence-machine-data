@@ -3732,6 +3732,35 @@ def P6711245860323302146.Spec : Prop :=
 
 end A208131
 
+/-! ## A208131.P18022218400397203332
+
+`∏[A164359(∑[n])]`
+-/
+
+namespace A208131.P18022218400397203332
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164359 (∑ j ∈ Finset.range (n + 1), f2 j)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A208131.P18022218400397203332
+
+namespace A208131
+
+/-- `∏[A164359(∑[n])]` -/
+def P18022218400397203332.Spec : Prop :=
+  ∀ n, P18022218400397203332.a n = A208131 n
+
+end A208131
+
 /-!
 # A208132: Smallest k such that the number of composites of the form a^2 + 1 between two successive primes of this form equals 2n-1.
 
@@ -4277,6 +4306,32 @@ def P14018009683296264594.Spec : Prop :=
 
 end A208138
 
+/-! ## A208138.P4142523816597221218
+
+`∑[3*(n+1)]^acos(cos(2))`
+-/
+
+namespace A208138.P4142523816597221218
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * (n + 1)
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℝ) ^ (Real.arccos (Real.cos (2 : ℝ)))
+
+end
+
+end A208138.P4142523816597221218
+
+namespace A208138
+
+/-- `∑[3*(n+1)]^acos(cos(2))` -/
+def P4142523816597221218.Spec : Prop :=
+  ∀ n, P4142523816597221218.a n = (A208138 (n + 1) : ℝ)
+
+end A208138
+
 /-! ## A208138.P9509297868505466877
 
 `∑[n+1]²/tan(acot(3))²`
@@ -4506,32 +4561,6 @@ namespace A208138
 /-- `floor((3*∑[a(n-1)-1])²)` -/
 def P816267187880555939.Spec : Prop :=
   ∀ n, P816267187880555939.a n = A208138 (n + 1)
-
-end A208138
-
-/-! ## A208138.P15457878919439752688
-
-`(1/∑[a(n-1)-3])^(-2)` with `a(0)=-3`
--/
-
-namespace A208138.P15457878919439752688
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [-3] fun n f1 =>
-  f1 (n - 1) - 3
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 / ((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ)) ^ (-2 : ℤ)
-
-end
-
-end A208138.P15457878919439752688
-
-namespace A208138
-
-/-- `(1/∑[a(n-1)-3])^(-2)` -/
-def P15457878919439752688.Spec : Prop :=
-  ∀ n, P15457878919439752688.a n = (A208138 (n + 1) : ℚ)
 
 end A208138
 

@@ -5507,6 +5507,29 @@ def P5417429855574102263.Spec : Prop :=
 
 end A166338
 
+/-! ## A166338.P10880159921101071237
+
+`A001813(n)*A009120(n)`
+-/
+
+namespace A166338.P10880159921101071237
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001813 n * A009120 n
+
+end
+
+end A166338.P10880159921101071237
+
+namespace A166338
+
+/-- `A001813(n)*A009120(n)` -/
+def P10880159921101071237.Spec : Prop :=
+  ∀ n, P10880159921101071237.a n = A166338 n
+
+end A166338
+
 /-!
 # A166340: Triangle T(n, k) = coefficients of ( t(n, x) ) where t(n, x) = (1-x)^(n+1)*p(n, x)/x, p(n, x) = x*D( p(n-1, x) ), with p(1, x) = x/(1-x)^2, p(2, x) = x*(1+x)/(1-x)^3, and p(3, x) = x*(1+8*x+x^2)/(1-x)^4, read by rows.
 
@@ -9580,6 +9603,28 @@ end
 
 end A166374.P10379898799134297213
 
+/-! ## A166374.P13246562791086370487
+
+`∩[A342009(n+1), A345051(n+1)]`
+-/
+
+namespace A166374.P13246562791086370487
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342009 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345051 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166374.P13246562791086370487
+
 /-! ## A166374.P291869354502026724
 
 `A345051(A120515(n+1)*A345063(n+1))`
@@ -9624,21 +9669,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A166374.P649961289192027564
-
-/-! ## A166374.P7711699427512298204
-
-`A345051(lcm(A120515(n+1), A345063(n+1)))`
--/
-
-namespace A166374.P7711699427512298204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345051 (Int.lcm (A120515 (n + 1)) (A345063 (n + 1)))
-
-end
-
-end A166374.P7711699427512298204
 
 /-!
 # A166375: a(n) = sum (floor (j^2/n)) taken over 1 <= j <= n-1.

@@ -53,7 +53,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4336,6 +4335,29 @@ namespace A224334
 /-- `Δ[A192848(n+1)/4]` -/
 def P18027268377728428777.Spec : Prop :=
   ∀ n, P18027268377728428777.a n = (A224334 (n + 1) : ℚ)
+
+end A224334
+
+/-! ## A224334.P9781612263413472300
+
+`3*A047838(2*(n+2))`
+-/
+
+namespace A224334.P9781612263413472300
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * A047838 (2 * (n + 2))
+
+end
+
+end A224334.P9781612263413472300
+
+namespace A224334
+
+/-- `3*A047838(2*(n+2))` -/
+def P9781612263413472300.Spec : Prop :=
+  ∀ n, P9781612263413472300.a n = A224334 (n + 1)
 
 end A224334
 

@@ -8320,6 +8320,29 @@ def P11410238501556693025.Spec : Prop :=
 
 end A118465
 
+/-! ## A118465.P15406449862221062231
+
+`A061317(2*n)/2`
+-/
+
+namespace A118465.P15406449862221062231
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A061317 (2 * n) : ℚ) / 2
+
+end
+
+end A118465.P15406449862221062231
+
+namespace A118465
+
+/-- `A061317(2*n)/2` -/
+def P15406449862221062231.Spec : Prop :=
+  ∀ n, P15406449862221062231.a n = (A118465 n : ℚ)
+
+end A118465
+
 /-!
 # A118467: Primes p = prime(i) of level (1,3), i.e., such that A118534(i) = prime(i-3).
 
@@ -8482,6 +8505,24 @@ end
 
 end A118468.P541169885244933220
 
+/-! ## A118468.P6868553954172101913
+
+`filter[A232710(n), A267142(#)]`
+-/
+
+namespace A118468.P6868553954172101913
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232710 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267142 (f1 j).toNat = 1) n)
+
+end
+
+end A118468.P6868553954172101913
+
 /-!
 # A118469: Triangle read by rows: a(n,m) = If(n = 1, then 1, else Prime(n) - 1 + Sum_{k=n..m} (Prime(k + 1) - Prime(k))/2 ).
 
@@ -8643,6 +8684,28 @@ end A118473.P14762489538550604531
 
 The programs for A118474, there is no canonical definition to state claims against.
 -/
+
+/-! ## A118474.P16215776532088566154
+
+`∩[A239915(n), A330066(n+1)]`
+-/
+
+namespace A118474.P16215776532088566154
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239915 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330066 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118474.P16215776532088566154
 
 /-! ## A118474.P10062989890275115034
 
@@ -10536,6 +10599,28 @@ end
 
 end A118494.P2634451649499458083
 
+/-! ## A118494.P6703750961620481476
+
+`∩[A069217(n+1), A102540(n+1)]`
+-/
+
+namespace A118494.P6703750961620481476
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069217 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102540 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118494.P6703750961620481476
+
 /-! ## A118494.P3067999989648071688
 
 `∩[A071251(n+1), A102540(n+1)]`
@@ -10579,28 +10664,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A118494.P16557460795381341709
-
-/-! ## A118494.P7673425351465580823
-
-`∩[A073328(n+1), A102540(n+1)]`
--/
-
-namespace A118494.P7673425351465580823
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073328 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102540 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A118494.P7673425351465580823
 
 /-!
 # A118495: Chen primes written backwards.
@@ -10692,16 +10755,16 @@ end A118495.P743804306217998584
 The programs for A118496, there is no canonical definition to state claims against.
 -/
 
-/-! ## A118496.P9909925349318498177
+/-! ## A118496.P4680086540735923353
 
-`∩[A032980(n+1), A098922(n+1)]`
+`∩[A023803(n+1), A098922(n+1)]`
 -/
 
-namespace A118496.P9909925349318498177
+namespace A118496.P4680086540735923353
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032980 (n + 1)
+  A023803 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A098922 (n + 1)
@@ -10712,7 +10775,73 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A118496.P9909925349318498177
+end A118496.P4680086540735923353
+
+/-! ## A118496.P14066962606324217148
+
+`∩[A090933(n+1), A178158(n+1)]`
+-/
+
+namespace A118496.P14066962606324217148
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090933 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178158 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118496.P14066962606324217148
+
+/-! ## A118496.P7349895151560322744
+
+`∩[A098922(n+1), A175584(n+1)]`
+-/
+
+namespace A118496.P7349895151560322744
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098922 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175584 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118496.P7349895151560322744
+
+/-! ## A118496.P9557830546435909591
+
+`∩[A098922(n+1), A203565(n+1)]`
+-/
+
+namespace A118496.P9557830546435909591
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098922 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A203565 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A118496.P9557830546435909591
 
 /-!
 # A118497: Primes that are not Chen primes written backwards.

@@ -4026,6 +4026,52 @@ def P9445497887646626656.Spec : Prop :=
 
 end A032125
 
+/-! ## A032125.P11878747468670203882
+
+`A010036(n)+2^(n+1)`
+-/
+
+namespace A032125.P11878747468670203882
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010036 n + (2 ^ (n + 1) : ℤ)
+
+end
+
+end A032125.P11878747468670203882
+
+namespace A032125
+
+/-- `A010036(n)+2^(n+1)` -/
+def P11878747468670203882.Spec : Prop :=
+  ∀ n, P11878747468670203882.a n = A032125 (n + 1)
+
+end A032125
+
+/-! ## A032125.P11656793903864463702
+
+`A083330(n)+A007689(n)`
+-/
+
+namespace A032125.P11656793903864463702
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083330 n + A007689 n
+
+end
+
+end A032125.P11656793903864463702
+
+namespace A032125
+
+/-- `A083330(n)+A007689(n)` -/
+def P11656793903864463702.Spec : Prop :=
+  ∀ n, P11656793903864463702.a n = A032125 (n + 1)
+
+end A032125
+
 /-!
 # A032126: "BIK" (reversible, indistinct, unlabeled) transform of 1,2,3,4...
 

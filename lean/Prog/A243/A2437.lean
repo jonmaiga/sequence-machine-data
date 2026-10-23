@@ -5669,11 +5669,51 @@ end
 
 end A243767.P919093758080332138
 
+/-! ## A243767.P2944032941522883263
+
+`filter[A110028(n+1), A080111(#)]`
+-/
+
+namespace A243767.P2944032941522883263
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110028 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A080111 (f1 j).toNat = 1) n)
+
+end
+
+end A243767.P2944032941522883263
+
 /-!
 # A243768: Primes p such that 6 is not a 6th power mod p.
 
 The programs for A243768, there is no canonical definition to state claims against.
 -/
+
+/-! ## A243768.P2281261779783526799
+
+`∪[A038877(n+1), A040047(n+1)]`
+-/
+
+namespace A243768.P2281261779783526799
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038877 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040047 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243768.P2281261779783526799
 
 /-! ## A243768.P12533815980600406170
 
@@ -5734,6 +5774,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243768.P1606169505677639553
+
+/-! ## A243768.P18232131797251556461
+
+`∩[A141639(n+1), A225859(n+1)]`
+-/
+
+namespace A243768.P18232131797251556461
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141639 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225859 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243768.P18232131797251556461
 
 /-!
 # A243769: a(n) = prime(n)^3 mod (n^2 + prime(n)^2).

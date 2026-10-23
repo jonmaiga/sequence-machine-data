@@ -17,6 +17,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C030
@@ -46,7 +47,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
@@ -3941,6 +3941,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044058.P5614993271479411550
+
+/-! ## A044058.P3094791349716261856
+
+`filter[A043098(n+1), A136442(#)]`
+-/
+
+namespace A044058.P3094791349716261856
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043098 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A136442 (f1 j).toNat = 1) n)
+
+end
+
+end A044058.P3094791349716261856
 
 /-!
 # A044059: Numbers n such that string 2,1 occurs in the base 3 representation of n but not of n-1.

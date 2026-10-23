@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -90,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A114500: Number of Dyck paths of semilength n having no UUUDDD's starting at level zero; here U=(1,1), D=(1,-1). Also number of Dyck paths of semilength n having no UUDUDD's starting at level zero.
@@ -5078,6 +5083,24 @@ end
 
 end A114549.P15159034194567882298
 
+/-! ## A114549.P12650585602705539039
+
+`filter[A154758(n+1), A118006(#)]`
+-/
+
+namespace A114549.P12650585602705539039
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154758 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A118006 (f1 j).toNat = 1) n)
+
+end
+
+end A114549.P12650585602705539039
+
 /-!
 # A114551: Continued fraction expansion of the constant (A114550) equal to Sum_{n>=0} 1/A112373(n) such that the partial quotients satisfy a(2n) = A112373(n) for n > 0 and a(2n+1) = A112373(n+1)/A112373(n) for n >= 0.
 
@@ -6215,6 +6238,46 @@ def P17072106596315798785.Spec : Prop :=
 
 end A114569
 
+/-! ## A114569.P6164418107124297696
+
+`4*(a(n-1)+3/4)` with `a(0)=8`
+-/
+
+namespace A114569.P6164418107124297696
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [8] fun n a =>
+  4 * (a (n - 1) + (3 : ℚ) / 4)
+
+end
+
+end A114569.P6164418107124297696
+
+namespace A114569
+
+/-- `4*(a(n-1)+3/4)` -/
+def P6164418107124297696.Spec : Prop :=
+  ∀ n, P6164418107124297696.a n = (A114569 n : ℚ)
+
+theorem P6164418107124297696.correct : P6164418107124297696.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A114569, Nat.add_sub_cancel, A114569.P6164418107124297696.a, A114569.P5471291263109344837.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A114569, Nat.add_sub_cancel, A114569.P6164418107124297696.a, A114569.P5471291263109344837.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A114569
+
 /-! ## A114569.P6230894146192143549
 
 `Δ[Δ[4*a(n-1)]-n]` with `a(0)=1`
@@ -6241,6 +6304,48 @@ namespace A114569
 /-- `Δ[Δ[4*a(n-1)]-n]` -/
 def P6230894146192143549.Spec : Prop :=
   ∀ n, P6230894146192143549.a n = A114569 n
+
+end A114569
+
+/-! ## A114569.P13850060667976148592
+
+`floor(a(n-1)+3*(a(n-1)+1))` with `a(0)=8`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A114569.P13850060667976148592
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [8] fun n a =>
+  a (n - 1) + 3 * (a (n - 1) + 1)
+
+end
+
+end A114569.P13850060667976148592
+
+namespace A114569
+
+/-- `floor(a(n-1)+3*(a(n-1)+1))` -/
+def P13850060667976148592.Spec : Prop :=
+  ∀ n, (P13850060667976148592.a n : ℤ) = A114569 n
+
+theorem P13850060667976148592.correct : P13850060667976148592.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A114569, Nat.add_sub_cancel, A114569.P13850060667976148592.a, A114569.P5471291263109344837.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A114569, Nat.add_sub_cancel, A114569.P13850060667976148592.a, A114569.P5471291263109344837.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A114569
 

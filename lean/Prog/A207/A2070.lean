@@ -86,6 +86,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C025
 
 /-!
 # A207000: T(n,k)=Number of nXk 0..1 arrays avoiding 0 1 0 horizontally and 0 1 1 vertically.
@@ -5804,6 +5805,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A207040.P12472490933845768438
+
+/-! ## A207040.P10799726860899598934
+
+`∩[A133204(n+1), A191932(n+1)]`
+-/
+
+namespace A207040.P10799726860899598934
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133204 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191932 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A207040.P10799726860899598934
+
+/-! ## A207040.P5329485033556944161
+
+`∩[A191932(n+1), A385224(n+1)]`
+-/
+
+namespace A207040.P5329485033556944161
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191932 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385224 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A207040.P5329485033556944161
 
 /-!
 # A207042: Number of (n+1) X (n+1) 0..2 arrays with every 2 X 3 or 3 X 2 subblock having exactly one clockwise edge increases.

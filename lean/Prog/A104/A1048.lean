@@ -3564,7 +3564,7 @@ end A104857.P9282134597938491590
 /-!
 # A104858: Partial sums of the little Schroeder numbers (A001003).
 
-The programs for A104858, the canonical program `A104858.P16916997968901490082` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104858 has offset 0).
+The programs for A104858, the canonical program `A104858.P16916997968901490082` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104858 has offset 0).
 
 The definition of A104858 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3599,7 +3599,7 @@ end A104858
 
 `∑[abs(A080243(n))]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A104858
@@ -5739,6 +5739,27 @@ end
 end A104868.P17830040300104433459
 
 /-!
+# A104871: Positions of records A104867 in A104865.
+
+The programs for A104871, there is no canonical definition to state claims against.
+-/
+
+/-! ## A104871.P1064401242125286866
+
+`A331994(A331912(A331994(A331912(A331994(n+1)))))`
+-/
+
+namespace A104871.P1064401242125286866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331994 (A331912 (A331994 (A331912 (A331994 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A104871.P1064401242125286866
+
+/-!
 # A104872: Diagonal sums of A004248.
 
 The programs for A104872, there is no canonical definition to state claims against.
@@ -6947,6 +6968,21 @@ end
 
 end A104886.P8621535441764530662
 
+/-! ## A104886.P4689223933766397302
+
+`A056226(A000397(n+5))`
+-/
+
+namespace A104886.P4689223933766397302
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056226 (A000397 (n + 5)).toNat
+
+end
+
+end A104886.P4689223933766397302
+
 /-!
 # A104887: Triangle T(n,k) = (n-k+1)-th prime, read by rows.
 
@@ -7958,6 +7994,81 @@ def P15424259437509663579.Spec : Prop :=
 
 end A104891
 
+/-! ## A104891.P17605369198141325651
+
+`5*(1-floor(-a(n-1)))` with `a(0)=0`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A104891.P17605369198141325651
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  5 * (1 - (-a (n - 1)))
+
+end
+
+end A104891.P17605369198141325651
+
+namespace A104891
+
+/-- `5*(1-floor(-a(n-1)))` -/
+def P17605369198141325651.Spec : Prop :=
+  ∀ n, P17605369198141325651.a n = A104891 n
+
+end A104891
+
+/-! ## A104891.P7032949639026636325
+
+`5*(1-ceil(-a(n-1)))` with `a(0)=0`
+
+`ceil` is left out, it is the identity on integers.
+-/
+
+namespace A104891.P7032949639026636325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  5 * (1 - (-a (n - 1)))
+
+end
+
+end A104891.P7032949639026636325
+
+namespace A104891
+
+/-- `5*(1-ceil(-a(n-1)))` -/
+def P7032949639026636325.Spec : Prop :=
+  ∀ n, P7032949639026636325.a n = A104891 n
+
+end A104891
+
+/-! ## A104891.P10856198107682212726
+
+`5*(1-round(-a(n-1)))` with `a(0)=0`
+
+`round` is left out, it is the identity on integers.
+-/
+
+namespace A104891.P10856198107682212726
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  5 * (1 - (-a (n - 1)))
+
+end
+
+end A104891.P10856198107682212726
+
+namespace A104891
+
+/-- `5*(1-round(-a(n-1)))` -/
+def P10856198107682212726.Spec : Prop :=
+  ∀ n, P10856198107682212726.a n = A104891 n
+
+end A104891
+
 /-! ## A104891.P4806081896489579410
 
 `-(5*xor(-1, a(n-1)))` with `a(0)=0`
@@ -8033,6 +8144,29 @@ def P1887707601105673303.Spec : Prop :=
 
 end A104891
 
+/-! ## A104891.P15701801394544300825
+
+`5*(4/2-(1-a(n-1)))` with `a(0)=0`
+-/
+
+namespace A104891.P15701801394544300825
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  5 * ((4 : ℚ) / 2 - (1 - a (n - 1)))
+
+end
+
+end A104891.P15701801394544300825
+
+namespace A104891
+
+/-- `5*(4/2-(1-a(n-1)))` -/
+def P15701801394544300825.Spec : Prop :=
+  ∀ n, P15701801394544300825.a n = (A104891 n : ℚ)
+
+end A104891
+
 /-! ## A104891.P8215434950885734145
 
 `-Δ[5*(a(n-1)-(n-1))]` with `a(0)=0`
@@ -8084,26 +8218,26 @@ def P16545726113641875341.Spec : Prop :=
 
 end A104891
 
-/-! ## A104891.P6052315038520735049
+/-! ## A104891.P1506922768834202153
 
-`5*A003463(n)`
+`5*(1-(a(n-1)-2*a(n-1)))` with `a(0)=0`
 -/
 
-namespace A104891.P6052315038520735049
+namespace A104891.P1506922768834202153
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  5 * A003463 n
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  5 * (1 - (a (n - 1) - 2 * a (n - 1)))
 
 end
 
-end A104891.P6052315038520735049
+end A104891.P1506922768834202153
 
 namespace A104891
 
-/-- `5*A003463(n)` -/
-def P6052315038520735049.Spec : Prop :=
-  ∀ n, P6052315038520735049.a n = A104891 n
+/-- `5*(1-(a(n-1)-2*a(n-1)))` -/
+def P1506922768834202153.Spec : Prop :=
+  ∀ n, P1506922768834202153.a n = A104891 n
 
 end A104891
 
@@ -9559,4 +9693,46 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104899.P12544729912955865185
+
+/-! ## A104899.P2675833435231891120
+
+`eq[A202394(n), A341273(n)]`
+-/
+
+namespace A104899.P2675833435231891120
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A202394 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341273 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A104899.P2675833435231891120
+
+/-! ## A104899.P10480375577278932648
+
+`eq[A204850(n), A341273(n)]`
+-/
+
+namespace A104899.P10480375577278932648
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204850 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341273 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A104899.P10480375577278932648
 

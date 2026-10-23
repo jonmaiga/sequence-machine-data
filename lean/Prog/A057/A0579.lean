@@ -19,7 +19,6 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
@@ -53,13 +52,13 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -7135,6 +7134,28 @@ end A057949.P3511387454321681973
 The programs for A057950, there is no canonical definition to state claims against.
 -/
 
+/-! ## A057950.P16985111544623583693
+
+`∪[A343827(n+1), A343828(n+1)]`
+-/
+
+namespace A057950.P16985111544623583693
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343827 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343828 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A057950.P16985111544623583693
+
 /-! ## A057950.P7942200424129869263
 
 `∩[A046317(n+1), A057949(n+1)]`
@@ -7189,21 +7210,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A057950.P11628570549756026023
-
-/-! ## A057950.P2031082653758844107
-
-`A343827(n%A001215(n+1)+1)`
--/
-
-namespace A057950.P2031082653758844107
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343827 (Int.tmod (n : ℤ) (A001215 (n + 1)) + 1).toNat
-
-end
-
-end A057950.P2031082653758844107
 
 /-!
 # A057951: Number of prime factors of 10^n - 1 (counted with multiplicity).
@@ -10683,6 +10689,124 @@ namespace A057979
 /-- `floor(∑[n]/n-a(n-1))` -/
 def P11718095055339192282.Spec : Prop :=
   ∀ n, P11718095055339192282.a n = A057979 n
+
+end A057979
+
+/-! ## A057979.P6950226658908233046
+
+`ogf((1-x^2+x^3)/(1-2x^2+x^4))`
+-/
+
+namespace A057979.P6950226658908233046
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -1, 1] [1, 0, -2, 0, 1] n
+
+end
+
+end A057979.P6950226658908233046
+
+namespace A057979
+
+/-- `ogf((1-x^2+x^3)/(1-2x^2+x^4))` -/
+def P6950226658908233046.Spec : Prop :=
+  ∀ n, P6950226658908233046.a n = A057979 n
+
+end A057979
+
+/-! ## A057979.P11051151877288346614
+
+`lcm(n, a(n-2)+1)/n` with `a(0)=1, a(1)=0`
+-/
+
+namespace A057979.P11051151877288346614
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1, 0] fun n a =>
+  (Int.lcm (n : ℤ) (SequenceMachineLib.roundAway (a (n - 2) + 1)) : ℚ) / (n : ℚ)
+
+end
+
+end A057979.P11051151877288346614
+
+namespace A057979
+
+/-- `lcm(n, a(n-2)+1)/n` -/
+def P11051151877288346614.Spec : Prop :=
+  ∀ n, P11051151877288346614.a n = (A057979 n : ℚ)
+
+end A057979
+
+/-! ## A057979.P7867078725495170389
+
+`floor((n-1)/(a(n-1)+1))` with `a(0)=1`
+-/
+
+namespace A057979.P7867078725495170389
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ⌊((n : ℤ) - 1 : ℚ) / (a (n - 1) + 1 : ℚ)⌋
+
+end
+
+end A057979.P7867078725495170389
+
+namespace A057979
+
+/-- `floor((n-1)/(a(n-1)+1))` -/
+def P7867078725495170389.Spec : Prop :=
+  ∀ n, P7867078725495170389.a n = A057979 n
+
+end A057979
+
+/-! ## A057979.P1550784955633803108
+
+`C(floor((n-1)/2), a(n-1))` with `a(0)=1`
+-/
+
+namespace A057979.P1550784955633803108
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  Nat.choose ⌊((n : ℤ) - 1 : ℚ) / 2⌋.toNat (a (n - 1))
+
+end
+
+end A057979.P1550784955633803108
+
+namespace A057979
+
+/-- `C(floor((n-1)/2), a(n-1))` -/
+def P1550784955633803108.Spec : Prop :=
+  ∀ n, (P1550784955633803108.a n : ℤ) = A057979 n
+
+end A057979
+
+/-! ## A057979.P9006966064544882235
+
+`∏{p}[or(n+1, -2), (n-1)/#]`
+-/
+
+namespace A057979.P9006966064544882235
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (n + 1 : ℤ) (-2)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, ((n : ℤ) - 1 : ℚ) / (p : ℚ)
+
+end
+
+end A057979.P9006966064544882235
+
+namespace A057979
+
+/-- `∏{p}[or(n+1, -2), (n-1)/#]` -/
+def P9006966064544882235.Spec : Prop :=
+  ∀ n, P9006966064544882235.a n = (A057979 n : ℚ)
 
 end A057979
 

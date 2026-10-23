@@ -69,11 +69,13 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
-import Seq.Opaque.C022
+import Seq.Opaque.C020
+import Seq.Opaque.C023
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -169,6 +171,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A200612.P1059673003259881986
+
+/-! ## A200612.P5217021926525682129
+
+`∩[A316525(n+1), A363950(n+1)]`
+-/
+
+namespace A200612.P5217021926525682129
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316525 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363950 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A200612.P5217021926525682129
 
 /-!
 # A200613: Number of quasi-abelian ideals in the affine Lie algebra sl_n^{hat}.
@@ -1658,12 +1682,12 @@ end A200651.P4776733890417014179
 The programs for A200656, there is no canonical definition to state claims against.
 -/
 
-/-! ## A200656.P650006740662789242
+/-! ## A200656.P7823847118459271805
 
-`∪[A201047(n+1), A201048(n+1)]%A201047(n+3)`
+`∪[A201047(n+1), A201048(n+1)]`
 -/
 
-namespace A200656.P650006740662789242
+namespace A200656.P7823847118459271805
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -1673,12 +1697,12 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A201048 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A201047 (n + 3))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A200656.P650006740662789242
+end A200656.P7823847118459271805
 
 /-! ## A200656.P4985404002540676131
 
@@ -3517,6 +3541,66 @@ def P6910486813359355281.Spec : Prop :=
 
 end A200672
 
+/-! ## A200672.P18382658865339630199
+
+`∪[A136252(n), A154117(n)]`
+-/
+
+namespace A200672.P18382658865339630199
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136252 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154117 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A200672.P18382658865339630199
+
+namespace A200672
+
+/-- `∪[A136252(n), A154117(n)]` -/
+def P18382658865339630199.Spec : Prop :=
+  ∀ n, (P18382658865339630199.a n : ℤ) = A200672 (n + 1)
+
+end A200672
+
+/-! ## A200672.P11427397733909419585
+
+`∪[A060482(n+1), A154117(n)]`
+-/
+
+namespace A200672.P11427397733909419585
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060482 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154117 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A200672.P11427397733909419585
+
+namespace A200672
+
+/-- `∪[A060482(n+1), A154117(n)]` -/
+def P11427397733909419585.Spec : Prop :=
+  ∀ n, (P11427397733909419585.a n : ℤ) = A200672 (n + 1)
+
+end A200672
+
 /-! ## A200672.P16917516253252100645
 
 `∑[2*a(n-3)]/2` with `a(0)=2, a(1)=2, a(2)=2`
@@ -3599,32 +3683,6 @@ namespace A200672
 /-- `∑[A000079(∑[char[3*n]])]/2` -/
 def P3082370773605749636.Spec : Prop :=
   ∀ n, P3082370773605749636.a n = (A200672 (n + 1) : ℚ)
-
-end A200672
-
-/-! ## A200672.P3059918318612571957
-
-`floor(∑[A131577(ceil((n+1)/3)+2)]/4)`
--/
-
-namespace A200672.P3059918318612571957
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131577 (⌈(n + 1 : ℚ) / 3⌉ + 2).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) / 4⌋
-
-end
-
-end A200672.P3059918318612571957
-
-namespace A200672
-
-/-- `floor(∑[A131577(ceil((n+1)/3)+2)]/4)` -/
-def P3059918318612571957.Spec : Prop :=
-  ∀ n, P3059918318612571957.a n = A200672 (n + 1)
 
 end A200672
 

@@ -879,6 +879,29 @@ def P5358717500574209284.Spec : Prop :=
 
 end A194713
 
+/-! ## A194713.P16652308473580260999
+
+`A112653(A002939(n))`
+-/
+
+namespace A194713.P16652308473580260999
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112653 (A002939 n).toNat
+
+end
+
+end A194713.P16652308473580260999
+
+namespace A194713
+
+/-- `A112653(A002939(n))` -/
+def P16652308473580260999.Spec : Prop :=
+  ∀ n, P16652308473580260999.a n = A194713 n
+
+end A194713
+
 /-!
 # A194714: Sum of all odd-indexed parts minus the sum of all even-indexed parts of all partitions of n, with the parts written in nondecreasing order.
 
@@ -1097,26 +1120,26 @@ def P9104037012103266016.Spec : Prop :=
 
 end A194715
 
-/-! ## A194715.P13767391835191784865
+/-! ## A194715.P16650986350363559097
 
-`C(n+1, 2)*15`
+`15*C(n+1, 2)`
 -/
 
-namespace A194715.P13767391835191784865
+namespace A194715.P16650986350363559097
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 1) 2 * 15
+  15 * Nat.choose (n + 1) 2
 
 end
 
-end A194715.P13767391835191784865
+end A194715.P16650986350363559097
 
 namespace A194715
 
-/-- `C(n+1, 2)*15` -/
-def P13767391835191784865.Spec : Prop :=
-  ∀ n, (P13767391835191784865.a n : ℤ) = A194715 n
+/-- `15*C(n+1, 2)` -/
+def P16650986350363559097.Spec : Prop :=
+  ∀ n, (P16650986350363559097.a n : ℤ) = A194715 n
 
 end A194715
 
@@ -1319,118 +1342,118 @@ def P5862783697107482444.Spec : Prop :=
 
 end A194715
 
-/-! ## A194715.P4102574646423844945
+/-! ## A194715.P9788419629516610911
 
-`A292018(n+1)+n-1`
+`3*(A005891(n)-1)`
 -/
 
-namespace A194715.P4102574646423844945
+namespace A194715.P9788419629516610911
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292018 (n + 1) + ((n : ℤ) - 1)
+  3 * (A005891 n - 1)
 
 end
 
-end A194715.P4102574646423844945
+end A194715.P9788419629516610911
 
 namespace A194715
 
-/-- `A292018(n+1)+n-1` -/
-def P4102574646423844945.Spec : Prop :=
-  ∀ n, P4102574646423844945.a n = A194715 n
+/-- `3*(A005891(n)-1)` -/
+def P9788419629516610911.Spec : Prop :=
+  ∀ n, P9788419629516610911.a n = A194715 n
 
 end A194715
 
-/-! ## A194715.P18287233580194719939
+/-! ## A194715.P4152237380830815219
 
-`A022272(n)+A008590(n)`
+`3/2*A124080(n)`
 -/
 
-namespace A194715.P18287233580194719939
+namespace A194715.P4152237380830815219
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022272 n + A008590 n
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 : ℚ) / 2 * (A124080 n : ℚ)
 
 end
 
-end A194715.P18287233580194719939
+end A194715.P4152237380830815219
 
 namespace A194715
 
-/-- `A022272(n)+A008590(n)` -/
-def P18287233580194719939.Spec : Prop :=
-  ∀ n, P18287233580194719939.a n = A194715 n
+/-- `3/2*A124080(n)` -/
+def P4152237380830815219.Spec : Prop :=
+  ∀ n, P4152237380830815219.a n = (A194715 n : ℚ)
 
 end A194715
 
-/-! ## A194715.P15747080160698514595
+/-! ## A194715.P14654916517748551285
 
-`A022273(n)+A008589(n)`
+`5/2*A028896(n)`
 -/
 
-namespace A194715.P15747080160698514595
+namespace A194715.P14654916517748551285
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022273 n + A008589 n
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 : ℚ) / 2 * (A028896 n : ℚ)
 
 end
 
-end A194715.P15747080160698514595
+end A194715.P14654916517748551285
 
 namespace A194715
 
-/-- `A022273(n)+A008589(n)` -/
-def P15747080160698514595.Spec : Prop :=
-  ∀ n, P15747080160698514595.a n = A194715 n
+/-- `5/2*A028896(n)` -/
+def P14654916517748551285.Spec : Prop :=
+  ∀ n, P14654916517748551285.a n = (A194715 n : ℚ)
 
 end A194715
 
-/-! ## A194715.P17189771878623109611
+/-! ## A194715.P16668444140370373306
 
-`A028563(n)+A022271(n)`
+`3/4*A163761(n)`
 -/
 
-namespace A194715.P17189771878623109611
+namespace A194715.P16668444140370373306
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028563 n + A022271 n
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 : ℚ) / 4 * (A163761 n : ℚ)
 
 end
 
-end A194715.P17189771878623109611
+end A194715.P16668444140370373306
 
 namespace A194715
 
-/-- `A028563(n)+A022271(n)` -/
-def P17189771878623109611.Spec : Prop :=
-  ∀ n, P17189771878623109611.a n = A194715 n
+/-- `3/4*A163761(n)` -/
+def P16668444140370373306.Spec : Prop :=
+  ∀ n, P16668444140370373306.a n = (A194715 n : ℚ)
 
 end A194715
 
-/-! ## A194715.P3666098466957209993
+/-! ## A194715.P7406895350050400837
 
-`A028566(n)+A022270(n)`
+`5/3*A027468(n)`
 -/
 
-namespace A194715.P3666098466957209993
+namespace A194715.P7406895350050400837
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028566 n + A022270 n
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 : ℚ) / 3 * (A027468 n : ℚ)
 
 end
 
-end A194715.P3666098466957209993
+end A194715.P7406895350050400837
 
 namespace A194715
 
-/-- `A028566(n)+A022270(n)` -/
-def P3666098466957209993.Spec : Prop :=
-  ∀ n, P3666098466957209993.a n = A194715 n
+/-- `5/3*A027468(n)` -/
+def P7406895350050400837.Spec : Prop :=
+  ∀ n, P7406895350050400837.a n = (A194715 n : ℚ)
 
 end A194715
 
@@ -4661,7 +4684,7 @@ end A194734
 /-!
 # A194735: Number of positive integers k <= n such that {k*sqrt(2)} > {n*sqrt(2)}, where { } = fractional part.
 
-The programs for A194735, the canonical program `A194735.P10653237601226367426` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194735 has offset 1).
+The programs for A194735, the canonical program `A194735.P10653237601226367426` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194735 has offset 1).
 
 The definition of A194735 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4765,7 +4788,7 @@ end A194735
 
 `(n*A194138(n+1))%(n+2)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194735
@@ -7898,7 +7921,7 @@ end A194743
 /-!
 # A194744: Number of k such that {-k*sqrt(5)} < {-n*sqrt(5)}, where { } = fractional part.
 
-The programs for A194744, the canonical program `A194744.P9313095797038209416` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194744 has offset 1).
+The programs for A194744, the canonical program `A194744.P9313095797038209416` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194744 has offset 1).
 
 The definition of A194744 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7907,7 +7930,7 @@ The definition of A194744 is `conjectured`: the Lean definition is a formula tha
 
 `A194743(n+1)+1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194744

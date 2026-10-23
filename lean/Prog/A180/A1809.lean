@@ -60,6 +60,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3437,6 +3438,72 @@ end A180932.P12731873471612981108
 The programs for A180934, there is no canonical definition to state claims against.
 -/
 
+/-! ## A180934.P10724408060984504948
+
+`∪[A008578(n+1), A270337(n+1)]`
+-/
+
+namespace A180934.P10724408060984504948
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008578 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270337 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180934.P10724408060984504948
+
+/-! ## A180934.P7068499069102658711
+
+`∪[A033946(n+1), A270337(n+1)]`
+-/
+
+namespace A180934.P7068499069102658711
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033946 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270337 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180934.P7068499069102658711
+
+/-! ## A180934.P12793157004834949722
+
+`∪[A270337(n+1), A372059(n+1)]`
+-/
+
+namespace A180934.P12793157004834949722
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270337 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372059 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180934.P12793157004834949722
+
 /-! ## A180934.P11265223208657884969
 
 `lt[A318504(n+1), A354579(2*n+3)]+1`
@@ -3481,61 +3548,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A180934.P70927360774300083
-
-/-! ## A180934.P5841005262207090117
-
-`eq[char[A323730(n)], A178334(3*n+2)]`
--/
-
-namespace A180934.P5841005262207090117
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323730 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178334 (3 * n + 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
-
-end
-
-end A180934.P5841005262207090117
-
-/-! ## A180934.P14522368704343270926
-
-`A235868(n+1)+A025465(A035040(n))`
--/
-
-namespace A180934.P14522368704343270926
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235868 (n + 1) + A025465 (A035040 n).toNat
-
-end
-
-end A180934.P14522368704343270926
-
-/-! ## A180934.P18440191207740852710
-
-`A235868(n+1)+A102683(A001405(n))`
--/
-
-namespace A180934.P18440191207740852710
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235868 (n + 1) + A102683 (A001405 n).toNat
-
-end
-
-end A180934.P18440191207740852710
 
 /-!
 # A180935: A180934(n)^a(n) has A180934(n) divisors.

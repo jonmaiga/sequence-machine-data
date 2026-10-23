@@ -8587,23 +8587,24 @@ end
 
 end A207481.P18015167202148750251
 
-/-! ## A207481.P18012859646924958597
+/-! ## A207481.P8754480651675657317
 
-`filter[A279385(n+1), A168181(#)]`
+`comp[val((n+1)^8, 3)]`
 -/
 
-namespace A207481.P18012859646924958597
+namespace A207481.P8754480651675657317
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279385 (n + 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation ((n + 1) ^ 8) 3
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A168181 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
 
 end
 
-end A207481.P18012859646924958597
+end A207481.P8754480651675657317
 
 /-!
 # A207482: Number of n X n 0..1 arrays avoiding 0 0 0 and 0 1 1 horizontally and 0 1 1 and 1 1 0 vertically.

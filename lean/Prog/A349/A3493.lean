@@ -1402,6 +1402,75 @@ def P8276361818289413982.Spec : Prop :=
 
 end A349317
 
+/-! ## A349317.P728922438163565773
+
+`A001844(n)%A050873(n+1)`
+-/
+
+namespace A349317.P728922438163565773
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A001844 n) (A050873 (n + 1))
+
+end
+
+end A349317.P728922438163565773
+
+namespace A349317
+
+/-- `A001844(n)%A050873(n+1)` -/
+def P728922438163565773.Spec : Prop :=
+  ∀ n, P728922438163565773.a n = A349317 (n + 1)
+
+end A349317
+
+/-! ## A349317.P17450679475539886066
+
+`A004768(n)%A050873(n+1)`
+-/
+
+namespace A349317.P17450679475539886066
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A004768 n) (A050873 (n + 1))
+
+end
+
+end A349317.P17450679475539886066
+
+namespace A349317
+
+/-- `A004768(n)%A050873(n+1)` -/
+def P17450679475539886066.Spec : Prop :=
+  ∀ n, P17450679475539886066.a n = A349317 (n + 1)
+
+end A349317
+
+/-! ## A349317.P5874204586684101419
+
+`A007204(n)%A050873(n+1)`
+-/
+
+namespace A349317.P5874204586684101419
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A007204 n) (A050873 (n + 1))
+
+end
+
+end A349317.P5874204586684101419
+
+namespace A349317
+
+/-- `A007204(n)%A050873(n+1)` -/
+def P5874204586684101419.Spec : Prop :=
+  ∀ n, P5874204586684101419.a n = A349317 (n + 1)
+
+end A349317
+
 /-!
 # A349318: G.f. A(x) satisfies: A(x) = 1 + x * A(x)^3 / (1 - 2 * x).
 
@@ -2220,6 +2289,29 @@ def P4210665792608109920.Spec : Prop :=
 
 end A349326
 
+/-! ## A349326.P6676342389193196465
+
+`A350386(n+1)+A350387(n+1)-A162641(n+1)`
+-/
+
+namespace A349326.P6676342389193196465
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350386 (n + 1) + (A350387 (n + 1) - A162641 (n + 1))
+
+end
+
+end A349326.P6676342389193196465
+
+namespace A349326
+
+/-- `A350386(n+1)+A350387(n+1)-A162641(n+1)` -/
+def P6676342389193196465.Spec : Prop :=
+  ∀ n, P6676342389193196465.a n = A349326 (n + 1)
+
+end A349326
+
 /-!
 # A349327: Primes p such that 2*p^2 is a term of A179993.
 
@@ -2640,16 +2732,16 @@ end
 
 end A349327.P5586080272757180627
 
-/-! ## A349327.P7393866086029474681
+/-! ## A349327.P17558440147241110154
 
-`∩[A106118(n+1), A225098(n+1)]`
+`∩[A093515(n+1), A225098(n+1)]`
 -/
 
-namespace A349327.P7393866086029474681
+namespace A349327.P17558440147241110154
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106118 (n + 1)
+  A093515 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A225098 (n + 1)
@@ -2660,7 +2752,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A349327.P7393866086029474681
+end A349327.P17558440147241110154
 
 /-!
 # A349328: Number of polyominoes with n cells and exactly one line of reflection symmetry, where that one line is parallel to the grid and passes through the center of at least one square.

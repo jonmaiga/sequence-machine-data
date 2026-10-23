@@ -31,6 +31,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B001.C000
@@ -9119,6 +9120,28 @@ end
 
 end A224781.P6232251282859822155
 
+/-! ## A224781.P14453763721516159977
+
+`∩[A054639(n+1), A055638(n+1)]`
+-/
+
+namespace A224781.P14453763721516159977
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054639 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055638 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A224781.P14453763721516159977
+
 /-! ## A224781.P1651906890748720149
 
 `filter[A014109(n+2), A355938(#)]`
@@ -9176,28 +9199,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A224781.P18233317311671226778
-
-/-! ## A224781.P13668442957554793254
-
-`∩[A014109(n+1), A055638(n+1)]`
--/
-
-namespace A224781.P13668442957554793254
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014109 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055638 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A224781.P13668442957554793254
 
 /-!
 # A224782: Length of longest run of consecutive zeros in decimal representation of 2^n.

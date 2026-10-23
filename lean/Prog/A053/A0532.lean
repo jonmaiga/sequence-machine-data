@@ -5675,6 +5675,29 @@ def P15537063298124797617.Spec : Prop :=
 
 end A053221
 
+/-! ## A053221.P13986432837143905330
+
+`(A131438(n+1)+n+1)/2`
+-/
+
+namespace A053221.P13986432837143905330
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A131438 (n + 1) + (n + 1 : ℤ) : ℚ) / 2
+
+end
+
+end A053221.P13986432837143905330
+
+namespace A053221
+
+/-- `(A131438(n+1)+n+1)/2` -/
+def P13986432837143905330.Spec : Prop :=
+  ∀ n, P13986432837143905330.a n = (A053221 (n + 1) : ℚ)
+
+end A053221
+
 /-!
 # A053222: First differences of sigma(n).
 

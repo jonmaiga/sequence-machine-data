@@ -5932,6 +5932,98 @@ def P11987852742458612583.Spec : Prop :=
 
 end A298364
 
+/-! ## A298364.P12047684885964106892
+
+`A292576(A292576(n+1))`
+-/
+
+namespace A298364.P12047684885964106892
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A292576 (A292576 (n + 1)).toNat
+
+end
+
+end A298364.P12047684885964106892
+
+namespace A298364
+
+/-- `A292576(A292576(n+1))` -/
+def P12047684885964106892.Spec : Prop :=
+  ∀ n, P12047684885964106892.a n = A298364 (n + 1)
+
+end A298364
+
+/-! ## A298364.P18125228937279710851
+
+`A116966(A092486(n)-1)`
+-/
+
+namespace A298364.P18125228937279710851
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116966 (A092486 n - 1).toNat
+
+end
+
+end A298364.P18125228937279710851
+
+namespace A298364
+
+/-- `A116966(A092486(n)-1)` -/
+def P18125228937279710851.Spec : Prop :=
+  ∀ n, P18125228937279710851.a n = A298364 (n + 1)
+
+end A298364
+
+/-! ## A298364.P9244668755217737107
+
+`xor(A003815(n), A133265(n))`
+-/
+
+namespace A298364.P9244668755217737107
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A003815 n) (A133265 n)
+
+end
+
+end A298364.P9244668755217737107
+
+namespace A298364
+
+/-- `xor(A003815(n), A133265(n))` -/
+def P9244668755217737107.Spec : Prop :=
+  ∀ n, P9244668755217737107.a n = A298364 (n + 1)
+
+end A298364
+
+/-! ## A298364.P11997774605063503191
+
+`A092486(xor(n, A133872(n)))`
+-/
+
+namespace A298364.P11997774605063503191
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092486 (Int.xor (n : ℤ) (A133872 n)).toNat
+
+end
+
+end A298364.P11997774605063503191
+
+namespace A298364
+
+/-- `A092486(xor(n, A133872(n)))` -/
+def P11997774605063503191.Spec : Prop :=
+  ∀ n, P11997774605063503191.a n = A298364 (n + 1)
+
+end A298364
+
 /-!
 # A298365: Numbers k such that there exists at least one odd pseudoprime of order k.
 

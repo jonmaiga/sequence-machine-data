@@ -82,6 +82,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -1394,6 +1395,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032605.P13552187661573066633
+
+/-! ## A032605.P11922157185312559831
+
+`A073846(A139269(n+1))`
+-/
+
+namespace A032605.P11922157185312559831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073846 (A139269 (n + 1)).toNat
+
+end
+
+end A032605.P11922157185312559831
 
 /-!
 # A032606: Lucky numbers indexed by prime numbers.

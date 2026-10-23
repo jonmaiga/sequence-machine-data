@@ -11,7 +11,6 @@ import Seq.B000.C010
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C025
@@ -41,7 +40,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -55,6 +53,7 @@ import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -689,6 +688,28 @@ end
 
 end A385325.P1674307482639263545
 
+/-! ## A385325.P10762311477738410348
+
+`∩[A103841(n+1), A396309(n+1)]`
+-/
+
+namespace A385325.P10762311477738410348
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103841 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396309 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385325.P10762311477738410348
+
 /-!
 # A385326: The number of positive k <= 2*n + 1 such that 2*n + 1 divides (2^k + 2*n + 1)^2 - 1.
 
@@ -1238,6 +1259,36 @@ The programs for A385350, the canonical program `A385350.P6185656812643599907` i
 The definition of A385350 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7685 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A385350.P9610298328537171597
+
+`∩[2*n+1, A007422(n+1)]`
+-/
+
+namespace A385350.P9610298328537171597
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007422 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385350.P9610298328537171597
+
+namespace A385350
+
+/-- `∩[2*n+1, A007422(n+1)]` -/
+def P9610298328537171597.Spec : Prop :=
+  ∀ n, (P9610298328537171597.a n : ℤ) = A385350 (n + 1)
+
+end A385350
+
 /-! ## A385350.P6185656812643599907
 
 `filter[A007422(n+1), A035263(#)]`
@@ -1651,36 +1702,6 @@ def P18042786730971232159.Spec : Prop :=
 
 end A385350
 
-/-! ## A385350.P7796756220881656561
-
-`∩[A007422(n+1), A223134(n)]`
--/
-
-namespace A385350.P7796756220881656561
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007422 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223134 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A385350.P7796756220881656561
-
-namespace A385350
-
-/-- `∩[A007422(n+1), A223134(n)]` -/
-def P7796756220881656561.Spec : Prop :=
-  ∀ n, (P7796756220881656561.a n : ℤ) = A385350 (n + 1)
-
-end A385350
-
 /-!
 # A385351: Perfect powers whose digits are all powers of the same single-digit base.
 
@@ -1709,6 +1730,28 @@ end
 
 end A385351.P5172591914157921245
 
+/-! ## A385351.P17509315977930055936
+
+`∩[A359493(n+1), A385324(n+1)]`
+-/
+
+namespace A385351.P17509315977930055936
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359493 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385324 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385351.P17509315977930055936
+
 /-! ## A385351.P2874718637779331895
 
 `A388719(A396163(n+1))`
@@ -1723,24 +1766,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A385351.P2874718637779331895
-
-/-! ## A385351.P10950574254121192347
-
-`filter[A254621(n+1), A075802(#)]`
--/
-
-namespace A385351.P10950574254121192347
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A254621 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A075802 (f1 j).toNat = 1) n)
-
-end
-
-end A385351.P10950574254121192347
 
 /-!
 # A385352: Number of sums i^2 + j^2 that occur more than once for 1 <= i <= j <= n.
@@ -2189,6 +2214,28 @@ end
 
 end A385375.P3223141298618773610
 
+/-! ## A385375.P9167409271597302720
+
+`∩[A067698(n+1), A352107(n+1)]`
+-/
+
+namespace A385375.P9167409271597302720
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067698 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352107 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385375.P9167409271597302720
+
 /-! ## A385375.P11684525910559416862
 
 `lt[A191257(n+1), A035116(n+1)]+1`
@@ -2230,27 +2277,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A385375.P10501080769820634461
-
-/-! ## A385375.P3676859155222176457
-
-`lt[A135662(3*n+2), A000005(n+1)]+1`
--/
-
-namespace A385375.P3676859155222176457
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135662 (3 * n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
-
-end
-
-end A385375.P3676859155222176457
 
 /-!
 # A385377: Expansion of e.g.f. 1/(1 - 3 * arcsin(x))^(1/3).

@@ -3035,6 +3035,24 @@ end
 
 end A339125.P16135978143341441883
 
+/-! ## A339125.P5909328002058460946
+
+`p?[A196266(2*n+1)]²`
+-/
+
+namespace A339125.P5909328002058460946
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196266 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n) ^ 2
+
+end
+
+end A339125.P5909328002058460946
+
 /-!
 # A339126: Odd composite integers m such that A006497(m-J(m,13)) == 2*J(m,13) (mod m), where J(m,13) is the Jacobi symbol.
 
@@ -3098,6 +3116,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A339127.P16056853580937660055
+
+/-! ## A339127.P4504506046094700265
+
+`filter[A029642(n+1), A075802(#)]`
+-/
+
+namespace A339127.P4504506046094700265
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029642 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A075802 (f1 j).toNat = 1) n)
+
+end
+
+end A339127.P4504506046094700265
 
 /-!
 # A339129: Odd composite integers m such that A005248(m-J(m,5)) == 2 (mod m), where J(m,5) is the Jacobi symbol.
@@ -6313,33 +6349,26 @@ def P15529552890038165294.Spec : Prop :=
 
 end A339183
 
-/-! ## A339183.P9417836047269760591
+/-! ## A339183.P16254141407881367746
 
-`∑[char[A168281(n+1)]]`
+`A183301(n+1)-(n+1)`
 -/
 
-namespace A339183.P9417836047269760591
+namespace A339183.P16254141407881367746
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168281 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183301 (n + 1) - (n + 1 : ℤ)
 
 end
 
-end A339183.P9417836047269760591
+end A339183.P16254141407881367746
 
 namespace A339183
 
-/-- `∑[char[A168281(n+1)]]` -/
-def P9417836047269760591.Spec : Prop :=
-  ∀ n, (P9417836047269760591.a n : ℤ) = A339183 n
+/-- `A183301(n+1)-(n+1)` -/
+def P16254141407881367746.Spec : Prop :=
+  ∀ n, P16254141407881367746.a n = A339183 n
 
 end A339183
 

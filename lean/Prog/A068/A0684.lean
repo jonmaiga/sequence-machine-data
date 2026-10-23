@@ -22,7 +22,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -31,6 +30,7 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -65,7 +65,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -645,12 +644,12 @@ end A068406
 The programs for A068407, there is no canonical definition to state claims against.
 -/
 
-/-! ## A068407.P8807831520943026022
+/-! ## A068407.P4697890426619206291
 
-`∪[A003226(n+1), A056033(n+1)]%A000533(n)`
+`∪[A003226(n+1), A056033(n+1)]`
 -/
 
-namespace A068407.P8807831520943026022
+namespace A068407.P4697890426619206291
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -660,19 +659,19 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A056033 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A000533 n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A068407.P8807831520943026022
+end A068407.P4697890426619206291
 
-/-! ## A068407.P3624104466321257713
+/-! ## A068407.P15250616012508484334
 
-`∪[A033819(n+1), A056033(n+1)]%A000533(n)`
+`∪[A033819(n+1), A056033(n+1)]`
 -/
 
-namespace A068407.P3624104466321257713
+namespace A068407.P15250616012508484334
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -682,78 +681,34 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A056033 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A000533 n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A068407.P3624104466321257713
+end A068407.P15250616012508484334
 
-/-! ## A068407.P10470711520448966381
+/-! ## A068407.P14364072142157784542
 
-`∪[A056033(n+1), A033819(n+1)]%A198971(n)`
+`∪[A033819(n+1), A056036(n+1)]`
 -/
 
-namespace A068407.P10470711520448966381
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056033 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033819 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A198971 n)
-
-end
-
-end A068407.P10470711520448966381
-
-/-! ## A068407.P2477700058745085671
-
-`A023443(∪[A056033(n+1), A033819(n+1)])+1`
--/
-
-namespace A068407.P2477700058745085671
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056033 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033819 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n) + 1
-
-end
-
-end A068407.P2477700058745085671
-
-/-! ## A068407.P1107168630752091239
-
-`A118759(∪[A033819(n+1), A056033(n+1)])`
--/
-
-namespace A068407.P1107168630752091239
+namespace A068407.P14364072142157784542
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A033819 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056033 (n + 1)
+  A056036 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118759 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A068407.P1107168630752091239
+end A068407.P14364072142157784542
 
 /-!
 # A068408: Automorphic numbers: numbers k such that k^6 ends with k. Also m-morphic numbers for all m not congruent to 26 (mod 50) but congruent to 6 (mod 10).
@@ -1586,6 +1541,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068422.P4361062620022604684
+
+/-! ## A068422.P12287894005417020664
+
+`∪[A055164(n+1), A085118(n+1)]`
+-/
+
+namespace A068422.P12287894005417020664
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055164 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085118 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068422.P12287894005417020664
 
 /-! ## A068422.P16538495060710456537
 
@@ -2919,6 +2896,21 @@ end
 
 end A068429.P6590519840551992279
 
+/-! ## A068429.P12866827107769672896
+
+`A033776(A245452(n+1))`
+-/
+
+namespace A068429.P12866827107769672896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033776 (A245452 (n + 1)).toNat
+
+end
+
+end A068429.P12866827107769672896
+
 /-!
 # A068430: Expansion of zeta(4) in base 2.
 
@@ -3277,6 +3269,21 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A068432.P16588296357404902240
+
+/-! ## A068432.P14219751052706131328
+
+`A293314(n)-A376448(n)`
+-/
+
+namespace A068432.P14219751052706131328
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293314 n - A376448 n
+
+end
+
+end A068432.P14219751052706131328
 
 /-!
 # A068433: Expansion of log(3) in base 2.
@@ -6761,6 +6768,28 @@ end
 
 end A068492.P1775600258436236119
 
+/-! ## A068492.P8475421949917247809
+
+`∩[A048388(n+1), A066050(n+1)]`
+-/
+
+namespace A068492.P8475421949917247809
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048388 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066050 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068492.P8475421949917247809
+
 /-! ## A068492.P3119003926110218516
 
 `∩[A048388(n+1), A067126(n+1)]`
@@ -6782,6 +6811,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068492.P3119003926110218516
+
+/-! ## A068492.P4781827562207435667
+
+`∩[A048388(n+1), A093515(n+1)]`
+-/
+
+namespace A068492.P4781827562207435667
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048388 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068492.P4781827562207435667
 
 /-! ## A068492.P6314317109731676527
 
@@ -6870,50 +6921,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068492.P6418090163355699660
-
-/-! ## A068492.P6965765612571902048
-
-`∩[A048388(n+1), A064728(n+1)]`
--/
-
-namespace A068492.P6965765612571902048
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048388 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064728 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068492.P6965765612571902048
-
-/-! ## A068492.P12745409758315311825
-
-`∩[A326715(n+1), A048388(n+1)]`
--/
-
-namespace A068492.P12745409758315311825
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326715 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048388 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068492.P12745409758315311825
 
 /-!
 # A068493: Primes which are concatenations of positive squares.

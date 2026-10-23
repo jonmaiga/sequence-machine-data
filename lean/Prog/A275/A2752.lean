@@ -62,7 +62,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -5074,6 +5073,36 @@ The programs for A275250, the canonical program `A275250.P3588784906535234528` i
 The definition of A275250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1917 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A275250.P4510794322399421153
+
+`∩[2*n+1, A051178(n+1)]`
+-/
+
+namespace A275250.P4510794322399421153
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051178 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A275250.P4510794322399421153
+
+namespace A275250
+
+/-- `∩[2*n+1, A051178(n+1)]` -/
+def P4510794322399421153.Spec : Prop :=
+  ∀ n, (P4510794322399421153.a n : ℤ) = A275250 (n + 1)
+
+end A275250
+
 /-! ## A275250.P3588784906535234528
 
 `∩[A051178(n+1), A176847(n+1)]`
@@ -5090,36 +5119,6 @@ def P3588784906535234528.Spec : Prop :=
 theorem P3588784906535234528.correct : P3588784906535234528.Spec := by
   intro n
   simp only [A275250, Nat.add_sub_cancel]
-
-end A275250
-
-/-! ## A275250.P2368382666974085116
-
-`∩[A014076(n+1), A051178(n+1)]`
--/
-
-namespace A275250.P2368382666974085116
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014076 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051178 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A275250.P2368382666974085116
-
-namespace A275250
-
-/-- `∩[A014076(n+1), A051178(n+1)]` -/
-def P2368382666974085116.Spec : Prop :=
-  ∀ n, (P2368382666974085116.a n : ℤ) = A275250 (n + 1)
 
 end A275250
 

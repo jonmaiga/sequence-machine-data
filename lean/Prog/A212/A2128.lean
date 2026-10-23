@@ -45,7 +45,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -1465,19 +1464,19 @@ end
 
 end A212820.P17078466137473297839
 
-/-! ## A212820.P15364273317372108916
+/-! ## A212820.P11166336239980619168
 
-`∩[A006562(n+1), A000040(A103655(n+1))]`
+`∩[A006562(n+1), A109403(n+1)]`
 -/
 
-namespace A212820.P15364273317372108916
+namespace A212820.P11166336239980619168
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A006562 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (A103655 (n + 1)).toNat
+  A109403 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1485,7 +1484,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A212820.P15364273317372108916
+end A212820.P11166336239980619168
 
 /-!
 # A212821: Smallest prime p of the form p = 3^n + k, where k has n prime divisors counted with multiplicity.
@@ -9222,6 +9221,29 @@ namespace A212892
 /-- `A227970(n)+A002620(n)` -/
 def P13857463732916471542.Spec : Prop :=
   ∀ n, P13857463732916471542.a n = A212892 n
+
+end A212892
+
+/-! ## A212892.P16645713300204562651
+
+`A001105(A002620(n))`
+-/
+
+namespace A212892.P16645713300204562651
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001105 (A002620 n).toNat
+
+end
+
+end A212892.P16645713300204562651
+
+namespace A212892
+
+/-- `A001105(A002620(n))` -/
+def P16645713300204562651.Spec : Prop :=
+  ∀ n, P16645713300204562651.a n = A212892 n
 
 end A212892
 

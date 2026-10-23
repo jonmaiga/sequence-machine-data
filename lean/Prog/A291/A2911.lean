@@ -4034,6 +4034,21 @@ end
 
 end A291149.P7070214086096072159
 
+/-! ## A291149.P1766862114090249153
+
+`A291168(A265334(n+2))`
+-/
+
+namespace A291149.P1766862114090249153
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291168 (A265334 (n + 2)).toNat
+
+end
+
+end A291149.P1766862114090249153
+
 /-!
 # A291150: Number of ways to write 2*n+1 as x^2 + y^2 + z^2 + 4*w^2, where x,y,z,w are nonnegative integers with x <= y <= z such that 2^x + 2^y + 2^z + 1 is prime.
 
@@ -5396,6 +5411,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291168.P748885312545683151
+
+/-! ## A291168.P2077221393958699282
+
+`A280865(A305503(n+1))`
+-/
+
+namespace A291168.P2077221393958699282
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280865 (A305503 (n + 1)).toNat
+
+end
+
+end A291168.P2077221393958699282
+
+/-! ## A291168.P7502453898208731797
+
+`A064099(A034526(n+2))`
+-/
+
+namespace A291168.P7502453898208731797
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064099 (A034526 (n + 2)).toNat
+
+end
+
+end A291168.P7502453898208731797
 
 /-!
 # A291170: Expansion of 1 + x/(1 + x^4/(1 + x^9/(1 + x^16/(1 + x^25/(1 + ... + x^(k^2)/(1 + ...)))))), a continued fraction.

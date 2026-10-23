@@ -36,6 +36,7 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -9078,6 +9079,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A313740.P13571410962832999753
+
+/-! ## A313740.P13253399047927437741
+
+`A351393(A367086(n+1))`
+-/
+
+namespace A313740.P13253399047927437741
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351393 (A367086 (n + 1)).toNat
+
+end
+
+end A313740.P13253399047927437741
 
 /-!
 # A313741: Coordination sequence Gal.6.495.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.

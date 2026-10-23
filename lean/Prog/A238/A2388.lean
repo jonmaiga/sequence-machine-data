@@ -1365,6 +1365,32 @@ def P831349122372688252.Spec : Prop :=
 
 end A238806
 
+/-! ## A238806.P7878681224041244780
+
+`∑[A133263(n)+2]`
+-/
+
+namespace A238806.P7878681224041244780
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133263 n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A238806.P7878681224041244780
+
+namespace A238806
+
+/-- `∑[A133263(n)+2]` -/
+def P7878681224041244780.Spec : Prop :=
+  ∀ n, P7878681224041244780.a n = A238806 (n + 1)
+
+end A238806
+
 /-!
 # A238807: Number of n X 3 0..2 arrays with no element equal to one plus the sum of elements to its left or one plus the sum of the sum of elements above it, modulo 3.
 
@@ -4675,6 +4701,28 @@ end
 
 end A238850.P8062406757659312646
 
+/-! ## A238850.P8059472286376432986
+
+`∩[A024770(n+1), A062895(n+1)]`
+-/
+
+namespace A238850.P8059472286376432986
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024770 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062895 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A238850.P8059472286376432986
+
 /-! ## A238850.P16881948691144532550
 
 `∩[A024770(n+1), A069706(n+1)]`
@@ -4696,24 +4744,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A238850.P16881948691144532550
-
-/-! ## A238850.P15762031428055868535
-
-`A004086(p?[A004086(A024770(n+1))])`
--/
-
-namespace A238850.P15762031428055868535
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (A024770 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat
-
-end
-
-end A238850.P15762031428055868535
 
 /-!
 # A238851: Right-truncatable, reversible primes in base 16.
@@ -7688,7 +7718,7 @@ end A238897.P9605681074914534112
 /-!
 # A238898: Least number m such that lcm(1,2,3,...,m) = lcm(n,n+1,n+2,...,m).
 
-The programs for A238898, the canonical program `A238898.P6484849418121387212` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238898 has offset 1).
+The programs for A238898, the canonical program `A238898.P6484849418121387212` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238898 has offset 1).
 
 The definition of A238898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7697,7 +7727,7 @@ The definition of A238898 is `conjectured`: the Lean definition is a formula tha
 
 `(2-A000007(n))*A031218(A028310(n))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A238898

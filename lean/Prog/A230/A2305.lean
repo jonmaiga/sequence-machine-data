@@ -3190,6 +3190,29 @@ def P12637803421266227797.Spec : Prop :=
 
 end A230540
 
+/-! ## A230540.P11706400029805247340
+
+`A080420(2*n)-A036068(2*n)`
+-/
+
+namespace A230540.P11706400029805247340
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080420 (2 * n) - A036068 (2 * n)
+
+end
+
+end A230540.P11706400029805247340
+
+namespace A230540
+
+/-- `A080420(2*n)-A036068(2*n)` -/
+def P11706400029805247340.Spec : Prop :=
+  ∀ n, P11706400029805247340.a n = A230540 n
+
+end A230540
+
 /-!
 # A230542: Numbers that cannot be divided by their multiplicative projection (A000026).
 

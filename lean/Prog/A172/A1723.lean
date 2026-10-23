@@ -2666,6 +2666,28 @@ end A172319
 The programs for A172320, there is no canonical definition to state claims against.
 -/
 
+/-! ## A172320.P13613942172102395454
+
+`∩[A234592(n), A335042(n+1)]`
+-/
+
+namespace A172320.P13613942172102395454
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234592 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335042 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A172320.P13613942172102395454
+
 /-! ## A172320.P13469690884707635191
 
 `A234592(n)+A000007(A002385(n+1))`
@@ -2725,21 +2747,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A172320.P17759132936869023629
-
-/-! ## A172320.P2181623811014679955
-
-`A234592(n)*A317941(A059801(n+1))`
--/
-
-namespace A172320.P2181623811014679955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234592 n * A317941 (A059801 (n + 1)).toNat
-
-end
-
-end A172320.P2181623811014679955
 
 /-!
 # A172322: Number of graphs with nonzero edge sets on an n X n square grid for n=(1,2,3,...).

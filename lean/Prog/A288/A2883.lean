@@ -8292,6 +8292,32 @@ def P1658489945464801716.Spec : Prop :=
 
 end A288382
 
+/-! ## A288382.P3990129695645225090
+
+`A076736(Δ[n²])+n`
+-/
+
+namespace A288382.P3990129695645225090
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076736 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat + (n : ℤ)
+
+end
+
+end A288382.P3990129695645225090
+
+namespace A288382
+
+/-- `A076736(Δ[n²])+n` -/
+def P3990129695645225090.Spec : Prop :=
+  ∀ n, P3990129695645225090.a n = A288382 (n + 1)
+
+end A288382
+
 /-!
 # A288383: Positions of 1 in A288381; complement of A288382.
 

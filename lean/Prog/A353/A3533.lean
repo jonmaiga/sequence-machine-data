@@ -35,7 +35,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -50,6 +49,7 @@ import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -64,6 +64,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -14386,6 +14387,46 @@ end
 
 end A353383.P9564872480536672471
 
+/-! ## A353383.P9309179587088363369
+
+`filter[A354928(n+1), A065333(#)]`
+-/
+
+namespace A353383.P9309179587088363369
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354928 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A065333 (f1 j).toNat = 1) n)
+
+end
+
+end A353383.P9309179587088363369
+
+/-! ## A353383.P12524726563855967658
+
+`∩[A003586(n+1), A325364(n+1)]`
+-/
+
+namespace A353383.P12524726563855967658
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003586 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325364 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A353383.P12524726563855967658
+
 /-!
 # A353384: Irregular triangle T(n,k) with row n listing A003592(j) not divisible by 20 such that A352218(A003592(j)) = n.
 
@@ -14514,6 +14555,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A353386.P6017546295082869735
+
+/-! ## A353386.P10747964075629686404
+
+`A069011(A077168(n))`
+-/
+
+namespace A353386.P10747964075629686404
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069011 (A077168 n).toNat
+
+end
+
+end A353386.P10747964075629686404
+
+/-! ## A353386.P12364244657509413110
+
+`A090106(A069011(n+1))`
+-/
+
+namespace A353386.P12364244657509413110
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090106 (A069011 (n + 1)).toNat
+
+end
+
+end A353386.P12364244657509413110
 
 /-!
 # A353387: a(n) is the least squared distance between 2 points of an n X n grid not occurring between two points of an (n-1) X (n-1) grid.
@@ -14789,6 +14860,28 @@ end A353391.P14718156665862833470
 The programs for A353393, there is no canonical definition to state claims against.
 -/
 
+/-! ## A353393.P7175528496131696458
+
+`∪[A000040(n+1), A353389(n+1)]`
+-/
+
+namespace A353393.P7175528496131696458
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353389 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A353393.P7175528496131696458
+
 /-! ## A353393.P7005163178379610797
 
 `eq[A020915(A359899(n)), A032741(n)]`
@@ -14873,27 +14966,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A353393.P17531806825642166302
-
-/-! ## A353393.P1682152111358991315
-
-`eq[A237053(n), A355549(n)]`
--/
-
-namespace A353393.P1682152111358991315
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A237053 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355549 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A353393.P1682152111358991315
 
 /-!
 # A353394: Product of prime shadows of prime indices of n (with multiplicity).

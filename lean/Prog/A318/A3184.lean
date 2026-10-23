@@ -736,23 +736,27 @@ end
 
 end A318401.P5593598172369667251
 
-/-! ## A318401.P792688635306989835
+/-! ## A318401.P8321511941730939890
 
-`record[A336643(A319837(n+1)²)]`
+`∩[A005117(n+1), A319837(n+1)]`
 -/
 
-namespace A318401.P792688635306989835
+namespace A318401.P8321511941730939890
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336643 (A319837 (n + 1) ^ 2).toNat
+  A005117 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319837 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A318401.P792688635306989835
+end A318401.P8321511941730939890
 
 /-!
 # A318402: Number of sets of nonempty sets whose multiset union is a strongly normal multiset of size n.
@@ -7784,6 +7788,29 @@ def P1533140768343201519.Spec : Prop :=
 
 end A318455
 
+/-! ## A318455.P11880423481981654530
+
+`A318315(A327512(n+1))`
+-/
+
+namespace A318455.P11880423481981654530
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318315 (A327512 (n + 1)).toNat
+
+end
+
+end A318455.P11880423481981654530
+
+namespace A318455
+
+/-- `A318315(A327512(n+1))` -/
+def P11880423481981654530.Spec : Prop :=
+  ∀ n, P11880423481981654530.a n = A318455 (n + 1)
+
+end A318455
+
 /-! ## A318455.P13912270666876692560
 
 `A005187(A085058(n)-2)`
@@ -7974,29 +8001,6 @@ namespace A318455
 /-- `A011371(2*A007814(n+1))` -/
 def P3380120174152603354.Spec : Prop :=
   ∀ n, P3380120174152603354.a n = A318455 (n + 1)
-
-end A318455
-
-/-! ## A318455.P6001143835813399927
-
-`A005187(A089080(n+2)-2)`
--/
-
-namespace A318455.P6001143835813399927
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005187 (A089080 (n + 2) - 2).toNat
-
-end
-
-end A318455.P6001143835813399927
-
-namespace A318455
-
-/-- `A005187(A089080(n+2)-2)` -/
-def P6001143835813399927.Spec : Prop :=
-  ∀ n, P6001143835813399927.a n = A318455 (n + 1)
 
 end A318455
 

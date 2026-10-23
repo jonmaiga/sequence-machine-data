@@ -5,12 +5,13 @@ import Seq.B000.C006
 import Seq.B000.C015
 import Seq.B000.C019
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B003.C000
 import Seq.B004.C001
+import Seq.B006.C000
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -595,7 +596,7 @@ end A010681
 /-!
 # A010683: Let S(x,y) = number of lattice paths from (0,0) to (x,y) that use the step set { (0,1), (1,0), (2,0), (3,0), ...} and never pass below y = x. Sequence gives S(n-1,n) = number of 'Schröder' trees with n+1 leaves and root of degree 2.
 
-The programs for A010683, the canonical program `A010683.P1762741132413524874` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010683 has offset 0).
+The programs for A010683, the canonical program `A010683.P1762741132413524874` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010683 has offset 0).
 
 The definition of A010683 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -604,7 +605,7 @@ The definition of A010683 is `conditional`: the Lean definition is an OEIS formu
 
 `(A001003(n)+A001003(n+1))/2`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A010683

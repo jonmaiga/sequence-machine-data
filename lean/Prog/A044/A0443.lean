@@ -6540,6 +6540,28 @@ end
 
 end A044342.P17413394902943881112
 
+/-! ## A044342.P1493248121934401978
+
+`∩[A043216(n+1), A313902(n)]`
+-/
+
+namespace A044342.P1493248121934401978
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043216 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A313902 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044342.P1493248121934401978
+
 /-!
 # A044343: Numbers n such that string 1,1 occurs in the base 10 representation of n but not of n-1.
 

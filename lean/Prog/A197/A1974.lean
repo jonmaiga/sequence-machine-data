@@ -38,7 +38,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -5234,6 +5233,29 @@ The programs for A197469, the canonical program `A197469.P18315685224723732334` 
 The definition of A197469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A197469.P5337622857872535392
+
+`ogf((1+x+4x^2+2x^3+4x^4+2x^5)/(1-x-4x^3))`
+-/
+
+namespace A197469.P5337622857872535392
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 4, 2, 4, 2] [1, -1, 0, -4] n
+
+end
+
+end A197469.P5337622857872535392
+
+namespace A197469
+
+/-- `ogf((1+x+4x^2+2x^3+4x^4+2x^5)/(1-x-4x^3))` -/
+def P5337622857872535392.Spec : Prop :=
+  ∀ n, P5337622857872535392.a n = A197469 (n + 1)
+
+end A197469
+
 /-! ## A197469.P18315685224723732334
 
 `a(n-1)+4*a(n-3)` with `a(0)=1, a(1)=2, a(2)=6, a(3)=12, a(4)=24, a(5)=50`
@@ -5328,32 +5350,6 @@ namespace A197469
 /-- `record[gcd(A048994(n), A197475(n+2))]` -/
 def P14845964536777669770.Spec : Prop :=
   ∀ n, (P14845964536777669770.a n : ℤ) = A197469 (n + 1)
-
-end A197469
-
-/-! ## A197469.P58220273700655743
-
-`record[A197475(gcd(n+2, A141169(n)))]`
--/
-
-namespace A197469.P58220273700655743
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197475 (Int.gcd (n + 2 : ℤ) (A141169 n))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A197469.P58220273700655743
-
-namespace A197469
-
-/-- `record[A197475(gcd(n+2, A141169(n)))]` -/
-def P58220273700655743.Spec : Prop :=
-  ∀ n, P58220273700655743.a n = A197469 (n + 1)
 
 end A197469
 

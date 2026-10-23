@@ -1551,6 +1551,28 @@ end
 
 end A102903.P10217019119244811824
 
+/-! ## A102903.P7363522714728765388
+
+`∩[A004051(n+1), A168609(n)]`
+-/
+
+namespace A102903.P7363522714728765388
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004051 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168609 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A102903.P7363522714728765388
+
 /-! ## A102903.P10930244402371969819
 
 `3^eq[3, A243095(A028310(n))]+4`
@@ -1592,27 +1614,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A102903.P11413670744547146891
-
-/-! ## A102903.P12843410733001482850
-
-`3^eq[3, A243095(A065033(2*n))]+4`
--/
-
-namespace A102903.P12843410733001482850
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243095 (A065033 (2 * n)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 4
-
-end
-
-end A102903.P12843410733001482850
 
 /-!
 # A102904: Primes of the form 3^k + 20.

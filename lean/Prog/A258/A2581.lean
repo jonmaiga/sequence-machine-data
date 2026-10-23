@@ -54,6 +54,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1754,6 +1755,28 @@ end
 
 end A258117.P17685198730325403840
 
+/-! ## A258117.P3649781697782275081
+
+`∩[A005117(n+1), A066207(n+1)]`
+-/
+
+namespace A258117.P3649781697782275081
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066207 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A258117.P3649781697782275081
+
 /-! ## A258117.P1309627595290927133
 
 `filter[A352140(n+1), A008966(#)]`
@@ -1879,6 +1902,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258117.P11061626912031391073
+
+/-! ## A258117.P13955129514993302259
+
+`∩[A005117(n+1), A352140(n+1)]`
+-/
+
+namespace A258117.P13955129514993302259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352140 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A258117.P13955129514993302259
 
 /-! ## A258117.P8451599575236192106
 
@@ -2060,42 +2105,6 @@ end
 
 end A258117.P9092803568891094456
 
-/-! ## A258117.P14042549805161333205
-
-`filter[A352140(n+1), A353559(#)]`
--/
-
-namespace A258117.P14042549805161333205
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A352140 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353559 (f1 j).toNat = 1) n)
-
-end
-
-end A258117.P14042549805161333205
-
-/-! ## A258117.P6091958229510389211
-
-`filter[A352140(n+1), A353627(#)]`
--/
-
-namespace A258117.P6091958229510389211
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A352140 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353627 (f1 j).toNat = 1) n)
-
-end
-
-end A258117.P6091958229510389211
-
 /-!
 # A258118: Triangle T(n,k) in which the n-th row lists in increasing order the Heinz numbers of all complete partitions of n.
 
@@ -2194,6 +2203,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258119.P17973140084376062374
+
+/-! ## A258119.P3369311913688463923
+
+`∩[A075449(n+1), A325764(n+1)]`
+-/
+
+namespace A258119.P3369311913688463923
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075449 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325764 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A258119.P3369311913688463923
+
+/-! ## A258119.P865165118808775084
+
+`∩[A073935(n+1), A328594(n+1)]`
+-/
+
+namespace A258119.P865165118808775084
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073935 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328594 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A258119.P865165118808775084
 
 /-!
 # A258120: Number of Fibonacci numbers in the partition having Heinz number n.
@@ -4001,24 +4054,20 @@ end
 
 end A258141.P937919159460120218
 
-/-! ## A258141.P3301429033778588967
+/-! ## A258141.P5416588961830821590
 
-`and(char[A360458(3*(n+1))], A360490(n+3))`
+`A373840(A257440(n+1))`
 -/
 
-namespace A258141.P3301429033778588967
+namespace A258141.P5416588961830821590
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A360458 (3 * (n + 1))
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A360490 (n + 3))
+  A373840 (A257440 (n + 1)).toNat
 
 end
 
-end A258141.P3301429033778588967
+end A258141.P5416588961830821590
 
 /-!
 # A258143: Row sums of A257241, Stifel's version of the arithmetical triangle.

@@ -49,7 +49,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -7745,18 +7745,18 @@ end A196096
 The programs for A196097, there is no canonical definition to state claims against.
 -/
 
-/-! ## A196097.P13418514566850949992
+/-! ## A196097.P7911533788402629853
 
-`ogf((1+4x+x^2+5x^6)/(1-4x+x^2))`
+`ogf((1+4x+x^2+x^6)/(1-4x+x^2))`
 -/
 
-namespace A196097.P13418514566850949992
+namespace A196097.P7911533788402629853
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 4, 1, 0, 0, 0, 5] [1, -4, 1] n
+  SequenceMachineLib.ogf [1, 4, 1, 0, 0, 0, 1] [1, -4, 1] n
 
 end
 
-end A196097.P13418514566850949992
+end A196097.P7911533788402629853
 

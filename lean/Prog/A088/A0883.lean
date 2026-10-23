@@ -4731,6 +4731,28 @@ end
 
 end A088345.P10855387267860557943
 
+/-! ## A088345.P6270491946443932026
+
+`∩[A002808(n+1), A145739(n+1)]`
+-/
+
+namespace A088345.P6270491946443932026
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002808 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A145739 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A088345.P6270491946443932026
+
 /-! ## A088345.P12701619729762028358
 
 `∩[A145739(n+1), A379271(n+1)]`
@@ -8053,6 +8075,21 @@ end
 
 end A088378.P15702540891429465369
 
+/-! ## A088378.P9631872050317193870
+
+`A384816(A105574(n+1))`
+-/
+
+namespace A088378.P9631872050317193870
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384816 (A105574 (n + 1)).toNat
+
+end
+
+end A088378.P9631872050317193870
+
 /-!
 # A088379: a(n) = (smallest prime factor of n)^4; a(1) = 1.
 
@@ -8343,6 +8380,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088379.P12848341337061218076
+
+/-! ## A088379.P6054802189212916046
+
+`A020639(n+1)*A088378(n+1)`
+-/
+
+namespace A088379.P6054802189212916046
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (n + 1) * A088378 (n + 1)
+
+end
+
+end A088379.P6054802189212916046
 
 /-!
 # A088380: Numbers not exceeding the cube of their smallest prime factor.

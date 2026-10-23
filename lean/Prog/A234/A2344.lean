@@ -46,7 +46,6 @@ import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -57,12 +56,12 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
 
@@ -1677,25 +1676,25 @@ end A234427.P5938618411343669572
 /-!
 # A234429: Numbers which are the digital sum of the square of some prime.
 
-The programs for A234429, the canonical program `A234429.P5893494175275329021` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234429 has offset 1).
+The programs for A234429, the canonical program `A234429.P1618448529803820431` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234429 has offset 1).
 
 The definition of A234429 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A234429.P5893494175275329021
+/-! ## A234429.P1618448529803820431
 
-`2*a(n-1)-a(n-2)` with `a(0)=4, a(1)=7, a(2)=9, a(3)=10, a(4)=13`
+`a(n-1)+3` with `a(0)=4, a(1)=7, a(2)=9, a(3)=10`
 
 The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A234429
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P5893494175275329021.Spec : Prop :=
-  ∀ n, P5893494175275329021.a n = A234429 (n + 1)
+/-- `a(n-1)+3` -/
+def P1618448529803820431.Spec : Prop :=
+  ∀ n, (P1618448529803820431.a n : ℤ) = A234429 (n + 1)
 
-theorem P5893494175275329021.correct : P5893494175275329021.Spec := by
+theorem P1618448529803820431.correct : P1618448529803820431.Spec := by
   intro n
   simp only [A234429, Nat.add_sub_cancel]
 

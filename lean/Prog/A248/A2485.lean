@@ -60,7 +60,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -2252,6 +2252,33 @@ def P779319537800669012.Spec : Prop :=
 theorem P779319537800669012.correct : P779319537800669012.Spec := by
   intro n
   simp only [A248522, Nat.add_sub_cancel]
+
+end A248522
+
+/-! ## A248522.P1604186962676839373
+
+`comp[A247964(n)]`
+-/
+
+namespace A248522.P1604186962676839373
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247964 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A248522.P1604186962676839373
+
+namespace A248522
+
+/-- `comp[A247964(n)]` -/
+def P1604186962676839373.Spec : Prop :=
+  ∀ n, (P1604186962676839373.a n : ℤ) = A248522 (n + 1)
 
 end A248522
 

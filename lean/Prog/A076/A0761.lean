@@ -2710,6 +2710,32 @@ def P2769088632906893087.Spec : Prop :=
 
 end A076113
 
+/-! ## A076113.P9583570878185156911
+
+`A391482(∑[n]+n)`
+-/
+
+namespace A076113.P9583570878185156911
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391482 (∑ j ∈ Finset.range (n + 1), f1 j + n)
+
+end
+
+end A076113.P9583570878185156911
+
+namespace A076113
+
+/-- `A391482(∑[n]+n)` -/
+def P9583570878185156911.Spec : Prop :=
+  ∀ n, P9583570878185156911.a n = A076113 n
+
+end A076113
+
 /-!
 # A076115: Squares (or 0) from A076114.
 
@@ -5580,6 +5606,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A076145.P1226908002391033232
+
+/-! ## A076145.P4954524337684254280
+
+`A394247(A072474(n+1))`
+-/
+
+namespace A076145.P4954524337684254280
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394247 (A072474 (n + 1)).toNat
+
+end
+
+end A076145.P4954524337684254280
 
 /-!
 # A076146: a(1) = 1; a(n) = a(n-1)*prime(a(n-1)).

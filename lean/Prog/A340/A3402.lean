@@ -3461,6 +3461,29 @@ def P3633376023246295268.Spec : Prop :=
 
 end A340257
 
+/-! ## A340257.P14434587852484444121
+
+`A104270(n+1)+A001788(n)`
+-/
+
+namespace A340257.P14434587852484444121
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104270 (n + 1) + A001788 n
+
+end
+
+end A340257.P14434587852484444121
+
+namespace A340257
+
+/-- `A104270(n+1)+A001788(n)` -/
+def P14434587852484444121.Spec : Prop :=
+  ∀ n, P14434587852484444121.a n = A340257 n
+
+end A340257
+
 /-!
 # A340259: a(n) = A340312(n, 2^(n-1)). a(n) is the central term of row n of A340312.
 
@@ -4345,6 +4368,32 @@ def P16533504932657894034.Spec : Prop :=
 
 end A340266
 
+/-! ## A340266.P12255659079609391443
+
+`∑[ogf((4-4x+x^3)/(1-2x+x^2))]`
+-/
+
+namespace A340266.P12255659079609391443
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [4, -4, 0, 1] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A340266.P12255659079609391443
+
+namespace A340266
+
+/-- `∑[ogf((4-4x+x^3)/(1-2x+x^2))]` -/
+def P12255659079609391443.Spec : Prop :=
+  ∀ n, P12255659079609391443.a n = A340266 (n + 1)
+
+end A340266
+
 /-! ## A340266.P3145117914083968392
 
 `ogf((4-4x+x^3)/(1-3x+3x^2-x^3))`
@@ -4602,29 +4651,6 @@ namespace A340266
 /-- `∑[floor(and(2, n+2)/(n+1)+n+2)]` -/
 def P17734158614405190955.Spec : Prop :=
   ∀ n, P17734158614405190955.a n = A340266 (n + 1)
-
-end A340266
-
-/-! ## A340266.P9674200204000221630
-
-`round(C(n+3, 2)+(2*n+1)/(n+1))`
--/
-
-namespace A340266.P9674200204000221630
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((Nat.choose (n + 3) 2 : ℚ) + (2 * n + 1 : ℚ) / (n + 1 : ℚ))
-
-end
-
-end A340266.P9674200204000221630
-
-namespace A340266
-
-/-- `round(C(n+3, 2)+(2*n+1)/(n+1))` -/
-def P9674200204000221630.Spec : Prop :=
-  ∀ n, P9674200204000221630.a n = A340266 (n + 1)
 
 end A340266
 

@@ -30,6 +30,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
@@ -45,6 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -2660,6 +2662,29 @@ namespace A294627
 /-- `Δ[Δ[A136169(n)]]` -/
 def P8145928254867204307.Spec : Prop :=
   ∀ n, P8145928254867204307.a n = A294627 n
+
+end A294627
+
+/-! ## A294627.P18115469009827728949
+
+`A267210(n)-A033120(n+1)`
+-/
+
+namespace A294627.P18115469009827728949
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267210 n - A033120 (n + 1)
+
+end
+
+end A294627.P18115469009827728949
+
+namespace A294627
+
+/-- `A267210(n)-A033120(n+1)` -/
+def P18115469009827728949.Spec : Prop :=
+  ∀ n, P18115469009827728949.a n = A294627 n
 
 end A294627
 
@@ -5612,6 +5637,28 @@ end
 
 end A294664.P14781222859854449186
 
+/-! ## A294664.P9119974569628669489
+
+`∩[A048792(n), A072426(n+1)]`
+-/
+
+namespace A294664.P9119974569628669489
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048792 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072426 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A294664.P9119974569628669489
+
 /-!
 # A294665: Numbers m such that the largest digit of m^3 is 5.
 
@@ -6548,6 +6595,28 @@ end
 
 end A294676.P3641932130164892134
 
+/-! ## A294676.P5660631687140264620
+
+`∩[A302485(n+1), A363758(n)]`
+-/
+
+namespace A294676.P5660631687140264620
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302485 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363758 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A294676.P5660631687140264620
+
 /-!
 # A294679: Numbers k such that 9*10^k + 67 is prime.
 
@@ -6634,6 +6703,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A294679.P13589922335961282165
+
+/-! ## A294679.P17117111447297122514
+
+`A131996(A133425(n+1))`
+-/
+
+namespace A294679.P17117111447297122514
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131996 (A133425 (n + 1)).toNat
+
+end
+
+end A294679.P17117111447297122514
 
 /-!
 # A294682: Numbers n such that A294386(n) = 2^(k-1)*(2^k - 2*n - 1) for some k such that 2^k - 2*n - 1 is prime.

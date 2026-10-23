@@ -3184,12 +3184,12 @@ The programs for A220633, the canonical program `A220633.P13988309454214601340` 
 The definition of A220633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 183 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A220633.P9573076152345029436
+/-! ## A220633.P7570412247199281289
 
-`ogf((-1+3x-3x^3-x^4)/(-1+4x-x^2-2x^3))`
+`ogf((1-3x+3x^3+x^4)/(1-4x+x^2+2x^3))`
 -/
 
-namespace A220633.P9573076152345029436
+namespace A220633.P7570412247199281289
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3197,13 +3197,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A220633.P9573076152345029436
+end A220633.P7570412247199281289
 
 namespace A220633
 
-/-- `ogf((-1+3x-3x^3-x^4)/(-1+4x-x^2-2x^3))` -/
-def P9573076152345029436.Spec : Prop :=
-  ∀ n, P9573076152345029436.a n = A220633 (n + 1)
+/-- `ogf((1-3x+3x^3+x^4)/(1-4x+x^2+2x^3))` -/
+def P7570412247199281289.Spec : Prop :=
+  ∀ n, P7570412247199281289.a n = A220633 (n + 1)
 
 end A220633
 

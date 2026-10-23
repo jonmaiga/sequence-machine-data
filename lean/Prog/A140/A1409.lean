@@ -24,6 +24,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C031
@@ -51,7 +52,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -6904,6 +6905,29 @@ def P10297722128674842531.Spec : Prop :=
 
 end A140960
 
+/-! ## A140960.P12664480952036803198
+
+`A175656(n+1)-A003945(n+1)`
+-/
+
+namespace A140960.P12664480952036803198
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175656 (n + 1) - A003945 (n + 1)
+
+end
+
+end A140960.P12664480952036803198
+
+namespace A140960
+
+/-- `A175656(n+1)-A003945(n+1)` -/
+def P12664480952036803198.Spec : Prop :=
+  ∀ n, P12664480952036803198.a n = A140960 n
+
+end A140960
+
 /-!
 # A140961: Number of 3 X n {0,1}-matrices such that: (a) first and second row have a common 1, (b) second and third row have a common 1.
 
@@ -9818,6 +9842,29 @@ namespace A140979
 /-- `A066096(A003623(n+1)-(n+1))` -/
 def P4839274247356127775.Spec : Prop :=
   ∀ n, P4839274247356127775.a n = A140979 (n + 1)
+
+end A140979
+
+/-! ## A140979.P7652272596993066228
+
+`A184746(A356217(n+1))`
+-/
+
+namespace A140979.P7652272596993066228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A184746 (A356217 (n + 1)).toNat
+
+end
+
+end A140979.P7652272596993066228
+
+namespace A140979
+
+/-- `A184746(A356217(n+1))` -/
+def P7652272596993066228.Spec : Prop :=
+  ∀ n, P7652272596993066228.a n = A140979 (n + 1)
 
 end A140979
 

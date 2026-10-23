@@ -2993,26 +2993,26 @@ def P14228079797252195672.Spec : Prop :=
 
 end A365762
 
-/-! ## A365762.P14690336340787607238
+/-! ## A365762.P1145841225101352503
 
-`gcd(A061019(n+1), A376257(n+1))`
+`gcd(A000027(n+1), A376257(n+1))`
 -/
 
-namespace A365762.P14690336340787607238
+namespace A365762.P1145841225101352503
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A061019 (n + 1)) (A376257 (n + 1))
+  Int.gcd (A000027 (n + 1)) (A376257 (n + 1))
 
 end
 
-end A365762.P14690336340787607238
+end A365762.P1145841225101352503
 
 namespace A365762
 
-/-- `gcd(A061019(n+1), A376257(n+1))` -/
-def P14690336340787607238.Spec : Prop :=
-  ∀ n, (P14690336340787607238.a n : ℤ) = A365762 (n + 1)
+/-- `gcd(A000027(n+1), A376257(n+1))` -/
+def P1145841225101352503.Spec : Prop :=
+  ∀ n, (P1145841225101352503.a n : ℤ) = A365762 (n + 1)
 
 end A365762
 
@@ -4088,6 +4088,29 @@ namespace A365783
 /-- `A007947(A376720(n+1))` -/
 def P2611297596026396591.Spec : Prop :=
   ∀ n, P2611297596026396591.a n = A365783 (n + 1)
+
+end A365783
+
+/-! ## A365783.P5810878252617341599
+
+`A007947(A380857(n+1))`
+-/
+
+namespace A365783.P5810878252617341599
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007947 (A380857 (n + 1)).toNat
+
+end
+
+end A365783.P5810878252617341599
+
+namespace A365783
+
+/-- `A007947(A380857(n+1))` -/
+def P5810878252617341599.Spec : Prop :=
+  ∀ n, P5810878252617341599.a n = A365783 (n + 1)
 
 end A365783
 
@@ -5309,6 +5332,50 @@ end
 
 end A365795.P11580341798949055695
 
+/-! ## A365795.P8980808532610187241
+
+`∩[A071139(n+1), A280011(n+1)]`
+-/
+
+namespace A365795.P8980808532610187241
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071139 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280011 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365795.P8980808532610187241
+
+/-! ## A365795.P7122362300124927246
+
+`∩[A086486(n+1), A280011(n+1)]`
+-/
+
+namespace A365795.P7122362300124927246
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086486 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280011 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365795.P7122362300124927246
+
 /-! ## A365795.P11523007316214682581
 
 `∩[A221054(n+1), A280011(n+1)]`
@@ -5330,6 +5397,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A365795.P11523007316214682581
+
+/-! ## A365795.P17592780225613661696
+
+`∩[A242413(n+1), A280011(n+1)]`
+-/
+
+namespace A365795.P17592780225613661696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242413 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280011 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365795.P17592780225613661696
 
 /-!
 # A365796: Number of connected asteroidal triple-free graphs on n vertices.

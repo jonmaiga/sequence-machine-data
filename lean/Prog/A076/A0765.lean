@@ -15111,6 +15111,52 @@ def P11056373187231604120.Spec : Prop :=
 
 end A076570
 
+/-! ## A076570.P10054662713507595725
+
+`A006530(A066911(A000040(n+2)))`
+-/
+
+namespace A076570.P10054662713507595725
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A066911 (A000040 (n + 2)).toNat).toNat
+
+end
+
+end A076570.P10054662713507595725
+
+namespace A076570
+
+/-- `A006530(A066911(A000040(n+2)))` -/
+def P10054662713507595725.Spec : Prop :=
+  ∀ n, P10054662713507595725.a n = A076570 (n + 1)
+
+end A076570
+
+/-! ## A076570.P1447817655346548759
+
+`A006530(A362419(n+1))`
+-/
+
+namespace A076570.P1447817655346548759
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A362419 (n + 1)).toNat
+
+end
+
+end A076570.P1447817655346548759
+
+namespace A076570
+
+/-- `A006530(A362419(n+1))` -/
+def P1447817655346548759.Spec : Prop :=
+  ∀ n, P1447817655346548759.a n = A076570 (n + 1)
+
+end A076570
+
 /-!
 # A076571: Binomial triangle based on factorials.
 

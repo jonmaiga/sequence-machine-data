@@ -7079,6 +7079,32 @@ theorem P15075604067325130117.correct : P15075604067325130117.Spec := by
 
 end A256994
 
+/-! ## A256994.P14345106326062225126
+
+`∑[ogf((-2+3x+x^2-x^3+2x^4)/(-1+2x))]`
+-/
+
+namespace A256994.P14345106326062225126
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [2, -3, -1, 1, -2] [1, -2] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A256994.P14345106326062225126
+
+namespace A256994
+
+/-- `∑[ogf((-2+3x+x^2-x^3+2x^4)/(-1+2x))]` -/
+def P14345106326062225126.Spec : Prop :=
+  ∀ n, P14345106326062225126.a n = A256994 (n + 1)
+
+end A256994
+
 /-! ## A256994.P7214770313154765413
 
 `ogf((2-3x-x^2+x^3-2x^4)/(1-3x+2x^2))`

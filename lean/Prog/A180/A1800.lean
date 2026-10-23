@@ -8696,6 +8696,94 @@ end
 
 end A180074.P6167672869693585096
 
+/-! ## A180074.P14383844341401882788
+
+`∩[A071941(n+1), A162730(n+1)]`
+-/
+
+namespace A180074.P14383844341401882788
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071941 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162730 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180074.P14383844341401882788
+
+/-! ## A180074.P1310480047348672714
+
+`∩[A129492(n+1), A162730(n+1)]`
+-/
+
+namespace A180074.P1310480047348672714
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129492 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162730 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180074.P1310480047348672714
+
+/-! ## A180074.P16148346262152302278
+
+`∩[A162730(n+1), A192506(n+1)]`
+-/
+
+namespace A180074.P16148346262152302278
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162730 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192506 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180074.P16148346262152302278
+
+/-! ## A180074.P8503580123268252183
+
+`∩[A162730(n+1), A192607(n+1)]`
+-/
+
+namespace A180074.P8503580123268252183
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162730 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192607 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A180074.P8503580123268252183
+
 /-!
 # A180075: If A015910(m) is a power of 2, append log_2(A015910(m)) to the sequence.
 
@@ -9377,6 +9465,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A180084.P17257534098107852729
+
+/-! ## A180084.P5659352869057528978
+
+`A287928(A362038(A287928(A362038(A362038(n+1)))))`
+-/
+
+namespace A180084.P5659352869057528978
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A287928 (A362038 (A287928 (A362038 (A362038 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A180084.P5659352869057528978
 
 /-!
 # A180086: Sum of n and floor of each previous term divided by its distance from n.

@@ -2405,19 +2405,19 @@ def P11933183502572035476.Spec : Prop :=
 
 end A085816
 
-/-! ## A085816.P12449473500570871622
+/-! ## A085816.P13254316390626589527
 
-`∩[A103607(n+1), A242868(n+2)]`
+`∩[A103607(n+1), A242868(n+1)]`
 -/
 
-namespace A085816.P12449473500570871622
+namespace A085816.P13254316390626589527
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A103607 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A242868 (n + 2)
+  A242868 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2425,13 +2425,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A085816.P12449473500570871622
+end A085816.P13254316390626589527
 
 namespace A085816
 
-/-- `∩[A103607(n+1), A242868(n+2)]` -/
-def P12449473500570871622.Spec : Prop :=
-  ∀ n, (P12449473500570871622.a n : ℤ) = A085816 (n + 1)
+/-- `∩[A103607(n+1), A242868(n+1)]` -/
+def P13254316390626589527.Spec : Prop :=
+  ∀ n, (P13254316390626589527.a n : ℤ) = A085816 (n + 1)
 
 end A085816
 
@@ -2803,6 +2803,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A085820.P9125837127685886987
+
+/-! ## A085820.P1003796160923136689
+
+`A130821(A036707(n))`
+-/
+
+namespace A085820.P1003796160923136689
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130821 (A036707 n).toNat
+
+end
+
+end A085820.P1003796160923136689
 
 /-!
 # A085821: Smallest prime > A085820(n) ending with A085820(n).

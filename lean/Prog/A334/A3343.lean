@@ -50,16 +50,15 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -1663,27 +1662,27 @@ end
 
 end A334321.P16776627607770059608
 
-/-! ## A334321.P15213179934883116988
+/-! ## A334321.P1500884549847746990
 
-`p?[comp[A262038(n)]]`
+`∩[A006005(n+1), A029742(n+1)]`
 -/
 
-namespace A334321.P15213179934883116988
+namespace A334321.P1500884549847746990
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006005 (n + 1)
+
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262038 n
+  A029742 (n + 1)
 
 open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A334321.P15213179934883116988
+end A334321.P1500884549847746990
 
 /-!
 # A334322: Number of endless self-avoiding walks of length n for the square lattice.
@@ -4138,6 +4137,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334387.P1542789826563505339
+
+/-! ## A334387.P18091846120563199421
+
+`A262037(n)-A093882(n)`
+-/
+
+namespace A334387.P18091846120563199421
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262037 n - A093882 n
+
+end
+
+end A334387.P18091846120563199421
+
+/-! ## A334387.P2604977701698371750
+
+`A262037(n)-A138953(n)`
+-/
+
+namespace A334387.P2604977701698371750
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262037 n - A138953 n
+
+end
+
+end A334387.P2604977701698371750
 
 /-!
 # A334391: Numbers whose only palindromic divisor is 1.

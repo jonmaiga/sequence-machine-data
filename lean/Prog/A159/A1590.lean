@@ -7008,6 +7008,28 @@ end
 
 end A159064.P12983366529001725509
 
+/-! ## A159064.P6662731051930391434
+
+`∩[A048890(n+1), A068893(n+1)]`
+-/
+
+namespace A159064.P6662731051930391434
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048890 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068893 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A159064.P6662731051930391434
+
 /-! ## A159064.P5512617169853688180
 
 `∩[A048890(n+1), A000040(A156793(n+1))]`
@@ -8015,19 +8037,19 @@ end A159070
 The programs for A159071, there is no canonical definition to state claims against.
 -/
 
-/-! ## A159071.P101274812141649176
+/-! ## A159071.P6915490611130428978
 
-`∩[A269414(n+1), A201722(n+1)]`
+`∩[A201722(n+1), A269414(n+1)]`
 -/
 
-namespace A159071.P101274812141649176
+namespace A159071.P6915490611130428978
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269414 (n + 1)
+  A201722 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201722 (n + 1)
+  A269414 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8035,7 +8057,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A159071.P101274812141649176
+end A159071.P6915490611130428978
+
+/-! ## A159071.P11309619031812245172
+
+`∩[A201722(n+1), A332446(n+1)]`
+-/
+
+namespace A159071.P11309619031812245172
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A201722 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332446 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A159071.P11309619031812245172
 
 /-! ## A159071.P5754021475300338179
 
@@ -8080,6 +8124,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A159071.P13005796460180379330
+
+/-! ## A159071.P9280115196814369696
+
+`∩[A168539(n+1), A269414(n+1)]`
+-/
+
+namespace A159071.P9280115196814369696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168539 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269414 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A159071.P9280115196814369696
 
 /-! ## A159071.P18376253320943630270
 
@@ -8179,24 +8245,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A159071.P461194985436363366
-
-/-! ## A159071.P6512582419116318366
-
-`p?[A201722(n+1)]%A017345(n)`
--/
-
-namespace A159071.P6512582419116318366
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201722 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)) (A017345 n)
-
-end
-
-end A159071.P6512582419116318366
 
 /-!
 # A159072: Count of numbers k in the range 1<=k<= n such that set of proper divisors of k is not a subset of the set of the proper divisors of n.

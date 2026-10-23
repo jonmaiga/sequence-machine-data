@@ -68,6 +68,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -3141,6 +3142,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A384659.P7221502210947939966
+
+/-! ## A384659.P10056215113784331271
+
+`∩[A067023(n+1), A322447(n+1)]`
+-/
+
+namespace A384659.P10056215113784331271
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067023 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322447 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A384659.P10056215113784331271
+
+/-! ## A384659.P9510586367659298971
+
+`∩[A309943(n+1), A322447(n+1)]`
+-/
+
+namespace A384659.P9510586367659298971
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A309943 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322447 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A384659.P9510586367659298971
 
 /-!
 # A384660: a(1) = 1. Thereafter a(n) = a(a(n-1)) if a(n-1) is a novel term, or n - S(n) if a(n-1) is a repeat term. S(n) is the sum of distinct terms in multiset {a(1),a(2),..a(n-1)}.

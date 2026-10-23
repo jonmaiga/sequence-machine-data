@@ -7228,6 +7228,28 @@ end A006968.P2103877327421641925
 The programs for A006970, there is no canonical definition to state claims against.
 -/
 
+/-! ## A006970.P2905023183644579282
+
+`∪[A047713(n+1), A306310(n+1)]`
+-/
+
+namespace A006970.P2905023183644579282
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047713 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306310 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A006970.P2905023183644579282
+
 /-! ## A006970.P16107838746677590079
 
 `∩[A001567(n+1), A262055(n+1)]`
@@ -9656,6 +9678,50 @@ end
 
 end A006987.P8849323100255034522
 
+/-! ## A006987.P3131853564038284449
+
+`∪[A024755(n+1), A182237(n+1)]`
+-/
+
+namespace A006987.P3131853564038284449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024755 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182237 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A006987.P3131853564038284449
+
+/-! ## A006987.P13476051382920851111
+
+`∪[A182237(n+1), A212794(n+1)]`
+-/
+
+namespace A006987.P13476051382920851111
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182237 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212794 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A006987.P13476051382920851111
+
 /-! ## A006987.P17362253152915385960
 
 `lt[1, A357327(n+1)]+1`
@@ -10173,6 +10239,28 @@ end
 
 end A006991.P18372093590257160206
 
+/-! ## A006991.P16914955120712085468
+
+`∪[A062695(n+1), A273929(n+1)]`
+-/
+
+namespace A006991.P16914955120712085468
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062695 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A273929 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A006991.P16914955120712085468
+
 /-!
 # A006992: Bertrand primes: a(n) is largest prime < 2*a(n-1) for n > 1, with a(1) = 2.
 
@@ -10385,6 +10473,36 @@ def P15003658570251687479.Spec : Prop :=
 theorem P15003658570251687479.correct : P15003658570251687479.Spec := by
   intro n
   simp only [A006995, Nat.add_sub_cancel]
+
+end A006995
+
+/-! ## A006995.P14608552556514784691
+
+`∪[A007632(n+1), A124334(n+1)]`
+-/
+
+namespace A006995.P14608552556514784691
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007632 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124334 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A006995.P14608552556514784691
+
+namespace A006995
+
+/-- `∪[A007632(n+1), A124334(n+1)]` -/
+def P14608552556514784691.Spec : Prop :=
+  ∀ n, (P14608552556514784691.a n : ℤ) = A006995 (n + 1)
 
 end A006995
 
@@ -10854,36 +10972,6 @@ namespace A006995
 /-- `∩[A057890(n+1), A340718(n)]` -/
 def P12466218315623301796.Spec : Prop :=
   ∀ n, (P12466218315623301796.a n : ℤ) = A006995 (n + 1)
-
-end A006995
-
-/-! ## A006995.P4880964972635640489
-
-`∩[A180204(n+1), A340718(n)]`
--/
-
-namespace A006995.P4880964972635640489
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180204 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340718 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A006995.P4880964972635640489
-
-namespace A006995
-
-/-- `∩[A180204(n+1), A340718(n)]` -/
-def P4880964972635640489.Spec : Prop :=
-  ∀ n, (P4880964972635640489.a n : ℤ) = A006995 (n + 1)
 
 end A006995
 

@@ -43,9 +43,8 @@ import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -60,6 +59,7 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -1927,6 +1927,28 @@ end A278835.P11871407318819114842
 The programs for A278837, there is no canonical definition to state claims against.
 -/
 
+/-! ## A278837.P4804299610861919226
+
+`∪[A260335(n+1), A350165(n+1)]`
+-/
+
+namespace A278837.P4804299610861919226
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260335 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350165 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A278837.P4804299610861919226
+
 /-! ## A278837.P372087925809636297
 
 `p?[A146209(n+1)]`
@@ -2117,28 +2139,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A278837.P13213193506708605944
-
-/-! ## A278837.P3388604771666032947
-
-`∩[A005180(n+1), A146209(n+1)]`
--/
-
-namespace A278837.P3388604771666032947
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005180 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146209 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A278837.P3388604771666032947
 
 /-!
 # A278841: a(n) = permanent M_n where M_n is the n X n matrix m(i,j) = A000009(i+j).

@@ -35,6 +35,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -3600,6 +3601,129 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A372351.P1468343801169247214
+
+/-! ## A372351.P14957657579980333407
+
+`A000265(A371094(2*n+1))`
+-/
+
+namespace A372351.P14957657579980333407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000265 (A371094 (2 * n + 1)).toNat
+
+end
+
+end A372351.P14957657579980333407
+
+/-! ## A372351.P12680294690420326909
+
+`filter[A371094(2*n+1), A324903(#)]`
+-/
+
+namespace A372351.P12680294690420326909
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371094 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A324903 (f1 j).toNat = 1) n)
+
+end
+
+end A372351.P12680294690420326909
+
+/-! ## A372351.P17120548659958702277
+
+`filter[A371094(2*n+1), A351077(#)]`
+-/
+
+namespace A372351.P17120548659958702277
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371094 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A351077 (f1 j).toNat = 1) n)
+
+end
+
+end A372351.P17120548659958702277
+
+/-! ## A372351.P3574492358956563595
+
+`filter[A371094(2*n+1), A359832(#)]`
+-/
+
+namespace A372351.P3574492358956563595
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371094 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A359832 (f1 j).toNat = 1) n)
+
+end
+
+end A372351.P3574492358956563595
+
+/-! ## A372351.P10005637642207452824
+
+`filter[A371094(2*n+1), A360128(#)]`
+-/
+
+namespace A372351.P10005637642207452824
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371094 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A360128 (f1 j).toNat = 1) n)
+
+end
+
+end A372351.P10005637642207452824
+
+/-! ## A372351.P12170755306674511679
+
+`filter[A371094(2*n+1), A361023(#)]`
+-/
+
+namespace A372351.P12170755306674511679
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371094 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A361023 (f1 j).toNat = 1) n)
+
+end
+
+end A372351.P12170755306674511679
+
+/-! ## A372351.P6335336621521180502
+
+`filter[A371094(2*n+1), A368625(#)]`
+-/
+
+namespace A372351.P6335336621521180502
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371094 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A368625 (f1 j).toNat = 1) n)
+
+end
+
+end A372351.P6335336621521180502
 
 /-!
 # A372353: Array read by upward antidiagonals: A(n, k) = A372352(A372282(n, k)), n,k >= 1.

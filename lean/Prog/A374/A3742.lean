@@ -607,6 +607,29 @@ def P17434619591128552337.Spec : Prop :=
 
 end A374206
 
+/-! ## A374206.P5314603788015020005
+
+`A129308(A184841(n+2))`
+-/
+
+namespace A374206.P5314603788015020005
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129308 (A184841 (n + 2)).toNat
+
+end
+
+end A374206.P5314603788015020005
+
+namespace A374206
+
+/-- `A129308(A184841(n+2))` -/
+def P5314603788015020005.Spec : Prop :=
+  ∀ n, P5314603788015020005.a n = A374206 (n + 2)
+
+end A374206
+
 /-!
 # A374207: The 3-adic valuation of A113177(n), where A113177 is fully additive with a(p) = Fibonacci(p).
 
@@ -4223,19 +4246,19 @@ end
 
 end A374254.P3167048078032830797
 
-/-! ## A374254.P363913200070946538
+/-! ## A374254.P6949825587939914176
 
-`∩[A374253(n+1), A353744(n+4)]`
+`∩[A351291(n+1), A353744(n+1)]`
 -/
 
-namespace A374254.P363913200070946538
+namespace A374254.P6949825587939914176
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374253 (n + 1)
+  A351291 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353744 (n + 4)
+  A353744 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4243,7 +4266,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A374254.P363913200070946538
+end A374254.P6949825587939914176
+
+/-! ## A374254.P16773286979973181890
+
+`∩[A353744(n+1), A374253(n+1)]`
+-/
+
+namespace A374254.P16773286979973181890
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353744 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374253 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A374254.P16773286979973181890
 
 /-!
 # A374255: Sum of prime factors of n (with multiplicity) minus the greatest possible sum of run-compression of a permutation of the prime factors of n.

@@ -12,7 +12,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -45,6 +44,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -52,6 +52,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -2326,6 +2327,21 @@ end
 
 end A065212.P5836938015134149993
 
+/-! ## A065212.P12729376223535097404
+
+`A015986(A032551(n+1))`
+-/
+
+namespace A065212.P12729376223535097404
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015986 (A032551 (n + 1)).toNat
+
+end
+
+end A065212.P12729376223535097404
+
 /-!
 # A065213: Numbers which need eight 'Reverse and Add' steps to reach a palindrome.
 
@@ -2518,6 +2534,24 @@ end
 
 end A065215.P11006107203055551698
 
+/-! ## A065215.P1131390597093496187
+
+`filter[A015991(n+1), A145568(#)]`
+-/
+
+namespace A065215.P1131390597093496187
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015991 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A145568 (f1 j).toNat = 1) n)
+
+end
+
+end A065215.P1131390597093496187
+
 /-!
 # A065216: Numbers which need eleven 'Reverse and Add' steps to reach a palindrome.
 
@@ -2560,6 +2594,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A065216.P17104075838380567522
+
+/-! ## A065216.P14751761780531530210
+
+`∩[A090062(n+1), A235225(n+1)]`
+-/
+
+namespace A065216.P14751761780531530210
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090062 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235225 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A065216.P14751761780531530210
 
 /-!
 # A065217: 
@@ -2865,57 +2921,49 @@ end
 
 end A065218.P8897331537483257636
 
-/-! ## A065218.P3895932159833996299
+/-! ## A065218.P17081924409872227222
 
-`gcd(A000122(8*n²), A002182(n+3))`
+`∩[A002182(n+1), A212308(n+1)]`
 -/
 
-namespace A065218.P3895932159833996299
+namespace A065218.P17081924409872227222
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000122 (8 * n ^ 2)) (A002182 (n + 3))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002182 (n + 1)
 
-end
-
-end A065218.P3895932159833996299
-
-/-! ## A065218.P6875422760768994495
-
-`A002182(3%comp[∑[n]]+n)%A256613(n+1)`
--/
-
-namespace A065218.P6875422760768994495
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212308 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A002182 (3 % SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n + n)) (A256613 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A065218.P6875422760768994495
+end A065218.P17081924409872227222
 
-/-! ## A065218.P14846274410551619475
+/-! ## A065218.P13413543140935356396
 
-`A002182(n+3)-A099892(A243896(n))`
+`∩[A002182(n+1), A231959(n+1)]`
 -/
 
-namespace A065218.P14846274410551619475
+namespace A065218.P13413543140935356396
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002182 (n + 3) - A099892 (A243896 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002182 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231959 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A065218.P14846274410551619475
+end A065218.P13413543140935356396
 
 /-!
 # A065219: Number of subsets of proper divisors of numbers in A065218 summing to the number.

@@ -2,8 +2,11 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
+import Seq.B000.C005
 import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C017
+import Seq.B000.C025
 import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B001.C000
@@ -13,6 +16,7 @@ import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C005
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
@@ -381,6 +385,72 @@ end A388713.P6045451373206204649
 The programs for A388715, there is no canonical definition to state claims against.
 -/
 
+/-! ## A388715.P11641312887438774659
+
+`∪[A026565(n), A392696(n+1)]`
+-/
+
+namespace A388715.P11641312887438774659
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026565 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392696 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388715.P11641312887438774659
+
+/-! ## A388715.P8837301047069925032
+
+`∪[A101652(n), A392696(n+1)]`
+-/
+
+namespace A388715.P8837301047069925032
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101652 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392696 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388715.P8837301047069925032
+
+/-! ## A388715.P14017884838122765774
+
+`∪[A175806(n), A392696(n+1)]`
+-/
+
+namespace A388715.P14017884838122765774
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175806 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392696 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388715.P14017884838122765774
+
 /-! ## A388715.P10348543443645567983
 
 `record[A392696(n+1)%A014567(n+4)]`
@@ -413,51 +483,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388715.P13621320186610425623
-
-/-! ## A388715.P2945553259599150440
-
-`A003415(A273756(n))*A166401(n+1)`
--/
-
-namespace A388715.P2945553259599150440
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003415 (A273756 n).toNat * A166401 (n + 1)
-
-end
-
-end A388715.P2945553259599150440
-
-/-! ## A388715.P16273069194362239876
-
-`A392696(n+1)%A391624(A035382(n))`
--/
-
-namespace A388715.P16273069194362239876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A392696 (n + 1)) (A391624 (A035382 n).toNat)
-
-end
-
-end A388715.P16273069194362239876
-
-/-! ## A388715.P1827589477114597598
-
-`A392696(n+1)+A063524(A000043(n+1))`
--/
-
-namespace A388715.P1827589477114597598
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392696 (n + 1) + A063524 (A000043 (n + 1)).toNat
-
-end
-
-end A388715.P1827589477114597598
 
 /-!
 # A388716: Number of integer partitions of n with strictly superdiagonal run-lengths.
@@ -614,6 +639,28 @@ end
 
 end A388719.P8965897079964649251
 
+/-! ## A388719.P2033022800073148040
+
+`∩[A326692(n+1), A334965(n+1)]`
+-/
+
+namespace A388719.P2033022800073148040
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326692 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334965 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388719.P2033022800073148040
+
 /-! ## A388719.P17116609594903096002
 
 `∩[A334965(n+1), A377819(n+1)]`
@@ -635,28 +682,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A388719.P17116609594903096002
-
-/-! ## A388719.P12122307483702283956
-
-`∩[A334965(n+1), A377821(n+1)]`
--/
-
-namespace A388719.P12122307483702283956
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334965 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377821 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A388719.P12122307483702283956
 
 /-!
 # A388721: Number of multisets summing to n (or reversed partitions of n) with strictly superdiagonal run-lengths.

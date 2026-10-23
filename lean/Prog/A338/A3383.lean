@@ -35,7 +35,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -1504,6 +1503,28 @@ end
 
 end A338325.P14435885407466080922
 
+/-! ## A338325.P11926890342250630421
+
+`∩[A046100(n+1), A317102(n+1)]`
+-/
+
+namespace A338325.P11926890342250630421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046100 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317102 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A338325.P11926890342250630421
+
 /-! ## A338325.P17760246169071614878
 
 `∩[A046100(n+1), A350014(n+1)]`
@@ -1679,24 +1700,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A338325.P7465941235592066270
-
-/-! ## A338325.P16238937686359935857
-
-`filter[A350014(n+1), A307430(#)]`
--/
-
-namespace A338325.P16238937686359935857
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350014 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A307430 (f1 j).toNat = 1) n)
-
-end
-
-end A338325.P16238937686359935857
 
 /-!
 # A338326: The number of biquadratefree powerful numbers (A338325) between the consecutive squares n^2 and (n+1)^2.
@@ -6976,7 +6979,7 @@ end A338377.P15733495109322911352
 /-!
 # A338379: Floor of (digital root of n) divided by (number of digits in n).
 
-The programs for A338379, the canonical program `A338379.P3004742096893614011` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338379 has offset 0).
+The programs for A338379, the canonical program `A338379.P3004742096893614011` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338379 has offset 0).
 
 The definition of A338379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6985,7 +6988,7 @@ The definition of A338379 is `conjectured`: the Lean definition is a formula tha
 
 `floor(dr(n)/∑{digits}[n, 10^#]%9)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A338379

@@ -26,7 +26,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -5423,6 +5422,32 @@ namespace A300847
 /-- `Δ[12*A000579(n)]` -/
 def P4313349876414429905.Spec : Prop :=
   ∀ n, P4313349876414429905.a n = A300847 n
+
+end A300847
+
+/-! ## A300847.P13042972880390454148
+
+`A293496(∑[n+1]+5)`
+-/
+
+namespace A300847.P13042972880390454148
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293496 (∑ j ∈ Finset.range (n + 1), f1 j + 5)
+
+end
+
+end A300847.P13042972880390454148
+
+namespace A300847
+
+/-- `A293496(∑[n+1]+5)` -/
+def P13042972880390454148.Spec : Prop :=
+  ∀ n, P13042972880390454148.a n = A300847 n
 
 end A300847
 

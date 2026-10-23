@@ -29,7 +29,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -5027,6 +5026,21 @@ end
 
 end A219461.P15112675217708211083
 
+/-! ## A219461.P8721754076229907097
+
+`A322903(A292113(n+1))`
+-/
+
+namespace A219461.P8721754076229907097
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322903 (A292113 (n + 1)).toNat
+
+end
+
+end A219461.P8721754076229907097
+
 /-!
 # A219462: a(n) = Sum_{k = 1..2*n} binomial(2*n,k) * Fibonacci(2*k).
 
@@ -6843,77 +6857,93 @@ end
 
 end A219478.P8224704173993265115
 
-/-! ## A219478.P2460105086005822045
+/-! ## A219478.P10432990324171905688
 
-`record[A006530(A219505(A006949(n)))]`
+`∩[A000040(n+1), A219505(n+1)]`
 -/
 
-namespace A219478.P2460105086005822045
+namespace A219478.P10432990324171905688
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A219505 (A006949 n).toNat).toNat
+  A000040 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219505 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A219478.P2460105086005822045
+end A219478.P10432990324171905688
 
-/-! ## A219478.P12555877405235836910
+/-! ## A219478.P17559740209969879689
 
-`record[A006530(A219505(A034888(n)))]`
+`∩[A001751(n+1), A219505(n+1)]`
 -/
 
-namespace A219478.P12555877405235836910
+namespace A219478.P17559740209969879689
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A219505 (A034888 n).toNat).toNat
+  A001751 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219505 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A219478.P12555877405235836910
+end A219478.P17559740209969879689
 
-/-! ## A219478.P5312392759782976242
+/-! ## A219478.P11322795491261036031
 
-`record[A006530(A219505(A319702(n+1)))]`
+`∩[A004139(n+1), A219505(n+1)]`
 -/
 
-namespace A219478.P5312392759782976242
+namespace A219478.P11322795491261036031
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A219505 (A319702 (n + 1)).toNat).toNat
+  A004139 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219505 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A219478.P5312392759782976242
+end A219478.P11322795491261036031
 
-/-! ## A219478.P14868521940212096218
+/-! ## A219478.P6199430339468046822
 
-`record[A006530(2*A219505(n+1))]`
+`∩[A006005(n+1), A219505(n+1)]`
 -/
 
-namespace A219478.P14868521940212096218
+namespace A219478.P6199430339468046822
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (2 * A219505 (n + 1)).toNat
+  A006005 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219505 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A219478.P14868521940212096218
+end A219478.P6199430339468046822
 
 /-!
 # A219479: Number of representations of n as a sum of distinct elements of the generalized Fibonacci sequence beginning 1, 6, 7, 13, 20, 33, 53, ....

@@ -45,7 +45,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2037,19 +2036,19 @@ end
 
 end A305322.P2295640523333995953
 
-/-! ## A305322.P9819246528063683573
+/-! ## A305322.P10769032955246559979
 
-`∩[A045638(n+1), A064222(n)]`
+`∩[A010785(n), A045638(n+1)]`
 -/
 
-namespace A305322.P9819246528063683573
+namespace A305322.P10769032955246559979
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045638 (n + 1)
+  A010785 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064222 n
+  A045638 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2057,7 +2056,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A305322.P9819246528063683573
+end A305322.P10769032955246559979
 
 /-!
 # A305323: Expansion of e.g.f. 1/(1 + log(1 + log(1 - x))).
@@ -6004,7 +6003,7 @@ end A305376.P5502074849297069970
 /-!
 # A305377: Tribonacci representation of primes, written in base 10.
 
-The programs for A305377, the canonical program `A305377.P16891160139841273733` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305377 has offset 1).
+The programs for A305377, the canonical program `A305377.P16891160139841273733` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305377 has offset 1).
 
 The definition of A305377 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6013,7 +6012,7 @@ The definition of A305377 is `conjectured`: the Lean definition is a formula tha
 
 `A003726(A008864(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A305377

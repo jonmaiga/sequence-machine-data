@@ -4152,74 +4152,29 @@ end A231959
 /-!
 # A231960: Powers of 3 together with multiples of 6.
 
-The programs for A231960, there is no canonical definition to state claims against.
+The programs for A231960, the canonical program `A231960.P3908795638173034957` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231960 has offset 1).
+
+The definition of A231960 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A231960.P4440930475200864841
+/-! ## A231960.P3908795638173034957
 
-`∪[A025614(n+1), A008458(n)]`
+`∪[6*(n+1), 3^n]`
+
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
-namespace A231960.P4440930475200864841
-noncomputable section
+namespace A231960
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025614 (n + 1)
+/-- `∪[6*(n+1), 3^n]` -/
+def P3908795638173034957.Spec : Prop :=
+  ∀ n, (P3908795638173034957.a n : ℤ) = A231960 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008458 n
+theorem P3908795638173034957.correct : P3908795638173034957.Spec := by
+  intro n
+  simp only [A231960, Nat.add_sub_cancel]
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A231960.P4440930475200864841
-
-/-! ## A231960.P1858374541794315303
-
-`∪[A063996(n+1), A008458(n)]`
--/
-
-namespace A231960.P1858374541794315303
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063996 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008458 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A231960.P1858374541794315303
-
-/-! ## A231960.P1465911609955017872
-
-`∪[A065119(n+1), A008458(n)]`
--/
-
-namespace A231960.P1465911609955017872
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065119 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008458 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A231960.P1465911609955017872
+end A231960
 
 /-! ## A231960.P16182601002694378220
 
@@ -4239,6 +4194,14 @@ end
 
 end A231960.P16182601002694378220
 
+namespace A231960
+
+/-- `A008486(record[A353158(n)])` -/
+def P16182601002694378220.Spec : Prop :=
+  ∀ n, P16182601002694378220.a n = A231960 (n + 1)
+
+end A231960
+
 /-! ## A231960.P453096435282612695
 
 `record[gcd(n+1, A000748(n))]`
@@ -4256,6 +4219,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A231960.P453096435282612695
+
+namespace A231960
+
+/-- `record[gcd(n+1, A000748(n))]` -/
+def P453096435282612695.Spec : Prop :=
+  ∀ n, (P453096435282612695.a n : ℤ) = A231960 (n + 1)
+
+end A231960
 
 /-! ## A231960.P5652174402002838558
 
@@ -4275,6 +4246,14 @@ end
 
 end A231960.P5652174402002838558
 
+namespace A231960
+
+/-- `record[gcd(n+2, A057083(n+1))]` -/
+def P5652174402002838558.Spec : Prop :=
+  ∀ n, (P5652174402002838558.a n : ℤ) = A231960 (n + 1)
+
+end A231960
+
 /-! ## A231960.P8270800462407102457
 
 `record[gcd(3*n, (6*n%2)^n)]`
@@ -4292,6 +4271,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A231960.P8270800462407102457
+
+namespace A231960
+
+/-- `record[gcd(3*n, (6*n%2)^n)]` -/
+def P8270800462407102457.Spec : Prop :=
+  ∀ n, (P8270800462407102457.a n : ℤ) = A231960 (n + 1)
+
+end A231960
 
 /-!
 # A231961: Expansion of b(q)^3 - 3*c(q)^3 in powers of q where b(), c() are cubic AGM theta functions.

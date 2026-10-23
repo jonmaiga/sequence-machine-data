@@ -92,6 +92,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A092702: If P(n) is the product of the first n Mersenne primes, then a(n) is the smallest positive integer such that 2*a(n)*P(n)-1 is prime.
@@ -2268,6 +2269,32 @@ namespace A092754
 /-- `(A346303(n+2)-1)/2` -/
 def P6313166879946537762.Spec : Prop :=
   ∀ n, P6313166879946537762.a n = (A092754 (n + 1) : ℚ)
+
+end A092754
+
+/-! ## A092754.P6520428665148389461
+
+`filter[n+1, A086694(#)]`
+-/
+
+namespace A092754.P6520428665148389461
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A086694 (f1 j) = 1) n)
+
+end
+
+end A092754.P6520428665148389461
+
+namespace A092754
+
+/-- `filter[n+1, A086694(#)]` -/
+def P6520428665148389461.Spec : Prop :=
+  ∀ n, (P6520428665148389461.a n : ℤ) = A092754 (n + 1)
 
 end A092754
 

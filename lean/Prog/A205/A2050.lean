@@ -67,6 +67,7 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -8765,6 +8766,29 @@ namespace A205086
 /-- `A086944(n+1)/3-3` -/
 def P13715754705061035966.Spec : Prop :=
   ∀ n, P13715754705061035966.a n = (A205086 n : ℚ)
+
+end A205086
+
+/-! ## A205086.P2900961167970249679
+
+`A002279(n+1)+A173804(n+1)+A002279(n+1)`
+-/
+
+namespace A205086.P2900961167970249679
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002279 (n + 1) + (A173804 (n + 1) + A002279 (n + 1))
+
+end
+
+end A205086.P2900961167970249679
+
+namespace A205086
+
+/-- `A002279(n+1)+A173804(n+1)+A002279(n+1)` -/
+def P2900961167970249679.Spec : Prop :=
+  ∀ n, P2900961167970249679.a n = A205086 n
 
 end A205086
 

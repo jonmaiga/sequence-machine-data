@@ -54,7 +54,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B014.C000
@@ -2777,6 +2777,32 @@ namespace A197878
 /-- `A022842(n+1)+A000027(n+1)+n+1` -/
 def P1043583425591119484.Spec : Prop :=
   ∀ n, P1043583425591119484.a n = A197878 (n + 1)
+
+end A197878
+
+/-! ## A197878.P14198392847713034853
+
+`A082845(Δ[n²])+2`
+-/
+
+namespace A197878.P14198392847713034853
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082845 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat + 2
+
+end
+
+end A197878.P14198392847713034853
+
+namespace A197878
+
+/-- `A082845(Δ[n²])+2` -/
+def P14198392847713034853.Spec : Prop :=
+  ∀ n, P14198392847713034853.a n = A197878 (n + 1)
 
 end A197878
 

@@ -4338,6 +4338,28 @@ end
 
 end A355681.P6333898828948640444
 
+/-! ## A355681.P11026083501793780137
+
+`Δ[char[A049597(2*n+1)]]`
+-/
+
+namespace A355681.P11026083501793780137
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049597 (2 * n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A355681.P11026083501793780137
+
 /-!
 # A355683: Multiplicative with a(p^e) = 0 if e=1 and a(p^e)= -1 if e>1.
 

@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -59,7 +60,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -4065,6 +4065,29 @@ def P15017477613627763090.Spec : Prop :=
 
 end A270568
 
+/-! ## A270568.P5345084676657666755
+
+`A246074(A019557(n))`
+-/
+
+namespace A270568.P5345084676657666755
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246074 (A019557 n).toNat
+
+end
+
+end A270568.P5345084676657666755
+
+namespace A270568
+
+/-- `A246074(A019557(n))` -/
+def P5345084676657666755.Spec : Prop :=
+  ∀ n, P5345084676657666755.a n = A270568 n
+
+end A270568
+
 /-!
 # A270569: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 323", based on the 5-celled von Neumann neighborhood.
 
@@ -4823,6 +4846,28 @@ end
 
 end A270574.P2578962741243726085
 
+/-! ## A270574.P609512927464204351
+
+`∩[A196547(n+1), A309265(n+1)]`
+-/
+
+namespace A270574.P609512927464204351
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196547 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A309265 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A270574.P609512927464204351
+
 /-! ## A270574.P10504945976903263965
 
 `∩[A196547(n+1), A309404(n+1)]`
@@ -4844,28 +4889,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A270574.P10504945976903263965
-
-/-! ## A270574.P711699414621853528
-
-`∩[A196547(n+1), A309265(n+2)]`
--/
-
-namespace A270574.P711699414621853528
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196547 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A309265 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A270574.P711699414621853528
 
 /-! ## A270574.P3928116835200730726
 
@@ -5316,6 +5339,29 @@ namespace A270576
 /-- `A003946(n)*A011782(n+1)` -/
 def P2359847558045616737.Spec : Prop :=
   ∀ n, P2359847558045616737.a n = A270576 n
+
+end A270576
+
+/-! ## A270576.P6329871715969402936
+
+`A025579(n+1)*A132477(n)`
+-/
+
+namespace A270576.P6329871715969402936
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025579 (n + 1) * A132477 n
+
+end
+
+end A270576.P6329871715969402936
+
+namespace A270576
+
+/-- `A025579(n+1)*A132477(n)` -/
+def P6329871715969402936.Spec : Prop :=
+  ∀ n, P6329871715969402936.a n = A270576 n
 
 end A270576
 

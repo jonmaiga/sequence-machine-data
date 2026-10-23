@@ -26,6 +26,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B001.C000
@@ -990,6 +991,28 @@ end
 
 end A211119.P16991467440207376726
 
+/-! ## A211119.P13803207933705223837
+
+`∩[A135553(n+1), A231239(n+1)]`
+-/
+
+namespace A211119.P13803207933705223837
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135553 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231239 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A211119.P13803207933705223837
+
 /-! ## A211119.P11509109186743140091
 
 `record[A211123(n+1)/A008406(n+1)]`
@@ -1040,28 +1063,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211119.P10679682252587712382
-
-/-! ## A211119.P9895256281293411808
-
-`∪[A018736(2*n+3), A211118(A018736(n+1))]`
--/
-
-namespace A211119.P9895256281293411808
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018736 (2 * n + 3)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A211118 (A018736 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A211119.P9895256281293411808
 
 /-!
 # A211120: One of 17 possible sets of eleven numbers of the form 3^alpha 5^beta 7^gamma whose sum of reciprocals is 1.
@@ -1598,6 +1599,21 @@ end
 
 end A211126.P5300014385659254092
 
+/-! ## A211126.P3391486974191699501
+
+`A108347(A002473(A002473(A342951(n+2))))`
+-/
+
+namespace A211126.P3391486974191699501
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108347 (A002473 (A002473 (A342951 (n + 2)).toNat).toNat).toNat
+
+end
+
+end A211126.P3391486974191699501
+
 /-!
 # A211127: One of 17 possible sets of eleven numbers of the form 3^alpha 5^beta 7^gamma whose sum of reciprocals is 1.
 
@@ -2047,6 +2063,133 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211132.P6865191711017353469
+
+/-! ## A211132.P16189013185032266173
+
+`∩[A178859(n+1), A333854(n+1)]`
+-/
+
+namespace A211132.P16189013185032266173
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178859 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333854 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A211132.P16189013185032266173
+
+/-!
+# A211134: One of 17 possible sets of eleven numbers of the form 3^alpha 5^beta 7^gamma whose sum of reciprocals is 1.
+
+The programs for A211134, there is no canonical definition to state claims against.
+-/
+
+/-! ## A211134.P12764495054607984088
+
+`A196008(A302588(n))`
+-/
+
+namespace A211134.P12764495054607984088
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196008 (A302588 n).toNat
+
+end
+
+end A211134.P12764495054607984088
+
+/-! ## A211134.P10537819998319606070
+
+`eq[A034852(n), A225437(n)]`
+-/
+
+namespace A211134.P10537819998319606070
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034852 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225437 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A211134.P10537819998319606070
+
+/-! ## A211134.P11428405505030931343
+
+`eq[A050601(n), A225437(n)]`
+-/
+
+namespace A211134.P11428405505030931343
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050601 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225437 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A211134.P11428405505030931343
+
+/-! ## A211134.P1625359604357754481
+
+`eq[A090030(n), A225437(n)]`
+-/
+
+namespace A211134.P1625359604357754481
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090030 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225437 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A211134.P1625359604357754481
+
+/-! ## A211134.P16879238954568516926
+
+`eq[A132896(n), A225437(n)]`
+-/
+
+namespace A211134.P16879238954568516926
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132896 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225437 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A211134.P16879238954568516926
 
 /-!
 # A211137: One of 15 possible sets of eleven odd numbers, not all of the form 3^alpha 5^beta 7^gamma, whose sum of reciprocals is 1.

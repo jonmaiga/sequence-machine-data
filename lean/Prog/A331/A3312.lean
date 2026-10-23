@@ -52,7 +52,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -1404,6 +1403,28 @@ end
 
 end A331219.P1749642981458051670
 
+/-! ## A331219.P4834835273118223618
+
+`∩[A066213(n+1), A236510(n+1)]`
+-/
+
+namespace A331219.P4834835273118223618
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066213 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236510 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331219.P4834835273118223618
+
 /-!
 # A331220: Positive numbers of the form u * v where the ternary representations of u and of v have the same number of digits d for d = 0..2.
 
@@ -1592,6 +1613,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A331221.P12176617234089229203
+
+/-! ## A331221.P16464498548014198603
+
+`∩[A229848(n+1), A362505(n+1)]`
+-/
+
+namespace A331221.P16464498548014198603
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229848 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362505 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A331221.P16464498548014198603
 
 /-!
 # A331222: a(n) = numerator of squared radius R^2 of the circumcircle of the n-th non-obtuse triangle with integer sides i <= j <= k <= sqrt(i^2 + j^2) in a list of such triangles, the list being sorted by increasing size of R. Denominators are A331223.
@@ -7232,6 +7275,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A331287.P12248286039311412388
+
+/-! ## A331287.P13885216437623953370
+
+`gcd(A005915(n), A308328(n+1))`
+-/
+
+namespace A331287.P13885216437623953370
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A005915 n) (A308328 (n + 1))
+
+end
+
+end A331287.P13885216437623953370
+
+/-! ## A331287.P6708260613295908941
+
+`A074389(A357042(n+1))`
+-/
+
+namespace A331287.P6708260613295908941
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074389 (A357042 (n + 1)).toNat
+
+end
+
+end A331287.P6708260613295908941
 
 /-!
 # A331288: a(n) = min(n, A225546(n)).

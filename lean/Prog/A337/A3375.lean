@@ -3314,6 +3314,28 @@ end
 
 end A337534.P1297715671770518898
 
+/-! ## A337534.P4456928677805637721
+
+`∩[A104020(n+1), A335376(n+1)]`
+-/
+
+namespace A337534.P4456928677805637721
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104020 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335376 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A337534.P4456928677805637721
+
 /-!
 # A337536: Numbers k for which there are only 2 bases b (2 and k+1) where the digits of k contain the digit b-1.
 

@@ -57,6 +57,7 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -977,7 +978,7 @@ end A199013.P18263528472926984766
 /-!
 # A199015: G.f.: 1/(1-x) * Product_{n>=1} (1 - x^(2*n))^2/(1 - x^(2*n-1))^2.
 
-The programs for A199015, the canonical program `A199015.P4609584876450057430` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199015 has offset 0).
+The programs for A199015, the canonical program `A199015.P4609584876450057430` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199015 has offset 0).
 
 The definition of A199015 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -986,7 +987,7 @@ The definition of A199015 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A008441(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A199015
@@ -2805,6 +2806,29 @@ namespace A199022
 /-- `2*(A199754(n)-1)` -/
 def P7814539472190137677.Spec : Prop :=
   ∀ n, P7814539472190137677.a n = A199022 n
+
+end A199022
+
+/-! ## A199022.P7554375429087364877
+
+`(A199764(n)-3)/2`
+-/
+
+namespace A199022.P7554375429087364877
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A199764 n - 3 : ℚ) / 2
+
+end
+
+end A199022.P7554375429087364877
+
+namespace A199022
+
+/-- `(A199764(n)-3)/2` -/
+def P7554375429087364877.Spec : Prop :=
+  ∀ n, P7554375429087364877.a n = (A199022 n : ℚ)
 
 end A199022
 

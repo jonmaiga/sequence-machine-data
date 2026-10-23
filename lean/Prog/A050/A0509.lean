@@ -951,6 +951,29 @@ def P12801004121845879880.Spec : Prop :=
 
 end A050914
 
+/-! ## A050914.P13939929755679597508
+
+`A168299(n)%A212697(n+1)`
+-/
+
+namespace A050914.P13939929755679597508
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A168299 n) (A212697 (n + 1))
+
+end
+
+end A050914.P13939929755679597508
+
+namespace A050914
+
+/-- `A168299(n)%A212697(n+1)` -/
+def P13939929755679597508.Spec : Prop :=
+  ∀ n, P13939929755679597508.a n = A050914 n
+
+end A050914
+
 /-!
 # A050915: a(n) = n*4^n + 1.
 
@@ -2281,20 +2304,20 @@ end A050923
 The programs for A050924, there is no canonical definition to state claims against.
 -/
 
-/-! ## A050924.P17686619806461808251
+/-! ## A050924.P14108829593279280053
 
-`(a(n-1)+1)^a(n-1)` with `a(0)=0`
+`10^a(n-1)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=9`
 -/
 
-namespace A050924.P17686619806461808251
+namespace A050924.P14108829593279280053
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  (a (n - 1) + 1) ^ a (n - 1)
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1, 2, 9] fun n a =>
+  10 ^ a (n - 1)
 
 end
 
-end A050924.P17686619806461808251
+end A050924.P14108829593279280053
 
 /-!
 # A050925: Numerator of (n+1)*Bernoulli(n).
@@ -2858,6 +2881,36 @@ namespace A050931
 /-- `comp[A230780(n+1)-1]+1` -/
 def P2981049256698480366.Spec : Prop :=
   ∀ n, (P2981049256698480366.a n : ℤ) = A050931 (n + 1)
+
+end A050931
+
+/-! ## A050931.P12911170365297612784
+
+`∪[A072864(n+1), A387216(n+1)]`
+-/
+
+namespace A050931.P12911170365297612784
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072864 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387216 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A050931.P12911170365297612784
+
+namespace A050931
+
+/-- `∪[A072864(n+1), A387216(n+1)]` -/
+def P12911170365297612784.Spec : Prop :=
+  ∀ n, (P12911170365297612784.a n : ℤ) = A050931 (n + 1)
 
 end A050931
 
@@ -5462,26 +5515,24 @@ end
 
 end A050940.P13782080838620563791
 
-/-! ## A050940.P14490373659526692638
+/-! ## A050940.P8535117553600429399
 
-`lt[A054845(n)*A055500(n), 1]`
+`comp[A143121(n+1)]`
 -/
 
-namespace A050940.P14490373659526692638
+namespace A050940.P8535117553600429399
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054845 n * A055500 n
+  A143121 (n + 1)
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A050940.P14490373659526692638
+end A050940.P8535117553600429399
 
 /-!
 # A050941: Numbers that are not the sum of consecutive triangular numbers.

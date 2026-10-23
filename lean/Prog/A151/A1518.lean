@@ -73,12 +73,10 @@ import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1629,6 +1627,36 @@ def P2862601994646215524.Spec : Prop :=
 
 end A151821
 
+/-! ## A151821.P13778244833879476226
+
+`∪[2^(n+2), 4^n]`
+-/
+
+namespace A151821.P13778244833879476226
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ (n + 2)
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 ^ n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
+
+end
+
+end A151821.P13778244833879476226
+
+namespace A151821
+
+/-- `∪[2^(n+2), 4^n]` -/
+def P13778244833879476226.Spec : Prop :=
+  ∀ n, (P13778244833879476226.a n : ℤ) = A151821 (n + 1)
+
+end A151821
+
 /-! ## A151821.P16738275458270203639
 
 `2^((n+1)%Δ[n²])`
@@ -1793,32 +1821,6 @@ namespace A151821
 /-- `2^(n+1)/ceil(acot(n))` -/
 def P3241255380329589505.Spec : Prop :=
   ∀ n, P3241255380329589505.a n = (A151821 (n + 1) : ℚ)
-
-end A151821
-
-/-! ## A151821.P822157711118624562
-
-`floor(∑[acot(n²)])^(n+1)`
--/
-
-namespace A151821.P822157711118624562
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.acot (n ^ 2 : ℝ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊∑ j ∈ Finset.range (n + 1), f1 j⌋ ^ (n + 1)
-
-end
-
-end A151821.P822157711118624562
-
-namespace A151821
-
-/-- `floor(∑[acot(n²)])^(n+1)` -/
-def P822157711118624562.Spec : Prop :=
-  ∀ n, P822157711118624562.a n = A151821 (n + 1)
 
 end A151821
 

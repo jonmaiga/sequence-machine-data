@@ -16,7 +16,6 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -63,7 +62,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -399,6 +397,36 @@ namespace A335402
 /-- `eq[2, A000005(floor(sqrt(n²+9)))]` -/
 def P16742426405222219275.Spec : Prop :=
   ∀ n, (P16742426405222219275.a n : ℤ) = A335402 (n + 1)
+
+end A335402
+
+/-! ## A335402.P4376818124339857648
+
+`∪[A164901(n+1), A171577(n+1)]`
+-/
+
+namespace A335402.P4376818124339857648
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164901 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171577 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335402.P4376818124339857648
+
+namespace A335402
+
+/-- `∪[A164901(n+1), A171577(n+1)]` -/
+def P4376818124339857648.Spec : Prop :=
+  ∀ n, (P4376818124339857648.a n : ℤ) = A335402 (n + 1)
 
 end A335402
 
@@ -779,35 +807,6 @@ namespace A335402
 /-- `eq[A167865(n), A267848(n)]` -/
 def P9597392195266152996.Spec : Prop :=
   ∀ n, (P9597392195266152996.a n : ℤ) = A335402 (n + 1)
-
-end A335402
-
-/-! ## A335402.P2966328442959486273
-
-`eq[A167865(n), A267870(n)]`
--/
-
-namespace A335402.P2966328442959486273
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167865 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267870 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A335402.P2966328442959486273
-
-namespace A335402
-
-/-- `eq[A167865(n), A267870(n)]` -/
-def P2966328442959486273.Spec : Prop :=
-  ∀ n, (P2966328442959486273.a n : ℤ) = A335402 (n + 1)
 
 end A335402
 
@@ -5697,6 +5696,29 @@ def P8644935177798093046.Spec : Prop :=
 
 end A335439
 
+/-! ## A335439.P16402681368935198963
+
+`(A020873(n+1)-3)/2`
+-/
+
+namespace A335439.P16402681368935198963
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A020873 (n + 1) - 3 : ℚ) / 2
+
+end
+
+end A335439.P16402681368935198963
+
+namespace A335439
+
+/-- `(A020873(n+1)-3)/2` -/
+def P16402681368935198963.Spec : Prop :=
+  ∀ n, P16402681368935198963.a n = (A335439 (n + 1) : ℚ)
+
+end A335439
+
 /-!
 # A335441: a(n) = 1 + Sum_{k=1..n-1} binomial(n-2,k-1) * a(k) * a(n-k-1).
 
@@ -8702,6 +8724,43 @@ end
 
 end A335466.P760684658802625148
 
+/-! ## A335466.P1222829577379791504
+
+`comp[A335467(n+1)]`
+-/
+
+namespace A335466.P1222829577379791504
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335467 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A335466.P1222829577379791504
+
+/-! ## A335466.P6253675077765332631
+
+`filter[A375295(n+1), A368281(#)]`
+-/
+
+namespace A335466.P6253675077765332631
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375295 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A368281 (f1 j).toNat = 1) n)
+
+end
+
+end A335466.P6253675077765332631
+
 /-!
 # A335467: Numbers k such that the k-th composition in standard order (A066099) avoids the pattern (1,2,1).
 
@@ -9150,6 +9209,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335469.P13296291908522822411
+
+/-! ## A335469.P4366114439745571765
+
+`∪[A107686(n), A175413(n+1)]`
+-/
+
+namespace A335469.P4366114439745571765
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107686 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175413 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335469.P4366114439745571765
 
 /-!
 # A335470: Number of compositions of n matching the pattern (1,2,1).
@@ -9769,6 +9850,25 @@ end A335474.P4578088262174641231
 The programs for A335476, there is no canonical definition to state claims against.
 -/
 
+/-! ## A335476.P10330840111404597301
+
+`comp[A335522(n+1)]`
+-/
+
+namespace A335476.P10330840111404597301
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335522 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A335476.P10330840111404597301
+
 /-! ## A335476.P12214477616617229627
 
 `lt[2, gcd(A245195(n), A245538(n+1))]`
@@ -9853,122 +9953,30 @@ end
 
 end A335476.P13784605806890809975
 
-/-! ## A335476.P3889563746173739685
-
-`lt[A088044(2^val(n+1, 2)), A014081(n)]`
--/
-
-namespace A335476.P3889563746173739685
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088044 (2 ^ SequenceMachineLib.valuation (n + 1) 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014081 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A335476.P3889563746173739685
-
 /-!
 # A335478: Numbers k such that the k-th composition in standard order (A066099) matches the pattern (2,1,1).
 
 The programs for A335478, there is no canonical definition to state claims against.
 -/
 
-/-! ## A335478.P5638533298860394319
+/-! ## A335478.P13977984651085253008
 
-`∩[A119675(n+1), comp[A335523(n+1)]]`
+`comp[A335523(n+1)]`
 -/
 
-namespace A335478.P5638533298860394319
+namespace A335478.P13977984651085253008
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119675 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A335523 (n + 1)
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A335478.P5638533298860394319
-
-/-! ## A335478.P15456645992993384344
-
-`A335520(3*n+5)+comp[A335523(n+1)]`
--/
-
-namespace A335478.P15456645992993384344
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335523 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335520 (3 * n + 5) + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
-
-end
-
-end A335478.P15456645992993384344
-
-/-! ## A335478.P6228017461860002807
-
-`comp[A335523(n+1)]%A335512(2*n+3)`
--/
-
-namespace A335478.P6228017461860002807
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335523 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A335512 (2 * n + 3))
-
-end
-
-end A335478.P6228017461860002807
-
-/-! ## A335478.P6336008890706774935
-
-`∩[comp[A335523(n+1)], A335525(n+1)]`
--/
-
-namespace A335478.P6336008890706774935
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335523 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335525 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f3 j = (x : ℤ)) n
-
-end
-
-end A335478.P6336008890706774935
+end A335478.P13977984651085253008
 
 /-!
 # A335479: Numbers k such that the k-th composition in standard order (A066099) matches the pattern (1,2,3).
@@ -11514,6 +11522,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335491.P3256537291748374517
+
+/-!
+# A335495: Numbers k with a Goldbach partition (p,q) such that k | (p*q +- 1).
+
+The programs for A335495, there is no canonical definition to state claims against.
+-/
+
+/-! ## A335495.P14062892407388644559
+
+`∪[A336582(n+1), A336583(n+1)]`
+-/
+
+namespace A335495.P14062892407388644559
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336582 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336583 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335495.P14062892407388644559
 
 /-!
 # A335497: a(1) = 1, and for any n > 0, a(n+1) is the number of times the decimal representation of a(n) appears in the concatenation of the first n terms, possibly with overlap.

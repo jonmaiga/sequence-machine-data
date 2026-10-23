@@ -44,7 +44,6 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -2032,6 +2031,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A379532.P15118655495467991648
+
+/-! ## A379532.P18173553365647419921
+
+`∩[A002858(n+1), A376861(n+1)]`
+-/
+
+namespace A379532.P18173553365647419921
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002858 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376861 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379532.P18173553365647419921
 
 /-!
 # A379535: a(n) is the least number that has n prime factors, counted by multiplicity, and n runs in its decimal representation.

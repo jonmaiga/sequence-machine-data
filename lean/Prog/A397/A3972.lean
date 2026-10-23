@@ -18,6 +18,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -42,6 +43,7 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
@@ -55,6 +57,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -384,6 +387,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397221.P5204511463354530538
+
+/-! ## A397221.P3461121627514871989
+
+`∩[A231876(n+1), A375402(n+1)]`
+-/
+
+namespace A397221.P3461121627514871989
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231876 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375402 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397221.P3461121627514871989
 
 /-!
 # A397222: Number of satisfiable 3-SAT formulas with 2 variables and n clauses in the multiset clause model.
@@ -1512,16 +1537,16 @@ end
 
 end A397247.P15141520839108941222
 
-/-! ## A397247.P13195793622002030977
+/-! ## A397247.P1452730248241358957
 
-`∩[A019547(n+1), A261713(n+1)]`
+`∩[A000290(n), A261713(n+1)]`
 -/
 
-namespace A397247.P13195793622002030977
+namespace A397247.P1452730248241358957
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A019547 (n + 1)
+  A000290 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A261713 (n + 1)
@@ -1532,7 +1557,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A397247.P13195793622002030977
+end A397247.P1452730248241358957
+
+/-! ## A397247.P8501039892274220370
+
+`∩[A083854(n), A261713(n+1)]`
+-/
+
+namespace A397247.P8501039892274220370
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083854 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397247.P8501039892274220370
+
+/-! ## A397247.P6593084464256944059
+
+`∩[A188915(n), A261713(n+1)]`
+-/
+
+namespace A397247.P6593084464256944059
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188915 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397247.P6593084464256944059
 
 /-!
 # A397248: Square roots of terms in A397247.
@@ -1715,6 +1784,28 @@ end
 
 end A397255.P2904802835510752117
 
+/-! ## A397255.P14951808952949634520
+
+`∩[A005842(n+1), A352734(n+1)]`
+-/
+
+namespace A397255.P14951808952949634520
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005842 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352734 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397255.P14951808952949634520
+
 /-!
 # A397257: Fixed points of A093811, sum of the digital products of the divisors.
 
@@ -1830,6 +1921,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397259.P12027135605528483893
+
+/-! ## A397259.P13012170968110279415
+
+`∩[A108543(n+1), A367141(n+1)]`
+-/
+
+namespace A397259.P13012170968110279415
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108543 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367141 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397259.P13012170968110279415
 
 /-!
 # A397260: Indices of records in A093811.
@@ -2602,6 +2715,56 @@ def P11203406880893266705.Spec : Prop :=
 end A397270
 
 /-!
+# A397272: Integers k such that both Mordell equations y^2 = x^3 + k^3 and y^2 = x^3 - k^3 have nonzero integer solutions.
+
+The programs for A397272, there is no canonical definition to state claims against.
+-/
+
+/-! ## A397272.P12449251078205353890
+
+`∩[A103254(n+1), A228948(n+1)]`
+-/
+
+namespace A397272.P12449251078205353890
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103254 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228948 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397272.P12449251078205353890
+
+/-! ## A397272.P4481271799118652270
+
+`∩[A228948(n+1), A356720(n+1)]`
+-/
+
+namespace A397272.P4481271799118652270
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228948 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356720 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397272.P4481271799118652270
+
+/-!
 # A397274: G.f. A(x) satisfies (1-3*x)*A(x) + A(x^3) = x.
 
 The programs for A397274, there is no canonical definition to state claims against.
@@ -2820,6 +2983,50 @@ end
 
 end A397279.P2165269568105586403
 
+/-! ## A397279.P117748448198073468
+
+`∩[A043571(n+1), A164713(n+1)]`
+-/
+
+namespace A397279.P117748448198073468
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043571 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397279.P117748448198073468
+
+/-! ## A397279.P11709930145624782879
+
+`∩[A043571(n+1), A164714(n+1)]`
+-/
+
+namespace A397279.P11709930145624782879
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043571 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164714 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397279.P11709930145624782879
+
 /-! ## A397279.P3900180155272818961
 
 `∩[A043682(n+1), A330940(n)]`
@@ -2885,28 +3092,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397279.P9173373376305572956
-
-/-! ## A397279.P14118368709795111773
-
-`∩[A043682(n+1), A320441(n+1)]`
--/
-
-namespace A397279.P14118368709795111773
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043682 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320441 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A397279.P14118368709795111773
 
 /-!
 # A397280: Expansion of e.g.f. (1/x) * Series_Reversion( x + 1 - exp(x^3) ).

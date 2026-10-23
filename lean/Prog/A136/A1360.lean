@@ -2140,6 +2140,29 @@ def P7233430433988149454.Spec : Prop :=
 
 end A136006
 
+/-! ## A136006.P6719052327691047947
+
+`(A011379(n)-A002522(n))*A000578(n)`
+-/
+
+namespace A136006.P6719052327691047947
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A011379 n - A002522 n) * A000578 n
+
+end
+
+end A136006.P6719052327691047947
+
+namespace A136006
+
+/-- `(A011379(n)-A002522(n))*A000578(n)` -/
+def P6719052327691047947.Spec : Prop :=
+  ∀ n, P6719052327691047947.a n = A136006 n
+
+end A136006
+
 /-!
 # A136007: 
 
@@ -3832,6 +3855,28 @@ end
 
 end A136015.P5797046269541434254
 
+/-! ## A136015.P6621354464129849375
+
+`∩[A053184(n+1), A224781(n+1)]`
+-/
+
+namespace A136015.P6621354464129849375
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053184 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224781 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A136015.P6621354464129849375
+
 /-! ## A136015.P4099048951635603077
 
 `∩[A005384(n+1), A088485(n+1)]`
@@ -3853,6 +3898,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A136015.P4099048951635603077
+
+/-! ## A136015.P16756017431671795589
+
+`∩[A088485(n+1), A224781(n+1)]`
+-/
+
+namespace A136015.P16756017431671795589
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088485 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224781 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A136015.P16756017431671795589
 
 /-! ## A136015.P13016361415414911381
 
@@ -6874,7 +6941,7 @@ end A136036
 /-!
 # A136037: Numbers with at least three adjacent equal digits in binary representation.
 
-The programs for A136037, the canonical program `A136037.P14371956938869211453` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136037 has offset 1).
+The programs for A136037, the canonical program `A136037.P14371956938869211453` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136037 has offset 1).
 
 The definition of A136037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6883,7 +6950,7 @@ The definition of A136037 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A063037(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A136037

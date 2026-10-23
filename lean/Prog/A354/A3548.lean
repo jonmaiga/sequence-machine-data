@@ -3513,6 +3513,29 @@ def P7560012507831909030.Spec : Prop :=
 
 end A354819
 
+/-! ## A354819.P11221841527033153715
+
+`C(A340679(n+1), n+1)`
+-/
+
+namespace A354819.P11221841527033153715
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A340679 (n + 1)).toNat (n + 1)
+
+end
+
+end A354819.P11221841527033153715
+
+namespace A354819
+
+/-- `C(A340679(n+1), n+1)` -/
+def P11221841527033153715.Spec : Prop :=
+  ∀ n, (P11221841527033153715.a n : ℤ) = A354819 (n + 1)
+
+end A354819
+
 /-! ## A354819.P15350654352994024779
 
 `∑{e}[A226177(n+1)+1, #]`
@@ -3772,57 +3795,26 @@ def P4840291912443101710.Spec : Prop :=
 
 end A354819
 
-/-! ## A354819.P5469353152840292040
+/-! ## A354819.P1285240411421460014
 
-`char[A340679(n+1)-1]`
+`A005171(n+1)*A008966(n+1)`
 -/
 
-namespace A354819.P5469353152840292040
+namespace A354819.P1285240411421460014
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340679 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005171 (n + 1) * A008966 (n + 1)
 
 end
 
-end A354819.P5469353152840292040
+end A354819.P1285240411421460014
 
 namespace A354819
 
-/-- `char[A340679(n+1)-1]` -/
-def P5469353152840292040.Spec : Prop :=
-  ∀ n, (P5469353152840292040.a n : ℤ) = A354819 (n + 1)
-
-end A354819
-
-/-! ## A354819.P14070259230986610323
-
-`char[n*A069158(n+1)]`
--/
-
-namespace A354819.P14070259230986610323
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A069158 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A354819.P14070259230986610323
-
-namespace A354819
-
-/-- `char[n*A069158(n+1)]` -/
-def P14070259230986610323.Spec : Prop :=
-  ∀ n, (P14070259230986610323.a n : ℤ) = A354819 (n + 1)
+/-- `A005171(n+1)*A008966(n+1)` -/
+def P1285240411421460014.Spec : Prop :=
+  ∀ n, P1285240411421460014.a n = A354819 (n + 1)
 
 end A354819
 

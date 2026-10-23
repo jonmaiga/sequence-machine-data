@@ -3054,6 +3054,28 @@ end
 
 end A337459.P12071261179325036849
 
+/-! ## A337459.P1022175752807541073
+
+`∩[A014311(n+1), A380573(n+1)]`
+-/
+
+namespace A337459.P1022175752807541073
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014311 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380573 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A337459.P1022175752807541073
+
 /-!
 # A337460: Numbers k such that the k-th composition in standard order is a non-unimodal triple.
 
@@ -3104,16 +3126,16 @@ end
 
 end A337460.P7307285500208765102
 
-/-! ## A337460.P3110143030358871277
+/-! ## A337460.P15654828668068628927
 
-`∩[2*A333975(n+1), A335373(n+1)]`
+`∩[A095736(n+1), A335373(n+1)]`
 -/
 
-namespace A337460.P3110143030358871277
+namespace A337460.P15654828668068628927
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A333975 (n + 1)
+  A095736 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A335373 (n + 1)
@@ -3124,7 +3146,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A337460.P3110143030358871277
+end A337460.P15654828668068628927
+
+/-! ## A337460.P7766977040884786955
+
+`∩[A151757(n+1), A335373(n+1)]`
+-/
+
+namespace A337460.P7766977040884786955
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151757 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335373 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A337460.P7766977040884786955
+
+/-! ## A337460.P7322583519819117672
+
+`∩[A333975(n+1), A335373(n+1)]`
+-/
+
+namespace A337460.P7322583519819117672
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333975 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335373 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A337460.P7322583519819117672
 
 /-!
 # A337462: Number of pairwise coprime compositions of n, where a singleton is not considered coprime unless it is (1).

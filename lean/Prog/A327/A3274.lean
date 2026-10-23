@@ -4029,6 +4029,29 @@ def P7292471828137347216.Spec : Prop :=
 
 end A327440
 
+/-! ## A327440.P5702392095176526678
+
+`A002265(A002266(n)+n)`
+-/
+
+namespace A327440.P5702392095176526678
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002265 (A002266 n + (n : ℤ)).toNat
+
+end
+
+end A327440.P5702392095176526678
+
+namespace A327440
+
+/-- `A002265(A002266(n)+n)` -/
+def P5702392095176526678.Spec : Prop :=
+  ∀ n, P5702392095176526678.a n = A327440 n
+
+end A327440
+
 /-!
 # A327441: a(n) = max_{p <= n} (p'-p), where p and p' are successive primes.
 

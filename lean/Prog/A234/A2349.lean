@@ -15,6 +15,7 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -79,7 +80,6 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -960,6 +960,32 @@ def P8582879118039779111.Spec : Prop :=
 
 end A234904
 
+/-! ## A234904.P2549108317173856709
+
+`3*∑[dr(a(n-3))]` with `a(0)=1, a(1)=3, a(2)=2`
+-/
+
+namespace A234904.P2549108317173856709
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 3, 2] fun n f1 =>
+  SequenceMachineLib.digitalRoot (f1 (n - 3) : ℤ)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A234904.P2549108317173856709
+
+namespace A234904
+
+/-- `3*∑[dr(a(n-3))]` -/
+def P2549108317173856709.Spec : Prop :=
+  ∀ n, (P2549108317173856709.a n : ℤ) = A234904 (n + 1)
+
+end A234904
+
 /-! ## A234904.P16307402843097730267
 
 `∑[7-4/(a(n-1)-5)]` with `a(0)=3`
@@ -983,6 +1009,55 @@ namespace A234904
 /-- `∑[7-4/(a(n-1)-5)]` -/
 def P16307402843097730267.Spec : Prop :=
   ∀ n, P16307402843097730267.a n = (A234904 (n + 1) : ℚ)
+
+end A234904
+
+/-! ## A234904.P9263338355214173965
+
+`3*(n²%3+2*n+1)`
+-/
+
+namespace A234904.P9263338355214173965
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * (n ^ 2 % 3 + (2 * n + 1))
+
+end
+
+end A234904.P9263338355214173965
+
+namespace A234904
+
+/-- `3*(n²%3+2*n+1)` -/
+def P9263338355214173965.Spec : Prop :=
+  ∀ n, (P9263338355214173965.a n : ℤ) = A234904 (n + 1)
+
+end A234904
+
+/-! ## A234904.P11422468653591147768
+
+`3*∑[4-a(a(n-3))]` with `a(0)=1, a(1)=3, a(2)=2`
+-/
+
+namespace A234904.P11422468653591147768
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 3, 2] fun n f1 =>
+  4 - f1 (f1 (n - 3)).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A234904.P11422468653591147768
+
+namespace A234904
+
+/-- `3*∑[4-a(a(n-3))]` -/
+def P11422468653591147768.Spec : Prop :=
+  ∀ n, P11422468653591147768.a n = A234904 (n + 1)
 
 end A234904
 
@@ -1038,6 +1113,29 @@ def P6386044710719006506.Spec : Prop :=
 
 end A234904
 
+/-! ## A234904.P7692787405744106737
+
+`3*(A047271(n+1)+1)`
+-/
+
+namespace A234904.P7692787405744106737
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * (A047271 (n + 1) + 1)
+
+end
+
+end A234904.P7692787405744106737
+
+namespace A234904
+
+/-- `3*(A047271(n+1)+1)` -/
+def P7692787405744106737.Spec : Prop :=
+  ∀ n, P7692787405744106737.a n = A234904 (n + 1)
+
+end A234904
+
 /-! ## A234904.P1532063655443265655
 
 `∑[3*(2-A008683(a(n-1)))]` with `a(0)=3`
@@ -1087,6 +1185,29 @@ namespace A234904
 /-- `Δ[3*A240438(n+1)]` -/
 def P13534974534111301264.Spec : Prop :=
   ∀ n, P13534974534111301264.a n = A234904 (n + 1)
+
+end A234904
+
+/-! ## A234904.P11689710813249221056
+
+`3*(A117571(n+1)+n)`
+-/
+
+namespace A234904.P11689710813249221056
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * (A117571 (n + 1) + (n : ℤ))
+
+end
+
+end A234904.P11689710813249221056
+
+namespace A234904
+
+/-- `3*(A117571(n+1)+n)` -/
+def P11689710813249221056.Spec : Prop :=
+  ∀ n, P11689710813249221056.a n = A234904 (n + 1)
 
 end A234904
 
@@ -2514,26 +2635,27 @@ end
 
 end A234926.P1764782126551949040
 
-/-! ## A234926.P10783942623824948597
+/-! ## A234926.P10222882649342778503
 
-`record[p?[A102837(A102885(n))]]`
+`∩[A045712(n+1), A102837(n+1)]`
 -/
 
-namespace A234926.P10783942623824948597
+namespace A234926.P10222882649342778503
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102837 (A102885 n).toNat
-
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
+  A045712 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102837 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A234926.P10783942623824948597
+end A234926.P10222882649342778503
 
 /-!
 # A234931: Number of tilings of a 5 X n rectangle using n pentominoes of shapes F, U, N.
@@ -5181,6 +5303,28 @@ end
 
 end A234960.P16365027701103960862
 
+/-! ## A234960.P3428728942280617326
+
+`∩[A000040(n+1), A323048(n+1)]`
+-/
+
+namespace A234960.P3428728942280617326
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323048 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A234960.P3428728942280617326
+
 /-!
 # A234961: Number of primes in level n of the tree generated at A234960.
 
@@ -5460,20 +5604,27 @@ end A234966.P17347231659077396425
 The programs for A234970, there is no canonical definition to state claims against.
 -/
 
-/-! ## A234970.P11418876065075628091
+/-! ## A234970.P6333137226108580196
 
-`A121507(A121519(2*(n+1))-A121480(n+2))`
+`∩[A121507(n+1), A257720(n+1)]`
 -/
 
-namespace A234970.P11418876065075628091
+namespace A234970.P6333137226108580196
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121507 (A121519 (2 * (n + 1)) - A121480 (n + 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121507 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257720 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A234970.P11418876065075628091
+end A234970.P6333137226108580196
 
 /-!
 # A234973: Primes that are 6 plus the sum of three consecutive primes.

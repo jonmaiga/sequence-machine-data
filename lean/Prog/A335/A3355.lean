@@ -3803,20 +3803,71 @@ end
 
 end A335540.P1504242937706816248
 
-/-! ## A335540.P2778659336966554078
+/-! ## A335540.P14649400622593535878
 
-`A340637(n+4)%A000040(A340627(n))`
+`∩[A075775(n+1), A340637(n+1)]`
 -/
 
-namespace A335540.P2778659336966554078
+namespace A335540.P14649400622593535878
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A340637 (n + 4)) (A000040 (A340627 n).toNat)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075775 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340637 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A335540.P2778659336966554078
+end A335540.P14649400622593535878
+
+/-! ## A335540.P14913308892401514432
+
+`∩[A103291(n+1), A340637(n+1)]`
+-/
+
+namespace A335540.P14913308892401514432
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103291 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340637 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335540.P14913308892401514432
+
+/-! ## A335540.P12329366602594631809
+
+`∩[A213908(n+1), A340637(n+1)]`
+-/
+
+namespace A335540.P12329366602594631809
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A213908 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340637 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335540.P12329366602594631809
 
 /-!
 # A335541: Numbers with a record value of the ratio of the number of abundant divisors to the total number of divisors.

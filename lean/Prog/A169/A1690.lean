@@ -9,7 +9,7 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C014
 
 /-!

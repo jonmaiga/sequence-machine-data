@@ -30,10 +30,12 @@ import Seq.B000.C033
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -62,6 +64,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -119,6 +122,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377600.P4156015603017728973
+
+/-! ## A377600.P901267786979507133
+
+`A244819(A249157(n+2))`
+-/
+
+namespace A377600.P901267786979507133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244819 (A249157 (n + 2)).toNat
+
+end
+
+end A377600.P901267786979507133
 
 /-!
 # A377601: Number of permutations of the multiset {1^n, 2^n,..., n^n} excluding permutations where all objects of all types are contiguous.
@@ -271,6 +289,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377607.P16951086411206898309
+
+/-! ## A377607.P3154089164770386669
+
+`∩[A227763(n+1), A243655(n+1)]`
+-/
+
+namespace A377607.P3154089164770386669
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227763 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243655 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377607.P3154089164770386669
 
 /-!
 # A377608: E.g.f. satisfies A(x) = exp( x * A(x) / (1-x) ) / (1-x)^2.

@@ -53,7 +53,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -2778,6 +2777,28 @@ end
 
 end A212017.P2458816801130486890
 
+/-! ## A212017.P16704255827891584918
+
+`∪[A000290(n), A212018(n+1)]`
+-/
+
+namespace A212017.P16704255827891584918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212018 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A212017.P16704255827891584918
+
 /-! ## A212017.P4148481216709499574
 
 `eq[A001221(A084608(n)), A000122(3*(n+1))]`
@@ -2831,21 +2852,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A212017.P790741095110314638
-
-/-! ## A212017.P13393121393935067699
-
-`A357304(A099957(n+1))-A000217(n)`
--/
-
-namespace A212017.P13393121393935067699
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357304 (A099957 (n + 1)).toNat - A000217 n
-
-end
-
-end A212017.P13393121393935067699
 
 /-!
 # A212018: Integers m such that m^3 is the sum of two or more consecutive integer squares.
@@ -11663,6 +11669,21 @@ end
 
 end A212092.P16306017057182643790
 
+/-! ## A212092.P7903285063305866356
+
+`A212681(n)+A212682(n)-A212095(n)`
+-/
+
+namespace A212092.P7903285063305866356
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212681 n + (A212682 n - A212095 n)
+
+end
+
+end A212092.P7903285063305866356
+
 /-! ## A212092.P11500895602019810093
 
 `(A000583(n)-∑[A253663(n)])*A057427(n)`
@@ -11830,24 +11851,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A212092.P12196948265178127287
-
-/-! ## A212092.P11232898549805830130
-
-`n^4-A212094(n)-∑[A181787(n)]`
--/
-
-namespace A212092.P11232898549805830130
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181787 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n ^ 4 : ℤ) - A212094 n - ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A212092.P11232898549805830130
 
 /-!
 # A212093: Number of (w,x,y,z) with all terms in {1,...,n} and w^2<=x^2+y^2+z^2.

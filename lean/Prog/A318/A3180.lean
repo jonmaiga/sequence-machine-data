@@ -31,6 +31,7 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -4830,6 +4831,29 @@ def P11863732769062463928.Spec : Prop :=
 
 end A318054
 
+/-! ## A318054.P6184670756489916018
+
+`A108766(n)+A058923(n)`
+-/
+
+namespace A318054.P6184670756489916018
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108766 n + A058923 n
+
+end
+
+end A318054.P6184670756489916018
+
+namespace A318054
+
+/-- `A108766(n)+A058923(n)` -/
+def P6184670756489916018.Spec : Prop :=
+  ∀ n, P6184670756489916018.a n = A318054 n
+
+end A318054
+
 /-!
 # A318056: Let b(1) = b(2) = 1; for n >= 3, b(n) = n - b(t(n)) - b(n-t(n-1)) where t = A004001. a(n) = 2*b(n) - n.
 
@@ -7275,6 +7299,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A318083.P12216944098948764716
+
+/-! ## A318083.P4424257833658681816
+
+`∩[A035063(n+1), A380743(n+1)]`
+-/
+
+namespace A318083.P4424257833658681816
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035063 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380743 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318083.P4424257833658681816
 
 /-!
 # A318084: Numbers m such that sigma(sigma(m))/m is a square.

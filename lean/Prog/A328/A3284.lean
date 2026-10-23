@@ -28,7 +28,6 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
@@ -2433,26 +2432,27 @@ end
 
 end A328415.P17557862844708803641
 
-/-! ## A328415.P2753021250089977170
+/-! ## A328415.P16995386731715397522
 
-`record[A119318(Δ[A242417(3*n+2)])]`
+`∩[A339968(n+1), A344994(n+1)]`
 -/
 
-namespace A328415.P2753021250089977170
+namespace A328415.P16995386731715397522
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A242417 (3 * n + 2)
-
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119318 (f2 (n + 1) - f2 n).toNat
+  A339968 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344994 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A328415.P2753021250089977170
+end A328415.P16995386731715397522
 
 /-!
 # A328417: Numbers k such that A328412(k) sets a new record; numbers k such that (Z/mZ)* = C_2 X C_(2k) has more solutions for m than all k' < k, where (Z/mZ)* is the multiplicative group of integers modulo m.
@@ -5463,6 +5463,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328462.P606412778912756262
+
+/-! ## A328462.P1383776334847495626
+
+`A276156(2*n)+1`
+-/
+
+namespace A328462.P1383776334847495626
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276156 (2 * n) + 1
+
+end
+
+end A328462.P1383776334847495626
 
 /-! ## A328462.P5597624521811402642
 

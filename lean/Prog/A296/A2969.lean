@@ -96,6 +96,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -5734,6 +5735,28 @@ end A296930.P17926590441814969890
 The programs for A296931, there is no canonical definition to state claims against.
 -/
 
+/-! ## A296931.P25847420220147184
+
+`∪[A178806(n+1), A296929(n+1)]`
+-/
+
+namespace A296931.P25847420220147184
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178806 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296929 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296931.P25847420220147184
+
 /-! ## A296931.P394324229675853142
 
 `p?[(n+1)*A030101(A035173(n+1))]`
@@ -5788,24 +5811,6 @@ end
 
 end A296931.P15440274858001856254
 
-/-! ## A296931.P8024135494681109628
-
-`p?[A000045(A035173(n+1))*A028242(2*n)]`
--/
-
-namespace A296931.P8024135494681109628
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (A035173 (n + 1)).toNat * A028242 (2 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A296931.P8024135494681109628
-
 /-!
 # A296932: Primes p such that Legendre(-23,p) = 0 or 1.
 
@@ -5833,6 +5838,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A296932.P1973379941771495361
+
+/-! ## A296932.P17272700894139908173
+
+`∪[A030464(n+1), A191021(n+1)]`
+-/
+
+namespace A296932.P17272700894139908173
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030464 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191021 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296932.P17272700894139908173
 
 /-! ## A296932.P10032361602811390234
 
@@ -9757,26 +9784,26 @@ def P8775213607066044420.Spec : Prop :=
 
 end A296953
 
-/-! ## A296953.P14208531156300970487
+/-! ## A296953.P11143159207180848277
 
-`a(n-1)-(gcd(3, a(n-1))-3-a(n-1))` with `a(0)=0, a(1)=1`
+`3-(gcd(3, a(n-1))-a(n-1)-a(n-1))` with `a(0)=0, a(1)=1`
 -/
 
-namespace A296953.P14208531156300970487
+namespace A296953.P11143159207180848277
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  a (n - 1) - ((Int.gcd 3 (a (n - 1)) : ℤ) - 3 - a (n - 1))
+  3 - ((Int.gcd 3 (a (n - 1)) : ℤ) - a (n - 1) - a (n - 1))
 
 end
 
-end A296953.P14208531156300970487
+end A296953.P11143159207180848277
 
 namespace A296953
 
-/-- `a(n-1)-(gcd(3, a(n-1))-3-a(n-1))` -/
-def P14208531156300970487.Spec : Prop :=
-  ∀ n, P14208531156300970487.a n = A296953 n
+/-- `3-(gcd(3, a(n-1))-a(n-1)-a(n-1))` -/
+def P11143159207180848277.Spec : Prop :=
+  ∀ n, P11143159207180848277.a n = A296953 n
 
 end A296953
 
@@ -14510,6 +14537,28 @@ end A296990.P12491950498361486099
 The programs for A296991, there is no canonical definition to state claims against.
 -/
 
+/-! ## A296991.P3808599367293044835
+
+`∪[A296993(n+1), A297001(n+1)]`
+-/
+
+namespace A296991.P3808599367293044835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296993 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297001 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296991.P3808599367293044835
+
 /-! ## A296991.P11290220498371455167
 
 `record[sqrt(gcd((n+1)², A000594(n+1)))]`
@@ -14575,21 +14624,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A296991.P13565952151028710881
-
-/-! ## A296991.P11171859867688243041
-
-`A305821(A126646(n))+A067947(n+1)`
--/
-
-namespace A296991.P11171859867688243041
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305821 (A126646 n).toNat + A067947 (n + 1)
-
-end
-
-end A296991.P11171859867688243041
 
 /-!
 # A296992: Largest number m such that n^m divides tau(n), where tau(n) = A000594(n) is Ramanujan's tau function.
@@ -14700,6 +14734,28 @@ end
 
 end A296993.P8515021876884768955
 
+/-! ## A296993.P8782334582352164874
+
+`∩[A130073(n+1), A316225(n+1)]`
+-/
+
+namespace A296993.P8782334582352164874
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130073 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316225 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296993.P8782334582352164874
+
 /-! ## A296993.P15173260780009047181
 
 `∩[A081306(n+1), A316225(n+1)]`
@@ -14722,34 +14778,38 @@ end
 
 end A296993.P15173260780009047181
 
-/-! ## A296993.P16139337417916201596
+/-! ## A296993.P2016808824491603826
 
-`filter[A316225(n+1), A065333(#)]`
+`∩[A316225(n+1), A385755(n+1)]`
 -/
 
-namespace A296993.P16139337417916201596
+namespace A296993.P2016808824491603826
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A316225 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A065333 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385755 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A296993.P16139337417916201596
+end A296993.P2016808824491603826
 
-/-! ## A296993.P11225158970110376957
+/-! ## A296993.P4069641775509038944
 
-`∩[A193498(n+1), A316225(n+1)]`
+`∩[A243068(n+1), A316225(n+1)]`
 -/
 
-namespace A296993.P11225158970110376957
+namespace A296993.P4069641775509038944
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193498 (n + 1)
+  A243068 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A316225 (n + 1)
@@ -14760,7 +14820,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A296993.P11225158970110376957
+end A296993.P4069641775509038944
 
 /-!
 # A296994: Largest number of points that can be selected from an n X n X n triangular point grid so that no selected point is equally distant from two other selected points on a straight line, which is parallel to one side of the grid.

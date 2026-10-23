@@ -4186,6 +4186,21 @@ end
 
 end A296870.P12289292153889518828
 
+/-! ## A296870.P9374426922346975854
+
+`A093128(A172358(A172358(n+1)))+n`
+-/
+
+namespace A296870.P9374426922346975854
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093128 (A172358 (A172358 (n + 1)).toNat).toNat + (n : ℤ)
+
+end
+
+end A296870.P9374426922346975854
+
 /-!
 # A296871: Numbers whose base-6 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments.
 

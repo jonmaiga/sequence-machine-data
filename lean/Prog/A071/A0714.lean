@@ -54,7 +54,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -86,6 +85,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -727,7 +727,7 @@ end A071403
 /-!
 # A071404: Which nonsquarefree number is a square number? a(n)-th nonsquarefree number equals n^2, the n-th square.
 
-The programs for A071404, the canonical program `A071404.P1885177704798718554` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071404 has offset 2).
+The programs for A071404, the canonical program `A071404.P1885177704798718554` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071404 has offset 2).
 
 The definition of A071404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -736,7 +736,7 @@ The definition of A071404 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*n+3-A077381(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A071404
@@ -1875,26 +1875,26 @@ def P3867850730557108671.Spec : Prop :=
 
 end A071408
 
-/-! ## A071408.P7310463840883162585
+/-! ## A071408.P16062045829037702800
 
-`A032765(n+1)-1`
+`A208994(n)+A023443(n)`
 -/
 
-namespace A071408.P7310463840883162585
+namespace A071408.P16062045829037702800
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032765 (n + 1) - 1
+  A208994 n + A023443 n
 
 end
 
-end A071408.P7310463840883162585
+end A071408.P16062045829037702800
 
 namespace A071408
 
-/-- `A032765(n+1)-1` -/
-def P7310463840883162585.Spec : Prop :=
-  ∀ n, P7310463840883162585.a n = A071408 (n + 1)
+/-- `A208994(n)+A023443(n)` -/
+def P16062045829037702800.Spec : Prop :=
+  ∀ n, P16062045829037702800.a n = A071408 (n + 1)
 
 end A071408
 
@@ -2415,7 +2415,7 @@ end A071411
 /-!
 # A071412: A002487 mod 3.
 
-The programs for A071412, the canonical program `A071412.P9701321601537696184` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071412 has offset 0).
+The programs for A071412, the canonical program `A071412.P9701321601537696184` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071412 has offset 0).
 
 The definition of A071412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2424,7 +2424,7 @@ The definition of A071412 is `conjectured`: the Lean definition is a formula tha
 
 `A002487(n)%3`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A071412

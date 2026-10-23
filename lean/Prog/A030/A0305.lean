@@ -49,7 +49,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -987,6 +986,29 @@ def P834914284665591959.Spec : Prop :=
 
 end A030503
 
+/-! ## A030503.P7459220096246008561
+
+`A008748(2*(n+1))`
+-/
+
+namespace A030503.P7459220096246008561
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008748 (2 * (n + 1))
+
+end
+
+end A030503.P7459220096246008561
+
+namespace A030503
+
+/-- `A008748(2*(n+1))` -/
+def P7459220096246008561.Spec : Prop :=
+  ∀ n, P7459220096246008561.a n = A030503 (n + 3)
+
+end A030503
+
 /-!
 # A030504: Graham-Sloane-type lower bound on the size of a ternary (n,3,4) constant-weight code.
 
@@ -1714,16 +1736,16 @@ end A030511
 The programs for A030512, there is no canonical definition to state claims against.
 -/
 
-/-! ## A030512.P6864633699926568877
+/-! ## A030512.P502007223779229082
 
-`∑[∑[(10^n)²]]`
+`∑[∑[100^n]]`
 -/
 
-namespace A030512.P6864633699926568877
+namespace A030512.P502007223779229082
 noncomputable section
 
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (10 ^ n) ^ 2
+  100 ^ n
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f2 j
@@ -1733,25 +1755,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A030512.P6864633699926568877
-
-/-! ## A030512.P1233980119085546043
-
-`∑[10^(2*n)]+a(n-1)` with `a(0)=1`
--/
-
-namespace A030512.P1233980119085546043
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10 ^ (2 * n)
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + a (n - 1)
-
-end
-
-end A030512.P1233980119085546043
+end A030512.P502007223779229082
 
 /-! ## A030512.P16913011427344692422
 
@@ -1767,27 +1771,6 @@ def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A030512.P16913011427344692422
-
-/-! ## A030512.P4715072941321680949
-
-`abs(∑[or(1, ∑[10^(2*n)])-(2*n)%2])`
--/
-
-namespace A030512.P4715072941321680949
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10 ^ (2 * n)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.lor 1 (∑ j ∈ Finset.range (n + 1), f2 j) : ℤ) - ((2 * n % 2 : ℕ) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |∑ j ∈ Finset.range (n + 1), f1 j|
-
-end
-
-end A030512.P4715072941321680949
 
 /-! ## A030512.P14316358285119864994
 
@@ -3242,35 +3225,6 @@ namespace A030515
 /-- `eq[3, A045778(n+1)]+1` -/
 def P1678016265728157189.Spec : Prop :=
   ∀ n, (P1678016265728157189.a n : ℤ) = A030515 (n + 1)
-
-end A030515
-
-/-! ## A030515.P12643247873300905624
-
-`eq[7, A334954(n+1)]+1`
--/
-
-namespace A030515.P12643247873300905624
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334954 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A030515.P12643247873300905624
-
-namespace A030515
-
-/-- `eq[7, A334954(n+1)]+1` -/
-def P12643247873300905624.Spec : Prop :=
-  ∀ n, (P12643247873300905624.a n : ℤ) = A030515 (n + 1)
 
 end A030515
 
@@ -8620,6 +8574,25 @@ end
 
 end A030566.P17046951140424355499
 
+/-! ## A030566.P5707340375260611965
+
+`char[A300907((n+3)²)]`
+-/
+
+namespace A030566.P5707340375260611965
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300907 ((n + 3) ^ 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A030566.P5707340375260611965
+
 /-! ## A030566.P13498659568859441015
 
 `A079979(A188579(3*n+5)-floor(n/2))`
@@ -8634,21 +8607,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030566.P13498659568859441015
-
-/-! ## A030566.P8670328515192590228
-
-`A129251(A077609(n+4))^A258585(n+1)`
--/
-
-namespace A030566.P8670328515192590228
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A129251 (A077609 (n + 4)).toNat : ℚ) ^ (A258585 (n + 1) : ℤ)
-
-end
-
-end A030566.P8670328515192590228
 
 /-!
 # A030567: Triangle T(n,k): Write n in base 6 and reverse order of digits to get row n.

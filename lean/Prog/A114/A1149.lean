@@ -4000,6 +4000,29 @@ def P11786474282357399122.Spec : Prop :=
 
 end A114960
 
+/-! ## A114960.P2361590920783960798
+
+`A083058(A051437(n+1))`
+-/
+
+namespace A114960.P2361590920783960798
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083058 (A051437 (n + 1)).toNat
+
+end
+
+end A114960.P2361590920783960798
+
+namespace A114960
+
+/-- `A083058(A051437(n+1))` -/
+def P2361590920783960798.Spec : Prop :=
+  ∀ n, P2361590920783960798.a n = A114960 (n + 1)
+
+end A114960
+
 /-!
 # A114961: Numbers n such that PrimePi(prime(n + 1)^2) - PrimePi(prime(n)^2) < c*n with c=9/5.
 
@@ -6087,19 +6110,19 @@ end
 
 end A114994.P10108697191359729975
 
-/-! ## A114994.P10944695200614486401
+/-! ## A114994.P5736963626564621797
 
-`∩[A004743(n+1), A374744(n+1)]`
+`∩[A004743(n+1), A334273(n+1)]`
 -/
 
-namespace A114994.P10944695200614486401
+namespace A114994.P5736963626564621797
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A004743 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374744 (n + 1)
+  A334273 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6107,7 +6130,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A114994.P10944695200614486401
+end A114994.P5736963626564621797
 
 /-!
 # A114996: a(n) = smallest palindrome > a(n-1) (for n > 0) such that the sum of its prime digits is equal to palindrome with index n, or -1 if none exists.

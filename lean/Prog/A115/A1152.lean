@@ -70,7 +70,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -7032,6 +7031,29 @@ namespace A115243
 /-- `A083597(n)%A117614(n)` -/
 def P2563094112225676882.Spec : Prop :=
   ∀ n, P2563094112225676882.a n = A115243 n
+
+end A115243
+
+/-! ## A115243.P10181103267442579237
+
+`A267888(n)%A108981(n)`
+-/
+
+namespace A115243.P10181103267442579237
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A267888 n) (A108981 n)
+
+end
+
+end A115243.P10181103267442579237
+
+namespace A115243
+
+/-- `A267888(n)%A108981(n)` -/
+def P10181103267442579237.Spec : Prop :=
+  ∀ n, P10181103267442579237.a n = A115243 n
 
 end A115243
 

@@ -41,7 +41,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C002
@@ -5793,6 +5793,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A200566.P16751294532508625215
+
+/-! ## A200566.P1709217606351822417
+
+`∩[A088967(n+1), A235986(n+1)]`
+-/
+
+namespace A200566.P1709217606351822417
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088967 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235986 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A200566.P1709217606351822417
 
 /-!
 # A200567: Integers n such that for all i > n the largest prime factor of product(i+k, {k,0,9}) exceeds the largest prime factor of product(n+k, {k,0,9}).

@@ -187,6 +187,21 @@ end
 
 end A294400.P4566655173219481387
 
+/-! ## A294400.P13620013902783282980
+
+`A135304(A301292(n))`
+-/
+
+namespace A294400.P13620013902783282980
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135304 (A301292 n).toNat
+
+end
+
+end A294400.P13620013902783282980
+
 /-!
 # A294401: Solution of the complementary equation a(n) = a(n-1) + b(n-2) + 2n, where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4.
 
@@ -8720,6 +8735,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A294497.P1585662218560847041
+
+/-! ## A294497.P11880191068300070357
+
+`A221222(A032581(n+1))`
+-/
+
+namespace A294497.P11880191068300070357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A221222 (A032581 (n + 1)).toNat
+
+end
+
+end A294497.P11880191068300070357
 
 /-!
 # A294498: Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. exp(2*k*x)*(BesselI(0,2*x) - BesselI(1,2*x))^k.

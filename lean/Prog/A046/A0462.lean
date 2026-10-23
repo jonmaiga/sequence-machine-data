@@ -43,7 +43,6 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
@@ -87,6 +86,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -9233,6 +9233,50 @@ end
 
 end A046282.P15115554347695510156
 
+/-! ## A046282.P7826695704999830971
+
+`∩[A046280(n+1), A378441(n+1)]`
+-/
+
+namespace A046282.P7826695704999830971
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046280 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378441 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A046282.P7826695704999830971
+
+/-! ## A046282.P6135634312735670977
+
+`∩[A046280(n+1), A380468(n+1)]`
+-/
+
+namespace A046282.P6135634312735670977
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046280 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A046282.P6135634312735670977
+
 /-! ## A046282.P1448050744069029262
 
 `p?[record[A046280(A133310(n))]]`
@@ -9451,6 +9495,28 @@ end
 
 end A046282.P5221583768928467262
 
+/-! ## A046282.P10625721589126148475
+
+`∩[A046280(n+1), A093515(n+1)]`
+-/
+
+namespace A046282.P10625721589126148475
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046280 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A046282.P10625721589126148475
+
 /-! ## A046282.P4489360176886196288
 
 `∩[A046280(n+1), A106118(n+1)]`
@@ -9582,72 +9648,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A046282.P13323279195144918417
-
-/-! ## A046282.P4877951202145326965
-
-`∩[A046280(n+1), A193339(n+1)]`
--/
-
-namespace A046282.P4877951202145326965
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046280 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193339 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A046282.P4877951202145326965
-
-/-! ## A046282.P6140486912659086225
-
-`∩[A046280(n+1), A197636(n+1)]`
--/
-
-namespace A046282.P6140486912659086225
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046280 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197636 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A046282.P6140486912659086225
-
-/-! ## A046282.P6072597594191736458
-
-`∩[A033946(n+1), A046280(n+1)]`
--/
-
-namespace A046282.P6072597594191736458
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033946 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046280 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A046282.P6072597594191736458
 
 /-!
 # A046283: Lucky numbers k such that the sum of the lucky numbers <= k is prime.

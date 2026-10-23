@@ -2962,6 +2962,28 @@ end
 
 end A123466.P6854090427856853970
 
+/-! ## A123466.P5891272697551962979
+
+`∪[A090050(n+1), A144793(n+1)]`
+-/
+
+namespace A123466.P5891272697551962979
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090050 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144793 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A123466.P5891272697551962979
+
 /-! ## A123466.P5736389481715360717
 
 `lt[0, A373954(xor(n, floor(n/2)))]`
@@ -3024,27 +3046,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A123466.P16577868785454951632
-
-/-! ## A123466.P3774266206124852118
-
-`lt[1, A357137(xor(n, floor(n/2)))]`
--/
-
-namespace A123466.P3774266206124852118
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357137 (Int.xor (n : ℤ) ⌊(n : ℚ) / 2⌋).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A123466.P3774266206124852118
 
 /-!
 # A123467: Number of trivially-perfect graphs on n nodes.

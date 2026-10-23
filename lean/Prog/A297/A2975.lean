@@ -4224,6 +4224,28 @@ end
 
 end A297571.P15005016568327036234
 
+/-! ## A297571.P744959875719816887
+
+`∩[A276625(n+1), A326535(n+1)]`
+-/
+
+namespace A297571.P744959875719816887
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276625 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326535 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A297571.P744959875719816887
+
 /-! ## A297571.P3594226756052436668
 
 `record[A348066(n+1)%A321069(n+3)]`

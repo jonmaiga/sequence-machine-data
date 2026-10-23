@@ -54,6 +54,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -1632,7 +1633,7 @@ end A367138.P11238299307795265159
 /-!
 # A367140: a(n) = Sum_{prime p|n} p^A001222(n).
 
-The programs for A367140, the canonical program `A367140.P12237919558071202463` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367140 has offset 1).
+The programs for A367140, the canonical program `A367140.P12237919558071202463` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367140 has offset 1).
 
 The definition of A367140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1642,7 @@ The definition of A367140 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, #^A001222(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A367140

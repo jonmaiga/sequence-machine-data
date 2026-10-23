@@ -1362,6 +1362,101 @@ end
 end A395778.P7457415088758513650
 
 /-!
+# A395784: Brick wall numbers: an integer k > 1, written as k = p_1 * p_2 * ... * p_r where p_1 <= p_2 <= ... <= p_r are primes, is a brick wall number if there exist integers h >= 2 and w >= 2 such that the prime factors p_i of k can be stacked up in h horizontal layers of bricks such that the sum of the p_i's in each layer is equal to w.
+
+The programs for A395784, there is no canonical definition to state claims against.
+-/
+
+/-! ## A395784.P18092833571195982609
+
+`A109422(A128870(n+1))`
+-/
+
+namespace A395784.P18092833571195982609
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109422 (A128870 (n + 1)).toNat
+
+end
+
+end A395784.P18092833571195982609
+
+/-! ## A395784.P7086988217600733709
+
+`∩[A321454(n+1), A357862(n+1)]`
+-/
+
+namespace A395784.P7086988217600733709
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321454 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357862 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395784.P7086988217600733709
+
+/-! ## A395784.P13790861595835318460
+
+`A109422(A106000(n+1))`
+-/
+
+namespace A395784.P13790861595835318460
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109422 (A106000 (n + 1)).toNat
+
+end
+
+end A395784.P13790861595835318460
+
+/-! ## A395784.P8617371031182681873
+
+`∩[A010432(n+1), A109422(n+1)]`
+-/
+
+namespace A395784.P8617371031182681873
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010432 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109422 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395784.P8617371031182681873
+
+/-! ## A395784.P13722689027960306453
+
+`A109422(A064704(n+1))`
+-/
+
+namespace A395784.P13722689027960306453
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109422 (A064704 (n + 1)).toNat
+
+end
+
+end A395784.P13722689027960306453
+
+/-!
 # A395790: Numbers k such that gcd(i!,k) > gcd((i-1)!,k) for every i <= A002034(k) not coprime to k.
 
 The programs for A395790, there is no canonical definition to state claims against.

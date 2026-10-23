@@ -46,14 +46,12 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -418,6 +416,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A371811.P7300831867261276313
+
+/-! ## A371811.P6002500093253968356
+
+`eq[A040836(n), A294137(n)]`
+-/
+
+namespace A371811.P6002500093253968356
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040836 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294137 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A371811.P6002500093253968356
 
 /-!
 # A371812: Number of different ways A329383(n) is Brazilian.

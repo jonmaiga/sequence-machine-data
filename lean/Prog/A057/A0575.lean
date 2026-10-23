@@ -3556,24 +3556,20 @@ end
 
 end A057516.P16471456686236832341
 
-/-! ## A057516.P5830962140606715327
+/-! ## A057516.P15179438087452181164
 
-`A057515(n)-char[A057506(n+1)]`
+`A057515(n)+A127284(n)-A057514(n)`
 -/
 
-namespace A057516.P5830962140606715327
+namespace A057516.P15179438087452181164
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057506 (n + 1)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057515 n - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+  A057515 n + (A127284 n - A057514 n)
 
 end
 
-end A057516.P5830962140606715327
+end A057516.P15179438087452181164
 
 /-!
 # A057517: Binary encodings of the Catalan mountain ranges with exactly one sea-level valley, i.e., the rooted plane trees with root degree = 2.
@@ -7151,6 +7147,36 @@ theorem P4710718478601077176.correct : P4710718478601077176.Spec := by
 
 end A057532
 
+/-! ## A057532.P874272620216343382
+
+`∩[2*n+1, A057531(n+1)]`
+-/
+
+namespace A057532.P874272620216343382
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057531 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A057532.P874272620216343382
+
+namespace A057532
+
+/-- `∩[2*n+1, A057531(n+1)]` -/
+def P874272620216343382.Spec : Prop :=
+  ∀ n, (P874272620216343382.a n : ℤ) = A057532 (n + 1)
+
+end A057532
+
 /-! ## A057532.P3918254349695648149
 
 `record[A093411(A057531(n+1))]`
@@ -7230,32 +7256,6 @@ namespace A057532
 /-- `filter[A057531(n+1), A000035(#)]` -/
 def P7224799871770096778.Spec : Prop :=
   ∀ n, P7224799871770096778.a n = A057532 (n + 1)
-
-end A057532
-
-/-! ## A057532.P11986743713171507728
-
-`record[A188134(A057531(n+1))]/A040002(n+1)`
--/
-
-namespace A057532.P11986743713171507728
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188134 (A057531 (n + 1)).toNat
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) : ℚ) / (A040002 (n + 1) : ℚ)
-
-end
-
-end A057532.P11986743713171507728
-
-namespace A057532
-
-/-- `record[A188134(A057531(n+1))]/A040002(n+1)` -/
-def P11986743713171507728.Spec : Prop :=
-  ∀ n, P11986743713171507728.a n = (A057532 (n + 1) : ℚ)
 
 end A057532
 
@@ -8242,6 +8242,36 @@ def P9466756595564746454.Spec : Prop :=
 
 end A057538
 
+/-! ## A057538.P512944255944636271
+
+`∩[2*n+1, A204542(n+1)]`
+-/
+
+namespace A057538.P512944255944636271
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204542 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A057538.P512944255944636271
+
+namespace A057538
+
+/-- `∩[2*n+1, A204542(n+1)]` -/
+def P512944255944636271.Spec : Prop :=
+  ∀ n, (P512944255944636271.a n : ℤ) = A057538 (n + 1)
+
+end A057538
+
 /-! ## A057538.P8949556831824695648
 
 `A007775(A047401(n+2))`
@@ -8392,32 +8422,6 @@ namespace A057538
 /-- `filter[A204542(n+1), A373156(#)]` -/
 def P60841568340712411.Spec : Prop :=
   ∀ n, P60841568340712411.a n = A057538 (n + 1)
-
-end A057538
-
-/-! ## A057538.P8257376278029907814
-
-`filter[A204542(n+1), A374134(#)]`
--/
-
-namespace A057538.P8257376278029907814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204542 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A374134 (f1 j).toNat = 1) n)
-
-end
-
-end A057538.P8257376278029907814
-
-namespace A057538
-
-/-- `filter[A204542(n+1), A374134(#)]` -/
-def P8257376278029907814.Spec : Prop :=
-  ∀ n, P8257376278029907814.a n = A057538 (n + 1)
 
 end A057538
 
@@ -15184,6 +15188,52 @@ def P10047661146517172594.Spec : Prop :=
 
 end A057570
 
+/-! ## A057570.P174462142601869798
+
+`A062717(n+1)-A085787(n)`
+-/
+
+namespace A057570.P174462142601869798
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062717 (n + 1) - A085787 n
+
+end
+
+end A057570.P174462142601869798
+
+namespace A057570
+
+/-- `A062717(n+1)-A085787(n)` -/
+def P174462142601869798.Spec : Prop :=
+  ∀ n, P174462142601869798.a n = A057570 (n + 1)
+
+end A057570
+
+/-! ## A057570.P15887436958798737791
+
+`A219190(n+1)-A001318(n)`
+-/
+
+namespace A057570.P15887436958798737791
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219190 (n + 1) - A001318 n
+
+end
+
+end A057570.P15887436958798737791
+
+namespace A057570
+
+/-- `A219190(n+1)-A001318(n)` -/
+def P15887436958798737791.Spec : Prop :=
+  ∀ n, P15887436958798737791.a n = A057570 (n + 1)
+
+end A057570
+
 /-!
 # A057571: Area under Dyck paths.
 
@@ -17338,7 +17388,7 @@ end A057597
 /-!
 # A057599: a(n) = (n^2)!/(n!)^(n+1); number of ways of dividing n^2 labeled items into n unlabeled boxes of n items each.
 
-The programs for A057599, the canonical program `A057599.P2314703557819511826` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057599 has offset 0).
+The programs for A057599, the canonical program `A057599.P2314703557819511826` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057599 has offset 0).
 
 The definition of A057599 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17347,7 +17397,7 @@ The definition of A057599 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A034841(n)/A000142(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A057599

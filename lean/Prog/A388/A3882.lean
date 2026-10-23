@@ -51,6 +51,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -710,6 +711,32 @@ def P14080208258799977312.Spec : Prop :=
 
 end A388261
 
+/-! ## A388261.P18121384669415618775
+
+`filter[A237589(2*n+1), A010051(#)]`
+-/
+
+namespace A388261.P18121384669415618775
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237589 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A388261.P18121384669415618775
+
+namespace A388261
+
+/-- `filter[A237589(2*n+1), A010051(#)]` -/
+def P18121384669415618775.Spec : Prop :=
+  ∀ n, P18121384669415618775.a n = A388261 (n + 1)
+
+end A388261
+
 /-!
 # A388262: Records in A388038.
 
@@ -1175,6 +1202,42 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A388271.P10684939804738521990
+
+/-!
+# A388272: Primitive terms of A388271.
+
+The programs for A388272, there is no canonical definition to state claims against.
+-/
+
+/-! ## A388272.P1956704358636022869
+
+`A376874(A169829(n+1))`
+-/
+
+namespace A388272.P1956704358636022869
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376874 (A169829 (n + 1)).toNat
+
+end
+
+end A388272.P1956704358636022869
+
+/-! ## A388272.P16856274325786656847
+
+`A388266(A292125(n+1))`
+-/
+
+namespace A388272.P16856274325786656847
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A388266 (A292125 (n + 1)).toNat
+
+end
+
+end A388272.P16856274325786656847
 
 /-!
 # A388274: a(n) = A053585(sigma(n)).
@@ -2189,6 +2252,28 @@ end
 
 end A388291.P10028191853256351004
 
+/-! ## A388291.P11144393244657675329
+
+`∩[2*n+1, A002559(n+1)]`
+-/
+
+namespace A388291.P11144393244657675329
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002559 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388291.P11144393244657675329
+
 /-! ## A388291.P7708756446897206970
 
 `record[A000265(A002559(n+1))]`
@@ -2224,24 +2309,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388291.P2434194441675882066
-
-/-! ## A388291.P9836837936049049471
-
-`filter[A002559(n+1), A322980(#)]`
--/
-
-namespace A388291.P9836837936049049471
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002559 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A322980 (f1 j).toNat = 1) n)
-
-end
-
-end A388291.P9836837936049049471
 
 /-!
 # A388292: Position of the odd Markoff numbers A388291 in A002559.
@@ -2539,4 +2606,26 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A388293.P7754290588845208516
+
+/-! ## A388293.P11846900484291751409
+
+`∪[A391011(n+1), A392908(n+1)]`
+-/
+
+namespace A388293.P11846900484291751409
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391011 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392908 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A388293.P11846900484291751409
 

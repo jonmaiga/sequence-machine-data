@@ -3399,6 +3399,34 @@ def P13114662818118569352.Spec : Prop :=
 
 end A362438
 
+/-! ## A362438.P6318997097015109432
+
+`floor(Δ[2*a(n-1)]+(n+1)²)` with `a(0)=1`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A362438.P6318997097015109432
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1] fun n f1 =>
+  2 * f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ) + ((n + 1) ^ 2 : ℤ)
+
+end
+
+end A362438.P6318997097015109432
+
+namespace A362438
+
+/-- `floor(Δ[2*a(n-1)]+(n+1)²)` -/
+def P6318997097015109432.Spec : Prop :=
+  ∀ n, P6318997097015109432.a n = A362438 (n + 1)
+
+end A362438
+
 /-!
 # A362440: Aliqout sequence starting at 841.
 

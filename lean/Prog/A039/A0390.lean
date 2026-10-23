@@ -6326,6 +6326,90 @@ end
 
 end A039079.P4825515236407991650
 
+/-! ## A039079.P13747839245460330943
+
+`eq[A015296(n), A034519(n+1)]`
+-/
+
+namespace A039079.P13747839245460330943
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015296 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034519 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039079.P13747839245460330943
+
+/-! ## A039079.P15946481468090877055
+
+`eq[A015296(n), A034521(n+1)]`
+-/
+
+namespace A039079.P15946481468090877055
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015296 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034521 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039079.P15946481468090877055
+
+/-! ## A039079.P12817942489441732872
+
+`eq[A015296(n), A034528(n+1)]`
+-/
+
+namespace A039079.P12817942489441732872
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015296 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034528 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039079.P12817942489441732872
+
+/-! ## A039079.P2208676092094304339
+
+`eq[A015692(n), A034519(n+1)]`
+-/
+
+namespace A039079.P2208676092094304339
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015692 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034519 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039079.P2208676092094304339
+
 /-!
 # A039080: Numbers whose base-9 representation has the same number of 0's and 4's.
 
@@ -7301,25 +7385,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039099.P2564804596155254150
-
-/-! ## A039099.P12250538200666076915
-
-`lt[(n^3+n)/2, A320148((n^3+n)/2)]`
--/
-
-namespace A039099.P12250538200666076915
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n ^ 3 + n : ℚ) / 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320148 (SequenceMachineLib.roundAway ((n ^ 3 + n : ℚ) / 2)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℚ)) n
-
-end
-
-end A039099.P12250538200666076915
 

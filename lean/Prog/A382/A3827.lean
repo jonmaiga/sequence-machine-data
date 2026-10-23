@@ -816,6 +816,21 @@ end
 
 end A382710.P10446940589921284168
 
+/-! ## A382710.P5376614542806555449
+
+`A019446(n+3)-A003849(n)`
+-/
+
+namespace A382710.P5376614542806555449
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019446 (n + 3) - A003849 n
+
+end
+
+end A382710.P5376614542806555449
+
 /-!
 # A382711: Regarding A381019 as a permutation of the natural numbers, this is the cycle with smallest term 8, read in the forward direction.
 
@@ -3433,6 +3448,33 @@ def P5898545529614768784.Spec : Prop :=
 
 end A382744
 
+/-! ## A382744.P15164921713617431560
+
+`comp[lcm(5, val(n+1, 2))]`
+-/
+
+namespace A382744.P15164921713617431560
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lcm 5 (SequenceMachineLib.valuation (n + 1) 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A382744.P15164921713617431560
+
+namespace A382744
+
+/-- `comp[lcm(5, val(n+1, 2))]` -/
+def P15164921713617431560.Spec : Prop :=
+  ∀ n, (P15164921713617431560.a n : ℤ) = A382744 (n + 1)
+
+end A382744
+
 /-! ## A382744.P15712679190109976624
 
 `lt[A079513(3*n+2), A069916(A283442(n))]`
@@ -4482,6 +4524,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A382760.P12077864508289087457
+
+/-! ## A382760.P5127564368879619510
+
+`A385213(A324939(n))`
+-/
+
+namespace A382760.P5127564368879619510
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385213 (A324939 n).toNat
+
+end
+
+end A382760.P5127564368879619510
 
 /-!
 # A382761: List of graphs that are squares, encoded as in A382754.

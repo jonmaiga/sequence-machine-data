@@ -31,7 +31,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -1975,6 +1975,28 @@ end
 
 end A386224.P14396811982484835557
 
+/-! ## A386224.P14614579921267417079
+
+`∩[A304450(n+1), A387919(n+1)]`
+-/
+
+namespace A386224.P14614579921267417079
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304450 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387919 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A386224.P14614579921267417079
+
 /-! ## A386224.P10425878273178342839
 
 `∩[A363814(n+1), A387919(n+1)]`
@@ -2018,28 +2040,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A386224.P11197562727133883542
-
-/-! ## A386224.P1770732906352375026
-
-`∩[A367268(n+1), A380543(n+1)]`
--/
-
-namespace A386224.P1770732906352375026
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367268 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380543 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A386224.P1770732906352375026
 
 /-!
 # A386227: Expansion of e.g.f. cosh(x)^2*(1 + x + x^2/2).
@@ -2491,6 +2491,29 @@ def P12085811948825934987.Spec : Prop :=
 theorem P12085811948825934987.correct : P12085811948825934987.Spec := by
   intro n
   simp only [A386250]
+
+end A386250
+
+/-! ## A386250.P11132291949786763686
+
+`ogf((4x^4-3x^5)/(1-4x+4x^2))`
+-/
+
+namespace A386250.P11132291949786763686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 0, 0, 4, -3] [1, -4, 4] n
+
+end
+
+end A386250.P11132291949786763686
+
+namespace A386250
+
+/-- `ogf((4x^4-3x^5)/(1-4x+4x^2))` -/
+def P11132291949786763686.Spec : Prop :=
+  ∀ n, P11132291949786763686.a n = A386250 n
 
 end A386250
 
@@ -4682,12 +4705,12 @@ The programs for A386270, the canonical program `A386270.P15296392339893213735` 
 The definition of A386270 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A386270.P3188381290053231326
+/-! ## A386270.P12520224299471244233
 
-`ogf((-x+3x^3-2x^4)/(-1+4x-4x^2))`
+`ogf((x-3x^3+2x^4)/(1-4x+4x^2))`
 -/
 
-namespace A386270.P3188381290053231326
+namespace A386270.P12520224299471244233
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -4695,13 +4718,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A386270.P3188381290053231326
+end A386270.P12520224299471244233
 
 namespace A386270
 
-/-- `ogf((-x+3x^3-2x^4)/(-1+4x-4x^2))` -/
-def P3188381290053231326.Spec : Prop :=
-  ∀ n, P3188381290053231326.a n = A386270 n
+/-- `ogf((x-3x^3+2x^4)/(1-4x+4x^2))` -/
+def P12520224299471244233.Spec : Prop :=
+  ∀ n, P12520224299471244233.a n = A386270 n
 
 end A386270
 
@@ -5868,6 +5891,36 @@ namespace A386295
 /-- `∩[A005384(n+1), A108815(n+1)]` -/
 def P8540265898748342554.Spec : Prop :=
   ∀ n, (P8540265898748342554.a n : ℤ) = A386295 (n + 1)
+
+end A386295
+
+/-! ## A386295.P5554650278239814091
+
+`∩[A108815(n+1), A246857(n+1)]`
+-/
+
+namespace A386295.P5554650278239814091
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108815 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246857 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A386295.P5554650278239814091
+
+namespace A386295
+
+/-- `∩[A108815(n+1), A246857(n+1)]` -/
+def P5554650278239814091.Spec : Prop :=
+  ∀ n, (P5554650278239814091.a n : ℤ) = A386295 (n + 1)
 
 end A386295
 

@@ -65,7 +65,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1380,7 +1379,7 @@ end A244803
 /-!
 # A244804: The 300-degree spoke (or ray) of a hexagonal spiral of Ulam.
 
-The programs for A244804, the canonical program `A244804.P18087651801228786928` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244804 has offset 1).
+The programs for A244804, the canonical program `A244804.P18087651801228786928` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244804 has offset 1).
 
 The definition of A244804 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1389,7 +1388,7 @@ The definition of A244804 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `12*(n+1)²-23*(n+1)+12`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A244804
@@ -1844,6 +1843,32 @@ namespace A244804
 /-- `∑[A017533(record[A272727(n)])]` -/
 def P5572162211701017675.Spec : Prop :=
   ∀ n, P5572162211701017675.a n = A244804 (n + 1)
+
+end A244804
+
+/-! ## A244804.P9377212758812626418
+
+`∑[A272564(4*n)]`
+-/
+
+namespace A244804.P9377212758812626418
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272564 (4 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A244804.P9377212758812626418
+
+namespace A244804
+
+/-- `∑[A272564(4*n)]` -/
+def P9377212758812626418.Spec : Prop :=
+  ∀ n, P9377212758812626418.a n = A244804 (n + 1)
 
 end A244804
 
@@ -8111,6 +8136,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A244847.P17507371406181255943
+
+/-!
+# A244853: Let d(1)d(2)... d(q) denote the decimal expansion of a prime number n > 9. The sequence lists the primes such that replacing each digit d(i) with d(i+1) copies for i = 1..q-1 and d(q) with d(1) copies produces a prime. Zeros are not allowed.
+
+The programs for A244853, there is no canonical definition to state claims against.
+-/
+
+/-! ## A244853.P9465910836805999464
+
+`∩[A075824(n+1), A117835(n+1)]`
+-/
+
+namespace A244853.P9465910836805999464
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075824 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117835 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244853.P9465910836805999464
 
 /-!
 # A244855: a(n) = Fibonacci(n)^4-1.

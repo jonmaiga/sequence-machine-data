@@ -62,7 +62,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -94,6 +93,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A280600: Number of n X 4 0..1 arrays with no element equal to more than two of its horizontal, vertical and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
@@ -2944,20 +2944,93 @@ end
 
 end A280636.P13814682525784673987
 
-/-! ## A280636.P5248836723129342144
+/-! ## A280636.P12610136223332618505
 
-`A343760(A357132(n+1))`
+`∩[A001358(n+1), A280635(n+1)]`
 -/
 
-namespace A280636.P5248836723129342144
+namespace A280636.P12610136223332618505
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343760 (A357132 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280635 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A280636.P5248836723129342144
+end A280636.P12610136223332618505
+
+/-! ## A280636.P18007578714683082037
+
+`∩[A077136(n+1), A280635(n+1)]`
+-/
+
+namespace A280636.P18007578714683082037
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077136 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280635 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A280636.P18007578714683082037
+
+/-! ## A280636.P569399597985344075
+
+`∩[A085155(n+1), A280635(n+1)]`
+-/
+
+namespace A280636.P569399597985344075
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085155 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280635 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A280636.P569399597985344075
+
+/-! ## A280636.P4334806086731852580
+
+`∩[A112381(n+1), A280635(n+1)]`
+-/
+
+namespace A280636.P4334806086731852580
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112381 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280635 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A280636.P4334806086731852580
 
 /-!
 # A280637: Sum of the digits of n^2+1.
@@ -8390,6 +8463,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A280698.P13608630785505303726
+
+/-! ## A280698.P7476250479927602366
+
+`A102097(A280154(n+1))`
+-/
+
+namespace A280698.P7476250479927602366
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102097 (A280154 (n + 1)).toNat
+
+end
+
+end A280698.P7476250479927602366
 
 /-!
 # A280699: Greatest Lucas number that is a divisor of the n-th Fibonacci number, a(1) = a(2) = 1.

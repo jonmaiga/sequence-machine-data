@@ -46,6 +46,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2953,35 +2954,6 @@ namespace A087811
 /-- `∑[comp[lcm(3, n)]]-∑[n]` -/
 def P15083303515556470062.Spec : Prop :=
   ∀ n, P15083303515556470062.a n = A087811 (n + 1)
-
-end A087811
-
-/-! ## A087811.P15384621565942889656
-
-`round(∑[∑[sin(n+1)²]])`
--/
-
-namespace A087811.P15384621565942889656
-noncomputable section
-
-def f2 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sin (n + 1 : ℝ) ^ 2
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A087811.P15384621565942889656
-
-namespace A087811
-
-/-- `round(∑[∑[sin(n+1)²]])` -/
-def P15384621565942889656.Spec : Prop :=
-  ∀ n, P15384621565942889656.a n = A087811 (n + 1)
 
 end A087811
 
@@ -6145,6 +6117,28 @@ end
 
 end A087857.P16405853125779524382
 
+/-! ## A087857.P16786967028819365372
+
+`∩[A332227(n+1), A346145(n+1)]`
+-/
+
+namespace A087857.P16786967028819365372
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346145 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A087857.P16786967028819365372
+
 /-! ## A087857.P4388751069131994742
 
 `∩[A007519(n+1), A346145(n+1)]`
@@ -6255,16 +6249,16 @@ end
 
 end A087857.P2251781876272717539
 
-/-! ## A087857.P13858570117537980132
+/-! ## A087857.P1404651649343384355
 
-`∩[A279392(n+1), A346145(n+1)]`
+`∩[A242663(n+1), A346145(n+1)]`
 -/
 
-namespace A087857.P13858570117537980132
+namespace A087857.P1404651649343384355
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279392 (n + 1)
+  A242663 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A346145 (n + 1)
@@ -6275,29 +6269,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A087857.P13858570117537980132
-
-/-! ## A087857.P1103669759352369921
-
-`∩[A004625(n+1), A346145(n+1)]`
--/
-
-namespace A087857.P1103669759352369921
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004625 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346145 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A087857.P1103669759352369921
+end A087857.P1404651649343384355
 
 /-!
 # A087858: Lesser of twin primes p such that 2^p-1 is prime.

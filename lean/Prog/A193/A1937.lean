@@ -6195,6 +6195,27 @@ end
 
 end A193761.P15257701088465952081
 
+/-! ## A193761.P16958150649758913588
+
+`eq[A093796(n+1), A321452(n)]`
+-/
+
+namespace A193761.P16958150649758913588
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093796 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321452 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A193761.P16958150649758913588
+
 /-!
 # A193763: Number of signed permutations of length n avoiding (-2, 1) and (2, -1).
 
@@ -6614,6 +6635,29 @@ def P12801218464166520507.Spec : Prop :=
 
 end A193766
 
+/-! ## A193766.P431404647862674530
+
+`floor(cot(4/(9*(n+1))))`
+-/
+
+namespace A193766.P431404647862674530
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊Real.cot (4 / (9 * (n + 1) : ℚ) : ℝ)⌋
+
+end
+
+end A193766.P431404647862674530
+
+namespace A193766
+
+/-- `floor(cot(4/(9*(n+1))))` -/
+def P431404647862674530.Spec : Prop :=
+  ∀ n, P431404647862674530.a n = A193766 (n + 1)
+
+end A193766
+
 /-! ## A193766.P7745626646417706359
 
 `ceil(or(1, 9*n+4)/4)`
@@ -6989,29 +7033,6 @@ namespace A193766
 /-- `ceil((lcm(4, 2*n+1)+n+1)/4)` -/
 def P4070197759122859648.Spec : Prop :=
   ∀ n, P4070197759122859648.a n = A193766 (n + 1)
-
-end A193766
-
-/-! ## A193766.P2499813722918503227
-
-`floor(gcd(4, n)/3+a(n-1)+2)` with `a(0)=2`
--/
-
-namespace A193766.P2499813722918503227
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  ⌊(Nat.gcd 4 n : ℚ) / 3 + (a (n - 1) + 2 : ℚ)⌋
-
-end
-
-end A193766.P2499813722918503227
-
-namespace A193766
-
-/-- `floor(gcd(4, n)/3+a(n-1)+2)` -/
-def P2499813722918503227.Spec : Prop :=
-  ∀ n, P2499813722918503227.a n = A193766 (n + 1)
 
 end A193766
 

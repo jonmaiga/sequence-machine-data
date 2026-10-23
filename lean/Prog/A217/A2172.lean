@@ -5496,6 +5496,34 @@ end
 end A217262.P13191112859030881912
 
 /-!
+# A217263: Composite numbers such that every concatenation of their prime factors is prime.
+
+The programs for A217263, there is no canonical definition to state claims against.
+-/
+
+/-! ## A217263.P14185752536282447410
+
+`∪[A217264(n+1), A330441(n+1)]`
+-/
+
+namespace A217263.P14185752536282447410
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217264 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330441 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217263.P14185752536282447410
+
+/-!
 # A217264: Numbers with 3 or more prime factors (with multiplicity) such that every concatenation of their prime factors is prime.
 
 The programs for A217264, there is no canonical definition to state claims against.
@@ -5518,6 +5546,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A217264.P14163321876104300486
+
+/-! ## A217264.P4119600789938777678
+
+`∩[A030515(n+1), A217263(n+1)]`
+-/
+
+namespace A217264.P4119600789938777678
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030515 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217263 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217264.P4119600789938777678
 
 /-!
 # A217267: Number of n X n arrays of occupancy after each element moves to some horizontal or vertical neighbor.

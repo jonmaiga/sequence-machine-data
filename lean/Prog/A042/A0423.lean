@@ -27,7 +27,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000

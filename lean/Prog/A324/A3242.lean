@@ -51,7 +51,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4953,6 +4952,28 @@ end
 
 end A324278.P4319205120496150686
 
+/-! ## A324278.P13429013156474641181
+
+`∩[A346130(n+1), A372740(n+1)]`
+-/
+
+namespace A324278.P13429013156474641181
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346130 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372740 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A324278.P13429013156474641181
+
 /-!
 # A324284: a(n) = gcd(n, A324283(n)).
 
@@ -5253,7 +5274,7 @@ end A324285
 /-!
 # A324286: a(n) = A002487(A048675(n)).
 
-The programs for A324286, the canonical program `A324286.P15965892089874497265` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324286 has offset 1).
+The programs for A324286, the canonical program `A324286.P15965892089874497265` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324286 has offset 1).
 
 The definition of A324286 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048675, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5285,7 +5306,7 @@ end A324286
 
 `A002487(A048675(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A324286

@@ -72,6 +72,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -875,6 +876,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A232212.P11933328179872040187
+
+/-! ## A232212.P12880868767440146146
+
+`xor(A222489(n+1), A325159(n))`
+-/
+
+namespace A232212.P12880868767440146146
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A222489 (n + 1)) (A325159 n)
+
+end
+
+end A232212.P12880868767440146146
 
 /-!
 # A232213: Arises from color-symmetrized counting of tensor invariants.

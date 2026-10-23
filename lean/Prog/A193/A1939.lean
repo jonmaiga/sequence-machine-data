@@ -4347,6 +4347,25 @@ end A193926.P9184620149686291426
 The programs for A193927, there is no canonical definition to state claims against.
 -/
 
+/-! ## A193927.P6177576835624662308
+
+`comp[A193928(n+1)]`
+-/
+
+namespace A193927.P6177576835624662308
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193928 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A193927.P6177576835624662308
+
 /-! ## A193927.P7313624255970358471
 
 `lt[A193926(n), 0]`

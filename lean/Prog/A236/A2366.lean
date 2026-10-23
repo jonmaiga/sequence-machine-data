@@ -81,7 +81,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -6660,56 +6659,48 @@ end A236676
 /-!
 # A236677: a(0)=1; for n>0, a(n) = (1-a(floor(log_2(n)))) * a(n-msb(n)); characteristic function of A079599.
 
-The programs for A236677, the canonical program `A236677.P5108655105669203284` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236677 has offset 0).
-
-The definition of A236677 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A236677, there is no canonical definition to state claims against.
 -/
 
-/-! ## A236677.P5108655105669203284
+/-! ## A236677.P1641380096560791010
 
-`(1-a(A000523(n)))*a(A053645(n))` with `a(0)=1, a(1)=0`
-
-The canonical program, it is in `Seq.B001.C007`.
+`char[A079599(n)]`
 -/
 
-namespace A236677
+namespace A236677.P1641380096560791010
+noncomputable section
 
-/-- `(1-a(A000523(n)))*a(A053645(n))` -/
-def P5108655105669203284.Spec : Prop :=
-  ∀ n, P5108655105669203284.a n = A236677 n
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079599 n
 
-theorem P5108655105669203284.correct : P5108655105669203284.Spec := by
-  intro n
-  simp only [A236677]
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
 
-end A236677
+end
+
+end A236677.P1641380096560791010
 
 /-!
 # A236678: Partial sums of the characteristic function of A079599.
 
-The programs for A236678, the canonical program `A236678.P11070967660282356039` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236678 has offset 0).
-
-The definition of A236678 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A236677, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The programs for A236678, there is no canonical definition to state claims against.
 -/
 
 /-! ## A236678.P11070967660282356039
 
 `a(n-1)+A236677(n)` with `a(0)=1`
-
-The canonical program, it is in `Seq.B002.C004`.
 -/
 
-namespace A236678
+namespace A236678.P11070967660282356039
+noncomputable section
 
-/-- `a(n-1)+A236677(n)` -/
-def P11070967660282356039.Spec : Prop :=
-  ∀ n, P11070967660282356039.a n = A236678 n
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) + A236677 n
 
-theorem P11070967660282356039.correct : P11070967660282356039.Spec := by
-  intro n
-  simp only [A236678]
+end
 
-end A236678
+end A236678.P11070967660282356039
 
 /-! ## A236678.P14012946431134788402
 
@@ -6728,14 +6719,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P14012946431134788402
-
-namespace A236678
-
-/-- `∑[A236677(n)]` -/
-def P14012946431134788402.Spec : Prop :=
-  ∀ n, P14012946431134788402.a n = A236678 n
-
-end A236678
 
 /-! ## A236678.P15368699336580528380
 
@@ -6759,14 +6742,6 @@ end
 
 end A236678.P15368699336580528380
 
-namespace A236678
-
-/-- `∑[char[A079599(n)]]` -/
-def P15368699336580528380.Spec : Prop :=
-  ∀ n, (P15368699336580528380.a n : ℤ) = A236678 n
-
-end A236678
-
 /-! ## A236678.P2137754030355977961
 
 `∑[1-A115971(n)]`
@@ -6784,14 +6759,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P2137754030355977961
-
-namespace A236678
-
-/-- `∑[1-A115971(n)]` -/
-def P2137754030355977961.Spec : Prop :=
-  ∀ n, P2137754030355977961.a n = A236678 n
-
-end A236678
 
 /-! ## A236678.P5112486861531529309
 
@@ -6811,14 +6778,6 @@ end
 
 end A236678.P5112486861531529309
 
-namespace A236678
-
-/-- `∑[A320006(A001196(n))]` -/
-def P5112486861531529309.Spec : Prop :=
-  ∀ n, P5112486861531529309.a n = A236678 n
-
-end A236678
-
 /-! ## A236678.P821640755986462019
 
 `∑[A320006(A106485(n))]`
@@ -6836,14 +6795,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P821640755986462019
-
-namespace A236678
-
-/-- `∑[A320006(A106485(n))]` -/
-def P821640755986462019.Spec : Prop :=
-  ∀ n, P821640755986462019.a n = A236678 n
-
-end A236678
 
 /-! ## A236678.P2231938031560692719
 
@@ -6866,14 +6817,6 @@ end
 
 end A236678.P2231938031560692719
 
-namespace A236678
-
-/-- `∑[((n+1)*A000217(∑[n+1]))%2]` -/
-def P2231938031560692719.Spec : Prop :=
-  ∀ n, P2231938031560692719.a n = A236678 n
-
-end A236678
-
 /-! ## A236678.P7227867981032935989
 
 `∑[and(1, (n+1)*A000217(A000217(n+1)))]`
@@ -6891,14 +6834,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P7227867981032935989
-
-namespace A236678
-
-/-- `∑[and(1, (n+1)*A000217(A000217(n+1)))]` -/
-def P7227867981032935989.Spec : Prop :=
-  ∀ n, P7227867981032935989.a n = A236678 n
-
-end A236678
 
 /-! ## A236678.P14844082188160421458
 
@@ -6924,14 +6859,6 @@ end
 
 end A236678.P14844082188160421458
 
-namespace A236678
-
-/-- `∑[∑[A000217(∑[n+2])]%2]` -/
-def P14844082188160421458.Spec : Prop :=
-  ∀ n, P14844082188160421458.a n = A236678 n
-
-end A236678
-
 /-! ## A236678.P7923915020058334609
 
 `∑[((∑[∑[n+1]]%4)^n)%3]`
@@ -6956,14 +6883,6 @@ end
 
 end A236678.P7923915020058334609
 
-namespace A236678
-
-/-- `∑[((∑[∑[n+1]]%4)^n)%3]` -/
-def P7923915020058334609.Spec : Prop :=
-  ∀ n, (P7923915020058334609.a n : ℤ) = A236678 n
-
-end A236678
-
 /-! ## A236678.P8431728598631683403
 
 `A084359(A039823(n+2))`
@@ -6978,14 +6897,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P8431728598631683403
-
-namespace A236678
-
-/-- `A084359(A039823(n+2))` -/
-def P8431728598631683403.Spec : Prop :=
-  ∀ n, P8431728598631683403.a n = A236678 n
-
-end A236678
 
 /-! ## A236678.P7701978932642166985
 
@@ -7002,14 +6913,6 @@ end
 
 end A236678.P7701978932642166985
 
-namespace A236678
-
-/-- `A008726(n)-A002265(A008726(2*n+1))` -/
-def P7701978932642166985.Spec : Prop :=
-  ∀ n, P7701978932642166985.a n = A236678 n
-
-end A236678
-
 /-! ## A236678.P8661931432150723705
 
 `A002264(A096604(n+1-A057361(n+1)))`
@@ -7024,14 +6927,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P8661931432150723705
-
-namespace A236678
-
-/-- `A002264(A096604(n+1-A057361(n+1)))` -/
-def P8661931432150723705.Spec : Prop :=
-  ∀ n, P8661931432150723705.a n = A236678 n
-
-end A236678
 
 /-! ## A236678.P10104741818458440125
 
@@ -7054,14 +6949,6 @@ end
 
 end A236678.P10104741818458440125
 
-namespace A236678
-
-/-- `∑[A021913(∑[A003188(n+3)])]` -/
-def P10104741818458440125.Spec : Prop :=
-  ∀ n, P10104741818458440125.a n = A236678 n
-
-end A236678
-
 /-! ## A236678.P5951422776904917109
 
 `∑[A014577((1-n)²+2)]`
@@ -7079,14 +6966,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236678.P5951422776904917109
-
-namespace A236678
-
-/-- `∑[A014577((1-n)²+2)]` -/
-def P5951422776904917109.Spec : Prop :=
-  ∀ n, P5951422776904917109.a n = A236678 n
-
-end A236678
 
 /-!
 # A236680: Dimension of the space of spinors in n-dimensional real space.
@@ -7940,19 +7819,19 @@ end
 
 end A236688.P14065023305506939799
 
-/-! ## A236688.P144294101232324653
+/-! ## A236688.P5407595704614724053
 
-`∩[A075763(n+1), A074328(n+1)]`
+`∩[A074328(n+1), A075763(n+1)]`
 -/
 
-namespace A236688.P144294101232324653
+namespace A236688.P5407595704614724053
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075763 (n + 1)
+  A074328 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074328 (n + 1)
+  A075763 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7960,7 +7839,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A236688.P144294101232324653
+end A236688.P5407595704614724053
 
 /-! ## A236688.P13603599216179503851
 

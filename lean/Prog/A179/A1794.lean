@@ -12,6 +12,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,6 +24,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
@@ -37,6 +39,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -405,6 +408,27 @@ def P12698988791578356791.Spec : Prop :=
   ∀ n, P12698988791578356791.a n = A179403 (n + 1)
 
 end A179403
+
+/-!
+# A179404: Number of ways to place 3 nonattacking kings on an n X n toroidal board.
+
+The programs for A179404, there is no canonical definition to state claims against.
+-/
+
+/-! ## A179404.P17670843683151998200
+
+`A114061(A192814(n))`
+-/
+
+namespace A179404.P17670843683151998200
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114061 (A192814 n).toNat
+
+end
+
+end A179404.P17670843683151998200
 
 /-!
 # A179405: n-th derivative of x^(x^(x^x)) at x=1.
@@ -2091,26 +2115,26 @@ def P861493448618328775.Spec : Prop :=
 
 end A179436
 
-/-! ## A179436.P8280789292196336065
+/-! ## A179436.P13992712236509352499
 
-`A060544(n+2)-3`
+`A064226(n)+A017029(n)`
 -/
 
-namespace A179436.P8280789292196336065
+namespace A179436.P13992712236509352499
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060544 (n + 2) - 3
+  A064226 n + A017029 n
 
 end
 
-end A179436.P8280789292196336065
+end A179436.P13992712236509352499
 
 namespace A179436
 
-/-- `A060544(n+2)-3` -/
-def P8280789292196336065.Spec : Prop :=
-  ∀ n, P8280789292196336065.a n = A179436 n
+/-- `A064226(n)+A017029(n)` -/
+def P13992712236509352499.Spec : Prop :=
+  ∀ n, P13992712236509352499.a n = A179436 n
 
 end A179436
 
@@ -4915,6 +4939,21 @@ end
 
 end A179458.P365373350495795839
 
+/-! ## A179458.P17320749768577096824
+
+`A008619(A381122(n+2))`
+-/
+
+namespace A179458.P17320749768577096824
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (A381122 (n + 2)).toNat
+
+end
+
+end A179458.P17320749768577096824
+
 /-!
 # A179459: Squares that are a sum of two Fibonacci numbers plus the square of a Fibonacci number.
 
@@ -6248,6 +6287,52 @@ def P11032760730540664628.Spec : Prop :=
 
 end A179477
 
+/-! ## A179477.P16762743986844242341
+
+`A064617(n+1)+1`
+-/
+
+namespace A179477.P16762743986844242341
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064617 (n + 1) + 1
+
+end
+
+end A179477.P16762743986844242341
+
+namespace A179477
+
+/-- `A064617(n+1)+1` -/
+def P16762743986844242341.Spec : Prop :=
+  ∀ n, P16762743986844242341.a n = A179477 n
+
+end A179477
+
+/-! ## A179477.P5950847821021750086
+
+`A099675(n+1)+2+n`
+-/
+
+namespace A179477.P5950847821021750086
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099675 (n + 1) + 2 + (n : ℤ)
+
+end
+
+end A179477.P5950847821021750086
+
+namespace A179477
+
+/-- `A099675(n+1)+2+n` -/
+def P5950847821021750086.Spec : Prop :=
+  ∀ n, P5950847821021750086.a n = A179477 n
+
+end A179477
+
 /-! ## A179477.P16778262827902115210
 
 `∑[A063945(n+1)-∑[round(10^(n-1))]]`
@@ -6384,35 +6469,6 @@ namespace A179477
 /-- `∑[Δ[A000533(n)]-A002275(n)]` -/
 def P5596102929400537092.Spec : Prop :=
   ∀ n, P5596102929400537092.a n = A179477 n
-
-end A179477
-
-/-! ## A179477.P7037167070167722348
-
-`Δ[Δ[A052262(n)]-A052262(n)]`
--/
-
-namespace A179477.P7037167070167722348
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052262 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n - A052262 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A179477.P7037167070167722348
-
-namespace A179477
-
-/-- `Δ[Δ[A052262(n)]-A052262(n)]` -/
-def P7037167070167722348.Spec : Prop :=
-  ∀ n, P7037167070167722348.a n = A179477 n
 
 end A179477
 

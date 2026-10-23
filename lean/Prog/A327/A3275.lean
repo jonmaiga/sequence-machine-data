@@ -49,7 +49,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -3731,6 +3731,21 @@ end
 
 end A327529.P6051418896676269130
 
+/-! ## A327529.P6427907932337836922
+
+`gcd(A061019(n+1), A387135(n+1))`
+-/
+
+namespace A327529.P6427907932337836922
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A061019 (n + 1)) (A387135 (n + 1))
+
+end
+
+end A327529.P6427907932337836922
+
 /-! ## A327529.P14556354551607365585
 
 `(n+1)^∏{e}[A289508(n+1), A000035(A049207(#))]`
@@ -3793,21 +3808,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A327529.P2541233498901326384
-
-/-! ## A327529.P15615001276208417362
-
-`gcd(n+1, A322389(n+1))`
--/
-
-namespace A327529.P15615001276208417362
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (n + 1 : ℤ) (A322389 (n + 1))
-
-end
-
-end A327529.P15615001276208417362
 
 /-!
 # A327530: Number of divisors of n that are 1 or whose prime indices are relatively prime.
@@ -10105,6 +10105,28 @@ end A327591.P6483739890506034814
 The programs for A327593, there is no canonical definition to state claims against.
 -/
 
+/-! ## A327593.P17764862976814097941
+
+`∪[A242139(n+1), A321513(n+1)]`
+-/
+
+namespace A327593.P17764862976814097941
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242139 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321513 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327593.P17764862976814097941
+
 /-! ## A327593.P3082093954187203834
 
 `∪[A242139(n+1), A389956(n+1)]`
@@ -10195,27 +10217,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A327593.P16746973553579287239
-
-/-! ## A327593.P8525811218789518603
-
-`lt[A344615(n), A379736(A234742(n))]`
--/
-
-namespace A327593.P8525811218789518603
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344615 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379736 (A234742 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A327593.P8525811218789518603
 
 /-!
 # A327594: Number of parts in all twice partitions of n.

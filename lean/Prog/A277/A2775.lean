@@ -55,7 +55,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -5634,16 +5633,16 @@ end
 
 end A277557.P16274812811586255393
 
-/-! ## A277557.P12121296823567259076
+/-! ## A277557.P17288308175121540892
 
-`∩[A014132(A292565(n+1)), A337308(n+1)]`
+`∩[A061887(n), A337308(n+1)]`
 -/
 
-namespace A277557.P12121296823567259076
+namespace A277557.P17288308175121540892
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014132 (A292565 (n + 1)).toNat
+  A061887 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A337308 (n + 1)
@@ -5654,25 +5653,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A277557.P12121296823567259076
+end A277557.P17288308175121540892
 
-/-! ## A277557.P9160316881093809377
+/-! ## A277557.P15599949400523795376
 
-`filter[A337308(n+1), A357298(#)]`
+`∩[A007607(n+1), A337308(n+1)]`
 -/
 
-namespace A277557.P9160316881093809377
+namespace A277557.P15599949400523795376
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007607 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A337308 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A357298 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A277557.P9160316881093809377
+end A277557.P15599949400523795376
 
 /-!
 # A277558: A variation on Recamán's sequence (A005132): to get a(n), we first try to subtract n from a(n-1): a(n) = a(n-1)-n if positive and not already in the sequence; if not then a(n) = a(n-1)+n-i, where i >= 0 is the smallest number such that a(n-1)+n-i has not already appeared.
@@ -6219,6 +6222,29 @@ namespace A277560
 /-- `xor(A019426(2*n), A280410(n))` -/
 def P8774224572653284998.Spec : Prop :=
   ∀ n, P8774224572653284998.a n = A277560 n
+
+end A277560
+
+/-! ## A277560.P13980382000669459358
+
+`A062510(n)+A280410(n)-A155559(n)`
+-/
+
+namespace A277560.P13980382000669459358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062510 n + (A280410 n - A155559 n)
+
+end
+
+end A277560.P13980382000669459358
+
+namespace A277560
+
+/-- `A062510(n)+A280410(n)-A155559(n)` -/
+def P13980382000669459358.Spec : Prop :=
+  ∀ n, P13980382000669459358.a n = A277560 n
 
 end A277560
 
@@ -6772,21 +6798,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277562.P3806466060237610628
-
-/-! ## A277562.P8492291016112253716
-
-`A372405(A385049(A374291(n+1))+n+1)`
--/
-
-namespace A277562.P8492291016112253716
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A372405 (A385049 (A374291 (n + 1)).toNat + (n + 1 : ℤ)).toNat
-
-end
-
-end A277562.P8492291016112253716
 
 /-!
 # A277563: Fifth column of Euler's difference table in A068106.

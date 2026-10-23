@@ -67,6 +67,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1309,20 +1310,27 @@ end
 
 end A053918.P7368188175290665065
 
-/-! ## A053918.P10213704311028090017
+/-! ## A053918.P3200152377539749374
 
-`A000027(root(A053919(n+1), 2))`
+`∩[A275971(n+1), A295005(n+1)]`
 -/
 
-namespace A053918.P10213704311028090017
+namespace A053918.P3200152377539749374
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (SequenceMachineLib.roundAway ((A053919 (n + 1) : ℝ) ^ (1 / (2 : ℝ)))).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A275971 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295005 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A053918.P10213704311028090017
+end A053918.P3200152377539749374
 
 /-!
 # A053919: Squares composed of digits {2,3,5}.

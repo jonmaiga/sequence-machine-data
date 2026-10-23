@@ -3006,34 +3006,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-x-3x^2))` (program `A052533.P16869979869100875161`, by `A052533.P16869979869100875161.correct`). Lean does not check the parsing of the name. -/
 def A052533.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A047207.P5182596554560112218
-
-`a(n-1)+a(n-4)-a(n-5)` with `a(0)=0, a(1)=1, a(2)=3, a(3)=4, a(4)=5`
--/
-
-namespace A047207.P5182596554560112218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 3, 4, 5] fun n a =>
-  a (n - 1) + a (n - 4) - a (n - 5)
-
-end
-
-end A047207.P5182596554560112218
-
-noncomputable section
-
-/-- A047207: Numbers that are congruent to {0, 1, 3, 4} mod 5.
-
-Offset 1, canonical program `A047207.P5182596554560112218`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A047207 (n : ℕ) : ℤ :=
-  A047207.P5182596554560112218.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A047207.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A047208.P14497428806713299572
 
 `a(n-2)+5` with `a(0)=0, a(1)=4`
@@ -26836,6 +26808,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A048727.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A048728.P12678248660614881244
+
+`2*and(n, 2*n)`
+-/
+
+namespace A048728.P12678248660614881244
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * Nat.land n (2 * n)
+
+end
+
+end A048728.P12678248660614881244
+
+noncomputable section
+
+/-- A048728: Differences between A008585 (multiples of 3) and A048724.
+
+Offset 0, canonical program `A048728.P12678248660614881244`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A048728 (n : ℕ) : ℤ :=
+  (A048728.P12678248660614881244.a n : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A048728.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A048729.P10088475037815274904
 

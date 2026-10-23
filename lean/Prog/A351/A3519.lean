@@ -44,6 +44,7 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -3899,6 +3900,28 @@ end
 
 end A351947.P16148015846524506332
 
+/-! ## A351947.P8906412915177931548
+
+`∩[A308222(n+1), A378430(n+1)]`
+-/
+
+namespace A351947.P8906412915177931548
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308222 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378430 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A351947.P8906412915177931548
+
 /-!
 # A351949: Lexicographically earliest infinite sequence such that a(i) = a(j) => A246277(A329044(i)) = A246277(A329044(j)) and A003557(i) = A003557(j), for all i, j >= 1.
 
@@ -5847,26 +5870,27 @@ end
 
 end A351959.P1676650714470909858
 
-/-! ## A351959.P15415393481851544343
+/-! ## A351959.P15032214044999530467
 
-`eq[4, A329045(A028310(n))]`
+`∩[A002808(n+1), A344591(n+1)]`
 -/
 
-namespace A351959.P15415393481851544343
+namespace A351959.P15032214044999530467
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002808 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329045 (A028310 n).toNat
+  A344591 (n + 1)
 
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A351959.P15415393481851544343
+end A351959.P15032214044999530467
 
 /-!
 # A351961: Square array A(n,k) = A156552(gcd(A005940(1+n), A005940(1+k))), read by antidiagonals.

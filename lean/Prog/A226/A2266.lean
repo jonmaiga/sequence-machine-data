@@ -15,8 +15,10 @@ import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -26,6 +28,7 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
@@ -38,9 +41,11 @@ import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2293,10 +2298,29 @@ end A226635.P6690216972872997614
 /-!
 # A226636: Numbers whose base-3 sum of digits is 3.
 
-The programs for A226636, the canonical program `A226636.P1207896288114140507` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226636 has offset 1).
+The programs for A226636, the canonical program `A226636.P1432254579412042459` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226636 has offset 1).
 
-The definition of A226636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A226636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A226636.P1432254579412042459
+
+`∪[A023741(n+1), A038465(n+1)]`
+
+The canonical program, it is in `Seq.B007.C001`.
+-/
+
+namespace A226636
+
+/-- `∪[A023741(n+1), A038465(n+1)]` -/
+def P1432254579412042459.Spec : Prop :=
+  ∀ n, (P1432254579412042459.a n : ℤ) = A226636 (n + 1)
+
+theorem P1432254579412042459.correct : P1432254579412042459.Spec := by
+  intro n
+  simp only [A226636, Nat.add_sub_cancel]
+
+end A226636
 
 /-! ## A226636.P18408590046692720709
 
@@ -2463,19 +2487,29 @@ end A226636
 /-! ## A226636.P1207896288114140507
 
 `eq[3, A053735(n)]`
-
-The canonical program, it is in `Seq.B002.C004`.
 -/
+
+namespace A226636.P1207896288114140507
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053735 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A226636.P1207896288114140507
 
 namespace A226636
 
 /-- `eq[3, A053735(n)]` -/
 def P1207896288114140507.Spec : Prop :=
   ∀ n, (P1207896288114140507.a n : ℤ) = A226636 (n + 1)
-
-theorem P1207896288114140507.correct : P1207896288114140507.Spec := by
-  intro n
-  simp only [A226636, Nat.add_sub_cancel]
 
 end A226636
 
@@ -3329,6 +3363,24 @@ end
 
 end A226639.P13015647335641850155
 
+/-! ## A226639.P8984036055176586728
+
+`∑[A158842(n)-n²]`
+-/
+
+namespace A226639.P8984036055176586728
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158842 n - (n ^ 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A226639.P8984036055176586728
+
 /-! ## A226639.P6348000421893550410
 
 `A337898(n+1)%A153977(n+1)`
@@ -3343,6 +3395,54 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A226639.P6348000421893550410
+
+/-! ## A226639.P11484692034354424346
+
+`A125811(A212342(n))`
+-/
+
+namespace A226639.P11484692034354424346
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125811 (A212342 n).toNat
+
+end
+
+end A226639.P11484692034354424346
+
+/-! ## A226639.P4381887063644336284
+
+`A125811(A175631(n+2))`
+-/
+
+namespace A226639.P4381887063644336284
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125811 (A175631 (n + 2)).toNat
+
+end
+
+end A226639.P4381887063644336284
+
+/-! ## A226639.P11206595434015729701
+
+`A105794(∑[n+3])`
+-/
+
+namespace A226639.P11206595434015729701
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105794 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A226639.P11206595434015729701
 
 /-!
 # A226640: a(n) = 2^x+2^y where p(n) is the n-th prime of the form 4*k+1 and x, y is the unique integer solution to p(n) = x^2+y^2.
@@ -4814,26 +4914,27 @@ end
 
 end A226674.P3711819161697170691
 
-/-! ## A226674.P13968480745147079548
+/-! ## A226674.P8042640266393123596
 
-`A226671(lt[A035047(n+1), A226671(n+1)])`
+`∩[A174670(n+1), A226671(n+1)]`
 -/
 
-namespace A226674.P13968480745147079548
+namespace A226674.P8042640266393123596
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035047 (n + 1)
+  A174670 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A226671 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226671 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A226674.P13968480745147079548
+end A226674.P8042640266393123596
 
 /-!
 # A226675: Smallest element in the primitive Collatz-like 3x+k cycle(s) associated with the conjectured record-breaking number A226673(n) of odd elements.
@@ -5712,4 +5813,26 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A226696.P13975300869288158730
+
+/-! ## A226696.P5501312469585414985
+
+`∩[A197128(n+1), A341420(n+1)]`
+-/
+
+namespace A226696.P5501312469585414985
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197128 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341420 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A226696.P5501312469585414985
 

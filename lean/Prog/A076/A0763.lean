@@ -4948,6 +4948,29 @@ def P1003603193790006867.Spec : Prop :=
 
 end A076333
 
+/-! ## A076333.P5247399351519051414
+
+`A023443(A076619(n+1))`
+-/
+
+namespace A076333.P5247399351519051414
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A076619 (n + 1)).toNat
+
+end
+
+end A076333.P5247399351519051414
+
+namespace A076333
+
+/-- `A023443(A076619(n+1))` -/
+def P5247399351519051414.Spec : Prop :=
+  ∀ n, P5247399351519051414.a n = A076333 (n + 1)
+
+end A076333
+
 /-!
 # A076334: Differences between successive squarefree kernels.
 
@@ -7384,6 +7407,28 @@ end
 
 end A076352.P3637397033133615090
 
+/-! ## A076352.P3426693820485522139
+
+`∩[A005117(n+1), A076351(n+1)]`
+-/
+
+namespace A076352.P3426693820485522139
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076351 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A076352.P3426693820485522139
+
 /-! ## A076352.P14077016540523107736
 
 `filter[A076351(n+1), A323154(#)]`
@@ -7401,24 +7446,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A076352.P14077016540523107736
-
-/-! ## A076352.P7170877083651893615
-
-`filter[A076351(n+1), A353559(#)]`
--/
-
-namespace A076352.P7170877083651893615
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A076351 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353559 (f1 j).toNat = 1) n)
-
-end
-
-end A076352.P7170877083651893615
 
 /-!
 # A076353: Numbers n such that Sum_{k=1..n} d(k) is an integer, where d(k) is the decimal fraction 0.floor(sqrt(k)) (e.g. d(16)=0.4).
@@ -10529,6 +10556,29 @@ def P5629883225488118211.Spec : Prop :=
 
 end A076369
 
+/-! ## A076369.P5535446027215148485
+
+`A231821(n+1)+A023444(n)`
+-/
+
+namespace A076369.P5535446027215148485
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231821 (n + 1) + A023444 n
+
+end
+
+end A076369.P5535446027215148485
+
+namespace A076369
+
+/-- `A231821(n+1)+A023444(n)` -/
+def P5535446027215148485.Spec : Prop :=
+  ∀ n, P5535446027215148485.a n = A076369 (n + 1)
+
+end A076369
+
 /-!
 # A076370: a(n) is the smallest number k such that primorial(k)^2 > primorial(n).
 
@@ -12633,6 +12683,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A076398.P3182925478426351109
+
+/-! ## A076398.P3809843312729031690
+
+`A001221(A377043(n+1)+A000961(n+1))`
+-/
+
+namespace A076398.P3809843312729031690
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (A377043 (n + 1) + A000961 (n + 1)).toNat
+
+end
+
+end A076398.P3809843312729031690
 
 /-!
 # A076399: Number of prime factors of n-th perfect power (with repetition).

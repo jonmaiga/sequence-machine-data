@@ -39,6 +39,7 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -5118,20 +5119,27 @@ end
 
 end A359695.P8798744441047563749
 
-/-! ## A359695.P16491770903817214884
+/-! ## A359695.P15343153245558621294
 
-`2*A317245(A325325(3*n+2))`
+`∩[A164160(n), A173144(n+1)]`
 -/
 
-namespace A359695.P16491770903817214884
+namespace A359695.P15343153245558621294
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A317245 (A325325 (3 * n + 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164160 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173144 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A359695.P16491770903817214884
+end A359695.P15343153245558621294
 
 /-!
 # A359696: a(n) is the number of points with integer coordinates located between the x-axis and the graph of the function y = n^3 / (n^2 + x^2).

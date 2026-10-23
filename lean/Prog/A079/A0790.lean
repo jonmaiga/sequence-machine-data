@@ -539,6 +539,32 @@ theorem P3973055864373135510.correct : P3973055864373135510.Spec := by
 
 end A079003
 
+/-! ## A079003.P3986640487037747561
+
+`∑[ogf((-3+6x+x^2)/(-1+3x))]`
+-/
+
+namespace A079003.P3986640487037747561
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, -6, -1] [1, -3] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A079003.P3986640487037747561
+
+namespace A079003
+
+/-- `∑[ogf((-3+6x+x^2)/(-1+3x))]` -/
+def P3986640487037747561.Spec : Prop :=
+  ∀ n, P3986640487037747561.a n = A079003 (n + 1)
+
+end A079003
+
 /-! ## A079003.P4273347413045412159
 
 `ogf((3-6x-x^2)/(1-4x+3x^2))`
@@ -4528,6 +4554,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A079042.P12651600832007946617
+
+/-! ## A079042.P15247920908208629138
+
+`∩[A079238(n+1), A323048(n+1)]`
+-/
+
+namespace A079042.P15247920908208629138
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079238 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323048 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A079042.P15247920908208629138
 
 /-!
 # A079043: a(0)=1, then the fractional part of Pi*a(n) decreases monotonically to zero.

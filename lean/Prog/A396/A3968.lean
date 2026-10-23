@@ -41,7 +41,6 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -2648,6 +2647,28 @@ end
 
 end A396852.P11221696564559232602
 
+/-! ## A396852.P7364280616216211919
+
+`∩[A130091(n+1), A340656(n+1)]`
+-/
+
+namespace A396852.P7364280616216211919
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130091 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340656 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396852.P7364280616216211919
+
 /-! ## A396852.P5959168447554352541
 
 `∩[A182852(n+1), A340656(n+1)]`
@@ -2670,19 +2691,25 @@ end
 
 end A396852.P5959168447554352541
 
-/-! ## A396852.P12898364916261837897
+/-!
+# A396853: Primes p such that both Mordell equations y^2 = x^3 + p and y^2 = x^3 - p have integer solutions.
 
-`∩[A212164(n+1), A340656(n+1)]`
+The programs for A396853, there is no canonical definition to state claims against.
 -/
 
-namespace A396852.P12898364916261837897
+/-! ## A396853.P5055285831096020519
+
+`∩[A161681(n+1), A318932(n+1)]`
+-/
+
+namespace A396853.P5055285831096020519
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212164 (n + 1)
+  A161681 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340656 (n + 1)
+  A318932 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2690,13 +2717,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A396852.P12898364916261837897
-
-/-!
-# A396853: Primes p such that both Mordell equations y^2 = x^3 + p and y^2 = x^3 - p have integer solutions.
-
-The programs for A396853, there is no canonical definition to state claims against.
--/
+end A396853.P5055285831096020519
 
 /-! ## A396853.P15527971710471516117
 

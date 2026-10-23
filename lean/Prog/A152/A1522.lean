@@ -559,7 +559,7 @@ end A152203
 /-!
 # A152204: Triangle read by rows: T(n,k) = 2*n-4*k+5 (n >= 0, 1 <= k <= 1+floor(n/2)).
 
-The programs for A152204, the canonical program `A152204.P767689205357383764` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152204 has offset 0).
+The programs for A152204, the canonical program `A152204.P767689205357383764` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152204 has offset 0).
 
 The definition of A152204 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -568,7 +568,7 @@ The definition of A152204 is `conjectured`: the Lean definition is a formula tha
 
 `2*A082375(n)+1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A152204
@@ -3379,7 +3379,7 @@ end A152234.P1194368565572361299
 /-!
 # A152235: Largest squarefree number dividing the number of divisors n.
 
-The programs for A152235, the canonical program `A152235.P232875130101871600` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152235 has offset 1).
+The programs for A152235, the canonical program `A152235.P232875130101871600` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152235 has offset 1).
 
 The definition of A152235 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3388,7 +3388,7 @@ The definition of A152235 is `conditional`: the Lean definition is an OEIS formu
 
 `A007947(A000005(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A152235
@@ -3865,6 +3865,29 @@ namespace A152235
 /-- `A007947(A032741(n+1)+1)` -/
 def P2878672281335617521.Spec : Prop :=
   ∀ n, P2878672281335617521.a n = A152235 (n + 1)
+
+end A152235
+
+/-! ## A152235.P3241164199557036438
+
+`A007947(A038040(n+1)/(n+1))`
+-/
+
+namespace A152235.P3241164199557036438
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007947 (SequenceMachineLib.roundAway ((A038040 (n + 1) : ℚ) / (n + 1 : ℚ))).toNat
+
+end
+
+end A152235.P3241164199557036438
+
+namespace A152235
+
+/-- `A007947(A038040(n+1)/(n+1))` -/
+def P3241164199557036438.Spec : Prop :=
+  ∀ n, P3241164199557036438.a n = A152235 (n + 1)
 
 end A152235
 
@@ -5842,6 +5865,29 @@ namespace A152257
 /-- `abs(A002452(n)*A076040(n))` -/
 def P15267057678862371021.Spec : Prop :=
   ∀ n, P15267057678862371021.a n = A152257 n
+
+end A152257
+
+/-! ## A152257.P3897303422926880062
+
+`A003462(n)*A152298(2*n)`
+-/
+
+namespace A152257.P3897303422926880062
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003462 n * A152298 (2 * n)
+
+end
+
+end A152257.P3897303422926880062
+
+namespace A152257
+
+/-- `A003462(n)*A152298(2*n)` -/
+def P3897303422926880062.Spec : Prop :=
+  ∀ n, P3897303422926880062.a n = A152257 n
 
 end A152257
 
@@ -8574,6 +8620,28 @@ end
 
 end A152295.P180052317831106993
 
+/-! ## A152295.P1213631908876511608
+
+`∩[A059325(n+1), A126329(n+1)]`
+-/
+
+namespace A152295.P1213631908876511608
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059325 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A126329 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A152295.P1213631908876511608
+
 /-! ## A152295.P7043764528305577675
 
 `A007310(A023257(n+1)+A023257(n+1)+2)`
@@ -8618,21 +8686,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A152295.P480564231729969239
-
-/-! ## A152295.P4266191535259918793
-
-`A014963(A166646(A023257(n+1))-1)`
--/
-
-namespace A152295.P4266191535259918793
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (A166646 (A023257 (n + 1)).toNat - 1).toNat
-
-end
-
-end A152295.P4266191535259918793
 
 /-!
 # A152298: a(n) = (3^n-1)/2 if n odd, (3^n-1)/8 if n even.

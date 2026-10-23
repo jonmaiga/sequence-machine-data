@@ -38,6 +38,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
@@ -492,6 +493,28 @@ end
 
 end A398225.P16078803209705573372
 
+/-! ## A398225.P1908846542456676237
+
+`∩[A177880(n+1), A382879(n+1)]`
+-/
+
+namespace A398225.P1908846542456676237
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177880 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382879 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398225.P1908846542456676237
+
 /-! ## A398225.P4983668016831545070
 
 `∩[A382879(n+1), A174312(n)]`
@@ -557,28 +580,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A398225.P5068225286319196628
-
-/-! ## A398225.P13763191462993355749
-
-`∩[A122616(n+1), A334801(n+1)]`
--/
-
-namespace A398225.P13763191462993355749
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122616 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334801 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A398225.P13763191462993355749
 
 /-!
 # A398241: Number of simple graphs on n unlabeled vertices with feedback vertex set number 1.
@@ -969,6 +970,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A398264.P17188373148149342501
+
+/-! ## A398264.P5328796887722764334
+
+`∩[A344742(n+1), A365869(n+1)]`
+-/
+
+namespace A398264.P5328796887722764334
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344742 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A365869 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398264.P5328796887722764334
 
 /-!
 # A398269: Number of ways to partition the standard Roman numeral representation of n into a sequence of one or more substrings, each of which is itself the standard Roman numeral representation of a positive integer.

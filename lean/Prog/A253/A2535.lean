@@ -1496,6 +1496,29 @@ def P13226713215035894118.Spec : Prop :=
 
 end A253512
 
+/-! ## A253512.P164382123210915478
+
+`A000225(n)*A003462(n+2)`
+-/
+
+namespace A253512.P164382123210915478
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000225 n * A003462 (n + 2)
+
+end
+
+end A253512.P164382123210915478
+
+namespace A253512
+
+/-- `A000225(n)*A003462(n+2)` -/
+def P164382123210915478.Spec : Prop :=
+  ∀ n, P164382123210915478.a n = A253512 n
+
+end A253512
+
 /-! ## A253512.P8548850317521516862
 
 `lcm(∑[A131577(n)], A003462(n+2))`
@@ -8091,27 +8114,24 @@ end
 
 end A253567.P6693228390764791030
 
-/-! ## A253567.P16271851281055531852
+/-! ## A253567.P8576695370015831838
 
-`comp[A232009(n+1)]%p?[A130025(n+1)]`
+`comp[A232009(n+1)]`
 -/
 
-namespace A253567.P16271851281055531852
+namespace A253567.P8576695370015831838
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A232009 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130025 (n + 1)
-
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A253567.P16271851281055531852
+end A253567.P8576695370015831838
 
 /-!
 # A253568: Even bisection of A122111: a(n) = A122111(2*n).

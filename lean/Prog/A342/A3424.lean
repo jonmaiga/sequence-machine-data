@@ -37,6 +37,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -55,6 +56,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +92,50 @@ import Seq.Opaque.C025
 
 The programs for A342402, there is no canonical definition to state claims against.
 -/
+
+/-! ## A342402.P2457958254356137469
+
+`∩[A106575(n+1), A390557(n+1)]`
+-/
+
+namespace A342402.P2457958254356137469
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106575 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390557 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342402.P2457958254356137469
+
+/-! ## A342402.P8997228007862801946
+
+`∩[A138307(n+1), A390557(n+1)]`
+-/
+
+namespace A342402.P8997228007862801946
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138307 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390557 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342402.P8997228007862801946
 
 /-! ## A342402.P9306415798611058298
 
@@ -156,28 +202,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A342402.P12596797915946028184
-
-/-! ## A342402.P15882132700095540014
-
-`A289436(∩[A090937(n+1), A356871(n+1)])`
--/
-
-namespace A342402.P15882132700095540014
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090937 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356871 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289436 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A342402.P15882132700095540014
 
 /-!
 # A342404: a(n) = binomial(n,2)*(2^(n-2) - n + 1).
@@ -6647,6 +6671,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A342480.P9286869488200087351
+
+/-!
+# A342481: Prime numbers whose binary expansion involves powers of 2 with only composite (or zero) exponents.
+
+The programs for A342481, there is no canonical definition to state claims against.
+-/
+
+/-! ## A342481.P5348920309844889206
+
+`∩[A105425(n), A291277(n+1)]`
+-/
+
+namespace A342481.P5348920309844889206
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105425 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291277 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A342481.P5348920309844889206
 
 /-!
 # A342482: a(n) = n*(2^(n-1) - n - 1).

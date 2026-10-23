@@ -12,7 +12,6 @@ import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -34,7 +33,6 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -1684,6 +1682,90 @@ def P1169175419048672136.Spec : Prop :=
 
 end A379952
 
+/-! ## A379952.P7894333512656134776
+
+`char[n^((n+1)%2+1)]`
+-/
+
+namespace A379952.P7894333512656134776
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ ((n + 1) % 2 + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = n then 1 else 0
+
+end
+
+end A379952.P7894333512656134776
+
+namespace A379952
+
+/-- `char[n^((n+1)%2+1)]` -/
+def P7894333512656134776.Spec : Prop :=
+  ∀ n, (P7894333512656134776.a n : ℤ) = A379952 n
+
+end A379952
+
+/-! ## A379952.P5682180550715111934
+
+`char[n^(and(1, n+1)+1)]`
+-/
+
+namespace A379952.P5682180550715111934
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ (Nat.land 1 (n + 1) + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = n then 1 else 0
+
+end
+
+end A379952.P5682180550715111934
+
+namespace A379952
+
+/-- `char[n^(and(1, n+1)+1)]` -/
+def P5682180550715111934.Spec : Prop :=
+  ∀ n, (P5682180550715111934.a n : ℤ) = A379952 n
+
+end A379952
+
+/-! ## A379952.P17404678039246444127
+
+`char[2*n+1]+char[(2*n)²]`
+-/
+
+namespace A379952.P17404678039246444127
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n) ^ 2
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (if ∃ j, f1 j = n then 1 else 0) + (if ∃ j, f2 j = n then 1 else 0)
+
+end
+
+end A379952.P17404678039246444127
+
+namespace A379952
+
+/-- `char[2*n+1]+char[(2*n)²]` -/
+def P17404678039246444127.Spec : Prop :=
+  ∀ n, (P17404678039246444127.a n : ℤ) = A379952 n
+
+end A379952
+
 /-! ## A379952.P11290920319802044129
 
 `or(char[n²], A000035(n))`
@@ -1911,106 +1993,6 @@ namespace A379952
 /-- `A010052(n*A354034(n))` -/
 def P3496597578918474880.Spec : Prop :=
   ∀ n, P3496597578918474880.a n = A379952 n
-
-end A379952
-
-/-! ## A379952.P7632117773611099068
-
-`gcd(A163805(n), A258998(n))`
--/
-
-namespace A379952.P7632117773611099068
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A163805 n) (A258998 n)
-
-end
-
-end A379952.P7632117773611099068
-
-namespace A379952
-
-/-- `gcd(A163805(n), A258998(n))` -/
-def P7632117773611099068.Spec : Prop :=
-  ∀ n, (P7632117773611099068.a n : ℤ) = A379952 n
-
-end A379952
-
-/-! ## A379952.P6898613438826652711
-
-`A010052(n)+1-A354034(n)`
--/
-
-namespace A379952.P6898613438826652711
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010052 n + (1 - A354034 n)
-
-end
-
-end A379952.P6898613438826652711
-
-namespace A379952
-
-/-- `A010052(n)+1-A354034(n)` -/
-def P6898613438826652711.Spec : Prop :=
-  ∀ n, P6898613438826652711.a n = A379952 n
-
-end A379952
-
-/-! ## A379952.P8421422590673133738
-
-`A010052(n*A121262(2*n))`
--/
-
-namespace A379952.P8421422590673133738
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010052 ((n : ℤ) * A121262 (2 * n)).toNat
-
-end
-
-end A379952.P8421422590673133738
-
-namespace A379952
-
-/-- `A010052(n*A121262(2*n))` -/
-def P8421422590673133738.Spec : Prop :=
-  ∀ n, P8421422590673133738.a n = A379952 n
-
-end A379952
-
-/-! ## A379952.P7250098041229710843
-
-`char[n^(char[2*n]+1)]`
--/
-
-namespace A379952.P7250098041229710843
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ ((if ∃ j, f2 j = n then 1 else 0) + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A379952.P7250098041229710843
-
-namespace A379952
-
-/-- `char[n^(char[2*n]+1)]` -/
-def P7250098041229710843.Spec : Prop :=
-  ∀ n, (P7250098041229710843.a n : ℤ) = A379952 n
 
 end A379952
 
@@ -2809,6 +2791,34 @@ def P738386704604889725.Spec : Prop :=
   ∀ n, P738386704604889725.a n = A379959 (n + 1)
 
 end A379959
+
+/-!
+# A379960: Numbers k such that A276086(k)-1 or A276086(k)+1 is a perfect power (A001597), where A276086 is the primorial base exp-function.
+
+The programs for A379960, there is no canonical definition to state claims against.
+-/
+
+/-! ## A379960.P8293412909899842061
+
+`∪[A379961(n+1), A379962(n+1)]`
+-/
+
+namespace A379960.P8293412909899842061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379961 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379962 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379960.P8293412909899842061
 
 /-!
 # A379964: a(n) = 1 if (n^2)-1 is not divisible by p^p for any prime p, otherwise 0.
@@ -5710,6 +5720,29 @@ def P1796184505709791839.Spec : Prop :=
 
 end A379971
 
+/-! ## A379971.P615922844679902522
+
+`A134023(A379049(A285718((n+1)²)))`
+-/
+
+namespace A379971.P615922844679902522
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134023 (A379049 (A285718 ((n + 1) ^ 2)).toNat).toNat
+
+end
+
+end A379971.P615922844679902522
+
+namespace A379971
+
+/-- `A134023(A379049(A285718((n+1)²)))` -/
+def P615922844679902522.Spec : Prop :=
+  ∀ n, P615922844679902522.a n = A379971 (n + 1)
+
+end A379971
+
 /-!
 # A379972: Numbers x with 2^(m-1)
 
@@ -5977,6 +6010,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A379984.P14858993186182795020
+
+/-! ## A379984.P14167948986901183152
+
+`A231873(A056804(n+1))`
+-/
+
+namespace A379984.P14167948986901183152
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231873 (A056804 (n + 1)).toNat
+
+end
+
+end A379984.P14167948986901183152
 
 /-!
 # A379985: Numbers k such that k^2 is of the form b^2 + (4*c)^2 where b*c is squarefree.

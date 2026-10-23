@@ -44,14 +44,11 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
@@ -3229,6 +3226,29 @@ def P16470845882206327913.Spec : Prop :=
 
 end A378366
 
+/-! ## A378366.P4016684484044737491
+
+`A007920(A378367(n+1)+A309877(n+1))`
+-/
+
+namespace A378366.P4016684484044737491
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007920 (A378367 (n + 1) + A309877 (n + 1)).toNat
+
+end
+
+end A378366.P4016684484044737491
+
+namespace A378366
+
+/-- `A007920(A378367(n+1)+A309877(n+1))` -/
+def P4016684484044737491.Spec : Prop :=
+  ∀ n, P4016684484044737491.a n = A378366 (n + 1)
+
+end A378366
+
 /-!
 # A378367: Greatest non prime power <= n, allowing 1.
 
@@ -3537,7 +3557,7 @@ end A378369.P7190553794249597880
 /-!
 # A378370: Distance between n and the least prime power >= n, allowing 1.
 
-The programs for A378370, the canonical program `A378370.P12947003761999164007` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378370 has offset 1).
+The programs for A378370, the canonical program `A378370.P12947003761999164007` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378370 has offset 1).
 
 The definition of A378370 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000015, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3546,7 +3566,7 @@ The definition of A378370 is `conditional`: the Lean definition is an OEIS formu
 
 `A000015(n+1)-(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A378370

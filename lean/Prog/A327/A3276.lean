@@ -56,7 +56,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -4899,6 +4898,21 @@ end
 
 end A327662.P7351808328781100898
 
+/-! ## A327662.P12019641899112427582
+
+`A204166(A196537(n+1))`
+-/
+
+namespace A327662.P12019641899112427582
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204166 (A196537 (n + 1)).toNat
+
+end
+
+end A327662.P12019641899112427582
+
 /-!
 # A327664: a(n) is the least base >= 2 such that for any k in the range 0..n-1, the sum of digits of k and the sum of digits of n differ for at least one base b in the range 2..a(n).
 
@@ -5484,7 +5498,7 @@ end A327667.P7718203439551865769
 /-!
 # A327668: a(n) = n * Sum_{d|n} (-1)^(bigomega(d) - omega(d)) / d.
 
-The programs for A327668, the canonical program `A327668.P8702113189712458297` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327668 has offset 1).
+The programs for A327668, the canonical program `A327668.P8702113189712458297` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327668 has offset 1).
 
 The definition of A327668 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5493,7 +5507,7 @@ The definition of A327668 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A333569(#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A327668
@@ -5957,6 +5971,32 @@ def P15559131110081927727.Spec : Prop :=
 
 end A327672
 
+/-! ## A327672.P6979162006387220844
+
+`∑[A135034(n)]`
+-/
+
+namespace A327672.P6979162006387220844
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135034 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A327672.P6979162006387220844
+
+namespace A327672
+
+/-- `∑[A135034(n)]` -/
+def P6979162006387220844.Spec : Prop :=
+  ∀ n, P6979162006387220844.a n = A327672 n
+
+end A327672
+
 /-! ## A327672.P1070731734318212640
 
 `A028391(n)+A022554(n)`
@@ -6110,6 +6150,87 @@ namespace A327672
 /-- `eq[A000007(n), A115720(n)]` -/
 def P14976966274730390053.Spec : Prop :=
   ∀ n, (P14976966274730390053.a n : ℤ) = A327672 n
+
+end A327672
+
+/-! ## A327672.P1561492444041950717
+
+`∑[ceil(sqrt(log(cosh(n))))]`
+-/
+
+namespace A327672.P1561492444041950717
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.sqrt (Real.log (Real.cosh (n : ℝ)))⌉
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A327672.P1561492444041950717
+
+namespace A327672
+
+/-- `∑[ceil(sqrt(log(cosh(n))))]` -/
+def P1561492444041950717.Spec : Prop :=
+  ∀ n, P1561492444041950717.a n = A327672 n
+
+end A327672
+
+/-! ## A327672.P1299623308947875717
+
+`∑[ceil(sqrt(∑[tanh(n)]))]`
+-/
+
+namespace A327672.P1299623308947875717
+noncomputable section
+
+def f2 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.tanh (n : ℝ)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.sqrt (∑ j ∈ Finset.range (n + 1), f2 j)⌉
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A327672.P1299623308947875717
+
+namespace A327672
+
+/-- `∑[ceil(sqrt(∑[tanh(n)]))]` -/
+def P1299623308947875717.Spec : Prop :=
+  ∀ n, P1299623308947875717.a n = A327672 n
+
+end A327672
+
+/-! ## A327672.P1204260058419487203
+
+`∑[ceil(n^(tanh(n+1)/2))]`
+-/
+
+namespace A327672.P1204260058419487203
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(n : ℝ) ^ (Real.tanh (n + 1 : ℝ) / 2)⌉
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A327672.P1204260058419487203
+
+namespace A327672
+
+/-- `∑[ceil(n^(tanh(n+1)/2))]` -/
+def P1204260058419487203.Spec : Prop :=
+  ∀ n, P1204260058419487203.a n = A327672 n
 
 end A327672
 

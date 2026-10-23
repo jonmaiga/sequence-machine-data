@@ -4332,6 +4332,111 @@ end
 
 end A286629.P15215319129502204958
 
+/-! ## A286629.P2159001863375748195
+
+`A002110(n+1)*A066249(2*(n+1))`
+-/
+
+namespace A286629.P2159001863375748195
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002110 (n + 1) * A066249 (2 * (n + 1))
+
+end
+
+end A286629.P2159001863375748195
+
+/-! ## A286629.P14549882065840224093
+
+`A060735(A101301(n+1)+A006093(n+1))`
+-/
+
+namespace A286629.P14549882065840224093
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060735 (A101301 (n + 1) + A006093 (n + 1)).toNat
+
+end
+
+end A286629.P14549882065840224093
+
+/-! ## A286629.P12834982471824747972
+
+`A000010(A000040(n+1))*A002110(n+1)`
+-/
+
+namespace A286629.P12834982471824747972
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000010 (A000040 (n + 1)).toNat * A002110 (n + 1)
+
+end
+
+end A286629.P12834982471824747972
+
+/-! ## A286629.P12375838571396353673
+
+`A000040(n+1)*A060735(A101301(n+1))`
+-/
+
+namespace A286629.P12375838571396353673
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1) * A060735 (A101301 (n + 1)).toNat
+
+end
+
+end A286629.P12375838571396353673
+
+/-! ## A286629.P10703091579744308939
+
+`A001248(n+1)*A002110(n)-A002110(n+1)`
+-/
+
+namespace A286629.P10703091579744308939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001248 (n + 1) * A002110 n - A002110 (n + 1)
+
+end
+
+end A286629.P10703091579744308939
+
+/-! ## A286629.P9041493998759532030
+
+`(A006862(n+1)-A006862(n))*A000040(n+1)`
+-/
+
+namespace A286629.P9041493998759532030
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A006862 (n + 1) - A006862 n) * A000040 (n + 1)
+
+end
+
+end A286629.P9041493998759532030
+
+/-! ## A286629.P3766461109936775203
+
+`(A002110(n+1)-A002110(n))*A008578(n+2)`
+-/
+
+namespace A286629.P3766461109936775203
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A002110 (n + 1) - A002110 n) * A008578 (n + 2)
+
+end
+
+end A286629.P3766461109936775203
+
 /-!
 # A286630: a(0) = 1; for n >= 1, a(n) = A000040(n) * A002110(n).
 
@@ -5352,6 +5457,28 @@ end
 
 end A286645.P14184149473702251508
 
+/-! ## A286645.P11424330616150913262
+
+`∩[A257250(n), A290863(n)]`
+-/
+
+namespace A286645.P11424330616150913262
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257250 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290863 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A286645.P11424330616150913262
+
 /-! ## A286645.P16639499325335232308
 
 `A290863(n)%A093046(n+1)`
@@ -5366,21 +5493,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A286645.P16639499325335232308
-
-/-! ## A286645.P16626264308877627388
-
-`A290863(n)+A000007(A000712(n))`
--/
-
-namespace A286645.P16626264308877627388
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290863 n + A000007 (A000712 n).toNat
-
-end
-
-end A286645.P16626264308877627388
 
 /-!
 # A286646: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 197", based on the 5-celled von Neumann neighborhood.
@@ -11230,30 +11342,26 @@ def P14467779894029730152.Spec : Prop :=
 
 end A286689
 
-/-! ## A286689.P2227131979036914977
+/-! ## A286689.P1674940826267710381
 
-`comp[A171588(n+1)*A286687(n+1)]`
+`A074840(n+2)+A074840(n+2)-A159684(n+1)`
 -/
 
-namespace A286689.P2227131979036914977
+namespace A286689.P1674940826267710381
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171588 (n + 1) * A286687 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074840 (n + 2) + (A074840 (n + 2) - A159684 (n + 1))
 
 end
 
-end A286689.P2227131979036914977
+end A286689.P1674940826267710381
 
 namespace A286689
 
-/-- `comp[A171588(n+1)*A286687(n+1)]` -/
-def P2227131979036914977.Spec : Prop :=
-  ∀ n, (P2227131979036914977.a n : ℤ) = A286689 (n + 1)
+/-- `A074840(n+2)+A074840(n+2)-A159684(n+1)` -/
+def P1674940826267710381.Spec : Prop :=
+  ∀ n, P1674940826267710381.a n = A286689 (n + 1)
 
 end A286689
 

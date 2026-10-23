@@ -1073,6 +1073,28 @@ end A390743.P18088673739342092094
 The programs for A390745, there is no canonical definition to state claims against.
 -/
 
+/-! ## A390745.P18346925996751126720
+
+`∩[A123466(n+1), A390676(n+1)]`
+-/
+
+namespace A390745.P18346925996751126720
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123466 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390676 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390745.P18346925996751126720
+
 /-! ## A390745.P12263479439724660722
 
 `eq[1, A391642(n+1)]+1`
@@ -1156,27 +1178,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390745.P14597190064626946229
-
-/-! ## A390745.P13529361058418785873
-
-`eq[A140889(n+1), A333767(n)]`
--/
-
-namespace A390745.P13529361058418785873
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140889 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333767 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A390745.P13529361058418785873
 
 /-!
 # A390746: Number of strict integer partitions of n > 0 such that the least part plus the greatest part is odd.

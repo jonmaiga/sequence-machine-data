@@ -53,7 +53,6 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -93,6 +92,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -416,6 +416,33 @@ namespace A092022
 /-- `(A091968(n+1)-3)/16` -/
 def P1203849625117540271.Spec : Prop :=
   ∀ n, P1203849625117540271.a n = (A092022 (n + 1) : ℚ)
+
+end A092022
+
+/-! ## A092022.P13950266373864672933
+
+`comp[A153348(n+1)]`
+-/
+
+namespace A092022.P13950266373864672933
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153348 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A092022.P13950266373864672933
+
+namespace A092022
+
+/-- `comp[A153348(n+1)]` -/
+def P13950266373864672933.Spec : Prop :=
+  ∀ n, (P13950266373864672933.a n : ℤ) = A092022 (n + 1)
 
 end A092022
 
@@ -932,35 +959,6 @@ def P18157576043087364313.Spec : Prop :=
 
 end A092022
 
-/-! ## A092022.P16951903713489662250
-
-`eq[A245203(4*n), A245203(A245203(4*n)²)]`
--/
-
-namespace A092022.P16951903713489662250
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245203 (4 * n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245203 (A245203 (4 * n) ^ 2).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A092022.P16951903713489662250
-
-namespace A092022
-
-/-- `eq[A245203(4*n), A245203(A245203(4*n)²)]` -/
-def P16951903713489662250.Spec : Prop :=
-  ∀ n, (P16951903713489662250.a n : ℤ) = A092022 (n + 1)
-
-end A092022
-
 /-!
 # A092023: a(n) is the smallest number m such that m has n distinct prime divisors and if p is a prime divisor of m then p*m - 1 is prime.
 
@@ -1162,6 +1160,21 @@ end
 
 end A092028.P12291257059334560777
 
+/-! ## A092028.P15987250556825151990
+
+`A020639(A067029(A398264(n+1))+n)`
+-/
+
+namespace A092028.P15987250556825151990
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A067029 (A398264 (n + 1)).toNat + (n : ℤ)).toNat
+
+end
+
+end A092028.P15987250556825151990
+
 /-! ## A092028.P15777291651296439483
 
 `A056538(A077597(n+1))`
@@ -1296,24 +1309,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A092028.P11536367332705479824
-
-/-! ## A092028.P10603480960698344252
-
-`filter[A265110(n+2), A080339(#)]`
--/
-
-namespace A092028.P10603480960698344252
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265110 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A080339 (f1 j).toNat = 1) n)
-
-end
-
-end A092028.P10603480960698344252
 
 /-!
 # A092032: Arises in partition theory.

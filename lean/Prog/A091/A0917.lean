@@ -6406,6 +6406,28 @@ end A091779.P15007280878094872413
 The programs for A091783, there is no canonical definition to state claims against.
 -/
 
+/-! ## A091783.P17533312544664648489
+
+`∩[A037268(n+1), A045910(n+1)]`
+-/
+
+namespace A091783.P17533312544664648489
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037268 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045910 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091783.P17533312544664648489
+
 /-! ## A091783.P12345367861773069105
 
 `∩[A037264(n+1), A091784(n+1)]`
@@ -6472,38 +6494,16 @@ end
 
 end A091783.P12295168124263767646
 
-/-! ## A091783.P15537637705959248108
+/-! ## A091783.P7414335533584653114
 
-`∩[A091784(n+1), A214958(n+1)]`
+`∩[A045910(n+1), A214959(n+1)]`
 -/
 
-namespace A091783.P15537637705959248108
+namespace A091783.P7414335533584653114
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091784 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214958 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A091783.P15537637705959248108
-
-/-! ## A091783.P3747254190349560508
-
-`∩[A091784(n+1), A214959(n+1)]`
--/
-
-namespace A091783.P3747254190349560508
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091784 (n + 1)
+  A045910 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A214959 (n + 1)
@@ -6514,7 +6514,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A091783.P3747254190349560508
+end A091783.P7414335533584653114
 
 /-!
 # A091784: Numbers n with digits in nondecreasing order such that sum of the reciprocal of digits is an integer.

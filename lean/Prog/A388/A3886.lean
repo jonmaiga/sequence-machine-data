@@ -8,6 +8,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B002.C001
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B012.C000
@@ -425,6 +426,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388656.P14797083175579184444
+
+/-! ## A388656.P537151975088392560
+
+`A218794(A133824(n))`
+-/
+
+namespace A388656.P537151975088392560
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A218794 (A133824 n).toNat
+
+end
+
+end A388656.P537151975088392560
 
 /-!
 # A388657: a(n) is the greatest prime factor of prime(n)^prime(n) + 1.

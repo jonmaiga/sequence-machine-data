@@ -8435,6 +8435,29 @@ def P13416226215276200723.Spec : Prop :=
 
 end A221882
 
+/-! ## A221882.P8467651617744675436
+
+`(A048493(n+1)-(n+1))/2`
+-/
+
+namespace A221882.P8467651617744675436
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A048493 (n + 1) - (n + 1 : ℤ) : ℚ) / 2
+
+end
+
+end A221882.P8467651617744675436
+
+namespace A221882
+
+/-- `(A048493(n+1)-(n+1))/2` -/
+def P8467651617744675436.Spec : Prop :=
+  ∀ n, P8467651617744675436.a n = (A221882 (n + 1) : ℚ)
+
+end A221882
+
 /-!
 # A221883: Number of n X 2 arrays of occupancy after each element stays put or moves to some horizontal, vertical or antidiagonal neighbor, without consecutive moves in the same direction.
 

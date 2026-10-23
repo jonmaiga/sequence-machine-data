@@ -79,7 +79,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -3795,7 +3794,7 @@ end A324121
 /-!
 # A324122: a(n) = sigma(n) - gcd(n*d(n), sigma(n)), where d(n) = number of divisors of n (A000005) and sigma(n) = sum of divisors of n (A000203).
 
-The programs for A324122, the canonical program `A324122.P6437590254037711062` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324122 has offset 1).
+The programs for A324122, the canonical program `A324122.P6437590254037711062` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324122 has offset 1).
 
 The definition of A324122 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A324121, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3804,7 +3803,7 @@ The definition of A324122 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(n+1)-A324121(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A324122

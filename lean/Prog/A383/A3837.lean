@@ -31,6 +31,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -436,6 +437,28 @@ end
 
 end A383707.P12750591838488609757
 
+/-! ## A383707.P3152056339172093700
+
+`∩[A005117(n+1), A384320(n+1)]`
+-/
+
+namespace A383707.P3152056339172093700
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384320 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A383707.P3152056339172093700
+
 /-! ## A383707.P343488929060983691
 
 `∩[A087006(n+1), A384320(n+1)]`
@@ -479,28 +502,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A383707.P267496174406241897
-
-/-! ## A383707.P5356881454028299182
-
-`∩[A087008(n+1), A384320(n+1)]`
--/
-
-namespace A383707.P5356881454028299182
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087008 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A384320 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A383707.P5356881454028299182
 
 /-!
 # A383708: Number of integer partitions of n such that it is possible to choose a family of pairwise disjoint strict integer partitions, one of each part.
@@ -740,6 +741,50 @@ end
 
 end A383712.P3888890644015419900
 
+/-! ## A383712.P1693304409232212172
+
+`∩[A004709(n+1), A383515(n+1)]`
+-/
+
+namespace A383712.P1693304409232212172
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004709 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383515 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A383712.P1693304409232212172
+
+/-! ## A383712.P11438827295455914270
+
+`∩[A048107(n+1), A383515(n+1)]`
+-/
+
+namespace A383712.P11438827295455914270
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048107 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383515 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A383712.P11438827295455914270
+
 /-! ## A383712.P4030846213669170554
 
 `∩[A230843(n+1), A383515(n+1)]`
@@ -761,24 +806,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A383712.P4030846213669170554
-
-/-! ## A383712.P3666941661717987788
-
-`filter[A325367(n+1), A091862(#)]`
--/
-
-namespace A383712.P3666941661717987788
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325367 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A091862 (f1 j).toNat = 1) n)
-
-end
-
-end A383712.P3666941661717987788
 
 /-!
 # A383713: Triangle read by rows: T(n,k) is the number of compositions of n with k parts all in standard order.
@@ -3633,6 +3660,36 @@ end
 
 end A383745.P13780607890640953961
 
+/-! ## A383745.P1983464117641679949
+
+`A116564(A283503(n+1))`
+-/
+
+namespace A383745.P1983464117641679949
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116564 (A283503 (n + 1)).toNat
+
+end
+
+end A383745.P1983464117641679949
+
+/-! ## A383745.P3584139589176154684
+
+`A116564(A155149(n+2))`
+-/
+
+namespace A383745.P3584139589176154684
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116564 (A155149 (n + 2)).toNat
+
+end
+
+end A383745.P3584139589176154684
+
 /-!
 # A383747: Consider the polynomial P(m,z) = Sum_{k=1..r} d(k)*z^(k-1) where d(1) < d(2) < ... < d(r) are the r divisors of m. The sequence lists the numbers m such that P(m,z) contains at least three zeros of the form -1/q, i/q, -i/q, for some integer q, i = sqrt(-1).
 
@@ -5885,7 +5942,7 @@ end A383783
 /-!
 # A383784: Norms of vectors in any regular planar tiling (square or A2 lattice).
 
-The programs for A383784, the canonical program `A383784.P16897109203414652711` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383784 has offset 1).
+The programs for A383784, the canonical program `A383784.P16897109203414652711` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383784 has offset 1).
 
 The definition of A383784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5954,7 +6011,7 @@ end A383784
 
 `∪[A001481(n+1), A003136(n+1)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A383784
@@ -6029,10 +6086,37 @@ def P15107689315530091863.Spec : Prop :=
 
 end A383784
 
+/-! ## A383784.P9804030861768227619
+
+`comp[A383785(n+1)]`
+-/
+
+namespace A383784.P9804030861768227619
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383785 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A383784.P9804030861768227619
+
+namespace A383784
+
+/-- `comp[A383785(n+1)]` -/
+def P9804030861768227619.Spec : Prop :=
+  ∀ n, (P9804030861768227619.a n : ℤ) = A383784 (n + 1)
+
+end A383784
+
 /-!
 # A383785: Numbers not occurring as norms of vectors in any regular planar lattice.
 
-The programs for A383785, the canonical program `A383785.P9174165813630133873` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383785 has offset 1).
+The programs for A383785, the canonical program `A383785.P9174165813630133873` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383785 has offset 1).
 
 The definition of A383785 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6041,7 +6125,7 @@ The definition of A383785 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A383784(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A383785

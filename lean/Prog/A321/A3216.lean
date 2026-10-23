@@ -37,6 +37,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -2366,6 +2367,29 @@ namespace A321643
 /-- `Δ[A020714(n)-A000034(n)]` -/
 def P6795006911793058457.Spec : Prop :=
   ∀ n, P6795006911793058457.a n = A321643 n
+
+end A321643
+
+/-! ## A321643.P17582384060510797208
+
+`A081808(n+1)%A321483(n)`
+-/
+
+namespace A321643.P17582384060510797208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A081808 (n + 1)) (A321483 n)
+
+end
+
+end A321643.P17582384060510797208
+
+namespace A321643
+
+/-- `A081808(n+1)%A321483(n)` -/
+def P17582384060510797208.Spec : Prop :=
+  ∀ n, P17582384060510797208.a n = A321643 n
 
 end A321643
 
@@ -6481,6 +6505,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321695.P8076472371839523048
+
+/-! ## A321695.P9759616986574368103
+
+`A084320(A222025(n+1))`
+-/
+
+namespace A321695.P9759616986574368103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084320 (A222025 (n + 1)).toNat
+
+end
+
+end A321695.P9759616986574368103
 
 /-!
 # A321696: For any sequence f of positive integers, let g(f) be the unique Golomb-like sequence with run lengths given by f and let k(f) be the unique Kolakoski-like sequence with run lengths given by f and initial term 1; this sequence is the unique sequence f satisfying f = k(g(f)).

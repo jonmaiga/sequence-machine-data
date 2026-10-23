@@ -3005,12 +3005,12 @@ def P7378113712871205836.Spec : Prop :=
 
 end A323916
 
-/-! ## A323916.P2266787105545246173
+/-! ## A323916.P11556277057163281987
 
-`∪[A323917(n+1), A323918(n+1)]%A323918(n+1)`
+`∪[A323917(n+1), A323918(n+1)]`
 -/
 
-namespace A323916.P2266787105545246173
+namespace A323916.P11556277057163281987
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3020,18 +3020,18 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A323918 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A323918 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A323916.P2266787105545246173
+end A323916.P11556277057163281987
 
 namespace A323916
 
-/-- `∪[A323917(n+1), A323918(n+1)]%A323918(n+1)` -/
-def P2266787105545246173.Spec : Prop :=
-  ∀ n, P2266787105545246173.a n = A323916 (n + 1)
+/-- `∪[A323917(n+1), A323918(n+1)]` -/
+def P11556277057163281987.Spec : Prop :=
+  ∀ n, (P11556277057163281987.a n : ℤ) = A323916 (n + 1)
 
 end A323916
 
@@ -3179,80 +3179,93 @@ end
 
 end A323917.P1361820006804510452
 
-/-! ## A323917.P15554778502811738264
+/-! ## A323917.P1515613600350710088
 
-`record[A350389(A323916(n+1))]%A016970(n)`
+`∩[A002035(n+1), A323916(n+1)]`
 -/
 
-namespace A323917.P15554778502811738264
+namespace A323917.P1515613600350710088
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350389 (A323916 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A016970 n)
-
-end
-
-end A323917.P15554778502811738264
-
-/-! ## A323917.P6448059677163469062
-
-`A007318(∑[n])*record[A350389(A323916(n+1))]`
--/
-
-namespace A323917.P6448059677163469062
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+  A002035 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350389 (A323916 (n + 1)).toNat
+  A323916 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007318 (∑ j ∈ Finset.range (n + 1), f1 j) * f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A323917.P6448059677163469062
+end A323917.P1515613600350710088
 
-/-! ## A323917.P3314361049240164724
+/-! ## A323917.P13287137083777859872
 
-`record[A350389(A323916(n+1))]+A008683(4*(n+1))`
+`∩[A028260(n+1), A323916(n+1)]`
 -/
 
-namespace A323917.P3314361049240164724
+namespace A323917.P13287137083777859872
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350389 (A323916 (n + 1)).toNat
+  A028260 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) + A008683 (4 * (n + 1))
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323916 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A323917.P3314361049240164724
+end A323917.P13287137083777859872
 
-/-! ## A323917.P13087760197362058044
+/-! ## A323917.P729363426233015650
 
-`record[A014963(15*(n+1))*A350389(A323916(n+1))]`
+`∩[A067340(n+1), A323916(n+1)]`
 -/
 
-namespace A323917.P13087760197362058044
+namespace A323917.P729363426233015650
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (15 * (n + 1)) * A350389 (A323916 (n + 1)).toNat
+  A067340 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323916 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A323917.P13087760197362058044
+end A323917.P729363426233015650
+
+/-! ## A323917.P15281751819378651046
+
+`∩[A119847(n+1), A323916(n+1)]`
+-/
+
+namespace A323917.P15281751819378651046
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119847 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323916 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A323917.P15281751819378651046
 
 /-!
 # A323918: Numbers k with exactly two distinct prime divisors and such that cototient(k) is a square, where: k = p^(2s) * q^(2t+1) with s >= 1, t >= 0, p <> q primes and such that p * (p+q-1) = M^2.
@@ -3314,16 +3327,16 @@ end
 
 end A323918.P14715271044114299164
 
-/-! ## A323918.P18278817168943254340
+/-! ## A323918.P3298453904503732145
 
-`∩[A187039(n+1), A323916(n+1)]`
+`∩[A026422(n+1), A323916(n+1)]`
 -/
 
-namespace A323918.P18278817168943254340
+namespace A323918.P3298453904503732145
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187039 (n + 1)
+  A026422 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A323916 (n + 1)
@@ -3334,21 +3347,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A323918.P18278817168943254340
+end A323918.P3298453904503732145
 
-/-! ## A323918.P3870654744556998663
+/-! ## A323918.P10526043217809489026
 
-`∩[A323916(n+1), A388983(n+1)]`
+`∩[A026424(n+1), A323916(n+1)]`
 -/
 
-namespace A323918.P3870654744556998663
+namespace A323918.P10526043217809489026
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323916 (n + 1)
+  A026424 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A388983 (n + 1)
+  A323916 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3356,7 +3369,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A323918.P3870654744556998663
+end A323918.P10526043217809489026
 
 /-!
 # A323919: Hexagon-rooted catafusenes (see Cyvin et al. for precise definition).

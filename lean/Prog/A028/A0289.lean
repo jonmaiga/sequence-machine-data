@@ -63,7 +63,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -11207,16 +11206,16 @@ end
 
 end A028980.P16278783896091915480
 
-/-! ## A028980.P5055591535216823174
+/-! ## A028980.P10149828683163825052
 
-`∪[A072363(n+2), A183108(n+1)]`
+`∪[A072363(n+1), A183108(n+1)]`
 -/
 
-namespace A028980.P5055591535216823174
+namespace A028980.P10149828683163825052
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072363 (n + 2)
+  A072363 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A183108 (n + 1)
@@ -11227,7 +11226,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A028980.P5055591535216823174
+end A028980.P10149828683163825052
 
 /-!
 # A028981: Primes p such that p+1 is palindromic.
@@ -12660,6 +12659,28 @@ end
 
 end A028985.P16458906072425049472
 
+/-! ## A028985.P13290346397888138650
+
+`∩[A000982(n), A028984(n+1)]`
+-/
+
+namespace A028985.P13290346397888138650
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000982 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028984 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A028985.P13290346397888138650
+
 /-! ## A028985.P6944312904334417366
 
 `∩[A056525(n+1), A001105(n)]`
@@ -12681,28 +12702,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A028985.P6944312904334417366
-
-/-! ## A028985.P16457299355912825209
-
-`∩[A081939(n+1), A001105(n)]`
--/
-
-namespace A028985.P16457299355912825209
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081939 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001105 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A028985.P16457299355912825209
 
 /-!
 # A028986: Palindromes whose sum of divisors is palindromic.
@@ -12798,19 +12797,19 @@ end
 
 end A028986.P14785028350619154701
 
-/-! ## A028986.P16311802788840895099
+/-! ## A028986.P5302066774862214330
 
-`∩[A028980(n+1), A083136(n+1)]`
+`∩[A002113(n+1), A069514(n+1)]`
 -/
 
-namespace A028986.P16311802788840895099
+namespace A028986.P5302066774862214330
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028980 (n + 1)
+  A002113 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083136 (n + 1)
+  A069514 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -12818,7 +12817,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A028986.P16311802788840895099
+end A028986.P5302066774862214330
 
 /-!
 # A028987: Repdigit - 1 is prime.

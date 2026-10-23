@@ -89,7 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2520,6 +2520,35 @@ def P196248132305101413.Spec : Prop :=
 
 end A213222
 
+/-! ## A213222.P10632389927872347560
+
+`∑[∑[ogf((3+x-3x^2+x^3)/(1+x))]]`
+-/
+
+namespace A213222.P10632389927872347560
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 1, -3, 1] [1, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A213222.P10632389927872347560
+
+namespace A213222
+
+/-- `∑[∑[ogf((3+x-3x^2+x^3)/(1+x))]]` -/
+def P10632389927872347560.Spec : Prop :=
+  ∀ n, P10632389927872347560.a n = A213222 (n + 3)
+
+end A213222
+
 /-! ## A213222.P4979181968124129828
 
 `ogf((3+x-3x^2+x^3)/(1-x-x^2+x^3))`
@@ -3668,6 +3697,55 @@ def P6736674351370147789.Spec : Prop :=
 
 end A213236
 
+/-! ## A213236.P11003394349803510867
+
+`(A181983(n+1)+A181983(n))*A000169(n+1)`
+-/
+
+namespace A213236.P11003394349803510867
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A181983 (n + 1) + A181983 n) * A000169 (n + 1)
+
+end
+
+end A213236.P11003394349803510867
+
+namespace A213236
+
+/-- `(A181983(n+1)+A181983(n))*A000169(n+1)` -/
+def P11003394349803510867.Spec : Prop :=
+  ∀ n, P11003394349803510867.a n = A213236 (n + 1)
+
+end A213236
+
+/-! ## A213236.P3539581808055953253
+
+`A042977(∑[n])`
+-/
+
+namespace A213236.P3539581808055953253
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A042977 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A213236.P3539581808055953253
+
+namespace A213236
+
+/-- `A042977(∑[n])` -/
+def P3539581808055953253.Spec : Prop :=
+  ∀ n, P3539581808055953253.a n = A213236 (n + 1)
+
+end A213236
+
 /-!
 # A213237: Number of distinct values v satisfying v = sum of elements in S = product of elements in P for any partition of {1,...,n} into two sets S and P.
 
@@ -4775,6 +4853,55 @@ def P13741132862908763600.Spec : Prop :=
 
 end A213246
 
+/-! ## A213246.P12500471353168762251
+
+`A000265(A059990(n+1))`
+-/
+
+namespace A213246.P12500471353168762251
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000265 (A059990 (n + 1)).toNat
+
+end
+
+end A213246.P12500471353168762251
+
+namespace A213246
+
+/-- `A000265(A059990(n+1))` -/
+def P12500471353168762251.Spec : Prop :=
+  ∀ n, P12500471353168762251.a n = A213246 (n + 1)
+
+end A213246
+
+/-! ## A213246.P9368073048035275442
+
+`filter[A059990(n+1), A008966(#)]`
+-/
+
+namespace A213246.P9368073048035275442
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059990 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A008966 (f1 j).toNat = 1) n)
+
+end
+
+end A213246.P9368073048035275442
+
+namespace A213246
+
+/-- `filter[A059990(n+1), A008966(#)]` -/
+def P9368073048035275442.Spec : Prop :=
+  ∀ n, P9368073048035275442.a n = A213246 (n + 1)
+
+end A213246
+
 /-!
 # A213247: Number of nonzero elements in GF(2^n) that are 11th powers.
 
@@ -4870,6 +4997,32 @@ namespace A213247
 /-- `A126646(n)/Δ[A330859(n)]` -/
 def P17678267876680782207.Spec : Prop :=
   ∀ n, P17678267876680782207.a n = (A213247 (n + 1) : ℚ)
+
+end A213247
+
+/-! ## A213247.P10086690713333731154
+
+`A106612(∑[2^n])`
+-/
+
+namespace A213247.P10086690713333731154
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106612 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A213247.P10086690713333731154
+
+namespace A213247
+
+/-- `A106612(∑[2^n])` -/
+def P10086690713333731154.Spec : Prop :=
+  ∀ n, P10086690713333731154.a n = A213247 (n + 1)
 
 end A213247
 

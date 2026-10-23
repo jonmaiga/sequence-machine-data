@@ -25666,33 +25666,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A028208.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A023965.P2747211276513590801
+/-! ## A028209.P10017964568648344345
 
-`floor(10*root(sqrt(n+1), 3))%10`
+`23*a(n-1)-132*a(n-2)+7^(n+1)-6^(n+1)` with `a(0)=1, a(1)=36`
 -/
 
-namespace A023965.P2747211276513590801
+namespace A028209.P10017964568648344345
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ⌊10 * Real.sqrt (n + 1 : ℝ) ^ (1 / (3 : ℝ))⌋ 10
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 36] fun n a =>
+  23 * a (n - 1) - 132 * a (n - 2) + (7 ^ (n + 1) : ℤ) - (6 ^ (n + 1) : ℤ)
 
 end
 
-end A023965.P2747211276513590801
+end A028209.P10017964568648344345
 
 noncomputable section
 
-/-- A023965: First digit after decimal point of 6th root of n.
+/-- A028209: Expansion of 1/((1-6x)(1-7x)(1-11x)(1-12x)).
 
-Offset 1, canonical program `A023965.P2747211276513590801`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A023965 (n : ℕ) : ℤ :=
-  A023965.P2747211276513590801.a (n - 1)
+Offset 0, canonical program `A028209.P10017964568648344345`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A028209 (n : ℕ) : ℤ :=
+  A028209.P10017964568648344345.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A023965.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A028209.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A023966.P7694824610596751289
 

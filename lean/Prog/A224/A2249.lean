@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -3457,6 +3458,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A224933.P15113770340428208075
+
+/-!
+# A224934: Primes p for which there exists no prime q, different from p, such that p+q-1 is the next prime after p.
+
+The programs for A224934, there is no canonical definition to state claims against.
+-/
+
+/-! ## A224934.P5057746611178821363
+
+`A259788(A117699(n+2))`
+-/
+
+namespace A224934.P5057746611178821363
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259788 (A117699 (n + 2)).toNat
+
+end
+
+end A224934.P5057746611178821363
 
 /-!
 # A224936: Primes in either the numerator or denominator of continued fraction convergents to Pi.
@@ -7875,6 +7897,29 @@ def P11520171902688620599.Spec : Prop :=
 
 end A224996
 
+/-! ## A224996.P16227015177522846763
+
+`A072633(n+2)-2`
+-/
+
+namespace A224996.P16227015177522846763
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072633 (n + 2) - 2
+
+end
+
+end A224996.P16227015177522846763
+
+namespace A224996
+
+/-- `A072633(n+2)-2` -/
+def P16227015177522846763.Spec : Prop :=
+  ∀ n, P16227015177522846763.a n = A224996 (n + 2)
+
+end A224996
+
 /-! ## A224996.P3186849613079590524
 
 `∑[A078614(n+2)]`
@@ -7898,6 +7943,29 @@ namespace A224996
 /-- `∑[A078614(n+2)]` -/
 def P3186849613079590524.Spec : Prop :=
   ∀ n, P3186849613079590524.a n = A224996 (n + 2)
+
+end A224996
+
+/-! ## A224996.P11593240208775315988
+
+`A332101(n+2)-3`
+-/
+
+namespace A224996.P11593240208775315988
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332101 (n + 2) - 3
+
+end
+
+end A224996.P11593240208775315988
+
+namespace A224996
+
+/-- `A332101(n+2)-3` -/
+def P11593240208775315988.Spec : Prop :=
+  ∀ n, P11593240208775315988.a n = A224996 (n + 2)
 
 end A224996
 
@@ -8082,52 +8150,6 @@ namespace A224996
 /-- `round(log2(e*sinh(n+1)))` -/
 def P10355821712917674478.Spec : Prop :=
   ∀ n, P10355821712917674478.a n = A224996 (n + 2)
-
-end A224996
-
-/-! ## A224996.P2319973573858851110
-
-`round(log2(cosh(n+2)))`
--/
-
-namespace A224996.P2319973573858851110
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.logb 2 (Real.cosh (n + 2 : ℝ)))
-
-end
-
-end A224996.P2319973573858851110
-
-namespace A224996
-
-/-- `round(log2(cosh(n+2)))` -/
-def P2319973573858851110.Spec : Prop :=
-  ∀ n, P2319973573858851110.a n = A224996 (n + 2)
-
-end A224996
-
-/-! ## A224996.P11845550185774627133
-
-`round(log2(sinh(n+2)))`
--/
-
-namespace A224996.P11845550185774627133
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.logb 2 (Real.sinh (n + 2 : ℝ)))
-
-end
-
-end A224996.P11845550185774627133
-
-namespace A224996
-
-/-- `round(log2(sinh(n+2)))` -/
-def P11845550185774627133.Spec : Prop :=
-  ∀ n, P11845550185774627133.a n = A224996 (n + 2)
 
 end A224996
 

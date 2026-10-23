@@ -10028,6 +10028,29 @@ def P14056633690817547791.Spec : Prop :=
 
 end A017330
 
+/-! ## A017330.P10641561848271935811
+
+`(5*(2*n+1))^acos(cos(2))`
+-/
+
+namespace A017330.P10641561848271935811
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (5 * (2 * n + 1) : ℝ) ^ (Real.arccos (Real.cos (2 : ℝ)))
+
+end
+
+end A017330.P10641561848271935811
+
+namespace A017330
+
+/-- `(5*(2*n+1))^acos(cos(2))` -/
+def P10641561848271935811.Spec : Prop :=
+  ∀ n, P10641561848271935811.a n = (A017330 n : ℝ)
+
+end A017330
+
 /-! ## A017330.P8283264500987127275
 
 `record[(gcd(10, 2-n)+n+3)²]`
@@ -10264,29 +10287,6 @@ namespace A017330
 /-- `sqrt(sqrt(A017336(n)))` -/
 def P14500503083765542258.Spec : Prop :=
   ∀ n, P14500503083765542258.a n = (A017330 n : ℝ)
-
-end A017330
-
-/-! ## A017330.P12645264725471579416
-
-`4*A177059(n)+1`
--/
-
-namespace A017330.P12645264725471579416
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A177059 n + 1
-
-end
-
-end A017330.P12645264725471579416
-
-namespace A017330
-
-/-- `4*A177059(n)+1` -/
-def P12645264725471579416.Spec : Prop :=
-  ∀ n, P12645264725471579416.a n = A017330 n
 
 end A017330
 

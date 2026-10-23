@@ -49,7 +49,6 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -70,7 +69,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -3116,6 +3114,29 @@ def P423802789999298691.Spec : Prop :=
 
 end A154117
 
+/-! ## A154117.P11415708779886606573
+
+`A296953(n)+A255047(n)`
+-/
+
+namespace A154117.P11415708779886606573
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296953 n + A255047 n
+
+end
+
+end A154117.P11415708779886606573
+
+namespace A154117
+
+/-- `A296953(n)+A255047(n)` -/
+def P11415708779886606573.Spec : Prop :=
+  ∀ n, P11415708779886606573.a n = A154117 n
+
+end A154117
+
 /-!
 # A154118: Expansion of (1 - x + 5x^2)/((1-x)*(1-2x)).
 
@@ -3540,6 +3561,29 @@ namespace A154118
 /-- `A000079(n)+A131128(n)-A094373(n)` -/
 def P15363357153532054119.Spec : Prop :=
   ∀ n, P15363357153532054119.a n = A154118 n
+
+end A154118
+
+/-! ## A154118.P5236108489397690273
+
+`A094373(n)+A131130(n)-A000079(n)`
+-/
+
+namespace A154118.P5236108489397690273
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094373 n + (A131130 n - A000079 n)
+
+end
+
+end A154118.P5236108489397690273
+
+namespace A154118
+
+/-- `A094373(n)+A131130(n)-A000079(n)` -/
+def P5236108489397690273.Spec : Prop :=
+  ∀ n, P5236108489397690273.a n = A154118 n
 
 end A154118
 

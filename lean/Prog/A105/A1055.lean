@@ -58,7 +58,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -9287,6 +9286,29 @@ def P520204698258476857.Spec : Prop :=
 
 end A105570
 
+/-! ## A105570.P14207220710436400704
+
+`A087049(n)*A199969(n+1)`
+-/
+
+namespace A105570.P14207220710436400704
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087049 n * A199969 (n + 1)
+
+end
+
+end A105570.P14207220710436400704
+
+namespace A105570
+
+/-- `A087049(n)*A199969(n+1)` -/
+def P14207220710436400704.Spec : Prop :=
+  ∀ n, P14207220710436400704.a n = A105570 n
+
+end A105570
+
 /-! ## A105570.P11542426455863978214
 
 `n*(1-char[A070321(n+1)])`
@@ -9476,33 +9498,6 @@ namespace A105570
 /-- `n*(1-char[A076734(n+1)])` -/
 def P12979613140303403960.Spec : Prop :=
   ∀ n, P12979613140303403960.a n = A105570 n
-
-end A105570
-
-/-! ## A105570.P11566262671992060610
-
-`n*(1-char[A081213(n+1)])`
--/
-
-namespace A105570.P11566262671992060610
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081213 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * (1 - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ))
-
-end
-
-end A105570.P11566262671992060610
-
-namespace A105570
-
-/-- `n*(1-char[A081213(n+1)])` -/
-def P11566262671992060610.Spec : Prop :=
-  ∀ n, P11566262671992060610.a n = A105570 n
 
 end A105570
 

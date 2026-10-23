@@ -18,6 +18,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
@@ -60,7 +61,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C001
 import Seq.B012.C000
@@ -1117,6 +1117,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A370520.P9229134351907331343
+
+/-! ## A370520.P4889284916284907695
+
+`∩[A109811(n+1), A346217(n+1)]`
+-/
+
+namespace A370520.P4889284916284907695
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109811 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346217 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A370520.P4889284916284907695
+
+/-! ## A370520.P1600379868066999976
+
+`∩[A109811(n+1), A353729(n+1)]`
+-/
+
+namespace A370520.P1600379868066999976
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109811 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353729 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A370520.P1600379868066999976
 
 /-!
 # A370522: a(n) is the least n-digit number whose square has the maximum sum of digits (A348300(n)).
@@ -3506,6 +3550,21 @@ end
 
 end A370577.P14072720183988334016
 
+/-! ## A370577.P13722156977024518932
+
+`A124768(A349153(A333765(n+1))+n+1)`
+-/
+
+namespace A370577.P13722156977024518932
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124768 (A349153 (A333765 (n + 1)).toNat + (n + 1 : ℤ)).toNat
+
+end
+
+end A370577.P13722156977024518932
+
 /-!
 # A370578: Numbers k such that k + 1 divides 3^k + 1.
 
@@ -4686,6 +4745,32 @@ def P763526609904237359.Spec : Prop :=
 
 end A370597
 
+/-! ## A370597.P7274228710766048281
+
+`filter[A101616(2*n+1), A168185(#)]`
+-/
+
+namespace A370597.P7274228710766048281
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101616 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A168185 (f1 j).toNat = 1) n)
+
+end
+
+end A370597.P7274228710766048281
+
+namespace A370597
+
+/-- `filter[A101616(2*n+1), A168185(#)]` -/
+def P7274228710766048281.Spec : Prop :=
+  ∀ n, P7274228710766048281.a n = A370597 (n + 1)
+
+end A370597
+
 /-!
 # A370598: Characteristic function of exponentially squarefree numbers (A209061).
 
@@ -4710,6 +4795,29 @@ def P3615362313586893228.Spec : Prop :=
 theorem P3615362313586893228.correct : P3615362313586893228.Spec := by
   intro n
   simp only [A370598, Nat.add_sub_cancel]
+
+end A370598
+
+/-! ## A370598.P1989266169674132408
+
+`C(A338782(n+1), n+1)`
+-/
+
+namespace A370598.P1989266169674132408
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A338782 (n + 1)).toNat (n + 1)
+
+end
+
+end A370598.P1989266169674132408
+
+namespace A370598
+
+/-- `C(A338782(n+1), n+1)` -/
+def P1989266169674132408.Spec : Prop :=
+  ∀ n, (P1989266169674132408.a n : ℤ) = A370598 (n + 1)
 
 end A370598
 

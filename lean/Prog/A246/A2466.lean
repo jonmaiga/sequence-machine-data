@@ -923,6 +923,56 @@ def P3430515236602652317.Spec : Prop :=
 end A246604
 
 /-!
+# A246605: Numbers n such that n = (digital root of n)^(number of digits of n).
+
+The programs for A246605, there is no canonical definition to state claims against.
+-/
+
+/-! ## A246605.P7938030848215597664
+
+`∩[A130577(n), A381487(n+1)]`
+-/
+
+namespace A246605.P7938030848215597664
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130577 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381487 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246605.P7938030848215597664
+
+/-! ## A246605.P7430803507264947068
+
+`∩[A078453(n+1), A381487(n+1)]`
+-/
+
+namespace A246605.P7430803507264947068
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078453 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381487 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A246605.P7430803507264947068
+
+/-!
 # A246606: Central terms of the triangle A116853.
 
 The programs for A246606, there is no canonical definition to state claims against.
@@ -5990,7 +6040,7 @@ end A246654.P15629075384255572822
 /-!
 # A246655: Prime powers: numbers of the form p^k where p is a prime and k >= 1.
 
-The programs for A246655, the canonical program `A246655.P2302191067120461210` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246655 has offset 1).
+The programs for A246655, the canonical program `A246655.P2302191067120461210` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246655 has offset 1).
 
 The definition of A246655 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5999,7 +6049,7 @@ The definition of A246655 is `conditional`: the Lean definition is an OEIS formu
 
 `A000961(n+2)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A246655
@@ -6365,6 +6415,84 @@ namespace A246655
 /-- `A192134(n+2)+A192015(n+2)` -/
 def P3944393316785036054.Spec : Prop :=
   ∀ n, P3944393316785036054.a n = A246655 (n + 1)
+
+end A246655
+
+/-! ## A246655.P10196273428200012315
+
+`filter[A059046(n+1), A324290(#)]`
+-/
+
+namespace A246655.P10196273428200012315
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059046 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A324290 (f1 j).toNat = 1) n)
+
+end
+
+end A246655.P10196273428200012315
+
+namespace A246655
+
+/-- `filter[A059046(n+1), A324290(#)]` -/
+def P10196273428200012315.Spec : Prop :=
+  ∀ n, P10196273428200012315.a n = A246655 (n + 1)
+
+end A246655
+
+/-! ## A246655.P9290860401757935950
+
+`record[A008475(n+2)]`
+-/
+
+namespace A246655.P9290860401757935950
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008475 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A246655.P9290860401757935950
+
+namespace A246655
+
+/-- `record[A008475(n+2)]` -/
+def P9290860401757935950.Spec : Prop :=
+  ∀ n, P9290860401757935950.a n = A246655 (n + 1)
+
+end A246655
+
+/-! ## A246655.P5451725372076589940
+
+`filter[A059046(n+1), A069513(#)]`
+-/
+
+namespace A246655.P5451725372076589940
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059046 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A069513 (f1 j).toNat = 1) n)
+
+end
+
+end A246655.P5451725372076589940
+
+namespace A246655
+
+/-- `filter[A059046(n+1), A069513(#)]` -/
+def P5451725372076589940.Spec : Prop :=
+  ∀ n, P5451725372076589940.a n = A246655 (n + 1)
 
 end A246655
 

@@ -28,7 +28,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -66,6 +66,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -691,6 +692,28 @@ end
 
 end A340604.P2364993233788473754
 
+/-! ## A340604.P9946378054313126277
+
+`∩[A324562(n+1), A340603(n+1)]`
+-/
+
+namespace A340604.P9946378054313126277
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324562 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340603 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A340604.P9946378054313126277
+
 /-! ## A340604.P9975706424492809296
 
 `∩[A340603(n+1), A352487(n+1)]`
@@ -713,19 +736,19 @@ end
 
 end A340604.P9975706424492809296
 
-/-! ## A340604.P2668796031840684014
+/-! ## A340604.P12039910829213538621
 
-`∩[A340603(n+1), A340787(n+1)]`
+`∩[A340603(n+1), A352489(n+1)]`
 -/
 
-namespace A340604.P2668796031840684014
+namespace A340604.P12039910829213538621
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A340603 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340787 (n + 1)
+  A352489 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -733,7 +756,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A340604.P2668796031840684014
+end A340604.P12039910829213538621
 
 /-!
 # A340605: Heinz numbers of integer partitions of even positive rank.
@@ -3921,19 +3944,19 @@ end
 
 end A340637.P15559492889267265144
 
-/-! ## A340637.P14805343780623135509
+/-! ## A340637.P17211032550210422206
 
-`∩[A018609(n+1), A236021(n+1)]`
+`∩[A068090(n+1), A094348(n+1)]`
 -/
 
-namespace A340637.P14805343780623135509
+namespace A340637.P17211032550210422206
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018609 (n + 1)
+  A068090 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A236021 (n + 1)
+  A094348 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3941,7 +3964,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A340637.P14805343780623135509
+end A340637.P17211032550210422206
 
 /-!
 # A340638: Integers whose number of divisors that are Zuckerman numbers sets a new record.

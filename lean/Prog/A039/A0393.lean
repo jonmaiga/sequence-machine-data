@@ -38,7 +38,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -48,7 +47,6 @@ import Seq.B011.C000
 import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1110,6 +1108,124 @@ def P4594816042051244258.Spec : Prop :=
 
 end A039302
 
+/-! ## A039302.P13593567301893507295
+
+`∑[ogf((-1+2x+5x^2)/(-1+4x+5x^2))]`
+-/
+
+namespace A039302.P13593567301893507295
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -5] [1, -4, -5] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A039302.P13593567301893507295
+
+namespace A039302
+
+/-- `∑[ogf((-1+2x+5x^2)/(-1+4x+5x^2))]` -/
+def P13593567301893507295.Spec : Prop :=
+  ∀ n, P13593567301893507295.a n = A039302 n
+
+end A039302
+
+/-! ## A039302.P15841411792862156017
+
+`ogf((-1+2x+5x^2)/(-1+5x+x^2-5x^3))`
+-/
+
+namespace A039302.P15841411792862156017
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -5] [1, -5, -1, 5] n
+
+end
+
+end A039302.P15841411792862156017
+
+namespace A039302
+
+/-- `ogf((-1+2x+5x^2)/(-1+5x+x^2-5x^3))` -/
+def P15841411792862156017.Spec : Prop :=
+  ∀ n, P15841411792862156017.a n = A039302 n
+
+end A039302
+
+/-! ## A039302.P11007468397414969426
+
+`5*a(n-1)-2*gcd(2, n)` with `a(0)=1`
+-/
+
+namespace A039302.P11007468397414969426
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  5 * a (n - 1) - (2 * Nat.gcd 2 n : ℤ)
+
+end
+
+end A039302.P11007468397414969426
+
+namespace A039302
+
+/-- `5*a(n-1)-2*gcd(2, n)` -/
+def P11007468397414969426.Spec : Prop :=
+  ∀ n, P11007468397414969426.a n = A039302 n
+
+end A039302
+
+/-! ## A039302.P1401952756390895175
+
+`(A102239(n)+2)/3`
+-/
+
+namespace A039302.P1401952756390895175
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A102239 n + 2 : ℚ) / 3
+
+end
+
+end A039302.P1401952756390895175
+
+namespace A039302
+
+/-- `(A102239(n)+2)/3` -/
+def P1401952756390895175.Spec : Prop :=
+  ∀ n, P1401952756390895175.a n = (A039302 n : ℚ)
+
+end A039302
+
+/-! ## A039302.P11211616696532592676
+
+`A000993(n)/A023105(n)`
+-/
+
+namespace A039302.P11211616696532592676
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000993 n : ℚ) / (A023105 n : ℚ)
+
+end
+
+end A039302.P11211616696532592676
+
+namespace A039302
+
+/-- `A000993(n)/A023105(n)` -/
+def P11211616696532592676.Spec : Prop :=
+  ∀ n, P11211616696532592676.a n = (A039302 n : ℚ)
+
+end A039302
+
 /-!
 # A039303: Number of distinct quadratic residues mod 6^n.
 
@@ -1305,6 +1421,55 @@ namespace A039304
 /-- `floor((7^n+3)*7/16)` -/
 def P4721968063186133112.Spec : Prop :=
   ∀ n, P4721968063186133112.a n = A039304 n
+
+end A039304
+
+/-! ## A039304.P9994912117227697787
+
+`∑[ogf((-1+3x+7x^2)/(-1+6x+7x^2))]`
+-/
+
+namespace A039304.P9994912117227697787
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, -7] [1, -6, -7] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A039304.P9994912117227697787
+
+namespace A039304
+
+/-- `∑[ogf((-1+3x+7x^2)/(-1+6x+7x^2))]` -/
+def P9994912117227697787.Spec : Prop :=
+  ∀ n, P9994912117227697787.a n = A039304 n
+
+end A039304
+
+/-! ## A039304.P8015573244591111325
+
+`ogf((-1+3x+7x^2)/(-1+7x+x^2-7x^3))`
+-/
+
+namespace A039304.P8015573244591111325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, -7] [1, -7, -1, 7] n
+
+end
+
+end A039304.P8015573244591111325
+
+namespace A039304
+
+/-- `ogf((-1+3x+7x^2)/(-1+7x+x^2-7x^3))` -/
+def P8015573244591111325.Spec : Prop :=
+  ∀ n, P8015573244591111325.a n = A039304 n
 
 end A039304
 
@@ -4075,20 +4240,27 @@ end
 
 end A039350.P16163948453705882553
 
-/-! ## A039350.P18375564042862490479
+/-! ## A039350.P7325203323437915168
 
-`A043173(A292125(n+1))`
+`∩[A039070(n+1), A103543(n+1)]`
 -/
 
-namespace A039350.P18375564042862490479
+namespace A039350.P7325203323437915168
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043173 (A292125 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039070 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103543 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A039350.P18375564042862490479
+end A039350.P7325203323437915168
 
 /-!
 # A039351: Numbers whose base-8 representation has the same nonzero number of 4's and 5's.
@@ -7753,4 +7925,19 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039399.P3997402052905296895
+
+/-! ## A039399.P9351065006524855499
+
+`A043222(A062399(n+1))`
+-/
+
+namespace A039399.P9351065006524855499
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043222 (A062399 (n + 1)).toNat
+
+end
+
+end A039399.P9351065006524855499
 

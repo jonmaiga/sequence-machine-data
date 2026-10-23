@@ -2316,6 +2316,21 @@ end
 
 end A103736.P10627995191599926934
 
+/-! ## A103736.P6262354519465144276
+
+`A000045(A141468(n+1))`
+-/
+
+namespace A103736.P6262354519465144276
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000045 (A141468 (n + 1)).toNat
+
+end
+
+end A103736.P6262354519465144276
+
 /-!
 # A103737: Define a(1)=0, a(2)=0, a(3)=3, a(4)=7 such that from i=1 to 4: 30*a(i)^2 + 30*a(i) + 1 = j(i)^2, j(1)=1, j(2)=1, j(3)=19, j(4)=41 Then a(n) = a(n-4) + 4*sqrt(30*(a(n-2)^2) + 30*a(n-2) + 1).
 

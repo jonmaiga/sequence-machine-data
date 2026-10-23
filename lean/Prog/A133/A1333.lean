@@ -63,7 +63,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -7172,6 +7171,29 @@ def P6561119632305517136.Spec : Prop :=
 
 end A133384
 
+/-! ## A133384.P2985927569740262390
+
+`A098752(3*(n+1))`
+-/
+
+namespace A133384.P2985927569740262390
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098752 (3 * (n + 1))
+
+end
+
+end A133384.P2985927569740262390
+
+namespace A133384
+
+/-- `A098752(3*(n+1))` -/
+def P2985927569740262390.Spec : Prop :=
+  ∀ n, P2985927569740262390.a n = A133384 n
+
+end A133384
+
 /-! ## A133384.P4053890842480741911
 
 `2*(A198971(n)+2)`
@@ -7215,32 +7237,6 @@ namespace A133384
 /-- `3*(A033175(n)+3)` -/
 def P1245180722534541721.Spec : Prop :=
   ∀ n, P1245180722534541721.a n = A133384 n
-
-end A133384
-
-/-! ## A133384.P11222374127006424156
-
-`A000462(∑[n+2]+3)`
--/
-
-namespace A133384.P11222374127006424156
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000462 (∑ j ∈ Finset.range (n + 1), f1 j + 3)
-
-end
-
-end A133384.P11222374127006424156
-
-namespace A133384
-
-/-- `A000462(∑[n+2]+3)` -/
-def P11222374127006424156.Spec : Prop :=
-  ∀ n, P11222374127006424156.a n = A133384 n
 
 end A133384
 

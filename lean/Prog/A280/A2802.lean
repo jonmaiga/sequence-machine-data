@@ -4068,6 +4068,28 @@ end
 
 end A280257.P5400193569486806644
 
+/-! ## A280257.P8648031933635982677
+
+`∩[A127072(n+1), A171524(n+1)]`
+-/
+
+namespace A280257.P8648031933635982677
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127072 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171524 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A280257.P8648031933635982677
+
 /-!
 # A280258: a(n) = Sum_{d|n} pxi(d), where pxi(m) is the product of totatives of m (A001783).
 
@@ -8658,80 +8680,93 @@ end
 
 end A280296.P4815620228866550459
 
-/-! ## A280296.P15174346557241102500
+/-! ## A280296.P16986635459223467592
 
-`∏{p}[record[A055231(A049094(n+1))], A014963(#)]`
+`∩[A000469(n+1), A049094(n+1)]`
 -/
 
-namespace A280296.P15174346557241102500
+namespace A280296.P16986635459223467592
 noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000469 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055231 (A049094 (n + 1)).toNat
+  A049094 (n + 1)
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A014963 p
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A280296.P15174346557241102500
+end A280296.P16986635459223467592
 
-/-! ## A280296.P11389579191330122828
+/-! ## A280296.P17117910316436441538
 
-`record[A055231(A049094(n+1))]%A000040(n+2)²`
+`∩[A005117(n+1), A049094(n+1)]`
 -/
 
-namespace A280296.P11389579191330122828
+namespace A280296.P17117910316436441538
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055231 (A049094 (n + 1)).toNat
+  A005117 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A000040 (n + 2) ^ 2)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049094 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A280296.P11389579191330122828
+end A280296.P17117910316436441538
 
-/-! ## A280296.P1988397376173666588
+/-! ## A280296.P16889233929442406395
 
-`record[A055231(A049094(n+1))%A018252(n+2)²]`
+`∩[A049094(n+1), A068919(n+1)]`
 -/
 
-namespace A280296.P1988397376173666588
+namespace A280296.P16889233929442406395
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A055231 (A049094 (n + 1)).toNat) (A018252 (n + 2) ^ 2)
+  A049094 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068919 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A280296.P1988397376173666588
+end A280296.P16889233929442406395
 
-/-! ## A280296.P14251752461450947698
+/-! ## A280296.P17296913414770615310
 
-`record[A055231(A049094(n+1))]+A008683(4*(n+1))`
+`∩[A049094(n+1), A084349(n+1)]`
 -/
 
-namespace A280296.P14251752461450947698
+namespace A280296.P17296913414770615310
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055231 (A049094 (n + 1)).toNat
+  A049094 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) + A008683 (4 * (n + 1))
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084349 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A280296.P14251752461450947698
+end A280296.P17296913414770615310
 
 /-!
 # A280297: Numbers n such that F(n) and F(n-1) are not squarefree where F(n) = A000045(n).

@@ -2587,63 +2587,63 @@ end
 
 end A232436.P17722287945036991260
 
-/-! ## A232436.P9732458370489132272
+/-! ## A232436.P12824658715846705342
 
-`∩[A373587(n+1), A198772(n+1)]`
+`∩[A198772(n+1), A373587(n+1)]`
 -/
 
-namespace A232436.P9732458370489132272
+namespace A232436.P12824658715846705342
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A198772 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A373587 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198772 (n + 1)
-
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A232436.P9732458370489132272
+end A232436.P12824658715846705342
 
-/-! ## A232436.P5735945566702675053
+/-! ## A232436.P12574754908108429819
 
-`∩[A374109(n+1), A198772(n+1)]`
+`∩[A198772(n+1), A374109(n+1)]`
 -/
 
-namespace A232436.P5735945566702675053
+namespace A232436.P12574754908108429819
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A198772 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A374109 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198772 (n + 1)
-
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A232436.P5735945566702675053
+end A232436.P12574754908108429819
 
-/-! ## A232436.P1666153829053807156
+/-! ## A232436.P3426254129097269558
 
-`∩[A374115(n+1), A198772(n+1)]`
+`∩[A198772(n+1), A374115(n+1)]`
 -/
 
-namespace A232436.P1666153829053807156
+namespace A232436.P3426254129097269558
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374115 (n + 1)
+  A198772 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198772 (n + 1)
+  A374115 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2651,7 +2651,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A232436.P1666153829053807156
+end A232436.P3426254129097269558
 
 /-! ## A232436.P14651065438164226162
 

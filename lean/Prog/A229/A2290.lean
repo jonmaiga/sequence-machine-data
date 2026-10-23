@@ -69,7 +69,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -2027,6 +2026,32 @@ def P12315571610387963672.Spec : Prop :=
 
 end A229013
 
+/-! ## A229013.P5432123430427723888
+
+`∑[A019426((n+1)²+n)]`
+-/
+
+namespace A229013.P5432123430427723888
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019426 ((n + 1) ^ 2 + n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A229013.P5432123430427723888
+
+namespace A229013
+
+/-- `∑[A019426((n+1)²+n)]` -/
+def P5432123430427723888.Spec : Prop :=
+  ∀ n, P5432123430427723888.a n = A229013 (n + 1)
+
+end A229013
+
 /-!
 # A229014: Number of arrays of median of three adjacent elements of some length 6 0..n array, with no adjacent equal elements in the latter.
 
@@ -3430,6 +3455,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A229030.P16905738271097886419
+
+/-! ## A229030.P5968133642916596588
+
+`A229033((n+1)*A381169(n+1))`
+-/
+
+namespace A229030.P5968133642916596588
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229033 ((n + 1 : ℤ) * A381169 (n + 1)).toNat
+
+end
+
+end A229030.P5968133642916596588
 
 /-!
 # A229031: Number of 5-colorings of the strong product of the complete graph K2 and the cycle graph Cn.

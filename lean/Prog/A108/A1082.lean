@@ -3517,6 +3517,29 @@ def P8815974388624025922.Spec : Prop :=
 
 end A108225
 
+/-! ## A108225.P16434976080049247475
+
+`2-(a(n-1)-a(n-1)²)/2` with `a(0)=0`
+-/
+
+namespace A108225.P16434976080049247475
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  2 - (a (n - 1) - a (n - 1) ^ 2) / 2
+
+end
+
+end A108225.P16434976080049247475
+
+namespace A108225
+
+/-- `2-(a(n-1)-a(n-1)²)/2` -/
+def P16434976080049247475.Spec : Prop :=
+  ∀ n, P16434976080049247475.a n = (A108225 n : ℚ)
+
+end A108225
+
 /-!
 # A108226: Primes p such that p + 8^k is composite for all k >= 0.
 
@@ -4879,6 +4902,33 @@ namespace A108233
 /-- `ceil(p?[a(n-1)+11]/11)-1` -/
 def P10031032932851386601.Spec : Prop :=
   ∀ n, P10031032932851386601.a n = A108233 (n + 1)
+
+end A108233
+
+/-! ## A108233.P7205782054712011575
+
+`comp[A153381(n+1)]`
+-/
+
+namespace A108233.P7205782054712011575
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153381 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A108233.P7205782054712011575
+
+namespace A108233
+
+/-- `comp[A153381(n+1)]` -/
+def P7205782054712011575.Spec : Prop :=
+  ∀ n, (P7205782054712011575.a n : ℤ) = A108233 (n + 1)
 
 end A108233
 
@@ -9639,20 +9689,49 @@ end
 
 end A108270.P3655970664082176216
 
-/-! ## A108270.P9227323957670245119
+/-! ## A108270.P13070950639803753452
 
-`A096986(A184397(n+1)^A172363(2*n+3)-1)`
+`∩[A018252(n+1), A096986(n+1)]`
 -/
 
-namespace A108270.P9227323957670245119
+namespace A108270.P13070950639803753452
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096986 (SequenceMachineLib.roundAway ((A184397 (n + 1) : ℚ) ^ (A172363 (2 * n + 3) : ℤ) - 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018252 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096986 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A108270.P9227323957670245119
+end A108270.P13070950639803753452
+
+/-! ## A108270.P4301205323746140973
+
+`∩[A096986(n+1), A141468(n+1)]`
+-/
+
+namespace A108270.P4301205323746140973
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096986 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A108270.P4301205323746140973
 
 /-!
 # A108271: Consider primes p and q such that p = 2^k + 15 and q = 2^(k+1) + 15 for some k; sequence gives values of q.

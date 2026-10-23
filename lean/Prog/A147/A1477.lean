@@ -2996,6 +2996,24 @@ end
 
 end A147742.P3211527905939657891
 
+/-! ## A147742.P12556612609484134176
+
+`filter[A152351(n+1), A004547(#)]`
+-/
+
+namespace A147742.P12556612609484134176
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152351 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A004547 (f1 j).toNat = 1) n)
+
+end
+
+end A147742.P12556612609484134176
+
 /-!
 # A147743: Number of permutations of 2..n+1 with all sums of 2 through 4 adjacent terms squared respectively unique.
 

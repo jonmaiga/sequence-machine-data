@@ -51,7 +51,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,6 +66,7 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -4597,47 +4597,49 @@ end
 
 end A302438.P4225505962781875182
 
-/-! ## A302438.P4741952766697370488
+/-! ## A302438.P15026481166318323278
 
-`A108773(lt[A058189(2*(n+1)), A118528(n+1)])`
+`∩[A009994(n+1), A108203(n+1)]`
 -/
 
-namespace A302438.P4741952766697370488
+namespace A302438.P15026481166318323278
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058189 (2 * (n + 1))
+  A009994 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118528 (n + 1)
+  A108203 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108773 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A302438.P4741952766697370488
+end A302438.P15026481166318323278
 
-/-! ## A302438.P14720739871016028414
+/-! ## A302438.P6766187858732044042
 
-`A108773(lt[A112206(n), A367360(n)])`
+`∩[A072544(n+1), A108203(n+1)]`
 -/
 
-namespace A302438.P14720739871016028414
+namespace A302438.P6766187858732044042
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112206 n
+  A072544 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A367360 n
+  A108203 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A108773 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A302438.P14720739871016028414
+end A302438.P6766187858732044042
 
 /-!
 # A302439: a(n) is the number of ways of writing the binary expansion of n as a concatenation of nonempty aperiodic substrings (i.e., substrings that are not the concatenation of 2 or more equal parts).
@@ -7980,6 +7982,50 @@ end
 
 end A302478.P3137607840076846930
 
+/-! ## A302478.P15588423963182371266
+
+`∪[A302494(n+1), A356939(n+1)]`
+-/
+
+namespace A302478.P15588423963182371266
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302494 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356939 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302478.P15588423963182371266
+
+/-! ## A302478.P17855789833003718130
+
+`∪[A356939(n+1), A382201(n+1)]`
+-/
+
+namespace A302478.P17855789833003718130
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356939 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382201 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302478.P17855789833003718130
+
 /-! ## A302478.P16284877036382313011
 
 `eq[A303975(A006530(n+1)), A340691(n+1)]+1`
@@ -9913,6 +9959,36 @@ def P3783798341510439008.Spec : Prop :=
 
 end A302491
 
+/-! ## A302491.P2425854351942374274
+
+`∩[A000040(n+1), A302591(n+1)]`
+-/
+
+namespace A302491.P2425854351942374274
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302591 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302491.P2425854351942374274
+
+namespace A302491
+
+/-- `∩[A000040(n+1), A302591(n+1)]` -/
+def P2425854351942374274.Spec : Prop :=
+  ∀ n, (P2425854351942374274.a n : ℤ) = A302491 (n + 1)
+
+end A302491
+
 /-!
 # A302492: Products of any power of 2 with prime numbers of prime-power index, i.e., prime numbers p of the form p = prime(q^k), for q prime, k >= 1.
 
@@ -10021,7 +10097,7 @@ end A302492.P14778144522240347233
 /-!
 # A302493: Prime numbers of prime-power index.
 
-The programs for A302493, the canonical program `A302493.P13750760026098076296` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302493 has offset 1).
+The programs for A302493, the canonical program `A302493.P13750760026098076296` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302493 has offset 1).
 
 The definition of A302493 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A000961, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10030,7 +10106,7 @@ The definition of A302493 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A000961(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A302493
@@ -10508,6 +10584,32 @@ def P355252919997625696.Spec : Prop :=
 
 end A302493
 
+/-! ## A302493.P8697792604470272325
+
+`filter[A302593(n+1), A010051(#)]`
+-/
+
+namespace A302493.P8697792604470272325
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302593 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A302493.P8697792604470272325
+
+namespace A302493
+
+/-- `filter[A302593(n+1), A010051(#)]` -/
+def P8697792604470272325.Spec : Prop :=
+  ∀ n, P8697792604470272325.a n = A302493 (n + 1)
+
+end A302493
+
 /-!
 # A302494: Products of distinct primes of squarefree index.
 
@@ -10957,16 +11059,16 @@ end
 
 end A302496.P5530095914766209084
 
-/-! ## A302496.P10660844254905741715
+/-! ## A302496.P16964429250277303290
 
-`∪[A119988(n+1), A382426(n+1)]`
+`∪[A087005(n+1), A382426(n+1)]`
 -/
 
-namespace A302496.P10660844254905741715
+namespace A302496.P16964429250277303290
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119988 (n + 1)
+  A087005 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A382426 (n + 1)
@@ -10977,7 +11079,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A302496.P10660844254905741715
+end A302496.P16964429250277303290
 
 /-!
 # A302497: Powers of primes of squarefree index.

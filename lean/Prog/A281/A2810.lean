@@ -41,6 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -5017,6 +5018,40 @@ namespace A281026
 /-- `∑[∑[and(2, n)!]-1]` -/
 def P11291898586442880.Spec : Prop :=
   ∀ n, P11291898586442880.a n = A281026 n
+
+end A281026
+
+/-! ## A281026.P10042925429977847071
+
+`∑[comp[2*comp[lcm(3, n)]]]`
+-/
+
+namespace A281026.P10042925429977847071
+noncomputable section
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lcm 3 n
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ x) n
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A281026.P10042925429977847071
+
+namespace A281026
+
+/-- `∑[comp[2*comp[lcm(3, n)]]]` -/
+def P10042925429977847071.Spec : Prop :=
+  ∀ n, (P10042925429977847071.a n : ℤ) = A281026 n
 
 end A281026
 

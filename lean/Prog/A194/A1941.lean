@@ -13210,6 +13210,27 @@ end
 
 end A194154.P4152266374707409324
 
+/-! ## A194154.P16020440656744286747
+
+`eq[A304271(n+1), A308275(n+1)]`
+-/
+
+namespace A194154.P16020440656744286747
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304271 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308275 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A194154.P16020440656744286747
+
 /-!
 # A194155: Primes of the form k^8 + (k+1)^8.
 
@@ -13273,6 +13294,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A194155.P17183886599733493591
+
+/-! ## A194155.P14946934060723451070
+
+`∩[A036086(n), A078902(n+1)]`
+-/
+
+namespace A194155.P14946934060723451070
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036086 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078902 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A194155.P14946934060723451070
 
 /-!
 # A194156: Prime number that appears the most often as the n-th prime factor of an integer in a factorization given in ascending order.
@@ -18843,7 +18886,7 @@ end A194195
 /-!
 # A194196: Numbers k such that the sum of the divisors of k and the sum of the distinct prime divisors of k are both a square.
 
-The programs for A194196, the canonical program `A194196.P7947729533032304729` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194196 has offset 1).
+The programs for A194196, the canonical program `A194196.P7947729533032304729` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194196 has offset 1).
 
 The definition of A194196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 179 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18852,7 +18895,7 @@ The definition of A194196 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A006532(n+1), A164722(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194196

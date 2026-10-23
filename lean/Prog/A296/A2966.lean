@@ -364,6 +364,36 @@ end
 
 end A296603.P5531650750484612227
 
+/-! ## A296603.P17619990948483936062
+
+`A181708(A328617(n+2))`
+-/
+
+namespace A296603.P17619990948483936062
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181708 (A328617 (n + 2)).toNat
+
+end
+
+end A296603.P17619990948483936062
+
+/-! ## A296603.P3320893915074733553
+
+`A181708(A132264(n+2))`
+-/
+
+namespace A296603.P3320893915074733553
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181708 (A132264 (n + 2)).toNat
+
+end
+
+end A296603.P3320893915074733553
+
 /-!
 # A296605: Rectangle read by rows: T(n,k) is the number of n X n diagonalizable matrices over GF(3) that have exactly k distinct eigenvalues, n >= 0, 0 <= k <= 3.
 

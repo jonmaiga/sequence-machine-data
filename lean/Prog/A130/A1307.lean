@@ -66,7 +66,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -398,16 +397,16 @@ end
 
 end A130704.P16233033134542197277
 
-/-! ## A130704.P5036218968205178839
+/-! ## A130704.P18307924947998626048
 
-`∩[A071251(n+1), A122560(n+1)]`
+`∩[A069217(n+1), A122560(n+1)]`
 -/
 
-namespace A130704.P5036218968205178839
+namespace A130704.P18307924947998626048
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071251 (n + 1)
+  A069217 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A122560 (n + 1)
@@ -418,7 +417,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A130704.P5036218968205178839
+end A130704.P18307924947998626048
 
 /-!
 # A130705: Floors of constants in de Bruijn's approach to weighted Carleman's inequality.
@@ -5341,6 +5340,38 @@ namespace A130744
 /-- `abs(n/Δ[1/(n+1)!])` -/
 def P13925308858526913545.Spec : Prop :=
   ∀ n, P13925308858526913545.a n = (A130744 n : ℚ)
+
+end A130744
+
+/-! ## A130744.P9379268346329567724
+
+`Δ[n!]/(n+2)^-1`
+-/
+
+namespace A130744.P9379268346329567724
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial n
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((f1 (n + 1) : ℤ) - (f1 n : ℤ) : ℚ) / (n + 2 : ℚ) ^ (-1 : ℤ)
+
+end
+
+end A130744.P9379268346329567724
+
+namespace A130744
+
+/-- `Δ[n!]/(n+2)^-1` -/
+def P9379268346329567724.Spec : Prop :=
+  ∀ n, P9379268346329567724.a n = (A130744 n : ℚ)
+
+theorem P9379268346329567724.correct : P9379268346329567724.Spec := by
+  intro n
+  simp only [A130744, Nat.add_sub_cancel, A130744.P9379268346329567724.f1, A130744.P9379268346329567724.a, A130744.P711431262756029720.a, SequenceMachineLib.memo_apply]
+  try norm_num [Nat.choose_two_right, Nat.factorial]
+  try ring_nf
 
 end A130744
 
@@ -10515,16 +10546,16 @@ end
 
 end A130771.P8666622419412928476
 
-/-! ## A130771.P1629452891016186906
+/-! ## A130771.P12772499248319456853
 
-`∩[A284928(n+1), A130699(n+2)]`
+`∩[A001651(n+1), A130699(n+2)]`
 -/
 
-namespace A130771.P1629452891016186906
+namespace A130771.P12772499248319456853
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284928 (n + 1)
+  A001651 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A130699 (n + 2)
@@ -10535,7 +10566,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A130771.P1629452891016186906
+end A130771.P12772499248319456853
+
+/-! ## A130771.P14126344843280388120
+
+`∩[A062132(n+1), A130699(n+2)]`
+-/
+
+namespace A130771.P14126344843280388120
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062132 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130699 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A130771.P14126344843280388120
+
+/-! ## A130771.P14560728507614076215
+
+`∩[A112886(n+1), A130699(n+2)]`
+-/
+
+namespace A130771.P14560728507614076215
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112886 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130699 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A130771.P14560728507614076215
 
 /-!
 # A130772: Periodic sequence with period 2 2 0 -2 -2 0.

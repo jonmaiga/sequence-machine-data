@@ -25,13 +25,12 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -5111,6 +5110,50 @@ end
 
 end A223578.P11377417880478148434
 
+/-! ## A223578.P12708012258332256767
+
+`∪[A024813(n+1), A038537(n+1)]`
+-/
+
+namespace A223578.P12708012258332256767
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024813 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038537 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A223578.P12708012258332256767
+
+/-! ## A223578.P10394683242921786848
+
+`∪[A024813(n+1), A171161(n+1)]`
+-/
+
+namespace A223578.P10394683242921786848
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024813 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171161 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A223578.P10394683242921786848
+
 /-! ## A223578.P1072230962610482673
 
 `∪[A024813(n+1), A216977(n+1)]`
@@ -5147,21 +5190,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223578.P10713878892422762518
-
-/-! ## A223578.P16005149806423197770
-
-`A165276(A108479(n))+A087160(n+1)`
--/
-
-namespace A223578.P16005149806423197770
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165276 (A108479 n).toNat + A087160 (n + 1)
-
-end
-
-end A223578.P16005149806423197770
 
 /-!
 # A223579: Number of n X n 0..3 arrays with antidiagonals unimodal.

@@ -2464,38 +2464,71 @@ end
 
 end A008510.P14537267641068964515
 
-/-! ## A008510.P12371288485909491643
+/-! ## A008510.P7104000947908549365
 
-`A279084(A132080(n+1))`
+`∩[A002113(n+1), A008509(n+1)]`
 -/
 
-namespace A008510.P12371288485909491643
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279084 (A132080 (n + 1)).toNat
-
-end
-
-end A008510.P12371288485909491643
-
-/-! ## A008510.P3474354936748274022
-
-`record[A055483(A008509(n+1))]`
--/
-
-namespace A008510.P3474354936748274022
+namespace A008510.P7104000947908549365
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055483 (A008509 (n + 1)).toNat
+  A002113 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008509 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A008510.P3474354936748274022
+end A008510.P7104000947908549365
+
+/-! ## A008510.P13418141725685545415
+
+`∩[A008509(n+1), A110784(n+1)]`
+-/
+
+namespace A008510.P13418141725685545415
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008509 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110784 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A008510.P13418141725685545415
+
+/-! ## A008510.P2533722561483631922
+
+`∩[A008509(n+1), A118599(n+1)]`
+-/
+
+namespace A008510.P2533722561483631922
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008509 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118599 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A008510.P2533722561483631922
 
 /-!
 # A008511: Number of points on surface of 4-dimensional cube.

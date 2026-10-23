@@ -55,7 +55,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -798,7 +797,7 @@ end A261206.P12949662455436166937
 /-!
 # A261207: Expansion of (x-1)/8 - (x^2-4*x-1)/(8*sqrt(x^2-6*x+1)).
 
-The programs for A261207, the canonical program `A261207.P16806718987046288533` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261207 has offset 0).
+The programs for A261207, the canonical program `A261207.P16806718987046288533` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261207 has offset 0).
 
 The definition of A261207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -807,7 +806,7 @@ The definition of A261207 is `conjectured`: the Lean definition is a formula tha
 
 `round(A050147(n+1)/4)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A261207

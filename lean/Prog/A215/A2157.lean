@@ -1240,7 +1240,7 @@ end A215712.P3319439860981336702
 /-!
 # A215713: Denominator of sum(i=1..n, 3*i/4^i).
 
-The programs for A215713, the canonical program `A215713.P3588067354417912298` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215713 has offset 1).
+The programs for A215713, the canonical program `A215713.P3588067354417912298` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215713 has offset 1).
 
 The definition of A215713 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1272,7 +1272,7 @@ end A215713
 
 `A000079(n+1)²/A006519(A016777(n+2))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A215713
@@ -6178,6 +6178,55 @@ def P10613754822747122833.Spec : Prop :=
 
 end A215773
 
+/-! ## A215773.P5012957673803801347
+
+`(∑[n]+2)*C(n+3, 4)`
+-/
+
+namespace A215773.P5012957673803801347
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f1 j + 2) * Nat.choose (n + 3) 4
+
+end
+
+end A215773.P5012957673803801347
+
+namespace A215773
+
+/-- `(∑[n]+2)*C(n+3, 4)` -/
+def P5012957673803801347.Spec : Prop :=
+  ∀ n, (P5012957673803801347.a n : ℤ) = A215773 n
+
+end A215773
+
+/-! ## A215773.P11368916928957259005
+
+`n/2*A256859(n+1)`
+-/
+
+namespace A215773.P11368916928957259005
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) / 2 * (A256859 (n + 1) : ℚ)
+
+end
+
+end A215773.P11368916928957259005
+
+namespace A215773
+
+/-- `n/2*A256859(n+1)` -/
+def P11368916928957259005.Spec : Prop :=
+  ∀ n, P11368916928957259005.a n = (A215773 n : ℚ)
+
+end A215773
+
 /-! ## A215773.P12715329618251025783
 
 `A001297(n)+∑[∑[∑[2*n]]]`
@@ -8229,6 +8278,28 @@ end A215796.P15069753179483733686
 
 The programs for A215798, there is no canonical definition to state claims against.
 -/
+
+/-! ## A215798.P15510494831759890513
+
+`∪[A215806(n+1), A215807(n+1)]`
+-/
+
+namespace A215798.P15510494831759890513
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215806 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215807 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215798.P15510494831759890513
 
 /-! ## A215798.P12157890058837337601
 

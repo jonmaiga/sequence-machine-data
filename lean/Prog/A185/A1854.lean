@@ -2098,6 +2098,21 @@ end
 
 end A185436.P13970537083550376622
 
+/-! ## A185436.P1225805856620365584
+
+`A282711(A282711(A062028(A176995(n+1))))`
+-/
+
+namespace A185436.P1225805856620365584
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A282711 (A282711 (A062028 (A176995 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A185436.P1225805856620365584
+
 /-!
 # A185437: The least number of colors required to color an n-bead necklace so that each bead can be identified.
 

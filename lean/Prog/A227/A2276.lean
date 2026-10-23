@@ -86,6 +86,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -3967,6 +3968,78 @@ end
 
 end A227648.P11116156535279617793
 
+/-! ## A227648.P16619198240197756895
+
+`filter[A050675(n+1), A075802(#)]`
+-/
+
+namespace A227648.P16619198240197756895
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050675 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A075802 (f1 j).toNat = 1) n)
+
+end
+
+end A227648.P16619198240197756895
+
+/-! ## A227648.P14567032528888946906
+
+`filter[A227649(n+1), A114213(#)]`
+-/
+
+namespace A227648.P14567032528888946906
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227649 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A114213 (f1 j).toNat = 1) n)
+
+end
+
+end A227648.P14567032528888946906
+
+/-! ## A227648.P7047479175802659660
+
+`filter[A072777(n+2), A114213(#)]`
+-/
+
+namespace A227648.P7047479175802659660
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072777 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A114213 (f1 j).toNat = 1) n)
+
+end
+
+end A227648.P7047479175802659660
+
+/-! ## A227648.P85813703237908057
+
+`filter[A080366(n+2), A114213(#)]`
+-/
+
+namespace A227648.P85813703237908057
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080366 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A114213 (f1 j).toNat = 1) n)
+
+end
+
+end A227648.P85813703237908057
+
 /-!
 # A227649: Perfect powers equal to the sum of 8 factorial numbers.
 
@@ -4029,6 +4102,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A227649.P12667520263495841925
+
+/-! ## A227649.P17131730730460646493
+
+`A359493(A262524(n+2))`
+-/
+
+namespace A227649.P17131730730460646493
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359493 (A262524 (n + 2)).toNat
+
+end
+
+end A227649.P17131730730460646493
+
+/-! ## A227649.P8224917217380148899
+
+`A000194(A062965(n+2))`
+-/
+
+namespace A227649.P8224917217380148899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000194 (A062965 (n + 2)).toNat
+
+end
+
+end A227649.P8224917217380148899
 
 /-!
 # A227650: Perfect powers equal to the sum of 9 factorial numbers.
@@ -4182,6 +4285,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A227651.P10594878832586661843
+
+/-! ## A227651.P16906845946758932346
+
+`A227649(A382083(n+1))`
+-/
+
+namespace A227651.P16906845946758932346
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227649 (A382083 (n + 1)).toNat
+
+end
+
+end A227651.P16906845946758932346
 
 /-!
 # A227652: Perfect powers which are the product of distinct factorials.

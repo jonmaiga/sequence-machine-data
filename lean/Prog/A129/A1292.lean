@@ -1186,6 +1186,34 @@ end
 end A129211.P1296510029919522382
 
 /-!
+# A129212: Numbers k such that k^3 divides 4^(k^2) - 1.
+
+The programs for A129212, there is no canonical definition to state claims against.
+-/
+
+/-! ## A129212.P4346087592802887771
+
+`∩[A003528(n+1), A067936(n+1)]`
+-/
+
+namespace A129212.P4346087592802887771
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003528 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067936 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A129212.P4346087592802887771
+
+/-!
 # A129217: Permutations with exactly 9 fixed points.
 
 The programs for A129217, there is no canonical definition to state claims against.

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -90,6 +91,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A202000: Number of -2..2 circular arrays x(0..n+1) of n+2 elements with zero sums of x(i) and x(i)*x((i+1) mod (n+2)).
@@ -1979,6 +1984,40 @@ namespace A202018
 /-- `∑[a(n-1)+2]` -/
 def P12781186557395341287.Spec : Prop :=
   ∀ n, (P12781186557395341287.a n : ℤ) = A202018 n
+
+end A202018
+
+/-! ## A202018.P16377397995464364533
+
+`2*(a(n-1)/2+n)` with `a(0)=41`
+-/
+
+namespace A202018.P16377397995464364533
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [41] fun n a =>
+  2 * (a (n - 1) / 2 + (n : ℚ))
+
+end
+
+end A202018.P16377397995464364533
+
+namespace A202018
+
+/-- `2*(a(n-1)/2+n)` -/
+def P16377397995464364533.Spec : Prop :=
+  ∀ n, P16377397995464364533.a n = (A202018 n : ℚ)
+
+theorem P16377397995464364533.correct : P16377397995464364533.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A202018, A202018.P16377397995464364533.a, A202018.P5130107977223247330.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A202018, Nat.add_sub_cancel, A202018.P16377397995464364533.a, A202018.P5130107977223247330.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A202018
 

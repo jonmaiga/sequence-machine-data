@@ -53,7 +53,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -2038,6 +2037,28 @@ end
 
 end A279229.P5550912002868741305
 
+/-! ## A279229.P17772260299686681679
+
+`∩[A016813(n), A100658(n+1)]`
+-/
+
+namespace A279229.P17772260299686681679
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016813 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100658 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A279229.P17772260299686681679
+
 /-!
 # A279230: Expansion of 1/((1-x)^2*(1-2*x+2*x^2)).
 
@@ -2530,6 +2551,32 @@ namespace A279230
 /-- `n+3-2*A138232(2*n)` -/
 def P4544890759188220263.Spec : Prop :=
   ∀ n, P4544890759188220263.a n = A279230 n
+
+end A279230
+
+/-! ## A279230.P198274693051087547
+
+`∑[A309878(n)+n+1]`
+-/
+
+namespace A279230.P198274693051087547
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A309878 n + (n + 1 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A279230.P198274693051087547
+
+namespace A279230
+
+/-- `∑[A309878(n)+n+1]` -/
+def P198274693051087547.Spec : Prop :=
+  ∀ n, P198274693051087547.a n = A279230 n
 
 end A279230
 
@@ -3517,30 +3564,27 @@ end
 
 end A279244.P12165708921571791045
 
-/-! ## A279244.P12751201856055149626
+/-! ## A279244.P14620358452464571872
 
-`comp[lt[A245192(n+1), 2]]`
+`∩[A136447(n+1), A175382(n+1)]`
 -/
 
-namespace A279244.P12751201856055149626
+namespace A279244.P14620358452464571872
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136447 (n + 1)
+
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245192 (n + 1)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < (f3 j : ℤ)) n
+  A175382 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A279244.P12751201856055149626
+end A279244.P14620358452464571872
 
 /-!
 # A279245: Number of subsets of {1, 2, 3, ..., n} that include no consecutive odd integers.

@@ -1033,6 +1033,28 @@ end
 
 end A380216.P13976623641626950235
 
+/-! ## A380216.P15147699298712079188
+
+`∩[A325037(n+1), A326150(n+1)]`
+-/
+
+namespace A380216.P15147699298712079188
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325037 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326150 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380216.P15147699298712079188
+
 /-!
 # A380217: Numbers whose product of prime indices is a multiple of their sum of prime indices plus one.
 
@@ -1750,6 +1772,29 @@ namespace A380230
 /-- `floor(log2(A048731(n))+n)` -/
 def P6714919324421248945.Spec : Prop :=
   ∀ n, P6714919324421248945.a n = A380230 n
+
+end A380230
+
+/-! ## A380230.P6947454364584699445
+
+`A295513(n)+A062383(n)`
+-/
+
+namespace A380230.P6947454364584699445
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295513 n + A062383 n
+
+end
+
+end A380230.P6947454364584699445
+
+namespace A380230
+
+/-- `A295513(n)+A062383(n)` -/
+def P6947454364584699445.Spec : Prop :=
+  ∀ n, P6947454364584699445.a n = A380230 n
 
 end A380230
 

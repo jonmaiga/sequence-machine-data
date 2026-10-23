@@ -41,6 +41,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -49,10 +50,8 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -2739,19 +2738,19 @@ def P400740731580175204.Spec : Prop :=
 
 end A307341
 
-/-! ## A307341.P608900545825615527
+/-! ## A307341.P3108522737048805241
 
-`∩[A014613(n+1), A013929(n+5)]`
+`∩[A013929(n+1), A014613(n+1)]`
 -/
 
-namespace A307341.P608900545825615527
+namespace A307341.P3108522737048805241
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014613 (n + 1)
+  A013929 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013929 (n + 5)
+  A014613 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2759,13 +2758,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A307341.P608900545825615527
+end A307341.P3108522737048805241
 
 namespace A307341
 
-/-- `∩[A014613(n+1), A013929(n+5)]` -/
-def P608900545825615527.Spec : Prop :=
-  ∀ n, (P608900545825615527.a n : ℤ) = A307341 (n + 1)
+/-- `∩[A013929(n+1), A014613(n+1)]` -/
+def P3108522737048805241.Spec : Prop :=
+  ∀ n, (P3108522737048805241.a n : ℤ) = A307341 (n + 1)
 
 end A307341
 
@@ -4448,7 +4447,7 @@ end A307353.P4114355559822491580
 /-!
 # A307354: a(n) = Sum_{0<=i<=j<=n} (-1)^(i+j) * (i+j)!/(i!*j!).
 
-The programs for A307354, the canonical program `A307354.P6583539778900423417` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307354 has offset 0).
+The programs for A307354, the canonical program `A307354.P6583539778900423417` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307354 has offset 0).
 
 The definition of A307354 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006134, A120305, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4457,7 +4456,7 @@ The definition of A307354 is `conditional`: the Lean definition is an OEIS formu
 
 `(A006134(n)+A120305(n))/2`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A307354
@@ -5181,6 +5180,36 @@ namespace A307360
 /-- `eq[A014190(A279119(n+1)+1), A279119(n+1)]+1` -/
 def P5907392711665378502.Spec : Prop :=
   ∀ n, (P5907392711665378502.a n : ℤ) = A307360 (n + 1)
+
+end A307360
+
+/-! ## A307360.P5346193506042940162
+
+`∪[A085721(n+1), A193461(n+1)]`
+-/
+
+namespace A307360.P5346193506042940162
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085721 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193461 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A307360.P5346193506042940162
+
+namespace A307360
+
+/-- `∪[A085721(n+1), A193461(n+1)]` -/
+def P5346193506042940162.Spec : Prop :=
+  ∀ n, (P5346193506042940162.a n : ℤ) = A307360 (n + 1)
 
 end A307360
 
@@ -7021,6 +7050,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A307386.P9695746178703002692
+
+/-! ## A307386.P6115045786305923661
+
+`filter[A307515(n+1), A267533(#)]`
+-/
+
+namespace A307386.P6115045786305923661
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307515 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A267533 (f1 j).toNat = 1) n)
+
+end
+
+end A307386.P6115045786305923661
 
 /-!
 # A307388: Length of the period of decimal representation of Product_{k=1..n} A038111(k)/A038110(k).

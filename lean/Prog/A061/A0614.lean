@@ -25,6 +25,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
@@ -2910,6 +2911,29 @@ namespace A061419
 /-- `2*a(n-1)-floor(a(n-1)/2)` -/
 def P12316107083689075293.Spec : Prop :=
   ∀ n, P12316107083689075293.a n = A061419 (n + 1)
+
+end A061419
+
+/-! ## A061419.P10361362479437950123
+
+`floor((3*a(n-1)+1)/2)` with `a(0)=1`
+-/
+
+namespace A061419.P10361362479437950123
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ⌊(3 * a (n - 1) + 1 : ℚ) / 2⌋
+
+end
+
+end A061419.P10361362479437950123
+
+namespace A061419
+
+/-- `floor((3*a(n-1)+1)/2)` -/
+def P10361362479437950123.Spec : Prop :=
+  ∀ n, P10361362479437950123.a n = A061419 (n + 1)
 
 end A061419
 
@@ -7704,6 +7728,50 @@ end
 
 end A061457.P2599114846183571237
 
+/-! ## A061457.P11830197915183609363
+
+`∪[A002779(n+1), A161902(n+1)]`
+-/
+
+namespace A061457.P11830197915183609363
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002779 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161902 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A061457.P11830197915183609363
+
+/-! ## A061457.P14643464149744825210
+
+`∪[A156317(n+1), A161902(n+1)]`
+-/
+
+namespace A061457.P14643464149744825210
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A156317 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161902 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A061457.P14643464149744825210
+
 /-! ## A061457.P8342177128508466047
 
 `A000290(A102859(xor(1, xor(1, n+1))))`
@@ -7786,6 +7854,50 @@ end
 
 end A061457.P6192220196315971295
 
+/-! ## A061457.P6696112186630045714
+
+`∩[A000290(n), A356417(n+1)]`
+-/
+
+namespace A061457.P6696112186630045714
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356417 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A061457.P6696112186630045714
+
+/-! ## A061457.P12427056052508528096
+
+`∩[A188915(n), A356417(n+1)]`
+-/
+
+namespace A061457.P12427056052508528096
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188915 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356417 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A061457.P12427056052508528096
+
 /-! ## A061457.P2962266217290729931
 
 `∩[A306273(n+1), n²]`
@@ -7807,6 +7919,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A061457.P2962266217290729931
+
+/-! ## A061457.P3853582833579812655
+
+`∩[A000290(n), A306273(n+1)]`
+-/
+
+namespace A061457.P3853582833579812655
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306273 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A061457.P3853582833579812655
 
 /-!
 # A061458: Cubes whose digit reversal is also a cube.
@@ -8443,19 +8577,19 @@ end
 
 end A061461.P10557270711739280157
 
-/-! ## A061461.P12857001143179973222
+/-! ## A061461.P17731997660020529031
 
-`∩[A005180(n+1), A097312(n+1)]`
+`∩[A097312(n+1), A166070(n+1)]`
 -/
 
-namespace A061461.P12857001143179973222
+namespace A061461.P17731997660020529031
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005180 (n + 1)
+  A097312 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097312 (n + 1)
+  A166070 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8463,7 +8597,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A061461.P12857001143179973222
+end A061461.P17731997660020529031
 
 /-!
 # A061462: The exact power of 2 that divides the n-th Bell number (A000110). Has period 12.

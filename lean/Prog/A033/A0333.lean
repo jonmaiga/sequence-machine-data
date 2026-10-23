@@ -3119,49 +3119,49 @@ theorem P16348863708902787331.correct : P16348863708902787331.Spec := by
 
 end A033312
 
-/-! ## A033312.P194775488337470048
+/-! ## A033312.P5652230693912029311
 
-`asin(-sin(1))+n!`
+`asin(sin(-1))+n!`
 -/
 
-namespace A033312.P194775488337470048
+namespace A033312.P5652230693912029311
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.arcsin (-Real.sin (1 : ℝ)) + (Nat.factorial n : ℝ)
+  Real.arcsin (Real.sin (-1 : ℝ)) + (Nat.factorial n : ℝ)
 
 end
 
-end A033312.P194775488337470048
+end A033312.P5652230693912029311
 
 namespace A033312
 
-/-- `asin(-sin(1))+n!` -/
-def P194775488337470048.Spec : Prop :=
-  ∀ n, P194775488337470048.a n = (A033312 n : ℝ)
+/-- `asin(sin(-1))+n!` -/
+def P5652230693912029311.Spec : Prop :=
+  ∀ n, P5652230693912029311.a n = (A033312 n : ℝ)
 
 end A033312
 
-/-! ## A033312.P3592608192188665720
+/-! ## A033312.P709503684619980717
 
-`atan(-tan(1))+n!`
+`atan(tan(-1))+n!`
 -/
 
-namespace A033312.P3592608192188665720
+namespace A033312.P709503684619980717
 noncomputable section
 
 def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.arctan (-Real.tan (1 : ℝ)) + (Nat.factorial n : ℝ)
+  Real.arctan (Real.tan (-1 : ℝ)) + (Nat.factorial n : ℝ)
 
 end
 
-end A033312.P3592608192188665720
+end A033312.P709503684619980717
 
 namespace A033312
 
-/-- `atan(-tan(1))+n!` -/
-def P3592608192188665720.Spec : Prop :=
-  ∀ n, P3592608192188665720.a n = (A033312 n : ℝ)
+/-- `atan(tan(-1))+n!` -/
+def P709503684619980717.Spec : Prop :=
+  ∀ n, P709503684619980717.a n = (A033312 n : ℝ)
 
 end A033312
 

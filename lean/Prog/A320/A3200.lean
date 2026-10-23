@@ -880,6 +880,29 @@ def P15319912092216851219.Spec : Prop :=
 
 end A320005
 
+/-! ## A320005.P7802945069269706630
+
+`and(A023394(n+1), A293898(n+1))`
+-/
+
+namespace A320005.P7802945069269706630
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A023394 (n + 1)) (A293898 (n + 1))
+
+end
+
+end A320005.P7802945069269706630
+
+namespace A320005
+
+/-- `and(A023394(n+1), A293898(n+1))` -/
+def P7802945069269706630.Spec : Prop :=
+  ∀ n, P7802945069269706630.a n = A320005 (n + 1)
+
+end A320005
+
 /-!
 # A320006: a(n) = 1 if n encodes a nonnegative combinatorial game (in a style of A106486), otherwise 0; Characteristic function of A126001.
 
@@ -2309,6 +2332,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320026.P8703725683009506347
+
+/-! ## A320026.P16283108028608629952
+
+`A108346(A018095(n))`
+-/
+
+namespace A320026.P16283108028608629952
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108346 (A018095 n).toNat
+
+end
+
+end A320026.P16283108028608629952
 
 /-!
 # A320028: a(n) is the first prime encountered when running the Collatz algorithm (halving and tripling steps) on the number n.
@@ -4471,6 +4509,28 @@ end
 
 end A320055.P9047769036422841862
 
+/-! ## A320055.P622178803664082291
+
+`∪[A003064(n), A320056(n+1)]`
+-/
+
+namespace A320055.P622178803664082291
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003064 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320056 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320055.P622178803664082291
+
 /-! ## A320055.P7526731832724642670
 
 `∪[A320056(n+1), A007481(n)]`
@@ -4493,19 +4553,19 @@ end
 
 end A320055.P7526731832724642670
 
-/-! ## A320055.P13051354112503077731
+/-! ## A320055.P10293761558752982283
 
-`∪[A320056(n+1), A014210(n)]`
+`∪[A007484(n), A320056(n+1)]`
 -/
 
-namespace A320055.P13051354112503077731
+namespace A320055.P10293761558752982283
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320056 (n + 1)
+  A007484 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014210 n
+  A320056 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4513,29 +4573,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A320055.P13051354112503077731
-
-/-! ## A320055.P1895484220770714485
-
-`∪[A320056(n+1), A020873(n)]`
--/
-
-namespace A320055.P1895484220770714485
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320056 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020873 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A320055.P1895484220770714485
+end A320055.P10293761558752982283
 
 /-!
 # A320056: Heinz numbers of product-sum knapsack partitions.
@@ -4672,6 +4710,28 @@ end
 
 end A320056.P4303497004242443687
 
+/-! ## A320056.P17659390515468710118
+
+`∩[2*n+1, A320055(n+1)]`
+-/
+
+namespace A320056.P17659390515468710118
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320055 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320056.P17659390515468710118
+
 /-! ## A320056.P13138959614788183229
 
 `A320055(n+1--1%(n+1))`
@@ -4686,21 +4746,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320056.P13138959614788183229
-
-/-! ## A320056.P6018772382821970415
-
-`A320055(C(n, C(n, n²))+n+1)`
--/
-
-namespace A320056.P6018772382821970415
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320055 (Nat.choose n (Nat.choose n (n ^ 2)) + (n + 1))
-
-end
-
-end A320056.P6018772382821970415
 
 /-!
 # A320057: Heinz numbers of spanning sum-product knapsack partitions.

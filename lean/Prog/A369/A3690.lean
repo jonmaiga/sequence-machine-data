@@ -73,6 +73,7 @@ import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1167,6 +1168,36 @@ namespace A369003
 /-- `∪[A036554(n+1), A373142(n+1)]` -/
 def P13177085709757727890.Spec : Prop :=
   ∀ n, (P13177085709757727890.a n : ℤ) = A369003 (n + 1)
+
+end A369003
+
+/-! ## A369003.P16051492081596841798
+
+`∪[A368999(n+1), A373142(n+1)]`
+-/
+
+namespace A369003.P16051492081596841798
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368999 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A373142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369003.P16051492081596841798
+
+namespace A369003
+
+/-- `∪[A368999(n+1), A373142(n+1)]` -/
+def P16051492081596841798.Spec : Prop :=
+  ∀ n, (P16051492081596841798.a n : ℤ) = A369003 (n + 1)
 
 end A369003
 
@@ -5027,26 +5058,26 @@ def P8207060221480906861.Spec : Prop :=
 
 end A369031
 
-/-! ## A369031.P1531353790851084271
+/-! ## A369031.P1075764935177077591
 
-`gcd(A079872(n+1), A329601(n+1))`
+`gcd(A079872(n+1), A181819(n+1))`
 -/
 
-namespace A369031.P1531353790851084271
+namespace A369031.P1075764935177077591
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A079872 (n + 1)) (A329601 (n + 1))
+  Int.gcd (A079872 (n + 1)) (A181819 (n + 1))
 
 end
 
-end A369031.P1531353790851084271
+end A369031.P1075764935177077591
 
 namespace A369031
 
-/-- `gcd(A079872(n+1), A329601(n+1))` -/
-def P1531353790851084271.Spec : Prop :=
-  ∀ n, (P1531353790851084271.a n : ℤ) = A369031 (n + 1)
+/-- `gcd(A079872(n+1), A181819(n+1))` -/
+def P1075764935177077591.Spec : Prop :=
+  ∀ n, (P1075764935177077591.a n : ℤ) = A369031 (n + 1)
 
 end A369031
 
@@ -9709,7 +9740,7 @@ end A369067.P3882288114412063652
 /-!
 # A369068: Möbius transform of A083345, where A083345(n) = n' / gcd(n,n'), and n' stands for the arithmetic derivative of n, A003415.
 
-The programs for A369068, the canonical program `A369068.P15893143769007237132` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369068 has offset 1).
+The programs for A369068, the canonical program `A369068.P15893143769007237132` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369068 has offset 1).
 
 The definition of A369068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9718,7 +9749,7 @@ The definition of A369068 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A083345((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A369068
@@ -11344,6 +11375,28 @@ end
 
 end A369093.P11135790505252303706
 
+/-! ## A369093.P12100510799035965308
+
+`∪[A175179(n+1), A210494(n+1)]`
+-/
+
+namespace A369093.P12100510799035965308
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175179 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210494 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369093.P12100510799035965308
+
 /-! ## A369093.P11787161954877213804
 
 `∪[A139254(n+1), A210494(n+1)]`
@@ -11405,24 +11458,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369093.P6131549730650515706
-
-/-! ## A369093.P5168685485588731201
-
-`filter[A122090(n+1), A389449(#)]`
--/
-
-namespace A369093.P5168685485588731201
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122090 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A389449 (f1 j).toNat = 1) n)
-
-end
-
-end A369093.P5168685485588731201
 
 /-!
 # A369096: Numbers k >= 2 such that omega(k) divides the sum of the triangular numbers T(k) and T(k+1), where omega(k) is the number of distinct primes dividing k (A001221).

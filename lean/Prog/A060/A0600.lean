@@ -378,6 +378,28 @@ end A060002.P17991378631564211729
 The programs for A060003, there is no canonical definition to state claims against.
 -/
 
+/-! ## A060003.P3364363065319169731
+
+`∩[2*n+1, A347567(n+1)]`
+-/
+
+namespace A060003.P3364363065319169731
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347567 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A060003.P3364363065319169731
+
 /-! ## A060003.P4596992957117310660
 
 `record[A093178(A347567(n+1))]`
@@ -452,24 +474,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A060003.P5436875523535613489
-
-/-! ## A060003.P2709118211325266768
-
-`filter[A347567(n+1), A297086(#)]`
--/
-
-namespace A060003.P2709118211325266768
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347567 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A297086 (f1 j).toNat = 1) n)
-
-end
-
-end A060003.P2709118211325266768
 
 /-!
 # A060005: Number of ways of partitioning the integers {1,2,..,4n} into two (unordered) sets such that the sums of parts are equal in both sets (parts in either set will add up to (4n)*(4n+1)/4). Number of solutions to {1 +- 2 +- 3 +- ... +- 4n=0}.
@@ -665,6 +669,29 @@ namespace A060008
 /-- `9*A000332(n)` -/
 def P10969367587884035517.Spec : Prop :=
   ∀ n, P10969367587884035517.a n = A060008 n
+
+end A060008
+
+/-! ## A060008.P13702760685355438140
+
+`3/5*A266395(n+1)`
+-/
+
+namespace A060008.P13702760685355438140
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 : ℚ) / 5 * (A266395 (n + 1) : ℚ)
+
+end
+
+end A060008.P13702760685355438140
+
+namespace A060008
+
+/-- `3/5*A266395(n+1)` -/
+def P13702760685355438140.Spec : Prop :=
+  ∀ n, P13702760685355438140.a n = (A060008 n : ℚ)
 
 end A060008
 
@@ -2271,6 +2298,29 @@ namespace A060018
 /-- `A284359(n)-A118175(n)` -/
 def P17675784443029093490.Spec : Prop :=
   ∀ n, P17675784443029093490.a n = A060018 (n + 2)
+
+end A060018
+
+/-! ## A060018.P6134945997857008208
+
+`A001650(n+1)-A267708(n)`
+-/
+
+namespace A060018.P6134945997857008208
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001650 (n + 1) - A267708 n
+
+end
+
+end A060018.P6134945997857008208
+
+namespace A060018
+
+/-- `A001650(n+1)-A267708(n)` -/
+def P6134945997857008208.Spec : Prop :=
+  ∀ n, P6134945997857008208.a n = A060018 (n + 2)
 
 end A060018
 
@@ -7556,19 +7606,19 @@ end
 
 end A060064.P2772404199418280178
 
-/-! ## A060064.P13293233196817766661
+/-! ## A060064.P8969114379767062043
 
-`∩[A060299(n+1), A028815(n)]`
+`∩[A055670(n+1), A060299(n+1)]`
 -/
 
-namespace A060064.P13293233196817766661
+namespace A060064.P8969114379767062043
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060299 (n + 1)
+  A055670 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028815 n
+  A060299 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7576,7 +7626,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A060064.P13293233196817766661
+end A060064.P8969114379767062043
 
 /-!
 # A060065: Smallest mode of the sequence { C(n-k,k), k=0..n/2 }.

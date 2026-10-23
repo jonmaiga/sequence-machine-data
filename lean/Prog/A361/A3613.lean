@@ -15,6 +15,7 @@ import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3597,6 +3598,21 @@ end
 
 end A361384.P3672711464420136212
 
+/-! ## A361384.P6501191122262048585
+
+`A384480(A294863(n+1))`
+-/
+
+namespace A361384.P6501191122262048585
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384480 (A294863 (n + 1)).toNat
+
+end
+
+end A361384.P6501191122262048585
+
 /-!
 # A361385: a(n) is the number of "Fermi-Dirac prime" factors (or I-components) of the n-th infinitary harmonic number.
 
@@ -4504,6 +4520,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A361395.P9051824703956549656
+
+/-! ## A361395.P3749495368862182375
+
+`lcm(A123271(n+2), A390538(n+1))`
+-/
+
+namespace A361395.P3749495368862182375
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A123271 (n + 2)) (A390538 (n + 1))
+
+end
+
+end A361395.P3749495368862182375
+
+/-! ## A361395.P824207838790934402
+
+`and(A387410(n+1), A390538(n+1))`
+-/
+
+namespace A361395.P824207838790934402
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A387410 (n + 1)) (A390538 (n + 1))
+
+end
+
+end A361395.P824207838790934402
 
 /-!
 # A361396: Integers k such that 28*phi(29*197^3*k) is not a totient number where phi is the totient function.

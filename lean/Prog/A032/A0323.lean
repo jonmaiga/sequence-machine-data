@@ -35,6 +35,7 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -4410,6 +4411,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032352.P5958424231103915615
+
+/-! ## A032352.P9979534605613612546
+
+`comp[A176044(n+1)]`
+-/
+
+namespace A032352.P9979534605613612546
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176044 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A032352.P9979534605613612546
 
 /-!
 # A032353: Numbers k such that 7*2^k+1 is prime.

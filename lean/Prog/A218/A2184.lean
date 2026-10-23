@@ -37,6 +37,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -179,6 +180,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218403.P505465736209726297
+
+/-!
+# A218404: Numbers k for which sigma(k)/k - 1/4 is an integer.
+
+The programs for A218404, there is no canonical definition to state claims against.
+-/
+
+/-! ## A218404.P11685486124173968535
+
+`∩[A215012(n+1), A229088(n+1)]`
+-/
+
+namespace A218404.P11685486124173968535
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215012 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229088 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A218404.P11685486124173968535
 
 /-!
 # A218407: Numbers k for which sigma(k)/k - 2/5 is an integer.
@@ -6194,26 +6223,29 @@ def P10782883750370524678.Spec : Prop :=
 
 end A218471
 
-/-! ## A218471.P12658238106733046946
+/-! ## A218471.P12815736343615150567
 
-`A000217(n)+A000567(n)`
+`A000567(n)+∑[n]`
 -/
 
-namespace A218471.P12658238106733046946
+namespace A218471.P12815736343615150567
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 n + A000567 n
+  A000567 n + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
 
 end
 
-end A218471.P12658238106733046946
+end A218471.P12815736343615150567
 
 namespace A218471
 
-/-- `A000217(n)+A000567(n)` -/
-def P12658238106733046946.Spec : Prop :=
-  ∀ n, P12658238106733046946.a n = A218471 n
+/-- `A000567(n)+∑[n]` -/
+def P12815736343615150567.Spec : Prop :=
+  ∀ n, P12815736343615150567.a n = A218471 n
 
 end A218471
 
@@ -7681,6 +7713,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A218483.P3308528138331884886
+
+/-! ## A218483.P3655752067505655752
+
+`filter[A178723(n+1), A342892(#)]`
+-/
+
+namespace A218483.P3655752067505655752
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178723 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A342892 (f1 j).toNat = 1) n)
+
+end
+
+end A218483.P3655752067505655752
 
 /-!
 # A218485: Positive numbers differing from next greater square by a square.

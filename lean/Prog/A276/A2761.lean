@@ -1816,6 +1816,28 @@ end
 
 end A276132.P5520084772484770177
 
+/-! ## A276132.P5545439624593412274
+
+`∩[A090934(n+1), A128898(n+1)]`
+-/
+
+namespace A276132.P5545439624593412274
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090934 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128898 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A276132.P5545439624593412274
+
 /-!
 # A276133: Exponent of highest power of 2 dividing the product of the composite numbers between the n-th prime and the (n+1)-st prime.
 
@@ -5116,6 +5138,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A276154.P6106701504413325785
+
+/-! ## A276154.P13652373657513681983
+
+`comp[A276155(n+1)]`
+-/
+
+namespace A276154.P13652373657513681983
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276155 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A276154.P13652373657513681983
 
 /-! ## A276154.P16767525373871862281
 

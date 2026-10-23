@@ -49,7 +49,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -75,7 +74,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -2401,6 +2399,21 @@ end
 
 end A282939.P7397521076816442428
 
+/-! ## A282939.P18306746382445920079
+
+`-and(-(2*n), or(n, -3))`
+-/
+
+namespace A282939.P18306746382445920079
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -Int.land (-(2 * n : ℤ)) (Int.lor (n : ℤ) (-3))
+
+end
+
+end A282939.P18306746382445920079
+
 /-!
 # A282940: Largest non-infinitary divisor of A162643(n) having no non-infinitary divisors.
 
@@ -2638,6 +2651,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A282943.P502074212471554811
+
+/-! ## A282943.P10468896608633596097
+
+`∩[A002253(n+1), A004014(n)]`
+-/
+
+namespace A282943.P10468896608633596097
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002253 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004014 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A282943.P10468896608633596097
 
 /-! ## A282943.P12021470861344217878
 

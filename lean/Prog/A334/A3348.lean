@@ -42,7 +42,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -1460,6 +1459,24 @@ end A334810.P4246981372910994644
 The programs for A334811, there is no canonical definition to state claims against.
 -/
 
+/-! ## A334811.P8634013057670784572
+
+`∑[ogf((-1+3x+x^2+5x^3-6x^4)/(-1+4x))]`
+-/
+
+namespace A334811.P8634013057670784572
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, -1, -5, 6] [1, -4] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A334811.P8634013057670784572
+
 /-! ## A334811.P9191007577938434152
 
 `ogf((1-3x-x^2-5x^3+6x^4)/(1-5x+4x^2))`
@@ -1489,24 +1506,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 5, 12] fun n a =>
 end
 
 end A334811.P13142961082184434736
-
-/-! ## A334811.P1810989220232353921
-
-`A149439(n)+Δ[A056563(n)]`
--/
-
-namespace A334811.P1810989220232353921
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056563 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A149439 n + (f1 (n + 1) - f1 n)
-
-end
-
-end A334811.P1810989220232353921
 
 /-!
 # A334812: a(0) = 0; a(1) = 1; for n > 1, a(n) is the square spiral number obtained from the magnitude of the difference between adjacent horizontal and vertical previously visited square numbers. If only one such adjacent square exists then it takes on that square's number.
@@ -2726,6 +2725,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334821.P8782605708819970188
+
+/-!
+# A334822: Palindromes k such that k*sod(k) and k/sod(k) are both palindromes, where sod(k) denotes the sum of digits of k (A007953).
+
+The programs for A334822, there is no canonical definition to state claims against.
+-/
+
+/-! ## A334822.P2864490577218549165
+
+`∩[A276142(n+1), A334533(n+1)]`
+-/
+
+namespace A334822.P2864490577218549165
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276142 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334533 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A334822.P2864490577218549165
 
 /-!
 # A334823: Triangle, read by rows, of Lambert's denominator polynomials related to convergents of tan(x).
@@ -6407,6 +6434,21 @@ end
 
 end A334884.P8144514109895414474
 
+/-! ## A334884.P17106275227801588172
+
+`A334994(A076084(n+1))`
+-/
+
+namespace A334884.P17106275227801588172
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334994 (A076084 (n + 1)).toNat
+
+end
+
+end A334884.P17106275227801588172
+
 /-!
 # A334888: a(n) = Sum_{k >= 0} f(d_k) * 3^k where Sum_{k >= 0} d_k * 8^k is the base 8 representation of n and f(k) = 0, 1, 2, 2, 2, 1, 0, 0 for k = 0..7, respectively.
 
@@ -6721,6 +6763,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A334892.P10225255924549121813
+
+/-! ## A334892.P11598488976772472659
+
+`A136266(A101318(n+1))`
+-/
+
+namespace A334892.P11598488976772472659
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136266 (A101318 (n + 1)).toNat
+
+end
+
+end A334892.P11598488976772472659
 
 /-!
 # A334893: Number of subsets of [n] avoiding 3-term arithmetic progressions and containing n if n>0.

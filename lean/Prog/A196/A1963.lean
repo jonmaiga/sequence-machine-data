@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -80,6 +81,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A196300: T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 3,0,1,4,2 for x=0,1,2,3,4.
@@ -452,6 +458,46 @@ def P6853371498598918809.Spec : Prop :=
 
 end A196305
 
+/-! ## A196305.P12148918500369452227
+
+`2*(a(n-1)+1/2)` with `a(0)=14`
+-/
+
+namespace A196305.P12148918500369452227
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [14] fun n a =>
+  2 * (a (n - 1) + (1 : ℚ) / 2)
+
+end
+
+end A196305.P12148918500369452227
+
+namespace A196305
+
+/-- `2*(a(n-1)+1/2)` -/
+def P12148918500369452227.Spec : Prop :=
+  ∀ n, P12148918500369452227.a n = (A196305 n : ℚ)
+
+theorem P12148918500369452227.correct : P12148918500369452227.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A196305, Nat.add_sub_cancel, A196305.P12148918500369452227.a, A196305.P3219067535703506014.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A196305, Nat.add_sub_cancel, A196305.P12148918500369452227.a, A196305.P3219067535703506014.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A196305
+
 /-! ## A196305.P146151537829399390
 
 `∑[a(n-1)+a(n-1)]` with `a(0)=14, a(1)=15`
@@ -616,6 +662,32 @@ def P15213646675647003937.Spec : Prop :=
 
 end A196305
 
+/-! ## A196305.P16538468351251749007
+
+`Δ[2*a(n-1)+n+3]` with `a(0)=10`
+-/
+
+namespace A196305.P16538468351251749007
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [10] fun n f1 =>
+  2 * f1 (n - 1) + (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A196305.P16538468351251749007
+
+namespace A196305
+
+/-- `Δ[2*a(n-1)+n+3]` -/
+def P16538468351251749007.Spec : Prop :=
+  ∀ n, P16538468351251749007.a n = A196305 n
+
+end A196305
+
 /-! ## A196305.P11420047312391912385
 
 `A060182(n+3)/2`
@@ -731,6 +803,29 @@ namespace A196305
 /-- `A375155(n+1)%A110288(n)` -/
 def P509980258023656320.Spec : Prop :=
   ∀ n, P509980258023656320.a n = A196305 n
+
+end A196305
+
+/-! ## A196305.P13122976755412495793
+
+`A165133(n)%A073718(n+1)`
+-/
+
+namespace A196305.P13122976755412495793
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A165133 n) (A073718 (n + 1))
+
+end
+
+end A196305.P13122976755412495793
+
+namespace A196305
+
+/-- `A165133(n)%A073718(n+1)` -/
+def P13122976755412495793.Spec : Prop :=
+  ∀ n, P13122976755412495793.a n = A196305 n
 
 end A196305
 

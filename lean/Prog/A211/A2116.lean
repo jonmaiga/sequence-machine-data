@@ -90,6 +90,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A211602: Number of binary increasing trees with n nodes and "min-path" of length 3.
@@ -8190,6 +8191,28 @@ end
 
 end A211655.P16648972584238305348
 
+/-! ## A211655.P7589275230808849714
+
+`∩[A158611(n+1), A371653(n+1)]`
+-/
+
+namespace A211655.P7589275230808849714
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158611 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371653 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A211655.P7589275230808849714
+
 /-! ## A211655.P3837784241801934465
 
 `∩[A182986(n+1), A371653(n+1)]`
@@ -8327,28 +8350,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211655.P6298352136035952120
-
-/-! ## A211655.P7244077661865012175
-
-`∩[A005180(n+1), A371653(n+1)]`
--/
-
-namespace A211655.P7244077661865012175
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005180 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371653 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A211655.P7244077661865012175
 
 /-!
 # A211656: Numbers k such that the value of sigma(k) is unique; sigma(k) = A000203(k) = sum of divisors of k.

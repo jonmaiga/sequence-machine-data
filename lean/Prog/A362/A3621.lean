@@ -69,6 +69,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -838,6 +839,29 @@ namespace A362118
 /-- `A002275(∑[n+1])` -/
 def P16354491529494808067.Spec : Prop :=
   ∀ n, P16354491529494808067.a n = A362118 (n + 1)
+
+end A362118
+
+/-! ## A362118.P6698008879188702102
+
+`A287468(n*(n+3))`
+-/
+
+namespace A362118.P6698008879188702102
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A287468 (n * (n + 3))
+
+end
+
+end A362118.P6698008879188702102
+
+namespace A362118
+
+/-- `A287468(n*(n+3))` -/
+def P6698008879188702102.Spec : Prop :=
+  ∀ n, P6698008879188702102.a n = A362118 (n + 1)
 
 end A362118
 
@@ -2085,16 +2109,16 @@ end
 
 end A362141.P6259591031453469714
 
-/-! ## A362141.P13972616239420569817
+/-! ## A362141.P13780895970845601513
 
-`∩[A030231(n+1), A363462(n+1)]`
+`∩[A018252(n+1), A363462(n+1)]`
 -/
 
-namespace A362141.P13972616239420569817
+namespace A362141.P13780895970845601513
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030231 (n + 1)
+  A018252 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A363462 (n + 1)
@@ -2105,7 +2129,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A362141.P13972616239420569817
+end A362141.P13780895970845601513
 
 /-!
 # A362143: Maximum number of ways in which a set of integer-sided squares can tile an n X n square.
@@ -2549,6 +2573,36 @@ namespace A362148
 /-- `∩[A324455(n+1), A375145(n+1)]` -/
 def P562246343600084177.Spec : Prop :=
   ∀ n, (P562246343600084177.a n : ℤ) = A362148 (n + 1)
+
+end A362148
+
+/-! ## A362148.P1127600393290847487
+
+`∩[A059404(n+1), A317493(n+1)]`
+-/
+
+namespace A362148.P1127600393290847487
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059404 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317493 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362148.P1127600393290847487
+
+namespace A362148
+
+/-- `∩[A059404(n+1), A317493(n+1)]` -/
+def P1127600393290847487.Spec : Prop :=
+  ∀ n, (P1127600393290847487.a n : ℤ) = A362148 (n + 1)
 
 end A362148
 

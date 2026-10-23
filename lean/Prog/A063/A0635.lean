@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -62,6 +63,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1658,6 +1660,29 @@ def P8017560136373739329.Spec : Prop :=
 
 end A063521
 
+/-! ## A063521.P3253696535958448413
+
+`A172076(n)-A161680(n)`
+-/
+
+namespace A063521.P3253696535958448413
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172076 n - A161680 n
+
+end
+
+end A063521.P3253696535958448413
+
+namespace A063521
+
+/-- `A172076(n)-A161680(n)` -/
+def P3253696535958448413.Spec : Prop :=
+  ∀ n, P3253696535958448413.a n = A063521 n
+
+end A063521
+
 /-!
 # A063522: a(n) = n*(5*n^2 - 3)/2.
 
@@ -2113,6 +2138,29 @@ namespace A063522
 /-- `A249354(n)-A267370(n)` -/
 def P15285254186667924389.Spec : Prop :=
   ∀ n, P15285254186667924389.a n = A063522 n
+
+end A063522
+
+/-! ## A063522.P7688550792789653033
+
+`A271636(n)%A289721(n)`
+-/
+
+namespace A063522.P7688550792789653033
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A271636 n) (A289721 n)
+
+end
+
+end A063522.P7688550792789653033
+
+namespace A063522
+
+/-- `A271636(n)%A289721(n)` -/
+def P7688550792789653033.Spec : Prop :=
+  ∀ n, P7688550792789653033.a n = A063522 n
 
 end A063522
 
@@ -2577,6 +2625,52 @@ namespace A063523
 /-- `n-A136264(A028310(n))` -/
 def P1018166631102168324.Spec : Prop :=
   ∀ n, P1018166631102168324.a n = A063523 n
+
+end A063523
+
+/-! ## A063523.P4420331872777402321
+
+`A171272(n)-A016777(n)`
+-/
+
+namespace A063523.P4420331872777402321
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171272 n - A016777 n
+
+end
+
+end A063523.P4420331872777402321
+
+namespace A063523
+
+/-- `A171272(n)-A016777(n)` -/
+def P4420331872777402321.Spec : Prop :=
+  ∀ n, P4420331872777402321.a n = A063523 n
+
+end A063523
+
+/-! ## A063523.P13243930819847737942
+
+`A172082(n)-A051925(n)`
+-/
+
+namespace A063523.P13243930819847737942
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172082 n - A051925 n
+
+end
+
+end A063523.P13243930819847737942
+
+namespace A063523
+
+/-- `A172082(n)-A051925(n)` -/
+def P13243930819847737942.Spec : Prop :=
+  ∀ n, P13243930819847737942.a n = A063523 n
 
 end A063523
 
@@ -3931,6 +4025,29 @@ def P6500421671754096894.Spec : Prop :=
 
 end A063533
 
+/-! ## A063533.P8751668913602616249
+
+`A108570(n+1)+A111046(n+1)+A108570(n+1)`
+-/
+
+namespace A063533.P8751668913602616249
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108570 (n + 1) + (A111046 (n + 1) + A108570 (n + 1))
+
+end
+
+end A063533.P8751668913602616249
+
+namespace A063533
+
+/-- `A108570(n+1)+A111046(n+1)+A108570(n+1)` -/
+def P8751668913602616249.Spec : Prop :=
+  ∀ n, P8751668913602616249.a n = A063533 (n + 1)
+
+end A063533
+
 /-!
 # A063534: Numbers k such that C(k) = H(k) + d(k), where C(k) is Chowla's function A048050, H(k) is the half-totient function A023022 and d(k) is the number of divisors function A000005.
 
@@ -5157,6 +5274,28 @@ end
 
 end A063537.P15358700291860269426
 
+/-! ## A063537.P4257100125013161690
+
+`∩[A024814(n), A333214(n+1)]`
+-/
+
+namespace A063537.P4257100125013161690
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024814 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333214 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063537.P4257100125013161690
+
 /-! ## A063537.P7707446989570654679
 
 `A327788(record[A000503(n+1)])`
@@ -5213,27 +5352,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A063537.P9294532679734393314
-
-/-! ## A063537.P18049662268735698048
-
-`A024814(lt[A060750(n+1), A056695(n+1)])`
--/
-
-namespace A063537.P18049662268735698048
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060750 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056695 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024814 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A063537.P18049662268735698048
 
 /-!
 # A063538: Numbers n that are not sqrt(n-1)-smooth: largest prime factor of n (=A006530(n)) >= sqrt(n).

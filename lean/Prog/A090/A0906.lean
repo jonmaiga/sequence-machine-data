@@ -60,7 +60,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -69,6 +68,7 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1801,6 +1801,33 @@ def P10715104225151892302.Spec : Prop :=
 
 end A090614
 
+/-! ## A090614.P11097494187194609063
+
+`comp[A153307(n+1)]`
+-/
+
+namespace A090614.P11097494187194609063
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153307 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A090614.P11097494187194609063
+
+namespace A090614
+
+/-- `comp[A153307(n+1)]` -/
+def P11097494187194609063.Spec : Prop :=
+  ∀ n, (P11097494187194609063.a n : ℤ) = A090614 (n + 1)
+
+end A090614
+
 /-! ## A090614.P17390481645128533827
 
 `A023445(A033868(n+1)/2+2)`
@@ -2142,29 +2169,6 @@ def P11400251009918983478.Spec : Prop :=
 
 end A090614
 
-/-! ## A090614.P17962180497377280360
-
-`A244325(A033868(n+1)+1)`
--/
-
-namespace A090614.P17962180497377280360
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A244325 (A033868 (n + 1) + 1).toNat
-
-end
-
-end A090614.P17962180497377280360
-
-namespace A090614
-
-/-- `A244325(A033868(n+1)+1)` -/
-def P17962180497377280360.Spec : Prop :=
-  ∀ n, P17962180497377280360.a n = A090614 (n + 1)
-
-end A090614
-
 /-!
 # A090615: Smallest member of sociable quadruples.
 
@@ -2207,6 +2211,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A090615.P16739727613821655797
+
+/-! ## A090615.P7467034311434532111
+
+`A003416(A382083(n+1))`
+-/
+
+namespace A090615.P7467034311434532111
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003416 (A382083 (n + 1)).toNat
+
+end
+
+end A090615.P7467034311434532111
 
 /-! ## A090615.P11841378979170891169
 
@@ -7858,6 +7877,28 @@ end A090651.P11094639300166285635
 The programs for A090652, there is no canonical definition to state claims against.
 -/
 
+/-! ## A090652.P14910671341239203661
+
+`∩[2*n+1, A004616(n+2)]`
+-/
+
+namespace A090652.P14910671341239203661
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004616 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A090652.P14910671341239203661
+
 /-! ## A090652.P6615365164646594343
 
 `record[A000265(A004616(n+4))]`
@@ -8235,24 +8276,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090652.P9544306221291187689
-
-/-! ## A090652.P8345854748598622066
-
-`filter[A004616(n+2), A000035(#)]`
--/
-
-namespace A090652.P8345854748598622066
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004616 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A000035 (f1 j).toNat = 1) n)
-
-end
-
-end A090652.P8345854748598622066
 
 /-!
 # A090653: Number of bimagic series for cubes of order n.
@@ -13262,6 +13285,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A090685.P6471970639889876038
+
+/-! ## A090685.P3303115530560747763
+
+`∩[A078325(n+1), A090698(n+1)]`
+-/
+
+namespace A090685.P3303115530560747763
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078325 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090698 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A090685.P3303115530560747763
 
 /-!
 # A090686: Primes of the form 6n^2 - 1.

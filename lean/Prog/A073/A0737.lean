@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -2391,6 +2392,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A073715.P5002327526792923026
+
+/-! ## A073715.P1065591925474470862
+
+`A074626(n+1)-(A365161(n+1)+A365160(n+1))`
+-/
+
+namespace A073715.P1065591925474470862
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074626 (n + 1) - (A365161 (n + 1) + A365160 (n + 1))
+
+end
+
+end A073715.P1065591925474470862
+
+/-! ## A073715.P13563757569035526814
+
+`p?[A355942(n+1)]`
+-/
+
+namespace A073715.P13563757569035526814
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355942 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A073715.P13563757569035526814
 
 /-!
 # A073716: Numbers n such that the number of prime divisors of n (counted with multiplicity) = number of anti-divisors of n.
@@ -8704,6 +8738,29 @@ def P5226813165151927458.Spec : Prop :=
 
 end A073757
 
+/-! ## A073757.P14927682492844075787
+
+`A000203(n+1)-(A152770(n+1)+A051953(n+1))`
+-/
+
+namespace A073757.P14927682492844075787
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (n + 1) - (A152770 (n + 1) + A051953 (n + 1))
+
+end
+
+end A073757.P14927682492844075787
+
+namespace A073757
+
+/-- `A000203(n+1)-(A152770(n+1)+A051953(n+1))` -/
+def P14927682492844075787.Spec : Prop :=
+  ∀ n, P14927682492844075787.a n = A073757 (n + 1)
+
+end A073757
+
 /-!
 # A073758: Smallest number that is neither a divisor of nor relatively prime to n, or 0 if no such number exists.
 
@@ -8963,16 +9020,16 @@ end
 
 end A073761.P18086261218797187323
 
-/-! ## A073761.P8185241216950825158
+/-! ## A073761.P13478178176057736823
 
-`∩[A004615(n+1), A106849(n+1)]`
+`∩[A016861(n), A106849(n+1)]`
 -/
 
-namespace A073761.P8185241216950825158
+namespace A073761.P13478178176057736823
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004615 (n + 1)
+  A016861 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A106849 (n + 1)
@@ -8983,18 +9040,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A073761.P8185241216950825158
+end A073761.P13478178176057736823
 
-/-! ## A073761.P10963209785778637939
+/-! ## A073761.P13625048970508771152
 
-`∩[A030430(n+1), A106849(n+1)]`
+`∩[A017281(n), A106849(n+1)]`
 -/
 
-namespace A073761.P10963209785778637939
+namespace A073761.P13625048970508771152
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030430 (n + 1)
+  A017281 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A106849 (n + 1)
@@ -9005,21 +9062,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A073761.P10963209785778637939
+end A073761.P13625048970508771152
 
-/-! ## A073761.P538182611349539422
+/-! ## A073761.P3936920563365694571
 
-`∩[A040167(n+1), A106849(n+1)]`
+`∩[A106849(n+1), A187331(n)]`
 -/
 
-namespace A073761.P538182611349539422
+namespace A073761.P3936920563365694571
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040167 (n + 1)
+  A106849 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106849 (n + 1)
+  A187331 n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -9027,7 +9084,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A073761.P538182611349539422
+end A073761.P3936920563365694571
 
 /-!
 # A073762: a(n) = 24*n - 12.

@@ -66,6 +66,7 @@ import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -2371,7 +2372,7 @@ end A373248.P16570538489444987580
 /-!
 # A373249: a(n) = A181819(n) / gcd(n, A181819(n)), where A181819(n) is the prime shadow of n.
 
-The programs for A373249, the canonical program `A373249.P6478375395125739437` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373249 has offset 1).
+The programs for A373249, the canonical program `A373249.P6478375395125739437` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373249 has offset 1).
 
 The definition of A373249 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, A373246, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2380,7 +2381,7 @@ The definition of A373249 is `conditional`: the Lean definition is an OEIS formu
 
 `A181819(n+1)/A373246(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A373249

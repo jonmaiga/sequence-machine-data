@@ -867,6 +867,36 @@ def P2781198550967628727.Spec : Prop :=
 
 end A336615
 
+/-! ## A336615.P2692660164724263969
+
+`∩[A119251(n+1), A182358(n+1)]`
+-/
+
+namespace A336615.P2692660164724263969
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119251 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182358 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336615.P2692660164724263969
+
+namespace A336615
+
+/-- `∩[A119251(n+1), A182358(n+1)]` -/
+def P2692660164724263969.Spec : Prop :=
+  ∀ n, (P2692660164724263969.a n : ℤ) = A336615 (n + 1)
+
+end A336615
+
 /-! ## A336615.P9372294148160207241
 
 `eq[1, A351573(n+1)]+1`
@@ -5096,6 +5126,29 @@ def P1235788388040983953.Spec : Prop :=
 
 end A336649
 
+/-! ## A336649.P15896313504173674749
+
+`A335341(n+1)/A140670(n+1)`
+-/
+
+namespace A336649.P15896313504173674749
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A335341 (n + 1) : ℚ) / (A140670 (n + 1) : ℚ)
+
+end
+
+end A336649.P15896313504173674749
+
+namespace A336649
+
+/-- `A335341(n+1)/A140670(n+1)` -/
+def P15896313504173674749.Spec : Prop :=
+  ∀ n, P15896313504173674749.a n = (A336649 (n + 1) : ℚ)
+
+end A336649
+
 /-!
 # A336650: a(n) = p^e, where p is the smallest odd prime factor of n, and e is its exponent, with a(n) = 1 when n is a power of two.
 
@@ -8429,16 +8482,16 @@ end A336688.P4961964527297205307
 The programs for A336689, there is no canonical definition to state claims against.
 -/
 
-/-! ## A336689.P9762782591296745939
+/-! ## A336689.P13093796049513264724
 
-`∩[A200046(n+1), A334834(n+1)]`
+`∩[A063213(n+1), A334834(n+1)]`
 -/
 
-namespace A336689.P9762782591296745939
+namespace A336689.P13093796049513264724
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A200046 (n + 1)
+  A063213 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A334834 (n + 1)
@@ -8449,7 +8502,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A336689.P9762782591296745939
+end A336689.P13093796049513264724
+
+/-! ## A336689.P13304318612060912505
+
+`∩[A187715(n+1), A334834(n+1)]`
+-/
+
+namespace A336689.P13304318612060912505
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187715 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334834 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336689.P13304318612060912505
+
+/-! ## A336689.P9099640935273720643
+
+`∩[A305409(n+1), A334834(n+1)]`
+-/
+
+namespace A336689.P9099640935273720643
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305409 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334834 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A336689.P9099640935273720643
 
 /-!
 # A336691: Number of distinct prime factors of 1+sigma(n).
@@ -10502,6 +10599,52 @@ namespace A336696
 /-- `A326135(A074400(n+1)+2)` -/
 def P9194588500523025281.Spec : Prop :=
   ∀ n, P9194588500523025281.a n = A336696 (n + 1)
+
+end A336696
+
+/-! ## A336696.P16043859283153770480
+
+`A000593(A074400(n+1)+2)`
+-/
+
+namespace A336696.P16043859283153770480
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000593 (A074400 (n + 1) + 2).toNat
+
+end
+
+end A336696.P16043859283153770480
+
+namespace A336696
+
+/-- `A000593(A074400(n+1)+2)` -/
+def P16043859283153770480.Spec : Prop :=
+  ∀ n, P16043859283153770480.a n = A336696 (n + 1)
+
+end A336696
+
+/-! ## A336696.P10746030005359525806
+
+`A091570(A074400(n+1)+2)`
+-/
+
+namespace A336696.P10746030005359525806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091570 (A074400 (n + 1) + 2).toNat
+
+end
+
+end A336696.P10746030005359525806
+
+namespace A336696
+
+/-- `A091570(A074400(n+1)+2)` -/
+def P10746030005359525806.Spec : Prop :=
+  ∀ n, P10746030005359525806.a n = A336696 (n + 1)
 
 end A336696
 

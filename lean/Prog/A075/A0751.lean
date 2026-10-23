@@ -50,7 +50,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -642,6 +641,29 @@ namespace A075104
 /-- `sqrt(gcd((n+1)², ∑[A006530(n+1)%2]²))` -/
 def P314147345308973510.Spec : Prop :=
   ∀ n, P314147345308973510.a n = (A075104 (n + 1) : ℝ)
+
+end A075104
+
+/-! ## A075104.P8865973961255278035
+
+`gcd(A080804(n+1), A131738(n))`
+-/
+
+namespace A075104.P8865973961255278035
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A080804 (n + 1)) (A131738 n)
+
+end
+
+end A075104.P8865973961255278035
+
+namespace A075104
+
+/-- `gcd(A080804(n+1), A131738(n))` -/
+def P8865973961255278035.Spec : Prop :=
+  ∀ n, (P8865973961255278035.a n : ℤ) = A075104 (n + 1)
 
 end A075104
 
@@ -3477,6 +3499,29 @@ def P3235744585333465946.Spec : Prop :=
 
 end A075123
 
+/-! ## A075123.P16335992153726896545
+
+`ogf((1+x+2x^3+2x^4+2x^5)/(1-x-x^2+x^3))`
+-/
+
+namespace A075123.P16335992153726896545
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 0, 2, 2, 2] [1, -1, -1, 1] n
+
+end
+
+end A075123.P16335992153726896545
+
+namespace A075123
+
+/-- `ogf((1+x+2x^3+2x^4+2x^5)/(1-x-x^2+x^3))` -/
+def P16335992153726896545.Spec : Prop :=
+  ∀ n, P16335992153726896545.a n = A075123 (n + 1)
+
+end A075123
+
 /-! ## A075123.P15954240078504205932
 
 `8-or(2, 3-a(n-1))` with `a(0)=1, a(1)=2, a(2)=3`
@@ -3618,6 +3663,36 @@ namespace A075123
 /-- `record[A000265(or(2, n)+n)+n]` -/
 def P7422369036191089037.Spec : Prop :=
   ∀ n, P7422369036191089037.a n = A075123 (n + 1)
+
+end A075123
+
+/-! ## A075123.P9577529578532756210
+
+`∪[A038537(n+1), A047452(n+1)]`
+-/
+
+namespace A075123.P9577529578532756210
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038537 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047452 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075123.P9577529578532756210
+
+namespace A075123
+
+/-- `∪[A038537(n+1), A047452(n+1)]` -/
+def P9577529578532756210.Spec : Prop :=
+  ∀ n, (P9577529578532756210.a n : ℤ) = A075123 (n + 1)
 
 end A075123
 

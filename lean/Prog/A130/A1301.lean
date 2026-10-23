@@ -287,7 +287,7 @@ end A130101.P11369277832784281176
 /-!
 # A130102: E.g.f.: (e^x - x)^2.
 
-The programs for A130102, the canonical program `A130102.P12697466543698061106` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130102 has offset 0).
+The programs for A130102, the canonical program `A130102.P12697466543698061106` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130102 has offset 0).
 
 The definition of A130102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -296,7 +296,7 @@ The definition of A130102 is `conjectured`: the Lean definition is a formula tha
 
 `2*(a(n-1)-2+n)` with `a(0)=1, a(1)=0, a(2)=2, a(3)=2`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C019`.
 -/
 
 namespace A130102
@@ -543,12 +543,12 @@ def P17803420067252667546.Spec : Prop :=
 
 end A130103
 
-/-! ## A130103.P5696915009667315364
+/-! ## A130103.P6284177886983470683
 
-`ogf((-x+3x^2-5x^3+2x^4)/(-1+4x-5x^2+2x^3))`
+`ogf((x-3x^2+5x^3-2x^4)/(1-4x+5x^2-2x^3))`
 -/
 
-namespace A130103.P5696915009667315364
+namespace A130103.P6284177886983470683
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -556,13 +556,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A130103.P5696915009667315364
+end A130103.P6284177886983470683
 
 namespace A130103
 
-/-- `ogf((-x+3x^2-5x^3+2x^4)/(-1+4x-5x^2+2x^3))` -/
-def P5696915009667315364.Spec : Prop :=
-  ∀ n, P5696915009667315364.a n = A130103 n
+/-- `ogf((x-3x^2+5x^3-2x^4)/(1-4x+5x^2-2x^3))` -/
+def P6284177886983470683.Spec : Prop :=
+  ∀ n, P6284177886983470683.a n = A130103 n
 
 end A130103
 

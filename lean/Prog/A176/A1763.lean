@@ -1100,6 +1100,28 @@ end
 
 end A176308.P13540485027714233376
 
+/-! ## A176308.P16381091820571586678
+
+`∩[A087642(n+3), A315754(n)]`
+-/
+
+namespace A176308.P16381091820571586678
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087642 (n + 3)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A315754 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A176308.P16381091820571586678
+
 /-!
 # A176309: Integers k such that k and k^3 +- 1 are nonsquarefree numbers.
 
@@ -2309,19 +2331,19 @@ end
 
 end A176316.P17161806408234961736
 
-/-! ## A176316.P14738044249441712264
+/-! ## A176316.P13311476431502897876
 
-`∩[A045319(n+1), A032711(n+1)]`
+`∩[A032711(n+1), A040089(n+1)]`
 -/
 
-namespace A176316.P14738044249441712264
+namespace A176316.P13311476431502897876
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045319 (n + 1)
+  A032711 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032711 (n + 1)
+  A040089 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2329,7 +2351,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A176316.P14738044249441712264
+end A176316.P13311476431502897876
 
 /-!
 # A176325: Decimal expansion of (5+3*sqrt(3))/2.
@@ -8973,33 +8995,26 @@ def P3559804337176644852.Spec : Prop :=
 
 end A176393
 
-/-! ## A176393.P15294501687764851903
+/-! ## A176393.P11695090978078099546
 
-`A005408(comp[p?[A106617(n)]])`
+`A005843(A141468(n+1))+1`
 -/
 
-namespace A176393.P15294501687764851903
+namespace A176393.P11695090978078099546
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106617 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A005843 (A141468 (n + 1)).toNat + 1
 
 end
 
-end A176393.P15294501687764851903
+end A176393.P11695090978078099546
 
 namespace A176393
 
-/-- `A005408(comp[p?[A106617(n)]])` -/
-def P15294501687764851903.Spec : Prop :=
-  ∀ n, P15294501687764851903.a n = A176393 (n + 1)
+/-- `A005843(A141468(n+1))+1` -/
+def P11695090978078099546.Spec : Prop :=
+  ∀ n, P11695090978078099546.a n = A176393 (n + 1)
 
 end A176393
 

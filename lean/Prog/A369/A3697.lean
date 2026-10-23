@@ -1521,6 +1521,29 @@ def P8155214652570338121.Spec : Prop :=
 
 end A369720
 
+/-! ## A369720.P14596271592742059866
+
+`A369758(A187829(n+1))`
+-/
+
+namespace A369720.P14596271592742059866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369758 (A187829 (n + 1)).toNat
+
+end
+
+end A369720.P14596271592742059866
+
+namespace A369720
+
+/-- `A369758(A187829(n+1))` -/
+def P14596271592742059866.Spec : Prop :=
+  ∀ n, P14596271592742059866.a n = A369720 (n + 1)
+
+end A369720
+
 /-!
 # A369721: The sum of unitary divisors of the smallest cubefull number that is a multiple of n.
 

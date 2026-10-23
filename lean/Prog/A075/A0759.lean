@@ -26,7 +26,6 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
@@ -4908,56 +4907,181 @@ end
 
 end A075933.P16060582187711773037
 
-/-! ## A075933.P2537357736573096395
+/-! ## A075933.P9840243652186485921
 
-`filter[A033623(n+2), A267579(#)]`
+`∩[A033623(n+1), A116451(n)]`
 -/
 
-namespace A075933.P2537357736573096395
+namespace A075933.P9840243652186485921
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033623 (n + 2)
+  A033623 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267579 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116451 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A075933.P2537357736573096395
+end A075933.P9840243652186485921
 
-/-! ## A075933.P15046433564488055203
+/-! ## A075933.P13800072294549943844
 
-`filter[A033623(n+3), A132350(#)]`
+`∩[A028983(n+1), A033623(n+1)]`
 -/
 
-namespace A075933.P15046433564488055203
+namespace A075933.P13800072294549943844
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033623 (n + 3)
+  A028983 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A132350 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A075933.P15046433564488055203
+end A075933.P13800072294549943844
 
-/-! ## A075933.P12211808612223140271
+/-! ## A075933.P2067881586535693217
 
-`A004526(A075936(n))`
+`∩[A033623(n+1), A059485(n+1)]`
 -/
 
-namespace A075933.P12211808612223140271
+namespace A075933.P2067881586535693217
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 (A075936 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059485 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A075933.P12211808612223140271
+end A075933.P2067881586535693217
+
+/-! ## A075933.P11035889125677241974
+
+`∩[A033623(n+1), A067715(n+1)]`
+-/
+
+namespace A075933.P11035889125677241974
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067715 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075933.P11035889125677241974
+
+/-! ## A075933.P4617733836211495640
+
+`∩[A033623(n+1), A085837(n+1)]`
+-/
+
+namespace A075933.P4617733836211495640
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085837 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075933.P4617733836211495640
+
+/-! ## A075933.P12299110442709901992
+
+`∩[A033623(n+1), A093373(n+1)]`
+-/
+
+namespace A075933.P12299110442709901992
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093373 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075933.P12299110442709901992
+
+/-! ## A075933.P13698646324643324531
+
+`∩[A033623(n+1), A136492(n+1)]`
+-/
+
+namespace A075933.P13698646324643324531
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136492 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075933.P13698646324643324531
+
+/-! ## A075933.P3867922659861630348
+
+`∩[A033623(n+1), A161992(n+1)]`
+-/
+
+namespace A075933.P3867922659861630348
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033623 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161992 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075933.P3867922659861630348
 
 /-!
 # A075934: List of codewords in binary lexicode with Hamming distance 6 written as decimal numbers.
@@ -5179,6 +5303,28 @@ end
 
 end A075936.P11322776589623319931
 
+/-! ## A075936.P1114470063650857925
+
+`∩[A054016(n+1), A295299(n+1)]`
+-/
+
+namespace A075936.P1114470063650857925
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054016 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295299 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A075936.P1114470063650857925
+
 /-! ## A075936.P2723040128999915425
 
 `A000069(A075933(n)+1)`
@@ -5194,41 +5340,27 @@ end
 
 end A075936.P2723040128999915425
 
-/-! ## A075936.P6835616663780294256
+/-! ## A075936.P6478727029970608980
 
-`filter[A054016(n+2), A267579(#)]`
+`∩[A054016(n+1), A075930(n)]`
 -/
 
-namespace A075936.P6835616663780294256
+namespace A075936.P6478727029970608980
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054016 (n + 2)
+  A054016 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267579 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075930 n
 
-end
-
-end A075936.P6835616663780294256
-
-/-! ## A075936.P554405784173141749
-
-`filter[A054016(n+3), A132350(#)]`
--/
-
-namespace A075936.P554405784173141749
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054016 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A132350 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A075936.P554405784173141749
+end A075936.P6478727029970608980
 
 /-!
 # A075937: List of codewords in binary lexicode with Hamming distance 7 written as decimal numbers.

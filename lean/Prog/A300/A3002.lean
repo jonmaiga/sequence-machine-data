@@ -7202,6 +7202,28 @@ end
 
 end A300273.P1059828827633519237
 
+/-! ## A300273.P4930145683968662757
+
+`∩[A318991(n+1), A326836(n+1)]`
+-/
+
+namespace A300273.P4930145683968662757
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318991 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326836 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A300273.P4930145683968662757
+
 /-!
 # A300274: G.f.: 1 + Sum_{n>=1} a(n)*x^n/(1 - x^n) = Product_{n>=1} (1 + x^n)/(1 - x^n).
 

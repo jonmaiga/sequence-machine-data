@@ -41,6 +41,7 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -48,7 +49,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1825,6 +1826,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A331417.P2515751927493562785
+
+/-! ## A331417.P14177415205839398472
+
+`A331418(n)-A024000(n)`
+-/
+
+namespace A331417.P14177415205839398472
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331418 n - A024000 n
+
+end
+
+end A331417.P14177415205839398472
 
 /-! ## A331417.P8384148951234328941
 
@@ -5857,6 +5873,51 @@ end
 
 end A331472.P58878173302773070
 
+/-! ## A331472.P2603397734667593090
+
+`and(A058000(n+1), A364362(n))`
+-/
+
+namespace A331472.P2603397734667593090
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A058000 (n + 1)) (A364362 n)
+
+end
+
+end A331472.P2603397734667593090
+
+/-! ## A331472.P15459341327258596597
+
+`and(A084403(n+1), A364362(n))`
+-/
+
+namespace A331472.P15459341327258596597
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A084403 (n + 1)) (A364362 n)
+
+end
+
+end A331472.P15459341327258596597
+
+/-! ## A331472.P17769718804686444287
+
+`A389882(n)/A351653(n)`
+-/
+
+namespace A331472.P17769718804686444287
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A389882 n : ℚ) / (A351653 n : ℚ)
+
+end
+
+end A331472.P17769718804686444287
+
 /-!
 # A331473: Alternating sum of (n+1)*A000108(n+1).
 
@@ -6502,6 +6563,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A331479.P13608469499589746300
+
+/-! ## A331479.P8041091242251284245
+
+`A327489(A133031(n+1))`
+-/
+
+namespace A331479.P8041091242251284245
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327489 (A133031 (n + 1)).toNat
+
+end
+
+end A331479.P8041091242251284245
 
 /-!
 # A331483: Number of near-magic (only short lines are magic) knight's tours on a 6 X 2n board.

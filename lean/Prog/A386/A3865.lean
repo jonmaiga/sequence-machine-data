@@ -131,6 +131,21 @@ end
 
 end A386500.P1459551316518323858
 
+/-! ## A386500.P6768796419736568789
+
+`A007949(A080185(n+2)+1)`
+-/
+
+namespace A386500.P6768796419736568789
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007949 (A080185 (n + 2) + 1).toNat
+
+end
+
+end A386500.P6768796419736568789
+
 /-!
 # A386501: Numbers k divisible by A004719(k), excluding trivial cases.
 

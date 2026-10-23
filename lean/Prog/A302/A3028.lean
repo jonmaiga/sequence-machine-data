@@ -152,6 +152,27 @@ end
 
 end A302801.P11624204071662189908
 
+/-! ## A302801.P4692896399029215019
+
+`eq[A033665(n), A321801(n)]`
+-/
+
+namespace A302801.P4692896399029215019
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033665 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321801 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A302801.P4692896399029215019
+
 /-!
 # A302802: Number of n X n 0..1 arrays with every element equal to 0, 1, 2, 3 or 5 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.
 

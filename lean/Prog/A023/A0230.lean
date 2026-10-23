@@ -59,6 +59,7 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -66,6 +67,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -5883,6 +5885,52 @@ namespace A023039
 /-- `A167808(6*n+1)-A167808(6*n)` -/
 def P118512503637412757.Spec : Prop :=
   ∀ n, P118512503637412757.a n = A023039 n
+
+end A023039
+
+/-! ## A023039.P7851965874854410657
+
+`ogf((1-9x)/(1-18x+x^2))`
+-/
+
+namespace A023039.P7851965874854410657
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -9] [1, -18, 1] n
+
+end
+
+end A023039.P7851965874854410657
+
+namespace A023039
+
+/-- `ogf((1-9x)/(1-18x+x^2))` -/
+def P7851965874854410657.Spec : Prop :=
+  ∀ n, P7851965874854410657.a n = A023039 n
+
+end A023039
+
+/-! ## A023039.P9880556806608352831
+
+`A173495(6*n)`
+-/
+
+namespace A023039.P9880556806608352831
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173495 (6 * n)
+
+end
+
+end A023039.P9880556806608352831
+
+namespace A023039
+
+/-- `A173495(6*n)` -/
+def P9880556806608352831.Spec : Prop :=
+  ∀ n, P9880556806608352831.a n = A023039 n
 
 end A023039
 

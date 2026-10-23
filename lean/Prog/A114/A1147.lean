@@ -43,6 +43,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
@@ -4310,26 +4311,72 @@ def P5563460787328501201.Spec : Prop :=
 
 end A114753
 
-/-! ## A114753.P7113863102848333171
+/-! ## A114753.P4610399077737693963
 
-`or(1, gcd(n-n², 2*n))`
+`gcd(n²+n, 2*n)+1`
 -/
 
-namespace A114753.P7113863102848333171
+namespace A114753.P4610399077737693963
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 1 (Int.gcd ((n : ℤ) - (n ^ 2 : ℤ)) (2 * n : ℤ))
+  Nat.gcd (n ^ 2 + n) (2 * n) + 1
 
 end
 
-end A114753.P7113863102848333171
+end A114753.P4610399077737693963
 
 namespace A114753
 
-/-- `or(1, gcd(n-n², 2*n))` -/
-def P7113863102848333171.Spec : Prop :=
-  ∀ n, (P7113863102848333171.a n : ℤ) = A114753 (n + 1)
+/-- `gcd(n²+n, 2*n)+1` -/
+def P4610399077737693963.Spec : Prop :=
+  ∀ n, (P4610399077737693963.a n : ℤ) = A114753 (n + 1)
+
+end A114753
+
+/-! ## A114753.P1314356972152581715
+
+`and(n, -and(1, n))+n+1`
+-/
+
+namespace A114753.P1314356972152581715
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (n : ℤ) (-(Nat.land 1 n : ℤ)) + (n + 1 : ℤ)
+
+end
+
+end A114753.P1314356972152581715
+
+namespace A114753
+
+/-- `and(n, -and(1, n))+n+1` -/
+def P1314356972152581715.Spec : Prop :=
+  ∀ n, P1314356972152581715.a n = A114753 (n + 1)
+
+end A114753
+
+/-! ## A114753.P1328021072565236637
+
+`1-n*((n-1)%2-2)`
+-/
+
+namespace A114753.P1328021072565236637
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 - (n : ℤ) * (Int.tmod ((n : ℤ) - 1) 2 - 2)
+
+end
+
+end A114753.P1328021072565236637
+
+namespace A114753
+
+/-- `1-n*((n-1)%2-2)` -/
+def P1328021072565236637.Spec : Prop :=
+  ∀ n, P1328021072565236637.a n = A114753 (n + 1)
 
 end A114753
 
@@ -5682,6 +5729,21 @@ end
 
 end A114779.P14222092658294527292
 
+/-! ## A114779.P1242439502485212339
+
+`A349424(A038718(n+1))`
+-/
+
+namespace A114779.P1242439502485212339
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349424 (A038718 (n + 1)).toNat
+
+end
+
+end A114779.P1242439502485212339
+
 /-!
 # A114780: Least multiple of 2n-1 ending in prime(n), 0 if no such number exists.
 
@@ -6145,6 +6207,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114790.P16483217777113055238
+
+/-! ## A114790.P2254486522016682813
+
+`A321898(A114421(n))`
+-/
+
+namespace A114790.P2254486522016682813
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321898 (A114421 n).toNat
+
+end
+
+end A114790.P2254486522016682813
 
 /-!
 # A114791: Array T where T(n,m), n >= 1, 1 <= m <= n, is the number of n-almost primes less than or equal to 2^m. Array read by columns upwards beginning at n = m.

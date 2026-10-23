@@ -1587,6 +1587,32 @@ theorem P10410478434106724363.correct : P10410478434106724363.Spec := by
 
 end A250814
 
+/-! ## A250814.P14532519378417173497
+
+`A250812(∑[n+1]+2)`
+-/
+
+namespace A250814.P14532519378417173497
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250812 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
+
+end
+
+end A250814.P14532519378417173497
+
+namespace A250814
+
+/-- `A250812(∑[n+1]+2)` -/
+def P14532519378417173497.Spec : Prop :=
+  ∀ n, P14532519378417173497.a n = A250814 (n + 1)
+
+end A250814
+
 /-!
 # A250815: Number of (3+1) X (n+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 

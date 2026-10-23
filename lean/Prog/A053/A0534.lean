@@ -91,6 +91,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2310,6 +2311,55 @@ def P17932397152265408039.Spec : Prop :=
 
 end A053422
 
+/-! ## A053422.P13274429418959135907
+
+`n*A071762(∑[n])`
+-/
+
+namespace A053422.P13274429418959135907
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * A071762 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A053422.P13274429418959135907
+
+namespace A053422
+
+/-- `n*A071762(∑[n])` -/
+def P13274429418959135907.Spec : Prop :=
+  ∀ n, P13274429418959135907.a n = A053422 n
+
+end A053422
+
+/-! ## A053422.P5964747306689709100
+
+`n*(A047855(n)-1)`
+-/
+
+namespace A053422.P5964747306689709100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * (A047855 n - 1)
+
+end
+
+end A053422.P5964747306689709100
+
+namespace A053422
+
+/-- `n*(A047855(n)-1)` -/
+def P5964747306689709100.Spec : Prop :=
+  ∀ n, P5964747306689709100.a n = A053422 n
+
+end A053422
+
 /-!
 # A053425: Even numbers k such that the 120 points of the 600-cell exactly integrate homogeneous polynomials of degree k.
 
@@ -2976,6 +3026,29 @@ namespace A053436
 /-- `∑[A246276(C(n, a(n-1)²)+1)]` -/
 def P4888676861425021828.Spec : Prop :=
   ∀ n, P4888676861425021828.a n = A053436 (n + 1)
+
+end A053436
+
+/-! ## A053436.P6792300866015232432
+
+`A389896(A081026(n+2))`
+-/
+
+namespace A053436.P6792300866015232432
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389896 (A081026 (n + 2)).toNat
+
+end
+
+end A053436.P6792300866015232432
+
+namespace A053436
+
+/-- `A389896(A081026(n+2))` -/
+def P6792300866015232432.Spec : Prop :=
+  ∀ n, P6792300866015232432.a n = A053436 (n + 1)
 
 end A053436
 

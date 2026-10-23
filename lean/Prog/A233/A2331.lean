@@ -1548,6 +1548,21 @@ end A233122.P14542726361670339260
 The programs for A233123, there is no canonical definition to state claims against.
 -/
 
+/-! ## A233123.P9189909605698948845
+
+`(3^n+1)/2*4^n`
+-/
+
+namespace A233123.P9189909605698948845
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 ^ n + 1 : ℚ) / 2 * (4 ^ n : ℚ)
+
+end
+
+end A233123.P9189909605698948845
+
 /-! ## A233123.P7140021965053463049
 
 `12*a(n-1)-4^n` with `a(0)=1`
@@ -1562,21 +1577,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A233123.P7140021965053463049
-
-/-! ## A233123.P17467484296530907216
-
-`2^(2*(n+1)-3)*(3^(n+1)+3)/3`
--/
-
-namespace A233123.P17467484296530907216
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (2 : ℚ) ^ ((2 * (n + 1) : ℤ) - 3 : ℤ) * ((3 ^ (n + 1) + 3 : ℚ) / 3)
-
-end
-
-end A233123.P17467484296530907216
 
 /-! ## A233123.P5993502787218221794
 

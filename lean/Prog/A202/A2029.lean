@@ -81,6 +81,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A202900: Number of n X 2 0..1 arrays with every one equal to some NW, E or S neighbor.
@@ -3167,6 +3168,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A202940.P1286028189511013683
+
+/-! ## A202940.P3672911053131372079
+
+`∩[A030294(n+1), A277061(n+1)]`
+-/
+
+namespace A202940.P3672911053131372079
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030294 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277061 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A202940.P3672911053131372079
 
 /-!
 # A202941: For n>=0, let n!^(2)=A202367(n+1) and, for 0<=m<=n, C^(2)(n,m)=n!^(2)/(m!^(2)*(n-m)!^(2)). The sequence gives triangle of numbers C^(2)(n,m) with rows of length n+1.

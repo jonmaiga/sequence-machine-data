@@ -2002,25 +2002,25 @@ end A195231.P16060131661892707454
 /-!
 # A195233: Number of lower triangles of a 3 X 3 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
 
-The programs for A195233, the canonical program `A195233.P16298162349551341745` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195233 has offset 1).
+The programs for A195233, the canonical program `A195233.P5644972783792125391` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195233 has offset 1).
 
 The definition of A195233 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A195233.P16298162349551341745
+/-! ## A195233.P5644972783792125391
 
-`91*(n+1)-27`
+`91*n+64`
 
 The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195233
 
-/-- `91*(n+1)-27` -/
-def P16298162349551341745.Spec : Prop :=
-  ∀ n, P16298162349551341745.a n = A195233 (n + 1)
+/-- `91*n+64` -/
+def P5644972783792125391.Spec : Prop :=
+  ∀ n, (P5644972783792125391.a n : ℤ) = A195233 (n + 1)
 
-theorem P16298162349551341745.correct : P16298162349551341745.Spec := by
+theorem P5644972783792125391.correct : P5644972783792125391.Spec := by
   intro n
   simp only [A195233, Nat.add_sub_cancel]
 

@@ -2694,30 +2694,26 @@ def P1003923329908184050.Spec : Prop :=
 
 end A355823
 
-/-! ## A355823.P10939069517974960261
+/-! ## A355823.P3918196649429371696
 
-`char[A356194(n+1)-1]`
+`and(A016760(n), A321167(n+1))`
 -/
 
-namespace A355823.P10939069517974960261
+namespace A355823.P3918196649429371696
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356194 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A016760 n) (A321167 (n + 1))
 
 end
 
-end A355823.P10939069517974960261
+end A355823.P3918196649429371696
 
 namespace A355823
 
-/-- `char[A356194(n+1)-1]` -/
-def P10939069517974960261.Spec : Prop :=
-  ∀ n, (P10939069517974960261.a n : ℤ) = A355823 (n + 1)
+/-- `and(A016760(n), A321167(n+1))` -/
+def P3918196649429371696.Spec : Prop :=
+  ∀ n, P3918196649429371696.a n = A355823 (n + 1)
 
 end A355823
 

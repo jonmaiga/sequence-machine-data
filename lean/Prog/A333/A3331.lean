@@ -102,7 +102,7 @@ set_option linter.unreachableTactic false
 /-!
 # A333100: Even numbers k such that both k and k + 2 are nontotients (A005277).
 
-The programs for A333100, the canonical program `A333100.P598868710935215718` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333100 has offset 1).
+The programs for A333100, the canonical program `A333100.P598868710935215718` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333100 has offset 1).
 
 The definition of A333100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -141,7 +141,7 @@ end A333100
 
 `A005277(eq[2, A005277(n+2)-A005277(n+1)]+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A333100
@@ -487,6 +487,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333102.P8824293807985534727
+
+/-! ## A333102.P10557364445702321992
+
+`∩[A333100(n+1), A333101(n+1)]`
+-/
+
+namespace A333102.P10557364445702321992
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333100 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333101 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333102.P10557364445702321992
 
 /-!
 # A333105: Number of nonnegative lattice paths from (0,0) to (n,0) where the allowed steps at (x,y) are (1,v) with v in {-1,0,...,max(y,1)}.
@@ -3432,6 +3454,29 @@ namespace A333145
 /-- `A069157(2*(n+1))-A069157(n+1)` -/
 def P8390913125486230861.Spec : Prop :=
   ∀ n, P8390913125486230861.a n = A333145 (n + 1)
+
+end A333145
+
+/-! ## A333145.P12845344946289132822
+
+`A001227(A318885(n+1))`
+-/
+
+namespace A333145.P12845344946289132822
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001227 (A318885 (n + 1)).toNat
+
+end
+
+end A333145.P12845344946289132822
+
+namespace A333145
+
+/-- `A001227(A318885(n+1))` -/
+def P12845344946289132822.Spec : Prop :=
+  ∀ n, P12845344946289132822.a n = A333145 (n + 1)
 
 end A333145
 
@@ -10776,6 +10821,100 @@ def P6693023257581763623.Spec : Prop :=
   ∀ n, P6693023257581763623.a n = A333194 (n + 1)
 
 end A333194
+
+/-!
+# A333195: Numbers with three consecutive prime indices in arithmetic progression.
+
+The programs for A333195, there is no canonical definition to state claims against.
+-/
+
+/-! ## A333195.P6812942529582492049
+
+`∩[A115180(n+1), A389599(n+1)]`
+-/
+
+namespace A333195.P6812942529582492049
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115180 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389599 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333195.P6812942529582492049
+
+/-! ## A333195.P9456093144406197948
+
+`∩[A122409(n+1), A389599(n+1)]`
+-/
+
+namespace A333195.P9456093144406197948
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122409 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389599 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333195.P9456093144406197948
+
+/-! ## A333195.P15478108066677164653
+
+`∩[A345921(n+1), A389599(n+1)]`
+-/
+
+namespace A333195.P15478108066677164653
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345921 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389599 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333195.P15478108066677164653
+
+/-! ## A333195.P9129138697029468126
+
+`∩[A346151(n), A389599(n+1)]`
+-/
+
+namespace A333195.P9129138697029468126
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346151 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389599 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333195.P9129138697029468126
 
 /-!
 # A333196: Least k such that Sum_{i=1..n} k^n / i is a positive integer.

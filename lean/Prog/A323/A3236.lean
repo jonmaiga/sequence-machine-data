@@ -41,7 +41,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,7 +55,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -3005,6 +3004,29 @@ def P14355263869437323746.Spec : Prop :=
 
 end A323639
 
+/-! ## A323639.P16547640725912917923
+
+`A059482(n)-A178769(n)`
+-/
+
+namespace A323639.P16547640725912917923
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059482 n - A178769 n
+
+end
+
+end A323639.P16547640725912917923
+
+namespace A323639
+
+/-- `A059482(n)-A178769(n)` -/
+def P16547640725912917923.Spec : Prop :=
+  ∀ n, P16547640725912917923.a n = A323639 n
+
+end A323639
+
 /-!
 # A323640: Numbers m having at least one pair (x,y) of divisors with x
 
@@ -3119,7 +3141,7 @@ end A323640.P7813705882460429328
 /-!
 # A323641: Triangle read by rows in which row n lists the first 2^n terms of A323642, n >= 1.
 
-The programs for A323641, the canonical program `A323641.P1592555987281222169` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323641 has offset 1).
+The programs for A323641, the canonical program `A323641.P1592555987281222169` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323641 has offset 1).
 
 The definition of A323641 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A323651, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3128,7 +3150,7 @@ The definition of A323641 is `conditional`: the Lean definition is an OEIS formu
 
 `A323651(n+3)/4`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A323641
@@ -4922,7 +4944,7 @@ end A323649.P9269937968294874932
 /-!
 # A323650: Flower garden sequence (see Comments for precise definition).
 
-The programs for A323650, the canonical program `A323650.P9549203786306784903` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323650 has offset 0).
+The programs for A323650, the canonical program `A323650.P9549203786306784903` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323650 has offset 0).
 
 The definition of A323650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4931,7 +4953,7 @@ The definition of A323650 is `conjectured`: the Lean definition is a formula tha
 
 `A323651(n)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A323650

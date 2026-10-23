@@ -60,6 +60,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3539,7 +3540,7 @@ end A379154.P16152436291707441937
 /-!
 # A379155: Numbers k such that there is a unique prime between the k-th and (k+1)-th prime powers (A246655).
 
-The programs for A379155, the canonical program `A379155.P15562892955624155800` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379155 has offset 1).
+The programs for A379155, the canonical program `A379155.P15562892955624155800` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379155 has offset 1).
 
 The definition of A379155 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3548,7 +3549,7 @@ The definition of A379155 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A366835(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A379155
@@ -3697,7 +3698,7 @@ end A379156.P587962023348423237
 /-!
 # A379157: Prime powers p such that the interval from p to the next prime power contains a unique prime number.
 
-The programs for A379157, the canonical program `A379157.P13098418372485706245` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379157 has offset 1).
+The programs for A379157, the canonical program `A379157.P13098418372485706245` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379157 has offset 1).
 
 The definition of A379157 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A246655, A379155, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3706,7 +3707,7 @@ The definition of A379157 is `conditional`: the Lean definition is an OEIS formu
 
 `A246655(A379155(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A379157

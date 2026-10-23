@@ -47,7 +47,6 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -2920,6 +2919,52 @@ def P9137617020262043168.Spec : Prop :=
 
 end A045531
 
+/-! ## A045531.P3548640428344872017
+
+`A354794(A340266(n+1))`
+-/
+
+namespace A045531.P3548640428344872017
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354794 (A340266 (n + 1)).toNat
+
+end
+
+end A045531.P3548640428344872017
+
+namespace A045531
+
+/-- `A354794(A340266(n+1))` -/
+def P3548640428344872017.Spec : Prop :=
+  ∀ n, P3548640428344872017.a n = A045531 (n + 1)
+
+end A045531
+
+/-! ## A045531.P7375679333557795053
+
+`A354794(A000096(n+2)-n)`
+-/
+
+namespace A045531.P7375679333557795053
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354794 (A000096 (n + 2) - (n : ℤ)).toNat
+
+end
+
+end A045531.P7375679333557795053
+
+namespace A045531
+
+/-- `A354794(A000096(n+2)-n)` -/
+def P7375679333557795053.Spec : Prop :=
+  ∀ n, P7375679333557795053.a n = A045531 (n + 1)
+
+end A045531
+
 /-!
 # A045532: Concatenate n with n-th prime.
 
@@ -3631,19 +3676,19 @@ def P4709381528376657272.Spec : Prop :=
 
 end A045536
 
-/-! ## A045536.P10662597576207569637
+/-! ## A045536.P15009943020518664722
 
-`∩[A246857(n+1), A001359(n+1)]`
+`∩[A001359(n+1), A246857(n+1)]`
 -/
 
-namespace A045536.P10662597576207569637
+namespace A045536.P15009943020518664722
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246857 (n + 1)
+  A001359 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001359 (n + 1)
+  A246857 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3651,13 +3696,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A045536.P10662597576207569637
+end A045536.P15009943020518664722
 
 namespace A045536
 
-/-- `∩[A246857(n+1), A001359(n+1)]` -/
-def P10662597576207569637.Spec : Prop :=
-  ∀ n, (P10662597576207569637.a n : ℤ) = A045536 (n + 1)
+/-- `∩[A001359(n+1), A246857(n+1)]` -/
+def P15009943020518664722.Spec : Prop :=
+  ∀ n, (P15009943020518664722.a n : ℤ) = A045536 (n + 1)
 
 end A045536
 
@@ -7358,26 +7403,59 @@ def P17349577974282703365.Spec : Prop :=
 
 end A045572
 
-/-! ## A045572.P6396975907915967323
+/-! ## A045572.P240038456596705187
 
-`(5*(n+1)+(3*(n+1)+2)%4-4)/2`
+`∩[2*n+1, floor(n/4+n+1)]`
 -/
 
-namespace A045572.P6396975907915967323
+namespace A045572.P240038456596705187
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (((5 * (n + 1) + (3 * (n + 1) + 2) % 4 : ℕ) : ℤ) - 4 : ℚ) / 2
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n : ℚ) / 4 + (n + 1 : ℚ)⌋
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A045572.P6396975907915967323
+end A045572.P240038456596705187
 
 namespace A045572
 
-/-- `(5*(n+1)+(3*(n+1)+2)%4-4)/2` -/
-def P6396975907915967323.Spec : Prop :=
-  ∀ n, P6396975907915967323.a n = (A045572 (n + 1) : ℚ)
+/-- `∩[2*n+1, floor(n/4+n+1)]` -/
+def P240038456596705187.Spec : Prop :=
+  ∀ n, (P240038456596705187.a n : ℤ) = A045572 (n + 1)
+
+end A045572
+
+/-! ## A045572.P13171881653017591491
+
+`∑[2^a(n-4)/a(n-4)]` with `a(0)=1, a(1)=2, a(2)=4, a(3)=2`
+-/
+
+namespace A045572.P13171881653017591491
+noncomputable section
+
+def f1 : ℕ → ℝ := SequenceMachineLib.rec [1, 2, 4, 2] fun n f1 =>
+  (2 : ℝ) ^ (f1 (n - 4)) / f1 (n - 4)
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A045572.P13171881653017591491
+
+namespace A045572
+
+/-- `∑[2^a(n-4)/a(n-4)]` -/
+def P13171881653017591491.Spec : Prop :=
+  ∀ n, P13171881653017591491.a n = (A045572 (n + 1) : ℝ)
 
 end A045572
 
@@ -7709,6 +7787,28 @@ end A045574
 The programs for A045576, there is no canonical definition to state claims against.
 -/
 
+/-! ## A045576.P5617676031305224891
+
+`∩[A045591(n+1), A045602(n+1)]`
+-/
+
+namespace A045576.P5617676031305224891
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045591 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045602 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045576.P5617676031305224891
+
 /-! ## A045576.P8504946053170055233
 
 `record[A000265(A045591(n+1))]`
@@ -7780,24 +7880,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045576.P15959884379382935794
-
-/-! ## A045576.P18300390826884115508
-
-`filter[A045602(n+1), A373155(#)]`
--/
-
-namespace A045576.P18300390826884115508
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045602 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A373155 (f1 j).toNat = 1) n)
-
-end
-
-end A045576.P18300390826884115508
 
 /-!
 # A045577: Numbers k that divide 4^k + 2^k or 8^k + 4^k.
@@ -7994,6 +8076,94 @@ end
 
 end A045579.P14092692444969403915
 
+/-! ## A045579.P16093875939067686228
+
+`∩[A045601(n+1), A184967(n+1)]`
+-/
+
+namespace A045579.P16093875939067686228
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045601 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A184967 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045579.P16093875939067686228
+
+/-! ## A045579.P17157600570123418646
+
+`∩[A045601(n+1), A302594(n+1)]`
+-/
+
+namespace A045579.P17157600570123418646
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045601 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302594 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045579.P17157600570123418646
+
+/-! ## A045579.P1269287178471283880
+
+`∩[A045601(n+1), A305759(n+1)]`
+-/
+
+namespace A045579.P1269287178471283880
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045601 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305759 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045579.P1269287178471283880
+
+/-! ## A045579.P13744010815168019825
+
+`∩[A068382(n+1), A349152(n+1)]`
+-/
+
+namespace A045579.P13744010815168019825
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068382 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349152 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045579.P13744010815168019825
+
 /-!
 # A045580: Numbers k that divide 7^k + 2^k.
 
@@ -8038,6 +8208,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A045580.P11393624737397438
+
+/-! ## A045580.P7325287788675565384
+
+`∩[A014419(n), A045596(n+1)]`
+-/
+
+namespace A045580.P7325287788675565384
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014419 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045596 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045580.P7325287788675565384
 
 /-!
 # A045581: Numbers k that divide 8^k + 2^k.
@@ -8274,6 +8466,28 @@ end A045584.P14313587385595060797
 The programs for A045585, there is no canonical definition to state claims against.
 -/
 
+/-! ## A045585.P6839496830433544249
+
+`∩[A014868(n+1), A045603(n+1)]`
+-/
+
+namespace A045585.P6839496830433544249
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014868 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045603 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045585.P6839496830433544249
+
 /-! ## A045585.P7105197778785357515
 
 `filter[A045603(n+1), A359374(#)]`
@@ -8309,24 +8523,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045585.P9567404381617797914
-
-/-! ## A045585.P7018218377745099065
-
-`filter[A045603(n+1), A359820(#)]`
--/
-
-namespace A045585.P7018218377745099065
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045603 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A359820 (f1 j).toNat = 1) n)
-
-end
-
-end A045585.P7018218377745099065
 
 /-!
 # A045589: Numbers k that divide 10^k + 3^k.
@@ -8373,6 +8569,28 @@ end
 
 end A045590.P13300365083160041430
 
+/-! ## A045590.P7609735598840133861
+
+`∩[2*n+1, A045608(n+1)]`
+-/
+
+namespace A045590.P7609735598840133861
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045608 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045590.P7609735598840133861
+
 /-! ## A045590.P6093828868760880959
 
 `record[A000265(A045608(n+1))]`
@@ -8409,6 +8627,28 @@ end
 
 end A045590.P15106561817305663835
 
+/-! ## A045590.P17663744991317062131
+
+`∩[A045608(n+1), A364614(n+1)]`
+-/
+
+namespace A045590.P17663744991317062131
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045608 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364614 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045590.P17663744991317062131
+
 /-! ## A045590.P7105501899700582845
 
 `filter[A045608(n+1), A093719(#)]`
@@ -8444,6 +8684,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045590.P10247729958933486926
+
+/-! ## A045590.P16481323423609463586
+
+`∩[A045608(n+1), A266836(n+1)]`
+-/
+
+namespace A045590.P16481323423609463586
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045608 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266836 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A045590.P16481323423609463586
 
 /-!
 # A045591: Numbers k that divide 6^k + 4^k.

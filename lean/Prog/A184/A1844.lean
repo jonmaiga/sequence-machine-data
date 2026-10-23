@@ -46,7 +46,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -75,7 +74,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -265,26 +263,27 @@ end
 
 end A184401.P4565946893550667194
 
-/-! ## A184401.P6101552956625323438
+/-! ## A184401.P11818964150877575280
 
-`A184398(lt[0, A025648(n+1)%2]+1)`
+`∩[A184398(n+1), A184410(n+1)]`
 -/
 
-namespace A184401.P6101552956625323438
+namespace A184401.P11818964150877575280
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A184398 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A025648 (n + 1)) 2
+  A184410 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184398 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A184401.P6101552956625323438
+end A184401.P11818964150877575280
 
 /-!
 # A184402: Ranks of (even i)+(even j)*r, when all i+j*r are ranked; r=sqrt(2), i>=0, j>=0.
@@ -9439,6 +9438,50 @@ end A184480
 The programs for A184481, there is no canonical definition to state claims against.
 -/
 
+/-! ## A184481.P1923899078833329909
+
+`∩[A001358(n+1), A005448(n+1)]`
+-/
+
+namespace A184481.P1923899078833329909
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005448 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A184481.P1923899078833329909
+
+/-! ## A184481.P13185925580053759687
+
+`∩[A001358(n+1), A381647(n+1)]`
+-/
+
+namespace A184481.P13185925580053759687
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381647 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A184481.P13185925580053759687
+
 /-! ## A184481.P15819273223273747521
 
 `filter[A005448(n+1), A064911(#)]`
@@ -9585,49 +9628,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A184481.P18428387451773585974
-
-/-! ## A184481.P240538775078598796
-
-`A005448(eq[3, A001222(A242658(n))])`
--/
-
-namespace A184481.P240538775078598796
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A242658 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005448 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A184481.P240538775078598796
-
-/-! ## A184481.P11612918189479510611
-
-`∩[A005448(n+1), A131368(n+1)]`
--/
-
-namespace A184481.P11612918189479510611
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005448 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131368 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A184481.P11612918189479510611
 
 /-!
 # A184482: Lower s-Wythoff sequence, where s(n)=3n-1. Complement of A184483.

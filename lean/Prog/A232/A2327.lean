@@ -75,6 +75,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -644,6 +645,29 @@ namespace A232709
 /-- `A175427(A095205(n+1))` -/
 def P7979955387102307977.Spec : Prop :=
   ∀ n, P7979955387102307977.a n = A232709 (n + 1)
+
+end A232709
+
+/-! ## A232709.P950207035937725810
+
+`A175427(A106604(n+1))`
+-/
+
+namespace A232709.P950207035937725810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175427 (A106604 (n + 1)).toNat
+
+end
+
+end A232709.P950207035937725810
+
+namespace A232709
+
+/-- `A175427(A106604(n+1))` -/
+def P950207035937725810.Spec : Prop :=
+  ∀ n, P950207035937725810.a n = A232709 (n + 1)
 
 end A232709
 
@@ -1781,6 +1805,28 @@ end
 
 end A232724.P633167979528370303
 
+/-! ## A232724.P16319205421194294432
+
+`∩[A342591(n+1), A356441(n+1)]`
+-/
+
+namespace A232724.P16319205421194294432
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342591 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356441 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232724.P16319205421194294432
+
 /-!
 # A232725: Numbers k such that the concatenation 123456789k is prime.
 
@@ -2178,6 +2224,28 @@ end
 
 end A232726.P18060893668126037142
 
+/-! ## A232726.P6510981260099234780
+
+`∩[A093515(n+1), A232725(n+1)]`
+-/
+
+namespace A232726.P6510981260099234780
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093515 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232725 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232726.P6510981260099234780
+
 /-! ## A232726.P4766095451766674742
 
 `∩[A140826(n+1), A232725(n+1)]`
@@ -2221,28 +2289,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A232726.P10397965253550456385
-
-/-! ## A232726.P5693670659766362907
-
-`∩[A162788(n+1), A232725(n+1)]`
--/
-
-namespace A232726.P5693670659766362907
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162788 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232725 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A232726.P5693670659766362907
 
 /-!
 # A232728: Primes p such that the concatenation p123456789 is prime.

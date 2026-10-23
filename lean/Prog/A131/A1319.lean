@@ -6410,6 +6410,78 @@ def P2431513658804425455.Spec : Prop :=
 
 end A131941
 
+/-! ## A131941.P6047005959854952686
+
+`a(n-2)+n*(n-1)+1` with `a(0)=0, a(1)=1`
+-/
+
+namespace A131941.P6047005959854952686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
+  a (n - 2) + ((n : ℤ) * ((n : ℤ) - 1) + 1)
+
+end
+
+end A131941.P6047005959854952686
+
+namespace A131941
+
+/-- `a(n-2)+n*(n-1)+1` -/
+def P6047005959854952686.Spec : Prop :=
+  ∀ n, P6047005959854952686.a n = A131941 n
+
+end A131941
+
+/-! ## A131941.P18225677982809346987
+
+`1-(n*(1-n)-a(n-2))` with `a(0)=0, a(1)=1`
+-/
+
+namespace A131941.P18225677982809346987
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
+  1 - ((n : ℤ) * (1 - (n : ℤ)) - a (n - 2))
+
+end
+
+end A131941.P18225677982809346987
+
+namespace A131941
+
+/-- `1-(n*(1-n)-a(n-2))` -/
+def P18225677982809346987.Spec : Prop :=
+  ∀ n, P18225677982809346987.a n = A131941 n
+
+end A131941
+
+/-! ## A131941.P7516945967886679075
+
+`∑[A000982(n)]`
+-/
+
+namespace A131941.P7516945967886679075
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000982 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A131941.P7516945967886679075
+
+namespace A131941
+
+/-- `∑[A000982(n)]` -/
+def P7516945967886679075.Spec : Prop :=
+  ∀ n, P7516945967886679075.a n = A131941 n
+
+end A131941
+
 /-!
 # A131942: Number of partitions of n in which each odd part has odd multiplicity.
 

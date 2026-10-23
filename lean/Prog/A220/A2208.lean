@@ -43,6 +43,7 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -2453,7 +2454,7 @@ end A220837.P7470313355553828242
 /-!
 # A220838: Tropical version of Somos-4 sequence A006720.
 
-The programs for A220838, the canonical program `A220838.P14620897940068102218` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220838 has offset 1).
+The programs for A220838, the canonical program `A220838.P14620897940068102218` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220838 has offset 1).
 
 The definition of A220838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2488,7 +2489,7 @@ end A220838
 
 `∑[A110656(n)-A002817(n+1)%2]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A220838
@@ -4724,20 +4725,20 @@ end
 
 end A220853.P2902271968462197626
 
-/-! ## A220853.P4170786386811933779
+/-! ## A220853.P3221436757448726687
 
-`4^A120738(n)`
+`A056982(2*n)`
 -/
 
-namespace A220853.P4170786386811933779
+namespace A220853.P3221436757448726687
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (4 : ℚ) ^ (A120738 n : ℤ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056982 (2 * n)
 
 end
 
-end A220853.P4170786386811933779
+end A220853.P3221436757448726687
 
 /-!
 # A220854: Sum of exclusive heights of size-balanced 3-ary trees on n nodes.
@@ -6407,7 +6408,7 @@ end A220888
 /-!
 # A220889: a(n) = F(n+8) - (1/6)*(n^4-2*n^3+26*n^2+47*n+132) where F(i) = Fibonacci numbers (A000045).
 
-The programs for A220889, the canonical program `A220889.P18153767106500405500` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220889 has offset 1).
+The programs for A220889, the canonical program `A220889.P18153767106500405500` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220889 has offset 1).
 
 The definition of A220889 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 472 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6416,7 +6417,7 @@ The definition of A220889 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A220888(n)]-A000332(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A220889
@@ -6622,6 +6623,75 @@ namespace A220892
 /-- `A201106(n+1)+A072474(n+1)` -/
 def P14801143558929711340.Spec : Prop :=
   ∀ n, P14801143558929711340.a n = A220892 n
+
+end A220892
+
+/-! ## A220892.P1681705101131458715
+
+`(n+1)/3*A059826(n+1)`
+-/
+
+namespace A220892.P1681705101131458715
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / 3 * (A059826 (n + 1) : ℚ)
+
+end
+
+end A220892.P1681705101131458715
+
+namespace A220892
+
+/-- `(n+1)/3*A059826(n+1)` -/
+def P1681705101131458715.Spec : Prop :=
+  ∀ n, P1681705101131458715.a n = (A220892 n : ℚ)
+
+end A220892
+
+/-! ## A220892.P8632180219107121461
+
+`A046163(n+1)*A051176(n+1)*A130770(n)`
+-/
+
+namespace A220892.P8632180219107121461
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046163 (n + 1) * A051176 (n + 1) * A130770 n
+
+end
+
+end A220892.P8632180219107121461
+
+namespace A220892
+
+/-- `A046163(n+1)*A051176(n+1)*A130770(n)` -/
+def P8632180219107121461.Spec : Prop :=
+  ∀ n, P8632180219107121461.a n = A220892 n
+
+end A220892
+
+/-! ## A220892.P10288839156195707356
+
+`A051176(n+1)*A130770(n+1)*A130770(n)`
+-/
+
+namespace A220892.P10288839156195707356
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051176 (n + 1) * A130770 (n + 1) * A130770 n
+
+end
+
+end A220892.P10288839156195707356
+
+namespace A220892
+
+/-- `A051176(n+1)*A130770(n+1)*A130770(n)` -/
+def P10288839156195707356.Spec : Prop :=
+  ∀ n, P10288839156195707356.a n = A220892 n
 
 end A220892
 

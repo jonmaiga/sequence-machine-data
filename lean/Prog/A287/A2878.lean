@@ -5930,6 +5930,21 @@ end
 
 end A287867.P7486788912192572995
 
+/-! ## A287867.P2065347267473432039
+
+`A069158(A076676(n+1))`
+-/
+
+namespace A287867.P2065347267473432039
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069158 (A076676 (n + 1)).toNat
+
+end
+
+end A287867.P2065347267473432039
+
 /-!
 # A287868: Positions of 2's in A103270.
 

@@ -54,10 +54,8 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -1945,7 +1943,7 @@ end A326237.P12582767694713270576
 /-!
 # A326238: Expansion of Sum_{k>=1} k * x^k * (1 - x^k) / (1 + x^k)^3.
 
-The programs for A326238, the canonical program `A326238.P2576865909490230932` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326238 has offset 1).
+The programs for A326238, the canonical program `A326238.P2576865909490230932` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326238 has offset 1).
 
 The definition of A326238 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1954,7 +1952,7 @@ The definition of A326238 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A002129(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A326238
@@ -3945,7 +3943,7 @@ end A326252.P454993638099049482
 /-!
 # A326253: Number of sequences of distinct ordered pairs of positive integers up to n.
 
-The programs for A326253, the canonical program `A326253.P12016112695788045133` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326253 has offset 0).
+The programs for A326253, the canonical program `A326253.P12016112695788045133` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326253 has offset 0).
 
 The definition of A326253 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3954,7 +3952,7 @@ The definition of A326253 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000522(n²)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A326253
@@ -4127,6 +4125,34 @@ end
 end A326254.P7172124820602418199
 
 /-!
+# A326255: MM-numbers of capturing multiset partitions.
+
+The programs for A326255, there is no canonical definition to state claims against.
+-/
+
+/-! ## A326255.P7755986614300371887
+
+`∪[A326256(n+1), A326260(n+1)]`
+-/
+
+namespace A326255.P7755986614300371887
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326256 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326260 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A326255.P7755986614300371887
+
+/-!
 # A326256: MM-numbers of nesting multiset partitions.
 
 The programs for A326256, there is no canonical definition to state claims against.
@@ -4197,6 +4223,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A326256.P12047438905245496633
+
+/-! ## A326256.P11337272985400194886
+
+`A326255(A044913(n+1))`
+-/
+
+namespace A326256.P11337272985400194886
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326255 (A044913 (n + 1)).toNat
+
+end
+
+end A326256.P11337272985400194886
 
 /-!
 # A326257: MM-numbers of weakly nesting multiset partitions.
@@ -5561,7 +5602,7 @@ end A326289.P5083206470650664184
 /-!
 # A326290: Number of non-crossing n-vertex graphs with loops.
 
-The programs for A326290, the canonical program `A326290.P15676469729340094560` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326290 has offset 0).
+The programs for A326290, the canonical program `A326290.P15676469729340094560` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326290 has offset 0).
 
 The definition of A326290 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5570,7 +5611,7 @@ The definition of A326290 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n*A054726(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A326290

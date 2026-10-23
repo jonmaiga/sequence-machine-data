@@ -1125,6 +1125,21 @@ end
 
 end A245610.P14653595646652678997
 
+/-! ## A245610.P11438974461253214551
+
+`A048673(A245609(A048673(n+1)))`
+-/
+
+namespace A245610.P11438974461253214551
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048673 (A245609 (A048673 (n + 1)).toNat).toNat
+
+end
+
+end A245610.P11438974461253214551
+
 /-!
 # A245611: Permutation of natural numbers: a(n) = A243071(A064216(n)).
 
@@ -3817,6 +3832,36 @@ def P18062437225036829480.Spec : Prop :=
 
 end A245639
 
+/-! ## A245639.P3266933465764419491
+
+`∩[A143827(n+1), A393213(n+1)]`
+-/
+
+namespace A245639.P3266933465764419491
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143827 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A393213 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A245639.P3266933465764419491
+
+namespace A245639
+
+/-- `∩[A143827(n+1), A393213(n+1)]` -/
+def P3266933465764419491.Spec : Prop :=
+  ∀ n, (P3266933465764419491.a n : ℤ) = A245639 (n + 1)
+
+end A245639
+
 /-! ## A245639.P9233053174071310146
 
 `p?[A057427(n)*A143827(A028310(n))]`
@@ -3892,32 +3937,6 @@ namespace A245639
 /-- `filter[A143827(n+2), A080339(#)]` -/
 def P7146141462194802796.Spec : Prop :=
   ∀ n, P7146141462194802796.a n = A245639 (n + 1)
-
-end A245639
-
-/-! ## A245639.P2393988086275967093
-
-`p?[A246425(A066049(n+1)-1)]`
--/
-
-namespace A245639.P2393988086275967093
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246425 (A066049 (n + 1) - 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A245639.P2393988086275967093
-
-namespace A245639
-
-/-- `p?[A246425(A066049(n+1)-1)]` -/
-def P2393988086275967093.Spec : Prop :=
-  ∀ n, P2393988086275967093.a n = A245639 (n + 1)
 
 end A245639
 

@@ -98,6 +98,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A351300: a(n) = n^5 * Product_{p|n, p prime} (1 + 1/p^5).
@@ -3496,6 +3497,50 @@ end
 
 end A351336.P15333554705412423986
 
+/-! ## A351336.P6037833848362045581
+
+`∩[A020155(n+1), A271116(n+1)]`
+-/
+
+namespace A351336.P6037833848362045581
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020155 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271116 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A351336.P6037833848362045581
+
+/-! ## A351336.P532565130445364358
+
+`∩[A020209(n+1), A271116(n+1)]`
+-/
+
+namespace A351336.P532565130445364358
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020209 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271116 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A351336.P532565130445364358
+
 /-! ## A351336.P13075877241461358399
 
 `∩[A263239(n+1), A271116(n+1)]`
@@ -3607,42 +3652,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A351336.P5204177624969840871
-
-/-! ## A351336.P252664051585583419
-
-`filter[A005935(n+1), A373136(#)]`
--/
-
-namespace A351336.P252664051585583419
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005935 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A373136 (f1 j).toNat = 1) n)
-
-end
-
-end A351336.P252664051585583419
-
-/-! ## A351336.P7096790902276063272
-
-`filter[A005935(n+1), A373155(#)]`
--/
-
-namespace A351336.P7096790902276063272
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005935 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A373155 (f1 j).toNat = 1) n)
-
-end
-
-end A351336.P7096790902276063272
 
 /-!
 # A351339: Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) is Sum_{j=0..n} k^j * j^(n-j).
@@ -9319,6 +9328,28 @@ end A351395
 
 The programs for A351396, there is no canonical definition to state claims against.
 -/
+
+/-! ## A351396.P2808429049995599415
+
+`∪[A350598(n+1), A397207(n+1)]`
+-/
+
+namespace A351396.P2808429049995599415
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350598 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A397207 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A351396.P2808429049995599415
 
 /-! ## A351396.P1164783105307525957
 

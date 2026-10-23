@@ -4173,6 +4173,21 @@ end
 
 end A093772.P13519524166706526756
 
+/-! ## A093772.P1226195385168850190
+
+`A339561(A087027(n+1))`
+-/
+
+namespace A093772.P1226195385168850190
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339561 (A087027 (n + 1)).toNat
+
+end
+
+end A093772.P1226195385168850190
+
 /-!
 # A093773: a(n) is the smallest integer at which the value of the "truncated Mertens function" (= A088004) equals the n-th prime number.
 

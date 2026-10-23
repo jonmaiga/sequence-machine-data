@@ -15,6 +15,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -3247,20 +3248,20 @@ end A322141.P8118351757834734372
 The programs for A322142, there is no canonical definition to state claims against.
 -/
 
-/-! ## A322142.P12872580258198689075
+/-! ## A322142.P15555050509714717597
 
-`2^(a(n-1)+a(n-2))` with `a(0)=0, a(1)=1`
+`floor(2^floor(sinh(n-1)))`
 -/
 
-namespace A322142.P12872580258198689075
+namespace A322142.P15555050509714717597
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
-  2 ^ (a (n - 1) + a (n - 2))
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(2 : ℚ) ^ (⌊Real.sinh ((n : ℤ) - 1 : ℝ)⌋ : ℤ)⌋
 
 end
 
-end A322142.P12872580258198689075
+end A322142.P15555050509714717597
 
 /-!
 # A322143: Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = Sum_{d|n, d==1 (mod 4)} d^k - Sum_{d|n, d==3 (mod 4)} d^k.
@@ -5065,27 +5066,20 @@ end
 
 end A322173.P13484391256362579631
 
-/-! ## A322173.P6940137115811731986
+/-! ## A322173.P8440038878262370605
 
-`A000040(comp[∑[A374255(3*n+2)]])`
+`A322864(A162950(n+2))`
 -/
 
-namespace A322173.P6940137115811731986
+namespace A322173.P8440038878262370605
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374255 (3 * n + 2)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A322864 (A162950 (n + 2)).toNat
 
 end
 
-end A322173.P6940137115811731986
+end A322173.P8440038878262370605
 
 /-!
 # A322174: Primes that are not base-6 deletable primes (written in base 10).
@@ -5110,6 +5104,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A322174.P4245613253943122005
+
+/-! ## A322174.P16613941419805377027
+
+`∩[A039590(n+1), A141639(n+1)]`
+-/
+
+namespace A322174.P16613941419805377027
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039590 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A322174.P16613941419805377027
 
 /-!
 # A322175: Determinant of the symmetric n X n matrix M defined by M(i,j) = mu(gcd(i,j)) for 1 <= i,j <= n where mu is the Moebius function.

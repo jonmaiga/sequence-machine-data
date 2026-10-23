@@ -6078,6 +6078,28 @@ end A225192.P10212937451283464594
 The programs for A225193, there is no canonical definition to state claims against.
 -/
 
+/-! ## A225193.P9640467724833212043
+
+`∩[A043638(n+1), A068653(n+1)]`
+-/
+
+namespace A225193.P9640467724833212043
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A043638 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068653 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225193.P9640467724833212043
+
 /-! ## A225193.P1771289313037468132
 
 `∩[A068653(n+1), A272022(n+1)]`
@@ -6099,6 +6121,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A225193.P1771289313037468132
+
+/-! ## A225193.P8498635375649953064
+
+`∩[A076055(n+1), A272022(n+1)]`
+-/
+
+namespace A225193.P8498635375649953064
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076055 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272022 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225193.P8498635375649953064
 
 /-! ## A225193.P1340603646336897292
 
@@ -6135,24 +6179,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225193.P8044011794810438611
-
-/-! ## A225193.P13420601816175487992
-
-`filter[A272022(n+1), A174898(#)]`
--/
-
-namespace A225193.P13420601816175487992
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272022 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A174898 (f1 j).toNat = 1) n)
-
-end
-
-end A225193.P13420601816175487992
 
 /-!
 # A225195: Primes p such that (p+nextprime(p))/2 is a perfect square.

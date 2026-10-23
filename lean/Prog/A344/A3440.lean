@@ -1,6 +1,7 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
@@ -43,7 +44,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -2183,16 +2183,16 @@ end
 
 end A344022.P13686698562930910248
 
-/-! ## A344022.P7496155342601723413
+/-! ## A344022.P1136304887147961386
 
-`∪[A001017(n), A166535(n+1)]`
+`∪[A000075(n), A166535(n+1)]`
 -/
 
-namespace A344022.P7496155342601723413
+namespace A344022.P1136304887147961386
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001017 n
+  A000075 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A166535 (n + 1)
@@ -2203,18 +2203,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A344022.P7496155342601723413
+end A344022.P1136304887147961386
 
-/-! ## A344022.P10985100291021828989
+/-! ## A344022.P18105934223416506805
 
-`∪[A001095(n), A166535(n+1)]`
+`∪[A000107(n), A166535(n+1)]`
 -/
 
-namespace A344022.P10985100291021828989
+namespace A344022.P18105934223416506805
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001095 n
+  A000107 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A166535 (n + 1)
@@ -2225,18 +2225,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A344022.P10985100291021828989
+end A344022.P18105934223416506805
 
-/-! ## A344022.P6473158866521785643
+/-! ## A344022.P13732962155578524363
 
-`∪[A001096(n), A166535(n+1)]`
+`∪[A000129(n), A166535(n+1)]`
 -/
 
-namespace A344022.P6473158866521785643
+namespace A344022.P13732962155578524363
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001096 n
+  A000129 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A166535 (n + 1)
@@ -2247,18 +2247,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A344022.P6473158866521785643
+end A344022.P13732962155578524363
 
-/-! ## A344022.P1071325570292119129
+/-! ## A344022.P13658114559789213766
 
-`∪[A001741(n), A166535(n+1)]`
+`∪[A000245(n), A166535(n+1)]`
 -/
 
-namespace A344022.P1071325570292119129
+namespace A344022.P13658114559789213766
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001741 n
+  A000245 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A166535 (n + 1)
@@ -2269,7 +2269,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A344022.P1071325570292119129
+end A344022.P13658114559789213766
 
 /-!
 # A344023: Numbers of the form p_1^1 + p_2^2 + ... + p_k^k where p_1 < p_2 < ... < p_k are distinct primes.
@@ -3489,6 +3489,72 @@ end
 
 end A344030.P1343204283438652167
 
+/-! ## A344030.P8028419675209732555
+
+`∩[A066311(n+1), A209799(n+1)]`
+-/
+
+namespace A344030.P8028419675209732555
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066311 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209799 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344030.P8028419675209732555
+
+/-! ## A344030.P3540118183915706267
+
+`∩[A069899(n+1), A209799(n+1)]`
+-/
+
+namespace A344030.P3540118183915706267
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069899 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209799 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344030.P3540118183915706267
+
+/-! ## A344030.P7544833424827420690
+
+`∩[A073491(n+1), A209799(n+1)]`
+-/
+
+namespace A344030.P7544833424827420690
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073491 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A209799 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344030.P7544833424827420690
+
 /-! ## A344030.P390956968095475286
 
 `∩[A081061(n+1), A209799(n+1)]`
@@ -3510,50 +3576,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A344030.P390956968095475286
-
-/-! ## A344030.P11165635318983840148
-
-`∩[A200878(n+1), A209799(n+1)]`
--/
-
-namespace A344030.P11165635318983840148
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A200878 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209799 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A344030.P11165635318983840148
-
-/-! ## A344030.P10183052693560514870
-
-`∩[A209799(n+1), A361181(n+1)]`
--/
-
-namespace A344030.P10183052693560514870
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209799 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A361181 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A344030.P10183052693560514870
 
 /-!
 # A344031: Irregular triangle read by rows: T(n,k) = [x^k]p_n(x), where (p_n(x)/x^(3n)) * exp(-1/x^2) is the n-th derivative of exp(-1/x^2), n >= 1, 0 <= k <= 2*n-2.
@@ -6570,6 +6592,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A344084.P11410181693608079002
+
+/-! ## A344084.P11846962894191646504
+
+`A048793(A152884(A011782(n))+n)`
+-/
+
+namespace A344084.P11846962894191646504
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048793 (A152884 (A011782 n).toNat + (n : ℤ)).toNat
+
+end
+
+end A344084.P11846962894191646504
 
 /-!
 # A344085: Triangle of squarefree numbers first grouped by greatest prime factor, then sorted by omega, then in increasing order, read by rows.

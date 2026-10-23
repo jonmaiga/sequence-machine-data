@@ -50,7 +50,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -3328,7 +3327,7 @@ end A216636.P14097511630345630605
 /-!
 # A216637: Kolakoski sequence by 3-words.
 
-The programs for A216637, the canonical program `A216637.P16074414252254142737` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216637 has offset 1).
+The programs for A216637, the canonical program `A216637.P16074414252254142737` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216637 has offset 1).
 
 The definition of A216637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3337,7 +3336,7 @@ The definition of A216637 is `conjectured`: the Lean definition is a formula tha
 
 `A329355(3*(n+1))%8`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A216637
@@ -7210,7 +7209,7 @@ end A216675.P5555722664302407685
 /-!
 # A216676: Digital roots of squares of Fibonacci numbers.
 
-The programs for A216676, the canonical program `A216676.P8042148901367579546` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216676 has offset 1).
+The programs for A216676, the canonical program `A216676.P8042148901367579546` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216676 has offset 1).
 
 The definition of A216676 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7219,7 +7218,7 @@ The definition of A216676 is `conjectured`: the Lean definition is a formula tha
 
 `dr(A388539(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A216676
@@ -7560,6 +7559,28 @@ end
 
 end A216680.P902608126026545637
 
+/-! ## A216680.P12106130717811693466
+
+`∪[A006361(n), A216679(n+1)]`
+-/
+
+namespace A216680.P12106130717811693466
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006361 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216679 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216680.P12106130717811693466
+
 /-! ## A216680.P2941153029580674777
 
 `∪[A216679(n+1), A006857(n)]`
@@ -7603,6 +7624,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A216680.P8156861407266486049
+
+/-! ## A216680.P13512990692054462777
+
+`∪[A007245(n), A216679(n+1)]`
+-/
+
+namespace A216680.P13512990692054462777
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007245 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216679 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216680.P13512990692054462777
 
 /-! ## A216680.P14608046795225975441
 
@@ -7713,50 +7756,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A216680.P15653673983112651280
-
-/-! ## A216680.P5865948766060814571
-
-`∪[A216679(n+1), A008397(n)]`
--/
-
-namespace A216680.P5865948766060814571
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216679 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008397 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216680.P5865948766060814571
-
-/-! ## A216680.P3755395029491302605
-
-`∪[A216679(n+1), A008402(n)]`
--/
-
-namespace A216680.P3755395029491302605
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216679 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008402 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A216680.P3755395029491302605
 
 /-!
 # A216681: G.f.: A(x) = 1 + x*A(x)^3 / ( A(I*x)*A(-I*x) ), where I^2 = -1.
@@ -8474,6 +8473,28 @@ end
 
 end A216690.P14060559296842205466
 
+/-! ## A216690.P4855379861817233239
+
+`∩[A196736(n+1), A216771(n+1)]`
+-/
+
+namespace A216690.P4855379861817233239
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196736 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216771 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A216690.P4855379861817233239
+
 /-!
 # A216691: Number of horizontal, vertical, diagonal or knight-move neighbor colorings of an nX2 array with new integer colors introduced in row major order.
 
@@ -9084,7 +9105,7 @@ end A216698.P5669729387466375137
 /-!
 # A216699: Digital root of cubes of Fibonacci numbers.
 
-The programs for A216699, the canonical program `A216699.P2293991450571384298` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216699 has offset 0).
+The programs for A216699, the canonical program `A216699.P2293991450571384298` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216699 has offset 0).
 
 The definition of A216699 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9093,7 +9114,7 @@ The definition of A216699 is `conjectured`: the Lean definition is a formula tha
 
 `dr(A004090(n)²*A004090(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A216699

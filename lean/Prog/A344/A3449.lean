@@ -91,6 +91,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A344901: Triangle read by rows: T(n,k) is the number of permutations of length n that have k same elements at the same positions with its inverse permutation for 0 <= k <= n.
@@ -608,26 +609,78 @@ def P6990516723635157836.Spec : Prop :=
 
 end A344907
 
-/-! ## A344907.P11256940114632187116
+/-! ## A344907.P14151506455370361149
 
-`A344899(2*n+1)`
+`A344899(Δ[n²])`
 -/
 
-namespace A344907.P11256940114632187116
+namespace A344907.P14151506455370361149
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344899 (2 * n + 1)
+  A344899 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
 
 end
 
-end A344907.P11256940114632187116
+end A344907.P14151506455370361149
 
 namespace A344907
 
-/-- `A344899(2*n+1)` -/
-def P11256940114632187116.Spec : Prop :=
-  ∀ n, P11256940114632187116.a n = A344907 (n + 1)
+/-- `A344899(Δ[n²])` -/
+def P14151506455370361149.Spec : Prop :=
+  ∀ n, P14151506455370361149.a n = A344907 (n + 1)
+
+end A344907
+
+/-! ## A344907.P13716865751363782119
+
+`lcm(3, A344899(2*n+1))`
+-/
+
+namespace A344907.P13716865751363782119
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm 3 (A344899 (2 * n + 1))
+
+end
+
+end A344907.P13716865751363782119
+
+namespace A344907
+
+/-- `lcm(3, A344899(2*n+1))` -/
+def P13716865751363782119.Spec : Prop :=
+  ∀ n, (P13716865751363782119.a n : ℤ) = A344907 (n + 1)
+
+end A344907
+
+/-! ## A344907.P2389782650498139401
+
+`filter[A344899(2*n+1), A117567(#)]`
+-/
+
+namespace A344907.P2389782650498139401
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344899 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A117567 (f1 j).toNat = 1) n)
+
+end
+
+end A344907.P2389782650498139401
+
+namespace A344907
+
+/-- `filter[A344899(2*n+1), A117567(#)]` -/
+def P2389782650498139401.Spec : Prop :=
+  ∀ n, P2389782650498139401.a n = A344907 (n + 1)
 
 end A344907
 
@@ -2251,6 +2304,34 @@ end
 end A344921.P458265916276201190
 
 /-!
+# A344922: Numbers that are the sum of four fourth powers in seven or more ways.
+
+The programs for A344922, there is no canonical definition to state claims against.
+-/
+
+/-! ## A344922.P2955676309213188270
+
+`∪[A344923(n+1), A344924(n+1)]`
+-/
+
+namespace A344922.P2955676309213188270
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344923 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344924 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344922.P2955676309213188270
+
+/-!
 # A344923: Numbers that are the sum of four fourth powers in exactly seven ways.
 
 The programs for A344923, there is no canonical definition to state claims against.
@@ -2303,6 +2384,28 @@ end A344923.P1337888289787519720
 
 The programs for A344924, there is no canonical definition to state claims against.
 -/
+
+/-! ## A344924.P14303061100980850660
+
+`∪[A344925(n+1), A344926(n+1)]`
+-/
+
+namespace A344924.P14303061100980850660
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344925 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344926 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344924.P14303061100980850660
 
 /-! ## A344924.P8842750089707253729
 
@@ -2366,21 +2469,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A344924.P7825869504410336647
-
-/-! ## A344924.P4171543684157944518
-
-`A316829(A130227(n+1))*A344925(n+1)`
--/
-
-namespace A344924.P4171543684157944518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316829 (A130227 (n + 1)).toNat * A344925 (n + 1)
-
-end
-
-end A344924.P4171543684157944518
 
 /-!
 # A344925: Numbers that are the sum of four fourth powers in exactly eight ways.
@@ -3926,7 +4014,7 @@ end A344947.P15545165560551514350
 /-!
 # A344948: Primes whose position among the powers of primes (A000961) is also prime.
 
-The programs for A344948, the canonical program `A344948.P15637096215189460641` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344948 has offset 1).
+The programs for A344948, the canonical program `A344948.P15637096215189460641` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344948 has offset 1).
 
 The definition of A344948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3935,7 +4023,7 @@ The definition of A344948 is `conjectured`: the Lean definition is a formula tha
 
 `record[A025473(A000040(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A344948
@@ -7261,6 +7349,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A344974.P5706610630375113080
+
+/-! ## A344974.P12843294757263128141
+
+`∪[A000961(n+1), A344975(n+1)]`
+-/
+
+namespace A344974.P12843294757263128141
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000961 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344975 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344974.P12843294757263128141
+
+/-! ## A344974.P17693037119674340766
+
+`∪[A225657(n+1), A344975(n+1)]`
+-/
+
+namespace A344974.P17693037119674340766
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225657 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344975 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344974.P17693037119674340766
 
 /-!
 # A344975: Numbers k such that A011772(k) divides A344875(k), but k is not a power of prime (in A000961).

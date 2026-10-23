@@ -91,6 +91,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -728,6 +729,29 @@ def P635316068805253114.Spec : Prop :=
 
 end A269304
 
+/-! ## A269304.P11046338743720206579
+
+`A346704(A342768(n+1))+n+2`
+-/
+
+namespace A269304.P11046338743720206579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346704 (A342768 (n + 1)).toNat + (n + 2 : ℤ)
+
+end
+
+end A269304.P11046338743720206579
+
+namespace A269304
+
+/-- `A346704(A342768(n+1))+n+2` -/
+def P11046338743720206579.Spec : Prop :=
+  ∀ n, P11046338743720206579.a n = A269304 (n + 1)
+
+end A269304
+
 /-!
 # A269305: 2^n mod 27 successively displaced by 0, 3, 6, 9, etc.
 
@@ -1050,6 +1074,36 @@ end
 
 end A269319.P2167147492434715272
 
+/-! ## A269319.P16762548756348609637
+
+`A269318(n+1)%A372708(n)`
+-/
+
+namespace A269319.P16762548756348609637
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A269318 (n + 1)) (A372708 n)
+
+end
+
+end A269319.P16762548756348609637
+
+/-! ## A269319.P3903492090752583999
+
+`A269318(A328617(n+1))`
+-/
+
+namespace A269319.P3903492090752583999
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A269318 (A328617 (n + 1)).toNat
+
+end
+
+end A269319.P3903492090752583999
+
 /-!
 # A269326: Let k be a number which is simultaneously Sierpiński and Riesel, and let P be a set of primes which cover every number of the form k*2^m + 1 and of the form k*2^m - 1 with m >= 1. Sequence shows elements of the set P which has the property that the product of its primes is as small as it is possible.
 
@@ -1111,41 +1165,49 @@ end
 
 end A269326.P363333987312278822
 
-/-! ## A269326.P17161091701366164842
+/-! ## A269326.P17844790112357374048
 
-`p?[A291360(n+1)*A333844(n+1)]`
+`∩[A038616(n+1), A291360(n+1)]`
 -/
 
-namespace A269326.P17161091701366164842
+namespace A269326.P17844790112357374048
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291360 (n + 1) * A333844 (n + 1)
+  A038616 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291360 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A269326.P17161091701366164842
+end A269326.P17844790112357374048
 
-/-! ## A269326.P18020766862116020736
+/-! ## A269326.P2133301303307156815
 
-`p?[or(A046660(n+1), A291360(n+1))]`
+`∩[A052421(n+1), A291360(n+1)]`
 -/
 
-namespace A269326.P18020766862116020736
+namespace A269326.P2133301303307156815
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A046660 (n + 1)) (A291360 (n + 1))
+  A052421 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291360 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A269326.P18020766862116020736
+end A269326.P2133301303307156815
 
 /-!
 # A269327: a(n) = 7^prime(n).
@@ -2446,6 +2508,32 @@ namespace A269342
 /-- `A199833(n+1)-A100157(n+1)` -/
 def P16329507177073190445.Spec : Prop :=
   ∀ n, P16329507177073190445.a n = A269342 n
+
+end A269342
+
+/-! ## A269342.P38101408848799777
+
+`∑[A085250(n+1)-1]`
+-/
+
+namespace A269342.P38101408848799777
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085250 (n + 1) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A269342.P38101408848799777
+
+namespace A269342
+
+/-- `∑[A085250(n+1)-1]` -/
+def P38101408848799777.Spec : Prop :=
+  ∀ n, P38101408848799777.a n = A269342 n
 
 end A269342
 

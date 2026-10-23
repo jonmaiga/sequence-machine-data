@@ -24,6 +24,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
@@ -7409,7 +7410,7 @@ end A304977.P10682505168723508389
 /-!
 # A304978: Numbers that can be expressed in more than one way as 6xy + x + y with x >= y > 0.
 
-The programs for A304978, the canonical program `A304978.P10629053428131485593` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304978 has offset 1).
+The programs for A304978, the canonical program `A304978.P10629053428131485593` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304978 has offset 1).
 
 The definition of A304978 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 850 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7418,7 +7419,7 @@ The definition of A304978 is `conjectured`: the Lean definition is a formula tha
 
 `lt[4, A359309(n+5)]+4`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A304978
@@ -9096,6 +9097,32 @@ namespace A304993
 /-- `A255211(n)+∑[n]` -/
 def P2950711119288626454.Spec : Prop :=
   ∀ n, P2950711119288626454.a n = A304993 n
+
+end A304993
+
+/-! ## A304993.P15125894281025449455
+
+`∑[A186029(n)-n]`
+-/
+
+namespace A304993.P15125894281025449455
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186029 n - (n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A304993.P15125894281025449455
+
+namespace A304993
+
+/-- `∑[A186029(n)-n]` -/
+def P15125894281025449455.Spec : Prop :=
+  ∀ n, P15125894281025449455.a n = A304993 n
 
 end A304993
 

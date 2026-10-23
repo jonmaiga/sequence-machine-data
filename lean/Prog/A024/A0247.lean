@@ -11653,6 +11653,24 @@ end
 
 end A024768.P8178624460620798310
 
+/-! ## A024768.P12398253647861380159
+
+`filter[A173105(n+1), A361897(#)]`
+-/
+
+namespace A024768.P12398253647861380159
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173105 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A361897 (f1 j).toNat = 1) n)
+
+end
+
+end A024768.P12398253647861380159
+
 /-!
 # A024769: Every prefix prime in base 9 (written in base 9).
 
@@ -12452,6 +12470,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A024776.P4571931105326675020
+
+/-! ## A024776.P8877056511383039604
+
+`∩[A024768(n+1), A112055(n+1)]`
+-/
+
+namespace A024776.P8877056511383039604
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024768 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112055 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A024776.P8877056511383039604
 
 /-!
 # A024777: Every prefix and suffix prime in base 9 (written in base 9).
@@ -14453,6 +14493,28 @@ end A024795.P16477702886479948651
 
 The programs for A024796, there is no canonical definition to state claims against.
 -/
+
+/-! ## A024796.P10547547716364329499
+
+`∪[A025322(n+1), A025331(n+1)]`
+-/
+
+namespace A024796.P10547547716364329499
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025322 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025331 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A024796.P10547547716364329499
 
 /-! ## A024796.P2824362534673191723
 

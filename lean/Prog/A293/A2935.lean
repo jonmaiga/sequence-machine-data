@@ -79,6 +79,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -2020,6 +2021,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A293515.P7520298361535447415
+
+/-! ## A293515.P15560822175209238947
+
+`A082429(A046643(n+1))`
+-/
+
+namespace A293515.P15560822175209238947
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082429 (A046643 (n + 1)).toNat
+
+end
+
+end A293515.P15560822175209238947
 
 /-!
 # A293516: a(n) = phi(n) - 2*phi(phi(n)), where phi = Euler totient function, A000010.

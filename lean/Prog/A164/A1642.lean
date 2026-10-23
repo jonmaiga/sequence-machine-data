@@ -359,8 +359,29 @@ end A164202.P14507106244093972211
 /-!
 # A164203: Number of binary strings of length n with equal numbers of 00001 and 10000 substrings.
 
-The programs for A164203, there is no canonical definition to state claims against.
+The programs for A164203, the canonical program `A164203.P11288245751642058368` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164203 has offset 0).
+
+The definition of A164203 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A164203.P11288245751642058368
+
+`ogf((-1+2x^5+2x^6+2x^7+2x^8)/(-1+2x))`
+
+The canonical program, it is in `Seq.B000.C023`.
+-/
+
+namespace A164203
+
+/-- `ogf((-1+2x^5+2x^6+2x^7+2x^8)/(-1+2x))` -/
+def P11288245751642058368.Spec : Prop :=
+  ∀ n, P11288245751642058368.a n = A164203 n
+
+theorem P11288245751642058368.correct : P11288245751642058368.Spec := by
+  intro n
+  simp only [A164203]
+
+end A164203
 
 /-! ## A164203.P15228760968355855743
 
@@ -377,6 +398,14 @@ end
 
 end A164203.P15228760968355855743
 
+namespace A164203
+
+/-- `2*(a(n-1)-A010052(A146205(n+1)))` -/
+def P15228760968355855743.Spec : Prop :=
+  ∀ n, P15228760968355855743.a n = A164203 n
+
+end A164203
+
 /-! ## A164203.P471858528086614476
 
 `2*(a(n-1)-A120936(A056627(n+1)))` with `a(0)=1`
@@ -391,6 +420,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A164203.P471858528086614476
+
+namespace A164203
+
+/-- `2*(a(n-1)-A120936(A056627(n+1)))` -/
+def P471858528086614476.Spec : Prop :=
+  ∀ n, P471858528086614476.a n = A164203 n
+
+end A164203
 
 /-! ## A164203.P5447044324898534130
 
@@ -407,6 +444,14 @@ end
 
 end A164203.P5447044324898534130
 
+namespace A164203
+
+/-- `2*(a(n-1)-A086010(A307853(a(n-1))))` -/
+def P5447044324898534130.Spec : Prop :=
+  ∀ n, P5447044324898534130.a n = A164203 n
+
+end A164203
+
 /-! ## A164203.P12308931185433051980
 
 `2*(a(n-1)-A204549(A017402(n)))` with `a(0)=1`
@@ -422,20 +467,13 @@ end
 
 end A164203.P12308931185433051980
 
-/-! ## A164203.P16289375509288194228
+namespace A164203
 
-`A257839(A147596(n+2))`
--/
+/-- `2*(a(n-1)-A204549(A017402(n)))` -/
+def P12308931185433051980.Spec : Prop :=
+  ∀ n, P12308931185433051980.a n = A164203 n
 
-namespace A164203.P16289375509288194228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257839 (A147596 (n + 2)).toNat
-
-end
-
-end A164203.P16289375509288194228
+end A164203
 
 /-!
 # A164204: Number of binary strings of length n with equal numbers of 00001 and 10001 substrings.
@@ -8594,6 +8632,115 @@ def P15433451686771530183.Spec : Prop :=
 
 end A164285
 
+/-! ## A164285.P17528163271230566554
+
+`abs(2*a(n-1)-3)` with `a(0)=10`
+-/
+
+namespace A164285.P17528163271230566554
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [10] fun n a =>
+  |2 * a (n - 1) - 3|
+
+end
+
+end A164285.P17528163271230566554
+
+namespace A164285
+
+/-- `abs(2*a(n-1)-3)` -/
+def P17528163271230566554.Spec : Prop :=
+  ∀ n, P17528163271230566554.a n = A164285 n
+
+end A164285
+
+/-! ## A164285.P1971383320513684425
+
+`ceil(2*(a(n-1)-ϕ))` with `a(0)=10`
+-/
+
+namespace A164285.P1971383320513684425
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [10] fun n a =>
+  ⌈2 * ((a (n - 1) : ℝ) - Real.goldenRatio)⌉
+
+end
+
+end A164285.P1971383320513684425
+
+namespace A164285
+
+/-- `ceil(2*(a(n-1)-ϕ))` -/
+def P1971383320513684425.Spec : Prop :=
+  ∀ n, P1971383320513684425.a n = A164285 n
+
+end A164285
+
+/-! ## A164285.P5785066511750898806
+
+`round(2*(a(n-1)-ϕ))` with `a(0)=10`
+-/
+
+namespace A164285.P5785066511750898806
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [10] fun n a =>
+  SequenceMachineLib.roundAway (2 * ((a (n - 1) : ℝ) - Real.goldenRatio))
+
+end
+
+end A164285.P5785066511750898806
+
+namespace A164285
+
+/-- `round(2*(a(n-1)-ϕ))` -/
+def P5785066511750898806.Spec : Prop :=
+  ∀ n, P5785066511750898806.a n = A164285 n
+
+end A164285
+
+/-! ## A164285.P14267565039471666336
+
+`2*(a(n-1)-3/2)` with `a(0)=10`
+-/
+
+namespace A164285.P14267565039471666336
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [10] fun n a =>
+  2 * (a (n - 1) - (3 : ℚ) / 2)
+
+end
+
+end A164285.P14267565039471666336
+
+namespace A164285
+
+/-- `2*(a(n-1)-3/2)` -/
+def P14267565039471666336.Spec : Prop :=
+  ∀ n, P14267565039471666336.a n = (A164285 n : ℚ)
+
+theorem P14267565039471666336.correct : P14267565039471666336.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A164285, Nat.add_sub_cancel, A164285.P14267565039471666336.a, A164285.P3743901133409701877.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A164285, Nat.add_sub_cancel, A164285.P14267565039471666336.a, A164285.P3743901133409701877.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A164285
+
 /-! ## A164285.P8087431391857998342
 
 `∑[a(n-1)+a(n-1)]` with `a(0)=10, a(1)=7`
@@ -9218,32 +9365,6 @@ namespace A164289
 /-- `p?[A083254(p?[A014614(n+1)+1])]` -/
 def P3108174061829716302.Spec : Prop :=
   ∀ n, P3108174061829716302.a n = A164289 (n + 1)
-
-end A164289
-
-/-! ## A164289.P11789204685864509361
-
-`p?[A083254(A151800(A014614(n+1)))]`
--/
-
-namespace A164289.P11789204685864509361
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083254 (A151800 (A014614 (n + 1)).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A164289.P11789204685864509361
-
-namespace A164289
-
-/-- `p?[A083254(A151800(A014614(n+1)))]` -/
-def P11789204685864509361.Spec : Prop :=
-  ∀ n, P11789204685864509361.a n = A164289 (n + 1)
 
 end A164289
 

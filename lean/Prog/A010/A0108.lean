@@ -3226,6 +3226,29 @@ def P8538981421202532077.Spec : Prop :=
 
 end A010844
 
+/-! ## A010844.P7524284873574818649
+
+`2*A067273(n)+1`
+-/
+
+namespace A010844.P7524284873574818649
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A067273 n + 1
+
+end
+
+end A010844.P7524284873574818649
+
+namespace A010844
+
+/-- `2*A067273(n)+1` -/
+def P7524284873574818649.Spec : Prop :=
+  ∀ n, P7524284873574818649.a n = A010844 n
+
+end A010844
+
 /-!
 # A010845: a(n) = 3*n*a(n-1) + 1, a(0) = 1.
 
@@ -4369,7 +4392,7 @@ end A010848
 /-!
 # A010849: Let S(x,y) = number of lattice paths from (0,0) to (x,y) that use the step set { (0,1), (1,0), (2,0), (3,0), ....} and never pass below y = x. Sequence gives S(n-3,n).
 
-The programs for A010849, the canonical program `A010849.P8260382940907642524` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010849 has offset 0).
+The programs for A010849, the canonical program `A010849.P8260382940907642524` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010849 has offset 0).
 
 The definition of A010849 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4404,7 +4427,7 @@ end A010849
 
 `Δ[Δ[A010683(n)/4]]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A010849
@@ -4805,23 +4828,27 @@ end A010855
 /-!
 # A010856: Constant sequence: a(n) = 17.
 
-The programs for A010856, the canonical program `A010856.P14417327040893538002` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010856 has offset 0).
+The programs for A010856, the canonical program `A010856.P726888886131703003` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010856 has offset 0).
 
 The definition of A010856 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A010856.P14417327040893538002
+/-! ## A010856.P726888886131703003
 
-`34/2`
+`17`
 
 The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A010856
 
-/-- `34/2` -/
-def P14417327040893538002.Spec : Prop :=
-  ∀ n, P14417327040893538002.a n = (A010856 n : ℚ)
+/-- `17` -/
+def P726888886131703003.Spec : Prop :=
+  ∀ n, (P726888886131703003.a n : ℤ) = A010856 n
+
+theorem P726888886131703003.correct : P726888886131703003.Spec := by
+  intro n
+  simp only [A010856]
 
 end A010856
 

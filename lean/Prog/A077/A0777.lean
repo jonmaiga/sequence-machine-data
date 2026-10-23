@@ -2104,6 +2104,24 @@ end
 
 end A077722.P12734838147148000256
 
+/-! ## A077722.P609008158479396530
+
+`p?[A235465(n+1)]`
+-/
+
+namespace A077722.P609008158479396530
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235465 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A077722.P609008158479396530
+
 /-!
 # A077723: Primes which can be expressed as sum of distinct powers of 9.
 
@@ -2150,30 +2168,23 @@ end
 
 end A077723.P7234961666886442277
 
-/-! ## A077723.P5531800009607358609
+/-! ## A077723.P2666863802440319291
 
-`∪[p?[A037414(n+1)], A235466(n+3)]`
+`p?[A037414(n+1)]`
 -/
 
-namespace A077723.P5531800009607358609
+namespace A077723.P2666863802440319291
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A037414 (n + 1)
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235466 (n + 3)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f3 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
 
 end
 
-end A077723.P5531800009607358609
+end A077723.P2666863802440319291
 
 /-!
 # A077725: a(n) = smallest square > 1 which can be expressed as a sum of distinct powers of n.
@@ -2313,6 +2324,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A077726.P16187531541545925150
+
+/-! ## A077726.P15940313718141929273
+
+`∩[A088450(n+1), A302768(n+1)]`
+-/
+
+namespace A077726.P15940313718141929273
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088450 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302768 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A077726.P15940313718141929273
+
+/-! ## A077726.P12493867649182951795
+
+`∩[A052018(n+1), A362981(n+1)]`
+-/
+
+namespace A077726.P12493867649182951795
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052018 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362981 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A077726.P12493867649182951795
 
 /-!
 # A077727: Smallest multiple of n beginning with n and having a digit sum n, or 0 if no such number exists.

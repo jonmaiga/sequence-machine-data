@@ -450,6 +450,29 @@ def P12696295580416323278.Spec : Prop :=
 
 end A189102
 
+/-! ## A189102.P13034709722916112387
+
+`A342413(A118381(n+1))`
+-/
+
+namespace A189102.P13034709722916112387
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342413 (A118381 (n + 1)).toNat
+
+end
+
+end A189102.P13034709722916112387
+
+namespace A189102
+
+/-- `A342413(A118381(n+1))` -/
+def P13034709722916112387.Spec : Prop :=
+  ∀ n, P13034709722916112387.a n = A189102 (n + 1)
+
+end A189102
+
 /-!
 # A189103: Least common multiple of n! and its arithmetic derivative.
 
@@ -7630,6 +7653,29 @@ def P9403461465680936043.Spec : Prop :=
 
 end A189162
 
+/-! ## A189162.P1063676091822288259
+
+`A189390(n)+A000079(n)`
+-/
+
+namespace A189162.P1063676091822288259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189390 n + A000079 n
+
+end
+
+end A189162.P1063676091822288259
+
+namespace A189162
+
+/-- `A189390(n)+A000079(n)` -/
+def P1063676091822288259.Spec : Prop :=
+  ∀ n, P1063676091822288259.a n = A189162 (n + 1)
+
+end A189162
+
 /-! ## A189162.P14168326655366896038
 
 `A206603(n)+A001792(n)`
@@ -8021,29 +8067,6 @@ namespace A189162
 /-- `A001792(n+1)-(A189391(n)+A000079(n+1))` -/
 def P11445177164783561662.Spec : Prop :=
   ∀ n, P11445177164783561662.a n = A189162 (n + 1)
-
-end A189162
-
-/-! ## A189162.P2930656234431725101
-
-`A099326(n+1)-(A189391(n)+A099325(n+1))`
--/
-
-namespace A189162.P2930656234431725101
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099326 (n + 1) - (A189391 n + A099325 (n + 1))
-
-end
-
-end A189162.P2930656234431725101
-
-namespace A189162
-
-/-- `A099326(n+1)-(A189391(n)+A099325(n+1))` -/
-def P2930656234431725101.Spec : Prop :=
-  ∀ n, P2930656234431725101.a n = A189162 (n + 1)
 
 end A189162
 

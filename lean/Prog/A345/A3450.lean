@@ -77,7 +77,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -9984,6 +9983,28 @@ end A345082
 The programs for A345083, there is no canonical definition to state claims against.
 -/
 
+/-! ## A345083.P322188281883315491
+
+`∪[A345084(n+1), A345086(n+1)]`
+-/
+
+namespace A345083.P322188281883315491
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345084 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345086 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345083.P322188281883315491
+
 /-! ## A345083.P12848989284263683882
 
 `A345084(record[A307089(n)])`
@@ -10001,21 +10022,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345083.P12848989284263683882
-
-/-! ## A345083.P12719511365571657379
-
-`A345084(A292125(n+1))`
--/
-
-namespace A345083.P12719511365571657379
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345084 (A292125 (n + 1)).toNat
-
-end
-
-end A345083.P12719511365571657379
 
 /-!
 # A345084: Numbers that are the sum of three third powers in exactly six ways.
@@ -10143,6 +10149,28 @@ end A345085.P5833851124129444853
 The programs for A345086, there is no canonical definition to state claims against.
 -/
 
+/-! ## A345086.P15979546568858628046
+
+`∪[A345085(n+1), A345087(n+1)]`
+-/
+
+namespace A345086.P15979546568858628046
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345085 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345087 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345086.P15979546568858628046
+
 /-! ## A345086.P753081997760850039
 
 `∪[A345085(n+1), A345088(n+1)]%A344862(n+1)`
@@ -10193,12 +10221,12 @@ end A345086.P12456714617666078410
 The programs for A345087, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345087.P327865979263866851
+/-! ## A345087.P7883985787895014389
 
-`∪[A345088(n+1), A345119(n+1)]%A345119(n+1)`
+`∪[A345088(n+1), A345119(n+1)]`
 -/
 
-namespace A345087.P327865979263866851
+namespace A345087.P7883985787895014389
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -10208,12 +10236,12 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A345119 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A345119 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A345087.P327865979263866851
+end A345087.P7883985787895014389
 
 /-! ## A345087.P15237367671134052682
 

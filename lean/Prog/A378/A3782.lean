@@ -6652,26 +6652,27 @@ end
 
 end A378267.P17668591200978127193
 
-/-! ## A378267.P6484544171004783486
+/-! ## A378267.P2239941801993279435
 
-`A325973(∑[∑[A058799(n)]])`
+`∩[A246454(n+1), A279894(n+1)]`
 -/
 
-namespace A378267.P6484544171004783486
+namespace A378267.P2239941801993279435
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058799 n
-
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
+  A246454 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325973 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279894 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A378267.P6484544171004783486
+end A378267.P2239941801993279435
 
 /-!
 # A378271: Number of partitions of 1 into {1/1^3, 1/2^3, 1/3^3, ..., 1/n^3}.

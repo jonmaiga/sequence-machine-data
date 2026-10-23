@@ -66,6 +66,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -7554,6 +7555,29 @@ namespace A222465
 /-- `xor(4, n*8*n+2)/2` -/
 def P15067770733837716041.Spec : Prop :=
   ∀ n, P15067770733837716041.a n = (A222465 n : ℚ)
+
+end A222465
+
+/-! ## A222465.P68793098759613506
+
+`ceil((2*n-acot(-(2*n)))²)`
+-/
+
+namespace A222465.P68793098759613506
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((2 * n : ℝ) - SequenceMachineLib.acot (-(2 * n : ℤ) : ℝ)) ^ 2⌉
+
+end
+
+end A222465.P68793098759613506
+
+namespace A222465
+
+/-- `ceil((2*n-acot(-(2*n)))²)` -/
+def P68793098759613506.Spec : Prop :=
+  ∀ n, P68793098759613506.a n = A222465 n
 
 end A222465
 

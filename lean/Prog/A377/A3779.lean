@@ -43,7 +43,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C002
@@ -81,7 +80,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A377902: First differences of A377898.
@@ -756,6 +754,25 @@ end
 
 end A377912.P193216754020224939
 
+/-! ## A377912.P1443448473527901042
+
+`comp[A347298(n+1)]`
+-/
+
+namespace A377912.P1443448473527901042
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347298 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A377912.P1443448473527901042
+
 /-! ## A377912.P4584415834846261420
 
 `lt[0, char[A342042(n+1)]]`
@@ -830,27 +847,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A377912.P17900665453533938777
-
-/-! ## A377912.P496336066987697350
-
-`lt[A216355(A389399(2*n+1)), A088726(n+4)]`
--/
-
-namespace A377912.P496336066987697350
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216355 (A389399 (2 * n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088726 (n + 4)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A377912.P496336066987697350
 
 /-!
 # A377913: Records in A342042.
@@ -1746,6 +1742,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A377929.P1192372638868070561
+
+/-! ## A377929.P12660625650956219363
+
+`∪[A005153(n+1), A005180(n+1)]`
+-/
+
+namespace A377929.P12660625650956219363
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005153 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005180 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377929.P12660625650956219363
 
 /-!
 # A377930: Square array A(n, k), n, k > 0, read by antidiagonals; A(n, k) = max(A007814(n), A007814(k)).

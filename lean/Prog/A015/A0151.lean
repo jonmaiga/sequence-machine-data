@@ -52,6 +52,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -1824,6 +1825,21 @@ end
 
 end A015122.P1695127463257134979
 
+/-! ## A015122.P5870024684335481484
+
+`A014996(A283657(n+1))`
+-/
+
+namespace A015122.P5870024684335481484
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014996 (A283657 (n + 1)).toNat
+
+end
+
+end A015122.P5870024684335481484
+
 /-! ## A015122.P2070557846230380677
 
 `A016202(A171596(n))`
@@ -1868,21 +1884,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015122.P15211078822258247373
-
-/-! ## A015122.P7976853677819730234
-
-`A015290(n)%A157439(n)`
--/
-
-namespace A015122.P7976853677819730234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A015290 n) (A157439 n)
-
-end
-
-end A015122.P7976853677819730234
 
 /-!
 # A015123: Triangle of q-binomial coefficients for q=-10.
@@ -4192,6 +4193,21 @@ end
 
 end A015153.P17027862204597381422
 
+/-! ## A015153.P12131298710655524427
+
+`A014581(A057979(n+1))`
+-/
+
+namespace A015153.P12131298710655524427
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014581 (A057979 (n + 1)).toNat
+
+end
+
+end A015153.P12131298710655524427
+
 /-! ## A015153.P13438899426219221797
 
 `A014581(A116921(n+1))`
@@ -4206,21 +4222,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015153.P13438899426219221797
-
-/-! ## A015153.P11986086700293791444
-
-`A015505(n)%A157439(n)`
--/
-
-namespace A015153.P11986086700293791444
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A015505 n) (A157439 n)
-
-end
-
-end A015153.P11986086700293791444
 
 /-!
 # A015154: Sum of (Gaussian) q-binomial coefficients for q=-3.

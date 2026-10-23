@@ -5078,6 +5078,34 @@ end
 end A259262.P13604203861919516634
 
 /-!
+# A259263: Numbers of the form (m*k)^2/(m^2-k^2) for distinct integers m and k.
+
+The programs for A259263, there is no canonical definition to state claims against.
+-/
+
+/-! ## A259263.P17507408855698767536
+
+`∩[A247624(n+1), A287927(n+1)]`
+-/
+
+namespace A259263.P17507408855698767536
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247624 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A287927 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A259263.P17507408855698767536
+
+/-!
 # A259264: Cyclotomic polynomial value Phi(5,n!).
 
 The programs for A259264, the canonical program `A259264.P5732594436571755968` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259264 has offset 0).
@@ -5973,6 +6001,28 @@ end A259280
 The programs for A259282, there is no canonical definition to state claims against.
 -/
 
+/-! ## A259282.P9068466525003282108
+
+`∩[A132067(n+1), A160497(n+1)]`
+-/
+
+namespace A259282.P9068466525003282108
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132067 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160497 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A259282.P9068466525003282108
+
 /-! ## A259282.P1827359793224199209
 
 `∩[A160497(n+1), A257750(n+1)]`
@@ -5994,6 +6044,72 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A259282.P1827359793224199209
+
+/-! ## A259282.P10477206312113483964
+
+`∩[A160497(n+1), A327782(n+1)]`
+-/
+
+namespace A259282.P10477206312113483964
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160497 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327782 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A259282.P10477206312113483964
+
+/-! ## A259282.P5509783863394280753
+
+`∩[A089025(n+1), A257750(n+1)]`
+-/
+
+namespace A259282.P5509783863394280753
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089025 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257750 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A259282.P5509783863394280753
+
+/-! ## A259282.P12838640964423620310
+
+`∩[A121707(n+1), A176039(n+1)]`
+-/
+
+namespace A259282.P12838640964423620310
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121707 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176039 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A259282.P12838640964423620310
 
 /-!
 # A259283: Quasi-Carmichael numbers to at least one positive base.

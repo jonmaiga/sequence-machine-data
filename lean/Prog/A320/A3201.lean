@@ -4571,6 +4571,21 @@ end
 
 end A320155.P11093785271381664798
 
+/-! ## A320155.P5297201874087482336
+
+`A250104(A115650(n+1))`
+-/
+
+namespace A320155.P5297201874087482336
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250104 (A115650 (n + 1)).toNat
+
+end
+
+end A320155.P5297201874087482336
+
 /-!
 # A320160: Number of series-reduced balanced rooted trees whose leaves form an integer partition of n.
 

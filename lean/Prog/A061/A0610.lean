@@ -71,7 +71,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -3747,6 +3746,29 @@ namespace A061017
 /-- `A397890(n+1)-A397890(n)` -/
 def P6600789025746716557.Spec : Prop :=
   ∀ n, P6600789025746716557.a n = A061017 (n + 1)
+
+end A061017
+
+/-! ## A061017.P3556036295899250733
+
+`ceil(log2(A272919(n+2)))`
+-/
+
+namespace A061017.P3556036295899250733
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.logb 2 (A272919 (n + 2) : ℝ)⌉
+
+end
+
+end A061017.P3556036295899250733
+
+namespace A061017
+
+/-- `ceil(log2(A272919(n+2)))` -/
+def P3556036295899250733.Spec : Prop :=
+  ∀ n, P3556036295899250733.a n = A061017 (n + 1)
 
 end A061017
 
@@ -13064,6 +13086,35 @@ namespace A061079
 /-- `(2*n+1)*record[xor(1, n)!]` -/
 def P13538756749507565695.Spec : Prop :=
   ∀ n, (P13538756749507565695.a n : ℤ) = A061079 (n + 1)
+
+end A061079
+
+/-! ## A061079.P237634319571946522
+
+`record[-((n+1)*∏[-(n+1)])]`
+-/
+
+namespace A061079.P237634319571946522
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -(n + 1 : ℤ)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -((n + 1 : ℤ) * (∏ j ∈ Finset.range (n + 1), f2 j))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A061079.P237634319571946522
+
+namespace A061079
+
+/-- `record[-((n+1)*∏[-(n+1)])]` -/
+def P237634319571946522.Spec : Prop :=
+  ∀ n, P237634319571946522.a n = A061079 (n + 1)
 
 end A061079
 

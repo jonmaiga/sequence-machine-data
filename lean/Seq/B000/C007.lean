@@ -6,36 +6,6 @@ import SequenceMachineLib
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
-/-! ## A036097.P8683106660414537380
-
-`(n+1)^19+n^19`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A036097.P8683106660414537380
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) ^ 19 + n ^ 19
-
-end
-
-end A036097.P8683106660414537380
-
-noncomputable section
-
-/-- A036097: Centered cube numbers: (n+1)^19+n^19.
-
-Offset 0, canonical program `A036097.P8683106660414537380`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. -/
-def A036097 (n : ℕ) : ℤ :=
-  (A036097.P8683106660414537380.a n : ℤ)
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. -/
-def A036097.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A036098.P16820759973379616246
 
 `(n+1)^20+n^20`
@@ -15995,6 +15965,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A047206.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A047207.P5182596554560112218
+
+`a(n-1)+a(n-4)-a(n-5)` with `a(0)=0, a(1)=1, a(2)=3, a(3)=4, a(4)=5`
+-/
+
+namespace A047207.P5182596554560112218
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 3, 4, 5] fun n a =>
+  a (n - 1) + a (n - 4) - a (n - 5)
+
+end
+
+end A047207.P5182596554560112218
+
+noncomputable section
+
+/-- A047207: Numbers that are congruent to {0, 1, 3, 4} mod 5.
+
+Offset 1, canonical program `A047207.P5182596554560112218`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A047207 (n : ℕ) : ℤ :=
+  A047207.P5182596554560112218.a (n - 1)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A047207.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A036121.P3665828333546767609
 

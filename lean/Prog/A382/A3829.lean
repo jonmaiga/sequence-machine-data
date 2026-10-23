@@ -53,7 +53,6 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2727,55 +2726,45 @@ end
 
 end A382937.P3598827812311286113
 
+/-! ## A382937.P4135086566555431086
+
+`A107603(A383500(n+2))`
+-/
+
+namespace A382937.P4135086566555431086
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107603 (A383500 (n + 2)).toNat
+
+end
+
+end A382937.P4135086566555431086
+
 /-!
 # A382938: Nonnegative integers such that every odd digit except the leftmost is immediately preceded by a larger digit.
 
 The programs for A382938, there is no canonical definition to state claims against.
 -/
 
-/-! ## A382938.P2422828016171155307
+/-! ## A382938.P8901153403438666625
 
-`eq[0, char[A382937(n+1)]]`
+`comp[A382937(n+1)]`
 -/
 
-namespace A382938.P2422828016171155307
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A382937 (n + 1)
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A382938.P2422828016171155307
-
-/-! ## A382938.P7773421543407182429
-
-`A109017(3*(n+1))+comp[A382937(n+1)]`
--/
-
-namespace A382938.P7773421543407182429
+namespace A382938.P8901153403438666625
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A382937 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A109017 (3 * (n + 1)) + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A382938.P7773421543407182429
+end A382938.P8901153403438666625
 
 /-! ## A382938.P17245460431097032757
 
@@ -3293,19 +3282,19 @@ end
 
 end A382943.P8526628379709862110
 
-/-! ## A382943.P6444872882373637966
+/-! ## A382943.P5883745261204914590
 
-`∪[A059404(n+1), A113849(n+1)]`
+`∪[A059404(n+1), A113317(n+1)]`
 -/
 
-namespace A382943.P6444872882373637966
+namespace A382943.P5883745261204914590
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A059404 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A113849 (n + 1)
+  A113317 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3313,7 +3302,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A382943.P6444872882373637966
+end A382943.P5883745261204914590
 
 /-!
 # A382944: Table read by rows: T(n, k) = valuation(n, k) for k >= 2, 1 for k = 1 and 0^n for k = 0.
@@ -4316,7 +4305,7 @@ end A382965
 /-!
 # A382966: The number of non-unitary prime divisors of the n-th biquadratefree number that is not cubefree.
 
-The programs for A382966, the canonical program `A382966.P5975578079117178061` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382966 has offset 1).
+The programs for A382966, the canonical program `A382966.P5975578079117178061` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382966 has offset 1).
 
 The definition of A382966 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056170, A375072, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4325,7 +4314,7 @@ The definition of A382966 is `conditional`: the Lean definition is an OEIS formu
 
 `A056170(A375072(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A382966
@@ -4801,7 +4790,7 @@ end A382967
 /-!
 # A382968: The number of non-unitary prime divisors of the n-th biquadratefree number that is not squarefree.
 
-The programs for A382968, the canonical program `A382968.P9973608297298639006` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382968 has offset 1).
+The programs for A382968, the canonical program `A382968.P9973608297298639006` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382968 has offset 1).
 
 The definition of A382968 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056170, A382967, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4810,7 +4799,7 @@ The definition of A382968 is `conditional`: the Lean definition is an OEIS formu
 
 `A056170(A382967(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A382968
@@ -5396,6 +5385,32 @@ namespace A382973
 /-- `Δ[A213041(n²)]` -/
 def P5141024051987174108.Spec : Prop :=
   ∀ n, P5141024051987174108.a n = A382973 (n + 1)
+
+end A382973
+
+/-! ## A382973.P15426912668834431690
+
+`Δ[A212988(2*n²)]`
+-/
+
+namespace A382973.P15426912668834431690
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212988 (2 * n ^ 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A382973.P15426912668834431690
+
+namespace A382973
+
+/-- `Δ[A212988(2*n²)]` -/
+def P15426912668834431690.Spec : Prop :=
+  ∀ n, P15426912668834431690.a n = A382973 (n + 1)
 
 end A382973
 

@@ -4363,6 +4363,52 @@ def P8987754783363402643.Spec : Prop :=
 
 end A141032
 
+/-! ## A141032.P8790692018716568299
+
+`a(n-1)/(1/4)²+4` with `a(0)=0`
+-/
+
+namespace A141032.P8790692018716568299
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  a (n - 1) / ((1 : ℚ) / 4) ^ 2 + 4
+
+end
+
+end A141032.P8790692018716568299
+
+namespace A141032
+
+/-- `a(n-1)/(1/4)²+4` -/
+def P8790692018716568299.Spec : Prop :=
+  ∀ n, P8790692018716568299.a n = (A141032 n : ℚ)
+
+end A141032
+
+/-! ## A141032.P6101626645636137601
+
+`a(n-1)+(2^n)^4/4` with `a(0)=0`
+-/
+
+namespace A141032.P6101626645636137601
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [0] fun n a =>
+  a (n - 1) + ((2 ^ n) ^ 4 : ℚ) / 4
+
+end
+
+end A141032.P6101626645636137601
+
+namespace A141032
+
+/-- `a(n-1)+(2^n)^4/4` -/
+def P6101626645636137601.Spec : Prop :=
+  ∀ n, P6101626645636137601.a n = (A141032 n : ℚ)
+
+end A141032
+
 /-!
 # A141035: Period 10: repeat 0, 0, 4, 2, -2, 4, 2, -4, -4, -2.
 
@@ -11698,6 +11744,28 @@ end A141097.P10555664499033743996
 The programs for A141098, there is no canonical definition to state claims against.
 -/
 
+/-! ## A141098.P15202151560316947006
+
+`∩[2*n, A096076(n)]`
+-/
+
+namespace A141098.P15202151560316947006
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096076 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A141098.P15202151560316947006
+
 /-! ## A141098.P18347243792796014324
 
 `record[gcd(2*(n+1), A141097(n+1))]`
@@ -11772,24 +11840,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A141098.P7575211713586924394
-
-/-! ## A141098.P9994644430995833097
-
-`filter[A096076(n+1), A135528(#)]`
--/
-
-namespace A141098.P9994644430995833097
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096076 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A135528 (f1 j).toNat = 1) n)
-
-end
-
-end A141098.P9994644430995833097
 
 /-!
 # A141099: Number of unordered pairs of odd nonprime numbers that sum to 2n.

@@ -87,6 +87,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A194600: Record values in A194591.
@@ -523,6 +524,33 @@ namespace A194602
 /-- `record[n/A337377(n)]%A005109(n+1)` -/
 def P2904015756213308245.Spec : Prop :=
   ∀ n, P2904015756213308245.a n = A194602 n
+
+end A194602
+
+/-! ## A194602.P9667230301264255545
+
+`comp[A161819(n+1)]`
+-/
+
+namespace A194602.P9667230301264255545
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161819 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A194602.P9667230301264255545
+
+namespace A194602
+
+/-- `comp[A161819(n+1)]` -/
+def P9667230301264255545.Spec : Prop :=
+  ∀ n, (P9667230301264255545.a n : ℤ) = A194602 n
 
 end A194602
 
@@ -3562,7 +3590,7 @@ end A194639.P18096804651699402159
 /-!
 # A194640: Smallest image size for which the number of endofunctions (functions f:{1,2,...,n}->{1,2,...,n}) is a maximum.
 
-The programs for A194640, the canonical program `A194640.P6304836416132754197` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194640 has offset 0).
+The programs for A194640, the canonical program `A194640.P6304836416132754197` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194640 has offset 0).
 
 The definition of A194640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3571,7 +3599,7 @@ The definition of A194640 is `conjectured`: the Lean definition is a formula tha
 
 `A002260(A046691(n+3))-A062276(n+3)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194640
@@ -5974,6 +6002,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A194685.P3708271948759557004
+
+/-! ## A194685.P16283433765531559096
+
+`A127241(A219731(n+2))`
+-/
+
+namespace A194685.P16283433765531559096
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127241 (A219731 (n + 2)).toNat
+
+end
+
+end A194685.P16283433765531559096
 
 /-!
 # A194688: First differences of A036554 (numbers whose binary representation ends in an odd number of zeros).
@@ -8378,6 +8421,29 @@ namespace A194699
 /-- `A194698(A082542(n+1))` -/
 def P13021056697539038622.Spec : Prop :=
   ∀ n, P13021056697539038622.a n = A194699 (n + 1)
+
+end A194699
+
+/-! ## A194699.P17456169679805755476
+
+`A194698(A161847(n+1))`
+-/
+
+namespace A194699.P17456169679805755476
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194698 (A161847 (n + 1)).toNat
+
+end
+
+end A194699.P17456169679805755476
+
+namespace A194699
+
+/-- `A194698(A161847(n+1))` -/
+def P17456169679805755476.Spec : Prop :=
+  ∀ n, P17456169679805755476.a n = A194699 (n + 1)
 
 end A194699
 

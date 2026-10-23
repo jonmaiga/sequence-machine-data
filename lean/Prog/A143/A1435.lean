@@ -3344,6 +3344,21 @@ end
 
 end A143525.P8221693408448167855
 
+/-! ## A143525.P5528650332633740854
+
+`A324105(A005179(n+2))`
+-/
+
+namespace A143525.P5528650332633740854
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324105 (A005179 (n + 2)).toNat
+
+end
+
+end A143525.P5528650332633740854
+
 /-!
 # A143526: a(n) is the number of divisors of (A005179(n)+1), where A005179(n) is the smallest positive integer with n divisors.
 
@@ -3421,6 +3436,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A143526.P17924249709162316251
+
+/-! ## A143526.P6762771044823317758
+
+`A365210(A005179(n+1)+1)`
+-/
+
+namespace A143526.P6762771044823317758
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A365210 (A005179 (n + 1) + 1).toNat
+
+end
+
+end A143526.P6762771044823317758
 
 /-!
 # A143533: a(n) = A038705(n) - 1.
@@ -8234,6 +8264,28 @@ end A143577.P18279355112400008527
 The programs for A143578, there is no canonical definition to state claims against.
 -/
 
+/-! ## A143578.P13839920197767962007
+
+`∪[A008578(n+1), A142591(n+1)]`
+-/
+
+namespace A143578.P13839920197767962007
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008578 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A142591 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A143578.P13839920197767962007
+
 /-! ## A143578.P81579332373135700
 
 `eq[n+2, A169901(n+1)]+1`
@@ -8890,33 +8942,26 @@ def P10603998494260562680.Spec : Prop :=
 
 end A143579
 
-/-! ## A143579.P9942093365689526383
+/-! ## A143579.P10040829438148532675
 
-`or(1, n)-char[xor(n, Δ[n²])]`
+`A052928(n)+A010059(n)`
 -/
 
-namespace A143579.P9942093365689526383
+namespace A143579.P10040829438148532675
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (n : ℤ) ((f2 (n + 1) : ℤ) - (f2 n : ℤ))
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.lor 1 n : ℤ) - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+  A052928 n + A010059 n
 
 end
 
-end A143579.P9942093365689526383
+end A143579.P10040829438148532675
 
 namespace A143579
 
-/-- `or(1, n)-char[xor(n, Δ[n²])]` -/
-def P9942093365689526383.Spec : Prop :=
-  ∀ n, P9942093365689526383.a n = A143579 n
+/-- `A052928(n)+A010059(n)` -/
+def P10040829438148532675.Spec : Prop :=
+  ∀ n, P10040829438148532675.a n = A143579 n
 
 end A143579
 

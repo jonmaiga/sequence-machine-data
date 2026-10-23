@@ -11560,6 +11560,39 @@ def P14812915371669650634.Spec : Prop :=
 
 end A110654
 
+/-! ## A110654.P7628251948190550992
+
+`∑[char[record[xor(1, n)]]]`
+-/
+
+namespace A110654.P7628251948190550992
+noncomputable section
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor 1 n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f3 (SequenceMachineLib.nth (fun j => ∀ l < j, f3 l < f3 j) n)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = n then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A110654.P7628251948190550992
+
+namespace A110654
+
+/-- `∑[char[record[xor(1, n)]]]` -/
+def P7628251948190550992.Spec : Prop :=
+  ∀ n, (P7628251948190550992.a n : ℤ) = A110654 n
+
+end A110654
+
 /-! ## A110654.P14859800316832181680
 
 `round(n*tan(acot(2)))`
@@ -13460,6 +13493,29 @@ def P13098491457540915303.Spec : Prop :=
 
 end A110658
 
+/-! ## A110658.P5122564213757772342
+
+`A110659(A110657(n)+A110657(n))`
+-/
+
+namespace A110658.P5122564213757772342
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110659 (A110657 n + A110657 n).toNat
+
+end
+
+end A110658.P5122564213757772342
+
+namespace A110658
+
+/-- `A110659(A110657(n)+A110657(n))` -/
+def P5122564213757772342.Spec : Prop :=
+  ∀ n, P5122564213757772342.a n = A110658 n
+
+end A110658
+
 /-!
 # A110659: a(n) = A028242(A110654(n)).
 
@@ -13817,6 +13873,32 @@ def P587033461603154956.Spec : Prop :=
 
 end A110659
 
+/-! ## A110659.P16416717280770072235
+
+`∑[a(n-4)^a(n-1)]-n` with `a(0)=1, a(1)=0, a(2)=1, a(3)=3`
+-/
+
+namespace A110659.P16416717280770072235
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 0, 1, 3] fun n f1 =>
+  f1 (n - 4) ^ f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - (n : ℤ)
+
+end
+
+end A110659.P16416717280770072235
+
+namespace A110659
+
+/-- `∑[a(n-4)^a(n-1)]-n` -/
+def P16416717280770072235.Spec : Prop :=
+  ∀ n, P16416717280770072235.a n = A110659 n
+
+end A110659
+
 /-! ## A110659.P1905762236242384157
 
 `A110657(xor(1, n))`
@@ -13906,29 +13988,6 @@ namespace A110659
 /-- `A246552(A263426(n))` -/
 def P14603210196172855433.Spec : Prop :=
   ∀ n, P14603210196172855433.a n = A110659 n
-
-end A110659
-
-/-! ## A110659.P17306627503080461955
-
-`A110654(xor(1, A110654(n)))`
--/
-
-namespace A110659.P17306627503080461955
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110654 (Int.xor 1 (A110654 n)).toNat
-
-end
-
-end A110659.P17306627503080461955
-
-namespace A110659
-
-/-- `A110654(xor(1, A110654(n)))` -/
-def P17306627503080461955.Spec : Prop :=
-  ∀ n, P17306627503080461955.a n = A110659 n
 
 end A110659
 
@@ -14152,6 +14211,39 @@ namespace A110660
 /-- `∑[n]-∑[and(1, n)]²` -/
 def P8327799505776865956.Spec : Prop :=
   ∀ n, P8327799505776865956.a n = A110660 n
+
+end A110660
+
+/-! ## A110660.P15165595115149641709
+
+`∑[n*char[∑[and(2, n)]]]`
+-/
+
+namespace A110660.P15165595115149641709
+noncomputable section
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land 2 n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n * (if ∃ j, f2 j = n then 1 else 0)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A110660.P15165595115149641709
+
+namespace A110660
+
+/-- `∑[n*char[∑[and(2, n)]]]` -/
+def P15165595115149641709.Spec : Prop :=
+  ∀ n, (P15165595115149641709.a n : ℤ) = A110660 n
 
 end A110660
 
@@ -14392,26 +14484,26 @@ def P3719317718187012434.Spec : Prop :=
 
 end A110660
 
-/-! ## A110660.P2685702558206300162
+/-! ## A110660.P9888905471859949504
 
-`A002378(floor(n/2))`
+`a(n-2)+and(n, -2)` with `a(0)=0, a(1)=0`
 -/
 
-namespace A110660.P2685702558206300162
+namespace A110660.P9888905471859949504
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002378 ⌊(n : ℚ) / 2⌋.toNat
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0] fun n a =>
+  a (n - 2) + Int.land (n : ℤ) (-2)
 
 end
 
-end A110660.P2685702558206300162
+end A110660.P9888905471859949504
 
 namespace A110660
 
-/-- `A002378(floor(n/2))` -/
-def P2685702558206300162.Spec : Prop :=
-  ∀ n, P2685702558206300162.a n = A110660 n
+/-- `a(n-2)+and(n, -2)` -/
+def P9888905471859949504.Spec : Prop :=
+  ∀ n, P9888905471859949504.a n = A110660 n
 
 end A110660
 

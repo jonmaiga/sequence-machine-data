@@ -1440,6 +1440,28 @@ end
 
 end A287018.P10709204055377290524
 
+/-! ## A287018.P8338634874251290998
+
+`∩[A015919(n+1), A087737(n+1)]`
+-/
+
+namespace A287018.P8338634874251290998
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087737 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A287018.P8338634874251290998
+
 /-! ## A287018.P12908878011714878926
 
 `∩[A027697(n+1), A087737(n+1)]`
@@ -4668,6 +4690,31 @@ def P7020089358517734328.Spec : Prop :=
 
 end A287057
 
+/-! ## A287057.P13847390567160299285
+
+`floor((2*n+1)²+2*n+1-a(n-1))` with `a(0)=3`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A287057.P13847390567160299285
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
+  ((2 * n + 1) ^ 2 : ℤ) + ((2 * n + 1 : ℤ) - a (n - 1))
+
+end
+
+end A287057.P13847390567160299285
+
+namespace A287057
+
+/-- `floor((2*n+1)²+2*n+1-a(n-1))` -/
+def P13847390567160299285.Spec : Prop :=
+  ∀ n, P13847390567160299285.a n = A287057 (n + 1)
+
+end A287057
+
 /-!
 # A287059: Least numbers k > 1 such that k'' = n*k', where k' and k'' are the first and the second arithmetic derivatives of k.
 
@@ -4736,6 +4783,42 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287060.P7741976977619156931
+
+/-! ## A287060.P15489214269398248288
+
+`p?[A378162(n+1)]`
+-/
+
+namespace A287060.P15489214269398248288
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378162 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A287060.P15489214269398248288
+
+/-! ## A287060.P8259191078214669728
+
+`filter[A378162(n+2), A010051(#)]`
+-/
+
+namespace A287060.P8259191078214669728
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A378162 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A287060.P8259191078214669728
 
 /-!
 # A287061: Numbers k such that (10^(k+3)*6319 + 863)/9 is prime (k > 0).

@@ -55,7 +55,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1849,6 +1848,29 @@ namespace A365624
 /-- `A371447(2*(n+1))%A025323(A283043(n))` -/
 def P8918148034443487414.Spec : Prop :=
   ∀ n, P8918148034443487414.a n = A365624 (n + 1)
+
+end A365624
+
+/-! ## A365624.P17243790506375161650
+
+`A371447(A100800(n+1))`
+-/
+
+namespace A365624.P17243790506375161650
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371447 (A100800 (n + 1)).toNat
+
+end
+
+end A365624.P17243790506375161650
+
+namespace A365624
+
+/-- `A371447(A100800(n+1))` -/
+def P17243790506375161650.Spec : Prop :=
+  ∀ n, P17243790506375161650.a n = A365624 (n + 1)
 
 end A365624
 
@@ -5436,7 +5458,7 @@ end A365679
 /-!
 # A365680: The number of exponentially squarefree divisors of n.
 
-The programs for A365680, the canonical program `A365680.P3625310981199113847` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365680 has offset 1).
+The programs for A365680, the canonical program `A365680.P3625310981199113847` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365680 has offset 1).
 
 The definition of A365680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5445,7 +5467,7 @@ The definition of A365680 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A370598(#)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A365680
@@ -5706,6 +5728,72 @@ end
 
 end A365681.P9924643379525133896
 
+/-! ## A365681.P5655358903640396101
+
+`∩[A033620(n+1), A377140(n+1)]`
+-/
+
+namespace A365681.P5655358903640396101
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033620 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377140 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365681.P5655358903640396101
+
+/-! ## A365681.P11229616502695085731
+
+`∩[A033637(n+1), A377140(n+1)]`
+-/
+
+namespace A365681.P11229616502695085731
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033637 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377140 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365681.P11229616502695085731
+
+/-! ## A365681.P5615386876828919934
+
+`∩[A051038(n+1), A377140(n+1)]`
+-/
+
+namespace A365681.P5615386876828919934
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051038 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377140 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A365681.P5615386876828919934
+
 /-! ## A365681.P7250313873891092766
 
 `∩[A081029(n+1), A377140(n+1)]`
@@ -5728,25 +5816,10 @@ end
 
 end A365681.P7250313873891092766
 
-/-! ## A365681.P3803172250888850406
-
-`sqrt(A318278(n+1))%A289709(n+1)`
--/
-
-namespace A365681.P3803172250888850406
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (A318278 (n + 1) : ℝ))) (A289709 (n + 1))
-
-end
-
-end A365681.P3803172250888850406
-
 /-!
 # A365682: The sum of exponentially squarefree divisors of n.
 
-The programs for A365682, the canonical program `A365682.P17785449757438465592` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365682 has offset 1).
+The programs for A365682, the canonical program `A365682.P17785449757438465592` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365682 has offset 1).
 
 The definition of A365682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5755,7 +5828,7 @@ The definition of A365682 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A370598(#)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A365682

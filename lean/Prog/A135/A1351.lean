@@ -1630,6 +1630,28 @@ end
 
 end A135135.P915643777632869937
 
+/-! ## A135135.P4681313688923552994
+
+`∪[A065891(n+2), A073432(n+1)]`
+-/
+
+namespace A135135.P4681313688923552994
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065891 (n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073432 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A135135.P4681313688923552994
+
 /-! ## A135135.P15688338126882994246
 
 `record[A118827(A085273(n+1)+1)+n]`
@@ -1728,27 +1750,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A135135.P14941638942359692659
-
-/-! ## A135135.P17676618560378964155
-
-`eq[A000038(n), A128975(A018252(n+1))]`
--/
-
-namespace A135135.P17676618560378964155
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000038 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A128975 (A018252 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A135135.P17676618560378964155
 
 /-!
 # A135136: a(n) = floor(S2(n)/2) mod 2, where S2(n) is the binary weight of n.

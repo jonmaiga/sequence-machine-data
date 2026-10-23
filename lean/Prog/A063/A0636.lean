@@ -30,6 +30,7 @@ import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -48,7 +49,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -1903,26 +1903,27 @@ end
 
 end A063640.P2835601658997347028
 
-/-! ## A063640.P15876838199310301629
+/-! ## A063640.P10775137141511077521
 
-`eq[A001222(n+1)+n, A000203(n+2)]+2`
+`∪[A090866(n+1), A104006(n+1)]`
 -/
 
-namespace A063640.P15876838199310301629
+namespace A063640.P10775137141511077521
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (n + 1) + (n : ℤ)
+  A090866 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (n + 2)
+  A104006 (n + 1)
 
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 2
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A063640.P15876838199310301629
+end A063640.P10775137141511077521
 
 /-!
 # A063641: Primes of form p*q*r - 2, where p, q and r are primes (not necessarily distinct).
@@ -3008,6 +3009,50 @@ end
 
 end A063643.P12847199909020424071
 
+/-! ## A063643.P8707738239743587885
+
+`∩[A105571(n+1), A373789(n+1)]`
+-/
+
+namespace A063643.P8707738239743587885
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105571 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A373789 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063643.P8707738239743587885
+
+/-! ## A063643.P10297757726404951949
+
+`∩[A105571(n+1), A380468(n+1)]`
+-/
+
+namespace A063643.P10297757726404951949
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105571 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380468 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063643.P10297757726404951949
+
 /-! ## A063643.P5867356738453837532
 
 `∩[A105571(n+1), A144742(n+1)]`
@@ -3117,50 +3162,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A063643.P17742957117456298021
-
-/-! ## A063643.P4434665201193689551
-
-`∩[A049591(n+1), A105571(n+1)]`
--/
-
-namespace A063643.P4434665201193689551
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049591 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105571 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A063643.P4434665201193689551
-
-/-! ## A063643.P8432452402217500996
-
-`∩[A067774(n+1), A105571(n+1)]`
--/
-
-namespace A063643.P8432452402217500996
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067774 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105571 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A063643.P8432452402217500996
 
 /-!
 # A063644: Primes with 2 representations: p*q*r - 1 = u*v*w + 1 where p, q, r, u, v and w are primes.
@@ -3409,6 +3410,28 @@ end
 
 end A063644.P6594275176282123448
 
+/-! ## A063644.P1119124981067090679
+
+`∩[A015919(n+1), A157483(n+1)]`
+-/
+
+namespace A063644.P1119124981067090679
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A157483 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063644.P1119124981067090679
+
 /-! ## A063644.P18178378579867871697
 
 `∩[A038875(n+1), A157483(n+1)]`
@@ -3562,28 +3585,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A063644.P172861722515456975
-
-/-! ## A063644.P14516726242560831281
-
-`∩[A079151(n+1), A157483(n+1)]`
--/
-
-namespace A063644.P14516726242560831281
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079151 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A157483 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A063644.P14516726242560831281
 
 /-!
 # A063645: Primes with two representations: p*q*r - 2 = u*v*w + 2 where p, q, r, u, v and w are primes (not necessarily distinct).
@@ -9855,6 +9856,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A063691.P6807247466415203044
+
+/-!
+# A063693: Numbers k such that phi(k + d(k)) = phi(k) + d(k), where phi() = A000010(), d() = A000005().
+
+The programs for A063693, there is no canonical definition to state claims against.
+-/
+
+/-! ## A063693.P7318630835743593916
+
+`∪[A001359(n+1), A063702(n+1)]`
+-/
+
+namespace A063693.P7318630835743593916
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001359 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063702 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A063693.P7318630835743593916
 
 /-!
 # A063694: Remove odd-positioned bits from the binary expansion of n.

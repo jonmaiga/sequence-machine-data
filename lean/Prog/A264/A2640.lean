@@ -2901,6 +2901,28 @@ end
 
 end A264030.P14207985263178106369
 
+/-! ## A264030.P10796324379680223191
+
+`∩[A038604(n+1), A246786(n+1)]`
+-/
+
+namespace A264030.P10796324379680223191
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038604 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246786 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A264030.P10796324379680223191
+
 /-!
 # A264031: Minimum of the sum r + s of the coefficients of a linear combination of consecutive squares r*k^2 + s*(k+1)^2 equals to n, with r, s and k >=0.
 

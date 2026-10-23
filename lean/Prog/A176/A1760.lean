@@ -1011,7 +1011,7 @@ end A176004
 /-!
 # A176006: The number of branching configurations of RNA (see Sankoff, 1985) with n or fewer hairpins.
 
-The programs for A176006, the canonical program `A176006.P1011772208691613746` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176006 has offset 0).
+The programs for A176006, the canonical program `A176006.P1011772208691613746` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176006 has offset 0).
 
 The definition of A176006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1419,7 +1419,7 @@ end A176006
 
 `A086616(n)-A035011(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A176006
@@ -8537,6 +8537,55 @@ def P1500395533572467679.Spec : Prop :=
 
 end A176060
 
+/-! ## A176060.P6430124665561982486
+
+`A002419(n+1)-(n+1)^3`
+-/
+
+namespace A176060.P6430124665561982486
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002419 (n + 1) - ((n + 1) ^ 3 : ℤ)
+
+end
+
+end A176060.P6430124665561982486
+
+namespace A176060
+
+/-- `A002419(n+1)-(n+1)^3` -/
+def P6430124665561982486.Spec : Prop :=
+  ∀ n, P6430124665561982486.a n = A176060 n
+
+end A176060
+
+/-! ## A176060.P8844012196711374519
+
+`A039623(n+1)-∑[(n+1)²]`
+-/
+
+namespace A176060.P8844012196711374519
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039623 (n + 1) - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+
+end
+
+end A176060.P8844012196711374519
+
+namespace A176060
+
+/-- `A039623(n+1)-∑[(n+1)²]` -/
+def P8844012196711374519.Spec : Prop :=
+  ∀ n, P8844012196711374519.a n = A176060 n
+
+end A176060
+
 /-!
 # A176061: Numbers n such that 41#*2^n-1 is prime, where # denotes the primorial, A002110.
 
@@ -9700,23 +9749,27 @@ end
 
 end A176069.P16823852131376179303
 
-/-! ## A176069.P867990787375733098
+/-! ## A176069.P12179223519745346019
 
-`filter[A002061(n), A064911(#)]`
+`∩[A001358(n+1), A034111(n+1)]`
 -/
 
-namespace A176069.P867990787375733098
+namespace A176069.P12179223519745346019
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002061 n
+  A001358 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A064911 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034111 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A176069.P867990787375733098
+end A176069.P12179223519745346019
 
 /-!
 # A176070: Numbers of the form k^3+k^2+k+1 that are the product of two distinct primes.

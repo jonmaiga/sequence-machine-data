@@ -2608,6 +2608,52 @@ theorem P15914424491503199689.correct : P15914424491503199689.Spec := by
 
 end A286437
 
+/-! ## A286437.P5541447265345729220
+
+`3*n*(C(n+3, 3)-n)`
+-/
+
+namespace A286437.P5541447265345729220
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (3 * n : ℤ) * ((Nat.choose (n + 3) 3 : ℤ) - (n : ℤ))
+
+end
+
+end A286437.P5541447265345729220
+
+namespace A286437
+
+/-- `3*n*(C(n+3, 3)-n)` -/
+def P5541447265345729220.Spec : Prop :=
+  ∀ n, P5541447265345729220.a n = A286437 (n + 3)
+
+end A286437
+
+/-! ## A286437.P3729499181442795687
+
+`n*(A267370(n)+3)`
+-/
+
+namespace A286437.P3729499181442795687
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * (A267370 n + 3)
+
+end
+
+end A286437.P3729499181442795687
+
+namespace A286437
+
+/-- `n*(A267370(n)+3)` -/
+def P3729499181442795687.Spec : Prop :=
+  ∀ n, P3729499181442795687.a n = A286437 (n + 3)
+
+end A286437
+
 /-! ## A286437.P9483109228438557141
 
 `A033486(n)-3*n²`
@@ -2628,29 +2674,6 @@ namespace A286437
 /-- `A033486(n)-3*n²` -/
 def P9483109228438557141.Spec : Prop :=
   ∀ n, P9483109228438557141.a n = A286437 (n + 3)
-
-end A286437
-
-/-! ## A286437.P7639998744837714825
-
-`3*n+n*A267370(n)`
--/
-
-namespace A286437.P7639998744837714825
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 * n : ℤ) + (n : ℤ) * A267370 n
-
-end
-
-end A286437.P7639998744837714825
-
-namespace A286437
-
-/-- `3*n+n*A267370(n)` -/
-def P7639998744837714825.Spec : Prop :=
-  ∀ n, P7639998744837714825.a n = A286437 (n + 3)
 
 end A286437
 

@@ -51,7 +51,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -343,29 +342,32 @@ def P1350695164531310816.Spec : Prop :=
 
 end A274406
 
-/-! ## A274406.P5653950833825143907
+/-! ## A274406.P16025324463863188555
 
-`∑[ogf((8x+x^2)/(1-x^2))]`
+`∑[∑[ogf((8x+x^2)/(1+x))]]`
 -/
 
-namespace A274406.P5653950833825143907
+namespace A274406.P16025324463863188555
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 8, 1] [1, 1] n
+
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 8, 1] [1, 0, -1] n
+  ∑ j ∈ Finset.range (n + 1), f2 j
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A274406.P5653950833825143907
+end A274406.P16025324463863188555
 
 namespace A274406
 
-/-- `∑[ogf((8x+x^2)/(1-x^2))]` -/
-def P5653950833825143907.Spec : Prop :=
-  ∀ n, P5653950833825143907.a n = A274406 (n + 1)
+/-- `∑[∑[ogf((8x+x^2)/(1+x))]]` -/
+def P16025324463863188555.Spec : Prop :=
+  ∀ n, P16025324463863188555.a n = A274406 (n + 1)
 
 end A274406
 
@@ -389,6 +391,107 @@ namespace A274406
 /-- `ogf((8x+x^2)/(1-x-x^2+x^3))` -/
 def P11692391200174385941.Spec : Prop :=
   ∀ n, P11692391200174385941.a n = A274406 (n + 1)
+
+end A274406
+
+/-! ## A274406.P5231301231649996880
+
+`∑[gcd(2, n+1)^3]-1`
+-/
+
+namespace A274406.P5231301231649996880
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd 2 (n + 1) ^ 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - 1
+
+end
+
+end A274406.P5231301231649996880
+
+namespace A274406
+
+/-- `∑[gcd(2, n+1)^3]-1` -/
+def P5231301231649996880.Spec : Prop :=
+  ∀ n, P5231301231649996880.a n = A274406 (n + 1)
+
+end A274406
+
+/-! ## A274406.P7213718898989479354
+
+`9-floor(-a(n-2))` with `a(0)=0, a(1)=8`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A274406.P7213718898989479354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 8] fun n a =>
+  9 - (-a (n - 2))
+
+end
+
+end A274406.P7213718898989479354
+
+namespace A274406
+
+/-- `9-floor(-a(n-2))` -/
+def P7213718898989479354.Spec : Prop :=
+  ∀ n, P7213718898989479354.a n = A274406 (n + 1)
+
+end A274406
+
+/-! ## A274406.P4878559660146054679
+
+`9-ceil(-a(n-2))` with `a(0)=0, a(1)=8`
+
+`ceil` is left out, it is the identity on integers.
+-/
+
+namespace A274406.P4878559660146054679
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 8] fun n a =>
+  9 - (-a (n - 2))
+
+end
+
+end A274406.P4878559660146054679
+
+namespace A274406
+
+/-- `9-ceil(-a(n-2))` -/
+def P4878559660146054679.Spec : Prop :=
+  ∀ n, P4878559660146054679.a n = A274406 (n + 1)
+
+end A274406
+
+/-! ## A274406.P14369132019938886018
+
+`9-round(-a(n-2))` with `a(0)=0, a(1)=8`
+
+`round` is left out, it is the identity on integers.
+-/
+
+namespace A274406.P14369132019938886018
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 8] fun n a =>
+  9 - (-a (n - 2))
+
+end
+
+end A274406.P14369132019938886018
+
+namespace A274406
+
+/-- `9-round(-a(n-2))` -/
+def P14369132019938886018.Spec : Prop :=
+  ∀ n, P14369132019938886018.a n = A274406 (n + 1)
 
 end A274406
 
@@ -583,116 +686,6 @@ def P585480958011428763.Spec : Prop :=
 
 end A274406
 
-/-! ## A274406.P14078144500414566085
-
-`record[(n-2)%(1-dr(n)+n)]`
--/
-
-namespace A274406.P14078144500414566085
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ((n : ℤ) - 2) (1 - (SequenceMachineLib.digitalRoot (n : ℤ) : ℤ) + (n : ℤ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A274406.P14078144500414566085
-
-namespace A274406
-
-/-- `record[(n-2)%(1-dr(n)+n)]` -/
-def P14078144500414566085.Spec : Prop :=
-  ∀ n, P14078144500414566085.a n = A274406 (n + 1)
-
-end A274406
-
-/-! ## A274406.P13389296387142836711
-
-`lt[2*n, (n-1)*(dr(n)-5)]`
--/
-
-namespace A274406.P13389296387142836711
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n : ℤ) - 1) * ((SequenceMachineLib.digitalRoot (n : ℤ) : ℤ) - 5)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A274406.P13389296387142836711
-
-namespace A274406
-
-/-- `lt[2*n, (n-1)*(dr(n)-5)]` -/
-def P13389296387142836711.Spec : Prop :=
-  ∀ n, (P13389296387142836711.a n : ℤ) = A274406 (n + 1)
-
-end A274406
-
-/-! ## A274406.P6355413763364691823
-
-`eq[n, n/dr((2*n+1)^4)]`
--/
-
-namespace A274406.P6355413763364691823
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n : ℚ) / (SequenceMachineLib.digitalRoot ((2 * n + 1) ^ 4 : ℤ) : ℚ)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℚ) = f2 j) n
-
-end
-
-end A274406.P6355413763364691823
-
-namespace A274406
-
-/-- `eq[n, n/dr((2*n+1)^4)]` -/
-def P6355413763364691823.Spec : Prop :=
-  ∀ n, (P6355413763364691823.a n : ℤ) = A274406 (n + 1)
-
-end A274406
-
-/-! ## A274406.P274681142430889428
-
-`record[n+1-(dr(n+2)-1)!]`
--/
-
-namespace A274406.P274681142430889428
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) - (Nat.factorial ((SequenceMachineLib.digitalRoot (n + 2 : ℤ) : ℤ) - 1).toNat : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A274406.P274681142430889428
-
-namespace A274406
-
-/-- `record[n+1-(dr(n+2)-1)!]` -/
-def P274681142430889428.Spec : Prop :=
-  ∀ n, P274681142430889428.a n = A274406 (n + 1)
-
-end A274406
-
 /-!
 # A274409: Number of binary strings of length n having the maximum possible number of different antipower periods.
 
@@ -865,6 +858,28 @@ end
 
 end A274426.P2754885010234437788
 
+/-! ## A274426.P13944992406253336684
+
+`∪[A271354(n+1), A274347(n+1)]`
+-/
+
+namespace A274426.P13944992406253336684
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271354 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274347 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A274426.P13944992406253336684
+
 /-! ## A274426.P17341572276692953114
 
 `∩[A274429(n+1), comp[A090244(n)]]`
@@ -891,19 +906,19 @@ end
 
 end A274426.P17341572276692953114
 
-/-! ## A274426.P15064922109739454713
+/-! ## A274426.P11400460589446957445
 
-`∩[A274429(n+1), A057854(n+2)]`
+`∩[A057854(n+1), A274429(n+1)]`
 -/
 
-namespace A274426.P15064922109739454713
+namespace A274426.P11400460589446957445
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274429 (n + 1)
+  A057854 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057854 (n + 2)
+  A274429 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -911,21 +926,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A274426.P15064922109739454713
+end A274426.P11400460589446957445
 
-/-! ## A274426.P13719253310030184000
+/-! ## A274426.P9361490542536069544
 
-`∩[A274429(n+1), A090946(n+4)]`
+`∩[A090946(n+1), A274429(n+1)]`
 -/
 
-namespace A274426.P13719253310030184000
+namespace A274426.P9361490542536069544
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274429 (n + 1)
+  A090946 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090946 (n + 4)
+  A274429 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -933,7 +948,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A274426.P13719253310030184000
+end A274426.P9361490542536069544
 
 /-!
 # A274427: Positions in A274426 of products of distinct Fibonacci numbers > 1.

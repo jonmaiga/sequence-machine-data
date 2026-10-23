@@ -2776,6 +2776,28 @@ end A327829
 The programs for A327830, there is no canonical definition to state claims against.
 -/
 
+/-! ## A327830.P7751161418814219667
+
+`∪[A144695(n+1), A327831(n+1)]`
+-/
+
+namespace A327830.P7751161418814219667
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144695 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327831 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327830.P7751161418814219667
+
 /-! ## A327830.P13644299631313545474
 
 `∪[A144695(n+1), A366816(n+1)]`
@@ -5074,6 +5096,36 @@ def P10185446551020954843.Spec : Prop :=
 
 end A327862
 
+/-! ## A327862.P8934417111630610289
+
+`∩[2*n+1, A373265(n+1)]`
+-/
+
+namespace A327862.P8934417111630610289
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A373265 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327862.P8934417111630610289
+
+namespace A327862
+
+/-- `∩[2*n+1, A373265(n+1)]` -/
+def P8934417111630610289.Spec : Prop :=
+  ∀ n, (P8934417111630610289.a n : ℤ) = A327862 (n + 1)
+
+end A327862
+
 /-! ## A327862.P736549770884755485
 
 `filter[A373265(n+1), A039982(#)]`
@@ -5356,36 +5408,6 @@ namespace A327862
 /-- `filter[A046337(n+1), A373264(#)]` -/
 def P4350704423579552095.Spec : Prop :=
   ∀ n, P4350704423579552095.a n = A327862 (n + 1)
-
-end A327862
-
-/-! ## A327862.P16532921364209828879
-
-`∩[A046337(n+1), A373265(n+1)]`
--/
-
-namespace A327862.P16532921364209828879
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046337 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373265 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A327862.P16532921364209828879
-
-namespace A327862
-
-/-- `∩[A046337(n+1), A373265(n+1)]` -/
-def P16532921364209828879.Spec : Prop :=
-  ∀ n, (P16532921364209828879.a n : ℤ) = A327862 (n + 1)
 
 end A327862
 

@@ -97,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A181100: Numbers k such that A028260(k) + 1 is prime.
@@ -3657,7 +3658,7 @@ end A181120
 /-!
 # A181121: As n increases, the reciprocal of a(n) = asymptotic fraction of positive integers whose longest string of consecutive divisors is A181062(n).
 
-The programs for A181121, the canonical program `A181121.P4384913397738902959` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181121 has offset 1).
+The programs for A181121, the canonical program `A181121.P4384913397738902959` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181121 has offset 1).
 
 The definition of A181121 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025473, A051451, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3666,7 +3667,7 @@ The definition of A181121 is `conditional`: the Lean definition is an OEIS formu
 
 `A051451(n+1)*A025473(n+2)/(A025473(n+2)-1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A181121
@@ -4006,6 +4007,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181123.P12727520913300300294
+
+/-! ## A181123.P7679145784102577312
+
+`comp[A038673(n+1)]`
+-/
+
+namespace A181123.P7679145784102577312
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038673 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A181123.P7679145784102577312
 
 /-!
 # A181124: Difference of two positive 5th powers.
@@ -9222,60 +9242,26 @@ def P9797874387454310563.Spec : Prop :=
 
 end A181155
 
-/-! ## A181155.P15429705452823694748
+/-! ## A181155.P8005967140229795615
 
-`comp[A001969(n+1)]+1`
+`A132680(n+1)+A101925(n)`
 -/
 
-namespace A181155.P15429705452823694748
+namespace A181155.P8005967140229795615
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001969 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A181155.P15429705452823694748
-
-namespace A181155
-
-/-- `comp[A001969(n+1)]+1` -/
-def P15429705452823694748.Spec : Prop :=
-  ∀ n, (P15429705452823694748.a n : ℤ) = A181155 (n + 1)
-
-end A181155
-
-/-! ## A181155.P5767156554752806622
-
-`n-char[xor(n, Δ[n²])]+2+n`
--/
-
-namespace A181155.P5767156554752806622
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (n : ℤ) ((f2 (n + 1) : ℤ) - (f2 n : ℤ))
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) + 2 + (n : ℤ)
+  A132680 (n + 1) + A101925 n
 
 end
 
-end A181155.P5767156554752806622
+end A181155.P8005967140229795615
 
 namespace A181155
 
-/-- `n-char[xor(n, Δ[n²])]+2+n` -/
-def P5767156554752806622.Spec : Prop :=
-  ∀ n, P5767156554752806622.a n = A181155 (n + 1)
+/-- `A132680(n+1)+A101925(n)` -/
+def P8005967140229795615.Spec : Prop :=
+  ∀ n, P8005967140229795615.a n = A181155 (n + 1)
 
 end A181155
 
@@ -12453,6 +12439,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A181187.P16575805925463805056
+
+/-!
+# A181188: Primes at which the prime number race between the two prime classes with different sign of sin(prime(.)) changes leader.
+
+The programs for A181188, there is no canonical definition to state claims against.
+-/
+
+/-! ## A181188.P12255220086043766752
+
+`∩[A243187(n+1), A243960(n+1)]`
+-/
+
+namespace A181188.P12255220086043766752
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243187 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243960 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A181188.P12255220086043766752
 
 /-!
 # A181189: Maximal number of elements needed to identify an abelian group of order n by testing the order of random elements.

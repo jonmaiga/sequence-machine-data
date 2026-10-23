@@ -603,6 +603,51 @@ end
 
 end A133504.P16173712531271846200
 
+/-! ## A133504.P5014889812655228738
+
+`lt[∑{e}[(2*n)², n-1-#], n+2]`
+-/
+
+namespace A133504.P5014889812655228738
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n) ^ 2
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ p ∈ Nat.primeFactors (f2 n), ((n : ℤ) - 1 - (Nat.factorization (f2 n) p : ℤ))
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 2
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < (f3 j : ℤ)) n
+
+end
+
+end A133504.P5014889812655228738
+
+/-! ## A133504.P517914188982873282
+
+`eq[A005555(n), A358097(n)]`
+-/
+
+namespace A133504.P517914188982873282
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005555 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358097 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A133504.P517914188982873282
+
 /-!
 # A133505: Numbers where records occur in A133500.
 
@@ -2484,7 +2529,7 @@ end A133517.P6843044721545945039
 /-!
 # A133518: Smallest k such that p(n)^3 + k is prime where p(n) is the n-th prime.
 
-The programs for A133518, the canonical program `A133518.P1197385440104389255` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133518 has offset 1).
+The programs for A133518, the canonical program `A133518.P1197385440104389255` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133518 has offset 1).
 
 The definition of A133518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2493,7 +2538,7 @@ The definition of A133518 is `conjectured`: the Lean definition is a formula tha
 
 `A121842(A000040(n+1))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133518
@@ -4165,7 +4210,7 @@ end A133528
 /-!
 # A133529: Sum of squares of three consecutive primes.
 
-The programs for A133529, the canonical program `A133529.P6726527200779118077` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133529 has offset 1).
+The programs for A133529, the canonical program `A133529.P6726527200779118077` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133529 has offset 1).
 
 The definition of A133529 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001248, A069484, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4174,7 +4219,7 @@ The definition of A133529 is `conditional`: the Lean definition is an OEIS formu
 
 `A069484(n+1)+A001248(n+3)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133529
@@ -4563,7 +4608,7 @@ end A133529
 /-!
 # A133530: Sum of third powers of three consecutive primes.
 
-The programs for A133530, the canonical program `A133530.P664862353928632633` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133530 has offset 1).
+The programs for A133530, the canonical program `A133530.P664862353928632633` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133530 has offset 1).
 
 The definition of A133530 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030078, A133534, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4572,7 +4617,7 @@ The definition of A133530 is `conditional`: the Lean definition is an OEIS formu
 
 `A133534(n+1)+A030078(n+3)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133530
@@ -4688,7 +4733,7 @@ end A133530
 /-!
 # A133531: Sum of fourth powers of three consecutive primes.
 
-The programs for A133531, the canonical program `A133531.P4606246075334968653` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133531 has offset 1).
+The programs for A133531, the canonical program `A133531.P4606246075334968653` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133531 has offset 1).
 
 The definition of A133531 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030514, A133535, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4697,7 +4742,7 @@ The definition of A133531 is `conditional`: the Lean definition is an OEIS formu
 
 `A133535(n+1)+A030514(n+3)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133531
@@ -4836,7 +4881,7 @@ end A133531
 /-!
 # A133532: Sum of fifth powers of three consecutive primes.
 
-The programs for A133532, the canonical program `A133532.P11489854846316048726` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133532 has offset 1).
+The programs for A133532, the canonical program `A133532.P11489854846316048726` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133532 has offset 1).
 
 The definition of A133532 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050997, A133536, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4845,7 +4890,7 @@ The definition of A133532 is `conditional`: the Lean definition is an OEIS formu
 
 `A133536(n+1)+A050997(n+3)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133532
@@ -4955,7 +5000,7 @@ end A133532
 /-!
 # A133533: Sum of sixth powers of three consecutive primes.
 
-The programs for A133533, the canonical program `A133533.P6140301617002194535` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133533 has offset 1).
+The programs for A133533, the canonical program `A133533.P6140301617002194535` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133533 has offset 1).
 
 The definition of A133533 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030516, A133537, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4964,7 +5009,7 @@ The definition of A133533 is `conditional`: the Lean definition is an OEIS formu
 
 `A133537(n+1)+A030516(n+3)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133533
@@ -5484,6 +5529,36 @@ namespace A133534
 /-- `∩[A120398(n+1), A352423(n+1)]` -/
 def P4133409732030238656.Spec : Prop :=
   ∀ n, (P4133409732030238656.a n : ℤ) = A133534 (n + 1)
+
+end A133534
+
+/-! ## A133534.P13141444770689980569
+
+`∩[A086121(n+1), A352423(n+1)]`
+-/
+
+namespace A133534.P13141444770689980569
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086121 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352423 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A133534.P13141444770689980569
+
+namespace A133534
+
+/-- `∩[A086121(n+1), A352423(n+1)]` -/
+def P13141444770689980569.Spec : Prop :=
+  ∀ n, (P13141444770689980569.a n : ℤ) = A133534 (n + 1)
 
 end A133534
 
@@ -7726,7 +7801,7 @@ end A133546
 /-!
 # A133547: a(n) = sum of squares of first n odd primes.
 
-The programs for A133547, the canonical program `A133547.P11212506623590984264` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133547 has offset 1).
+The programs for A133547, the canonical program `A133547.P11212506623590984264` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133547 has offset 1).
 
 The definition of A133547 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024450, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7735,7 +7810,7 @@ The definition of A133547 is `conditional`: the Lean definition is an OEIS formu
 
 `A024450(n+2)-4`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133547
@@ -7878,7 +7953,7 @@ end A133547
 /-!
 # A133548: a(n) = sum of cubes of first n odd primes.
 
-The programs for A133548, the canonical program `A133548.P7794647710270492703` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133548 has offset 1).
+The programs for A133548, the canonical program `A133548.P7794647710270492703` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133548 has offset 1).
 
 The definition of A133548 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A098999, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7887,7 +7962,7 @@ The definition of A133548 is `conditional`: the Lean definition is an OEIS formu
 
 `A098999(n+2)-8`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A133548
@@ -9455,6 +9530,29 @@ namespace A133555
 /-- `A065855(A113709(n+2)+char[1])` -/
 def P5365505210320050246.Spec : Prop :=
   ∀ n, P5365505210320050246.a n = A133555 (n + 2)
+
+end A133555
+
+/-! ## A133555.P14591351324099810494
+
+`A113709(n+2)-A009056(n+1)`
+-/
+
+namespace A133555.P14591351324099810494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113709 (n + 2) - A009056 (n + 1)
+
+end
+
+end A133555.P14591351324099810494
+
+namespace A133555
+
+/-- `A113709(n+2)-A009056(n+1)` -/
+def P14591351324099810494.Spec : Prop :=
+  ∀ n, P14591351324099810494.a n = A133555 (n + 2)
 
 end A133555
 
@@ -13523,6 +13621,36 @@ def P16856337610582027903.Spec : Prop :=
 
 end A133585
 
+/-! ## A133585.P3715939878598226029
+
+`∪[A048575(n), A055819(n)]`
+-/
+
+namespace A133585.P3715939878598226029
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048575 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055819 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A133585.P3715939878598226029
+
+namespace A133585
+
+/-- `∪[A048575(n), A055819(n)]` -/
+def P3715939878598226029.Spec : Prop :=
+  ∀ n, (P3715939878598226029.a n : ℤ) = A133585 (n + 1)
+
+end A133585
+
 /-! ## A133585.P710641421717084093
 
 `∪[A048575(n), A126358(n)]`
@@ -13610,29 +13738,6 @@ namespace A133585
 /-- `∪[A122367(n), A126358(n)]` -/
 def P1908610338011820845.Spec : Prop :=
   ∀ n, (P1908610338011820845.a n : ℤ) = A133585 (n + 1)
-
-end A133585
-
-/-! ## A133585.P11455492776326090220
-
-`A288219(n)-A133586(n+1)`
--/
-
-namespace A133585.P11455492776326090220
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A288219 n - A133586 (n + 1)
-
-end
-
-end A133585.P11455492776326090220
-
-namespace A133585
-
-/-- `A288219(n)-A133586(n+1)` -/
-def P11455492776326090220.Spec : Prop :=
-  ∀ n, P11455492776326090220.a n = A133585 (n + 1)
 
 end A133585
 

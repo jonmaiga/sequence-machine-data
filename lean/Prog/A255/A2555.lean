@@ -92,7 +92,7 @@ import Seq.Opaque.C023
 /-!
 # A255500: a(n) = (p^9 + 5*p^8 + 4*p^7 - p^6 - 5*p^5 + 2*p^4)/6 where p is the n-th prime.
 
-The programs for A255500, the canonical program `A255500.P15062980389255917047` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255500 has offset 1).
+The programs for A255500, the canonical program `A255500.P15062980389255917047` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255500 has offset 1).
 
 The definition of A255500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9890 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -101,7 +101,7 @@ The definition of A255500 is `conjectured`: the Lean definition is a formula tha
 
 `A229740(A024620(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A255500

@@ -10089,6 +10089,28 @@ end A134179.P17333138443481993328
 The programs for A134180, there is no canonical definition to state claims against.
 -/
 
+/-! ## A134180.P12441119619273008233
+
+`∩[2*n+1, A058871(n+1)]`
+-/
+
+namespace A134180.P12441119619273008233
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058871 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A134180.P12441119619273008233
+
 /-! ## A134180.P13612594265100010723
 
 `record[A000265(A058871(n+1))]`
@@ -10143,6 +10165,28 @@ end
 
 end A134180.P3529396183308206945
 
+/-! ## A134180.P6892119638271655897
+
+`∩[A058871(n+1), A060747(n)]`
+-/
+
+namespace A134180.P6892119638271655897
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058871 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060747 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A134180.P6892119638271655897
+
 /-! ## A134180.P2710699698841286876
 
 `A058871(eq[1, ∏{d}[2-A058871(n+1), #%2]]+1)`
@@ -10184,6 +10228,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A134180.P16799256957321232376
+
+/-! ## A134180.P11571007214371053994
+
+`∩[A058871(n+1), A283550(n+1)]`
+-/
+
+namespace A134180.P11571007214371053994
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058871 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283550 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A134180.P11571007214371053994
 
 /-!
 # A134181: Difference between cumulative prime and odd sums.

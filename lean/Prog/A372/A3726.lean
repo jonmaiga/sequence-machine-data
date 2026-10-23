@@ -52,7 +52,6 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -7835,6 +7834,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A372695.P5010202462617601788
+
+/-! ## A372695.P10231391456390729443
+
+`∪[A389551(n+1), A390905(n+1)]`
+-/
+
+namespace A372695.P10231391456390729443
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389551 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390905 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A372695.P10231391456390729443
 
 /-!
 # A372697: Index k such that A280866(k) = A019565(n) or 0 if A019565(n) does not appear in A280866.

@@ -2932,6 +2932,28 @@ end
 
 end A333440.P14777016676163028495
 
+/-! ## A333440.P16943436444372971615
+
+`∩[A221221(n+1), A352535(n+1)]`
+-/
+
+namespace A333440.P16943436444372971615
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A221221 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352535 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333440.P16943436444372971615
+
 /-! ## A333440.P10675253145142426472
 
 `∩[A299792(n+1), A352535(n+1)]`
@@ -2975,21 +2997,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333440.P6244297100825221724
-
-/-! ## A333440.P15409899444270082494
-
-`A004086(n)*A113587(A006852(n+1))`
--/
-
-namespace A333440.P15409899444270082494
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004086 n * A113587 (A006852 (n + 1)).toNat
-
-end
-
-end A333440.P15409899444270082494
 
 /-!
 # A333441: Numbers where each binary digit can be paired with a digit of the same value at another position so that two pairs can be nested but cannot otherwise overlap.
@@ -7596,6 +7603,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333489.P13407112371891278724
+
+/-! ## A333489.P6913314798228334671
+
+`∪[A233564(n+1), A374254(n+1)]`
+-/
+
+namespace A333489.P6913314798228334671
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A233564 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374254 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333489.P6913314798228334671
 
 /-!
 # A333490: First index of unequal prime quartets.

@@ -290,6 +290,50 @@ end
 
 end A252005.P13940317227817207235
 
+/-! ## A252005.P88701549623256204
+
+`∩[A093510(n+1), A178317(n+1)]`
+-/
+
+namespace A252005.P88701549623256204
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093510 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178317 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252005.P88701549623256204
+
+/-! ## A252005.P13143895464546792479
+
+`∩[A172409(n+1), A178317(n+1)]`
+-/
+
+namespace A252005.P13143895464546792479
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172409 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178317 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252005.P13143895464546792479
+
 /-! ## A252005.P8203708864406442662
 
 `∩[A227199(n+1), A321702(n+1)]`
@@ -2779,6 +2823,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A252044.P14348430470133803310
+
+/-! ## A252044.P8794300760704487166
+
+`∩[A089341(n+1), A190899(n+1)]`
+-/
+
+namespace A252044.P8794300760704487166
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089341 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A190899 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252044.P8794300760704487166
+
+/-! ## A252044.P4065524011120433550
+
+`∩[A089341(n+1), A298534(n+1)]`
+-/
+
+namespace A252044.P4065524011120433550
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089341 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298534 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252044.P4065524011120433550
 
 /-!
 # A252045: Number of (n+2) X (n+2) 0..3 arrays with every 3 X 3 subblock row and column sum not 1 3 6 or 8 and every diagonal and antidiagonal sum 1 3 6 or 8.

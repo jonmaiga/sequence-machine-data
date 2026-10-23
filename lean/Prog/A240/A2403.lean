@@ -35,7 +35,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -4565,19 +4564,19 @@ def P5275459448786889764.Spec : Prop :=
 
 end A240370
 
-/-! ## A240370.P4300428423001957773
+/-! ## A240370.P6848432413726333958
 
-`∩[A392698(n+1), A336918(n+1)]`
+`∩[A336918(n+1), A387177(n+1)]`
 -/
 
-namespace A240370.P4300428423001957773
+namespace A240370.P6848432413726333958
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392698 (n + 1)
+  A336918 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336918 (n + 1)
+  A387177 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4585,13 +4584,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A240370.P4300428423001957773
+end A240370.P6848432413726333958
 
 namespace A240370
 
-/-- `∩[A392698(n+1), A336918(n+1)]` -/
-def P4300428423001957773.Spec : Prop :=
-  ∀ n, (P4300428423001957773.a n : ℤ) = A240370 (n + 1)
+/-- `∩[A336918(n+1), A387177(n+1)]` -/
+def P6848432413726333958.Spec : Prop :=
+  ∀ n, (P6848432413726333958.a n : ℤ) = A240370 (n + 1)
 
 end A240370
 

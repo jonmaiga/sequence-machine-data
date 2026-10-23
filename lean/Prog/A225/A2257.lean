@@ -397,6 +397,72 @@ end
 
 end A225706.P9178206028594761925
 
+/-! ## A225706.P13239575629506387309
+
+`∩[A002038(n+1), A133576(n+1)]`
+-/
+
+namespace A225706.P13239575629506387309
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002038 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133576 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225706.P13239575629506387309
+
+/-! ## A225706.P12285394119130316098
+
+`∩[A002038(n+1), A137353(n+1)]`
+-/
+
+namespace A225706.P12285394119130316098
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002038 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137353 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225706.P12285394119130316098
+
+/-! ## A225706.P14140837133330515866
+
+`∩[A002038(n+1), A174896(n+1)]`
+-/
+
+namespace A225706.P14140837133330515866
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002038 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174896 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225706.P14140837133330515866
+
 /-!
 # A225707: Composite squarefree numbers n such that p(i)-7 divides n+7, where p(i) are the prime factors of n.
 
@@ -2033,6 +2099,21 @@ end
 
 end A225739.P10014907739969765174
 
+/-! ## A225739.P5844821806302782019
+
+`A059729(A069748(n+2))`
+-/
+
+namespace A225739.P5844821806302782019
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059729 (A069748 (n + 2)).toNat
+
+end
+
+end A225739.P5844821806302782019
+
 /-!
 # A225740: Number of arrangements of n nonattacking Queens on an n X n board, with no Queens on both main diagonals.
 
@@ -3398,6 +3479,36 @@ namespace A225756
 /-- `∪[A020725(A083795(n+1)-2), A083795(n+1)]` -/
 def P5260277807957818224.Spec : Prop :=
   ∀ n, (P5260277807957818224.a n : ℤ) = A225756 (n + 1)
+
+end A225756
+
+/-! ## A225756.P10917267343316125216
+
+`∪[A083795(n+1), A140578(n+1)]`
+-/
+
+namespace A225756.P10917267343316125216
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083795 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140578 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225756.P10917267343316125216
+
+namespace A225756
+
+/-- `∪[A083795(n+1), A140578(n+1)]` -/
+def P10917267343316125216.Spec : Prop :=
+  ∀ n, (P10917267343316125216.a n : ℤ) = A225756 (n + 1)
 
 end A225756
 

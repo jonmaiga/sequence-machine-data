@@ -61,6 +61,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1055,6 +1056,21 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 0, 1] fun n a =>
 end
 
 end A300418.P2992741744950406127
+
+/-! ## A300418.P5482618159279201990
+
+`A347793(A178703(n))`
+-/
+
+namespace A300418.P5482618159279201990
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347793 (A178703 n).toNat
+
+end
+
+end A300418.P5482618159279201990
 
 /-!
 # A300419: Smallest nonnegative number k such that k can be written in exactly n ways as x^2 + xy + y^2 where x and y are positive integers, with x >= y.

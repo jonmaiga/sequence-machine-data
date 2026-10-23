@@ -76,6 +76,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -273,20 +274,20 @@ end
 
 end A208402.P7868893558738920655
 
-/-! ## A208402.P1483477044756000212
+/-! ## A208402.P17724096483076454531
 
-`(8+3*2^(1+2*(n+1))+16^(n+1))/24`
+`A007583(n)*A052539(n)`
 -/
 
-namespace A208402.P1483477044756000212
+namespace A208402.P17724096483076454531
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (8 + 3 * 2 ^ (1 + 2 * (n + 1)) + 16 ^ (n + 1) : ℚ) / 24
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007583 n * A052539 n
 
 end
 
-end A208402.P1483477044756000212
+end A208402.P17724096483076454531
 
 /-!
 # A208403: Number of n X 3 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.
@@ -2845,6 +2846,34 @@ end
 end A208435.P16195162537799722165
 
 /-!
+# A208436: Indices of maximal gaps between consecutive nontrivial zeros of the Riemann zeta function.
+
+The programs for A208436, there is no canonical definition to state claims against.
+-/
+
+/-! ## A208436.P15930451035945396141
+
+`∩[A329823(n+1), A356930(n+1)]`
+-/
+
+namespace A208436.P15930451035945396141
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329823 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356930 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A208436.P15930451035945396141
+
+/-!
 # A208438: Number of n X n 0..2 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it.
 
 The programs for A208438, there is no canonical definition to state claims against.
@@ -4192,6 +4221,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A208455.P7940762551620180265
+
+/-! ## A208455.P1791935841797111835
+
+`∩[A071368(n+1), A204592(n+1)]`
+-/
+
+namespace A208455.P1791935841797111835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071368 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204592 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A208455.P1791935841797111835
 
 /-!
 # A208456: Numbers n such that prime(n) <= 2^(prime(n+1)-prime(n)) < prime(n+1).

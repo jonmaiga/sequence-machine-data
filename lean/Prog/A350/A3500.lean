@@ -3415,6 +3415,50 @@ end
 
 end A350056.P12756644795248647328
 
+/-! ## A350056.P3047082384202922398
+
+`∩[A105360(n+1), A299729(n+1)]`
+-/
+
+namespace A350056.P3047082384202922398
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105360 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299729 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350056.P3047082384202922398
+
+/-! ## A350056.P9013143495892453553
+
+`∩[A299729(n+1), A340325(n+1)]`
+-/
+
+namespace A350056.P9013143495892453553
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299729 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340325 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350056.P9013143495892453553
+
 /-!
 # A350057: Short leg lengths of integer-sided triangles with hypotenuse A084645(n).
 
@@ -5774,6 +5818,29 @@ namespace A350073
 /-- `A064989(∑{d}[n+1, #])` -/
 def P9222706285539726833.Spec : Prop :=
   ∀ n, P9222706285539726833.a n = A350073 (n + 1)
+
+end A350073
+
+/-! ## A350073.P15341092868804462188
+
+`A064989(A001065(n+1)+n+1)`
+-/
+
+namespace A350073.P15341092868804462188
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064989 (A001065 (n + 1) + (n + 1 : ℤ)).toNat
+
+end
+
+end A350073.P15341092868804462188
+
+namespace A350073
+
+/-- `A064989(A001065(n+1)+n+1)` -/
+def P15341092868804462188.Spec : Prop :=
+  ∀ n, P15341092868804462188.a n = A350073 (n + 1)
 
 end A350073
 

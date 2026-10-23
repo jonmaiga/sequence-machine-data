@@ -13,6 +13,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -38,7 +39,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -53,7 +53,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -1180,16 +1179,16 @@ end
 
 end A368325.P15683096941985988827
 
-/-! ## A368325.P13939690621128521069
+/-! ## A368325.P17607841342422350684
 
-`∩[A332290(n+1), A332291(n+1)]`
+`∩[A070175(n), A332291(n+1)]`
 -/
 
-namespace A368325.P13939690621128521069
+namespace A368325.P17607841342422350684
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332290 (n + 1)
+  A070175 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A332291 (n + 1)
@@ -1200,21 +1199,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A368325.P13939690621128521069
+end A368325.P17607841342422350684
 
-/-! ## A368325.P8084880158325448595
+/-! ## A368325.P17057445846754325548
 
-`∩[A332291(n+1), A332293(n+1)]`
+`∩[A025487(n+1), A332291(n+1)]`
 -/
 
-namespace A368325.P8084880158325448595
+namespace A368325.P17057445846754325548
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332291 (n + 1)
+  A025487 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332293 (n + 1)
+  A332291 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1222,7 +1221,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A368325.P8084880158325448595
+end A368325.P17057445846754325548
 
 /-!
 # A368328: The number of terms of A054743 that divide n.

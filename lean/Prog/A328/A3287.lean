@@ -42,7 +42,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -6194,6 +6193,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328761.P17791936421064772002
+
+/-!
+# A328762: Numbers n for which 2 < A257993(A276086(A276086(n))) < A257993(n), where A276086 converts the primorial base expansion of n into its prime product form, and A257993 returns the index of the least prime not present in its argument.
+
+The programs for A328762, there is no canonical definition to state claims against.
+-/
+
+/-! ## A328762.P15686480515160041278
+
+`∩[A328634(n+1), A360146(n+1)]`
+-/
+
+namespace A328762.P15686480515160041278
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328634 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360146 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328762.P15686480515160041278
 
 /-!
 # A328763: a(n) = A328613(A276086(n)).

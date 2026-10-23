@@ -7441,6 +7441,28 @@ end A186892.P13827770182798053543
 The programs for A186893, there is no canonical definition to state claims against.
 -/
 
+/-! ## A186893.P9463451209360096125
+
+`∩[A186890(n+1), A186891(n+1)]`
+-/
+
+namespace A186893.P9463451209360096125
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186890 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186891 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A186893.P9463451209360096125
+
 /-! ## A186893.P14645091896020914646
 
 `and(∑[2^n], A305859(floor(((2^n+1)/2)²)))`
@@ -7491,21 +7513,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A186893.P5071155513706954459
-
-/-! ## A186893.P7560190580866803405
-
-`A131572(2*(n+1))-A231725(A182465(n))`
--/
-
-namespace A186893.P7560190580866803405
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131572 (2 * (n + 1)) - A231725 (A182465 n).toNat
-
-end
-
-end A186893.P7560190580866803405
 
 /-!
 # A186894: Number of (n+1)X(n+1) binary arrays with every 2X2 subblock determinant equal to exactly one or two horizontal and vertical neighbor 2X2 subblock determinants.

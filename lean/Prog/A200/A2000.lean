@@ -227,6 +227,21 @@ end
 
 end A200001.P13727995982094058466
 
+/-! ## A200001.P14159828542470826083
+
+`A174995(A347520(n+1))`
+-/
+
+namespace A200001.P14159828542470826083
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174995 (A347520 (n + 1)).toNat
+
+end
+
+end A200001.P14159828542470826083
+
 /-!
 # A200002: G.f.: exp( Sum_{n>=1} C(2*n,n)^n/2^n * x^n/n ).
 

@@ -33,7 +33,7 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
@@ -346,6 +346,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A030702.P17464640979366254059
+
+/-! ## A030702.P16265400703574353098
+
+`A305926(n)+A011728(n)`
+-/
+
+namespace A030702.P16265400703574353098
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305926 n + A011728 n
+
+end
+
+end A030702.P16265400703574353098
 
 /-!
 # A030703: Decimal expansion of 7^n contains no zeros (probably finite).

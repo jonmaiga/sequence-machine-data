@@ -87,6 +87,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -1072,6 +1073,36 @@ def P2199593589668862998.Spec : Prop :=
 
 end A070004
 
+/-! ## A070004.P4624484058616162568
+
+`∪[A020714(n), A110286(n)]`
+-/
+
+namespace A070004.P4624484058616162568
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020714 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110286 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070004.P4624484058616162568
+
+namespace A070004
+
+/-- `∪[A020714(n), A110286(n)]` -/
+def P4624484058616162568.Spec : Prop :=
+  ∀ n, (P4624484058616162568.a n : ℤ) = A070004 (n + 1)
+
+end A070004
+
 /-! ## A070004.P8843111098086362907
 
 `A089693(n+3)/2`
@@ -1203,19 +1234,19 @@ def P4953076895182695554.Spec : Prop :=
 
 end A070004
 
-/-! ## A070004.P4929545677021204796
+/-! ## A070004.P15475101286263780770
 
-`∩[A080193(n+1), A129523(n+1)]`
+`∩[A051916(n+1), A080193(n+1)]`
 -/
 
-namespace A070004.P4929545677021204796
+namespace A070004.P15475101286263780770
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080193 (n + 1)
+  A051916 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129523 (n + 1)
+  A080193 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1223,13 +1254,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A070004.P4929545677021204796
+end A070004.P15475101286263780770
 
 namespace A070004
 
-/-- `∩[A080193(n+1), A129523(n+1)]` -/
-def P4929545677021204796.Spec : Prop :=
-  ∀ n, (P4929545677021204796.a n : ℤ) = A070004 (n + 1)
+/-- `∩[A051916(n+1), A080193(n+1)]` -/
+def P15475101286263780770.Spec : Prop :=
+  ∀ n, (P15475101286263780770.a n : ℤ) = A070004 (n + 1)
 
 end A070004
 
@@ -1471,6 +1502,28 @@ end A070005
 The programs for A070006, there is no canonical definition to state claims against.
 -/
 
+/-! ## A070006.P4180273154893966830
+
+`∩[2*n+1, A114985(n+1)]`
+-/
+
+namespace A070006.P4180273154893966830
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114985 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070006.P4180273154893966830
+
 /-! ## A070006.P13204063537104380878
 
 `record[A000265(A114985(n+2))]`
@@ -1542,24 +1595,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070006.P8367213085515643394
-
-/-! ## A070006.P12105944733845745586
-
-`filter[A114985(n+1), A266444(#)]`
--/
-
-namespace A070006.P12105944733845745586
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114985 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A266444 (f1 j).toNat = 1) n)
-
-end
-
-end A070006.P12105944733845745586
 
 /-!
 # A070008: Arithmetic mean of distinct primes dividing n is a power of 2 (powers of 2 are not left out).
@@ -3997,6 +4032,36 @@ theorem P5242665352771384426.correct : P5242665352771384426.Spec := by
 
 end A070027
 
+/-! ## A070027.P10385391983240156077
+
+`∩[A028834(n+1), A078403(n+1)]`
+-/
+
+namespace A070027.P10385391983240156077
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028834 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078403 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070027.P10385391983240156077
+
+namespace A070027
+
+/-- `∩[A028834(n+1), A078403(n+1)]` -/
+def P10385391983240156077.Spec : Prop :=
+  ∀ n, (P10385391983240156077.a n : ℤ) = A070027 (n + 1)
+
+end A070027
+
 /-! ## A070027.P5253471971360017404
 
 `p?[A070026(n+1)]`
@@ -4529,36 +4594,6 @@ def P8234682540782715045.Spec : Prop :=
 
 end A070027
 
-/-! ## A070027.P10288979413489026265
-
-`∩[A070026(n+1), A175787(n+1)]`
--/
-
-namespace A070027.P10288979413489026265
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070026 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175787 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A070027.P10288979413489026265
-
-namespace A070027
-
-/-- `∩[A070026(n+1), A175787(n+1)]` -/
-def P10288979413489026265.Spec : Prop :=
-  ∀ n, (P10288979413489026265.a n : ℤ) = A070027 (n + 1)
-
-end A070027
-
 /-!
 # A070028: Absolute primes: primes whose initial, all intermediate and final sums of digits are primes.
 
@@ -4600,6 +4635,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A070028.P6119976127893341060
+
+/-! ## A070028.P12235898387329438835
+
+`∩[A070027(n+1), A091897(n+1)]`
+-/
+
+namespace A070028.P12235898387329438835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070027 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091897 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070028.P12235898387329438835
+
+/-! ## A070028.P5608552505200530043
+
+`∩[A091897(n+1), A118723(n+1)]`
+-/
+
+namespace A070028.P5608552505200530043
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091897 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118723 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070028.P5608552505200530043
 
 /-!
 # A070029: Primes with only prime digits and whose initial, all intermediate and final iterated sums of digits are primes.

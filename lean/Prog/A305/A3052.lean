@@ -820,7 +820,7 @@ end A305214.P3224948205839157615
 /-!
 # A305215: a(n) is the number of numbers whose largest prime power factor equals A000961(n).
 
-The programs for A305215, the canonical program `A305215.P4341798104762692550` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305215 has offset 1).
+The programs for A305215, the canonical program `A305215.P4341798104762692550` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305215 has offset 1).
 
 The definition of A305215 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A000961, A051451, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -829,7 +829,7 @@ The definition of A305215 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A051451(n+1)/A000961(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A305215
@@ -2466,6 +2466,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A305231.P1008743762613789209
+
+/-! ## A305231.P1099072502251198636
+
+`∪[A325148(n+1), A359981(n+1)]`
+-/
+
+namespace A305231.P1099072502251198636
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325148 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359981 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305231.P1099072502251198636
+
+/-! ## A305231.P12208830405931639420
+
+`∪[A325149(n+1), A359981(n+1)]`
+-/
+
+namespace A305231.P12208830405931639420
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325149 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359981 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305231.P12208830405931639420
 
 /-!
 # A305232: Number of ordered ways to write 2*n+1 as p + binomial(2k,k) + 2*binomial(2m,m), where p is an odd prime, and k and m are nonnegative integers.
@@ -4760,6 +4804,28 @@ end
 
 end A305257.P5421316103792084814
 
+/-! ## A305257.P4401411661874570886
+
+`∩[A055931(n+1), A064702(n+1)]`
+-/
+
+namespace A305257.P4401411661874570886
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055931 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064702 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305257.P4401411661874570886
+
 /-! ## A305257.P14918493500240761440
 
 `∩[A055933(n+1), A064702(n+1)]`
@@ -4782,6 +4848,28 @@ end
 
 end A305257.P14918493500240761440
 
+/-! ## A305257.P13284060528250612425
+
+`∩[A064158(n+1), A064702(n+1)]`
+-/
+
+namespace A305257.P13284060528250612425
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064158 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064702 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A305257.P13284060528250612425
+
 /-! ## A305257.P5611055865311877287
 
 `∩[A061013(n+1), A083114(n+1)]`
@@ -4803,50 +4891,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A305257.P5611055865311877287
-
-/-! ## A305257.P15687691008135352618
-
-`∩[A064702(n+1), A083114(n+1)]`
--/
-
-namespace A305257.P15687691008135352618
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064702 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083114 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A305257.P15687691008135352618
-
-/-! ## A305257.P355520582003563135
-
-`∩[A055933(n+1), A128290(n+1)]`
--/
-
-namespace A305257.P355520582003563135
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055933 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A128290 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A305257.P355520582003563135
 
 /-!
 # A305258: List of y-coordinates of a point moving in a smooth counterclockwise spiral rotated by Pi/4.

@@ -1192,6 +1192,28 @@ end A071113.P10288622567417237079
 The programs for A071114, there is no canonical definition to state claims against.
 -/
 
+/-! ## A071114.P468152064065771577
+
+`∩[A009087(n+1), A070763(n+1)]`
+-/
+
+namespace A071114.P468152064065771577
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009087 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070763 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A071114.P468152064065771577
+
 /-! ## A071114.P3830364597417472000
 
 `record[A008475(A070763(n+1))]`
@@ -1263,24 +1285,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071114.P6751059781708779769
-
-/-! ## A071114.P9721561510962134611
-
-`filter[A070763(n+1), A354924(#)]`
--/
-
-namespace A071114.P9721561510962134611
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070763 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A354924 (f1 j).toNat = 1) n)
-
-end
-
-end A071114.P9721561510962134611
 
 /-!
 # A071115: a(1) = 1; a(n+1) is the smallest integer > 0 that cannot be obtained from the integers {a(1), ..., a(n)} using each number at most once and the operators +, -, *, /, where intermediate subexpressions must be integers.
@@ -3246,6 +3250,50 @@ end
 
 end A071139.P8144025664021687377
 
+/-! ## A071139.P13161337520189125996
+
+`∪[A071140(n+1), A363727(n+1)]`
+-/
+
+namespace A071139.P13161337520189125996
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071140 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363727 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A071139.P13161337520189125996
+
+/-! ## A071139.P7298457857570606624
+
+`∪[A363727(n+1), A365795(n+1)]`
+-/
+
+namespace A071139.P7298457857570606624
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363727 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A365795 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A071139.P7298457857570606624
+
 /-! ## A071139.P9528110399751986268
 
 `record[A086486(n+1)%A000010(A086473(n+1))]`
@@ -3263,28 +3311,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071139.P9528110399751986268
-
-/-! ## A071139.P17320868319917990516
-
-`∩[A086486(n+1), A360552(n+1)]`
--/
-
-namespace A071139.P17320868319917990516
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086486 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A360552 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A071139.P17320868319917990516
 
 /-!
 # A071140: Numbers n such that sum of distinct primes dividing n is divisible by largest prime dividing n; n is neither a prime, nor a true power of prime.
@@ -4481,6 +4507,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A071143.P6265153452630930172
+
+/-! ## A071143.P7938702456286259507
+
+`∩[A046390(n+1), A071141(n+1)]`
+-/
+
+namespace A071143.P7938702456286259507
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046390 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071141 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A071143.P7938702456286259507
 
 /-! ## A071143.P15002068916239470755
 
@@ -10784,6 +10832,21 @@ end
 
 end A071187.P2073435115197337196
 
+/-! ## A071187.P14787008060692530228
+
+`A020639(A133702(n+1))`
+-/
+
+namespace A071187.P14787008060692530228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (A133702 (n + 1)).toNat
+
+end
+
+end A071187.P14787008060692530228
+
 /-! ## A071187.P12456479741893321521
 
 `A020639(A152235(n+1))`
@@ -10858,21 +10921,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A071187.P15718392531581911177
-
-/-! ## A071187.P13359315781038495795
-
-`A082067(A000005(n+1)²)`
--/
-
-namespace A071187.P13359315781038495795
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082067 (A000005 (n + 1) ^ 2).toNat
-
-end
-
-end A071187.P13359315781038495795
 
 /-!
 # A071188: Largest prime factor of number of divisors of n; a(1)=1.

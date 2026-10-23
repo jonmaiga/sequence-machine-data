@@ -398,6 +398,59 @@ def P4457132129619583630.Spec : Prop :=
 
 end A192002
 
+/-! ## A192002.P15590933570564372045
+
+`∑[char[A003623(n+1)]]`
+-/
+
+namespace A192002.P15590933570564372045
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003623 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A192002.P15590933570564372045
+
+namespace A192002
+
+/-- `∑[char[A003623(n+1)]]` -/
+def P15590933570564372045.Spec : Prop :=
+  ∀ n, (P15590933570564372045.a n : ℤ) = A192002 (n + 1)
+
+end A192002
+
+/-! ## A192002.P4677866836876158434
+
+`A005206(A060144(n))`
+-/
+
+namespace A192002.P4677866836876158434
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005206 (A060144 n).toNat
+
+end
+
+end A192002.P4677866836876158434
+
+namespace A192002
+
+/-- `A005206(A060144(n))` -/
+def P4677866836876158434.Spec : Prop :=
+  ∀ n, P4677866836876158434.a n = A192002 (n + 1)
+
+end A192002
+
 /-!
 # A192004: Alternating row sums of array A187360: minimal polynomial of 2*cos(Pi/n) evaluated for x=-1.
 
@@ -1994,10 +2047,25 @@ end
 
 end A192013.P4802679646791530665
 
+/-! ## A192013.P7084526386136668750
+
+`A261122(4*(n+1))`
+-/
+
+namespace A192013.P7084526386136668750
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261122 (4 * (n + 1))
+
+end
+
+end A192013.P7084526386136668750
+
 /-!
 # A192015: Arithmetic derivative of prime powers: a(n) = A003415(A000961(n)).
 
-The programs for A192015, the canonical program `A192015.P4229160100283672966` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192015 has offset 1).
+The programs for A192015, the canonical program `A192015.P4229160100283672966` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192015 has offset 1).
 
 The definition of A192015 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A003415, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2029,7 +2097,7 @@ end A192015
 
 `A003415(A000961(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A192015
@@ -2482,7 +2550,7 @@ end A192015
 /-!
 # A192016: Second arithmetic derivative of prime powers: a(n) = A068346(A000961(n)).
 
-The programs for A192016, the canonical program `A192016.P16767294491399354515` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192016 has offset 1).
+The programs for A192016, the canonical program `A192016.P16767294491399354515` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192016 has offset 1).
 
 The definition of A192016 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A068346, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2491,7 +2559,7 @@ The definition of A192016 is `conditional`: the Lean definition is an OEIS formu
 
 `A068346(A000961(n+1))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A192016
@@ -3042,6 +3110,75 @@ def P17471037079244728558.Spec : Prop :=
 
 end A192021
 
+/-! ## A192021.P18146443951877464331
+
+`A002699(n)-A006516(n)`
+-/
+
+namespace A192021.P18146443951877464331
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002699 n - A006516 n
+
+end
+
+end A192021.P18146443951877464331
+
+namespace A192021
+
+/-- `A002699(n)-A006516(n)` -/
+def P18146443951877464331.Spec : Prop :=
+  ∀ n, P18146443951877464331.a n = A192021 n
+
+end A192021
+
+/-! ## A192021.P13848260506132126856
+
+`A086093(n)-A094375(n)`
+-/
+
+namespace A192021.P13848260506132126856
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086093 n - A094375 n
+
+end
+
+end A192021.P13848260506132126856
+
+namespace A192021
+
+/-- `A086093(n)-A094375(n)` -/
+def P13848260506132126856.Spec : Prop :=
+  ∀ n, P13848260506132126856.a n = A192021 n
+
+end A192021
+
+/-! ## A192021.P5941137258268099891
+
+`lcm(A000337(n), A011782(n))`
+-/
+
+namespace A192021.P5941137258268099891
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A000337 n) (A011782 n)
+
+end
+
+end A192021.P5941137258268099891
+
+namespace A192021
+
+/-- `lcm(A000337(n), A011782(n))` -/
+def P5941137258268099891.Spec : Prop :=
+  ∀ n, (P5941137258268099891.a n : ℤ) = A192021 n
+
+end A192021
+
 /-! ## A192021.P10590737509381924385
 
 `A011782(n)*A036799(n)/2`
@@ -3111,6 +3248,98 @@ def P7749268145825117700.Spec : Prop :=
 
 end A192021
 
+/-! ## A192021.P5350135434099383500
+
+`A002697(n)+A002697(n)-A006516(n)`
+-/
+
+namespace A192021.P5350135434099383500
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002697 n + (A002697 n - A006516 n)
+
+end
+
+end A192021.P5350135434099383500
+
+namespace A192021
+
+/-- `A002697(n)+A002697(n)-A006516(n)` -/
+def P5350135434099383500.Spec : Prop :=
+  ∀ n, P5350135434099383500.a n = A192021 n
+
+end A192021
+
+/-! ## A192021.P4922675136867847388
+
+`A000079(n)*A001792(n)-A010036(n)`
+-/
+
+namespace A192021.P4922675136867847388
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n * A001792 n - A010036 n
+
+end
+
+end A192021.P4922675136867847388
+
+namespace A192021
+
+/-- `A000079(n)*A001792(n)-A010036(n)` -/
+def P4922675136867847388.Spec : Prop :=
+  ∀ n, P4922675136867847388.a n = A192021 n
+
+end A192021
+
+/-! ## A192021.P9963605132701239835
+
+`A131577(n)-A131577(n)*A159964(n)`
+-/
+
+namespace A192021.P9963605132701239835
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131577 n - A131577 n * A159964 n
+
+end
+
+end A192021.P9963605132701239835
+
+namespace A192021
+
+/-- `A131577(n)-A131577(n)*A159964(n)` -/
+def P9963605132701239835.Spec : Prop :=
+  ∀ n, P9963605132701239835.a n = A192021 n
+
+end A192021
+
+/-! ## A192021.P8203927341076678594
+
+`A001792(n)*A011782(n+1)-A010036(n)`
+-/
+
+namespace A192021.P8203927341076678594
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001792 n * A011782 (n + 1) - A010036 n
+
+end
+
+end A192021.P8203927341076678594
+
+namespace A192021
+
+/-- `A001792(n)*A011782(n+1)-A010036(n)` -/
+def P8203927341076678594.Spec : Prop :=
+  ∀ n, P8203927341076678594.a n = A192021 n
+
+end A192021
+
 /-!
 # A192023: The Wiener index of the comb-shaped graph |_|_|...|_| with 2n (n>=1) nodes. The Wiener index of a connected graph is the sum of the distances between all unordered pairs of vertices in the graph.
 
@@ -3131,6 +3360,35 @@ namespace A192023
 /-- `(n+1)*(2*(n+1)²+6*(n+1)-5)/3` -/
 def P3295291955986755228.Spec : Prop :=
   ∀ n, P3295291955986755228.a n = (A192023 (n + 1) : ℚ)
+
+end A192023
+
+/-! ## A192023.P2536584852617077410
+
+`∑[∑[ogf((1+6x-3x^2)/(1-2x+x^2))]]`
+-/
+
+namespace A192023.P2536584852617077410
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 6, -3] [1, -2, 1] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A192023.P2536584852617077410
+
+namespace A192023
+
+/-- `∑[∑[ogf((1+6x-3x^2)/(1-2x+x^2))]]` -/
+def P2536584852617077410.Spec : Prop :=
+  ∀ n, P2536584852617077410.a n = A192023 (n + 1)
 
 end A192023
 
@@ -3483,6 +3741,110 @@ def P12176983582849177438.Spec : Prop :=
 
 end A192023
 
+/-! ## A192023.P12501510011965778409
+
+`∑[A059993(n)]`
+-/
+
+namespace A192023.P12501510011965778409
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059993 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A192023.P12501510011965778409
+
+namespace A192023
+
+/-- `∑[A059993(n)]` -/
+def P12501510011965778409.Spec : Prop :=
+  ∀ n, P12501510011965778409.a n = A192023 (n + 1)
+
+end A192023
+
+/-! ## A192023.P6633438294825833656
+
+`∑[A139570(n)+1]`
+-/
+
+namespace A192023.P6633438294825833656
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139570 n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A192023.P6633438294825833656
+
+namespace A192023
+
+/-- `∑[A139570(n)+1]` -/
+def P6633438294825833656.Spec : Prop :=
+  ∀ n, P6633438294825833656.a n = A192023 (n + 1)
+
+end A192023
+
+/-! ## A192023.P10720267562575231347
+
+`∑[A090288(n)-1]`
+-/
+
+namespace A192023.P10720267562575231347
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090288 n - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A192023.P10720267562575231347
+
+namespace A192023
+
+/-- `∑[A090288(n)-1]` -/
+def P10720267562575231347.Spec : Prop :=
+  ∀ n, P10720267562575231347.a n = A192023 (n + 1)
+
+end A192023
+
+/-! ## A192023.P8206019504093396010
+
+`∑[A028884(n)+n²]`
+-/
+
+namespace A192023.P8206019504093396010
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028884 n + (n ^ 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A192023.P8206019504093396010
+
+namespace A192023
+
+/-- `∑[A028884(n)+n²]` -/
+def P8206019504093396010.Spec : Prop :=
+  ∀ n, P8206019504093396010.a n = A192023 (n + 1)
+
+end A192023
+
 /-! ## A192023.P7741081811312079787
 
 `A081438(n)-∑[n²]`
@@ -3506,78 +3868,6 @@ namespace A192023
 /-- `A081438(n)-∑[n²]` -/
 def P7741081811312079787.Spec : Prop :=
   ∀ n, P7741081811312079787.a n = A192023 (n + 1)
-
-end A192023
-
-/-! ## A192023.P7745094345425960476
-
-`A112524(n+1)+n²`
--/
-
-namespace A192023.P7745094345425960476
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112524 (n + 1) + (n ^ 2 : ℤ)
-
-end
-
-end A192023.P7745094345425960476
-
-namespace A192023
-
-/-- `A112524(n+1)+n²` -/
-def P7745094345425960476.Spec : Prop :=
-  ∀ n, P7745094345425960476.a n = A192023 (n + 1)
-
-end A192023
-
-/-! ## A192023.P7382458587138232140
-
-`A005900(n)+Δ[n²]²`
--/
-
-namespace A192023.P7382458587138232140
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005900 n + ((f1 (n + 1) : ℤ) - (f1 n : ℤ)) ^ 2
-
-end
-
-end A192023.P7382458587138232140
-
-namespace A192023
-
-/-- `A005900(n)+Δ[n²]²` -/
-def P7382458587138232140.Spec : Prop :=
-  ∀ n, P7382458587138232140.a n = A192023 (n + 1)
-
-end A192023
-
-/-! ## A192023.P4546914198537750463
-
-`A059993(n)+a(n-1)` with `a(0)=1`
--/
-
-namespace A192023.P4546914198537750463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A059993 n + a (n - 1)
-
-end
-
-end A192023.P4546914198537750463
-
-namespace A192023
-
-/-- `A059993(n)+a(n-1)` -/
-def P4546914198537750463.Spec : Prop :=
-  ∀ n, P4546914198537750463.a n = A192023 (n + 1)
 
 end A192023
 
@@ -8113,7 +8403,7 @@ end A192082
 /-!
 # A192083: Arithmetic derivative of squares of prime powers: a(n) = A003415(A056798(n)).
 
-The programs for A192083, the canonical program `A192083.P12204997390210467682` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192083 has offset 1).
+The programs for A192083, the canonical program `A192083.P12204997390210467682` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192083 has offset 1).
 
 The definition of A192083 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A056798, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8145,7 +8435,7 @@ end A192083
 
 `A003415(A056798(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A192083
@@ -8483,7 +8773,7 @@ end A192083
 /-!
 # A192084: Second arithmetic derivative of squares of prime powers: a(n)=A068346(A056798(n)).
 
-The programs for A192084, the canonical program `A192084.P12604787591880010754` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192084 has offset 1).
+The programs for A192084, the canonical program `A192084.P12604787591880010754` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192084 has offset 1).
 
 The definition of A192084 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056798, A068346, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8492,7 +8782,7 @@ The definition of A192084 is `conditional`: the Lean definition is an OEIS formu
 
 `A068346(A056798(n+1))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A192084

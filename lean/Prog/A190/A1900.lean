@@ -4275,25 +4275,25 @@ end A190034.P18418751201325432610
 /-!
 # A190035: Number of nondecreasing arrangements of n+2 numbers in 0..3 with the last equal to 3 and each after the second equal to the sum of one or two of the preceding three.
 
-The programs for A190035, the canonical program `A190035.P15015409366306645168` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190035 has offset 1).
+The programs for A190035, the canonical program `A190035.P17255492557196169036` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190035 has offset 1).
 
 The definition of A190035 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A190035.P15015409366306645168
+/-! ## A190035.P17255492557196169036
 
-`2*a(n-1)-a(n-2)` with `a(0)=5, a(1)=7, a(2)=10, a(3)=14`
+`a(n-1)+4` with `a(0)=5, a(1)=7, a(2)=10`
 
 The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A190035
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P15015409366306645168.Spec : Prop :=
-  ∀ n, P15015409366306645168.a n = A190035 (n + 1)
+/-- `a(n-1)+4` -/
+def P17255492557196169036.Spec : Prop :=
+  ∀ n, (P17255492557196169036.a n : ℤ) = A190035 (n + 1)
 
-theorem P15015409366306645168.correct : P15015409366306645168.Spec := by
+theorem P17255492557196169036.correct : P17255492557196169036.Spec := by
   intro n
   simp only [A190035, Nat.add_sub_cancel]
 

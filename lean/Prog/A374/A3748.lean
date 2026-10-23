@@ -75,6 +75,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A374806: a(n) is the smallest number which can be represented as the sum of 3 distinct nonzero triangular numbers in exactly n ways, or -1 if no such number exists.
@@ -964,6 +965,21 @@ end
 
 end A374841.P13642584241058963671
 
+/-! ## A374841.P13815907631969400800
+
+`A108372(A008070(n))`
+-/
+
+namespace A374841.P13815907631969400800
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108372 (A008070 n).toNat
+
+end
+
+end A374841.P13815907631969400800
+
 /-!
 # A374842: Number of 7-regular labeled graphs on 2n nodes.
 
@@ -1577,27 +1593,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A374847.P11314980442044148980
-
-/-! ## A374847.P3245967997393107437
-
-`lt[A322327(A185780(3*n+4)), A138867(n+1)]`
--/
-
-namespace A374847.P3245967997393107437
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322327 (A185780 (3 * n + 4)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138867 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A374847.P3245967997393107437
 
 /-!
 # A374848: Obverse convolution A000045**A000045; see Comments.

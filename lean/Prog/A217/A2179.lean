@@ -576,6 +576,21 @@ end
 
 end A217908.P9818309650111112989
 
+/-! ## A217908.P2122820211919397218
+
+`A129539(A094372(n+1))`
+-/
+
+namespace A217908.P2122820211919397218
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129539 (A094372 (n + 1)).toNat
+
+end
+
+end A217908.P2122820211919397218
+
 /-!
 # A217910: O.g.f.: Sum_{n>=0} n^n*(2*n+1)^(n-1) * exp(-n*(2*n+1)*x) * x^n / n!.
 
@@ -8124,26 +8139,29 @@ def P11529906766185110853.Spec : Prop :=
 
 end A217994
 
-/-! ## A217994.P15556855862435124536
+/-! ## A217994.P18151209891267233805
 
-`2*2^C(n+1, 2)`
+`floor(2/acot(2^∑[n]))`
 -/
 
-namespace A217994.P15556855862435124536
+namespace A217994.P18151209891267233805
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * 2 ^ Nat.choose (n + 1) 2
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊2 / SequenceMachineLib.acot (2 ^ (∑ j ∈ Finset.range (n + 1), f1 j) : ℝ)⌋
 
 end
 
-end A217994.P15556855862435124536
+end A217994.P18151209891267233805
 
 namespace A217994
 
-/-- `2*2^C(n+1, 2)` -/
-def P15556855862435124536.Spec : Prop :=
-  ∀ n, (P15556855862435124536.a n : ℤ) = A217994 n
+/-- `floor(2/acot(2^∑[n]))` -/
+def P18151209891267233805.Spec : Prop :=
+  ∀ n, P18151209891267233805.a n = A217994 n
 
 end A217994
 

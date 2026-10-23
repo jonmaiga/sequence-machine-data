@@ -6359,6 +6359,32 @@ def P14766317885987919042.Spec : Prop :=
 
 end A160457
 
+/-! ## A160457.P2017361570826001527
+
+`∑[a(n-1)+2]` with `a(0)=2, a(1)=-1`
+-/
+
+namespace A160457.P2017361570826001527
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [2, -1] fun n f1 =>
+  f1 (n - 1) + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A160457.P2017361570826001527
+
+namespace A160457
+
+/-- `∑[a(n-1)+2]` -/
+def P2017361570826001527.Spec : Prop :=
+  ∀ n, P2017361570826001527.a n = A160457 n
+
+end A160457
+
 /-!
 # A160458: Coefficients in the expansion of C^2/B^10, in Watson's notation of page 106.
 

@@ -4460,6 +4460,28 @@ end
 
 end A341938.P3224924043092180387
 
+/-! ## A341938.P11433425410427711869
+
+`∪[A341939(n+1), A341940(n+1)]`
+-/
+
+namespace A341938.P11433425410427711869
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341939 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341940 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A341938.P11433425410427711869
+
 /-!
 # A341939: Numbers m such that phi(m)/tau(m) is a square of an integer where phi is the Euler totient function (A000010) and tau is the number of divisors function (A000005).
 
@@ -4485,6 +4507,28 @@ end
 
 end A341939.P17459364396646959269
 
+/-! ## A341939.P4652823912826370586
+
+`∩[A003619(n+1), A341938(n+1)]`
+-/
+
+namespace A341939.P4652823912826370586
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003619 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341938 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A341939.P4652823912826370586
+
 /-! ## A341939.P605990001868625377
 
 `∩[A020491(n+1), A341938(n+1)]`
@@ -4507,50 +4551,49 @@ end
 
 end A341939.P605990001868625377
 
-/-! ## A341939.P6280763985130143042
+/-! ## A341939.P8082507921096065417
 
-`A341938(A299702(n+1))%A341938(3*n+2)`
+`∩[A260255(n+1), A341938(n+1)]`
 -/
 
-namespace A341939.P6280763985130143042
+namespace A341939.P8082507921096065417
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A341938 (A299702 (n + 1)).toNat) (A341938 (3 * n + 2))
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260255 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341938 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A341939.P6280763985130143042
+end A341939.P8082507921096065417
 
-/-! ## A341939.P3997797923726805267
+/-! ## A341939.P8907998321738476332
 
-`A325789(2*(n+2))*A341938(A299702(n+1))`
+`∩[A318535(n+1), A341938(n+1)]`
 -/
 
-namespace A341939.P3997797923726805267
+namespace A341939.P8907998321738476332
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325789 (2 * (n + 2)) * A341938 (A299702 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318535 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341938 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A341939.P3997797923726805267
-
-/-! ## A341939.P4938592345126621335
-
-`A341938(A299702(n+1))%A171399(n+1)`
--/
-
-namespace A341939.P4938592345126621335
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A341938 (A299702 (n + 1)).toNat) (A171399 (n + 1))
-
-end
-
-end A341939.P4938592345126621335
+end A341939.P8907998321738476332
 
 /-!
 # A341941: T(n,k) is the number of unlabeled even graphs with n vertices and k edges; irregular triangular array T read by rows (n >= 0, 0 <= k <= n*(n-1)/2).

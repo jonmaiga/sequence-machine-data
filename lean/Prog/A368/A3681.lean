@@ -51,7 +51,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -276,6 +275,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A368101.P5856048149314718891
+
+/-! ## A368101.P14651728718079615981
+
+`∩[A322847(n+1), A329629(n+1)]`
+-/
+
+namespace A368101.P14651728718079615981
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322847 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329629 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A368101.P14651728718079615981
 
 /-!
 # A368104: The number of bi-unitary divisors of the powerful part of n.
@@ -1047,19 +1068,19 @@ end
 
 end A368107.P13729775781999420092
 
-/-! ## A368107.P6804347023950844790
+/-! ## A368107.P18149026742348214494
 
-`∩[A072873(n+1), A073540(n+1)]`
+`∩[A100391(n+1), A227993(n+1)]`
 -/
 
-namespace A368107.P6804347023950844790
+namespace A368107.P18149026742348214494
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072873 (n + 1)
+  A100391 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073540 (n + 1)
+  A227993 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1067,21 +1088,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A368107.P6804347023950844790
+end A368107.P18149026742348214494
 
-/-! ## A368107.P13384554537709352100
+/-! ## A368107.P8898943022212017702
 
-`∩[A072873(n+1), A134612(n+1)]`
+`∩[A122494(n+1), A227993(n+1)]`
 -/
 
-namespace A368107.P13384554537709352100
+namespace A368107.P8898943022212017702
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072873 (n + 1)
+  A122494 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134612 (n + 1)
+  A227993 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1089,21 +1110,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A368107.P13384554537709352100
+end A368107.P8898943022212017702
 
-/-! ## A368107.P3127646386926260745
+/-! ## A368107.P9168881307945705977
 
-`∩[A072873(n+1), A246067(n+1)]`
+`∩[A227993(n+1), A257278(n+1)]`
 -/
 
-namespace A368107.P3127646386926260745
+namespace A368107.P9168881307945705977
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072873 (n + 1)
+  A227993 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246067 (n + 1)
+  A257278 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1111,7 +1132,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A368107.P3127646386926260745
+end A368107.P9168881307945705977
 
 /-!
 # A368108: a(1,2,3) = 1,2,3. For n > 3, a(n) is the smallest of the least novel multiples of all primes which divide an earlier term but do not divide a(n-1). If the prime divisors of all prior terms also divide a(n-1), a(n) is the least novel multiple of the smallest prime which does not divide a(n-1).

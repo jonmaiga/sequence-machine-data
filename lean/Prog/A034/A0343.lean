@@ -52,7 +52,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -499,6 +498,28 @@ end
 
 end A034302.P15951730027514681828
 
+/-! ## A034302.P16946579076917676582
+
+`∩[A051362(n+1), A195943(n+1)]`
+-/
+
+namespace A034302.P16946579076917676582
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051362 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195943 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A034302.P16946579076917676582
+
 /-! ## A034302.P4414635598794902580
 
 `record[A004719(A051362(n+1))]`
@@ -553,32 +574,33 @@ end
 
 end A034302.P7960020599160087894
 
-/-! ## A034302.P2123970361905865083
-
-`record[A004719(p?[A034895(n+1)])]`
--/
-
-namespace A034302.P2123970361905865083
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034895 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004719 (f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A034302.P2123970361905865083
-
 /-!
 # A034303: Zeroless primes that become nonprime if any digit is deleted.
 
 The programs for A034303, there is no canonical definition to state claims against.
 -/
+
+/-! ## A034303.P12332434829162211439
+
+`∩[A034894(n), A178641(n+1)]`
+-/
+
+namespace A034303.P12332434829162211439
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034894 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178641 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A034303.P12332434829162211439
 
 /-! ## A034303.P6329249425064427035
 
@@ -597,21 +619,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034303.P6329249425064427035
-
-/-! ## A034303.P4064935817465079553
-
-`A352870(A180452(n+2))`
--/
-
-namespace A034303.P4064935817465079553
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A352870 (A180452 (n + 2)).toNat
-
-end
-
-end A034303.P4064935817465079553
 
 /-!
 # A034304: Nonprime; becomes prime if any digit is deleted (zeros not allowed in the number).
@@ -7668,6 +7675,29 @@ def P8030136643759388388.Spec : Prop :=
 
 end A034381
 
+/-! ## A034381.P9560009205806544607
+
+`A001761(n+1)/(A000010(n+1)*A000108(n+1))`
+-/
+
+namespace A034381.P9560009205806544607
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001761 (n + 1) : ℚ) / (A000010 (n + 1) * A000108 (n + 1) : ℚ)
+
+end
+
+end A034381.P9560009205806544607
+
+namespace A034381
+
+/-- `A001761(n+1)/(A000010(n+1)*A000108(n+1))` -/
+def P9560009205806544607.Spec : Prop :=
+  ∀ n, P9560009205806544607.a n = (A034381 (n + 1) : ℚ)
+
+end A034381
+
 /-!
 # A034382: Number of labeled Abelian groups of order n.
 
@@ -8445,6 +8475,29 @@ namespace A034386
 /-- `lcm(A084100(n), A121566(n))` -/
 def P12345922876282140636.Spec : Prop :=
   ∀ n, (P12345922876282140636.a n : ℤ) = A034386 n
+
+end A034386
+
+/-! ## A034386.P4140516248551120462
+
+`lcm(A055773(n), A300951(n))`
+-/
+
+namespace A034386.P4140516248551120462
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A055773 n) (A300951 n)
+
+end
+
+end A034386.P4140516248551120462
+
+namespace A034386
+
+/-- `lcm(A055773(n), A300951(n))` -/
+def P4140516248551120462.Spec : Prop :=
+  ∀ n, (P4140516248551120462.a n : ℤ) = A034386 n
 
 end A034386
 

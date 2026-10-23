@@ -2601,6 +2601,28 @@ end
 
 end A243437.P5271856798629387930
 
+/-! ## A243437.P15279503518833768281
+
+`∩[A004051(n+1), A205646(n)]`
+-/
+
+namespace A243437.P15279503518833768281
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004051 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A205646 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243437.P15279503518833768281
+
 /-! ## A243437.P17327206990512720967
 
 `p?[3^n+16]`
@@ -2618,30 +2640,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A243437.P17327206990512720967
-
-/-! ## A243437.P17767328530192676411
-
-`record[∑{p}[∑{p}[3^n+16, #], #]]`
--/
-
-namespace A243437.P17767328530192676411
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ n + 16
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f3 n), p
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f2 n), p
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A243437.P17767328530192676411
 
 /-!
 # A243439: Primes of the form 3^k + 26.
@@ -3845,6 +3843,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A243458.P13208483492335409425
+
+/-!
+# A243459: Primes p such that (p reversed)-5 is also a prime.
+
+The programs for A243459, there is no canonical definition to state claims against.
+-/
+
+/-! ## A243459.P11127118750510445899
+
+`∩[A193301(n+1), A359702(n+1)]`
+-/
+
+namespace A243459.P11127118750510445899
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193301 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359702 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243459.P11127118750510445899
 
 /-!
 # A243464: Number of ways 2 domicules can be placed on an n X n square.
@@ -5366,6 +5392,25 @@ end A243489.P16820352631001778530
 
 The programs for A243490, there is no canonical definition to state claims against.
 -/
+
+/-! ## A243490.P9071293579342489273
+
+`comp[A243489(n+1)]`
+-/
+
+namespace A243490.P9071293579342489273
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243489 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A243490.P9071293579342489273
 
 /-! ## A243490.P6010311780572691940
 

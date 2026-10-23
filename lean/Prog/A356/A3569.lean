@@ -2211,6 +2211,28 @@ end A356939.P17815428190332440062
 The programs for A356940, there is no canonical definition to state claims against.
 -/
 
+/-! ## A356940.P9327410529461918535
+
+`∩[A302478(n+1), A356955(n+1)]`
+-/
+
+namespace A356940.P9327410529461918535
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302478 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356955 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356940.P9327410529461918535
+
 /-! ## A356940.P5440174016139859876
 
 `∩[A308299(n+1), A356939(n+1)]`
@@ -2298,28 +2320,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356940.P16541732400022088842
-
-/-! ## A356940.P5355404098198167709
-
-`∩[A085736(n+1), A308299(n+1)]`
--/
-
-namespace A356940.P5355404098198167709
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085736 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A308299 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A356940.P5355404098198167709
 
 /-!
 # A356941: Number of multiset partitions of integer partitions of n such that all blocks are gapless.
@@ -4709,62 +4709,71 @@ end
 
 end A356987.P18196323711735888021
 
-/-! ## A356987.P4445096083675054243
+/-! ## A356987.P8004980564743015684
 
-`p?[A088265(n+1)]`
+`∩[A045707(n+1), A069675(n+1)]`
 -/
 
-namespace A356987.P4445096083675054243
+namespace A356987.P8004980564743015684
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088265 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A356987.P4445096083675054243
-
-/-! ## A356987.P13204210530792541353
-
-`filter[A088265(n+1), A324290(#)]`
--/
-
-namespace A356987.P13204210530792541353
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088265 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A324290 (f1 j).toNat = 1) n)
-
-end
-
-end A356987.P13204210530792541353
-
-/-! ## A356987.P17573144263156316113
-
-`p?[record[A228915(n+1)+1]]`
--/
-
-namespace A356987.P17573144263156316113
-noncomputable section
+  A045707 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A228915 (n + 1) + 1
+  A069675 (n + 1)
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A356987.P17573144263156316113
+end A356987.P8004980564743015684
+
+/-! ## A356987.P3901996830363939275
+
+`∩[A038604(n+1), A088265(n+1)]`
+-/
+
+namespace A356987.P3901996830363939275
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038604 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088265 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356987.P3901996830363939275
+
+/-! ## A356987.P12761159122550089915
+
+`∩[A045707(n+1), A088265(n+1)]`
+-/
+
+namespace A356987.P12761159122550089915
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045707 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088265 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356987.P12761159122550089915
 
 /-!
 # A356988: a(n) = n - a^[2](n - a^[3](n-1)) with a(1) = 1, where a^[2](n) = a(a(n)) and a^[3](n) = a(a(a(n))).

@@ -50,7 +50,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -5269,6 +5268,28 @@ end
 
 end A303369.P11571566555800518375
 
+/-! ## A303369.P3592262474293405101
+
+`∩[A028430(n+1), A050723(n+1)]`
+-/
+
+namespace A303369.P3592262474293405101
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028430 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050723 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A303369.P3592262474293405101
+
 /-! ## A303369.P5539115502047799166
 
 `A108971(A375969(A342810(n+2)))`
@@ -5298,21 +5319,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A303369.P13467235033127921136
-
-/-! ## A303369.P15642809214327180057
-
-`A000005(and(n, -7)!)+n`
--/
-
-namespace A303369.P15642809214327180057
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (Nat.factorial (Int.land (n : ℤ) (-7)).toNat) + (n : ℤ)
-
-end
-
-end A303369.P15642809214327180057
 
 /-!
 # A303370: Least integer k such that (k+1)^k >= n.
@@ -6588,7 +6594,7 @@ end A303384
 /-!
 # A303385: Total area of all rectangles with dimensions s and t such that s | t, n = s + t and s < t.
 
-The programs for A303385, the canonical program `A303385.P7477845777958172115` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303385 has offset 1).
+The programs for A303385, the canonical program `A303385.P7477845777958172115` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303385 has offset 1).
 
 The definition of A303385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6620,7 +6626,7 @@ end A303385
 
 `A303384(n+1)-∑[A001057(n)]²`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A303385

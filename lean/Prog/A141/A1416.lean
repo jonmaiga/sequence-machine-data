@@ -4072,6 +4072,28 @@ end
 
 end A141633.P4282479185491629690
 
+/-! ## A141633.P9893456190099586143
+
+`∩[A086339(n+1), A340745(n+1)]`
+-/
+
+namespace A141633.P9893456190099586143
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086339 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340745 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A141633.P9893456190099586143
+
 /-!
 # A141634: Nonprimes of the form c(c(c(c(c(i)-3)-3)-3)-3)-3, where A002808(i)=c(i)=i-th composite.
 
@@ -7105,6 +7127,21 @@ end
 
 end A141667.P15289552533347356778
 
+/-! ## A141667.P16585120336163701564
+
+`(A265250(n+1)-A002133(n+1))*A000041(n+1)`
+-/
+
+namespace A141667.P16585120336163701564
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A265250 (n + 1) - A002133 (n + 1)) * A000041 (n + 1)
+
+end
+
+end A141667.P16585120336163701564
+
 /-!
 # A141668: a(n) = tau(n) * (NumberOfPartitions(n) - 1).
 
@@ -8879,36 +8916,26 @@ def P12158773851902820293.Spec : Prop :=
 
 end A141677
 
-/-! ## A141677.P11473823788237873102
+/-! ## A141677.P11543008800830699850
 
-`(∑[char[A014963(n+2)-1]]-1)*∏{e}[n+1, #+1]`
+`(A006218(n+1)-A006218(n))*A000720(n+1)`
 -/
 
-namespace A141677.P11473823788237873102
+namespace A141677.P11543008800830699850
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (n + 2) - 1
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - 1) * ((∏ p ∈ Nat.primeFactors (f3 n), (Nat.factorization (f3 n) p + 1) : ℕ) : ℤ)
+  (A006218 (n + 1) - A006218 n) * A000720 (n + 1)
 
 end
 
-end A141677.P11473823788237873102
+end A141677.P11543008800830699850
 
 namespace A141677
 
-/-- `(∑[char[A014963(n+2)-1]]-1)*∏{e}[n+1, #+1]` -/
-def P11473823788237873102.Spec : Prop :=
-  ∀ n, P11473823788237873102.a n = A141677 (n + 1)
+/-- `(A006218(n+1)-A006218(n))*A000720(n+1)` -/
+def P11543008800830699850.Spec : Prop :=
+  ∀ n, P11543008800830699850.a n = A141677 (n + 1)
 
 end A141677
 

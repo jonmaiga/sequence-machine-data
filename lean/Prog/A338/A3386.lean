@@ -3846,12 +3846,12 @@ end A338658
 The programs for A338660, there is no canonical definition to state claims against.
 -/
 
-/-! ## A338660.P13801733037307722758
+/-! ## A338660.P6671168331688972875
 
-`ogf((-1+4x+3x^3)/(-1+6x-7x^2))`
+`ogf((1-4x-3x^3)/(1-6x+7x^2))`
 -/
 
-namespace A338660.P13801733037307722758
+namespace A338660.P6671168331688972875
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3859,7 +3859,7 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A338660.P13801733037307722758
+end A338660.P6671168331688972875
 
 /-!
 # A338661: a(n) = Sum_{d|n} d^n * binomial(d+n/d-2, d-1).

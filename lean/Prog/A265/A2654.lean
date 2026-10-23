@@ -4784,6 +4784,29 @@ def P12617744550949370742.Spec : Prop :=
 
 end A265428
 
+/-! ## A265428.P11318154079967652809
+
+`ceil((or(3, n+1)+2*n)/4)`
+-/
+
+namespace A265428.P11318154079967652809
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(Nat.lor 3 (n + 1) + 2 * n : ℚ) / 4⌉
+
+end
+
+end A265428.P11318154079967652809
+
+namespace A265428
+
+/-- `ceil((or(3, n+1)+2*n)/4)` -/
+def P11318154079967652809.Spec : Prop :=
+  ∀ n, P11318154079967652809.a n = A265428 n
+
+end A265428
+
 /-!
 # A265429: Total number of ON (black) cells after n iterations of the "Rule 188" elementary cellular automaton starting with a single ON (black) cell.
 
@@ -5800,6 +5823,32 @@ namespace A265430
 /-- `A059169(n+1)+n` -/
 def P7178876749040481324.Spec : Prop :=
   ∀ n, P7178876749040481324.a n = A265430 n
+
+end A265430
+
+/-! ## A265430.P11746462848180757975
+
+`Δ[n²]-A265428(n)`
+-/
+
+namespace A265430.P11746462848180757975
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ) - A265428 n
+
+end
+
+end A265430.P11746462848180757975
+
+namespace A265430
+
+/-- `Δ[n²]-A265428(n)` -/
+def P11746462848180757975.Spec : Prop :=
+  ∀ n, P11746462848180757975.a n = A265430 n
 
 end A265430
 

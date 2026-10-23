@@ -5158,6 +5158,29 @@ def P17394739874889868130.Spec : Prop :=
 
 end A180232
 
+/-! ## A180232.P2258417721352486403
+
+`A051868(n)+A000326(n)`
+-/
+
+namespace A180232.P2258417721352486403
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051868 n + A000326 n
+
+end
+
+end A180232.P2258417721352486403
+
+namespace A180232
+
+/-- `A051868(n)+A000326(n)` -/
+def P2258417721352486403.Spec : Prop :=
+  ∀ n, P2258417721352486403.a n = A180232 n
+
+end A180232
+
 /-!
 # A180233: The sequence gives prime numbers formed from the sum of the squares of composite numbers and the corresponding prime numbers.
 
@@ -8122,6 +8145,29 @@ def P6043898978712350795.Spec : Prop :=
 
 end A180270
 
+/-! ## A180270.P11936391620529064465
+
+`A359498(n)/A175110(n)*A359498(n)`
+-/
+
+namespace A180270.P11936391620529064465
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A359498 n : ℚ) / (A175110 n : ℚ) * (A359498 n : ℚ)
+
+end
+
+end A180270.P11936391620529064465
+
+namespace A180270
+
+/-- `A359498(n)/A175110(n)*A359498(n)` -/
+def P11936391620529064465.Spec : Prop :=
+  ∀ n, P11936391620529064465.a n = (A180270 (n + 1) : ℚ)
+
+end A180270
+
 /-! ## A180270.P4276438617613152468
 
 `A219086(n)/A359844(n)*A359499(n)`
@@ -8234,29 +8280,6 @@ namespace A180270
 /-- `A011863(2*n+1)²*A171714(2*n)` -/
 def P2766798017747273041.Spec : Prop :=
   ∀ n, P2766798017747273041.a n = A180270 (n + 1)
-
-end A180270
-
-/-! ## A180270.P106874957585675024
-
-`A000537(n)*A006010(A016754(n))`
--/
-
-namespace A180270.P106874957585675024
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000537 n * A006010 (A016754 n).toNat
-
-end
-
-end A180270.P106874957585675024
-
-namespace A180270
-
-/-- `A000537(n)*A006010(A016754(n))` -/
-def P106874957585675024.Spec : Prop :=
-  ∀ n, P106874957585675024.a n = A180270 (n + 1)
 
 end A180270
 
@@ -10790,6 +10813,32 @@ namespace A180291
 /-- `ceil(acot(acot(n)²))*∑[n+1]` -/
 def P7241116416312013339.Spec : Prop :=
   ∀ n, P7241116416312013339.a n = A180291 (n + 2)
+
+end A180291
+
+/-! ## A180291.P10858726367181771675
+
+`∑[ogf((1+3x-3x^2+x^3)/(1-2x+x^2))]`
+-/
+
+namespace A180291.P10858726367181771675
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 3, -3, 1] [1, -2, 1] n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A180291.P10858726367181771675
+
+namespace A180291
+
+/-- `∑[ogf((1+3x-3x^2+x^3)/(1-2x+x^2))]` -/
+def P10858726367181771675.Spec : Prop :=
+  ∀ n, P10858726367181771675.a n = A180291 (n + 2)
 
 end A180291
 

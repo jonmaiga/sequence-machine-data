@@ -1840,6 +1840,21 @@ end
 
 end A376637.P12341935931686736207
 
+/-! ## A376637.P13055210828580008682
+
+`A159952(A299101(n+1))`
+-/
+
+namespace A376637.P13055210828580008682
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A159952 (A299101 (n + 1)).toNat
+
+end
+
+end A376637.P13055210828580008682
+
 /-!
 # A376640: Number of equational laws for magmas involving n operations, up to relabeling and symmetry, after removing nontrivial reflexive laws.
 

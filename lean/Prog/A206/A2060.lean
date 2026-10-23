@@ -3244,6 +3244,25 @@ end
 
 end A206036.P15904617332920548657
 
+/-! ## A206036.P5267507808935091224
+
+`comp[A240667(n+1)]`
+-/
+
+namespace A206036.P5267507808935091224
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240667 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A206036.P5267507808935091224
+
 /-! ## A206036.P9196258624351320991
 
 `eq[1, A256596(n+1)]+1`

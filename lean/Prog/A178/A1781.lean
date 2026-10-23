@@ -53,7 +53,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -7701,20 +7700,23 @@ end
 
 end A178181.P252259646559117258
 
-/-! ## A178181.P860979043207760930
+/-! ## A178181.P14101527195285594492
 
-`3*n+A000196(A033581(n))`
+`record[n-dr(2*n)]+n`
 -/
 
-namespace A178181.P860979043207760930
+namespace A178181.P14101527195285594492
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - (SequenceMachineLib.digitalRoot (2 * n : ℤ) : ℤ)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 * n : ℤ) + A000196 (A033581 n).toNat
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) + (n : ℤ)
 
 end
 
-end A178181.P860979043207760930
+end A178181.P14101527195285594492
 
 /-!
 # A178182: Minimal polynomials of sin(2Pi/n) are mapped to those of cos(2Pi/a(n)).

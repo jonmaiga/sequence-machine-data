@@ -375,23 +375,27 @@ end
 
 end A236303.P16179293260533112853
 
-/-! ## A236303.P14132632850806257376
+/-! ## A236303.P9649340108982392348
 
-`A154955(A042950(n)+1)+p?[A048381(n+1)]`
+`∩[A048381(n+1), A332583(n+1)]`
 -/
 
-namespace A236303.P14132632850806257376
+namespace A236303.P9649340108982392348
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A048381 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154955 (A042950 n + 1).toNat + f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332583 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A236303.P14132632850806257376
+end A236303.P9649340108982392348
 
 /-!
 # A236305: The number of P-positions in the game of Nim with up to 3 piles, allowing for piles of zero, such that the number of objects in each pile does not exceed n.
@@ -4245,6 +4249,29 @@ def P7328297596673258434.Spec : Prop :=
 
 end A236337
 
+/-! ## A236337.P5625464401119900252
+
+`A183217(A001840(n+1))`
+-/
+
+namespace A236337.P5625464401119900252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183217 (A001840 (n + 1)).toNat
+
+end
+
+end A236337.P5625464401119900252
+
+namespace A236337
+
+/-- `A183217(A001840(n+1))` -/
+def P5625464401119900252.Spec : Prop :=
+  ∀ n, P5625464401119900252.a n = A236337 n
+
+end A236337
+
 /-!
 # A236339: Association types in 2-dimensional algebra.
 
@@ -6687,6 +6714,32 @@ def P17634593824849644446.Spec : Prop :=
 
 end A236364
 
+/-! ## A236364.P9359801488850735614
+
+`(n+1)/2*∑[a(n-2)+5]` with `a(0)=2, a(1)=3`
+-/
+
+namespace A236364.P9359801488850735614
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [2, 3] fun n f1 =>
+  f1 (n - 2) + 5
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / 2 * ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ)
+
+end
+
+end A236364.P9359801488850735614
+
+namespace A236364
+
+/-- `(n+1)/2*∑[a(n-2)+5]` -/
+def P9359801488850735614.Spec : Prop :=
+  ∀ n, P9359801488850735614.a n = (A236364 (n + 1) : ℚ)
+
+end A236364
+
 /-! ## A236364.P13377447819875335470
 
 `∑[3*A085787(n)+1]`
@@ -7164,29 +7217,30 @@ end A236364
 /-!
 # A236365: Primes whose binary and octal representation are also prime when read in decimal.
 
-The programs for A236365, the canonical program `A236365.P1225663629244033515` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236365 has offset 1).
-
-The definition of A236365 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 744 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A236365, there is no canonical definition to state claims against.
 -/
 
 /-! ## A236365.P1225663629244033515
 
 `∩[A065720(n+1), A065726(n+1)]`
-
-The canonical program, it is in `Seq.B005.C001`.
 -/
 
-namespace A236365
+namespace A236365.P1225663629244033515
+noncomputable section
 
-/-- `∩[A065720(n+1), A065726(n+1)]` -/
-def P1225663629244033515.Spec : Prop :=
-  ∀ n, (P1225663629244033515.a n : ℤ) = A236365 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065720 (n + 1)
 
-theorem P1225663629244033515.correct : P1225663629244033515.Spec := by
-  intro n
-  simp only [A236365, Nat.add_sub_cancel]
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065726 (n + 1)
 
-end A236365
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A236365.P1225663629244033515
 
 /-! ## A236365.P11252219492352650043
 
@@ -7210,14 +7264,6 @@ end
 
 end A236365.P11252219492352650043
 
-namespace A236365
-
-/-- `∩[A036952(n+1), A065726(n+1)]` -/
-def P11252219492352650043.Spec : Prop :=
-  ∀ n, (P11252219492352650043.a n : ℤ) = A236365 (n + 1)
-
-end A236365
-
 /-! ## A236365.P12301943065014686158
 
 `∩[A036963(n+1), A065720(n+1)]`
@@ -7239,14 +7285,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A236365.P12301943065014686158
-
-namespace A236365
-
-/-- `∩[A036963(n+1), A065720(n+1)]` -/
-def P12301943065014686158.Spec : Prop :=
-  ∀ n, (P12301943065014686158.a n : ℤ) = A236365 (n + 1)
-
-end A236365
 
 /-! ## A236365.P16667200651855695530
 
@@ -7272,14 +7310,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A236365.P16667200651855695530
-
-namespace A236365
-
-/-- `p?[∩[A036952(n+1), A036963(n+1)]]` -/
-def P16667200651855695530.Spec : Prop :=
-  ∀ n, (P16667200651855695530.a n : ℤ) = A236365 (n + 1)
-
-end A236365
 
 /-!
 # A236368: a(n) = 4^(n!) - 3^(n!).

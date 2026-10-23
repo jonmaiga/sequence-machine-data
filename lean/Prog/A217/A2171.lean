@@ -2246,6 +2246,28 @@ end A217140.P13083492049085139480
 The programs for A217141, there is no canonical definition to state claims against.
 -/
 
+/-! ## A217141.P10461352833072687090
+
+`∩[2*n+1, A217139(n+1)]`
+-/
+
+namespace A217141.P10461352833072687090
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217139 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217141.P10461352833072687090
+
 /-! ## A217141.P501961880826495267
 
 `filter[A217139(n+1), A353638(#)]`
@@ -2317,28 +2339,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A217141.P5811720192762352128
-
-/-! ## A217141.P6588376437755194393
-
-`∩[A217139(n+1), A004273(n)]`
--/
-
-namespace A217141.P6588376437755194393
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217139 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004273 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A217141.P6588376437755194393
 
 /-!
 # A217143: Sum of squares of Bell numbers (A000110).

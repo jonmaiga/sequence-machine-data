@@ -52,14 +52,13 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -4262,20 +4261,20 @@ end
 
 end A090245.P7560643971055331022
 
-/-! ## A090245.P1825340312179661364
+/-! ## A090245.P6857947752078212588
 
-`ogf((-1+2x^2+x^3+2x^4+5x^5)/(-1+2x+2x^2-2x^3))`
+`ogf((-1+x^2+x^3+2x^4+4x^5-2x^6)/(-1+2x+x^2))`
 -/
 
-namespace A090245.P1825340312179661364
+namespace A090245.P6857947752078212588
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 0, -2, -1, -2, -5] [1, -2, -2, 2] n
+  SequenceMachineLib.ogf [1, 0, -1, -1, -2, -4, 2] [1, -2, -1] n
 
 end
 
-end A090245.P1825340312179661364
+end A090245.P6857947752078212588
 
 /-! ## A090245.P16750682119590308635
 
@@ -6013,6 +6012,21 @@ end
 
 end A090271.P10121040146508550250
 
+/-! ## A090271.P13719181802062367318
+
+`A000027(A090272(n+1))`
+-/
+
+namespace A090271.P13719181802062367318
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000027 (A090272 (n + 1)).toNat
+
+end
+
+end A090271.P13719181802062367318
+
 /-!
 # A090273: Numbers with a palindromic digital product.
 
@@ -7237,6 +7251,40 @@ def P1545151456575940468.Spec : Prop :=
 
 end A090288
 
+/-! ## A090288.P1370292409191086240
+
+`abs(a(n-1)+4*(n+1))` with `a(0)=2`
+-/
+
+namespace A090288.P1370292409191086240
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2] fun n a =>
+  a (n - 1) + 4 * (n + 1)
+
+end
+
+end A090288.P1370292409191086240
+
+namespace A090288
+
+/-- `abs(a(n-1)+4*(n+1))` -/
+def P1370292409191086240.Spec : Prop :=
+  ∀ n, (P1370292409191086240.a n : ℤ) = A090288 n
+
+theorem P1370292409191086240.correct : P1370292409191086240.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A090288, A090288.P1370292409191086240.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A090288, Nat.add_sub_cancel, A090288.P1370292409191086240.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
+
+end A090288
+
 /-! ## A090288.P9079164533542298733
 
 `∑[(n+1)*(2%(n+2)+2)]`
@@ -7260,6 +7308,78 @@ namespace A090288
 /-- `∑[(n+1)*(2%(n+2)+2)]` -/
 def P9079164533542298733.Spec : Prop :=
   ∀ n, (P9079164533542298733.a n : ℤ) = A090288 n
+
+end A090288
+
+/-! ## A090288.P8961227337462211551
+
+`floor(a(n-1)+4*(n+1))` with `a(0)=2`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A090288.P8961227337462211551
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2] fun n a =>
+  a (n - 1) + 4 * (n + 1)
+
+end
+
+end A090288.P8961227337462211551
+
+namespace A090288
+
+/-- `floor(a(n-1)+4*(n+1))` -/
+def P8961227337462211551.Spec : Prop :=
+  ∀ n, (P8961227337462211551.a n : ℤ) = A090288 n
+
+theorem P8961227337462211551.correct : P8961227337462211551.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A090288, A090288.P8961227337462211551.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A090288, Nat.add_sub_cancel, A090288.P8961227337462211551.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
+
+end A090288
+
+/-! ## A090288.P6911110951066537055
+
+`ceil(a(n-1)+4*(n+1))` with `a(0)=2`
+
+`ceil` is left out, it is the identity on integers.
+-/
+
+namespace A090288.P6911110951066537055
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2] fun n a =>
+  a (n - 1) + 4 * (n + 1)
+
+end
+
+end A090288.P6911110951066537055
+
+namespace A090288
+
+/-- `ceil(a(n-1)+4*(n+1))` -/
+def P6911110951066537055.Spec : Prop :=
+  ∀ n, (P6911110951066537055.a n : ℤ) = A090288 n
+
+theorem P6911110951066537055.correct : P6911110951066537055.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A090288, A090288.P6911110951066537055.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A090288, Nat.add_sub_cancel, A090288.P6911110951066537055.a, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A090288
 

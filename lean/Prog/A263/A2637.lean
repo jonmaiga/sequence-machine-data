@@ -1641,6 +1641,93 @@ def P16084345640428529001.Spec : Prop :=
 
 end A263715
 
+/-! ## A263715.P6565624252193302085
+
+`∪[A107750(n), A296095(n+1)]`
+-/
+
+namespace A263715.P6565624252193302085
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107750 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A296095 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263715.P6565624252193302085
+
+namespace A263715
+
+/-- `∪[A107750(n), A296095(n+1)]` -/
+def P6565624252193302085.Spec : Prop :=
+  ∀ n, (P6565624252193302085.a n : ℤ) = A263715 (n + 1)
+
+end A263715
+
+/-! ## A263715.P6602694431360411099
+
+`comp[A097271(n+3)]`
+-/
+
+namespace A263715.P6602694431360411099
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097271 (n + 3)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A263715.P6602694431360411099
+
+namespace A263715
+
+/-- `comp[A097271(n+3)]` -/
+def P6602694431360411099.Spec : Prop :=
+  ∀ n, (P6602694431360411099.a n : ℤ) = A263715 (n + 1)
+
+end A263715
+
+/-! ## A263715.P17492057799988524002
+
+`∪[A107750(n), A300331(n+1)]`
+-/
+
+namespace A263715.P17492057799988524002
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107750 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300331 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A263715.P17492057799988524002
+
+namespace A263715
+
+/-- `∪[A107750(n), A300331(n+1)]` -/
+def P17492057799988524002.Spec : Prop :=
+  ∀ n, (P17492057799988524002.a n : ℤ) = A263715 (n + 1)
+
+end A263715
+
 /-!
 # A263717: Number of partitions of n into perfect odd powers (1 being excluded).
 
@@ -3697,7 +3784,7 @@ end A263736.P1131189760048434363
 /-!
 # A263737: Nonnegative integers that are the difference of two squares but not the sum of two squares.
 
-The programs for A263737, the canonical program `A263737.P10222005666591300491` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263737 has offset 1).
+The programs for A263737, the canonical program `A263737.P10222005666591300491` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263737 has offset 1).
 
 The definition of A263737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3880,7 +3967,7 @@ end A263737
 
 `filter[A022544(n+1), A152822(#)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A263737

@@ -2255,6 +2255,29 @@ def P16963220389398581865.Spec : Prop :=
 
 end A068720
 
+/-! ## A068720.P4990409608194629046
+
+`A351572((n+1)²)`
+-/
+
+namespace A068720.P4990409608194629046
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351572 ((n + 1) ^ 2)
+
+end
+
+end A068720.P4990409608194629046
+
+namespace A068720
+
+/-- `A351572((n+1)²)` -/
+def P4990409608194629046.Spec : Prop :=
+  ∀ n, P4990409608194629046.a n = A068720 (n + 1)
+
+end A068720
+
 /-!
 # A068721: Arithmetic derivative of cubes: a(n) = 3*n^2*A003415(n).
 

@@ -506,6 +506,32 @@ def P16704307511519793760.Spec : Prop :=
 
 end A091804
 
+/-! ## A091804.P8603029997235213221
+
+`∏[abs(A055546(n))]`
+-/
+
+namespace A091804.P8603029997235213221
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A055546 n|
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A091804.P8603029997235213221
+
+namespace A091804
+
+/-- `∏[abs(A055546(n))]` -/
+def P8603029997235213221.Spec : Prop :=
+  ∀ n, P8603029997235213221.a n = A091804 n
+
+end A091804
+
 /-!
 # A091806: Given the infinite continued fraction i+(i/(i+(i/(i+...)))), where i is the square root of (-1), this is the numerator of the real part of the convergents.
 
@@ -4221,6 +4247,28 @@ end
 
 end A091847.P4595838613024657086
 
+/-! ## A091847.P4293590406129813910
+
+`∩[A082897(n+1), A177204(n+1)]`
+-/
+
+namespace A091847.P4293590406129813910
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082897 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177204 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A091847.P4293590406129813910
+
 /-! ## A091847.P2705395058868745515
 
 `∩[A113808(n+1), A177204(n+1)]`
@@ -4243,41 +4291,49 @@ end
 
 end A091847.P2705395058868745515
 
-/-! ## A091847.P5411542377039696346
+/-! ## A091847.P17842544611007456558
 
-`filter[A082897(n+1), A143731(#)]`
+`∩[A082897(n+1), A284406(n+1)]`
 -/
 
-namespace A091847.P5411542377039696346
+namespace A091847.P17842544611007456558
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A082897 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A143731 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284406 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A091847.P5411542377039696346
+end A091847.P17842544611007456558
 
-/-! ## A091847.P14557323076635216517
+/-! ## A091847.P16035927852709976480
 
-`filter[A082897(n+2), A132350(#)]`
+`∩[A113808(n+1), A284406(n+1)]`
 -/
 
-namespace A091847.P14557323076635216517
+namespace A091847.P16035927852709976480
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082897 (n + 2)
+  A113808 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A132350 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284406 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A091847.P14557323076635216517
+end A091847.P16035927852709976480
 
 /-!
 # A091848: Johnson bound J(n,4,2).
@@ -6870,6 +6926,29 @@ namespace A091868
 /-- `∏[round(1/acot(n))]^(n+1)` -/
 def P18012303592592335696.Spec : Prop :=
   ∀ n, P18012303592592335696.a n = A091868 n
+
+end A091868
+
+/-! ## A091868.P13461279442358799202
+
+`(n*a(n-1)^(1/n))^(n+1)` with `a(0)=1`
+-/
+
+namespace A091868.P13461279442358799202
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.rec [1] fun n a =>
+  ((n : ℝ) * a (n - 1) ^ (1 / (n : ℚ) : ℝ)) ^ (n + 1)
+
+end
+
+end A091868.P13461279442358799202
+
+namespace A091868
+
+/-- `(n*a(n-1)^(1/n))^(n+1)` -/
+def P13461279442358799202.Spec : Prop :=
+  ∀ n, P13461279442358799202.a n = (A091868 n : ℝ)
 
 end A091868
 

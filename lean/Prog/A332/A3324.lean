@@ -70,6 +70,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -10931,11 +10932,86 @@ def P9001325889760263006.Spec : Prop :=
 
 end A332487
 
+/-! ## A332487.P10740546344402073655
+
+`∪[A246444(n+1), A277095(n+1)]`
+-/
+
+namespace A332487.P10740546344402073655
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246444 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277095 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332487.P10740546344402073655
+
+namespace A332487
+
+/-- `∪[A246444(n+1), A277095(n+1)]` -/
+def P10740546344402073655.Spec : Prop :=
+  ∀ n, (P10740546344402073655.a n : ℤ) = A332487 (n + 1)
+
+end A332487
+
+/-! ## A332487.P14851848753810339657
+
+`∪[A246444(n+1), A332482(n+1)]`
+-/
+
+namespace A332487.P14851848753810339657
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246444 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332482 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A332487.P14851848753810339657
+
+namespace A332487
+
+/-- `∪[A246444(n+1), A332482(n+1)]` -/
+def P14851848753810339657.Spec : Prop :=
+  ∀ n, (P14851848753810339657.a n : ℤ) = A332487 (n + 1)
+
+end A332487
+
 /-!
 # A332488: a(n) = least positive integer k such that sin(n*k)*sin(n*k + k) < 0.
 
 The programs for A332488, there is no canonical definition to state claims against.
 -/
+
+/-! ## A332488.P8150138020416417358
+
+`floor(π/acos(cos(n+1)))`
+-/
+
+namespace A332488.P8150138020416417358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊Real.pi / Real.arccos (Real.cos (n + 1 : ℝ))⌋
+
+end
+
+end A332488.P8150138020416417358
 
 /-! ## A332488.P2239146542548361361
 

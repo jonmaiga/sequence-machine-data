@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -90,6 +91,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -2765,6 +2767,28 @@ end A108840.P15611236312226457105
 The programs for A108842, there is no canonical definition to state claims against.
 -/
 
+/-! ## A108842.P11425903462844745917
+
+`∩[A056728(n+1), A069680(n+1)]`
+-/
+
+namespace A108842.P11425903462844745917
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056728 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069680 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A108842.P11425903462844745917
+
 /-! ## A108842.P10624201203239488883
 
 `∩[A056730(n+1), A069680(n+1)]`
@@ -2787,11 +2811,55 @@ end
 
 end A108842.P10624201203239488883
 
+/-! ## A108842.P1874631107145249375
+
+`∩[A056728(n+1), A082441(n+1)]`
+-/
+
+namespace A108842.P1874631107145249375
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056728 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082441 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A108842.P1874631107145249375
+
 /-!
 # A108846: Palindromic primes in which all internal digits are 2.
 
 The programs for A108846, there is no canonical definition to state claims against.
 -/
+
+/-! ## A108846.P16686823740064125674
+
+`∩[A056728(n+1), A069677(n+1)]`
+-/
+
+namespace A108846.P16686823740064125674
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056728 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069677 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A108846.P16686823740064125674
 
 /-! ## A108846.P12285935617343685280
 
@@ -2815,19 +2883,19 @@ end
 
 end A108846.P12285935617343685280
 
-/-! ## A108846.P14358803078172799292
+/-! ## A108846.P15769570286223184343
 
-`∩[A069677(n+1), A056730(A256450(n))]`
+`∩[A056728(n+1), A082438(n+1)]`
 -/
 
-namespace A108846.P14358803078172799292
+namespace A108846.P15769570286223184343
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069677 (n + 1)
+  A056728 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056730 (A256450 n).toNat
+  A082438 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2835,13 +2903,35 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A108846.P14358803078172799292
+end A108846.P15769570286223184343
 
 /-!
 # A108847: Palindromic primes in which all internal digits are 8.
 
 The programs for A108847, there is no canonical definition to state claims against.
 -/
+
+/-! ## A108847.P11018274769232604712
+
+`∩[A056728(n+1), A069683(n+1)]`
+-/
+
+namespace A108847.P11018274769232604712
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056728 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069683 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A108847.P11018274769232604712
 
 /-! ## A108847.P1754729870878939420
 
@@ -2871,16 +2961,16 @@ end A108847.P1754729870878939420
 The programs for A108848, there is no canonical definition to state claims against.
 -/
 
-/-! ## A108848.P10274709286166257014
+/-! ## A108848.P17166560870855306331
 
-`∩[A056730(n+1), A069684(n+1)]`
+`∩[A056728(n+1), A069684(n+1)]`
 -/
 
-namespace A108848.P10274709286166257014
+namespace A108848.P17166560870855306331
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056730 (n + 1)
+  A056728 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A069684 (n + 1)
@@ -2891,7 +2981,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A108848.P10274709286166257014
+end A108848.P17166560870855306331
 
 /-!
 # A108849: Semiprimes whose digit reversal is a nontrivial power.
@@ -2935,6 +3025,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A108849.P10322239300754044746
+
+/-! ## A108849.P11282066375286962632
+
+`∩[A112381(n+1), A118715(n+1)]`
+-/
+
+namespace A108849.P11282066375286962632
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112381 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118715 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A108849.P11282066375286962632
 
 /-!
 # A108850: Number of 1's in the binary expansion of the repunits.
@@ -7982,6 +8094,52 @@ namespace A108896
 /-- `9*10^(n+2)+9+40*(10^(n+1)-1)/9` -/
 def P787888586830855368.Spec : Prop :=
   ∀ n, P787888586830855368.a n = (A108896 (n + 1) : ℚ)
+
+end A108896
+
+/-! ## A108896.P406611887363733440
+
+`A284973(A081808(n+1))`
+-/
+
+namespace A108896.P406611887363733440
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284973 (A081808 (n + 1)).toNat
+
+end
+
+end A108896.P406611887363733440
+
+namespace A108896
+
+/-- `A284973(A081808(n+1))` -/
+def P406611887363733440.Spec : Prop :=
+  ∀ n, P406611887363733440.a n = A108896 (n + 1)
+
+end A108896
+
+/-! ## A108896.P18197180762081416606
+
+`A284973(A091629(n+2))`
+-/
+
+namespace A108896.P18197180762081416606
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284973 (A091629 (n + 2)).toNat
+
+end
+
+end A108896.P18197180762081416606
+
+namespace A108896
+
+/-- `A284973(A091629(n+2))` -/
+def P18197180762081416606.Spec : Prop :=
+  ∀ n, P18197180762081416606.a n = A108896 (n + 1)
 
 end A108896
 

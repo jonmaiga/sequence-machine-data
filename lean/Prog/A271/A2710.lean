@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -2200,6 +2201,29 @@ def P8137701583881953205.Spec : Prop :=
 
 end A271017
 
+/-! ## A271017.P10088781867107606662
+
+`A141722(n)%A292540(n+1)`
+-/
+
+namespace A271017.P10088781867107606662
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A141722 n) (A292540 (n + 1))
+
+end
+
+end A271017.P10088781867107606662
+
+namespace A271017
+
+/-- `A141722(n)%A292540(n+1)` -/
+def P10088781867107606662.Spec : Prop :=
+  ∀ n, P10088781867107606662.a n = A271017 n
+
+end A271017
+
 /-!
 # A271018: Partial sums of the number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 251", based on the 5-celled von Neumann neighborhood.
 
@@ -3908,26 +3932,26 @@ def P8367568002110493552.Spec : Prop :=
 
 end A271040
 
-/-! ## A271040.P4977323772828048269
+/-! ## A271040.P11525594217780172623
 
-`ceil(10*A000910(n)/5)`
+`2*A000910(n)`
 -/
 
-namespace A271040.P4977323772828048269
+namespace A271040.P11525594217780172623
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈10 * ((A000910 n : ℚ) / 5)⌉
+  2 * A000910 n
 
 end
 
-end A271040.P4977323772828048269
+end A271040.P11525594217780172623
 
 namespace A271040
 
-/-- `ceil(10*A000910(n)/5)` -/
-def P4977323772828048269.Spec : Prop :=
-  ∀ n, P4977323772828048269.a n = A271040 n
+/-- `2*A000910(n)` -/
+def P11525594217780172623.Spec : Prop :=
+  ∀ n, P11525594217780172623.a n = A271040 n
 
 end A271040
 
@@ -7393,31 +7417,27 @@ end A271060
 /-!
 # A271061: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 261", based on the 5-celled von Neumann neighborhood.
 
-The programs for A271061, the canonical program `A271061.P5403327187657760717` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271061 has offset 0).
+The programs for A271061, the canonical program `A271061.P16707271264990171137` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271061 has offset 0).
 
-The definition of A271061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A271061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A271061.P16707271264990171137
 
 `ogf((1+2x+8x^2)/(1-6x+8x^2))`
+
+The canonical program, it is in `Seq.B000.C033`.
 -/
-
-namespace A271061.P16707271264990171137
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 2, 8] [1, -6, 8] n
-
-end
-
-end A271061.P16707271264990171137
 
 namespace A271061
 
 /-- `ogf((1+2x+8x^2)/(1-6x+8x^2))` -/
 def P16707271264990171137.Spec : Prop :=
   ∀ n, P16707271264990171137.a n = A271061 n
+
+theorem P16707271264990171137.correct : P16707271264990171137.Spec := by
+  intro n
+  simp only [A271061]
 
 end A271061
 
@@ -7859,22 +7879,26 @@ def P2348640899431890989.Spec : Prop :=
 
 end A271061
 
-/-! ## A271061.P5403327187657760717
+/-! ## A271061.P11368481538061345025
 
-`6*a(n-1)-8*a(n-2)` with `a(0)=1, a(1)=8, a(2)=48`
-
-The canonical program, it is in `Seq.B000.C033`.
+`A211012(n)+A165665(n)`
 -/
+
+namespace A271061.P11368481538061345025
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211012 n + A165665 n
+
+end
+
+end A271061.P11368481538061345025
 
 namespace A271061
 
-/-- `6*a(n-1)-8*a(n-2)` -/
-def P5403327187657760717.Spec : Prop :=
-  ∀ n, P5403327187657760717.a n = A271061 n
-
-theorem P5403327187657760717.correct : P5403327187657760717.Spec := by
-  intro n
-  simp only [A271061]
+/-- `A211012(n)+A165665(n)` -/
+def P11368481538061345025.Spec : Prop :=
+  ∀ n, P11368481538061345025.a n = A271061 n
 
 end A271061
 

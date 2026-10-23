@@ -4704,6 +4704,34 @@ end
 end A070141.P16106617395791834608
 
 /-!
+# A070142: Numbers k such that [A070080(k), A070081(k), A070082(k)] is an integer triangle with integer area.
+
+The programs for A070142, there is no canonical definition to state claims against.
+-/
+
+/-! ## A070142.P5148343716524995867
+
+`∪[A070144(n+1), A070145(n+1)]`
+-/
+
+namespace A070142.P5148343716524995867
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070144 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070145 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070142.P5148343716524995867
+
+/-!
 # A070143: Numbers n such that [A070080(n), A070081(n), A070082(n)] is an integer triangle with integer area, having relatively prime side lengths.
 
 The programs for A070143, there is no canonical definition to state claims against.
@@ -8567,16 +8595,16 @@ end
 
 end A070179.P3638799375450440135
 
-/-! ## A070179.P3776790133295629795
+/-! ## A070179.P13024415414006694102
 
-`∩[A319040(n+1), A293394(n+1)]`
+`∩[A191218(n+1), A293394(n+1)]`
 -/
 
-namespace A070179.P3776790133295629795
+namespace A070179.P13024415414006694102
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319040 (n + 1)
+  A191218 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A293394 (n + 1)
@@ -8587,7 +8615,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A070179.P3776790133295629795
+end A070179.P13024415414006694102
 
 /-!
 # A070180: Primes p such that x^3 = 2 has a solution mod p, but x^(3^2) = 2 has no solution mod p.

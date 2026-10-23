@@ -40,6 +40,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,7 +56,6 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -65,6 +65,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -3357,7 +3358,7 @@ end A103136.P18361872227013211518
 /-!
 # A103137: First column of inverse of Delannoy triangle.
 
-The programs for A103137, the canonical program `A103137.P5406980823153393288` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103137 has offset 0).
+The programs for A103137, the canonical program `A103137.P5406980823153393288` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103137 has offset 0).
 
 The definition of A103137 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3438,7 +3439,7 @@ end A103137
 
 `A086456(n)*A165326(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A103137
@@ -6536,30 +6537,29 @@ def P5087437103401172771.Spec : Prop :=
 
 end A103164
 
-/-! ## A103164.P6348965232061969007
+/-! ## A103164.P7079553790775635436
 
-`n^(char[A014963(n+1)]+1)`
+`n^ceil((n+1)/∏{d}[n, #])`
 -/
 
-namespace A103164.P6348965232061969007
+namespace A103164.P7079553790775635436
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (n + 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ ((if ∃ j, f1 j = (n : ℤ) then 1 else 0) + 1)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) ^ (⌈(n + 1 : ℚ) / ((∏ d ∈ Nat.divisors (f1 n), d : ℕ) : ℚ)⌉ : ℤ)
 
 end
 
-end A103164.P6348965232061969007
+end A103164.P7079553790775635436
 
 namespace A103164
 
-/-- `n^(char[A014963(n+1)]+1)` -/
-def P6348965232061969007.Spec : Prop :=
-  ∀ n, (P6348965232061969007.a n : ℤ) = A103164 n
+/-- `n^ceil((n+1)/∏{d}[n, #])` -/
+def P7079553790775635436.Spec : Prop :=
+  ∀ n, P7079553790775635436.a n = (A103164 n : ℚ)
 
 end A103164
 

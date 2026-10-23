@@ -1294,6 +1294,29 @@ def P15582216706558483687.Spec : Prop :=
 
 end A300518
 
+/-! ## A300518.P12268890370394218296
+
+`A006530(A055491(n+1))`
+-/
+
+namespace A300518.P12268890370394218296
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A055491 (n + 1)).toNat
+
+end
+
+end A300518.P12268890370394218296
+
+namespace A300518
+
+/-- `A006530(A055491(n+1))` -/
+def P12268890370394218296.Spec : Prop :=
+  ∀ n, P12268890370394218296.a n = A300518 (n + 1)
+
+end A300518
+
 /-!
 # A300519: Convolution of n! and n^n.
 
@@ -1851,6 +1874,29 @@ namespace A300522
 /-- `A008643(A063155(n+1))` -/
 def P3592917780055049257.Spec : Prop :=
   ∀ n, P3592917780055049257.a n = A300522 n
+
+end A300522
+
+/-! ## A300522.P10748384490327959920
+
+`A029300(A304158(n+1))`
+-/
+
+namespace A300522.P10748384490327959920
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029300 (A304158 (n + 1)).toNat
+
+end
+
+end A300522.P10748384490327959920
+
+namespace A300522
+
+/-- `A029300(A304158(n+1))` -/
+def P10748384490327959920.Spec : Prop :=
+  ∀ n, P10748384490327959920.a n = A300522 n
 
 end A300522
 

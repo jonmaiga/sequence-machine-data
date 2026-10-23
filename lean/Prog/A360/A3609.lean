@@ -2802,30 +2802,26 @@ def P3400871102867678454.Spec : Prop :=
 
 end A360924
 
-/-! ## A360924.P6158083575682953211
+/-! ## A360924.P1037078026592676667
 
-`comp[A257022(n+1)]-n`
+`A001281(A027709(n))`
 -/
 
-namespace A360924.P6158083575682953211
+namespace A360924.P1037078026592676667
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257022 (n + 1)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) - (n : ℤ)
+  A001281 (A027709 n).toNat
 
 end
 
-end A360924.P6158083575682953211
+end A360924.P1037078026592676667
 
 namespace A360924
 
-/-- `comp[A257022(n+1)]-n` -/
-def P6158083575682953211.Spec : Prop :=
-  ∀ n, P6158083575682953211.a n = A360924 n
+/-- `A001281(A027709(n))` -/
+def P1037078026592676667.Spec : Prop :=
+  ∀ n, P1037078026592676667.a n = A360924 n
 
 end A360924
 
@@ -3850,6 +3846,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A360932.P10742786978578401582
+
+/-! ## A360932.P1742846411277526391
+
+`∩[A078668(n+1), A256133(n+1)]`
+-/
+
+namespace A360932.P1742846411277526391
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078668 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256133 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360932.P1742846411277526391
+
+/-! ## A360932.P5189347987961920993
+
+`∩[A095080(n+1), A246786(n+1)]`
+-/
+
+namespace A360932.P5189347987961920993
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095080 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246786 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360932.P5189347987961920993
 
 /-!
 # A360933: Expansion of e.g.f. Sum_{k>=0} exp((3^k - 1)*x) * x^k/k!.

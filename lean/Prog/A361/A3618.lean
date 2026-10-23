@@ -43,7 +43,6 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -3407,16 +3406,16 @@ end A361853.P6389964227905594396
 The programs for A361855, there is no canonical definition to state claims against.
 -/
 
-/-! ## A361855.P16524599720080032084
+/-! ## A361855.P13283736528290911345
 
-`∩[A307517(n+1), A326848(n+1)]`
+`∩[A024619(n+1), A326848(n+1)]`
 -/
 
-namespace A361855.P16524599720080032084
+namespace A361855.P13283736528290911345
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A307517 (n + 1)
+  A024619 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A326848 (n + 1)
@@ -3427,7 +3426,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A361855.P16524599720080032084
+end A361855.P13283736528290911345
 
 /-!
 # A361857: Number of integer partitions of n such that the maximum is greater than twice the median.
@@ -3830,6 +3829,28 @@ end A361865.P13534249200901535240
 
 The programs for A361867, there is no canonical definition to state claims against.
 -/
+
+/-! ## A361867.P13955005335500921060
+
+`∩[A137428(n+1), A335513(n+1)]`
+-/
+
+namespace A361867.P13955005335500921060
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137428 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335513 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A361867.P13955005335500921060
 
 /-! ## A361867.P15676582369603629727
 

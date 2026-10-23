@@ -2299,6 +2299,36 @@ def P17359615491856304107.Spec : Prop :=
 
 end A072114
 
+/-! ## A072114.P6528901051118642463
+
+`∑[char[A328664(n+2)]]`
+-/
+
+namespace A072114.P6528901051118642463
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328664 (n + 2)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A072114.P6528901051118642463
+
+namespace A072114
+
+/-- `∑[char[A328664(n+2)]]` -/
+def P6528901051118642463.Spec : Prop :=
+  ∀ n, (P6528901051118642463.a n : ℤ) = A072114 n
+
+end A072114
+
 /-!
 # A072116: a(n) = (2n)!/(phi(2n)!)^2.
 
@@ -7976,6 +8006,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A072185.P357198080703659293
+
+/-! ## A072185.P5873912937677555032
+
+`∩[A048342(n+1), A084354(n+1)]`
+-/
+
+namespace A072185.P5873912937677555032
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048342 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084354 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A072185.P5873912937677555032
 
 /-!
 # A072186: A Wallis pair (x,y) satisfies sigma(x^2) = sigma(y^2); sequence gives y's for Wallis pairs with x < y (ordered by values of x).

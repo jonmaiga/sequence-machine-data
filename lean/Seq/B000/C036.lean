@@ -26034,6 +26034,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A329684.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A329771.P2031301958402488737
+
+`ogf((1+2x+3x^2+3x^3+3x^4+3x^5+3x^6-x^7-3x^8)/(1-x))`
+-/
+
+namespace A329771.P2031301958402488737
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 2, 3, 3, 3, 3, 3, -1, -3] [1, -1] n
+
+end
+
+end A329771.P2031301958402488737
+
+noncomputable section
+
+/-- A329771: G.f. = (3*x^8 + x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 3*x^3 - 3*x^2 - 2*x - 1)/(x - 1).
+
+Offset 0, canonical program `A329771.P2031301958402488737`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A329771 (n : ℕ) : ℤ :=
+  A329771.P2031301958402488737.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A329771.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A329830.P15395617891048045894
 
 `floor(2*(n+1)/(4-sqrt(10)))`
@@ -29291,37 +29319,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2001 terms. -/
 def A338277.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A338379.P3004742096893614011
-
-`floor(dr(n)/∑{digits}[n, 10^#]%9)`
--/
-
-namespace A338379.P3004742096893614011
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(SequenceMachineLib.digitalRoot (n : ℤ) : ℚ) / ((((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => 10 ^ x).sum % 9 : ℕ) : ℚ)⌋
-
-end
-
-end A338379.P3004742096893614011
-
-noncomputable section
-
-/-- A338379: Floor of (digital root of n) divided by (number of digits in n).
-
-Offset 0, canonical program `A338379.P3004742096893614011`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A338379 (n : ℕ) : ℤ :=
-  A338379.P3004742096893614011.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A338379.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A317946.P13520593184723688134
 

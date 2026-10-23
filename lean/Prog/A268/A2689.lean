@@ -6367,7 +6367,7 @@ end A268964.P11286919505008369920
 /-!
 # A268965: Number of n X 2 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
 
-The programs for A268965, the canonical program `A268965.P12392692065929142692` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268965 has offset 1).
+The programs for A268965, the canonical program `A268965.P9050296392268249360` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268965 has offset 1).
 
 The definition of A268965 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6375,17 +6375,9 @@ The definition of A268965 is `conjectured`: the Lean definition is a formula tha
 /-! ## A268965.P9050296392268249360
 
 `ogf((9-12x)/(1-8x+16x^2))`
+
+The canonical program, it is in `Seq.B000.C032`.
 -/
-
-namespace A268965.P9050296392268249360
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [9, -12] [1, -8, 16] n
-
-end
-
-end A268965.P9050296392268249360
 
 namespace A268965
 
@@ -6393,24 +6385,32 @@ namespace A268965
 def P9050296392268249360.Spec : Prop :=
   ∀ n, P9050296392268249360.a n = A268965 (n + 1)
 
+theorem P9050296392268249360.correct : P9050296392268249360.Spec := by
+  intro n
+  simp only [A268965, Nat.add_sub_cancel]
+
 end A268965
 
-/-! ## A268965.P12392692065929142692
+/-! ## A268965.P14689004654501732155
 
-`4^n*(6*(n+1)+3)`
-
-The canonical program, it is in `Seq.B000.C032`.
+`(6*n+9)*4^n`
 -/
+
+namespace A268965.P14689004654501732155
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (6 * n + 9) * 4 ^ n
+
+end
+
+end A268965.P14689004654501732155
 
 namespace A268965
 
-/-- `4^n*(6*(n+1)+3)` -/
-def P12392692065929142692.Spec : Prop :=
-  ∀ n, (P12392692065929142692.a n : ℤ) = A268965 (n + 1)
-
-theorem P12392692065929142692.correct : P12392692065929142692.Spec := by
-  intro n
-  simp only [A268965, Nat.add_sub_cancel]
+/-- `(6*n+9)*4^n` -/
+def P14689004654501732155.Spec : Prop :=
+  ∀ n, (P14689004654501732155.a n : ℤ) = A268965 (n + 1)
 
 end A268965
 

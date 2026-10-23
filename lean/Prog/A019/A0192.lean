@@ -1466,6 +1466,21 @@ end
 
 end A019279.P10950283775935155685
 
+/-! ## A019279.P4549664743180767429
+
+`sqrt(A152921(n+1))`
+-/
+
+namespace A019279.P4549664743180767429
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A152921 (n + 1) : ℝ)
+
+end
+
+end A019279.P4549664743180767429
+
 /-!
 # A019280: Let sigma_m(n) be result of applying the sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m(n) = k*n; sequence gives log_2 of the (2,2)-perfect numbers.
 

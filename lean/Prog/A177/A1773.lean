@@ -36,6 +36,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -61,7 +62,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -3247,6 +3247,36 @@ def P15575786597872739360.Spec : Prop :=
 
 end A177349
 
+/-! ## A177349.P10396984149927625152
+
+`∩[A055938(n+1), A335402(n+1)]`
+-/
+
+namespace A177349.P10396984149927625152
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055938 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335402 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A177349.P10396984149927625152
+
+namespace A177349
+
+/-- `∩[A055938(n+1), A335402(n+1)]` -/
+def P10396984149927625152.Spec : Prop :=
+  ∀ n, (P10396984149927625152.a n : ℤ) = A177349 (n + 1)
+
+end A177349
+
 /-! ## A177349.P14168906955783455602
 
 `p?[comp[∑[A001511(n+1)]]]`
@@ -3277,39 +3307,6 @@ namespace A177349
 /-- `p?[comp[∑[A001511(n+1)]]]` -/
 def P14168906955783455602.Spec : Prop :=
   ∀ n, (P14168906955783455602.a n : ℤ) = A177349 (n + 1)
-
-end A177349
-
-/-! ## A177349.P10064915229740708077
-
-`p?[comp[∑[A007814(n+1)+1]]]`
--/
-
-namespace A177349.P10064915229740708077
-noncomputable section
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007814 (n + 1) + 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f3 j
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
-
-end
-
-end A177349.P10064915229740708077
-
-namespace A177349
-
-/-- `p?[comp[∑[A007814(n+1)+1]]]` -/
-def P10064915229740708077.Spec : Prop :=
-  ∀ n, (P10064915229740708077.a n : ℤ) = A177349 (n + 1)
 
 end A177349
 

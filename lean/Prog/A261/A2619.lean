@@ -1734,6 +1734,24 @@ end
 
 end A261921.P16373604073012775237
 
+/-! ## A261921.P4106597722085611055
+
+`filter[A057367(3*n), A377191(#)]`
+-/
+
+namespace A261921.P4106597722085611055
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057367 (3 * n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A377191 (f1 j).toNat = 1) n)
+
+end
+
+end A261921.P4106597722085611055
+
 /-!
 # A261922: a(n) = smallest nonnegative number that is not a substring of n in its binary representation.
 

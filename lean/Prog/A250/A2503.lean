@@ -4196,6 +4196,29 @@ def P3585515084226360090.Spec : Prop :=
 
 end A250352
 
+/-! ## A250352.P11604305289007670688
+
+`2*(A027480(n+1)+1)`
+-/
+
+namespace A250352.P11604305289007670688
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * (A027480 (n + 1) + 1)
+
+end
+
+end A250352.P11604305289007670688
+
+namespace A250352
+
+/-- `2*(A027480(n+1)+1)` -/
+def P11604305289007670688.Spec : Prop :=
+  ∀ n, P11604305289007670688.a n = A250352 (n + 1)
+
+end A250352
+
 /-!
 # A250353: Number of length 4 arrays x(i), i=1..4 with x(i) in i..i+n and no value appearing more than 2 times.
 

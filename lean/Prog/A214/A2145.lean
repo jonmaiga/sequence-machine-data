@@ -1876,6 +1876,28 @@ end A214514.P13729832467529441369
 The programs for A214515, there is no canonical definition to state claims against.
 -/
 
+/-! ## A214515.P12269279809227095920
+
+`∪[A270781(n+1), A270783(n+1)]`
+-/
+
+namespace A214515.P12269279809227095920
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270781 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270783 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A214515.P12269279809227095920
+
 /-! ## A214515.P14813065107137749859
 
 `eq[A040002(A160278(n)), A183214(n)]`

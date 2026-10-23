@@ -58,7 +58,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -4362,6 +4361,29 @@ def P1963844220315606068.Spec : Prop :=
 
 end A128135
 
+/-! ## A128135.P15834812341206091207
+
+`A239632(A004275(n+1))`
+-/
+
+namespace A128135.P15834812341206091207
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239632 (A004275 (n + 1)).toNat
+
+end
+
+end A128135.P15834812341206091207
+
+namespace A128135
+
+/-- `A239632(A004275(n+1))` -/
+def P15834812341206091207.Spec : Prop :=
+  ∀ n, P15834812341206091207.a n = A128135 (n + 1)
+
+end A128135
+
 /-!
 # A128136: A128132 * A002260.
 
@@ -5622,7 +5644,7 @@ end A128138
 /-!
 # A128139: Triangle read by rows: matrix product A004736 * A128132.
 
-The programs for A128139, the canonical program `A128139.P7396789911746890066` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128139 has offset 0).
+The programs for A128139, the canonical program `A128139.P7396789911746890066` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128139 has offset 0).
 
 The definition of A128139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5703,7 +5725,7 @@ end A128139
 
 `∑[A114327(abs(1-n))]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A128139

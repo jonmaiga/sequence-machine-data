@@ -58,7 +58,7 @@ import Seq.B007.C000
 import Seq.B009.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C010
@@ -10732,26 +10732,26 @@ theorem P14715086835322661682.correct : P14715086835322661682.Spec := by
 
 end A010967
 
-/-! ## A010967.P1615326978091933867
+/-! ## A010967.P15812408912643437200
 
-`(n+14)*a(n-1)/n` with `a(0)=1`
+`(14/n+1)*a(n-1)` with `a(0)=1`
 -/
 
-namespace A010967.P1615326978091933867
+namespace A010967.P15812408912643437200
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
-  (n + 14 : ℚ) * a (n - 1) / (n : ℚ)
+  (14 / (n : ℚ) + 1) * a (n - 1)
 
 end
 
-end A010967.P1615326978091933867
+end A010967.P15812408912643437200
 
 namespace A010967
 
-/-- `(n+14)*a(n-1)/n` -/
-def P1615326978091933867.Spec : Prop :=
-  ∀ n, P1615326978091933867.a n = (A010967 (n + 14) : ℚ)
+/-- `(14/n+1)*a(n-1)` -/
+def P15812408912643437200.Spec : Prop :=
+  ∀ n, P15812408912643437200.a n = (A010967 (n + 14) : ℚ)
 
 end A010967
 
@@ -11181,26 +11181,26 @@ theorem P14382318108978038704.correct : P14382318108978038704.Spec := by
 
 end A010969
 
-/-! ## A010969.P8586312689378862348
+/-! ## A010969.P9035927580589611255
 
-`(n+16)*a(n-1)/n` with `a(0)=1`
+`(16/n+1)*a(n-1)` with `a(0)=1`
 -/
 
-namespace A010969.P8586312689378862348
+namespace A010969.P9035927580589611255
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
-  (n + 16 : ℚ) * a (n - 1) / (n : ℚ)
+  (16 / (n : ℚ) + 1) * a (n - 1)
 
 end
 
-end A010969.P8586312689378862348
+end A010969.P9035927580589611255
 
 namespace A010969
 
-/-- `(n+16)*a(n-1)/n` -/
-def P8586312689378862348.Spec : Prop :=
-  ∀ n, P8586312689378862348.a n = (A010969 (n + 16) : ℚ)
+/-- `(16/n+1)*a(n-1)` -/
+def P9035927580589611255.Spec : Prop :=
+  ∀ n, P9035927580589611255.a n = (A010969 (n + 16) : ℚ)
 
 end A010969
 
@@ -11513,26 +11513,26 @@ def P10789579606128032698.Spec : Prop :=
 
 end A010970
 
-/-! ## A010970.P15826569844041692413
+/-! ## A010970.P11293997750306947085
 
 `(n+17)*a(n-1)/n` with `a(0)=1`
 -/
 
-namespace A010970.P15826569844041692413
+namespace A010970.P11293997750306947085
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
-  (n + 17 : ℚ) * a (n - 1) / (n : ℚ)
+  (n + 17 : ℚ) * (a (n - 1) / (n : ℚ))
 
 end
 
-end A010970.P15826569844041692413
+end A010970.P11293997750306947085
 
 namespace A010970
 
 /-- `(n+17)*a(n-1)/n` -/
-def P15826569844041692413.Spec : Prop :=
-  ∀ n, P15826569844041692413.a n = (A010970 (n + 17) : ℚ)
+def P11293997750306947085.Spec : Prop :=
+  ∀ n, P11293997750306947085.a n = (A010970 (n + 17) : ℚ)
 
 end A010970
 
@@ -12752,26 +12752,26 @@ theorem P12132888275687936653.correct : P12132888275687936653.Spec := by
 
 end A010976
 
-/-! ## A010976.P5516729161236424017
+/-! ## A010976.P4060358726298592687
 
 `(n+23)*a(n-1)/n` with `a(0)=1`
 -/
 
-namespace A010976.P5516729161236424017
+namespace A010976.P4060358726298592687
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
-  (n + 23 : ℚ) * a (n - 1) / (n : ℚ)
+  (n + 23 : ℚ) * (a (n - 1) / (n : ℚ))
 
 end
 
-end A010976.P5516729161236424017
+end A010976.P4060358726298592687
 
 namespace A010976
 
 /-- `(n+23)*a(n-1)/n` -/
-def P5516729161236424017.Spec : Prop :=
-  ∀ n, P5516729161236424017.a n = (A010976 (n + 23) : ℚ)
+def P4060358726298592687.Spec : Prop :=
+  ∀ n, P4060358726298592687.a n = (A010976 (n + 23) : ℚ)
 
 end A010976
 

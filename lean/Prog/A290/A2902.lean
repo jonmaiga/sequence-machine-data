@@ -3729,6 +3729,29 @@ def P18391136235719116327.Spec : Prop :=
 
 end A290235
 
+/-! ## A290235.P156567568088448239
+
+`gcd(A126646(n), A290234(n))`
+-/
+
+namespace A290235.P156567568088448239
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A126646 n) (A290234 n)
+
+end
+
+end A290235.P156567568088448239
+
+namespace A290235
+
+/-- `gcd(A126646(n), A290234(n))` -/
+def P156567568088448239.Spec : Prop :=
+  ∀ n, (P156567568088448239.a n : ℤ) = A290235 n
+
+end A290235
+
 /-!
 # A290236: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 774", based on the 5-celled von Neumann neighborhood.
 

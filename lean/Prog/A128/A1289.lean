@@ -91,6 +91,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -745,6 +746,50 @@ end A128906.P1309740028232626502
 The programs for A128907, there is no canonical definition to state claims against.
 -/
 
+/-! ## A128907.P9393739530017809866
+
+`∩[A272592(n+1), A362910(n+1)]`
+-/
+
+namespace A128907.P9393739530017809866
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272592 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362910 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A128907.P9393739530017809866
+
+/-! ## A128907.P2386542272468561993
+
+`∩[A348748(n+1), A362910(n+1)]`
+-/
+
+namespace A128907.P2386542272468561993
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348748 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362910 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A128907.P2386542272468561993
+
 /-! ## A128907.P3039224503788073599
 
 `∩[A306102(n+1), A362910(n+1)]`
@@ -766,6 +811,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A128907.P3039224503788073599
+
+/-! ## A128907.P4047891233145469611
+
+`∩[A265128(n+1), A362910(n+1)]`
+-/
+
+namespace A128907.P4047891233145469611
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A265128 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362910 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A128907.P4047891233145469611
 
 /-!
 # A128908: Riordan array (1, x/(1-x)^2).
@@ -2590,6 +2657,24 @@ end
 
 end A128921.P9197681896932443925
 
+/-! ## A128921.P13680519424768649575
+
+`filter[A102859(n+1), A136522(#)]`
+-/
+
+namespace A128921.P13680519424768649575
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102859 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A136522 (f1 j).toNat = 1) n)
+
+end
+
+end A128921.P13680519424768649575
+
 /-!
 # A128922: Numbers simultaneously 10-gonal and centered 10-gonal.
 
@@ -2958,6 +3043,38 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A128927.P10832285473102131551
+
+/-! ## A128927.P13402103020756521179
+
+`p?[∑[comp[p?[comp[n²]]]]]`
+-/
+
+namespace A128927.P13402103020756521179
+noncomputable section
+
+def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+open Classical in
+def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f5 j ≠ x) n
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f4 (SequenceMachineLib.nth (fun j => (f4 j).Prime) n)
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ x) n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
+
+end
+
+end A128927.P13402103020756521179
 
 /-! ## A128927.P5938440752879185986
 

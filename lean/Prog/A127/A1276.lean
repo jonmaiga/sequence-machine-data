@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -1808,6 +1807,34 @@ def P376063196017052623.Spec : Prop :=
   ∀ n, P376063196017052623.a n = (A127628 n : ℚ)
 
 end A127628
+
+/-!
+# A127629: Numbers m such that a divisor, together with its quotient and remainder, are consecutive terms (in that order) in a geometric sequence.
+
+The programs for A127629, there is no canonical definition to state claims against.
+-/
+
+/-! ## A127629.P11804216466030307985
+
+`∪[A334185(n+1), A334186(n+1)]`
+-/
+
+namespace A127629.P11804216466030307985
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334185 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334186 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127629.P11804216466030307985
 
 /-!
 # A127630: Expansion of (1+x-x^2-x^3)/(1+x^2)^2.
@@ -7055,6 +7082,21 @@ end
 
 end A127653.P10860706144298299605
 
+/-! ## A127653.P6483108195552047992
+
+`A007774(n+1)%A002768(n)`
+-/
+
+namespace A127653.P6483108195552047992
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A007774 (n + 1)) (A002768 n)
+
+end
+
+end A127653.P6483108195552047992
+
 /-!
 # A127654: Unitary aspiring numbers.
 
@@ -10699,6 +10741,28 @@ end
 
 end A127689.P11746201673861460139
 
+/-! ## A127689.P11483496735343506411
+
+`∩[A004014(n), A077034(n+1)]`
+-/
+
+namespace A127689.P11483496735343506411
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004014 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077034 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127689.P11483496735343506411
+
 /-! ## A127689.P11694769293422747013
 
 `A077034(record[A330960(2*n+1)])`
@@ -10716,21 +10780,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A127689.P11694769293422747013
-
-/-! ## A127689.P8110311213657493137
-
-`A077034(A028310(2*A024645(n)))`
--/
-
-namespace A127689.P8110311213657493137
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077034 (A028310 (2 * A024645 n).toNat).toNat
-
-end
-
-end A127689.P8110311213657493137
 
 /-!
 # A127690: a(1)=3; for n>1, a(n) is such that a(1)^2+...+a(n)^2 = (1+a(n))^2.

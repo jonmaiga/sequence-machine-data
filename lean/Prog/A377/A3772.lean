@@ -15,7 +15,6 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
@@ -37,14 +36,12 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -933,6 +930,28 @@ end A377226
 The programs for A377228, there is no canonical definition to state claims against.
 -/
 
+/-! ## A377228.P12136818173046350908
+
+`∩[A010785(n), A082232(n+1)]`
+-/
+
+namespace A377228.P12136818173046350908
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010785 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082232 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377228.P12136818173046350908
+
 /-! ## A377228.P5360783390258028199
 
 `∩[A082232(n+1), A064222(n)]`
@@ -1013,24 +1032,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377228.P11693891214530168384
-
-/-! ## A377228.P16053396539778814544
-
-`filter[A010785(n), A145568(#)]`
--/
-
-namespace A377228.P16053396539778814544
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010785 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A145568 (f1 j).toNat = 1) n)
-
-end
-
-end A377228.P16053396539778814544
 
 /-!
 # A377229: Lexicographically earliest sequence of positive integers a(1), a(2), ... such that for any n >= 0, s(n) = Sum_{k=1..n} 1/(F(k)*a(k)) < 1, F = Fibonacci.
@@ -2297,6 +2298,28 @@ end
 
 end A377266.P4580773072938308590
 
+/-! ## A377266.P9949303044872726999
+
+`∩[A143390(n+1), A257671(n+1)]`
+-/
+
+namespace A377266.P9949303044872726999
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A143390 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257671 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377266.P9949303044872726999
+
 /-!
 # A377268: G.f. satisfies A(x) = (1 - 9*x*A(x))^(1/3).
 
@@ -3469,7 +3492,7 @@ end A377288.P4341577569417646167
 /-!
 # A377289: Difference between prime(n) and the previous prime-power (exclusive).
 
-The programs for A377289, the canonical program `A377289.P15347818859736990215` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377289 has offset 1).
+The programs for A377289, the canonical program `A377289.P15347818859736990215` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377289 has offset 1).
 
 The definition of A377289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3478,7 +3501,7 @@ The definition of A377289 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(n+1)-A065514(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A377289

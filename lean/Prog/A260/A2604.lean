@@ -3214,6 +3214,28 @@ end
 
 end A260428.P8451824937272300327
 
+/-! ## A260428.P10022384978930994931
+
+`∩[A091212(n+1), A206075(n+1)]`
+-/
+
+namespace A260428.P10022384978930994931
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091212 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A206075 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A260428.P10022384978930994931
+
 /-! ## A260428.P15682003150835916474
 
 `∩[A206075(n+1), A260427(n+1)]`
@@ -3541,28 +3563,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A260428.P11428613727019610853
-
-/-! ## A260428.P5830916682357659439
-
-`∩[A141468(n+1), A260427(n+1)]`
--/
-
-namespace A260428.P5830916682357659439
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141468 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A260427 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A260428.P5830916682357659439
 
 /-!
 # A260429: Column index to A255545: if n is Lucky number, then a(n) = 1, otherwise a(n) = 1 + the position at the stage where n is removed in the Lucky sieve.
@@ -3989,6 +3989,36 @@ end
 
 end A260432.P7037653432043983219
 
+/-! ## A260432.P4196357372780916034
+
+`A260434(A260431(A260434(A257807(A257803(n+1)))))`
+-/
+
+namespace A260432.P4196357372780916034
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260434 (A260431 (A260434 (A257807 (A257803 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A260432.P4196357372780916034
+
+/-! ## A260432.P2808835060232281105
+
+`A260434(A260431(A260434(A260434(A260433(n+1)))))`
+-/
+
+namespace A260432.P2808835060232281105
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260434 (A260431 (A260434 (A260434 (A260433 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A260432.P2808835060232281105
+
 /-!
 # A260433: Permutation of natural numbers: a(1) = 1, a(A257803(1+n)) = 2*a(n), a(A257804(n)) = 1 + 2*a(n), where A257803 and A257804 give the positions of odd and even terms in A233271, the infinite trunk of inverted binary beanstalk.
 
@@ -4198,6 +4228,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260434.P4300793437151744512
+
+/-! ## A260434.P12748270191489177096
+
+`A260432(A260433(A260432(A257807(A257803(n+1)))))`
+-/
+
+namespace A260434.P12748270191489177096
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260432 (A260433 (A260432 (A257807 (A257803 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A260434.P12748270191489177096
+
+/-! ## A260434.P9588364185920339371
+
+`A260432(A260433(A260432(A257808(A257804(n+1)))))`
+-/
+
+namespace A260434.P9588364185920339371
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260432 (A260433 (A260432 (A257808 (A257804 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A260434.P9588364185920339371
+
+/-! ## A260434.P17200760304574927600
+
+`A260432(A260433(A260432(A260432(A260431(n+1)))))`
+-/
+
+namespace A260434.P17200760304574927600
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260432 (A260433 (A260432 (A260432 (A260431 (n + 1)).toNat).toNat).toNat).toNat
+
+end
+
+end A260434.P17200760304574927600
 
 /-!
 # A260435: Permutation mapping from Lucky sieve to Ludic sieve: a(1) = 1, for n > 1: a(n) = A255127(A260438(n), A260439(n)).
@@ -10792,6 +10867,28 @@ end A260474.P16201527209133740512
 The programs for A260476, there is no canonical definition to state claims against.
 -/
 
+/-! ## A260476.P15232432185390039006
+
+`∩[A087520(n), A266165(n+1)]`
+-/
+
+namespace A260476.P15232432185390039006
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087520 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266165 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A260476.P15232432185390039006
+
 /-! ## A260476.P16649402893886261702
 
 `p?[A266165(n+1)]`
@@ -11451,33 +11548,26 @@ def P6619869509743182204.Spec : Prop :=
 
 end A260479
 
-/-! ## A260479.P4122407534974216725
+/-! ## A260479.P9313484793189217569
 
-`∑[char[A214682(n+1)]+1]`
+`A016777(n)-A197911(n)`
 -/
 
-namespace A260479.P4122407534974216725
+namespace A260479.P9313484793189217569
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214682 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f2 j = (n : ℤ) then 1 else 0) + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016777 n - A197911 n
 
 end
 
-end A260479.P4122407534974216725
+end A260479.P9313484793189217569
 
 namespace A260479
 
-/-- `∑[char[A214682(n+1)]+1]` -/
-def P4122407534974216725.Spec : Prop :=
-  ∀ n, (P4122407534974216725.a n : ℤ) = A260479 (n + 1)
+/-- `A016777(n)-A197911(n)` -/
+def P9313484793189217569.Spec : Prop :=
+  ∀ n, P9313484793189217569.a n = A260479 (n + 1)
 
 end A260479
 

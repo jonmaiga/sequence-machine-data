@@ -59,6 +59,7 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -88,6 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A004900: Numbers that are the sum of at most 5 nonzero 10th powers.
@@ -1306,6 +1308,28 @@ end A004907.P5258215024866522823
 The programs for A004908, there is no canonical definition to state claims against.
 -/
 
+/-! ## A004908.P9507410825103383220
+
+`∪[A004813(n+1), A008455(n)]`
+-/
+
+namespace A004908.P9507410825103383220
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004813 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008455 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A004908.P9507410825103383220
+
 /-! ## A004908.P4818952216358589501
 
 `∩[A004909(n+1)-1, A004909(n+1)]`
@@ -1393,24 +1417,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004908.P9168903752455493641
-
-/-! ## A004908.P5833532994494950527
-
-`∑{e}[A100851(n), #^11]`
--/
-
-namespace A004908.P5833532994494950527
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100851 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p ^ 11
-
-end
-
-end A004908.P5833532994494950527
 
 /-!
 # A004909: Numbers that are the sum of at most 3 positive 11th powers.
@@ -18667,6 +18673,25 @@ end
 
 end A004999.P969795438823799108
 
+/-! ## A004999.P16068585373870419194
+
+`comp[A022555(n+1)]`
+-/
+
+namespace A004999.P16068585373870419194
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022555 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A004999.P16068585373870419194
+
 /-! ## A004999.P17751655129745512855
 
 `eq[0, A351338(n)]`
@@ -18708,25 +18733,4 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004999.P10352319132551093398
-
-/-! ## A004999.P2649370462173813302
-
-`lt[0, A173677(n)]`
--/
-
-namespace A004999.P2649370462173813302
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173677 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A004999.P2649370462173813302
 

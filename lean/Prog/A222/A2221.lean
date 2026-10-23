@@ -13,9 +13,11 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
@@ -1331,6 +1333,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A222116.P13931429516934487403
+
+/-! ## A222116.P9089012841858085025
+
+`∩[A082208(n+1), A157868(n+1)]`
+-/
+
+namespace A222116.P9089012841858085025
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082208 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A157868 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A222116.P9089012841858085025
 
 /-! ## A222116.P12272723712124700961
 
@@ -6101,6 +6125,144 @@ def P3856397330085952081.Spec : Prop :=
 
 end A222170
 
+/-! ## A222170.P13230952978859816866
+
+`xor(A113422(n), A120323(n))`
+-/
+
+namespace A222170.P13230952978859816866
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A113422 n) (A120323 n)
+
+end
+
+end A222170.P13230952978859816866
+
+namespace A222170
+
+/-- `xor(A113422(n), A120323(n))` -/
+def P13230952978859816866.Spec : Prop :=
+  ∀ n, P13230952978859816866.a n = A222170 n
+
+end A222170
+
+/-! ## A222170.P17596331921305783448
+
+`A033438(2*n)`
+-/
+
+namespace A222170.P17596331921305783448
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033438 (2 * n)
+
+end
+
+end A222170.P17596331921305783448
+
+namespace A222170
+
+/-- `A033438(2*n)` -/
+def P17596331921305783448.Spec : Prop :=
+  ∀ n, P17596331921305783448.a n = A222170 n
+
+end A222170
+
+/-! ## A222170.P12146377590749301609
+
+`A008851(A084672(n))`
+-/
+
+namespace A222170.P12146377590749301609
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008851 (A084672 n).toNat
+
+end
+
+end A222170.P12146377590749301609
+
+namespace A222170
+
+/-- `A008851(A084672(n))` -/
+def P12146377590749301609.Spec : Prop :=
+  ∀ n, P12146377590749301609.a n = A222170 n
+
+end A222170
+
+/-! ## A222170.P17383480095419116374
+
+`A008854(n²+1)`
+-/
+
+namespace A222170.P17383480095419116374
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008854 (n ^ 2 + 1)
+
+end
+
+end A222170.P17383480095419116374
+
+namespace A222170
+
+/-- `A008854(n²+1)` -/
+def P17383480095419116374.Spec : Prop :=
+  ∀ n, P17383480095419116374.a n = A222170 n
+
+end A222170
+
+/-! ## A222170.P13077565884336938955
+
+`A047217(n²+1)`
+-/
+
+namespace A222170.P13077565884336938955
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047217 (n ^ 2 + 1)
+
+end
+
+end A222170.P13077565884336938955
+
+namespace A222170
+
+/-- `A047217(n²+1)` -/
+def P13077565884336938955.Spec : Prop :=
+  ∀ n, P13077565884336938955.a n = A222170 n
+
+end A222170
+
+/-! ## A222170.P12033268153139614610
+
+`A047220(n²+1)`
+-/
+
+namespace A222170.P12033268153139614610
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047220 (n ^ 2 + 1)
+
+end
+
+end A222170.P12033268153139614610
+
+namespace A222170
+
+/-- `A047220(n²+1)` -/
+def P12033268153139614610.Spec : Prop :=
+  ∀ n, P12033268153139614610.a n = A222170 n
+
+end A222170
+
 /-!
 # A222172: Total number of ON states after n generations of cellular automaton based on pentagons starting near of the vertex of an infinite 36-degree wedge.
 
@@ -6298,6 +6460,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A222174.P2082847569489533180
+
+/-! ## A222174.P15875825832728687451
+
+`∩[A184335(n+1), A227306(n+1)]`
+-/
+
+namespace A222174.P15875825832728687451
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A184335 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227306 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A222174.P15875825832728687451
 
 /-!
 # A222175: Numbers n such that 7n is a partition number.

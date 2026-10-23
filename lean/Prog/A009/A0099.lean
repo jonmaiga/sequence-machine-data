@@ -5623,6 +5623,24 @@ end
 
 end A009995.P12968984872009806762
 
+/-! ## A009995.P2538490346948924393
+
+`filter[A009996(n+1), A178788(#)]`
+-/
+
+namespace A009995.P2538490346948924393
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009996 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A178788 (f1 j).toNat = 1) n)
+
+end
+
+end A009995.P2538490346948924393
+
 /-!
 # A009996: Numbers with digits in nonincreasing order.
 

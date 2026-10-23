@@ -64,8 +64,8 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -5664,19 +5664,19 @@ end
 
 end A301867.P6836199996424524799
 
-/-! ## A301867.P7170674152724671337
+/-! ## A301867.P7491565458148754692
 
-`∩[A064710(n+1), A262406(n+1)]`
+`∩[A262406(n+1), A291549(n+1)]`
 -/
 
-namespace A301867.P7170674152724671337
+namespace A301867.P7491565458148754692
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064710 (n + 1)
+  A262406 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A262406 (n + 1)
+  A291549 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5684,7 +5684,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A301867.P7170674152724671337
+end A301867.P7491565458148754692
 
 /-!
 # A301868: Numbers k such that phi(k, 2) = phi(k+1, 2), where phi(k, 2) = A002472(k).
@@ -7477,6 +7477,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A301893.P6544532825352214470
+
+/-! ## A301893.P12172326057950605961
+
+`eq[A102096(n+1), A241575(n)]`
+-/
+
+namespace A301893.P12172326057950605961
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102096 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241575 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A301893.P12172326057950605961
 
 /-!
 # A301895: a(n) = (number of 1's in binary expansion of n)^(number of 0's in binary expansion of n).

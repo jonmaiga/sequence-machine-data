@@ -504,6 +504,28 @@ end
 
 end A393014.P2224825371662723118
 
+/-! ## A393014.P4401225348300490251
+
+`∩[A255161(n+1), A259385(n+1)]`
+-/
+
+namespace A393014.P4401225348300490251
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A255161 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259385 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393014.P4401225348300490251
+
 /-!
 # A393015: Palindromic canyon numbers.
 
@@ -663,6 +685,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A393015.P7443945995804142783
+
+/-! ## A393015.P8990117591001103469
+
+`∩[A110785(n+1), A183086(n+1)]`
+-/
+
+namespace A393015.P8990117591001103469
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110785 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183086 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393015.P8990117591001103469
+
+/-! ## A393015.P13408524351163824098
+
+`∩[A110785(n+1), A297147(n+1)]`
+-/
+
+namespace A393015.P13408524351163824098
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110785 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297147 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393015.P13408524351163824098
 
 /-!
 # A393022: List points (x,y,z) having integer coordinates, sorted first by L = |x| + |y| + |z| and in case of ties, then by z and last by polar angle 0 <= phi < 2*Pi in a polar coordinate system. Sequence gives y-coordinates.
@@ -1577,6 +1643,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393057.P11350110272909109094
+
+/-! ## A393057.P7965515447427731443
+
+`A323665(A133585(n+1))`
+-/
+
+namespace A393057.P7965515447427731443
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323665 (A133585 (n + 1)).toNat
+
+end
+
+end A393057.P7965515447427731443
 
 /-!
 # A393058: Number of terms of A392868 <= n.

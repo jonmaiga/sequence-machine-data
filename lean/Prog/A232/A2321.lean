@@ -387,6 +387,28 @@ end
 
 end A232105.P10779948209644880558
 
+/-! ## A232105.P15685867714388275117
+
+`∩[A140452(n+1), A384607(n+1)]`
+-/
+
+namespace A232105.P15685867714388275117
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140452 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384607 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232105.P15685867714388275117
+
 /-!
 # A232106: Number of groups of order prime(n)^6.
 
@@ -5543,6 +5565,28 @@ end A232181
 The programs for A232183, there is no canonical definition to state claims against.
 -/
 
+/-! ## A232183.P5876839709971787939
+
+`∪[A002385(n+1), A080177(n+1)]`
+-/
+
+namespace A232183.P5876839709971787939
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002385 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080177 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232183.P5876839709971787939
+
 /-! ## A232183.P2782970962201704445
 
 `A133956(A301318(n+1)+1)`
@@ -5636,6 +5680,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A232185.P2056435265843530521
+
+/-! ## A232185.P16430776613303165841
+
+`∩[A292683(n+1), A354081(n+1)]`
+-/
+
+namespace A232185.P16430776613303165841
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A292683 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354081 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232185.P16430776613303165841
 
 /-!
 # A232186: Number of ways to write n = p + q (q > 0) with p and p^3 + n*q^2 both prime.

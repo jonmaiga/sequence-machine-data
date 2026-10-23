@@ -126,6 +126,72 @@ end A362001.P11413109186885289375
 The programs for A362002, there is no canonical definition to state claims against.
 -/
 
+/-! ## A362002.P8801185250368478676
+
+`∩[A029943(n+1), A039142(n+1)]`
+-/
+
+namespace A362002.P8801185250368478676
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029943 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362002.P8801185250368478676
+
+/-! ## A362002.P9737868029413248516
+
+`∩[A029943(n+1), A039151(n+1)]`
+-/
+
+namespace A362002.P9737868029413248516
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029943 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039151 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362002.P9737868029413248516
+
+/-! ## A362002.P15022576419025686644
+
+`∩[A029943(n+1), A052414(n+1)]`
+-/
+
+namespace A362002.P15022576419025686644
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029943 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052414 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362002.P15022576419025686644
+
 /-! ## A362002.P24397751274809252
 
 `A032742(A051109(n+1))*A178487(n)`
@@ -1541,33 +1607,26 @@ def P4988415708975642832.Spec : Prop :=
 
 end A362028
 
-/-! ## A362028.P3267087862456905180
+/-! ## A362028.P15289158800244673233
 
-`char[∏{p}[n, #]-1]-a(n-1)` with `a(0)=1`
+`A302604(n+3)-A302604(n+2)`
 -/
 
-namespace A362028.P3267087862456905180
+namespace A362028.P15289158800244673233
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ p ∈ Nat.primeFactors (f2 n), p : ℕ) : ℤ) - 1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) - a (n - 1)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302604 (n + 3) - A302604 (n + 2)
 
 end
 
-end A362028.P3267087862456905180
+end A362028.P15289158800244673233
 
 namespace A362028
 
-/-- `char[∏{p}[n, #]-1]-a(n-1)` -/
-def P3267087862456905180.Spec : Prop :=
-  ∀ n, P3267087862456905180.a n = A362028 (n + 1)
+/-- `A302604(n+3)-A302604(n+2)` -/
+def P15289158800244673233.Spec : Prop :=
+  ∀ n, P15289158800244673233.a n = A362028 (n + 1)
 
 end A362028
 
@@ -3296,6 +3355,28 @@ end
 
 end A362053.P16210014746270900067
 
+/-! ## A362053.P10746103685424983572
+
+`∩[A071927(n+1), A180332(n+1)]`
+-/
+
+namespace A362053.P10746103685424983572
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071927 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180332 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362053.P10746103685424983572
+
 /-! ## A362053.P16025830869174722329
 
 `∩[A071927(n+1), A088011(n+1)]`
@@ -3317,28 +3398,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A362053.P16025830869174722329
-
-/-! ## A362053.P10069445924362832204
-
-`∩[A071927(n+1), A117347(n+1)]`
--/
-
-namespace A362053.P10069445924362832204
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071927 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117347 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A362053.P10069445924362832204
 
 /-!
 # A362055: Number of compositions of n that are anti-palindromic modulo 2.

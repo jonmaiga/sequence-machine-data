@@ -1754,6 +1754,28 @@ end
 
 end A094810.P6636980334866863762
 
+/-! ## A094810.P15404935889108232347
+
+`∩[A038616(n+1), A305412(n)]`
+-/
+
+namespace A094810.P15404935889108232347
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038616 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305412 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A094810.P15404935889108232347
+
 /-! ## A094810.P7232788593752479563
 
 `p?[∑[A002378(A000045(n))]+1]`
@@ -1774,24 +1796,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A094810.P7232788593752479563
-
-/-! ## A094810.P10243076967652192009
-
-`p?[A286983(n+1)+A000045(n)]`
--/
-
-namespace A094810.P10243076967652192009
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286983 (n + 1) + A000045 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A094810.P10243076967652192009
 
 /-!
 # A094812: Number of odd composites between 2^n and 2^(n + 1).

@@ -191,6 +191,28 @@ end
 
 end A239901.P10846956920768660724
 
+/-! ## A239901.P5016562656985519476
+
+`∩[A098868(n+1), A145483(n+1)]`
+-/
+
+namespace A239901.P5016562656985519476
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098868 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A145483 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239901.P5016562656985519476
+
 /-!
 # A239903: List of Restricted-Growth Strings a_{k-1}a_{k-2}...a_{2}a_{1}, with k=2 and a_1 in {0,1} or k>2, a_{k-1}=1 and a_{j+1}>=1+a_j, for k-1>j>0.
 
@@ -274,6 +296,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A239903.P15057330121840632631
+
+/-! ## A239903.P15023623851792481178
+
+`A244159(A227549(n+1))`
+-/
+
+namespace A239903.P15023623851792481178
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244159 (A227549 (n + 1)).toNat
+
+end
+
+end A239903.P15023623851792481178
 
 /-!
 # A239904: a(n) = n - wt(n) + (number of times 11 appears in binary expansion of n).
@@ -7638,6 +7675,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A239993.P10071214930832642788
+
+/-! ## A239993.P6763399187561867334
+
+`∪[A110487(n+1), A374135(n+1)]`
+-/
+
+namespace A239993.P6763399187561867334
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110487 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374135 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239993.P6763399187561867334
 
 /-! ## A239993.P12051468278654780158
 

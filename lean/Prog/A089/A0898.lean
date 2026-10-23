@@ -28,6 +28,7 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -8262,6 +8263,32 @@ def P7692246519672813794.Spec : Prop :=
 
 end A089830
 
+/-! ## A089830.P9247587387555146974
+
+`∑[A366724(n+1)-n]`
+-/
+
+namespace A089830.P9247587387555146974
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366724 (n + 1) - (n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A089830.P9247587387555146974
+
+namespace A089830
+
+/-- `∑[A366724(n+1)-n]` -/
+def P9247587387555146974.Spec : Prop :=
+  ∀ n, P9247587387555146974.a n = A089830 n
+
+end A089830
+
 /-!
 # A089832: Number of distinct non-recursive Catalan Automorphisms whose minimum clause-representation requires examination of n nodes in total. Row sums of A089831.
 
@@ -8664,26 +8691,26 @@ def P5516739813940622096.Spec : Prop :=
 
 end A089835
 
-/-! ## A089835.P5522142948355310807
+/-! ## A089835.P17345121760684748475
 
-`A000108(n)*A000108(n)*A000142(1+n)`
+`A248045(n+1)/(2*n+1)`
 -/
 
-namespace A089835.P5522142948355310807
+namespace A089835.P17345121760684748475
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000108 n * (A000108 n * A000142 (1 + n))
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A248045 (n + 1) : ℚ) / (2 * n + 1 : ℚ)
 
 end
 
-end A089835.P5522142948355310807
+end A089835.P17345121760684748475
 
 namespace A089835
 
-/-- `A000108(n)*A000108(n)*A000142(1+n)` -/
-def P5522142948355310807.Spec : Prop :=
-  ∀ n, P5522142948355310807.a n = A089835 n
+/-- `A248045(n+1)/(2*n+1)` -/
+def P17345121760684748475.Spec : Prop :=
+  ∀ n, P17345121760684748475.a n = (A089835 n : ℚ)
 
 end A089835
 

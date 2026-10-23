@@ -55,7 +55,6 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -12005,6 +12004,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A163492.P7734646742745666518
+
+/-! ## A163492.P14994011864540663485
+
+`∩[A101771(n), A329582(n+1)]`
+-/
+
+namespace A163492.P14994011864540663485
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101771 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329582 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A163492.P14994011864540663485
 
 /-!
 # A163493: Number of binary strings of length n which have the same number of 00 and 01 substrings.

@@ -1206,19 +1206,19 @@ end
 
 end A340930.P17846503884209269023
 
-/-! ## A340930.P18411748690118339920
+/-! ## A340930.P15904074210496901104
 
-`∩[A340788(n+1), A340602(n+5)]`
+`∩[A340602(n+1), A340788(n+1)]`
 -/
 
-namespace A340930.P18411748690118339920
+namespace A340930.P15904074210496901104
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340788 (n + 1)
+  A340602 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340602 (n + 5)
+  A340788 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1226,7 +1226,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A340930.P18411748690118339920
+end A340930.P15904074210496901104
 
 /-!
 # A340931: Heinz numbers of integer partitions of odd numbers into an odd number of parts.

@@ -37,7 +37,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1442,6 +1441,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A364722.P8469683343805084782
+
+/-! ## A364722.P13417116090319346415
+
+`record[∑[A153181(n)]]`
+-/
+
+namespace A364722.P13417116090319346415
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153181 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A364722.P13417116090319346415
 
 /-!
 # A364723: G.f. A(x) satisfies A(x) = 1 + x*A(x) / (1 - x*A(x)^4).

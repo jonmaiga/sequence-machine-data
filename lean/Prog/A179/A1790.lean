@@ -2221,6 +2221,25 @@ end
 
 end A179016.P11289828358446304912
 
+/-! ## A179016.P11207228818609788578
+
+`comp[A213713(n+1)]`
+-/
+
+namespace A179016.P11207228818609788578
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A213713 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A179016.P11207228818609788578
+
 /-! ## A179016.P17192818070706276928
 
 `eq[0, A213725(n)]`
@@ -2280,31 +2299,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A179016.P7068768213906263904
-
-/-! ## A179016.P10159126230397932335
-
-`eq[0, char[A213713(n+1)]]`
--/
-
-namespace A179016.P10159126230397932335
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213713 (n + 1)
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A179016.P10159126230397932335
 
 /-! ## A179016.P16031608388767285775
 
@@ -2833,6 +2827,36 @@ def P15444193264908449237.Spec : Prop :=
 
 end A179017
 
+/-! ## A179017.P15814343910204369088
+
+`∩[A005117(n+1), A295243(n+1)]`
+-/
+
+namespace A179017.P15814343910204369088
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295243 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A179017.P15814343910204369088
+
+namespace A179017
+
+/-- `∩[A005117(n+1), A295243(n+1)]` -/
+def P15814343910204369088.Spec : Prop :=
+  ∀ n, (P15814343910204369088.a n : ℤ) = A179017 (n + 1)
+
+end A179017
+
 /-! ## A179017.P5836306667199010607
 
 `∩[A117205(n+1), A295243(n+1)]`
@@ -2950,36 +2974,6 @@ namespace A179017
 /-- `∩[A117203(n+1), A240603(n+1)]` -/
 def P11780553044058225617.Spec : Prop :=
   ∀ n, (P11780553044058225617.a n : ℤ) = A179017 (n + 1)
-
-end A179017
-
-/-! ## A179017.P7846080337573960706
-
-`∩[A117205(n+1), A240603(n+1)]`
--/
-
-namespace A179017.P7846080337573960706
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117205 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240603 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A179017.P7846080337573960706
-
-namespace A179017
-
-/-- `∩[A117205(n+1), A240603(n+1)]` -/
-def P7846080337573960706.Spec : Prop :=
-  ∀ n, (P7846080337573960706.a n : ℤ) = A179017 (n + 1)
 
 end A179017
 
@@ -7033,6 +7027,24 @@ end
 
 end A179038.P11550411596757028836
 
+/-! ## A179038.P11298503979946286171
+
+`filter[A179039(n+1), A232750(#)]`
+-/
+
+namespace A179038.P11298503979946286171
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179039 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A232750 (f1 j).toNat = 1) n)
+
+end
+
+end A179038.P11298503979946286171
+
 /-!
 # A179039: Emirps with a single 7 as the only prime digit.
 
@@ -9445,6 +9457,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A179055.P17543227435264970165
+
+/-! ## A179055.P9289681409914303647
+
+`∩[A050626(n+1), A109882(n+1)]`
+-/
+
+namespace A179055.P9289681409914303647
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050626 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109882 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A179055.P9289681409914303647
 
 /-!
 # A179058: Number of non-attacking placements of 3 rooks on an n X n board.

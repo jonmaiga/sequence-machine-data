@@ -3204,19 +3204,19 @@ end
 
 end A225421.P2927503871315719901
 
-/-! ## A225421.P7343584042443204391
+/-! ## A225421.P11822487386294971634
 
-`∩[A014261(n+1), A039986(n+1)]`
+`∩[A066640(n+1), A246044(n+1)]`
 -/
 
-namespace A225421.P7343584042443204391
+namespace A225421.P11822487386294971634
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014261 (n + 1)
+  A066640 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039986 (n + 1)
+  A246044 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3224,7 +3224,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A225421.P7343584042443204391
+end A225421.P11822487386294971634
 
 /-!
 # A225422: Largest number k such that k < d(k)^(n/10), where d(k) is the number of divisors of k.
@@ -12143,6 +12143,28 @@ end
 
 end A225498.P12623729614024125915
 
+/-! ## A225498.P5321042662157815386
+
+`∩[2*n+1, A080062(n+1)]`
+-/
+
+namespace A225498.P5321042662157815386
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080062 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225498.P5321042662157815386
+
 /-! ## A225498.P14758027589948115439
 
 `record[A000265(A080062(n+3))]`
@@ -12438,28 +12460,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225498.P11570600886689353956
-
-/-! ## A225498.P7795836728376686398
-
-`∩[A067800(n+1), A080062(n+1)]`
--/
-
-namespace A225498.P7795836728376686398
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067800 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080062 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A225498.P7795836728376686398
 
 /-! ## A225498.P3570866240100345881
 

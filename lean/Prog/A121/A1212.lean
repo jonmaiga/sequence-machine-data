@@ -3160,6 +3160,50 @@ end
 
 end A121233.P4792439549443668978
 
+/-! ## A121233.P1059686871150310389
+
+`∩[A051221(n+1), A110751(n+1)]`
+-/
+
+namespace A121233.P1059686871150310389
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051221 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110751 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A121233.P1059686871150310389
+
+/-! ## A121233.P13669265118177403813
+
+`∩[A051221(n+1), A324988(n+1)]`
+-/
+
+namespace A121233.P13669265118177403813
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051221 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324988 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A121233.P13669265118177403813
+
 /-!
 # A121235: Multiply-Add Recurrence Invariant (MARI) numbers.
 
@@ -3718,6 +3762,29 @@ namespace A121238
 /-- `A112347(n/a(n-1)²)` -/
 def P12721402718002765482.Spec : Prop :=
   ∀ n, P12721402718002765482.a n = A121238 n
+
+end A121238
+
+/-! ## A121238.P10238962669712103999
+
+`A112347(n^a(n-1)²)` with `a(0)=1`
+-/
+
+namespace A121238.P10238962669712103999
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A112347 (SequenceMachineLib.roundAway ((n : ℚ) ^ (a (n - 1) ^ 2 : ℤ))).toNat
+
+end
+
+end A121238.P10238962669712103999
+
+namespace A121238
+
+/-- `A112347(n^a(n-1)²)` -/
+def P10238962669712103999.Spec : Prop :=
+  ∀ n, P10238962669712103999.a n = A121238 n
 
 end A121238
 

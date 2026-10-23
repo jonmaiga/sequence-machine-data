@@ -42,7 +42,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -1373,26 +1372,26 @@ def P13456678993155249512.Spec : Prop :=
 
 end A198017
 
-/-! ## A198017.P5830305103657330532
+/-! ## A198017.P5081181519986282757
 
-`A193053(2*n)`
+`A158491(n+1)%A026817(n+1)`
 -/
 
-namespace A198017.P5830305103657330532
+namespace A198017.P5081181519986282757
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193053 (2 * n)
+  Int.tmod (A158491 (n + 1)) (A026817 (n + 1))
 
 end
 
-end A198017.P5830305103657330532
+end A198017.P5081181519986282757
 
 namespace A198017
 
-/-- `A193053(2*n)` -/
-def P5830305103657330532.Spec : Prop :=
-  ∀ n, P5830305103657330532.a n = A198017 n
+/-- `A158491(n+1)%A026817(n+1)` -/
+def P5081181519986282757.Spec : Prop :=
+  ∀ n, P5081181519986282757.a n = A198017 n
 
 end A198017
 
@@ -2036,6 +2035,28 @@ end A198034.P6913126743081874634
 The programs for A198035, there is no canonical definition to state claims against.
 -/
 
+/-! ## A198035.P6535559364178607321
+
+`∩[A048375(n+1), A367733(n+1)]`
+-/
+
+namespace A198035.P6535559364178607321
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048375 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367733 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A198035.P6535559364178607321
+
 /-! ## A198035.P3535974040598314306
 
 `sqrt(∩[A009404(n+1), A039686(n+1)])`
@@ -2058,59 +2079,49 @@ end
 
 end A198035.P3535974040598314306
 
-/-! ## A198035.P4386041924797932011
+/-! ## A198035.P10783273188717180077
 
-`record[A004151(A048375(n+1))]`
+`∩[A048375(n+1), A067251(n+1)]`
 -/
 
-namespace A198035.P4386041924797932011
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004151 (A048375 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A198035.P4386041924797932011
-
-/-! ## A198035.P17330590069497751249
-
-`filter[A048375(n+1), A168184(#)]`
--/
-
-namespace A198035.P17330590069497751249
+namespace A198035.P10783273188717180077
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A048375 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A168184 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067251 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A198035.P17330590069497751249
+end A198035.P10783273188717180077
 
-/-! ## A198035.P5896428702659264859
+/-! ## A198035.P804659419428371935
 
-`record[A004151(sqrt(A039686(n+1)))]`
+`∩[A048375(n+1), A342851(n+1)]`
 -/
 
-namespace A198035.P5896428702659264859
+namespace A198035.P804659419428371935
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004151 (SequenceMachineLib.roundAway (Real.sqrt (A039686 (n + 1) : ℝ))).toNat
+  A048375 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342851 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A198035.P5896428702659264859
+end A198035.P804659419428371935
 
 /-!
 # A198037: Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 4,1,2,1,1,0,2 for x=0,1,2,3,4,5,6.
@@ -2748,7 +2759,7 @@ end A198062.P10091620166065782216
 /-!
 # A198063: Triangle read by rows (n >= 0, 0 <= k <= n, m = 3); T(n,k) = Sum{j=0..m} Sum{i=0..m} (-1)^(j+i)*C(i,j)*n^j*k^(m-j).
 
-The programs for A198063, the canonical program `A198063.P43002539216638676` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198063 has offset 0).
+The programs for A198063, the canonical program `A198063.P43002539216638676` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198063 has offset 0).
 
 The definition of A198063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2757,7 +2768,7 @@ The definition of A198063 is `conjectured`: the Lean definition is a formula tha
 
 `A003056(n)*A048147(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A198063
@@ -3441,7 +3452,7 @@ end A198068.P12957174720852234814
 /-!
 # A198069: Table read by rows, T(0,0) = 1 and for n>0, 0<=k<=2^(n-1) T(n,k) = gcd(k,2^(n-1)).
 
-The programs for A198069, the canonical program `A198069.P6078617313314915995` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198069 has offset 0).
+The programs for A198069, the canonical program `A198069.P6078617313314915995` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198069 has offset 0).
 
 The definition of A198069 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5917 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3479,7 +3490,7 @@ end A198069
 
 `A135517(lt[A006257(n), A053644(n+1)])`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A198069

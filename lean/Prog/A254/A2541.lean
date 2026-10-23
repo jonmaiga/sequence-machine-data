@@ -68,7 +68,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013

@@ -6426,6 +6426,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(3*(n+2)²/4)-1` (program `A228344.P5993680695944632253`, by `A228344.P5993680695944632253.correct`). Lean does not check the parsing of the name. -/
 def A228344.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A214996.P5507889719808099188
+
+`3*a(n-1)+2*a(n-2)-2*a(n-3)` with `a(0)=3, a(1)=11, a(2)=37`
+-/
+
+namespace A214996.P5507889719808099188
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3, 11, 37] fun n a =>
+  3 * a (n - 1) + 2 * a (n - 2) - 2 * a (n - 3)
+
+end
+
+end A214996.P5507889719808099188
+
+noncomputable section
+
+/-- A214996: Power floor-ceiling sequence of 2+sqrt(2).
+
+Offset 0, canonical program `A214996.P5507889719808099188`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A214996 (n : ℕ) : ℤ :=
+  A214996.P5507889719808099188.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A214996.provenance : SequenceMachineLib.Provenance := .assumedProven
+
 /-! ## A214997.P77416991492476181
 
 `3*a(n-1)+2*a(n-2)-2*a(n-3)` with `a(0)=4, a(1)=13, a(2)=45`
@@ -21585,28 +21613,28 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. -/
 def A218657.provenance : SequenceMachineLib.Provenance := .conjectured
 
-/-! ## A218832.P2337299012687232909
+/-! ## A218832.P9585740998280716386
 
-`(7+(-1)^(n+1)-8*(n+1)²+2*(n+1)^4)/8`
+`floor((1-(n+1)²/2)²)`
 -/
 
-namespace A218832.P2337299012687232909
+namespace A218832.P9585740998280716386
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (7 + (-1) ^ (n + 1) - (8 * (n + 1) ^ 2 : ℤ) + (2 * (n + 1) ^ 4 : ℤ) : ℚ) / 8
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(1 - ((n + 1) ^ 2 : ℚ) / 2) ^ 2⌋
 
 end
 
-end A218832.P2337299012687232909
+end A218832.P9585740998280716386
 
 noncomputable section
 
 /-- A218832: Number of positive integer solutions to the Diophantine equation x + y + 2z = n^2.
 
-Offset 1, canonical program `A218832.P2337299012687232909`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+Offset 1, canonical program `A218832.P9585740998280716386`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A218832 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A218832.P2337299012687232909.a (n - 1))
+  A218832.P9585740998280716386.a (n - 1)
 
 end
 
@@ -29124,32 +29152,4 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A228398.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A228437.P12531262286154695613
-
-`24/gcd(24, n)`
--/
-
-namespace A228437.P12531262286154695613
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  24 / (Nat.gcd 24 n : ℚ)
-
-end
-
-end A228437.P12531262286154695613
-
-noncomputable section
-
-/-- A228437: Denominator of n/24.
-
-Offset 0, canonical program `A228437.P12531262286154695613`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A228437 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A228437.P12531262286154695613.a n)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A228437.provenance : SequenceMachineLib.Provenance := .conjectured
 

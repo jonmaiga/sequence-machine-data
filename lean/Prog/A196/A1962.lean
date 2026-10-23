@@ -53,10 +53,8 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -4791,7 +4789,7 @@ end A196273.P15260402926240185058
 /-!
 # A196274: Half of the gaps A067970 between odd nonprimes A014076.
 
-The programs for A196274, the canonical program `A196274.P15919097305767155130` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196274 has offset 1).
+The programs for A196274, the canonical program `A196274.P15919097305767155130` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196274 has offset 1).
 
 The definition of A196274 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A067970, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4800,7 +4798,7 @@ The definition of A196274 is `conditional`: the Lean definition is an OEIS formu
 
 `A067970(n+1)/2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A196274
@@ -5260,7 +5258,7 @@ end A196275.P7831905402205250044
 /-!
 # A196276: Numbers m such that A196274(m) = 1.
 
-The programs for A196276, the canonical program `A196276.P9076072526218901477` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196276 has offset 1).
+The programs for A196276, the canonical program `A196276.P9076072526218901477` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196276 has offset 1).
 
 The definition of A196276 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5269,7 +5267,7 @@ The definition of A196276 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A008507(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A196276

@@ -15,6 +15,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -836,6 +837,36 @@ namespace A235702
 /-- `lcm(Δ[A020699(n)], A003948(n))` -/
 def P2234391638758965251.Spec : Prop :=
   ∀ n, (P2234391638758965251.a n : ℤ) = A235702 (n + 1)
+
+end A235702
+
+/-! ## A235702.P15442977216235530696
+
+`∩[A105953(n+1), A138278(n)]`
+-/
+
+namespace A235702.P15442977216235530696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105953 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138278 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A235702.P15442977216235530696
+
+namespace A235702
+
+/-- `∩[A105953(n+1), A138278(n)]` -/
+def P15442977216235530696.Spec : Prop :=
+  ∀ n, (P15442977216235530696.a n : ℤ) = A235702 (n + 1)
 
 end A235702
 
@@ -5094,6 +5125,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A235748.P11047910265459934237
+
+/-! ## A235748.P16399442478032344800
+
+`gcd(A062356(n+1), A373455(n+1))`
+-/
+
+namespace A235748.P16399442478032344800
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A062356 (n + 1)) (A373455 (n + 1))
+
+end
+
+end A235748.P16399442478032344800
 
 /-!
 # A235749: Number of (n+1)X(1+1) 0..3 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing columnwise and nonincreasing rowwise.

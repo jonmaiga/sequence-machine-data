@@ -6113,6 +6113,96 @@ def P208674836351026594.Spec : Prop :=
 
 end A039130
 
+/-! ## A039130.P7550694701808740723
+
+`∪[A014173(n), A361780(n+1)]`
+-/
+
+namespace A039130.P7550694701808740723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014173 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A361780 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A039130.P7550694701808740723
+
+namespace A039130
+
+/-- `∪[A014173(n), A361780(n+1)]` -/
+def P7550694701808740723.Spec : Prop :=
+  ∀ n, (P7550694701808740723.a n : ℤ) = A039130 (n + 1)
+
+end A039130
+
+/-! ## A039130.P9823389533051648765
+
+`∪[A017245(n), A361780(n+1)]`
+-/
+
+namespace A039130.P9823389533051648765
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017245 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A361780 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A039130.P9823389533051648765
+
+namespace A039130
+
+/-- `∪[A017245(n), A361780(n+1)]` -/
+def P9823389533051648765.Spec : Prop :=
+  ∀ n, (P9823389533051648765.a n : ℤ) = A039130 (n + 1)
+
+end A039130
+
+/-! ## A039130.P11274492530879295697
+
+`∪[A107957(n), A361780(n+1)]`
+-/
+
+namespace A039130.P11274492530879295697
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107957 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A361780 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A039130.P11274492530879295697
+
+namespace A039130
+
+/-- `∪[A107957(n), A361780(n+1)]` -/
+def P11274492530879295697.Spec : Prop :=
+  ∀ n, (P11274492530879295697.a n : ℤ) = A039130 (n + 1)
+
+end A039130
+
 /-!
 # A039131: Numbers whose base-10 representation has the same number of 2's and 6's.
 

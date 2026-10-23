@@ -92,6 +92,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -1368,6 +1369,29 @@ def P10783971127513441109.Spec : Prop :=
 theorem P10783971127513441109.correct : P10783971127513441109.Spec := by
   intro n
   simp only [A239610, Nat.add_sub_cancel]
+
+end A239610
+
+/-! ## A239610.P4441046836260466198
+
+`A243131(n)²`
+-/
+
+namespace A239610.P4441046836260466198
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243131 n ^ 2
+
+end
+
+end A239610.P4441046836260466198
+
+namespace A239610
+
+/-- `A243131(n)²` -/
+def P4441046836260466198.Spec : Prop :=
+  ∀ n, P4441046836260466198.a n = A239610 (n + 1)
 
 end A239610
 
@@ -5158,6 +5182,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A239638.P18221938738792319881
+
+/-! ## A239638.P9279133698006087249
+
+`∩[A002052(n+1), A250203(n+1)]`
+-/
+
+namespace A239638.P9279133698006087249
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002052 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250203 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239638.P9279133698006087249
 
 /-!
 # A239641: Dirichlet inverse of Carmichael lambda function (A002322).

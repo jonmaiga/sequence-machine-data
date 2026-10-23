@@ -76,7 +76,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -4511,26 +4510,29 @@ def P12576758923331829549.Spec : Prop :=
 
 end A260955
 
-/-! ## A260955.P6142477040034682784
+/-! ## A260955.P3962889945093571381
 
-`A017594(n)/6`
+`Δ[lcm((2*n+1)*2*n-(2*n+1), 2*n)]`
 -/
 
-namespace A260955.P6142477040034682784
+namespace A260955.P3962889945093571381
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A017594 n : ℚ) / 6
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (((2 * n + 1) * (2 * n) : ℤ) - (2 * n + 1 : ℤ)) (2 * n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
 
 end
 
-end A260955.P6142477040034682784
+end A260955.P3962889945093571381
 
 namespace A260955
 
-/-- `A017594(n)/6` -/
-def P6142477040034682784.Spec : Prop :=
-  ∀ n, P6142477040034682784.a n = (A260955 n : ℚ)
+/-- `Δ[lcm((2*n+1)*2*n-(2*n+1), 2*n)]` -/
+def P3962889945093571381.Spec : Prop :=
+  ∀ n, P3962889945093571381.a n = A260955 n
 
 end A260955
 
@@ -5654,6 +5656,24 @@ end
 
 end A260985.P16179712517894262802
 
+/-! ## A260985.P12189231390108613091
+
+`filter[A360558(n+2), A125999(#)]`
+-/
+
+namespace A260985.P12189231390108613091
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360558 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A125999 (f1 j).toNat = 1) n)
+
+end
+
+end A260985.P12189231390108613091
+
 /-!
 # A260986: Numbers n such that H(n)/H(n^2) is a new record, where H(n) = A000120(n) is the sum of the binary digits of n.
 
@@ -6257,6 +6277,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A260994.P1548240327941871315
+
+/-! ## A260994.P15511840956774544655
+
+`A023604(A102504(n+2))`
+-/
+
+namespace A260994.P15511840956774544655
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023604 (A102504 (n + 2)).toNat
+
+end
+
+end A260994.P15511840956774544655
 
 /-!
 # A260996: The Hwang-Deutsch function f_3(n).

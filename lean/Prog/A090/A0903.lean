@@ -2355,6 +2355,116 @@ theorem P5790845981437162756.correct : P5790845981437162756.Spec := by
 
 end A090326
 
+/-! ## A090326.P9360303126151318362
+
+`∑[∑[ogf((1-3x+4x^2)/(1-5x+6x^2))]]`
+-/
+
+namespace A090326.P9360303126151318362
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -3, 4] [1, -5, 6] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A090326.P9360303126151318362
+
+namespace A090326
+
+/-- `∑[∑[ogf((1-3x+4x^2)/(1-5x+6x^2))]]` -/
+def P9360303126151318362.Spec : Prop :=
+  ∀ n, P9360303126151318362.a n = A090326 (n + 1)
+
+end A090326
+
+/-! ## A090326.P736105701600325153
+
+`∑[A002783(n)]`
+-/
+
+namespace A090326.P736105701600325153
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002783 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A090326.P736105701600325153
+
+namespace A090326
+
+/-- `∑[A002783(n)]` -/
+def P736105701600325153.Spec : Prop :=
+  ∀ n, P736105701600325153.a n = A090326 (n + 1)
+
+end A090326
+
+/-! ## A090326.P1865442256237189169
+
+`∑[A056182(n)+1]`
+-/
+
+namespace A090326.P1865442256237189169
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056182 n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A090326.P1865442256237189169
+
+namespace A090326
+
+/-- `∑[A056182(n)+1]` -/
+def P1865442256237189169.Spec : Prop :=
+  ∀ n, P1865442256237189169.a n = A090326 (n + 1)
+
+end A090326
+
+/-! ## A090326.P6691464372004272213
+
+`record[ratio[A176428(n)]]`
+-/
+
+namespace A090326.P6691464372004272213
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176428 n
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (f2 (n + 1) : ℚ) / (f2 n : ℚ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A090326.P6691464372004272213
+
+namespace A090326
+
+/-- `record[ratio[A176428(n)]]` -/
+def P6691464372004272213.Spec : Prop :=
+  ∀ n, P6691464372004272213.a n = (A090326 (n + 1) : ℚ)
+
+end A090326
+
 /-!
 # A090327: Number of rules of a context-free grammar in Chomsky normal form that generates all permutations of n symbols.
 
@@ -2601,6 +2711,35 @@ theorem P2188089194279766945.correct : P2188089194279766945.Spec := by
       push_cast at h1 h2 h3 ⊢
       rw [← h1, ← h2, ← h3]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A090328
+
+/-! ## A090328.P16257718010231649997
+
+`∑[∑[ogf((-1+x+x^2)/(-1+3x))]]`
+-/
+
+namespace A090328.P16257718010231649997
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -1, -1] [1, -3] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A090328.P16257718010231649997
+
+namespace A090328
+
+/-- `∑[∑[ogf((-1+x+x^2)/(-1+3x))]]` -/
+def P16257718010231649997.Spec : Prop :=
+  ∀ n, P16257718010231649997.a n = A090328 (n + 1)
 
 end A090328
 
@@ -2988,6 +3127,29 @@ namespace A090328
 /-- `(A060816(n+1)+n)/2` -/
 def P3259840509890685386.Spec : Prop :=
   ∀ n, P3259840509890685386.a n = (A090328 (n + 1) : ℚ)
+
+end A090328
+
+/-! ## A090328.P3026641755757842453
+
+`(A134931(n)+n+1)/2`
+-/
+
+namespace A090328.P3026641755757842453
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A134931 n + (n + 1 : ℤ) : ℚ) / 2
+
+end
+
+end A090328.P3026641755757842453
+
+namespace A090328
+
+/-- `(A134931(n)+n+1)/2` -/
+def P3026641755757842453.Spec : Prop :=
+  ∀ n, P3026641755757842453.a n = (A090328 (n + 1) : ℚ)
 
 end A090328
 

@@ -2619,6 +2619,29 @@ def P11772533687914536907.Spec : Prop :=
 
 end A336319
 
+/-! ## A336319.P11948105292637990675
+
+`A007913(A366144(n+1))`
+-/
+
+namespace A336319.P11948105292637990675
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007913 (A366144 (n + 1)).toNat
+
+end
+
+end A336319.P11948105292637990675
+
+namespace A336319
+
+/-- `A007913(A366144(n+1))` -/
+def P11948105292637990675.Spec : Prop :=
+  ∀ n, P11948105292637990675.a n = A336319 (n + 1)
+
+end A336319
+
 /-!
 # A336320: Lexicographically earliest infinite sequence such that a(i) = a(j) => A324058(i) = A324058(j) for all i, j >= 0.
 

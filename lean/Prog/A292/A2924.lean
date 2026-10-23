@@ -4608,6 +4608,52 @@ def P8714212139796483846.Spec : Prop :=
 
 end A292443
 
+/-! ## A292443.P14682351988656631422
+
+`A049683(2*n)/2`
+-/
+
+namespace A292443.P14682351988656631422
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A049683 (2 * n) : ℚ) / 2
+
+end
+
+end A292443.P14682351988656631422
+
+namespace A292443
+
+/-- `A049683(2*n)/2` -/
+def P14682351988656631422.Spec : Prop :=
+  ∀ n, P14682351988656631422.a n = (A292443 n : ℚ)
+
+end A292443
+
+/-! ## A292443.P942988137102714679
+
+`A132584(2*n)/8`
+-/
+
+namespace A292443.P942988137102714679
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A132584 (2 * n) : ℚ) / 8
+
+end
+
+end A292443.P942988137102714679
+
+namespace A292443
+
+/-- `A132584(2*n)/8` -/
+def P942988137102714679.Spec : Prop :=
+  ∀ n, P942988137102714679.a n = (A292443 n : ℚ)
+
+end A292443
+
 /-!
 # A292445: Expansion of a q-series used by Ramanujan in his Lost Notebook.
 
@@ -7870,12 +7916,12 @@ theorem P4908837358392580704.correct : P4908837358392580704.Spec := by
 
 end A292482
 
-/-! ## A292482.P16329628327583082869
+/-! ## A292482.P10124311088721222510
 
-`ogf((-2+3x+4x^2-x^3)/(-1+6x-9x^2))`
+`ogf((2-3x-4x^2+x^3)/(1-6x+9x^2))`
 -/
 
-namespace A292482.P16329628327583082869
+namespace A292482.P10124311088721222510
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -7883,13 +7929,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A292482.P16329628327583082869
+end A292482.P10124311088721222510
 
 namespace A292482
 
-/-- `ogf((-2+3x+4x^2-x^3)/(-1+6x-9x^2))` -/
-def P16329628327583082869.Spec : Prop :=
-  ∀ n, P16329628327583082869.a n = A292482 n
+/-- `ogf((2-3x-4x^2+x^3)/(1-6x+9x^2))` -/
+def P10124311088721222510.Spec : Prop :=
+  ∀ n, P10124311088721222510.a n = A292482 n
 
 end A292482
 

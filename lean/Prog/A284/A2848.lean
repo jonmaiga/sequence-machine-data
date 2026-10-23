@@ -24,6 +24,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -83,6 +84,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -783,6 +785,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A284811.P11347301492512144469
+
+/-! ## A284811.P11188024992825024804
+
+`∩[A098892(n+1), A178365(n+1)]`
+-/
+
+namespace A284811.P11188024992825024804
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098892 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178365 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A284811.P11188024992825024804
 
 /-!
 # A284814: Least number k such that k mod (2, 3, 4, ..., n+1) = (d_1, d_2, ..., d_n), where d_1, d_2, ..., d_n are the digits of n, with MSD(n) = d_1 and LSD(n) = d_n. 0 if such a number does not exist.
@@ -4011,6 +4035,32 @@ def P16744737997228673768.Spec : Prop :=
 theorem P16744737997228673768.correct : P16744737997228673768.Spec := by
   intro n
   simp only [A284850, Nat.add_sub_cancel]
+
+end A284850
+
+/-! ## A284850.P12363429006956748995
+
+`∑[A255463(n)-1]`
+-/
+
+namespace A284850.P12363429006956748995
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A255463 n - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A284850.P12363429006956748995
+
+namespace A284850
+
+/-- `∑[A255463(n)-1]` -/
+def P12363429006956748995.Spec : Prop :=
+  ∀ n, P12363429006956748995.a n = A284850 (n + 1)
 
 end A284850
 
@@ -7897,6 +7947,29 @@ namespace A284880
 /-- `A284878(2*(n+1))+Δ[n²]` -/
 def P10828986160264095263.Spec : Prop :=
   ∀ n, P10828986160264095263.a n = A284880 (n + 1)
+
+end A284880
+
+/-! ## A284880.P13097333069256681305
+
+`A014681(A284879(n+1))`
+-/
+
+namespace A284880.P13097333069256681305
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014681 (A284879 (n + 1)).toNat
+
+end
+
+end A284880.P13097333069256681305
+
+namespace A284880
+
+/-- `A014681(A284879(n+1))` -/
+def P13097333069256681305.Spec : Prop :=
+  ∀ n, P13097333069256681305.a n = A284880 (n + 1)
 
 end A284880
 

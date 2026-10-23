@@ -7223,6 +7223,28 @@ end
 
 end A261183.P4260320013656989624
 
+/-! ## A261183.P7618636673995332310
+
+`∩[A386191(n+1), A386195(n+1)]`
+-/
+
+namespace A261183.P7618636673995332310
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386191 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386195 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A261183.P7618636673995332310
+
 /-! ## A261183.P5867720949757870883
 
 `∩[A386075(n+1), A386194(n+1)]`
@@ -7596,28 +7618,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A261183.P1101337156675497857
-
-/-! ## A261183.P2992480852222788548
-
-`∩[A386158(n+1), A386195(n+1)]`
--/
-
-namespace A261183.P2992480852222788548
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386158 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386195 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A261183.P2992480852222788548
 
 /-!
 # A261184: Primes having only {6, 7, 9} as digits.
@@ -8043,19 +8043,19 @@ end
 
 end A261184.P7432923060804586793
 
-/-! ## A261184.P950178169543320439
+/-! ## A261184.P15596484579249878751
 
-`∩[A386197(n+1), A386185(n+1)]`
+`∩[A386185(n+1), A386197(n+1)]`
 -/
 
-namespace A261184.P950178169543320439
+namespace A261184.P15596484579249878751
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386197 (n + 1)
+  A386185 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386185 (n + 1)
+  A386197 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8063,7 +8063,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A261184.P950178169543320439
+end A261184.P15596484579249878751
 
 /-!
 # A261185: Flowsnake parity pattern: a(n) = (A261180(n) mod 2).
@@ -9330,6 +9330,29 @@ namespace A261191
 /-- `∑[a(n-1)+38]` -/
 def P10792237505403119397.Spec : Prop :=
   ∀ n, (P10792237505403119397.a n : ℤ) = A261191 n
+
+end A261191
+
+/-! ## A261191.P5151912770599649564
+
+`A323178(n)%A017174(n)`
+-/
+
+namespace A261191.P5151912770599649564
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A323178 n) (A017174 n)
+
+end
+
+end A261191.P5151912770599649564
+
+namespace A261191
+
+/-- `A323178(n)%A017174(n)` -/
+def P5151912770599649564.Spec : Prop :=
+  ∀ n, P5151912770599649564.a n = A261191 n
 
 end A261191
 

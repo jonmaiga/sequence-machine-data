@@ -12,6 +12,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -5209,6 +5210,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A063376.P6029904725683836013
+
+/-! ## A063376.P3704036531571137857
+
+`A100575(n)+A045623(n)`
+-/
+
+namespace A063376.P3704036531571137857
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100575 n + A045623 n
+
+end
+
+end A063376.P3704036531571137857
 
 /-!
 # A063377: Sophie Germain degree of n: number of iterations of n under f(k) = 2k+1 before we reach a number that is not a prime.

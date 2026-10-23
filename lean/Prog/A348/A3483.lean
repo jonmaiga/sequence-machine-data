@@ -59,6 +59,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -6391,6 +6392,50 @@ end
 
 end A348384.P342125010919595242
 
+/-! ## A348384.P1636460988002111339
+
+`∩[A123666(n+1), A347452(n+1)]`
+-/
+
+namespace A348384.P1636460988002111339
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123666 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347452 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348384.P1636460988002111339
+
+/-! ## A348384.P4091018621083274376
+
+`∩[A028260(n+1), A347452(n+1)]`
+-/
+
+namespace A348384.P4091018621083274376
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028260 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347452 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348384.P4091018621083274376
+
 /-! ## A348384.P14247739149149576828
 
 `∩[A347452(n+1), A014682(A347452(n+2))]`
@@ -6412,43 +6457,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A348384.P14247739149149576828
-
-/-! ## A348384.P4748760670405346470
-
-`∩[A347452(n+1), A348550(n+1)]`
--/
-
-namespace A348384.P4748760670405346470
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347452 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348550 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A348384.P4748760670405346470
-
-/-! ## A348384.P10122589306923825622
-
-`A034444(A004394(2*n+1))*A340387(n+1)`
--/
-
-namespace A348384.P10122589306923825622
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034444 (A004394 (2 * n + 1)).toNat * A340387 (n + 1)
-
-end
-
-end A348384.P10122589306923825622
 
 /-!
 # A348385: Lexicographically earliest sequence of positive integers such that for any n > 0, a(n) is the number of nonempty runs of consecutive terms whose product is n.

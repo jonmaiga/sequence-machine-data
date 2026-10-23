@@ -58,6 +58,7 @@ import Seq.B007.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,6 +83,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A289900: Number of maximal matchings in the n-triangular honeycomb rook graph.
@@ -347,6 +349,36 @@ namespace A289907
 /-- `p?[A054809(n+1)-8]` -/
 def P8312250171957514885.Spec : Prop :=
   ∀ n, P8312250171957514885.a n = A289907 (n + 1)
+
+end A289907
+
+/-! ## A289907.P6529495650313954537
+
+`∩[A054808(n+1), A385035(n+1)]`
+-/
+
+namespace A289907.P6529495650313954537
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054808 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385035 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A289907.P6529495650313954537
+
+namespace A289907
+
+/-- `∩[A054808(n+1), A385035(n+1)]` -/
+def P6529495650313954537.Spec : Prop :=
+  ∀ n, (P6529495650313954537.a n : ℤ) = A289907 (n + 1)
 
 end A289907
 
@@ -5643,7 +5675,7 @@ end A289992
 /-!
 # A289995: Numbers n with omega(n) <= 1 such that omega(n+1) = 1 or omega(n+2) = 1.
 
-The programs for A289995, the canonical program `A289995.P2084561058592668144` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289995 has offset 1).
+The programs for A289995, the canonical program `A289995.P2084561058592668144` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289995 has offset 1).
 
 The definition of A289995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1311 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5652,7 +5684,7 @@ The definition of A289995 is `conjectured`: the Lean definition is a formula tha
 
 `A000961(lt[Δ[A000961(n+1)], 3]+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A289995

@@ -512,7 +512,7 @@ end A306408
 /-!
 # A306409: a(n) = -Sum_{0<=i
 
-The programs for A306409, the canonical program `A306409.P2461275947846805459` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306409 has offset 0).
+The programs for A306409, the canonical program `A306409.P2461275947846805459` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306409 has offset 0).
 
 The definition of A306409 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006134, A120305, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -544,7 +544,7 @@ end A306409
 
 `(A006134(n)-A120305(n))/2`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A306409
@@ -4828,6 +4828,28 @@ end A306447
 The programs for A306448, there is no canonical definition to state claims against.
 -/
 
+/-! ## A306448.P10865453562532384498
+
+`∩[A013929(n+1), A020138(n+1)]`
+-/
+
+namespace A306448.P10865453562532384498
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A013929 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020138 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A306448.P10865453562532384498
+
 /-! ## A306448.P15832996733056577894
 
 `filter[A020138(n+1), A359469(#)]`
@@ -4903,28 +4925,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A306448.P13814781206576795210
-
-/-! ## A306448.P14072111413856753219
-
-`∩[A020138(n+1), A370076(n+1)]`
--/
-
-namespace A306448.P14072111413856753219
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020138 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A370076 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A306448.P14072111413856753219
 
 /-!
 # A306449: Pseudoprimes to base 10 that are not squarefree.
@@ -5038,6 +5038,28 @@ end A306450.P9297053432069773159
 The programs for A306452, there is no canonical definition to state claims against.
 -/
 
+/-! ## A306452.P14653799205747714683
+
+`∪[A244065(n+1), A306450(n+1)]`
+-/
+
+namespace A306452.P14653799205747714683
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244065 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306450 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A306452.P14653799205747714683
+
 /-! ## A306452.P443409704938277534
 
 `filter[A122780(n+1), A353470(#)]`
@@ -5091,24 +5113,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A306452.P717829481257154992
-
-/-! ## A306452.P264994229626837120
-
-`filter[A122780(n+1), A359466(#)]`
--/
-
-namespace A306452.P264994229626837120
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122780 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A359466 (f1 j).toNat = 1) n)
-
-end
-
-end A306452.P264994229626837120
 
 /-!
 # A306453: Triangle of coefficients of "inverse" cyclotomic polynomial Psi_n(x) (exponents in increasing order).
@@ -5175,6 +5179,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A306453.P2481043060908666033
+
+/-! ## A306453.P4249213990800318281
+
+`A260192(A116712(n+1))`
+-/
+
+namespace A306453.P4249213990800318281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A260192 (A116712 (n + 1)).toNat
+
+end
+
+end A306453.P4249213990800318281
 
 /-!
 # A306454: a(n) = A261327(n)/A013946(n).

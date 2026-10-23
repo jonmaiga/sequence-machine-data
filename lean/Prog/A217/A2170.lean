@@ -3681,6 +3681,66 @@ def P12917994297608301197.Spec : Prop :=
 
 end A217038
 
+/-! ## A217038.P9672091822464938032
+
+`∑[char[A011264(n+1)]]`
+-/
+
+namespace A217038.P9672091822464938032
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011264 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A217038.P9672091822464938032
+
+namespace A217038
+
+/-- `∑[char[A011264(n+1)]]` -/
+def P9672091822464938032.Spec : Prop :=
+  ∀ n, (P9672091822464938032.a n : ℤ) = A217038 (n + 1)
+
+end A217038
+
+/-! ## A217038.P7716114027139340516
+
+`∑[char[A008477(n+1)]]`
+-/
+
+namespace A217038.P7716114027139340516
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008477 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A217038.P7716114027139340516
+
+namespace A217038
+
+/-- `∑[char[A008477(n+1)]]` -/
+def P7716114027139340516.Spec : Prop :=
+  ∀ n, (P7716114027139340516.a n : ℤ) = A217038 (n + 1)
+
+end A217038
+
 /-!
 # A217039: Primes having only {4, 5, 7} as digits.
 
@@ -4427,16 +4487,16 @@ end
 
 end A217045.P1054254778893308729
 
-/-! ## A217045.P8172835503272891328
+/-! ## A217045.P4010694135178302728
 
-`∩[A164318(n+1), A332261(n+1)]`
+`∩[A071621(n+1), A332261(n+1)]`
 -/
 
-namespace A217045.P8172835503272891328
+namespace A217045.P4010694135178302728
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164318 (n + 1)
+  A071621 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A332261 (n + 1)
@@ -4447,7 +4507,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A217045.P8172835503272891328
+end A217045.P4010694135178302728
 
 /-!
 # A217046: Primes that remain prime when a single "6" digit is inserted between any two adjacent decimal digits.
@@ -5431,19 +5491,19 @@ end
 
 end A217055.P4877866782033668732
 
-/-! ## A217055.P17939323784681485015
+/-! ## A217055.P4654743938794904052
 
-`∩[A083249(n+1), A005788(n+1)]`
+`∩[A005788(n+1), A083249(n+1)]`
 -/
 
-namespace A217055.P17939323784681485015
+namespace A217055.P4654743938794904052
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083249 (n + 1)
+  A005788 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005788 (n + 1)
+  A083249 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5451,7 +5511,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A217055.P17939323784681485015
+end A217055.P4654743938794904052
 
 /-! ## A217055.P4069691887788157811
 
@@ -5561,6 +5621,28 @@ end A217055.P6846000647770898694
 The programs for A217056, there is no canonical definition to state claims against.
 -/
 
+/-! ## A217056.P3546330892252005151
+
+`∩[A004778(n+1), A005563(n)]`
+-/
+
+namespace A217056.P3546330892252005151
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004778 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005563 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A217056.P3546330892252005151
+
 /-! ## A217056.P4746859108512894490
 
 `∩[A004778(n+1), A323278(n+1)]`
@@ -5604,28 +5686,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A217056.P9479249381227083135
-
-/-! ## A217056.P15205964112893460094
-
-`∩[A004778(n+1), A372497(n+1)]`
--/
-
-namespace A217056.P15205964112893460094
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004778 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A372497 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A217056.P15205964112893460094
 
 /-!
 # A217057: Number of permutations in S_n containing exactly one increasing subsequence of length 4.

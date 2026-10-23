@@ -944,6 +944,50 @@ end
 
 end A373416.P13422321415544402645
 
+/-! ## A373416.P13376438496043000111
+
+`∪[A000244(n), A163776(n+1)]`
+-/
+
+namespace A373416.P13376438496043000111
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000244 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163776 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A373416.P13376438496043000111
+
+/-! ## A373416.P11649543153328624527
+
+`∪[A163776(n+1), A354269(n+1)]`
+-/
+
+namespace A373416.P11649543153328624527
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163776 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354269 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A373416.P11649543153328624527
+
 /-! ## A373416.P16985021699066755432
 
 `record[A003558(3*n+1)]%A164048(n+2)`
@@ -979,42 +1023,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A373416.P11044347807569626705
-
-/-! ## A373416.P2626488249160307016
-
-`record[A003558(3*n+1)%A119165(n+1)]`
--/
-
-namespace A373416.P2626488249160307016
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A003558 (3 * n + 1)) (A119165 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A373416.P2626488249160307016
-
-/-! ## A373416.P7611150003277745650
-
-`record[A003558(3*n+1)]%A094776(n)`
--/
-
-namespace A373416.P7611150003277745650
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003558 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A094776 n)
-
-end
-
-end A373416.P7611150003277745650
 
 /-!
 # A373417: Triangle T(n,k) for the number of permutations in symmetric group S_n with (n-k) fixed points and an even number of non-fixed point cycles. Equivalent to the number of cycles of n items with cycle type defined by non-unity partitions of k<=n that contain an even number of parts.
@@ -5314,19 +5322,19 @@ end
 
 end A373475.P10343631554493246878
 
-/-! ## A373475.P13343512506304473266
+/-! ## A373475.P5501539468553714626
 
-`∩[A369644(n+1), A289142(n+1)]`
+`∩[A289142(n+1), A369644(n+1)]`
 -/
 
-namespace A373475.P13343512506304473266
+namespace A373475.P5501539468553714626
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A369644 (n + 1)
+  A289142 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A289142 (n + 1)
+  A369644 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5334,7 +5342,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A373475.P13343512506304473266
+end A373475.P5501539468553714626
 
 /-! ## A373475.P11229336245134489361
 

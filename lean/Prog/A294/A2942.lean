@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -51,7 +52,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -68,6 +68,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -148,6 +149,69 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A294200.P3662614897440525715
+
+/-! ## A294200.P5640295572726459170
+
+`eq[A007920(n), A010104(n)]`
+-/
+
+namespace A294200.P5640295572726459170
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007920 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010104 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A294200.P5640295572726459170
+
+/-! ## A294200.P3463774787053789269
+
+`eq[A010104(n), A051699(n)]`
+-/
+
+namespace A294200.P3463774787053789269
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010104 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051699 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A294200.P3463774787053789269
+
+/-! ## A294200.P7387742640005016611
+
+`eq[A010104(n), A171400(n)]`
+-/
+
+namespace A294200.P7387742640005016611
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010104 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171400 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A294200.P7387742640005016611
 
 /-!
 # A294202: The maximal number of partitions of {1..3n} that are invariant under a permutation consisting of n 3-cycles, and which have the same number of nonempty parts.
@@ -7718,6 +7782,29 @@ namespace A294259
 /-- `A267707(n)+n-A104249(n)` -/
 def P4684357969141893158.Spec : Prop :=
   ∀ n, P4684357969141893158.a n = A294259 n
+
+end A294259
+
+/-! ## A294259.P13718060044089454086
+
+`A263615(2*(n+1))-A000124(2*n+1)`
+-/
+
+namespace A294259.P13718060044089454086
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263615 (2 * (n + 1)) - A000124 (2 * n + 1)
+
+end
+
+end A294259.P13718060044089454086
+
+namespace A294259
+
+/-- `A263615(2*(n+1))-A000124(2*n+1)` -/
+def P13718060044089454086.Spec : Prop :=
+  ∀ n, P13718060044089454086.a n = A294259 n
 
 end A294259
 

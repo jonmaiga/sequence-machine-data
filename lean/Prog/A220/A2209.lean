@@ -38,6 +38,7 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -110,7 +111,7 @@ end A220900.P15743587969823083322
 /-!
 # A220902: a(n) = Catalan(n) - A000245(n-2).
 
-The programs for A220902, the canonical program `A220902.P9397525949046414963` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220902 has offset 2).
+The programs for A220902, the canonical program `A220902.P9397525949046414963` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220902 has offset 2).
 
 The definition of A220902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -145,7 +146,7 @@ end A220902
 
 `A099376(n)+A005807(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A220902

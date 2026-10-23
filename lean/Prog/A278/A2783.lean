@@ -33,6 +33,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -868,6 +869,29 @@ namespace A278310
 /-- `Δ[∑[A001542(n)²]-n]` -/
 def P4136140293632374165.Spec : Prop :=
   ∀ n, P4136140293632374165.a n = A278310 (n + 1)
+
+end A278310
+
+/-! ## A278310.P5463646556637609065
+
+`(A349766(n+1)-2)/4`
+-/
+
+namespace A278310.P5463646556637609065
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A349766 (n + 1) - 2 : ℚ) / 4
+
+end
+
+end A278310.P5463646556637609065
+
+namespace A278310
+
+/-- `(A349766(n+1)-2)/4` -/
+def P5463646556637609065.Spec : Prop :=
+  ∀ n, P5463646556637609065.a n = (A278310 (n + 1) : ℚ)
 
 end A278310
 

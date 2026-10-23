@@ -47,7 +47,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -6369,6 +6369,29 @@ namespace A269657
 /-- `gcd((n+1)²²-n, C(2, n+2))` -/
 def P9762749891880573241.Spec : Prop :=
   ∀ n, (P9762749891880573241.a n : ℤ) = A269657 n
+
+end A269657
+
+/-! ## A269657.P18276371385971146538
+
+`gcd(n-(n+1)²², and(1, 2*n))`
+-/
+
+namespace A269657.P18276371385971146538
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd ((n : ℤ) - (((n + 1) ^ 2) ^ 2 : ℤ)) (Nat.land 1 (2 * n) : ℤ)
+
+end
+
+end A269657.P18276371385971146538
+
+namespace A269657
+
+/-- `gcd(n-(n+1)²², and(1, 2*n))` -/
+def P18276371385971146538.Spec : Prop :=
+  ∀ n, (P18276371385971146538.a n : ℤ) = A269657 n
 
 end A269657
 

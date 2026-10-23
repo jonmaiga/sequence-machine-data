@@ -1732,7 +1732,7 @@ end A304408
 /-!
 # A304409: If n = Product (p_j^k_j) then a(n) = Product (p_j*(k_j + 1)).
 
-The programs for A304409, the canonical program `A304409.P5645151244127496146` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304409 has offset 1).
+The programs for A304409, the canonical program `A304409.P5645151244127496146` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304409 has offset 1).
 
 The definition of A304409 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1741,7 +1741,7 @@ The definition of A304409 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(n+1)*A007947(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A304409
@@ -3057,6 +3057,29 @@ namespace A304412
 /-- `A000005(n+1)*A327564(A007947(n+1)²)` -/
 def P6234287052738834098.Spec : Prop :=
   ∀ n, P6234287052738834098.a n = A304412 (n + 1)
+
+end A304412
+
+/-! ## A304412.P18378960365196061937
+
+`A304411(A064549(n+1))`
+-/
+
+namespace A304412.P18378960365196061937
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304411 (A064549 (n + 1)).toNat
+
+end
+
+end A304412.P18378960365196061937
+
+namespace A304412
+
+/-- `A304411(A064549(n+1))` -/
+def P18378960365196061937.Spec : Prop :=
+  ∀ n, P18378960365196061937.a n = A304412 (n + 1)
 
 end A304412
 

@@ -56,7 +56,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1342,6 +1341,28 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [89] fun n a =>
 end
 
 end A240510.P16980022898131435556
+
+/-! ## A240510.P14767539479287304905
+
+`∩[A070792(n+1), A090062(n+1)]`
+-/
+
+namespace A240510.P14767539479287304905
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070792 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090062 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A240510.P14767539479287304905
 
 /-!
 # A240511: Numbers that are equal to the sum of their digits raised to each power from 1 to the number of digits.
@@ -10655,6 +10676,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A240583.P12432238754186505578
+
+/-! ## A240583.P9648155783558790883
+
+`filter[A045364(3*n+1), A347412(#)]`
+-/
+
+namespace A240583.P9648155783558790883
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045364 (3 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A347412 (f1 j).toNat = 1) n)
+
+end
+
+end A240583.P9648155783558790883
 
 /-!
 # A240585: Odd primes satisfying a specific condition (see comments).

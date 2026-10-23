@@ -22,7 +22,6 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C037
@@ -46,7 +45,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -55,6 +54,7 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B007.C002
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B009.C001
@@ -1651,6 +1651,28 @@ end
 
 end A389210.P16581660341844291275
 
+/-! ## A389210.P12687578779252865095
+
+`∩[A055008(n+1), A382670(n+1)]`
+-/
+
+namespace A389210.P12687578779252865095
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055008 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382670 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389210.P12687578779252865095
+
 /-!
 # A389211: Numbers k such that A048146(k)+A162296(k) <= 2*k, where A048146 is the sum of non-unitary divisors of n, and A162296 is the sum of divisors of n that have a square factor.
 
@@ -2444,6 +2466,66 @@ def P2378714182195809725.Spec : Prop :=
 
 end A389214
 
+/-! ## A389214.P17129993183528050083
+
+`∪[A325387(n+1), A389212(n+1)]`
+-/
+
+namespace A389214.P17129993183528050083
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325387 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389212 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389214.P17129993183528050083
+
+namespace A389214
+
+/-- `∪[A325387(n+1), A389212(n+1)]` -/
+def P17129993183528050083.Spec : Prop :=
+  ∀ n, (P17129993183528050083.a n : ℤ) = A389214 (n + 1)
+
+end A389214
+
+/-! ## A389214.P18158782688691224844
+
+`∪[A230354(n+1), A389212(n+1)]`
+-/
+
+namespace A389214.P18158782688691224844
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230354 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389212 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389214.P18158782688691224844
+
+namespace A389214
+
+/-- `∪[A230354(n+1), A389212(n+1)]` -/
+def P18158782688691224844.Spec : Prop :=
+  ∀ n, (P18158782688691224844.a n : ℤ) = A389214 (n + 1)
+
+end A389214
+
 /-!
 # A389215: Numbers k such that {sum of unitary divisors of k} plus {sum of squarefree divisors of k} >= 2*k.
 
@@ -2608,6 +2690,36 @@ namespace A389216
 /-- `filter[A389215(n+1), A107078(#)]` -/
 def P4049911222929317854.Spec : Prop :=
   ∀ n, P4049911222929317854.a n = A389216 (n + 1)
+
+end A389216
+
+/-! ## A389216.P457524626739209245
+
+`∩[A387113(n+1), A389215(n+1)]`
+-/
+
+namespace A389216.P457524626739209245
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387113 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389215 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389216.P457524626739209245
+
+namespace A389216
+
+/-- `∩[A387113(n+1), A389215(n+1)]` -/
+def P457524626739209245.Spec : Prop :=
+  ∀ n, (P457524626739209245.a n : ℤ) = A389216 (n + 1)
 
 end A389216
 
@@ -3552,6 +3664,28 @@ end A389227
 The programs for A389230, there is no canonical definition to state claims against.
 -/
 
+/-! ## A389230.P17897080787940096527
+
+`∩[2*n, A279102(n+1)]`
+-/
+
+namespace A389230.P17897080787940096527
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279102 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389230.P17897080787940096527
+
 /-! ## A389230.P11775929741387328743
 
 `filter[A279102(n+1), A059841(#)]`
@@ -3623,24 +3757,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389230.P15910972939963645676
-
-/-! ## A389230.P14282552017948772183
-
-`filter[A279102(n+1), A266591(#)]`
--/
-
-namespace A389230.P14282552017948772183
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279102 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A266591 (f1 j).toNat = 1) n)
-
-end
-
-end A389230.P14282552017948772183
 
 /-!
 # A389231: Number of decimal digits in the n-th Catalan number.

@@ -19,6 +19,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
@@ -58,7 +59,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -2842,6 +2842,28 @@ end A319039.P8603933904045594704
 The programs for A319040, there is no canonical definition to state claims against.
 -/
 
+/-! ## A319040.P6721121540591203801
+
+`∪[A001132(n+1), A319042(n+1)]`
+-/
+
+namespace A319040.P6721121540591203801
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001132 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319042 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A319040.P6721121540591203801
+
 /-! ## A319040.P7958133746817833945
 
 `eq[1, A000129(n)%A290561(n)]`
@@ -2862,6 +2884,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A319040.P7958133746817833945
+
+/-! ## A319040.P18096533044966752557
+
+`eq[A167545(n), A172130(n+1)]`
+-/
+
+namespace A319040.P18096533044966752557
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167545 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172130 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A319040.P18096533044966752557
 
 /-!
 # A319042: Composite numbers k such that Pell(k) == 1 (mod k).
@@ -2912,6 +2955,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A319042.P7043246745392642854
+
+/-! ## A319042.P9554065215872288153
+
+`∩[A319040(n+1), A337233(n+1)]`
+-/
+
+namespace A319042.P9554065215872288153
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337233 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A319042.P9554065215872288153
 
 /-!
 # A319048: a(n) is the greatest k such that A000010(k) divides n where A000010 is the Euler totient function.

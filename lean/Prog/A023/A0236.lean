@@ -12014,6 +12014,28 @@ end
 
 end A023679.P1332090330362714848
 
+/-! ## A023679.P105128271725820383
+
+`∩[A187773(n+1), A350395(n+1)]`
+-/
+
+namespace A023679.P105128271725820383
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187773 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350395 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A023679.P105128271725820383
+
 /-! ## A023679.P7762333336465631222
 
 `lcm(A144473(3*n+5), A187773(n+1))`
@@ -12028,21 +12050,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A023679.P7762333336465631222
-
-/-! ## A023679.P15501948828489329764
-
-`A187795(A342759(n))+A187773(n+1)`
--/
-
-namespace A023679.P15501948828489329764
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187795 (A342759 n).toNat + A187773 (n + 1)
-
-end
-
-end A023679.P15501948828489329764
 
 /-!
 # A023680: Discriminants of totally real quartic fields.

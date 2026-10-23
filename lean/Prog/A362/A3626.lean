@@ -36,7 +36,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -1398,6 +1397,21 @@ end
 
 end A362613.P17606758146758832191
 
+/-! ## A362613.P11788933216369488950
+
+`A001221(n+1)-A363131(n+1)`
+-/
+
+namespace A362613.P11788933216369488950
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (n + 1) - A363131 (n + 1)
+
+end
+
+end A362613.P11788933216369488950
+
 /-! ## A362613.P5582405828130295427
 
 `A067029(∏{e}[n+1, A059263(#+1)])`
@@ -1614,21 +1628,6 @@ end
 
 end A362613.P7982736989719401446
 
-/-! ## A362613.P13559189136897634638
-
-`and(A120305(n), A327500(n+1))`
--/
-
-namespace A362613.P13559189136897634638
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A120305 n) (A327500 (n + 1))
-
-end
-
-end A362613.P13559189136897634638
-
 /-!
 # A362614: Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with k modes.
 
@@ -1803,6 +1802,72 @@ end A362615.P17936122790112457600
 The programs for A362617, there is no canonical definition to state claims against.
 -/
 
+/-! ## A362617.P11439399336160926243
+
+`∩[A173339(n+1), A357850(n+1)]`
+-/
+
+namespace A362617.P11439399336160926243
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173339 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357850 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362617.P11439399336160926243
+
+/-! ## A362617.P4797038590789823875
+
+`∩[A173339(n+1), A362980(n+1)]`
+-/
+
+namespace A362617.P4797038590789823875
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173339 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362980 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362617.P4797038590789823875
+
+/-! ## A362617.P572838129891328052
+
+`∩[A173339(n+1), A383088(n+1)]`
+-/
+
+namespace A362617.P572838129891328052
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173339 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383088 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362617.P572838129891328052
+
 /-! ## A362617.P16246458519232189895
 
 `lt[A079879(n+1), A079879(A253560(n+1))]+1`
@@ -1823,6 +1888,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A362617.P16246458519232189895
+
+/-! ## A362617.P11096567989789117092
+
+`∩[A140209(n+1), A325259(n+1)]`
+-/
+
+namespace A362617.P11096567989789117092
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140209 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325259 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A362617.P11096567989789117092
 
 /-!
 # A362618: Numbers whose prime factorization has either (1) odd length, or (2) equal middle parts.
@@ -5352,6 +5439,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A362668.P9299000655469664935
+
+/-! ## A362668.P10275839728939808612
+
+`eq[A076511(n+1), A301333(n)]`
+-/
+
+namespace A362668.P10275839728939808612
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076511 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301333 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A362668.P10275839728939808612
 
 /-!
 # A362670: Integer inradii for which there exists an isosceles triangle with integer sides (a, a, c) where a < c.

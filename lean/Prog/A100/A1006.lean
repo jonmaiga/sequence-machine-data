@@ -647,6 +647,32 @@ def P14026898354499304849.Spec : Prop :=
 
 end A100606
 
+/-! ## A100606.P7344127019444861802
+
+`n*A361273(Δ[n²])`
+-/
+
+namespace A100606.P7344127019444861802
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * A361273 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
+
+end
+
+end A100606.P7344127019444861802
+
+namespace A100606
+
+/-- `n*A361273(Δ[n²])` -/
+def P7344127019444861802.Spec : Prop :=
+  ∀ n, P7344127019444861802.a n = A100606 n
+
+end A100606
+
 /-!
 # A100607: Concatenated primes of order 3.
 

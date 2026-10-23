@@ -24,6 +24,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -65,7 +66,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1529,6 +1529,28 @@ end
 
 end A228026.P806080481608120094
 
+/-! ## A228026.P4451091498292567352
+
+`∩[A056208(n), A253208(n)]`
+-/
+
+namespace A228026.P4451091498292567352
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056208 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253208 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A228026.P4451091498292567352
+
 /-! ## A228026.P2827240514157034338
 
 `A056208(2*A089437(n+1))`
@@ -1543,21 +1565,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A228026.P2827240514157034338
-
-/-! ## A228026.P11996262849323460818
-
-`A062709(2*A089437(n+1))`
--/
-
-namespace A228026.P11996262849323460818
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062709 (2 * A089437 (n + 1)).toNat
-
-end
-
-end A228026.P11996262849323460818
 
 /-!
 # A228027: Primes of the form 4^k + 9.
@@ -6517,6 +6524,29 @@ def P1773298963271886823.Spec : Prop :=
 
 end A228079
 
+/-! ## A228079.P1003790746746488501
+
+`A185195(A189316(n+1))`
+-/
+
+namespace A228079.P1003790746746488501
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185195 (A189316 (n + 1)).toNat
+
+end
+
+end A228079.P1003790746746488501
+
+namespace A228079
+
+/-- `A185195(A189316(n+1))` -/
+def P1003790746746488501.Spec : Prop :=
+  ∀ n, P1003790746746488501.a n = A228079 n
+
+end A228079
+
 /-!
 # A228080: (5*n+2)!/(2*(n!)^5), n >= 0.
 
@@ -8159,6 +8189,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A228091.P8486385341929162511
+
+/-! ## A228091.P9291423172488148658
+
+`comp[A228086(n)]`
+-/
+
+namespace A228091.P9291423172488148658
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228086 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A228091.P9291423172488148658
 
 /-!
 # A228093: Primes congruent to 5 (mod 504).

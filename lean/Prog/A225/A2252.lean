@@ -57,7 +57,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
@@ -659,6 +658,28 @@ end A225213.P10210123139394502229
 The programs for A225214, there is no canonical definition to state claims against.
 -/
 
+/-! ## A225214.P10706868442111081344
+
+`∩[A127589(n+1), A224701(n+1)]`
+-/
+
+namespace A225214.P10706868442111081344
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127589 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A224701 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A225214.P10706868442111081344
+
 /-! ## A225214.P3573906895164482440
 
 `p?[A224701(n+1)]`
@@ -730,24 +751,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225214.P11300692701386861965
-
-/-! ## A225214.P6045377049305269114
-
-`p?[8*A081118(n+1)+13]`
--/
-
-namespace A225214.P6045377049305269114
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  8 * A081118 (n + 1) + 13
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A225214.P6045377049305269114
 
 /-!
 # A225215: Floor of the Euclidean distance of a point on the (1, 1, 1; 1, 1, 1) 3D walk.

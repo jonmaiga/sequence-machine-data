@@ -1570,6 +1570,29 @@ def P6203830854368682967.Spec : Prop :=
 
 end A200431
 
+/-! ## A200431.P18347054603621025812
+
+`A016755(n)-A168574(n)`
+-/
+
+namespace A200431.P18347054603621025812
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016755 n - A168574 n
+
+end
+
+end A200431.P18347054603621025812
+
+namespace A200431
+
+/-- `A016755(n)-A168574(n)` -/
+def P18347054603621025812.Spec : Prop :=
+  ∀ n, P18347054603621025812.a n = A200431 (n + 1)
+
+end A200431
+
 /-!
 # A200432: Number of -n..n arrays x(0..4) of 5 elements with zero sum and no two or three adjacent elements summing to zero.
 

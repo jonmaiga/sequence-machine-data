@@ -48,10 +48,10 @@ import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -1342,6 +1342,21 @@ end
 
 end A358218.P8563776180614272579
 
+/-! ## A358218.P8579810274042497813
+
+`A124763(A005941(n+1))`
+-/
+
+namespace A358218.P8579810274042497813
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124763 (A005941 (n + 1)).toNat
+
+end
+
+end A358218.P8579810274042497813
+
 /-!
 # A358219: Indices k where A358217(k) != A358218(k).
 
@@ -2107,6 +2122,28 @@ end
 
 end A358222.P10387802149887223939
 
+/-! ## A358222.P14831594905442084374
+
+`∩[A141468(n+1), A358221(n+1)]`
+-/
+
+namespace A358222.P14831594905442084374
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141468 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358221 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358222.P14831594905442084374
+
 /-! ## A358222.P2131205048443810403
 
 `filter[A356312(n+1), A358220(#)]`
@@ -2333,24 +2370,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A358222.P8236864349776144934
-
-/-! ## A358222.P11732071791131896267
-
-`filter[A065090(n+3), A358220(#)]`
--/
-
-namespace A358222.P11732071791131896267
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065090 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A358220 (f1 j).toNat = 1) n)
-
-end
-
-end A358222.P11732071791131896267
 
 /-!
 # A358223: Inverse Möbius transform of A181819, prime shadow function.
@@ -4783,20 +4802,20 @@ end A358250.P17020439364110709742
 The programs for A358251, there is no canonical definition to state claims against.
 -/
 
-/-! ## A358251.P11487033898962997291
+/-! ## A358251.P9405215533119190068
 
-`ogf((-1-2x+4x^2+2x^3)/(-1+10x^2))`
+`ogf((1-x+6x^4)/(1-3x))`
 -/
 
-namespace A358251.P11487033898962997291
+namespace A358251.P9405215533119190068
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 2, -4, -2] [1, 0, -10] n
+  SequenceMachineLib.ogf [1, -1, 0, 0, 6] [1, -3] n
 
 end
 
-end A358251.P11487033898962997291
+end A358251.P9405215533119190068
 
 /-!
 # A358252: a(n) is the least number with exactly n non-unitary square divisors.

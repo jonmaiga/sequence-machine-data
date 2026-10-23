@@ -5943,6 +5943,28 @@ end A297147.P4955831257164394937
 The programs for A297148, there is no canonical definition to state claims against.
 -/
 
+/-! ## A297148.P17798618212185616528
+
+`∪[A032559(n+1), A171901(n+1)]`
+-/
+
+namespace A297148.P17798618212185616528
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032559 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171901 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A297148.P17798618212185616528
+
 /-! ## A297148.P18246049675097341784
 
 `∪[A044821(n+1), A171901(n+1)]`
@@ -6348,6 +6370,29 @@ namespace A297150
 /-- `5*p?[A018252(n+3)-2]` -/
 def P7158823142473450778.Spec : Prop :=
   ∀ n, P7158823142473450778.a n = A297150 (n + 1)
+
+end A297150
+
+/-! ## A297150.P12659404082805947889
+
+`A064502(A297925(2*n+1-n))`
+-/
+
+namespace A297150.P12659404082805947889
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064502 (A297925 (2 * n + 1 - n)).toNat
+
+end
+
+end A297150.P12659404082805947889
+
+namespace A297150
+
+/-- `A064502(A297925(2*n+1-n))` -/
+def P12659404082805947889.Spec : Prop :=
+  ∀ n, P12659404082805947889.a n = A297150 (n + 1)
 
 end A297150
 

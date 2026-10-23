@@ -4379,6 +4379,32 @@ def P11943042692533527684.Spec : Prop :=
 
 end A101264
 
+/-! ## A101264.P9428373926739019816
+
+`round(∏{p}[2*n+1, #/n]/3)`
+-/
+
+namespace A101264.P9428373926739019816
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((∏ p ∈ Nat.primeFactors (f1 n), (p : ℚ) / (n : ℚ)) / 3)
+
+end
+
+end A101264.P9428373926739019816
+
+namespace A101264
+
+/-- `round(∏{p}[2*n+1, #/n]/3)` -/
+def P9428373926739019816.Spec : Prop :=
+  ∀ n, P9428373926739019816.a n = A101264 n
+
+end A101264
+
 /-! ## A101264.P839774441854007179
 
 `abs(A112448(n))`
@@ -4451,42 +4477,6 @@ namespace A101264
 /-- `A304438(Δ[n²])` -/
 def P14256467539456441402.Spec : Prop :=
   ∀ n, P14256467539456441402.a n = A101264 n
-
-end A101264
-
-/-! ## A101264.P11661523605967304097
-
-`char[eq[1, ∑{e}[2*n+1, #]]]`
--/
-
-namespace A101264.P11661523605967304097
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f4 n), Nat.factorization (f4 n) p
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j = f3 j) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A101264.P11661523605967304097
-
-namespace A101264
-
-/-- `char[eq[1, ∑{e}[2*n+1, #]]]` -/
-def P11661523605967304097.Spec : Prop :=
-  ∀ n, (P11661523605967304097.a n : ℤ) = A101264 n
 
 end A101264
 
@@ -7452,6 +7442,32 @@ namespace A101291
 /-- `45*(11*10^(2*(n+1)-3)-10^(n-1))` -/
 def P16592779013497558420.Spec : Prop :=
   ∀ n, P16592779013497558420.a n = (A101291 (n + 1) : ℚ)
+
+end A101291
+
+/-! ## A101291.P5702548019792299238
+
+`Δ[A037182(n)]`
+-/
+
+namespace A101291.P5702548019792299238
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037182 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A101291.P5702548019792299238
+
+namespace A101291
+
+/-- `Δ[A037182(n)]` -/
+def P5702548019792299238.Spec : Prop :=
+  ∀ n, P5702548019792299238.a n = A101291 (n + 1)
 
 end A101291
 

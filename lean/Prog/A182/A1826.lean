@@ -2349,6 +2349,24 @@ end
 
 end A182624.P15384999612142350864
 
+/-! ## A182624.P2961277570870144171
+
+`filter[A182623(n+1), A010051(#)]`
+-/
+
+namespace A182624.P2961277570870144171
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182623 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
+
+end
+
+end A182624.P2961277570870144171
+
 /-!
 # A182625: Numbers n for which Fibonacci(n) mod n is a Fibonacci number.
 
@@ -5160,6 +5178,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A182654.P13197932886054165974
+
+/-! ## A182654.P533945649609197772
+
+`eq[A024375(n+1), A054899(n)]`
+-/
+
+namespace A182654.P533945649609197772
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024375 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054899 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A182654.P533945649609197772
 
 /-!
 # A182657: Square numbers with at least one digit in common with any other positive square number.

@@ -76,6 +76,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2429,6 +2430,29 @@ namespace A255932
 /-- `A000302(n+1)/A046161(n)*A046161(n+1)` -/
 def P5083044813325929786.Spec : Prop :=
   ∀ n, P5083044813325929786.a n = (A255932 (n + 1) : ℚ)
+
+end A255932
+
+/-! ## A255932.P9487021529845660506
+
+`A000079(n+1)/A075101(n+1)*A004171(n+1)`
+-/
+
+namespace A255932.P9487021529845660506
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000079 (n + 1) : ℚ) / (A075101 (n + 1) : ℚ) * (A004171 (n + 1) : ℚ)
+
+end
+
+end A255932.P9487021529845660506
+
+namespace A255932
+
+/-- `A000079(n+1)/A075101(n+1)*A004171(n+1)` -/
+def P9487021529845660506.Spec : Prop :=
+  ∀ n, P9487021529845660506.a n = (A255932 (n + 1) : ℚ)
 
 end A255932
 
@@ -6069,6 +6093,28 @@ end A255965.P7972918682586091015
 The programs for A255966, there is no canonical definition to state claims against.
 -/
 
+/-! ## A255966.P1929951501539009159
+
+`∩[A193772(n+1), A342142(n+1)]`
+-/
+
+namespace A255966.P1929951501539009159
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193772 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A255966.P1929951501539009159
+
 /-! ## A255966.P9859761619208776024
 
 `∩[A261021(n+1), A342142(n+1)]`
@@ -6148,28 +6194,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A255966.P18321849688943196394
-
-/-! ## A255966.P7307331653081083869
-
-`∩[A261021(n+1), A352438(n+1)]`
--/
-
-namespace A255966.P7307331653081083869
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261021 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A352438 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A255966.P7307331653081083869
 
 /-!
 # A255967: Odd numbers m that are neither of the form p + 2^k nor of the form p - 2^k with 2^k < m, k >= 1, and p prime.
@@ -6629,6 +6653,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A255976.P11996201445313749797
+
+/-! ## A255976.P15233739414074565176
+
+`∪[A168529(n+1), A228268(n+1)]`
+-/
+
+namespace A255976.P15233739414074565176
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168529 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228268 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A255976.P15233739414074565176
 
 /-!
 # A255977: The number of numbers j+k*r <= n, where r = golden ratio and j and k are nonnegative integers.

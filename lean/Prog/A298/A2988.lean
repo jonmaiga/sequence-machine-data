@@ -100,6 +100,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -8251,6 +8252,33 @@ def P2578710847131630613.Spec : Prop :=
 
 end A298879
 
+/-! ## A298879.P8018383284470440018
+
+`comp[A235331(n+1)]`
+-/
+
+namespace A298879.P8018383284470440018
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235331 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A298879.P8018383284470440018
+
+namespace A298879
+
+/-- `comp[A235331(n+1)]` -/
+def P8018383284470440018.Spec : Prop :=
+  ∀ n, (P8018383284470440018.a n : ℤ) = A298879 (n + 1)
+
+end A298879
+
 /-! ## A298879.P16007462766093006348
 
 `eq[0, A159918(n)%2]`
@@ -8422,35 +8450,6 @@ namespace A298879
 /-- `eq[0, A254379(n*2*n)]` -/
 def P6822353652460209682.Spec : Prop :=
   ∀ n, (P6822353652460209682.a n : ℤ) = A298879 (n + 1)
-
-end A298879
-
-/-! ## A298879.P17447833811779972866
-
-`eq[0, A010060(ceil(n²/2))]`
--/
-
-namespace A298879.P17447833811779972866
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010060 ⌈(n ^ 2 : ℚ) / 2⌉.toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A298879.P17447833811779972866
-
-namespace A298879
-
-/-- `eq[0, A010060(ceil(n²/2))]` -/
-def P17447833811779972866.Spec : Prop :=
-  ∀ n, (P17447833811779972866.a n : ℤ) = A298879 (n + 1)
 
 end A298879
 

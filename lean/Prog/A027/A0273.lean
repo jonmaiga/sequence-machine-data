@@ -3024,6 +3024,29 @@ def P14240938763321981449.Spec : Prop :=
 
 end A027327
 
+/-! ## A027327.P13331997884878356567
+
+`A000792(2*n+1)*A000792(n)`
+-/
+
+namespace A027327.P13331997884878356567
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000792 (2 * n + 1) * A000792 n
+
+end
+
+end A027327.P13331997884878356567
+
+namespace A027327
+
+/-- `A000792(2*n+1)*A000792(n)` -/
+def P13331997884878356567.Spec : Prop :=
+  ∀ n, P13331997884878356567.a n = A027327 n
+
+end A027327
+
 /-!
 # A027328: a(n) is the sum of squares of the numbers in row n of array T given by A026120.
 
@@ -10153,6 +10176,32 @@ namespace A027379
 /-- `∑[round(acot(acot(n+1))²+n)]` -/
 def P6294871631494986062.Spec : Prop :=
   ∀ n, P6294871631494986062.a n = A027379 n
+
+end A027379
+
+/-! ## A027379.P9436274495810191064
+
+`record[a(n-1)-(4-n)]` with `a(0)=1, a(1)=0`
+-/
+
+namespace A027379.P9436274495810191064
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n f1 =>
+  f1 (n - 1) - (4 - (n : ℤ))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A027379.P9436274495810191064
+
+namespace A027379
+
+/-- `record[a(n-1)-(4-n)]` -/
+def P9436274495810191064.Spec : Prop :=
+  ∀ n, P9436274495810191064.a n = A027379 n
 
 end A027379
 

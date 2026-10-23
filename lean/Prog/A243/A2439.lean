@@ -2961,6 +2961,28 @@ end
 
 end A243937.P13799559258633454517
 
+/-! ## A243937.P16743081541023235787
+
+`∩[A101107(n+1), A203444(n+1)]`
+-/
+
+namespace A243937.P16743081541023235787
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101107 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A203444 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243937.P16743081541023235787
+
 /-!
 # A243939: Expansion of f(-q)^10 / f(-q^5)^2 in power of q where f() is a Ramanujan theta function.
 

@@ -18,6 +18,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -75,6 +76,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -2618,16 +2620,16 @@ def P6218480237205419752.Spec : Prop :=
 
 end A201612
 
-/-! ## A201612.P3077652591159059575
+/-! ## A201612.P12063343022066869211
 
-`∩[A007521(n+1), A201474(n+1)]`
+`∩[A008846(n+1), A201474(n+1)]`
 -/
 
-namespace A201612.P3077652591159059575
+namespace A201612.P12063343022066869211
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007521 (n + 1)
+  A008846 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A201474 (n + 1)
@@ -2638,13 +2640,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A201612.P3077652591159059575
+end A201612.P12063343022066869211
 
 namespace A201612
 
-/-- `∩[A007521(n+1), A201474(n+1)]` -/
-def P3077652591159059575.Spec : Prop :=
-  ∀ n, (P3077652591159059575.a n : ℤ) = A201612 (n + 1)
+/-- `∩[A008846(n+1), A201474(n+1)]` -/
+def P12063343022066869211.Spec : Prop :=
+  ∀ n, (P12063343022066869211.a n : ℤ) = A201612 (n + 1)
 
 end A201612
 
@@ -5744,6 +5746,28 @@ end
 
 end A201650.P15616292744645680905
 
+/-! ## A201650.P5778931935703957449
+
+`∩[A030229(n+1), A231238(n+1)]`
+-/
+
+namespace A201650.P5778931935703957449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030229 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231238 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A201650.P5778931935703957449
+
 /-!
 # A201651: Bit-interleaved number addition table (cf. A054240) as triangle read by rows: T(n,k) = n and k added in binary representation, where carries shift 2 instead of 1, 0 <= k <= n.
 
@@ -6915,6 +6939,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201688.P14695491401209975600
+
+/-! ## A201688.P16966971706664176049
+
+`∩[A141373(n+1), A201613(n+1)]`
+-/
+
+namespace A201688.P16966971706664176049
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141373 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A201613 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A201688.P16966971706664176049
 
 /-!
 # A201690: Number of permutations of [n] avoiding the pattern 123 (with a dot over the 3).

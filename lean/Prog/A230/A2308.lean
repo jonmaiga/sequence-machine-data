@@ -61,7 +61,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -7855,94 +7854,31 @@ end A230872.P1831863302636547412
 The programs for A230873, there is no canonical definition to state claims against.
 -/
 
-/-! ## A230873.P11132694869245725159
+/-! ## A230873.P10725435475902226088
 
-`eq[0, char[A230872(n+1)]]`
+`comp[A230872(n+1)]`
 -/
 
-namespace A230873.P11132694869245725159
+namespace A230873.P10725435475902226088
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A230872 (n + 1)
 
 open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A230873.P11132694869245725159
+end A230873.P10725435475902226088
 
-/-! ## A230873.P17013857995678386547
+/-! ## A230873.P12936157161334179900
 
-`comp[A231330(n)]%A231338(n+5)`
+`comp[A231330(n)]`
 -/
 
-namespace A230873.P17013857995678386547
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231330 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A231338 (n + 5))
-
-end
-
-end A230873.P17013857995678386547
-
-/-! ## A230873.P4316607117562588510
-
-`comp[A231330(n)]%A042890(n)`
--/
-
-namespace A230873.P4316607117562588510
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231330 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A042890 n)
-
-end
-
-end A230873.P4316607117562588510
-
-/-! ## A230873.P5755056968614704086
-
-`comp[A231330(n)]+((n+5)*A000984(n+1))%2`
--/
-
-namespace A230873.P5755056968614704086
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231330 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) + Int.tmod ((n + 5 : ℤ) * A000984 (n + 1)) 2
-
-end
-
-end A230873.P5755056968614704086
-
-/-! ## A230873.P9759221426645862891
-
-`comp[A231330(n)]+C(2, A126641(n+1))`
--/
-
-namespace A230873.P9759221426645862891
+namespace A230873.P12936157161334179900
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -7950,11 +7886,30 @@ def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + Nat.choose 2 (A126641 (n + 1)).toNat
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A230873.P9759221426645862891
+end A230873.P12936157161334179900
+
+/-! ## A230873.P7539172914688633180
+
+`comp[A230871(n)]`
+-/
+
+namespace A230873.P7539172914688633180
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230871 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A230873.P7539172914688633180
 
 /-!
 # A230874: a(1)=1; thereafter a(n) = 2^a(ceiling(n/2)).
@@ -8051,6 +8006,29 @@ namespace A230874
 /-- `root(2, 1/a(floor(n/2)))` -/
 def P18428704420914240299.Spec : Prop :=
   ∀ n, P18428704420914240299.a n = (A230874 (n + 1) : ℝ)
+
+end A230874
+
+/-! ## A230874.P15341619545549516189
+
+`A230875(2*(n+1))`
+-/
+
+namespace A230874.P15341619545549516189
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A230875 (2 * (n + 1))
+
+end
+
+end A230874.P15341619545549516189
+
+namespace A230874
+
+/-- `A230875(2*(n+1))` -/
+def P15341619545549516189.Spec : Prop :=
+  ∀ n, P15341619545549516189.a n = A230874 (n + 1)
 
 end A230874
 

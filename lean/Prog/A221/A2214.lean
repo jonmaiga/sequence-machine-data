@@ -7399,23 +7399,27 @@ end
 
 end A221475.P9064593241448820258
 
-/-! ## A221475.P7158988442147779473
+/-! ## A221475.P1372491214132740829
 
-`record[A087232(A196871(n+2))]`
+`∩[A016813(n), A196871(n+1)]`
 -/
 
-namespace A221475.P7158988442147779473
+namespace A221475.P1372491214132740829
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087232 (A196871 (n + 2)).toNat
+  A016813 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196871 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A221475.P7158988442147779473
+end A221475.P1372491214132740829
 
 /-!
 # A221476: Prime numbers having no additional odd primes in their Collatz (3x+1) trajectory.

@@ -6307,6 +6307,50 @@ end
 
 end A290965.P16867133420909193827
 
+/-! ## A290965.P15766572377449943679
+
+`∩[A208770(n+1), A346132(n+1)]`
+-/
+
+namespace A290965.P15766572377449943679
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A208770 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346132 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290965.P15766572377449943679
+
+/-! ## A290965.P2703206422175309673
+
+`∩[A219095(n+2), A346132(n+1)]`
+-/
+
+namespace A290965.P2703206422175309673
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219095 (n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346132 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A290965.P2703206422175309673
+
 /-!
 # A290966: The number of convex layers in an n X n grid of points.
 

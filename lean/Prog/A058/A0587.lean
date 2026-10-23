@@ -39,6 +39,7 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
@@ -59,6 +60,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -3851,12 +3853,12 @@ The programs for A058764, the canonical program `A058764.P7242570610008364563` i
 The definition of A058764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A058764.P8379135476968363783
+/-! ## A058764.P9436194016910665047
 
-`ogf((-2+2x^2)/(-1+2x))`
+`ogf((2-2x^2)/(1-2x))`
 -/
 
-namespace A058764.P8379135476968363783
+namespace A058764.P9436194016910665047
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3864,13 +3866,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A058764.P8379135476968363783
+end A058764.P9436194016910665047
 
 namespace A058764
 
-/-- `ogf((-2+2x^2)/(-1+2x))` -/
-def P8379135476968363783.Spec : Prop :=
-  ∀ n, P8379135476968363783.a n = A058764 n
+/-- `ogf((2-2x^2)/(1-2x))` -/
+def P9436194016910665047.Spec : Prop :=
+  ∀ n, P9436194016910665047.a n = A058764 n
 
 end A058764
 
@@ -4883,95 +4885,93 @@ end A058777.P11250439978971725331
 The programs for A058779, there is no canonical definition to state claims against.
 -/
 
-/-! ## A058779.P2945603130418287176
+/-! ## A058779.P8478297194107492001
 
-`filter[A058780(n+1), A059841(#)]`
+`∩[2*n, A058780(n+1)]`
 -/
 
-namespace A058779.P2945603130418287176
+namespace A058779.P8478297194107492001
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A058780 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A059841 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A058779.P2945603130418287176
+end A058779.P8478297194107492001
 
-/-! ## A058779.P2950860765558055658
+/-! ## A058779.P4726626663775469725
 
-`filter[A237759(n+1), A059841(#)]`
+`∩[2*n, A237759(n+1)]`
 -/
 
-namespace A058779.P2950860765558055658
+namespace A058779.P4726626663775469725
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A237759 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A059841 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A058779.P2950860765558055658
+end A058779.P4726626663775469725
 
-/-! ## A058779.P14947329183874969929
+/-! ## A058779.P6309043379385151253
 
-`filter[A058780(n+1), A285515(#)]`
+`∩[A058780(n+1), A119432(n+1)]`
 -/
 
-namespace A058779.P14947329183874969929
+namespace A058779.P6309043379385151253
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A058780 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A285515 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119432 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A058779.P14947329183874969929
+end A058779.P6309043379385151253
 
-/-! ## A058779.P17970744693465239884
+/-! ## A058779.P1002952291772107023
 
-`filter[A058780(n+2), A135528(#)]`
+`∩[A058780(n+1), A336066(n+1)]`
 -/
 
-namespace A058779.P17970744693465239884
+namespace A058779.P1002952291772107023
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058780 (n + 2)
+  A058780 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A135528 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336066 (n + 1)
 
-end
-
-end A058779.P17970744693465239884
-
-/-! ## A058779.P3955544730345331534
-
-`filter[A058780(n+2), A266591(#)]`
--/
-
-namespace A058779.P3955544730345331534
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A058780 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A266591 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A058779.P3955544730345331534
+end A058779.P1002952291772107023
 
 /-!
 # A058783: Number of n-rowed binary matrices with all row sums 4, up to row and column permutation; bipartite graphs with all nodes of degree 4 in a distinguished bipartite n-block, up to isomorphism.

@@ -4984,6 +4984,32 @@ def P17271185920318713913.Spec : Prop :=
 
 end A200978
 
+/-! ## A200978.P9414799172038441792
+
+`(n+3)!*∑[n+1]`
+-/
+
+namespace A200978.P9414799172038441792
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial (n + 3) * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A200978.P9414799172038441792
+
+namespace A200978
+
+/-- `(n+3)!*∑[n+1]` -/
+def P9414799172038441792.Spec : Prop :=
+  ∀ n, (P9414799172038441792.a n : ℤ) = A200978 (n + 3)
+
+end A200978
+
 /-! ## A200978.P6069167466660576156
 
 `C((n+2)², 2)*∏[n+1]`
@@ -5169,29 +5195,6 @@ def P145730727897885710.Spec : Prop :=
 
 end A200978
 
-/-! ## A200978.P8059491813804329540
-
-`A001804(n+3)-(A001286(n+3)+A001286(n+3))`
--/
-
-namespace A200978.P8059491813804329540
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001804 (n + 3) - (A001286 (n + 3) + A001286 (n + 3))
-
-end
-
-end A200978.P8059491813804329540
-
-namespace A200978
-
-/-- `A001804(n+3)-(A001286(n+3)+A001286(n+3))` -/
-def P8059491813804329540.Spec : Prop :=
-  ∀ n, P8059491813804329540.a n = A200978 (n + 3)
-
-end A200978
-
 /-!
 # A200979: Number of ways to arrange n books on 4 consecutive bookshelves, leaving no shelf empty.
 
@@ -5239,6 +5242,35 @@ namespace A200979
 /-- `(n+4)!*(n+3)*(n+2)*(n+1)/6` -/
 def P10183186841180127188.Spec : Prop :=
   ∀ n, P10183186841180127188.a n = (A200979 (n + 4) : ℚ)
+
+end A200979
+
+/-! ## A200979.P5695096284169140442
+
+`(n+4)!*∑[∑[n+1]]`
+-/
+
+namespace A200979.P5695096284169140442
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial (n + 4) * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A200979.P5695096284169140442
+
+namespace A200979
+
+/-- `(n+4)!*∑[∑[n+1]]` -/
+def P5695096284169140442.Spec : Prop :=
+  ∀ n, (P5695096284169140442.a n : ℤ) = A200979 (n + 4)
 
 end A200979
 

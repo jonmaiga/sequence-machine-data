@@ -1100,6 +1100,96 @@ def P6763609076705722923.Spec : Prop :=
 
 end A073803
 
+/-! ## A073803.P16011185813390112306
+
+`∪[A082092(n+1), A318718(n+1)]`
+-/
+
+namespace A073803.P16011185813390112306
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082092 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318718 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073803.P16011185813390112306
+
+namespace A073803
+
+/-- `∪[A082092(n+1), A318718(n+1)]` -/
+def P16011185813390112306.Spec : Prop :=
+  ∀ n, (P16011185813390112306.a n : ℤ) = A073803 (n + 1)
+
+end A073803
+
+/-! ## A073803.P17369351939075216245
+
+`∪[A082092(n+1), A319181(n+1)]`
+-/
+
+namespace A073803.P17369351939075216245
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082092 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319181 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073803.P17369351939075216245
+
+namespace A073803
+
+/-- `∪[A082092(n+1), A319181(n+1)]` -/
+def P17369351939075216245.Spec : Prop :=
+  ∀ n, (P17369351939075216245.a n : ℤ) = A073803 (n + 1)
+
+end A073803
+
+/-! ## A073803.P12793560376287099486
+
+`∪[A082092(n+1), A302568(n+1)]`
+-/
+
+namespace A073803.P12793560376287099486
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082092 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302568 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073803.P12793560376287099486
+
+namespace A073803
+
+/-- `∪[A082092(n+1), A302568(n+1)]` -/
+def P12793560376287099486.Spec : Prop :=
+  ∀ n, (P12793560376287099486.a n : ℤ) = A073803 (n + 1)
+
+end A073803
+
 /-!
 # A073804: Numbers k such that the number of divisors of k is greater than that of sigma(k).
 
@@ -1952,6 +2042,29 @@ namespace A073806
 /-- `A000005(A035316((n+1)²))` -/
 def P3485428242430861111.Spec : Prop :=
   ∀ n, P3485428242430861111.a n = A073806 (n + 1)
+
+end A073806
+
+/-! ## A073806.P962034007342383819
+
+`A000005(A076752((n+1)²))`
+-/
+
+namespace A073806.P962034007342383819
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000005 (A076752 ((n + 1) ^ 2)).toNat
+
+end
+
+end A073806.P962034007342383819
+
+namespace A073806
+
+/-- `A000005(A076752((n+1)²))` -/
+def P962034007342383819.Spec : Prop :=
+  ∀ n, P962034007342383819.a n = A073806 (n + 1)
 
 end A073806
 

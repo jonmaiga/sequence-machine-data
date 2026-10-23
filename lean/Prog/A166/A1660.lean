@@ -85,7 +85,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -93,6 +92,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5708,6 +5708,29 @@ namespace A166033
 /-- `(A166526(n+1)+A166525(n+1))/2` -/
 def P17093909194125647659.Spec : Prop :=
   ∀ n, P17093909194125647659.a n = (A166033 (n + 1) : ℚ)
+
+end A166033
+
+/-! ## A166033.P1545650130663160001
+
+`A175885(A103889(n+2))`
+-/
+
+namespace A166033.P1545650130663160001
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175885 (A103889 (n + 2)).toNat
+
+end
+
+end A166033.P1545650130663160001
+
+namespace A166033
+
+/-- `A175885(A103889(n+2))` -/
+def P1545650130663160001.Spec : Prop :=
+  ∀ n, P1545650130663160001.a n = A166033 (n + 1)
 
 end A166033
 
@@ -11819,90 +11842,93 @@ end
 
 end A166069.P7843417592024030289
 
-/-! ## A166069.P5598001233569462647
+/-! ## A166069.P11260137907728422257
 
-`A007691(lt[A034690(2*(n+2)), A240219(3*n+2)])`
+`∩[A117350(n+1), A246454(n+1)]`
 -/
 
-namespace A166069.P5598001233569462647
+namespace A166069.P11260137907728422257
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034690 (2 * (n + 2))
+  A117350 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240219 (3 * n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007691 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A166069.P5598001233569462647
-
-/-! ## A166069.P12577772384823735392
-
-`A089748(lt[A079390(n+4), A006512(n+1)])`
--/
-
-namespace A166069.P12577772384823735392
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079390 (n + 4)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006512 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089748 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A166069.P12577772384823735392
-
-/-! ## A166069.P636444284865148373
-
-`A089748(lt[A079390(n+4), A060212(n+1)])`
--/
-
-namespace A166069.P636444284865148373
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079390 (n + 4)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060212 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089748 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A166069.P636444284865148373
-
-/-! ## A166069.P18364814106972099426
-
-`A089748(∪[A002808(n+1), A030430(n+1)])`
--/
-
-namespace A166069.P18364814106972099426
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002808 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030430 (n + 1)
+  A246454 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089748 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A166069.P18364814106972099426
+end A166069.P11260137907728422257
+
+/-! ## A166069.P3641540484102012544
+
+`∩[A117350(n+1), A354073(n+1)]`
+-/
+
+namespace A166069.P3641540484102012544
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117350 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354073 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166069.P3641540484102012544
+
+/-! ## A166069.P11532227800058722999
+
+`∩[A117350(n+1), A282775(n+1)]`
+-/
+
+namespace A166069.P11532227800058722999
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117350 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A282775 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166069.P11532227800058722999
+
+/-! ## A166069.P8214301614918624530
+
+`∩[A071707(n+1), A117350(n+1)]`
+-/
+
+namespace A166069.P8214301614918624530
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071707 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117350 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166069.P8214301614918624530
 
 /-!
 # A166070: Sorted sequence of primes and multiply perfect numbers.
@@ -12880,6 +12906,32 @@ def P17890636471360536406.Spec : Prop :=
 
 end A166077
 
+/-! ## A166077.P4183417059094421775
+
+`floor(2^(2-∑[a(n-1)-3]))` with `a(0)=2`
+-/
+
+namespace A166077.P4183417059094421775
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [2] fun n f1 =>
+  f1 (n - 1) - 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(2 : ℚ) ^ (2 - ∑ j ∈ Finset.range (n + 1), f1 j : ℤ)⌋
+
+end
+
+end A166077.P4183417059094421775
+
+namespace A166077
+
+/-- `floor(2^(2-∑[a(n-1)-3]))` -/
+def P4183417059094421775.Spec : Prop :=
+  ∀ n, P4183417059094421775.a n = A166077 n
+
+end A166077
+
 /-!
 # A166078: Expansion of (3(1-x)-sqrt(1+6x-7x^2))/(2(1-x)(1-2x)).
 
@@ -13776,6 +13828,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A166081.P7515625197864494724
+
+/-! ## A166081.P12662906703837175163
+
+`∪[A014092(n+1), A068321(n+1)]`
+-/
+
+namespace A166081.P12662906703837175163
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014092 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068321 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A166081.P12662906703837175163
 
 /-! ## A166081.P1245031275572326113
 

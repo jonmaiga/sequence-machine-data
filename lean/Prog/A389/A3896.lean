@@ -63,8 +63,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C001
-import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -3295,6 +3295,36 @@ def P17315660396592543652.Spec : Prop :=
 
 end A389634
 
+/-! ## A389634.P10342689915790652477
+
+`∪[A039725(n+1), A106577(n+1)]`
+-/
+
+namespace A389634.P10342689915790652477
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039725 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106577 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389634.P10342689915790652477
+
+namespace A389634
+
+/-- `∪[A039725(n+1), A106577(n+1)]` -/
+def P10342689915790652477.Spec : Prop :=
+  ∀ n, (P10342689915790652477.a n : ℤ) = A389634 (n + 1)
+
+end A389634
+
 /-! ## A389634.P4726577302589313491
 
 `eq[A213636(n+1), A213636(A235395(n+1))]`
@@ -3373,6 +3403,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389636.P5386423841625465549
+
+/-! ## A389636.P9975782978428876344
+
+`∩[A008594(n), A132229(n+1)]`
+-/
+
+namespace A389636.P9975782978428876344
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008594 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132229 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A389636.P9975782978428876344
 
 /-!
 # A389637: Numerators of coefficients of 1- Pi/(2*EllipticK).

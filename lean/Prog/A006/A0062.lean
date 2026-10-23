@@ -4197,6 +4197,29 @@ def P1051012189743425378.Spec : Prop :=
 
 end A006234
 
+/-! ## A006234.P16838853702293263243
+
+`floor((3/(n+2)+3)*a(n-1))` with `a(0)=1`
+-/
+
+namespace A006234.P16838853702293263243
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ⌊(3 / (n + 2 : ℚ) + 3) * (a (n - 1) : ℚ)⌋
+
+end
+
+end A006234.P16838853702293263243
+
+namespace A006234
+
+/-- `floor((3/(n+2)+3)*a(n-1))` -/
+def P16838853702293263243.Spec : Prop :=
+  ∀ n, P16838853702293263243.a n = A006234 (n + 3)
+
+end A006234
+
 /-! ## A006234.P9582057023109216560
 
 `6*a(n-1)-9*a(n-2)` with `a(0)=1, a(1)=4`
@@ -4545,29 +4568,6 @@ def P2778070077017218587.Spec : Prop :=
 
 end A006234
 
-/-! ## A006234.P12217814654168637614
-
-`A392266(n+1)-A392266(n)`
--/
-
-namespace A006234.P12217814654168637614
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392266 (n + 1) - A392266 n
-
-end
-
-end A006234.P12217814654168637614
-
-namespace A006234
-
-/-- `A392266(n+1)-A392266(n)` -/
-def P12217814654168637614.Spec : Prop :=
-  ∀ n, P12217814654168637614.a n = A006234 (n + 3)
-
-end A006234
-
 /-!
 # A006235: Number of spanning trees of the n-prism graph Y_n (regarding case n = 2 as a multigraph).
 
@@ -4860,6 +4860,55 @@ namespace A006236
 /-- `floor(∑[a(n-1)+2]^n/(n+1))` -/
 def P2740951326625129268.Spec : Prop :=
   ∀ n, P2740951326625129268.a n = A006236 (n + 1)
+
+end A006236
+
+/-! ## A006236.P2619355430170091998
+
+`A005563(n+1)^n/(n+1)`
+-/
+
+namespace A006236.P2619355430170091998
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A005563 (n + 1) ^ n : ℚ) / (n + 1 : ℚ)
+
+end
+
+end A006236.P2619355430170091998
+
+namespace A006236
+
+/-- `A005563(n+1)^n/(n+1)` -/
+def P2619355430170091998.Spec : Prop :=
+  ∀ n, P2619355430170091998.a n = (A006236 (n + 1) : ℚ)
+
+end A006236
+
+/-! ## A006236.P2603808944299357549
+
+`A384845(∑[n+1]+2)`
+-/
+
+namespace A006236.P2603808944299357549
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384845 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
+
+end
+
+end A006236.P2603808944299357549
+
+namespace A006236
+
+/-- `A384845(∑[n+1]+2)` -/
+def P2603808944299357549.Spec : Prop :=
+  ∀ n, P2603808944299357549.a n = A006236 (n + 1)
 
 end A006236
 
@@ -9857,6 +9906,28 @@ end
 
 end A006285.P17363756871532881036
 
+/-! ## A006285.P9510472771021426673
+
+`∩[2*n+1, A118954(n+1)]`
+-/
+
+namespace A006285.P9510472771021426673
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118954 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A006285.P9510472771021426673
+
 /-! ## A006285.P11779756700037858604
 
 `∩[A118954(n+1), A133122(n+1)]`
@@ -9878,28 +9949,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A006285.P11779756700037858604
-
-/-! ## A006285.P3068113970895218740
-
-`∩[A089684(n+1), A118954(n+1)]`
--/
-
-namespace A006285.P3068113970895218740
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089684 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118954 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A006285.P3068113970895218740
 
 /-! ## A006285.P278604470518526179
 

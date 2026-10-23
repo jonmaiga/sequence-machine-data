@@ -6696,6 +6696,52 @@ def P15977849243471493215.Spec : Prop :=
 
 end A037156
 
+/-! ## A037156.P558622464797487241
+
+`A088404(A058331(n))`
+-/
+
+namespace A037156.P558622464797487241
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088404 (A058331 n).toNat
+
+end
+
+end A037156.P558622464797487241
+
+namespace A037156
+
+/-- `A088404(A058331(n))` -/
+def P558622464797487241.Spec : Prop :=
+  ∀ n, P558622464797487241.a n = A037156 n
+
+end A037156
+
+/-! ## A037156.P8562511323162788213
+
+`C(10^n+1, 2)`
+-/
+
+namespace A037156.P8562511323162788213
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (10 ^ n + 1) 2
+
+end
+
+end A037156.P8562511323162788213
+
+namespace A037156
+
+/-- `C(10^n+1, 2)` -/
+def P8562511323162788213.Spec : Prop :=
+  ∀ n, (P8562511323162788213.a n : ℤ) = A037156 n
+
+end A037156
+
 /-!
 # A037157: Convolution of natural numbers n >= 1 with Fibonacci numbers F(k), for k >= 6.
 
@@ -10595,6 +10641,75 @@ namespace A037182
 /-- `sqrt(A350869(n))` -/
 def P13589887746140181119.Spec : Prop :=
   ∀ n, P13589887746140181119.a n = (A037182 n : ℝ)
+
+end A037182
+
+/-! ## A037182.P13194753369697689766
+
+`A037156(n)-A011557(n)`
+-/
+
+namespace A037182.P13194753369697689766
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037156 n - A011557 n
+
+end
+
+end A037182.P13194753369697689766
+
+namespace A037182
+
+/-- `A037156(n)-A011557(n)` -/
+def P13194753369697689766.Spec : Prop :=
+  ∀ n, P13194753369697689766.a n = A037182 n
+
+end A037182
+
+/-! ## A037182.P1202239795457951132
+
+`A093143(2*n)-A093143(n)`
+-/
+
+namespace A037182.P1202239795457951132
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093143 (2 * n) - A093143 n
+
+end
+
+end A037182.P1202239795457951132
+
+namespace A037182
+
+/-- `A093143(2*n)-A093143(n)` -/
+def P1202239795457951132.Spec : Prop :=
+  ∀ n, P1202239795457951132.a n = A037182 n
+
+end A037182
+
+/-! ## A037182.P8601399548337184304
+
+`C(10^n, 2)`
+-/
+
+namespace A037182.P8601399548337184304
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (10 ^ n) 2
+
+end
+
+end A037182.P8601399548337184304
+
+namespace A037182
+
+/-- `C(10^n, 2)` -/
+def P8601399548337184304.Spec : Prop :=
+  ∀ n, (P8601399548337184304.a n : ℤ) = A037182 n
 
 end A037182
 

@@ -66,7 +66,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -874,6 +873,29 @@ def P12360406466306498995.Spec : Prop :=
 
 end A330805
 
+/-! ## A330805.P14934330190872556416
+
+`A002415(n+1)+A036464(n+2)+A002415(n)`
+-/
+
+namespace A330805.P14934330190872556416
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002415 (n + 1) + (A036464 (n + 2) + A002415 n)
+
+end
+
+end A330805.P14934330190872556416
+
+namespace A330805
+
+/-- `A002415(n+1)+A036464(n+2)+A002415(n)` -/
+def P14934330190872556416.Spec : Prop :=
+  ∀ n, P14934330190872556416.a n = A330805 n
+
+end A330805
+
 /-!
 # A330806: a(1) = 1; a(2) = 1; for n >= 3, a(n) = a(n-1) / gcd(a(n-1), n-1) + a(n-2) / gcd(a(n-2), n-2).
 
@@ -1661,6 +1683,28 @@ end
 
 end A330816.P14541890193985433311
 
+/-! ## A330816.P12586305845668416896
+
+`∩[A046526(n+1), A223539(n+1)]`
+-/
+
+namespace A330816.P12586305845668416896
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046526 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223539 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330816.P12586305845668416896
+
 /-! ## A330816.P11871900775222662456
 
 `record[gcd(A090782(n+1), A092694(n+1))]`
@@ -1678,21 +1722,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330816.P11871900775222662456
-
-/-! ## A330816.P5203046793630301065
-
-`A006093(n+1)*A345992(A060898(n))`
--/
-
-namespace A330816.P5203046793630301065
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006093 (n + 1) * A345992 (A060898 n).toNat
-
-end
-
-end A330816.P5203046793630301065
 
 /-!
 # A330817: Numbers of the form 2^(2*p+1)*M_p^2, where M_p is a Mersenne prime, A000668, with Mersenne exponent p, A000043.
@@ -5346,6 +5375,21 @@ end
 
 end A330869.P11619400153880537794
 
+/-! ## A330869.P11876962894886606337
+
+`A334538(A002998(n+1))`
+-/
+
+namespace A330869.P11876962894886606337
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334538 (A002998 (n + 1)).toNat
+
+end
+
+end A330869.P11876962894886606337
+
 /-!
 # A330870: Practical numbers with a record gap to the next practical number.
 
@@ -6971,6 +7015,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A330889.P1703093045932486909
+
+/-! ## A330889.P17019913291764360474
+
+`A295295(A280462(n))`
+-/
+
+namespace A330889.P17019913291764360474
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295295 (A280462 n).toNat
+
+end
+
+end A330889.P17019913291764360474
 
 /-!
 # A330891: Triangle read by rows: cumulative sums of the rows of A049430.

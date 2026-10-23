@@ -6783,19 +6783,19 @@ end A204042.P17991874321915682638
 The programs for A204046, there is no canonical definition to state claims against.
 -/
 
-/-! ## A204046.P1201517772478363364
+/-! ## A204046.P11161057887166202039
 
-`∩[A002144(n+1)-10, A097755(n+1)]`
+`∩[A097755(n+1), A160785(n+1)]`
 -/
 
-namespace A204046.P1201517772478363364
+namespace A204046.P11161057887166202039
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002144 (n + 1) - 10
+  A097755 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097755 (n + 1)
+  A160785 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6803,7 +6803,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A204046.P1201517772478363364
+end A204046.P11161057887166202039
 
 /-!
 # A204048: Number of (n+2)X(n+2) 0..3 arrays with every 3X3 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..3 introduced in row major order.

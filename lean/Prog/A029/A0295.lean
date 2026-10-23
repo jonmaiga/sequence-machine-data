@@ -31,7 +31,7 @@ import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B004.C001
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C002
@@ -2982,26 +2982,29 @@ def P7777325807895651031.Spec : Prop :=
 
 end A029578
 
-/-! ## A029578.P10072107848839813554
+/-! ## A029578.P16111200954939127805
 
-`floor(n/2)*A000034(n)`
+`floor((lcm(n+1, ∑[n])+n)/(n+3))`
 -/
 
-namespace A029578.P10072107848839813554
+namespace A029578.P16111200954939127805
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n : ℚ) / 2⌋ * A000034 n
+  ⌊(Nat.lcm (n + 1) (∑ j ∈ Finset.range (n + 1), f1 j) + n : ℚ) / (n + 3 : ℚ)⌋
 
 end
 
-end A029578.P10072107848839813554
+end A029578.P16111200954939127805
 
 namespace A029578
 
-/-- `floor(n/2)*A000034(n)` -/
-def P10072107848839813554.Spec : Prop :=
-  ∀ n, P10072107848839813554.a n = A029578 n
+/-- `floor((lcm(n+1, ∑[n])+n)/(n+3))` -/
+def P16111200954939127805.Spec : Prop :=
+  ∀ n, P16111200954939127805.a n = A029578 n
 
 end A029578
 

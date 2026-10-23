@@ -757,16 +757,38 @@ end
 
 end A347612.P14716363309923862136
 
-/-! ## A347612.P10358189739422464784
+/-! ## A347612.P1905269488657057679
 
-`∩[A078453(n+1), A108632(n+1)]`
+`∩[A001358(n+1), A124673(n+1)]`
 -/
 
-namespace A347612.P10358189739422464784
+namespace A347612.P1905269488657057679
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078453 (n + 1)
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124673 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A347612.P1905269488657057679
+
+/-! ## A347612.P1217911252898552933
+
+`∩[A029740(n+1), A108632(n+1)]`
+-/
+
+namespace A347612.P1217911252898552933
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029740 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A108632 (n + 1)
@@ -777,29 +799,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A347612.P10358189739422464784
-
-/-! ## A347612.P1931526977398148833
-
-`∩[A046034(n+1), A320969(n+1)]`
--/
-
-namespace A347612.P1931526977398148833
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046034 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320969 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A347612.P1931526977398148833
+end A347612.P1217911252898552933
 
 /-!
 # A347614: a(n) = Sum_{k=1..n} n^Omega(k).
@@ -6110,12 +6110,12 @@ def P17493605567173876238.Spec : Prop :=
 
 end A347677
 
-/-! ## A347677.P9744679618773554214
+/-! ## A347677.P9553482898666431151
 
-`ogf((-1-5x-5x^2-x^4)/(-1+3x-3x^2+x^3))`
+`ogf((1+5x+5x^2+x^4)/(1-3x+3x^2-x^3))`
 -/
 
-namespace A347677.P9744679618773554214
+namespace A347677.P9553482898666431151
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -6123,13 +6123,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A347677.P9744679618773554214
+end A347677.P9553482898666431151
 
 namespace A347677
 
-/-- `ogf((-1-5x-5x^2-x^4)/(-1+3x-3x^2+x^3))` -/
-def P9744679618773554214.Spec : Prop :=
-  ∀ n, P9744679618773554214.a n = A347677 (n + 1)
+/-- `ogf((1+5x+5x^2+x^4)/(1-3x+3x^2-x^3))` -/
+def P9553482898666431151.Spec : Prop :=
+  ∀ n, P9553482898666431151.a n = A347677 (n + 1)
 
 end A347677
 

@@ -3575,6 +3575,28 @@ end A364653.P5015507356767103387
 The programs for A364654, there is no canonical definition to state claims against.
 -/
 
+/-! ## A364654.P14139469400655044533
+
+`∪[A004864(n+1), A181126(n+1)]`
+-/
+
+namespace A364654.P14139469400655044533
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004864 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181126 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364654.P14139469400655044533
+
 /-! ## A364654.P15432368611059080779
 
 `A241466(∑[char[∑[n]]]²)+n`
@@ -3599,21 +3621,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A364654.P15432368611059080779
-
-/-! ## A364654.P10395490877882346227
-
-`A004825(A083785(n+1))`
--/
-
-namespace A364654.P10395490877882346227
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004825 (A083785 (n + 1)).toNat
-
-end
-
-end A364654.P10395490877882346227
 
 /-!
 # A364655: Circuit rank and corank of the n-Pell graph.

@@ -42,6 +42,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
@@ -76,6 +77,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A139101: Numbers that show the distribution of prime numbers up to the n-th prime minus 1, using "0" for primes and "1" for nonprime numbers.
@@ -8469,6 +8471,64 @@ def P3907545997826356550.Spec : Prop :=
 
 end A139172
 
+/-! ## A139172.P11998877012277773189
+
+`record[Δ[A059418(n+1)]]`
+-/
+
+namespace A139172.P11998877012277773189
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059418 (n + 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A139172.P11998877012277773189
+
+namespace A139172
+
+/-- `record[Δ[A059418(n+1)]]` -/
+def P11998877012277773189.Spec : Prop :=
+  ∀ n, P11998877012277773189.a n = A139172 (n + 2)
+
+end A139172
+
+/-! ## A139172.P2591757067402903710
+
+`record[Δ[A092582(n+1)]]`
+-/
+
+namespace A139172.P2591757067402903710
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092582 (n + 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A139172.P2591757067402903710
+
+namespace A139172
+
+/-- `record[Δ[A092582(n+1)]]` -/
+def P2591757067402903710.Spec : Prop :=
+  ∀ n, P2591757067402903710.a n = A139172 (n + 2)
+
+end A139172
+
 /-!
 # A139173: a(n) = n!/3 - 1.
 
@@ -9609,6 +9669,36 @@ namespace A139179
 /-- `(2*n)%A133137(n+1)` -/
 def P10293179999268908450.Spec : Prop :=
   ∀ n, P10293179999268908450.a n = A139179 n
+
+end A139179
+
+/-! ## A139179.P2717208090721465569
+
+`∑[char[A216455(n+2)]]`
+-/
+
+namespace A139179.P2717208090721465569
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A216455 (n + 2)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A139179.P2717208090721465569
+
+namespace A139179
+
+/-- `∑[char[A216455(n+2)]]` -/
+def P2717208090721465569.Spec : Prop :=
+  ∀ n, (P2717208090721465569.a n : ℤ) = A139179 n
 
 end A139179
 

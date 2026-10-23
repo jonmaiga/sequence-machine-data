@@ -4375,19 +4375,19 @@ end A350471.P12959410454730485316
 The programs for A350472, there is no canonical definition to state claims against.
 -/
 
-/-! ## A350472.P14213768670137767157
+/-! ## A350472.P2348047482918670290
 
-`∩[A350496(n+1), A350460(n+2)]`
+`∩[A350460(n+1), A350496(n+1)]`
 -/
 
-namespace A350472.P14213768670137767157
+namespace A350472.P2348047482918670290
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350496 (n + 1)
+  A350460 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350460 (n + 2)
+  A350496 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4395,7 +4395,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A350472.P14213768670137767157
+end A350472.P2348047482918670290
 
 /-! ## A350472.P9235856547703890162
 

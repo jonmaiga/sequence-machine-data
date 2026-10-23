@@ -8303,30 +8303,24 @@ end A279193
 The programs for A279194, there is no canonical definition to state claims against.
 -/
 
-/-! ## A279194.P6058522026621369645
+/-! ## A279194.P10471108085069743069
 
-`lt[char[A279195(n+1)], 1]`
+`comp[A279195(n+1)]`
 -/
 
-namespace A279194.P6058522026621369645
+namespace A279194.P10471108085069743069
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A279195 (n + 1)
 
 open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f3 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A279194.P6058522026621369645
+end A279194.P10471108085069743069
 
 /-! ## A279194.P6368037069199832865
 
@@ -8381,25 +8375,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A279194.P2127011982462392909
-
-/-! ## A279194.P6825672269151420544
-
-`comp[A279195(n+1)]%A279159(n)`
--/
-
-namespace A279194.P6825672269151420544
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279195 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A279159 n)
-
-end
-
-end A279194.P6825672269151420544
 
 /-!
 # A279195: Numbers of the form {(11*h+p)*11^(2k+1)-1 | h,k in N and p in {1,3,4,5,9} } U {(11*h+q)*11^2k-1 | h,k in N and q in {2,6,7,8,10} }.

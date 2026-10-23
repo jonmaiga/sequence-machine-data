@@ -1651,6 +1651,29 @@ def P17784608525411403914.Spec : Prop :=
 
 end A318306
 
+/-! ## A318306.P6070692319577292708
+
+`A058061(A370566(n+1))`
+-/
+
+namespace A318306.P6070692319577292708
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058061 (A370566 (n + 1)).toNat
+
+end
+
+end A318306.P6070692319577292708
+
+namespace A318306
+
+/-- `A058061(A370566(n+1))` -/
+def P6070692319577292708.Spec : Prop :=
+  ∀ n, P6070692319577292708.a n = A318306 (n + 1)
+
+end A318306
+
 /-!
 # A318307: Multiplicative with a(p^e) = 2^A002487(e).
 
@@ -6909,6 +6932,51 @@ end
 
 end A318360.P16144938018952697459
 
+/-! ## A318360.P11496016263484490473
+
+`A050320(A304660(n+1))`
+-/
+
+namespace A318360.P11496016263484490473
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050320 (A304660 (n + 1)).toNat
+
+end
+
+end A318360.P11496016263484490473
+
+/-! ## A318360.P18162479151773598502
+
+`A050320(A259939(n))`
+-/
+
+namespace A318360.P18162479151773598502
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050320 (A259939 n).toNat
+
+end
+
+end A318360.P18162479151773598502
+
+/-! ## A318360.P770428893917982080
+
+`A050320(A037019(n+1))`
+-/
+
+namespace A318360.P770428893917982080
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050320 (A037019 (n + 1)).toNat
+
+end
+
+end A318360.P770428893917982080
+
 /-!
 # A318361: Number of strict set multipartitions (sets of sets) of a multiset whose multiplicities are the prime indices of n.
 
@@ -6959,6 +7027,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A318361.P5531102399223042903
+
+/-! ## A318361.P14153513419632250253
+
+`A321188(2*(n+1))+A321188(n+1)`
+-/
+
+namespace A318361.P14153513419632250253
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321188 (2 * (n + 1)) + A321188 (n + 1)
+
+end
+
+end A318361.P14153513419632250253
+
+/-! ## A318361.P14825297990126853523
+
+`A050326(A259939(n))`
+-/
+
+namespace A318361.P14825297990126853523
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050326 (A259939 n).toNat
+
+end
+
+end A318361.P14825297990126853523
 
 /-!
 # A318362: Number of non-isomorphic set multipartitions (multisets of sets) of a multiset whose multiplicities are the prime indices of n.

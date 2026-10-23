@@ -45,7 +45,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -62,6 +61,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -382,7 +382,7 @@ end A239201
 /-!
 # A239204: Expansion of ((x-1)*sqrt(x^2-6*x+1)-x^2-4*x+1)/(8*x^3).
 
-The programs for A239204, the canonical program `A239204.P16238939825905580694` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A239204 has offset 0).
+The programs for A239204, the canonical program `A239204.P16238939825905580694` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A239204 has offset 0).
 
 The definition of A239204 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001003, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -391,7 +391,7 @@ The definition of A239204 is `conditional`: the Lean definition is an OEIS formu
 
 `(A001003(n+2)-A001003(n+1))/2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A239204
@@ -8754,6 +8754,66 @@ namespace A239289
 /-- `eq[A000007(3*n+2), A101605(n+1)]+1` -/
 def P2925037499866334261.Spec : Prop :=
   ∀ n, (P2925037499866334261.a n : ℤ) = A239289 (n + 1)
+
+end A239289
+
+/-! ## A239289.P4206494683701764831
+
+`∪[A033987(n+1), A166155(n+1)]`
+-/
+
+namespace A239289.P4206494683701764831
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033987 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166155 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239289.P4206494683701764831
+
+namespace A239289
+
+/-- `∪[A033987(n+1), A166155(n+1)]` -/
+def P4206494683701764831.Spec : Prop :=
+  ∀ n, (P4206494683701764831.a n : ℤ) = A239289 (n + 1)
+
+end A239289
+
+/-! ## A239289.P9338883999297371824
+
+`∪[A166155(n+1), A289554(n+1)]`
+-/
+
+namespace A239289.P9338883999297371824
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166155 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A289554 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A239289.P9338883999297371824
+
+namespace A239289
+
+/-- `∪[A166155(n+1), A289554(n+1)]` -/
+def P9338883999297371824.Spec : Prop :=
+  ∀ n, (P9338883999297371824.a n : ℤ) = A239289 (n + 1)
 
 end A239289
 

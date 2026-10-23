@@ -79,6 +79,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A203302: Cumulative sums of A201206.
@@ -499,6 +500,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A203304.P17289544621710166211
+
+/-! ## A203304.P8888445564182879943
+
+`∩[A099821(n+1), A206159(n+1)]`
+-/
+
+namespace A203304.P8888445564182879943
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099821 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A206159 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A203304.P8888445564182879943
 
 /-!
 # A203305: Vandermonde determinant of the first n terms of (1,3,7,15,31,...).
@@ -1644,30 +1667,24 @@ end A203319
 The programs for A203322, there is no canonical definition to state claims against.
 -/
 
-/-! ## A203322.P11839053918324949367
+/-! ## A203322.P4065397861721363010
 
-`eq[0, char[A337133(n+1)]]`
+`comp[A337133(n+1)]`
 -/
 
-namespace A203322.P11839053918324949367
+namespace A203322.P4065397861721363010
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A337133 (n + 1)
 
 open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A203322.P11839053918324949367
+end A203322.P4065397861721363010
 
 /-! ## A203322.P4380700596737309754
 
@@ -1768,25 +1785,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A203322.P197314524580186785
-
-/-! ## A203322.P6044016793281605949
-
-`comp[A337133(n+1)]%A337098(n+1)`
--/
-
-namespace A203322.P6044016793281605949
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337133 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A337098 (n + 1))
-
-end
-
-end A203322.P6044016793281605949
 
 /-!
 # A203323: Number of n X n 0..2 arrays with the row and column sums nondecreasing.

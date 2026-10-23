@@ -23,6 +23,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -85,6 +86,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2806,6 +2808,28 @@ end
 
 end A122730.P14586375520929361450
 
+/-! ## A122730.P12044850981587669753
+
+`∩[A003329(n+1), A078138(n+1)]`
+-/
+
+namespace A122730.P12044850981587669753
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003329 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078138 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A122730.P12044850981587669753
+
 /-! ## A122730.P16559124142030968056
 
 `∩[A003329(n+1), A083249(n+1)]`
@@ -2827,28 +2851,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A122730.P16559124142030968056
-
-/-! ## A122730.P568113850975094654
-
-`∩[A003329(n+1), A162787(n+1)]`
--/
-
-namespace A122730.P568113850975094654
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003329 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162787 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A122730.P568113850975094654
 
 /-!
 # A122731: Primes that are the sum of 7 positive cubes.
@@ -3178,6 +3180,28 @@ end
 
 end A122731.P1053327276027338217
 
+/-! ## A122731.P10953322019204816654
+
+`∩[A003330(n+1), A108719(n+1)]`
+-/
+
+namespace A122731.P10953322019204816654
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003330 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108719 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A122731.P10953322019204816654
+
 /-! ## A122731.P1713077162158921872
 
 `∩[A003330(n+1), A116974(n+1)]`
@@ -3243,28 +3267,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A122731.P12514127896907517924
-
-/-! ## A122731.P8179775164423687145
-
-`∩[A161428(n+1), A003330(n+1)]`
--/
-
-namespace A122731.P8179775164423687145
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161428 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003330 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A122731.P8179775164423687145
 
 /-!
 # A122732: 3-almost primes that are the sum of 2 positive cubes. Sums of 2 positive cubes, with the sums having exactly 3 prime divisors counted with multiplicity.
@@ -6898,6 +6900,29 @@ def P7337096316262052703.Spec : Prop :=
 
 end A122756
 
+/-! ## A122756.P6392622600581877399
+
+`A213173(n)+A131577(n)`
+-/
+
+namespace A122756.P6392622600581877399
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A213173 n + A131577 n
+
+end
+
+end A122756.P6392622600581877399
+
+namespace A122756
+
+/-- `A213173(n)+A131577(n)` -/
+def P6392622600581877399.Spec : Prop :=
+  ∀ n, P6392622600581877399.a n = A122756 n
+
+end A122756
+
 /-!
 # A122757: Process number as a vertex through put triangular product function: m (In)-> {n-states}->m (Out) T(n,m)=m^2*g(n): g(n)=A084221[n].
 
@@ -9935,6 +9960,28 @@ end A122778.P6271811715549261449
 The programs for A122780, there is no canonical definition to state claims against.
 -/
 
+/-! ## A122780.P15147415291940965544
+
+`∪[A002997(n+1), A153514(n+1)]`
+-/
+
+namespace A122780.P15147415291940965544
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002997 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153514 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A122780.P15147415291940965544
+
 /-! ## A122780.P15413728265275050323
 
 `∪[A153514(n+1), A217465(n+1)]%A309284(n+1)`
@@ -9956,21 +10003,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122780.P15413728265275050323
-
-/-! ## A122780.P18001822056255004139
-
-`A153514(A292125(n+1))`
--/
-
-namespace A122780.P18001822056255004139
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153514 (A292125 (n + 1)).toNat
-
-end
-
-end A122780.P18001822056255004139
 
 /-!
 # A122782: Nonprimes n such that 5^n==5 (mod n).

@@ -44,6 +44,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -1702,6 +1703,62 @@ def P10836558153945803944.Spec : Prop :=
 
 end A360014
 
+/-! ## A360014.P1201114831073668769
+
+`∩[A116883(n+1), A367586(n+1)]`
+-/
+
+namespace A360014.P1201114831073668769
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116883 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367586 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360014.P1201114831073668769
+
+namespace A360014
+
+/-- `∩[A116883(n+1), A367586(n+1)]` -/
+def P1201114831073668769.Spec : Prop :=
+  ∀ n, (P1201114831073668769.a n : ℤ) = A360014 (n + 1)
+
+end A360014
+
+/-! ## A360014.P10908893994696951861
+
+`filter[A174342(2*n+1), A353559(#)]`
+-/
+
+namespace A360014.P10908893994696951861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174342 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A353559 (f1 j).toNat = 1) n)
+
+end
+
+end A360014.P10908893994696951861
+
+namespace A360014
+
+/-- `filter[A174342(2*n+1), A353559(#)]` -/
+def P10908893994696951861.Spec : Prop :=
+  ∀ n, P10908893994696951861.a n = A360014 (n + 1)
+
+end A360014
+
 /-!
 # A360015: Numbers whose exponent of 2 in their canonical prime factorization is equal to the maximal exponent.
 
@@ -2620,6 +2677,29 @@ def P18359132226988930995.Spec : Prop :=
 
 end A360023
 
+/-! ## A360023.P1856526619940888101
+
+`2/(n+1)*A373065(n+1)`
+-/
+
+namespace A360023.P1856526619940888101
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 / (n + 1 : ℚ) * (A373065 (n + 1) : ℚ)
+
+end
+
+end A360023.P1856526619940888101
+
+namespace A360023
+
+/-- `2/(n+1)*A373065(n+1)` -/
+def P1856526619940888101.Spec : Prop :=
+  ∀ n, P1856526619940888101.a n = (A360023 n : ℚ)
+
+end A360023
+
 /-!
 # A360029: Consider a ruler composed of n segments with lengths 1, 1/2, 1/3, ..., 1/n with total length A001008(n)/A002805(n). a(n) is the minimum number of distinct distances of all pairs of marks that can be achieved by permuting the positions of the segments.
 
@@ -2874,6 +2954,29 @@ def P15980300677399822242.Spec : Prop :=
 
 end A360035
 
+/-! ## A360035.P7911352340005789678
+
+`n/3*A054878(n)`
+-/
+
+namespace A360035.P7911352340005789678
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) / 3 * (A054878 n : ℚ)
+
+end
+
+end A360035.P7911352340005789678
+
+namespace A360035
+
+/-- `n/3*A054878(n)` -/
+def P7911352340005789678.Spec : Prop :=
+  ∀ n, P7911352340005789678.a n = (A360035 n : ℚ)
+
+end A360035
+
 /-! ## A360035.P9353502166813686927
 
 `A360036(n)+n%or(1, n)`
@@ -3078,6 +3181,29 @@ namespace A360036
 /-- `n*round(3^(n-1)/4)-A237420(n)` -/
 def P16707710116053288042.Spec : Prop :=
   ∀ n, P16707710116053288042.a n = A360036 n
+
+end A360036
+
+/-! ## A360036.P784759551324158600
+
+`2/(n+1)*A373134(n+1)`
+-/
+
+namespace A360036.P784759551324158600
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  2 / (n + 1 : ℚ) * (A373134 (n + 1) : ℚ)
+
+end
+
+end A360036.P784759551324158600
+
+namespace A360036
+
+/-- `2/(n+1)*A373134(n+1)` -/
+def P784759551324158600.Spec : Prop :=
+  ∀ n, P784759551324158600.a n = (A360036 n : ℚ)
 
 end A360036
 

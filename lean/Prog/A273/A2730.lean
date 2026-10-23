@@ -1898,6 +1898,28 @@ end A273015.P772317955757226482
 The programs for A273016, there is no canonical definition to state claims against.
 -/
 
+/-! ## A273016.P17969387447230917083
+
+`∩[A034288(n+1), A071821(n+1)]`
+-/
+
+namespace A273016.P17969387447230917083
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034288 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071821 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A273016.P17969387447230917083
+
 /-! ## A273016.P10065139227142913209
 
 `∩[A034287(n+1), A080193(n+1)]`
@@ -1942,28 +1964,6 @@ end
 
 end A273016.P13084494553059347632
 
-/-! ## A273016.P10832929941283853083
-
-`∩[A034287(n+1), A325198(n+1)]`
--/
-
-namespace A273016.P10832929941283853083
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034287 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325198 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A273016.P10832929941283853083
-
 /-!
 # A273018: Ramanujan's largely composite numbers having 7 as the greatest prime divisor.
 
@@ -1992,19 +1992,19 @@ end
 
 end A273018.P5928912753654994155
 
-/-! ## A273018.P17006808780353129380
+/-! ## A273018.P11838291131765195318
 
-`∩[2*A080194(n+1), A034288(n+1)]`
+`∩[A034288(n+1), A080194(n+1)]`
 -/
 
-namespace A273018.P17006808780353129380
+namespace A273018.P11838291131765195318
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A080194 (n + 1)
+  A034288 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034288 (n + 1)
+  A080194 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2012,18 +2012,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A273018.P17006808780353129380
+end A273018.P11838291131765195318
 
-/-! ## A273018.P13845467702651007124
+/-! ## A273018.P9190037913914585178
 
-`∩[2*A080194(n+1), A291899(n+1)]`
+`∩[A080194(n+1), A291899(n+1)]`
 -/
 
-namespace A273018.P13845467702651007124
+namespace A273018.P9190037913914585178
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A080194 (n + 1)
+  A080194 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A291899 (n + 1)
@@ -2034,7 +2034,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A273018.P13845467702651007124
+end A273018.P9190037913914585178
+
+/-! ## A273018.P16719391650162959736
+
+`∩[A034288(n+1), A325994(n+1)]`
+-/
+
+namespace A273018.P16719391650162959736
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034288 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325994 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A273018.P16719391650162959736
 
 /-!
 # A273019: a(n) = hypergeom([-2*n-1, 1/2], [2], 4) + (2*n+1)*hypergeom([-n+1/2, -n], [2], 4).
@@ -4208,6 +4230,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A273049.P4511102991292234335
+
+/-! ## A273049.P2207194612337294417
+
+`A000015(A056728(n+2))`
+-/
+
+namespace A273049.P2207194612337294417
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000015 (A056728 (n + 2)).toNat
+
+end
+
+end A273049.P2207194612337294417
 
 /-!
 # A273050: Numbers k such that (rol(k) XOR ror(k)) = k, where rol = A006257 and ror = A038572 are rotations of binary digits by one place to the left and right, and XOR is the binary exclusive-or operator.

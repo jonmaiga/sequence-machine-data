@@ -63,6 +63,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -1260,6 +1261,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A162016.P11129131106672180584
+
+/-! ## A162016.P10169204499048794886
+
+`∩[A029942(n+1), A161350(n+1)]`
+-/
+
+namespace A162016.P10169204499048794886
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029942 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161350 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A162016.P10169204499048794886
+
+/-! ## A162016.P10615774865767686554
+
+`∩[A029942(n+1), A166508(n+1)]`
+-/
+
+namespace A162016.P10615774865767686554
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029942 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166508 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A162016.P10615774865767686554
 
 /-!
 # A162017: Numbers k such that the sum of the decimal digits of k is a substring of k, of k^2 and of k^3.
@@ -3016,6 +3061,21 @@ end
 
 end A162048.P7918726227951719406
 
+/-! ## A162048.P18273345504146487427
+
+`A089006((n+1)*A242093(n+1))`
+-/
+
+namespace A162048.P18273345504146487427
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089006 ((n + 1 : ℤ) * A242093 (n + 1)).toNat
+
+end
+
+end A162048.P18273345504146487427
+
 /-!
 # A162049: Number of n X n binary arrays with rows and columns, considered as binary numbers, in nondecreasing order, and no more than 7 ones in any row or column.
 
@@ -3057,6 +3117,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A162049.P3034256749428052190
+
+/-! ## A162049.P1540835522187215881
+
+`A089006((n+1)*A242093(n))`
+-/
+
+namespace A162049.P1540835522187215881
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089006 ((n + 1 : ℤ) * A242093 n).toNat
+
+end
+
+end A162049.P1540835522187215881
 
 /-!
 # A162050: Number of n X n binary arrays with rows and columns, considered as binary numbers, in nondecreasing order, and no more than 8 ones in any row or column.

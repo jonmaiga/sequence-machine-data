@@ -6619,6 +6619,29 @@ def P3664172381424794295.Spec : Prop :=
 
 end A111873
 
+/-! ## A111873.P13216034941843096049
+
+`A004320(n)*A007334(n+2)`
+-/
+
+namespace A111873.P13216034941843096049
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004320 n * A007334 (n + 2)
+
+end
+
+end A111873.P13216034941843096049
+
+namespace A111873
+
+/-- `A004320(n)*A007334(n+2)` -/
+def P13216034941843096049.Spec : Prop :=
+  ∀ n, P13216034941843096049.a n = A111873 (n + 1)
+
+end A111873
+
 /-!
 # A111874: The work performed by a partial function f:{1,...,n}->{1,...,n} is defined to be work(f)=sum(|i-f(i)|,i in dom(f)); a(n) is equal to sum(work(f)) where the sum is over all injective partial functions f:{1,...,n}->{1,...,n}.
 

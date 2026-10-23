@@ -2287,6 +2287,28 @@ end
 
 end A247421.P9365438651245800782
 
+/-! ## A247421.P6637785605593058741
+
+`∪[A003256(n+1), A247433(n+1)]`
+-/
+
+namespace A247421.P6637785605593058741
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003256 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247433 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A247421.P6637785605593058741
+
 /-! ## A247421.P15164994800188569651
 
 `A003234(n+1)+A003249(n+1)-A003247(A003249(n+1))`
@@ -2301,28 +2323,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A247421.P15164994800188569651
-
-/-! ## A247421.P12319709814167881697
-
-`∪[A003256(n+1), A247433(n+1)]%A152451(n+1)`
--/
-
-namespace A247421.P12319709814167881697
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003256 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247433 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A152451 (n + 1))
-
-end
-
-end A247421.P12319709814167881697
 
 /-! ## A247421.P6473569766991249459
 

@@ -27,7 +27,6 @@ import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -49,7 +48,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -635,7 +634,7 @@ end A095404
 /-!
 # A095405: Numbers n such that Sum-of-digits-of-n = Sum-of-digits-of-all-distinct-prime-factors-of-n.
 
-The programs for A095405, the canonical program `A095405.P11635465388125584041` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095405 has offset 1).
+The programs for A095405, the canonical program `A095405.P11635465388125584041` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095405 has offset 1).
 
 The definition of A095405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -644,7 +643,7 @@ The definition of A095405 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A095403(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A095405
@@ -783,7 +782,7 @@ end A095405
 /-!
 # A095406: Numbers k such that Sum-of-digits-of-k < Sum-of-digits-of-all-distinct-prime-factors-of-k.
 
-The programs for A095406, the canonical program `A095406.P13107935915610947608` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095406 has offset 1).
+The programs for A095406, the canonical program `A095406.P13107935915610947608` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095406 has offset 1).
 
 The definition of A095406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3908 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -850,7 +849,7 @@ end A095406
 
 `lt[A095403(A028310(n)), 0]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A095406

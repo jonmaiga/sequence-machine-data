@@ -47,7 +47,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -201,6 +201,28 @@ end
 
 end A390010.P10921530162808762019
 
+/-! ## A390010.P13320881742961530227
+
+`∪[A020707(n), A363216(n+1)]`
+-/
+
+namespace A390010.P13320881742961530227
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020707 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363216 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390010.P13320881742961530227
+
 /-! ## A390010.P17249623817275413368
 
 `∪[A075090(n+1), A363216(n+1)]`
@@ -310,6 +332,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390010.P11472637699884716903
+
+/-! ## A390010.P14640514062615026398
+
+`∪[A322793(n+1), A363216(n+1)]`
+-/
+
+namespace A390010.P14640514062615026398
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322793 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363216 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390010.P14640514062615026398
+
+/-! ## A390010.P5811677347430036080
+
+`∩[2*n, A001694(n+1)]`
+-/
+
+namespace A390010.P5811677347430036080
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001694 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390010.P5811677347430036080
 
 /-! ## A390010.P11251305976750962590
 
@@ -537,50 +603,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390010.P10496667533032318398
-
-/-! ## A390010.P10788885851611822240
-
-`∩[A001694(n+1), A163300(n+1)]`
--/
-
-namespace A390010.P10788885851611822240
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001694 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163300 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A390010.P10788885851611822240
-
-/-! ## A390010.P4016778901476601449
-
-`∩[A001694(n+1), A051755(n+2)]`
--/
-
-namespace A390010.P4016778901476601449
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001694 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051755 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A390010.P4016778901476601449
 
 /-!
 # A390011: E.g.f. A(x) satisfies A(x) = exp( x * (1-x) * A(x)^2 ).
@@ -2663,6 +2685,28 @@ end A390083.P17219240200373022667
 The programs for A390084, there is no canonical definition to state claims against.
 -/
 
+/-! ## A390084.P909940574396073925
+
+`∑[char[A390086(n+1)]]`
+-/
+
+namespace A390084.P909940574396073925
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390086 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A390084.P909940574396073925
+
 /-! ## A390084.P904156511996130226
 
 `A127321(∑[A161580(n+1)])`
@@ -2725,21 +2769,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390084.P14862773350197178804
-
-/-! ## A390084.P2054799124913613235
-
-`A088141(A088141(A000040((n+1)²)))`
--/
-
-namespace A390084.P2054799124913613235
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088141 (A088141 (A000040 ((n + 1) ^ 2)).toNat).toNat
-
-end
-
-end A390084.P2054799124913613235
 
 /-!
 # A390085: Half the length of the longest irreducible zero-sum subsets of {-2*n+1, -2*n+3, ..., -3, -1, 1, 3, ..., 2*n-3, 2*n-1}.

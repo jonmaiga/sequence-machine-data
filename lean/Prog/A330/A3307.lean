@@ -2666,6 +2666,28 @@ end A330721.P7335888299460814099
 The programs for A330722, there is no canonical definition to state claims against.
 -/
 
+/-! ## A330722.P9821772875423959384
+
+`∪[A178482(n+1), A330672(n+1)]`
+-/
+
+namespace A330722.P9821772875423959384
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178482 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330672 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330722.P9821772875423959384
+
 /-! ## A330722.P2299257945388541014
 
 `lt[n, log(A075572(n)²)²]`
@@ -2749,27 +2771,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330722.P16346287483816736905
-
-/-! ## A330722.P4929091508628248700
-
-`lt[A271269(n+1), A000537(A075572(n))]`
--/
-
-namespace A330722.P4929091508628248700
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A271269 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000537 (A075572 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A330722.P4929091508628248700
 
 /-!
 # A330724: Sum of prime factors (with multiplicity) of the n-th composite number coprime to 6.
@@ -7557,6 +7558,24 @@ end
 
 end A330793.P392467538185931981
 
+/-! ## A330793.P14462128008171728211
+
+`A193737(∑[4*n])`
+-/
+
+namespace A330793.P14462128008171728211
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 * n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193737 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A330793.P14462128008171728211
+
 /-!
 # A330794: Inverse of the Jacobsthal triangle (A322942). Triangle read by rows, T(n, k) for 0 <= k <= n.
 
@@ -8715,6 +8734,32 @@ namespace A330797
 /-- `A039757(∑[n]-n)` -/
 def P6015061858082775898.Spec : Prop :=
   ∀ n, P6015061858082775898.a n = A330797 n
+
+end A330797
+
+/-! ## A330797.P3124478814023967622
+
+`∏[A118402(2*n+1)]`
+-/
+
+namespace A330797.P3124478814023967622
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118402 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A330797.P3124478814023967622
+
+namespace A330797
+
+/-- `∏[A118402(2*n+1)]` -/
+def P3124478814023967622.Spec : Prop :=
+  ∀ n, P3124478814023967622.a n = A330797 n
 
 end A330797
 

@@ -3592,6 +3592,36 @@ end
 
 end A302334.P14271731029255425836
 
+/-! ## A302334.P17155001026283776615
+
+`A194847(A037270(n))`
+-/
+
+namespace A302334.P17155001026283776615
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A194847 (A037270 n).toNat
+
+end
+
+end A302334.P17155001026283776615
+
+/-! ## A302334.P3038709122720650546
+
+`A328806(A156798(n))`
+-/
+
+namespace A302334.P3038709122720650546
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328806 (A156798 n).toNat
+
+end
+
+end A302334.P3038709122720650546
+
 /-!
 # A302335: Constant coefficient of the quadratic polynomials giving the numbers of 2k-cycles in the n X n grid graph for n >= k-1.
 

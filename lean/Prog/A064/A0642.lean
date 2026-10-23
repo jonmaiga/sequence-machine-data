@@ -63,7 +63,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -555,6 +554,29 @@ def P7629379411988568579.Spec : Prop :=
 
 end A064200
 
+/-! ## A064200.P10556452424952113956
+
+`A067998(n)+A051876(n)`
+-/
+
+namespace A064200.P10556452424952113956
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067998 n + A051876 n
+
+end
+
+end A064200.P10556452424952113956
+
+namespace A064200
+
+/-- `A067998(n)+A051876(n)` -/
+def P10556452424952113956.Spec : Prop :=
+  ∀ n, P10556452424952113956.a n = A064200 n
+
+end A064200
+
 /-!
 # A064201: 9 times octagonal numbers: a(n) = 9*n*(3*n-2).
 
@@ -993,6 +1015,29 @@ namespace A064201
 /-- `A244636(n)-A140681(n)` -/
 def P7931089913133935857.Spec : Prop :=
   ∀ n, P7931089913133935857.a n = A064201 n
+
+end A064201
+
+/-! ## A064201.P6643298905711194818
+
+`lcm(A000567(n), A008591(n))`
+-/
+
+namespace A064201.P6643298905711194818
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm (A000567 n) (A008591 n)
+
+end
+
+end A064201.P6643298905711194818
+
+namespace A064201
+
+/-- `lcm(A000567(n), A008591(n))` -/
+def P6643298905711194818.Spec : Prop :=
+  ∀ n, (P6643298905711194818.a n : ℤ) = A064201 n
 
 end A064201
 
@@ -6145,6 +6190,28 @@ end
 
 end A064271.P3088560562547853143
 
+/-! ## A064271.P3146720783433229048
+
+`∩[A088005(n+1), A326133(n+1)]`
+-/
+
+namespace A064271.P3146720783433229048
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088005 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326133 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A064271.P3146720783433229048
+
 /-! ## A064271.P7230447122413555017
 
 `∩[A087245(n+1), A088005(n+1)]`
@@ -6166,28 +6233,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A064271.P7230447122413555017
-
-/-! ## A064271.P7749198072282736094
-
-`∩[A005101(n+1), A088005(n+1)]`
--/
-
-namespace A064271.P7749198072282736094
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005101 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088005 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A064271.P7749198072282736094
 
 /-!
 # A064272: Number of representations of n as the sum of a prime number and a nonzero square.

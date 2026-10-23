@@ -11579,6 +11579,32 @@ def P11134424935442221356.Spec : Prop :=
 
 end A255687
 
+/-! ## A255687.P12461003432016902400
+
+`∑[A062725(n)-n²]`
+-/
+
+namespace A255687.P12461003432016902400
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062725 n - (n ^ 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A255687.P12461003432016902400
+
+namespace A255687
+
+/-- `∑[A062725(n)-n²]` -/
+def P12461003432016902400.Spec : Prop :=
+  ∀ n, P12461003432016902400.a n = A255687 n
+
+end A255687
+
 /-!
 # A255688: G.f.: (2*x+1)/(2*sqrt(4*x^2-8*x+1)) + 1/2.
 

@@ -55,7 +55,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -64,6 +63,7 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -4259,6 +4259,28 @@ end A117553.P15029386991559803047
 The programs for A117554, there is no canonical definition to state claims against.
 -/
 
+/-! ## A117554.P16755677276413035960
+
+`∩[A060525(n+1), A376601(n+1)]`
+-/
+
+namespace A117554.P16755677276413035960
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060525 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376601 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A117554.P16755677276413035960
+
 /-! ## A117554.P17989110921430467245
 
 `A054540(C(A090946(n+1), A220632(n+1)))`
@@ -4742,6 +4764,67 @@ namespace A117560
 /-- `A330651(n+1)/(2*(n+1))` -/
 def P15498056150585964518.Spec : Prop :=
   ∀ n, P15498056150585964518.a n = (A117560 (n + 2) : ℚ)
+
+end A117560
+
+/-! ## A117560.P12028825274826582935
+
+`floor(cot(Δ[Δ[ratio[n+1]]]))`
+-/
+
+namespace A117560.P12028825274826582935
+noncomputable section
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f2 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (f3 (n + 1) : ℚ) / (f3 n : ℚ)
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊Real.cot (f1 (n + 1) - f1 n : ℝ)⌋
+
+end
+
+end A117560.P12028825274826582935
+
+namespace A117560
+
+/-- `floor(cot(Δ[Δ[ratio[n+1]]]))` -/
+def P12028825274826582935.Spec : Prop :=
+  ∀ n, P12028825274826582935.a n = A117560 (n + 2)
+
+end A117560
+
+/-! ## A117560.P15545852651372721901
+
+`∑[record[A134480(n+2)]]`
+-/
+
+namespace A117560.P15545852651372721901
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134480 (n + 2)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A117560.P15545852651372721901
+
+namespace A117560
+
+/-- `∑[record[A134480(n+2)]]` -/
+def P15545852651372721901.Spec : Prop :=
+  ∀ n, P15545852651372721901.a n = A117560 (n + 2)
 
 end A117560
 

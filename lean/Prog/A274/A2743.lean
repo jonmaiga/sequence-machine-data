@@ -2309,6 +2309,50 @@ end
 
 end A274321.P108226144355252238
 
+/-! ## A274321.P3287584354615894093
+
+`∩[A137812(n+1), A384393(n+1)]`
+-/
+
+namespace A274321.P3287584354615894093
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137812 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384393 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A274321.P3287584354615894093
+
+/-! ## A274321.P12994652651251474558
+
+`∩[A080603(n+1), A236403(n+1)]`
+-/
+
+namespace A274321.P12994652651251474558
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080603 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236403 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A274321.P12994652651251474558
+
 /-!
 # A274322: Number of partitions of n^2 into at most five parts.
 
@@ -6507,6 +6551,28 @@ end A274373.P13733825060144639274
 The programs for A274375, there is no canonical definition to state claims against.
 -/
 
+/-! ## A274375.P15231086761999236806
+
+`∪[A022112(n), A274374(n+1)]`
+-/
+
+namespace A274375.P15231086761999236806
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022112 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274374 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A274375.P15231086761999236806
+
 /-! ## A274375.P16892164254573764146
 
 `∪[A050116(n+1), A274374(n+1)]`
@@ -8365,6 +8431,36 @@ namespace A274397
 /-- `eq[0, A229802(A028310(n))]` -/
 def P10156788133964168755.Spec : Prop :=
   ∀ n, (P10156788133964168755.a n : ℤ) = A274397 (n + 1)
+
+end A274397
+
+/-! ## A274397.P430059905604477317
+
+`∪[A173080(n+1), A297575(n+1)]`
+-/
+
+namespace A274397.P430059905604477317
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173080 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297575 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A274397.P430059905604477317
+
+namespace A274397
+
+/-- `∪[A173080(n+1), A297575(n+1)]` -/
+def P430059905604477317.Spec : Prop :=
+  ∀ n, (P430059905604477317.a n : ℤ) = A274397 (n + 1)
 
 end A274397
 

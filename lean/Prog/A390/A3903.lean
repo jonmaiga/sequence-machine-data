@@ -62,7 +62,6 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B011.C001
@@ -4727,6 +4726,31 @@ def P7586185804579496924.Spec : Prop :=
 end A390379
 
 /-!
+# A390380: Integers k which cannot be written in the form x^2 + y^2 - z^2, where x, y, z are integers and x^2, y^2, z^2 <= k.
+
+The programs for A390380, there is no canonical definition to state claims against.
+-/
+
+/-! ## A390380.P9187930693022348243
+
+`comp[A393168(n+1)]`
+-/
+
+namespace A390380.P9187930693022348243
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A393168 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A390380.P9187930693022348243
+
+/-!
 # A390381: Powers k^m, m > 3, with k neither squarefree nor squareful.
 
 The programs for A390381, there is no canonical definition to state claims against.
@@ -4891,6 +4915,21 @@ end A390381.P9425158653251218326
 
 The programs for A390382, there is no canonical definition to state claims against.
 -/
+
+/-! ## A390382.P15062634376646094247
+
+`ogf((x^2+x^3+2x^5)/(1-2x))`
+-/
+
+namespace A390382.P15062634376646094247
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 0, 1, 1, 0, 2] [1, -2] n
+
+end
+
+end A390382.P15062634376646094247
 
 /-! ## A390382.P4883084047948649576
 

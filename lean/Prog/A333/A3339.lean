@@ -1754,6 +1754,50 @@ end
 
 end A333919.P16331650007339312516
 
+/-! ## A333919.P5803626269339381196
+
+`∩[A074697(n+1), A323733(n+1)]`
+-/
+
+namespace A333919.P5803626269339381196
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074697 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323733 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333919.P5803626269339381196
+
+/-! ## A333919.P14430465449609369318
+
+`∩[A219227(n+1), A336583(n+1)]`
+-/
+
+namespace A333919.P14430465449609369318
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336583 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333919.P14430465449609369318
+
 /-!
 # A333920: a(n) is the least k such that the binary representation of n appears as a substring in the concatenation of the binary representations of 0, 1, ..., k.
 
@@ -7585,42 +7629,26 @@ def P17964701288593615678.Spec : Prop :=
 
 end A333996
 
-/-! ## A333996.P7857082111011271163
+/-! ## A333996.P4497738093660124574
 
-`∑[n-char[eq[1, ∑{e}[n+1, #]]]]+n`
+`A159073(n+1)+A159074(n+1)-A036234(n+1)`
 -/
 
-namespace A333996.P7857082111011271163
+namespace A333996.P4497738093660124574
 noncomputable section
 
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f5 n), Nat.factorization (f5 n) p
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f3 j = f4 j) n
-
-open Classical in
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - ((if ∃ j, f2 j = n then 1 else 0 : ℕ) : ℤ)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + (n : ℤ)
+  A159073 (n + 1) + (A159074 (n + 1) - A036234 (n + 1))
 
 end
 
-end A333996.P7857082111011271163
+end A333996.P4497738093660124574
 
 namespace A333996
 
-/-- `∑[n-char[eq[1, ∑{e}[n+1, #]]]]+n` -/
-def P7857082111011271163.Spec : Prop :=
-  ∀ n, P7857082111011271163.a n = A333996 (n + 1)
+/-- `A159073(n+1)+A159074(n+1)-A036234(n+1)` -/
+def P4497738093660124574.Spec : Prop :=
+  ∀ n, P4497738093660124574.a n = A333996 (n + 1)
 
 end A333996
 
@@ -7907,6 +7935,28 @@ end A333998.P6218648503206396078
 The programs for A333999, there is no canonical definition to state claims against.
 -/
 
+/-! ## A333999.P9155815200491532706
+
+`∩[2*n, A309305(n+1)]`
+-/
+
+namespace A333999.P9155815200491532706
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A309305 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A333999.P9155815200491532706
+
 /-! ## A333999.P12738991636360184543
 
 `record[A009531(A309305(n+2))]`
@@ -8068,22 +8118,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333999.P7191036076407975350
-
-/-! ## A333999.P11834796563044522912
-
-`filter[A309305(n+1), A267043(#)]`
--/
-
-namespace A333999.P11834796563044522912
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A309305 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267043 (f1 j).toNat = 1) n)
-
-end
-
-end A333999.P11834796563044522912
 

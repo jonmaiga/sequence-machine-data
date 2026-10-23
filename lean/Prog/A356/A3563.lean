@@ -10,7 +10,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -1295,6 +1294,25 @@ end
 
 end A356311.P3238229527356449063
 
+/-! ## A356311.P16618160653228970234
+
+`comp[A356312(n+1)]`
+-/
+
+namespace A356311.P16618160653228970234
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356312 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A356311.P16618160653228970234
+
 /-! ## A356311.P6700795040079742823
 
 `eq[0, A369449(n)]`
@@ -1575,81 +1593,24 @@ end A356312.P9315245404014055386
 The programs for A356313, there is no canonical definition to state claims against.
 -/
 
-/-! ## A356313.P11404795863401908923
+/-! ## A356313.P4174212656564467958
 
-`and(char[A356314(n+1)], A077949(n))`
+`char[A356314(n+1)]`
 -/
 
-namespace A356313.P11404795863401908923
+namespace A356313.P4174212656564467958
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A356314 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A077949 n)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
 
 end
 
-end A356313.P11404795863401908923
-
-/-! ## A356313.P12340910111210046611
-
-`and(char[A356314(n+1)], A015441(n))`
--/
-
-namespace A356313.P12340910111210046611
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356314 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A015441 n)
-
-end
-
-end A356313.P12340910111210046611
-
-/-! ## A356313.P9898341544424605615
-
-`and(char[A356314(n+1)], A051997(n+1))`
--/
-
-namespace A356313.P9898341544424605615
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356314 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A051997 (n + 1))
-
-end
-
-end A356313.P9898341544424605615
-
-/-! ## A356313.P5883485319409464756
-
-`and(char[A356314(n+1)], A300945(n))`
--/
-
-namespace A356313.P5883485319409464756
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356314 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) (A300945 n)
-
-end
-
-end A356313.P5883485319409464756
+end A356313.P4174212656564467958
 
 /-! ## A356313.P126050441034319952
 
@@ -1665,6 +1626,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356313.P126050441034319952
+
+/-! ## A356313.P5762860102207102021
+
+`val(A189958(2*n+1), 6)`
+-/
+
+namespace A356313.P5762860102207102021
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (A189958 (2 * n + 1)).toNat 6
+
+end
+
+end A356313.P5762860102207102021
+
+/-! ## A356313.P5705837380071710182
+
+`A244992(A395008(n+1))`
+-/
+
+namespace A356313.P5705837380071710182
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244992 (A395008 (n + 1)).toNat
+
+end
+
+end A356313.P5705837380071710182
+
+/-! ## A356313.P12405224504439290939
+
+`A330023(A312194(n))`
+-/
+
+namespace A356313.P12405224504439290939
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330023 (A312194 n).toNat
+
+end
+
+end A356313.P12405224504439290939
 
 /-!
 # A356314: Positions of primorial numbers (A002110) in A356309.
@@ -2356,6 +2362,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356319.P15737981090551037816
+
+/-! ## A356319.P1437382141261658505
+
+`A356317(A083136(n+1))`
+-/
+
+namespace A356319.P1437382141261658505
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356317 (A083136 (n + 1)).toNat
+
+end
+
+end A356319.P1437382141261658505
 
 /-!
 # A356320: Length of the common prefix in binary expansions of n and A332221(n) = A156552(sigma(A005940(1+n))).
@@ -4212,6 +4233,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356350.P14471308254352519540
+
+/-! ## A356350.P13389537896137850846
+
+`∩[A095160(n), A347933(n+1)]`
+-/
+
+namespace A356350.P13389537896137850846
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095160 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347933 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A356350.P13389537896137850846
 
 /-!
 # A356351: Partial sums of the ziggurat sequence A347186.

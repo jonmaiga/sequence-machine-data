@@ -584,6 +584,24 @@ end
 
 end A248711.P17952192506664223916
 
+/-! ## A248711.P11195916084739748037
+
+`filter[A090429(n+1), A386313(#)]`
+-/
+
+namespace A248711.P11195916084739748037
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090429 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A386313 (f1 j).toNat = 1) n)
+
+end
+
+end A248711.P11195916084739748037
+
 /-!
 # A248712: Numbers k that are the product of four distinct primes such that x^2+y^2 = k has integer solutions.
 
@@ -4633,6 +4651,21 @@ end
 
 end A248770.P8075226369346856667
 
+/-! ## A248770.P8442045002099778162
+
+`A000142(n+1)/A248772(n+1)`
+-/
+
+namespace A248770.P8442045002099778162
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000142 (n + 1) : ℚ) / (A248772 (n + 1) : ℚ)
+
+end
+
+end A248770.P8442045002099778162
+
 /-! ## A248770.P14691964827171432225
 
 `A001014(A248771(n+1))`
@@ -4662,21 +4695,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A248770.P5092470605014201440
-
-/-! ## A248770.P14171490463685208980
-
-`A000578(A248771(n+1)*A248771(n+1))`
--/
-
-namespace A248770.P14171490463685208980
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000578 (A248771 (n + 1) * A248771 (n + 1)).toNat
-
-end
-
-end A248770.P14171490463685208980
 
 /-!
 # A248771: Greatest k such that k^6 divides n!
@@ -4719,6 +4737,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A248772.P11953081769203209585
+
+/-! ## A248772.P1963377476732012482
+
+`A000142(n+1)/A248770(n+1)`
+-/
+
+namespace A248772.P1963377476732012482
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000142 (n + 1) : ℚ) / (A248770 (n + 1) : ℚ)
+
+end
+
+end A248772.P1963377476732012482
 
 /-! ## A248772.P15899522700387842738
 

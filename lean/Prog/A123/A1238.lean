@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -22,7 +23,6 @@ import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
@@ -86,6 +86,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A123801: Number of ways to build a contiguous building with n LEGO blocks of size 1 X 6 on top of a fixed block of the same size so that the building is flat, i.e., with all blocks in parallel position and symmetric after a rotation by 180 degrees.
@@ -866,6 +870,21 @@ end
 
 end A123857.P321952552127669775
 
+/-! ## A123857.P11040770176588490221
+
+`A129721(A340585(n+1))`
+-/
+
+namespace A123857.P11040770176588490221
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129721 (A340585 (n + 1)).toNat
+
+end
+
+end A123857.P11040770176588490221
+
 /-!
 # A123858: Expansion of q^(-1/3) * eta(q^2)^2 * eta(q^5)/eta(q) in powers of q.
 
@@ -1021,35 +1040,20 @@ end
 
 end A123860.P14171382103825850732
 
-/-! ## A123860.P6869872302282912018
+/-! ## A123860.P14218785073378660737
 
-`A000027(A123578(3*n)+4)`
+`A123578(3*n)+4`
 -/
 
-namespace A123860.P6869872302282912018
+namespace A123860.P14218785073378660737
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (A123578 (3 * n) + 4).toNat
+  A123578 (3 * n) + 4
 
 end
 
-end A123860.P6869872302282912018
-
-/-! ## A123860.P15287517412560633423
-
-`A233583(A123578(3*n)+5)`
--/
-
-namespace A123860.P15287517412560633423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233583 (A123578 (3 * n) + 5).toNat
-
-end
-
-end A123860.P15287517412560633423
+end A123860.P14218785073378660737
 
 /-! ## A123860.P7095904285780175591
 
@@ -2101,6 +2105,29 @@ def P15199231197801961408.Spec : Prop :=
 
 end A123865
 
+/-! ## A123865.P3837659852385155117
+
+`abs(or(2, (n+1)²²)-3)`
+-/
+
+namespace A123865.P3837659852385155117
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |(Nat.lor 2 (((n + 1) ^ 2) ^ 2) : ℤ) - 3|
+
+end
+
+end A123865.P3837659852385155117
+
+namespace A123865
+
+/-- `abs(or(2, (n+1)²²)-3)` -/
+def P3837659852385155117.Spec : Prop :=
+  ∀ n, P3837659852385155117.a n = A123865 (n + 1)
+
+end A123865
+
 /-! ## A123865.P11765967718633595819
 
 `abs(xor(2, 3-(n+1)²²))`
@@ -2167,6 +2194,45 @@ namespace A123865
 /-- `abs(1-C(n+1, n)²²)` -/
 def P13627638576912186750.Spec : Prop :=
   ∀ n, P13627638576912186750.a n = A123865 (n + 1)
+
+end A123865
+
+/-! ## A123865.P10350647143103400894
+
+`floor(Δ[n²²]+a(n-1))` with `a(0)=0`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A123865.P10350647143103400894
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n ^ 2) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ) + a (n - 1)
+
+end
+
+end A123865.P10350647143103400894
+
+namespace A123865
+
+/-- `floor(Δ[n²²]+a(n-1))` -/
+def P10350647143103400894.Spec : Prop :=
+  ∀ n, P10350647143103400894.a n = A123865 (n + 1)
+
+theorem P10350647143103400894.correct : P10350647143103400894.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A123865, A123865.P10350647143103400894.f1, A123865.P10350647143103400894.a, A123865.P509384507853173445.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A123865, Nat.add_sub_cancel, A123865.P10350647143103400894.f1, A123865.P10350647143103400894.a, A123865.P509384507853173445.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A123865
 

@@ -2356,6 +2356,29 @@ def P15337578732108890495.Spec : Prop :=
 
 end A325226
 
+/-! ## A325226.P14651419458198982463
+
+`A362983(A105119(n+1))`
+-/
+
+namespace A325226.P14651419458198982463
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362983 (A105119 (n + 1)).toNat
+
+end
+
+end A325226.P14651419458198982463
+
+namespace A325226
+
+/-- `A362983(A105119(n+1))` -/
+def P14651419458198982463.Spec : Prop :=
+  ∀ n, P14651419458198982463.a n = A325226 (n + 1)
+
+end A325226
+
 /-!
 # A325227: Regular triangle read by rows where T(n,k) is the number of integer partitions of n such that the lesser of the maximum part and the number of parts is k.
 
@@ -2883,6 +2906,36 @@ def P340552503997559872.Spec : Prop :=
 
 end A325230
 
+/-! ## A325230.P2964321501136257428
+
+`∩[A080364(n+1), A396597(n+1)]`
+-/
+
+namespace A325230.P2964321501136257428
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080364 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396597 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325230.P2964321501136257428
+
+namespace A325230
+
+/-- `∩[A080364(n+1), A396597(n+1)]` -/
+def P2964321501136257428.Spec : Prop :=
+  ∀ n, (P2964321501136257428.a n : ℤ) = A325230 (n + 1)
+
+end A325230
+
 /-! ## A325230.P5365179658774977358
 
 `∩[A007774(n+1), A065200(n+1)]`
@@ -3199,32 +3252,6 @@ namespace A325230
 /-- `filter[A080364(n+1), A215480(#)]` -/
 def P17836572483763434512.Spec : Prop :=
   ∀ n, P17836572483763434512.a n = A325230 (n + 1)
-
-end A325230
-
-/-! ## A325230.P2394536113119150856
-
-`filter[A247180(n+1), A215480(#)]`
--/
-
-namespace A325230.P2394536113119150856
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247180 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A215480 (f1 j).toNat = 1) n)
-
-end
-
-end A325230.P2394536113119150856
-
-namespace A325230
-
-/-- `filter[A247180(n+1), A215480(#)]` -/
-def P2394536113119150856.Spec : Prop :=
-  ∀ n, P2394536113119150856.a n = A325230 (n + 1)
 
 end A325230
 
@@ -5888,6 +5915,28 @@ end
 
 end A325255.P9684872951961416875
 
+/-! ## A325255.P3070179194859164887
+
+`∩[A057919(n+1), A089965(n+1)]`
+-/
+
+namespace A325255.P3070179194859164887
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089965 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325255.P3070179194859164887
+
 /-! ## A325255.P6730793866235495431
 
 `∩[A089965(n+1), A257997(n+1)]`
@@ -5931,28 +5980,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A325255.P12024532339207308244
-
-/-! ## A325255.P11175614915487465904
-
-`∩[A089965(n+1), A283808(n+1)]`
--/
-
-namespace A325255.P11175614915487465904
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089965 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283808 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A325255.P11175614915487465904
 
 /-!
 # A325256: Number of normal multisets of size n whose adjusted frequency depth is the maximum for multisets of that size.

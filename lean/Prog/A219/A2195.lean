@@ -43,6 +43,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -54,6 +55,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1980,11 +1982,56 @@ def P17158303281110501062.Spec : Prop :=
 
 end A219527
 
+/-! ## A219527.P1638759490109937924
+
+`A004273(A005993(n))`
+-/
+
+namespace A219527.P1638759490109937924
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004273 (A005993 n).toNat
+
+end
+
+end A219527.P1638759490109937924
+
+namespace A219527
+
+/-- `A004273(A005993(n))` -/
+def P1638759490109937924.Spec : Prop :=
+  ∀ n, P1638759490109937924.a n = A219527 (n + 1)
+
+end A219527
+
 /-!
 # A219528: Primes neighboring a 3-smooth number.
 
 The programs for A219528, there is no canonical definition to state claims against.
 -/
+
+/-! ## A219528.P16097428663220442342
+
+`∪[A005105(n+1), A005109(n+1)]`
+-/
+
+namespace A219528.P16097428663220442342
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005105 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005109 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A219528.P16097428663220442342
 
 /-! ## A219528.P4087587012024117019
 
@@ -2153,28 +2200,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A219528.P14922295625992871928
-
-/-! ## A219528.P7479641533722189899
-
-`∩[A216887(n+1), A382546(n+1)]`
--/
-
-namespace A219528.P7479641533722189899
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216887 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A382546 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A219528.P7479641533722189899
 
 /-!
 # A219529: Coordination sequence for 3.3.4.3.4 Archimedean tiling.
@@ -3567,19 +3592,19 @@ end
 
 end A219543.P11552462561608437849
 
-/-! ## A219543.P5795974207873433074
+/-! ## A219543.P2072482301886506991
 
-`∩[A017197(2*n+1), A090801(n+2)]`
+`∩[A017197(n), A090801(n+1)]`
 -/
 
-namespace A219543.P5795974207873433074
+namespace A219543.P2072482301886506991
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017197 (2 * n + 1)
+  A017197 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090801 (n + 2)
+  A090801 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3587,21 +3612,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A219543.P5795974207873433074
+end A219543.P2072482301886506991
 
-/-! ## A219543.P13292338736198922754
+/-! ## A219543.P6009766250911396280
 
-`∩[A063102(2*(n+1)), A090801(n+2)]`
+`∩[A063102(n+1), A090801(n+1)]`
 -/
 
-namespace A219543.P13292338736198922754
+namespace A219543.P6009766250911396280
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063102 (2 * (n + 1))
+  A063102 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090801 (n + 2)
+  A090801 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3609,7 +3634,95 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A219543.P13292338736198922754
+end A219543.P6009766250911396280
+
+/-! ## A219543.P9906089842592829627
+
+`∩[A055041(n+1), A090801(n+1)]`
+-/
+
+namespace A219543.P9906089842592829627
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055041 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090801 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A219543.P9906089842592829627
+
+/-! ## A219543.P6483750200874880921
+
+`∩[A090801(n+1), A155504(n+1)]`
+-/
+
+namespace A219543.P6483750200874880921
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090801 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155504 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A219543.P6483750200874880921
+
+/-! ## A219543.P6276767414785081062
+
+`∩[A090801(n+1), A234904(n+1)]`
+-/
+
+namespace A219543.P6276767414785081062
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090801 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234904 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A219543.P6276767414785081062
+
+/-! ## A219543.P17182608120220655097
+
+`∩[A090801(n+1), A277571(n+1)]`
+-/
+
+namespace A219543.P17182608120220655097
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090801 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277571 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A219543.P17182608120220655097
 
 /-!
 # A219544: Even multiply-perfect numbers divided by 2.
@@ -4954,6 +5067,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A219559.P13737000858531223845
+
+/-! ## A219559.P8955728690727927774
+
+`∩[A089160(n+1), A104885(n+1)]`
+-/
+
+namespace A219559.P8955728690727927774
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089160 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A104885 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A219559.P8955728690727927774
 
 /-!
 # A219560: Number of tripartite partitions of (n,n,n) into distinct triples.

@@ -26,6 +26,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -63,6 +64,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3093,6 +3095,56 @@ end
 end A370052.P7984992486049395056
 
 /-!
+# A370053: Non-palindromic numbers m such that m * repunit of length k is palindromic for all large enough k.
+
+The programs for A370053, there is no canonical definition to state claims against.
+-/
+
+/-! ## A370053.P9901343013454935040
+
+`∩[A291884(n+1), A370052(n+1)]`
+-/
+
+namespace A370053.P9901343013454935040
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291884 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370052 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A370053.P9901343013454935040
+
+/-! ## A370053.P10170252919361318567
+
+`∩[A298638(n+1), A370052(n+1)]`
+-/
+
+namespace A370053.P10170252919361318567
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298638 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370052 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A370053.P10170252919361318567
+
+/-!
 # A370054: a(n) = 2*(3*n+1)!/(2*n+2)!.
 
 The programs for A370054, the canonical program `A370054.P3727325619776216794` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370054 has offset 0).
@@ -4550,7 +4602,7 @@ end A370075.P14638606297666705294
 /-!
 # A370076: Numbers k such that A005361(k) is prime.
 
-The programs for A370076, the canonical program `A370076.P14273981069909924052` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370076 has offset 1).
+The programs for A370076, the canonical program `A370076.P14273981069909924052` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370076 has offset 1).
 
 The definition of A370076 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4588,7 +4640,7 @@ end A370076
 
 `filter[A074661(n+1), A359466(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A370076
@@ -4992,6 +5044,29 @@ namespace A370077
 /-- `∏{e}[n+1, gcd(#, 2^#!)]` -/
 def P15449013629410088832.Spec : Prop :=
   ∀ n, (P15449013629410088832.a n : ℤ) = A370077 (n + 1)
+
+end A370077
+
+/-! ## A370077.P7776595512540091874
+
+`A138297(A069739(n+1))`
+-/
+
+namespace A370077.P7776595512540091874
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138297 (A069739 (n + 1)).toNat
+
+end
+
+end A370077.P7776595512540091874
+
+namespace A370077
+
+/-- `A138297(A069739(n+1))` -/
+def P7776595512540091874.Spec : Prop :=
+  ∀ n, P7776595512540091874.a n = A370077 (n + 1)
 
 end A370077
 
@@ -5405,6 +5480,29 @@ namespace A370079
 /-- `∑{d}[n+1, A008836(#)*A286324((n+1)/#)]` -/
 def P9869308307098381369.Spec : Prop :=
   ∀ n, P9869308307098381369.a n = A370079 (n + 1)
+
+end A370079
+
+/-! ## A370079.P9008227184115721536
+
+`gcd(A295878(n+1), A364584(n+1))`
+-/
+
+namespace A370079.P9008227184115721536
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A295878 (n + 1)) (A364584 (n + 1))
+
+end
+
+end A370079.P9008227184115721536
+
+namespace A370079
+
+/-- `gcd(A295878(n+1), A364584(n+1))` -/
+def P9008227184115721536.Spec : Prop :=
+  ∀ n, (P9008227184115721536.a n : ℤ) = A370079 (n + 1)
 
 end A370079
 

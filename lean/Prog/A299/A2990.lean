@@ -47,7 +47,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
@@ -58,7 +57,6 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -89,6 +87,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -5436,6 +5435,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299070.P8076925894924106630
+
+/-!
+# A299071: Union_{odd primes p, n >= 3} {T_p(n)}, where T_m(x) = x*T_{m-1}(x) - T_{m-2}(x), m >= 2, T_0(x) = 2, T_1(x) = x (dilated Chebyshev polynomials of the first kind).
+
+The programs for A299071, there is no canonical definition to state claims against.
+-/
+
+/-! ## A299071.P15601448077368186680
+
+`∩[A025020(n+1), A298878(n+1)]`
+-/
+
+namespace A299071.P15601448077368186680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025020 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298878 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A299071.P15601448077368186680
 
 /-!
 # A299072: Sequence is an irregular triangle read by rows with zeros removed where T(n,k) is the number of compositions of n whose standard factorization into Lyndon words has k distinct factors.

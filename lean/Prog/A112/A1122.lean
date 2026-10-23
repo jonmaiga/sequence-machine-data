@@ -2397,6 +2397,21 @@ end
 
 end A112223.P13447832287812502026
 
+/-! ## A112223.P15535344850392306672
+
+`A327144(A308888(n+1))`
+-/
+
+namespace A112223.P15535344850392306672
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A327144 (A308888 (n + 1)).toNat
+
+end
+
+end A112223.P15535344850392306672
+
 /-!
 # A112224: McKay-Thompson series of class 140a for the Monster group.
 

@@ -44,7 +44,6 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2600,6 +2599,36 @@ def P9566850974370633557.Spec : Prop :=
 
 end A300061
 
+/-! ## A300061.P10568126340015924247
+
+`∪[A066207(n+1), A366530(n+1)]`
+-/
+
+namespace A300061.P10568126340015924247
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066207 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366530 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A300061.P10568126340015924247
+
+namespace A300061
+
+/-- `∪[A066207(n+1), A366530(n+1)]` -/
+def P10568126340015924247.Spec : Prop :=
+  ∀ n, (P10568126340015924247.a n : ℤ) = A300061 (n + 1)
+
+end A300061
+
 /-!
 # A300063: Heinz numbers of integer partitions of odd numbers.
 
@@ -2830,6 +2859,36 @@ def P4400076861560316496.Spec : Prop :=
 
 end A300063
 
+/-! ## A300063.P15012292025180373429
+
+`∪[A340931(n+1), A341448(n+1)]`
+-/
+
+namespace A300063.P15012292025180373429
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340931 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341448 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A300063.P15012292025180373429
+
+namespace A300063
+
+/-- `∪[A340931(n+1), A341448(n+1)]` -/
+def P15012292025180373429.Spec : Prop :=
+  ∀ n, (P15012292025180373429.a n : ℤ) = A300063 (n + 1)
+
+end A300063
+
 /-!
 # A300064: Numbers k such that there are exactly phi(phi(k)) residues modulo k of the maximum order.
 
@@ -3033,6 +3092,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300064.P5645820639687988650
+
+/-! ## A300064.P11964315574050678378
+
+`∪[A079852(n+1), A300079(n+1)]`
+-/
+
+namespace A300064.P11964315574050678378
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079852 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300079 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A300064.P11964315574050678378
 
 /-!
 # A300065: Numbers k such that the number of residues modulo k of the maximum order is different from phi(phi(k)).

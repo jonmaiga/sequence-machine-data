@@ -56,6 +56,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -1541,6 +1542,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A047713.P12572743498083880829
+
+/-! ## A047713.P14669172779367384897
+
+`∪[A006971(n+1), A356638(n+1)]`
+-/
+
+namespace A047713.P14669172779367384897
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006971 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356638 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A047713.P14669172779367384897
 
 /-!
 # A047714: 
@@ -3619,20 +3642,93 @@ end
 
 end A047728.P16021863472508603905
 
-/-! ## A047728.P2362502605746390503
+/-! ## A047728.P7615860678399438591
 
-`A245782(A190856(n+1)%A056720(2*n+5))`
+`∩[A246454(n+1), A331666(n+1)]`
 -/
 
-namespace A047728.P2362502605746390503
+namespace A047728.P7615860678399438591
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245782 (Int.tmod (A190856 (n + 1)) (A056720 (2 * n + 5))).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246454 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331666 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A047728.P2362502605746390503
+end A047728.P7615860678399438591
+
+/-! ## A047728.P8992734444261050062
+
+`∩[A325023(n+1), A331666(n+1)]`
+-/
+
+namespace A047728.P8992734444261050062
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325023 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331666 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A047728.P8992734444261050062
+
+/-! ## A047728.P14071986150573167683
+
+`∩[A325025(n+1), A331666(n+1)]`
+-/
+
+namespace A047728.P14071986150573167683
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325025 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331666 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A047728.P14071986150573167683
+
+/-! ## A047728.P1303087855186768673
+
+`∩[A331666(n+1), A354073(n+1)]`
+-/
+
+namespace A047728.P1303087855186768673
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331666 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354073 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A047728.P1303087855186768673
 
 /-!
 # A047729: Number of score sequences in tournament with n players, when 3 points are awarded in each game.

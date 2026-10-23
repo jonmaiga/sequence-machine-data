@@ -54,11 +54,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -95,6 +93,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A244602: First repdigit number with n digits occurring in the decimal expansion of e, starting after the decimal point.
@@ -2118,16 +2117,16 @@ end
 
 end A244626.P13139525911272352373
 
-/-! ## A244626.P12683609045660649524
+/-! ## A244626.P11568824959399279061
 
-`∩[or(4, A356638(n+1)), A356638(n+1)]`
+`∩[A178723(n+1), A356638(n+1)]`
 -/
 
-namespace A244626.P12683609045660649524
+namespace A244626.P11568824959399279061
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 4 (A356638 (n + 1))
+  A178723 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A356638 (n + 1)
@@ -2138,7 +2137,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A244626.P12683609045660649524
+end A244626.P11568824959399279061
+
+/-! ## A244626.P647170720454641940
+
+`∩[A270698(n+1), A356638(n+1)]`
+-/
+
+namespace A244626.P647170720454641940
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270698 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356638 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244626.P647170720454641940
 
 /-! ## A244626.P5580155011093699209
 
@@ -2154,6 +2175,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A244626.P5580155011093699209
+
+/-! ## A244626.P17019161671618313904
+
+`A356638(A061487(n+1))`
+-/
+
+namespace A244626.P17019161671618313904
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356638 (A061487 (n + 1)).toNat
+
+end
+
+end A244626.P17019161671618313904
 
 /-!
 # A244627: G.f. satisfies: A(x) = (4 + A(x)^3) / (5 - 4*x).
@@ -2182,6 +2218,28 @@ end A244627.P18287201151781483134
 The programs for A244628, there is no canonical definition to state claims against.
 -/
 
+/-! ## A244628.P16679927711868203882
+
+`∩[A177884(n+1), A356638(n+1)]`
+-/
+
+namespace A244628.P16679927711868203882
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177884 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356638 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244628.P16679927711868203882
+
 /-! ## A244628.P331008790679366540
 
 `∩[A270697(n+1), A356638(n+1)]`
@@ -2204,6 +2262,28 @@ end
 
 end A244628.P331008790679366540
 
+/-! ## A244628.P7532070377510510466
+
+`∩[A177884(n+1), A307767(n+1)]`
+-/
+
+namespace A244628.P7532070377510510466
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177884 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307767 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244628.P7532070377510510466
+
 /-! ## A244628.P6941551566368774215
 
 `∩[A270697(n+1), A307767(n+1)]`
@@ -2225,28 +2305,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A244628.P6941551566368774215
-
-/-! ## A244628.P11180804378058871970
-
-`∩[or(2, A307767(n+1)), A356638(n+1)]`
--/
-
-namespace A244628.P11180804378058871970
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 2 (A307767 (n + 1))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356638 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A244628.P11180804378058871970
 
 /-!
 # A244629: Number of power series 1 + c_1*x^1 + c_2*x^2 + ... + c_{n-1}*x^{n-1} + O(x^n) with c_k in {-1, 0, 1} whose reciprocal has the same property.
@@ -2476,7 +2534,7 @@ end A244636
 /-!
 # A244637: Primes that are the sum of the squares of distinct primes.
 
-The programs for A244637, the canonical program `A244637.P8806266305917714625` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244637 has offset 1).
+The programs for A244637, the canonical program `A244637.P8806266305917714625` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244637 has offset 1).
 
 The definition of A244637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2485,7 +2543,7 @@ The definition of A244637 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A048261(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A244637

@@ -65,9 +65,9 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -5674,6 +5674,21 @@ end
 
 end A368751.P16096133924737236692
 
+/-! ## A368751.P3874359348786886744
+
+`A118682(A078373(n+1))`
+-/
+
+namespace A368751.P3874359348786886744
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118682 (A078373 (n + 1)).toNat
+
+end
+
+end A368751.P3874359348786886744
+
 /-!
 # A368752: Irregular triangle read by rows: T(n,k) is the number of atoms + co-atoms contained in the k-th balanced string of left/right parentheses of length 2*n, where strings within a row are in reverse lexicographical order.
 
@@ -7999,7 +8014,7 @@ end A368777.P949486616653129298
 /-!
 # A368779: The number of prime factors of the cubefree numbers, counted with multiplicity.
 
-The programs for A368779, the canonical program `A368779.P11180727498613056618` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368779 has offset 1).
+The programs for A368779, the canonical program `A368779.P11180727498613056618` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368779 has offset 1).
 
 The definition of A368779 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A004709, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8008,7 +8023,7 @@ The definition of A368779 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A004709(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A368779
@@ -8219,10 +8234,33 @@ def P998869569354479329.Spec : Prop :=
 
 end A368779
 
+/-! ## A368779.P14431832950014078450
+
+`A376885(A004709(n+1)²)`
+-/
+
+namespace A368779.P14431832950014078450
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376885 (A004709 (n + 1) ^ 2).toNat
+
+end
+
+end A368779.P14431832950014078450
+
+namespace A368779
+
+/-- `A376885(A004709(n+1)²)` -/
+def P14431832950014078450.Spec : Prop :=
+  ∀ n, P14431832950014078450.a n = A368779 (n + 1)
+
+end A368779
+
 /-!
 # A368780: Cubefree numbers divisible by the square of their largest prime factor.
 
-The programs for A368780, the canonical program `A368780.P14908881115909762671` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368780 has offset 1).
+The programs for A368780, the canonical program `A368780.P14908881115909762671` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368780 has offset 1).
 
 The definition of A368780 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1044 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8257,7 +8295,7 @@ end A368780
 
 `filter[A195212(n+1), A212793(#)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A368780
@@ -9277,6 +9315,29 @@ namespace A368787
 /-- `1-a(n-1)*∑[-(2*n)]` -/
 def P1038952425117366881.Spec : Prop :=
   ∀ n, P1038952425117366881.a n = A368787 n
+
+end A368787
+
+/-! ## A368787.P1911164418653388733
+
+`A228229(n)-A010790(n)`
+-/
+
+namespace A368787.P1911164418653388733
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228229 n - A010790 n
+
+end
+
+end A368787.P1911164418653388733
+
+namespace A368787
+
+/-- `A228229(n)-A010790(n)` -/
+def P1911164418653388733.Spec : Prop :=
+  ∀ n, P1911164418653388733.a n = A368787 n
 
 end A368787
 

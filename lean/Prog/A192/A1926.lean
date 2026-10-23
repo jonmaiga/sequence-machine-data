@@ -55,11 +55,11 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -341,6 +341,28 @@ end
 
 end A192607.P8369528805379855442
 
+/-! ## A192607.P6168536014360763646
+
+`∪[A192505(n+1), A192506(n+1)]`
+-/
+
+namespace A192607.P6168536014360763646
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192505 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192506 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A192607.P6168536014360763646
+
 /-! ## A192607.P15613670442907925960
 
 `∪[A192506(n+1), A266419(n+1)]`
@@ -362,6 +384,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A192607.P15613670442907925960
+
+/-! ## A192607.P4837154922911396472
+
+`∪[A192506(n+1), A276447(n+1)]`
+-/
+
+namespace A192607.P4837154922911396472
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192506 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276447 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A192607.P4837154922911396472
+
+/-! ## A192607.P995796843224410969
+
+`∪[A192506(n+1), A276569(n+1)]`
+-/
+
+namespace A192607.P995796843224410969
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192506 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276569 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A192607.P995796843224410969
 
 /-! ## A192607.P12250525251473597363
 
@@ -540,6 +606,25 @@ end
 
 end A192607.P16775408571953391963
 
+/-! ## A192607.P14039139217141836311
+
+`comp[A377777(n+1)]`
+-/
+
+namespace A192607.P14039139217141836311
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377777 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A192607.P14039139217141836311
+
 /-! ## A192607.P10317705996275971611
 
 `A255421(A002808(A255422(n+1)))`
@@ -575,57 +660,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A192607.P6654548576335336897
-
-/-! ## A192607.P286190481394190889
-
-`A266637(A266410(A266638(n+1)))`
--/
-
-namespace A192607.P286190481394190889
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266637 (A266410 (A266638 (n + 1)).toNat).toNat
-
-end
-
-end A192607.P286190481394190889
-
-/-! ## A192607.P17877420634282618689
-
-`lt[1, A001222(A302026(n+1))]+1`
--/
-
-namespace A192607.P17877420634282618689
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001222 (A302026 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n + 1
-
-end
-
-end A192607.P17877420634282618689
-
-/-! ## A192607.P1719083647564081613
-
-`A257734(A050505(A257733(n+1)))`
--/
-
-namespace A192607.P1719083647564081613
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257734 (A050505 (A257733 (n + 1)).toNat).toNat
-
-end
-
-end A192607.P1719083647564081613
 
 /-!
 # A192611: Primes prime(k) such that prime(k)*k+1 is also prime.
@@ -6738,7 +6772,7 @@ end A192671
 /-!
 # A192672: Floor-Sqrt transform of little Schroeder numbers (A001003).
 
-The programs for A192672, the canonical program `A192672.P1400011279283696610` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192672 has offset 0).
+The programs for A192672, the canonical program `A192672.P1400011279283696610` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192672 has offset 0).
 
 The definition of A192672 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6770,7 +6804,7 @@ end A192672
 
 `floor(sqrt(abs(A080243(n))))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A192672
@@ -7093,7 +7127,7 @@ end A192672
 /-!
 # A192673: Floor-Sqrt transform of large Schroder numbers (A006318).
 
-The programs for A192673, the canonical program `A192673.P17428601771079711106` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192673 has offset 0).
+The programs for A192673, the canonical program `A192673.P17428601771079711106` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192673 has offset 0).
 
 The definition of A192673 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7367,7 +7401,7 @@ end A192673
 
 `floor(sqrt(abs(2*A080243(n))))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A192673

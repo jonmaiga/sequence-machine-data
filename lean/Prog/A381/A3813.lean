@@ -2492,6 +2492,28 @@ end A381316
 The programs for A381317, there is no canonical definition to state claims against.
 -/
 
+/-! ## A381317.P4341828177403109564
+
+`∩[A192139(n+1), A392047(n+1)]`
+-/
+
+namespace A381317.P4341828177403109564
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192139 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392047 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A381317.P4341828177403109564
+
 /-! ## A381317.P9423922018942988322
 
 `∩[A113570(n+1), A392047(n+1)]`
@@ -2514,23 +2536,27 @@ end
 
 end A381317.P9423922018942988322
 
-/-! ## A381317.P9971951406061926187
+/-! ## A381317.P17524525074179575663
 
-`filter[A381215(n+1), A069513(#)]`
+`∩[A192137(n+1), A392047(n+1)]`
 -/
 
-namespace A381317.P9971951406061926187
+namespace A381317.P17524525074179575663
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A381215 (n + 1)
+  A192137 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A069513 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392047 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A381317.P9971951406061926187
+end A381317.P17524525074179575663
 
 /-!
 # A381319: Order of linear recurrence with constant coefficients of solutions of k satisfying k^(n-1) == 1 (mod n^2) for a given n.

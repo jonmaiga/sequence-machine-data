@@ -3409,6 +3409,29 @@ def P8129244960745910164.Spec : Prop :=
 
 end A063845
 
+/-! ## A063845.P1543858404961061148
+
+`A000203(A360162((n+1)²))`
+-/
+
+namespace A063845.P1543858404961061148
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (A360162 ((n + 1) ^ 2)).toNat
+
+end
+
+end A063845.P1543858404961061148
+
+namespace A063845
+
+/-- `A000203(A360162((n+1)²))` -/
+def P1543858404961061148.Spec : Prop :=
+  ∀ n, P1543858404961061148.a n = A063845 (n + 1)
+
+end A063845
+
 /-!
 # A063847: Carmichael numbers which are also base-2 strong pseudoprimes.
 
@@ -4663,7 +4686,7 @@ end A063870.P1075287593618530861
 /-!
 # A063872: Let m be the n-th positive integer such that phi(m) is divisible by m - phi(m). Then a(n) = phi(m)/(m - phi(m)).
 
-The programs for A063872, the canonical program `A063872.P6653765123513031223` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063872 has offset 1).
+The programs for A063872, the canonical program `A063872.P6653765123513031223` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063872 has offset 1).
 
 The definition of A063872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025473, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4672,7 +4695,7 @@ The definition of A063872 is `conditional`: the Lean definition is an OEIS formu
 
 `A025473(n+2)-1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A063872

@@ -3189,6 +3189,24 @@ end
 
 end A125525.P4796182348670048588
 
+/-! ## A125525.P17057246004838441068
+
+`p?[A125665(n+1)]`
+-/
+
+namespace A125525.P17057246004838441068
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125665 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A125525.P17057246004838441068
+
 /-!
 # A125527: Number of semiprimes <= 2^n.
 
@@ -5131,6 +5149,36 @@ namespace A125557
 /-- `∩[A079545(n+1), A286264(n+1)]` -/
 def P6962187067707837892.Spec : Prop :=
   ∀ n, (P6962187067707837892.a n : ℤ) = A125557 (n + 1)
+
+end A125557
+
+/-! ## A125557.P15465490861298543099
+
+`∩[A073485(n+1), A286264(n+1)]`
+-/
+
+namespace A125557.P15465490861298543099
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073485 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286264 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A125557.P15465490861298543099
+
+namespace A125557
+
+/-- `∩[A073485(n+1), A286264(n+1)]` -/
+def P15465490861298543099.Spec : Prop :=
+  ∀ n, (P15465490861298543099.a n : ℤ) = A125557 (n + 1)
 
 end A125557
 
@@ -7216,6 +7264,104 @@ def P4315697497549322885.Spec : Prop :=
 
 end A125577
 
+/-! ## A125577.P5533213320757859725
+
+`round(2*n+a(n-2)-1)` with `a(0)=1, a(1)=0`
+
+`round` is left out, it is the identity on integers.
+-/
+
+namespace A125577.P5533213320757859725
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n a =>
+  (2 * n : ℤ) + (a (n - 2) - 1)
+
+end
+
+end A125577.P5533213320757859725
+
+namespace A125577
+
+/-- `round(2*n+a(n-2)-1)` -/
+def P5533213320757859725.Spec : Prop :=
+  ∀ n, P5533213320757859725.a n = A125577 n
+
+end A125577
+
+/-! ## A125577.P7447516000855877526
+
+`round(2*n-(1-a(n-2)))` with `a(0)=1, a(1)=0`
+
+`round` is left out, it is the identity on integers.
+-/
+
+namespace A125577.P7447516000855877526
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n a =>
+  (2 * n : ℤ) - (1 - a (n - 2))
+
+end
+
+end A125577.P7447516000855877526
+
+namespace A125577
+
+/-- `round(2*n-(1-a(n-2)))` -/
+def P7447516000855877526.Spec : Prop :=
+  ∀ n, P7447516000855877526.a n = A125577 n
+
+end A125577
+
+/-! ## A125577.P13691116625627023786
+
+`abs(a(n-2)+n-1+n)` with `a(0)=1, a(1)=0`
+-/
+
+namespace A125577.P13691116625627023786
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n a =>
+  |a (n - 2) + ((n : ℤ) - 1) + (n : ℤ)|
+
+end
+
+end A125577.P13691116625627023786
+
+namespace A125577
+
+/-- `abs(a(n-2)+n-1+n)` -/
+def P13691116625627023786.Spec : Prop :=
+  ∀ n, P13691116625627023786.a n = A125577 n
+
+end A125577
+
+/-! ## A125577.P17063685845956203575
+
+`floor(a(n-2)-1+n+n)` with `a(0)=1, a(1)=0`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A125577.P17063685845956203575
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 0] fun n a =>
+  a (n - 2) - 1 + (n : ℤ) + (n : ℤ)
+
+end
+
+end A125577.P17063685845956203575
+
+namespace A125577
+
+/-- `floor(a(n-2)-1+n+n)` -/
+def P17063685845956203575.Spec : Prop :=
+  ∀ n, P17063685845956203575.a n = A125577 n
+
+end A125577
+
 /-!
 # A125585: Array of constant-spaced integers read by antidiagonals.
 
@@ -8055,57 +8201,49 @@ def P12754635262021759510.Spec : Prop :=
 
 end A125592
 
-/-! ## A125592.P14810400881164697104
+/-! ## A125592.P9043139880045807361
 
-`comp[xor(n+1, gcd(n, floor(n/2)))]`
+`A016813(n)-A106400(n)`
 -/
 
-namespace A125592.P14810400881164697104
+namespace A125592.P9043139880045807361
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor (n + 1) (Int.gcd (n : ℤ) ⌊(n : ℚ) / 2⌋)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016813 n - A106400 n
 
 end
 
-end A125592.P14810400881164697104
+end A125592.P9043139880045807361
 
 namespace A125592
 
-/-- `comp[xor(n+1, gcd(n, floor(n/2)))]` -/
-def P14810400881164697104.Spec : Prop :=
-  ∀ n, (P14810400881164697104.a n : ℤ) = A125592 (n + 1)
+/-- `A016813(n)-A106400(n)` -/
+def P9043139880045807361.Spec : Prop :=
+  ∀ n, P9043139880045807361.a n = A125592 (n + 1)
 
 end A125592
 
-/-! ## A125592.P11933565954520948303
+/-! ## A125592.P6609914246808098072
 
-`comp[xor(n, floor((n/2)^(n%2)))]`
+`xor(A016813(n), A268676(n))`
 -/
 
-namespace A125592.P11933565954520948303
+namespace A125592.P6609914246808098072
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (n : ℤ) ⌊((n : ℚ) / 2) ^ (n % 2)⌋
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A016813 n) (A268676 n)
 
 end
 
-end A125592.P11933565954520948303
+end A125592.P6609914246808098072
 
 namespace A125592
 
-/-- `comp[xor(n, floor((n/2)^(n%2)))]` -/
-def P11933565954520948303.Spec : Prop :=
-  ∀ n, (P11933565954520948303.a n : ℤ) = A125592 (n + 1)
+/-- `xor(A016813(n), A268676(n))` -/
+def P6609914246808098072.Spec : Prop :=
+  ∀ n, P6609914246808098072.a n = A125592 (n + 1)
 
 end A125592
 

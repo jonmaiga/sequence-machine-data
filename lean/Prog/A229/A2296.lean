@@ -1613,6 +1613,72 @@ end
 
 end A229617.P5118496340787444669
 
+/-! ## A229617.P5055016881229197899
+
+`∩[A036116(n+1), A367586(n+1)]`
+-/
+
+namespace A229617.P5055016881229197899
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036116 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367586 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229617.P5055016881229197899
+
+/-! ## A229617.P15756740492767159695
+
+`∩[A247213(n+1), A325796(n+1)]`
+-/
+
+namespace A229617.P15756740492767159695
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247213 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325796 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229617.P15756740492767159695
+
+/-! ## A229617.P5768713230925347464
+
+`∩[A247213(n+1), A364433(n+1)]`
+-/
+
+namespace A229617.P5768713230925347464
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247213 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364433 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A229617.P5768713230925347464
+
 /-!
 # A229618: Numbers that are the distance between a square and the next larger cube.
 

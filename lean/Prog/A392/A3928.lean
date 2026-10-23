@@ -1,6 +1,7 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C008
 import Seq.B000.C009
@@ -1397,6 +1398,28 @@ end
 
 end A392836.P7282809884122404401
 
+/-! ## A392836.P8562964949712930070
+
+`∩[A098767(n+1), A100546(n)]`
+-/
+
+namespace A392836.P8562964949712930070
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098767 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100546 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392836.P8562964949712930070
+
 /-!
 # A392837: a(n) = 2^(n-1)*(L(4*n + 1) + 9 - 5*n)/5, where L(n) = A000032(n).
 
@@ -2038,6 +2061,32 @@ theorem P4021648935066291138.correct : P4021648935066291138.Spec := by
 
 end A392844
 
+/-! ## A392844.P13131169953522534522
+
+`Δ[n²]*A082112(n)`
+-/
+
+namespace A392844.P13131169953522534522
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((f1 (n + 1) : ℤ) - (f1 n : ℤ)) * A082112 n
+
+end
+
+end A392844.P13131169953522534522
+
+namespace A392844
+
+/-- `Δ[n²]*A082112(n)` -/
+def P13131169953522534522.Spec : Prop :=
+  ∀ n, P13131169953522534522.a n = A392844 (n + 1)
+
+end A392844
+
 /-! ## A392844.P3826412930772552499
 
 `A090197(2*n)`
@@ -2081,6 +2130,52 @@ namespace A392844
 /-- `A192845(2*n+1)/4` -/
 def P14792909283016955305.Spec : Prop :=
   ∀ n, P14792909283016955305.a n = (A392844 (n + 1) : ℚ)
+
+end A392844
+
+/-! ## A392844.P16367700563752102166
+
+`(2*n+1)*A082111(2*n)`
+-/
+
+namespace A392844.P16367700563752102166
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1 : ℤ) * A082111 (2 * n)
+
+end
+
+end A392844.P16367700563752102166
+
+namespace A392844
+
+/-- `(2*n+1)*A082111(2*n)` -/
+def P16367700563752102166.Spec : Prop :=
+  ∀ n, P16367700563752102166.a n = A392844 (n + 1)
+
+end A392844
+
+/-! ## A392844.P4439484145151705522
+
+`A014107(A014107(n+2))/(n+2)`
+-/
+
+namespace A392844.P4439484145151705522
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A014107 (A014107 (n + 2)).toNat : ℚ) / (n + 2 : ℚ)
+
+end
+
+end A392844.P4439484145151705522
+
+namespace A392844
+
+/-- `A014107(A014107(n+2))/(n+2)` -/
+def P4439484145151705522.Spec : Prop :=
+  ∀ n, P4439484145151705522.a n = (A392844 (n + 1) : ℚ)
 
 end A392844
 

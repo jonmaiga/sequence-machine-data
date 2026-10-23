@@ -1218,6 +1218,28 @@ end A345718.P7784050498524875413
 The programs for A345719, there is no canonical definition to state claims against.
 -/
 
+/-! ## A345719.P10112485355866911217
+
+`∪[A345720(n+1), A346360(n+1)]`
+-/
+
+namespace A345719.P10112485355866911217
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345720 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346360 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345719.P10112485355866911217
+
 /-! ## A345719.P9456131842204555282
 
 `A346360(n+1)+A210321(n+1)%-1`
@@ -1281,26 +1303,33 @@ end
 
 end A345719.P4250117037965359521
 
-/-! ## A345719.P7730647910963751169
-
-`A346360(n+1)+A177063(A000032(n))`
--/
-
-namespace A345719.P7730647910963751169
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346360 (n + 1) + A177063 (A000032 n).toNat
-
-end
-
-end A345719.P7730647910963751169
-
 /-!
 # A345720: Numbers that are the sum of six fifth powers in six or more ways.
 
 The programs for A345720, there is no canonical definition to state claims against.
 -/
+
+/-! ## A345720.P3792162386160160865
+
+`∪[A345721(n+1), A346361(n+1)]`
+-/
+
+namespace A345720.P3792162386160160865
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345721 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346361 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345720.P3792162386160160865
 
 /-! ## A345720.P16204132454267544753
 
@@ -1362,41 +1391,33 @@ end
 
 end A345720.P17266786238931136696
 
-/-! ## A345720.P5021231087190988772
-
-`A346361(A082217(n+1))`
--/
-
-namespace A345720.P5021231087190988772
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346361 (A082217 (n + 1)).toNat
-
-end
-
-end A345720.P5021231087190988772
-
 /-!
 # A345721: Numbers that are the sum of six fifth powers in seven or more ways.
 
 The programs for A345721, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345721.P2575522959444336924
+/-! ## A345721.P14252118650662492342
 
-`A346362(A330929(n+1))`
+`∪[A345722(n+1), A346362(n+1)]`
 -/
 
-namespace A345721.P2575522959444336924
+namespace A345721.P14252118650662492342
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346362 (A330929 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345722 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346362 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A345721.P2575522959444336924
+end A345721.P14252118650662492342
 
 /-!
 # A345722: Numbers that are the sum of six fifth powers in eight or more ways.

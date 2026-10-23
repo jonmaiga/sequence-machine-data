@@ -1711,7 +1711,7 @@ end A138928.P5821182254769471961
 /-!
 # A138929: Twice the prime powers A000961.
 
-The programs for A138929, the canonical program `A138929.P2871587686834618281` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138929 has offset 1).
+The programs for A138929, the canonical program `A138929.P2871587686834618281` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138929 has offset 1).
 
 The definition of A138929 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1720,7 +1720,7 @@ The definition of A138929 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A000961(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A138929
@@ -1830,6 +1830,36 @@ def P3557838807230882935.Spec : Prop :=
 
 end A138929
 
+/-! ## A138929.P4244668504049728442
+
+`∪[A020707(n), A278568(n+1)]`
+-/
+
+namespace A138929.P4244668504049728442
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020707 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278568 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A138929.P4244668504049728442
+
+namespace A138929
+
+/-- `∪[A020707(n), A278568(n+1)]` -/
+def P4244668504049728442.Spec : Prop :=
+  ∀ n, (P4244668504049728442.a n : ℤ) = A138929 (n + 1)
+
+end A138929
+
 /-! ## A138929.P2354941470732303151
 
 `A309269(n+1)-A057820(n+1)`
@@ -1850,6 +1880,36 @@ namespace A138929
 /-- `A309269(n+1)-A057820(n+1)` -/
 def P2354941470732303151.Spec : Prop :=
   ∀ n, P2354941470732303151.a n = A138929 (n + 1)
+
+end A138929
+
+/-! ## A138929.P14439711687962599789
+
+`∪[A278568(n+1), A354255(n+1)]`
+-/
+
+namespace A138929.P14439711687962599789
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278568 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354255 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A138929.P14439711687962599789
+
+namespace A138929
+
+/-- `∪[A278568(n+1), A354255(n+1)]` -/
+def P14439711687962599789.Spec : Prop :=
+  ∀ n, (P14439711687962599789.a n : ℤ) = A138929 (n + 1)
 
 end A138929
 
@@ -2156,61 +2216,6 @@ namespace A138929
 /-- `record[2*A324388(n+1)]` -/
 def P13542424331872176521.Spec : Prop :=
   ∀ n, P13542424331872176521.a n = A138929 (n + 1)
-
-end A138929
-
-/-! ## A138929.P9813189304987612040
-
-`2*record[A354933(n+1)]`
--/
-
-namespace A138929.P9813189304987612040
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354933 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A138929.P9813189304987612040
-
-namespace A138929
-
-/-- `2*record[A354933(n+1)]` -/
-def P9813189304987612040.Spec : Prop :=
-  ∀ n, P9813189304987612040.a n = A138929 (n + 1)
-
-end A138929
-
-/-! ## A138929.P11402560410279023884
-
-`2*eq[1, A231813(n)]`
--/
-
-namespace A138929.P11402560410279023884
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231813 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A138929.P11402560410279023884
-
-namespace A138929
-
-/-- `2*eq[1, A231813(n)]` -/
-def P11402560410279023884.Spec : Prop :=
-  ∀ n, (P11402560410279023884.a n : ℤ) = A138929 (n + 1)
 
 end A138929
 

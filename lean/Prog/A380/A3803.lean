@@ -1182,6 +1182,29 @@ def P10221127472356343476.Spec : Prop :=
 
 end A380322
 
+/-! ## A380322.P9028323736636039915
+
+`A365336(A003557((n+1)²)²)`
+-/
+
+namespace A380322.P9028323736636039915
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A365336 (A003557 ((n + 1) ^ 2) ^ 2).toNat
+
+end
+
+end A380322.P9028323736636039915
+
+namespace A380322
+
+/-- `A365336(A003557((n+1)²)²)` -/
+def P9028323736636039915.Spec : Prop :=
+  ∀ n, P9028323736636039915.a n = A380322 (n + 1)
+
+end A380322
+
 /-!
 # A380323: The number of squares dividing the n-th exponentially odd number.
 
@@ -5097,6 +5120,36 @@ def P4140342629347411402.Spec : Prop :=
 
 end A380358
 
+/-! ## A380358.P12581014758453043423
+
+`∩[2*n+1, A052499(n+1)]`
+-/
+
+namespace A380358.P12581014758453043423
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052499 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380358.P12581014758453043423
+
+namespace A380358
+
+/-- `∩[2*n+1, A052499(n+1)]` -/
+def P12581014758453043423.Spec : Prop :=
+  ∀ n, (P12581014758453043423.a n : ℤ) = A380358 (n + 1)
+
+end A380358
+
 /-! ## A380358.P13725634328656628623
 
 `filter[A052499(n), A324908(#)]`
@@ -5201,29 +5254,6 @@ namespace A380358
 /-- `A004767(A003754(n+1))` -/
 def P14947955251601067161.Spec : Prop :=
   ∀ n, P14947955251601067161.a n = A380358 (n + 1)
-
-end A380358
-
-/-! ## A380358.P7947843421799980775
-
-`A004767(A052499(n)-1)`
--/
-
-namespace A380358.P7947843421799980775
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004767 (A052499 n - 1).toNat
-
-end
-
-end A380358.P7947843421799980775
-
-namespace A380358
-
-/-- `A004767(A052499(n)-1)` -/
-def P7947843421799980775.Spec : Prop :=
-  ∀ n, P7947843421799980775.a n = A380358 (n + 1)
 
 end A380358
 
@@ -6192,6 +6222,52 @@ def P2789743733239385048.Spec : Prop :=
 
 end A380384
 
+/-! ## A380384.P13376411759565900551
+
+`A005262(n)%A097813(n)`
+-/
+
+namespace A380384.P13376411759565900551
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A005262 n) (A097813 n)
+
+end
+
+end A380384.P13376411759565900551
+
+namespace A380384
+
+/-- `A005262(n)%A097813(n)` -/
+def P13376411759565900551.Spec : Prop :=
+  ∀ n, P13376411759565900551.a n = A380384 n
+
+end A380384
+
+/-! ## A380384.P5835454058832361913
+
+`A053221(n+1)%A127981(n+1)`
+-/
+
+namespace A380384.P5835454058832361913
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A053221 (n + 1)) (A127981 (n + 1))
+
+end
+
+end A380384.P5835454058832361913
+
+namespace A380384
+
+/-- `A053221(n+1)%A127981(n+1)` -/
+def P5835454058832361913.Spec : Prop :=
+  ∀ n, P5835454058832361913.a n = A380384 n
+
+end A380384
+
 /-!
 # A380385: Triangle read by rows. T(1, 1) = 1, T(n, k) = [n >= k](Sum_{i=1..k-1} T[n - i, k - 1] - Sum_{i=1..n-1} T[n - i, k]).
 
@@ -6386,6 +6462,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A380393.P16051504795297601376
+
+/-! ## A380393.P11096558483845583388
+
+`∩[A176654(n+1), A299112(n+1)]`
+-/
+
+namespace A380393.P11096558483845583388
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176654 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299112 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A380393.P11096558483845583388
 
 /-!
 # A380394: a(n) = number of possible pairs of descent sets of a permutation of 1,2,...,n and its inverse.

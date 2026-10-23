@@ -31,6 +31,7 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -50,7 +51,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -62,7 +62,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2333,6 +2332,28 @@ end
 
 end A242541.P8409257710753393087
 
+/-! ## A242541.P5999099700948332011
+
+`∩[A000040(n+1), A033619(n+1)]`
+-/
+
+namespace A242541.P5999099700948332011
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033619 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242541.P5999099700948332011
+
 /-! ## A242541.P11138925738247351415
 
 `∩[A033619(n+1), A049569(n+1)]`
@@ -3287,6 +3308,204 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242550.P9671704494846778007
+
+/-! ## A242550.P18247138898159307041
+
+`∩[A196095(n+1), A274685(n+1)]`
+-/
+
+namespace A242550.P18247138898159307041
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274685 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P18247138898159307041
+
+/-! ## A242550.P11938928139398528781
+
+`∩[A196095(n+1), A268044(n+1)]`
+-/
+
+namespace A242550.P11938928139398528781
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268044 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P11938928139398528781
+
+/-! ## A242550.P284266940343021861
+
+`∩[A196095(n+1), A273669(n+1)]`
+-/
+
+namespace A242550.P284266940343021861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A273669 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P284266940343021861
+
+/-! ## A242550.P15642392006011915706
+
+`∩[A196095(n+1), A277601(n+1)]`
+-/
+
+namespace A242550.P15642392006011915706
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277601 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P15642392006011915706
+
+/-! ## A242550.P1320760936610315553
+
+`∩[A196095(n+1), A277548(n+1)]`
+-/
+
+namespace A242550.P1320760936610315553
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277548 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P1320760936610315553
+
+/-! ## A242550.P6075997011147194468
+
+`∩[A196095(n+1), A274397(n+1)]`
+-/
+
+namespace A242550.P6075997011147194468
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274397 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P6075997011147194468
+
+/-! ## A242550.P16730510782987930128
+
+`∩[A196095(n+1), A262389(n+1)]`
+-/
+
+namespace A242550.P16730510782987930128
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262389 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P16730510782987930128
+
+/-! ## A242550.P4777458241295378310
+
+`∩[A196095(n+1), A293481(n+1)]`
+-/
+
+namespace A242550.P4777458241295378310
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293481 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P4777458241295378310
+
+/-! ## A242550.P1056658007040075479
+
+`∩[A196095(n+1), A315036(n)]`
+-/
+
+namespace A242550.P1056658007040075479
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196095 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A315036 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242550.P1056658007040075479
 
 /-! ## A242550.P18418766715673272555
 
@@ -5751,6 +5970,50 @@ end
 
 end A242571.P9788927121952983429
 
+/-! ## A242571.P18351531539764646408
+
+`∩[A109811(n+1), A242868(n+1)]`
+-/
+
+namespace A242571.P18351531539764646408
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109811 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242868 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242571.P18351531539764646408
+
+/-! ## A242571.P216308428294770499
+
+`∩[A112355(n+1), A242868(n+1)]`
+-/
+
+namespace A242571.P216308428294770499
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112355 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242868 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242571.P216308428294770499
+
 /-!
 # A242573: a(n) = [x^n] G(n-1,x) where G(n,x) is the n-th iteration of G(1,x) = x/(1-x+x^2), so that G(n,x) = G(n-1, G(1,x)) with G(0,x)=x.
 
@@ -7561,6 +7824,28 @@ end
 
 end A242592.P13265811676508690240
 
+/-! ## A242592.P10306157170384997155
+
+`∩[A005117(n+1), A239307(n+1)]`
+-/
+
+namespace A242592.P10306157170384997155
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239307 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242592.P10306157170384997155
+
 /-! ## A242592.P693106775919997034
 
 `filter[A239307(n+1), A049240(#)]`
@@ -7878,28 +8163,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A242592.P11646362683644246624
-
-/-! ## A242592.P16114331266612995176
-
-`∩[A068993(n+1), A239307(n+1)]`
--/
-
-namespace A242592.P16114331266612995176
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068993 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A239307 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A242592.P16114331266612995176
 
 /-!
 # A242593: Triangular array read by rows: T(n,k) is the number of length n words on {B,G} that contain exactly k occurrences of the contiguous substrings BGB or GBG. The substrings are allowed to overlap; n>=0, 0<=k<=max(n-2,0).

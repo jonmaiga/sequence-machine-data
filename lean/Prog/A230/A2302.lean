@@ -96,6 +96,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -3358,6 +3359,28 @@ end A230225
 
 The programs for A230226, there is no canonical definition to state claims against.
 -/
+
+/-! ## A230226.P8735810868933679696
+
+`∩[A093696(n+1), A390760(n+1)]`
+-/
+
+namespace A230226.P8735810868933679696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093696 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390760 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A230226.P8735810868933679696
 
 /-! ## A230226.P10835333192940883535
 

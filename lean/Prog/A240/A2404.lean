@@ -31,6 +31,7 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -62,6 +63,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -4122,6 +4124,120 @@ def P9690305654961531178.Spec : Prop :=
 
 end A240438
 
+/-! ## A240438.P16637433803423760179
+
+`∑[A047234(n+1)]`
+-/
+
+namespace A240438.P16637433803423760179
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047234 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A240438.P16637433803423760179
+
+namespace A240438
+
+/-- `∑[A047234(n+1)]` -/
+def P16637433803423760179.Spec : Prop :=
+  ∀ n, P16637433803423760179.a n = A240438 (n + 1)
+
+end A240438
+
+/-! ## A240438.P6619669332282266680
+
+`∑[A047268(n+1)-1]`
+-/
+
+namespace A240438.P6619669332282266680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047268 (n + 1) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A240438.P6619669332282266680
+
+namespace A240438
+
+/-- `∑[A047268(n+1)-1]` -/
+def P6619669332282266680.Spec : Prop :=
+  ∀ n, P6619669332282266680.a n = A240438 (n + 1)
+
+end A240438
+
+/-! ## A240438.P1650978207378267766
+
+`∑[comp[∑[and(3, n)]+2]]`
+-/
+
+namespace A240438.P1650978207378267766
+noncomputable section
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land 3 n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j + 2
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A240438.P1650978207378267766
+
+namespace A240438
+
+/-- `∑[comp[∑[and(3, n)]+2]]` -/
+def P1650978207378267766.Spec : Prop :=
+  ∀ n, (P1650978207378267766.a n : ℤ) = A240438 (n + 1)
+
+end A240438
+
+/-! ## A240438.P11996829773189751525
+
+`∑[record[A396772(n)]]`
+-/
+
+namespace A240438.P11996829773189751525
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396772 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A240438.P11996829773189751525
+
+namespace A240438
+
+/-- `∑[record[A396772(n)]]` -/
+def P11996829773189751525.Spec : Prop :=
+  ∀ n, P11996829773189751525.a n = A240438 (n + 1)
+
+end A240438
+
 /-!
 # A240439: Triangle T(n, k) = Numbers of ways to place k points on a triangular grid of side n so that no three of them are vertices of an equilateral triangle of any orientation. Triangle read by rows.
 
@@ -4678,27 +4794,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A240443.P8230606839677931379
-
-/-! ## A240443.P1312147605361225195
-
-`∑[ceil(∑[cos(cos(n^n))])]`
--/
-
-namespace A240443.P1312147605361225195
-noncomputable section
-
-def f2 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.cos (Real.cos (n ^ n : ℝ))
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈∑ j ∈ Finset.range (n + 1), f2 j⌉
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A240443.P1312147605361225195
 
 /-!
 # A240444: Triangle T(n, k) = Number of ways to arrange k indistinguishable points on an n X n square grid so that no four of them are vertices of a square of any orientation.
@@ -6306,24 +6401,20 @@ end A240464.P18359889101360080664
 The programs for A240465, there is no canonical definition to state claims against.
 -/
 
-/-! ## A240465.P12511830018131538590
+/-! ## A240465.P17254379500836290329
 
-`A240467(comp[n+1-A005811(n+4)])`
+`A240467(2*n)`
 -/
 
-namespace A240465.P12511830018131538590
+namespace A240465.P17254379500836290329
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) - A005811 (n + 4)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240467 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A240467 (2 * n)
 
 end
 
-end A240465.P12511830018131538590
+end A240465.P17254379500836290329
 
 /-!
 # A240466: Palindromes for which both the numerator (A017665) and the denominator (A017666) of sigma(n)/n are palindromes, where sigma is the sum of divisors (A000203).

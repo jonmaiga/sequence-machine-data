@@ -21,7 +21,6 @@ import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -99,6 +98,25 @@ import Seq.Opaque.C025
 
 The programs for A352800, there is no canonical definition to state claims against.
 -/
+
+/-! ## A352800.P15275153353874990519
+
+`comp[A007642(n+1)]`
+-/
+
+namespace A352800.P15275153353874990519
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007642 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A352800.P15275153353874990519
 
 /-! ## A352800.P3370657566029008644
 
@@ -739,7 +757,7 @@ end A352806.P5700320827507195513
 /-!
 # A352807: Orders of the finite groups PGammaL_2(K) when K is a finite field with q = A246655(n) elements.
 
-The programs for A352807, the canonical program `A352807.P8223926634270256880` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352807 has offset 1).
+The programs for A352807, the canonical program `A352807.P8223926634270256880` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352807 has offset 1).
 
 The definition of A352807 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9700 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -748,7 +766,7 @@ The definition of A352807 is `conjectured`: the Lean definition is a formula tha
 
 `A001222(A246655(n+1))*A329119(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A352807
@@ -6379,6 +6397,44 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A352873.P17850058137143636422
+
+/-! ## A352873.P3146951439845166958
+
+`comp[2*comp[2*n+3]]`
+-/
+
+namespace A352873.P3146951439845166958
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 3
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A352873.P3146951439845166958
+
+/-! ## A352873.P18344223681857790146
+
+`a(n-3)+4` with `a(0)=1, a(1)=3, a(2)=5, a(3)=6`
+-/
+
+namespace A352873.P18344223681857790146
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 3, 5, 6] fun n a =>
+  a (n - 3) + 4
+
+end
+
+end A352873.P18344223681857790146
 
 /-!
 # A352874: Heinz numbers of integer partitions with positive crank, counted by A001522.

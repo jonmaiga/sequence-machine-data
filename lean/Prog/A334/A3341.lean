@@ -7,7 +7,6 @@ import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
@@ -3229,6 +3228,28 @@ end A334117
 The programs for A334118, there is no canonical definition to state claims against.
 -/
 
+/-! ## A334118.P8712175774414780043
+
+`∩[A089025(n+1), A106843(n+1)]`
+-/
+
+namespace A334118.P8712175774414780043
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089025 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106843 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A334118.P8712175774414780043
+
 /-! ## A334118.P4089066487490684202
 
 `∩[A089025(n+1), A128693(n+1)]`
@@ -3272,28 +3293,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A334118.P960919704914151637
-
-/-! ## A334118.P14905354650714760657
-
-`∩[A328338(n+1), A334117(n+1)]`
--/
-
-namespace A334118.P14905354650714760657
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328338 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334117 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A334118.P14905354650714760657
 
 /-!
 # A334119: Total area of all triangles such that p + q = 2*n, p < q (p, q prime), with base (q - p) and height q.
@@ -4096,27 +4095,26 @@ end
 
 end A334130.P8930834406779746919
 
-/-! ## A334130.P13761505752111140780
+/-! ## A334130.P4833859796226341781
 
-`A085782(comp[A056239(14^∑{e}[n+1, #])])`
+`eq[A146880(n), A286933(n)]`
 -/
 
-namespace A334130.P13761505752111140780
+namespace A334130.P4833859796226341781
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (14 ^ (∑ p ∈ Nat.primeFactors (f2 n), Nat.factorization (f2 n) p))
+  A146880 n
 
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085782 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286933 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A334130.P13761505752111140780
+end A334130.P4833859796226341781
 
 /-!
 # A334131: Numbers that can be written as a product of distinct repunits.
@@ -6119,6 +6117,29 @@ def P14628267782200195771.Spec : Prop :=
 
 end A334142
 
+/-! ## A334142.P12889346321656661644
+
+`A003963(A278972(n+1))`
+-/
+
+namespace A334142.P12889346321656661644
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003963 (A278972 (n + 1)).toNat
+
+end
+
+end A334142.P12889346321656661644
+
+namespace A334142
+
+/-- `A003963(A278972(n+1))` -/
+def P12889346321656661644.Spec : Prop :=
+  ∀ n, P12889346321656661644.a n = A334142 (n + 1)
+
+end A334142
+
 /-!
 # A334143: a(n) = bitwise NOR of prime(n) and prime(n+1).
 
@@ -6889,6 +6910,28 @@ end A334150.P1582533529631484925
 The programs for A334151, there is no canonical definition to state claims against.
 -/
 
+/-! ## A334151.P14771025545686488152
+
+`∪[A112989(n+1), A151821(n+1)]`
+-/
+
+namespace A334151.P14771025545686488152
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112989 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151821 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A334151.P14771025545686488152
+
 /-! ## A334151.P16466044893070336782
 
 `A065642(record[A306458(n+1)])`
@@ -6960,24 +7003,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334151.P9971206092567636
-
-/-! ## A334151.P5940909099828935548
-
-`A065642(record[A340588(n+1)/A076405(n+1)])`
--/
-
-namespace A334151.P5940909099828935548
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A340588 (n + 1) : ℚ) / (A076405 (n + 1) : ℚ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065642 (SequenceMachineLib.roundAway (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))).toNat
-
-end
-
-end A334151.P5940909099828935548
 
 /-!
 # A334152: Number of Goldbach partitions (p,q) of 2n, such that p-2 and q-2 are both prime or both not prime.
@@ -9143,20 +9168,27 @@ end
 
 end A334174.P17995984579438742045
 
-/-! ## A334174.P14021730949507419094
+/-! ## A334174.P16750160606360238417
 
-`A003958(A000142(n)*A059826(n))`
+`∩[A034882(n+1), A326704(n+1)]`
 -/
 
-namespace A334174.P14021730949507419094
+namespace A334174.P16750160606360238417
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003958 (A000142 n * A059826 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034882 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326704 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A334174.P14021730949507419094
+end A334174.P16750160606360238417
 
 /-!
 # A334175: Numbers that can be written as a product of two or more consecutive primorial numbers.

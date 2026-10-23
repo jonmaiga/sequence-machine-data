@@ -34,6 +34,7 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -8010,6 +8011,32 @@ def P9312998244383037659.Spec : Prop :=
 
 end A296196
 
+/-! ## A296196.P11113531697319530231
+
+`∑[2*A393231(n+1)]`
+-/
+
+namespace A296196.P11113531697319530231
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A393231 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A296196.P11113531697319530231
+
+namespace A296196
+
+/-- `∑[2*A393231(n+1)]` -/
+def P11113531697319530231.Spec : Prop :=
+  ∀ n, P11113531697319530231.a n = A296196 (n + 1)
+
+end A296196
+
 /-! ## A296196.P6162526790999937929
 
 `∑[A007742(n)]+∑[n]²`
@@ -8209,6 +8236,29 @@ def P10345910854057625905.Spec : Prop :=
 
 end A296196
 
+/-! ## A296196.P631923662449579855
+
+`A052149(n+1)+A006331(n)`
+-/
+
+namespace A296196.P631923662449579855
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052149 (n + 1) + A006331 n
+
+end
+
+end A296196.P631923662449579855
+
+namespace A296196
+
+/-- `A052149(n+1)+A006331(n)` -/
+def P631923662449579855.Spec : Prop :=
+  ∀ n, P631923662449579855.a n = A296196 (n + 1)
+
+end A296196
+
 /-!
 # A296197: Harary index of the n X n bishop graph.
 
@@ -8280,6 +8330,32 @@ theorem P13893415390493905673.correct : P13893415390493905673.Spec := by
 
 end A296197
 
+/-! ## A296197.P10814243796188362061
+
+`∑[A011934(n)+n²]`
+-/
+
+namespace A296197.P10814243796188362061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011934 n + (n ^ 2 : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A296197.P10814243796188362061
+
+namespace A296197
+
+/-- `∑[A011934(n)+n²]` -/
+def P10814243796188362061.Spec : Prop :=
+  ∀ n, P10814243796188362061.a n = A296197 (n + 1)
+
+end A296197
+
 /-! ## A296197.P8210637377450370102
 
 `A105636(n)+∑[n²]`
@@ -8303,35 +8379,6 @@ namespace A296197
 /-- `A105636(n)+∑[n²]` -/
 def P8210637377450370102.Spec : Prop :=
   ∀ n, P8210637377450370102.a n = A296197 (n + 1)
-
-end A296197
-
-/-! ## A296197.P6876602293633250974
-
-`∑[n²]+∑[A011934(n)]`
--/
-
-namespace A296197.P6876602293633250974
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011934 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) + ∑ j ∈ Finset.range (n + 1), f2 j
-
-end
-
-end A296197.P6876602293633250974
-
-namespace A296197
-
-/-- `∑[n²]+∑[A011934(n)]` -/
-def P6876602293633250974.Spec : Prop :=
-  ∀ n, P6876602293633250974.a n = A296197 (n + 1)
 
 end A296197
 

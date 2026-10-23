@@ -53,7 +53,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -8934,6 +8933,28 @@ end
 
 end A206287.P10507635648384114929
 
+/-! ## A206287.P1786961052127986134
+
+`∪[A206288(n+1), A306661(n+1)]`
+-/
+
+namespace A206287.P1786961052127986134
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A206288 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306661 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A206287.P1786961052127986134
+
 /-! ## A206287.P2545718270954908911
 
 `∩[A250040(n+1), A109860(n)]`
@@ -8955,28 +8976,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A206287.P2545718270954908911
-
-/-! ## A206287.P10614235146289892886
-
-`∩[A250040(n+1), A325395(n+1)]`
--/
-
-namespace A206287.P10614235146289892886
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A250040 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325395 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A206287.P10614235146289892886
 
 /-!
 # A206288: Nonprime numbers with all divisors starting with digit 1.

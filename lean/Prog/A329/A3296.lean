@@ -753,6 +753,29 @@ def P7133027266677314559.Spec : Prop :=
 
 end A329601
 
+/-! ## A329601.P2937531567240703516
+
+`gcd(A048767(n+1), A186944(n+1))`
+-/
+
+namespace A329601.P2937531567240703516
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A048767 (n + 1)) (A186944 (n + 1))
+
+end
+
+end A329601.P2937531567240703516
+
+namespace A329601
+
+/-- `gcd(A048767(n+1), A186944(n+1))` -/
+def P2937531567240703516.Spec : Prop :=
+  ∀ n, (P2937531567240703516.a n : ℤ) = A329601 (n + 1)
+
+end A329601
+
 /-!
 # A329602: Square root of largest square dividing A108951(n), where A108951 is fully multiplicative with a(prime(i)) = prime(i)# = Product_{i=1..i} A000040(i).
 
@@ -5237,6 +5260,28 @@ end A329629.P2862317524891447862
 The programs for A329630, there is no canonical definition to state claims against.
 -/
 
+/-! ## A329630.P15467985474728533749
+
+`∩[A302478(n+1), A340104(n+1)]`
+-/
+
+namespace A329630.P15467985474728533749
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A302478 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340104 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329630.P15467985474728533749
+
 /-! ## A329630.P360007070038965202
 
 `∩[A302534(n+1), A320628(n+1)]`
@@ -5324,28 +5369,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A329630.P14310883737072026450
-
-/-! ## A329630.P11001379941818204462
-
-`∩[A320628(n+1), A382201(n+1)]`
--/
-
-namespace A329630.P11001379941818204462
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320628 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A382201 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A329630.P11001379941818204462
 
 /-!
 # A329631: Irregular triangle read by rows where row n lists the prime indices of the n-th squarefree number.

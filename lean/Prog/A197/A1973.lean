@@ -51,7 +51,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1704,6 +1703,28 @@ end
 
 end A197318.P14851761449865800826
 
+/-! ## A197318.P7204575164640547490
+
+`∩[A005117(n+1), A027897(n+1)]`
+-/
+
+namespace A197318.P7204575164640547490
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027897 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A197318.P7204575164640547490
+
 /-! ## A197318.P898571048359460630
 
 `filter[A027897(n+1), A323154(#)]`
@@ -1757,24 +1778,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197318.P8245566905191975277
-
-/-! ## A197318.P10442199998323251188
-
-`filter[A027897(n+1), A353559(#)]`
--/
-
-namespace A197318.P10442199998323251188
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027897 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353559 (f1 j).toNat = 1) n)
-
-end
-
-end A197318.P10442199998323251188
 
 /-!
 # A197320: a(n) = cosh(n*arccosh(2^n)).

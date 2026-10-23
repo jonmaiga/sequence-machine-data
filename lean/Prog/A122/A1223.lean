@@ -55,6 +55,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -5181,6 +5182,36 @@ end
 
 end A122347.P15775575731158916313
 
+/-! ## A122347.P10655825907470986938
+
+`A057163(A082360(A082358(A082355(n))))`
+-/
+
+namespace A122347.P10655825907470986938
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057163 (A082360 (A082358 (A082355 n).toNat).toNat).toNat
+
+end
+
+end A122347.P10655825907470986938
+
+/-! ## A122347.P16550624459115586772
+
+`A057163(A082360(A082356(A082357(n))))`
+-/
+
+namespace A122347.P16550624459115586772
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057163 (A082360 (A082356 (A082357 n).toNat).toNat).toNat
+
+end
+
+end A122347.P16550624459115586772
+
 /-! ## A122347.P10311712207388823777
 
 `A130921(A130921(A057501(A086426(n))))`
@@ -5195,36 +5226,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122347.P10311712207388823777
-
-/-! ## A122347.P13249115008608119883
-
-`A057163(A082360(A057163(A082358(A082357(n)))))`
--/
-
-namespace A122347.P13249115008608119883
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057163 (A082360 (A057163 (A082358 (A082357 n).toNat).toNat).toNat).toNat
-
-end
-
-end A122347.P13249115008608119883
-
-/-! ## A122347.P9591270252447606900
-
-`A082360(A082357(A082356(A082358(A082355(n)))))`
--/
-
-namespace A122347.P9591270252447606900
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A082360 (A082357 (A082356 (A082358 (A082355 n).toNat).toNat).toNat).toNat
-
-end
-
-end A122347.P9591270252447606900
 
 /-!
 # A122348: Row 4 of A122202.
@@ -9781,12 +9782,12 @@ theorem P14502299646733092786.correct : P14502299646733092786.Spec := by
 
 end A122391
 
-/-! ## A122391.P1658265702479755713
+/-! ## A122391.P14034403081094060067
 
-`ogf((-1+x+x^2-x^3)/(-1+2x))`
+`ogf((1-x-x^2+x^3)/(1-2x))`
 -/
 
-namespace A122391.P1658265702479755713
+namespace A122391.P14034403081094060067
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -9794,13 +9795,13 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A122391.P1658265702479755713
+end A122391.P14034403081094060067
 
 namespace A122391
 
-/-- `ogf((-1+x+x^2-x^3)/(-1+2x))` -/
-def P1658265702479755713.Spec : Prop :=
-  ∀ n, P1658265702479755713.a n = A122391 n
+/-- `ogf((1-x-x^2+x^3)/(1-2x))` -/
+def P14034403081094060067.Spec : Prop :=
+  ∀ n, P14034403081094060067.a n = A122391 n
 
 end A122391
 
@@ -10224,25 +10225,25 @@ end A122391
 /-!
 # A122392: Dimension of 3-variable non-commutative harmonics (Hausdorff derivative). The dimension of the space of non-commutative polynomials in 3 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( w ) = sum over all subwords of w deleting xi once).
 
-The programs for A122392, the canonical program `A122392.P7331985287370614680` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122392 has offset 0).
+The programs for A122392, the canonical program `A122392.P1836896874529161510` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122392 has offset 0).
 
 The definition of A122392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A122392.P7331985287370614680
+/-! ## A122392.P1836896874529161510
 
-`ogf((-1+x+x^2-x^4-x^5+x^6)/(-1+3x))`
+`ogf((1-x-x^2+x^4+x^5-x^6)/(1-3x))`
 
 The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A122392
 
-/-- `ogf((-1+x+x^2-x^4-x^5+x^6)/(-1+3x))` -/
-def P7331985287370614680.Spec : Prop :=
-  ∀ n, P7331985287370614680.a n = A122392 n
+/-- `ogf((1-x-x^2+x^4+x^5-x^6)/(1-3x))` -/
+def P1836896874529161510.Spec : Prop :=
+  ∀ n, P1836896874529161510.a n = A122392 n
 
-theorem P7331985287370614680.correct : P7331985287370614680.Spec := by
+theorem P1836896874529161510.correct : P1836896874529161510.Spec := by
   intro n
   simp only [A122392]
 

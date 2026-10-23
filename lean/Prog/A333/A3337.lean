@@ -57,7 +57,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B007.C002
@@ -4784,25 +4783,25 @@ end A333762.P7290999518784833415
 /-!
 # A333763: a(n) = A161604(n) / A030101(A161604(n)).
 
-The programs for A333763, the canonical program `A333763.P14005245914271309442` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333763 has offset 1).
-
-The definition of A333763 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030101, A161604, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The programs for A333763, there is no canonical definition to state claims against.
 -/
 
 /-! ## A333763.P14005245914271309442
 
 `A161604(n+1)/A030101(A161604(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A333763
+namespace A333763.P14005245914271309442
+noncomputable section
 
-/-- `A161604(n+1)/A030101(A161604(n+1))` -/
-def P14005245914271309442.Spec : Prop :=
-  ∀ n, P14005245914271309442.a n = (A333763 (n + 1) : ℚ)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A161604 (n + 1) : ℚ) / (A030101 (A161604 (n + 1)).toNat : ℚ)
 
-end A333763
+end
+
+end A333763.P14005245914271309442
 
 /-! ## A333763.P13665888745015570399
 
@@ -4819,14 +4818,6 @@ end
 
 end A333763.P13665888745015570399
 
-namespace A333763
-
-/-- `2^val(A161604(n+1), 2)` -/
-def P13665888745015570399.Spec : Prop :=
-  ∀ n, (P13665888745015570399.a n : ℤ) = A333763 (n + 1)
-
-end A333763
-
 /-! ## A333763.P8875095980068111719
 
 `A000079(val(A161604(n+1), 2))`
@@ -4841,14 +4832,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333763.P8875095980068111719
-
-namespace A333763
-
-/-- `A000079(val(A161604(n+1), 2))` -/
-def P8875095980068111719.Spec : Prop :=
-  ∀ n, P8875095980068111719.a n = A333763 (n + 1)
-
-end A333763
 
 /-! ## A333763.P11737406047005971061
 
@@ -4865,14 +4848,6 @@ end
 
 end A333763.P11737406047005971061
 
-namespace A333763
-
-/-- `2^val(A057890(n+2), 2)` -/
-def P11737406047005971061.Spec : Prop :=
-  ∀ n, (P11737406047005971061.a n : ℤ) = A333763 (n + 1)
-
-end A333763
-
 /-! ## A333763.P658882127850087622
 
 `A000079(val(A057890(n+2), 2))`
@@ -4887,14 +4862,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333763.P658882127850087622
-
-namespace A333763
-
-/-- `A000079(val(A057890(n+2), 2))` -/
-def P658882127850087622.Spec : Prop :=
-  ∀ n, P658882127850087622.a n = A333763 (n + 1)
-
-end A333763
 
 /-! ## A333763.P7215413024425737940
 
@@ -4911,14 +4878,6 @@ end
 
 end A333763.P7215413024425737940
 
-namespace A333763
-
-/-- `A118824(A272670(n+1))` -/
-def P7215413024425737940.Spec : Prop :=
-  ∀ n, P7215413024425737940.a n = A333763 (n + 1)
-
-end A333763
-
 /-! ## A333763.P883312460159430837
 
 `A006519(A161604(n+1))`
@@ -4933,14 +4892,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333763.P883312460159430837
-
-namespace A333763
-
-/-- `A006519(A161604(n+1))` -/
-def P883312460159430837.Spec : Prop :=
-  ∀ n, P883312460159430837.a n = A333763 (n + 1)
-
-end A333763
 
 /-! ## A333763.P6601316752767294398
 
@@ -4957,14 +4908,6 @@ end
 
 end A333763.P6601316752767294398
 
-namespace A333763
-
-/-- `A006519(A057890(n+2))` -/
-def P6601316752767294398.Spec : Prop :=
-  ∀ n, P6601316752767294398.a n = A333763 (n + 1)
-
-end A333763
-
 /-! ## A333763.P11333401520959033963
 
 `A006519(A272670(n+1)/2)`
@@ -4979,14 +4922,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333763.P11333401520959033963
-
-namespace A333763
-
-/-- `A006519(A272670(n+1)/2)` -/
-def P11333401520959033963.Spec : Prop :=
-  ∀ n, P11333401520959033963.a n = A333763 (n + 1)
-
-end A333763
 
 /-! ## A333763.P2704434115431273820
 
@@ -5009,14 +4944,6 @@ end
 
 end A333763.P2704434115431273820
 
-namespace A333763
-
-/-- `2^val(lt[A280506(n+1), 2]+1, 2)` -/
-def P2704434115431273820.Spec : Prop :=
-  ∀ n, (P2704434115431273820.a n : ℤ) = A333763 (n + 1)
-
-end A333763
-
 /-! ## A333763.P14994104097026376658
 
 `A006519(record[A280505(n+1)])`
@@ -5035,14 +4962,6 @@ end
 
 end A333763.P14994104097026376658
 
-namespace A333763
-
-/-- `A006519(record[A280505(n+1)])` -/
-def P14994104097026376658.Spec : Prop :=
-  ∀ n, P14994104097026376658.a n = A333763 (n + 1)
-
-end A333763
-
 /-! ## A333763.P8515616347680506890
 
 `gcd(A000079(n), A161604(n+1))`
@@ -5057,14 +4976,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333763.P8515616347680506890
-
-namespace A333763
-
-/-- `gcd(A000079(n), A161604(n+1))` -/
-def P8515616347680506890.Spec : Prop :=
-  ∀ n, (P8515616347680506890.a n : ℤ) = A333763 (n + 1)
-
-end A333763
 
 /-!
 # A333764: Numbers k such that the k-th composition in standard order is a co-necklace.

@@ -3895,6 +3895,34 @@ end
 end A130051.P12186241541460465766
 
 /-!
+# A130052: Numbers that are the sum of one or more consecutive squares in more than one way.
+
+The programs for A130052, there is no canonical definition to state claims against.
+-/
+
+/-! ## A130052.P1017132425193701038
+
+`∪[A062681(n+1), A151557(n+1)]`
+-/
+
+namespace A130052.P1017132425193701038
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062681 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151557 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A130052.P1017132425193701038
+
+/-!
 # A130053: G.f. A(x) = (1-x+x^2)/(1-x)^3 - x*[Sum_{n>=0} x^(n + 2^n)]/(1-x)^2.
 
 The programs for A130053, there is no canonical definition to state claims against.
@@ -8715,7 +8743,7 @@ end A130083
 /-!
 # A130084: Smallest number whose tenth power has at least n digits.
 
-The programs for A130084, the canonical program `A130084.P4885622109009049702` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130084 has offset 1).
+The programs for A130084, the canonical program `A130084.P4885622109009049702` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130084 has offset 1).
 
 The definition of A130084 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8724,7 +8752,7 @@ The definition of A130084 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(root(10^n, 10))`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C019`.
 -/
 
 namespace A130084

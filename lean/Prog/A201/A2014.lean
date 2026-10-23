@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -46,7 +47,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -2305,6 +2305,29 @@ def P2312582387214078944.Spec : Prop :=
 
 end A201455
 
+/-! ## A201455.P4319932289978479168
+
+`4*(a(n-1)-(a(n-1)/4-a(n-2)))` with `a(0)=2, a(1)=3`
+-/
+
+namespace A201455.P4319932289978479168
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [2, 3] fun n a =>
+  4 * (a (n - 1) - (a (n - 1) / 4 - a (n - 2)))
+
+end
+
+end A201455.P4319932289978479168
+
+namespace A201455
+
+/-- `4*(a(n-1)-(a(n-1)/4-a(n-2)))` -/
+def P4319932289978479168.Spec : Prop :=
+  ∀ n, P4319932289978479168.a n = (A201455 n : ℚ)
+
+end A201455
+
 /-! ## A201455.P4728576520302848214
 
 `record[abs(A009116(2*n)+1)]`
@@ -2328,6 +2351,75 @@ namespace A201455
 /-- `record[abs(A009116(2*n)+1)]` -/
 def P4728576520302848214.Spec : Prop :=
   ∀ n, P4728576520302848214.a n = A201455 n
+
+end A201455
+
+/-! ## A201455.P11469682247089930720
+
+`xor(A024023(n), A087452(n))`
+-/
+
+namespace A201455.P11469682247089930720
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A024023 n) (A087452 n)
+
+end
+
+end A201455.P11469682247089930720
+
+namespace A201455
+
+/-- `xor(A024023(n), A087452(n))` -/
+def P11469682247089930720.Spec : Prop :=
+  ∀ n, P11469682247089930720.a n = A201455 n
+
+end A201455
+
+/-! ## A201455.P17661164629193672993
+
+`A140407(A047468(n+1))`
+-/
+
+namespace A201455.P17661164629193672993
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140407 (A047468 (n + 1)).toNat
+
+end
+
+end A201455.P17661164629193672993
+
+namespace A201455
+
+/-- `A140407(A047468(n+1))` -/
+def P17661164629193672993.Spec : Prop :=
+  ∀ n, P17661164629193672993.a n = A201455 n
+
+end A201455
+
+/-! ## A201455.P10501240957699426785
+
+`sqrt(A238187(4*n))`
+-/
+
+namespace A201455.P10501240957699426785
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A238187 (4 * n) : ℝ)
+
+end
+
+end A201455.P10501240957699426785
+
+namespace A201455
+
+/-- `sqrt(A238187(4*n))` -/
+def P10501240957699426785.Spec : Prop :=
+  ∀ n, P10501240957699426785.a n = (A201455 n : ℝ)
 
 end A201455
 
@@ -2990,25 +3082,25 @@ end A201470.P6213497274623669625
 /-!
 # A201471: Maximal diameter of a connected n-gamma_t-vertex-critical graph.
 
-The programs for A201471, the canonical program `A201471.P12147765584364781612` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201471 has offset 3).
+The programs for A201471, the canonical program `A201471.P1715519536346885849` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201471 has offset 3).
 
 The definition of A201471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A201471.P12147765584364781612
+/-! ## A201471.P1715519536346885849
 
-`a(n-1)+gcd(n, a(n-2))+a(n-2)%2` with `a(0)=3, a(1)=4`
+`ogf((3-2x+x^2-x^3+x^4+2x^6-2x^7)/(1-2x+x^2))`
 
 The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201471
 
-/-- `a(n-1)+gcd(n, a(n-2))+a(n-2)%2` -/
-def P12147765584364781612.Spec : Prop :=
-  ∀ n, (P12147765584364781612.a n : ℤ) = A201471 (n + 3)
+/-- `ogf((3-2x+x^2-x^3+x^4+2x^6-2x^7)/(1-2x+x^2))` -/
+def P1715519536346885849.Spec : Prop :=
+  ∀ n, P1715519536346885849.a n = A201471 (n + 3)
 
-theorem P12147765584364781612.correct : P12147765584364781612.Spec := by
+theorem P1715519536346885849.correct : P1715519536346885849.Spec := by
   intro n
   simp only [A201471, Nat.add_sub_cancel]
 

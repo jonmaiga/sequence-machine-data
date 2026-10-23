@@ -1917,6 +1917,29 @@ theorem P9155242093717820697.correct : P9155242093717820697.Spec := by
 
 end A164413
 
+/-! ## A164413.P12134677317753643673
+
+`ogf((1+x+x^2+2x^3+x^4+x^5+x^6)/(1-x-x^2))`
+-/
+
+namespace A164413.P12134677317753643673
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 1, 1, 2, 1, 1, 1] [1, -1, -1] n
+
+end
+
+end A164413.P12134677317753643673
+
+namespace A164413
+
+/-- `ogf((1+x+x^2+2x^3+x^4+x^5+x^6)/(1-x-x^2))` -/
+def P12134677317753643673.Spec : Prop :=
+  ∀ n, P12134677317753643673.a n = A164413 n
+
+end A164413
+
 /-! ## A164413.P10572532816614302536
 
 `ceil(A192960(2*n)/A020701(n))`

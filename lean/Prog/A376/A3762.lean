@@ -30,6 +30,7 @@ import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -2274,6 +2275,50 @@ end
 
 end A376235.P5233894610581201492
 
+/-! ## A376235.P17408315052430144003
+
+`∩[A023688(n+1), A105170(n+1)]`
+-/
+
+namespace A376235.P17408315052430144003
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023688 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105170 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376235.P17408315052430144003
+
+/-! ## A376235.P2493929820925443859
+
+`∩[A023688(n+1), A177681(n+1)]`
+-/
+
+namespace A376235.P2493929820925443859
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023688 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177681 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376235.P2493929820925443859
+
 /-!
 # A376236: Ludic Fortunate numbers: a(n) = N(P(n)+1) - P(n), where N(x) = min {L in A003309 | L > x} is the next larger ludic number and P(n) = Prod_{k=1..n} A003309[n].
 
@@ -3128,6 +3173,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376256.P13803455753109240942
+
+/-! ## A376256.P16763585482865742955
+
+`∩[A174131(n+1), A266047(n+1)]`
+-/
+
+namespace A376256.P16763585482865742955
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174131 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266047 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376256.P16763585482865742955
+
+/-! ## A376256.P3858323287427835832
+
+`∩[A096850(n+1), A366142(n+1)]`
+-/
+
+namespace A376256.P3858323287427835832
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096850 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366142 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376256.P3858323287427835832
 
 /-!
 # A376257: a(n) = (n - c(n))*(-1)^c(n), where c(n) is the product of the digits of n (A007954).

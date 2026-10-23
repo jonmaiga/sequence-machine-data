@@ -56,6 +56,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -988,6 +989,28 @@ end A360825.P12388547976292397972
 
 The programs for A360827, there is no canonical definition to state claims against.
 -/
+
+/-! ## A360827.P1308036526249487419
+
+`∩[A062304(n+1), A359387(n+1)]`
+-/
+
+namespace A360827.P1308036526249487419
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062304 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359387 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360827.P1308036526249487419
 
 /-! ## A360827.P11775234407266983370
 
@@ -3235,6 +3258,32 @@ def P7038618525971059090.Spec : Prop :=
 theorem P7038618525971059090.correct : P7038618525971059090.Spec := by
   intro n
   simp only [A360874, Nat.add_sub_cancel]
+
+end A360874
+
+/-! ## A360874.P4692023055001922403
+
+`A360873(∑[n+1]+2)`
+-/
+
+namespace A360874.P4692023055001922403
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360873 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
+
+end
+
+end A360874.P4692023055001922403
+
+namespace A360874
+
+/-- `A360873(∑[n+1]+2)` -/
+def P4692023055001922403.Spec : Prop :=
+  ∀ n, P4692023055001922403.a n = A360874 (n + 1)
 
 end A360874
 

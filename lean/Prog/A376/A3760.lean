@@ -28,11 +28,9 @@ import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -43,11 +41,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -674,6 +670,28 @@ end
 
 end A376013.P12838525484465118979
 
+/-! ## A376013.P13649539670602728271
+
+`∩[A067377(n+1), A163635(n+1)]`
+-/
+
+namespace A376013.P13649539670602728271
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067377 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A163635 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376013.P13649539670602728271
+
 /-! ## A376013.P11761212939075852997
 
 `∩[A050207(n+1), A060328(n+1)]`
@@ -1117,6 +1135,29 @@ namespace A376022
 /-- `floor(n-(n+1)²/(a(n-1)+n+1))` -/
 def P17015968493692028309.Spec : Prop :=
   ∀ n, P17015968493692028309.a n = A376022 (n + 1)
+
+end A376022
+
+/-! ## A376022.P9461725499408538281
+
+`floor(a(n-1)/(a(n-1)/(n+1)+1))-1` with `a(0)=1`
+-/
+
+namespace A376022.P9461725499408538281
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ⌊(a (n - 1) : ℚ) / ((a (n - 1) : ℚ) / (n + 1 : ℚ) + 1)⌋ - 1
+
+end
+
+end A376022.P9461725499408538281
+
+namespace A376022
+
+/-- `floor(a(n-1)/(a(n-1)/(n+1)+1))-1` -/
+def P9461725499408538281.Spec : Prop :=
+  ∀ n, P9461725499408538281.a n = A376022 (n + 1)
 
 end A376022
 
@@ -1581,6 +1622,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A376045.P5912095386591779396
+
+/-! ## A376045.P5415319638444906762
+
+`comp[A330355(n)]`
+-/
+
+namespace A376045.P5415319638444906762
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330355 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A376045.P5415319638444906762
 
 /-! ## A376045.P6056623116564874422
 
@@ -2733,6 +2793,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A376065.P12661371123274781198
+
+/-! ## A376065.P12329856244833980518
+
+`∩[A376617(n+1), A384010(n+1)]`
+-/
+
+namespace A376065.P12329856244833980518
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376617 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384010 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A376065.P12329856244833980518
 
 /-!
 # A376066: Minimum number of unit squares needed to cover the circumference of a circle of radius n.

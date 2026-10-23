@@ -18887,7 +18887,7 @@ end A074582
 /-!
 # A074583: Numbers k such that sopfr(k) = S(k), where sopfr = A001414 and S = A002034.
 
-The programs for A074583, the canonical program `A074583.P15123226653629379694` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074583 has offset 1).
+The programs for A074583, the canonical program `A074583.P15123226653629379694` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074583 has offset 1).
 
 The definition of A074583 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A192188, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -18896,7 +18896,7 @@ The definition of A074583 is `conditional`: the Lean definition is an OEIS formu
 
 `A000961(A192188(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A074583

@@ -8083,19 +8083,19 @@ end
 
 end A260381.P16073171356445017161
 
-/-! ## A260381.P12357764672827653304
+/-! ## A260381.P7427834319269421721
 
-`∩[A386187(n+1), A386181(n+1)]`
+`∩[A386181(n+1), A386187(n+1)]`
 -/
 
-namespace A260381.P12357764672827653304
+namespace A260381.P7427834319269421721
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386187 (n + 1)
+  A386181 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386181 (n + 1)
+  A386187 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8103,7 +8103,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A260381.P12357764672827653304
+end A260381.P7427834319269421721
 
 /-! ## A260381.P9518386688970898464
 
@@ -8463,6 +8463,28 @@ end
 
 end A260382.P17308380457827664292
 
+/-! ## A260382.P1810354857458021484
+
+`∩[A386182(n+1), A386187(n+1)]`
+-/
+
+namespace A260382.P1810354857458021484
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386182 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386187 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A260382.P1810354857458021484
+
 /-! ## A260382.P3296632161873076238
 
 `∩[A281093(n+1), A386185(n+1)]`
@@ -8770,28 +8792,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A260382.P10528164445135064603
-
-/-! ## A260382.P12686757094527301384
-
-`∩[A091633(n+1), A386187(n+1)]`
--/
-
-namespace A260382.P12686757094527301384
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A091633 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386187 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A260382.P12686757094527301384
 
 /-!
 # A260384: Maximal gap between successive elements of Pn with n >= 3. Pn : primes p <= A002110(n) such that q=2*A002110(n)-p is prime. (p, q) is a pair of centered primes at n-th primorial.

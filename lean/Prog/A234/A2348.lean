@@ -74,6 +74,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 /-!
 # A234801: Start of a record-breaking run of consecutive arithmetic numbers.
@@ -2530,6 +2531,72 @@ end A234840.P10962814338418350309
 The programs for A234841, there is no canonical definition to state claims against.
 -/
 
+/-! ## A234841.P3140023289168622623
+
+`∩[A009994(n+1), A028819(n+1)]`
+-/
+
+namespace A234841.P3140023289168622623
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A009994 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028819 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A234841.P3140023289168622623
+
+/-! ## A234841.P12293991678566809236
+
+`∩[A028819(n+1), A247756(n+1)]`
+-/
+
+namespace A234841.P12293991678566809236
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028819 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247756 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A234841.P12293991678566809236
+
+/-! ## A234841.P14415912578990117109
+
+`∩[A028819(n+1), A381509(n+1)]`
+-/
+
+namespace A234841.P14415912578990117109
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028819 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A381509 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A234841.P14415912578990117109
+
 /-! ## A234841.P6655776140787929461
 
 `eq[n², A028907(A004185(n))]`
@@ -2571,69 +2638,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A234841.P16835129273138990437
-
-/-! ## A234841.P595721156261009314
-
-`eq[(A193581(n)+n)², A028907(n)]`
--/
-
-namespace A234841.P595721156261009314
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A193581 n + (n : ℤ)) ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028907 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A234841.P595721156261009314
-
-/-! ## A234841.P1109958228443389946
-
-`eq[n², A028907(A070196(n)-n)]`
--/
-
-namespace A234841.P1109958228443389946
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028907 (A070196 n - (n : ℤ)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A234841.P1109958228443389946
-
-/-! ## A234841.P2670771205571697165
-
-`eq[A028907(A004185(n))+n, A002378(n)]`
--/
-
-namespace A234841.P2670771205571697165
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028907 (A004185 n).toNat + (n : ℤ)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002378 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A234841.P2670771205571697165
 
 /-!
 # A234843: Number of commutative inverse semigroups of order n.

@@ -4340,6 +4340,29 @@ def P4405684386450479731.Spec : Prop :=
 
 end A058182
 
+/-! ## A058182.P9240896500804362621
+
+`a(n-2)+a(n-1)*a(n-1)` with `a(0)=1, a(1)=0`
+-/
+
+namespace A058182.P9240896500804362621
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 0] fun n a =>
+  a (n - 2) + a (n - 1) * a (n - 1)
+
+end
+
+end A058182.P9240896500804362621
+
+namespace A058182
+
+/-- `a(n-2)+a(n-1)*a(n-1)` -/
+def P9240896500804362621.Spec : Prop :=
+  ∀ n, (P9240896500804362621.a n : ℤ) = A058182 n
+
+end A058182
+
 /-!
 # A058183: Number of digits in concatenation of first n positive integers.
 

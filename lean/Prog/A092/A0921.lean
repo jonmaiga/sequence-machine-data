@@ -17,6 +17,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
@@ -68,6 +69,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1376,6 +1378,28 @@ end
 
 end A092109.P1586167503446759745
 
+/-! ## A092109.P5379243967536854797
+
+`∩[A015819(n+1), A015919(n+1)]`
+-/
+
+namespace A092109.P5379243967536854797
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015819 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A092109.P5379243967536854797
+
 /-! ## A092109.P2052079016533713600
 
 `p?[2*p?[2*n+1]-3]`
@@ -1598,28 +1622,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A092109.P1814882389796535951
-
-/-! ## A092109.P9415859253365706041
-
-`∩[A015819(n+1), A049098(n+1)]`
--/
-
-namespace A092109.P9415859253365706041
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015819 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049098 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A092109.P9415859253365706041
 
 /-!
 # A092110: Primes p such that 2p+3 and 2p-3 are both prime.
@@ -12057,6 +12059,29 @@ namespace A092184
 /-- `A249578(A008585(n)+1)-1` -/
 def P6079507014182826086.Spec : Prop :=
   ∀ n, P6079507014182826086.a n = A092184 n
+
+end A092184
+
+/-! ## A092184.P16969002445161108515
+
+`A001571(n)-A107401(2*n)`
+-/
+
+namespace A092184.P16969002445161108515
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001571 n - A107401 (2 * n)
+
+end
+
+end A092184.P16969002445161108515
+
+namespace A092184
+
+/-- `A001571(n)-A107401(2*n)` -/
+def P16969002445161108515.Spec : Prop :=
+  ∀ n, P16969002445161108515.a n = A092184 n
 
 end A092184
 

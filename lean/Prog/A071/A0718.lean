@@ -4104,6 +4104,28 @@ end A071836
 The programs for A071837, there is no canonical definition to state claims against.
 -/
 
+/-! ## A071837.P12997558794837471768
+
+`∩[A008478(n+1), A385288(n+1)]`
+-/
+
+namespace A071837.P12997558794837471768
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008478 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385288 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A071837.P12997558794837471768
+
 /-! ## A071837.P8162397166862717263
 
 `∩[A054411(n+1), A385288(n+1)]`
@@ -4191,28 +4213,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A071837.P18127800595264811333
-
-/-! ## A071837.P4096180142273595194
-
-`∩[A272859(n+1), A385288(n+1)]`
--/
-
-namespace A071837.P4096180142273595194
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272859 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385288 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A071837.P4096180142273595194
 
 /-!
 # A071838: a(n) = Pi(8,3)(n) + Pi(8,5)(n) - Pi(8,1)(n) - Pi(8,7)(n) where Pi(a,b)(x) denotes the number of primes in the arithmetic progression a*k + b less than or equal to x.

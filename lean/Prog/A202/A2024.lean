@@ -51,7 +51,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3218,7 +3218,7 @@ end A202449.P11532347599293207555
 /-!
 # A202451: Upper triangular Fibonacci matrix, by SW antidiagonals.
 
-The programs for A202451, the canonical program `A202451.P8607763733024815919` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202451 has offset 1).
+The programs for A202451, the canonical program `A202451.P8607763733024815919` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202451 has offset 1).
 
 The definition of A202451 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3227,7 +3227,7 @@ The definition of A202451 is `conjectured`: the Lean definition is a formula tha
 
 `A000045(A101688(n)*A143182(n))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A202451

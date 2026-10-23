@@ -7121,6 +7121,41 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A210469, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A383037.provenance : SequenceMachineLib.Provenance := .conditional
 
+/-! ## A385298.P1717443801627157010
+
+`∪[A010785(n), A097256(n)]`
+-/
+
+namespace A385298.P1717443801627157010
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010785 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097256 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385298.P1717443801627157010
+
+noncomputable section
+
+/-- A385298: Numbers whose digits all belong to the same residue class mod 9.
+
+Offset 1, canonical program `A385298.P1717443801627157010`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A385298 (n : ℕ) : ℤ :=
+  (A385298.P1717443801627157010.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A385298.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A394454.P627526309176184517
 
 `A008472(A000984(n+1))`

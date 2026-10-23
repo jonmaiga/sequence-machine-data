@@ -1811,6 +1811,29 @@ def P15041251631724956917.Spec : Prop :=
 
 end A369817
 
+/-! ## A369817.P1863338327843663996
+
+`A023443(A370754(n+1))`
+-/
+
+namespace A369817.P1863338327843663996
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A370754 (n + 1)).toNat
+
+end
+
+end A369817.P1863338327843663996
+
+namespace A369817
+
+/-- `A023443(A370754(n+1))` -/
+def P1863338327843663996.Spec : Prop :=
+  ∀ n, P1863338327843663996.a n = A369817 (n + 1)
+
+end A369817
+
 /-!
 # A369818: The sixth term of the greedy B_n set of natural numbers.
 

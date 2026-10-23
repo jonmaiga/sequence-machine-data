@@ -1870,6 +1870,36 @@ def P2125154358250520072.Spec : Prop :=
 
 end A360417
 
+/-! ## A360417.P14661170118313275303
+
+`∩[A061887(n), A360418(n+1)]`
+-/
+
+namespace A360417.P14661170118313275303
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061887 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360418 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360417.P14661170118313275303
+
+namespace A360417
+
+/-- `∩[A061887(n), A360418(n+1)]` -/
+def P14661170118313275303.Spec : Prop :=
+  ∀ n, (P14661170118313275303.a n : ℤ) = A360417 n
+
+end A360417
+
 /-!
 # A360418: Numbers k such that, in a listing of all congruence classes of positive integers, the k-th congruence class contains k. Here the class r mod m (with r in {1,...,m}) precedes the class a' mod b' (with r' in {1,...,m'}) iff m < m' or r > r'.
 
@@ -2307,6 +2337,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A360425.P7255443554379672270
+
+/-! ## A360425.P5822545036638742205
+
+`A112587(A333501(n+1))`
+-/
+
+namespace A360425.P5822545036638742205
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112587 (A333501 (n + 1)).toNat
+
+end
+
+end A360425.P5822545036638742205
+
+/-! ## A360425.P1698889802360304728
+
+`A112587(A247809(n+2))`
+-/
+
+namespace A360425.P1698889802360304728
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112587 (A247809 (n + 2)).toNat
+
+end
+
+end A360425.P1698889802360304728
 
 /-!
 # A360426: Number of permutations of [2n] having exactly n alternating up/down runs where the first run is not a down run.
@@ -4410,6 +4470,21 @@ end
 
 end A360448.P16510173850390487059
 
+/-! ## A360448.P8300984925657304536
+
+`A297109(A081091(n+1)²)`
+-/
+
+namespace A360448.P8300984925657304536
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297109 (A081091 (n + 1) ^ 2).toNat
+
+end
+
+end A360448.P8300984925657304536
+
 /-!
 # A360452: Number of fractions c/d with |c| <= d <= 2n and odd denominator when factors of 2 are canceled.
 
@@ -6367,6 +6442,36 @@ def P2739919682955376910.Spec : Prop :=
 
 end A360477
 
+/-! ## A360477.P596155772929482120
+
+`∪[A005180(n+1), A359870(n+1)]`
+-/
+
+namespace A360477.P596155772929482120
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005180 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359870 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360477.P596155772929482120
+
+namespace A360477
+
+/-- `∪[A005180(n+1), A359870(n+1)]` -/
+def P596155772929482120.Spec : Prop :=
+  ∀ n, (P596155772929482120.a n : ℤ) = A360477 (n + 1)
+
+end A360477
+
 /-!
 # A360480: a(n) = number of numbers k < n, with gcd(k, n) > 1, such that there is at least one prime divisor p | k that does not divide n, and at least one prime divisor q | n that does not divide k.
 
@@ -7339,6 +7444,29 @@ namespace A360488
 /-- `A153795(n)-A055999(n)` -/
 def P16102072972559983051.Spec : Prop :=
   ∀ n, P16102072972559983051.a n = A360488 n
+
+end A360488
+
+/-! ## A360488.P17171729289454789064
+
+`A153780(n)-A056126(n)`
+-/
+
+namespace A360488.P17171729289454789064
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153780 n - A056126 n
+
+end
+
+end A360488.P17171729289454789064
+
+namespace A360488
+
+/-- `A153780(n)-A056126(n)` -/
+def P17171729289454789064.Spec : Prop :=
+  ∀ n, P17171729289454789064.a n = A360488 n
 
 end A360488
 

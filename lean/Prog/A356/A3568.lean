@@ -41,7 +41,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -743,6 +742,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356823.P13910296452898930055
+
+/-! ## A356823.P13013095310003919235
+
+`A028898(A278038(n))`
+-/
+
+namespace A356823.P13013095310003919235
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028898 (A278038 n).toNat
+
+end
+
+end A356823.P13013095310003919235
 
 /-!
 # A356824: Palindromes that can be written as the sum of two palindromic primes.
@@ -2371,43 +2385,24 @@ end
 
 end A356842.P12910609404975985988
 
-/-! ## A356842.P15720196355828141571
+/-! ## A356842.P14838604347363612722
 
-`A000188(comp[A356841(n+1)]²)`
+`comp[A356841(n+1)]`
 -/
 
-namespace A356842.P15720196355828141571
+namespace A356842.P14838604347363612722
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A356841 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A356842.P15720196355828141571
-
-/-! ## A356842.P11985705061243922052
-
-`A000196(comp[A356841(n+1)]²)`
--/
-
-namespace A356842.P11985705061243922052
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356841 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 2)
-
-end
-
-end A356842.P11985705061243922052
+end A356842.P14838604347363612722
 
 /-!
 # A356843: Numbers k such that the k-th composition in standard order covers an interval of positive integers (gapless) but contains no 1's.
@@ -3060,30 +3055,32 @@ def P2534169764191300545.Spec : Prop :=
 
 end A356844
 
-/-! ## A356844.P6917066403553099234
+/-! ## A356844.P6192373942824051950
 
-`comp[A213064(n)]`
+`eq[0, A085405(n)]`
 -/
 
-namespace A356844.P6917066403553099234
+namespace A356844.P6192373942824051950
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213064 n
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
 
-open Classical in
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085405 n
+
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
 
 end
 
-end A356844.P6917066403553099234
+end A356844.P6192373942824051950
 
 namespace A356844
 
-/-- `comp[A213064(n)]` -/
-def P6917066403553099234.Spec : Prop :=
-  ∀ n, (P6917066403553099234.a n : ℤ) = A356844 (n + 1)
+/-- `eq[0, A085405(n)]` -/
+def P6192373942824051950.Spec : Prop :=
+  ∀ n, (P6192373942824051950.a n : ℤ) = A356844 (n + 1)
 
 end A356844
 
@@ -8440,8 +8437,29 @@ end A356896
 /-!
 # A356897: Nonnegative numbers whose maximal tribonacci representation (A352103) ends in an odd number of 1's.
 
-The programs for A356897, there is no canonical definition to state claims against.
+The programs for A356897, the canonical program `A356897.P2059016504799580943` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356897 has offset 1).
+
+The definition of A356897 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5440 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A356897.P2059016504799580943
+
+`comp[A356896(n+1)]`
+
+The canonical program, it is in `Seq.B010.C000`.
+-/
+
+namespace A356897
+
+/-- `comp[A356896(n+1)]` -/
+def P2059016504799580943.Spec : Prop :=
+  ∀ n, (P2059016504799580943.a n : ℤ) = A356897 (n + 1)
+
+theorem P2059016504799580943.correct : P2059016504799580943.Spec := by
+  intro n
+  simp only [A356897, Nat.add_sub_cancel]
+
+end A356897
 
 /-! ## A356897.P15817678952514018550
 
@@ -8464,6 +8482,14 @@ end
 
 end A356897.P15817678952514018550
 
+namespace A356897
+
+/-- `eq[0, (A356898(n)+1)%2]` -/
+def P15817678952514018550.Spec : Prop :=
+  ∀ n, (P15817678952514018550.a n : ℤ) = A356897 (n + 1)
+
+end A356897
+
 /-! ## A356897.P2118372490021739392
 
 `lt[(A356898(n+1)+1)%2, 1]+1`
@@ -8484,6 +8510,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356897.P2118372490021739392
+
+namespace A356897
+
+/-- `lt[(A356898(n+1)+1)%2, 1]+1` -/
+def P2118372490021739392.Spec : Prop :=
+  ∀ n, (P2118372490021739392.a n : ℤ) = A356897 (n + 1)
+
+end A356897
 
 /-! ## A356897.P737488379931505520
 
@@ -8506,6 +8540,14 @@ end
 
 end A356897.P737488379931505520
 
+namespace A356897
+
+/-- `eq[2, A000034(A356898(n))]` -/
+def P737488379931505520.Spec : Prop :=
+  ∀ n, (P737488379931505520.a n : ℤ) = A356897 (n + 1)
+
+end A356897
+
 /-! ## A356897.P13309517040513600
 
 `eq[1, A040001(A356898(n)+2)]`
@@ -8526,6 +8568,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A356897.P13309517040513600
+
+namespace A356897
+
+/-- `eq[1, A040001(A356898(n)+2)]` -/
+def P13309517040513600.Spec : Prop :=
+  ∀ n, (P13309517040513600.a n : ℤ) = A356897 (n + 1)
+
+end A356897
 
 /-! ## A356897.P18074093142318824243
 
@@ -8548,30 +8598,13 @@ end
 
 end A356897.P18074093142318824243
 
-/-! ## A356897.P6106144828401781231
+namespace A356897
 
-`eq[0, char[A356896(n+1)]]`
--/
+/-- `lt[A356908(A356898(n)+1), 1]` -/
+def P18074093142318824243.Spec : Prop :=
+  ∀ n, (P18074093142318824243.a n : ℤ) = A356897 (n + 1)
 
-namespace A356897.P6106144828401781231
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A356896 (n + 1)
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A356897.P6106144828401781231
+end A356897
 
 /-!
 # A356898: a(n) is the number of trailing 1's in the maximal tribonacci representation of n (A352103).

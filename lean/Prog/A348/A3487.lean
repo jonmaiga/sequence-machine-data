@@ -17,6 +17,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
@@ -83,6 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A348702: Square array T(n, k) (n>=1, k>=1) read by antidiagonals upwards. T(n, k) is the number of partitions of the set [n] into lists of k noncrossing sets.
@@ -4040,6 +4042,28 @@ end A348741.P10476772389012561290
 The programs for A348742, there is no canonical definition to state claims against.
 -/
 
+/-! ## A348742.P7235344925490072197
+
+`∪[A016754(n), A175915(n+1)]`
+-/
+
+namespace A348742.P7235344925490072197
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016754 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175915 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348742.P7235344925490072197
+
 /-! ## A348742.P11446159171025341756
 
 `∪[A348743(n+1), A016754(n)]`
@@ -4061,6 +4085,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A348742.P11446159171025341756
+
+/-! ## A348742.P7412027983961565974
+
+`∪[A016754(n), A387709(n+1)]`
+-/
+
+namespace A348742.P7412027983961565974
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016754 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387709 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348742.P7412027983961565974
 
 /-! ## A348742.P13339453915375949386
 
@@ -4101,36 +4147,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A348742.P17247889762395868162
-
-/-! ## A348742.P18378735197901628742
-
-`A016754(n)-A184955(A214846(n))`
--/
-
-namespace A348742.P18378735197901628742
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016754 n - A184955 (A214846 n).toNat
-
-end
-
-end A348742.P18378735197901628742
-
-/-! ## A348742.P584246577916399676
-
-`A016754(n)-A258850(A289481(n))`
--/
-
-namespace A348742.P584246577916399676
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016754 n - A258850 (A289481 n).toNat
-
-end
-
-end A348742.P584246577916399676
 
 /-!
 # A348744: Lexicographically earliest bijection from primes to odd primes where each prime of the form 4k+1 is mapped to the next larger prime that is of the same form.
@@ -5874,19 +5890,19 @@ end A348753.P15209972625365513946
 The programs for A348754, there is no canonical definition to state claims against.
 -/
 
-/-! ## A348754.P1173901038384666533
+/-! ## A348754.P3040253278501834875
 
-`∩[A143718(n+1), A016921(n)]`
+`∩[A192489(n+1), A349931(n+1)]`
 -/
 
-namespace A348754.P1173901038384666533
+namespace A348754.P3040253278501834875
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143718 (n + 1)
+  A192489 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016921 n
+  A349931 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5894,7 +5910,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A348754.P1173901038384666533
+end A348754.P3040253278501834875
+
+/-! ## A348754.P13208809298475295658
+
+`∩[A332075(n+1), A349931(n+1)]`
+-/
+
+namespace A348754.P13208809298475295658
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332075 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349931 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348754.P13208809298475295658
 
 /-!
 # A348755: Product_{n>=1} (1 + x^n)^a(n) = 1 + x + x^2 + 2 * Sum_{n>=3} a(n)*x^n.

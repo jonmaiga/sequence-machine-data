@@ -50,7 +50,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -62,6 +61,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -451,6 +451,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A114802.P2777796204491888869
+
+/-! ## A114802.P9395320965455646714
+
+`∩[A114801(n+1), A325152(n+1)]`
+-/
+
+namespace A114802.P9395320965455646714
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114801 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325152 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A114802.P9395320965455646714
 
 /-!
 # A114803: Integers when g2^3-27*g3^2=0 in cubic polynomials of the form: w^2=4*x^3-g2*x-g3.
@@ -1810,6 +1832,28 @@ end
 
 end A114813.P15579595308078415718
 
+/-! ## A114813.P8969764807455955808
+
+`∩[A037918(n+1), A114843(n+1)]`
+-/
+
+namespace A114813.P8969764807455955808
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037918 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114843 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A114813.P8969764807455955808
+
 /-! ## A114813.P1495826138164152121
 
 `eq[8, A286545(A138153(n+1))]`
@@ -1851,6 +1895,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A114813.P840989445946387463
+
+/-! ## A114813.P11427242172585429119
+
+`∩[A114843(n+1), A174331(n+1)]`
+-/
+
+namespace A114813.P11427242172585429119
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114843 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A174331 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A114813.P11427242172585429119
 
 /-!
 # A114814: Indices of Fibonacci numbers with 5 prime factors when counted with multiplicity.
@@ -6276,6 +6342,36 @@ namespace A114871
 /-- `∪[A006093(n+1), A114873(n+1)]` -/
 def P17192219090397120658.Spec : Prop :=
   ∀ n, (P17192219090397120658.a n : ℤ) = A114871 (n + 1)
+
+end A114871
+
+/-! ## A114871.P9131391067771770803
+
+`∪[A114873(n+1), A114874(n+1)]`
+-/
+
+namespace A114871.P9131391067771770803
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114873 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114874 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A114871.P9131391067771770803
+
+namespace A114871
+
+/-- `∪[A114873(n+1), A114874(n+1)]` -/
+def P9131391067771770803.Spec : Prop :=
+  ∀ n, (P9131391067771770803.a n : ℤ) = A114871 (n + 1)
 
 end A114871
 

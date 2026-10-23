@@ -1593,6 +1593,21 @@ end
 
 end A343811.P11741649547277650540
 
+/-! ## A343811.P9761620900708588272
+
+`A068149(A027584(n))`
+-/
+
+namespace A343811.P9761620900708588272
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068149 (A027584 n).toNat
+
+end
+
+end A343811.P9761620900708588272
+
 /-!
 # A343813: Number of partitions of prime(n) containing at least one prime.
 
@@ -3585,6 +3600,28 @@ end A343832.P9552773531132142026
 The programs for A343833, there is no canonical definition to state claims against.
 -/
 
+/-! ## A343833.P15746234800549221854
+
+`∩[A038611(n+1), A343915(n)]`
+-/
+
+namespace A343833.P15746234800549221854
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038611 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343915 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343833.P15746234800549221854
+
 /-! ## A343833.P4599355909263039656
 
 `p?[A343915(n)]`
@@ -3638,24 +3675,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343833.P9468978978787625104
-
-/-! ## A343833.P10363648547072768576
-
-`filter[A343915(n), A327861(#)]`
--/
-
-namespace A343833.P10363648547072768576
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343915 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A327861 (f1 j).toNat = 1) n)
-
-end
-
-end A343833.P10363648547072768576
 
 /-!
 # A343834: Primes with digits in nondecreasing order, only primes, and with sum of digits also a prime.
@@ -5210,6 +5229,50 @@ end
 
 end A343855.P4303385216719962878
 
+/-! ## A343855.P12273700769380917108
+
+`∩[A052382(n+1), A244283(n+1)]`
+-/
+
+namespace A343855.P12273700769380917108
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052382 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244283 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343855.P12273700769380917108
+
+/-! ## A343855.P15177930670536938151
+
+`∩[A039118(n+1), A244283(n+1)]`
+-/
+
+namespace A343855.P15177930670536938151
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039118 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244283 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343855.P15177930670536938151
+
 /-! ## A343855.P13890480148563918232
 
 `∩[A244283(n+1), A357474(n+1)]`
@@ -5231,27 +5294,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A343855.P13890480148563918232
-
-/-! ## A343855.P12982265631835842260
-
-`lt[log(A138902(n)), A193095(n)]`
--/
-
-namespace A343855.P12982265631835842260
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.log (A138902 n : ℝ)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193095 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℝ)) n
-
-end
-
-end A343855.P12982265631835842260
 
 /-!
 # A343856: Irregular table read by rows; the first row is [1]; to obtain the next row, replace each odd-indexed term u with (u, u), and each even-indexed term v with (2*v).

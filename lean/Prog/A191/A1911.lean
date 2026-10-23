@@ -18889,6 +18889,32 @@ def P1090646995027754214.Spec : Prop :=
 
 end A191188
 
+/-! ## A191188.P16606849868336820725
+
+`ceil(cos(ratio[n^n]))`
+-/
+
+namespace A191188.P16606849868336820725
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈Real.cos ((f1 (n + 1) : ℚ) / (f1 n : ℚ) : ℝ)⌉
+
+end
+
+end A191188.P16606849868336820725
+
+namespace A191188
+
+/-- `ceil(cos(ratio[n^n]))` -/
+def P16606849868336820725.Spec : Prop :=
+  ∀ n, P16606849868336820725.a n = A191188 (n + 1)
+
+end A191188
+
 /-!
 # A191189: Integers in (3+A191132)/4; contains A191132 as a proper subsequence.
 

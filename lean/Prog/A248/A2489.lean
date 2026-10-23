@@ -35,7 +35,6 @@ import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -45,11 +44,12 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -826,6 +826,33 @@ The programs for A248910, the canonical program `A248910.P11530105690920292692` 
 
 The definition of A248910 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A248910.P10000130001074099531
+
+`comp[A382416(n+1)]`
+-/
+
+namespace A248910.P10000130001074099531
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382416 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A248910.P10000130001074099531
+
+namespace A248910
+
+/-- `comp[A382416(n+1)]` -/
+def P10000130001074099531.Spec : Prop :=
+  ∀ n, (P10000130001074099531.a n : ℤ) = A248910 (n + 1)
+
+end A248910
 
 /-! ## A248910.P7748266821893091076
 
@@ -3809,6 +3836,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A248960.P1519491111762267077
+
+/-! ## A248960.P16762031326788341243
+
+`filter[A317589(2*n+1), A373371(#)]`
+-/
+
+namespace A248960.P16762031326788341243
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317589 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A373371 (f1 j).toNat = 1) n)
+
+end
+
+end A248960.P16762031326788341243
 
 /-!
 # A248961: Sums of wrecker ball sequences starting with n.

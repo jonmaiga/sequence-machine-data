@@ -50,6 +50,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -82,6 +83,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A346900: Number of partitions of the (n+7)-multiset {1,2,...,n,1,2,...,7} into distinct multisets.
@@ -2092,6 +2094,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A346928.P9564436482443977119
+
+/-! ## A346928.P5003278960963099176
+
+`A324392(A386822(n))`
+-/
+
+namespace A346928.P5003278960963099176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324392 (A386822 n).toNat
+
+end
+
+end A346928.P5003278960963099176
 
 /-!
 # A346935: a(n) = Sum_{d|n} mu(n/d) * binomial(4*d,d) / (3*d+1).

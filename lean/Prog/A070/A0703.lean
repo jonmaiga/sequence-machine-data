@@ -28,7 +28,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C038
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
@@ -81,6 +80,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -589,6 +589,55 @@ namespace A070302
 /-- `∑[A008706(n)+n*A010003(n)]` -/
 def P1216307774743874157.Spec : Prop :=
   ∀ n, P1216307774743874157.a n = A070302 (n + 1)
+
+end A070302
+
+/-! ## A070302.P9335379849043484181
+
+`A211439(∑[3*n])`
+-/
+
+namespace A070302.P9335379849043484181
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3 * n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211439 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A070302.P9335379849043484181
+
+namespace A070302
+
+/-- `A211439(∑[3*n])` -/
+def P9335379849043484181.Spec : Prop :=
+  ∀ n, P9335379849043484181.a n = A070302 (n + 1)
+
+end A070302
+
+/-! ## A070302.P4056292522019779595
+
+`A025766(A164136(n))`
+-/
+
+namespace A070302.P4056292522019779595
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025766 (A164136 n).toNat
+
+end
+
+end A070302.P4056292522019779595
+
+namespace A070302
+
+/-- `A025766(A164136(n))` -/
+def P4056292522019779595.Spec : Prop :=
+  ∀ n, P4056292522019779595.a n = A070302 (n + 1)
 
 end A070302
 
@@ -5533,6 +5582,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A070330.P9167133095312667332
+
+/-! ## A070330.P12573307305427485850
+
+`∩[A070331(n+1), A392710(n+1)]`
+-/
+
+namespace A070330.P12573307305427485850
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070331 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392710 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A070330.P12573307305427485850
 
 /-!
 # A070331: Numbers in which suffixing or inserting a 0 anywhere yields only composite numbers.

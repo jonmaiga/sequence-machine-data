@@ -6469,6 +6469,21 @@ end
 
 end A243061.P8878081244598657401
 
+/-! ## A243061.P6315908747897870463
+
+`A064216(A243065(A244154(A156552(n+1))))`
+-/
+
+namespace A243061.P6315908747897870463
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A064216 (A243065 (A244154 (A156552 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A243061.P6315908747897870463
+
 /-!
 # A243062: Permutation of natural numbers, a composition of A048673 and A241909: a(n) = A241909(A048673(n)).
 
@@ -6962,6 +6977,21 @@ end
 
 end A243065.P9646969510486607363
 
+/-! ## A243065.P2837392686741822591
+
+`A241909(A249818(A250470(A249817(2*n+1))))`
+-/
+
+namespace A243065.P2837392686741822591
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241909 (A249818 (A250470 (A249817 (2 * n + 1)).toNat).toNat).toNat
+
+end
+
+end A243065.P2837392686741822591
+
 /-! ## A243065.P16415481003389446206
 
 `A279356(A250470(2*(2*n+1)))`
@@ -7021,21 +7051,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A243065.P13866075246674176907
-
-/-! ## A243065.P17814330305302731725
-
-`A241909(2*n+1)/A011782(2*n+1)*A011782(2*n)`
--/
-
-namespace A243065.P17814330305302731725
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A241909 (2 * n + 1) : ℚ) / (A011782 (2 * n + 1) : ℚ) * (A011782 (2 * n) : ℚ)
-
-end
-
-end A243065.P17814330305302731725
 
 /-!
 # A243066: Permutation of natural numbers, the even bisection of A241909 incremented by one and halved; equally, a composition of A241909 and A048673: a(n) = A048673(A241909(n)).
@@ -10637,6 +10652,28 @@ end
 
 end A243090.P6200226380827304903
 
+/-! ## A243090.P6839691044805924402
+
+`∩[A087969(n+1), A122785(n+1)]`
+-/
+
+namespace A243090.P6839691044805924402
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087969 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122785 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243090.P6839691044805924402
+
 /-! ## A243090.P15883428028120866467
 
 `∩[A020137(n+1), A328120(n+1)]`
@@ -10659,6 +10696,28 @@ end
 
 end A243090.P15883428028120866467
 
+/-! ## A243090.P8366833080494735805
+
+`∩[A122785(n+1), A328120(n+1)]`
+-/
+
+namespace A243090.P8366833080494735805
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122785 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328120 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A243090.P8366833080494735805
+
 /-! ## A243090.P7443424647776093962
 
 `∩[A020137(n+1), A381823(n+1)]`
@@ -10680,42 +10739,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A243090.P7443424647776093962
-
-/-! ## A243090.P18205390547740324745
-
-`filter[A020137(n+1), A359429(#)]`
--/
-
-namespace A243090.P18205390547740324745
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020137 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A359429 (f1 j).toNat = 1) n)
-
-end
-
-end A243090.P18205390547740324745
-
-/-! ## A243090.P17278806891423759438
-
-`filter[A020137(n+1), A359466(#)]`
--/
-
-namespace A243090.P17278806891423759438
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020137 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A359466 (f1 j).toNat = 1) n)
-
-end
-
-end A243090.P17278806891423759438
 
 /-!
 # A243094: Cardinality of the Weyl alternation set corresponding to the zero-weight in the representation of the Lie algebra sp(2n) whose highest weight is the second fundamental weight.

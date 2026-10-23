@@ -50,7 +50,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -6286,30 +6285,26 @@ def P14614385588402215253.Spec : Prop :=
 
 end A302048
 
-/-! ## A302048.P8496120822883910488
+/-! ## A302048.P10364742497228073609
 
-`char[A051886(n)²]`
+`A185012(A032741(n))`
 -/
 
-namespace A302048.P8496120822883910488
+namespace A302048.P10364742497228073609
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051886 n ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185012 (A032741 n).toNat
 
 end
 
-end A302048.P8496120822883910488
+end A302048.P10364742497228073609
 
 namespace A302048
 
-/-- `char[A051886(n)²]` -/
-def P8496120822883910488.Spec : Prop :=
-  ∀ n, (P8496120822883910488.a n : ℤ) = A302048 n
+/-- `A185012(A032741(n))` -/
+def P10364742497228073609.Spec : Prop :=
+  ∀ n, P10364742497228073609.a n = A302048 n
 
 end A302048
 
@@ -7271,6 +7266,25 @@ end
 
 end A302052.P6556182590846367259
 
+/-! ## A302052.P11834252136233247028
+
+`char[-A178103(n)]`
+-/
+
+namespace A302052.P11834252136233247028
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -A178103 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A302052.P11834252136233247028
+
 /-!
 # A302053: Squares (A000290) analog for nonstandard factorization process based on the sieve of Eratosthenes (A083221).
 
@@ -7850,7 +7864,7 @@ end A302055.P2367728811274916791
 /-!
 # A302056: Numbers k such that the coefficient of x^k in the expansion of Product_{j>=1} (1 - x^j)^4 is zero.
 
-The programs for A302056, the canonical program `A302056.P1047659896841164977` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302056 has offset 1).
+The programs for A302056, the canonical program `A302056.P1047659896841164977` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302056 has offset 1).
 
 The definition of A302056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7917,7 +7931,7 @@ end A302056
 
 `eq[0, A097195(n)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A302056

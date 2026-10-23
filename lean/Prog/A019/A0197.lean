@@ -8,7 +8,7 @@ import Seq.B000.C005
 import Seq.B000.C012
 import Seq.B006.C000
 import Seq.Opaque.C011
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false

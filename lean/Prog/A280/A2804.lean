@@ -25,6 +25,7 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
@@ -54,7 +55,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1983,31 +1983,27 @@ end A280411
 /-!
 # A280412: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 261", based on the 5-celled von Neumann neighborhood.
 
-The programs for A280412, the canonical program `A280412.P781452095873534352` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280412 has offset 0).
+The programs for A280412, the canonical program `A280412.P15021962492730778061` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280412 has offset 0).
 
-The definition of A280412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A280412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A280412.P15021962492730778061
 
 `ogf((1+2x-4x^2+4x^3)/(1-5x^2+4x^4))`
+
+The canonical program, it is in `Seq.B000.C033`.
 -/
-
-namespace A280412.P15021962492730778061
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 2, -4, 4] [1, 0, -5, 0, 4] n
-
-end
-
-end A280412.P15021962492730778061
 
 namespace A280412
 
 /-- `ogf((1+2x-4x^2+4x^3)/(1-5x^2+4x^4))` -/
 def P15021962492730778061.Spec : Prop :=
   ∀ n, P15021962492730778061.a n = A280412 n
+
+theorem P15021962492730778061.correct : P15021962492730778061.Spec := by
+  intro n
+  simp only [A280412]
 
 end A280412
 
@@ -2432,22 +2428,26 @@ def P15619377877872314889.Spec : Prop :=
 
 end A280412
 
-/-! ## A280412.P781452095873534352
+/-! ## A280412.P874070184993262667
 
-`5*a(n-2)-4*a(n-4)` with `a(0)=1, a(1)=2, a(2)=1, a(3)=14`
-
-The canonical program, it is in `Seq.B000.C033`.
+`A122959(A193356(n+2))`
 -/
+
+namespace A280412.P874070184993262667
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122959 (A193356 (n + 2)).toNat
+
+end
+
+end A280412.P874070184993262667
 
 namespace A280412
 
-/-- `5*a(n-2)-4*a(n-4)` -/
-def P781452095873534352.Spec : Prop :=
-  ∀ n, P781452095873534352.a n = A280412 n
-
-theorem P781452095873534352.correct : P781452095873534352.Spec := by
-  intro n
-  simp only [A280412]
+/-- `A122959(A193356(n+2))` -/
+def P874070184993262667.Spec : Prop :=
+  ∀ n, P874070184993262667.a n = A280412 n
 
 end A280412
 

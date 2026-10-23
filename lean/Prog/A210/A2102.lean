@@ -4731,52 +4731,49 @@ end
 
 end A210251.P6191452357545900508
 
-/-! ## A210251.P7430110185910972716
+/-! ## A210251.P13381816704695659080
 
-`∩[∪[A238712(n+6), n²], Δ[n²]]`
+`∩[2*n+1, A010461(n+1)]`
 -/
 
-namespace A210251.P7430110185910972716
+namespace A210251.P13381816704695659080
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238712 (n + 6)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-open Classical in
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f2 j = (x : ℤ)) ∨ ∃ j, f3 j = x) n
+  2 * n + 1
 
-def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f5 (n + 1) : ℤ) - (f5 n : ℤ)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010461 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f4 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A210251.P7430110185910972716
+end A210251.P13381816704695659080
 
-/-! ## A210251.P5388484955011533247
+/-! ## A210251.P11462743387641131706
 
-`A010461(A003144(n+1)+1)`
+`∩[2*n+1, A228642(n+1)]`
 -/
 
-namespace A210251.P5388484955011533247
+namespace A210251.P11462743387641131706
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010461 (A003144 (n + 1) + 1).toNat
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228642 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A210251.P5388484955011533247
+end A210251.P11462743387641131706
 
 /-!
 # A210253: Number of distinct residues of all factorials mod 2^n.

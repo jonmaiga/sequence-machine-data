@@ -695,6 +695,51 @@ end
 
 end A386807.P10018762964723747232
 
+/-! ## A386807.P12061000170057272303
+
+`A204166(A008007(n))`
+-/
+
+namespace A386807.P12061000170057272303
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204166 (A008007 n).toNat
+
+end
+
+end A386807.P12061000170057272303
+
+/-! ## A386807.P17182673967643340263
+
+`A204166(A008010(n))`
+-/
+
+namespace A386807.P17182673967643340263
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204166 (A008010 n).toNat
+
+end
+
+end A386807.P17182673967643340263
+
+/-! ## A386807.P17388781711071304879
+
+`A204166(A301094(n))`
+-/
+
+namespace A386807.P17388781711071304879
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A204166 (A301094 n).toNat
+
+end
+
+end A386807.P17388781711071304879
+
 /-!
 # A386808: 
 
@@ -850,6 +895,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A386808.P17264684558895176342
+
+/-!
+# A386809: Numbers that have exactly two exponents in their prime factorization that are equal to 5.
+
+The programs for A386809, there is no canonical definition to state claims against.
+-/
+
+/-! ## A386809.P1815025892847626300
+
+`∩[A195092(n+1), A384006(n+1)]`
+-/
+
+namespace A386809.P1815025892847626300
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195092 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384006 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A386809.P1815025892847626300
 
 /-!
 # A386811: a(n) = Sum_{k=0..n} binomial(4*n+1,k).
@@ -1878,6 +1951,29 @@ def P7091722832168800937.Spec : Prop :=
 
 end A386851
 
+/-! ## A386851.P269482279659815023
+
+`ceil(5/(n+1)*C(n+2, 3))`
+-/
+
+namespace A386851.P269482279659815023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈5 / (n + 1 : ℚ) * (Nat.choose (n + 2) 3 : ℚ)⌉
+
+end
+
+end A386851.P269482279659815023
+
+namespace A386851
+
+/-- `ceil(5/(n+1)*C(n+2, 3))` -/
+def P269482279659815023.Spec : Prop :=
+  ∀ n, P269482279659815023.a n = A386851 (n + 1)
+
+end A386851
+
 /-! ## A386851.P1659313422032808022
 
 `∑[floor(∑[floor(a(n-2))]/3)]` with `a(0)=2, a(1)=8`
@@ -2234,29 +2330,6 @@ namespace A386851
 /-- `A000217(n+1)+A242771(n+2)-A001399(n)` -/
 def P3749955391064534506.Spec : Prop :=
   ∀ n, P3749955391064534506.a n = A386851 (n + 1)
-
-end A386851
-
-/-! ## A386851.P15565372833741194831
-
-`A000212(n+1)+A002620(n+1)+A002620(n+1)`
--/
-
-namespace A386851.P15565372833741194831
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000212 (n + 1) + (A002620 (n + 1) + A002620 (n + 1))
-
-end
-
-end A386851.P15565372833741194831
-
-namespace A386851
-
-/-- `A000212(n+1)+A002620(n+1)+A002620(n+1)` -/
-def P15565372833741194831.Spec : Prop :=
-  ∀ n, P15565372833741194831.a n = A386851 (n + 1)
 
 end A386851
 

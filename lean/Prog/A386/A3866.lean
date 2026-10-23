@@ -7,6 +7,7 @@ import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -33,7 +34,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1416,19 +1416,19 @@ def P8905080314647403291.Spec : Prop :=
 
 end A386637
 
-/-! ## A386637.P16310698938915382461
+/-! ## A386637.P10023444746039643891
 
-`∩[A054753(n+1), A033582(n)]`
+`∩[A227854(n+1), A390252(n+1)]`
 -/
 
-namespace A386637.P16310698938915382461
+namespace A386637.P10023444746039643891
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054753 (n + 1)
+  A227854 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033582 n
+  A390252 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1436,13 +1436,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A386637.P16310698938915382461
+end A386637.P10023444746039643891
 
 namespace A386637
 
-/-- `∩[A054753(n+1), A033582(n)]` -/
-def P16310698938915382461.Spec : Prop :=
-  ∀ n, (P16310698938915382461.a n : ℤ) = A386637 (n + 1)
+/-- `∩[A227854(n+1), A390252(n+1)]` -/
+def P10023444746039643891.Spec : Prop :=
+  ∀ n, (P10023444746039643891.a n : ℤ) = A386637 (n + 1)
 
 end A386637
 
@@ -2270,6 +2270,28 @@ end
 
 end A386682.P17219830694356523830
 
+/-! ## A386682.P4233420028475766050
+
+`∩[A056020(n+1), A101170(n+1)]`
+-/
+
+namespace A386682.P4233420028475766050
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056020 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101170 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A386682.P4233420028475766050
+
 /-! ## A386682.P4975609274859576304
 
 `∩[A059094(n+1), A101170(n+1)]`
@@ -2291,6 +2313,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A386682.P4975609274859576304
+
+/-! ## A386682.P13945815609894313928
+
+`∩[A101170(n+1), A319293(n+1)]`
+-/
+
+namespace A386682.P13945815609894313928
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A101170 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319293 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A386682.P13945815609894313928
 
 /-!
 # A386684: Cubefree nonsquares with at least one prime power factor that is not square.

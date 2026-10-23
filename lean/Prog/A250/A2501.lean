@@ -6812,6 +6812,32 @@ theorem P7945464866315168914.correct : P7945464866315168914.Spec := by
 
 end A250162
 
+/-! ## A250162.P10874157369981955463
+
+`∑[A020527(n)+3]`
+-/
+
+namespace A250162.P10874157369981955463
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020527 n + 3
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A250162.P10874157369981955463
+
+namespace A250162
+
+/-- `∑[A020527(n)+3]` -/
+def P10874157369981955463.Spec : Prop :=
+  ∀ n, P10874157369981955463.a n = A250162 (n + 1)
+
+end A250162
+
 /-! ## A250162.P16951950399424880516
 
 `∑[12*C(A000079(n), 2)+3]+n+1`

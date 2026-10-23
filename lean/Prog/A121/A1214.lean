@@ -48,7 +48,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -59,7 +58,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -91,6 +89,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -105,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A121401: a(n) = ((sqrt(3)+1)^n+(sqrt(3)-1)^n)^2/2^(n+1).
 
-The programs for A121401, the canonical program `A121401.P16705120384378547019` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121401 has offset 0).
+The programs for A121401, the canonical program `A121401.P16705120384378547019` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121401 has offset 0).
 
 The definition of A121401 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -114,7 +113,7 @@ The definition of A121401 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-5*a(n-2)+a(n-3)` with `a(0)=2, a(1)=3, a(2)=8`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A121401
@@ -9279,6 +9278,29 @@ def P14739447894143848502.Spec : Prop :=
 
 end A121471
 
+/-! ## A121471.P914123846411926884
+
+`A086640(n+1)%A173102(n+1)`
+-/
+
+namespace A121471.P914123846411926884
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A086640 (n + 1)) (A173102 (n + 1))
+
+end
+
+end A121471.P914123846411926884
+
+namespace A121471
+
+/-- `A086640(n+1)%A173102(n+1)` -/
+def P914123846411926884.Spec : Prop :=
+  ∀ n, P914123846411926884.a n = A121471 (n + 1)
+
+end A121471
+
 /-!
 # A121476: Palindromes with digit sum 9.
 
@@ -9436,6 +9458,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A121477.P12169089019071247323
+
+/-! ## A121477.P5829151853295399389
+
+`filter[A121476(n+1), A306710(#)]`
+-/
+
+namespace A121477.P5829151853295399389
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A121476 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A306710 (f1 j).toNat = 1) n)
+
+end
+
+end A121477.P5829151853295399389
 
 /-!
 # A121478: Triangular numbers with three distinct prime factors.
@@ -11609,6 +11649,36 @@ namespace A121495
 /-- `∩[A007674(n+1), A255346(n+1)]` -/
 def P5513234129574438003.Spec : Prop :=
   ∀ n, (P5513234129574438003.a n : ℤ) = A121495 (n + 1)
+
+end A121495
+
+/-! ## A121495.P10548754824291051261
+
+`∩[A007674(n+1), A240593(n+1)]`
+-/
+
+namespace A121495.P10548754824291051261
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007674 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240593 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A121495.P10548754824291051261
+
+namespace A121495
+
+/-- `∩[A007674(n+1), A240593(n+1)]` -/
+def P10548754824291051261.Spec : Prop :=
+  ∀ n, (P10548754824291051261.a n : ℤ) = A121495 (n + 1)
 
 end A121495
 

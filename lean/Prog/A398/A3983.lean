@@ -34,6 +34,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -67,6 +68,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -857,6 +859,36 @@ def P14964472269570555263.Spec : Prop :=
 
 end A398316
 
+/-! ## A398316.P7296608565335206595
+
+`∩[A072357(n+1), A320632(n+1)]`
+-/
+
+namespace A398316.P7296608565335206595
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072357 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320632 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398316.P7296608565335206595
+
+namespace A398316
+
+/-- `∩[A072357(n+1), A320632(n+1)]` -/
+def P7296608565335206595.Spec : Prop :=
+  ∀ n, (P7296608565335206595.a n : ℤ) = A398316 (n + 1)
+
+end A398316
+
 /-! ## A398316.P16092218556638741738
 
 `filter[A060687(n+1), A262684(#)]`
@@ -906,6 +938,36 @@ namespace A398316
 /-- `filter[A060687(n+1), A379958(#)]` -/
 def P7966635249758099820.Spec : Prop :=
   ∀ n, P7966635249758099820.a n = A398316 (n + 1)
+
+end A398316
+
+/-! ## A398316.P14506877652582739987
+
+`∩[A060687(n+1), A320632(n+1)]`
+-/
+
+namespace A398316.P14506877652582739987
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060687 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320632 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398316.P14506877652582739987
+
+namespace A398316
+
+/-- `∩[A060687(n+1), A320632(n+1)]` -/
+def P14506877652582739987.Spec : Prop :=
+  ∀ n, (P14506877652582739987.a n : ℤ) = A398316 (n + 1)
 
 end A398316
 

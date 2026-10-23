@@ -2748,6 +2748,28 @@ end
 
 end A328822.P12237109163848647784
 
+/-! ## A328822.P5917643563736301579
+
+`∩[A015919(n+1), A328805(n+1)]`
+-/
+
+namespace A328822.P5917643563736301579
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328805 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328822.P5917643563736301579
+
 /-! ## A328822.P12402510997017467632
 
 `∩[A197504(n+1), A328805(n+1)]`
@@ -3033,28 +3055,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328822.P7339603624342701776
-
-/-! ## A328822.P7978765235583874457
-
-`∩[A216286(n+1), A328805(n+1)]`
--/
-
-namespace A328822.P7978765235583874457
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A216286 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328805 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A328822.P7978765235583874457
 
 /-!
 # A328823: a(n) is the least prime factor of A000096(n) = n*(n+3)/2.
@@ -5076,6 +5076,21 @@ end
 
 end A328831.P9693579630272513671
 
+/-! ## A328831.P1739755073527098588
+
+`A235127(A396883(n+1))`
+-/
+
+namespace A328831.P1739755073527098588
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235127 (A396883 (n + 1)).toNat
+
+end
+
+end A328831.P1739755073527098588
+
 /-!
 # A328832: Numbers that are sums of distinct primorial numbers, A002110, and do not have a factor of the form p^p.
 
@@ -5777,6 +5792,30 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328836.P11988940430867311966
+
+/-!
+# A328837: Numbers k for which A328403(k) = A276086(A276086(A276086(k))) is squarefree.
+
+The programs for A328837, there is no canonical definition to state claims against.
+-/
+
+/-! ## A328837.P11462169918912119576
+
+`filter[A328836(n+1), A085357(#)]`
+-/
+
+namespace A328837.P11462169918912119576
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328836 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A085357 (f1 j).toNat = 1) n)
+
+end
+
+end A328837.P11462169918912119576
 
 /-!
 # A328838: Numbers such that in the primorial base expansion of their squares only even digits appear.
@@ -11690,23 +11729,27 @@ end
 
 end A328883.P10203803758638127529
 
-/-! ## A328883.P16528848644594089022
+/-! ## A328883.P1935325590024303316
 
-`A061919(∑[A288318(n)!])`
+`∩[A061919(n+1), A247064(n+1)]`
 -/
 
-namespace A328883.P16528848644594089022
+namespace A328883.P1935325590024303316
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (A288318 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061919 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061919 (∑ j ∈ Finset.range (n + 1), f1 j)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247064 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A328883.P16528848644594089022
+end A328883.P1935325590024303316
 
 /-!
 # A328884: Improved version of A002685; main diagonal of A324124.
@@ -12889,6 +12932,35 @@ def P12151388207386465844.Spec : Prop :=
 
 end A328890
 
+/-! ## A328890.P17642938189766473619
+
+`∑[record[A221876(n+3)]]`
+-/
+
+namespace A328890.P17642938189766473619
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A221876 (n + 3)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A328890.P17642938189766473619
+
+namespace A328890
+
+/-- `∑[record[A221876(n+3)]]` -/
+def P17642938189766473619.Spec : Prop :=
+  ∀ n, P17642938189766473619.a n = A328890 (n + 1)
+
+end A328890
+
 /-!
 # A328891: Irregular table T(n,k) = #{m > 0: m occurs m times in the k-th partition of n, using A&S order (A036036)}, 1 <= k <= A000041(n), n >= 0.
 
@@ -13554,6 +13626,28 @@ end
 
 end A328896.P6142840125072465046
 
+/-! ## A328896.P15757125860487827570
+
+`∪[A045468(n+1), A222413(n+1)]`
+-/
+
+namespace A328896.P15757125860487827570
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045468 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A222413 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328896.P15757125860487827570
+
 /-! ## A328896.P9451311893632484125
 
 `lt[A001175(A233583(n+1)), A055672(n)]`
@@ -13574,6 +13668,34 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A328896.P9451311893632484125
+
+/-!
+# A328897: Odd numbers k > 1 such that A005179(k-1) > A005179(k) < A005179(k+1).
+
+The programs for A328897, there is no canonical definition to state claims against.
+-/
+
+/-! ## A328897.P10175207938067813710
+
+`∩[A254860(n+1), A307373(n+1)]`
+-/
+
+namespace A328897.P10175207938067813710
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A254860 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A307373 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A328897.P10175207938067813710
 
 /-!
 # A328899: Numbers k such that the k-th repunit (10^k-1)/9 sets a new record for the number of distinct prime factors.

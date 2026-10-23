@@ -22,6 +22,7 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C038
@@ -1511,7 +1512,7 @@ end A369138.P9294723201997973354
 /-!
 # A369139: Numbers k such that Omega(k) = 1 + Omega(k + 1).
 
-The programs for A369139, the canonical program `A369139.P12055519405445957885` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369139 has offset 1).
+The programs for A369139, the canonical program `A369139.P12055519405445957885` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369139 has offset 1).
 
 The definition of A369139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6620 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1520,7 +1521,7 @@ The definition of A369139 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001222(2*(n+2)), A001222(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A369139
@@ -2604,19 +2605,19 @@ end
 
 end A369150.P5408683603216992932
 
-/-! ## A369150.P10803446203508940008
+/-! ## A369150.P4082239463748736302
 
-`∩[A299117(n+1), A364997(n+1)]`
+`∩[A299117(n+1), A360767(n+1)]`
 -/
 
-namespace A369150.P10803446203508940008
+namespace A369150.P4082239463748736302
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A299117 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A364997 (n + 1)
+  A360767 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2624,7 +2625,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A369150.P10803446203508940008
+end A369150.P4082239463748736302
 
 /-!
 # A369151: Numbers with a record high excess of even over odd divisors; so indices of record lows in A048272.
@@ -2682,6 +2683,43 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369151.P15635834260656457439
+
+/-! ## A369151.P11341242055391270954
+
+`A357978(A307015(n+1))`
+-/
+
+namespace A369151.P11341242055391270954
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357978 (A307015 (n + 1)).toNat
+
+end
+
+end A369151.P11341242055391270954
+
+/-! ## A369151.P7784823140567974205
+
+`∩[A191890(n+1), A376065(n+1)]`
+-/
+
+namespace A369151.P7784823140567974205
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191890 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376065 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369151.P7784823140567974205
 
 /-!
 # A369152: Total number of digits in row n of Pascal's triangle.
@@ -3540,6 +3578,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369167.P16886142031411545223
+
+/-! ## A369167.P4929330498972991071
+
+`A295879(A259592(n))`
+-/
+
+namespace A369167.P4929330498972991071
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295879 (A259592 n).toNat
+
+end
+
+end A369167.P4929330498972991071
 
 /-!
 # A369168: Numbers k such that A000005(k) = A000688(k).

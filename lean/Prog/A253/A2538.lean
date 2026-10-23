@@ -6236,6 +6236,29 @@ def P1454142596565198425.Spec : Prop :=
 
 end A253883
 
+/-! ## A253883.P13573139608189704437
+
+`A243505(A243505(A048673(n+1)))`
+-/
+
+namespace A253883.P13573139608189704437
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A243505 (A243505 (A048673 (n + 1)).toNat).toNat
+
+end
+
+end A253883.P13573139608189704437
+
+namespace A253883
+
+/-- `A243505(A243505(A048673(n+1)))` -/
+def P13573139608189704437.Spec : Prop :=
+  ∀ n, P13573139608189704437.a n = A253883 (n + 1)
+
+end A253883
+
 /-!
 # A253884: Permutation of natural numbers: a(n) = A122111(A243506(n)).
 
@@ -8424,6 +8447,29 @@ namespace A253893
 /-- `floor(log2(A341516(2*n+1)))` -/
 def P5638592847307738254.Spec : Prop :=
   ∀ n, (P5638592847307738254.a n : ℤ) = A253893 (n + 1)
+
+end A253893
+
+/-! ## A253893.P1572428128860138426
+
+`A059939(A243502(n+1))`
+-/
+
+namespace A253893.P1572428128860138426
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059939 (A243502 (n + 1)).toNat
+
+end
+
+end A253893.P1572428128860138426
+
+namespace A253893
+
+/-- `A059939(A243502(n+1))` -/
+def P1572428128860138426.Spec : Prop :=
+  ∀ n, P1572428128860138426.a n = A253893 (n + 1)
 
 end A253893
 

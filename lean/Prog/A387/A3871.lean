@@ -1290,6 +1290,28 @@ end
 
 end A387119.P11694309008525328464
 
+/-! ## A387119.P720972843583871325
+
+`∩[A318978(n+1), A379313(n+1)]`
+-/
+
+namespace A387119.P720972843583871325
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318978 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379313 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387119.P720972843583871325
+
 /-!
 # A387121: Array read by antidiagonals: T(n,k) is the number of sets of k integer sided cuboids with distinct volumes that fill an n X n X n cube.
 
@@ -3628,6 +3650,52 @@ def P15512052575980048454.Spec : Prop :=
 
 end A387157
 
+/-! ## A387157.P11465981115676278417
+
+`A047994(A353783(n+1)/A353785(n+1))`
+-/
+
+namespace A387157.P11465981115676278417
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047994 (SequenceMachineLib.roundAway ((A353783 (n + 1) : ℚ) / (A353785 (n + 1) : ℚ))).toNat
+
+end
+
+end A387157.P11465981115676278417
+
+namespace A387157
+
+/-- `A047994(A353783(n+1)/A353785(n+1))` -/
+def P11465981115676278417.Spec : Prop :=
+  ∀ n, P11465981115676278417.a n = A387157 (n + 1)
+
+end A387157
+
+/-! ## A387157.P6309365555233954444
+
+`A062401(n+1)/A003557(A387726(n+1))`
+-/
+
+namespace A387157.P6309365555233954444
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A062401 (n + 1) : ℚ) / (A003557 (A387726 (n + 1)).toNat : ℚ)
+
+end
+
+end A387157.P6309365555233954444
+
+namespace A387157
+
+/-- `A062401(n+1)/A003557(A387726(n+1))` -/
+def P6309365555233954444.Spec : Prop :=
+  ∀ n, P6309365555233954444.a n = (A387157 (n + 1) : ℚ)
+
+end A387157
+
 /-!
 # A387159: Odd numbers k such that A173557(k) = A173557(sigma(k)), where A173557(n) is multiplicative with a(p^e) = p-1 and sigma is the sum of divisors function.
 
@@ -3824,6 +3892,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387161.P2228884935470433201
+
+/-! ## A387161.P3485780310438891408
+
+`filter[A086572(2*n+1), A379485(#)]`
+-/
+
+namespace A387161.P3485780310438891408
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086572 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A379485 (f1 j).toNat = 1) n)
+
+end
+
+end A387161.P3485780310438891408
 
 /-!
 # A387168: Number of isomorphism classes of multigraphs representing particle interactions in phi-4-theory on n non-external vertices.

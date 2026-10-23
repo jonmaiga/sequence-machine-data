@@ -75,6 +75,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -3722,6 +3723,29 @@ def P12103103984592431438.Spec : Prop :=
 
 end A203551
 
+/-! ## A203551.P7092683259113872595
+
+`A004006(n)+A002412(n)`
+-/
+
+namespace A203551.P7092683259113872595
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004006 n + A002412 n
+
+end
+
+end A203551.P7092683259113872595
+
+namespace A203551
+
+/-- `A004006(n)+A002412(n)` -/
+def P7092683259113872595.Spec : Prop :=
+  ∀ n, P7092683259113872595.a n = A203551 n
+
+end A203551
+
 /-!
 # A203552: a(n) = n*(5*n^2 - 3*n + 4) / 6.
 
@@ -4183,6 +4207,29 @@ namespace A203552
 /-- `A162147(n)-A001105(n)` -/
 def P15187255769885756613.Spec : Prop :=
   ∀ n, P15187255769885756613.a n = A203552 n
+
+end A203552
+
+/-! ## A203552.P4289206711272462521
+
+`A100503(n)-A064808(n)`
+-/
+
+namespace A203552.P4289206711272462521
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100503 n - A064808 n
+
+end
+
+end A203552.P4289206711272462521
+
+namespace A203552
+
+/-- `A100503(n)-A064808(n)` -/
+def P4289206711272462521.Spec : Prop :=
+  ∀ n, P4289206711272462521.a n = A203552 n
 
 end A203552
 
@@ -5359,6 +5406,25 @@ end A203564.P8154647598545351719
 
 The programs for A203565, there is no canonical definition to state claims against.
 -/
+
+/-! ## A203565.P15378628484513918914
+
+`comp[A236404(n+1)]`
+-/
+
+namespace A203565.P15378628484513918914
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236404 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A203565.P15378628484513918914
 
 /-! ## A203565.P16304131112198983857
 

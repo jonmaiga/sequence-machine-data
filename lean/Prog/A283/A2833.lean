@@ -6156,6 +6156,29 @@ def P2959080924255975632.Spec : Prop :=
 
 end A283353
 
+/-! ## A283353.P4017566452155267547
+
+`A068293(n)-a(n-1)` with `a(0)=1, a(1)=2`
+-/
+
+namespace A283353.P4017566452155267547
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
+  A068293 n - a (n - 1)
+
+end
+
+end A283353.P4017566452155267547
+
+namespace A283353
+
+/-- `A068293(n)-a(n-1)` -/
+def P4017566452155267547.Spec : Prop :=
+  ∀ n, P4017566452155267547.a n = A283353 n
+
+end A283353
+
 /-!
 # A283355: Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 621", based on the 5-celled von Neumann neighborhood.
 
@@ -9176,6 +9199,28 @@ end
 
 end A283391.P8735322947153755162
 
+/-! ## A283391.P2360770207396111534
+
+`∩[A065722(n+1), A110134(n+1)]`
+-/
+
+namespace A283391.P2360770207396111534
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065722 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110134 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A283391.P2360770207396111534
+
 /-!
 # A283393: a(n) = gcd(n^2-1, n^2+9).
 
@@ -9669,6 +9714,29 @@ namespace A283394
 /-- `∑[A188134(A004277(n)+1)+2+n]` -/
 def P7609340901526648942.Spec : Prop :=
   ∀ n, P7609340901526648942.a n = A283394 n
+
+end A283394
+
+/-! ## A283394.P3451258514165768459
+
+`A186752(3*(n+1)+1)`
+-/
+
+namespace A283394.P3451258514165768459
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186752 (3 * (n + 1) + 1)
+
+end
+
+end A283394.P3451258514165768459
+
+namespace A283394
+
+/-- `A186752(3*(n+1)+1)` -/
+def P3451258514165768459.Spec : Prop :=
+  ∀ n, P3451258514165768459.a n = A283394 n
 
 end A283394
 

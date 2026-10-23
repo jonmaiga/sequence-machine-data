@@ -3071,12 +3071,12 @@ end A232527.P10946093952968382461
 The programs for A232528, there is no canonical definition to state claims against.
 -/
 
-/-! ## A232528.P1476740919607688359
+/-! ## A232528.P549921706967170328
 
-`∪[A000926(n+1), A003171(n+1)]%A003171(n+1)`
+`∪[A000926(n+1), A003171(n+1)]`
 -/
 
-namespace A232528.P1476740919607688359
+namespace A232528.P549921706967170328
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -3086,12 +3086,34 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A003171 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A003171 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A232528.P1476740919607688359
+end A232528.P549921706967170328
+
+/-! ## A232528.P14979341501045150107
+
+`∪[A003171(n+1), A229461(n+1)]`
+-/
+
+namespace A232528.P14979341501045150107
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003171 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229461 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232528.P14979341501045150107
 
 /-! ## A232528.P5270242200615984844
 
@@ -3227,24 +3249,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A232528.P6189743343340623568
-
-/-! ## A232528.P16450386685670682052
-
-`record[A110654(2*n+1)/A110654(A232529(n+1))]`
--/
-
-namespace A232528.P16450386685670682052
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A110654 (2 * n + 1) : ℚ) / (A110654 (A232529 (n + 1)).toNat : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A232528.P16450386685670682052
 
 /-!
 # A232529: Least positive integer m such that for all primes p where p and p-n are quadratic residues (mod 4*n), (m^2)*p can be written as x^2+n*y^2.
@@ -5313,6 +5317,28 @@ end
 
 end A232540.P5842254761373666833
 
+/-! ## A232540.P11399870092511151555
+
+`∩[A089017(n+1), A112774(n+1)]`
+-/
+
+namespace A232540.P11399870092511151555
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089017 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112774 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232540.P11399870092511151555
+
 /-!
 # A232541: Multiplicative Smith numbers: Composite numbers n such that the product of nonzero digits of n = product of nonzero digits of prime factors of n.
 
@@ -6678,6 +6704,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A232555.P15384326643911852230
+
+/-!
+# A232556: Numbers whose sum of proper square divisors is a square greater than 1.
+
+The programs for A232556, there is no canonical definition to state claims against.
+-/
+
+/-! ## A232556.P7690440869957195051
+
+`∪[A232555(n+1), A232557(n+1)]`
+-/
+
+namespace A232556.P7690440869957195051
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232555 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232557 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232556.P7690440869957195051
 
 /-!
 # A232557: Square numbers whose sum of proper square divisors is also square greater than 1.

@@ -28,6 +28,7 @@ import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -668,6 +669,29 @@ namespace A212501
 /-- `A007715(n+1)-A185787(n+1)` -/
 def P18059193182908739943.Spec : Prop :=
   ∀ n, P18059193182908739943.a n = A212501 n
+
+end A212501
+
+/-! ## A212501.P12633205707385663669
+
+`A228394(n+1)-A000127(n+1)`
+-/
+
+namespace A212501.P12633205707385663669
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A228394 (n + 1) - A000127 (n + 1)
+
+end
+
+end A212501.P12633205707385663669
+
+namespace A212501
+
+/-- `A228394(n+1)-A000127(n+1)` -/
+def P12633205707385663669.Spec : Prop :=
+  ∀ n, P12633205707385663669.a n = A212501 n
 
 end A212501
 
@@ -4544,6 +4568,28 @@ end
 
 end A212525.P2060828100988572600
 
+/-! ## A212525.P6345200763224514346
+
+`∩[A004139(n+1), A062667(n+1)]`
+-/
+
+namespace A212525.P6345200763224514346
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004139 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062667 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A212525.P6345200763224514346
+
 /-! ## A212525.P2912480228540583626
 
 `∩[A045319(n+1), A062667(n+1)]`
@@ -4931,28 +4977,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A212525.P1265828764373787406
-
-/-! ## A212525.P13109511023019046056
-
-`∩[A062667(n+1), A110086(n+1)]`
--/
-
-namespace A212525.P13109511023019046056
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062667 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110086 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A212525.P13109511023019046056
 
 /-!
 # A212526: Negative integers in base -4.

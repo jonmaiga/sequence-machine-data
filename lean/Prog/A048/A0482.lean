@@ -15,6 +15,7 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -47,7 +48,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -7017,7 +7018,7 @@ end A048260.P10896190259825828020
 /-!
 # A048261: Numbers that are the sum of the squares of distinct primes.
 
-The programs for A048261, the canonical program `A048261.P561528646434980064` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048261 has offset 1).
+The programs for A048261, the canonical program `A048261.P561528646434980064` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048261 has offset 1).
 
 The definition of A048261 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7700 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7113,7 +7114,7 @@ end A048261
 
 `eq[A000007(n), A000007(A111900(n))]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A048261

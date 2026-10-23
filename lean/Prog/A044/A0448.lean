@@ -2816,6 +2816,21 @@ end
 
 end A044814.P2700710726537626968
 
+/-! ## A044814.P4733175284949871046
+
+`A297126(A077168(n))`
+-/
+
+namespace A044814.P4733175284949871046
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297126 (A077168 n).toNat
+
+end
+
+end A044814.P4733175284949871046
+
 /-!
 # A044815: Positive integers having distinct base-4 run lengths.
 
@@ -4689,6 +4704,28 @@ end
 
 end A044836.P12675087252530406247
 
+/-! ## A044836.P7778848887016951680
+
+`∩[A301710(n), A338754(n)]`
+-/
+
+namespace A044836.P7778848887016951680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301710 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338754 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044836.P7778848887016951680
+
 /-!
 # A044837: Positive integers having more base-11 runs of even length than odd.
 
@@ -5554,6 +5591,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044852.P5773844369824027263
+
+/-! ## A044852.P11509786889391201049
+
+`∩[A048308(n), A367612(n+1)]`
+-/
+
+namespace A044852.P11509786889391201049
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048308 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367612 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A044852.P11509786889391201049
 
 /-!
 # A044853: Positive integers having no fewer base-12 runs of even length than odd.

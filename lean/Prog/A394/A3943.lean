@@ -28,6 +28,7 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -36,11 +37,13 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1733,7 +1736,7 @@ end A394374
 /-!
 # A394380: Number of totients below 2^n.
 
-The programs for A394380, the canonical program `A394380.P12740966740896101419` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394380 has offset 1).
+The programs for A394380, the canonical program `A394380.P12740966740896101419` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394380 has offset 1).
 
 The definition of A394380 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A264810, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1742,7 +1745,7 @@ The definition of A394380 is `conditional`: the Lean definition is an OEIS formu
 
 `A264810(2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A394380
@@ -1838,10 +1841,33 @@ def P13636793848882641214.Spec : Prop :=
 
 end A394380
 
+/-! ## A394380.P18213047366288109921
+
+`A082447(A005726(n+1))`
+-/
+
+namespace A394380.P18213047366288109921
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082447 (A005726 (n + 1)).toNat
+
+end
+
+end A394380.P18213047366288109921
+
+namespace A394380
+
+/-- `A082447(A005726(n+1))` -/
+def P18213047366288109921.Spec : Prop :=
+  ∀ n, P18213047366288109921.a n = A394380 (n + 1)
+
+end A394380
+
 /-!
 # A394381: Number of totients below exp(n).
 
-The programs for A394381, the canonical program `A394381.P15980332945039088340` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394381 has offset 1).
+The programs for A394381, the canonical program `A394381.P15980332945039088340` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394381 has offset 1).
 
 The definition of A394381 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A264810, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1850,7 +1876,7 @@ The definition of A394381 is `conditional`: the Lean definition is an OEIS formu
 
 `A264810(A000149(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A394381
@@ -2331,6 +2357,28 @@ end A394394.P2236740476385141989
 The programs for A394399, there is no canonical definition to state claims against.
 -/
 
+/-! ## A394399.P2403568712365421314
+
+`∩[A000982(n), A394757(n+1)]`
+-/
+
+namespace A394399.P2403568712365421314
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000982 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394757 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394399.P2403568712365421314
+
 /-! ## A394399.P12828516323327878053
 
 `∩[A394757(n+1), A001105(n)]`
@@ -2418,26 +2466,4 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A394399.P12535087174365572566
-
-/-! ## A394399.P657286697827717675
-
-`∩[A154670(n+1), A394757(n+1)]`
--/
-
-namespace A394399.P657286697827717675
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154670 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394757 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A394399.P657286697827717675
 

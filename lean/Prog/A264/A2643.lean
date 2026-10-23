@@ -3218,6 +3218,28 @@ end A264354.P9660838388157897525
 The programs for A264355, there is no canonical definition to state claims against.
 -/
 
+/-! ## A264355.P14994442970919183054
+
+`∪[A263012(n+1), A264354(n+1)]`
+-/
+
+namespace A264355.P14994442970919183054
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263012 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264354 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A264355.P14994442970919183054
+
 /-! ## A264355.P11807963806333365363
 
 `∪[4*A261246(n+1), A263012(n+1)]`
@@ -3283,50 +3305,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A264355.P1775817402949607401
-
-/-! ## A264355.P17133456213952725857
-
-`∪[A263012(n+1), A264354(n+1)]%A264352(n+1)`
--/
-
-namespace A264355.P17133456213952725857
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263012 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264354 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A264352 (n + 1))
-
-end
-
-end A264355.P17133456213952725857
-
-/-! ## A264355.P6414666818641422664
-
-`∪[A264354(n+1), A263012(n+1)]%A263012(3*n+4)`
--/
-
-namespace A264355.P6414666818641422664
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264354 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263012 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A263012 (3 * n + 4))
-
-end
-
-end A264355.P6414666818641422664
 
 /-!
 # A264357: Array A(r, n) of number of independent components of a symmetric traceless tensor of rank r and dimension n, written as triangle T(n, r) = A(r, n-r+2), n >= 1, r = 2..n+1.

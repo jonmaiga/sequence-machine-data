@@ -1031,6 +1031,36 @@ def P15199225726764089353.Spec : Prop :=
 
 end A315907
 
+/-! ## A315907.P17786399352859168538
+
+`∩[A004277(n), A047275(n+1)]`
+-/
+
+namespace A315907.P17786399352859168538
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004277 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047275 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A315907.P17786399352859168538
+
+namespace A315907
+
+/-- `∩[A004277(n), A047275(n+1)]` -/
+def P17786399352859168538.Spec : Prop :=
+  ∀ n, (P17786399352859168538.a n : ℤ) = A315907 n
+
+end A315907
+
 /-!
 # A315908: Coordination sequence Gal.6.510.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 

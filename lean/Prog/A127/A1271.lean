@@ -52,7 +52,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -64,6 +63,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -300,6 +300,28 @@ end
 
 end A127102.P12494657109030288445
 
+/-! ## A127102.P3214713101661685252
+
+`∩[A014949(n+1), A177908(n+1)]`
+-/
+
+namespace A127102.P3214713101661685252
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014949 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A177908 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127102.P3214713101661685252
+
 /-! ## A127102.P3008834283948610948
 
 `A177908(∪[A081549(n+1), A033887(n)])`
@@ -343,28 +365,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A127102.P10513264373250455234
-
-/-! ## A127102.P740231462416391616
-
-`A177908(∪[A081549(n+1), A177914(n+1)])`
--/
-
-namespace A127102.P740231462416391616
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081549 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177914 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177908 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A127102.P740231462416391616
 
 /-!
 # A127103: Numbers k such that k^2 divides 3^k-1.
@@ -415,6 +415,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A127103.P10654999991349601419
+
+/-! ## A127103.P18065895218668894698
+
+`∩[A068382(n+1), A125774(n+1)]`
+-/
+
+namespace A127103.P18065895218668894698
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068382 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125774 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127103.P18065895218668894698
+
+/-! ## A127103.P17282219546716760696
+
+`∩[A093547(n+1), A125774(n+1)]`
+-/
+
+namespace A127103.P17282219546716760696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A093547 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125774 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127103.P17282219546716760696
 
 /-! ## A127103.P6090651994746299242
 
@@ -554,6 +598,28 @@ end
 
 end A127104.P10523588587869217056
 
+/-! ## A127104.P11647640149634738069
+
+`∩[A128396(n+1), A129212(n+1)]`
+-/
+
+namespace A127104.P11647640149634738069
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128396 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129212 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127104.P11647640149634738069
+
 /-! ## A127104.P1601059283259373190
 
 `∩[A128396(n+1), A323203(n+1)]`
@@ -575,28 +641,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A127104.P1601059283259373190
-
-/-! ## A127104.P16343544475667794648
-
-`∩[A128396(n+1), A125227(n+3)]`
--/
-
-namespace A127104.P16343544475667794648
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A128396 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125227 (n + 3)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A127104.P16343544475667794648
 
 /-!
 # A127105: Numbers k such that k^2 divides 5^k-1.
@@ -688,19 +732,19 @@ end
 
 end A127105.P13349087074175652936
 
-/-! ## A127105.P9691078591573788720
+/-! ## A127105.P3321310979838566032
 
-`∩[A067946(n+1), A078779(n+1)]`
+`∩[A066507(n+1), A125775(n+1)]`
 -/
 
-namespace A127105.P9691078591573788720
+namespace A127105.P3321310979838566032
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067946 (n + 1)
+  A066507 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078779 (n + 1)
+  A125775 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -708,7 +752,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A127105.P9691078591573788720
+end A127105.P3321310979838566032
 
 /-!
 # A127106: Numbers k such that k^2 divides 6^k-1.

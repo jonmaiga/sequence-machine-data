@@ -2917,6 +2917,29 @@ def P7885955270810164322.Spec : Prop :=
 
 end A194431
 
+/-! ## A194431.P18269754137225511395
+
+`A054254(A133653(n+1))`
+-/
+
+namespace A194431.P18269754137225511395
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054254 (A133653 (n + 1)).toNat
+
+end
+
+end A194431.P18269754137225511395
+
+namespace A194431
+
+/-- `A054254(A133653(n+1))` -/
+def P18269754137225511395.Spec : Prop :=
+  ∀ n, P18269754137225511395.a n = A194431 (n + 1)
+
+end A194431
+
 /-!
 # A194432: D-toothpick sequence starting with a cross formed by 4 toothpicks.
 
@@ -6945,6 +6968,35 @@ namespace A194455
 /-- `∑[A004119(n)-A000918(n)]` -/
 def P6275376842387012043.Spec : Prop :=
   ∀ n, P6275376842387012043.a n = A194455 n
+
+end A194455
+
+/-! ## A194455.P13330649827239975225
+
+`∑[∑[a(n-1)²/a(n-2)]]` with `a(0)=2, a(1)=2, a(2)=1, a(3)=2`
+-/
+
+namespace A194455.P13330649827239975225
+noncomputable section
+
+def f2 : ℕ → ℚ := SequenceMachineLib.rec [2, 2, 1, 2] fun n f2 =>
+  f2 (n - 1) ^ 2 / f2 (n - 2)
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A194455.P13330649827239975225
+
+namespace A194455
+
+/-- `∑[∑[a(n-1)²/a(n-2)]]` -/
+def P13330649827239975225.Spec : Prop :=
+  ∀ n, P13330649827239975225.a n = (A194455 n : ℚ)
 
 end A194455
 

@@ -4408,6 +4408,50 @@ end
 
 end A371782.P7724689012389925193
 
+/-! ## A371782.P14990973127844755273
+
+`∪[A026424(n+1), A335448(n+1)]`
+-/
+
+namespace A371782.P14990973127844755273
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026424 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335448 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A371782.P14990973127844755273
+
+/-! ## A371782.P9264611398488048443
+
+`∪[A026424(n+1), A345171(n+1)]`
+-/
+
+namespace A371782.P9264611398488048443
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026424 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345171 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A371782.P9264611398488048443
+
 /-! ## A371782.P12857716361410040290
 
 `lt[A320656(n+1), A046563(A162341(n))]+1`
@@ -4495,43 +4539,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A371782.P7997848492474137239
-
-/-! ## A371782.P13419612817762362734
-
-`∩[A359908(n+1), A390278(n+1)]`
--/
-
-namespace A371782.P13419612817762362734
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359908 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A390278 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A371782.P13419612817762362734
-
-/-! ## A371782.P16997823323401133064
-
-`A362618(n+1)+A000007(A195923(n+1))`
--/
-
-namespace A371782.P16997823323401133064
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362618 (n + 1) + A000007 (A195923 (n + 1)).toNat
-
-end
-
-end A371782.P16997823323401133064
 
 /-!
 # A371783: Irregular triangle read by rows where T(n,k) is the number of integer partitions of n that can be partitioned into d = A027750(n,k) blocks with equal sums.

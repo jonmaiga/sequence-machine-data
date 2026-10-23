@@ -87,7 +87,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3941,6 +3941,28 @@ end
 
 end A113940.P8896261228011376848
 
+/-! ## A113940.P11204172635597506745
+
+`∩[A000217(n), A078972(n+1)]`
+-/
+
+namespace A113940.P11204172635597506745
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078972 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A113940.P11204172635597506745
+
 /-! ## A113940.P11496564391143335958
 
 `∩[A085647(n+1), A000217(n)]`
@@ -4006,28 +4028,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A113940.P8158491866020841343
-
-/-! ## A113940.P7818742728388120511
-
-`∩[A000217(n+1), A078972(n+1)]`
--/
-
-namespace A113940.P7818742728388120511
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A078972 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A113940.P7818742728388120511
 
 /-!
 # A113941: Pentagonal numbers (A000326) that are also brilliant numbers (A078972).
@@ -9609,36 +9609,26 @@ def P4813886242624877945.Spec : Prop :=
 
 end A113998
 
-/-! ## A113998.P3880183390123320281
+/-! ## A113998.P7821982474206487367
 
-`char[lt[0, A127094(n+1)]]`
+`A127013(n+1)/A277227(n+1)`
 -/
 
-namespace A113998.P3880183390123320281
+namespace A113998.P7821982474206487367
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127094 (n + 1)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f2 j : ℤ) < f3 j) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A127013 (n + 1) : ℚ) / (A277227 (n + 1) : ℚ)
 
 end
 
-end A113998.P3880183390123320281
+end A113998.P7821982474206487367
 
 namespace A113998
 
-/-- `char[lt[0, A127094(n+1)]]` -/
-def P3880183390123320281.Spec : Prop :=
-  ∀ n, (P3880183390123320281.a n : ℤ) = A113998 (n + 1)
+/-- `A127013(n+1)/A277227(n+1)` -/
+def P7821982474206487367.Spec : Prop :=
+  ∀ n, P7821982474206487367.a n = (A113998 (n + 1) : ℚ)
 
 end A113998
 

@@ -1721,6 +1721,21 @@ end
 
 end A291834.P11215318769234068451
 
+/-! ## A291834.P9620111551119462977
+
+`A291928(A043320(n+1))`
+-/
+
+namespace A291834.P9620111551119462977
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291928 (A043320 (n + 1)).toNat
+
+end
+
+end A291834.P9620111551119462977
+
 /-!
 # A291837: a(n) is the maximal value in row n of triangle A100960.
 
@@ -5248,4 +5263,70 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291899.P17937077965651932157
+
+/-! ## A291899.P11549878909502665558
+
+`∪[A034288(n+1), A247022(n+1)]`
+-/
+
+namespace A291899.P11549878909502665558
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034288 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247022 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291899.P11549878909502665558
+
+/-! ## A291899.P5445234373855851100
+
+`∪[A034288(n+1), A322676(n+1)]`
+-/
+
+namespace A291899.P5445234373855851100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034288 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322676 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291899.P5445234373855851100
+
+/-! ## A291899.P5691407769388218995
+
+`∪[A034288(n+1), A244353(n+1)]`
+-/
+
+namespace A291899.P5691407769388218995
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034288 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244353 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291899.P5691407769388218995
 

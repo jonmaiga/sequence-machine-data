@@ -898,27 +898,20 @@ end
 
 end A343715.P12984978371879444157
 
-/-! ## A343715.P708620284282113737
+/-! ## A343715.P15942302367090672965
 
-`∪[A343714(A348579(n+1)), A177678(n+4)]`
+`A343714(A348579(n+1))`
 -/
 
-namespace A343715.P708620284282113737
+namespace A343715.P15942302367090672965
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A343714 (A348579 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177678 (n + 4)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A343715.P708620284282113737
+end A343715.P15942302367090672965
 
 /-!
 # A343718: Record values in A343717.
@@ -2970,6 +2963,28 @@ end A343743.P7816013539538790362
 The programs for A343744, there is no canonical definition to state claims against.
 -/
 
+/-! ## A343744.P4518922631778606444
+
+`∩[A048737(n+1), A343681(n+1)]`
+-/
+
+namespace A343744.P4518922631778606444
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048737 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343681 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343744.P4518922631778606444
+
 /-! ## A343744.P16892294142274287832
 
 `record[A071785(A343681(n+1))]`
@@ -3005,6 +3020,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343744.P16355999260011423873
+
+/-! ## A343744.P15948405623045034479
+
+`∩[A235028(n+1), A343681(n+1)]`
+-/
+
+namespace A343744.P15948405623045034479
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235028 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343681 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343744.P15948405623045034479
+
+/-! ## A343744.P7900584766556443313
+
+`∩[A241158(n+1), A343681(n+1)]`
+-/
+
+namespace A343744.P7900584766556443313
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241158 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343681 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343744.P7900584766556443313
 
 /-!
 # A343747: The x coordinates of the points visited by a knight on a 3D cubic lattice using the step rules given in A343678.

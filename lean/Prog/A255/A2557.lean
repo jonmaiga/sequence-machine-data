@@ -89,6 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A255704: Number T(n,k) of n-node rooted trees in which the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root equals k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.
@@ -2067,6 +2068,21 @@ end
 
 end A255725.P11477554563003764452
 
+/-! ## A255725.P6062404320699102399
+
+`A287442(A381225(n))`
+-/
+
+namespace A255725.P6062404320699102399
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A287442 (A381225 n).toNat
+
+end
+
+end A255725.P6062404320699102399
+
 /-!
 # A255726: Numbers n = concat(x,y) such that the product x*y | n. No leading zeros in y allowed.
 
@@ -3214,26 +3230,105 @@ def P14185554907776366732.Spec : Prop :=
 
 end A255738
 
-/-! ## A255738.P6697788315423860492
+/-! ## A255738.P4804806831665072806
 
-`C(A053644(n), n)`
+`C(2, and(n, n-1)²)`
 -/
 
-namespace A255738.P6697788315423860492
+namespace A255738.P4804806831665072806
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A053644 n).toNat n
+  Nat.choose 2 (Int.land (n : ℤ) ((n : ℤ) - 1) ^ 2).toNat
 
 end
 
-end A255738.P6697788315423860492
+end A255738.P4804806831665072806
 
 namespace A255738
 
-/-- `C(A053644(n), n)` -/
-def P6697788315423860492.Spec : Prop :=
-  ∀ n, (P6697788315423860492.a n : ℤ) = A255738 (n + 1)
+/-- `C(2, and(n, n-1)²)` -/
+def P4804806831665072806.Spec : Prop :=
+  ∀ n, (P4804806831665072806.a n : ℤ) = A255738 (n + 1)
+
+end A255738
+
+/-! ## A255738.P12114476569813828743
+
+`and(1, char[2^n])^n`
+-/
+
+namespace A255738.P12114476569813828743
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land 1 (if ∃ j, f1 j = n then 1 else 0) ^ n
+
+end
+
+end A255738.P12114476569813828743
+
+namespace A255738
+
+/-- `and(1, char[2^n])^n` -/
+def P12114476569813828743.Spec : Prop :=
+  ∀ n, (P12114476569813828743.a n : ℤ) = A255738 (n + 1)
+
+end A255738
+
+/-! ## A255738.P16328655288492365349
+
+`round(2/(∑{p}[n, #]+2))`
+-/
+
+namespace A255738.P16328655288492365349
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (2 / ((∑ p ∈ Nat.primeFactors (f1 n), p + 2 : ℕ) : ℚ))
+
+end
+
+end A255738.P16328655288492365349
+
+namespace A255738
+
+/-- `round(2/(∑{p}[n, #]+2))` -/
+def P16328655288492365349.Spec : Prop :=
+  ∀ n, P16328655288492365349.a n = A255738 (n + 1)
+
+end A255738
+
+/-! ## A255738.P13092739491050413291
+
+`round(2^∑{p}[n, 1-#])`
+-/
+
+namespace A255738.P13092739491050413291
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((2 : ℚ) ^ (∑ p ∈ Nat.primeFactors (f1 n), (1 - (p : ℤ)) : ℤ))
+
+end
+
+end A255738.P13092739491050413291
+
+namespace A255738
+
+/-- `round(2^∑{p}[n, 1-#])` -/
+def P13092739491050413291.Spec : Prop :=
+  ∀ n, P13092739491050413291.a n = A255738 (n + 1)
 
 end A255738
 

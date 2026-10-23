@@ -7774,30 +7774,26 @@ def P13746783281817898248.Spec : Prop :=
 
 end A124754
 
-/-! ## A124754.P4030217701320302333
+/-! ## A124754.P36607241689648756
 
-`A085144(comp[n*A010059(n)])`
+`A085144(A010060(2*n+1)+2*n)`
 -/
 
-namespace A124754.P4030217701320302333
+namespace A124754.P36607241689648756
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A010059 n
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085144 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A085144 (A010060 (2 * n + 1) + (2 * n : ℤ)).toNat
 
 end
 
-end A124754.P4030217701320302333
+end A124754.P36607241689648756
 
 namespace A124754
 
-/-- `A085144(comp[n*A010059(n)])` -/
-def P4030217701320302333.Spec : Prop :=
-  ∀ n, P4030217701320302333.a n = A124754 n
+/-- `A085144(A010060(2*n+1)+2*n)` -/
+def P36607241689648756.Spec : Prop :=
+  ∀ n, P36607241689648756.a n = A124754 n
 
 end A124754
 

@@ -752,19 +752,19 @@ end
 
 end A283105.P10890354429468070745
 
-/-! ## A283105.P238408113843214989
+/-! ## A283105.P11583809186452433783
 
-`∩[A088382(n+1), A357497(n+1)]`
+`∩[A088382(n+1), A348918(n+1)]`
 -/
 
-namespace A283105.P238408113843214989
+namespace A283105.P11583809186452433783
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A088382 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357497 (n + 1)
+  A348918 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -772,7 +772,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A283105.P238408113843214989
+end A283105.P11583809186452433783
 
 /-!
 # A283106: Number of distinct envelope areas of the polyominoes of order n.

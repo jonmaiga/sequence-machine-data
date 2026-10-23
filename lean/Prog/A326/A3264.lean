@@ -1984,7 +1984,7 @@ end A326413.P1655590761007040943
 /-!
 # A326415: Dirichlet g.f.: zeta(2*s) / zeta(s)^3.
 
-The programs for A326415, the canonical program `A326415.P3514450629391365891` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326415 has offset 1).
+The programs for A326415, the canonical program `A326415.P3514450629391365891` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326415 has offset 1).
 
 The definition of A326415 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2045,7 +2045,7 @@ end A326415
 
 `∑{d}[n+1, A046692(#)*A074722((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A326415

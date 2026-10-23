@@ -1918,26 +1918,26 @@ def P8483574150447522550.Spec : Prop :=
 
 end A082727
 
-/-! ## A082727.P15926343404732580011
+/-! ## A082727.P16293457498920938359
 
-`gcd(a(n-1)+a(n-1)-n, floor(a(n-1)/n))` with `a(0)=1, a(1)=1`
+`gcd(n-a(n-1)-a(n-1), floor(a(n-1)/n))` with `a(0)=1`
 -/
 
-namespace A082727.P15926343404732580011
+namespace A082727.P16293457498920938359
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1] fun n a =>
-  Int.gcd ((a (n - 1) : ℤ) + ((a (n - 1) : ℤ) - (n : ℤ))) ⌊(a (n - 1) : ℚ) / (n : ℚ)⌋
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  Int.gcd ((n : ℤ) - (a (n - 1) : ℤ) - (a (n - 1) : ℤ)) ⌊(a (n - 1) : ℚ) / (n : ℚ)⌋
 
 end
 
-end A082727.P15926343404732580011
+end A082727.P16293457498920938359
 
 namespace A082727
 
-/-- `gcd(a(n-1)+a(n-1)-n, floor(a(n-1)/n))` -/
-def P15926343404732580011.Spec : Prop :=
-  ∀ n, (P15926343404732580011.a n : ℤ) = A082727 n
+/-- `gcd(n-a(n-1)-a(n-1), floor(a(n-1)/n))` -/
+def P16293457498920938359.Spec : Prop :=
+  ∀ n, (P16293457498920938359.a n : ℤ) = A082727 n
 
 end A082727
 

@@ -384,6 +384,28 @@ end
 
 end A226902.P5368287883199703970
 
+/-! ## A226902.P9198188749355564166
+
+`∪[A226903(n+1), A226904(n+1)]`
+-/
+
+namespace A226902.P9198188749355564166
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A226903 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A226904 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A226902.P9198188749355564166
+
 /-!
 # A226903: Shiraishi numbers: a parametrized family of solutions c to the Diophantine equation a^3 + b^3 + c^3 = d^3 with d = c+1.
 
@@ -7327,6 +7349,29 @@ def P15848049724709477674.Spec : Prop :=
 
 end A226982
 
+/-! ## A226982.P14884408142341154389
+
+`A152993(n+1)-A003165(n+1)`
+-/
+
+namespace A226982.P14884408142341154389
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A152993 (n + 1) - A003165 (n + 1)
+
+end
+
+end A226982.P14884408142341154389
+
+namespace A226982
+
+/-- `A152993(n+1)-A003165(n+1)` -/
+def P14884408142341154389.Spec : Prop :=
+  ∀ n, P14884408142341154389.a n = A226982 (n + 1)
+
+end A226982
+
 /-!
 # A226983: a(n) = ceiling(n/2) - pi(2n) + pi(n-1).
 
@@ -9219,6 +9264,29 @@ theorem P5066187686023272633.correct : P5066187686023272633.Spec := by
 
 end A226998
 
+/-! ## A226998.P11556001994942482468
+
+`n*A081131(n+1)`
+-/
+
+namespace A226998.P11556001994942482468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * A081131 (n + 1)
+
+end
+
+end A226998.P11556001994942482468
+
+namespace A226998
+
+/-- `n*A081131(n+1)` -/
+def P11556001994942482468.Spec : Prop :=
+  ∀ n, P11556001994942482468.a n = A226998 (n + 1)
+
+end A226998
+
 /-! ## A226998.P1313837352209400546
 
 `abs(n*A070896(n+1))`
@@ -9239,6 +9307,52 @@ namespace A226998
 /-- `abs(n*A070896(n+1))` -/
 def P1313837352209400546.Spec : Prop :=
   ∀ n, P1313837352209400546.a n = A226998 (n + 1)
+
+end A226998
+
+/-! ## A226998.P17186510578862464013
+
+`n/2*A066274(n+1)`
+-/
+
+namespace A226998.P17186510578862464013
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) / 2 * (A066274 (n + 1) : ℚ)
+
+end
+
+end A226998.P17186510578862464013
+
+namespace A226998
+
+/-- `n/2*A066274(n+1)` -/
+def P17186510578862464013.Spec : Prop :=
+  ∀ n, P17186510578862464013.a n = (A226998 (n + 1) : ℚ)
+
+end A226998
+
+/-! ## A226998.P6666686776678296295
+
+`(n+1)/2*A076728(n+1)`
+-/
+
+namespace A226998.P6666686776678296295
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / 2 * (A076728 (n + 1) : ℚ)
+
+end
+
+end A226998.P6666686776678296295
+
+namespace A226998
+
+/-- `(n+1)/2*A076728(n+1)` -/
+def P6666686776678296295.Spec : Prop :=
+  ∀ n, P6666686776678296295.a n = (A226998 (n + 1) : ℚ)
 
 end A226998
 

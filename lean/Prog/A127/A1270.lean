@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -3178,6 +3179,29 @@ def P2607420331216195734.Spec : Prop :=
 
 end A127040
 
+/-! ## A127040.P12156850032226636415
+
+`A098925(A074378(n+1))`
+-/
+
+namespace A127040.P12156850032226636415
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A098925 (A074378 (n + 1)).toNat
+
+end
+
+end A127040.P12156850032226636415
+
+namespace A127040
+
+/-- `A098925(A074378(n+1))` -/
+def P12156850032226636415.Spec : Prop :=
+  ∀ n, P12156850032226636415.a n = A127040 n
+
+end A127040
+
 /-!
 # A127041: Maximal value of m such that 31^m <= n! : a(n) = floor( log(n!) / log(31) ).
 
@@ -3864,6 +3888,28 @@ end
 
 end A127043.P9988055198338561087
 
+/-! ## A127043.P14708410736803997353
+
+`∩[A073527(n+1), A137669(n+1)]`
+-/
+
+namespace A127043.P14708410736803997353
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073527 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137669 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127043.P14708410736803997353
+
 /-! ## A127043.P3766993454505367082
 
 `∩[A073527(n+1), A138837(n+1)]`
@@ -3907,28 +3953,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A127043.P11482453448970563351
-
-/-! ## A127043.P5757527991550771361
-
-`∩[A073527(n+1), A158611(n+1)]`
--/
-
-namespace A127043.P5757527991550771361
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073527 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158611 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A127043.P5757527991550771361
 
 /-!
 # A127044: Squares of denominators of Sum_{k=1..p-1} 1/k^2 for p in A127042.
@@ -5118,6 +5142,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A127062.P4591693308617038996
+
+/-! ## A127062.P18056363255955769404
+
+`∩[A069118(n+1), A127061(n+1)]`
+-/
+
+namespace A127062.P18056363255955769404
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069118 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127061 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A127062.P18056363255955769404
 
 /-!
 # A127063: Primes p such that denominator of Sum_{k=1..p-1} 1/k^2 is a square and denominator Sum_{k=1..p-1} 1/k^3 is a cube and denominator Sum_{k=1..p-1} 1/k^4 is a fourth power and denominator Sum_{k=1..p-1} 1/k^5 is a fifth power.

@@ -3139,6 +3139,28 @@ end
 
 end A343338.P4489656168010834370
 
+/-! ## A343338.P3731996635574010213
+
+`∩[2*n+1, A343337(n+1)]`
+-/
+
+namespace A343338.P3731996635574010213
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343337 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343338.P3731996635574010213
+
 /-! ## A343338.P1602846746377805348
 
 `record[A000265(A343337(n+1))]`
@@ -3174,24 +3196,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343338.P15047720233381780321
-
-/-! ## A343338.P10143646491900330177
-
-`filter[A343337(n+1), A266789(#)]`
--/
-
-namespace A343338.P10143646491900330177
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343337 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A266789 (f1 j).toNat = 1) n)
-
-end
-
-end A343338.P10143646491900330177
 
 /-!
 # A343340: Numbers with a prime index dividing all the other prime indices, but with no prime index divisible by all the other prime indices.
@@ -3243,6 +3247,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A343340.P6947963133442972120
+
+/-! ## A343340.P13592716856670814930
+
+`∩[A318992(n+1), A334015(n+1)]`
+-/
+
+namespace A343340.P13592716856670814930
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318992 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334015 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343340.P13592716856670814930
+
+/-! ## A343340.P6680784314395601640
+
+`∩[2*n, A343337(n+1)]`
+-/
+
+namespace A343340.P6680784314395601640
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343337 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343340.P6680784314395601640
 
 /-!
 # A343341: Number of integer partitions of n with no part divisible by all the others.
@@ -3569,6 +3617,28 @@ end
 
 end A343343.P1378006967825535395
 
+/-! ## A343343.P6490448388159576004
+
+`∪[A006361(n), A318992(n+1)]`
+-/
+
+namespace A343343.P6490448388159576004
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006361 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318992 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343343.P6490448388159576004
+
 /-! ## A343343.P5104038306413042991
 
 `∪[A318992(n+1), A006857(n)]`
@@ -3590,28 +3660,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A343343.P5104038306413042991
-
-/-! ## A343343.P6241266811768024271
-
-`∪[A318992(n+1), A006859(n)]`
--/
-
-namespace A343343.P6241266811768024271
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318992 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006859 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343343.P6241266811768024271
 
 /-!
 # A343344: Number of integer partitions of n that are either empty, or do not have smallest part dividing all the others, but do have greatest part divisible by all the others.

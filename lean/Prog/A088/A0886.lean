@@ -3674,25 +3674,25 @@ end A088647.P3612429132250523899
 /-!
 # A088648: a(1) = 1, then the smallest odd number not occurring earlier such that the concatenation a(r), a(s) is composite for all s > r.
 
-The programs for A088648, the canonical program `A088648.P8694410833616645006` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088648 has offset 0).
+The programs for A088648, the canonical program `A088648.P12877960287944101613` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088648 has offset 0).
 
-The definition of A088648 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1176 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A088648 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A088648.P8694410833616645006
+/-! ## A088648.P12877960287944101613
 
-`A314015(A004276(n))`
+`ogf((1+3x+2x^2-2x^3+2x^5+4x^6)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A088648
 
-/-- `A314015(A004276(n))` -/
-def P8694410833616645006.Spec : Prop :=
-  ∀ n, P8694410833616645006.a n = A088648 n
+/-- `ogf((1+3x+2x^2-2x^3+2x^5+4x^6)/(1-2x+x^2))` -/
+def P12877960287944101613.Spec : Prop :=
+  ∀ n, P12877960287944101613.a n = A088648 n
 
-theorem P8694410833616645006.correct : P8694410833616645006.Spec := by
+theorem P12877960287944101613.correct : P12877960287944101613.Spec := by
   intro n
   simp only [A088648]
 
@@ -5812,6 +5812,29 @@ namespace A088679
 /-- `(2*a(n-1)-a(n-2)²)*a(n-1)` -/
 def P4467775749951687571.Spec : Prop :=
   ∀ n, P4467775749951687571.a n = A088679 n
+
+end A088679
+
+/-! ## A088679.P5288621138825051261
+
+`(2*a(n-1)-a(n-2)*a(n-2))*a(n-1)` with `a(0)=0, a(1)=1`
+-/
+
+namespace A088679.P5288621138825051261
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
+  (2 * a (n - 1) - a (n - 2) * a (n - 2)) * a (n - 1)
+
+end
+
+end A088679.P5288621138825051261
+
+namespace A088679
+
+/-- `(2*a(n-1)-a(n-2)*a(n-2))*a(n-1)` -/
+def P5288621138825051261.Spec : Prop :=
+  ∀ n, P5288621138825051261.a n = A088679 n
 
 end A088679
 

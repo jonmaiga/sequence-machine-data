@@ -55,7 +55,6 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -2606,7 +2605,7 @@ end A379830.P15913397869318728645
 /-!
 # A379832: The second Jordan totient function applied to the exponentially odd numbers.
 
-The programs for A379832, the canonical program `A379832.P7411395680414309384` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379832 has offset 1).
+The programs for A379832, the canonical program `A379832.P7411395680414309384` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379832 has offset 1).
 
 The definition of A379832 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007434, A268335, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2615,7 +2614,7 @@ The definition of A379832 is `conditional`: the Lean definition is an OEIS formu
 
 `A007434(A268335(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379832
@@ -2774,7 +2773,7 @@ end A379832
 /-!
 # A379833: The second Jordan totient function applied to the squares.
 
-The programs for A379833, the canonical program `A379833.P6496859754452473676` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379833 has offset 1).
+The programs for A379833, the canonical program `A379833.P6496859754452473676` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379833 has offset 1).
 
 The definition of A379833 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007434, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2783,7 +2782,7 @@ The definition of A379833 is `conditional`: the Lean definition is an OEIS formu
 
 `A007434(A000290(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A379833
@@ -3662,6 +3661,28 @@ end
 
 end A379839.P3213082715304273929
 
+/-! ## A379839.P13638927225802609827
+
+`∪[A001559(n), A379841(n+1)]`
+-/
+
+namespace A379839.P13638927225802609827
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001559 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379841 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379839.P13638927225802609827
+
 /-! ## A379839.P4323220351044929188
 
 `∪[A379841(n+1), A001849(n)]`
@@ -3750,19 +3771,19 @@ end
 
 end A379839.P15504533579907207311
 
-/-! ## A379839.P10446403861788695289
+/-! ## A379839.P16316793349476199963
 
-`∪[A379841(n+1), A010967(n)]`
+`∪[A010905(n), A379841(n+1)]`
 -/
 
-namespace A379839.P10446403861788695289
+namespace A379839.P16316793349476199963
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379841 (n + 1)
+  A010905 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010967 (n + 14)
+  A379841 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3770,29 +3791,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A379839.P10446403861788695289
-
-/-! ## A379839.P4213299680907665826
-
-`∪[A379841(n+1), A017233(n)]`
--/
-
-namespace A379839.P4213299680907665826
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379841 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017233 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A379839.P4213299680907665826
+end A379839.P16316793349476199963
 
 /-!
 # A379840: Numbers that are the sum + product of a unique multiset of positive integers > 1.
@@ -4827,6 +4826,66 @@ namespace A379851
 /-- `lt[∏{p}[n, ϕ²/#], 1]` -/
 def P9693600826061581405.Spec : Prop :=
   ∀ n, (P9693600826061581405.a n : ℤ) = A379851 (n + 1)
+
+end A379851
+
+/-! ## A379851.P5290552943019389455
+
+`∪[A080259(n+1), A297466(n)]`
+-/
+
+namespace A379851.P5290552943019389455
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080259 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297466 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379851.P5290552943019389455
+
+namespace A379851
+
+/-- `∪[A080259(n+1), A297466(n)]` -/
+def P5290552943019389455.Spec : Prop :=
+  ∀ n, (P5290552943019389455.a n : ℤ) = A379851 (n + 1)
+
+end A379851
+
+/-! ## A379851.P13647059037625173336
+
+`∪[A080259(n+1), A120686(n)]`
+-/
+
+namespace A379851.P13647059037625173336
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080259 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120686 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379851.P13647059037625173336
+
+namespace A379851
+
+/-- `∪[A080259(n+1), A120686(n)]` -/
+def P13647059037625173336.Spec : Prop :=
+  ∀ n, (P13647059037625173336.a n : ℤ) = A379851 (n + 1)
 
 end A379851
 
@@ -6044,19 +6103,19 @@ end
 
 end A379881.P2242451969649143242
 
-/-! ## A379881.P14404871367554621580
+/-! ## A379881.P1160981799785239809
 
-`∩[A004626(n+1), A107161(n+1)]`
+`∩[A107161(n+1), A292762(n+1)]`
 -/
 
-namespace A379881.P14404871367554621580
+namespace A379881.P1160981799785239809
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004626 (n + 1)
+  A107161 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107161 (n + 1)
+  A292762 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6064,7 +6123,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A379881.P14404871367554621580
+end A379881.P1160981799785239809
 
 /-!
 # A379882: a(n) is the length of the n-th maximal run of consecutive terms of A377091 with the same sign.

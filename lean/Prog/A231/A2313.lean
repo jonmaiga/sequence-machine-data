@@ -20,7 +20,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -836,6 +835,29 @@ namespace A231303
 /-- `A051843(n)+A051843(n)-A002415(n+1)` -/
 def P8780160436627989141.Spec : Prop :=
   ∀ n, P8780160436627989141.a n = A231303 n
+
+end A231303
+
+/-! ## A231303.P3826185004028137468
+
+`A054620(n+1)+A000292(n)-A060446(n+1)`
+-/
+
+namespace A231303.P3826185004028137468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054620 (n + 1) + (A000292 n - A060446 (n + 1))
+
+end
+
+end A231303.P3826185004028137468
+
+namespace A231303
+
+/-- `A054620(n+1)+A000292(n)-A060446(n+1)` -/
+def P3826185004028137468.Spec : Prop :=
+  ∀ n, P3826185004028137468.a n = A231303 n
 
 end A231303
 
@@ -7389,6 +7411,33 @@ namespace A231367
 /-- `A231366(n)/A078572(n+1)` -/
 def P2060128929326937424.Spec : Prop :=
   ∀ n, P2060128929326937424.a n = (A231367 n : ℚ)
+
+end A231367
+
+/-! ## A231367.P1231720542662598354
+
+`char[A338434((n+1)²)]`
+-/
+
+namespace A231367.P1231720542662598354
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338434 ((n + 1) ^ 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A231367.P1231720542662598354
+
+namespace A231367
+
+/-- `char[A338434((n+1)²)]` -/
+def P1231720542662598354.Spec : Prop :=
+  ∀ n, (P1231720542662598354.a n : ℤ) = A231367 n
 
 end A231367
 

@@ -2248,6 +2248,29 @@ def P17735012049987414674.Spec : Prop :=
 
 end A340134
 
+/-! ## A340134.P6533458445261333403
+
+`A112758(A079968(n))`
+-/
+
+namespace A340134.P6533458445261333403
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112758 (A079968 n).toNat
+
+end
+
+end A340134.P6533458445261333403
+
+namespace A340134
+
+/-- `A112758(A079968(n))` -/
+def P6533458445261333403.Spec : Prop :=
+  ∀ n, P6533458445261333403.a n = A340134 (n + 1)
+
+end A340134
+
 /-!
 # A340135: Number of pairs of independent nontrivial subsets of a finite set composed of n elements.
 
@@ -2445,6 +2468,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A340138.P15044952657352045567
+
+/-! ## A340138.P12375471753036538259
+
+`A347520(A238880(n+1))`
+-/
+
+namespace A340138.P12375471753036538259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347520 (A238880 (n + 1)).toNat
+
+end
+
+end A340138.P12375471753036538259
 
 /-!
 # A340139: a(n) = 4^((n-2)*(n-1)) * Product_{1<=i
@@ -6803,6 +6841,29 @@ namespace A340193
 /-- `n-A023443(A340192(n+1))` -/
 def P16924118747656681319.Spec : Prop :=
   ∀ n, P16924118747656681319.a n = A340193 (n + 1)
+
+end A340193
+
+/-! ## A340193.P15624955461282095197
+
+`A340196(A077168(n))`
+-/
+
+namespace A340193.P15624955461282095197
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A340196 (A077168 n).toNat
+
+end
+
+end A340193.P15624955461282095197
+
+namespace A340193
+
+/-- `A340196(A077168(n))` -/
+def P15624955461282095197.Spec : Prop :=
+  ∀ n, P15624955461282095197.a n = A340193 (n + 1)
 
 end A340193
 

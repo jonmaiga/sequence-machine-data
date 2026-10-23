@@ -56,6 +56,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1868,7 +1869,7 @@ end A201814
 /-!
 # A201815: Number of arrays of 7 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201815, the canonical program `A201815.P11071781894913851608` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201815 has offset 1).
+The programs for A201815, the canonical program `A201815.P11071781894913851608` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201815 has offset 1).
 
 The definition of A201815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1877,7 +1878,7 @@ The definition of A201815 is `conjectured`: the Lean definition is a formula tha
 
 `77*(n+1)^5+175*(n+1)^3+140*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A201815
@@ -4523,7 +4524,7 @@ end A201836.P12103490100803155880
 /-!
 # A201837: G.f.: real part of 1/(1 - i*x - i*x^2) where i=sqrt(-1).
 
-The programs for A201837, the canonical program `A201837.P3514668347834619730` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201837 has offset 0).
+The programs for A201837, the canonical program `A201837.P3514668347834619730` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201837 has offset 0).
 
 The definition of A201837 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4532,7 +4533,7 @@ The definition of A201837 is `conjectured`: the Lean definition is a formula tha
 
 `ogf(1/(1+x^2+2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A201837
@@ -9778,6 +9779,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A201879.P13315572947964149390
+
+/-! ## A201879.P524409473167570821
+
+`∩[A211485(n+1), A342525(n+1)]`
+-/
+
+namespace A201879.P524409473167570821
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211485 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342525 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A201879.P524409473167570821
+
+/-! ## A201879.P1879660004730838461
+
+`∩[A319239(n+1), A342525(n+1)]`
+-/
+
+namespace A201879.P1879660004730838461
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319239 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342525 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A201879.P1879660004730838461
 
 /-!
 # A201883: The number of simple labeled graphs on n nodes such that i) all connected components have exactly one cycle, ii) all vertices have degree at most 3, iii) vertices of degree 3 are on a cycle.

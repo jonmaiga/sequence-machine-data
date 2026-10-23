@@ -25,10 +25,12 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B001.C000
@@ -84,7 +86,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1777,6 +1778,29 @@ namespace A273407
 /-- `A004273(A003485(A103517(n)))` -/
 def P17510784666978822938.Spec : Prop :=
   ∀ n, P17510784666978822938.a n = A273407 n
+
+end A273407
+
+/-! ## A273407.P11591559373295029991
+
+`A222657(A295821(n))`
+-/
+
+namespace A273407.P11591559373295029991
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A222657 (A295821 n).toNat
+
+end
+
+end A273407.P11591559373295029991
+
+namespace A273407
+
+/-- `A222657(A295821(n))` -/
+def P11591559373295029991.Spec : Prop :=
+  ∀ n, P11591559373295029991.a n = A273407 n
 
 end A273407
 
@@ -8895,25 +8919,25 @@ end A273480
 /-!
 # A273481: First differences of number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 737", based on the 5-celled von Neumann neighborhood.
 
-The programs for A273481, the canonical program `A273481.P5475855975190356430` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273481 has offset 0).
+The programs for A273481, the canonical program `A273481.P13523417414492368252` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273481 has offset 0).
 
 The definition of A273481 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A273481.P5475855975190356430
+/-! ## A273481.P13523417414492368252
 
-`2*a(n-1)-a(n-2)` with `a(0)=3, a(1)=21, a(2)=24, a(3)=32`
+`a(n-1)+8` with `a(0)=3, a(1)=21, a(2)=24`
 
 The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A273481
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P5475855975190356430.Spec : Prop :=
-  ∀ n, P5475855975190356430.a n = A273481 n
+/-- `a(n-1)+8` -/
+def P13523417414492368252.Spec : Prop :=
+  ∀ n, (P13523417414492368252.a n : ℤ) = A273481 n
 
-theorem P5475855975190356430.correct : P5475855975190356430.Spec := by
+theorem P13523417414492368252.correct : P13523417414492368252.Spec := by
   intro n
   simp only [A273481]
 

@@ -16,7 +16,6 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -6280,6 +6279,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A209076.P13599539679620688896
+
+/-!
+# A209078: Conjectured list of values of n such that the Diophantine equation a^4 + b^4 = n*c^2 has infinitely many solutions with 0 < a < b.
+
+The programs for A209078, there is no canonical definition to state claims against.
+-/
+
+/-! ## A209078.P16418845605436009031
+
+`∩[A155561(n+1), A375474(n+1)]`
+-/
+
+namespace A209078.P16418845605436009031
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155561 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375474 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A209078.P16418845605436009031
 
 /-!
 # A209079: Integer part of sigma(m)*phi(m)/m for colossally abundant numbers m.

@@ -84,7 +84,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -2509,6 +2508,28 @@ end A359220.P3522335703921697913
 The programs for A359221, there is no canonical definition to state claims against.
 -/
 
+/-! ## A359221.P1824366785825187580
+
+`∩[A037016(n+1), A359219(n+1)]`
+-/
+
+namespace A359221.P1824366785825187580
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037016 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359219 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359221.P1824366785825187580
+
 /-! ## A359221.P14476664341124740417
 
 `A008951(A030270(n))%A004027(n)`
@@ -2538,27 +2559,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A359221.P12697750076547570107
-
-/-! ## A359221.P6526132191119228483
-
-`lt[A165012(3*n+1), A045548(A077053(2*n+1))]`
--/
-
-namespace A359221.P6526132191119228483
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165012 (3 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045548 (A077053 (2 * n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A359221.P6526132191119228483
 
 /-!
 # A359222: Number of steps to reach 0 from A359221(n) (Starting numbers that reach a new record high value during iteration by the map x->A359194(x)).

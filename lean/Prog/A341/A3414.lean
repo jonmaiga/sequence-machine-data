@@ -4739,6 +4739,21 @@ end
 
 end A341456.P9761944650042056031
 
+/-! ## A341456.P15646942153754621375
+
+`A117118(A238974(n+1))`
+-/
+
+namespace A341456.P15646942153754621375
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117118 (A238974 (n + 1)).toNat
+
+end
+
+end A341456.P15646942153754621375
+
 /-!
 # A341457: Number of partitions of n into 9 nonprime parts.
 
@@ -5461,6 +5476,29 @@ namespace A341463
 /-- `A033999(n+1)-A003462(n)*A033999(n)` -/
 def P2564897212319798618.Spec : Prop :=
   ∀ n, P2564897212319798618.a n = A341463 n
+
+end A341463
+
+/-! ## A341463.P10848773184018138321
+
+`(A005578(n)-A135351(n+1))*A007051(n)`
+-/
+
+namespace A341463.P10848773184018138321
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A005578 n - A135351 (n + 1)) * A007051 n
+
+end
+
+end A341463.P10848773184018138321
+
+namespace A341463
+
+/-- `(A005578(n)-A135351(n+1))*A007051(n)` -/
+def P10848773184018138321.Spec : Prop :=
+  ∀ n, P10848773184018138321.a n = A341463 n
 
 end A341463
 

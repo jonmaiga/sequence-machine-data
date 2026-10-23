@@ -31,7 +31,6 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2835,6 +2834,35 @@ theorem P11438099378835586002.correct : P11438099378835586002.Spec := by
       push_cast at h1 ⊢
       rw [← h1]
       first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A233656
+
+/-! ## A233656.P14123334656061500794
+
+`∑[∑[ogf((-1+2x+x^2)/(-1+3x))]]`
+-/
+
+namespace A233656.P14123334656061500794
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, -2, -1] [1, -3] n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A233656.P14123334656061500794
+
+namespace A233656
+
+/-- `∑[∑[ogf((-1+2x+x^2)/(-1+3x))]]` -/
+def P14123334656061500794.Spec : Prop :=
+  ∀ n, P14123334656061500794.a n = A233656 n
 
 end A233656
 

@@ -2709,26 +2709,26 @@ def P14314599155659573338.Spec : Prop :=
 
 end A265225
 
-/-! ## A265225.P6830107340449149106
+/-! ## A265225.P12363239365681773376
 
-`A093353(n)+n+1`
+`(n+1)*(gcd(2, n-1)+n+1)/2`
 -/
 
-namespace A265225.P6830107340449149106
+namespace A265225.P12363239365681773376
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093353 n + (n : ℤ) + 1
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1) * (Int.gcd 2 ((n : ℤ) - 1) + (n + 1)) : ℚ) / 2
 
 end
 
-end A265225.P6830107340449149106
+end A265225.P12363239365681773376
 
 namespace A265225
 
-/-- `A093353(n)+n+1` -/
-def P6830107340449149106.Spec : Prop :=
-  ∀ n, P6830107340449149106.a n = A265225 n
+/-- `(n+1)*(gcd(2, n-1)+n+1)/2` -/
+def P12363239365681773376.Spec : Prop :=
+  ∀ n, P12363239365681773376.a n = (A265225 n : ℚ)
 
 end A265225
 
@@ -8888,6 +8888,29 @@ def P17632099543039475409.Spec : Prop :=
 
 end A265283
 
+/-! ## A265283.P8123677200595892241
+
+`floor(2*n/(n+2))+or(1, n+1)`
+-/
+
+namespace A265283.P8123677200595892241
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(2 * n : ℚ) / (n + 2 : ℚ)⌋ + (Nat.lor 1 (n + 1) : ℤ)
+
+end
+
+end A265283.P8123677200595892241
+
+namespace A265283
+
+/-- `floor(2*n/(n+2))+or(1, n+1)` -/
+def P8123677200595892241.Spec : Prop :=
+  ∀ n, P8123677200595892241.a n = A265283 n
+
+end A265283
+
 /-!
 # A265284: Total number of ON (black) cells after n iterations of the "Rule 94" elementary cellular automaton starting with a single ON (black) cell.
 
@@ -9346,6 +9369,29 @@ namespace A265284
 /-- `A004275(A024206(n+2))` -/
 def P4591932426938592803.Spec : Prop :=
   ∀ n, P4591932426938592803.a n = A265284 n
+
+end A265284
+
+/-! ## A265284.P4810641663851503221
+
+`A058992(A087811(n+2))`
+-/
+
+namespace A265284.P4810641663851503221
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058992 (A087811 (n + 2)).toNat
+
+end
+
+end A265284.P4810641663851503221
+
+namespace A265284
+
+/-- `A058992(A087811(n+2))` -/
+def P4810641663851503221.Spec : Prop :=
+  ∀ n, P4810641663851503221.a n = A265284 n
 
 end A265284
 

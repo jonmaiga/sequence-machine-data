@@ -6743,6 +6743,21 @@ end
 
 end A331163.P7715731585998839064
 
+/-! ## A331163.P17563993879998714792
+
+`A057890(A000120(A027383(n+1)))`
+-/
+
+namespace A331163.P17563993879998714792
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057890 (A000120 (A027383 (n + 1)).toNat).toNat
+
+end
+
+end A331163.P17563993879998714792
+
 /-!
 # A331165: a(n) = a(n-1) + p(n) if p(n) > a(n-1), otherwise a(n) = a(n-1) - p(n), where p is the partition function A000041 (assuming a(n) = 0 for n < 0).
 
@@ -9222,6 +9237,29 @@ namespace A331190
 /-- `A081587(n+2)-1` -/
 def P10327141753185053810.Spec : Prop :=
   ∀ n, P10327141753185053810.a n = A331190 n
+
+end A331190
+
+/-! ## A331190.P11009177112043745496
+
+`5*A005476(n+2)`
+-/
+
+namespace A331190.P11009177112043745496
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  5 * A005476 (n + 2)
+
+end
+
+end A331190.P11009177112043745496
+
+namespace A331190
+
+/-- `5*A005476(n+2)` -/
+def P11009177112043745496.Spec : Prop :=
+  ∀ n, P11009177112043745496.a n = A331190 n
 
 end A331190
 

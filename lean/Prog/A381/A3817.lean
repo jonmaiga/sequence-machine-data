@@ -1192,6 +1192,28 @@ end A381719.P3743192932545352329
 The programs for A381720, there is no canonical definition to state claims against.
 -/
 
+/-! ## A381720.P11024906692520220637
+
+`∪[A023690(n+1), A131577(n)]`
+-/
+
+namespace A381720.P11024906692520220637
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023690 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131577 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A381720.P11024906692520220637
+
 /-! ## A381720.P4894209442157184210
 
 `record[n*A359774(A000120(n)+1)]`
@@ -1260,21 +1282,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 2, 4, 8, 16, 32] fun n a =>
 end
 
 end A381720.P12265524442020448021
-
-/-! ## A381720.P6814815103171158554
-
-`(2*a(n-1)-a(n-8))^A082171(3*n+1)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4, a(4)=8, a(5)=16, a(6)=32, a(7)=64, a(8)=128`
--/
-
-namespace A381720.P6814815103171158554
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [0, 1, 2, 4, 8, 16, 32, 64, 128] fun n a =>
-  (2 * a (n - 1) - a (n - 8)) ^ (A082171 (3 * n + 1) : ℤ)
-
-end
-
-end A381720.P6814815103171158554
 
 /-!
 # A381721: Sum of the legs of the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
@@ -3037,6 +3044,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381741.P2003691112295503894
+
+/-! ## A381741.P4690633293035954823
+
+`∩[A005117(n+1), A363172(n+1)]`
+-/
+
+namespace A381741.P4690633293035954823
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363172 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A381741.P4690633293035954823
 
 /-! ## A381741.P16302880935818848136
 

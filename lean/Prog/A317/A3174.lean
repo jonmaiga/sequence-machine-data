@@ -27,6 +27,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -5633,6 +5634,28 @@ end
 
 end A317468.P13900384951294860234
 
+/-! ## A317468.P3451255473100714114
+
+`∪[A223133(n), A317621(n+1)]`
+-/
+
+namespace A317468.P3451255473100714114
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A223133 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317621 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317468.P3451255473100714114
+
 /-! ## A317468.P5606426750626172142
 
 `A346104(A208936(59*n+1)+1)+A317469(n+1)`
@@ -5752,6 +5775,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A317469.P15112464309774727251
+
+/-! ## A317469.P2213198201885647128
+
+`∪[A103543(n+1), A317622(n+1)]`
+-/
+
+namespace A317469.P2213198201885647128
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103543 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317622 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317469.P2213198201885647128
+
+/-! ## A317469.P14248856207256471637
+
+`∪[A106753(n+1), A317622(n+1)]`
+-/
+
+namespace A317469.P14248856207256471637
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106753 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317622 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317469.P14248856207256471637
 
 /-!
 # A317470: Squares visited by a (2,3)-leaper (or zebra) on a spirally numbered board and moving to the lowest available unvisited square at each step, squares labelled >=0.
@@ -6116,6 +6183,28 @@ end
 
 end A317475.P765795502438694811
 
+/-! ## A317475.P12251925228836875801
+
+`∩[A166156(n+1), A314130(n)]`
+-/
+
+namespace A317475.P12251925228836875801
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166156 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A314130 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317475.P12251925228836875801
+
 /-!
 # A317478: Triangular numbers whose sum of divisors is an oblong number.
 
@@ -6258,6 +6347,94 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A317479.P2206800866210893493
+
+/-! ## A317479.P12998616725338092692
+
+`∩[A028781(n+1), A057751(n)]`
+-/
+
+namespace A317479.P12998616725338092692
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028781 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057751 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317479.P12998616725338092692
+
+/-! ## A317479.P10953013307416709435
+
+`∩[A057751(n), A235986(n+1)]`
+-/
+
+namespace A317479.P10953013307416709435
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057751 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235986 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317479.P10953013307416709435
+
+/-! ## A317479.P14139851240916459562
+
+`∩[A028764(n+1), A176162(n+1)]`
+-/
+
+namespace A317479.P14139851240916459562
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028764 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176162 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317479.P14139851240916459562
+
+/-! ## A317479.P12394708922500990152
+
+`∩[A028764(n+1), A322471(n+1)]`
+-/
+
+namespace A317479.P12394708922500990152
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028764 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322471 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317479.P12394708922500990152
 
 /-!
 # A317483: Circuit rank of the n-Bruhat graph.

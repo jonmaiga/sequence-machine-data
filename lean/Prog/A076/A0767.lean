@@ -30,7 +30,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
@@ -98,6 +97,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -337,19 +337,19 @@ end
 
 end A076702.P10805961560568849927
 
-/-! ## A076702.P13185902479420114114
+/-! ## A076702.P15185809963595044943
 
-`∩[A010784(n+1), A053810(n+1)]`
+`∩[A075309(n+1), A116661(n+1)]`
 -/
 
-namespace A076702.P13185902479420114114
+namespace A076702.P15185809963595044943
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010784 (n + 1)
+  A075309 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053810 (n + 1)
+  A116661 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -357,7 +357,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A076702.P13185902479420114114
+end A076702.P15185809963595044943
 
 /-!
 # A076703: Palindromic prime powers of prime numbers.
@@ -473,6 +473,34 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A076703.P546559786873437339
+
+/-!
+# A076704: Numbers k of the form p^q where both p and q are prime and all digits of k are odd.
+
+The programs for A076704, there is no canonical definition to state claims against.
+-/
+
+/-! ## A076704.P5632666263071572887
+
+`∩[A062559(n), A076442(n+1)]`
+-/
+
+namespace A076704.P5632666263071572887
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062559 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076442 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A076704.P5632666263071572887
 
 /-!
 # A076705: Prime powers of prime numbers such that the sum of its digits is also prime power of prime number.
@@ -780,6 +808,52 @@ namespace A076708
 /-- `∑[round(a(n-1)/(3-sqrt(8)))]` -/
 def P17536444820793412547.Spec : Prop :=
   ∀ n, P17536444820793412547.a n = A076708 (n + 1)
+
+end A076708
+
+/-! ## A076708.P14130407609951840426
+
+`A001652(n+1)*A001652(n)/A001542(n+1)`
+-/
+
+namespace A076708.P14130407609951840426
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001652 (n + 1) * A001652 n : ℚ) / (A001542 (n + 1) : ℚ)
+
+end
+
+end A076708.P14130407609951840426
+
+namespace A076708
+
+/-- `A001652(n+1)*A001652(n)/A001542(n+1)` -/
+def P14130407609951840426.Spec : Prop :=
+  ∀ n, P14130407609951840426.a n = (A076708 (n + 1) : ℚ)
+
+end A076708
+
+/-! ## A076708.P11358182672198163929
+
+`(A001110(n+1)-A001109(n+1))/A001109(n+1)`
+-/
+
+namespace A076708.P11358182672198163929
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A001110 (n + 1) - A001109 (n + 1) : ℚ) / (A001109 (n + 1) : ℚ)
+
+end
+
+end A076708.P11358182672198163929
+
+namespace A076708
+
+/-- `(A001110(n+1)-A001109(n+1))/A001109(n+1)` -/
+def P11358182672198163929.Spec : Prop :=
+  ∀ n, P11358182672198163929.a n = (A076708 (n + 1) : ℚ)
 
 end A076708
 
@@ -9088,6 +9162,28 @@ end
 
 end A076768.P1183694460167268385
 
+/-! ## A076768.P9898073612606433845
+
+`∩[A111908(n+1), A264828(n+1)]`
+-/
+
+namespace A076768.P9898073612606433845
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111908 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264828 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A076768.P9898073612606433845
+
 /-! ## A076768.P18052455704172657566
 
 `∩[A111908(n+1), A055264(n)]`
@@ -9131,28 +9227,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A076768.P7124027532537288722
-
-/-! ## A076768.P1952065593905449548
-
-`∩[A111908(n+1), A265227(n+1)]`
--/
-
-namespace A076768.P1952065593905449548
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111908 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A265227 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A076768.P1952065593905449548
 
 /-!
 # A076769: Integers not expressible as the sum of a positive triangular number and a square.

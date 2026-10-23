@@ -25,7 +25,6 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
@@ -6192,6 +6191,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A341884.P9954578198314114353
+
+/-! ## A341884.P4335579230531390803
+
+`∩[A008726(n), A150245(n)]`
+-/
+
+namespace A341884.P4335579230531390803
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008726 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A150245 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A341884.P4335579230531390803
 
 /-!
 # A341885: a(n) is the sum of A000217(p) over the prime factors p of n, counted with multiplicity.

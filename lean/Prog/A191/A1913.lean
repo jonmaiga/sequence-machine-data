@@ -64,6 +64,8 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1171,6 +1173,28 @@ end A191310.P14992637343007221265
 The programs for A191311, there is no canonical definition to state claims against.
 -/
 
+/-! ## A191311.P4604854969024293086
+
+`∪[A129521(n+1), A191592(n+1)]`
+-/
+
+namespace A191311.P4604854969024293086
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129521 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191592 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A191311.P4604854969024293086
+
 /-! ## A191311.P10305946028013258374
 
 `eq[2, A247074(A028310(n))]`
@@ -1209,27 +1233,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A191311.P11451931328847032162
-
-/-! ## A191311.P9114976828771964719
-
-`A020725(eq[2, A247074(n+1)])`
--/
-
-namespace A191311.P9114976828771964719
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247074 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A191311.P9114976828771964719
 
 /-!
 # A191312: Triangle read by rows: T(n,k) is the number of dispersed Dyck paths (i.e., Motzkin paths with no (1,0) steps at positive heights) of length n having abscissa of the first return to the horizontal axis equal to k (assumed to be 0 if there are no such returns).
@@ -3335,6 +3338,66 @@ def P8265650817350337301.Spec : Prop :=
 
 end A191330
 
+/-! ## A191330.P2175358664589705970
+
+`∩[2*n, A283765(n+1)]`
+-/
+
+namespace A191330.P2175358664589705970
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283765 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A191330.P2175358664589705970
+
+namespace A191330
+
+/-- `∩[2*n, A283765(n+1)]` -/
+def P2175358664589705970.Spec : Prop :=
+  ∀ n, (P2175358664589705970.a n : ℤ) = A191330 (n + 1)
+
+end A191330
+
+/-! ## A191330.P9850627844153374093
+
+`∩[2*n, A283767(n+1)]`
+-/
+
+namespace A191330.P9850627844153374093
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A283767 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A191330.P9850627844153374093
+
+namespace A191330
+
+/-- `∩[2*n, A283767(n+1)]` -/
+def P9850627844153374093.Spec : Prop :=
+  ∀ n, (P9850627844153374093.a n : ℤ) = A191330 (n + 1)
+
+end A191330
+
 /-! ## A191330.P2147761208770584079
 
 `A004277(A005653(n+1))`
@@ -3408,65 +3471,6 @@ namespace A191330
 /-- `A020739(A005653(n+1)-2)-2` -/
 def P1175080645152315762.Spec : Prop :=
   ∀ n, P1175080645152315762.a n = A191330 (n + 1)
-
-end A191330
-
-/-! ## A191330.P1705364767678498509
-
-`A005408(lt[1, A024569(n+1)])+1`
--/
-
-namespace A191330.P1705364767678498509
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024569 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n) + 1
-
-end
-
-end A191330.P1705364767678498509
-
-namespace A191330
-
-/-- `A005408(lt[1, A024569(n+1)])+1` -/
-def P1705364767678498509.Spec : Prop :=
-  ∀ n, P1705364767678498509.a n = A191330 (n + 1)
-
-end A191330
-
-/-! ## A191330.P17884296669775609141
-
-`∩[A163300(n+1), A283765(n+1)]`
--/
-
-namespace A191330.P17884296669775609141
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163300 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283765 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A191330.P17884296669775609141
-
-namespace A191330
-
-/-- `∩[A163300(n+1), A283765(n+1)]` -/
-def P17884296669775609141.Spec : Prop :=
-  ∀ n, (P17884296669775609141.a n : ℤ) = A191330 (n + 1)
 
 end A191330
 
@@ -8265,6 +8269,69 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A191378.P13330372437031395635
+
+/-! ## A191378.P11457133621851295356
+
+`p?[A089867(p?[2*n+1])]`
+-/
+
+namespace A191378.P11457133621851295356
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089867 (f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A191378.P11457133621851295356
+
+/-! ## A191378.P16518885550762010325
+
+`p?[A089868(p?[2*n+1])]`
+-/
+
+namespace A191378.P16518885550762010325
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089868 (f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A191378.P16518885550762010325
+
+/-! ## A191378.P16860325081173230783
+
+`p?[A089869(p?[2*n+1])]`
+-/
+
+namespace A191378.P16860325081173230783
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089869 (f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A191378.P16860325081173230783
 
 /-!
 # A191379: Expansion of product(n>=0, 1+2*x^(3^n)+x^(2*3^n)+2*x^(3*3^n)+x^(4*3^n) ).

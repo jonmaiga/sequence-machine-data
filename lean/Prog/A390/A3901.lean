@@ -17,7 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -1162,6 +1162,36 @@ namespace A390128
 /-- `∩[A295661(n+1), A392537(n+1)]` -/
 def P7493037670859986297.Spec : Prop :=
   ∀ n, (P7493037670859986297.a n : ℤ) = A390128 (n + 1)
+
+end A390128
+
+/-! ## A390128.P14125758980241169592
+
+`∩[A332785(n+1), A375072(n+1)]`
+-/
+
+namespace A390128.P14125758980241169592
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332785 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375072 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390128.P14125758980241169592
+
+namespace A390128
+
+/-- `∩[A332785(n+1), A375072(n+1)]` -/
+def P14125758980241169592.Spec : Prop :=
+  ∀ n, (P14125758980241169592.a n : ℤ) = A390128 (n + 1)
 
 end A390128
 
@@ -2834,6 +2864,28 @@ end
 
 end A390181.P13781641179605777033
 
+/-! ## A390181.P14286253103071457384
+
+`∩[A030051(n+1), A336444(n+1)]`
+-/
+
+namespace A390181.P14286253103071457384
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030051 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336444 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390181.P14286253103071457384
+
 /-!
 # A390186: Numbers k such that |s(k) - k| < |s(s(k)) - s(k)|, where s(k) is the sum of the proper divisors of k.
 
@@ -2925,6 +2977,28 @@ end
 
 end A390188.P4506579823912462960
 
+/-! ## A390188.P16263333432293789834
+
+`∩[A280609(n+1), A349546(n+1)]`
+-/
+
+namespace A390188.P16263333432293789834
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280609 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349546 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A390188.P16263333432293789834
+
 /-! ## A390188.P9489193749965961723
 
 `∩[A088248(n+1), A114130(n+1)]`
@@ -2990,28 +3064,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390188.P3613089892942132418
-
-/-! ## A390188.P11934220149633949652
-
-`∩[A114130(n+1), A381825(n+1)]`
--/
-
-namespace A390188.P11934220149633949652
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114130 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A381825 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A390188.P11934220149633949652
 
 /-!
 # A390190: a(n) is the number of square tiles in ring n (n >= 0) symmetric about a vertex of the hyperbolic regular tiling with Schläfli symbol {4,5}.

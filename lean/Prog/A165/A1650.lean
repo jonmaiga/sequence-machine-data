@@ -154,6 +154,28 @@ end A165001.P6491306096697273008
 The programs for A165002, there is no canonical definition to state claims against.
 -/
 
+/-! ## A165002.P9421458412698878426
+
+`∪[A164997(n+1), A165004(n+1)]`
+-/
+
+namespace A165002.P9421458412698878426
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164997 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165004 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A165002.P9421458412698878426
+
 /-! ## A165002.P5278811999946550415
 
 `A165010(A195098(n+1)%A065106(n+1))`
@@ -213,21 +235,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165002.P6192760364321543065
-
-/-! ## A165002.P4974824315465322538
-
-`A103754(A098056(n))*A165010(A195098(n+1))`
--/
-
-namespace A165002.P4974824315465322538
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103754 (A098056 n).toNat * A165010 (A195098 (n + 1)).toNat
-
-end
-
-end A165002.P4974824315465322538
 
 /-!
 # A165003: Length of cycle mentioned in A165002.
@@ -1241,12 +1248,34 @@ end A165016.P10887551614332237582
 The programs for A165017, there is no canonical definition to state claims against.
 -/
 
-/-! ## A165017.P12646076090484399392
+/-! ## A165017.P16228338352381560731
 
-`∪[A165019(n+1), A165021(n+1)]%A165019(n+1)`
+`∪[A165016(n+1), A165019(n+1)]`
 -/
 
-namespace A165017.P12646076090484399392
+namespace A165017.P16228338352381560731
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165016 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165019 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A165017.P16228338352381560731
+
+/-! ## A165017.P1605857887399879967
+
+`∪[A165019(n+1), A165021(n+1)]`
+-/
+
+namespace A165017.P1605857887399879967
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -1256,12 +1285,12 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A165021 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A165019 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A165017.P12646076090484399392
+end A165017.P1605857887399879967
 
 /-! ## A165017.P11855275785135933676
 
@@ -1501,6 +1530,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A165023.P17637561094969569320
+
+/-! ## A165023.P16198151175291140339
+
+`∩[A165019(n+1), A165021(n+1)]`
+-/
+
+namespace A165023.P16198151175291140339
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165019 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165021 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A165023.P16198151175291140339
 
 /-!
 # A165024: Length of cycle mentioned in A165023.
@@ -3766,6 +3817,28 @@ end A165055.P16540610656588200965
 The programs for A165056, there is no canonical definition to state claims against.
 -/
 
+/-! ## A165056.P12115883713206778431
+
+`∪[A165055(n+1), A165058(n+1)]`
+-/
+
+namespace A165056.P12115883713206778431
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165055 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165058 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A165056.P12115883713206778431
+
 /-! ## A165056.P14419567631452645351
 
 `∪[A165058(n+1), A165060(n+1)]`
@@ -3829,27 +3902,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A165056.P12216347906640283979
-
-/-! ## A165056.P12983599702369818232
-
-`lt[A165053(n), A033999(n)²]`
--/
-
-namespace A165056.P12983599702369818232
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165053 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033999 n ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A165056.P12983599702369818232
 
 /-!
 # A165058: Consider the base-6 Kaprekar map n->K(n) defined in A165051. Sequence gives numbers belonging to cycles of length greater than 1.
@@ -3926,16 +3978,16 @@ end A165058.P2106510471216733678
 The programs for A165060, there is no canonical definition to state claims against.
 -/
 
-/-! ## A165060.P2465850202910667849
+/-! ## A165060.P1975635832867808068
 
-`∪[A165055(A032559(n+1)), A165062(n+1)]`
+`∪[A165055(n+1), A165062(n+1)]`
 -/
 
-namespace A165060.P2465850202910667849
+namespace A165060.P1975635832867808068
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165055 (A032559 (n + 1)).toNat
+  A165055 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A165062 (n + 1)
@@ -3946,29 +3998,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A165060.P2465850202910667849
-
-/-! ## A165060.P3693673925582001581
-
-`∪[A165051(A165055(n+1)), A165062(n+1)]`
--/
-
-namespace A165060.P3693673925582001581
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165051 (A165055 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165062 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A165060.P3693673925582001581
+end A165060.P1975635832867808068
 
 /-!
 # A165061: Length of cycle mentioned in A165060.
@@ -4626,6 +4656,28 @@ end A165075.P17889337593168363653
 
 The programs for A165076, there is no canonical definition to state claims against.
 -/
+
+/-! ## A165076.P11170187112889819609
+
+`∪[A165078(n+1), A165080(n+1)]`
+-/
+
+namespace A165076.P11170187112889819609
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165078 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165080 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A165076.P11170187112889819609
 
 /-! ## A165076.P5411119655495494325
 
@@ -6042,19 +6094,19 @@ end A165094.P17509685459978238239
 The programs for A165095, there is no canonical definition to state claims against.
 -/
 
-/-! ## A165095.P2921255776737321354
+/-! ## A165095.P5883802948104975844
 
-`∪[A002266(5*A165099(n+1)), A165097(n+1)]`
+`∪[A165097(n+1), A165099(n+1)]`
 -/
 
-namespace A165095.P2921255776737321354
+namespace A165095.P5883802948104975844
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002266 (5 * A165099 (n + 1)).toNat
+  A165097 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165097 (n + 1)
+  A165099 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6062,7 +6114,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A165095.P2921255776737321354
+end A165095.P5883802948104975844
 
 /-!
 # A165097: Consider the base-8 Kaprekar map n->K(n) defined in A165090. Sequence gives numbers belonging to cycles of length greater than 1.

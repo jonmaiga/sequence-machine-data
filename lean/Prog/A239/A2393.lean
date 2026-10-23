@@ -20,6 +20,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -91,6 +92,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2611,6 +2613,32 @@ def P6092277365535568579.Spec : Prop :=
 
 end A239325
 
+/-! ## A239325.P403339955626902184
+
+`or(1, Δ[(2*n+1)*(n+1)*(n-1)])`
+-/
+
+namespace A239325.P403339955626902184
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1 : ℤ) * ((n + 1 : ℤ) * ((n : ℤ) - 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 1 (f1 (n + 1) - f1 n)
+
+end
+
+end A239325.P403339955626902184
+
+namespace A239325
+
+/-- `or(1, Δ[(2*n+1)*(n+1)*(n-1)])` -/
+def P403339955626902184.Spec : Prop :=
+  ∀ n, P403339955626902184.a n = A239325 n
+
+end A239325
+
 /-! ## A239325.P12705739854889841528
 
 `(3*sinh(log(2*n+1))+1)*(2*n+1)`
@@ -2870,6 +2898,29 @@ namespace A239325
 /-- `Δ[A099721(n)-Δ[n²]]` -/
 def P18337522857773177046.Spec : Prop :=
   ∀ n, P18337522857773177046.a n = A239325 n
+
+end A239325
+
+/-! ## A239325.P6136553994786625084
+
+`A138987(A016921(n))`
+-/
+
+namespace A239325.P6136553994786625084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138987 (A016921 n).toNat
+
+end
+
+end A239325.P6136553994786625084
+
+namespace A239325
+
+/-- `A138987(A016921(n))` -/
+def P6136553994786625084.Spec : Prop :=
+  ∀ n, P6136553994786625084.a n = A239325 n
 
 end A239325
 

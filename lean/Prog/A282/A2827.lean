@@ -8296,6 +8296,28 @@ end
 
 end A282793.P8297614620704747404
 
+/-! ## A282793.P2653023107123541026
+
+`∩[A153815(n+1), A282896(n+1)]`
+-/
+
+namespace A282793.P2653023107123541026
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153815 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A282896 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A282793.P2653023107123541026
+
 /-! ## A282793.P1689691637418201577
 
 `∩[A114856(n+1)+1, A153815(n+1)]`
@@ -8317,21 +8339,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A282793.P1689691637418201577
-
-/-! ## A282793.P14153618677688289580
-
-`A153815(A003144(n+1)^A169623(n))`
--/
-
-namespace A282793.P14153618677688289580
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153815 (SequenceMachineLib.roundAway ((A003144 (n + 1) : ℚ) ^ (A169623 n : ℤ))).toNat
-
-end
-
-end A282793.P14153618677688289580
 
 /-!
 # A282794: Indices k of nontrivial Riemann zeta zeros such that floor(Im(zetazero(k))/(2*Pi)*log(Im(zetazero(k))/(2*Pi*e)) + 7/8) - k + 1 = -1.

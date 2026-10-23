@@ -454,6 +454,28 @@ end
 
 end A317705.P8953152791288740273
 
+/-! ## A317705.P6195945782041067882
+
+`∩[A320269(n+1), A328957(n+1)]`
+-/
+
+namespace A317705.P6195945782041067882
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320269 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328957 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A317705.P6195945782041067882
+
 /-! ## A317705.P17823243745175512787
 
 `∩[A320269(n+1), A377821(n+1)]`
@@ -475,28 +497,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A317705.P17823243745175512787
-
-/-! ## A317705.P4125504784848049758
-
-`∩[A320269(n+1), A377846(n+1)]`
--/
-
-namespace A317705.P4125504784848049758
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320269 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377846 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A317705.P4125504784848049758
 
 /-!
 # A317707: Number of powerful rooted trees with n nodes.

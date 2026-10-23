@@ -58,6 +58,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
@@ -2627,6 +2628,24 @@ end
 
 end A307252.P12819834554158661132
 
+/-! ## A307252.P17281821802410134014
+
+`filter[A382492(n+1), A190210(#)]`
+-/
+
+namespace A307252.P17281821802410134014
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382492 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A190210 (f1 j).toNat = 1) n)
+
+end
+
+end A307252.P17281821802410134014
+
 /-!
 # A307253: Number of triangles larger than size=1 in a matchstick-made hexagon with side length n.
 
@@ -2778,6 +2797,50 @@ end A307253
 The programs for A307254, there is no canonical definition to state claims against.
 -/
 
+/-! ## A307254.P10927729273012063808
+
+`∩[A038103(n+1), A258069(n+1)]`
+-/
+
+namespace A307254.P10927729273012063808
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038103 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258069 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A307254.P10927729273012063808
+
+/-! ## A307254.P15485709180472968567
+
+`∩[A038103(n+1), A291179(n+1)]`
+-/
+
+namespace A307254.P15485709180472968567
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038103 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291179 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A307254.P15485709180472968567
+
 /-! ## A307254.P9526433733686062216
 
 `A224447(A027214(n))+A038103(n+1)`
@@ -2822,36 +2885,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A307254.P1468559418298675798
-
-/-! ## A307254.P2195642299854463021
-
-`A224447(A027214(n))+A007089(A350573(n+1))`
--/
-
-namespace A307254.P2195642299854463021
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224447 (A027214 n).toNat + A007089 (A350573 (n + 1)).toNat
-
-end
-
-end A307254.P2195642299854463021
-
-/-! ## A307254.P11783599389795451884
-
-`A038020(A038140(n+1))+A007089(A350573(n+1))`
--/
-
-namespace A307254.P11783599389795451884
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038020 (A038140 (n + 1)).toNat + A007089 (A350573 (n + 1)).toNat
-
-end
-
-end A307254.P11783599389795451884
 
 /-!
 # A307255: Numbers k such that k is the substring identical to the most significant digits of its base-4 representation.

@@ -11,6 +11,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -1393,6 +1394,28 @@ end
 
 end A393946.P173078423678387562
 
+/-! ## A393946.P11161680531852906868
+
+`∩[A303946(n+1), A359470(n+1)]`
+-/
+
+namespace A393946.P11161680531852906868
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303946 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359470 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393946.P11161680531852906868
+
 /-!
 # A393947: Numbers that are neither squarefree nor squareful with prime power factor exponents that are not all pairwise coprime.
 
@@ -2072,6 +2095,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A393975.P5669272402076447631
+
+/-! ## A393975.P8029275683186969971
+
+`∩[A083249(n+1), A394667(n+1)]`
+-/
+
+namespace A393975.P8029275683186969971
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083249 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394667 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393975.P8029275683186969971
 
 /-! ## A393975.P3768269043122126000
 

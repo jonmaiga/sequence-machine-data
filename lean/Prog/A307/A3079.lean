@@ -5425,6 +5425,29 @@ def P11580692973104433289.Spec : Prop :=
 
 end A307989
 
+/-! ## A307989.P16114552198352284613
+
+`A077463(A060756(A075084(n+1)))`
+-/
+
+namespace A307989.P16114552198352284613
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077463 (A060756 (A075084 (n + 1)).toNat).toNat
+
+end
+
+end A307989.P16114552198352284613
+
+namespace A307989
+
+/-- `A077463(A060756(A075084(n+1)))` -/
+def P16114552198352284613.Spec : Prop :=
+  ∀ n, P16114552198352284613.a n = A307989 (n + 1)
+
+end A307989
+
 /-!
 # A307990: Number of partitions of n into 2 distinct nonadjacent prime parts.
 

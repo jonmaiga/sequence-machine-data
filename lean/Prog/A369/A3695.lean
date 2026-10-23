@@ -1155,6 +1155,28 @@ end A369539.P13904884412845291168
 The programs for A369540, there is no canonical definition to state claims against.
 -/
 
+/-! ## A369540.P13686567769826452963
+
+`∪[A369419(n+1), A369541(n+1)]`
+-/
+
+namespace A369540.P13686567769826452963
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369419 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369541 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369540.P13686567769826452963
+
 /-! ## A369540.P13583294454676893427
 
 `∩[A364998(n+1), A090958(n)]`
@@ -1221,16 +1243,16 @@ end
 
 end A369540.P14708137976597653599
 
-/-! ## A369540.P8755130314319610017
+/-! ## A369540.P3783559414824246975
 
-`∩[A363814(n+1), A364998(n+1)]`
+`∩[A066312(n+1), A364998(n+1)]`
 -/
 
-namespace A369540.P8755130314319610017
+namespace A369540.P3783559414824246975
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363814 (n + 1)
+  A066312 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A364998 (n + 1)
@@ -1241,29 +1263,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A369540.P8755130314319610017
-
-/-! ## A369540.P8759006292931321327
-
-`∩[A364998(n+1), A380543(n+1)]`
--/
-
-namespace A369540.P8759006292931321327
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A364998 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380543 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A369540.P8759006292931321327
+end A369540.P3783559414824246975
 
 /-!
 # A369541: Numbers k neither squarefree nor prime powers that are products of primorials such that A119288(k) <= k/A007947(k) < A053669(k).
@@ -1336,6 +1336,42 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A369541.P10303592809150252660
+
+/-! ## A369541.P1379852501285899373
+
+`filter[A364998(n+1), A322585(#)]`
+-/
+
+namespace A369541.P1379852501285899373
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364998 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A322585 (f1 j).toNat = 1) n)
+
+end
+
+end A369541.P1379852501285899373
+
+/-! ## A369541.P5170100733252910555
+
+`filter[A369540(n+1), A322585(#)]`
+-/
+
+namespace A369541.P5170100733252910555
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369540 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A322585 (f1 j).toNat = 1) n)
+
+end
+
+end A369541.P5170100733252910555
 
 /-!
 # A369542: a(n) is the dimension of the metabelian Lie-admissible operad of degree n.
@@ -1782,6 +1818,28 @@ end
 
 end A369563.P6197669451698481991
 
+/-! ## A369563.P7066306269591810053
+
+`∩[A004613(n+1), A317102(n+1)]`
+-/
+
+namespace A369563.P7066306269591810053
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004613 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317102 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369563.P7066306269591810053
+
 /-! ## A369563.P6366522912893086181
 
 `∩[A004613(n+1), A335851(n+1)]`
@@ -2079,6 +2137,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A369565.P9861660620427597233
+
+/-! ## A369565.P7072189818531417068
+
+`∩[A004611(n+1), A317102(n+1)]`
+-/
+
+namespace A369565.P7072189818531417068
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004611 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A317102 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369565.P7072189818531417068
 
 /-! ## A369565.P17371361979181717799
 

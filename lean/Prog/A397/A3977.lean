@@ -43,6 +43,7 @@ import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -59,6 +60,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -117,6 +119,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397700.P15838960596116968742
+
+/-! ## A397700.P6550818892459227512
+
+`∩[A134601(n+1), A284876(n+1)]`
+-/
+
+namespace A397700.P6550818892459227512
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134601 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A284876 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397700.P6550818892459227512
 
 /-!
 # A397705: Odd numbers m > 5, with no representation m = p + 2q with p, q prime and p <= q.
@@ -2308,6 +2332,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397778.P16452099676177183361
+
+/-! ## A397778.P5513646739760955907
+
+`∩[A277015(n), A356573(n+1)]`
+-/
+
+namespace A397778.P5513646739760955907
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277015 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356573 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A397778.P5513646739760955907
 
 /-!
 # A397779: 2-adic valuation of the triple factorial of n.

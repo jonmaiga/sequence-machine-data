@@ -129,6 +129,50 @@ end
 
 end A396400.P13266279083368976615
 
+/-! ## A396400.P13745252241765975672
+
+`∩[A355330(n+1), A396399(n+1)]`
+-/
+
+namespace A396400.P13745252241765975672
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355330 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396399 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396400.P13745252241765975672
+
+/-! ## A396400.P13628017649285951765
+
+`∩[A344881(n+1), A396399(n+1)]`
+-/
+
+namespace A396400.P13628017649285951765
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344881 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396399 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396400.P13628017649285951765
+
 /-!
 # A396402: Numbers k such that there is a record number of values of j with 1 <= j <= k and GCD(j,k) = 1 such that the number of terms in the greedy Egyptian fraction representation of j/k (A050205(k,j)) is the minimum possible (A097847(k,j)).
 

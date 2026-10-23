@@ -1839,6 +1839,36 @@ end
 
 end A011739.P417130826658504761
 
+/-! ## A011739.P3958091221901323299
+
+`A011740(A160755(n+2))`
+-/
+
+namespace A011739.P3958091221901323299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011740 (A160755 (n + 2)).toNat
+
+end
+
+end A011739.P3958091221901323299
+
+/-! ## A011739.P15402128574380135826
+
+`A127937(A008287(n))`
+-/
+
+namespace A011739.P15402128574380135826
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A127937 (A008287 n).toNat
+
+end
+
+end A011739.P15402128574380135826
+
 /-!
 # A011740: A binary m-sequence: expansion of reciprocal of x^27 + x^8 + x^7 + x + 1 (mod 2, shifted by 26 initial 0's).
 
@@ -5866,10 +5896,30 @@ end A011773.P3529237540849356611
 /-!
 # A011775: Numbers k such that k divides phi(k) * sigma(k).
 
-The programs for A011775, the canonical program `A011775.P3606156875010578652` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011775 has offset 1).
-
-The definition of A011775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A011775, there is no canonical definition to state claims against.
 -/
+
+/-! ## A011775.P2775491362713898210
+
+`∪[A015707(n+1), A015708(n+1)]`
+-/
+
+namespace A011775.P2775491362713898210
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015707 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015708 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A011775.P2775491362713898210
 
 /-! ## A011775.P9918183642621297801
 
@@ -5892,32 +5942,26 @@ end
 
 end A011775.P9918183642621297801
 
-namespace A011775
-
-/-- `lt[A062354(n+1)%(n+1), 1]+1` -/
-def P9918183642621297801.Spec : Prop :=
-  ∀ n, (P9918183642621297801.a n : ℤ) = A011775 (n + 1)
-
-end A011775
-
 /-! ## A011775.P3606156875010578652
 
 `eq[A056100(n+1), A057427(n)]+1`
-
-The canonical program, it is in `Seq.B008.C000`.
 -/
 
-namespace A011775
+namespace A011775.P3606156875010578652
+noncomputable section
 
-/-- `eq[A056100(n+1), A057427(n)]+1` -/
-def P3606156875010578652.Spec : Prop :=
-  ∀ n, (P3606156875010578652.a n : ℤ) = A011775 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056100 (n + 1)
 
-theorem P3606156875010578652.correct : P3606156875010578652.Spec := by
-  intro n
-  simp only [A011775, Nat.add_sub_cancel]
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A057427 n
 
-end A011775
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n + 1
+
+end
+
+end A011775.P3606156875010578652
 
 /-! ## A011775.P9665559429726174538
 
@@ -5936,14 +5980,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A011775.P9665559429726174538
-
-namespace A011775
-
-/-- `record[A048671(gcd(n+1, A069249(n+1)))]` -/
-def P9665559429726174538.Spec : Prop :=
-  ∀ n, P9665559429726174538.a n = A011775 (n + 1)
-
-end A011775
 
 /-!
 # A011776: a(1) = 1; for n > 1, a(n) is defined by the property that n^a(n) divides n! but n^(a(n)+1) does not.
@@ -7464,6 +7500,29 @@ def P10123459568644569559.Spec : Prop :=
 
 end A011782
 
+/-! ## A011782.P7543723702473167120
+
+`round(acos(cos(2))^(n-1))`
+-/
+
+namespace A011782.P7543723702473167120
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (Real.arccos (Real.cos (2 : ℝ)) ^ ((n : ℤ) - 1 : ℤ))
+
+end
+
+end A011782.P7543723702473167120
+
+namespace A011782
+
+/-- `round(acos(cos(2))^(n-1))` -/
+def P7543723702473167120.Spec : Prop :=
+  ∀ n, P7543723702473167120.a n = A011782 n
+
+end A011782
+
 /-! ## A011782.P9488420949635431789
 
 `2^floor(n-sin(n)²)`
@@ -7717,29 +7776,6 @@ namespace A011782
 /-- `floor(2^(n-1)-sin(4))` -/
 def P2531508494673060252.Spec : Prop :=
   ∀ n, P2531508494673060252.a n = A011782 n
-
-end A011782
-
-/-! ## A011782.P10309261743550368192
-
-`round(sin(3)+2^(n-1))`
--/
-
-namespace A011782.P10309261743550368192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sin (3 : ℝ) + ((2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) : ℝ))
-
-end
-
-end A011782.P10309261743550368192
-
-namespace A011782
-
-/-- `round(sin(3)+2^(n-1))` -/
-def P10309261743550368192.Spec : Prop :=
-  ∀ n, P10309261743550368192.a n = A011782 n
 
 end A011782
 

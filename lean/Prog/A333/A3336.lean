@@ -4278,29 +4278,27 @@ end A333655.P4178394693867432274
 /-!
 # A333656: Numbers having at least one 5 in their representation in base 6.
 
-The programs for A333656, the canonical program `A333656.P10234480907296482497` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333656 has offset 1).
-
-The definition of A333656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A333656, there is no canonical definition to state claims against.
 -/
 
 /-! ## A333656.P10234480907296482497
 
 `comp[A037465(n)]`
-
-The canonical program, it is in `Seq.B014.C000`.
 -/
 
-namespace A333656
+namespace A333656.P10234480907296482497
+noncomputable section
 
-/-- `comp[A037465(n)]` -/
-def P10234480907296482497.Spec : Prop :=
-  ∀ n, (P10234480907296482497.a n : ℤ) = A333656 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037465 n
 
-theorem P10234480907296482497.correct : P10234480907296482497.Spec := by
-  intro n
-  simp only [A333656, Nat.add_sub_cancel]
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
-end A333656
+end
+
+end A333656.P10234480907296482497
 
 /-! ## A333656.P16268712187300888625
 
@@ -4323,14 +4321,6 @@ end
 
 end A333656.P16268712187300888625
 
-namespace A333656
-
-/-- `lt[4, A190595(n)]` -/
-def P16268712187300888625.Spec : Prop :=
-  ∀ n, (P16268712187300888625.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P3464409404565741539
 
 `eq[5, A319654(n)%6]`
@@ -4351,14 +4341,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P3464409404565741539
-
-namespace A333656
-
-/-- `eq[5, A319654(n)%6]` -/
-def P3464409404565741539.Spec : Prop :=
-  ∀ n, (P3464409404565741539.a n : ℤ) = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P12670804941431682108
 
@@ -4381,14 +4363,6 @@ end
 
 end A333656.P12670804941431682108
 
-namespace A333656
-
-/-- `lt[3, A006530(A338863(n))]` -/
-def P12670804941431682108.Spec : Prop :=
-  ∀ n, (P12670804941431682108.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P13386646253826250110
 
 `eq[A168092(n), A190595(n)]`
@@ -4409,14 +4383,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P13386646253826250110
-
-namespace A333656
-
-/-- `eq[A168092(n), A190595(n)]` -/
-def P13386646253826250110.Spec : Prop :=
-  ∀ n, (P13386646253826250110.a n : ℤ) = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P12115370225803441009
 
@@ -4439,14 +4405,6 @@ end
 
 end A333656.P12115370225803441009
 
-namespace A333656
-
-/-- `eq[2, A146989(A338863(n)+1)]` -/
-def P12115370225803441009.Spec : Prop :=
-  ∀ n, (P12115370225803441009.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P3026955471843200274
 
 `eq[A094324(n+1), A190595(n)]`
@@ -4467,14 +4425,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P3026955471843200274
-
-namespace A333656
-
-/-- `eq[A094324(n+1), A190595(n)]` -/
-def P3026955471843200274.Spec : Prop :=
-  ∀ n, (P3026955471843200274.a n : ℤ) = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P4569904009104694355
 
@@ -4497,14 +4447,6 @@ end
 
 end A333656.P4569904009104694355
 
-namespace A333656
-
-/-- `eq[A128999(n+1), A190595(n)]` -/
-def P4569904009104694355.Spec : Prop :=
-  ∀ n, (P4569904009104694355.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P16281304468392010747
 
 `eq[A190595(n), A210032(n+1)]`
@@ -4525,14 +4467,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P16281304468392010747
-
-namespace A333656
-
-/-- `eq[A190595(n), A210032(n+1)]` -/
-def P16281304468392010747.Spec : Prop :=
-  ∀ n, (P16281304468392010747.a n : ℤ) = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P16301429675725780358
 
@@ -4555,14 +4489,6 @@ end
 
 end A333656.P16301429675725780358
 
-namespace A333656
-
-/-- `eq[A190595(n), A374359(n+1)]` -/
-def P16301429675725780358.Spec : Prop :=
-  ∀ n, (P16301429675725780358.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P9998236153145023039
 
 `eq[A190595(n), A350362(n+3)]`
@@ -4583,14 +4509,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P9998236153145023039
-
-namespace A333656
-
-/-- `eq[A190595(n), A350362(n+3)]` -/
-def P9998236153145023039.Spec : Prop :=
-  ∀ n, (P9998236153145023039.a n : ℤ) = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P5472712403012068630
 
@@ -4613,14 +4531,6 @@ end
 
 end A333656.P5472712403012068630
 
-namespace A333656
-
-/-- `eq[1, A165051(6*n)%6]` -/
-def P5472712403012068630.Spec : Prop :=
-  ∀ n, (P5472712403012068630.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P1305217934611080552
 
 `A068505(A283608(n+1))`
@@ -4635,14 +4545,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P1305217934611080552
-
-namespace A333656
-
-/-- `A068505(A283608(n+1))` -/
-def P1305217934611080552.Spec : Prop :=
-  ∀ n, P1305217934611080552.a n = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P6061254670862204771
 
@@ -4665,14 +4567,6 @@ end
 
 end A333656.P6061254670862204771
 
-namespace A333656
-
-/-- `lt[4, A054055(A007092(n))]` -/
-def P6061254670862204771.Spec : Prop :=
-  ∀ n, (P6061254670862204771.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P16735546696922555194
 
 `lt[5, A054055(A202267(n+1))]`
@@ -4693,14 +4587,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P16735546696922555194
-
-namespace A333656
-
-/-- `lt[5, A054055(A202267(n+1))]` -/
-def P16735546696922555194.Spec : Prop :=
-  ∀ n, (P16735546696922555194.a n : ℤ) = A333656 (n + 1)
-
-end A333656
 
 /-! ## A333656.P15636593154122919225
 
@@ -4729,14 +4615,6 @@ end
 
 end A333656.P15636593154122919225
 
-namespace A333656
-
-/-- `lt[4, A054055(lt[A054055(n), 6])]` -/
-def P15636593154122919225.Spec : Prop :=
-  ∀ n, (P15636593154122919225.a n : ℤ) = A333656 (n + 1)
-
-end A333656
-
 /-! ## A333656.P3322374922581016808
 
 `A028901(A283608(n+1)+1)-1`
@@ -4751,14 +4629,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A333656.P3322374922581016808
-
-namespace A333656
-
-/-- `A028901(A283608(n+1)+1)-1` -/
-def P3322374922581016808.Spec : Prop :=
-  ∀ n, P3322374922581016808.a n = A333656 (n + 1)
-
-end A333656
 
 /-!
 # A333658: a(n) is the greatest number m not yet in the sequence such that the primorial base expansions of n and of m have the same digits (up to order but with multiplicity).

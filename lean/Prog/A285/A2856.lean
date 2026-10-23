@@ -8865,6 +8865,121 @@ def P10168285042540394135.Spec : Prop :=
 
 end A285683
 
+/-! ## A285683.P4452739139313805040
+
+`A195170(A004956(n+1))`
+-/
+
+namespace A285683.P4452739139313805040
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195170 (A004956 (n + 1)).toNat
+
+end
+
+end A285683.P4452739139313805040
+
+namespace A285683
+
+/-- `A195170(A004956(n+1))` -/
+def P4452739139313805040.Spec : Prop :=
+  ∀ n, P4452739139313805040.a n = A285683 (n + 1)
+
+end A285683
+
+/-! ## A285683.P11694991113457364997
+
+`A195170(A026351(n+1))`
+-/
+
+namespace A285683.P11694991113457364997
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195170 (A026351 (n + 1)).toNat
+
+end
+
+end A285683.P11694991113457364997
+
+namespace A285683
+
+/-- `A195170(A026351(n+1))` -/
+def P11694991113457364997.Spec : Prop :=
+  ∀ n, P11694991113457364997.a n = A285683 (n + 1)
+
+end A285683
+
+/-! ## A285683.P6476526194291799099
+
+`A195170(A000201(n+1)+1)`
+-/
+
+namespace A285683.P6476526194291799099
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195170 (A000201 (n + 1) + 1).toNat
+
+end
+
+end A285683.P6476526194291799099
+
+namespace A285683
+
+/-- `A195170(A000201(n+1)+1)` -/
+def P6476526194291799099.Spec : Prop :=
+  ∀ n, P6476526194291799099.a n = A285683 (n + 1)
+
+end A285683
+
+/-! ## A285683.P16258717302987218681
+
+`A195170(A007066(n+2)-(n+2))`
+-/
+
+namespace A285683.P16258717302987218681
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195170 (A007066 (n + 2) - (n + 2 : ℤ)).toNat
+
+end
+
+end A285683.P16258717302987218681
+
+namespace A285683
+
+/-- `A195170(A007066(n+2)-(n+2))` -/
+def P16258717302987218681.Spec : Prop :=
+  ∀ n, P16258717302987218681.a n = A285683 (n + 1)
+
+end A285683
+
+/-! ## A285683.P14141733633122997216
+
+`A182760(A284625(n+1))`
+-/
+
+namespace A285683.P14141733633122997216
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182760 (A284625 (n + 1)).toNat
+
+end
+
+end A285683.P14141733633122997216
+
+namespace A285683
+
+/-- `A182760(A284625(n+1))` -/
+def P14141733633122997216.Spec : Prop :=
+  ∀ n, P14141733633122997216.a n = A285683 (n + 1)
+
+end A285683
+
 /-!
 # A285684: Characteristic sequence of the Beatty sequence, A022838, of sqrt(3).
 

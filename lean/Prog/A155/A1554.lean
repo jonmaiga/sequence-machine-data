@@ -5111,6 +5111,28 @@ end
 
 end A155471.P10317149222655722575
 
+/-! ## A155471.P199064366679516206
+
+`∩[A040159(n+1), A252474(n+1)]`
+-/
+
+namespace A155471.P199064366679516206
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040159 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252474 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A155471.P199064366679516206
+
 /-!
 # A155472: Numbers that are the sum of 2 (not-distinct) numbers; nonzero power3 and power5, including repetitions.
 
@@ -5912,6 +5934,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A155482.P14824464075630442271
+
+/-! ## A155482.P17351072924205621868
+
+`Δ[char[A332929(n+1)]]`
+-/
+
+namespace A155482.P17351072924205621868
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332929 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A155482.P17351072924205621868
 
 /-!
 # A155483: a(n)=A000040(A043489(n+1)).

@@ -55,7 +55,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1972,7 +1971,7 @@ end A194813
 /-!
 # A194814: Number of integers k in [1,n] such that {n*r+k*r} > {n*r-k*r}, where { } = fractional part and r=(1+sqrt(5))/2 (the golden ratio).
 
-The programs for A194814, the canonical program `A194814.P16521420712131060021` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194814 has offset 1).
+The programs for A194814, the canonical program `A194814.P16521420712131060021` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194814 has offset 1).
 
 The definition of A194814 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2041,7 +2040,7 @@ end A194814
 
 `1-A194813(n+1)+n`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194814
@@ -2252,7 +2251,7 @@ end A194814
 /-!
 # A194815: Number of integers k in [1,n] such that {n*r+k*r} < {n*r-k*r}, where { } = fractional part and r=sqrt(2).
 
-The programs for A194815, the canonical program `A194815.P10897451695732251232` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194815 has offset 1).
+The programs for A194815, the canonical program `A194815.P10897451695732251232` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194815 has offset 1).
 
 The definition of A194815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2404,7 +2403,7 @@ end A194815
 
 `abs(A001489(∑[A327177(n)]))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194815
@@ -2526,7 +2525,7 @@ end A194815
 /-!
 # A194816: Number of integers k in [1,n] such that {n*r+k*r} > {n*r-k*r}, where { } = fractional part and r=sqrt(2).
 
-The programs for A194816, the canonical program `A194816.P12578202600685302847` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194816 has offset 1).
+The programs for A194816, the canonical program `A194816.P12578202600685302847` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194816 has offset 1).
 
 The definition of A194816 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2535,7 +2534,7 @@ The definition of A194816 is `conjectured`: the Lean definition is a formula tha
 
 `∑[1-A327177(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194816
@@ -4120,7 +4119,7 @@ end A194826
 /-!
 # A194827: 2-adic valuation of the number of n X n Alternating Sign Matrices (A005130(n)).
 
-The programs for A194827, the canonical program `A194827.P12693509753425005756` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194827 has offset 1).
+The programs for A194827, the canonical program `A194827.P12693509753425005756` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194827 has offset 1).
 
 The definition of A194827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4129,7 +4128,7 @@ The definition of A194827 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A000120(n)-A240883(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194827
@@ -8313,7 +8312,7 @@ end A194847
 /-!
 # A194848: Write n = C(i,3)+C(j,2)+C(k,1) with i>j>k>=0; sequence gives j values.
 
-The programs for A194848, the canonical program `A194848.P4641627590667546157` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194848 has offset 0).
+The programs for A194848, the canonical program `A194848.P4641627590667546157` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194848 has offset 0).
 
 The definition of A194848 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056557, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8322,7 +8321,7 @@ The definition of A194848 is `conditional`: the Lean definition is an OEIS formu
 
 `A056557(n)+1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A194848

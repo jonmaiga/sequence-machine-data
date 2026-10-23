@@ -7101,26 +7101,33 @@ def P14826742421429405940.Spec : Prop :=
 
 end A171387
 
-/-! ## A171387.P17915727910586565197
+/-! ## A171387.P4408932887156249695
 
-`A010051(n+1)*A091247(n)`
+`char[record[A060684(n+2)]]`
 -/
 
-namespace A171387.P17915727910586565197
+namespace A171387.P4408932887156249695
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010051 (n + 1) * A091247 n
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060684 (n + 2)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
 
 end
 
-end A171387.P17915727910586565197
+end A171387.P4408932887156249695
 
 namespace A171387
 
-/-- `A010051(n+1)*A091247(n)` -/
-def P17915727910586565197.Spec : Prop :=
-  ∀ n, P17915727910586565197.a n = A171387 (n + 1)
+/-- `char[record[A060684(n+2)]]` -/
+def P4408932887156249695.Spec : Prop :=
+  ∀ n, (P4408932887156249695.a n : ℤ) = A171387 (n + 1)
 
 end A171387
 
@@ -7989,20 +7996,27 @@ end
 
 end A171396.P4602307635542085116
 
-/-! ## A171396.P16632175275405615469
+/-! ## A171396.P16219712629178059961
 
-`A171591(A037454(n))`
+`∩[A007089(n), A171460(n)]`
 -/
 
-namespace A171396.P16632175275405615469
+namespace A171396.P16219712629178059961
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A171591 (A037454 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007089 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171460 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A171396.P16632175275405615469
+end A171396.P16219712629178059961
 
 /-!
 # A171397: Write n in base 10, but then read it as if it were written in base 11: if n = Sum_{i >= 0} d_i*10^i, with 0 <= d_i <= 9, then a(n) = Sum_{i >= 0} d_i*11^i.

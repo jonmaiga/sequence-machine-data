@@ -53,12 +53,13 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C025
 
 /-!
@@ -4533,6 +4534,72 @@ end A252355.P11156677679645660135
 The programs for A252357, there is no canonical definition to state claims against.
 -/
 
+/-! ## A252357.P8140721526878356158
+
+`∩[A067077(n+1), A111747(n+1)]`
+-/
+
+namespace A252357.P8140721526878356158
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067077 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111747 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252357.P8140721526878356158
+
+/-! ## A252357.P5416059165255978937
+
+`∩[A023106(n), A212667(n+1)]`
+-/
+
+namespace A252357.P5416059165255978937
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023106 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212667 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252357.P5416059165255978937
+
+/-! ## A252357.P10542300340882752771
+
+`∩[A067077(n+1), A212667(n+1)]`
+-/
+
+namespace A252357.P10542300340882752771
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067077 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212667 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252357.P10542300340882752771
+
 /-! ## A252357.P5514436792080377265
 
 `∩[A111747(n+1), A212667(n+1)]`
@@ -4554,39 +4621,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252357.P5514436792080377265
-
-/-! ## A252357.P12235851383601854498
-
-`A212667(∑[A212390(2*n)])`
--/
-
-namespace A252357.P12235851383601854498
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212390 (2 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212667 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A252357.P12235851383601854498
-
-/-! ## A252357.P11271221392483025854
-
-`A212667(A212390(2*n)+n)`
--/
-
-namespace A252357.P11271221392483025854
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212667 (A212390 (2 * n) + (n : ℤ)).toNat
-
-end
-
-end A252357.P11271221392483025854
 
 /-!
 # A252358: Smallest prime p such that (2^n)^(p-1) == 1 (mod p^2), i.e., smallest Wieferich prime to base 2^n.

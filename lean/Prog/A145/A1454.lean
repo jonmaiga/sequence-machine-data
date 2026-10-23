@@ -2516,6 +2516,21 @@ end
 
 end A145459.P4620071706138534935
 
+/-! ## A145459.P5133104302368600850
+
+`A106610(A243744(n+9))`
+-/
+
+namespace A145459.P5133104302368600850
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106610 (A243744 (n + 9)).toNat
+
+end
+
+end A145459.P5133104302368600850
+
 /-!
 # A145460: Square array A(n,k), n>=0, k>=0, read by antidiagonals, where sequence a_k of column k is the exponential transform of C(n,k).
 

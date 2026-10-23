@@ -31,7 +31,6 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -913,6 +912,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A380733.P3826179642868251524
+
+/-! ## A380733.P14677942102012341920
+
+`eq[A092368(n), A232989(n)]`
+-/
+
+namespace A380733.P14677942102012341920
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092368 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232989 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A380733.P14677942102012341920
 
 /-!
 # A380743: Integers m such that A379816(m) != A379815(m) + m.

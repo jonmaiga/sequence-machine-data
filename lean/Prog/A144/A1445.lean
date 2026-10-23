@@ -25,6 +25,7 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -5188,6 +5189,82 @@ def P17686351247255247543.Spec : Prop :=
 
 end A144560
 
+/-! ## A144560.P3004241231065247413
+
+`A395421(4*n)/2`
+-/
+
+namespace A144560.P3004241231065247413
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A395421 (4 * n) : ℚ) / 2
+
+end
+
+end A144560.P3004241231065247413
+
+namespace A144560
+
+/-- `A395421(4*n)/2` -/
+def P3004241231065247413.Spec : Prop :=
+  ∀ n, P3004241231065247413.a n = (A144560 n : ℚ)
+
+end A144560
+
+/-! ## A144560.P4773139666638344232
+
+`∩[2*n, 10*C(2*n, 2)]`
+-/
+
+namespace A144560.P4773139666638344232
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  10 * Nat.choose (2 * n) 2
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = x) n
+
+end
+
+end A144560.P4773139666638344232
+
+namespace A144560
+
+/-- `∩[2*n, 10*C(2*n, 2)]` -/
+def P4773139666638344232.Spec : Prop :=
+  ∀ n, (P4773139666638344232.a n : ℤ) = A144560 n
+
+end A144560
+
+/-! ## A144560.P1592582575916716023
+
+`A008592(C(2*n, 2))`
+-/
+
+namespace A144560.P1592582575916716023
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008592 (Nat.choose (2 * n) 2)
+
+end
+
+end A144560.P1592582575916716023
+
+namespace A144560
+
+/-- `A008592(C(2*n, 2))` -/
+def P1592582575916716023.Spec : Prop :=
+  ∀ n, P1592582575916716023.a n = A144560 n
+
+end A144560
+
 /-!
 # A144561: Prime p such that p^2+13p+23 is prime.
 
@@ -7936,19 +8013,19 @@ end
 
 end A144581.P10262592536573858468
 
-/-! ## A144581.P15043307259150955451
+/-! ## A144581.P4987942280403798845
 
-`∩[A046339(n+1), A092858(n+1)]`
+`∩[A046339(n+1), A112355(n+1)]`
 -/
 
-namespace A144581.P15043307259150955451
+namespace A144581.P4987942280403798845
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A046339 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092858 (n + 1)
+  A112355 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7956,7 +8033,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A144581.P15043307259150955451
+end A144581.P4987942280403798845
 
 /-!
 # A144582: Numbers having the same leading decimal digit as their cube.

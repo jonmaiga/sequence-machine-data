@@ -73,7 +73,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -3511,6 +3510,32 @@ def P365858468554045660.Spec : Prop :=
 
 end A205342
 
+/-! ## A205342.P14036373559713140643
+
+`A034262(n+1)+∑[n²]`
+-/
+
+namespace A205342.P14036373559713140643
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034262 (n + 1) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+
+end
+
+end A205342.P14036373559713140643
+
+namespace A205342
+
+/-- `A034262(n+1)+∑[n²]` -/
+def P14036373559713140643.Spec : Prop :=
+  ∀ n, P14036373559713140643.a n = A205342 (n + 1)
+
+end A205342
+
 /-!
 # A205343: Number of length 6 nonnegative integer arrays starting and ending with 0 with adjacent elements unequal but differing by no more than n.
 
@@ -4345,10 +4370,29 @@ end A205353.P8399865364015977
 /-!
 # A205354: Number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having the same number of equal diagonal or antidiagonal elements, and new values 0..2 introduced in row major order.
 
-The programs for A205354, the canonical program `A205354.P8449545152770592084` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205354 has offset 1).
+The programs for A205354, the canonical program `A205354.P17155024401070399485` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205354 has offset 1).
 
 The definition of A205354 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A205354.P17155024401070399485
+
+`12*4^n+2`
+
+The canonical program, it is in `Seq.B000.C028`.
+-/
+
+namespace A205354
+
+/-- `12*4^n+2` -/
+def P17155024401070399485.Spec : Prop :=
+  ∀ n, (P17155024401070399485.a n : ℤ) = A205354 (n + 1)
+
+theorem P17155024401070399485.correct : P17155024401070399485.Spec := by
+  intro n
+  simp only [A205354, Nat.add_sub_cancel]
+
+end A205354
 
 /-! ## A205354.P13394520170140722596
 
@@ -4416,25 +4460,6 @@ namespace A205354
 /-- `ogf((14-20x)/(1-5x+4x^2))` -/
 def P2885818781089292390.Spec : Prop :=
   ∀ n, P2885818781089292390.a n = A205354 (n + 1)
-
-end A205354
-
-/-! ## A205354.P8449545152770592084
-
-`2+3*4^(n+1)`
-
-The canonical program, it is in `Seq.B000.C028`.
--/
-
-namespace A205354
-
-/-- `2+3*4^(n+1)` -/
-def P8449545152770592084.Spec : Prop :=
-  ∀ n, (P8449545152770592084.a n : ℤ) = A205354 (n + 1)
-
-theorem P8449545152770592084.correct : P8449545152770592084.Spec := by
-  intro n
-  simp only [A205354, Nat.add_sub_cancel]
 
 end A205354
 
@@ -4520,11 +4545,11 @@ theorem P13028827774617158339.correct : P13028827774617158339.Spec := by
   | _ n ih =>
     match n with
     | 0 =>
-      simp [A205354, Nat.add_sub_cancel, A205354.P13028827774617158339.a, A205354.P8449545152770592084.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A205354, Nat.add_sub_cancel, A205354.P13028827774617158339.a, A205354.P17155024401070399485.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 1 =>
       have h1 := ih m (by omega)
-      simp only [A205354, Nat.add_sub_cancel, A205354.P13028827774617158339.a, A205354.P8449545152770592084.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      simp only [A205354, Nat.add_sub_cancel, A205354.P13028827774617158339.a, A205354.P17155024401070399485.a, SequenceMachineLib.memo_apply] at h1 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢

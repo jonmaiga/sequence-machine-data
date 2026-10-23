@@ -48,7 +48,6 @@ import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -822,6 +821,29 @@ namespace A016305
 /-- `2^(n-1)*(2^(2*n+5)-3^(n+3)+1)/3` -/
 def P2735815128655116618.Spec : Prop :=
   ∀ n, P2735815128655116618.a n = (A016305 n : ℚ)
+
+end A016305
+
+/-! ## A016305.P2066268627726781958
+
+`2^n*A016208(n)`
+-/
+
+namespace A016305.P2066268627726781958
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℤ) * A016208 n
+
+end
+
+end A016305.P2066268627726781958
+
+namespace A016305
+
+/-- `2^n*A016208(n)` -/
+def P2066268627726781958.Spec : Prop :=
+  ∀ n, P2066268627726781958.a n = A016305 n
 
 end A016305
 
@@ -2490,7 +2512,7 @@ end A016316
 /-!
 # A016317: Expansion of 1/((1-2x)(1-8x)(1-10x)).
 
-The programs for A016317, the canonical program `A016317.P16055473397431174586` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016317 has offset 0).
+The programs for A016317, the canonical program `A016317.P16055473397431174586` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016317 has offset 0).
 
 The definition of A016317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2540,7 +2562,7 @@ end A016317
 
 `18*a(n-1)-80*a(n-2)+2^n` with `a(0)=1, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A016317

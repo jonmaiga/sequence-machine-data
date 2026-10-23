@@ -1008,6 +1008,29 @@ def P5264617951466468169.Spec : Prop :=
 
 end A068503
 
+/-! ## A068503.P17962952289339787914
+
+`A038500(A037168(n+1))`
+-/
+
+namespace A068503.P17962952289339787914
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038500 (A037168 (n + 1)).toNat
+
+end
+
+end A068503.P17962952289339787914
+
+namespace A068503
+
+/-- `A038500(A037168(n+1))` -/
+def P17962952289339787914.Spec : Prop :=
+  ∀ n, P17962952289339787914.a n = A068503 (n + 1)
+
+end A068503
+
 /-!
 # A068504: Highest power of 2 dividing prime(n)+1.
 
@@ -8414,6 +8437,66 @@ def P9075617915095365277.Spec : Prop :=
 
 end A068563
 
+/-! ## A068563.P770248244866959567
+
+`∪[A000079(n), A338370(n+1)]`
+-/
+
+namespace A068563.P770248244866959567
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338370 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068563.P770248244866959567
+
+namespace A068563
+
+/-- `∪[A000079(n), A338370(n+1)]` -/
+def P770248244866959567.Spec : Prop :=
+  ∀ n, (P770248244866959567.a n : ℤ) = A068563 (n + 1)
+
+end A068563
+
+/-! ## A068563.P3507908564774127021
+
+`∪[A008861(n), A338370(n+1)]`
+-/
+
+namespace A068563.P3507908564774127021
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008861 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338370 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068563.P3507908564774127021
+
+namespace A068563
+
+/-- `∪[A008861(n), A338370(n+1)]` -/
+def P3507908564774127021.Spec : Prop :=
+  ∀ n, (P3507908564774127021.a n : ℤ) = A068563 (n + 1)
+
+end A068563
+
 /-!
 # A068565: Denominators of Sum_{k=1..n} 1/(k * 2^k).
 
@@ -8995,6 +9078,28 @@ end
 
 end A068575.P6897962220053550946
 
+/-! ## A068575.P4673202158679725413
+
+`∩[A022465(n+1), A362060(n+1)]`
+-/
+
+namespace A068575.P4673202158679725413
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022465 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362060 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068575.P4673202158679725413
+
 /-! ## A068575.P10765143939608695460
 
 `∪[A067248(n+1), A067928(n+1)]`
@@ -9016,28 +9121,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068575.P10765143939608695460
-
-/-! ## A068575.P4391750405541786372
-
-`∪[A067248(n+1), A000720(A236469(n+1))]`
--/
-
-namespace A068575.P4391750405541786372
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067248 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (A236469 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068575.P4391750405541786372
 
 /-!
 # A068577: Numbers k such that tau(k)^2 > phi(k).
@@ -10348,6 +10431,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A068597.P9265696451165146370
+
+/-! ## A068597.P13473785967607194636
+
+`∩[A217660(n+1), A328592(n+1)]`
+-/
+
+namespace A068597.P13473785967607194636
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A217660 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328592 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068597.P13473785967607194636
 
 /-!
 # A068598: Number of maximal sets of partitions of n with property that all parts in all partitions in the set are distinct.

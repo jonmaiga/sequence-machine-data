@@ -50,6 +50,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -5576,6 +5577,28 @@ end
 
 end A343675.P18397891406971857643
 
+/-! ## A343675.P18418037470007650243
+
+`∩[A169829(n+1), A343590(n+1)]`
+-/
+
+namespace A343675.P18418037470007650243
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169829 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343590 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343675.P18418037470007650243
+
 /-! ## A343675.P18054904408945588982
 
 `∩[A188650(n+1), A343590(n+1)]`
@@ -5807,6 +5830,28 @@ end A343678.P14439211014979853747
 The programs for A343679, there is no canonical definition to state claims against.
 -/
 
+/-! ## A343679.P5237556839600223868
+
+`∩[A020230(n+1), A235540(n+1)]`
+-/
+
+namespace A343679.P5237556839600223868
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020230 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A235540 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343679.P5237556839600223868
+
 /-! ## A343679.P5981177531097018182
 
 `∩[A177884(n+1), A235540(n+1)]`
@@ -6004,6 +6049,50 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A343682.P3247701907480948636
+
+/-! ## A343682.P3476621833899145100
+
+`∩[A343681(n+1), A351467(n+1)]`
+-/
+
+namespace A343682.P3476621833899145100
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343681 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351467 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343682.P3476621833899145100
+
+/-! ## A343682.P2719365642311967422
+
+`∩[A332111(n+1), A343681(n+1)]`
+-/
+
+namespace A343682.P2719365642311967422
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332111 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343681 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A343682.P2719365642311967422
 
 /-!
 # A343684: Triangle read by rows: T(n,k). Row n lists the numerators of a finite sum of fractions which results from Sum_{j>=1} 1/2^(A014682^n(j)).

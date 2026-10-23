@@ -1443,19 +1443,19 @@ end
 
 end A320323.P13601910767205588239
 
-/-! ## A320323.P5697944807678143128
+/-! ## A320323.P16010996921129413953
 
-`∩[A320325(n+1), A321698(n+2)]`
+`∩[A320324(n+1), A320325(n+1)]`
 -/
 
-namespace A320323.P5697944807678143128
+namespace A320323.P16010996921129413953
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320325 (n + 1)
+  A320324 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321698 (n + 2)
+  A320325 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1463,7 +1463,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A320323.P5697944807678143128
+end A320323.P16010996921129413953
+
+/-! ## A320323.P9131013290830658459
+
+`∩[A320325(n+1), A321698(n+1)]`
+-/
+
+namespace A320323.P9131013290830658459
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320325 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321698 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320323.P9131013290830658459
+
+/-! ## A320323.P15251176627070969227
+
+`∩[A305081(n+1), A320325(n+1)]`
+-/
+
+namespace A320323.P15251176627070969227
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A305081 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320325 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320323.P15251176627070969227
 
 /-!
 # A320324: Numbers of which each prime index has the same number of prime factors, counted with multiplicity.

@@ -61,7 +61,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -72,6 +72,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2556,6 +2557,29 @@ namespace A280321
 /-- `(2*n+1)*(C(2*n, A000045(2*n+1))+2*n+1)` -/
 def P2058206385683826654.Spec : Prop :=
   ∀ n, (P2058206385683826654.a n : ℤ) = A280321 n
+
+end A280321
+
+/-! ## A280321.P10941694590448606171
+
+`(2*n+1)*(C(2*n, C(2*n, n))+2*n+1)`
+-/
+
+namespace A280321.P10941694590448606171
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1) * (Nat.choose (2 * n) (Nat.choose (2 * n) n) + (2 * n + 1))
+
+end
+
+end A280321.P10941694590448606171
+
+namespace A280321
+
+/-- `(2*n+1)*(C(2*n, C(2*n, n))+2*n+1)` -/
+def P10941694590448606171.Spec : Prop :=
+  ∀ n, (P10941694590448606171.a n : ℤ) = A280321 n
 
 end A280321
 

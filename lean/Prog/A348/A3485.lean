@@ -34,6 +34,7 @@ import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6928,19 +6929,19 @@ end A348543
 The programs for A348544, there is no canonical definition to state claims against.
 -/
 
-/-! ## A348544.P8806554177036101138
+/-! ## A348544.P12616896471327816977
 
-`∩[A348054(n+1), A346950(n+5)]`
+`∩[A346950(n+1), A348054(n+1)]`
 -/
 
-namespace A348544.P8806554177036101138
+namespace A348544.P12616896471327816977
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348054 (n + 1)
+  A346950 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346950 (n + 5)
+  A348054 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6948,7 +6949,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A348544.P8806554177036101138
+end A348544.P12616896471327816977
 
 /-! ## A348544.P7592592491404862748
 
@@ -8277,6 +8278,21 @@ end
 
 end A348558.P9046625296099642584
 
+/-! ## A348558.P12679242748402350484
+
+`A040969(A082217(n+1))`
+-/
+
+namespace A348558.P12679242748402350484
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040969 (A082217 (n + 1)).toNat
+
+end
+
+end A348558.P12679242748402350484
+
 /-!
 # A348560: Primes where every other digit is 7 starting with the rightmost digit, and no other digit is 7.
 
@@ -8318,6 +8334,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A348560.P3700158367175500810
+
+/-! ## A348560.P17131514376950261721
+
+`∩[A032758(n+1), A385869(n+7)]`
+-/
+
+namespace A348560.P17131514376950261721
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032758 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385869 (n + 7)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348560.P17131514376950261721
+
+/-! ## A348560.P6804295999085122250
+
+`∩[A242541(n+1), A385869(n+7)]`
+-/
+
+namespace A348560.P6804295999085122250
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242541 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385869 (n + 7)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A348560.P6804295999085122250
 
 /-!
 # A348561: Primes where every other digit is 9 starting with the rightmost digit, and no other digit is 9.
@@ -8361,26 +8421,27 @@ end
 
 end A348561.P17150353438623294198
 
-/-! ## A348561.P14624103428801178621
+/-! ## A348561.P17595171709220570845
 
-`p?[record[A151360(A087082(n+1))]]`
+`∩[A016897(n), A032758(n+1)]`
 -/
 
-namespace A348561.P14624103428801178621
+namespace A348561.P17595171709220570845
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151360 (A087082 (n + 1)).toNat
-
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+  A016897 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032758 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A348561.P14624103428801178621
+end A348561.P17595171709220570845
 
 /-!
 # A348567: Number of fully symmetric recurrent sandpiles on an n X n grid.
@@ -8490,19 +8551,19 @@ end
 
 end A348568.P10031926400964825862
 
-/-! ## A348568.P6155096981121059315
+/-! ## A348568.P7715683535463896485
 
-`∩[A056153(n+1), A094348(n+1)]`
+`∩[A056153(n+1), A065218(n+1)]`
 -/
 
-namespace A348568.P6155096981121059315
+namespace A348568.P7715683535463896485
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A056153 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094348 (n + 1)
+  A065218 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -8510,7 +8571,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A348568.P6155096981121059315
+end A348568.P7715683535463896485
 
 /-!
 # A348569: a(n) = (prime(n) + prime(n+2))^2 + prime(n+1)^2.

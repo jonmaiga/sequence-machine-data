@@ -65,9 +65,9 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -4355,6 +4355,33 @@ def P3569949787984714916.Spec : Prop :=
 
 end A267442
 
+/-! ## A267442.P12391587413487503283
+
+`xor(1, char[xor(n, n+1)])^3`
+-/
+
+namespace A267442.P12391587413487503283
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor n (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor 1 (if ∃ j, f1 j = n then 1 else 0) ^ 3
+
+end
+
+end A267442.P12391587413487503283
+
+namespace A267442
+
+/-- `xor(1, char[xor(n, n+1)])^3` -/
+def P12391587413487503283.Spec : Prop :=
+  ∀ n, (P12391587413487503283.a n : ℤ) = A267442 n
+
+end A267442
+
 /-! ## A267442.P432945840775645592
 
 `round(or(1, n)/or(n, n+1))`
@@ -4421,29 +4448,6 @@ namespace A267442
 /-- `ceil(sin(and(n+1, n-1))²)` -/
 def P6768539359099388107.Spec : Prop :=
   ∀ n, P6768539359099388107.a n = A267442 n
-
-end A267442
-
-/-! ## A267442.P7776498694118818088
-
-`ceil(tanh(sqrt(and(n+1, n-1))))`
--/
-
-namespace A267442.P7776498694118818088
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.tanh (Real.sqrt (Int.land (n + 1 : ℤ) ((n : ℤ) - 1) : ℝ))⌉
-
-end
-
-end A267442.P7776498694118818088
-
-namespace A267442
-
-/-- `ceil(tanh(sqrt(and(n+1, n-1))))` -/
-def P7776498694118818088.Spec : Prop :=
-  ∀ n, P7776498694118818088.a n = A267442 n
 
 end A267442
 
@@ -8323,6 +8327,29 @@ def P9240942100434270538.Spec : Prop :=
 
 end A267458
 
+/-! ## A267458.P14798747205132774450
+
+`ogf((1-x^2+2x^4)/(1-x-x^2+x^3))`
+-/
+
+namespace A267458.P14798747205132774450
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [1, 0, -1, 0, 2] [1, -1, -1, 1] n
+
+end
+
+end A267458.P14798747205132774450
+
+namespace A267458
+
+/-- `ogf((1-x^2+2x^4)/(1-x-x^2+x^3))` -/
+def P14798747205132774450.Spec : Prop :=
+  ∀ n, P14798747205132774450.a n = A267458 n
+
+end A267458
+
 /-!
 # A267459: Total number of ON (black) cells after n iterations of the "Rule 133" elementary cellular automaton starting with a single ON (black) cell.
 
@@ -8815,6 +8842,36 @@ def P15905800780599945179.Spec : Prop :=
 
 end A267459
 
+/-! ## A267459.P3114466340938456163
+
+`∪[A105343(n), A108100(n)]`
+-/
+
+namespace A267459.P3114466340938456163
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A105343 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108100 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A267459.P3114466340938456163
+
+namespace A267459
+
+/-- `∪[A105343(n), A108100(n)]` -/
+def P3114466340938456163.Spec : Prop :=
+  ∀ n, (P3114466340938456163.a n : ℤ) = A267459 n
+
+end A267459
+
 /-!
 # A267460: Number of OFF (white) cells in the n-th iteration of the "Rule 133" elementary cellular automaton starting with a single ON (black) cell.
 
@@ -9284,6 +9341,32 @@ namespace A267460
 /-- `4-(a(n-1)-n-n)` -/
 def P5289003364646966844.Spec : Prop :=
   ∀ n, P5289003364646966844.a n = A267460 n
+
+end A267460
+
+/-! ## A267460.P11046282024642789243
+
+`∑[and(2, C(n, (1-n)²)+2*n)]`
+-/
+
+namespace A267460.P11046282024642789243
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.land 2 (Nat.choose n ((1 - (n : ℤ)) ^ 2).toNat + 2 * n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A267460.P11046282024642789243
+
+namespace A267460
+
+/-- `∑[and(2, C(n, (1-n)²)+2*n)]` -/
+def P11046282024642789243.Spec : Prop :=
+  ∀ n, (P11046282024642789243.a n : ℤ) = A267460 n
 
 end A267460
 
@@ -10004,6 +10087,55 @@ namespace A267465
 /-- `2^(n+1)+3^n+2^(n-1)*(n+2)-1` -/
 def P6286956107587574874.Spec : Prop :=
   ∀ n, P6286956107587574874.a n = (A267465 (n + 1) : ℚ)
+
+end A267465
+
+/-! ## A267465.P13475513462995435855
+
+`A267471(∑[n+2])`
+-/
+
+namespace A267465.P13475513462995435855
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267471 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A267465.P13475513462995435855
+
+namespace A267465
+
+/-- `A267471(∑[n+2])` -/
+def P13475513462995435855.Spec : Prop :=
+  ∀ n, P13475513462995435855.a n = A267465 (n + 1)
+
+end A267465
+
+/-! ## A267465.P17317673829175612892
+
+`A376957(A253831(n+1))`
+-/
+
+namespace A267465.P17317673829175612892
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A376957 (A253831 (n + 1)).toNat
+
+end
+
+end A267465.P17317673829175612892
+
+namespace A267465
+
+/-- `A376957(A253831(n+1))` -/
+def P17317673829175612892.Spec : Prop :=
+  ∀ n, P17317673829175612892.a n = A267465 (n + 1)
 
 end A267465
 
@@ -13059,6 +13191,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A267496.P14216762057695806792
+
+/-! ## A267496.P2904946762320125667
+
+`A267497(A029804(n+2))`
+-/
+
+namespace A267496.P2904946762320125667
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267497 (A029804 (n + 2)).toNat
+
+end
+
+end A267496.P2904946762320125667
 
 /-!
 # A267497: Autobiographical numbers in base 9: numbers which are fixed or belong to a cycle under the operator T (see comments).

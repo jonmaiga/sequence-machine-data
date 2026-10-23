@@ -49,7 +49,6 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -66,6 +65,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -5580,6 +5580,28 @@ end
 
 end A309263.P6752062528827167928
 
+/-! ## A309263.P4223650342083353095
+
+`∩[A068382(n+1), A140110(n+1)]`
+-/
+
+namespace A309263.P4223650342083353095
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068382 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140110 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A309263.P4223650342083353095
+
 /-!
 # A309264: Numbers k such that s + t = k with 0 < s < t where t and t - s are both prime.
 
@@ -6126,7 +6148,7 @@ end A309268.P4845761805798785563
 /-!
 # A309269: Numbers that are the sum of two successive prime powers.
 
-The programs for A309269, the canonical program `A309269.P6439327140874271105` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309269 has offset 1).
+The programs for A309269, the canonical program `A309269.P6439327140874271105` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309269 has offset 1).
 
 The definition of A309269 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6135,7 +6157,7 @@ The definition of A309269 is `conditional`: the Lean definition is an OEIS formu
 
 `A000961(n+1)+A000961(n+2)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A309269

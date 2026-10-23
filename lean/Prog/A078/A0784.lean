@@ -5900,19 +5900,19 @@ end
 
 end A078440.P3872286139421869812
 
-/-! ## A078440.P12868413503344650546
+/-! ## A078440.P11377139760142756558
 
-`∩[A070537(n+1), A362959(n+1)]`
+`∩[A196871(n+1), A225836(n+1)]`
 -/
 
-namespace A078440.P12868413503344650546
+namespace A078440.P11377139760142756558
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070537 (n + 1)
+  A196871 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362959 (n + 1)
+  A225836 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5920,7 +5920,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A078440.P12868413503344650546
+end A078440.P11377139760142756558
 
 /-!
 # A078441: a(n) begins the first chain of n consecutive positive integers that have equal h-values, where h(k) is the length of the finite sequence k, f(k), f(f(k)), ...., 1 in the Collatz (or 3x + 1) problem. (The earliest "1" is meant.)
@@ -6543,6 +6543,28 @@ end
 
 end A078443.P15244543836382887603
 
+/-! ## A078443.P11462526624322526275
+
+`∩[A001358(n+1), A162735(n+1)]`
+-/
+
+namespace A078443.P11462526624322526275
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162735 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A078443.P11462526624322526275
+
 /-! ## A078443.P4932345559571040867
 
 `filter[A024675(n+1), A064911(#)]`
@@ -6813,28 +6835,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A078443.P9879092276604870752
-
-/-! ## A078443.P4569951958189171398
-
-`∩[A176540(n+1), A162800(n)]`
--/
-
-namespace A078443.P4569951958189171398
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A176540 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162800 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A078443.P4569951958189171398
 
 /-!
 # A078444: Floor of geometric mean of two consecutive primes.
@@ -10702,26 +10702,26 @@ def P8724552539865267115.Spec : Prop :=
 
 end A078471
 
-/-! ## A078471.P11913685296263588912
+/-! ## A078471.P16913697722429959738
 
-`A326124(n+1)-2*A024916(n+1)`
+`A271342(n+1)-A024919(n+1)`
 -/
 
-namespace A078471.P11913685296263588912
+namespace A078471.P16913697722429959738
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326124 (n + 1) - 2 * A024916 (n + 1)
+  A271342 (n + 1) - A024919 (n + 1)
 
 end
 
-end A078471.P11913685296263588912
+end A078471.P16913697722429959738
 
 namespace A078471
 
-/-- `A326124(n+1)-2*A024916(n+1)` -/
-def P11913685296263588912.Spec : Prop :=
-  ∀ n, P11913685296263588912.a n = A078471 (n + 1)
+/-- `A271342(n+1)-A024919(n+1)` -/
+def P16913697722429959738.Spec : Prop :=
+  ∀ n, P16913697722429959738.a n = A078471 (n + 1)
 
 end A078471
 
@@ -14074,6 +14074,28 @@ end
 
 end A078492.P2968054762686490151
 
+/-! ## A078492.P14323450797666516587
+
+`∩[A008592(n), A076150(n+1)]`
+-/
+
+namespace A078492.P14323450797666516587
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008592 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076150 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A078492.P14323450797666516587
+
 /-! ## A078492.P3828834063951169671
 
 `∩[A118118(n+1), A008592(n)]`
@@ -14235,28 +14257,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A078492.P17975648399611714687
-
-/-! ## A078492.P14981966738712221449
-
-`∩[A192545(n+1), A370532(n+1)]`
--/
-
-namespace A078492.P14981966738712221449
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A192545 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A370532 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A078492.P14981966738712221449
 
 /-!
 # A078493: One-prime decades.

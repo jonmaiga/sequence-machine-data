@@ -1885,6 +1885,21 @@ end
 
 end A375535.P18231233978608614750
 
+/-! ## A375535.P11506957899645668373
+
+`n+1-A008472(A088865(A088865(n+1)))`
+-/
+
+namespace A375535.P11506957899645668373
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A008472 (A088865 (A088865 (n + 1)).toNat).toNat
+
+end
+
+end A375535.P11506957899645668373
+
 /-!
 # A375536: The maximum exponent in the prime factorization of the largest 5-smooth divisor of n.
 

@@ -539,6 +539,29 @@ def P3859834681287822165.Spec : Prop :=
 
 end A277800
 
+/-! ## A277800.P7857945444336958845
+
+`and(A051049(n), A277867(n))`
+-/
+
+namespace A277800.P7857945444336958845
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A051049 n) (A277867 n)
+
+end
+
+end A277800.P7857945444336958845
+
+namespace A277800
+
+/-- `and(A051049(n), A277867(n))` -/
+def P7857945444336958845.Spec : Prop :=
+  ∀ n, P7857945444336958845.a n = A277800 n
+
+end A277800
+
 /-!
 # A277801: a(n) = 2^(n - 1) - prime(n).
 
@@ -1592,6 +1615,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277805.P8914547148295360698
+
+/-!
+# A277807: Numbers n such that A048720(n, A065621(n)) is a perfect square, but n is not in A023758.
+
+The programs for A277807, there is no canonical definition to state claims against.
+-/
+
+/-! ## A277807.P2810985815691958361
+
+`∩[A050321(n), A277704(n+1)]`
+-/
+
+namespace A277807.P2810985815691958361
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050321 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277704 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A277807.P2810985815691958361
 
 /-!
 # A277808: a(n) = number of iterations of map k -> A003188(A006068(k)/2) that are required (when starting from k = n) until k is an odious number.
@@ -3394,6 +3445,28 @@ end
 
 end A277814.P9336177506454086250
 
+/-! ## A277814.P2177636944720586257
+
+`∑[char[A277711(n+1)]]`
+-/
+
+namespace A277814.P2177636944720586257
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277711 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A277814.P2177636944720586257
+
 /-!
 # A277817: Positions of zeros in A277815; sequence A277711 sorted into ascending order.
 
@@ -3561,6 +3634,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A277817.P13845489283559600958
+
+/-! ## A277817.P11347552018304374260
+
+`comp[A277816(n+1)]`
+-/
+
+namespace A277817.P11347552018304374260
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277816 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A277817.P11347552018304374260
 
 /-! ## A277817.P12258018094226539007
 
@@ -11133,6 +11225,28 @@ end
 
 end A277888.P18206159849869423244
 
+/-! ## A277888.P18111241510285141219
+
+`∩[A175787(n+1), A276573(n)]`
+-/
+
+namespace A277888.P18111241510285141219
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175787 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A276573 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A277888.P18111241510285141219
+
 /-! ## A277888.P16247353371536439853
 
 `p?[∑[A276575(n)]]`
@@ -11153,24 +11267,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A277888.P16247353371536439853
-
-/-! ## A277888.P4073552761544286635
-
-`filter[A276573(n+1), A010051(#)]`
--/
-
-namespace A277888.P4073552761544286635
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276573 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
-
-end
-
-end A277888.P4073552761544286635
 
 /-!
 # A277889: After zero, excess of the odd terms in A276573 (the infinite trunk of least squares beanstalk) over the even terms.

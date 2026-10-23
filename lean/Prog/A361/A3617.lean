@@ -4788,6 +4788,28 @@ end A361786.P12567690441419657158
 The programs for A361787, there is no canonical definition to state claims against.
 -/
 
+/-! ## A361787.P3444226603060174489
+
+`∩[A080389(n+1), A286325(n+1)]`
+-/
+
+namespace A361787.P3444226603060174489
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080389 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286325 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A361787.P3444226603060174489
+
 /-! ## A361787.P2150663814407087799
 
 `A286325(lt[A036236(n), A177510(3*n+1)])`
@@ -4808,6 +4830,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361787.P2150663814407087799
+
+/-! ## A361787.P7480706928348738259
+
+`∩[A061383(n), A286325(n+1)]`
+-/
+
+namespace A361787.P7480706928348738259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A061383 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A286325 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A361787.P7480706928348738259
 
 /-!
 # A361788: Number of divisors of n that are totient values (A002202).

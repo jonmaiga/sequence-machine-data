@@ -51,7 +51,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -673,6 +672,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A206708.P17799840056800915092
+
+/-! ## A206708.P13988054680847625479
+
+`A347770(A043320(n+1))`
+-/
+
+namespace A206708.P13988054680847625479
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347770 (A043320 (n + 1)).toNat
+
+end
+
+end A206708.P13988054680847625479
+
+/-! ## A206708.P11296135478221051427
+
+`A347770(A044917(n+1))`
+-/
+
+namespace A206708.P11296135478221051427
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347770 (A044917 (n + 1)).toNat
+
+end
+
+end A206708.P11296135478221051427
 
 /-!
 # A206709: Number of primes of the form b^2 + 1 for b <= 10^n.
@@ -8350,26 +8379,26 @@ def P5519520978031978865.Spec : Prop :=
 
 end A206787
 
-/-! ## A206787.P18194442114536987063
+/-! ## A206787.P12823478113214478487
 
-`A000203(A099985(n+1)/2)`
+`A347385(2*A204455(n+1))`
 -/
 
-namespace A206787.P18194442114536987063
+namespace A206787.P12823478113214478487
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (SequenceMachineLib.roundAway ((A099985 (n + 1) : ℚ) / 2)).toNat
+  A347385 (2 * A204455 (n + 1)).toNat
 
 end
 
-end A206787.P18194442114536987063
+end A206787.P12823478113214478487
 
 namespace A206787
 
-/-- `A000203(A099985(n+1)/2)` -/
-def P18194442114536987063.Spec : Prop :=
-  ∀ n, P18194442114536987063.a n = A206787 (n + 1)
+/-- `A347385(2*A204455(n+1))` -/
+def P12823478113214478487.Spec : Prop :=
+  ∀ n, P12823478113214478487.a n = A206787 (n + 1)
 
 end A206787
 

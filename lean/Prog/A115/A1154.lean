@@ -22,6 +22,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -3255,7 +3256,7 @@ end A115423
 /-!
 # A115424: Integers n > 0 such that n XOR 62*n = 63*n.
 
-The programs for A115424, the canonical program `A115424.P2393217423443762188` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115424 has offset 1).
+The programs for A115424, the canonical program `A115424.P2393217423443762188` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115424 has offset 1).
 
 The definition of A115424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6235 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3264,7 +3265,7 @@ The definition of A115424 is `conjectured`: the Lean definition is a formula tha
 
 `A115805(n+2)/3`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A115424
@@ -5878,6 +5879,32 @@ def P13792560124575231210.Spec : Prop :=
 
 end A115490
 
+/-! ## A115490.P7927422496497713976
+
+`4^n*∑[4*a(n-1)]` with `a(0)=3`
+-/
+
+namespace A115490.P7927422496497713976
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [3] fun n f1 =>
+  4 * f1 (n - 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 ^ n * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A115490.P7927422496497713976
+
+namespace A115490
+
+/-- `4^n*∑[4*a(n-1)]` -/
+def P7927422496497713976.Spec : Prop :=
+  ∀ n, (P7927422496497713976.a n : ℤ) = A115490 (n + 1)
+
+end A115490
+
 /-! ## A115490.P13467806978959444175
 
 `4*or(4*a(n-1), a(n-1))` with `a(0)=3`
@@ -5944,6 +5971,29 @@ namespace A115490
 /-- `3*A166984(n)` -/
 def P16291000204258927212.Spec : Prop :=
   ∀ n, P16291000204258927212.a n = A115490 (n + 1)
+
+end A115490
+
+/-! ## A115490.P4826935036915171297
+
+`A187560(2*n)+1`
+-/
+
+namespace A115490.P4826935036915171297
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187560 (2 * n) + 1
+
+end
+
+end A115490.P4826935036915171297
+
+namespace A115490
+
+/-- `A187560(2*n)+1` -/
+def P4826935036915171297.Spec : Prop :=
+  ∀ n, P4826935036915171297.a n = A115490 (n + 1)
 
 end A115490
 

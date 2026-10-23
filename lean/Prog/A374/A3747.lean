@@ -1377,6 +1377,29 @@ def P5441360085067372221.Spec : Prop :=
 
 end A374721
 
+/-! ## A374721.P2134761561172363424
+
+`A279912(A038754(n))`
+-/
+
+namespace A374721.P2134761561172363424
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279912 (A038754 n).toNat
+
+end
+
+end A374721.P2134761561172363424
+
+namespace A374721
+
+/-- `A279912(A038754(n))` -/
+def P2134761561172363424.Spec : Prop :=
+  ∀ n, P2134761561172363424.a n = A374721 (n + 1)
+
+end A374721
+
 /-!
 # A374722: Number of nonisomorphic spanning trees of the nC_5-snake graph with constant distance between cutpoints.
 
@@ -4018,27 +4041,20 @@ end
 
 end A374769.P15182797567239846698
 
-/-! ## A374769.P783587906725849757
+/-! ## A374769.P12184542319171084470
 
-`A000035(comp[record[A209864(3*n)]])`
+`A368990(A266033(n+2))`
 -/
 
-namespace A374769.P783587906725849757
+namespace A374769.P12184542319171084470
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A209864 (3 * n)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A368990 (A266033 (n + 2)).toNat
 
 end
 
-end A374769.P783587906725849757
+end A374769.P12184542319171084470
 
 /-!
 # A374773: a(n):= #G_{2n}(3n+1) for n >= 1, where G_{2n}(3n+1) is the set of all pure (2n)-sparse gapset of genus 3n+1 and n a positive integer.
@@ -4311,6 +4327,72 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A374781.P8024042936923141463
+
+/-! ## A374781.P15846956646154667163
+
+`∩[A087086(n), A301414(n+1)]`
+-/
+
+namespace A374781.P15846956646154667163
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087086 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A301414 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A374781.P15846956646154667163
+
+/-! ## A374781.P4288590167512071859
+
+`∩[A087086(n), A333953(n+1)]`
+-/
+
+namespace A374781.P4288590167512071859
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087086 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333953 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A374781.P4288590167512071859
+
+/-! ## A374781.P17494130504771275047
+
+`∩[A087086(n), A333963(n+1)]`
+-/
+
+namespace A374781.P17494130504771275047
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087086 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333963 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A374781.P17494130504771275047
 
 /-!
 # A374782: Number of partitions of n that do not have a fixed point that is also a fixed point of the conjugate partition.

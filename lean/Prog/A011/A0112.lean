@@ -46,6 +46,8 @@ import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
+import Seq.Opaque.C021
 import Seq.Opaque.C024
 
 /-!
@@ -406,26 +408,27 @@ end
 
 end A011257.P7667180415534261710
 
-/-! ## A011257.P15863612915736221470
+/-! ## A011257.P12101806232658475844
 
-`eq[C(2, n+2), A015710(A123108(2*n))]`
+`∪[A293391(n+1), A327624(n+1)]`
 -/
 
-namespace A011257.P15863612915736221470
+namespace A011257.P12101806232658475844
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose 2 (n + 2)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293391 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015710 (A123108 (2 * n)).toNat
+  A327624 (n + 1)
 
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A011257.P15863612915736221470
+end A011257.P12101806232658475844
 
 /-!
 # A011260: Number of primitive polynomials of degree n over GF(2).
@@ -1866,6 +1869,32 @@ namespace A011266
 /-- `n!*∏[ceil(2^(n-1))]` -/
 def P5802364178925845498.Spec : Prop :=
   ∀ n, P5802364178925845498.a n = A011266 n
+
+end A011266
+
+/-! ## A011266.P17608522041288275641
+
+`∏[2*n/(n-1)*a(n-1)]` with `a(0)=1, a(1)=1`
+-/
+
+namespace A011266.P17608522041288275641
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 1] fun n f1 =>
+  (2 * n : ℚ) / ((n : ℤ) - 1 : ℚ) * f1 (n - 1)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A011266.P17608522041288275641
+
+namespace A011266
+
+/-- `∏[2*n/(n-1)*a(n-1)]` -/
+def P17608522041288275641.Spec : Prop :=
+  ∀ n, P17608522041288275641.a n = (A011266 n : ℚ)
 
 end A011266
 

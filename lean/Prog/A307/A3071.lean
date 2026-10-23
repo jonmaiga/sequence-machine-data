@@ -151,7 +151,7 @@ end A307100
 /-!
 # A307101: a(n) = Product_{d|n} (tau(d)*pod(d)) where tau(k) = the number of divisors of k (A000005) and pod(k) = the product of the divisors of k (A007955).
 
-The programs for A307101, the canonical program `A307101.P8537828544159030044` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307101 has offset 1).
+The programs for A307101, the canonical program `A307101.P8537828544159030044` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307101 has offset 1).
 
 The definition of A307101 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A211776, A266265, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -160,7 +160,7 @@ The definition of A307101 is `conditional`: the Lean definition is an OEIS formu
 
 `A211776(n+1)*A266265(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A307101

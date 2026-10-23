@@ -3641,20 +3641,27 @@ end A342366.P779415040153708779
 The programs for A342368, there is no canonical definition to state claims against.
 -/
 
-/-! ## A342368.P11960231433539496444
+/-! ## A342368.P8450426529855420416
 
-`A094612(n+1)-A238619(A245156(n))`
+`∪[A349419(n+1), A350165(n+1)]`
 -/
 
-namespace A342368.P11960231433539496444
+namespace A342368.P8450426529855420416
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094612 (n + 1) - A238619 (A245156 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349419 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350165 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A342368.P11960231433539496444
+end A342368.P8450426529855420416
 
 /-!
 # A342369: If n is congruent to 2 (mod 3), then a(n) = (2*n - 1)/3; otherwise, a(n) = 2*n.

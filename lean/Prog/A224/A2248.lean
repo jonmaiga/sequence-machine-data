@@ -2090,16 +2090,16 @@ end
 
 end A224832.P14787915467291009321
 
-/-! ## A224832.P128725576323394041
+/-! ## A224832.P8678621753817949069
 
-`∩[2*A246454(n+1), A323652(n+1)]`
+`∩[A194771(n+1), A323652(n+1)]`
 -/
 
-namespace A224832.P128725576323394041
+namespace A224832.P8678621753817949069
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A246454 (n + 1)
+  A194771 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A323652 (n + 1)
@@ -2110,7 +2110,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A224832.P128725576323394041
+end A224832.P8678621753817949069
 
 /-!
 # A224833: Expansion of phi(-x)^2 * chi(-x) * psi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.

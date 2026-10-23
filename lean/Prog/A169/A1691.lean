@@ -5,7 +5,7 @@ import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C015
 
 /-!

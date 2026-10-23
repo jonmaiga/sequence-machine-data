@@ -164,6 +164,32 @@ def P5709219938024740757.Spec : Prop :=
 
 end A281500
 
+/-! ## A281500.P13064766958092835412
+
+`gcd(2, n)*∑[2^n]`
+-/
+
+namespace A281500.P13064766958092835412
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd 2 n * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A281500.P13064766958092835412
+
+namespace A281500
+
+/-- `gcd(2, n)*∑[2^n]` -/
+def P13064766958092835412.Spec : Prop :=
+  ∀ n, (P13064766958092835412.a n : ℤ) = A281500 n
+
+end A281500
+
 /-! ## A281500.P701481248915423138
 
 `ogf((2+3x+4x^2)/(1-5x^2+4x^4))`
@@ -184,29 +210,6 @@ namespace A281500
 /-- `ogf((2+3x+4x^2)/(1-5x^2+4x^4))` -/
 def P701481248915423138.Spec : Prop :=
   ∀ n, P701481248915423138.a n = A281500 n
-
-end A281500
-
-/-! ## A281500.P9299324202346367234
-
-`3*gcd(2, n)+4*a(n-2)` with `a(0)=2, a(1)=3`
--/
-
-namespace A281500.P9299324202346367234
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [2, 3] fun n a =>
-  3 * Nat.gcd 2 n + 4 * a (n - 2)
-
-end
-
-end A281500.P9299324202346367234
-
-namespace A281500
-
-/-- `3*gcd(2, n)+4*a(n-2)` -/
-def P9299324202346367234.Spec : Prop :=
-  ∀ n, (P9299324202346367234.a n : ℤ) = A281500 n
 
 end A281500
 
@@ -5387,6 +5390,28 @@ end
 
 end A281575.P8331361032216296850
 
+/-! ## A281575.P12795225346193183911
+
+`∩[A333635(n+1), A348748(n+1)]`
+-/
+
+namespace A281575.P12795225346193183911
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333635 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348748 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A281575.P12795225346193183911
+
 /-! ## A281575.P6008329513601444231
 
 `∩[A348748(n+1), A385821(n+1)]`
@@ -5430,28 +5455,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A281575.P4091634750330103874
-
-/-! ## A281575.P8422620968897402741
-
-`∩[A085722(n+1), A368100(n+1)]`
--/
-
-namespace A281575.P8422620968897402741
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085722 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368100 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A281575.P8422620968897402741
 
 /-!
 # A281578: Maximum number of nonisomorphic root-containing subtrees of a rooted tree of order n.

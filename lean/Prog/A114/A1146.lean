@@ -43,8 +43,6 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -1557,6 +1555,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A114617.P11596307948067233228
+
+/-! ## A114617.P12622103160887420612
+
+`∩[A036898(n+1), A132411(n)]`
+-/
+
+namespace A114617.P12622103160887420612
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A036898 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A132411 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A114617.P12622103160887420612
 
 /-!
 # A114618: Numbers k such that the k-th octagonal number is 4-almost prime.
@@ -4987,6 +5007,32 @@ def P3834515902680209660.Spec : Prop :=
 
 end A114647
 
+/-! ## A114647.P9371221496823792078
+
+`Δ[A097075(n+1)]+1`
+-/
+
+namespace A114647.P9371221496823792078
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097075 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n + 1
+
+end
+
+end A114647.P9371221496823792078
+
+namespace A114647
+
+/-- `Δ[A097075(n+1)]+1` -/
+def P9371221496823792078.Spec : Prop :=
+  ∀ n, P9371221496823792078.a n = A114647 n
+
+end A114647
+
 /-!
 # A114648: Number of occurrences of 6 as a denominator in Bernoulli(k) for 0<=k<=10^n.
 
@@ -6629,7 +6675,7 @@ end A114689
 /-!
 # A114693: Number of returns to the x-axis in all hill-free Schroeder paths of length 2n+4. A Schroeder path of length 2n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis. A hill is a peak at height 1.
 
-The programs for A114693, the canonical program `A114693.P40457601980009517` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114693 has offset 0).
+The programs for A114693, the canonical program `A114693.P40457601980009517` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114693 has offset 0).
 
 The definition of A114693 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6690,7 +6736,7 @@ end A114693
 
 `∑[A065096(n+1)+A010683(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A114693

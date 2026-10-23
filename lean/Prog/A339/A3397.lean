@@ -32,6 +32,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -1030,35 +1031,35 @@ end
 
 end A339711.P10155431396739581582
 
-/-! ## A339711.P28574010766373518
+/-! ## A339711.P1710927457354418876
 
-`floor(2*a(n-1)*n/(n+1))` with `a(0)=2`
+`floor(2*a(n-1)/(1/n+1))` with `a(0)=2`
 -/
 
-namespace A339711.P28574010766373518
+namespace A339711.P1710927457354418876
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  ⌊(2 * a (n - 1) : ℚ) * ((n : ℚ) / (n + 1 : ℚ))⌋
+  ⌊2 * ((a (n - 1) : ℚ) / (1 / (n : ℚ) + 1))⌋
 
 end
 
-end A339711.P28574010766373518
+end A339711.P1710927457354418876
 
-/-! ## A339711.P8564380129740409905
+/-! ## A339711.P12560067114755419740
 
-`ceil(n*(2*a(n-1)-1)/(n+1))` with `a(0)=2`
+`floor(a(n-1)/((1/n-1)/2+1))` with `a(0)=2`
 -/
 
-namespace A339711.P8564380129740409905
+namespace A339711.P12560067114755419740
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  ⌈((n : ℤ) * (2 * a (n - 1) - 1) : ℚ) / (n + 1 : ℚ)⌉
+  ⌊(a (n - 1) : ℚ) / ((1 / (n : ℚ) - 1) / 2 + 1)⌋
 
 end
 
-end A339711.P8564380129740409905
+end A339711.P12560067114755419740
 
 /-!
 # A339712: a(n) = Sum_{d|n} d^(d+n/d-1) * binomial(d+n/d-2, d-1).
@@ -5183,6 +5184,29 @@ namespace A339765
 /-- `-∑[A293072(Δ[floor(n/ϕ)])]` -/
 def P8582190597445967495.Spec : Prop :=
   ∀ n, P8582190597445967495.a n = A339765 (n + 1)
+
+end A339765
+
+/-! ## A339765.P13351661408981275626
+
+`A023443(A060145(n+1))`
+-/
+
+namespace A339765.P13351661408981275626
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A060145 (n + 1)).toNat
+
+end
+
+end A339765.P13351661408981275626
+
+namespace A339765
+
+/-- `A023443(A060145(n+1))` -/
+def P13351661408981275626.Spec : Prop :=
+  ∀ n, P13351661408981275626.a n = A339765 (n + 1)
 
 end A339765
 

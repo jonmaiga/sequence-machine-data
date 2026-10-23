@@ -58,6 +58,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2310,6 +2311,29 @@ namespace A034263
 /-- `A271662(n)-n*∑[A000292(n)]` -/
 def P17741882473362014787.Spec : Prop :=
   ∀ n, P17741882473362014787.a n = A034263 n
+
+end A034263
+
+/-! ## A034263.P5117164398200702641
+
+`A277935(n+1)+A005585(n+1)`
+-/
+
+namespace A034263.P5117164398200702641
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277935 (n + 1) + A005585 (n + 1)
+
+end
+
+end A034263.P5117164398200702641
+
+namespace A034263
+
+/-- `A277935(n+1)+A005585(n+1)` -/
+def P5117164398200702641.Spec : Prop :=
+  ∀ n, P5117164398200702641.a n = A034263 n
 
 end A034263
 
@@ -5907,23 +5931,27 @@ end
 
 end A034292.P18280188396178448523
 
-/-! ## A034292.P16114944377228530242
+/-! ## A034292.P6952061362442409155
 
-`A000045(∑[A061538(n+1)]+6)`
+`∩[A020695(n), A031955(n+1)]`
 -/
 
-namespace A034292.P16114944377228530242
+namespace A034292.P6952061362442409155
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061538 (n + 1)
+  A020695 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (∑ j ∈ Finset.range (n + 1), f1 j + 6).toNat
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A031955 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A034292.P16114944377228530242
+end A034292.P6952061362442409155
 
 /-!
 # A034293: Numbers k such that 2^k does not contain the digit 2 (probably finite).

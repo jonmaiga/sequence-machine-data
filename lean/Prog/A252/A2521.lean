@@ -27,6 +27,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
@@ -42,11 +43,13 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -5402,6 +5405,32 @@ namespace A252178
 /-- `(n+1)^4/6+7*(n+1)^3/3+29*(n+1)²/6+11*(n+1)/3+1` -/
 def P5229348059605843036.Spec : Prop :=
   ∀ n, P5229348059605843036.a n = (A252178 (n + 1) : ℚ)
+
+end A252178
+
+/-! ## A252178.P2262387318187975275
+
+`A252177(∑[n+1]+2)`
+-/
+
+namespace A252178.P2262387318187975275
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252177 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
+
+end
+
+end A252178.P2262387318187975275
+
+namespace A252178
+
+/-- `A252177(∑[n+1]+2)` -/
+def P2262387318187975275.Spec : Prop :=
+  ∀ n, P2262387318187975275.a n = A252178 (n + 1)
 
 end A252178
 

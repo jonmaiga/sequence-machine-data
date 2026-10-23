@@ -1781,6 +1781,29 @@ def P3243032132683257701.Spec : Prop :=
 
 end A237516
 
+/-! ## A237516.P6531394637218868463
+
+`A000384(n²+n+1)`
+-/
+
+namespace A237516.P6531394637218868463
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000384 (n ^ 2 + (n + 1))
+
+end
+
+end A237516.P6531394637218868463
+
+namespace A237516
+
+/-- `A000384(n²+n+1)` -/
+def P6531394637218868463.Spec : Prop :=
+  ∀ n, P6531394637218868463.a n = A237516 (n + 1)
+
+end A237516
+
 /-!
 # A237517: Pisano period of n^2 divided by Pisano period of n.
 

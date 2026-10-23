@@ -42,7 +42,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -241,6 +240,29 @@ theorem P4759804718753343731.correct : P4759804718753343731.Spec := by
 
 end A386906
 
+/-! ## A386906.P13206928025455420927
+
+`(2*n+1+n)*C(2*n+n+2, 2)`
+-/
+
+namespace A386906.P13206928025455420927
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (2 * n + 1 + n) * Nat.choose (2 * n + (n + 2)) 2
+
+end
+
+end A386906.P13206928025455420927
+
+namespace A386906
+
+/-- `(2*n+1+n)*C(2*n+n+2, 2)` -/
+def P13206928025455420927.Spec : Prop :=
+  ∀ n, (P13206928025455420927.a n : ℤ) = A386906 (n + 1)
+
+end A386906
+
 /-! ## A386906.P10711776039879173831
 
 `A193228(n+1)+A004188(n)`
@@ -261,6 +283,29 @@ namespace A386906
 /-- `A193228(n+1)+A004188(n)` -/
 def P10711776039879173831.Spec : Prop :=
   ∀ n, P10711776039879173831.a n = A386906 (n + 1)
+
+end A386906
+
+/-! ## A386906.P1785088435242659536
+
+`A016777(n)*A060544(n+1)`
+-/
+
+namespace A386906.P1785088435242659536
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016777 n * A060544 (n + 1)
+
+end
+
+end A386906.P1785088435242659536
+
+namespace A386906
+
+/-- `A016777(n)*A060544(n+1)` -/
+def P1785088435242659536.Spec : Prop :=
+  ∀ n, P1785088435242659536.a n = A386906 (n + 1)
 
 end A386906
 
@@ -353,6 +398,29 @@ namespace A386906
 /-- `A188067(A016933(n))` -/
 def P13923600356581843441.Spec : Prop :=
   ∀ n, P13923600356581843441.a n = A386906 (n + 1)
+
+end A386906
+
+/-! ## A386906.P12356366725889453015
+
+`A008795(A016945(n))*A016777(n)`
+-/
+
+namespace A386906.P12356366725889453015
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008795 (A016945 n).toNat * A016777 n
+
+end
+
+end A386906.P12356366725889453015
+
+namespace A386906
+
+/-- `A008795(A016945(n))*A016777(n)` -/
+def P12356366725889453015.Spec : Prop :=
+  ∀ n, P12356366725889453015.a n = A386906 (n + 1)
 
 end A386906
 

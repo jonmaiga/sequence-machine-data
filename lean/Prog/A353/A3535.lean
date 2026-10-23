@@ -65,6 +65,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3390,6 +3391,25 @@ end
 
 end A353530.P13212703215193709814
 
+/-! ## A353530.P14281593968027281894
+
+`comp[C(n+2, 3)%(n+1)]`
+-/
+
+namespace A353530.P14281593968027281894
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 2) 3 % (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A353530.P14281593968027281894
+
 /-! ## A353530.P11259153038977131260
 
 `∑[6%xor(n, n-1)+6]`
@@ -3488,21 +3508,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A353530.P10637250304329479352
-
-/-! ## A353530.P358653416267947271
-
-`(A096022(n+1)-3)/2`
--/
-
-namespace A353530.P358653416267947271
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A096022 (n + 1) - 3 : ℚ) / 2
-
-end
-
-end A353530.P358653416267947271
 
 /-!
 # A353531: Numbers k such that the smallest prime that does not divide them is of the form 4m+3.

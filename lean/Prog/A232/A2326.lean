@@ -173,6 +173,52 @@ def P9652764438287555310.Spec : Prop :=
 
 end A232600
 
+/-! ## A232600.P11413780753545280393
+
+`A045883(n)*A280560(n)`
+-/
+
+namespace A232600.P11413780753545280393
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045883 n * A280560 n
+
+end
+
+end A232600.P11413780753545280393
+
+namespace A232600
+
+/-- `A045883(n)*A280560(n)` -/
+def P11413780753545280393.Spec : Prop :=
+  ∀ n, P11413780753545280393.a n = A232600 n
+
+end A232600
+
+/-! ## A232600.P3637467841221586673
+
+`(A078008(n)-A001045(n))*A140960(n+1)`
+-/
+
+namespace A232600.P3637467841221586673
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A078008 n - A001045 n) * A140960 (n + 1)
+
+end
+
+end A232600.P3637467841221586673
+
+namespace A232600
+
+/-- `(A078008(n)-A001045(n))*A140960(n+1)` -/
+def P3637467841221586673.Spec : Prop :=
+  ∀ n, P3637467841221586673.a n = A232600 n
+
+end A232600
+
 /-! ## A232600.P17527181665125655762
 
 `a(n-1)+n*(-2)^n` with `a(0)=0`
@@ -917,23 +963,49 @@ end
 
 end A232608.P13714066552605595765
 
-/-! ## A232608.P18381169508869619348
+/-! ## A232608.P17329022516237603390
 
-`filter[A232501(n+1), A073424(#)]`
+`∩[A000217(n), A232501(n+1)]`
 -/
 
-namespace A232608.P18381169508869619348
+namespace A232608.P17329022516237603390
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A232501 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A073424 (f1 j).toNat = 1) n)
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A232608.P18381169508869619348
+end A232608.P17329022516237603390
+
+/-! ## A232608.P10819092233165117449
+
+`∩[A001972(n), A232501(n+1)]`
+-/
+
+namespace A232608.P10819092233165117449
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001972 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A232501 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232608.P10819092233165117449
 
 /-!
 # A232609: Number of (n+1)X(1+1) 0..2 arrays x(i,j) with every row sum{j*x(i,j), j=1..1+1} equal, and every column sum{i*x(i,j), i=1..n+1} equal.
@@ -3730,16 +3802,16 @@ end
 
 end A232634.P2311462170472543374
 
-/-! ## A232634.P1227239784744571995
+/-! ## A232634.P2432379974001466503
 
-`∩[A074628(n+1), A104272(n+1)]`
+`∩[A056991(n+1), A104272(n+1)]`
 -/
 
-namespace A232634.P1227239784744571995
+namespace A232634.P2432379974001466503
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074628 (n + 1)
+  A056991 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A104272 (n + 1)
@@ -3750,7 +3822,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A232634.P1227239784744571995
+end A232634.P2432379974001466503
 
 /-!
 # A232635: Expansion of psi(x) * phi(x^2)^2 in powers of x where phi(), psi() are Ramanujan theta functions.
@@ -4336,6 +4408,78 @@ namespace A232637
 /-- `A000069(Δ[n²]-A010060(n))` -/
 def P16641397106656852628.Spec : Prop :=
   ∀ n, P16641397106656852628.a n = A232637 (n + 1)
+
+end A232637
+
+/-! ## A232637.P17237716173663086367
+
+`A000069(A143579(2*n))`
+-/
+
+namespace A232637.P17237716173663086367
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000069 (A143579 (2 * n)).toNat
+
+end
+
+end A232637.P17237716173663086367
+
+namespace A232637
+
+/-- `A000069(A143579(2*n))` -/
+def P17237716173663086367.Spec : Prop :=
+  ∀ n, P17237716173663086367.a n = A232637 (n + 1)
+
+end A232637
+
+/-! ## A232637.P8717667434232803314
+
+`filter[A073074(n+1), A010060(#)]`
+-/
+
+namespace A232637.P8717667434232803314
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073074 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A010060 (f1 j).toNat = 1) n)
+
+end
+
+end A232637.P8717667434232803314
+
+namespace A232637
+
+/-- `filter[A073074(n+1), A010060(#)]` -/
+def P8717667434232803314.Spec : Prop :=
+  ∀ n, P8717667434232803314.a n = A232637 (n + 1)
+
+end A232637
+
+/-! ## A232637.P10501018520057315753
+
+`A065621(A066194(A065621(A066194(n+1))))`
+-/
+
+namespace A232637.P10501018520057315753
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065621 (A066194 (A065621 (A066194 (n + 1)).toNat).toNat).toNat
+
+end
+
+end A232637.P10501018520057315753
+
+namespace A232637
+
+/-- `A065621(A066194(A065621(A066194(n+1))))` -/
+def P10501018520057315753.Spec : Prop :=
+  ∀ n, P10501018520057315753.a n = A232637 (n + 1)
 
 end A232637
 
@@ -7598,6 +7742,28 @@ end
 
 end A232668.P13082197695859101201
 
+/-! ## A232668.P13895199078024434866
+
+`∩[A046064(n+1), A334392(n+1)]`
+-/
+
+namespace A232668.P13895199078024434866
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046064 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334392 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A232668.P13895199078024434866
+
 /-! ## A232668.P6715679829919075440
 
 `∩[A063763(n+1), A334392(n+1)]`
@@ -7619,28 +7785,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A232668.P6715679829919075440
-
-/-! ## A232668.P10321003081261715464
-
-`∩[A084891(n+1), A334392(n+1)]`
--/
-
-namespace A232668.P10321003081261715464
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084891 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334392 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A232668.P10321003081261715464
 
 /-!
 # A232669: Number of (n+1)X(n+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, vertically, diagonally or antidiagonally.

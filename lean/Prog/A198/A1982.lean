@@ -48,7 +48,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
@@ -4868,6 +4868,29 @@ def P2824188031345060561.Spec : Prop :=
 
 end A198275
 
+/-! ## A198275.P8275860032028854760
+
+`xor(A091629(n+1), A291557(n))`
+-/
+
+namespace A198275.P8275860032028854760
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A091629 (n + 1)) (A291557 n)
+
+end
+
+end A198275.P8275860032028854760
+
+namespace A198275
+
+/-- `xor(A091629(n+1), A291557(n))` -/
+def P8275860032028854760.Spec : Prop :=
+  ∀ n, P8275860032028854760.a n = A198275 n
+
+end A198275
+
 /-!
 # A198276: a(n) = 19*2^n-1.
 
@@ -5858,7 +5881,7 @@ end A198285.P11832330550060756464
 /-!
 # A198286: a(n) = Sum_{d|n} (A053143(d) or smallest square divisible by d).
 
-The programs for A198286, the canonical program `A198286.P8684758332373376771` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198286 has offset 1).
+The programs for A198286, the canonical program `A198286.P8684758332373376771` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A198286 has offset 1).
 
 The definition of A198286 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6023,7 +6046,7 @@ end A198286
 
 `∑{d}[n+1, A061020(#)*A181797((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A198286

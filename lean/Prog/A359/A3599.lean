@@ -84,6 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A359900: Number of strict odd-length integer partitions of n whose parts do not have the same mean as median.
@@ -327,6 +328,94 @@ end
 
 end A359905.P4440613229134437835
 
+/-! ## A359905.P5790486385019000885
+
+`∩[A067340(n+1), A360009(n+1)]`
+-/
+
+namespace A359905.P5790486385019000885
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067340 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360009 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359905.P5790486385019000885
+
+/-! ## A359905.P12833379517438070525
+
+`∩[A325369(n+1), A360009(n+1)]`
+-/
+
+namespace A359905.P12833379517438070525
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325369 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360009 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359905.P12833379517438070525
+
+/-! ## A359905.P17660161463908588028
+
+`∩[A316413(n+1), A329138(n+1)]`
+-/
+
+namespace A359905.P17660161463908588028
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316413 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329138 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359905.P17660161463908588028
+
+/-! ## A359905.P13711622595125224040
+
+`∩[A316413(n+1), A360553(n+1)]`
+-/
+
+namespace A359905.P13711622595125224040
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316413 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360553 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359905.P13711622595125224040
+
 /-!
 # A359906: Number of integer partitions of n with integer mean and integer median.
 
@@ -546,6 +635,50 @@ end
 
 end A359908.P14092316674395927897
 
+/-! ## A359908.P3859071699776057922
+
+`∪[A338906(n+1), A362618(n+1)]`
+-/
+
+namespace A359908.P3859071699776057922
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338906 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359908.P3859071699776057922
+
+/-! ## A359908.P9394472793692782177
+
+`∪[A338908(n+1), A362618(n+1)]`
+-/
+
+namespace A359908.P9394472793692782177
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338908 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359908.P9394472793692782177
+
 /-! ## A359908.P5525284767415533621
 
 `∪[A339618(n+1), A362618(n+1)]`
@@ -589,6 +722,72 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A359908.P7517210190240606015
+
+/-! ## A359908.P18305818913479716874
+
+`∪[A344416(n+1), A362618(n+1)]`
+-/
+
+namespace A359908.P18305818913479716874
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344416 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359908.P18305818913479716874
+
+/-! ## A359908.P8617392147379927368
+
+`∪[A338906(n+1), A371782(n+1)]`
+-/
+
+namespace A359908.P8617392147379927368
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338906 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371782 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359908.P8617392147379927368
+
+/-! ## A359908.P5974211305815066871
+
+`∪[A338908(n+1), A371782(n+1)]`
+-/
+
+namespace A359908.P5974211305815066871
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338908 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371782 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A359908.P5974211305815066871
 
 /-!
 # A359909: Number of integer factorizations of n into factors > 1 with the same mean as median.
@@ -3838,6 +4037,32 @@ namespace A359987
 /-- `A013731(n)%(A107839(n)+A013730(n))` -/
 def P8053607461971908797.Spec : Prop :=
   ∀ n, P8053607461971908797.a n = A359987 (n + 1)
+
+end A359987
+
+/-! ## A359987.P14414123760073602919
+
+`A359990(∑[n+2])`
+-/
+
+namespace A359987.P14414123760073602919
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359990 (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A359987.P14414123760073602919
+
+namespace A359987
+
+/-- `A359990(∑[n+2])` -/
+def P14414123760073602919.Spec : Prop :=
+  ∀ n, P14414123760073602919.a n = A359987 (n + 1)
 
 end A359987
 

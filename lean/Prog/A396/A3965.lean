@@ -1770,6 +1770,51 @@ end
 
 end A396547.P15224196648768873463
 
+/-! ## A396547.P7121835119371782995
+
+`A130057(A087027(n+1))`
+-/
+
+namespace A396547.P7121835119371782995
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130057 (A087027 (n + 1)).toNat
+
+end
+
+end A396547.P7121835119371782995
+
+/-! ## A396547.P2227347095736785410
+
+`A349294(A000978(n+1))`
+-/
+
+namespace A396547.P2227347095736785410
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349294 (A000978 (n + 1)).toNat
+
+end
+
+end A396547.P2227347095736785410
+
+/-! ## A396547.P6018559667622254899
+
+`A349294(A060770(n+1))`
+-/
+
+namespace A396547.P6018559667622254899
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349294 (A060770 (n + 1)).toNat
+
+end
+
+end A396547.P6018559667622254899
+
 /-!
 # A396548: The number of coreful divisors of n that are not exponential unitary divisors of n.
 
@@ -2216,6 +2261,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A396555.P13428664946197599457
+
+/-! ## A396555.P11199366553396070501
+
+`∩[A066542(n+1), A396554(n+1)]`
+-/
+
+namespace A396555.P11199366553396070501
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066542 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396554 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396555.P11199366553396070501
 
 /-! ## A396555.P7433645709816182352
 

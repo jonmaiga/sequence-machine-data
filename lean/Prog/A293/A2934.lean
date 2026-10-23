@@ -60,9 +60,8 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -86,6 +85,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -9168,6 +9168,29 @@ def P2799577282898853452.Spec : Prop :=
 
 end A293439
 
+/-! ## A293439.P8036906969362633343
+
+`A366074(A000290(n+1))`
+-/
+
+namespace A293439.P8036906969362633343
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A366074 (A000290 (n + 1)).toNat
+
+end
+
+end A293439.P8036906969362633343
+
+namespace A293439
+
+/-- `A366074(A000290(n+1))` -/
+def P8036906969362633343.Spec : Prop :=
+  ∀ n, P8036906969362633343.a n = A293439 (n + 1)
+
+end A293439
+
 /-!
 # A293440: First differences of A293230: how many more alive nodes there are in generation n+1 than in generation n in the binary tree of persistently squarefree numbers.
 
@@ -12490,6 +12513,29 @@ def P5347376126992179723.Spec : Prop :=
 
 end A293475
 
+/-! ## A293475.P16515846844845707005
+
+`n/(n+1)*A108650(n)`
+-/
+
+namespace A293475.P16515846844845707005
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) / (n + 1 : ℚ) * (A108650 n : ℚ)
+
+end
+
+end A293475.P16515846844845707005
+
+namespace A293475
+
+/-- `n/(n+1)*A108650(n)` -/
+def P16515846844845707005.Spec : Prop :=
+  ∀ n, P16515846844845707005.a n = (A293475 n : ℚ)
+
+end A293475
+
 /-! ## A293475.P5882204093206483377
 
 `∑[∑[n*A000566(n+1)]]`
@@ -12672,6 +12718,32 @@ def P8266529119921462405.Spec : Prop :=
 
 end A293475
 
+/-! ## A293475.P4619067766988957639
+
+`n*Δ[A051836(n)]`
+-/
+
+namespace A293475.P4619067766988957639
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051836 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * (f1 (n + 1) - f1 n)
+
+end
+
+end A293475.P4619067766988957639
+
+namespace A293475
+
+/-- `n*Δ[A051836(n)]` -/
+def P4619067766988957639.Spec : Prop :=
+  ∀ n, P4619067766988957639.a n = A293475 n
+
+end A293475
+
 /-! ## A293475.P16692493265877768871
 
 `n*A001296(n+1)`
@@ -12692,6 +12764,32 @@ namespace A293475
 /-- `n*A001296(n+1)` -/
 def P16692493265877768871.Spec : Prop :=
   ∀ n, P16692493265877768871.a n = A293475 n
+
+end A293475
+
+/-! ## A293475.P18284415197628198464
+
+`n*∑[A002411(n+1)]`
+-/
+
+namespace A293475.P18284415197628198464
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002411 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A293475.P18284415197628198464
+
+namespace A293475
+
+/-- `n*∑[A002411(n+1)]` -/
+def P18284415197628198464.Spec : Prop :=
+  ∀ n, P18284415197628198464.a n = A293475 n
 
 end A293475
 

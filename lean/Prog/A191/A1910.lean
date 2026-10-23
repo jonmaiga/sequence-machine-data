@@ -42,7 +42,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -12719,6 +12718,36 @@ def P16043813841812996502.Spec : Prop :=
 
 end A191060
 
+/-! ## A191060.P16277732679506046005
+
+`∩[A049543(n+1), A267541(n)]`
+-/
+
+namespace A191060.P16277732679506046005
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049543 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267541 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A191060.P16277732679506046005
+
+namespace A191060
+
+/-- `∩[A049543(n+1), A267541(n)]` -/
+def P16277732679506046005.Spec : Prop :=
+  ∀ n, (P16277732679506046005.a n : ℤ) = A191060 (n + 1)
+
+end A191060
+
 /-! ## A191060.P4208541569850873462
 
 `∩[A050376(n+1), A267541(n)]`
@@ -12896,36 +12925,6 @@ namespace A191060
 /-- `∩[A158611(n+1), A267541(n)]` -/
 def P3638910076457266545.Spec : Prop :=
   ∀ n, (P3638910076457266545.a n : ℤ) = A191060 (n + 1)
-
-end A191060
-
-/-! ## A191060.P9216895515498048501
-
-`∩[A166684(n+1), A267541(n)]`
--/
-
-namespace A191060.P9216895515498048501
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A166684 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267541 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A191060.P9216895515498048501
-
-namespace A191060
-
-/-- `∩[A166684(n+1), A267541(n)]` -/
-def P9216895515498048501.Spec : Prop :=
-  ∀ n, (P9216895515498048501.a n : ℤ) = A191060 (n + 1)
 
 end A191060
 
@@ -18481,6 +18480,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A191089.P663708761323308427
+
+/-! ## A191089.P15782091737223434105
+
+`A191088(A057846(n+1))`
+-/
+
+namespace A191089.P15782091737223434105
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191088 (A057846 (n + 1)).toNat
+
+end
+
+end A191089.P15782091737223434105
 
 /-!
 # A191090: a(n)^2 is the largest square required when writing n as a partition of squares.

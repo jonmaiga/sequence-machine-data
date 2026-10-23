@@ -6108,6 +6108,28 @@ end
 
 end A291277.P11747195433122561794
 
+/-! ## A291277.P14121770136027664992
+
+`∩[A028812(n+1), A309581(n+1)]`
+-/
+
+namespace A291277.P14121770136027664992
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028812 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A309581 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A291277.P14121770136027664992
+
 /-!
 # A291278: Primes p such that p does not divide any term of the Apery-like sequence A006077.
 
@@ -6299,6 +6321,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A291280.P9732237935142550740
+
+/-! ## A291280.P4295669224055894811
+
+`eq[A321452(n), A330667(n+1)]`
+-/
+
+namespace A291280.P4295669224055894811
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321452 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330667 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A291280.P4295669224055894811
 
 /-!
 # A291281: Primes p such that p does not divide any term of the Apery-like sequence A229111.
@@ -6994,6 +7037,29 @@ def P4507525718087383677.Spec : Prop :=
 theorem P4507525718087383677.correct : P4507525718087383677.Spec := by
   intro n
   simp only [A291287]
+
+end A291287
+
+/-! ## A291287.P15907784364218266698
+
+`A357413(A266833(n+2))`
+-/
+
+namespace A291287.P15907784364218266698
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357413 (A266833 (n + 2)).toNat
+
+end
+
+end A291287.P15907784364218266698
+
+namespace A291287
+
+/-- `A357413(A266833(n+2))` -/
+def P15907784364218266698.Spec : Prop :=
+  ∀ n, P15907784364218266698.a n = A291287 n
 
 end A291287
 

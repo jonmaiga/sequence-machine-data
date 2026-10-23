@@ -34,6 +34,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
@@ -42,6 +43,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -205,6 +207,32 @@ namespace A392105
 /-- `ceil((n+2)/2*n²)` -/
 def P14374130204543549105.Spec : Prop :=
   ∀ n, P14374130204543549105.a n = A392105 n
+
+end A392105
+
+/-! ## A392105.P7784200532624387488
+
+`round((n+1-acot(n+1))*∑[n])`
+-/
+
+namespace A392105.P7784200532624387488
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (((n + 1 : ℝ) - SequenceMachineLib.acot (n + 1 : ℝ)) * ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℝ))
+
+end
+
+end A392105.P7784200532624387488
+
+namespace A392105
+
+/-- `round((n+1-acot(n+1))*∑[n])` -/
+def P7784200532624387488.Spec : Prop :=
+  ∀ n, P7784200532624387488.a n = A392105 n
 
 end A392105
 
@@ -619,29 +647,6 @@ namespace A392105
 /-- `A212684(n)+A002620(n+1)` -/
 def P16448683197203966853.Spec : Prop :=
   ∀ n, P16448683197203966853.a n = A392105 n
-
-end A392105
-
-/-! ## A392105.P9234824349712186608
-
-`A006000(n)-A001651(n+1)`
--/
-
-namespace A392105.P9234824349712186608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006000 n - A001651 (n + 1)
-
-end
-
-end A392105.P9234824349712186608
-
-namespace A392105
-
-/-- `A006000(n)-A001651(n+1)` -/
-def P9234824349712186608.Spec : Prop :=
-  ∀ n, P9234824349712186608.a n = A392105 n
 
 end A392105
 
@@ -1313,8 +1318,59 @@ end A392109
 /-!
 # A392111: Numbers k such that 5*k - (greatest prime < 5*k) = (least prime > 5*k) - 5*k.
 
-The programs for A392111, there is no canonical definition to state claims against.
+The programs for A392111, the canonical program `A392111.P4220090756127954583` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392111 has offset 1).
+
+The definition of A392111 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A392111.P7245428186786581164
+
+`∪[A000156(n), A268328(n+1)]`
+-/
+
+namespace A392111.P7245428186786581164
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000156 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268328 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A392111.P7245428186786581164
+
+namespace A392111
+
+/-- `∪[A000156(n), A268328(n+1)]` -/
+def P7245428186786581164.Spec : Prop :=
+  ∀ n, (P7245428186786581164.a n : ℤ) = A392111 (n + 1)
+
+end A392111
+
+/-! ## A392111.P4220090756127954583
+
+`∪[A002001(n), A268328(n+1)]`
+
+The canonical program, it is in `Seq.B004.C003`.
+-/
+
+namespace A392111
+
+/-- `∪[A002001(n), A268328(n+1)]` -/
+def P4220090756127954583.Spec : Prop :=
+  ∀ n, (P4220090756127954583.a n : ℤ) = A392111 (n + 1)
+
+theorem P4220090756127954583.correct : P4220090756127954583.Spec := by
+  intro n
+  simp only [A392111, Nat.add_sub_cancel]
+
+end A392111
 
 /-! ## A392111.P8066473537050253949
 
@@ -1337,6 +1393,14 @@ end
 
 end A392111.P8066473537050253949
 
+namespace A392111
+
+/-- `A008619(eq[1, A389793(n+1)])` -/
+def P8066473537050253949.Spec : Prop :=
+  ∀ n, P8066473537050253949.a n = A392111 (n + 1)
+
+end A392111
+
 /-! ## A392111.P3126590147314430705
 
 `record[A008619(n)/A389793(n+1)]`
@@ -1354,6 +1418,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A392111.P3126590147314430705
+
+namespace A392111
+
+/-- `record[A008619(n)/A389793(n+1)]` -/
+def P3126590147314430705.Spec : Prop :=
+  ∀ n, P3126590147314430705.a n = (A392111 (n + 1) : ℚ)
+
+end A392111
 
 /-!
 # A392114: Numbers k such that 6*k - (greatest prime < 6*n) = (least prime > 6*n) - 6*k.

@@ -55,7 +55,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -3734,6 +3734,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A379231.P10059478734696380864
+
+/-!
+# A379234: Numbers k for which k XOR 2*k = sigma(k), where sigma is the sum of divisors function.
+
+The programs for A379234, there is no canonical definition to state claims against.
+-/
+
+/-! ## A379234.P1785236761207090690
+
+`∩[A325639(n+1), A379236(n+1)]`
+-/
+
+namespace A379234.P1785236761207090690
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325639 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379236 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A379234.P1785236761207090690
 
 /-!
 # A379238: a(n) = 1 if A003961(n)-sigma(n) is prime, otherwise 0, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.

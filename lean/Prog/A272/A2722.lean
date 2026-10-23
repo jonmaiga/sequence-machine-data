@@ -16,7 +16,6 @@ import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
@@ -9179,6 +9178,28 @@ end
 
 end A272284.P1132105224144811354
 
+/-! ## A272284.P10923889166054667804
+
+`∪[A195178(n), A349294(n+1)]`
+-/
+
+namespace A272284.P10923889166054667804
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A195178 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349294 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A272284.P10923889166054667804
+
 /-! ## A272284.P13014739723603036027
 
 `lt[A325280(2*n)², A239624(n)]`
@@ -9199,27 +9220,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A272284.P13014739723603036027
-
-/-! ## A272284.P14320146681632501978
-
-`lt[A122197(n+1)!, A072381(n+1)]`
--/
-
-namespace A272284.P14320146681632501978
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (A122197 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072381 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
-
-end
-
-end A272284.P14320146681632501978
 
 /-!
 # A272287: Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 459", based on the 5-celled von Neumann neighborhood.

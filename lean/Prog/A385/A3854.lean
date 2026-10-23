@@ -589,6 +589,28 @@ end A385413.P3605272073017930839
 The programs for A385415, there is no canonical definition to state claims against.
 -/
 
+/-! ## A385415.P15487056390262071673
+
+`∩[2*n, A386951(n+1)]`
+-/
+
+namespace A385415.P15487056390262071673
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386951 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385415.P15487056390262071673
+
 /-! ## A385415.P15049601110305403877
 
 `A245092(A386951(n+1))`
@@ -639,21 +661,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A385415.P1122451097130645670
-
-/-! ## A385415.P15895856276880962346
-
-`A065190(A386951(n+1)+1)`
--/
-
-namespace A385415.P15895856276880962346
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065190 (A386951 (n + 1) + 1).toNat
-
-end
-
-end A385415.P15895856276880962346
 
 /-!
 # A385416: The number of unordered factorizations of n into exponentially odd numbers (A268335).
@@ -2970,19 +2977,19 @@ end
 
 end A385466.P16703374457694577044
 
-/-! ## A385466.P10628576921620783419
+/-! ## A385466.P11883236881070799598
 
-`∩[A358528(n+1), A064989(A358530(n+1))]`
+`∩[A264719(n+1), A358528(n+1)]`
 -/
 
-namespace A385466.P10628576921620783419
+namespace A385466.P11883236881070799598
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A358528 (n + 1)
+  A264719 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064989 (A358530 (n + 1)).toNat
+  A358528 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2990,7 +2997,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A385466.P10628576921620783419
+end A385466.P11883236881070799598
 
 /-!
 # A385467: a(n) is the number of divisors of sigma(n) that have not yet been counted in the sequence.

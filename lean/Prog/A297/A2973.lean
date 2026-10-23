@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -821,6 +820,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A297306.P9302247869640048313
+
+/-! ## A297306.P10990121761888738442
+
+`∩[A087634(n+1), A168565(n+2)]`
+-/
+
+namespace A297306.P10990121761888738442
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087634 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168565 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A297306.P10990121761888738442
 
 /-! ## A297306.P18437154588194610900
 
@@ -4702,6 +4723,28 @@ end
 
 end A297366.P5197609415451986712
 
+/-! ## A297366.P11121168498248603189
+
+`∩[A007774(n+1), A373677(n+1)]`
+-/
+
+namespace A297366.P11121168498248603189
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007774 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A373677 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A297366.P11121168498248603189
+
 /-! ## A297366.P14427187331976133793
 
 `eq[A007875(n+1), A079275(A055456(n+1))]`
@@ -4722,27 +4765,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A297366.P14427187331976133793
-
-/-! ## A297366.P17687247544862231456
-
-`eq[A079275(A055456(n+1)), A087802(n+1)]`
--/
-
-namespace A297366.P17687247544862231456
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079275 (A055456 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087802 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A297366.P17687247544862231456
 
 /-!
 # A297367: Numerators of fraction whose denominator is defined in A303612.

@@ -36,6 +36,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -53,12 +54,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1506,38 +1506,27 @@ end
 
 end A317518.P16726154039129311295
 
-/-! ## A317518.P12220950589302020735
+/-! ## A317518.P6302142346543809642
 
-`A007318(A020639(a(n-2)))*A065218(n+1)` with `a(0)=1, a(1)=4`
+`∩[A002182(n+1), A256173(n+1)]`
 -/
 
-namespace A317518.P12220950589302020735
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 4] fun n a =>
-  A007318 (A020639 (a (n - 2)).toNat).toNat * A065218 (n + 1)
-
-end
-
-end A317518.P12220950589302020735
-
-/-! ## A317518.P8922427589129594813
-
-`filter[A002182(n+1), A358680(#)]`
--/
-
-namespace A317518.P8922427589129594813
+namespace A317518.P6302142346543809642
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A002182 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A358680 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256173 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A317518.P8922427589129594813
+end A317518.P6302142346543809642
 
 /-!
 # A317519: Number of nXn 0..1 arrays with every element unequal to 0, 1, 2, 3, 4, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
@@ -5496,6 +5485,28 @@ end A317550.P15607041141124491730
 The programs for A317551, there is no canonical definition to state claims against.
 -/
 
+/-! ## A317551.P4435516758763505663
+
+`comp[or(3, ∑[n]+2)]`
+-/
+
+namespace A317551.P4435516758763505663
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lor 3 (∑ j ∈ Finset.range (n + 1), f2 j + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A317551.P4435516758763505663
+
 /-! ## A317551.P16057214430123152690
 
 `lt[∏{p}[n, #], or(3, n)]`
@@ -5520,81 +5531,24 @@ end
 
 end A317551.P16057214430123152690
 
-/-! ## A317551.P10876160075776642331
+/-! ## A317551.P10171982820882643223
 
-`∪[comp[or(3, n)], 9*n]`
+`comp[xor(n, 3*(n+1))]`
 -/
 
-namespace A317551.P10876160075776642331
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 3 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  9 * n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f3 j = x) n
-
-end
-
-end A317551.P10876160075776642331
-
-/-! ## A317551.P18024084700880738794
-
-`∪[∑[n+2], comp[or(3, n)]]`
--/
-
-namespace A317551.P18024084700880738794
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 3 n
-
-open Classical in
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f4 j ≠ x) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f3 j = x) n
-
-end
-
-end A317551.P18024084700880738794
-
-/-! ## A317551.P6014231120410734555
-
-`lt[(n+1)%xor(n, n+1), 3]`
--/
-
-namespace A317551.P6014231120410734555
+namespace A317551.P10171982820882643223
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) % Nat.xor n (n + 1)
+  Nat.xor n (3 * (n + 1))
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
 
 end
 
-end A317551.P6014231120410734555
+end A317551.P10171982820882643223
 
 /-!
 # A317552: Irregular triangle where T(n,k) is the sum of coefficients in the expansion of p(y) in terms of Schur functions, where p is power-sum symmetric functions and y is the integer partition with Heinz number A215366(n,k).

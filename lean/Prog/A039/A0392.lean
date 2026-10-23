@@ -64,6 +64,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -97,6 +98,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A039200: Numbers whose base-11 representation has the same number of 6's and 7's.
@@ -1229,6 +1231,27 @@ end
 
 end A039207.P11486008046150453163
 
+/-! ## A039207.P3928463344725452174
+
+`eq[n+3, A239086(n+3)]`
+-/
+
+namespace A039207.P3928463344725452174
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 3
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239086 (n + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A039207.P3928463344725452174
+
 /-!
 # A039208: Numbers whose base-11 representation has the same number of 8's and 10's.
 
@@ -1805,6 +1828,27 @@ end
 
 end A039213.P17503579448583617188
 
+/-! ## A039213.P3580069042770094032
+
+`eq[A034429(n+1), A350872(n+1)]`
+-/
+
+namespace A039213.P3580069042770094032
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034429 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350872 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A039213.P3580069042770094032
+
 /-!
 # A039214: Numbers whose base-12 representation has the same number of 0's and 5's.
 
@@ -2333,6 +2377,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039217.P18360015185789867230
+
+/-! ## A039217.P12358618415143207856
+
+`∪[A016777(n), A394994(n+1)]`
+-/
+
+namespace A039217.P12358618415143207856
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016777 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394994 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A039217.P12358618415143207856
 
 /-! ## A039217.P17565657747757333838
 

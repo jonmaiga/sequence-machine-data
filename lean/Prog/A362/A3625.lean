@@ -5141,36 +5141,6 @@ def P2547149477059780085.Spec : Prop :=
 
 end A362594
 
-/-! ## A362594.P4500967031866166403
-
-`∩[A365535(n+1), A393201(n+1)]`
--/
-
-namespace A362594.P4500967031866166403
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A365535 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393201 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A362594.P4500967031866166403
-
-namespace A362594
-
-/-- `∩[A365535(n+1), A393201(n+1)]` -/
-def P4500967031866166403.Spec : Prop :=
-  ∀ n, (P4500967031866166403.a n : ℤ) = A362594 (n + 1)
-
-end A362594
-
 /-!
 # A362595: Number of parking functions of size n avoiding the patterns 132 and 321.
 

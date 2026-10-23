@@ -97,7 +97,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -459,6 +458,28 @@ end A120803.P761098316927254443
 The programs for A120804, there is no canonical definition to state claims against.
 -/
 
+/-! ## A120804.P187283887968287334
+
+`∩[A158699(n), A231588(n+1)]`
+-/
+
+namespace A120804.P187283887968287334
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158699 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231588 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A120804.P187283887968287334
+
 /-! ## A120804.P15424788469214812827
 
 `p?[A158699(n)]`
@@ -513,29 +534,33 @@ end
 
 end A120804.P12777044073987929175
 
-/-! ## A120804.P13410631225908189877
-
-`filter[A158699(n+1), A010051(#)]`
--/
-
-namespace A120804.P13410631225908189877
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158699 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
-
-end
-
-end A120804.P13410631225908189877
-
 /-!
 # A120805: Primes with consecutive digits.
 
 The programs for A120805, there is no canonical definition to state claims against.
 -/
+
+/-! ## A120805.P9717699731187527309
+
+`∩[A068710(n+1), A231588(n+1)]`
+-/
+
+namespace A120805.P9717699731187527309
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068710 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231588 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A120805.P9717699731187527309
 
 /-! ## A120805.P13262886341779241781
 
@@ -606,19 +631,19 @@ end
 
 end A120805.P1508341373032999012
 
-/-! ## A120805.P17264084166656319357
+/-! ## A120805.P12385898387812863484
 
-`∩[A068710(n+1), A376425(n+1)]`
+`∩[A029743(n+1), A068148(n+1)]`
 -/
 
-namespace A120805.P17264084166656319357
+namespace A120805.P12385898387812863484
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068710 (n + 1)
+  A029743 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376425 (n + 1)
+  A068148 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -626,29 +651,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A120805.P17264084166656319357
-
-/-! ## A120805.P2209283847959037419
-
-`∩[A323578(n+1), A376425(n+1)]`
--/
-
-namespace A120805.P2209283847959037419
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A323578 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376425 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A120805.P2209283847959037419
+end A120805.P12385898387812863484
 
 /-!
 # A120806: Positive integers k such that k+d+1 is prime for all divisors d of k.
@@ -4863,6 +4866,52 @@ namespace A120864
 /-- `A227790(A188089(n+1))` -/
 def P3763113538833489901.Spec : Prop :=
   ∀ n, P3763113538833489901.a n = A120864 (n + 1)
+
+end A120864
+
+/-! ## A120864.P8209702642728056133
+
+`A053186(3*(n+1)²)`
+-/
+
+namespace A120864.P8209702642728056133
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053186 (3 * (n + 1) ^ 2)
+
+end
+
+end A120864.P8209702642728056133
+
+namespace A120864
+
+/-- `A053186(3*(n+1)²)` -/
+def P8209702642728056133.Spec : Prop :=
+  ∀ n, P8209702642728056133.a n = A120864 (n + 1)
+
+end A120864
+
+/-! ## A120864.P7368744926973728027
+
+`A071797(3*(n+1)²)`
+-/
+
+namespace A120864.P7368744926973728027
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071797 (3 * (n + 1) ^ 2)
+
+end
+
+end A120864.P7368744926973728027
+
+namespace A120864
+
+/-- `A071797(3*(n+1)²)` -/
+def P7368744926973728027.Spec : Prop :=
+  ∀ n, P7368744926973728027.a n = A120864 (n + 1)
 
 end A120864
 

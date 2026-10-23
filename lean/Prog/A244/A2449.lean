@@ -1818,6 +1818,28 @@ end
 
 end A244923.P4977375050323628142
 
+/-! ## A244923.P627451834899151549
+
+`∩[2*n+1, A111366(n+1)]`
+-/
+
+namespace A244923.P627451834899151549
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111366 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A244923.P627451834899151549
+
 /-! ## A244923.P11267884627257530360
 
 `record[A009001(A111366(n+1))]`
@@ -1871,24 +1893,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A244923.P1250446490764090070
-
-/-! ## A244923.P11477993439510039625
-
-`filter[A111366(n+1), A096268(#)]`
--/
-
-namespace A244923.P11477993439510039625
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111366 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A096268 (f1 j).toNat = 1) n)
-
-end
-
-end A244923.P11477993439510039625
 
 /-!
 # A244925: Number T(n,k) of n-node unlabeled rooted trees with every leaf at height k; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.

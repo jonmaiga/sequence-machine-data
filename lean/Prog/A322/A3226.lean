@@ -348,19 +348,19 @@ end
 
 end A322609.P7864954944602248474
 
-/-! ## A322609.P16976564251843157591
+/-! ## A322609.P2942856384998302267
 
-`∩[A335143(n+1), A329879(n+2)]`
+`∩[A319745(n+1), A335143(n+1)]`
 -/
 
-namespace A322609.P16976564251843157591
+namespace A322609.P2942856384998302267
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335143 (n + 1)
+  A319745 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329879 (n + 2)
+  A335143 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -368,7 +368,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A322609.P16976564251843157591
+end A322609.P2942856384998302267
+
+/-! ## A322609.P7165653077563810680
+
+`∩[A329879(n+1), A335143(n+1)]`
+-/
+
+namespace A322609.P7165653077563810680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329879 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335143 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A322609.P7165653077563810680
 
 /-! ## A322609.P2988760761015328725
 
@@ -412,27 +434,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A322609.P11616381175444055552
-
-/-! ## A322609.P1560620711731702129
-
-`eq[A004277(n), A162296(A138153(n+1))]`
--/
-
-namespace A322609.P1560620711731702129
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004277 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162296 (A138153 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A322609.P1560620711731702129
 
 /-!
 # A322611: Numbers that are sums (of a nonempty sequence) of consecutive centered square numbers.
@@ -6118,6 +6119,21 @@ end
 
 end A322684.P14972592474917002003
 
+/-! ## A322684.P1510973943320438123
+
+`A322694(A387109(n))`
+-/
+
+namespace A322684.P1510973943320438123
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322694 (A387109 n).toNat
+
+end
+
+end A322684.P1510973943320438123
+
 /-!
 # A322685: Nine-column table read by rows: 9-tuples that have the same value of phi, sigma, and tau.
 
@@ -6192,6 +6208,21 @@ end
 
 end A322685.P12133788605968119021
 
+/-! ## A322685.P10736202724009639778
+
+`A322695(n+1)+A011732(n)`
+-/
+
+namespace A322685.P10736202724009639778
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322695 (n + 1) + A011732 n
+
+end
+
+end A322685.P10736202724009639778
+
 /-!
 # A322686: Ten-column table read by rows: 10-tuples that have the same value of phi, sigma, and tau.
 
@@ -6231,35 +6262,50 @@ end
 
 end A322686.P15961012386071837423
 
-/-! ## A322686.P13169903361081693661
+/-! ## A322686.P13323299412554257370
 
-`A322697(A007953(n)+1)`
+`A322696(A348553(n))`
 -/
 
-namespace A322686.P13169903361081693661
+namespace A322686.P13323299412554257370
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322697 (A007953 n + 1).toNat
+  A322696 (A348553 n).toNat
 
 end
 
-end A322686.P13169903361081693661
+end A322686.P13323299412554257370
 
-/-! ## A322686.P9633357029842625182
+/-! ## A322686.P8604791370184261960
 
-`A322696(n+1)+A011734(n)`
+`A322696(A387051(n))`
 -/
 
-namespace A322686.P9633357029842625182
+namespace A322686.P8604791370184261960
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322696 (n + 1) + A011734 n
+  A322696 (A387051 n).toNat
 
 end
 
-end A322686.P9633357029842625182
+end A322686.P8604791370184261960
+
+/-! ## A322686.P5939853854716364684
+
+`A322696(A387108(n))`
+-/
+
+namespace A322686.P5939853854716364684
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322696 (A387108 n).toNat
+
+end
+
+end A322686.P5939853854716364684
 
 /-!
 # A322687: Eleven-column table read by rows: 11-tuples that have the same value of phi, sigma, and tau.

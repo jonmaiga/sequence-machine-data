@@ -3101,6 +3101,28 @@ end A384993.P17587341698829485226
 The programs for A384994, there is no canonical definition to state claims against.
 -/
 
+/-! ## A384994.P14314316503359567092
+
+`∩[A325130(n+1), A354928(n+1)]`
+-/
+
+namespace A384994.P14314316503359567092
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325130 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354928 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A384994.P14314316503359567092
+
 /-! ## A384994.P15425015738279029006
 
 `record[A034684(A325131(n+1))]`
@@ -3172,24 +3194,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A384994.P281739158411092753
-
-/-! ## A384994.P1778627754128993422
-
-`filter[A325131(n+1), A351564(#)]`
--/
-
-namespace A384994.P1778627754128993422
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325131 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A351564 (f1 j).toNat = 1) n)
-
-end
-
-end A384994.P1778627754128993422
 
 /-!
 # A384998: Total number of partitions of all numbers <= n with designated summands, n >= 0.

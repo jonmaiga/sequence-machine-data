@@ -3421,30 +3421,26 @@ def P12363395645780063485.Spec : Prop :=
 
 end A355538
 
-/-! ## A355538.P8410382442955360463
+/-! ## A355538.P4318029067613767101
 
-`comp[A092604(n+1)]-n`
+`A082767(n+1)%A157142(n)`
 -/
 
-namespace A355538.P8410382442955360463
+namespace A355538.P4318029067613767101
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092604 (n + 1)
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) - (n : ℤ)
+  Int.tmod (A082767 (n + 1)) (A157142 n)
 
 end
 
-end A355538.P8410382442955360463
+end A355538.P4318029067613767101
 
 namespace A355538
 
-/-- `comp[A092604(n+1)]-n` -/
-def P8410382442955360463.Spec : Prop :=
-  ∀ n, P8410382442955360463.a n = A355538 (n + 1)
+/-- `A082767(n+1)%A157142(n)` -/
+def P4318029067613767101.Spec : Prop :=
+  ∀ n, P4318029067613767101.a n = A355538 (n + 1)
 
 end A355538
 
@@ -3608,6 +3604,25 @@ end A355543.P5859093548711805262
 The programs for A355547, there is no canonical definition to state claims against.
 -/
 
+/-! ## A355547.P3193087981349390799
+
+`comp[A355497(n+1)]`
+-/
+
+namespace A355547.P3193087981349390799
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355497 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A355547.P3193087981349390799
+
 /-! ## A355547.P6105387523459322763
 
 `∑[A089181(A306437(2*(n+1))!)]`
@@ -3679,21 +3694,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355547.P13670787820318897845
-
-/-! ## A355547.P13061246346536678688
-
-`A075617(A117228(n+2))`
--/
-
-namespace A355547.P13061246346536678688
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075617 (A117228 (n + 2)).toNat
-
-end
-
-end A355547.P13061246346536678688
 
 /-!
 # A355549: Number of positive integers k with 1 < k < n such that n occurs in the Reverse-and-Multiply trajectory of k.
@@ -4936,6 +4936,50 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A355578.P16320123958990193670
+
+/-! ## A355578.P17383190136592756575
+
+`∩[A114149(n+1), A344472(n+1)]`
+-/
+
+namespace A355578.P17383190136592756575
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114149 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344472 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A355578.P17383190136592756575
+
+/-! ## A355578.P3903381780448661009
+
+`∩[A263977(n+1), A344472(n+1)]`
+-/
+
+namespace A355578.P3903381780448661009
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263977 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344472 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A355578.P3903381780448661009
 
 /-!
 # A355579: Numbers k such that A072079(k)/k sets a new record.

@@ -4359,6 +4359,21 @@ end
 
 end A015362.P16881328248292236403
 
+/-! ## A015362.P15206016027960576942
+
+`A016022(n)%A282535(n+4)`
+-/
+
+namespace A015362.P15206016027960576942
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A016022 n) (A282535 (n + 4))
+
+end
+
+end A015362.P15206016027960576942
+
 /-!
 # A015363: 
 

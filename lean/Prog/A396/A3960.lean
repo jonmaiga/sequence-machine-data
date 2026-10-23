@@ -19,6 +19,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
@@ -480,8 +481,29 @@ end A396045.P11148833053691102959
 /-!
 # A396046: Numbers not of the form Sum_{k=1..m} floor(m/k^3).
 
-The programs for A396046, there is no canonical definition to state claims against.
+The programs for A396046, the canonical program `A396046.P971276664437156168` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396046 has offset 1).
+
+The definition of A396046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2002 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A396046.P971276664437156168
+
+`comp[A013937(n)]`
+
+The canonical program, it is in `Seq.B002.C006`.
+-/
+
+namespace A396046
+
+/-- `comp[A013937(n)]` -/
+def P971276664437156168.Spec : Prop :=
+  ∀ n, (P971276664437156168.a n : ℤ) = A396046 (n + 1)
+
+theorem P971276664437156168.correct : P971276664437156168.Spec := by
+  intro n
+  simp only [A396046, Nat.add_sub_cancel]
+
+end A396046
 
 /-! ## A396046.P1265525625248182433
 
@@ -498,6 +520,14 @@ end
 
 end A396046.P1265525625248182433
 
+namespace A396046
+
+/-- `A061479(A061479(n))+A046099(n+1)` -/
+def P1265525625248182433.Spec : Prop :=
+  ∀ n, P1265525625248182433.a n = A396046 (n + 1)
+
+end A396046
+
 /-! ## A396046.P15876699423625959378
 
 `A046099(A078213(n+1))+n`
@@ -512,6 +542,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396046.P15876699423625959378
+
+namespace A396046
+
+/-- `A046099(A078213(n+1))+n` -/
+def P15876699423625959378.Spec : Prop :=
+  ∀ n, P15876699423625959378.a n = A396046 (n + 1)
+
+end A396046
 
 /-! ## A396046.P830713256396249949
 
@@ -528,6 +566,14 @@ end
 
 end A396046.P830713256396249949
 
+namespace A396046
+
+/-- `A345193(A005188(n+2))+n` -/
+def P830713256396249949.Spec : Prop :=
+  ∀ n, P830713256396249949.a n = A396046 (n + 1)
+
+end A396046
+
 /-! ## A396046.P8201559909305621738
 
 `A349233(n+1)+A059405(A059405(n+1))`
@@ -542,6 +588,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396046.P8201559909305621738
+
+namespace A396046
+
+/-- `A349233(n+1)+A059405(A059405(n+1))` -/
+def P8201559909305621738.Spec : Prop :=
+  ∀ n, P8201559909305621738.a n = A396046 (n + 1)
+
+end A396046
 
 /-!
 # A396048: Number of equivalence classes of full-rank n-element subsets of complement pairs in the n-dimensional Boolean hypercube under coordinate permutation.
@@ -976,6 +1030,29 @@ def P1777618390924202067.Spec : Prop :=
 
 end A396059
 
+/-! ## A396059.P5638483324745169372
+
+`A193231(A006068(2*A193231(n)))`
+-/
+
+namespace A396059.P5638483324745169372
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A193231 (A006068 (2 * A193231 n).toNat).toNat
+
+end
+
+end A396059.P5638483324745169372
+
+namespace A396059
+
+/-- `A193231(A006068(2*A193231(n)))` -/
+def P5638483324745169372.Spec : Prop :=
+  ∀ n, P5638483324745169372.a n = A396059 n
+
+end A396059
+
 /-! ## A396059.P6288187635307512279
 
 `A004526(A048725(n))`
@@ -1224,16 +1301,16 @@ end
 
 end A396061.P9143332300773227999
 
-/-! ## A396061.P9268836277817073255
+/-! ## A396061.P9131287633244471147
 
-`∩[A085305(n+1), A106323(n+1)]`
+`∩[A061909(n+1), A106323(n+1)]`
 -/
 
-namespace A396061.P9268836277817073255
+namespace A396061.P9131287633244471147
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085305 (n + 1)
+  A061909 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A106323 (n + 1)
@@ -1244,21 +1321,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A396061.P9268836277817073255
+end A396061.P9131287633244471147
 
-/-! ## A396061.P15181359602094558309
+/-! ## A396061.P9141675685720660578
 
-`∩[A106323(n+1), A140212(n+1)]`
+`∩[A062996(n+1), A106323(n+1)]`
 -/
 
-namespace A396061.P15181359602094558309
+namespace A396061.P9141675685720660578
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A106323 (n + 1)
+  A062996 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140212 (n + 1)
+  A106323 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1266,7 +1343,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A396061.P15181359602094558309
+end A396061.P9141675685720660578
 
 /-!
 # A396065: The total number of at-most-4-furcating labeled histories that can be constructed for n labeled leaves.
@@ -1897,6 +1974,33 @@ def P15182735545721748663.Spec : Prop :=
 
 end A396073
 
+/-! ## A396073.P7441043386991756676
+
+`comp[A113215(n)]`
+-/
+
+namespace A396073.P7441043386991756676
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113215 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A396073.P7441043386991756676
+
+namespace A396073
+
+/-- `comp[A113215(n)]` -/
+def P7441043386991756676.Spec : Prop :=
+  ∀ n, (P7441043386991756676.a n : ℤ) = A396073 (n + 1)
+
+end A396073
+
 /-!
 # A396079: Product of the least factors in all proper factorizations of n into factors > 1, up to permutation; a(n) = 1 for noncomposite n.
 
@@ -2049,6 +2153,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396082.P12410348548050459944
+
+/-! ## A396082.P8556748401420155445
+
+`eq[A134192(n), A219052(n+1)]`
+-/
+
+namespace A396082.P8556748401420155445
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134192 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219052 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A396082.P8556748401420155445
 
 /-!
 # A396086: Number of dyadic intervals of length 2^(-n) that intersect the classical middle-third Cantor set.

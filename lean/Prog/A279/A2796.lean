@@ -892,6 +892,29 @@ def P11750738850117663692.Spec : Prop :=
 
 end A279607
 
+/-! ## A279607.P10155059867112065356
+
+`A002265(A276853(n+1))`
+-/
+
+namespace A279607.P10155059867112065356
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002265 (A276853 (n + 1)).toNat
+
+end
+
+end A279607.P10155059867112065356
+
+namespace A279607
+
+/-- `A002265(A276853(n+1))` -/
+def P10155059867112065356.Spec : Prop :=
+  ∀ n, P10155059867112065356.a n = A279607 (n + 1)
+
+end A279607
+
 /-!
 # A279608: Beatty sequence for e/(e - 2); i.e., a(n) = floor(n*e/(e - 2)).
 

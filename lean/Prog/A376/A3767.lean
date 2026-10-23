@@ -58,7 +58,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -4080,19 +4079,19 @@ end
 
 end A376746.P10224956595592335664
 
-/-! ## A376746.P9039617673625016616
+/-! ## A376746.P17974514062108604338
 
-`∩[A046451(n+1), A163122(n+1)]`
+`∩[A046451(n+1), A078972(n+1)]`
 -/
 
-namespace A376746.P9039617673625016616
+namespace A376746.P17974514062108604338
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A046451 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163122 (n + 1)
+  A078972 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4100,21 +4099,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A376746.P9039617673625016616
+end A376746.P17974514062108604338
 
-/-! ## A376746.P5079684931693407054
+/-! ## A376746.P16259156933651809772
 
-`∩[A251728(n+1), A305231(n+1)]`
+`∩[A078972(n+1), A192137(n+1)]`
 -/
 
-namespace A376746.P5079684931693407054
+namespace A376746.P16259156933651809772
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251728 (n + 1)
+  A078972 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305231 (n + 1)
+  A192137 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4122,7 +4121,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A376746.P5079684931693407054
+end A376746.P16259156933651809772
 
 /-!
 # A376747: Number of non-isomorphic colorings of a toroidal n X n grid using exactly two swappable colors.

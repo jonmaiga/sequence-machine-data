@@ -583,36 +583,26 @@ def P4005248165424970887.Spec : Prop :=
 
 end A249901
 
-/-! ## A249901.P10130131293284286819
+/-! ## A249901.P12042190077365332947
 
-`xor(char[∏{p}[n, #]-1], ∑{e}[n+1, #])`
+`A001222(n+1)+A249767(n+1)-A001221(n+1)`
 -/
 
-namespace A249901.P10130131293284286819
+namespace A249901.P12042190077365332947
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ p ∈ Nat.primeFactors (f2 n), p : ℕ) : ℤ) - 1
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor (if ∃ j, f1 j = (n : ℤ) then 1 else 0) (∑ p ∈ Nat.primeFactors (f3 n), Nat.factorization (f3 n) p)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001222 (n + 1) + (A249767 (n + 1) - A001221 (n + 1))
 
 end
 
-end A249901.P10130131293284286819
+end A249901.P12042190077365332947
 
 namespace A249901
 
-/-- `xor(char[∏{p}[n, #]-1], ∑{e}[n+1, #])` -/
-def P10130131293284286819.Spec : Prop :=
-  ∀ n, (P10130131293284286819.a n : ℤ) = A249901 (n + 1)
+/-- `A001222(n+1)+A249767(n+1)-A001221(n+1)` -/
+def P12042190077365332947.Spec : Prop :=
+  ∀ n, P12042190077365332947.a n = A249901 (n + 1)
 
 end A249901
 

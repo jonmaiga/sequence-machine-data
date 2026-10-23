@@ -6265,29 +6265,23 @@ end A160945.P2040634249697667045
 /-!
 # A160947: Numbers k that are multiples of the digital sum of k+1.
 
-The programs for A160947, the canonical program `A160947.P17837696195469221260` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160947 has offset 1).
-
-The definition of A160947 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A160947, there is no canonical definition to state claims against.
 -/
 
 /-! ## A160947.P17837696195469221260
 
 `A253205(n+2)-1`
-
-The canonical program, it is in `Seq.B003.C002`.
 -/
 
-namespace A160947
+namespace A160947.P17837696195469221260
+noncomputable section
 
-/-- `A253205(n+2)-1` -/
-def P17837696195469221260.Spec : Prop :=
-  ∀ n, P17837696195469221260.a n = A160947 (n + 1)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A253205 (n + 2) - 1
 
-theorem P17837696195469221260.correct : P17837696195469221260.Spec := by
-  intro n
-  simp only [A160947, Nat.add_sub_cancel]
+end
 
-end A160947
+end A160947.P17837696195469221260
 
 /-! ## A160947.P3683908308790521476
 
@@ -6310,14 +6304,6 @@ end
 
 end A160947.P3683908308790521476
 
-namespace A160947
-
-/-- `∑[abs(Δ[A253205(n+1)])]` -/
-def P3683908308790521476.Spec : Prop :=
-  ∀ n, P3683908308790521476.a n = A160947 (n + 1)
-
-end A160947
-
 /-! ## A160947.P10266894668583021932
 
 `∑[A000027(Δ[A253205(n+1)])]`
@@ -6338,14 +6324,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160947.P10266894668583021932
-
-namespace A160947
-
-/-- `∑[A000027(Δ[A253205(n+1)])]` -/
-def P10266894668583021932.Spec : Prop :=
-  ∀ n, P10266894668583021932.a n = A160947 (n + 1)
-
-end A160947
 
 /-! ## A160947.P10234816104494740284
 
@@ -6368,14 +6346,6 @@ end
 
 end A160947.P10234816104494740284
 
-namespace A160947
-
-/-- `∑[Δ[A253205(n+1)]%A198592(n+1)]` -/
-def P10234816104494740284.Spec : Prop :=
-  ∀ n, P10234816104494740284.a n = A160947 (n + 1)
-
-end A160947
-
 /-! ## A160947.P8413208387802752424
 
 `A004483(A253205(n+2))`
@@ -6390,14 +6360,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160947.P8413208387802752424
-
-namespace A160947
-
-/-- `A004483(A253205(n+2))` -/
-def P8413208387802752424.Spec : Prop :=
-  ∀ n, P8413208387802752424.a n = A160947 (n + 1)
-
-end A160947
 
 /-! ## A160947.P9157572604688056357
 
@@ -6420,14 +6382,6 @@ end
 
 end A160947.P9157572604688056357
 
-namespace A160947
-
-/-- `eq[n%A007953(n+1), A000007(n)]` -/
-def P9157572604688056357.Spec : Prop :=
-  ∀ n, (P9157572604688056357.a n : ℤ) = A160947 (n + 1)
-
-end A160947
-
 /-! ## A160947.P12786231940509462604
 
 `A023444(A253205(n+2)+1)`
@@ -6442,14 +6396,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160947.P12786231940509462604
-
-namespace A160947
-
-/-- `A023444(A253205(n+2)+1)` -/
-def P12786231940509462604.Spec : Prop :=
-  ∀ n, P12786231940509462604.a n = A160947 (n + 1)
-
-end A160947
 
 /-!
 # A160948: Numbers n that are multiples of the digital sum of n-1.
@@ -8428,6 +8374,96 @@ namespace A160967
 /-- `floor(∑[4*a(n-3)]/3)` -/
 def P6870316737495734053.Spec : Prop :=
   ∀ n, P6870316737495734053.a n = A160967 n
+
+end A160967
+
+/-! ## A160967.P11943440481694472634
+
+`∪[A000079(n), A002450(n)]`
+-/
+
+namespace A160967.P11943440481694472634
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002450 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A160967.P11943440481694472634
+
+namespace A160967
+
+/-- `∪[A000079(n), A002450(n)]` -/
+def P11943440481694472634.Spec : Prop :=
+  ∀ n, (P11943440481694472634.a n : ℤ) = A160967 n
+
+end A160967
+
+/-! ## A160967.P11723291111716471544
+
+`∪[A002450(n), A131577(n)]`
+-/
+
+namespace A160967.P11723291111716471544
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002450 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131577 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A160967.P11723291111716471544
+
+namespace A160967
+
+/-- `∪[A002450(n), A131577(n)]` -/
+def P11723291111716471544.Spec : Prop :=
+  ∀ n, (P11723291111716471544.a n : ℤ) = A160967 n
+
+end A160967
+
+/-! ## A160967.P9460310336881196071
+
+`∪[A002450(n), A155559(n)]`
+-/
+
+namespace A160967.P9460310336881196071
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002450 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155559 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A160967.P9460310336881196071
+
+namespace A160967
+
+/-- `∪[A002450(n), A155559(n)]` -/
+def P9460310336881196071.Spec : Prop :=
+  ∀ n, (P9460310336881196071.a n : ℤ) = A160967 n
 
 end A160967
 

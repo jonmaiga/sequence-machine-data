@@ -404,6 +404,28 @@ end
 
 end A350803.P1562512172458164654
 
+/-! ## A350803.P12137010170208142841
+
+`∪[A005279(n+1), A125499(n+1)]`
+-/
+
+namespace A350803.P12137010170208142841
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005279 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125499 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350803.P12137010170208142841
+
 /-! ## A350803.P17009190630083601994
 
 `lt[0, A243982(n+1)]+1`
@@ -2247,6 +2269,118 @@ end
 end A350843.P16394769052168759129
 
 /-!
+# A350845: Heinz numbers of integer partitions with at least two adjacent parts of quotient 2.
+
+The programs for A350845, there is no canonical definition to state claims against.
+-/
+
+/-! ## A350845.P9915128514361443940
+
+`∩[A045506(n), A364348(n+1)]`
+-/
+
+namespace A350845.P9915128514361443940
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045506 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364348 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350845.P9915128514361443940
+
+/-! ## A350845.P5906367515862615930
+
+`∩[A045506(n), A364537(n+1)]`
+-/
+
+namespace A350845.P5906367515862615930
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045506 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364537 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350845.P5906367515862615930
+
+/-! ## A350845.P16517222745761812061
+
+`∩[A045506(n), A383513(n+1)]`
+-/
+
+namespace A350845.P16517222745761812061
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045506 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383513 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350845.P16517222745761812061
+
+/-! ## A350845.P16590035344847006851
+
+`∩[A258575(n+1), A364537(n+1)]`
+-/
+
+namespace A350845.P16590035344847006851
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A258575 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364537 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A350845.P16590035344847006851
+
+/-! ## A350845.P16079585713305289015
+
+`filter[A364348(n+1), A317961(#)]`
+-/
+
+namespace A350845.P16079585713305289015
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364348 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A317961 (f1 j).toNat = 1) n)
+
+end
+
+end A350845.P16079585713305289015
+
+/-!
 # A350846: Number of integer partitions of n with at least two adjacent parts of quotient 2.
 
 The programs for A350846, there is no canonical definition to state claims against.
@@ -3132,26 +3266,26 @@ theorem P5979134105096678730.correct : P5979134105096678730.Spec := by
 
 end A350855
 
-/-! ## A350855.P3906175529391141084
+/-! ## A350855.P9390423191626358542
 
-`n-2+(n+1)*a(n-1)` with `a(0)=1`
+`(n+1)*(a(n-1)+1)-3` with `a(0)=1`
 -/
 
-namespace A350855.P3906175529391141084
+namespace A350855.P9390423191626358542
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (n : ℤ) - 2 + (n + 1 : ℤ) * a (n - 1)
+  (n + 1 : ℤ) * (a (n - 1) + 1) - 3
 
 end
 
-end A350855.P3906175529391141084
+end A350855.P9390423191626358542
 
 namespace A350855
 
-/-- `n-2+(n+1)*a(n-1)` -/
-def P3906175529391141084.Spec : Prop :=
-  ∀ n, P3906175529391141084.a n = A350855 n
+/-- `(n+1)*(a(n-1)+1)-3` -/
+def P9390423191626358542.Spec : Prop :=
+  ∀ n, P9390423191626358542.a n = A350855 n
 
 end A350855
 
@@ -3725,27 +3859,20 @@ end
 
 end A350867.P355483102661212604
 
-/-! ## A350867.P8479773607331607467
+/-! ## A350867.P17367685044648826402
 
-`∪[A354745(A076084(n+1)), A068893(n+5)]`
+`A354745(A076084(n+1))`
 -/
 
-namespace A350867.P8479773607331607467
+namespace A350867.P17367685044648826402
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A354745 (A076084 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068893 (n + 5)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A350867.P8479773607331607467
+end A350867.P17367685044648826402
 
 /-!
 # A350868: a(n) is the first prime p such that the next n primes are p+2*k^2 for k=1..n.

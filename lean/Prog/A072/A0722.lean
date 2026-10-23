@@ -38,6 +38,7 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2660,6 +2661,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A072207.P16385546294834565539
+
+/-! ## A072207.P14195734090975102140
+
+`∩[A027902(n+1), A067946(n+1)]`
+-/
+
+namespace A072207.P14195734090975102140
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027902 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067946 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A072207.P14195734090975102140
 
 /-!
 # A072209: Number of primitive roots of those integers with at least one primitive root.
@@ -10561,6 +10584,29 @@ def P18185698012306926114.Spec : Prop :=
 
 end A072261
 
+/-! ## A072261.P5045393108536177799
+
+`A002450(n)+A002042(n)`
+-/
+
+namespace A072261.P5045393108536177799
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002450 n + A002042 n
+
+end
+
+end A072261.P5045393108536177799
+
+namespace A072261
+
+/-- `A002450(n)+A002042(n)` -/
+def P5045393108536177799.Spec : Prop :=
+  ∀ n, P5045393108536177799.a n = A072261 (n + 1)
+
+end A072261
+
 /-!
 # A072262: a(n) = 4*a(n-1) + 1, a(1)=11.
 
@@ -13711,6 +13757,52 @@ def P16977457982018260601.Spec : Prop :=
 
 end A072277
 
+/-! ## A072277.P13060830488334091370
+
+`A006002(n+2)+1`
+-/
+
+namespace A072277.P13060830488334091370
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006002 (n + 2) + 1
+
+end
+
+end A072277.P13060830488334091370
+
+namespace A072277
+
+/-- `A006002(n+2)+1` -/
+def P13060830488334091370.Spec : Prop :=
+  ∀ n, P13060830488334091370.a n = A072277 (n + 3)
+
+end A072277
+
+/-! ## A072277.P5928622103305395732
+
+`A242658(n+2)+A218152(n+1)`
+-/
+
+namespace A072277.P5928622103305395732
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242658 (n + 2) + A218152 (n + 1)
+
+end
+
+end A072277.P5928622103305395732
+
+namespace A072277
+
+/-- `A242658(n+2)+A218152(n+1)` -/
+def P5928622103305395732.Spec : Prop :=
+  ∀ n, P5928622103305395732.a n = A072277 (n + 3)
+
+end A072277
+
 /-!
 # A072279: Dimension of n-th graded section of a certain Lie algebra.
 
@@ -15643,33 +15735,26 @@ def P14363970119884910346.Spec : Prop :=
 
 end A072292
 
-/-! ## A072292.P1546653971878964002
+/-! ## A072292.P5557779572892992618
 
-`∑[char[A087320(n+2)-1]]`
+`A076411(n+2)-1`
 -/
 
-namespace A072292.P1546653971878964002
+namespace A072292.P5557779572892992618
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087320 (n + 2) - 1
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076411 (n + 2) - 1
 
 end
 
-end A072292.P1546653971878964002
+end A072292.P5557779572892992618
 
 namespace A072292
 
-/-- `∑[char[A087320(n+2)-1]]` -/
-def P1546653971878964002.Spec : Prop :=
-  ∀ n, (P1546653971878964002.a n : ℤ) = A072292 (n + 1)
+/-- `A076411(n+2)-1` -/
+def P5557779572892992618.Spec : Prop :=
+  ∀ n, P5557779572892992618.a n = A072292 (n + 1)
 
 end A072292
 

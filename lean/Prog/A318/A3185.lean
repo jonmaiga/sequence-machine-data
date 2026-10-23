@@ -4263,6 +4263,28 @@ end
 
 end A318535.P14495487292012559942
 
+/-! ## A318535.P1638780469066161237
+
+`∪[A000067(n), A261906(n+1)]`
+-/
+
+namespace A318535.P1638780469066161237
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000067 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261906 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318535.P1638780469066161237
+
 /-! ## A318535.P8211425468761274162
 
 `eq[A055642(A261424(n)), A178334(n)]`
@@ -7064,6 +7086,28 @@ end
 
 end A318572.P2023010028308779639
 
+/-! ## A318572.P17852192267100389809
+
+`∩[A146077(n+1), A306639(n+1)]`
+-/
+
+namespace A318572.P17852192267100389809
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A146077 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A306639 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318572.P17852192267100389809
+
 /-!
 # A318573: Numerator of the reciprocal sum of the integer partition with Heinz number n.
 
@@ -7787,6 +7831,28 @@ end
 
 end A318588.P4545899500140503195
 
+/-! ## A318588.P18048483601899381773
+
+`∩[A025611(n+1), A382750(n+1)]`
+-/
+
+namespace A318588.P18048483601899381773
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025611 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382750 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318588.P18048483601899381773
+
 /-! ## A318588.P9366964299990107501
 
 `∩[A092232(n+1), A217833(n)]`
@@ -7827,19 +7893,19 @@ end
 
 end A318588.P769214126630549447
 
-/-! ## A318588.P785796751208219957
+/-! ## A318588.P17217401921564210192
 
-`∩[A092232(n+1), A251642(n+1)]`
+`∩[A000069(n+1), A092232(n+1)]`
 -/
 
-namespace A318588.P785796751208219957
+namespace A318588.P17217401921564210192
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092232 (n + 1)
+  A000069 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251642 (n + 1)
+  A092232 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -7847,25 +7913,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A318588.P785796751208219957
-
-/-! ## A318588.P7924773081342983926
-
-`record[A052126(A232711(n+1))]`
--/
-
-namespace A318588.P7924773081342983926
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052126 (A232711 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A318588.P7924773081342983926
+end A318588.P17217401921564210192
 
 /-!
 # A318589: Heinz numbers of integer partitions whose sum of reciprocals squared is the reciprocal of an integer.

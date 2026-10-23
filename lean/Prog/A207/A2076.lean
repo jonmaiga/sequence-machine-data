@@ -47,7 +47,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -3676,26 +3675,27 @@ end
 
 end A207638.P16914127090167897934
 
-/-! ## A207638.P10713411719640837196
+/-! ## A207638.P8169128882091542352
 
-`eq[2, A000010(A000010(A030101(n)+1))]²`
+`∩[A000290(n), A025339(n+1)]`
 -/
 
-namespace A207638.P10713411719640837196
+namespace A207638.P8169128882091542352
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A000010 (A030101 n + 1).toNat).toNat
+  A025339 (n + 1)
 
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n ^ 2
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A207638.P10713411719640837196
+end A207638.P8169128882091542352
 
 /-!
 # A207639: Squares that can be written as a sum of 3 distinct nonzero squares in more than one way.
@@ -3857,6 +3857,28 @@ end
 
 end A207640.P5810496641713771957
 
+/-! ## A207640.P11034252146965388535
+
+`∩[A000290(n), A025340(n+1)]`
+-/
+
+namespace A207640.P11034252146965388535
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000290 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025340 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A207640.P11034252146965388535
+
 /-! ## A207640.P1051295214512335488
 
 `eq[7, A112689(A342633(n))]²`
@@ -3898,27 +3920,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A207640.P14210006417333792626
-
-/-! ## A207640.P14634071340117360529
-
-`eq[2, A025442(n²)]²`
--/
-
-namespace A207640.P14634071340117360529
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025442 (n ^ 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n ^ 2
-
-end
-
-end A207640.P14634071340117360529
 
 /-!
 # A207641: G.f.: Sum_{n>=0} x^n * Product_{k=1..n} (1+x^k)/(1-x^k).

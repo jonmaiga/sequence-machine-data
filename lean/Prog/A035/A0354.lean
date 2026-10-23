@@ -50,6 +50,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -10105,6 +10106,50 @@ end
 
 end A035497.P13189353430301496890
 
+/-! ## A035497.P7053076995978138327
+
+`∩[A007770(n+1), A175787(n+1)]`
+-/
+
+namespace A035497.P7053076995978138327
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007770 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175787 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A035497.P7053076995978138327
+
+/-! ## A035497.P14702026875853349331
+
+`∩[A007770(n+1), A182986(n+1)]`
+-/
+
+namespace A035497.P14702026875853349331
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007770 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182986 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A035497.P14702026875853349331
+
 /-! ## A035497.P12405963483834300425
 
 `∩[A007770(n+1), A051948(n+1)]`
@@ -10193,6 +10238,28 @@ end
 
 end A035497.P2531210294812940769
 
+/-! ## A035497.P13945381710450024773
+
+`∩[A007770(n+1), A182140(n+1)]`
+-/
+
+namespace A035497.P13945381710450024773
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007770 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182140 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A035497.P13945381710450024773
+
 /-! ## A035497.P12412628677321404980
 
 `record[A006530(A007770(n+2))]`
@@ -10210,42 +10277,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035497.P12412628677321404980
-
-/-! ## A035497.P10916786341659300202
-
-`record[A008472(A007770(n+3))]`
--/
-
-namespace A035497.P10916786341659300202
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008472 (A007770 (n + 3)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A035497.P10916786341659300202
-
-/-! ## A035497.P12278464852732827723
-
-`filter[A007770(n+1), A010051(#)]`
--/
-
-namespace A035497.P12278464852732827723
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007770 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A010051 (f1 j).toNat = 1) n)
-
-end
-
-end A035497.P12278464852732827723
 
 /-!
 # A035499: Turns at which card 1 surfaces in Guy's shuffling problem (A035485).

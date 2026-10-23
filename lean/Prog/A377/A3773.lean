@@ -1424,6 +1424,21 @@ end
 
 end A377316.P3858805112277021956
 
+/-! ## A377316.P827412294320670170
+
+`A095208(A100716(n+2))`
+-/
+
+namespace A377316.P827412294320670170
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095208 (A100716 (n + 2)).toNat
+
+end
+
+end A377316.P827412294320670170
+
 /-!
 # A377317: Numbers k such that prime(k), prime(k)+6, and prime(k)+12 are primes.
 
@@ -4195,6 +4210,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377385.P8997231938499221954
+
+/-! ## A377385.P5540353123729496471
+
+`∩[A055571(n+1), A384010(n+1)]`
+-/
+
+namespace A377385.P5540353123729496471
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055571 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384010 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A377385.P5540353123729496471
 
 /-!
 # A377386: Factorial-base Niven numbers (A118363) k such that m = k/f(k) and m/f(m) are also factorial-base Niven numbers, where f(k) = A034968(k) is the sum of digits in the factorial-base representation of k.

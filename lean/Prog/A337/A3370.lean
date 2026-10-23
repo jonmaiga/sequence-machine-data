@@ -63,7 +63,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2347,6 +2346,35 @@ namespace A337024
 /-- `(3*n+4)*A020705(n)` -/
 def P13610892466254346977.Spec : Prop :=
   ∀ n, P13610892466254346977.a n = A337024 (n + 1)
+
+end A337024
+
+/-! ## A337024.P11582348012101135453
+
+`Δ[(2*n+1)*∑[n+3]-lcm(n, n+1)]`
+-/
+
+namespace A337024.P11582348012101135453
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 3
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (((2 * n + 1) * (∑ j ∈ Finset.range (n + 1), f2 j) : ℕ) : ℤ) - (Nat.lcm n (n + 1) : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A337024.P11582348012101135453
+
+namespace A337024
+
+/-- `Δ[(2*n+1)*∑[n+3]-lcm(n, n+1)]` -/
+def P11582348012101135453.Spec : Prop :=
+  ∀ n, P11582348012101135453.a n = A337024 (n + 1)
 
 end A337024
 

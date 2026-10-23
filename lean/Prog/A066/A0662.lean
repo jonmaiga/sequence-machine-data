@@ -11829,6 +11829,28 @@ end
 
 end A066290.P715117180070994320
 
+/-! ## A066290.P17376467776557129347
+
+`∩[A046762(n+1), A245030(n+1)]`
+-/
+
+namespace A066290.P17376467776557129347
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046762 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245030 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A066290.P17376467776557129347
+
 /-!
 # A066292: Numbers n such that n divides sigma_(2^k)(n), the sum of the 2^k powers of the divisors of n, for all k>1.
 

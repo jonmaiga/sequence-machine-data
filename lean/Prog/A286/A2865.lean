@@ -64,7 +64,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2712,31 +2711,27 @@ end A286520.P9192993731271329674
 /-!
 # A286521: Decimal representation of the diagonal from the origin to the corner (or of the corner to the origin) of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 659", based on the 5-celled von Neumann neighborhood.
 
-The programs for A286521, the canonical program `A286521.P12715905332727512032` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286521 has offset 0).
+The programs for A286521, the canonical program `A286521.P126994347414957647` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A286521 has offset 0).
 
-The definition of A286521 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A286521 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A286521.P126994347414957647
 
 `ogf((1-2x^2+6x^3-4x^4)/(1-3x+2x^2))`
+
+The canonical program, it is in `Seq.B000.C034`.
 -/
-
-namespace A286521.P126994347414957647
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 0, -2, 6, -4] [1, -3, 2] n
-
-end
-
-end A286521.P126994347414957647
 
 namespace A286521
 
 /-- `ogf((1-2x^2+6x^3-4x^4)/(1-3x+2x^2))` -/
 def P126994347414957647.Spec : Prop :=
   ∀ n, P126994347414957647.a n = A286521 n
+
+theorem P126994347414957647.correct : P126994347414957647.Spec := by
+  intro n
+  simp only [A286521]
 
 end A286521
 
@@ -3158,22 +3153,26 @@ def P15632630685427323229.Spec : Prop :=
 
 end A286521
 
-/-! ## A286521.P12715905332727512032
+/-! ## A286521.P8894713530985009557
 
-`3*a(n-1)-2*a(n-2)` with `a(0)=1, a(1)=3, a(2)=5, a(3)=15, a(4)=31`
-
-The canonical program, it is in `Seq.B000.C034`.
+`A000325(n+1)+A000325(n)-A130102(n)`
 -/
+
+namespace A286521.P8894713530985009557
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000325 (n + 1) + (A000325 n - A130102 n)
+
+end
+
+end A286521.P8894713530985009557
 
 namespace A286521
 
-/-- `3*a(n-1)-2*a(n-2)` -/
-def P12715905332727512032.Spec : Prop :=
-  ∀ n, P12715905332727512032.a n = A286521 n
-
-theorem P12715905332727512032.correct : P12715905332727512032.Spec := by
-  intro n
-  simp only [A286521]
+/-- `A000325(n+1)+A000325(n)-A130102(n)` -/
+def P8894713530985009557.Spec : Prop :=
+  ∀ n, P8894713530985009557.a n = A286521 n
 
 end A286521
 
@@ -10558,6 +10557,29 @@ def P14920620910147062636.Spec : Prop :=
 
 end A286582
 
+/-! ## A286582.P11672242332334135048
+
+`A252736(A243501(n+1))`
+-/
+
+namespace A286582.P11672242332334135048
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252736 (A243501 (n + 1)).toNat
+
+end
+
+end A286582.P11672242332334135048
+
+namespace A286582
+
+/-- `A252736(A243501(n+1))` -/
+def P11672242332334135048.Spec : Prop :=
+  ∀ n, P11672242332334135048.a n = A286582 (n + 1)
+
+end A286582
+
 /-!
 # A286583: a(n) = A007814(A048673(n)).
 
@@ -10996,6 +11018,29 @@ namespace A286583
 /-- `A050605(A253885(n))` -/
 def P15307672205000002694.Spec : Prop :=
   ∀ n, P15307672205000002694.a n = A286583 (n + 1)
+
+end A286583
+
+/-! ## A286583.P1048458852949671948
+
+`A050605(A003961(n+1))`
+-/
+
+namespace A286583.P1048458852949671948
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050605 (A003961 (n + 1)).toNat
+
+end
+
+end A286583.P1048458852949671948
+
+namespace A286583
+
+/-- `A050605(A003961(n+1))` -/
+def P1048458852949671948.Spec : Prop :=
+  ∀ n, P1048458852949671948.a n = A286583 (n + 1)
 
 end A286583
 

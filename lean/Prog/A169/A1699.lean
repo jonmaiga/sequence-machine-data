@@ -11,6 +11,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -31,10 +32,12 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +61,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -3663,6 +3665,156 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169938.P5889679952878488626
+
+/-! ## A169938.P14713846912653587179
+
+`A071252(n)+A019582(n)`
+-/
+
+namespace A169938.P14713846912653587179
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A071252 n + A019582 n
+
+end
+
+end A169938.P14713846912653587179
+
+/-! ## A169938.P7157772494047610318
+
+`A060884(n)-A100104(n)`
+-/
+
+namespace A169938.P7157772494047610318
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060884 n - A100104 n
+
+end
+
+end A169938.P7157772494047610318
+
+/-! ## A169938.P18336508698787887606
+
+`A133071(n)-A191012(n)`
+-/
+
+namespace A169938.P18336508698787887606
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133071 n - A191012 n
+
+end
+
+end A169938.P18336508698787887606
+
+/-! ## A169938.P11965605482329585698
+
+`A277977(n)-A071230(n)`
+-/
+
+namespace A169938.P11965605482329585698
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A277977 n - A071230 n
+
+end
+
+end A169938.P11965605482329585698
+
+/-! ## A169938.P8783143375558251182
+
+`A133499(n)/A069778(n)`
+-/
+
+namespace A169938.P8783143375558251182
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A133499 n : ℚ) / (A069778 n : ℚ)
+
+end
+
+end A169938.P8783143375558251182
+
+/-! ## A169938.P2725845673281330710
+
+`A133071(n)%A060884(n)`
+-/
+
+namespace A169938.P2725845673281330710
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A133071 n) (A060884 n)
+
+end
+
+end A169938.P2725845673281330710
+
+/-! ## A169938.P599473056990355216
+
+`A037251(n)%A271208(n)`
+-/
+
+namespace A169938.P599473056990355216
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A037251 n) (A271208 n)
+
+end
+
+end A169938.P599473056990355216
+
+/-! ## A169938.P6525056535674849087
+
+`A382612(n)%A058031(n)`
+-/
+
+namespace A169938.P6525056535674849087
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A382612 n) (A058031 n)
+
+end
+
+end A169938.P6525056535674849087
+
+/-! ## A169938.P15979641825803889680
+
+`A002061(n)*A128796(n)/A000079(n)`
+-/
+
+namespace A169938.P15979641825803889680
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A002061 n * A128796 n : ℚ) / (A000079 n : ℚ)
+
+end
+
+end A169938.P15979641825803889680
+
+/-! ## A169938.P14005152797791177246
+
+`A257841(A019442(n+1))`
+-/
+
+namespace A169938.P14005152797791177246
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257841 (A019442 (n + 1)).toNat
+
+end
+
+end A169938.P14005152797791177246
 
 /-!
 # A169939: Skinny numbers (A061909) containing no 2's.

@@ -56,8 +56,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -3973,6 +3973,29 @@ def P10531916245896611292.Spec : Prop :=
 
 end A229447
 
+/-! ## A229447.P15435117962669382943
+
+`A229445(A166136(n+2)-2)`
+-/
+
+namespace A229447.P15435117962669382943
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229445 (A166136 (n + 2) - 2).toNat
+
+end
+
+end A229447.P15435117962669382943
+
+namespace A229447
+
+/-- `A229445(A166136(n+2)-2)` -/
+def P15435117962669382943.Spec : Prop :=
+  ∀ n, P15435117962669382943.a n = A229447 (n + 1)
+
+end A229447
+
 /-!
 # A229448: Number of 5 X n 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and rows and columns lexicographically nondecreasing.
 
@@ -7680,20 +7703,27 @@ end
 
 end A229489.P5320865382029479911
 
-/-! ## A229489.P51605868180813097
+/-! ## A229489.P12459159928851253867
 
-`A038179(n+1)-1`
+`∪[or(1, n+2)+2*n+1, (n+1)!]`
 -/
 
-namespace A229489.P51605868180813097
+namespace A229489.P12459159928851253867
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038179 (n + 1) - 1
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lor 1 (n + 2) + (2 * n + 1)
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
 
 end
 
-end A229489.P51605868180813097
+end A229489.P12459159928851253867
 
 /-!
 # A229490: The smallest Lucas number having exactly n distinct prime factors.

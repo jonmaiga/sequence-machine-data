@@ -295,7 +295,7 @@ end A323402.P7681436806353768419
 /-!
 # A323403: Sum of sigma and its Dirichlet inverse: a(n) = A000203(n) + A046692(n).
 
-The programs for A323403, the canonical program `A323403.P2905685922637902047` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323403 has offset 1).
+The programs for A323403, the canonical program `A323403.P2905685922637902047` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323403 has offset 1).
 
 The definition of A323403 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046692, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -304,7 +304,7 @@ The definition of A323403 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(n+1)+A046692(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A323403
@@ -2336,6 +2336,32 @@ namespace A323416
 /-- `n!*(10^(n+1)-1)/9` -/
 def P18391136238738970258.Spec : Prop :=
   ∀ n, P18391136238738970258.a n = (A323416 (n + 1) : ℚ)
+
+end A323416
+
+/-! ## A323416.P10079028780170470517
+
+`n!*∑[10^n]`
+-/
+
+namespace A323416.P10079028780170470517
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  10 ^ n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial n * (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A323416.P10079028780170470517
+
+namespace A323416
+
+/-- `n!*∑[10^n]` -/
+def P10079028780170470517.Spec : Prop :=
+  ∀ n, (P10079028780170470517.a n : ℤ) = A323416 (n + 1)
 
 end A323416
 

@@ -39,6 +39,7 @@ import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
@@ -3869,6 +3870,28 @@ end
 
 end A223735.P16799222369311898702
 
+/-! ## A223735.P10383915257882196881
+
+`∪[A004214(n+1), A019442(n+1)]`
+-/
+
+namespace A223735.P10383915257882196881
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004214 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019442 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A223735.P10383915257882196881
+
 /-!
 # A223736: Number of n X n 0..2 arrays with rows, columns, diagonals and antidiagonals unimodal.
 
@@ -5214,7 +5237,7 @@ end A223755.P7268592285446630160
 /-!
 # A223756: Number of n X 2 0..3 arrays with rows, antidiagonals and columns unimodal.
 
-The programs for A223756, the canonical program `A223756.P3397043722478657849` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223756 has offset 1).
+The programs for A223756, the canonical program `A223756.P3397043722478657849` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223756 has offset 1).
 
 The definition of A223756 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A223659, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5223,7 +5246,7 @@ The definition of A223756 is `conditional`: the Lean definition is an OEIS formu
 
 `A223659(n+1)²`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A223756

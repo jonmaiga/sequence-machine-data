@@ -12,6 +12,7 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -3516,6 +3517,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A233745.P1470916066153724450
+
+/-! ## A233745.P10239513245275478442
+
+`A131234(A095121(n))`
+-/
+
+namespace A233745.P10239513245275478442
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131234 (A095121 n).toNat
+
+end
+
+end A233745.P10239513245275478442
 
 /-!
 # A233746: a(1) = 3; for n>3, a(n) = smallest number > a(n-1) such that a(1)*a(2)*...*a(n) + 1 is nonprime.

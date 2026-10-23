@@ -2190,6 +2190,28 @@ end
 
 end A274525.P17542586092072766025
 
+/-! ## A274525.P4429069501104974881
+
+`∩[A065508(n+1), A153414(n+1)]`
+-/
+
+namespace A274525.P4429069501104974881
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065508 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A153414 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A274525.P4429069501104974881
+
 /-! ## A274525.P4188807915714990448
 
 `∩[A120364(n+1), A153414(n+1)]`
@@ -6881,6 +6903,21 @@ end
 
 end A274580.P5624895157079372367
 
+/-! ## A274580.P9586866468781735131
+
+`A055017(A345110(n+1))`
+-/
+
+namespace A274580.P9586866468781735131
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055017 (A345110 (n + 1)).toNat
+
+end
+
+end A274580.P9586866468781735131
+
 /-! ## A274580.P7508992838818992330
 
 `∑[Δ[A225693(n)]^A062157(n)]`
@@ -6946,21 +6983,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A274580.P6368659760967625193
-
-/-! ## A274580.P1460626172750740833
-
-`A177895(n+1)-A093882(n+1)`
--/
-
-namespace A274580.P1460626172750740833
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A177895 (n + 1) - A093882 (n + 1)
-
-end
-
-end A274580.P1460626172750740833
 
 /-!
 # A274581: Number T(n,k) of set partitions of [n] with alternating parity of elements and exactly k blocks; triangle T(n,k), n>=0, 0<=k<=n, read by rows.

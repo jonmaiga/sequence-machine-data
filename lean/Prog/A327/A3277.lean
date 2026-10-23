@@ -3905,6 +3905,52 @@ def P13017091134368270881.Spec : Prop :=
 
 end A327730
 
+/-! ## A327730.P12430265724644952981
+
+`A147848(2*(n+1))-A034444(n+1)`
+-/
+
+namespace A327730.P12430265724644952981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147848 (2 * (n + 1)) - A034444 (n + 1)
+
+end
+
+end A327730.P12430265724644952981
+
+namespace A327730
+
+/-- `A147848(2*(n+1))-A034444(n+1)` -/
+def P12430265724644952981.Spec : Prop :=
+  ∀ n, P12430265724644952981.a n = A327730 (n + 1)
+
+end A327730
+
+/-! ## A327730.P12385376164893386839
+
+`A034444(2*(n+1))-A317528(n+1)`
+-/
+
+namespace A327730.P12385376164893386839
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034444 (2 * (n + 1)) - A317528 (n + 1)
+
+end
+
+end A327730.P12385376164893386839
+
+namespace A327730
+
+/-- `A034444(2*(n+1))-A317528(n+1)` -/
+def P12385376164893386839.Spec : Prop :=
+  ∀ n, P12385376164893386839.a n = A327730 (n + 1)
+
+end A327730
+
 /-!
 # A327731: Expansion of Product_{i>=1, j>=1} (1 + x^(i*(2*j - 1))).
 
@@ -5509,6 +5555,28 @@ end A327748
 
 The programs for A327749, there is no canonical definition to state claims against.
 -/
+
+/-! ## A327749.P17329124883627667575
+
+`∪[A046352(n+1), A069217(n+1)]`
+-/
+
+namespace A327749.P17329124883627667575
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046352 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069217 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327749.P17329124883627667575
 
 /-! ## A327749.P10800084480034782342
 
@@ -9284,6 +9352,72 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A327783.P12292048618772289539
+
+/-! ## A327783.P17133194112013314270
+
+`∩[A379844(n+1), A383017(n+1)]`
+-/
+
+namespace A327783.P17133194112013314270
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379844 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383017 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327783.P17133194112013314270
+
+/-! ## A327783.P11627648197606561938
+
+`∩[A294472(n+1), A326149(n+1)]`
+-/
+
+namespace A327783.P11627648197606561938
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294472 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326149 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327783.P11627648197606561938
+
+/-! ## A327783.P16241025120914033583
+
+`∩[A294472(n+1), A379844(n+1)]`
+-/
+
+namespace A327783.P16241025120914033583
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294472 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379844 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A327783.P16241025120914033583
 
 /-!
 # A327784: Heinz numbers of integer partitions whose LCM is greater than their sum.

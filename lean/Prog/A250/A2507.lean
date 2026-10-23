@@ -66,12 +66,12 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -82,7 +82,8 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -4595,6 +4596,75 @@ theorem P12736213861167451840.correct : P12736213861167451840.Spec := by
 
 end A250740
 
+/-! ## A250740.P64695950326271049
+
+`A250742(A374007(n+1))`
+-/
+
+namespace A250740.P64695950326271049
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250742 (A374007 (n + 1)).toNat
+
+end
+
+end A250740.P64695950326271049
+
+namespace A250740
+
+/-- `A250742(A374007(n+1))` -/
+def P64695950326271049.Spec : Prop :=
+  ∀ n, P64695950326271049.a n = A250740 (n + 1)
+
+end A250740
+
+/-! ## A250740.P3766837963682729116
+
+`A346807(A250739(n+1))`
+-/
+
+namespace A250740.P3766837963682729116
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346807 (A250739 (n + 1)).toNat
+
+end
+
+end A250740.P3766837963682729116
+
+namespace A250740
+
+/-- `A346807(A250739(n+1))` -/
+def P3766837963682729116.Spec : Prop :=
+  ∀ n, P3766837963682729116.a n = A250740 (n + 1)
+
+end A250740
+
+/-! ## A250740.P2395835269495185758
+
+`A185048(A250741(n+2))`
+-/
+
+namespace A250740.P2395835269495185758
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185048 (A250741 (n + 2)).toNat
+
+end
+
+end A250740.P2395835269495185758
+
+namespace A250740
+
+/-- `A185048(A250741(n+2))` -/
+def P2395835269495185758.Spec : Prop :=
+  ∀ n, P2395835269495185758.a n = A250740 (n + 1)
+
+end A250740
+
 /-!
 # A250741: Number of (n+1) X (7+1) 0..1 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nonincreasing x(i,j)-x(i-1,j) in the j direction.
 
@@ -7409,6 +7479,29 @@ def P10718076729116738771.Spec : Prop :=
 
 end A250764
 
+/-! ## A250764.P10728939584651223214
+
+`A250769(A034856(n+2))`
+-/
+
+namespace A250764.P10728939584651223214
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250769 (A034856 (n + 2)).toNat
+
+end
+
+end A250764.P10728939584651223214
+
+namespace A250764
+
+/-- `A250769(A034856(n+2))` -/
+def P10728939584651223214.Spec : Prop :=
+  ∀ n, P10728939584651223214.a n = A250764 (n + 1)
+
+end A250764
+
 /-!
 # A250765: Number of (n+1) X (4+1) 0..1 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
@@ -7433,6 +7526,29 @@ def P12194201720444158958.Spec : Prop :=
 theorem P12194201720444158958.correct : P12194201720444158958.Spec := by
   intro n
   simp only [A250765, Nat.add_sub_cancel]
+
+end A250765
+
+/-! ## A250765.P12301117563916304616
+
+`A250769(A141214(n+1))`
+-/
+
+namespace A250765.P12301117563916304616
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250769 (A141214 (n + 1)).toNat
+
+end
+
+end A250765.P12301117563916304616
+
+namespace A250765
+
+/-- `A250769(A141214(n+1))` -/
+def P12301117563916304616.Spec : Prop :=
+  ∀ n, P12301117563916304616.a n = A250765 (n + 1)
 
 end A250765
 
@@ -7911,6 +8027,29 @@ def P14598735092237578230.Spec : Prop :=
 theorem P14598735092237578230.correct : P14598735092237578230.Spec := by
   intro n
   simp only [A250771, Nat.add_sub_cancel]
+
+end A250771
+
+/-! ## A250771.P8515757723277975228
+
+`A250769(A167614(n+1))`
+-/
+
+namespace A250771.P8515757723277975228
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250769 (A167614 (n + 1)).toNat
+
+end
+
+end A250771.P8515757723277975228
+
+namespace A250771
+
+/-- `A250769(A167614(n+1))` -/
+def P8515757723277975228.Spec : Prop :=
+  ∀ n, P8515757723277975228.a n = A250771 (n + 1)
 
 end A250771
 

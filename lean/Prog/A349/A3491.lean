@@ -8752,35 +8752,49 @@ end A349158.P14556868202974505992
 The programs for A349159, there is no canonical definition to state claims against.
 -/
 
-/-! ## A349159.P1116595483295319202
+/-! ## A349159.P11157860351728530356
 
-`A349160(A325678(2*(n+1)²))`
+`∩[A026422(n+1), A349160(n+1)]`
 -/
 
-namespace A349159.P1116595483295319202
+namespace A349159.P11157860351728530356
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349160 (A325678 (2 * (n + 1) ^ 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026422 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349160 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A349159.P1116595483295319202
+end A349159.P11157860351728530356
 
-/-! ## A349159.P13392619064888117897
+/-! ## A349159.P5829288093038443284
 
-`A349160(A003152(n+1)^A060240(n))`
+`∩[A344609(n+1), A349160(n+1)]`
 -/
 
-namespace A349159.P13392619064888117897
+namespace A349159.P5829288093038443284
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349160 (SequenceMachineLib.roundAway ((A003152 (n + 1) : ℚ) ^ (A060240 n : ℤ))).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344609 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349160 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A349159.P13392619064888117897
+end A349159.P5829288093038443284
 
 /-!
 # A349160: Numbers whose sum of prime indices is twice their reverse-alternating sum.
@@ -12967,6 +12981,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349179.P17956231340995930227
+
+/-! ## A349179.P6967313187661390213
+
+`∩[A072121(n+1), A122079(n+1)]`
+-/
+
+namespace A349179.P6967313187661390213
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072121 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122079 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A349179.P6967313187661390213
 
 /-!
 # A349182: a(0) = 1; for n>0, a(n) is the smallest positive integer such that |n - a(n-1)| + a(n) is a square.

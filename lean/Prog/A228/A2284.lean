@@ -871,23 +871,23 @@ end
 
 end A228406.P9460343250349086335
 
-/-! ## A228406.P2376997592685332444
+/-! ## A228406.P11313964282395747684
 
-`∑[A125202(n+1)²]-(n+1)`
+`∑[A125202(n+1)²-1]`
 -/
 
-namespace A228406.P2376997592685332444
+namespace A228406.P11313964282395747684
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125202 (n + 1) ^ 2
+  A125202 (n + 1) ^ 2 - 1
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - (n + 1 : ℤ)
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A228406.P2376997592685332444
+end A228406.P11313964282395747684
 
 /-! ## A228406.P8641870482182013052
 
@@ -906,6 +906,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A228406.P8641870482182013052
+
+/-! ## A228406.P2011328779316382052
+
+`∑[A052762(2*(n+1))]`
+-/
+
+namespace A228406.P2011328779316382052
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052762 (2 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A228406.P2011328779316382052
 
 /-! ## A228406.P5281924892075898685
 
@@ -2685,7 +2703,7 @@ end A228436.P8275945533090226827
 /-!
 # A228437: Denominator of n/24.
 
-The programs for A228437, the canonical program `A228437.P12531262286154695613` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228437 has offset 0).
+The programs for A228437, the canonical program `A228437.P12531262286154695613` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228437 has offset 0).
 
 The definition of A228437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2694,7 +2712,7 @@ The definition of A228437 is `conjectured`: the Lean definition is a formula tha
 
 `24/gcd(24, n)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A228437
@@ -3612,7 +3630,7 @@ end A228444.P3879657498308360045
 /-!
 # A228445: Prime numbers with a binary representation in which each digit is repeated at most twice.
 
-The programs for A228445, the canonical program `A228445.P14846367572173528445` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228445 has offset 1).
+The programs for A228445, the canonical program `A228445.P14846367572173528445` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228445 has offset 1).
 
 The definition of A228445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 935 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3621,7 +3639,7 @@ The definition of A228445 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A063037(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A228445
@@ -9147,33 +9165,26 @@ def P9601992113371691252.Spec : Prop :=
 
 end A228495
 
-/-! ## A228495.P489125838866013993
+/-! ## A228495.P16782081550115493733
 
-`and(n, char[xor(n, Δ[n²])])`
+`and(n, A254379(2*n))`
 -/
 
-namespace A228495.P489125838866013993
+namespace A228495.P16782081550115493733
 noncomputable section
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (n : ℤ) ((f2 (n + 1) : ℤ) - (f2 n : ℤ))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land n (if ∃ j, f1 j = (n : ℤ) then 1 else 0)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (n : ℤ) (A254379 (2 * n))
 
 end
 
-end A228495.P489125838866013993
+end A228495.P16782081550115493733
 
 namespace A228495
 
-/-- `and(n, char[xor(n, Δ[n²])])` -/
-def P489125838866013993.Spec : Prop :=
-  ∀ n, (P489125838866013993.a n : ℤ) = A228495 n
+/-- `and(n, A254379(2*n))` -/
+def P16782081550115493733.Spec : Prop :=
+  ∀ n, P16782081550115493733.a n = A228495 n
 
 end A228495
 

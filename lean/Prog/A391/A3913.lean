@@ -19,7 +19,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C030
 import Seq.B000.C032
@@ -59,13 +58,13 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C001
 import Seq.B007.C002
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -317,24 +316,24 @@ end
 
 end A391309.P7224226985856191870
 
-/-! ## A391309.P1308745225223966054
+/-! ## A391309.P16955223938969841043
 
-`comp[A229118(n+1)]%A155629(n+2)`
+`comp[A229118(n+1)]`
 -/
 
-namespace A391309.P1308745225223966054
+namespace A391309.P16955223938969841043
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A229118 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A155629 (n + 2))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A391309.P1308745225223966054
+end A391309.P16955223938969841043
 
 /-!
 # A391311: a(n) = Sum_{k=0..n} HurwitzZeta(k-n, k) - HurwitzZeta(k-n, n).
@@ -3394,6 +3393,21 @@ end
 
 end A391332.P4967892440913463768
 
+/-! ## A391332.P68738791967530728
+
+`A343996(A116995(n+2))`
+-/
+
+namespace A391332.P68738791967530728
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343996 (A116995 (n + 2)).toNat
+
+end
+
+end A391332.P68738791967530728
+
 /-!
 # A391333: Odd semiprimes k = p*q, with p, q primes, such that either k = A325820(p,x) or k = A325820(q,x) for some x, where A325820 is the carryless base-3 multiplication.
 
@@ -3843,6 +3857,28 @@ end
 
 end A391335.P3324059118398027585
 
+/-! ## A391335.P9080069765445831931
+
+`∩[A374044(n+1), A391333(n+1)]`
+-/
+
+namespace A391335.P9080069765445831931
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A374044 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391333 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391335.P9080069765445831931
+
 /-! ## A391335.P17615305059914647284
 
 `∩[A389633(n+1), A391333(n+1)]`
@@ -3886,28 +3922,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A391335.P4989117143799801814
-
-/-! ## A391335.P5404283969564729391
-
-`∩[A090818(n+1), A391333(n+1)]`
--/
-
-namespace A391335.P5404283969564729391
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090818 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391333 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A391335.P5404283969564729391
 
 /-!
 # A391336: Odd semiprimes p*q such that Stern polynomial B(p*q,x) is reducible.
@@ -4673,6 +4687,28 @@ end A391339.P17579377574495917169
 The programs for A391340, there is no canonical definition to state claims against.
 -/
 
+/-! ## A391340.P202533720812634339
+
+`∩[2*n+1, A391338(n+1)]`
+-/
+
+namespace A391340.P202533720812634339
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391338 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391340.P202533720812634339
+
 /-! ## A391340.P12609018177228642718
 
 `∩[A391338(n+1), A004273(n)]`
@@ -5043,6 +5079,28 @@ end
 
 end A391344.P9969778484326608044
 
+/-! ## A391344.P2689298906582186913
+
+`∩[A108793(n+1), A325570(n+1)]`
+-/
+
+namespace A391344.P2689298906582186913
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108793 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325570 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A391344.P2689298906582186913
+
 /-! ## A391344.P17143901542899373593
 
 `∩[A108793(n+1), A325571(n+1)]`
@@ -5086,28 +5144,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A391344.P1526171737112552914
-
-/-! ## A391344.P12032959926744839026
-
-`∩[A175515(n+1), A325571(n+1)]`
--/
-
-namespace A391344.P12032959926744839026
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175515 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325571 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A391344.P12032959926744839026
 
 /-!
 # A391345: Numbers k that are multiples of 5 and for which Stern polynomial B(k,x) is irreducible.

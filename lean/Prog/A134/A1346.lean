@@ -11,7 +11,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
@@ -42,7 +41,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -311,20 +309,27 @@ end A134604.P4629324262694370183
 The programs for A134605, there is no canonical definition to state claims against.
 -/
 
-/-! ## A134605.P15637156379385979506
+/-! ## A134605.P10974816822852696610
 
-`A345171(A050047(2*n+3)+2)`
+`∪[A134606(n+1), A134607(n+1)]`
 -/
 
-namespace A134605.P15637156379385979506
+namespace A134605.P10974816822852696610
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345171 (A050047 (2 * n + 3) + 2).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134606 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134607 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A134605.P15637156379385979506
+end A134605.P10974816822852696610
 
 /-!
 # A134606: Numbers such that the square root of the sum of squares of their prime factors is a nonprime integer.
@@ -492,30 +497,70 @@ end
 
 end A134609.P1524445540097853349
 
-/-! ## A134609.P334837915014197373
+/-! ## A134609.P2619501731742382761
 
-`A134608(comp[A126168(n+1)-A216719(2*(n+2))])`
+`A134608(A028986(n+1))`
 -/
 
-namespace A134609.P334837915014197373
+namespace A134609.P2619501731742382761
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A126168 (n + 1) - A216719 (2 * (n + 2))
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134608 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+  A134608 (A028986 (n + 1)).toNat
 
 end
 
-end A134609.P334837915014197373
+end A134609.P2619501731742382761
 
 /-!
 # A134611: Nonprime numbers such that the root mean cube of their prime factors is an integer (where the root mean cube of c and d is ((c^3+d^3)/2)^(1/3)).
 
 The programs for A134611, there is no canonical definition to state claims against.
 -/
+
+/-! ## A134611.P13300461723320712738
+
+`∪[A025475(n+1), A134614(n+1)]`
+-/
+
+namespace A134611.P13300461723320712738
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025475 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134614 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A134611.P13300461723320712738
+
+/-! ## A134611.P119129075382843717
+
+`∪[A134612(n+1), A134613(n+1)]`
+-/
+
+namespace A134611.P119129075382843717
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134612 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A134613 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A134611.P119129075382843717
 
 /-! ## A134611.P6811510584052558683
 
@@ -6777,33 +6822,26 @@ def P11632586474367189410.Spec : Prop :=
 
 end A134683
 
-/-! ## A134683.P2829567645317246354
+/-! ## A134683.P8666393976849749559
 
-`∪[A002001(n), A081294(n)]`
+`A131577(n)+A158780(n+1)*A158780(n+1)`
 -/
 
-namespace A134683.P2829567645317246354
+namespace A134683.P8666393976849749559
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002001 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081294 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131577 n + A158780 (n + 1) * A158780 (n + 1)
 
 end
 
-end A134683.P2829567645317246354
+end A134683.P8666393976849749559
 
 namespace A134683
 
-/-- `∪[A002001(n), A081294(n)]` -/
-def P2829567645317246354.Spec : Prop :=
-  ∀ n, (P2829567645317246354.a n : ℤ) = A134683 n
+/-- `A131577(n)+A158780(n+1)*A158780(n+1)` -/
+def P8666393976849749559.Spec : Prop :=
+  ∀ n, P8666393976849749559.a n = A134683 n
 
 end A134683
 

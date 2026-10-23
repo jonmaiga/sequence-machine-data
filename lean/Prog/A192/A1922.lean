@@ -54,7 +54,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1249,6 +1249,36 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A192218.P12898918116700128530
+
+/-! ## A192218.P9944209544407812422
+
+`A262988(A327822(n+1))+n+1`
+-/
+
+namespace A192218.P9944209544407812422
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A262988 (A327822 (n + 1)).toNat + (n + 1 : ℤ)
+
+end
+
+end A192218.P9944209544407812422
+
+/-! ## A192218.P12349291807776155849
+
+`A033810(A109413(n))`
+-/
+
+namespace A192218.P12349291807776155849
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033810 (A109413 n).toNat
+
+end
+
+end A192218.P12349291807776155849
 
 /-!
 # A192219: Numbers m such that set of divisors of m is equal to set of reversals of divisors of m but all divisors of m are not palindromic.
@@ -7642,6 +7672,29 @@ theorem P15229704503069968207.correct : P15229704503069968207.Spec := by
 
 end A192280
 
+/-! ## A192280.P13648820423468262370
+
+`C(A053590(n+1), n+1)`
+-/
+
+namespace A192280.P13648820423468262370
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A053590 (n + 1)).toNat (n + 1)
+
+end
+
+end A192280.P13648820423468262370
+
+namespace A192280
+
+/-- `C(A053590(n+1), n+1)` -/
+def P13648820423468262370.Spec : Prop :=
+  ∀ n, (P13648820423468262370.a n : ℤ) = A192280 (n + 1)
+
+end A192280
+
 /-! ## A192280.P13269069750076067224
 
 `A080339(A319626(n+1))`
@@ -8053,33 +8106,6 @@ namespace A192280
 /-- `C(A006530(n+1), A319626(n+1))` -/
 def P4994772820471475074.Spec : Prop :=
   ∀ n, (P4994772820471475074.a n : ℤ) = A192280 (n + 1)
-
-end A192280
-
-/-! ## A192280.P8250718218362809246
-
-`char[A053590(n+1)-1]`
--/
-
-namespace A192280.P8250718218362809246
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053590 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A192280.P8250718218362809246
-
-namespace A192280
-
-/-- `char[A053590(n+1)-1]` -/
-def P8250718218362809246.Spec : Prop :=
-  ∀ n, (P8250718218362809246.a n : ℤ) = A192280 (n + 1)
 
 end A192280
 

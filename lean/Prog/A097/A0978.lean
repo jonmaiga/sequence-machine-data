@@ -26,6 +26,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -34,7 +35,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
@@ -43,6 +43,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2467,6 +2468,36 @@ namespace A097806
 /-- `A136158(n)%3` -/
 def P541698451606739303.Spec : Prop :=
   ∀ n, P541698451606739303.a n = A097806 n
+
+end A097806
+
+/-! ## A097806.P17514687935722636081
+
+`char[∑[A255563(n)]]`
+-/
+
+namespace A097806.P17514687935722636081
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A255563 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A097806.P17514687935722636081
+
+namespace A097806
+
+/-- `char[∑[A255563(n)]]` -/
+def P17514687935722636081.Spec : Prop :=
+  ∀ n, (P17514687935722636081.a n : ℤ) = A097806 n
 
 end A097806
 
@@ -14278,6 +14309,50 @@ end A097888.P15906037065510778201
 The programs for A097889, there is no canonical definition to state claims against.
 -/
 
+/-! ## A097889.P12730608730294482779
+
+`∪[A006094(n+1), A257891(n+1)]`
+-/
+
+namespace A097889.P12730608730294482779
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006094 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257891 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A097889.P12730608730294482779
+
+/-! ## A097889.P7585342645564567086
+
+`∩[A066312(n+1), A073485(n+1)]`
+-/
+
+namespace A097889.P7585342645564567086
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066312 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073485 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A097889.P7585342645564567086
+
 /-! ## A097889.P2267706475492945215
 
 `filter[A260442(n), A354353(#)]`
@@ -14421,50 +14496,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A097889.P4404658689531108303
-
-/-! ## A097889.P14043958786479952190
-
-`∩[A393644(n+1), A260442(n)]`
--/
-
-namespace A097889.P14043958786479952190
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393644 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A260442 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A097889.P14043958786479952190
-
-/-! ## A097889.P2140764977955464095
-
-`∩[A066311(n+1), A393644(n+1)]`
--/
-
-namespace A097889.P2140764977955464095
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066311 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393644 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A097889.P2140764977955464095
 
 /-!
 # A097892: Triangle read by rows: T(n,k) is the number of Motzkin paths of length n and having k peaks at even height.

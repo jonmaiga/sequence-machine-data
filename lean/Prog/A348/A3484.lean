@@ -3587,6 +3587,42 @@ end
 
 end A348429.P17120564116996022907
 
+/-! ## A348429.P7666568928295215064
+
+`filter[A075786(n+1), A105586(#)]`
+-/
+
+namespace A348429.P7666568928295215064
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075786 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A105586 (f1 j).toNat = 1) n)
+
+end
+
+end A348429.P7666568928295215064
+
+/-! ## A348429.P8046255372769552327
+
+`filter[A075786(n+1), A135947(#)]`
+-/
+
+namespace A348429.P8046255372769552327
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075786 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A135947 (f1 j).toNat = 1) n)
+
+end
+
+end A348429.P8046255372769552327
+
 /-!
 # A348431: a(n) = (n')^(n'), where ' is the arithmetic derivative of n.
 
@@ -7794,6 +7830,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A348486.P688162564839937545
+
+/-!
+# A348487: Positive numbers whose square starts and ends with exactly one 1.
+
+The programs for A348487, there is no canonical definition to state claims against.
+-/
+
+/-! ## A348487.P11077603567455464695
+
+`eq[A086009(n), A110917(n+1)]`
+-/
+
+namespace A348487.P11077603567455464695
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086009 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110917 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A348487.P11077603567455464695
 
 /-!
 # A348488: Positive numbers whose square starts and ends with exactly one 4.

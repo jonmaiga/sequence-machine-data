@@ -57,6 +57,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
@@ -3520,6 +3521,28 @@ end A299929.P2504268620821596495
 The programs for A299930, there is no canonical definition to state claims against.
 -/
 
+/-! ## A299930.P18406996097169797938
+
+`∩[A162471(n+1), A247424(n+1)]`
+-/
+
+namespace A299930.P18406996097169797938
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162471 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A247424 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A299930.P18406996097169797938
+
 /-! ## A299930.P2985290194473579746
 
 `p?[A260166(3*n)-A204843(A227587(n))]`
@@ -4946,6 +4969,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299956.P11262840407666186570
+
+/-! ## A299956.P14127337347712420206
+
+`∩[A078668(n+1), A092875(n+1)]`
+-/
+
+namespace A299956.P14127337347712420206
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078668 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092875 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A299956.P14127337347712420206
 
 /-!
 # A299959: Least prime factor of (4^(2n+1)+1)/5, a(0) = 1.

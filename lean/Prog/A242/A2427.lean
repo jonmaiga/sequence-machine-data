@@ -18,8 +18,10 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
@@ -6730,6 +6732,29 @@ def P5567402628950635706.Spec : Prop :=
 
 end A242771
 
+/-! ## A242771.P7104546262623190189
+
+`A161680(n)-A211540(n)`
+-/
+
+namespace A242771.P7104546262623190189
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161680 n - A211540 n
+
+end
+
+end A242771.P7104546262623190189
+
+namespace A242771
+
+/-- `A161680(n)-A211540(n)` -/
+def P7104546262623190189.Spec : Prop :=
+  ∀ n, P7104546262623190189.a n = A242771 (n + 1)
+
+end A242771
+
 /-!
 # A242772: The lesser of twin primes p1 such that 2*p1 + p2 is a prime number (A174913) and also the lesser of other twin primes in A174913.
 
@@ -7105,6 +7130,334 @@ def P18037728168181132418.Spec : Prop :=
 
 end A242774
 
+/-! ## A242774.P15237835484062090216
+
+`∑[1-A115360(n+1)]`
+-/
+
+namespace A242774.P15237835484062090216
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 - A115360 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A242774.P15237835484062090216
+
+namespace A242774
+
+/-- `∑[1-A115360(n+1)]` -/
+def P15237835484062090216.Spec : Prop :=
+  ∀ n, P15237835484062090216.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P1243233058611203832
+
+`∑[A115357(n+4)]`
+-/
+
+namespace A242774.P1243233058611203832
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115357 (n + 4)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A242774.P1243233058611203832
+
+namespace A242774
+
+/-- `∑[A115357(n+4)]` -/
+def P1243233058611203832.Spec : Prop :=
+  ∀ n, P1243233058611203832.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P9876656874531674561
+
+`A008619(A047202(n+1))`
+-/
+
+namespace A242774.P9876656874531674561
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (A047202 (n + 1)).toNat
+
+end
+
+end A242774.P9876656874531674561
+
+namespace A242774
+
+/-- `A008619(A047202(n+1))` -/
+def P9876656874531674561.Spec : Prop :=
+  ∀ n, P9876656874531674561.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P54326086481758012
+
+`A080513(A047223(n+1))`
+-/
+
+namespace A242774.P54326086481758012
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080513 (A047223 (n + 1)).toNat
+
+end
+
+end A242774.P54326086481758012
+
+namespace A242774
+
+/-- `A080513(A047223(n+1))` -/
+def P54326086481758012.Spec : Prop :=
+  ∀ n, P54326086481758012.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P8003404986546754252
+
+`A080513(A063199(n+1))`
+-/
+
+namespace A242774.P8003404986546754252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080513 (A063199 (n + 1)).toNat
+
+end
+
+end A242774.P8003404986546754252
+
+namespace A242774
+
+/-- `A080513(A063199(n+1))` -/
+def P8003404986546754252.Spec : Prop :=
+  ∀ n, P8003404986546754252.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P5489080002142712407
+
+`A008619(A187332(n+1))`
+-/
+
+namespace A242774.P5489080002142712407
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (A187332 (n + 1)).toNat
+
+end
+
+end A242774.P5489080002142712407
+
+namespace A242774
+
+/-- `A008619(A187332(n+1))` -/
+def P5489080002142712407.Spec : Prop :=
+  ∀ n, P5489080002142712407.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P18294711587270872642
+
+`A008620(A047204(n+1))`
+-/
+
+namespace A242774.P18294711587270872642
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008620 (A047204 (n + 1)).toNat
+
+end
+
+end A242774.P18294711587270872642
+
+namespace A242774
+
+/-- `A008620(A047204(n+1))` -/
+def P18294711587270872642.Spec : Prop :=
+  ∀ n, P18294711587270872642.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P388979987671238916
+
+`A086161(A047221(n+1))`
+-/
+
+namespace A242774.P388979987671238916
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A086161 (A047221 (n + 1)).toNat
+
+end
+
+end A242774.P388979987671238916
+
+namespace A242774
+
+/-- `A086161(A047221(n+1))` -/
+def P388979987671238916.Spec : Prop :=
+  ∀ n, P388979987671238916.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P4171132823492634006
+
+`A110659(A063227(n+1))`
+-/
+
+namespace A242774.P4171132823492634006
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110659 (A063227 (n + 1)).toNat
+
+end
+
+end A242774.P4171132823492634006
+
+namespace A242774
+
+/-- `A110659(A063227(n+1))` -/
+def P4171132823492634006.Spec : Prop :=
+  ∀ n, P4171132823492634006.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P3785833359107961367
+
+`A026806(A016873(n))`
+-/
+
+namespace A242774.P3785833359107961367
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026806 (A016873 n).toNat
+
+end
+
+end A242774.P3785833359107961367
+
+namespace A242774
+
+/-- `A026806(A016873(n))` -/
+def P3785833359107961367.Spec : Prop :=
+  ∀ n, P3785833359107961367.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P3821703343949460187
+
+`A026806(A016945(n)-(n+1))`
+-/
+
+namespace A242774.P3821703343949460187
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026806 (A016945 n - (n + 1 : ℤ)).toNat
+
+end
+
+end A242774.P3821703343949460187
+
+namespace A242774
+
+/-- `A026806(A016945(n)-(n+1))` -/
+def P3821703343949460187.Spec : Prop :=
+  ∀ n, P3821703343949460187.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P14974064278264574462
+
+`A008615(A016885(n+1))`
+-/
+
+namespace A242774.P14974064278264574462
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008615 (A016885 (n + 1)).toNat
+
+end
+
+end A242774.P14974064278264574462
+
+namespace A242774
+
+/-- `A008615(A016885(n+1))` -/
+def P14974064278264574462.Spec : Prop :=
+  ∀ n, P14974064278264574462.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P13951244005238651785
+
+`A011960(A016861(n+1))`
+-/
+
+namespace A242774.P13951244005238651785
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011960 (A016861 (n + 1)).toNat
+
+end
+
+end A242774.P13951244005238651785
+
+namespace A242774
+
+/-- `A011960(A016861(n+1))` -/
+def P13951244005238651785.Spec : Prop :=
+  ∀ n, P13951244005238651785.a n = A242774 (n + 1)
+
+end A242774
+
+/-! ## A242774.P5318946489197925386
+
+`A008615(A016933(n+1)-n)`
+-/
+
+namespace A242774.P5318946489197925386
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008615 (A016933 (n + 1) - (n : ℤ)).toNat
+
+end
+
+end A242774.P5318946489197925386
+
+namespace A242774
+
+/-- `A008615(A016933(n+1)-n)` -/
+def P5318946489197925386.Spec : Prop :=
+  ∀ n, P5318946489197925386.a n = A242774 (n + 1)
+
+end A242774
+
 /-!
 # A242776: Primes p such that 2^p + p^2 is not squarefree.
 
@@ -7164,6 +7517,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242776.P11395062606190658751
+
+/-! ## A242776.P10962285696742186544
+
+`∩[A138889(n+1), A350668(n)]`
+-/
+
+namespace A242776.P10962285696742186544
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138889 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350668 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242776.P10962285696742186544
+
+/-! ## A242776.P3894523908332838011
+
+`∩[A173135(n+1), A350668(n)]`
+-/
+
+namespace A242776.P3894523908332838011
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A173135 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350668 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A242776.P3894523908332838011
 
 /-!
 # A242777: Primes p such that neither 2^p - 2 nor 2^p + 2 is squarefree.

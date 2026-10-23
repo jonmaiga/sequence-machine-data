@@ -2875,6 +2875,21 @@ end
 
 end A145343.P2349263252329126490
 
+/-! ## A145343.P1191263254431414442
+
+`A056813(A130279(n+2))`
+-/
+
+namespace A145343.P1191263254431414442
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A056813 (A130279 (n + 2)).toNat
+
+end
+
+end A145343.P1191263254431414442
+
 /-!
 # A145344: a(n) = smallest prime >= the smallest positive integer with exactly n divisors.
 

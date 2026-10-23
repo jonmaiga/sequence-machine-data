@@ -104,6 +104,28 @@ set_option linter.unreachableTactic false
 The programs for A335100, there is no canonical definition to state claims against.
 -/
 
+/-! ## A335100.P11342747579212804467
+
+`∪[A334606(n+1), A334825(n+1)]`
+-/
+
+namespace A335100.P11342747579212804467
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334606 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334825 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335100.P11342747579212804467
+
 /-! ## A335100.P11408433574292344637
 
 `A334606(n+1)-A051516(A014137(n))`
@@ -163,27 +185,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335100.P1885851172410682536
-
-/-! ## A335100.P12938866072973011844
-
-`A096468(lt[A001008(n+1), A063971(n+1)])`
--/
-
-namespace A335100.P12938866072973011844
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001008 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063971 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096468 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A335100.P12938866072973011844
 
 /-!
 # A335102: Irregular triangle read by rows: consider the regular n-gon defined in A007678. T(n,k) (n >= 1, k >= 4+2*t where t>=0) is the number of non-boundary vertices in the n-gon at which k polygons meet.
@@ -2617,6 +2618,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335126.P2771655803094725590
+
+/-! ## A335126.P7127861885611399677
+
+`∩[A325798(n+1), A364289(n+1)]`
+-/
+
+namespace A335126.P7127861885611399677
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325798 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364289 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335126.P7127861885611399677
 
 /-!
 # A335127: A multiset whose multiplicities are the prime indices of n is separable.
@@ -5083,27 +5106,42 @@ end
 
 end A335142.P1561915834021535850
 
-/-! ## A335142.P10270685866656121901
+/-! ## A335142.P9976886237987340643
 
-`∪[A348705(A083207(n+1)), A335143(n+1)]`
+`A348705(A318262(n+1))`
 -/
 
-namespace A335142.P10270685866656121901
+namespace A335142.P9976886237987340643
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348705 (A083207 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335143 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348705 (A318262 (n + 1)).toNat
 
 end
 
-end A335142.P10270685866656121901
+end A335142.P9976886237987340643
+
+/-! ## A335142.P411038368555582892
+
+`∩[A091192(n+1), A138945(n+1)]`
+-/
+
+namespace A335142.P411038368555582892
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091192 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138945 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335142.P411038368555582892
 
 /-!
 # A335143: Nonunitary Zumkeller numbers (A335142) whose set of nonunitary divisors can be partitioned into two disjoint sets of equal sum in a single way.
@@ -5237,6 +5275,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335146.P9214775246527688532
+
+/-! ## A335146.P17027213168324970691
+
+`∩[A322554(n+1), A333945(n+1)]`
+-/
+
+namespace A335146.P17027213168324970691
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322554 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333945 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335146.P17027213168324970691
+
+/-! ## A335146.P16441226506136467672
+
+`∩[A322554(n+1), A334665(n+1)]`
+-/
+
+namespace A335146.P16441226506136467672
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322554 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334665 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335146.P16441226506136467672
 
 /-!
 # A335147: Perimeters of Heronian triangles whose middle side length divides their perimeter.
@@ -5418,6 +5500,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335148.P4157973675530688143
+
+/-! ## A335148.P11620062890747306722
+
+`A335149(A043315(n+2))`
+-/
+
+namespace A335148.P11620062890747306722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335149 (A043315 (n + 2)).toNat
+
+end
+
+end A335148.P11620062890747306722
 
 /-!
 # A335149: Perimeters of Heronian triangles whose smallest side length is coprime to their middle side and whose smallest side length divides their perimeter.
@@ -5602,6 +5699,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A335151.P3701452422970860403
+
+/-! ## A335151.P2391553048894453363
+
+`n*A327482(A325347(n+2))`
+-/
+
+namespace A335151.P2391553048894453363
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) * A327482 (A325347 (n + 2)).toNat
+
+end
+
+end A335151.P2391553048894453363
 
 /-!
 # A335152: Number of vertices in polytope representing the number n.
@@ -8998,6 +9110,43 @@ end
 
 end A335197.P1056677243834910101
 
+/-! ## A335197.P12854567258422886285
+
+`∩[A333638(n+1), A335215(n+1)]`
+-/
+
+namespace A335197.P12854567258422886285
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333638 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335215 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335197.P12854567258422886285
+
+/-! ## A335197.P2759472151606409050
+
+`A364053(A043315(n+1))`
+-/
+
+namespace A335197.P2759472151606409050
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364053 (A043315 (n + 1)).toNat
+
+end
+
+end A335197.P2759472151606409050
+
 /-!
 # A335198: Infinitary Zumkeller numbers (A335197) whose number of divisors is not a power of 2.
 
@@ -9198,4 +9347,26 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335199.P15028317281852828677
+
+/-! ## A335199.P3362682839755325589
+
+`∩[A023784(n+1), A335217(n+1)]`
+-/
+
+namespace A335199.P3362682839755325589
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023784 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335217 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335199.P3362682839755325589
 

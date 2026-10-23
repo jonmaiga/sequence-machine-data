@@ -59,7 +59,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B011.C001
@@ -4324,6 +4323,50 @@ end
 
 end A360551.P6810488869070237802
 
+/-! ## A360551.P13407646220917077039
+
+`∩[A007774(n+1), A390988(n+1)]`
+-/
+
+namespace A360551.P13407646220917077039
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007774 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390988 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360551.P13407646220917077039
+
+/-! ## A360551.P10481993554771074299
+
+`∩[A030231(n+1), A390988(n+1)]`
+-/
+
+namespace A360551.P10481993554771074299
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030231 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390988 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A360551.P10481993554771074299
+
 /-!
 # A360552: Numbers > 1 whose distinct prime factors have integer median.
 
@@ -6762,47 +6805,49 @@ end
 
 end A360574.P5988734672583676438
 
-/-! ## A360574.P8875879171857798426
+/-! ## A360574.P8835040713550594070
 
-`A204093(eq[A020639(n+1)^3, A080791(32*n)])/6`
+`∩[A062936(n+1), A379270(n+1)]`
 -/
 
-namespace A360574.P8875879171857798426
+namespace A360574.P8835040713550594070
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (n + 1) ^ 3
+  A062936 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080791 (32 * n)
+  A379270 (n + 1)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A204093 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n) : ℚ) / 6
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A360574.P8875879171857798426
+end A360574.P8835040713550594070
 
-/-! ## A360574.P14977743738069419255
+/-! ## A360574.P2252441012137129824
 
-`A204095(eq[A020639(n+1)^3, A080791(32*n)])/8`
+`∩[A099821(n+1), A379270(n+1)]`
 -/
 
-namespace A360574.P14977743738069419255
+namespace A360574.P2252441012137129824
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (n + 1) ^ 3
+  A099821 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080791 (32 * n)
+  A379270 (n + 1)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A204095 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n) : ℚ) / 8
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A360574.P14977743738069419255
+end A360574.P2252441012137129824
 
 /-!
 # A360579: Expansion of A(x) satisfying A(x) = Series_Reversion( x - x^3 * A'(x)/A(x) ).

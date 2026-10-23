@@ -17,6 +17,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
@@ -8371,6 +8372,58 @@ def P3134794698447644867.Spec : Prop :=
 
 end A286191
 
+/-! ## A286191.P12980685738233654244
+
+`∑[A165665(n)+2]`
+-/
+
+namespace A286191.P12980685738233654244
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A165665 n + 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A286191.P12980685738233654244
+
+namespace A286191
+
+/-- `∑[A165665(n)+2]` -/
+def P12980685738233654244.Spec : Prop :=
+  ∀ n, P12980685738233654244.a n = A286191 (n + 1)
+
+end A286191
+
+/-! ## A286191.P2142527120531137830
+
+`∑[A271740(2^n)]`
+-/
+
+namespace A286191.P2142527120531137830
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271740 (2 ^ n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A286191.P2142527120531137830
+
+namespace A286191
+
+/-- `∑[A271740(2^n)]` -/
+def P2142527120531137830.Spec : Prop :=
+  ∀ n, P2142527120531137830.a n = A286191 (n + 1)
+
+end A286191
+
 /-!
 # A286194: Number of (n,2)-polyominoes.
 
@@ -8398,12 +8451,12 @@ end A286194.P14207497846921756693
 The programs for A286195, there is no canonical definition to state claims against.
 -/
 
-/-! ## A286195.P12725988572346753762
+/-! ## A286195.P2294373755217612732
 
-`∪[A075369(n+1), A288639(n+1)]%A288639(n+1)`
+`∪[A075369(n+1), A288639(n+1)]`
 -/
 
-namespace A286195.P12725988572346753762
+namespace A286195.P2294373755217612732
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
@@ -8413,12 +8466,12 @@ def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A288639 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) (A288639 (n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A286195.P12725988572346753762
+end A286195.P2294373755217612732
 
 /-! ## A286195.P12286497395766970026
 

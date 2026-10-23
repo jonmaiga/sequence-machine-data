@@ -2192,6 +2192,52 @@ def P15611746345415752339.Spec : Prop :=
 
 end A362845
 
+/-! ## A362845.P8750772752553837961
+
+`A188512(A363729(n+1))`
+-/
+
+namespace A362845.P8750772752553837961
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188512 (A363729 (n + 1)).toNat
+
+end
+
+end A362845.P8750772752553837961
+
+namespace A362845
+
+/-- `A188512(A363729(n+1))` -/
+def P8750772752553837961.Spec : Prop :=
+  ∀ n, P8750772752553837961.a n = A362845 (n + 1)
+
+end A362845
+
+/-! ## A362845.P8940842884003284451
+
+`A331048(A330521(n+2))`
+-/
+
+namespace A362845.P8940842884003284451
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331048 (A330521 (n + 2)).toNat
+
+end
+
+end A362845.P8940842884003284451
+
+namespace A362845
+
+/-- `A331048(A330521(n+2))` -/
+def P8940842884003284451.Spec : Prop :=
+  ∀ n, P8940842884003284451.a n = A362845 (n + 1)
+
+end A362845
+
 /-!
 # A362846: a(n) = Sum_{k=0..n-1} Gamma(n + k) / Gamma(n - k) for n > 0, a(0) = 1. Row sums of A362787.
 
@@ -2578,6 +2624,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A362850.P4039874477836382929
+
+/-! ## A362850.P4042099873811175740
+
+`A123318(A091696(n+1))`
+-/
+
+namespace A362850.P4042099873811175740
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123318 (A091696 (n + 1)).toNat
+
+end
+
+end A362850.P4042099873811175740
 
 /-!
 # A362851: Records in A194943.

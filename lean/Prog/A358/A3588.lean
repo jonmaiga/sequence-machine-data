@@ -19,6 +19,7 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -3637,6 +3638,25 @@ end
 
 end A358844.P4365266010363455205
 
+/-! ## A358844.P7300841378558256706
+
+`comp[A358845(n+1)]`
+-/
+
+namespace A358844.P7300841378558256706
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358845 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A358844.P7300841378558256706
+
 /-! ## A358844.P2559655522110720094
 
 `filter[A323161(2*n+1), A358846(#)]`
@@ -5352,6 +5372,116 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A358867.P13044814372247768861
+
+/-! ## A358867.P6691933414944164498
+
+`∩[A000040(n+1), A090304(n+1)]`
+-/
+
+namespace A358867.P6691933414944164498
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090304 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358867.P6691933414944164498
+
+/-! ## A358867.P14824762273183957711
+
+`∩[A025584(n+1), A090304(n+1)]`
+-/
+
+namespace A358867.P14824762273183957711
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025584 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090304 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358867.P14824762273183957711
+
+/-! ## A358867.P9083439806484927661
+
+`∩[A040116(n+1), A090304(n+1)]`
+-/
+
+namespace A358867.P9083439806484927661
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A040116 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090304 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358867.P9083439806484927661
+
+/-! ## A358867.P16833490189450502584
+
+`∩[A045319(n+1), A090304(n+1)]`
+-/
+
+namespace A358867.P16833490189450502584
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045319 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090304 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358867.P16833490189450502584
+
+/-! ## A358867.P3651342534869153691
+
+`∩[A049585(n+1), A090304(n+1)]`
+-/
+
+namespace A358867.P3651342534869153691
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049585 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090304 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A358867.P3651342534869153691
 
 /-!
 # A358877: Triangle read by rows: T(n,k) is the number of cubes of side length k that can be placed inside a cube of side length n without overlap, 1 <= k <= n.

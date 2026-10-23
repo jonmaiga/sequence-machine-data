@@ -789,6 +789,28 @@ end A385111.P13046545638463168789
 The programs for A385112, there is no canonical definition to state claims against.
 -/
 
+/-! ## A385112.P16962681967067763451
+
+`∩[A364710(n+1), A368507(n+1)]`
+-/
+
+namespace A385112.P16962681967067763451
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364710 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A368507 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385112.P16962681967067763451
+
 /-! ## A385112.P9197096382706138290
 
 `filter[A368507(n+1), A294936(#)]`
@@ -7713,20 +7735,27 @@ end
 
 end A385189.P2992443210592303607
 
-/-! ## A385189.P14224581275381893039
+/-! ## A385189.P15514756084138853538
 
-`A002620(A194099(n+1))`
+`∩[A002378(n), A137895(n+1)]`
 -/
 
-namespace A385189.P14224581275381893039
+namespace A385189.P15514756084138853538
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002620 (A194099 (n + 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002378 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137895 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A385189.P14224581275381893039
+end A385189.P15514756084138853538
 
 /-!
 # A385190: Primes p == 3 (mod 4), p > 3 such that 1+-i are 24th powers modulo p.

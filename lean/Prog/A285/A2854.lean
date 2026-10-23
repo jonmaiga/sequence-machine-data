@@ -7455,6 +7455,60 @@ end
 
 end A285438.P1475648824895912496
 
+/-! ## A285438.P3001322931690528874
+
+`filter[A358521(n+2), A075802(#)]`
+-/
+
+namespace A285438.P3001322931690528874
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358521 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A075802 (f1 j).toNat = 1) n)
+
+end
+
+end A285438.P3001322931690528874
+
+/-! ## A285438.P8505005889026257825
+
+`filter[A371477(n+2), A075802(#)]`
+-/
+
+namespace A285438.P8505005889026257825
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371477 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A075802 (f1 j).toNat = 1) n)
+
+end
+
+end A285438.P8505005889026257825
+
+/-! ## A285438.P1519013428105678772
+
+`filter[A161792(n+3), A225183(#)]`
+-/
+
+namespace A285438.P1519013428105678772
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161792 (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A225183 (f1 j).toNat = 1) n)
+
+end
+
+end A285438.P1519013428105678772
+
 /-!
 # A285439: Sum T(n,k) of the entries in the k-th cycles of all permutations of [n]; triangle T(n,k), n>=1, 1<=k<=n, read by rows.
 
@@ -7949,30 +8003,26 @@ def P6259194261114976445.Spec : Prop :=
 
 end A285440
 
-/-! ## A285440.P8212576351541905871
+/-! ## A285440.P275740358981481273
 
-`comp[A047401(n+1)]+xor(1, n)`
+`A122461(n)+A047204(n+1)`
 -/
 
-namespace A285440.P8212576351541905871
+namespace A285440.P275740358981481273
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047401 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + Nat.xor 1 n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122461 n + A047204 (n + 1)
 
 end
 
-end A285440.P8212576351541905871
+end A285440.P275740358981481273
 
 namespace A285440
 
-/-- `comp[A047401(n+1)]+xor(1, n)` -/
-def P8212576351541905871.Spec : Prop :=
-  ∀ n, (P8212576351541905871.a n : ℤ) = A285440 (n + 1)
+/-- `A122461(n)+A047204(n+1)` -/
+def P275740358981481273.Spec : Prop :=
+  ∀ n, P275740358981481273.a n = A285440 (n + 1)
 
 end A285440
 

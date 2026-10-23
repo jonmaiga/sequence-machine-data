@@ -87,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -6177,6 +6176,28 @@ end
 
 end A136687.P14756072806866191662
 
+/-! ## A136687.P7594074071369036287
+
+`∑[char[A261916(n)]]`
+-/
+
+namespace A136687.P7594074071369036287
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261916 n
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A136687.P7594074071369036287
+
 /-! ## A136687.P16102420398644223408
 
 `∑[A010054((n-A004086(n))²)]`
@@ -6194,24 +6215,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A136687.P16102420398644223408
-
-/-! ## A136687.P8464550576743864130
-
-`∑[1-A377191(n)]`
--/
-
-namespace A136687.P8464550576743864130
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - A377191 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A136687.P8464550576743864130
 
 /-!
 # A136688: Triangle of polynomials F(x,n) = x*F(x,n-1) + 2*F(x,n-2).

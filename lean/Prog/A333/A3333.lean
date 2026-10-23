@@ -53,7 +53,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -7220,6 +7219,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A333379.P11582595753984365798
+
+/-! ## A333379.P13491133406203259879
+
+`eq[A160418(n+1), A182285(n+1)]`
+-/
+
+namespace A333379.P13491133406203259879
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160418 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182285 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A333379.P13491133406203259879
 
 /-!
 # A333380: Numbers k such that the k-th composition in standard order is weakly decreasing and covers an initial interval of positive integers.

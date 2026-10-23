@@ -2767,16 +2767,16 @@ end
 
 end A358666.P2736812454270965268
 
-/-! ## A358666.P10262878703725130817
+/-! ## A358666.P492964584473437094
 
-`∩[A189974(n+1), A350500(n+1)]`
+`∩[A074997(n+1), A350500(n+1)]`
 -/
 
-namespace A358666.P10262878703725130817
+namespace A358666.P492964584473437094
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189974 (n + 1)
+  A074997 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A350500 (n + 1)
@@ -2787,18 +2787,18 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A358666.P10262878703725130817
+end A358666.P492964584473437094
 
-/-! ## A358666.P7712953222683034299
+/-! ## A358666.P2034699964097491577
 
-`∩[A280469(n+1), A350500(n+1)]`
+`∩[A074998(n+1), A350500(n+1)]`
 -/
 
-namespace A358666.P7712953222683034299
+namespace A358666.P2034699964097491577
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280469 (n + 1)
+  A074998 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A350500 (n + 1)
@@ -2809,7 +2809,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A358666.P7712953222683034299
+end A358666.P2034699964097491577
 
 /-!
 # A358669: Pointwise product of the arithmetic derivative and the primorial base exp-function.

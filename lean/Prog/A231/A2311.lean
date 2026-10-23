@@ -49,7 +49,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -5327,6 +5326,28 @@ end
 
 end A231170.P16825571540179612443
 
+/-! ## A231170.P13459580963802290935
+
+`∩[A108574(n+1), A227870(n+1)]`
+-/
+
+namespace A231170.P13459580963802290935
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108574 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227870 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231170.P13459580963802290935
+
 /-!
 # A231172: G.f.: Sum_{n>=0} x^n * Product_{k=1..n} (k - x) / (1 - k*x).
 
@@ -5531,6 +5552,50 @@ end
 
 end A231175.P5725766819854469817
 
+/-! ## A231175.P14461070693818722639
+
+`∩[A026488(n+1), A231176(n+1)]`
+-/
+
+namespace A231175.P14461070693818722639
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026488 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231176 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231175.P14461070693818722639
+
+/-! ## A231175.P15480764389723720327
+
+`∩[A026496(n+1), A231176(n+1)]`
+-/
+
+namespace A231175.P15480764389723720327
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026496 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231176 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A231175.P15480764389723720327
+
 /-! ## A231175.P10891945658491548949
 
 `A231176(A332277(n)+A029965(n+1))`
@@ -5545,21 +5610,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A231175.P10891945658491548949
-
-/-! ## A231175.P10716263422384643217
-
-`A231176(A355547(n+1))`
--/
-
-namespace A231175.P10716263422384643217
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231176 (A355547 (n + 1)).toNat
-
-end
-
-end A231175.P10716263422384643217
 
 /-!
 # A231176: Let A={1,3,4,7,8,10,13,15,...} be the sequence of numbers k>=1 such that k+2 is evil (A001969), let B be the complement of A. The sequence lists numbers for which the number of A-divisors equals the number of B-divisors.

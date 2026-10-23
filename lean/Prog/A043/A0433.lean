@@ -3649,6 +3649,28 @@ end
 
 end A043326.P15570504444931160808
 
+/-! ## A043326.P10145904976212655056
+
+`∩[A005117(n+1), A062721(n+1)]`
+-/
+
+namespace A043326.P10145904976212655056
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005117 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062721 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A043326.P10145904976212655056
+
 /-! ## A043326.P10149522548212446693
 
 `p?[A340380(n+1)-2]+2`
@@ -3738,24 +3760,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043326.P15453540542610740765
-
-/-! ## A043326.P18354363941149332509
-
-`filter[A052147(n+1), A280710(#)]`
--/
-
-namespace A043326.P18354363941149332509
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052147 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A280710 (f1 j).toNat = 1) n)
-
-end
-
-end A043326.P18354363941149332509
 
 /-!
 # A043327: a(0)=1; a(1)=1; a(n)= a(n-1) + floor( sqrt(a(n-1)*a(n-2))+ sqrt(a(n-3)*a(n-4))+ ... ).
@@ -4741,6 +4745,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043343.P10191514239368781788
+
+/-! ## A043343.P11292593215500283292
+
+`comp[A066705(n+1)]`
+-/
+
+namespace A043343.P11292593215500283292
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066705 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A043343.P11292593215500283292
 
 /-!
 # A043344: Numbers having four 2's in base 4.

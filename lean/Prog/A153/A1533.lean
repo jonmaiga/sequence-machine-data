@@ -7806,7 +7806,7 @@ end A153339
 /-!
 # A153340: Number of zig-zag paths from top to bottom of a rectangle of width 8 with n rows.
 
-The programs for A153340, the canonical program `A153340.P9472442687798973603` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153340 has offset 1).
+The programs for A153340, the canonical program `A153340.P9472442687798973603` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153340 has offset 1).
 
 The definition of A153340 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 362 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7815,7 +7815,7 @@ The definition of A153340 is `conjectured`: the Lean definition is a formula tha
 
 `A090992(n+1)+A061551(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153340
@@ -10881,7 +10881,7 @@ end A153357.P14322202106309943208
 /-!
 # A153360: Number of zig-zag paths from top to bottom of a rectangle of width 10 with n rows.
 
-The programs for A153360, the canonical program `A153360.P9570591132759772216` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153360 has offset 1).
+The programs for A153360, the canonical program `A153360.P9570591132759772216` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153360 has offset 1).
 
 The definition of A153360 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 350 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10890,7 +10890,7 @@ The definition of A153360 is `conjectured`: the Lean definition is a formula tha
 
 `A336675(n)+A090994(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153360
@@ -12749,6 +12749,29 @@ namespace A153367
 /-- `A147748(n+1)+A081567(n)+A030191(n)` -/
 def P15141494237349367932.Spec : Prop :=
   ∀ n, P15141494237349367932.a n = A153367 (n + 1)
+
+end A153367
+
+/-! ## A153367.P418550792889472838
+
+`A020876(n+1)+A093129(n)-A260304(n)`
+-/
+
+namespace A153367.P418550792889472838
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020876 (n + 1) + (A093129 n - A260304 n)
+
+end
+
+end A153367.P418550792889472838
+
+namespace A153367
+
+/-- `A020876(n+1)+A093129(n)-A260304(n)` -/
+def P418550792889472838.Spec : Prop :=
+  ∀ n, P418550792889472838.a n = A153367 (n + 1)
 
 end A153367
 

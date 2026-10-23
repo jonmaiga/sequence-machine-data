@@ -2839,6 +2839,28 @@ end
 
 end A102130.P5770160923432004792
 
+/-! ## A102130.P2070833862822954402
+
+`∩[A285887(n+1), A360418(n+1)]`
+-/
+
+namespace A102130.P2070833862822954402
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285887 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360418 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A102130.P2070833862822954402
+
 /-! ## A102130.P1497095356544804721
 
 `∩[A114073(n+1), A285887(n+1)]`
@@ -2900,28 +2922,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A102130.P1640702518116748299
-
-/-! ## A102130.P15757380310658597321
-
-`∩[A285887(n+1), A000982(n)]`
--/
-
-namespace A102130.P15757380310658597321
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285887 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000982 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A102130.P15757380310658597321
 
 /-!
 # A102131: Iccanobirt prime indices (1 of 15): Indices of prime numbers in A102111.

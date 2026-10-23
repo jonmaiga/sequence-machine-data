@@ -39,6 +39,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
@@ -5372,7 +5373,7 @@ end A220767.P8601818861035604109
 /-!
 # A220768: Number of tilings of a 2 X n rectangle using integer-sided rectangular tiles of equal area.
 
-The programs for A220768, the canonical program `A220768.P15389986771423682204` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220768 has offset 0).
+The programs for A220768, the canonical program `A220768.P15389986771423682204` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220768 has offset 0).
 
 The definition of A220768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5381,7 +5382,7 @@ The definition of A220768 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[A004277(n), A000045(A158416(#))]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A220768

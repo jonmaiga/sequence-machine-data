@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -16,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -59,7 +61,6 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2860,20 +2861,27 @@ end A268036.P16010057092787604081
 The programs for A268037, there is no canonical definition to state claims against.
 -/
 
-/-! ## A268037.P9381780954954094222
+/-! ## A268037.P16982302837662377618
 
-`lcm(A052382(2*(n+2)), A332820(A299275(n)))`
+`∩[A219239(n+1), A239943(n+1)]`
 -/
 
-namespace A268037.P9381780954954094222
+namespace A268037.P16982302837662377618
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A219239 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239943 (n + 1)
+
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A052382 (2 * (n + 2))) (A332820 (A299275 n).toNat)
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A268037.P9381780954954094222
+end A268037.P16982302837662377618
 
 /-!
 # A268038: List of y-coordinates of point moving in clockwise square spiral.
@@ -4194,29 +4202,32 @@ def P9062366102939881514.Spec : Prop :=
 
 end A268044
 
-/-! ## A268044.P110045824609888551
+/-! ## A268044.P7347577276226352731
 
-`∑[ogf((3+6x+x^2)/(1-x^2))]`
+`∑[∑[ogf((3+6x+x^2)/(1+x))]]`
 -/
 
-namespace A268044.P110045824609888551
+namespace A268044.P7347577276226352731
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [3, 6, 1] [1, 1] n
+
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [3, 6, 1] [1, 0, -1] n
+  ∑ j ∈ Finset.range (n + 1), f2 j
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A268044.P110045824609888551
+end A268044.P7347577276226352731
 
 namespace A268044
 
-/-- `∑[ogf((3+6x+x^2)/(1-x^2))]` -/
-def P110045824609888551.Spec : Prop :=
-  ∀ n, P110045824609888551.a n = A268044 (n + 1)
+/-- `∑[∑[ogf((3+6x+x^2)/(1+x))]]` -/
+def P7347577276226352731.Spec : Prop :=
+  ∀ n, P7347577276226352731.a n = A268044 (n + 1)
 
 end A268044
 
@@ -4528,6 +4539,82 @@ namespace A268044
 /-- `lt[A020639(n+1)², 2*n%5]` -/
 def P17305702900508129921.Spec : Prop :=
   ∀ n, (P17305702900508129921.a n : ℤ) = A268044 (n + 1)
+
+end A268044
+
+/-! ## A268044.P4683205121669144217
+
+`xor(A000035(n), A016885(n))`
+-/
+
+namespace A268044.P4683205121669144217
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A000035 n) (A016885 n)
+
+end
+
+end A268044.P4683205121669144217
+
+namespace A268044
+
+/-- `xor(A000035(n), A016885(n))` -/
+def P4683205121669144217.Spec : Prop :=
+  ∀ n, P4683205121669144217.a n = A268044 (n + 1)
+
+end A268044
+
+/-! ## A268044.P14381123316306234259
+
+`∪[A017305(n), A017377(n)]`
+-/
+
+namespace A268044.P14381123316306234259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017305 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017377 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A268044.P14381123316306234259
+
+namespace A268044
+
+/-- `∪[A017305(n), A017377(n)]` -/
+def P14381123316306234259.Spec : Prop :=
+  ∀ n, (P14381123316306234259.a n : ℤ) = A268044 (n + 1)
+
+end A268044
+
+/-! ## A268044.P15960747324489423467
+
+`A017605(n)%A113804(n+1)`
+-/
+
+namespace A268044.P15960747324489423467
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A017605 n) (A113804 (n + 1))
+
+end
+
+end A268044.P15960747324489423467
+
+namespace A268044
+
+/-- `A017605(n)%A113804(n+1)` -/
+def P15960747324489423467.Spec : Prop :=
+  ∀ n, P15960747324489423467.a n = A268044 (n + 1)
 
 end A268044
 
@@ -7067,7 +7154,7 @@ end A268080.P4968903704077543731
 /-!
 # A268082: Numbers n such that gcd(binomial(2*n-1,n), n) is equal to 1.
 
-The programs for A268082, the canonical program `A268082.P7438264569753008377` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268082 has offset 1).
+The programs for A268082, the canonical program `A268082.P7438264569753008377` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268082 has offset 1).
 
 The definition of A268082 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7076,7 +7163,7 @@ The definition of A268082 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A000961(n+1), A268083(n+1)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A268082

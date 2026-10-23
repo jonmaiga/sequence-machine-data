@@ -134,6 +134,72 @@ end
 
 end A105900.P12212544110419739123
 
+/-! ## A105900.P13620694068321822118
+
+`∩[A003625(n+1), A168543(n+1)]`
+-/
+
+namespace A105900.P13620694068321822118
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003625 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168543 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A105900.P13620694068321822118
+
+/-! ## A105900.P16070934924939483401
+
+`∩[A003625(n+1), A357304(n+1)]`
+-/
+
+namespace A105900.P16070934924939483401
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003625 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357304 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A105900.P16070934924939483401
+
+/-! ## A105900.P14250701661457337007
+
+`∩[A003625(n+1), A322911(n+1)]`
+-/
+
+namespace A105900.P14250701661457337007
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003625 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322911 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A105900.P14250701661457337007
+
 /-!
 # A105902: Primes for which -30 is a primitive root.
 
@@ -869,6 +935,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A105909.P1635259533882452329
+
+/-! ## A105909.P15860155970911063324
+
+`p?[record[A358066(n+1)]]`
+-/
+
+namespace A105909.P15860155970911063324
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A358066 (n + 1)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A105909.P15860155970911063324
 
 /-!
 # A105910: Primes for which -38 is a primitive root.
@@ -8399,6 +8486,28 @@ end
 
 end A105976.P2378405974814101890
 
+/-! ## A105976.P739470738548076170
+
+`∩[A167843(n+1), A237346(n)]`
+-/
+
+namespace A105976.P739470738548076170
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167843 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A237346 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A105976.P739470738548076170
+
 /-! ## A105976.P4289117584254507997
 
 `∩[A397848(n+1), A237346(n)]`
@@ -8574,6 +8683,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A105978.P3625335014894144547
+
+/-! ## A105978.P2017344042342896970
+
+`∩[A069681(n+1), A397848(n+1)]`
+-/
+
+namespace A105978.P2017344042342896970
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069681 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A397848 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A105978.P2017344042342896970
 
 /-! ## A105978.P1599922337859379864
 
@@ -9620,6 +9751,29 @@ namespace A105997
 /-- `A091022(A186621(n+1)+1)` -/
 def P10022790231180307169.Spec : Prop :=
   ∀ n, P10022790231180307169.a n = A105997 (n + 1)
+
+end A105997
+
+/-! ## A105997.P3988220441450972282
+
+`A058933(A105998(n+1))`
+-/
+
+namespace A105997.P3988220441450972282
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A058933 (A105998 (n + 1)).toNat
+
+end
+
+end A105997.P3988220441450972282
+
+namespace A105997
+
+/-- `A058933(A105998(n+1))` -/
+def P3988220441450972282.Spec : Prop :=
+  ∀ n, P3988220441450972282.a n = A105997 (n + 1)
 
 end A105997
 

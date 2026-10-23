@@ -6564,6 +6564,28 @@ end
 
 end A079148.P7204572558078815122
 
+/-! ## A079148.P4192565329488323332
+
+`∪[A005385(n+1), A379989(n+1)]`
+-/
+
+namespace A079148.P4192565329488323332
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005385 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379989 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A079148.P4192565329488323332
+
 /-! ## A079148.P5890238794235231889
 
 `∩[A079149(n+1), A156658(n+1)]`
@@ -6952,21 +6974,6 @@ end
 
 end A079148.P4563072174549880292
 
-/-! ## A079148.P10926182769289927050
-
-`A033299(a(n-1))` with `a(0)=2, a(1)=3`
--/
-
-namespace A079148.P10926182769289927050
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2, 3] fun n a =>
-  A033299 (a (n - 1)).toNat
-
-end
-
-end A079148.P10926182769289927050
-
 /-!
 # A079149: Primes p such that either p-1 or p+1 has at most 2 prime factors, counted with multiplicity; i.e., primes p such that either bigomega(p-1) <= 2 or bigomega(p+1) <= 2, where bigomega(n) = A001222(n).
 
@@ -7082,6 +7089,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A079149.P15501534549730497680
+
+/-! ## A079149.P15953676377033422472
+
+`∪[A037174(n+1), A167609(n+1)]`
+-/
+
+namespace A079149.P15953676377033422472
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A037174 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167609 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A079149.P15953676377033422472
 
 /-! ## A079149.P12668118335038143821
 
@@ -7237,6 +7266,28 @@ end
 
 end A079149.P3452628370511481497
 
+/-! ## A079149.P6021261291307450763
+
+`∪[A082565(n+1), A167609(n+1)]`
+-/
+
+namespace A079149.P6021261291307450763
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082565 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A167609 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A079149.P6021261291307450763
+
 /-! ## A079149.P18170916217013681606
 
 `p?[A078772(n+1)+A004275(n)]`
@@ -7355,24 +7406,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A079149.P7167233099119946634
-
-/-! ## A079149.P1160573290214751740
-
-`record[A093074(A006530(or(1, n))+n)]`
--/
-
-namespace A079149.P1160573290214751740
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093074 (A006530 (Nat.lor 1 n) + (n : ℤ)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A079149.P1160573290214751740
 
 /-!
 # A079150: Primes p such that p+1 has at most 3 prime factors, counted with multiplicity; i.e., primes p such that bigomega(p+1) = A001222(p+1) <= 3.
@@ -8045,6 +8078,28 @@ end
 
 end A079151.P5333469474879788245
 
+/-! ## A079151.P5050870308332012442
+
+`∪[A063640(n+1), A119660(n+1)]`
+-/
+
+namespace A079151.P5050870308332012442
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063640 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119660 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A079151.P5050870308332012442
+
 /-!
 # A079152: Primes p such that either p-1 or p+1 has at most 3 prime factors, counted with multiplicity; i.e., primes p such that either bigomega(p-1) <= 3 or bigomega(p+1) <= 3, where bigomega(n) = A001222(n).
 
@@ -8256,6 +8311,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A079153.P4620698975226464418
+
+/-! ## A079153.P17689394944629535982
+
+`A123318(A081226(n))`
+-/
+
+namespace A079153.P17689394944629535982
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123318 (A081226 n).toNat
+
+end
+
+end A079153.P17689394944629535982
 
 /-!
 # A079155: The number of primes less than 10^n whose digital root (A038194) is also prime.

@@ -2834,6 +2834,28 @@ end
 
 end A171130.P5999849670303986946
 
+/-! ## A171130.P8083266089392468257
+
+`∩[A094786(n+1), A275278(n+1)]`
+-/
+
+namespace A171130.P8083266089392468257
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094786 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A275278 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A171130.P8083266089392468257
+
 /-! ## A171130.P15625308011107588049
 
 `∩[A113425(n+1), A275278(n+1)]`
@@ -2873,24 +2895,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A171130.P8429395845519804106
-
-/-! ## A171130.P6427745735024159962
-
-`p?[A325436(n+1)-2]`
--/
-
-namespace A171130.P6427745735024159962
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325436 (n + 1) - 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A171130.P6427745735024159962
 
 /-!
 # A171131: Primes p such that sum of divisors of p-3 is prime.
@@ -6794,22 +6798,19 @@ end A171158.P18272528460597307651
 The programs for A171159, there is no canonical definition to state claims against.
 -/
 
-/-! ## A171159.P3205122038523273332
+/-! ## A171159.P9096978835717950436
 
-`∩[A320142(n+1), record[A010048(n)]]`
+`∩[A001690(n+1), A144712(n+1)]`
 -/
 
-namespace A171159.P3205122038523273332
+namespace A171159.P9096978835717950436
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320142 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010048 n
+  A001690 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f3 (SequenceMachineLib.nth (fun j => ∀ l < j, f3 l < f3 j) n)
+  A144712 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6817,21 +6818,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A171159.P3205122038523273332
+end A171159.P9096978835717950436
 
-/-! ## A171159.P7584002920653785369
+/-! ## A171159.P3326929396299484343
 
-`∩[A144712(n+1), A320142(n+1)]`
+`∩[A144712(n+1), A333357(n+1)]`
 -/
 
-namespace A171159.P7584002920653785369
+namespace A171159.P3326929396299484343
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A144712 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320142 (n + 1)
+  A333357 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6839,7 +6840,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A171159.P7584002920653785369
+end A171159.P3326929396299484343
 
 /-!
 # A171160: a(n) = a(n-1) + 2*a(n-2) with a(0)=3, a(1)=4.

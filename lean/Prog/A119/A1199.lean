@@ -21,7 +21,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
@@ -66,6 +65,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3384,6 +3384,24 @@ end
 
 end A119936.P18181608037095886532
 
+/-! ## A119936.P16475281687346537313
+
+`(n+1)*lcm(a(n-1)/n, ∑[2*n+1])` with `a(0)=1`
+-/
+
+namespace A119936.P16475281687346537313
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  (n + 1) * Int.lcm (SequenceMachineLib.roundAway ((a (n - 1) : ℚ) / (n : ℚ))) ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+
+end
+
+end A119936.P16475281687346537313
+
 /-! ## A119936.P5880799596136021913
 
 `(n+1)*A051418(n+1)`
@@ -3434,24 +3452,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119936.P18350596697708798763
-
-/-! ## A119936.P8814152717756698829
-
-`(n+1)*Δ[A173185(n)]²`
--/
-
-namespace A119936.P8814152717756698829
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173185 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (f1 (n + 1) - f1 n) ^ 2
-
-end
-
-end A119936.P8814152717756698829
 
 /-!
 # A119938: Row sums of triangle A119937.

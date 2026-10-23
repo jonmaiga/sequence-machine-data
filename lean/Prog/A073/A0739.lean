@@ -4,6 +4,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -737,6 +738,57 @@ end
 end A073917.P11673025572771691136
 
 /-!
+# A073918: Smallest prime which is 1 more than a product of n distinct primes: a(n) is a prime and a(n) - 1 is a squarefree number with n prime factors.
+
+The programs for A073918, there is no canonical definition to state claims against.
+-/
+
+/-! ## A073918.P1106714020468865611
+
+`A241196(A084749(n+2))`
+-/
+
+namespace A073918.P1106714020468865611
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241196 (A084749 (n + 2)).toNat
+
+end
+
+end A073918.P1106714020468865611
+
+/-! ## A073918.P4379104592167980330
+
+`A241196(A024645(n+1))`
+-/
+
+namespace A073918.P4379104592167980330
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241196 (A024645 (n + 1)).toNat
+
+end
+
+end A073918.P4379104592167980330
+
+/-! ## A073918.P9945980576640117525
+
+`A241196(A024646(n+1))`
+-/
+
+namespace A073918.P9945980576640117525
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A241196 (A024646 (n + 1)).toNat
+
+end
+
+end A073918.P9945980576640117525
+
+/-!
 # A073919: Smallest prime p with bigomega(p-1)=n, where bigomega(m)=A001222(m) is the number of prime divisors of m (counted with multiplicity).
 
 The programs for A073919, there is no canonical definition to state claims against.
@@ -1382,6 +1434,28 @@ end
 
 end A073930.P3615461954890678986
 
+/-! ## A073930.P3716590515313307289
+
+`∩[A192272(n+1), A229862(n+1)]`
+-/
+
+namespace A073930.P3716590515313307289
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A192272 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229862 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073930.P3716590515313307289
+
 /-! ## A073930.P16641889748681263589
 
 `∩[A214842(n+1), A229861(n+1)]`
@@ -1447,28 +1521,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A073930.P16038859615045165304
-
-/-! ## A073930.P13209828475839939958
-
-`∩[A214842(n+1), A229860(n+1)]`
--/
-
-namespace A073930.P13209828475839939958
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214842 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229860 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073930.P13209828475839939958
 
 /-!
 # A073932: Define f(n) = n - largest nontrivial divisor of n or f(n) = n-1 if n is a prime [that is, f(n) = A060681(n)]. Form a triangle in which the n-th row contains terms n, f(n), f(f(n)), ... until a 1 is reached; sequence gives triangle read by rows.
@@ -2150,6 +2202,28 @@ end
 
 end A073935.P3092428077252660213
 
+/-! ## A073935.P10546748110131668768
+
+`∩[A060765(n+1), A361232(n+1)]`
+-/
+
+namespace A073935.P10546748110131668768
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060765 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A361232 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A073935.P10546748110131668768
+
 /-! ## A073935.P18128060671276415718
 
 `∩[A124240(n+1), A361232(n+1)]`
@@ -2172,16 +2246,16 @@ end
 
 end A073935.P18128060671276415718
 
-/-! ## A073935.P4491598177248842977
+/-! ## A073935.P11536711470871265359
 
-`∩[A331828(n+1), A361232(n+1)]`
+`∩[A140110(n+1), A361232(n+1)]`
 -/
 
-namespace A073935.P4491598177248842977
+namespace A073935.P11536711470871265359
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A331828 (n + 1)
+  A140110 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A361232 (n + 1)
@@ -2192,29 +2266,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A073935.P4491598177248842977
-
-/-! ## A073935.P6699721712188698659
-
-`∩[A359420(n+1), A361232(n+1)]`
--/
-
-namespace A073935.P6699721712188698659
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359420 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A361232 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A073935.P6699721712188698659
+end A073935.P11536711470871265359
 
 /-!
 # A073936: Numbers k such that 2^k + 1 is the product of two distinct primes.

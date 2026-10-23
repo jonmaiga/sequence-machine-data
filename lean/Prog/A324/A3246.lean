@@ -86,6 +86,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -560,6 +561,29 @@ namespace A324600
 /-- `A100542(A065090(n+2))` -/
 def P400633198774843386.Spec : Prop :=
   ∀ n, P400633198774843386.a n = A324600 (n + 1)
+
+end A324600
+
+/-! ## A324600.P3195736681639760172
+
+`A075303(A139270(n+1))`
+-/
+
+namespace A324600.P3195736681639760172
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A075303 (A139270 (n + 1)).toNat
+
+end
+
+end A324600.P3195736681639760172
+
+namespace A324600
+
+/-- `A075303(A139270(n+1))` -/
+def P3195736681639760172.Spec : Prop :=
+  ∀ n, P3195736681639760172.a n = A324600 (n + 1)
 
 end A324600
 
@@ -9719,6 +9743,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A324691.P8907702946224430509
+
+/-! ## A324691.P8171264682049604042
+
+`eq[A073423(n), A324687(n)]`
+-/
+
+namespace A324691.P8171264682049604042
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073423 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324687 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A324691.P8171264682049604042
 
 /-!
 # A324692: a(n) = partial sums of A324672.

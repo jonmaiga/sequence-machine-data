@@ -3727,6 +3727,28 @@ end
 
 end A260128.P5947458905463074133
 
+/-! ## A260128.P6233448744242871494
+
+`∩[A386149(n+1), A386152(n+1)]`
+-/
+
+namespace A260128.P6233448744242871494
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386149 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386152 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A260128.P6233448744242871494
+
 /-! ## A260128.P6546179570344066702
 
 `∩[A386046(n+1), A386151(n+1)]`
@@ -3946,28 +3968,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A260128.P14049369064493891700
-
-/-! ## A260128.P14913933218745298356
-
-`∩[A034470(n+1), A386090(n+1)]`
--/
-
-namespace A260128.P14913933218745298356
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034470 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386090 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A260128.P14913933218745298356
 
 /-!
 # A260130: Number of (n+2)X(n+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00010101 01010101 or 01010111.

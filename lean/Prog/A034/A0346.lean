@@ -55,7 +55,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -890,6 +889,36 @@ namespace A034659
 /-- `A297181(A016861(n))` -/
 def P9203384785696855558.Spec : Prop :=
   ∀ n, P9203384785696855558.a n = A034659 n
+
+end A034659
+
+/-! ## A034659.P6804661383374142869
+
+`∩[A073219(n+1), A297181(n+1)]`
+-/
+
+namespace A034659.P6804661383374142869
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A073219 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297181 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A034659.P6804661383374142869
+
+namespace A034659
+
+/-- `∩[A073219(n+1), A297181(n+1)]` -/
+def P6804661383374142869.Spec : Prop :=
+  ∀ n, (P6804661383374142869.a n : ℤ) = A034659 n
 
 end A034659
 
@@ -6480,23 +6509,27 @@ end
 
 end A034698.P5067462229948292705
 
-/-! ## A034698.P13011954949057235439
+/-! ## A034698.P2234081529032328012
 
-`record[A006530(A034791(n+2))]`
+`∩[A034791(n+1), A038618(n+1)]`
 -/
 
-namespace A034698.P13011954949057235439
+namespace A034698.P2234081529032328012
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A034791 (n + 2)).toNat
+  A034791 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A034698.P13011954949057235439
+end A034698.P2234081529032328012
 
 /-!
 # A034699: Largest prime power factor of n.

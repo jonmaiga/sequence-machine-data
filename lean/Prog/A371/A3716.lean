@@ -59,10 +59,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -2927,7 +2929,7 @@ end A371655.P17495795367894112880
 /-!
 # A371656: Numbers k such that k - 2 and k + 2 have the same number of prime factors, counted with multiplicity.
 
-The programs for A371656, the canonical program `A371656.P17774110375711877708` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371656 has offset 1).
+The programs for A371656, the canonical program `A371656.P17774110375711877708` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371656 has offset 1).
 
 The definition of A371656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2936,7 +2938,7 @@ The definition of A371656 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001222(n+1), A001222(n+5)]+3`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B011.C001`.
 -/
 
 namespace A371656
@@ -3248,6 +3250,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371663.P6026695885823642105
+
+/-! ## A371663.P14015758077060849977
+
+`∩[A035303(n+1), A048135(n+1)]`
+-/
+
+namespace A371663.P14015758077060849977
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035303 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048135 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A371663.P14015758077060849977
 
 /-!
 # A371669: G.f. satisfies A(x) = 1 + x * A(x)^3 * (1 + A(x))^2/2.

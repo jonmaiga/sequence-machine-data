@@ -4857,6 +4857,28 @@ end A364962.P14462056999183917510
 The programs for A364964, there is no canonical definition to state claims against.
 -/
 
+/-! ## A364964.P637598751538033609
+
+`∩[A092232(n+1), A141451(n+1)]`
+-/
+
+namespace A364964.P637598751538033609
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092232 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141451 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364964.P637598751538033609
+
 /-! ## A364964.P3034486802313110151
 
 `A138768(A016028(n+2))`
@@ -4871,6 +4893,46 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A364964.P3034486802313110151
+
+/-! ## A364964.P16599008882055991424
+
+`∩[A092232(n+1), A246780(n+1)]`
+-/
+
+namespace A364964.P16599008882055991424
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092232 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246780 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364964.P16599008882055991424
+
+/-! ## A364964.P9935689774816458397
+
+`filter[A115949(2*(n+1)), A065333(#)]`
+-/
+
+namespace A364964.P9935689774816458397
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A115949 (2 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A065333 (f1 j).toNat = 1) n)
+
+end
+
+end A364964.P9935689774816458397
 
 /-!
 # A364969: a(n) = a(a(n-1)) if n is even, a(n) is the number of times a(n-1) occurs in the sequence so far if n is odd, with a(1) = 1.
@@ -5326,6 +5388,78 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A364975.P7507334683739958402
+
+/-!
+# A364976: 3-abundant numbers k such that k/(sigma(k)-3*k) is an integer.
+
+The programs for A364976, there is no canonical definition to state claims against.
+-/
+
+/-! ## A364976.P17443117545924763441
+
+`∩[A205523(n+1), A329189(n+1)]`
+-/
+
+namespace A364976.P17443117545924763441
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A205523 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329189 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364976.P17443117545924763441
+
+/-! ## A364976.P12886504626501102617
+
+`∩[A068403(n+1), A205525(n+1)]`
+-/
+
+namespace A364976.P12886504626501102617
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068403 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A205525 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364976.P12886504626501102617
+
+/-! ## A364976.P16058925027898846413
+
+`∩[A205525(n+1), A329189(n+1)]`
+-/
+
+namespace A364976.P16058925027898846413
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A205525 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329189 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364976.P16058925027898846413
 
 /-!
 # A364977: Numbers k such that k/(3*k - sigma(k)) is a positive integer.
@@ -6293,6 +6427,28 @@ end A364997.P16307924645724663784
 The programs for A364998, there is no canonical definition to state claims against.
 -/
 
+/-! ## A364998.P2529735872790684914
+
+`∪[A369540(n+1), A380473(n+1)]`
+-/
+
+namespace A364998.P2529735872790684914
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369540 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A380473 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364998.P2529735872790684914
+
 /-! ## A364998.P18322012838995007741
 
 `filter[A363082(n+1), A105597(#)]`
@@ -6416,28 +6572,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A364998.P9645086457737824249
-
-/-! ## A364998.P5015855728694980960
-
-`∩[A144100(n+1), A363082(n+1)]`
--/
-
-namespace A364998.P5015855728694980960
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144100 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363082 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A364998.P5015855728694980960
 
 /-!
 # A364999: Numbers k neither squarefree nor prime power such that both rad(k)*A119288(k) > k and rad(k)*A053669(k) > k.

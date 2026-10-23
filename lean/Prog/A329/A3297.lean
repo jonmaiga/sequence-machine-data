@@ -1008,41 +1008,41 @@ end
 
 end A329719.P14398899882960390521
 
-/-! ## A329719.P17904412682533459703
+/-! ## A329719.P16093207859669934203
 
-`∩[A108203(n+1), A393832(n+1)]`
+`∩[A067031(n), A108203(n+1)]`
 -/
 
-namespace A329719.P17904412682533459703
+namespace A329719.P16093207859669934203
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A067031 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A108203 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393832 (n + 1)
-
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A329719.P17904412682533459703
+end A329719.P16093207859669934203
 
-/-! ## A329719.P9165709331638160698
+/-! ## A329719.P18106680220526175118
 
-`∩[A308104(n+1), A393832(n+1)]`
+`∩[A067031(n), A308104(n+1)]`
 -/
 
-namespace A329719.P9165709331638160698
+namespace A329719.P18106680220526175118
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A308104 (n + 1)
+  A067031 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A393832 (n + 1)
+  A308104 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1050,7 +1050,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A329719.P9165709331638160698
+end A329719.P18106680220526175118
+
+/-! ## A329719.P17293374769820691924
+
+`∩[A029742(n+1), A108203(n+1)]`
+-/
+
+namespace A329719.P17293374769820691924
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029742 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A108203 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329719.P17293374769820691924
 
 /-!
 # A329720: a(n) = Sum_{k=0..n} ((binomial(n-k,6k)*binomial(n,k)) mod 2).
@@ -2861,6 +2883,56 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329741.P17226212897395409895
+
+/-!
+# A329742: Indices n of Riemann zeta zeros for successive records of the normalized delta defined as d(n) = (z(n+1)-z(n))*(log(z(n)/(2Pi))/(2Pi)) where z(n) is the imaginary part of the n-th Riemann zero.
+
+The programs for A329742, there is no canonical definition to state claims against.
+-/
+
+/-! ## A329742.P6385782508441806281
+
+`∩[A048265(n+1), A329823(n+1)]`
+-/
+
+namespace A329742.P6385782508441806281
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048265 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329823 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329742.P6385782508441806281
+
+/-! ## A329742.P8609450746557924074
+
+`∩[A329823(n+1), A389483(n+1)]`
+-/
+
+namespace A329742.P8609450746557924074
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A329823 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A389483 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329742.P8609450746557924074
 
 /-!
 # A329744: Triangle read by rows where T(n,k) is the number of compositions of n > 0 with runs-resistance k, 0 <= k <= n - 1.
@@ -5183,6 +5255,36 @@ def P12734498142732874356.Spec : Prop :=
 
 end A329761
 
+/-! ## A329761.P15451924402997038473
+
+`∩[A091633(n+1), A386118(n+1)]`
+-/
+
+namespace A329761.P15451924402997038473
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091633 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386118 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A329761.P15451924402997038473
+
+namespace A329761
+
+/-- `∩[A091633(n+1), A386118(n+1)]` -/
+def P15451924402997038473.Spec : Prop :=
+  ∀ n, (P15451924402997038473.a n : ℤ) = A329761 (n + 1)
+
+end A329761
+
 /-! ## A329761.P12262539351013172884
 
 `∩[A066594(n+1), A091633(n+1)]`
@@ -5480,36 +5582,6 @@ namespace A329761
 /-- `∩[A030096(n+1), A386026(n+1)]` -/
 def P2063799595133316653.Spec : Prop :=
   ∀ n, (P2063799595133316653.a n : ℤ) = A329761 (n + 1)
-
-end A329761
-
-/-! ## A329761.P6123882218756277946
-
-`∩[A030096(n+1), A386090(n+1)]`
--/
-
-namespace A329761.P6123882218756277946
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030096 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386090 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A329761.P6123882218756277946
-
-namespace A329761
-
-/-- `∩[A030096(n+1), A386090(n+1)]` -/
-def P6123882218756277946.Spec : Prop :=
-  ∀ n, (P6123882218756277946.a n : ℤ) = A329761 (n + 1)
 
 end A329761
 
@@ -5918,6 +5990,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A329768.P8400075456937634460
+
+/-!
+# A329771: G.f. = (3*x^8 + x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 3*x^3 - 3*x^2 - 2*x - 1)/(x - 1).
+
+The programs for A329771, the canonical program `A329771.P2031301958402488737` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329771 has offset 0).
+
+The definition of A329771 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+-/
+
+/-! ## A329771.P2031301958402488737
+
+`ogf((1+2x+3x^2+3x^3+3x^4+3x^5+3x^6-x^7-3x^8)/(1-x))`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A329771
+
+/-- `ogf((1+2x+3x^2+3x^3+3x^4+3x^5+3x^6-x^7-3x^8)/(1-x))` -/
+def P2031301958402488737.Spec : Prop :=
+  ∀ n, P2031301958402488737.a n = A329771 n
+
+theorem P2031301958402488737.correct : P2031301958402488737.Spec := by
+  intro n
+  simp only [A329771]
+
+end A329771
 
 /-!
 # A329774: a(n) = n+1 for n <= 2; otherwise a(n) = 3*a(n-3)+1.

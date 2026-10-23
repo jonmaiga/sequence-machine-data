@@ -8695,6 +8695,46 @@ end
 
 end A126798.P17165234072676950295
 
+/-! ## A126798.P13929149629463258824
+
+`∩[A088723(n+1), A135412(n+1)]`
+-/
+
+namespace A126798.P13929149629463258824
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088723 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135412 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A126798.P13929149629463258824
+
+/-! ## A126798.P10563659813818087302
+
+`filter[A045506(n+1), A374197(#)]`
+-/
+
+namespace A126798.P10563659813818087302
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A045506 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A374197 (f1 j).toNat = 1) n)
+
+end
+
+end A126798.P10563659813818087302
+
 /-!
 # A126799: Triangle read by rows, 1 <= m <= n: t(n,m) = gcd(s(n,m), S(n,m)), where s(n,m) is an unsigned Stirling number of the first kind and S(n,m) is a Stirling number of the second kind.
 

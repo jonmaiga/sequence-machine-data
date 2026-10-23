@@ -36,6 +36,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
@@ -2925,6 +2926,75 @@ def P11657351234783197881.Spec : Prop :=
 
 end A270826
 
+/-! ## A270826.P9481158412896445555
+
+`A000523(A048297(n))`
+-/
+
+namespace A270826.P9481158412896445555
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000523 (A048297 n).toNat
+
+end
+
+end A270826.P9481158412896445555
+
+namespace A270826
+
+/-- `A000523(A048297(n))` -/
+def P9481158412896445555.Spec : Prop :=
+  ∀ n, P9481158412896445555.a n = A270826 (n + 1)
+
+end A270826
+
+/-! ## A270826.P5665811903423986547
+
+`A130249(A003714(n))`
+-/
+
+namespace A270826.P5665811903423986547
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130249 (A003714 n).toNat
+
+end
+
+end A270826.P5665811903423986547
+
+namespace A270826
+
+/-- `A130249(A003714(n))` -/
+def P5665811903423986547.Spec : Prop :=
+  ∀ n, P5665811903423986547.a n = A270826 (n + 1)
+
+end A270826
+
+/-! ## A270826.P17324204749998933169
+
+`A130233(A005206(n))`
+-/
+
+namespace A270826.P17324204749998933169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130233 (A005206 n).toNat
+
+end
+
+end A270826.P17324204749998933169
+
+namespace A270826
+
+/-- `A130233(A005206(n))` -/
+def P17324204749998933169.Spec : Prop :=
+  ∀ n, P17324204749998933169.a n = A270826 (n + 1)
+
+end A270826
+
 /-!
 # A270827: a(n) is the smallest k such that k^8 = 16 (mod 2*n-1).
 
@@ -3649,6 +3719,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270836.P9205551881058461827
+
+/-! ## A270836.P8990342576061363373
+
+`∩[A094509(n+1), A118844(n+1)]`
+-/
+
+namespace A270836.P8990342576061363373
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A094509 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118844 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A270836.P8990342576061363373
 
 /-!
 # A270837: Numbers k such that sigma(k-1) + phi(k-1) = (5*k-7)/2.

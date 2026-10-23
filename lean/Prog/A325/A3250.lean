@@ -52,13 +52,11 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -668,7 +666,7 @@ end A325002
 /-!
 # A325003: Triangle read by rows: T(n,k) is the number of achiral colorings of the facets (or vertices) of a regular n-dimensional simplex using exactly k colors.
 
-The programs for A325003, the canonical program `A325003.P6363565412475937123` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325003 has offset 1).
+The programs for A325003, the canonical program `A325003.P6363565412475937123` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325003 has offset 1).
 
 The definition of A325003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -677,7 +675,7 @@ The definition of A325003 is `conjectured`: the Lean definition is a formula tha
 
 `A198321(n+2)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A325003
@@ -1331,7 +1329,7 @@ end A325005.P14269095747271443145
 /-!
 # A325006: Array read by descending antidiagonals: A(n,k) is the number of chiral pairs of colorings of the facets of a regular n-dimensional orthotope using up to k colors.
 
-The programs for A325006, the canonical program `A325006.P11097347585470060049` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325006 has offset 1).
+The programs for A325006, the canonical program `A325006.P11097347585470060049` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325006 has offset 1).
 
 The definition of A325006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5518 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1340,7 +1338,7 @@ The definition of A325006 is `conjectured`: the Lean definition is a formula tha
 
 `C(C(A004736(n+1), 2), A002260(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A325006
@@ -2895,6 +2893,28 @@ end
 
 end A325022.P13832883374266689189
 
+/-! ## A325022.P6654722780838575323
+
+`∩[A095301(n+1), A140798(n+1)]`
+-/
+
+namespace A325022.P6654722780838575323
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095301 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A140798 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325022.P6654722780838575323
+
 /-! ## A325022.P13895575425454828483
 
 `A140798(n+1)+A024362(A007477(n))`
@@ -2939,21 +2959,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A325022.P16980456324118012084
-
-/-! ## A325022.P10021753325184374246
-
-`lcm(A072911(A178381(n)), A140798(n+1))`
--/
-
-namespace A325022.P10021753325184374246
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A072911 (A178381 n).toNat) (A140798 (n + 1))
-
-end
-
-end A325022.P10021753325184374246
 
 /-!
 # A325023: Multiperfect numbers m from A007691 such that m*(m-tau(m))/sigma(m) is an integer h, where k-tau(k) is the number of nondivisors of k (A049820) and sigma(k) is the sum of the divisors of k (A000203).
@@ -3026,23 +3031,49 @@ end
 
 end A325023.P2187916543282349519
 
-/-! ## A325023.P11565304620886311021
+/-! ## A325023.P2390113731801389284
 
-`A325025(record[A003056(A322530(n))])`
+`∩[A007691(n+1), A325020(n+1)]`
 -/
 
-namespace A325023.P11565304620886311021
+namespace A325023.P2390113731801389284
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A322530 n).toNat
+  A007691 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325025 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325020 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A325023.P11565304620886311021
+end A325023.P2390113731801389284
+
+/-! ## A325023.P8045841445208227259
+
+`∩[A027598(n+1), A325025(n+1)]`
+-/
+
+namespace A325023.P8045841445208227259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027598 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325025 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325023.P8045841445208227259
 
 /-!
 # A325025: Numbers that are multiperfect (A007691) and simultaneously harmonic (A001599).
@@ -3115,6 +3146,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A325025.P5468794260588890453
+
+/-! ## A325025.P12482743606956447264
+
+`∩[A001599(n+1), A282775(n+1)]`
+-/
+
+namespace A325025.P12482743606956447264
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001599 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A282775 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A325025.P12482743606956447264
 
 /-! ## A325025.P9118120231887106717
 
@@ -5425,27 +5478,27 @@ end
 
 end A325042.P15175569921373156032
 
-/-! ## A325042.P11772295978752867752
+/-! ## A325042.P18245823506319791161
 
-`2*∩[A326149(n+1), A326155(n+1)]`
+`∪[A100484(n+1), A325043(n+1)]`
 -/
 
-namespace A325042.P11772295978752867752
+namespace A325042.P18245823506319791161
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326149 (n + 1)
+  A100484 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326155 (n + 1)
+  A325043 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A325042.P11772295978752867752
+end A325042.P18245823506319791161
 
 /-!
 # A325043: Heinz numbers of integer partitions, with at least three parts, whose product of parts is one fewer than their sum.

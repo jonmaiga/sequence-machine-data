@@ -1127,24 +1127,24 @@ end A374519.P580035575023425985
 The programs for A374520, there is no canonical definition to state claims against.
 -/
 
-/-! ## A374520.P14551457694650841416
+/-! ## A374520.P4192411241461817190
 
-`comp[A374519(n+1)]%A375137(3*n+1)`
+`comp[A374519(n+1)]`
 -/
 
-namespace A374520.P14551457694650841416
+namespace A374520.P4192411241461817190
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A374519 (n + 1)
 
 open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A375137 (3 * n + 1))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A374520.P14551457694650841416
+end A374520.P4192411241461817190
 
 /-! ## A374520.P13777775897331338000
 
@@ -1502,6 +1502,28 @@ end A374526.P6465698167536584351
 
 The programs for A374527, there is no canonical definition to state claims against.
 -/
+
+/-! ## A374527.P17976969115861353054
+
+`∩[2*n+1, A375006(n+1)]`
+-/
+
+namespace A374527.P17976969115861353054
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A375006 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A374527.P17976969115861353054
 
 /-! ## A374527.P12605935874375856523
 

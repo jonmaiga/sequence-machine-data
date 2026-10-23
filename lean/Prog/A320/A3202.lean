@@ -44,6 +44,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
@@ -58,6 +59,7 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2963,20 +2965,27 @@ end
 
 end A320230.P17284524473043135293
 
-/-! ## A320230.P1032942225149847437
+/-! ## A320230.P17253435797976765056
 
-`A152607(n+1)%2*A324109(n+1)`
+`∪[A070776(n+1), A274384(n+1)]`
 -/
 
-namespace A320230.P1032942225149847437
+namespace A320230.P17253435797976765056
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A152607 (n + 1)) 2 * A324109 (n + 1)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070776 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A274384 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A320230.P1032942225149847437
+end A320230.P17253435797976765056
 
 /-!
 # A320233: Expansion of Product_{k=1..7} theta_3(q^k), where theta_3() is the Jacobi theta function.
@@ -4255,19 +4264,19 @@ end
 
 end A320256.P17539154982325879136
 
-/-! ## A320256.P1175359319414250488
+/-! ## A320256.P18403393611897537285
 
-`∩[A030291(n+1), A294601(n+1)]`
+`∩[A062353(n+1), A296922(n+1)]`
 -/
 
-namespace A320256.P1175359319414250488
+namespace A320256.P18403393611897537285
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030291 (n + 1)
+  A062353 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294601 (n + 1)
+  A296922 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4275,7 +4284,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A320256.P1175359319414250488
+end A320256.P18403393611897537285
 
 /-!
 # A320257: a(n) = [x^n] 1/(1 + Sum_{k>=1} k^n*x^k).
@@ -4560,49 +4569,49 @@ def P5387536741627136684.Spec : Prop :=
 
 end A320259
 
-/-! ## A320259.P5203944840201549826
+/-! ## A320259.P12238538796229790824
 
 `floor((n+1)*or(1, 2*n)/3)`
 -/
 
-namespace A320259.P5203944840201549826
+namespace A320259.P12238538796229790824
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((n + 1) * Nat.lor 1 (2 * n) : ℚ) / 3⌋
+  ⌊(n + 1 : ℚ) * ((Nat.lor 1 (2 * n) : ℚ) / 3)⌋
 
 end
 
-end A320259.P5203944840201549826
+end A320259.P12238538796229790824
 
 namespace A320259
 
 /-- `floor((n+1)*or(1, 2*n)/3)` -/
-def P5203944840201549826.Spec : Prop :=
-  ∀ n, P5203944840201549826.a n = A320259 n
+def P12238538796229790824.Spec : Prop :=
+  ∀ n, P12238538796229790824.a n = A320259 n
 
 end A320259
 
-/-! ## A320259.P565610415530869562
+/-! ## A320259.P11336586202431573915
 
 `floor((n+1)*xor(1, 2*n)/3)`
 -/
 
-namespace A320259.P565610415530869562
+namespace A320259.P11336586202431573915
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((n + 1) * Nat.xor 1 (2 * n) : ℚ) / 3⌋
+  ⌊(n + 1 : ℚ) * ((Nat.xor 1 (2 * n) : ℚ) / 3)⌋
 
 end
 
-end A320259.P565610415530869562
+end A320259.P11336586202431573915
 
 namespace A320259
 
 /-- `floor((n+1)*xor(1, 2*n)/3)` -/
-def P565610415530869562.Spec : Prop :=
-  ∀ n, P565610415530869562.a n = A320259 n
+def P11336586202431573915.Spec : Prop :=
+  ∀ n, P11336586202431573915.a n = A320259 n
 
 end A320259
 
@@ -5700,16 +5709,60 @@ end
 
 end A320269.P823781135217590957
 
-/-! ## A320269.P2693141128290458824
+/-! ## A320269.P17099071320776905736
 
-`∩[A324854(n+1), A331936(n+1)]`
+`∩[A285801(n+1), A291636(n+1)]`
 -/
 
-namespace A320269.P2693141128290458824
+namespace A320269.P17099071320776905736
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324854 (n + 1)
+  A285801 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291636 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320269.P17099071320776905736
+
+/-! ## A320269.P760759636443427029
+
+`∩[A291636(n+1), A324109(n+1)]`
+-/
+
+namespace A320269.P760759636443427029
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291636 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324109 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320269.P760759636443427029
+
+/-! ## A320269.P8666954537870980861
+
+`∩[A291636(n+1), A331936(n+1)]`
+-/
+
+namespace A320269.P8666954537870980861
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A291636 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A331936 (n + 1)
@@ -5720,40 +5773,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A320269.P2693141128290458824
-
-/-! ## A320269.P12459404039383241602
-
-`A291636(∑[A014963(A291636(2*(n+3)))])`
--/
-
-namespace A320269.P12459404039383241602
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014963 (A291636 (2 * (n + 3))).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291636 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A320269.P12459404039383241602
-
-/-! ## A320269.P16871219204491985631
-
-`A000188(A002148(n))*A291636(A325360(n+1))`
--/
-
-namespace A320269.P16871219204491985631
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (A002148 n).toNat * A291636 (A325360 (n + 1)).toNat
-
-end
-
-end A320269.P16871219204491985631
+end A320269.P8666954537870980861
 
 /-!
 # A320270: Number of unlabeled balanced semi-binary rooted trees with n nodes.
@@ -8010,6 +8030,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A320292.P5336239289763986407
+
+/-! ## A320292.P8805883403263338253
+
+`∩[A244607(n+1), A320121(n+1)]`
+-/
+
+namespace A320292.P8805883403263338253
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A244607 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A320121 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A320292.P8805883403263338253
 
 /-!
 # A320294: Number of series-reduced rooted trees whose leaves are non-singleton integer partitions whose multiset union is an integer partition of n with no 1's.

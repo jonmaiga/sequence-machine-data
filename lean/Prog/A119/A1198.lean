@@ -2702,6 +2702,21 @@ end
 
 end A119843.P17879012164033728183
 
+/-! ## A119843.P8661562548226746832
+
+`A119845(A304886(A002110(n))+n+1)`
+-/
+
+namespace A119843.P8661562548226746832
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A119845 (A304886 (A002110 n).toNat + (n + 1 : ℤ)).toNat
+
+end
+
+end A119843.P8661562548226746832
+
 /-!
 # A119844: Records in A119842.
 

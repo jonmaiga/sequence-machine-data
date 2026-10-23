@@ -28,6 +28,7 @@ import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -39,12 +40,10 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -54,6 +53,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -93,6 +93,28 @@ set_option linter.unreachableTactic false
 
 The programs for A318100, there is no canonical definition to state claims against.
 -/
+
+/-! ## A318100.P12180422616194217660
+
+`∪[A054979(n+1), A321206(n+1)]`
+-/
+
+namespace A318100.P12180422616194217660
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054979 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321206 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318100.P12180422616194217660
 
 /-! ## A318100.P7676750218807958658
 
@@ -507,28 +529,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A318100.P10082962155887448232
-
-/-! ## A318100.P12637520611008450754
-
-`∩[A312123(n), A335218(n+1)]`
--/
-
-namespace A318100.P12637520611008450754
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312123 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335218 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A318100.P12637520611008450754
 
 /-!
 # A318101: Number of rooted 2-connected 4-regular planar maps, which may have loops, with n inner faces.
@@ -2968,20 +2968,27 @@ end A318149.P10985087200235914695
 The programs for A318150, there is no canonical definition to state claims against.
 -/
 
-/-! ## A318150.P3765022560544865991
+/-! ## A318150.P6570433757486206441
 
-`gcd(A000005(A153302(n))², (n+6)!)`
+`∩[A099055(n), A318149(n+1)]`
 -/
 
-namespace A318150.P3765022560544865991
+namespace A318150.P6570433757486206441
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A099055 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318149 (n + 1)
+
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000005 (A153302 n).toNat ^ 2) (Nat.factorial (n + 6) : ℤ)
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A318150.P3765022560544865991
+end A318150.P6570433757486206441
 
 /-!
 # A318151: e-numbers of unlabeled rooted trees with empty leaves o[] allowed. A number n is in the sequence iff n = 2^(prime(y_1) * ... * prime(y_k)) for some k >= 0 and y_1, ..., y_k already in the sequence.
@@ -3133,19 +3140,19 @@ end
 
 end A318152.P5784558826075700231
 
-/-! ## A318152.P17106010650591714364
+/-! ## A318152.P14771074689739772146
 
-`∩[A318149(n+1), A057048(n)]`
+`∩[A029748(n), A318149(n+1)]`
 -/
 
-namespace A318152.P17106010650591714364
+namespace A318152.P14771074689739772146
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318149 (n + 1)
+  A029748 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057048 n
+  A318149 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3153,21 +3160,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A318152.P17106010650591714364
+end A318152.P14771074689739772146
 
-/-! ## A318152.P4231217797023346657
+/-! ## A318152.P2001007735643672592
 
-`∩[A318149(n+1), A063759(n)]`
+`∩[A029749(n), A318149(n+1)]`
 -/
 
-namespace A318152.P4231217797023346657
+namespace A318152.P2001007735643672592
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318149 (n + 1)
+  A029749 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063759 n
+  A318149 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -3175,7 +3182,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A318152.P4231217797023346657
+end A318152.P2001007735643672592
 
 /-!
 # A318153: Number of antichain covers of the free pure symmetric multifunction (with empty expressions allowed) with e-number n.
@@ -3841,6 +3848,29 @@ namespace A318159
 /-- `A006566(n+1)+12*A002411(n)` -/
 def P16862089304746140141.Spec : Prop :=
   ∀ n, P16862089304746140141.a n = A318159 (n + 1)
+
+end A318159
+
+/-! ## A318159.P18200977563753925254
+
+`(n+1)*A381109(n)`
+-/
+
+namespace A318159.P18200977563753925254
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A381109 n
+
+end
+
+end A318159.P18200977563753925254
+
+namespace A318159
+
+/-- `(n+1)*A381109(n)` -/
+def P18200977563753925254.Spec : Prop :=
+  ∀ n, P18200977563753925254.a n = A318159 (n + 1)
 
 end A318159
 
@@ -5511,6 +5541,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A318182.P6741857047215274720
+
+/-! ## A318182.P18401843259178510681
+
+`∩[A255724(n+1), A318175(n+1)]`
+-/
+
+namespace A318182.P18401843259178510681
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A255724 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A318175 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A318182.P18401843259178510681
 
 /-!
 # A318183: a(n) = [x^n] Sum_{k>=0} x^k/Product_{j=1..k} (1 + n*j*x).

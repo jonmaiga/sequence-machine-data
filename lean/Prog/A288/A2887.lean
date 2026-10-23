@@ -61,10 +61,10 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1912,63 +1912,49 @@ def P10195204254403939309.Spec : Prop :=
 
 end A288708
 
-/-! ## A288708.P17478126645371189619
+/-! ## A288708.P3651032674323192631
 
-`comp[Δ[A329130(A002251(n))]]`
+`A189663(A189663(A026355(n+1)))+n+1`
 -/
 
-namespace A288708.P17478126645371189619
+namespace A288708.P3651032674323192631
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329130 (A002251 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189663 (A189663 (A026355 (n + 1)).toNat).toNat + (n + 1 : ℤ)
 
 end
 
-end A288708.P17478126645371189619
+end A288708.P3651032674323192631
 
 namespace A288708
 
-/-- `comp[Δ[A329130(A002251(n))]]` -/
-def P17478126645371189619.Spec : Prop :=
-  ∀ n, (P17478126645371189619.a n : ℤ) = A288708 (n + 1)
+/-- `A189663(A189663(A026355(n+1)))+n+1` -/
+def P3651032674323192631.Spec : Prop :=
+  ∀ n, P3651032674323192631.a n = A288708 (n + 1)
 
 end A288708
 
-/-! ## A288708.P7778401220399838462
+/-! ## A288708.P2675702181637009371
 
-`comp[Δ[A329130(A022342(n+1))]]`
+`A189663(A189663(A099267(n+1)))+n+1`
 -/
 
-namespace A288708.P7778401220399838462
+namespace A288708.P2675702181637009371
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329130 (A022342 (n + 1)).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A189663 (A189663 (A099267 (n + 1)).toNat).toNat + (n + 1 : ℤ)
 
 end
 
-end A288708.P7778401220399838462
+end A288708.P2675702181637009371
 
 namespace A288708
 
-/-- `comp[Δ[A329130(A022342(n+1))]]` -/
-def P7778401220399838462.Spec : Prop :=
-  ∀ n, (P7778401220399838462.a n : ℤ) = A288708 (n + 1)
+/-- `A189663(A189663(A099267(n+1)))+n+1` -/
+def P2675702181637009371.Spec : Prop :=
+  ∀ n, P2675702181637009371.a n = A288708 (n + 1)
 
 end A288708
 
@@ -8513,20 +8499,20 @@ end A288757.P10438285058879941332
 The programs for A288758, there is no canonical definition to state claims against.
 -/
 
-/-! ## A288758.P11832229076667034925
+/-! ## A288758.P10130240196166807790
 
-`floor((3-log2(log2(n+3)))^(n+1))`
+`floor((4/sqrt(n+3))^(n+1))`
 -/
 
-namespace A288758.P11832229076667034925
+namespace A288758.P10130240196166807790
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(3 - Real.logb 2 (Real.logb 2 (n + 3 : ℝ))) ^ (n + 1)⌋
+  ⌊(4 / Real.sqrt (n + 3 : ℝ)) ^ (n + 1)⌋
 
 end
 
-end A288758.P11832229076667034925
+end A288758.P10130240196166807790
 
 /-!
 # A288759: Number of distinct rational numbers that can be obtained in n steps by applying addition, subtraction, multiplication and division to any two potentially identical numbers from the complete set of numbers created in n-1 steps, starting with the set {1}.

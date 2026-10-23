@@ -59,7 +59,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -481,6 +480,51 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A137904.P7985157055965775737
+
+/-! ## A137904.P12141762316108489981
+
+`A168142(n+1)+A060747(n)`
+-/
+
+namespace A137904.P12141762316108489981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168142 (n + 1) + A060747 n
+
+end
+
+end A137904.P12141762316108489981
+
+/-! ## A137904.P5878832781028423531
+
+`A137937(n)+A137575(n+1)`
+-/
+
+namespace A137904.P5878832781028423531
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A137937 n + A137575 (n + 1)
+
+end
+
+end A137904.P5878832781028423531
+
+/-! ## A137904.P6495147522049008677
+
+`A168142(n+1)-A165747(n)`
+-/
+
+namespace A137904.P6495147522049008677
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A168142 (n + 1) - A165747 n
+
+end
+
+end A137904.P6495147522049008677
 
 /-!
 # A137905: Numbers that appear as binomial coefficients exactly twice.
@@ -3649,26 +3693,26 @@ def P12997982575993895433.Spec : Prop :=
 
 end A137928
 
-/-! ## A137928.P1162637543645435683
+/-! ## A137928.P16098938957825742743
 
-`(n+1)%2+(n+1)²`
+`xor(1, or(1, (n+1)²+1))`
 -/
 
-namespace A137928.P1162637543645435683
+namespace A137928.P16098938957825742743
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) % 2 + (n + 1) ^ 2
+  Nat.xor 1 (Nat.lor 1 ((n + 1) ^ 2 + 1))
 
 end
 
-end A137928.P1162637543645435683
+end A137928.P16098938957825742743
 
 namespace A137928
 
-/-- `(n+1)%2+(n+1)²` -/
-def P1162637543645435683.Spec : Prop :=
-  ∀ n, (P1162637543645435683.a n : ℤ) = A137928 (n + 1)
+/-- `xor(1, or(1, (n+1)²+1))` -/
+def P16098938957825742743.Spec : Prop :=
+  ∀ n, (P16098938957825742743.a n : ℤ) = A137928 (n + 1)
 
 end A137928
 

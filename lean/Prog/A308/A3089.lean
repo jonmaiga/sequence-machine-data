@@ -1080,6 +1080,72 @@ end
 
 end A308913.P18365547242199656995
 
+/-! ## A308913.P16549163570003062541
+
+`∩[A004778(n+1), A128699(n+1)]`
+-/
+
+namespace A308913.P16549163570003062541
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004778 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128699 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308913.P16549163570003062541
+
+/-! ## A308913.P14860902391805012012
+
+`∩[A128699(n+1), A279930(n+1)]`
+-/
+
+namespace A308913.P14860902391805012012
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128699 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A279930 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308913.P14860902391805012012
+
+/-! ## A308913.P3819291241862730073
+
+`∩[A128699(n+1), A333655(n+1)]`
+-/
+
+namespace A308913.P3819291241862730073
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A128699 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333655 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308913.P3819291241862730073
+
 /-!
 # A308914: Number of unordered pairs of disjoint self-avoiding paths with nodes that cover all vertices of a convex n-gon; one node paths are not allowed.
 
@@ -1232,6 +1298,28 @@ end A308916.P13806914584523602113
 
 The programs for A308917, there is no canonical definition to state claims against.
 -/
+
+/-! ## A308917.P8998308272672138320
+
+`∩[A038616(n+1), A285550(n+1)]`
+-/
+
+namespace A308917.P8998308272672138320
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038616 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A285550 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308917.P8998308272672138320
 
 /-! ## A308917.P876243800042769854
 

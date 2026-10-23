@@ -17,7 +17,6 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
@@ -28,6 +27,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -3912,7 +3912,7 @@ end A291484.P11802823702757671717
 /-!
 # A291485: Numbers m such that sigma(x) = m*(m+1)/2 has at least one solution.
 
-The programs for A291485, the canonical program `A291485.P3190505718156892050` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291485 has offset 1).
+The programs for A291485, the canonical program `A291485.P3190505718156892050` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291485 has offset 1).
 
 The definition of A291485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3921,7 +3921,7 @@ The definition of A291485 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A175192(C(n+2, 2))]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A291485

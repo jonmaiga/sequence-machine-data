@@ -36,7 +36,6 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -297,6 +296,72 @@ end
 
 end A395005.P2492340748206432531
 
+/-! ## A395005.P7162763377780498629
+
+`∩[A018744(n+1), A047519(n+1)]`
+-/
+
+namespace A395005.P7162763377780498629
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018744 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047519 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395005.P7162763377780498629
+
+/-! ## A395005.P11231293039488577627
+
+`∩[A035033(n+1), A344826(n+1)]`
+-/
+
+namespace A395005.P11231293039488577627
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A035033 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344826 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395005.P11231293039488577627
+
+/-! ## A395005.P14722476216207658749
+
+`∩[A048264(n+1), A344826(n+1)]`
+-/
+
+namespace A395005.P14722476216207658749
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048264 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344826 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395005.P14722476216207658749
+
 /-!
 # A395011: Minimum lexicographic rank distance between Prüfer codes of a graceful labeling of a tree and its involution labeling.
 
@@ -323,6 +388,28 @@ end A395011.P3109219482043205639
 
 The programs for A395013, there is no canonical definition to state claims against.
 -/
+
+/-! ## A395013.P7884285897152314600
+
+`∩[A025045(n+1), A074726(n+1)]`
+-/
+
+namespace A395013.P7884285897152314600
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025045 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074726 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395013.P7884285897152314600
 
 /-! ## A395013.P8383351538576380657
 
@@ -389,28 +476,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395013.P15369763969512327336
-
-/-! ## A395013.P1224568643673295406
-
-`∩[A074726(n+1), A088685(n+1)]`
--/
-
-namespace A395013.P1224568643673295406
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074726 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088685 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395013.P1224568643673295406
 
 /-!
 # A395023: Expansion of the o.g.f. Sum_{k >= 0} ((k + 1) * x^k) / Product_{j=1..k} (1 - j^2 * x).

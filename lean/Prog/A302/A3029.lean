@@ -39,6 +39,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -72,6 +73,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -3012,6 +3014,100 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302936.P129379463664094748
+
+/-!
+# A302938: Lexicographically first sequence of distinct terms such that the sum of any two terms is not a term of the sequence, and the sum of any two digits is not a digit of the sequence.
+
+The programs for A302938, there is no canonical definition to state claims against.
+-/
+
+/-! ## A302938.P1377915872623396537
+
+`∩[A001729(n+1), A211186(n+1)]`
+-/
+
+namespace A302938.P1377915872623396537
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001729 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211186 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302938.P1377915872623396537
+
+/-! ## A302938.P8607405789318529557
+
+`∩[A072958(n+1), A211186(n+1)]`
+-/
+
+namespace A302938.P8607405789318529557
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072958 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211186 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302938.P8607405789318529557
+
+/-! ## A302938.P13359644763580695668
+
+`∩[A082741(n+1), A211186(n+1)]`
+-/
+
+namespace A302938.P13359644763580695668
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A082741 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211186 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302938.P13359644763580695668
+
+/-! ## A302938.P17585895375033105088
+
+`∩[A211186(n+1), A214677(n+1)]`
+-/
+
+namespace A302938.P17585895375033105088
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211186 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A214677 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A302938.P17585895375033105088
 
 /-!
 # A302940: Lexicographically first sequence of distinct terms such that the product of any two terms is not a term of the sequence, and the product of any two digits is not a digit of the sequence.
@@ -7119,23 +7215,27 @@ end
 
 end A302988.P15770574589758771166
 
-/-! ## A302988.P17624927976387311473
+/-! ## A302988.P10020839486900697260
 
-`record[A006530(A242788(n+2))]`
+`∩[A049573(n+1), A242788(n+1)]`
 -/
 
-namespace A302988.P17624927976387311473
+namespace A302988.P10020839486900697260
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A242788 (n + 2)).toNat
+  A049573 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A242788 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A302988.P17624927976387311473
+end A302988.P10020839486900697260
 
 /-!
 # A302989: a(n) = n^n + n*n + n.

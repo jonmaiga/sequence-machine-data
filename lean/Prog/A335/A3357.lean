@@ -2049,6 +2049,34 @@ end
 end A335730.P8639737546860934866
 
 /-!
+# A335732: Emirps whose concatenation of adjacent digit differences either form an emirp that also has this characteristic or form a single-digit prime, and whose emirp also has this characteristic.
+
+The programs for A335732, there is no canonical definition to state claims against.
+-/
+
+/-! ## A335732.P4140424858866615741
+
+`∩[A049715(n), A263240(n+1)]`
+-/
+
+namespace A335732.P4140424858866615741
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049715 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A263240 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335732.P4140424858866615741
+
+/-!
 # A335733: a(n) is the number of regions formed by n-secting the angles of a hexagon.
 
 The programs for A335733, there is no canonical definition to state claims against.

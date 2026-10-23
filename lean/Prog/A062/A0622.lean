@@ -2490,6 +2490,50 @@ end
 
 end A062239.P13389875173308148990
 
+/-! ## A062239.P16377451951924353709
+
+`∩[A084983(n+1), A116066(n+1)]`
+-/
+
+namespace A062239.P16377451951924353709
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084983 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116066 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A062239.P16377451951924353709
+
+/-! ## A062239.P5886086241662634125
+
+`∩[A084983(n+1), A116069(n+1)]`
+-/
+
+namespace A062239.P5886086241662634125
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084983 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116069 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A062239.P5886086241662634125
+
 /-!
 # A062241: Smallest integer >= 2 that is not the sum of 2 positive integers whose prime factors are all <= prime(n), the n-th prime.
 
@@ -9694,6 +9738,36 @@ end
 
 end A062292.P8156954256338019889
 
+/-! ## A062292.P3049782754610637405
+
+`A356895(2^n)^3`
+-/
+
+namespace A062292.P3049782754610637405
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356895 (2 ^ n) ^ 3
+
+end
+
+end A062292.P3049782754610637405
+
+/-! ## A062292.P7684057889420922674
+
+`A000578(A369517(A369517(n))+n)`
+-/
+
+namespace A062292.P7684057889420922674
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000578 (A369517 (A369517 n).toNat + (n : ℤ)).toNat
+
+end
+
+end A062292.P7684057889420922674
+
 /-!
 # A062293: Smallest multiple k*n of n which has even digits and is a palindrome or becomes a palindrome when 0's are added on the left (e.g., 10 becomes 010, which is a palindrome).
 
@@ -10890,42 +10964,26 @@ def P18154975028595273679.Spec : Prop :=
 
 end A062298
 
-/-! ## A062298.P11558986700605762439
+/-! ## A062298.P17135322012414328054
 
-`∑[1-char[eq[1, ∑{e}[n+1, #]]]]`
+`(A097454(n+1)+n+1)/2`
 -/
 
-namespace A062298.P11558986700605762439
+namespace A062298.P17135322012414328054
 noncomputable section
 
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f5 n), Nat.factorization (f5 n) p
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f3 j = f4 j) n
-
-open Classical in
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  1 - ((if ∃ j, f2 j = n then 1 else 0 : ℕ) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A097454 (n + 1) + (n + 1 : ℤ) : ℚ) / 2
 
 end
 
-end A062298.P11558986700605762439
+end A062298.P17135322012414328054
 
 namespace A062298
 
-/-- `∑[1-char[eq[1, ∑{e}[n+1, #]]]]` -/
-def P11558986700605762439.Spec : Prop :=
-  ∀ n, P11558986700605762439.a n = A062298 (n + 1)
+/-- `(A097454(n+1)+n+1)/2` -/
+def P17135322012414328054.Spec : Prop :=
+  ∀ n, P17135322012414328054.a n = (A062298 (n + 1) : ℚ)
 
 end A062298
 

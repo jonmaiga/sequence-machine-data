@@ -2355,27 +2355,29 @@ end A299231
 /-!
 # A299232: Ranks of {2,3}-power towers that start with 3; see Comments.
 
-The programs for A299232, there is no canonical definition to state claims against.
+The programs for A299232, the canonical program `A299232.P17002630097813543278` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299232 has offset 1).
+
+The definition of A299232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A299232.P11512157548970653085
+/-! ## A299232.P17002630097813543278
 
-`char[A195860(3*n+5)]+2*(n+1)`
+`ogf((2+x-x^2-x^3+2x^4-2x^5+x^6)/(1-2x+x^2))`
+
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
-namespace A299232.P11512157548970653085
-noncomputable section
+namespace A299232
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A195860 (3 * n + 5)
+/-- `ogf((2+x-x^2-x^3+2x^4-2x^5+x^6)/(1-2x+x^2))` -/
+def P17002630097813543278.Spec : Prop :=
+  ∀ n, P17002630097813543278.a n = A299232 (n + 1)
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f1 j = (n : ℤ) then 1 else 0) + 2 * (n + 1)
+theorem P17002630097813543278.correct : P17002630097813543278.Spec := by
+  intro n
+  simp only [A299232, Nat.add_sub_cancel]
 
-end
-
-end A299232.P11512157548970653085
+end A299232
 
 /-!
 # A299233: Ranks of {2,3}-power towers that end with 2; see Comments.
@@ -10763,6 +10765,29 @@ namespace A299289
 /-- `A000027(A005897(n)+∑[and(n, -2)])` -/
 def P16244153968757467422.Spec : Prop :=
   ∀ n, P16244153968757467422.a n = A299289 n
+
+end A299289
+
+/-! ## A299289.P14143554605034153539
+
+`A026491(A227541(n))`
+-/
+
+namespace A299289.P14143554605034153539
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026491 (A227541 n).toNat
+
+end
+
+end A299289.P14143554605034153539
+
+namespace A299289
+
+/-- `A026491(A227541(n))` -/
+def P14143554605034153539.Spec : Prop :=
+  ∀ n, P14143554605034153539.a n = A299289 n
 
 end A299289
 

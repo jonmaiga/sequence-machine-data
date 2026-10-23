@@ -51,7 +51,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -88,6 +88,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5677,6 +5678,28 @@ end A282570.P2060690742851960529
 The programs for A282572, there is no canonical definition to state claims against.
 -/
 
+/-! ## A282572.P13242494232780832979
+
+`∩[2*n+1, A070932(n+1)]`
+-/
+
+namespace A282572.P13242494232780832979
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070932 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A282572.P13242494232780832979
+
 /-! ## A282572.P9362229745378926537
 
 `record[A000265(A070932(n+2))]`
@@ -5716,28 +5739,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A282572.P16772404455659098159
-
-/-! ## A282572.P14897696840656544721
-
-`∩[A047241(n+1), A070932(n+1)]`
--/
-
-namespace A282572.P14897696840656544721
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047241 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070932 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A282572.P14897696840656544721
 
 /-! ## A282572.P5008927004830127911
 

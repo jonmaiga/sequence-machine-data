@@ -3055,26 +3055,35 @@ def P982894266509694666.Spec : Prop :=
 
 end A176222
 
-/-! ## A176222.P4058707648437058281
+/-! ## A176222.P6706957470881695998
 
-`a(n-2)+2*n+1` with `a(0)=0, a(1)=3`
+`∑[∑[∑[ogf((3x-x^2)/(1+x))]]]`
 -/
 
-namespace A176222.P4058707648437058281
+namespace A176222.P6706957470881695998
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 3] fun n a =>
-  a (n - 2) + 2 * n + 1
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.ogf [0, 3, -1] [1, 1] n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A176222.P4058707648437058281
+end A176222.P6706957470881695998
 
 namespace A176222
 
-/-- `a(n-2)+2*n+1` -/
-def P4058707648437058281.Spec : Prop :=
-  ∀ n, (P4058707648437058281.a n : ℤ) = A176222 (n + 3)
+/-- `∑[∑[∑[ogf((3x-x^2)/(1+x))]]]` -/
+def P6706957470881695998.Spec : Prop :=
+  ∀ n, P6706957470881695998.a n = A176222 (n + 3)
 
 end A176222
 
@@ -4379,6 +4388,28 @@ end
 
 end A176229.P2424042618156610440
 
+/-! ## A176229.P6379643956360915996
+
+`∩[A029710(n+1), A109611(n+1)]`
+-/
+
+namespace A176229.P6379643956360915996
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029710 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109611 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A176229.P6379643956360915996
+
 /-! ## A176229.P9233685376111306987
 
 `∩[A056772(n+1), A091180(n+1)]`
@@ -4480,28 +4511,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A176229.P7384302795457241613
-
-/-! ## A176229.P2880166469992551667
-
-`∩[A029710(n+1), A063637(n+1)]`
--/
-
-namespace A176229.P2880166469992551667
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029710 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063637 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A176229.P2880166469992551667
 
 /-!
 # A176230: Exponential Riordan array [1/sqrt(1-2x), x/(1-2x)].
@@ -7497,6 +7506,28 @@ end
 
 end A176247.P11940652143046692914
 
+/-! ## A176247.P2442316370238300723
+
+`∩[A015919(n+1), A176223(n+1)]`
+-/
+
+namespace A176247.P2442316370238300723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A176223 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A176247.P2442316370238300723
+
 /-! ## A176247.P9013057809261994098
 
 `∩[A049596(n+1), A176223(n+1)]`
@@ -7782,28 +7813,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A176247.P12103394396585841185
-
-/-! ## A176247.P2442076456454831451
-
-`∩[A040078(n+1), A176223(n+1)]`
--/
-
-namespace A176247.P2442076456454831451
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040078 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A176223 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A176247.P2442076456454831451
 
 /-!
 # A176248: a(n) is the least odd multiple of 3, k, such that k*2^n-1 is a Sophie Germain prime.

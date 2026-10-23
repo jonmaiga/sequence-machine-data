@@ -9519,6 +9519,21 @@ end
 
 end A107858.P16721240491403105582
 
+/-! ## A107858.P552617744878935324
+
+`A178780(n)+A107857(n+1)`
+-/
+
+namespace A107858.P552617744878935324
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178780 n + A107857 (n + 1)
+
+end
+
+end A107858.P552617744878935324
+
 /-!
 # A107861: Number of distinct values taken by the sums of all subsets of the n-th roots of unity.
 

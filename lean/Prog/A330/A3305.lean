@@ -2076,6 +2076,28 @@ end A330529.P15534378763418181949
 The programs for A330532, there is no canonical definition to state claims against.
 -/
 
+/-! ## A330532.P8414308316269787196
+
+`∩[A006516(n), A007691(n+1)]`
+-/
+
+namespace A330532.P8414308316269787196
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006516 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007691 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330532.P8414308316269787196
+
 /-! ## A330532.P7785091108012225471
 
 `∩[A007691(n+1), A122746(n)]`
@@ -2097,6 +2119,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330532.P7785091108012225471
+
+/-! ## A330532.P8046599668032245276
+
+`∩[A007691(n+1), A171476(n)]`
+-/
+
+namespace A330532.P8046599668032245276
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007691 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A171476 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A330532.P8046599668032245276
 
 /-! ## A330532.P18238666996727681999
 
@@ -2141,50 +2185,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A330532.P4700053094111248403
-
-/-! ## A330532.P8677121640830809018
-
-`∩[A007691(n+1), A290423(n)]`
--/
-
-namespace A330532.P8677121640830809018
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007691 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290423 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A330532.P8677121640830809018
-
-/-! ## A330532.P10503469462202195054
-
-`∩[A007691(n+1), A290674(n)]`
--/
-
-namespace A330532.P10503469462202195054
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007691 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290674 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A330532.P10503469462202195054
 
 /-!
 # A330533: Multiply-perfect numbers m whose average divisor is not an integer.

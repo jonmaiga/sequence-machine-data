@@ -1495,6 +1495,21 @@ end
 
 end A296710.P8806660371800254688
 
+/-! ## A296710.P5052217510253085931
+
+`A097449(A297143(n+1))`
+-/
+
+namespace A296710.P5052217510253085931
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A097449 (A297143 (n + 1)).toNat
+
+end
+
+end A296710.P5052217510253085931
+
 /-!
 # A296711: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments.
 
@@ -1584,6 +1599,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A296711.P11407026997241170391
+
+/-! ## A296711.P9957586052783625814
+
+`∩[A085736(n+1), A297267(n+1)]`
+-/
+
+namespace A296711.P9957586052783625814
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A085736 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297267 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A296711.P9957586052783625814
 
 /-!
 # A296712: Numbers whose base-10 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments.
@@ -2509,19 +2546,19 @@ end
 
 end A296717.P18387059407978093238
 
-/-! ## A296717.P9851948070720552302
+/-! ## A296717.P921117420505078165
 
-`∩[A290965(n+1), A302753(n+1)]`
+`∩[A097216(n+1), A366914(n+1)]`
 -/
 
-namespace A296717.P9851948070720552302
+namespace A296717.P921117420505078165
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290965 (n + 1)
+  A097216 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A302753 (n + 1)
+  A366914 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -2529,7 +2566,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A296717.P9851948070720552302
+end A296717.P921117420505078165
 
 /-!
 # A296718: Number of n X n 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1's.

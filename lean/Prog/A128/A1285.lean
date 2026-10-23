@@ -4289,7 +4289,7 @@ end A128540
 /-!
 # A128541: Triangle, A097806 * A127647, read by rows.
 
-The programs for A128541, the canonical program `A128541.P11291704375790424598` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128541 has offset 0).
+The programs for A128541, the canonical program `A128541.P11291704375790424598` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128541 has offset 0).
 
 The definition of A128541 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4344,7 +4344,7 @@ end A128541
 
 `A058071(n)*A097806(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A128541
@@ -5350,6 +5350,29 @@ namespace A128543
 /-- `(n+1)*∑[A098011(n+2)]` -/
 def P13161864528579685932.Spec : Prop :=
   ∀ n, P13161864528579685932.a n = A128543 (n + 1)
+
+end A128543
+
+/-! ## A128543.P9158423150589161482
+
+`(n+1)*(A103204(n+1)-1)`
+-/
+
+namespace A128543.P9158423150589161482
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * (A103204 (n + 1) - 1)
+
+end
+
+end A128543.P9158423150589161482
+
+namespace A128543
+
+/-- `(n+1)*(A103204(n+1)-1)` -/
+def P9158423150589161482.Spec : Prop :=
+  ∀ n, P9158423150589161482.a n = A128543 (n + 1)
 
 end A128543
 

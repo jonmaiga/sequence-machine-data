@@ -3134,6 +3134,29 @@ def P16784602790362488792.Spec : Prop :=
 
 end A288133
 
+/-! ## A288133.P4331164568768038364
+
+`A166444(n+1)+n`
+-/
+
+namespace A288133.P4331164568768038364
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166444 (n + 1) + (n : ℤ)
+
+end
+
+end A288133.P4331164568768038364
+
+namespace A288133
+
+/-- `A166444(n+1)+n` -/
+def P4331164568768038364.Spec : Prop :=
+  ∀ n, P4331164568768038364.a n = A288133 (n + 1)
+
+end A288133
+
 /-!
 # A288134: Positions of 1 in A288132; complement of A288133.
 
@@ -4484,6 +4507,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A288153.P18142323487365190514
+
+/-! ## A288153.P5891693376595055445
+
+`filter[A047713(n+3), A276950(#)]`
+-/
+
+namespace A288153.P5891693376595055445
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047713 (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A276950 (f1 j).toNat = 1) n)
+
+end
+
+end A288153.P5891693376595055445
 
 /-!
 # A288155: Numbers k such that k!6 + 12 is prime, where k!6 is the sextuple factorial number (A085158 ).

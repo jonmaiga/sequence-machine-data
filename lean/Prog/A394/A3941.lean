@@ -20,6 +20,7 @@ import Seq.B000.C029
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
@@ -36,7 +37,6 @@ import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2224,6 +2224,50 @@ end
 
 end A394182.P7165249526716769057
 
+/-! ## A394182.P11125941711656997857
+
+`∩[A335469(n+1), A394177(n+1)]`
+-/
+
+namespace A394182.P11125941711656997857
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335469 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394177 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394182.P11125941711656997857
+
+/-! ## A394182.P16396841384909283214
+
+`∩[A357875(n+1), A394177(n+1)]`
+-/
+
+namespace A394182.P16396841384909283214
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A357875 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A394177 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A394182.P16396841384909283214
+
 /-!
 # A394184: Number of primitive tessellations of paths of length n in the square lattice, reduced for symmetry (with rotations, reflections, and translations not counted as distinct).
 
@@ -2343,6 +2387,29 @@ namespace A394185
 /-- `abs(A000217(n+2)-A096957(n))` -/
 def P16355690490786873344.Spec : Prop :=
   ∀ n, P16355690490786873344.a n = A394185 n
+
+end A394185
+
+/-! ## A394185.P17033304537191705417
+
+`A133043(A330395(n+4))`
+-/
+
+namespace A394185.P17033304537191705417
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133043 (A330395 (n + 4)).toNat
+
+end
+
+end A394185.P17033304537191705417
+
+namespace A394185
+
+/-- `A133043(A330395(n+4))` -/
+def P17033304537191705417.Spec : Prop :=
+  ∀ n, P17033304537191705417.a n = A394185 n
 
 end A394185
 

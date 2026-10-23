@@ -2077,6 +2077,29 @@ def P6690436059199576990.Spec : Prop :=
 
 end A370627
 
+/-! ## A370627.P690991688963003370
+
+`A084175(n+1)+A139818(n)+A003683(n)`
+-/
+
+namespace A370627.P690991688963003370
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084175 (n + 1) + (A139818 n + A003683 n)
+
+end
+
+end A370627.P690991688963003370
+
+namespace A370627
+
+/-- `A084175(n+1)+A139818(n)+A003683(n)` -/
+def P690991688963003370.Spec : Prop :=
+  ∀ n, P690991688963003370.a n = A370627 n
+
+end A370627
+
 /-!
 # A370628: a(n) = GCD(A280864(n), A280864(n+1)).
 
@@ -2147,6 +2170,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370628.P3332015773090962153
+
+/-! ## A370628.P11689910935351085853
+
+`A280738(A187829(n+2))`
+-/
+
+namespace A370628.P11689910935351085853
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280738 (A187829 (n + 2)).toNat
+
+end
+
+end A370628.P11689910935351085853
 
 /-!
 # A370630: Lexicographically earliest sequence of distinct positive integers such that the Zeckendorf expansions of two consecutive terms have exactly one common term.
@@ -3150,6 +3188,28 @@ end A370646.P6290389353718938598
 The programs for A370647, there is no canonical definition to state claims against.
 -/
 
+/-! ## A370647.P17089111195684671458
+
+`∩[2*n+1, A319899(n+1)]`
+-/
+
+namespace A370647.P17089111195684671458
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319899 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A370647.P17089111195684671458
+
 /-! ## A370647.P921363291631761032
 
 `record[A000265(A319899(n+1))]`
@@ -3221,24 +3281,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370647.P3949074747082723933
-
-/-! ## A370647.P3067274371289248316
-
-`filter[A319899(n+1), A104106(#)]`
--/
-
-namespace A370647.P3067274371289248316
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319899 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A104106 (f1 j).toNat = 1) n)
-
-end
-
-end A370647.P3067274371289248316
 
 /-!
 # A370648: Number of ways to choose a subset s of [n] and then for each element in s choose a different prime factor.
@@ -4287,6 +4329,33 @@ def P61471262060614262.Spec : Prop :=
 
 end A370662
 
+/-! ## A370662.P8281716524146550177
+
+`comp[A111018(n+1)]`
+-/
+
+namespace A370662.P8281716524146550177
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A111018 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A370662.P8281716524146550177
+
+namespace A370662
+
+/-- `comp[A111018(n+1)]` -/
+def P8281716524146550177.Spec : Prop :=
+  ∀ n, (P8281716524146550177.a n : ℤ) = A370662 (n + 1)
+
+end A370662
+
 /-! ## A370662.P14500594130073630915
 
 `lt[1, A039969(n)+1]`
@@ -4478,35 +4547,6 @@ namespace A370662
 /-- `eq[A060373(n), A116178(n)]` -/
 def P7253409161770461223.Spec : Prop :=
   ∀ n, (P7253409161770461223.a n : ℤ) = A370662 (n + 1)
-
-end A370662
-
-/-! ## A370662.P17649031163756279527
-
-`eq[A060372(n), A130481(n)]`
--/
-
-namespace A370662.P17649031163756279527
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060372 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130481 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A370662.P17649031163756279527
-
-namespace A370662
-
-/-- `eq[A060372(n), A130481(n)]` -/
-def P17649031163756279527.Spec : Prop :=
-  ∀ n, (P17649031163756279527.a n : ℤ) = A370662 (n + 1)
 
 end A370662
 
@@ -5199,6 +5239,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370688.P4327662117715694207
+
+/-! ## A370688.P9474787008708505354
+
+`eq[A039208(n+1), A264978(n)]`
+-/
+
+namespace A370688.P9474787008708505354
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039208 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264978 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A370688.P9474787008708505354
 
 /-!
 # A370689: Numerator of sigma(phi(n))/phi(sigma(n)), where sigma is the sum of the divisors function and phi is the Euler totient function.

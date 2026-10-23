@@ -61,6 +61,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B007.C002
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1412,6 +1413,29 @@ def P15062770677110816674.Spec : Prop :=
 
 end A282413
 
+/-! ## A282413.P722268773948673687
+
+`A282414(n)/A028920(n)`
+-/
+
+namespace A282413.P722268773948673687
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A282414 n : ℚ) / (A028920 n : ℚ)
+
+end
+
+end A282413.P722268773948673687
+
+namespace A282413
+
+/-- `A282414(n)/A028920(n)` -/
+def P722268773948673687.Spec : Prop :=
+  ∀ n, P722268773948673687.a n = (A282413 n : ℚ)
+
+end A282413
+
 /-!
 # A282414: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 467", based on the 5-celled von Neumann neighborhood.
 
@@ -2409,9 +2433,9 @@ end A282416
 /-!
 # A282417: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 469", based on the 5-celled von Neumann neighborhood.
 
-The programs for A282417, the canonical program `A282417.P11943063328191584872` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282417 has offset 0).
+The programs for A282417, the canonical program `A282417.P1547961641862508463` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282417 has offset 0).
 
-The definition of A282417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A282417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A282417.P18386244186686537371
@@ -2476,23 +2500,19 @@ end A282417
 /-! ## A282417.P1547961641862508463
 
 `A052551(n)*A072345(n)`
+
+The canonical program, it is in `Seq.B001.C008`.
 -/
-
-namespace A282417.P1547961641862508463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052551 n * A072345 n
-
-end
-
-end A282417.P1547961641862508463
 
 namespace A282417
 
 /-- `A052551(n)*A072345(n)` -/
 def P1547961641862508463.Spec : Prop :=
   ∀ n, P1547961641862508463.a n = A282417 n
+
+theorem P1547961641862508463.correct : P1547961641862508463.Spec := by
+  intro n
+  simp only [A282417]
 
 end A282417
 
@@ -2876,22 +2896,26 @@ def P9584207987891011939.Spec : Prop :=
 
 end A282417
 
-/-! ## A282417.P11943063328191584872
+/-! ## A282417.P11842850314869018981
 
-`7*a(n-2)-14*a(n-4)+8*a(n-6)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=12, a(4)=7, a(5)=56`
-
-The canonical program, it is in `Seq.B000.C033`.
+`(A097110(n+1)-A097110(n))*A097110(n)`
 -/
+
+namespace A282417.P11842850314869018981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A097110 (n + 1) - A097110 n) * A097110 n
+
+end
+
+end A282417.P11842850314869018981
 
 namespace A282417
 
-/-- `7*a(n-2)-14*a(n-4)+8*a(n-6)` -/
-def P11943063328191584872.Spec : Prop :=
-  ∀ n, P11943063328191584872.a n = A282417 n
-
-theorem P11943063328191584872.correct : P11943063328191584872.Spec := by
-  intro n
-  simp only [A282417]
+/-- `(A097110(n+1)-A097110(n))*A097110(n)` -/
+def P11842850314869018981.Spec : Prop :=
+  ∀ n, P11842850314869018981.a n = A282417 n
 
 end A282417
 

@@ -7540,6 +7540,89 @@ def P11059244624551027460.Spec : Prop :=
 
 end A187485
 
+/-! ## A187485.P9284507549048682172
+
+`(A137708(n+1)+n+1)/2`
+-/
+
+namespace A187485.P9284507549048682172
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A137708 (n + 1) + (n + 1 : ℤ) : ℚ) / 2
+
+end
+
+end A187485.P9284507549048682172
+
+namespace A187485
+
+/-- `(A137708(n+1)+n+1)/2` -/
+def P9284507549048682172.Spec : Prop :=
+  ∀ n, P9284507549048682172.a n = (A187485 (n + 1) : ℚ)
+
+end A187485
+
+/-! ## A187485.P9422324613777431014
+
+`∪[A003622(n+1), A026351(n)]`
+-/
+
+namespace A187485.P9422324613777431014
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003622 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026351 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A187485.P9422324613777431014
+
+namespace A187485
+
+/-- `∪[A003622(n+1), A026351(n)]` -/
+def P9422324613777431014.Spec : Prop :=
+  ∀ n, (P9422324613777431014.a n : ℤ) = A187485 (n + 1)
+
+end A187485
+
+/-! ## A187485.P14145611374704781180
+
+`∪[A026273(n+1), A026351(n)]`
+-/
+
+namespace A187485.P14145611374704781180
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026273 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A026351 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A187485.P14145611374704781180
+
+namespace A187485
+
+/-- `∪[A026273(n+1), A026351(n)]` -/
+def P14145611374704781180.Spec : Prop :=
+  ∀ n, (P14145611374704781180.a n : ℤ) = A187485 (n + 1)
+
+end A187485
+
 /-!
 # A187486: Distance between first and second positions of A181762(n).
 

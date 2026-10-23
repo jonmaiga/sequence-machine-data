@@ -70,9 +70,11 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -7119,7 +7121,7 @@ end A106545.P7685635662955888406
 /-!
 # A106546: a(n) = n^2 if n^2 is the difference of two primes, otherwise a(n) = 0.
 
-The programs for A106546, the canonical program `A106546.P8703496101521057786` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106546 has offset 1).
+The programs for A106546, the canonical program `A106546.P8703496101521057786` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106546 has offset 1).
 
 The definition of A106546 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7151,7 +7153,7 @@ end A106546
 
 `((n+1)*(A355450(n+1)-1))²`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A106546
@@ -9373,6 +9375,72 @@ end
 
 end A106561.P14141558263036884434
 
+/-! ## A106561.P7829167266551389851
+
+`∩[A028789(n+1), A074781(n+1)]`
+-/
+
+namespace A106561.P7829167266551389851
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028789 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074781 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106561.P7829167266551389851
+
+/-! ## A106561.P3060258413342274913
+
+`∩[A028789(n+1), A147545(n+1)]`
+-/
+
+namespace A106561.P3060258413342274913
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028789 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147545 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106561.P3060258413342274913
+
+/-! ## A106561.P7471889091954826975
+
+`∩[A074781(n+1), A377463(n+1)]`
+-/
+
+namespace A106561.P7471889091954826975
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074781 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377463 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A106561.P7471889091954826975
+
 /-!
 # A106562: Perfect squares which are not the sum of two primes.
 
@@ -9747,7 +9815,7 @@ end A106563.P3715122596078131040
 /-!
 # A106564: Perfect squares which are not the difference of two primes.
 
-The programs for A106564, the canonical program `A106564.P8487788228564906810` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106564 has offset 1).
+The programs for A106564, the canonical program `A106564.P8487788228564906810` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106564 has offset 1).
 
 The definition of A106564 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9779,7 +9847,7 @@ end A106564
 
 `(eq[1, A355450(n+1)]+1)²`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A106564
@@ -12223,7 +12291,7 @@ end A106570
 /-!
 # A106571: Indices n of perfect squares n^2 which are not the difference of two primes.
 
-The programs for A106571, the canonical program `A106571.P2434766786777673595` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106571 has offset 1).
+The programs for A106571, the canonical program `A106571.P2434766786777673595` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106571 has offset 1).
 
 The definition of A106571 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A106564, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12232,7 +12300,7 @@ The definition of A106571 is `conditional`: the Lean definition is an OEIS formu
 
 `sqrt(A106564(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A106571

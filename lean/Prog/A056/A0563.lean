@@ -1561,6 +1561,81 @@ def P5255073101584950946.Spec : Prop :=
 
 end A056309
 
+/-! ## A056309.P10539870043043958654
+
+`A023444(A005418(n+2))`
+-/
+
+namespace A056309.P10539870043043958654
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023444 (A005418 (n + 2)).toNat
+
+end
+
+end A056309.P10539870043043958654
+
+namespace A056309
+
+/-- `A023444(A005418(n+2))` -/
+def P10539870043043958654.Spec : Prop :=
+  ∀ n, P10539870043043958654.a n = A056309 (n + 1)
+
+end A056309
+
+/-! ## A056309.P2119405426852413550
+
+`A023443(A056326(n+2))`
+-/
+
+namespace A056309.P2119405426852413550
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A056326 (n + 2)).toNat
+
+end
+
+end A056309.P2119405426852413550
+
+namespace A056309
+
+/-- `A023443(A056326(n+2))` -/
+def P2119405426852413550.Spec : Prop :=
+  ∀ n, P2119405426852413550.a n = A056309 (n + 1)
+
+end A056309
+
+/-! ## A056309.P11888897782064583275
+
+`eq[A164632(n+1), A323234(n+1)]`
+-/
+
+namespace A056309.P11888897782064583275
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A164632 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A323234 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A056309.P11888897782064583275
+
+namespace A056309
+
+/-- `eq[A164632(n+1), A323234(n+1)]` -/
+def P11888897782064583275.Spec : Prop :=
+  ∀ n, (P11888897782064583275.a n : ℤ) = A056309 (n + 1)
+
+end A056309
+
 /-!
 # A056310: Number of reversible strings with n beads using exactly three different colors.
 

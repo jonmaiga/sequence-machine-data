@@ -7,6 +7,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -84,7 +85,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -4071,6 +4071,29 @@ def P12936741169834103093.Spec : Prop :=
 
 end A136530
 
+/-! ## A136530.P13504277518114129977
+
+`A001788(n+1)+A300451(n)-A052481(n)`
+-/
+
+namespace A136530.P13504277518114129977
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001788 (n + 1) + (A300451 n - A052481 n)
+
+end
+
+end A136530.P13504277518114129977
+
+namespace A136530
+
+/-- `A001788(n+1)+A300451(n)-A052481(n)` -/
+def P13504277518114129977.Spec : Prop :=
+  ∀ n, P13504277518114129977.a n = A136530 n
+
+end A136530
+
 /-!
 # A136534: A001263 * A128064 (unsigned).
 
@@ -6949,6 +6972,29 @@ def P2254583953056180815.Spec : Prop :=
 
 end A136572
 
+/-! ## A136572.P230208556278935278
+
+`A081733(n)*A136579(n)`
+-/
+
+namespace A136572.P230208556278935278
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A081733 n * A136579 n
+
+end
+
+end A136572.P230208556278935278
+
+namespace A136572
+
+/-- `A081733(n)*A136579(n)` -/
+def P230208556278935278.Spec : Prop :=
+  ∀ n, P230208556278935278.a n = A136572 n
+
+end A136572
+
 /-! ## A136572.P4473958843206100373
 
 `A112334(n)*A136579(n)`
@@ -7295,29 +7341,6 @@ namespace A136572
 /-- `A010054(n+1)*A137948(n)` -/
 def P13333950381580598436.Spec : Prop :=
   ∀ n, P13333950381580598436.a n = A136572 n
-
-end A136572
-
-/-! ## A136572.P1677798703115633993
-
-`A073424(n+1)*A137948(n)`
--/
-
-namespace A136572.P1677798703115633993
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A073424 (n + 1) * A137948 n
-
-end
-
-end A136572.P1677798703115633993
-
-namespace A136572
-
-/-- `A073424(n+1)*A137948(n)` -/
-def P1677798703115633993.Spec : Prop :=
-  ∀ n, P1677798703115633993.a n = A136572 n
 
 end A136572
 

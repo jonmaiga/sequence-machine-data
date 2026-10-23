@@ -32,10 +32,12 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C021
@@ -846,6 +848,28 @@ end
 
 end A398453.P5586762602034818150
 
+/-! ## A398453.P12966713569423189349
+
+`∩[A028821(n+1), A267086(n+1)]`
+-/
+
+namespace A398453.P12966713569423189349
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028821 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A267086 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398453.P12966713569423189349
+
 /-! ## A398453.P5611758378824404492
 
 `∩[A028821(n+1), A334145(n+1)]`
@@ -889,6 +913,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A398453.P11630037658916615926
+
+/-! ## A398453.P7639948180159108014
+
+`∩[A028821(n+1), A124695(n+1)]`
+-/
+
+namespace A398453.P7639948180159108014
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028821 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124695 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A398453.P7639948180159108014
 
 /-!
 # A398470: Number of increasing 3-term arithmetic progressions in an n^3 cube.

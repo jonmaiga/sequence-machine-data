@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A308800: Primes p such that A001177(p) = (p-1)/7.
@@ -225,6 +230,50 @@ end A308801.P13145739733207518172
 The programs for A308802, there is no canonical definition to state claims against.
 -/
 
+/-! ## A308802.P16705186578812778212
+
+`∩[A142106(n+1), A308794(n+1)]`
+-/
+
+namespace A308802.P16705186578812778212
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A142106 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308794 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308802.P16705186578812778212
+
+/-! ## A308802.P1033399455813502939
+
+`∩[A107168(n+1), A308794(n+1)]`
+-/
+
+namespace A308802.P1033399455813502939
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A107168 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308794 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308802.P1033399455813502939
+
 /-! ## A308802.P10655686128784041470
 
 `p?[or(2, A308794(n+1))]`
@@ -278,42 +327,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308802.P17568207049983346923
-
-/-! ## A308802.P17055038919235738347
-
-`record[A020639(or(2, A308794(n+1)))]`
--/
-
-namespace A308802.P17055038919235738347
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (Int.lor 2 (A308794 (n + 1))).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A308802.P17055038919235738347
-
-/-! ## A308802.P9989137671941785687
-
-`record[A000010(or(2, A308794(n+1)))+1]`
--/
-
-namespace A308802.P9989137671941785687
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (Int.lor 2 (A308794 (n + 1))).toNat + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A308802.P9989137671941785687
 
 /-!
 # A308805: The image of N X N under f, where f(x,y) = 2*x*y*(x*y-1)-x+y.
@@ -569,6 +582,88 @@ namespace A308807
 /-- `∑[xor(4, 5*a(n-1))]` -/
 def P14087211681653377676.Spec : Prop :=
   ∀ n, (P14087211681653377676.a n : ℤ) = A308807 (n + 1)
+
+end A308807
+
+/-! ## A308807.P17688888158903254768
+
+`floor(5*(a(n-1)-n)+n+1)` with `a(0)=5`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A308807.P17688888158903254768
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [5] fun n a =>
+  5 * (a (n - 1) - (n : ℤ)) + (n + 1 : ℤ)
+
+end
+
+end A308807.P17688888158903254768
+
+namespace A308807
+
+/-- `floor(5*(a(n-1)-n)+n+1)` -/
+def P17688888158903254768.Spec : Prop :=
+  ∀ n, P17688888158903254768.a n = A308807 (n + 1)
+
+theorem P17688888158903254768.correct : P17688888158903254768.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A308807, Nat.add_sub_cancel, A308807.P17688888158903254768.a, A308807.P224880946425158223.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A308807, Nat.add_sub_cancel, A308807.P17688888158903254768.a, A308807.P224880946425158223.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A308807
+
+/-! ## A308807.P6985254883018606843
+
+`5*((n+1)/5+a(n-1)-n)` with `a(0)=5`
+-/
+
+namespace A308807.P6985254883018606843
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [5] fun n a =>
+  5 * ((n + 1 : ℚ) / 5 + (a (n - 1) - (n : ℚ)))
+
+end
+
+end A308807.P6985254883018606843
+
+namespace A308807
+
+/-- `5*((n+1)/5+a(n-1)-n)` -/
+def P6985254883018606843.Spec : Prop :=
+  ∀ n, P6985254883018606843.a n = (A308807 (n + 1) : ℚ)
+
+theorem P6985254883018606843.correct : P6985254883018606843.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A308807, Nat.add_sub_cancel, A308807.P6985254883018606843.a, A308807.P224880946425158223.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A308807, Nat.add_sub_cancel, A308807.P6985254883018606843.a, A308807.P224880946425158223.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A308807
 
@@ -3049,6 +3144,28 @@ end A308835.P6944793641656863996
 The programs for A308838, there is no canonical definition to state claims against.
 -/
 
+/-! ## A308838.P9413617168379677486
+
+`∩[2*n+1, A348263(n+1)]`
+-/
+
+namespace A308838.P9413617168379677486
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348263 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A308838.P9413617168379677486
+
 /-! ## A308838.P9067634301037295247
 
 `record[A093178(A348263(n+2))]`
@@ -3120,24 +3237,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308838.P16932186142724821022
-
-/-! ## A308838.P4175870318836551436
-
-`filter[A348263(n+1), A174275(#)]`
--/
-
-namespace A308838.P4175870318836551436
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348263 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A174275 (f1 j).toNat = 1) n)
-
-end
-
-end A308838.P4175870318836551436
 
 /-!
 # A308839: Sum of all the parts in the partitions of n into 5 squarefree parts.
@@ -3487,27 +3586,20 @@ end
 
 end A308851.P2754729901568084183
 
-/-! ## A308851.P15271320288562686641
+/-! ## A308851.P10088150107677604939
 
-`∪[A085104(n+1), A153883(A283159(n+1))]`
+`A153883(A283159(n+1))`
 -/
 
-namespace A308851.P15271320288562686641
+namespace A308851.P10088150107677604939
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085104 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A153883 (A283159 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A308851.P15271320288562686641
+end A308851.P10088150107677604939
 
 /-!
 # A308852: Minimum number k such that the k-th tetrahedral number is not smaller than n!.

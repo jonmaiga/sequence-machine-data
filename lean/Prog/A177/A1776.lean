@@ -55,6 +55,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A177677: The maximum integer dimension in which the volume of the hypersphere of radius n remains larger than 1.
@@ -167,6 +168,50 @@ end A177677.P9504765630388558579
 The programs for A177678, there is no canonical definition to state claims against.
 -/
 
+/-! ## A177678.P12659562089289813217
+
+`∩[A343715(n+1), A383195(n+1)]`
+-/
+
+namespace A177678.P12659562089289813217
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343715 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383195 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A177678.P12659562089289813217
+
+/-! ## A177678.P18035843181776661822
+
+`∩[A343714(n+1), A383195(n+1)]`
+-/
+
+namespace A177678.P18035843181776661822
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343714 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A383195 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A177678.P18035843181776661822
+
 /-! ## A177678.P13968334140100127340
 
 `filter[A343714(n+1), A304109(#)]`
@@ -217,36 +262,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A177678.P3985608636710918424
-
-/-! ## A177678.P1568537416834933739
-
-`A343715(C(A047253(n+1), A065648(n)))`
--/
-
-namespace A177678.P1568537416834933739
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343715 (Nat.choose (A047253 (n + 1)).toNat (A065648 n).toNat)
-
-end
-
-end A177678.P1568537416834933739
-
-/-! ## A177678.P13251636674319618058
-
-`A343715(or(A243148(n), A348579(n+1)))`
--/
-
-namespace A177678.P13251636674319618058
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343715 (Int.lor (A243148 n) (A348579 (n + 1))).toNat
-
-end
-
-end A177678.P13251636674319618058
 
 /-!
 # A177679: Numbers k such that 30*k and 60*k are both the average of twin prime pairs.

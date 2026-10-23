@@ -20,7 +20,6 @@ import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B001.C000
@@ -37,10 +36,10 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -78,6 +77,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C025
 
 /-!
 # A057406: Number of self-avoiding polygons of area n with one (self-avoiding polygon) hole on square lattice (not allowing rotations).
@@ -2509,6 +2509,48 @@ end
 
 end A057447.P8422693434438188675
 
+/-! ## A057447.P4061860205073058914
+
+`eq[0, A362267(n)]`
+-/
+
+namespace A057447.P4061860205073058914
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A362267 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A057447.P4061860205073058914
+
+/-! ## A057447.P18083899371866746296
+
+`eq[A014026(n), A393137(n)]`
+-/
+
+namespace A057447.P18083899371866746296
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014026 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A393137 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A057447.P18083899371866746296
+
 /-!
 # A057448: a(n+1) = next prime such that a(n+1)-1 | (a(1)...a(n))^5.
 
@@ -3290,6 +3332,66 @@ end
 
 end A057459.P12294435936047954332
 
+/-! ## A057459.P7728962908514227888
+
+`A229291(A043317(n+1))`
+-/
+
+namespace A057459.P7728962908514227888
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229291 (A043317 (n + 1)).toNat
+
+end
+
+end A057459.P7728962908514227888
+
+/-! ## A057459.P10432931836659815196
+
+`A229291(A044914(n+1))`
+-/
+
+namespace A057459.P10432931836659815196
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229291 (A044914 (n + 1)).toNat
+
+end
+
+end A057459.P10432931836659815196
+
+/-! ## A057459.P4750969531471683905
+
+`A229291(A055648(n+1))`
+-/
+
+namespace A057459.P4750969531471683905
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229291 (A055648 (n + 1)).toNat
+
+end
+
+end A057459.P4750969531471683905
+
+/-! ## A057459.P9112043540510665719
+
+`A065070(A229291(n+1))`
+-/
+
+namespace A057459.P9112043540510665719
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065070 (A229291 (n + 1)).toNat
+
+end
+
+end A057459.P9112043540510665719
+
 /-!
 # A057460: Numbers k such that x^k + x^2 + 1 is irreducible over GF(2).
 
@@ -3836,6 +3938,29 @@ namespace A057467
 /-- `Δ[A000040(n+1)]/A274225(n+1)` -/
 def P13153374082720295923.Spec : Prop :=
   ∀ n, P13153374082720295923.a n = (A057467 (n + 1) : ℚ)
+
+end A057467
+
+/-! ## A057467.P346300773606080209
+
+`(A000040(n+2)-A000040(n+1))/A274225(n+1)`
+-/
+
+namespace A057467.P346300773606080209
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000040 (n + 2) - A000040 (n + 1) : ℚ) / (A274225 (n + 1) : ℚ)
+
+end
+
+end A057467.P346300773606080209
+
+namespace A057467
+
+/-- `(A000040(n+2)-A000040(n+1))/A274225(n+1)` -/
+def P346300773606080209.Spec : Prop :=
+  ∀ n, P346300773606080209.a n = (A057467 (n + 1) : ℚ)
 
 end A057467
 

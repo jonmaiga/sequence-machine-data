@@ -2881,29 +2881,33 @@ def P10911156892202901500.Spec : Prop :=
 
 end A272533
 
-/-! ## A272533.P15239196699069472234
+/-! ## A272533.P4606004762003122597
 
-`record[A025480(A326112(n+1))]%A114826(n+1)`
+`∪[A033987(n+1), A252478(n+1)]`
 -/
 
-namespace A272533.P15239196699069472234
+namespace A272533.P4606004762003122597
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025480 (A326112 (n + 1)).toNat
+  A033987 (n + 1)
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)) (A114826 (n + 1))
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A252478 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A272533.P15239196699069472234
+end A272533.P4606004762003122597
 
 namespace A272533
 
-/-- `record[A025480(A326112(n+1))]%A114826(n+1)` -/
-def P15239196699069472234.Spec : Prop :=
-  ∀ n, P15239196699069472234.a n = A272533 (n + 1)
+/-- `∪[A033987(n+1), A252478(n+1)]` -/
+def P4606004762003122597.Spec : Prop :=
+  ∀ n, (P4606004762003122597.a n : ℤ) = A272533 (n + 1)
 
 end A272533
 

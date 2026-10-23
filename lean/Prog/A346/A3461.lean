@@ -1996,6 +1996,122 @@ end
 end A346132.P17005296944992860440
 
 /-!
+# A346133: Numbers N = A * B such that N (reversed digits) = A (reversed digits) * B (reversed digits). A single-digit number is its own reversal and neither A nor B has a leading zero. No pair (A, B) has both A and B palindromic or simple-digit. The reversed products are not included in the sequence.
+
+The programs for A346133, there is no canonical definition to state claims against.
+-/
+
+/-! ## A346133.P13238811482213187813
+
+`∩[A131058(n+1), A346290(n+1)]`
+-/
+
+namespace A346133.P13238811482213187813
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131058 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A346133.P13238811482213187813
+
+/-! ## A346133.P11475881895042202157
+
+`∩[A239016(n+1), A346290(n+1)]`
+-/
+
+namespace A346133.P11475881895042202157
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A239016 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A346133.P11475881895042202157
+
+/-! ## A346133.P6190253131864914182
+
+`∩[A102823(n), A346290(n+1)]`
+-/
+
+namespace A346133.P6190253131864914182
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102823 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A346133.P6190253131864914182
+
+/-! ## A346133.P3020798299737782932
+
+`∩[A102827(n), A346290(n+1)]`
+-/
+
+namespace A346133.P3020798299737782932
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102827 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A346133.P3020798299737782932
+
+/-! ## A346133.P1224131880669077758
+
+`∩[A138234(n), A346290(n+1)]`
+-/
+
+namespace A346133.P1224131880669077758
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A138234 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A346290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A346133.P1224131880669077758
+
+/-!
 # A346134: The sum S of the maximum number of consecutive primes starting with 2 such that S <= prime(n)^2.
 
 The programs for A346134, there is no canonical definition to state claims against.

@@ -964,6 +964,21 @@ end
 
 end A357327.P5270783385866852888
 
+/-! ## A357327.P7348933658625015859
+
+`A073522(n+1)%A087133(n+1)`
+-/
+
+namespace A357327.P7348933658625015859
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A073522 (n + 1)) (A087133 (n + 1))
+
+end
+
+end A357327.P7348933658625015859
+
 /-!
 # A357328: Number of permutations p of [n] such that p(i) divides p(j) if i divides j for 1 <= i <= j <= n.
 

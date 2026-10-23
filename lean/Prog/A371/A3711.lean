@@ -60,7 +60,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -349,6 +348,21 @@ end
 
 end A371105.P2012234714607052612
 
+/-! ## A371105.P4523145213457831215
+
+`A371055(A004907(n+2))`
+-/
+
+namespace A371105.P4523145213457831215
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371055 (A004907 (n + 2)).toNat
+
+end
+
+end A371105.P4523145213457831215
+
 /-!
 # A371106: Integers whose ternary representation consists of concatenated runs A(1)B(1)C(1)A(2)B(2)C(2)...A(k)B(k)C(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
 
@@ -502,6 +516,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371107.P17083381009113443642
+
+/-! ## A371107.P14395071794603667399
+
+`A371051(A187829(n+1))`
+-/
+
+namespace A371107.P14395071794603667399
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371051 (A187829 (n + 1)).toNat
+
+end
+
+end A371107.P14395071794603667399
 
 /-!
 # A371108: Integers whose ternary representation consists of concatenated runs A(1)C(1)B(1)A(2)C(2)B(2)...A(k)C(k)B(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.
@@ -700,6 +729,51 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371110.P13872150065136162380
+
+/-! ## A371110.P15799366335531256188
+
+`A371056(A004896(n+2))`
+-/
+
+namespace A371110.P15799366335531256188
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371056 (A004896 (n + 2)).toNat
+
+end
+
+end A371110.P15799366335531256188
+
+/-! ## A371110.P797578645527566544
+
+`A371056(A004907(n+2))`
+-/
+
+namespace A371110.P797578645527566544
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371056 (A004907 (n + 2)).toNat
+
+end
+
+end A371110.P797578645527566544
+
+/-! ## A371110.P14642163190998858238
+
+`A371056(A004918(n+2))`
+-/
+
+namespace A371110.P14642163190998858238
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371056 (A004918 (n + 2)).toNat
+
+end
+
+end A371110.P14642163190998858238
 
 /-!
 # A371111: Ternary numbers that are concatenated runs C(1)A(1)B(1)C(2)A(2)B(2)...C(k)A(k)B(k), where A(i) is a run of 1's, B(i) a run of 0's, and C(i) a run of 2's, for i = 1..k.

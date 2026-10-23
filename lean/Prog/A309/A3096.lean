@@ -48,7 +48,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
@@ -6882,29 +6881,29 @@ def P5026215892554918659.Spec : Prop :=
 
 end A309683
 
-/-! ## A309683.P10287725292965805972
+/-! ## A309683.P7463749017327251288
 
-`floor(∑[n-a(n-1)]/3)-a(n-1)` with `a(0)=0`
+`floor(∑[n/3-a(n-1)])-a(n-1)` with `a(0)=0`
 -/
 
-namespace A309683.P10287725292965805972
+namespace A309683.P7463749017327251288
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [0] fun n f1 =>
-  (n : ℤ) - f1 (n - 1)
+def f1 : ℕ → ℚ := SequenceMachineLib.rec [0] fun n f1 =>
+  (n : ℚ) / 3 - f1 (n - 1)
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  ⌊((∑ j ∈ Finset.range (n + 1), f1 j : ℤ) : ℚ) / 3⌋ - a (n - 1)
+  ⌊∑ j ∈ Finset.range (n + 1), f1 j⌋ - a (n - 1)
 
 end
 
-end A309683.P10287725292965805972
+end A309683.P7463749017327251288
 
 namespace A309683
 
-/-- `floor(∑[n-a(n-1)]/3)-a(n-1)` -/
-def P10287725292965805972.Spec : Prop :=
-  ∀ n, P10287725292965805972.a n = A309683 n
+/-- `floor(∑[n/3-a(n-1)])-a(n-1)` -/
+def P7463749017327251288.Spec : Prop :=
+  ∀ n, P7463749017327251288.a n = A309683 n
 
 end A309683
 

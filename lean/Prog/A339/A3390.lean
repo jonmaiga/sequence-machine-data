@@ -56,7 +56,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -4785,6 +4784,29 @@ namespace A339048
 /-- `A005408(n²+4)` -/
 def P13761759124627952082.Spec : Prop :=
   ∀ n, P13761759124627952082.a n = A339048 n
+
+end A339048
+
+/-! ## A339048.P8808589847176136893
+
+`A033465(n²+4)`
+-/
+
+namespace A339048.P8808589847176136893
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033465 (n ^ 2 + 4)
+
+end
+
+end A339048.P8808589847176136893
+
+namespace A339048
+
+/-- `A033465(n²+4)` -/
+def P8808589847176136893.Spec : Prop :=
+  ∀ n, P8808589847176136893.a n = A339048 n
 
 end A339048
 

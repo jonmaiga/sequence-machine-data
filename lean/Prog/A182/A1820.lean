@@ -822,6 +822,29 @@ def P8509148915949956371.Spec : Prop :=
 
 end A182008
 
+/-! ## A182008.P3563652217562408166
+
+`floor(sqrt(A352874(n+2)))`
+-/
+
+namespace A182008.P3563652217562408166
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.sqrt (A352874 (n + 2))
+
+end
+
+end A182008.P3563652217562408166
+
+namespace A182008
+
+/-- `floor(sqrt(A352874(n+2)))` -/
+def P3563652217562408166.Spec : Prop :=
+  ∀ n, P3563652217562408166.a n = A182008 (n + 1)
+
+end A182008
+
 /-!
 # A182009: a(n) = ceiling(sqrt(2n*log(2))+(3-2*log(2))/6).
 
@@ -4042,24 +4065,26 @@ end
 
 end A182049.P12525830076237979198
 
-/-! ## A182049.P9542170991309641948
+/-! ## A182049.P16066169161170385585
 
-`comp[A178960(A004070(n))]`
+`eq[A137578(n), A392010(n)]`
 -/
 
-namespace A182049.P9542170991309641948
+namespace A182049.P16066169161170385585
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178960 (A004070 n).toNat
+  A137578 n
 
-open Classical in
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392010 n
+
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
 
 end
 
-end A182049.P9542170991309641948
+end A182049.P16066169161170385585
 
 /-!
 # A182050: Number of odd primes between successive numbers of the form n*(n+1)^2/2.

@@ -8822,6 +8822,28 @@ end
 
 end A032861.P15290947780648967622
 
+/-! ## A032861.P7369557026230763887
+
+`∩[A023788(n+1), A236674(n+1)]`
+-/
+
+namespace A032861.P7369557026230763887
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023788 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236674 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A032861.P7369557026230763887
+
 /-!
 # A032862: Numbers whose base-7 representation Sum_{i=0..m} d(i)*7^i has d(m) > d(m-1) < d(m-2) > ...
 

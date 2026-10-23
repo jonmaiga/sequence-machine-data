@@ -22,7 +22,6 @@ import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -46,6 +45,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -492,6 +492,29 @@ def P7078118798450929307.Spec : Prop :=
 
 end A387001
 
+/-! ## A387001.P17810926310712216783
+
+`A000203(n+1)+A120444(n+1)+A000203(n+2)`
+-/
+
+namespace A387001.P17810926310712216783
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (n + 1) + (A120444 (n + 1) + A000203 (n + 2))
+
+end
+
+end A387001.P17810926310712216783
+
+namespace A387001
+
+/-- `A000203(n+1)+A120444(n+1)+A000203(n+2)` -/
+def P17810926310712216783.Spec : Prop :=
+  ∀ n, P17810926310712216783.a n = A387001 (n + 1)
+
+end A387001
+
 /-! ## A387001.P241524194674893036
 
 `Δ[∑[∑{d}[n, #]]+(n+1)²]`
@@ -521,32 +544,6 @@ namespace A387001
 /-- `Δ[∑[∑{d}[n, #]]+(n+1)²]` -/
 def P241524194674893036.Spec : Prop :=
   ∀ n, P241524194674893036.a n = A387001 (n + 1)
-
-end A387001
-
-/-! ## A387001.P11345413055435423840
-
-`Δ[A332490(n+1)]+n+1`
--/
-
-namespace A387001.P11345413055435423840
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332490 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n + (n + 1 : ℤ)
-
-end
-
-end A387001.P11345413055435423840
-
-namespace A387001
-
-/-- `Δ[A332490(n+1)]+n+1` -/
-def P11345413055435423840.Spec : Prop :=
-  ∀ n, P11345413055435423840.a n = A387001 (n + 1)
 
 end A387001
 
@@ -2612,6 +2609,31 @@ end
 end A387044.P13648146616975230566
 
 /-!
+# A387045: Nonnegative numbers k for which there is no largest circle enclosing exactly k points (strictly inside) on a square grid, only a least upper bound on that circle size.
+
+The programs for A387045, there is no canonical definition to state claims against.
+-/
+
+/-! ## A387045.P16451948456319310408
+
+`comp[A387044(n+1)]`
+-/
+
+namespace A387045.P16451948456319310408
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387044 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A387045.P16451948456319310408
+
+/-!
 # A387047: Number of parking functions of size n with a big descent in the first position.
 
 The programs for A387047, there is no canonical definition to state claims against.
@@ -4011,6 +4033,36 @@ namespace A387096
 /-- `∩[A347262(n+1), A371089(n+1)]` -/
 def P11805968429990668933.Spec : Prop :=
   ∀ n, (P11805968429990668933.a n : ℤ) = A387096 (n + 1)
+
+end A387096
+
+/-! ## A387096.P8899470260245139199
+
+`∩[A347262(n+1), A387113(n+1)]`
+-/
+
+namespace A387096.P8899470260245139199
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A347262 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387113 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A387096.P8899470260245139199
+
+namespace A387096
+
+/-- `∩[A347262(n+1), A387113(n+1)]` -/
+def P8899470260245139199.Spec : Prop :=
+  ∀ n, (P8899470260245139199.a n : ℤ) = A387096 (n + 1)
 
 end A387096
 

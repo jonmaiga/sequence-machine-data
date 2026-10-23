@@ -44,6 +44,8 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -294,6 +296,51 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A203008.P4929955156994495110
+
+/-! ## A203008.P14935306173979856318
+
+`A342921(2^(n+1)-2)`
+-/
+
+namespace A203008.P14935306173979856318
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342921 (2 ^ (n + 1) - 2)
+
+end
+
+end A203008.P14935306173979856318
+
+/-! ## A203008.P5142383575872539160
+
+`A278544(2^(n+1)-2)`
+-/
+
+namespace A203008.P5142383575872539160
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A278544 (2 ^ (n + 1) - 2)
+
+end
+
+end A203008.P5142383575872539160
+
+/-! ## A203008.P4282577871944221847
+
+`A344028(A020988(n))`
+-/
+
+namespace A203008.P4282577871944221847
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344028 (A020988 n).toNat
+
+end
+
+end A203008.P4282577871944221847
 
 /-!
 # A203009: (n-1)-st elementary symmetric function of first n Lucas numbers, starting with L(0)=2.

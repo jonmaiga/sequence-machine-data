@@ -679,6 +679,29 @@ def P17751633943195143222.Spec : Prop :=
 
 end A231601
 
+/-! ## A231601.P5086657045930470358
+
+`A231777(A002620(n+1))`
+-/
+
+namespace A231601.P5086657045930470358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231777 (A002620 (n + 1)).toNat
+
+end
+
+end A231601.P5086657045930470358
+
+namespace A231601
+
+/-- `A231777(A002620(n+1))` -/
+def P5086657045930470358.Spec : Prop :=
+  ∀ n, P5086657045930470358.a n = A231601 n
+
+end A231601
+
 /-!
 # A231603: Floor of the arithmetic-geometric mean of n+n and n*n.
 
@@ -1571,6 +1594,32 @@ namespace A231621
 /-- `A108104(∑[2*n])` -/
 def P4944792045749038238.Spec : Prop :=
   ∀ n, P4944792045749038238.a n = A231621 n
+
+end A231621
+
+/-! ## A231621.P17208319385072923036
+
+`A135851(∑[n]+5)`
+-/
+
+namespace A231621.P17208319385072923036
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135851 (∑ j ∈ Finset.range (n + 1), f1 j + 5)
+
+end
+
+end A231621.P17208319385072923036
+
+namespace A231621
+
+/-- `A135851(∑[n]+5)` -/
+def P17208319385072923036.Spec : Prop :=
+  ∀ n, P17208319385072923036.a n = A231621 n
 
 end A231621
 

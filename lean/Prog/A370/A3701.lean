@@ -36,7 +36,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
@@ -3221,23 +3220,27 @@ end
 
 end A370134.P3034105296319825661
 
-/-! ## A370134.P15470781576827406730
+/-! ## A370134.P3729205069583725079
 
-`filter[A370121(n), A087049(#)]`
+`∩[2*n, A370121(n+1)]`
 -/
 
-namespace A370134.P15470781576827406730
+namespace A370134.P3729205069583725079
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A370121 n
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A087049 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370121 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A370134.P15470781576827406730
+end A370134.P3729205069583725079
 
 /-!
 # A370135: Triangle read by rows: T(n,k) = (A002110(n) + A002110(k)) / A002110(k), 1 <= k <= n.
@@ -7358,4 +7361,26 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370199.P15656636336758609162
+
+/-! ## A370199.P15556952582250052796
+
+`∩[A356395(n+1), A386488(n+1)]`
+-/
+
+namespace A370199.P15556952582250052796
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A356395 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386488 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A370199.P15556952582250052796
 

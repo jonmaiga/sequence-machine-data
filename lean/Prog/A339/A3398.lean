@@ -64,7 +64,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B011.C001
@@ -5724,6 +5723,28 @@ end
 
 end A339842.P8526804594598947014
 
+/-! ## A339842.P4428598400654600915
+
+`∩[A322109(n+1), A339618(n+1)]`
+-/
+
+namespace A339842.P4428598400654600915
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322109 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A339842.P4428598400654600915
+
 /-! ## A339842.P16017059428293273477
 
 `∩[A335127(n+1), A339618(n+1)]`
@@ -5745,28 +5766,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A339842.P16017059428293273477
-
-/-! ## A339842.P17782047383274121682
-
-`∩[A322109(n+1), A339618(n+2)]`
--/
-
-namespace A339842.P17782047383274121682
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322109 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339618 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A339842.P17782047383274121682
 
 /-!
 # A339843: Number of distinct sorted degree sequences among all n-vertex half-loop-graphs without isolated vertices.
@@ -7807,6 +7806,28 @@ end
 
 end A339869.P18204056518844846773
 
+/-! ## A339869.P15857450838264207896
+
+`∩[A225498(n+1), A339880(n+1)]`
+-/
+
+namespace A339869.P15857450838264207896
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A225498 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339880 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A339869.P15857450838264207896
+
 /-! ## A339869.P10375858943314138795
 
 `∩[A231570(n+1), A339880(n+1)]`
@@ -7828,28 +7849,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A339869.P10375858943314138795
-
-/-! ## A339869.P5307156088378756023
-
-`∩[A231572(n+1), A339880(n+1)]`
--/
-
-namespace A339869.P5307156088378756023
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231572 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339880 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A339869.P5307156088378756023
 
 /-!
 # A339870: Composite numbers k of the form 4u+1 for which the odd part of phi(k) divides k-1.

@@ -560,6 +560,50 @@ end A395628
 The programs for A395630, there is no canonical definition to state claims against.
 -/
 
+/-! ## A395630.P1424585805234072589
+
+`∪[A129618(n+1), A158333(n)]`
+-/
+
+namespace A395630.P1424585805234072589
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129618 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158333 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395630.P1424585805234072589
+
+/-! ## A395630.P8798957722176718720
+
+`∪[A038032(n+1), A129618(n+1)]`
+-/
+
+namespace A395630.P8798957722176718720
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038032 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395630.P8798957722176718720
+
 /-! ## A395630.P13709587383292938639
 
 `∪[A048737(n+1), A129618(n+1)]`
@@ -582,6 +626,28 @@ end
 
 end A395630.P13709587383292938639
 
+/-! ## A395630.P4888379063899069963
+
+`∪[A059533(n+1), A129618(n+1)]`
+-/
+
+namespace A395630.P4888379063899069963
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A059533 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A129618 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395630.P4888379063899069963
+
 /-! ## A395630.P8907457091800791760
 
 `∪[A080682(n+1), A129618(n+1)]`
@@ -603,72 +669,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395630.P8907457091800791760
-
-/-! ## A395630.P14470955101741818421
-
-`∪[A080683(n+1), A129618(n+1)]`
--/
-
-namespace A395630.P14470955101741818421
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080683 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129618 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395630.P14470955101741818421
-
-/-! ## A395630.P1440096348072471541
-
-`∪[A081333(n+1), A129618(n+1)]`
--/
-
-namespace A395630.P1440096348072471541
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A081333 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129618 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395630.P1440096348072471541
-
-/-! ## A395630.P13129893752840166554
-
-`∪[A129618(n+1), A174228(n+1)]`
--/
-
-namespace A395630.P13129893752840166554
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129618 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174228 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395630.P13129893752840166554
 
 /-!
 # A395632: a(n) = number of triples (x, y, z) such that 2*x^2 + y*z = n, where x, y, z are positive integers satisfying x < y <= z.
@@ -883,6 +883,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395643.P12448342320099423577
+
+/-! ## A395643.P12170801376900754335
+
+`∪[A063764(n+1), A169802(n+1)]`
+-/
+
+namespace A395643.P12170801376900754335
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063764 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A169802 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395643.P12170801376900754335
 
 /-! ## A395643.P17622491687498378346
 

@@ -7241,6 +7241,29 @@ def P17876723095469027872.Spec : Prop :=
 
 end A243291
 
+/-! ## A243291.P17077411619736754277
+
+`n+1-A285715(A048673(n+1))`
+-/
+
+namespace A243291.P17077411619736754277
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) - A285715 (A048673 (n + 1)).toNat
+
+end
+
+end A243291.P17077411619736754277
+
+namespace A243291
+
+/-- `n+1-A285715(A048673(n+1))` -/
+def P17077411619736754277.Spec : Prop :=
+  ∀ n, P17077411619736754277.a n = A243291 (n + 1)
+
+end A243291
+
 /-!
 # A243292: Odd numbers n such that (4^n - 1)/3 is a base-2 pseudoprime.
 

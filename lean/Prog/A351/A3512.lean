@@ -47,7 +47,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -57,7 +56,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1694,6 +1692,25 @@ end
 
 end A351226.P54358681820477314
 
+/-! ## A351226.P10774731229898189909
+
+`comp[A351227(n+1)]`
+-/
+
+namespace A351226.P10774731229898189909
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351227 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A351226.P10774731229898189909
+
 /-! ## A351226.P6185700238341025275
 
 `lt[A324580(n), n²]`
@@ -1917,6 +1934,28 @@ end A351227.P858145092124196610
 
 The programs for A351228, there is no canonical definition to state claims against.
 -/
+
+/-! ## A351228.P10005568556004507767
+
+`∪[A370127(n+1), A370128(n+1)]`
+-/
+
+namespace A351228.P10005568556004507767
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370127 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370128 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A351228.P10005568556004507767
 
 /-! ## A351228.P18233138573014581208
 
@@ -9241,6 +9280,25 @@ end
 
 end A351291.P3660884306926331337
 
+/-! ## A351291.P8212071615905349192
+
+`comp[A351290(n+1)]`
+-/
+
+namespace A351291.P8212071615905349192
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351290 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A351291.P8212071615905349192
+
 /-! ## A351291.P7562050933968537672
 
 `lt[A351014(n), A000120(A333627(n))]`
@@ -9282,27 +9340,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A351291.P6429178596522414132
-
-/-! ## A351291.P4584448392278997151
-
-`lt[A351014(n), A000120(A353847(n))]`
--/
-
-namespace A351291.P4584448392278997151
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351014 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000120 (A353847 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A351291.P4584448392278997151
 
 /-!
 # A351293: Number of non-Look-and-Say partitions of n. Number of integer partitions of n such that there is no way to choose a disjoint strict integer partition of each multiplicity.
@@ -9529,6 +9566,24 @@ end
 
 end A351294.P10891987050913621053
 
+/-! ## A351294.P16367224864595196339
+
+`filter[A130446(n+1), A351564(#)]`
+-/
+
+namespace A351294.P16367224864595196339
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130446 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A351564 (f1 j).toNat = 1) n)
+
+end
+
+end A351294.P16367224864595196339
+
 /-!
 # A351295: Numbers whose multiset of prime factors has no permutation with all distinct run-lengths.
 
@@ -9694,6 +9749,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A351295.P1033384945356113107
+
+/-! ## A351295.P13033044316554764590
+
+`filter[A182851(n+1), A005171(#)]`
+-/
+
+namespace A351295.P13033044316554764590
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182851 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A005171 (f1 j).toNat = 1) n)
+
+end
+
+end A351295.P13033044316554764590
 
 /-!
 # A351296: The sum of the next n digits of Pi.

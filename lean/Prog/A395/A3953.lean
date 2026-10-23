@@ -17,15 +17,18 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
@@ -793,6 +796,29 @@ def P13602176529127799093.Spec : Prop :=
 
 end A395328
 
+/-! ## A395328.P16731381107692299120
+
+`A349481(A026491(n+1))`
+-/
+
+namespace A395328.P16731381107692299120
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349481 (A026491 (n + 1)).toNat
+
+end
+
+end A395328.P16731381107692299120
+
+namespace A395328
+
+/-- `A349481(A026491(n+1))` -/
+def P16731381107692299120.Spec : Prop :=
+  ∀ n, P16731381107692299120.a n = A395328 (n + 3)
+
+end A395328
+
 /-!
 # A395329: Number of one-sided polynars with n cells that are not the 2 X enlargement of a one-sided n-omino.
 
@@ -1211,19 +1237,19 @@ end
 
 end A395338.P4045552148635804037
 
-/-! ## A395338.P17626309317655836960
+/-! ## A395338.P14591314461525544600
 
-`∩[A048375(n+1), A344045(n+1)]`
+`∩[A009087(n+1), A048375(n+1)]`
 -/
 
-namespace A395338.P17626309317655836960
+namespace A395338.P14591314461525544600
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048375 (n + 1)
+  A009087 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344045 (n + 1)
+  A048375 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1231,7 +1257,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A395338.P17626309317655836960
+end A395338.P14591314461525544600
 
 /-!
 # A395340: a(n) = (2*n)! * [x^(2*n)] cosh(x) / cos(x)^2.
@@ -1699,6 +1725,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395360.P6914205099489011495
+
+/-! ## A395360.P2369323070434571329
+
+`filter[A396178(n+1), A272532(#)]`
+-/
+
+namespace A395360.P2369323070434571329
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396178 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A272532 (f1 j).toNat = 1) n)
+
+end
+
+end A395360.P2369323070434571329
 
 /-!
 # A395361: For n <= 6, a(n) = Fibonacci(n); for n >= 7, delete all except the leftmost two digits of Fibonacci(n).

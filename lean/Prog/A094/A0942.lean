@@ -5642,6 +5642,35 @@ def P16356471645788781411.Spec : Prop :=
 
 end A094259
 
+/-! ## A094259.P17848470875050517290
+
+`∑[∑[a(n-1)²/a(n-2)]]` with `a(0)=1, a(1)=1, a(2)=6`
+-/
+
+namespace A094259.P17848470875050517290
+noncomputable section
+
+def f2 : ℕ → ℚ := SequenceMachineLib.rec [1, 1, 6] fun n f2 =>
+  f2 (n - 1) ^ 2 / f2 (n - 2)
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A094259.P17848470875050517290
+
+namespace A094259
+
+/-- `∑[∑[a(n-1)²/a(n-2)]]` -/
+def P17848470875050517290.Spec : Prop :=
+  ∀ n, P17848470875050517290.a n = (A094259 n : ℚ)
+
+end A094259
+
 /-!
 # A094260: Sum of next n numbers/n if n divides the sum else n times the sum of next n numbers.
 
@@ -8213,7 +8242,7 @@ end A094288.P17627151878662499447
 /-!
 # A094290: a(n) = prime(A001511(n)), where A001511 is one more than the 2-adic valuation of n.
 
-The programs for A094290, the canonical program `A094290.P11263062616059200680` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094290 has offset 1).
+The programs for A094290, the canonical program `A094290.P11263062616059200680` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094290 has offset 1).
 
 The definition of A094290 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8222,7 +8251,7 @@ The definition of A094290 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A001511(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A094290

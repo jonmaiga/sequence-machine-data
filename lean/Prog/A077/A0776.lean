@@ -725,30 +725,26 @@ def P875556991191416712.Spec : Prop :=
 
 end A077605
 
-/-! ## A077605.P5001877400146735830
+/-! ## A077605.P15193077541549593778
 
-`char[A245300(n)]`
+`A052553(n)/A059674(n)`
 -/
 
-namespace A077605.P5001877400146735830
+namespace A077605.P15193077541549593778
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245300 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A052553 n : ℚ) / (A059674 n : ℚ)
 
 end
 
-end A077605.P5001877400146735830
+end A077605.P15193077541549593778
 
 namespace A077605
 
-/-- `char[A245300(n)]` -/
-def P5001877400146735830.Spec : Prop :=
-  ∀ n, (P5001877400146735830.a n : ℤ) = A077605 (n + 1)
+/-- `A052553(n)/A059674(n)` -/
+def P15193077541549593778.Spec : Prop :=
+  ∀ n, P15193077541549593778.a n = (A077605 (n + 1) : ℚ)
 
 end A077605
 
@@ -1773,6 +1769,29 @@ namespace A077611
 /-- `A000142(n)*A038714(2*n)` -/
 def P8609391719695181685.Spec : Prop :=
   ∀ n, P8609391719695181685.a n = A077611 (n + 1)
+
+end A077611
+
+/-! ## A077611.P12161403095710475063
+
+`A000142(n+1)/A141310(n)*A354280(n)`
+-/
+
+namespace A077611.P12161403095710475063
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A000142 (n + 1) : ℚ) / (A141310 n : ℚ) * (A354280 n : ℚ)
+
+end
+
+end A077611.P12161403095710475063
+
+namespace A077611
+
+/-- `A000142(n+1)/A141310(n)*A354280(n)` -/
+def P12161403095710475063.Spec : Prop :=
+  ∀ n, P12161403095710475063.a n = (A077611 (n + 1) : ℚ)
 
 end A077611
 
@@ -4056,20 +4075,20 @@ end
 
 end A077627.P10064290690045073457
 
-/-! ## A077627.P15643935326051470651
+/-! ## A077627.P10549983868051571602
 
-`2*A017915(n+1)-2`
+`2*(A017915(n+1)-1)`
 -/
 
-namespace A077627.P15643935326051470651
+namespace A077627.P10549983868051571602
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A017915 (n + 1) - 2
+  2 * (A017915 (n + 1) - 1)
 
 end
 
-end A077627.P15643935326051470651
+end A077627.P10549983868051571602
 
 /-! ## A077627.P4881584546926778364
 
@@ -7618,6 +7637,34 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A077655.P10855134296715037390
+
+/-!
+# A077656: Numbers having a different number of prime factors as their successors (counted with multiplicity).
+
+The programs for A077656, there is no canonical definition to state claims against.
+-/
+
+/-! ## A077656.P2670841171601084918
+
+`∪[A322839(n+1), A322840(n+1)]`
+-/
+
+namespace A077656.P2670841171601084918
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322839 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A322840 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A077656.P2670841171601084918
 
 /-!
 # A077657: Least number with exactly n consecutive successors, all having the same number of prime factors (counted with multiplicity).

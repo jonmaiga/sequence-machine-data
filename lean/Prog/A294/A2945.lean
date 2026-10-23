@@ -43,7 +43,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -5200,6 +5199,28 @@ end A294577.P11400185604420913918
 The programs for A294578, there is no canonical definition to state claims against.
 -/
 
+/-! ## A294578.P389498642012912174
+
+`∪[A294595(n+1), A294596(n+1)]`
+-/
+
+namespace A294578.P389498642012912174
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294595 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294596 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A294578.P389498642012912174
+
 /-! ## A294578.P11056090496516685026
 
 `lt[5, A000164(n)]`
@@ -6513,6 +6534,28 @@ end A294595.P9455258596152564407
 The programs for A294596, there is no canonical definition to state claims against.
 -/
 
+/-! ## A294596.P9094878795541003608
+
+`∪[A294597(n+1), A294710(n+1)]`
+-/
+
+namespace A294596.P9094878795541003608
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294597 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294710 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A294596.P9094878795541003608
+
 /-! ## A294596.P11317465944568177926
 
 `lt[6, A000164(n)]`
@@ -6644,6 +6687,28 @@ end A294596.P16272666511600507876
 
 The programs for A294597, there is no canonical definition to state claims against.
 -/
+
+/-! ## A294597.P13984992197142115925
+
+`∪[A294711(n+1), A294714(n+1)]`
+-/
+
+namespace A294597.P13984992197142115925
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294711 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294714 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A294597.P13984992197142115925
 
 /-! ## A294597.P14251787872415920609
 

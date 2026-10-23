@@ -5026,6 +5026,28 @@ end A349864.P1659949235602753514
 The programs for A349865, there is no canonical definition to state claims against.
 -/
 
+/-! ## A349865.P8529192858187664929
+
+`∪[A349733(n+1), A350061(n+1)]`
+-/
+
+namespace A349865.P8529192858187664929
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A349733 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A350061 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A349865.P8529192858187664929
+
 /-! ## A349865.P11768508123086320502
 
 `∩[A002808(n+1), comp[A349278(n+1)]]`
@@ -5114,27 +5136,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A349865.P12634278906513090070
-
-/-! ## A349865.P4259392262844357987
-
-`A020725(eq[A049084(n+1), A349864(n+1)])`
--/
-
-namespace A349865.P4259392262844357987
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049084 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A349864 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020725 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A349865.P4259392262844357987
 
 /-!
 # A349866: Fixed points of A318996.

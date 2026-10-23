@@ -350,93 +350,79 @@ end
 
 end A303705.P12699692832534497003
 
-/-! ## A303705.P11331686038920994859
+/-! ## A303705.P5369001190450203534
 
-`∪[A005385(n+2), A119660(A076084(n+2))]`
+`A119660(A076084(n+2))`
 -/
 
-namespace A303705.P11331686038920994859
+namespace A303705.P5369001190450203534
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005385 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119660 (A076084 (n + 2)).toNat
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
 end
 
-end A303705.P11331686038920994859
+end A303705.P5369001190450203534
 
-/-! ## A303705.P9240546353213810473
+/-! ## A303705.P17484937893322799268
 
-`∪[A005385(n+2), A119660(A151764(n+2))]`
+`A119660(A151764(n+2))`
 -/
 
-namespace A303705.P9240546353213810473
+namespace A303705.P17484937893322799268
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005385 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A119660 (A151764 (n + 2)).toNat
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
 end
 
-end A303705.P9240546353213810473
+end A303705.P17484937893322799268
 
-/-! ## A303705.P3262294996538719965
+/-! ## A303705.P10575921976468208700
 
-`∪[2*A176045(n+1)-1, A119660(A076084(n+2))]`
+`∩[A119660(n+1), A138536(n+1)]`
 -/
 
-namespace A303705.P3262294996538719965
+namespace A303705.P10575921976468208700
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A176045 (n + 1) - 1
+  A119660 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119660 (A076084 (n + 2)).toNat
+  A138536 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A303705.P3262294996538719965
+end A303705.P10575921976468208700
 
-/-! ## A303705.P1352827283423687515
+/-! ## A303705.P11022176376735506358
 
-`∪[2*A176045(n+1)-1, A119660(A151764(n+2))]`
+`∩[A119660(n+1), A223036(n+1)]`
 -/
 
-namespace A303705.P1352827283423687515
+namespace A303705.P11022176376735506358
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A176045 (n + 1) - 1
+  A119660 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119660 (A151764 (n + 2)).toNat
+  A223036 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A303705.P1352827283423687515
+end A303705.P11022176376735506358
 
 /-!
 # A303706: a(n) is the number of lattice points in a Cartesian grid between an equilateral triangle and an inscribed circle of radius n; one of the side of triangle is perpendicular to the X-axis; the circle's center is at the origin.
@@ -6823,6 +6809,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A303762.P15301056791984489815
+
+/-! ## A303762.P13365725196338403880
+
+`A303778(A062399(n))`
+-/
+
+namespace A303762.P13365725196338403880
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303778 (A062399 n).toNat
+
+end
+
+end A303762.P13365725196338403880
+
+/-! ## A303762.P17738289723257288486
+
+`A303778(A351870(n))`
+-/
+
+namespace A303762.P17738289723257288486
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303778 (A351870 n).toNat
+
+end
+
+end A303762.P17738289723257288486
 
 /-!
 # A303764: Inverse permutation to A303763.

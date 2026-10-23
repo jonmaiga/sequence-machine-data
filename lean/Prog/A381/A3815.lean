@@ -577,6 +577,28 @@ end
 
 end A381509.P7918562126314457796
 
+/-! ## A381509.P1173366583976705096
+
+`∪[A008592(n), A102827(n)]`
+-/
+
+namespace A381509.P1173366583976705096
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008592 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102827 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A381509.P1173366583976705096
+
 /-!
 # A381512: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = (2*n+k)!/k! * [x^(2*n+k)] sinh(x)^k.
 
@@ -2072,6 +2094,28 @@ end
 
 end A381541.P17482388675004198301
 
+/-! ## A381541.P6900290913962851740
+
+`∩[A319239(n+1), A360558(n+1)]`
+-/
+
+namespace A381541.P6900290913962851740
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319239 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A360558 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A381541.P6900290913962851740
+
 /-! ## A381541.P399097909885174932
 
 `∩[A319239(n+1), A396852(n+1)]`
@@ -3533,6 +3577,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381577.P17274195977417642665
+
+/-! ## A381577.P13884419293813956415
+
+`A316344(A047429(n+1))`
+-/
+
+namespace A381577.P13884419293813956415
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316344 (A047429 (n + 1)).toNat
+
+end
+
+end A381577.P13884419293813956415
 
 /-!
 # A381579: The Chung-Graham representation of n: representation of n in base of even-indexed Fibonacci numbers.

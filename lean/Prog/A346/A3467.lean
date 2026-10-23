@@ -1347,23 +1347,23 @@ end A346707.P2527619761217660935
 The programs for A346710, there is no canonical definition to state claims against.
 -/
 
-/-! ## A346710.P5452551495656492713
+/-! ## A346710.P16897933158423416134
 
-`∏{p}[(2*n)!, #/gcd(#, 2*n)]`
+`∑[10^a(n-1)]` with `a(0)=1, a(1)=0, a(2)=2, a(3)=2`
 -/
 
-namespace A346710.P5452551495656492713
+namespace A346710.P16897933158423416134
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (2 * n)
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 0, 2, 2] fun n f1 =>
+  10 ^ f1 (n - 1)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), (p : ℚ) / (Nat.gcd p (2 * n) : ℚ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A346710.P5452551495656492713
+end A346710.P16897933158423416134
 
 /-!
 # A346712: Denominators of a fractional order v differentiation of the Bernoulli polynomials with v = 1/2, evaluated at x = 1 and normalized by sqrt(Pi).

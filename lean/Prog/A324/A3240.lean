@@ -48,7 +48,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -908,29 +907,26 @@ def P16868774359631515022.Spec : Prop :=
 
 end A324015
 
-/-! ## A324015.P1068770962067598475
+/-! ## A324015.P11831880136055345371
 
-`record[A090244(n)-1]`
+`ogf((x-x^3+x^4)/(1-2x+x^3))`
 -/
 
-namespace A324015.P1068770962067598475
+namespace A324015.P11831880136055345371
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090244 n - 1
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  SequenceMachineLib.ogf [0, 1, 0, -1, 1] [1, -2, 0, 1] n
 
 end
 
-end A324015.P1068770962067598475
+end A324015.P11831880136055345371
 
 namespace A324015
 
-/-- `record[A090244(n)-1]` -/
-def P1068770962067598475.Spec : Prop :=
-  ∀ n, P1068770962067598475.a n = A324015 n
+/-- `ogf((x-x^3+x^4)/(1-2x+x^3))` -/
+def P11831880136055345371.Spec : Prop :=
+  ∀ n, P11831880136055345371.a n = A324015 n
 
 end A324015
 
@@ -3280,7 +3276,7 @@ end A324045
 /-!
 # A324046: a(n) = gcd(n, A106316(n)).
 
-The programs for A324046, the canonical program `A324046.P17445629398137156881` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324046 has offset 1).
+The programs for A324046, the canonical program `A324046.P17445629398137156881` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324046 has offset 1).
 
 The definition of A324046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3310,11 +3306,34 @@ def P3889551849928001328.Spec : Prop :=
 
 end A324046
 
+/-! ## A324046.P15855070729265767822
+
+`gcd(A000027(n+1), A106315(n+1))`
+-/
+
+namespace A324046.P15855070729265767822
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A000027 (n + 1)) (A106315 (n + 1))
+
+end
+
+end A324046.P15855070729265767822
+
+namespace A324046
+
+/-- `gcd(A000027(n+1), A106315(n+1))` -/
+def P15855070729265767822.Spec : Prop :=
+  ∀ n, (P15855070729265767822.a n : ℤ) = A324046 (n + 1)
+
+end A324046
+
 /-! ## A324046.P17445629398137156881
 
 `gcd(A324047(n+1)+A094471(n+1), A153152(n))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A324046

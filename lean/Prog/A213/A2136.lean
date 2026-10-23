@@ -3706,6 +3706,28 @@ end
 
 end A213637.P1308468368474829732
 
+/-! ## A213637.P1000892140237560935
+
+`∪[2*n+1, A010442(n+2)]`
+-/
+
+namespace A213637.P1000892140237560935
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010442 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A213637.P1000892140237560935
+
 /-!
 # A213638: Positions of 2 in A213636.
 
@@ -4664,6 +4686,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A213645.P10107196116233592641
+
+/-! ## A213645.P18168331635372002606
+
+`∩[A257129(n+1), A257131(n+1)]`
+-/
+
+namespace A213645.P18168331635372002606
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257129 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257131 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A213645.P18168331635372002606
 
 /-!
 # A213646: Initial members of prime 11-tuplets: primes p such that p + (0, 4, 6, 10, 16, 18, 24, 28, 30, 34, 36) are all prime.

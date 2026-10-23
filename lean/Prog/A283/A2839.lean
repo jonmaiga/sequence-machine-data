@@ -51,7 +51,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -6632,6 +6631,29 @@ def P9239883307972812091.Spec : Prop :=
 
 end A283969
 
+/-! ## A283969.P1177083510265482738
+
+`a(n-1)-floor(n/(ϕ-2))` with `a(0)=1`
+-/
+
+namespace A283969.P1177083510265482738
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) - ⌊(n : ℝ) / (Real.goldenRatio - 2)⌋
+
+end
+
+end A283969.P1177083510265482738
+
+namespace A283969
+
+/-- `a(n-1)-floor(n/(ϕ-2))` -/
+def P1177083510265482738.Spec : Prop :=
+  ∀ n, P1177083510265482738.a n = A283969 n
+
+end A283969
+
 /-! ## A283969.P17594482389841922596
 
 `floor(ϕ*n+a(n-1)+n+1)` with `a(0)=1`
@@ -6932,32 +6954,6 @@ namespace A283969
 /-- `∑[A003622(n+1)]-A005206(n)` -/
 def P4193342312970111459.Spec : Prop :=
   ∀ n, P4193342312970111459.a n = A283969 n
-
-end A283969
-
-/-! ## A283969.P14078582398402144673
-
-`∑[A001950(n+1)]-A000201(n+1)`
--/
-
-namespace A283969.P14078582398402144673
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001950 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - A000201 (n + 1)
-
-end
-
-end A283969.P14078582398402144673
-
-namespace A283969
-
-/-- `∑[A001950(n+1)]-A000201(n+1)` -/
-def P14078582398402144673.Spec : Prop :=
-  ∀ n, P14078582398402144673.a n = A283969 n
 
 end A283969
 
