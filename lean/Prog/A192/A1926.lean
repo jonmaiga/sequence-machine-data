@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,22 +11,25 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +60,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -88,8 +89,8 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A192600: Number of nXnXn triangular 0..1 arrays with each element equal to at least one neighbor and new values 0..1 introduced in row major order.
@@ -1896,7 +1897,7 @@ end A192632.P1087047716301316516
 /-!
 # A192633: Partial sums of the Floor-Sqrt transform of Catalan numbers.
 
-The programs for A192633, the canonical program `A192633.P30203612038079330` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192633 has offset 0).
+The programs for A192633, the canonical program `A192633.P30203612038079330` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192633 has offset 0).
 
 The definition of A192633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 338 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1905,7 +1906,7 @@ The definition of A192633 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A186546(n)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A192633
@@ -3565,6 +3566,29 @@ def P14527991431701777898.Spec : Prop :=
 
 end A192655
 
+/-! ## A192655.P16943909988978456992
+
+`floor(sqrt(C(2*n, n)))`
+-/
+
+namespace A192655.P16943909988978456992
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.sqrt (Nat.choose (2 * n) n)
+
+end
+
+end A192655.P16943909988978456992
+
+namespace A192655
+
+/-- `floor(sqrt(C(2*n, n)))` -/
+def P16943909988978456992.Spec : Prop :=
+  ∀ n, (P16943909988978456992.a n : ℤ) = A192655 n
+
+end A192655
+
 /-! ## A192655.P16465555637719250301
 
 `floor(sqrt(n+1)*sqrt(A000108(n)))`
@@ -3988,33 +4012,10 @@ def P139282012341622605.Spec : Prop :=
 
 end A192655
 
-/-! ## A192655.P13324152224409565595
-
-`floor(sqrt(A129383(2*n)))`
--/
-
-namespace A192655.P13324152224409565595
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.sqrt (A129383 (2 * n))
-
-end
-
-end A192655.P13324152224409565595
-
-namespace A192655
-
-/-- `floor(sqrt(A129383(2*n)))` -/
-def P13324152224409565595.Spec : Prop :=
-  ∀ n, P13324152224409565595.a n = A192655 n
-
-end A192655
-
 /-!
 # A192656: Partial sums of the Floor-Sqrt transform of central binomial coefficients.
 
-The programs for A192656, the canonical program `A192656.P15892552188693503180` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192656 has offset 0).
+The programs for A192656, the canonical program `A192656.P15892552188693503180` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192656 has offset 0).
 
 The definition of A192656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4023,7 +4024,7 @@ The definition of A192656 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A192655(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A192656
@@ -4993,27 +4994,50 @@ end A192662.P12534749921683446364
 /-!
 # A192663: Floor-Sqrt transform of the binomial coefficients binomial(3*n,n) (A005809).
 
-The programs for A192663, the canonical program `A192663.P4494546551923171668` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192663 has offset 0).
+The programs for A192663, the canonical program `A192663.P10056951974513112194` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192663 has offset 0).
 
-The definition of A192663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A192663 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A192663.P10056951974513112194
+
+`floor(sqrt(C(3*n, n)))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A192663
+
+/-- `floor(sqrt(C(3*n, n)))` -/
+def P10056951974513112194.Spec : Prop :=
+  ∀ n, (P10056951974513112194.a n : ℤ) = A192663 n
+
+theorem P10056951974513112194.correct : P10056951974513112194.Spec := by
+  intro n
+  simp only [A192663]
+
+end A192663
 
 /-! ## A192663.P4494546551923171668
 
 `floor(sqrt(A005809(n)))`
-
-The canonical program, it is in `Seq.B002.C003`.
 -/
+
+namespace A192663.P4494546551923171668
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.sqrt (A005809 n)
+
+end
+
+end A192663.P4494546551923171668
 
 namespace A192663
 
 /-- `floor(sqrt(A005809(n)))` -/
 def P4494546551923171668.Spec : Prop :=
   ∀ n, P4494546551923171668.a n = A192663 n
-
-theorem P4494546551923171668.correct : P4494546551923171668.Spec := by
-  intro n
-  simp only [A192663]
 
 end A192663
 
@@ -5161,29 +5185,6 @@ def P11472075158281900072.Spec : Prop :=
 
 end A192663
 
-/-! ## A192663.P10056951974513112194
-
-`floor(sqrt(C(3*n, n)))`
--/
-
-namespace A192663.P10056951974513112194
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.sqrt (Nat.choose (3 * n) n)
-
-end
-
-end A192663.P10056951974513112194
-
-namespace A192663
-
-/-- `floor(sqrt(C(3*n, n)))` -/
-def P10056951974513112194.Spec : Prop :=
-  ∀ n, (P10056951974513112194.a n : ℤ) = A192663 n
-
-end A192663
-
 /-! ## A192663.P8907018916418672169
 
 `floor(root(C(3*n, n), 2))`
@@ -5233,27 +5234,53 @@ end A192663
 /-!
 # A192664: Floor-Sqrt transform of the binomial coefficients bin(2*n+1,n) (A001700).
 
-The programs for A192664, the canonical program `A192664.P12136774162781852709` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192664 has offset 0).
+The programs for A192664, the canonical program `A192664.P8377881052819169242` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192664 has offset 0).
 
-The definition of A192664 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A192664 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A192664.P8377881052819169242
+
+`floor(sqrt(C(2*n+1, n)))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A192664
+
+/-- `floor(sqrt(C(2*n+1, n)))` -/
+def P8377881052819169242.Spec : Prop :=
+  ∀ n, (P8377881052819169242.a n : ℤ) = A192664 n
+
+theorem P8377881052819169242.correct : P8377881052819169242.Spec := by
+  intro n
+  simp only [A192664]
+
+end A192664
 
 /-! ## A192664.P12136774162781852709
 
 `floor(sqrt(∏[4-2/(n+1)]/2))`
-
-The canonical program, it is in `Seq.B000.C025`.
 -/
+
+namespace A192664.P12136774162781852709
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  4 - 2 / (n + 1 : ℚ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊Real.sqrt (((∏ j ∈ Finset.range (n + 1), f1 j) / 2 : ℚ) : ℝ)⌋
+
+end
+
+end A192664.P12136774162781852709
 
 namespace A192664
 
 /-- `floor(sqrt(∏[4-2/(n+1)]/2))` -/
 def P12136774162781852709.Spec : Prop :=
   ∀ n, P12136774162781852709.a n = A192664 n
-
-theorem P12136774162781852709.correct : P12136774162781852709.Spec := by
-  intro n
-  simp only [A192664]
 
 end A192664
 
@@ -5356,27 +5383,50 @@ end A192664
 /-!
 # A192665: Floor-Sqrt transform of the numbers binomial(3*n,n)/(2*n+1) (A001764).
 
-The programs for A192665, the canonical program `A192665.P16797719466534219078` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192665 has offset 0).
+The programs for A192665, the canonical program `A192665.P14111883958955864823` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192665 has offset 0).
 
-The definition of A192665 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A192665 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A192665.P14111883958955864823
+
+`floor(sqrt(C(3*n, n)/(2*n+1)))`
+
+The canonical program, it is in `Seq.B000.C027`.
+-/
+
+namespace A192665
+
+/-- `floor(sqrt(C(3*n, n)/(2*n+1)))` -/
+def P14111883958955864823.Spec : Prop :=
+  ∀ n, P14111883958955864823.a n = A192665 n
+
+theorem P14111883958955864823.correct : P14111883958955864823.Spec := by
+  intro n
+  simp only [A192665]
+
+end A192665
 
 /-! ## A192665.P16797719466534219078
 
 `floor(sqrt(A001764(n)))`
-
-The canonical program, it is in `Seq.B001.C006`.
 -/
+
+namespace A192665.P16797719466534219078
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.sqrt (A001764 n)
+
+end
+
+end A192665.P16797719466534219078
 
 namespace A192665
 
 /-- `floor(sqrt(A001764(n)))` -/
 def P16797719466534219078.Spec : Prop :=
   ∀ n, P16797719466534219078.a n = A192665 n
-
-theorem P16797719466534219078.correct : P16797719466534219078.Spec := by
-  intro n
-  simp only [A192665]
 
 end A192665
 
@@ -5639,29 +5689,6 @@ namespace A192665
 /-- `floor(root(A045721(n)/(3*n+1), 2))` -/
 def P10820790632291356285.Spec : Prop :=
   ∀ n, P10820790632291356285.a n = A192665 n
-
-end A192665
-
-/-! ## A192665.P14111883958955864823
-
-`floor(sqrt(C(3*n, n)/(2*n+1)))`
--/
-
-namespace A192665.P14111883958955864823
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sqrt ((Nat.choose (3 * n) n : ℚ) / (2 * n + 1 : ℚ) : ℝ)⌋
-
-end
-
-end A192665.P14111883958955864823
-
-namespace A192665
-
-/-- `floor(sqrt(C(3*n, n)/(2*n+1)))` -/
-def P14111883958955864823.Spec : Prop :=
-  ∀ n, P14111883958955864823.a n = A192665 n
 
 end A192665
 
@@ -6711,7 +6738,7 @@ end A192671
 /-!
 # A192672: Floor-Sqrt transform of little Schroeder numbers (A001003).
 
-The programs for A192672, the canonical program `A192672.P1400011279283696610` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192672 has offset 0).
+The programs for A192672, the canonical program `A192672.P1400011279283696610` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192672 has offset 0).
 
 The definition of A192672 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6743,7 +6770,7 @@ end A192672
 
 `floor(sqrt(abs(A080243(n))))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A192672
@@ -7066,7 +7093,7 @@ end A192672
 /-!
 # A192673: Floor-Sqrt transform of large Schroder numbers (A006318).
 
-The programs for A192673, the canonical program `A192673.P17428601771079711106` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192673 has offset 0).
+The programs for A192673, the canonical program `A192673.P17428601771079711106` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192673 has offset 0).
 
 The definition of A192673 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7340,7 +7367,7 @@ end A192673
 
 `floor(sqrt(abs(2*A080243(n))))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A192673

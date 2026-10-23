@@ -19,18 +19,20 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C030
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -6639,38 +6641,20 @@ end A327557.P7468261941444785727
 The programs for A327560, there is no canonical definition to state claims against.
 -/
 
-/-! ## A327560.P13295368028442600858
+/-! ## A327560.P8038472830014612189
 
-`∑[10*a(n-1)]-A327561(n+1)` with `a(0)=9`
+`10^(n+1)-1-A327561(n+1)`
 -/
 
-namespace A327560.P13295368028442600858
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [9] fun n f1 =>
-  10 * f1 (n - 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A327561 (n + 1)
-
-end
-
-end A327560.P13295368028442600858
-
-/-! ## A327560.P496793909996977994
-
-`A002283(n+1)-A327561(n+1)`
--/
-
-namespace A327560.P496793909996977994
+namespace A327560.P8038472830014612189
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002283 (n + 1) - A327561 (n + 1)
+  (10 ^ (n + 1) : ℤ) - 1 - A327561 (n + 1)
 
 end
 
-end A327560.P496793909996977994
+end A327560.P8038472830014612189
 
 /-!
 # A327561: The number of integers m in the range 0 < m < 10^n which are not divisible by any of their own digits (A038772).
@@ -6678,23 +6662,20 @@ end A327560.P496793909996977994
 The programs for A327561, there is no canonical definition to state claims against.
 -/
 
-/-! ## A327561.P15511372397989497004
+/-! ## A327561.P12330793541900987652
 
-`∑[10*a(n-1)]-A327560(n+1)` with `a(0)=9`
+`10^(n+1)-1-A327560(n+1)`
 -/
 
-namespace A327561.P15511372397989497004
+namespace A327561.P12330793541900987652
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [9] fun n f1 =>
-  10 * f1 (n - 1)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - A327560 (n + 1)
+  (10 ^ (n + 1) : ℤ) - 1 - A327560 (n + 1)
 
 end
 
-end A327561.P15511372397989497004
+end A327561.P12330793541900987652
 
 /-! ## A327561.P10095214057997778392
 
@@ -7219,7 +7200,7 @@ end A327564
 /-!
 # A327565: Number of transfers of marbles between two sets until the first repetition.
 
-The programs for A327565, the canonical program `A327565.P5195849866362779426` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327565 has offset 1).
+The programs for A327565, the canonical program `A327565.P5195849866362779426` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327565 has offset 1).
 
 The definition of A327565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7228,7 +7209,7 @@ The definition of A327565 is `conjectured`: the Lean definition is a formula tha
 
 `a((3*floor(n/2))%n)+1` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A327565
@@ -8799,7 +8780,7 @@ end A327572.P14304369479174624945
 /-!
 # A327573: Partial sums of the number of infinitary divisors function: a(n) = Sum_{k=1..n} id(k), where id is A037445.
 
-The programs for A327573, the canonical program `A327573.P16422618072216358095` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327573 has offset 1).
+The programs for A327573, the canonical program `A327573.P16422618072216358095` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327573 has offset 1).
 
 The definition of A327573 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8860,7 +8841,7 @@ end A327573
 
 `∑[A000079(∑{e}[n+1, #-val(#!, 2)])]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A327573
@@ -9546,7 +9527,7 @@ end A327580.P1265030978243802841
 /-!
 # A327582: a(n) = (17 * 7^(2*n+1) + 1)/24. Sequence related to the properties of the partition function A000041 modulo a power of 7.
 
-The programs for A327582, the canonical program `A327582.P16409215967493018630` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327582 has offset 0).
+The programs for A327582, the canonical program `A327582.P16409215967493018630` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327582 has offset 0).
 
 The definition of A327582 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(17*7^(2*n+1)+1)/24` (program `A327582.P5147949681618542721`, by `A327582.P5147949681618542721.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9555,7 +9536,7 @@ The definition of A327582 is `verified`: the Lean definition is proven equivalen
 
 `50*a(n-1)-49*a(n-2)` with `a(0)=5, a(1)=243`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A327582
@@ -10476,7 +10457,7 @@ end A327596.P13665459722437439731
 /-!
 # A327597: a(n) = numerator((a(n-1) + a(n-2) + 1)/a(n-1)), with a(1)=1, a(2)=2.
 
-The programs for A327597, the canonical program `A327597.P13559981709038144299` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327597 has offset 1).
+The programs for A327597, the canonical program `A327597.P13559981709038144299` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327597 has offset 1).
 
 The definition of A327597 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3654 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10485,7 +10466,7 @@ The definition of A327597 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)+a(n-2)+1)/gcd(a(n-1), a(n-3))` with `a(0)=1, a(1)=2, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A327597

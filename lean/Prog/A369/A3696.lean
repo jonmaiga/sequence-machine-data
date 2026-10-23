@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -13,14 +14,13 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
@@ -31,6 +31,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +45,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -55,6 +56,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -88,6 +90,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1322,7 +1325,7 @@ end A369623.P11891787631101871168
 /-!
 # A369626: a(n) is the number of permutations of [n] which avoid the patterns 1234, 1324, and 2413.
 
-The programs for A369626, the canonical program `A369626.P17577102465428849684` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369626 has offset 0).
+The programs for A369626, the canonical program `A369626.P17577102465428849684` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369626 has offset 0).
 
 The definition of A369626 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1331,7 +1334,7 @@ The definition of A369626 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7*a(n-1)-16*a(n-2)+14*a(n-3)-4*a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=6, a(4)=21`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A369626
@@ -1757,29 +1760,23 @@ end A369637.P7783616989463098288
 /-!
 # A369638: The n-th arithmetic derivative of 2^7.
 
-The programs for A369638, the canonical program `A369638.P3779304299568715450` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369638 has offset 0).
-
-The definition of A369638 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The programs for A369638, there is no canonical definition to state claims against.
 -/
 
 /-! ## A369638.P3779304299568715450
 
 `A003415(a(n-1))` with `a(0)=128`
-
-The canonical program, it is in `Seq.B006.C002`.
 -/
 
-namespace A369638
+namespace A369638.P3779304299568715450
+noncomputable section
 
-/-- `A003415(a(n-1))` -/
-def P3779304299568715450.Spec : Prop :=
-  ∀ n, P3779304299568715450.a n = A369638 n
+def a : ℕ → ℤ := SequenceMachineLib.rec [128] fun n a =>
+  A003415 (a (n - 1)).toNat
 
-theorem P3779304299568715450.correct : P3779304299568715450.Spec := by
-  intro n
-  simp only [A369638]
+end
 
-end A369638
+end A369638.P3779304299568715450
 
 /-!
 # A369639: Numbers k, not squarefree, such that the maximal digit in the primorial base representation of k' is <= 3, where k' stands for the arithmetic derivative of k, A003415.
@@ -8139,7 +8136,7 @@ end A369668
 
 The programs for A369669, the canonical program `A369669.P5620005508573429478` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369669 has offset 0).
 
-The definition of A369669 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A369669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A068346, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A369669.P5620005508573429478
@@ -8414,6 +8411,21 @@ end A369683.P9909180594319130929
 
 The programs for A369685, there is no canonical definition to state claims against.
 -/
+
+/-! ## A369685.P14801752510534356224
+
+`lcm(A359804(n), a(n-1))` with `a(0)=1`
+-/
+
+namespace A369685.P14801752510534356224
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  Int.lcm (A359804 n) (a (n - 1) : ℤ)
+
+end
+
+end A369685.P14801752510534356224
 
 /-! ## A369685.P12897745293559367857
 
@@ -9059,6 +9071,29 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369697.P9757808099651361063
+
+/-!
+# A369698: AGM transform of positive cubes.
+
+The programs for A369698, the canonical program `A369698.P8059329653668936442` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369698 has offset 1).
+
+The definition of A369698 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A369698.P8059329653668936442
+
+`((n+1)*(n+2)/2)^(2*(n+1))-(n+1)^(n+1)*(n+1)!^3`
+
+The canonical program, it is in `Seq.B000.C038`.
+-/
+
+namespace A369698
+
+/-- `((n+1)*(n+2)/2)^(2*(n+1))-(n+1)^(n+1)*(n+1)!^3` -/
+def P8059329653668936442.Spec : Prop :=
+  ∀ n, P8059329653668936442.a n = (A369698 (n + 1) : ℚ)
+
+end A369698
 
 /-!
 # A369699: a(n) = ( Product_{k=2..n-1} k^k )^2*2^n.

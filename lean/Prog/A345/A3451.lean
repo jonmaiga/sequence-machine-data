@@ -10,31 +10,28 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -46,8 +43,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B011.C001
@@ -986,23 +983,23 @@ end A345117.P2158011182229362059
 /-!
 # A345118: a(n) is the sum of the lengths of all the segments used to draw a square of side n representing a basketweave pattern where all the multiple strands are of unit width, the horizontal ones appearing as 1 X 3 rectangles, while the vertical ones as unit area squares.
 
-The programs for A345118, the canonical program `A345118.P14035259063709570867` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345118 has offset 0).
+The programs for A345118, the canonical program `A345118.P12593508911391212960` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345118 has offset 0).
 
 The definition of A345118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A345118.P14035259063709570867
+/-! ## A345118.P12593508911391212960
 
 `(n*(5+3*n)-(1-(-1)^n)*sin((n-1)*π/4))/2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345118
 
 /-- `(n*(5+3*n)-(1-(-1)^n)*sin((n-1)*π/4))/2` -/
-def P14035259063709570867.Spec : Prop :=
-  ∀ n, P14035259063709570867.a n = (A345118 n : ℝ)
+def P12593508911391212960.Spec : Prop :=
+  ∀ n, P12593508911391212960.a n = (A345118 n : ℝ)
 
 end A345118
 
@@ -1669,7 +1666,7 @@ end A345134.P6825937188549529571
 
 The programs for A345135, the canonical program `A345135.P893770826323321466` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345135 has offset 0).
 
-The definition of A345135 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 593 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A345135 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A345135.P893770826323321466
@@ -4248,28 +4245,6 @@ end
 
 end A345173.P5516509685936765395
 
-/-! ## A345173.P17388383062770547544
-
-`∩[A189975(n+1), A348609(n+1)]`
--/
-
-namespace A345173.P17388383062770547544
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189975 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348609 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A345173.P17388383062770547544
-
 /-! ## A345173.P5509161524545676502
 
 `A000040(n+3)*A040702(A000142(n))`
@@ -4598,47 +4573,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345181.P16061710460513868656
-
-/-! ## A345181.P4209028861463828312
-
-`A345180(comp[A164555(∑[n])])`
--/
-
-namespace A345181.P4209028861463828312
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A164555 (∑ j ∈ Finset.range (n + 1), f2 j)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345180 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A345181.P4209028861463828312
-
-/-! ## A345181.P1811301775294524612
-
-`A345180(comp[A279847(n+1)-A296406(n)])`
--/
-
-namespace A345181.P1811301775294524612
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A279847 (n + 1) - A296406 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345180 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A345181.P1811301775294524612
 
 /-!
 # A345182: a(1) = 1, a(2) = 0; a(n) = Sum_{d|n, d < n} a(d).
@@ -5322,19 +5256,19 @@ end A345192.P5582472454246992845
 The programs for A345193, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345193.P16515254365410789830
+/-! ## A345193.P12456433117697824199
 
-`∩[A344653(n+1), A335448(n+2)]`
+`∩[A344653(n+1), A212164(n+2)]`
 -/
 
-namespace A345193.P16515254365410789830
+namespace A345193.P12456433117697824199
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A344653 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335448 (n + 2)
+  A212164 (n + 2)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5342,29 +5276,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A345193.P16515254365410789830
-
-/-! ## A345193.P11387570286239460924
-
-`∩[A335448(n+1), A375145(n+1)]`
--/
-
-namespace A345193.P11387570286239460924
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335448 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375145 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A345193.P11387570286239460924
+end A345193.P12456433117697824199
 
 /-! ## A345193.P15418200591540228186
 
@@ -5388,19 +5300,19 @@ end
 
 end A345193.P15418200591540228186
 
-/-! ## A345193.P12456433117697824199
+/-! ## A345193.P11387570286239460924
 
-`∩[A344653(n+1), A212164(n+2)]`
+`∩[A335448(n+1), A375145(n+1)]`
 -/
 
-namespace A345193.P12456433117697824199
+namespace A345193.P11387570286239460924
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344653 (n + 1)
+  A335448 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212164 (n + 2)
+  A375145 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5408,7 +5320,29 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A345193.P12456433117697824199
+end A345193.P11387570286239460924
+
+/-! ## A345193.P16515254365410789830
+
+`∩[A344653(n+1), A335448(n+2)]`
+-/
+
+namespace A345193.P16515254365410789830
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344653 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335448 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A345193.P16515254365410789830
 
 /-!
 # A345194: Number of alternating patterns of length n.

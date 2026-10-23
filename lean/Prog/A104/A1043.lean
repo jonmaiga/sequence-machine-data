@@ -13,22 +13,22 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
@@ -37,7 +37,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -239,28 +238,6 @@ end A104306.P1829206829799132862
 
 The programs for A104307, there is no canonical definition to state claims against.
 -/
-
-/-! ## A104307.P5563950315234011102
-
-`A057226(∪[A034780(n+1), A061955(n+1)])`
--/
-
-namespace A104307.P5563950315234011102
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034780 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061955 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057226 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A104307.P5563950315234011102
 
 /-! ## A104307.P8970495258941235685
 
@@ -2273,23 +2250,29 @@ end A104338.P1156855704169108656
 /-!
 # A104344: a(n) = Sum_{k=1..n} k!^2.
 
-The programs for A104344, there is no canonical definition to state claims against.
+The programs for A104344, the canonical program `A104344.P9374952802282864488` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104344 has offset 1).
+
+The definition of A104344 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A104344.P9374952802282864488
 
 `A061062(n+1)-1`
+
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
-namespace A104344.P9374952802282864488
-noncomputable section
+namespace A104344
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061062 (n + 1) - 1
+/-- `A061062(n+1)-1` -/
+def P9374952802282864488.Spec : Prop :=
+  ∀ n, P9374952802282864488.a n = A104344 (n + 1)
 
-end
+theorem P9374952802282864488.correct : P9374952802282864488.Spec := by
+  intro n
+  simp only [A104344, Nat.add_sub_cancel]
 
-end A104344.P9374952802282864488
+end A104344
 
 /-! ## A104344.P15740174955759330370
 
@@ -2308,6 +2291,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A104344.P15740174955759330370
+
+namespace A104344
+
+/-- `∑[(n+1)!²]` -/
+def P15740174955759330370.Spec : Prop :=
+  ∀ n, (P15740174955759330370.a n : ℤ) = A104344 (n + 1)
+
+end A104344
 
 /-! ## A104344.P4498847559778126967
 
@@ -2329,6 +2320,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A104344.P4498847559778126967
+
+namespace A104344
+
+/-- `∑[∏[(n+1)²]]` -/
+def P4498847559778126967.Spec : Prop :=
+  ∀ n, (P4498847559778126967.a n : ℤ) = A104344 (n + 1)
+
+end A104344
 
 /-! ## A104344.P8252848939498229662
 
@@ -2354,6 +2353,14 @@ end
 
 end A104344.P8252848939498229662
 
+namespace A104344
+
+/-- `Δ[∑[∑[n!²]]-n]` -/
+def P8252848939498229662.Spec : Prop :=
+  ∀ n, P8252848939498229662.a n = A104344 (n + 1)
+
+end A104344
+
 /-! ## A104344.P3890382760058120487
 
 `floor(∑[(n+1)!^(4/2)])`
@@ -2371,6 +2378,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A104344.P3890382760058120487
+
+namespace A104344
+
+/-- `floor(∑[(n+1)!^(4/2)])` -/
+def P3890382760058120487.Spec : Prop :=
+  ∀ n, P3890382760058120487.a n = A104344 (n + 1)
+
+end A104344
 
 /-!
 # A104345: Triangle read by rows: T(n,k) is the number of alternating permutations on [n+1] with 1 in position k+1, 0<=k<=n.

@@ -2,38 +2,36 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
-import Seq.B000.C010
+import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C019
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
@@ -68,7 +66,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2165,44 +2163,6 @@ end
 
 end A257739.P18383577391021325025
 
-/-! ## A257739.P18099167155455834775
-
-`comp[A256999(n)]`
--/
-
-namespace A257739.P18099167155455834775
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256999 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A257739.P18099167155455834775
-
-/-! ## A257739.P3315091277512061924
-
-`comp[A257697(n)+A053644(n)]`
--/
-
-namespace A257739.P3315091277512061924
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257697 n + A053644 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A257739.P3315091277512061924
-
 /-! ## A257739.P5572073638112164376
 
 `A000027(lt[n, A256999(n)])`
@@ -2315,6 +2275,44 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A257739.P9523016495166789052
+
+/-! ## A257739.P18099167155455834775
+
+`comp[A256999(n)]`
+-/
+
+namespace A257739.P18099167155455834775
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256999 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A257739.P18099167155455834775
+
+/-! ## A257739.P3315091277512061924
+
+`comp[A257697(n)+A053644(n)]`
+-/
+
+namespace A257739.P3315091277512061924
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A257697 n + A053644 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A257739.P3315091277512061924
 
 /-! ## A257739.P1664045335756202833
 
@@ -2647,82 +2645,10 @@ end
 end A257745.P15838698755689727296
 
 /-!
-# A257750: Quasi-Carmichael numbers.
-
-The programs for A257750, there is no canonical definition to state claims against.
--/
-
-/-! ## A257750.P8407893043399494647
-
-`∩[A132067(n+1), A337984(n+1)]`
--/
-
-namespace A257750.P8407893043399494647
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A132067 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337984 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A257750.P8407893043399494647
-
-/-!
 # A257751: Quasi-Carmichael numbers to exactly one base.
 
 The programs for A257751, there is no canonical definition to state claims against.
 -/
-
-/-! ## A257751.P13790399835234017475
-
-`A257750(comp[1-a(and(n, n-1))])` with `a(0)=7, a(1)=0`
--/
-
-namespace A257751.P13790399835234017475
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [7, 0] fun n f1 =>
-  1 - f1 (Int.land (n : ℤ) ((n : ℤ) - 1)).toNat
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257750 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A257751.P13790399835234017475
-
-/-! ## A257751.P10098294981655607584
-
-`A257750(comp[∑[∏{e}[n+1, #!]^n-1]])`
--/
-
-namespace A257751.P10098294981655607584
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (((∏ p ∈ Nat.primeFactors (f3 n), Nat.factorial (Nat.factorization (f3 n) p)) ^ n : ℕ) : ℤ) - 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257750 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A257751.P10098294981655607584
 
 /-! ## A257751.P8926052735713060972
 
@@ -2741,44 +2667,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257751.P8926052735713060972
-
-/-! ## A257751.P11761430023077977520
-
-`A257750(comp[A110669(3*n)])`
--/
-
-namespace A257751.P11761430023077977520
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110669 (3 * n)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257750 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A257751.P11761430023077977520
-
-/-! ## A257751.P4466385768597410521
-
-`A257750(comp[A034348(2^n-(C(n, 3)+n))])`
--/
-
-namespace A257751.P4466385768597410521
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034348 (2 ^ n - (Nat.choose n 3 + n))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257750 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A257751.P4466385768597410521
 
 /-!
 # A257759: Quasi-Carmichael numbers to at least one negative base and at least one positive base.
@@ -5097,7 +4985,7 @@ end A257791
 /-!
 # A257792: Expansion of 1/(1-x-x^2-x^3-x^5+x^8-x^9).
 
-The programs for A257792, the canonical program `A257792.P15022976191009756469` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257792 has offset 0).
+The programs for A257792, the canonical program `A257792.P15022976191009756469` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257792 has offset 0).
 
 The definition of A257792 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-x^2-x^3-x^5+x^8-x^9))` (program `A257792.P15022976191009756469`, by `A257792.P15022976191009756469.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5106,7 +4994,7 @@ The definition of A257792 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x-x^2-x^3-x^5+x^8-x^9))`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A257792

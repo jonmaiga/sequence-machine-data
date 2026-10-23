@@ -2,40 +2,38 @@
   "oi": 392219,
   "ps": [
     {
-      "d": "2026-04-16",
-      "ix": "A006530(∪[A116629(n+4), A000040(n+5)])",
-      "mt": 12,
+      "d": "2026-10-20",
+      "ix": "p?[lt[7, contfrac[tan(1)]]]",
+      "mt": 11,
       "px": [
-        "n",
-        "4",
-        "+",
-        "A116629",
-        "n",
-        "5",
-        "+",
-        "A000040",
-        "∪",
-        "A006530"
+        "7",
+        "1",
+        "tan",
+        "contfrac",
+        "lt",
+        "p?"
       ]
     },
     {
-      "d": "2026-04-12",
-      "ix": "p?[comp[contfrac[sin(90)]]]",
+      "d": "2026-10-20",
+      "ix": "p?[comp[xor(2, contfrac[γ])]]",
       "mt": 11,
       "px": [
-        "90",
-        "sin",
+        "2",
+        "γ",
         "contfrac",
+        "xor",
         "comp",
         "p?"
       ]
     },
     {
-      "d": "2026-04-12",
-      "ix": "p?[comp[contfrac[atan(87)]]]",
+      "d": "2026-10-20",
+      "ix": "p?[comp[contfrac[atan(acot(10))]]]",
       "mt": 11,
       "px": [
-        "87",
+        "10",
+        "acot",
         "atan",
         "contfrac",
         "comp",
@@ -43,26 +41,32 @@
       ]
     },
     {
-      "d": "2026-04-12",
-      "ix": "p?[comp[contfrac[tan(γ)]]]",
+      "d": "2026-10-20",
+      "ix": "p?[lt[contfrac[cosh(2)], n-1]]",
       "mt": 11,
       "px": [
-        "γ",
-        "tan",
+        "2",
+        "cosh",
         "contfrac",
-        "comp",
+        "n",
+        "1",
+        "sub",
+        "lt",
         "p?"
       ]
     },
     {
-      "d": "2026-04-12",
-      "ix": "p?[comp[contfrac[cot(γ)]]]",
+      "d": "2026-10-20",
+      "ix": "p?[lt[contfrac[acot(3)], n-1]]",
       "mt": 11,
       "px": [
-        "γ",
-        "cot",
+        "3",
+        "acot",
         "contfrac",
-        "comp",
+        "n",
+        "1",
+        "sub",
+        "lt",
         "p?"
       ]
     }

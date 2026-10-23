@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -18,19 +17,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -93,7 +92,7 @@ import Seq.Opaque.C025
 /-!
 # A209900: Floor of the expected number of occupied cells in a random placement of 2n balls into n cells.
 
-The programs for A209900, the canonical program `A209900.P7183521504004063701` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209900 has offset 1).
+The programs for A209900, the canonical program `A209900.P7183521504004063701` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209900 has offset 1).
 
 The definition of A209900 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -102,7 +101,7 @@ The definition of A209900 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*(1-(1-1/(n+1))^(2*(n+1))))`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A209900
@@ -2938,6 +2937,56 @@ def P17972520811935411966.Spec : Prop :=
 end A209929
 
 /-!
+# A209930: 
+
+The programs for A209930, there is no canonical definition to state claims against.
+-/
+
+/-! ## A209930.P14395451451786984330
+
+`∪[A020449(n+1), A203897(n+1)]`
+-/
+
+namespace A209930.P14395451451786984330
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020449 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A203897 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A209930.P14395451451786984330
+
+/-! ## A209930.P2648581848850888812
+
+`∩[A385345(n+1), A007088(n)]`
+-/
+
+namespace A209930.P2648581848850888812
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385345 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007088 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A209930.P2648581848850888812
+
+/-!
 # A209931: 
 
 The programs for A209931, there is no canonical definition to state claims against.
@@ -3024,7 +3073,7 @@ end A209931.P6827409094595946675
 /-!
 # A209932: Numbers k such that smallest digit of all divisors of k is 0.
 
-The programs for A209932, the canonical program `A209932.P1013292124690884436` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209932 has offset 1).
+The programs for A209932, the canonical program `A209932.P1013292124690884436` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209932 has offset 1).
 
 The definition of A209932 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8243 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3033,7 +3082,7 @@ The definition of A209932 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A209929(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A209932
@@ -4503,7 +4552,7 @@ end A209943.P18209251342324907479
 /-!
 # A209944: a(n) is half the number of (n+1) X 2 0..2 arrays with every 2 X 2 subblock having at most one duplicate clockwise edge difference.
 
-The programs for A209944, the canonical program `A209944.P3639716379324919871` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209944 has offset 1).
+The programs for A209944, the canonical program `A209944.P3639716379324919871` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209944 has offset 1).
 
 The definition of A209944 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4512,7 +4561,7 @@ The definition of A209944 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)+12*a(n-2)` with `a(0)=34, a(1)=258`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A209944
@@ -6113,7 +6162,7 @@ end A209969.P11206591832279604367
 /-!
 # A209970: a(n) = 2^n - A000031(n).
 
-The programs for A209970, the canonical program `A209970.P62417713944158277` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209970 has offset 0).
+The programs for A209970, the canonical program `A209970.P62417713944158277` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209970 has offset 0).
 
 The definition of A209970 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000031, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6122,7 +6171,7 @@ The definition of A209970 is `conditional`: the Lean definition is an OEIS formu
 
 `2^n-A000031(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A209970

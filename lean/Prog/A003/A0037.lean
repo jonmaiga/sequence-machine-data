@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,13 +12,12 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -28,22 +26,24 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -5088,6 +5088,29 @@ def P16114470414264147072.Spec : Prop :=
 
 end A003773
 
+/-! ## A003773.P2681029306205728052
+
+`35*A097731(n)/2-3*A001109(n+1)/2`
+-/
+
+namespace A003773.P2681029306205728052
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (35 * A097731 n : ℚ) / 2 - (3 * A001109 (n + 1) : ℚ) / 2
+
+end
+
+end A003773.P2681029306205728052
+
+namespace A003773
+
+/-- `35*A097731(n)/2-3*A001109(n+1)/2` -/
+def P2681029306205728052.Spec : Prop :=
+  ∀ n, P2681029306205728052.a n = (A003773 (n + 1) : ℚ)
+
+end A003773
+
 /-! ## A003773.P699750998652381228
 
 `2*A110272(2*(n+1))`
@@ -5131,29 +5154,6 @@ namespace A003773
 /-- `2*A001542(n+1)^3` -/
 def P16913617122619875094.Spec : Prop :=
   ∀ n, P16913617122619875094.a n = A003773 (n + 1)
-
-end A003773
-
-/-! ## A003773.P16308868089209705413
-
-`2*A000129(2*(n+1))^3`
--/
-
-namespace A003773.P16308868089209705413
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A000129 (2 * (n + 1)) ^ 3
-
-end
-
-end A003773.P16308868089209705413
-
-namespace A003773
-
-/-- `2*A000129(2*(n+1))^3` -/
-def P16308868089209705413.Spec : Prop :=
-  ∀ n, P16308868089209705413.a n = A003773 (n + 1)
 
 end A003773
 
@@ -6247,6 +6247,21 @@ end A003784.P6704147366423217025
 The programs for A003787, there is no canonical definition to state claims against.
 -/
 
+/-! ## A003787.P11632403785032144811
+
+`3^n*(3^(n+1)-1)*a(n-1)` with `a(0)=1`
+-/
+
+namespace A003787.P11632403785032144811
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  (3 ^ n : ℤ) * (((3 ^ (n + 1) : ℤ) - 1) * a (n - 1))
+
+end
+
+end A003787.P11632403785032144811
+
 /-! ## A003787.P11400025364644862786
 
 `A053290(n+1)/2`
@@ -6315,21 +6330,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A003787.P3497390316165015072
-
-/-! ## A003787.P14283989316874681574
-
-`A016142(n)*A053290(n)`
--/
-
-namespace A003787.P14283989316874681574
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016142 n * A053290 n
-
-end
-
-end A003787.P14283989316874681574
 
 /-!
 # A003788: Order of universal Chevalley group A_n (4).

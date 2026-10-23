@@ -8,22 +8,21 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C030
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C024
+import Seq.B000.C032
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -70,9 +69,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A223000: T(n,k)=Number of nXk 0..2 arrays with no more than floor(nXk/2) elements equal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..2 order.
@@ -2630,32 +2627,6 @@ theorem P17125103435558196622.correct : P17125103435558196622.Spec := by
 
 end A223035
 
-/-! ## A223035.P7122932439326382241
-
-`p?[A175396(A028310(n))]%A017502(n)`
--/
-
-namespace A223035.P7122932439326382241
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175396 (A028310 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)) (A017502 n)
-
-end
-
-end A223035.P7122932439326382241
-
-namespace A223035
-
-/-- `p?[A175396(A028310(n))]%A017502(n)` -/
-def P7122932439326382241.Spec : Prop :=
-  ∀ n, P7122932439326382241.a n = A223035 (n + 1)
-
-end A223035
-
 /-! ## A223035.P8776888167204256253
 
 `∩[A156756(n+1), A175396(n+1)]`
@@ -2683,6 +2654,32 @@ namespace A223035
 /-- `∩[A156756(n+1), A175396(n+1)]` -/
 def P8776888167204256253.Spec : Prop :=
   ∀ n, (P8776888167204256253.a n : ℤ) = A223035 (n + 1)
+
+end A223035
+
+/-! ## A223035.P7122932439326382241
+
+`p?[A175396(A028310(n))]%A017502(n)`
+-/
+
+namespace A223035.P7122932439326382241
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175396 (A028310 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)) (A017502 n)
+
+end
+
+end A223035.P7122932439326382241
+
+namespace A223035
+
+/-- `p?[A175396(A028310(n))]%A017502(n)` -/
+def P7122932439326382241.Spec : Prop :=
+  ∀ n, P7122932439326382241.a n = A223035 (n + 1)
 
 end A223035
 

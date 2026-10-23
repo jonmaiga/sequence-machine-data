@@ -1,11 +1,12 @@
 import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.Opaque.C001
 import Seq.Opaque.C019
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -14,7 +15,7 @@ set_option linter.unreachableTactic false
 /-!
 # A016633: Expansion of g.f. 1/((1-2*x)*(1-11*x)*(1-12*x)).
 
-The programs for A016633, the canonical program `A016633.P4625797840156236992` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016633 has offset 0).
+The programs for A016633, the canonical program `A016633.P4625797840156236992` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016633 has offset 0).
 
 The definition of A016633 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -23,7 +24,7 @@ The definition of A016633 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `23*a(n-1)-132*a(n-2)+2^n` with `a(0)=1, a(1)=25`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A016633

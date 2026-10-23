@@ -1,14 +1,12 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
-import Seq.B000.C016
-import Seq.B000.C019
+import Seq.B000.C017
+import Seq.B000.C020
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C004
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B003.C001
@@ -7639,49 +7637,26 @@ def P16474915288836417500.Spec : Prop :=
 
 end A017764
 
-/-! ## A017764.P17692209638610155946
+/-! ## A017764.P17019872863803624042
 
-`C(A135600(n+1), n)`
+`C(n+100, n)`
 -/
 
-namespace A017764.P17692209638610155946
+namespace A017764.P17019872863803624042
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A135600 (n + 1)).toNat n
+  Nat.choose (n + 100) n
 
 end
 
-end A017764.P17692209638610155946
+end A017764.P17019872863803624042
 
 namespace A017764
 
-/-- `C(A135600(n+1), n)` -/
-def P17692209638610155946.Spec : Prop :=
-  ∀ n, (P17692209638610155946.a n : ℤ) = A017764 (n + 100)
-
-end A017764
-
-/-! ## A017764.P16344717872052500631
-
-`C((A001903(n+2)+A001903(n))²+n, n)`
--/
-
-namespace A017764.P16344717872052500631
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose ((A001903 (n + 2) + A001903 n) ^ 2 + (n : ℤ)).toNat n
-
-end
-
-end A017764.P16344717872052500631
-
-namespace A017764
-
-/-- `C((A001903(n+2)+A001903(n))²+n, n)` -/
-def P16344717872052500631.Spec : Prop :=
-  ∀ n, (P16344717872052500631.a n : ℤ) = A017764 (n + 100)
+/-- `C(n+100, n)` -/
+def P17019872863803624042.Spec : Prop :=
+  ∀ n, (P17019872863803624042.a n : ℤ) = A017764 (n + 100)
 
 end A017764
 

@@ -17,6 +17,19 @@
       "tags": [
         "proven"
       ]
+    },
+    {
+      "d": "2023-06-06",
+      "ix": "contfrac[C005480]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C005480",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
     }
   ]
 }

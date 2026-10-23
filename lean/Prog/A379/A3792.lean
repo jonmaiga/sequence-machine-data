@@ -13,12 +13,12 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -32,7 +32,8 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -226,27 +227,50 @@ end A379206.P13445094237714972900
 /-!
 # A379207: a(n) = 2*prime(n+1) - (prime(n+1) - prime(n))^2.
 
-The programs for A379207, the canonical program `A379207.P2947985908837733843` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379207 has offset 1).
+The programs for A379207, the canonical program `A379207.P6401559853883997636` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379207 has offset 1).
 
-The definition of A379207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A379207 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A001223, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A379207.P6401559853883997636
+
+`2*A000040(n+2)-A001223(n+1)²`
+
+The canonical program, it is in `Seq.B003.C004`.
+-/
+
+namespace A379207
+
+/-- `2*A000040(n+2)-A001223(n+1)²` -/
+def P6401559853883997636.Spec : Prop :=
+  ∀ n, P6401559853883997636.a n = A379207 (n + 1)
+
+theorem P6401559853883997636.correct : P6401559853883997636.Spec := by
+  intro n
+  simp only [A379207, Nat.add_sub_cancel]
+
+end A379207
 
 /-! ## A379207.P2947985908837733843
 
 `A072055(n+1)-A046933(n+1)²`
-
-The canonical program, it is in `Seq.B004.C003`.
 -/
+
+namespace A379207.P2947985908837733843
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072055 (n + 1) - A046933 (n + 1) ^ 2
+
+end
+
+end A379207.P2947985908837733843
 
 namespace A379207
 
 /-- `A072055(n+1)-A046933(n+1)²` -/
 def P2947985908837733843.Spec : Prop :=
   ∀ n, P2947985908837733843.a n = A379207 (n + 1)
-
-theorem P2947985908837733843.correct : P2947985908837733843.Spec := by
-  intro n
-  simp only [A379207, Nat.add_sub_cancel]
 
 end A379207
 
@@ -626,7 +650,7 @@ end A379210
 /-!
 # A379211: List of positive integers that are congruent to {2, 7, 8, 13} mod 15.
 
-The programs for A379211, the canonical program `A379211.P5538660320542451109` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379211 has offset 1).
+The programs for A379211, the canonical program `A379211.P5538660320542451109` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379211 has offset 1).
 
 The definition of A379211 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -635,7 +659,7 @@ The definition of A379211 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15+a(n-4)` with `a(0)=2, a(1)=7, a(2)=8, a(3)=13`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A379211

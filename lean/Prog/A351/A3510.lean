@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -17,19 +18,19 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C019
+import Seq.B000.C022
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -2837,8 +2838,52 @@ end A351042.P14856076200190318726
 /-!
 # A351046: a(1)=1; a(2)=4; for n>2, a(n) = a(n-1) + A000217(n)*a(n-2).
 
-The programs for A351046, there is no canonical definition to state claims against.
+The programs for A351046, the canonical program `A351046.P679532529453061544` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351046 has offset 1).
+
+The definition of A351046 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+A000217(n+1)*a(n-2)` (program `A351046.P679532529453061544`, by `A351046.P679532529453061544.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A351046.P14578590508526722430
+
+`a(n-1)+(n+1)*(n+2)/2*a(n-2)` with `a(0)=1, a(1)=4`
+-/
+
+namespace A351046.P14578590508526722430
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1, 4] fun n a =>
+  a (n - 1) + ((n + 1) * (n + 2) : ℚ) / 2 * a (n - 2)
+
+end
+
+end A351046.P14578590508526722430
+
+namespace A351046
+
+/-- `a(n-1)+(n+1)*(n+2)/2*a(n-2)` -/
+def P14578590508526722430.Spec : Prop :=
+  ∀ n, P14578590508526722430.a n = (A351046 (n + 1) : ℚ)
+
+end A351046
+
+/-! ## A351046.P679532529453061544
+
+`a(n-1)+A000217(n+1)*a(n-2)` with `a(0)=1, a(1)=4`
+
+The canonical program, it is in `Seq.B001.C009`.
+-/
+
+namespace A351046
+
+/-- `a(n-1)+A000217(n+1)*a(n-2)` -/
+def P679532529453061544.Spec : Prop :=
+  ∀ n, P679532529453061544.a n = A351046 (n + 1)
+
+theorem P679532529453061544.correct : P679532529453061544.Spec := by
+  intro n
+  simp only [A351046, Nat.add_sub_cancel]
+
+end A351046
 
 /-! ## A351046.P10805209349275974495
 
@@ -2861,6 +2906,14 @@ end
 
 end A351046.P10805209349275974495
 
+namespace A351046
+
+/-- `∏[∑[n+1]/a(n-1)+1]` -/
+def P10805209349275974495.Spec : Prop :=
+  ∀ n, P10805209349275974495.a n = (A351046 (n + 1) : ℚ)
+
+end A351046
+
 /-! ## A351046.P9082967424752949715
 
 `a(n-1)+a(n-2)*∑[n+1]` with `a(0)=1, a(1)=4`
@@ -2879,20 +2932,13 @@ end
 
 end A351046.P9082967424752949715
 
-/-! ## A351046.P13919874328358872072
+namespace A351046
 
-`a(n-1)+C(n+2, 2)*a(n-2)` with `a(0)=1, a(1)=4`
--/
+/-- `a(n-1)+a(n-2)*∑[n+1]` -/
+def P9082967424752949715.Spec : Prop :=
+  ∀ n, (P9082967424752949715.a n : ℤ) = A351046 (n + 1)
 
-namespace A351046.P13919874328358872072
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 4] fun n a =>
-  a (n - 1) + Nat.choose (n + 2) 2 * a (n - 2)
-
-end
-
-end A351046.P13919874328358872072
+end A351046
 
 /-!
 # A351049: G.f. A(x) satisfies: A(x) = 1 + x + x^2 * A(x/(1 - 3*x)) / (1 - 3*x).
@@ -5439,6 +5485,21 @@ end
 
 end A351084.P8317216344654227360
 
+/-! ## A351084.P15488652325307660501
+
+`gcd(A324198(n), A351083(n))`
+-/
+
+namespace A351084.P15488652325307660501
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A324198 n) (A351083 n)
+
+end
+
+end A351084.P15488652325307660501
+
 /-! ## A351084.P14297524691830165623
 
 `gcd(2*n, A328575(n))`
@@ -5453,36 +5514,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A351084.P14297524691830165623
-
-/-! ## A351084.P2430527112178682761
-
-`gcd(A276086(n), A351083(n))`
--/
-
-namespace A351084.P2430527112178682761
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A276086 n) (A351083 n)
-
-end
-
-end A351084.P2430527112178682761
-
-/-! ## A351084.P2754688275959641649
-
-`gcd(A324198(n), A327860(n))`
--/
-
-namespace A351084.P2754688275959641649
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A324198 n) (A327860 n)
-
-end
-
-end A351084.P2754688275959641649
 
 /-! ## A351084.P7433864109391466190
 
@@ -5595,6 +5626,8 @@ The programs for A351086, there is no canonical definition to state claims again
 /-! ## A351086.P6301688401940102713
 
 `gcd(A003415(n), A328572(n))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A351086.P6301688401940102713
@@ -5607,35 +5640,20 @@ end
 
 end A351086.P6301688401940102713
 
-/-! ## A351086.P5232543592977806480
+/-! ## A351086.P5373622082205759630
 
-`gcd(A327858(n), A327860(n))`
+`gcd(A327858(n), A345000(n))`
 -/
 
-namespace A351086.P5232543592977806480
+namespace A351086.P5373622082205759630
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A327858 n) (A327860 n)
+  Int.gcd (A327858 n) (A345000 n)
 
 end
 
-end A351086.P5232543592977806480
-
-/-! ## A351086.P13261156210213306564
-
-`gcd(A327858(n)², A345000(n))`
--/
-
-namespace A351086.P13261156210213306564
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A327858 n ^ 2) (A345000 n)
-
-end
-
-end A351086.P13261156210213306564
+end A351086.P5373622082205759630
 
 /-! ## A351086.P6060172755811444828
 

@@ -20,18 +20,21 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -42,7 +45,6 @@ import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
@@ -60,18 +62,15 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -10369,12 +10368,12 @@ end A056467.P10628311349475422268
 /-!
 # A056468: a(n) = Sum_{k=1..n} k^6*binomial(n,k).
 
-The programs for A056468, the canonical program `A056468.P2625587495331913809` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056468 has offset 0).
+The programs for A056468, the canonical program `A056468.P15726501361491121376` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056468 has offset 0).
 
 The definition of A056468 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A056468.P2625587495331913809
+/-! ## A056468.P15726501361491121376
 
 `2^(n-6)*n*(n+1)*(n^4+14*n^3+31*n²-46*n+16)`
 
@@ -10384,8 +10383,8 @@ The canonical program, it is in `Seq.B000.C009`.
 namespace A056468
 
 /-- `2^(n-6)*n*(n+1)*(n^4+14*n^3+31*n²-46*n+16)` -/
-def P2625587495331913809.Spec : Prop :=
-  ∀ n, P2625587495331913809.a n = (A056468 n : ℚ)
+def P15726501361491121376.Spec : Prop :=
+  ∀ n, P15726501361491121376.a n = (A056468 n : ℚ)
 
 end A056468
 

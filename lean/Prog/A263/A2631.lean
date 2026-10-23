@@ -10,26 +10,27 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -37,6 +38,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -44,6 +46,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -1387,7 +1390,7 @@ end A263118.P6287330276679250989
 /-!
 # A263119: Number of (n+3) X (1+3) 0..1 arrays with each row divisible by 15 and column not divisible by 15, read as a binary number with top and left being the most significant bits.
 
-The programs for A263119, the canonical program `A263119.P8361814824457812102` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263119 has offset 1).
+The programs for A263119, the canonical program `A263119.P8361814824457812102` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263119 has offset 1).
 
 The definition of A263119 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1396,7 +1399,7 @@ The definition of A263119 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+a(n-4)-2*a(n-5)` with `a(0)=14, a(1)=29, a(2)=59, a(3)=119, a(4)=238`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A263119
@@ -2134,7 +2137,7 @@ end A263132
 
 /-! ## A263132.P15193290802972931976
 
-`record[and(n+1, -3*(n+1))]`
+`record[and(n+1, -(3*(n+1)))]`
 -/
 
 namespace A263132.P15193290802972931976
@@ -2152,7 +2155,7 @@ end A263132.P15193290802972931976
 
 namespace A263132
 
-/-- `record[and(n+1, -3*(n+1))]` -/
+/-- `record[and(n+1, -(3*(n+1)))]` -/
 def P15193290802972931976.Spec : Prop :=
   ∀ n, P15193290802972931976.a n = A263132 (n + 1)
 
@@ -2618,7 +2621,7 @@ end A263133
 /-!
 # A263134: a(n) = Sum_{k=0..n} binomial(3*k+1,k).
 
-The programs for A263134, the canonical program `A263134.P7692546386271083285` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263134 has offset 0).
+The programs for A263134, the canonical program `A263134.P7692546386271083285` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263134 has offset 0).
 
 The definition of A263134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2627,7 +2630,7 @@ The definition of A263134 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A045721(n)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A263134
@@ -3061,7 +3064,7 @@ end A263134
 /-!
 # A263135: The maximum number of penny-to-penny connections when n pennies are placed on the vertices of a hexagonal tiling.
 
-The programs for A263135, the canonical program `A263135.P2870236740548985862` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263135 has offset 0).
+The programs for A263135, the canonical program `A263135.P2870236740548985862` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263135 has offset 0).
 
 The definition of A263135 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3070,7 +3073,7 @@ The definition of A263135 is `conjectured`: the Lean definition is a formula tha
 
 `floor((3*n-sqrt(6*n))/2)`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A263135
@@ -4396,122 +4399,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A263160.P15616634258483571128
-
-/-!
-# A263161: Positive values of n such that A000071(n+2) is divisible by A000217(n).
-
-The programs for A263161, there is no canonical definition to state claims against.
--/
-
-/-! ## A263161.P16400813199293294519
-
-`∩[A263225(n+1), A005943(n)]`
--/
-
-namespace A263161.P16400813199293294519
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263225 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005943 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A263161.P16400813199293294519
-
-/-! ## A263161.P8748591298645689102
-
-`∩[A263225(n+1), A022144(n)]`
--/
-
-namespace A263161.P8748591298645689102
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263225 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022144 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A263161.P8748591298645689102
-
-/-! ## A263161.P1655261462987486566
-
-`∩[A263225(n+1), A234275(n)]`
--/
-
-namespace A263161.P1655261462987486566
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263225 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234275 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A263161.P1655261462987486566
-
-/-! ## A263161.P13781357476276827385
-
-`∩[A219612(n+1), A263225(n+1)]`
--/
-
-namespace A263161.P13781357476276827385
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A219612 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263225 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A263161.P13781357476276827385
-
-/-! ## A263161.P1596406343312878978
-
-`∩[A151973(n+1), A263225(n+1)]`
--/
-
-namespace A263161.P1596406343312878978
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151973 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A263225 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A263161.P1596406343312878978
 
 /-!
 # A263162: Number of lattice paths starting at {n}^4 and ending when any component equals 0, using steps that decrement one or more components by one.

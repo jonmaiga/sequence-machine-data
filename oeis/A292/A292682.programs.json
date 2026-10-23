@@ -110,7 +110,7 @@
     },
     {
       "d": "2022-06-09",
-      "ix": "or(n, 2*n)-and(2*n, and(n, floor(-n/2)))",
+      "ix": "or(n, 2*n)-and(2*n, and(n, floor(-(n/2))))",
       "mt": 70,
       "px": [
         "n",

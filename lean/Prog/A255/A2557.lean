@@ -9,25 +9,27 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -86,7 +88,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A255704: Number T(n,k) of n-node rooted trees in which the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root equals k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.
@@ -2050,28 +2052,6 @@ end
 
 end A255725.P15067677878885737117
 
-/-! ## A255725.P7028834048879533763
-
-`∪[A255726(n+1), A287442(A082743(n))]`
--/
-
-namespace A255725.P7028834048879533763
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255726 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287442 (A082743 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A255725.P7028834048879533763
-
 /-! ## A255725.P11477554563003764452
 
 `A287442(A082743(n))`
@@ -2819,7 +2799,7 @@ end A255737.P9105484556388571248
 /-!
 # A255738: a(1) = 1; for n > 1, a(n) = 1*0^{A000120(n-1) - 1}.
 
-The programs for A255738, the canonical program `A255738.P3969788085053868356` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255738 has offset 1).
+The programs for A255738, the canonical program `A255738.P3969788085053868356` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255738 has offset 1).
 
 The definition of A255738 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2828,7 +2808,7 @@ The definition of A255738 is `conjectured`: the Lean definition is a formula tha
 
 `∏{p}[n, val(#, 2)]`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A255738
@@ -2971,78 +2951,6 @@ namespace A255738
 /-- `round(1/∏{p}[n, #])` -/
 def P16933822599121183003.Spec : Prop :=
   ∀ n, P16933822599121183003.a n = A255738 (n + 1)
-
-end A255738
-
-/-! ## A255738.P2365155388616927352
-
-`char[lt[∑{p}[n, #], 3]]`
--/
-
-namespace A255738.P2365155388616927352
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f3 n), p
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < f4 j) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A255738.P2365155388616927352
-
-namespace A255738
-
-/-- `char[lt[∑{p}[n, #], 3]]` -/
-def P2365155388616927352.Spec : Prop :=
-  ∀ n, (P2365155388616927352.a n : ℤ) = A255738 (n + 1)
-
-end A255738
-
-/-! ## A255738.P4777971301293713496
-
-`char[lt[∏{p}[n, #], 3]]`
--/
-
-namespace A255738.P4777971301293713496
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f3 n), p
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < f4 j) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A255738.P4777971301293713496
-
-namespace A255738
-
-/-- `char[lt[∏{p}[n, #], 3]]` -/
-def P4777971301293713496.Spec : Prop :=
-  ∀ n, (P4777971301293713496.a n : ℤ) = A255738 (n + 1)
 
 end A255738
 
@@ -3303,6 +3211,29 @@ namespace A255738
 /-- `∏{e}[n, C(2^#, n)]` -/
 def P14185554907776366732.Spec : Prop :=
   ∀ n, (P14185554907776366732.a n : ℤ) = A255738 (n + 1)
+
+end A255738
+
+/-! ## A255738.P6697788315423860492
+
+`C(A053644(n), n)`
+-/
+
+namespace A255738.P6697788315423860492
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A053644 n).toNat n
+
+end
+
+end A255738.P6697788315423860492
+
+namespace A255738
+
+/-- `C(A053644(n), n)` -/
+def P6697788315423860492.Spec : Prop :=
+  ∀ n, (P6697788315423860492.a n : ℤ) = A255738 (n + 1)
 
 end A255738
 

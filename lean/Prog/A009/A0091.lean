@@ -6,11 +6,9 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -22,12 +20,15 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,6 +37,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -73,6 +75,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -81,8 +84,7 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A009100: Expansion of e.g.f. cos(x)*cos(tanh(x)), even powers only.
@@ -2020,12 +2022,12 @@ end A009119.P4993532399872993935
 /-!
 # A009120: a(n) = (4*n)!/(2*n)!.
 
-The programs for A009120, the canonical program `A009120.P10164821808127771103` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009120 has offset 0).
+The programs for A009120, the canonical program `A009120.P1081582788580545597` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009120 has offset 0).
 
 The definition of A009120 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A009120.P10164821808127771103
+/-! ## A009120.P1081582788580545597
 
 `4*(4*n-1)*(4*n-3)*a(n-1)` with `a(0)=1`
 
@@ -2035,10 +2037,10 @@ The canonical program, it is in `Seq.B000.C001`.
 namespace A009120
 
 /-- `4*(4*n-1)*(4*n-3)*a(n-1)` -/
-def P10164821808127771103.Spec : Prop :=
-  ∀ n, P10164821808127771103.a n = A009120 n
+def P1081582788580545597.Spec : Prop :=
+  ∀ n, P1081582788580545597.a n = A009120 n
 
-theorem P10164821808127771103.correct : P10164821808127771103.Spec := by
+theorem P1081582788580545597.correct : P1081582788580545597.Spec := by
   intro n
   simp only [A009120]
 
@@ -6000,7 +6002,7 @@ end A009179
 
 /-! ## A009179.P9917458189674368457
 
-`or(1, -n*a(n-1))` with `a(0)=1`
+`or(1, -(n*a(n-1)))` with `a(0)=1`
 -/
 
 namespace A009179.P9917458189674368457
@@ -6015,7 +6017,7 @@ end A009179.P9917458189674368457
 
 namespace A009179
 
-/-- `or(1, -n*a(n-1))` -/
+/-- `or(1, -(n*a(n-1)))` -/
 def P9917458189674368457.Spec : Prop :=
   ∀ n, P9917458189674368457.a n = A009179 n
 
@@ -6023,7 +6025,7 @@ end A009179
 
 /-! ## A009179.P802813501997279082
 
-`or(1, -a(n-1)/tan(acot(n)))` with `a(0)=1`
+`or(1, -(a(n-1)/tan(acot(n))))` with `a(0)=1`
 -/
 
 namespace A009179.P802813501997279082
@@ -6038,7 +6040,7 @@ end A009179.P802813501997279082
 
 namespace A009179
 
-/-- `or(1, -a(n-1)/tan(acot(n)))` -/
+/-- `or(1, -(a(n-1)/tan(acot(n))))` -/
 def P802813501997279082.Spec : Prop :=
   ∀ n, P802813501997279082.a n = A009179 n
 
@@ -6046,7 +6048,7 @@ end A009179
 
 /-! ## A009179.P5191502941381886540
 
-`or(1, -a(n-1)/cot(atan(n)))` with `a(0)=1`
+`or(1, -(a(n-1)/cot(atan(n))))` with `a(0)=1`
 -/
 
 namespace A009179.P5191502941381886540
@@ -6061,7 +6063,7 @@ end A009179.P5191502941381886540
 
 namespace A009179
 
-/-- `or(1, -a(n-1)/cot(atan(n)))` -/
+/-- `or(1, -(a(n-1)/cot(atan(n))))` -/
 def P5191502941381886540.Spec : Prop :=
   ∀ n, P5191502941381886540.a n = A009179 n
 

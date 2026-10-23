@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -20,7 +21,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -29,11 +30,12 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,6 +49,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -71,7 +74,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,7 +89,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -1895,6 +1896,29 @@ namespace A372611
 /-- `(7*A188622(n)-4*A126966(n))/3` -/
 def P8479163289351599770.Spec : Prop :=
   ∀ n, P8479163289351599770.a n = (A372611 n : ℚ)
+
+end A372611
+
+/-! ## A372611.P816780050648197850
+
+`2*a(n-1)+C(2*n, n)+3*C(2*n-2, n-1)` with `a(0)=1`
+-/
+
+namespace A372611.P816780050648197850
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  2 * a (n - 1) + Nat.choose (2 * n) n + 3 * Nat.choose ((2 * n : ℤ) - 2).toNat ((n : ℤ) - 1).toNat
+
+end
+
+end A372611.P816780050648197850
+
+namespace A372611
+
+/-- `2*a(n-1)+C(2*n, n)+3*C(2*n-2, n-1)` -/
+def P816780050648197850.Spec : Prop :=
+  ∀ n, (P816780050648197850.a n : ℤ) = A372611 n
 
 end A372611
 
@@ -4537,7 +4561,7 @@ end A372663.P2870945975513398452
 /-!
 # A372665: a(n) = Sum_{j=1..n} Sum_{k=1..n} phi(2*j*k) / phi(j*k).
 
-The programs for A372665, the canonical program `A372665.P12117016533711914518` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372665 has offset 1).
+The programs for A372665, the canonical program `A372665.P12117016533711914518` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372665 has offset 1).
 
 The definition of A372665 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 593 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4546,7 +4570,7 @@ The definition of A372665 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[7-a(n-1)]²/7)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A372665

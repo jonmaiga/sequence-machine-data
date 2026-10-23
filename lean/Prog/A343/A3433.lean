@@ -6,20 +6,19 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -27,7 +26,9 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +41,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -266,27 +266,6 @@ end
 
 end A343302.P10688280203885807327
 
-/-! ## A343302.P8831959316875704999
-
-`A231624(eq[0, A231624(n+1)%2])`
--/
-
-namespace A343302.P8831959316875704999
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A231624 (n + 1)) 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231624 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
-
-end
-
-end A343302.P8831959316875704999
-
 /-! ## A343302.P7399807842447851622
 
 `∩[A231626(n+1), A317047(n+1)]`
@@ -308,6 +287,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A343302.P7399807842447851622
+
+/-! ## A343302.P8831959316875704999
+
+`A231624(eq[0, A231624(n+1)%2])`
+-/
+
+namespace A343302.P8831959316875704999
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A231624 (n + 1)) 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231624 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A343302.P8831959316875704999
 
 /-! ## A343302.P9630032140446372856
 
@@ -548,29 +548,6 @@ def P9146340623788027255.Spec : Prop :=
 
 end A343303
 
-/-! ## A343303.P8980224828259300963
-
-`A231122(A139608(2*n))+A231089(n+1)`
--/
-
-namespace A343303.P8980224828259300963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231122 (A139608 (2 * n)).toNat + A231089 (n + 1)
-
-end
-
-end A343303.P8980224828259300963
-
-namespace A343303
-
-/-- `A231122(A139608(2*n))+A231089(n+1)` -/
-def P8980224828259300963.Spec : Prop :=
-  ∀ n, P8980224828259300963.a n = A343303 (n + 1)
-
-end A343303
-
 /-! ## A343303.P950514657294275276
 
 `∩[A228961(n+1), A231086(n+1)]-1`
@@ -598,6 +575,29 @@ namespace A343303
 /-- `∩[A228961(n+1), A231086(n+1)]-1` -/
 def P950514657294275276.Spec : Prop :=
   ∀ n, P950514657294275276.a n = A343303 (n + 1)
+
+end A343303
+
+/-! ## A343303.P8980224828259300963
+
+`A231122(A139608(2*n))+A231089(n+1)`
+-/
+
+namespace A343303.P8980224828259300963
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231122 (A139608 (2 * n)).toNat + A231089 (n + 1)
+
+end
+
+end A343303.P8980224828259300963
+
+namespace A343303
+
+/-- `A231122(A139608(2*n))+A231089(n+1)` -/
+def P8980224828259300963.Spec : Prop :=
+  ∀ n, P8980224828259300963.a n = A343303 (n + 1)
 
 end A343303
 
@@ -1707,7 +1707,7 @@ end A343317
 /-!
 # A343318: a(n) = (2^n + 1)^3.
 
-The programs for A343318, the canonical program `A343318.P7705534516696697835` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343318 has offset 0).
+The programs for A343318, the canonical program `A343318.P7705534516696697835` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343318 has offset 0).
 
 The definition of A343318 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^n+1)^3` (program `A343318.P7705534516696697835`, by `A343318.P7705534516696697835.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1716,7 +1716,7 @@ The definition of A343318 is `verified`: the Lean definition is proven equivalen
 
 `(2^n+1)^3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A343318
@@ -3198,50 +3198,6 @@ end A343338.P10143646491900330177
 
 The programs for A343340, there is no canonical definition to state claims against.
 -/
-
-/-! ## A343340.P3339208924317980319
-
-`2*∩[A343337(n+1), A371287(n+1)]`
--/
-
-namespace A343340.P3339208924317980319
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343337 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371287 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343340.P3339208924317980319
-
-/-! ## A343340.P5362401103725152883
-
-`2*∩[A267894(n+2), A343343(n+2)]`
--/
-
-namespace A343340.P5362401103725152883
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267894 (n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343343 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A343340.P5362401103725152883
 
 /-! ## A343340.P16320516698652840354
 
@@ -4873,7 +4829,7 @@ end A343371.P17938508579796209618
 /-!
 # A343372: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(3,n) (with n at least 4) missing three edges, where exactly two removed edges are incident to the same vertex in the 3-point set and exactly two removed edges are incident to the same vertex in the other set.
 
-The programs for A343372, the canonical program `A343372.P14049919230445621183` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343372 has offset 4).
+The programs for A343372, the canonical program `A343372.P14049919230445621183` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343372 has offset 4).
 
 The definition of A343372 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4882,7 +4838,7 @@ The definition of A343372 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*7^(n+2)-4*3^(n+2)+1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A343372
@@ -4900,7 +4856,7 @@ end A343372
 /-!
 # A343373: Number of sets in the geometry determined by the Hausdorff metric at each location between two sets defined by a complete bipartite graph K(4,n) (with n at least 4) missing three edges, where exactly two removed edges are incident to the same vertex in the 4-point set and exactly two removed edges are incident to the same vertex in the other set.
 
-The programs for A343373, the canonical program `A343373.P7890386846231955266` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343373 has offset 4).
+The programs for A343373, the canonical program `A343373.P7890386846231955266` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343373 has offset 4).
 
 The definition of A343373 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4909,7 +4865,7 @@ The definition of A343373 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `21*15^(n+2)-36*7^(n+2)+17*3^(n+2)-2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A343373

@@ -2,25 +2,28 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
+import Seq.B000.C003
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1067,25 +1070,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A363916.P17670341066897903369
-
-/-! ## A363916.P10062053104692616417
-
-`A122851(comp[A036689(3*(n+1))-A145767(n+1)])`
--/
-
-namespace A363916.P10062053104692616417
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036689 (3 * (n + 1)) - A145767 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122851 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A363916.P10062053104692616417
 
 /-! ## A363916.P3813692465071577726
 
@@ -4383,7 +4367,7 @@ end A363957.P9746236537933219645
 /-!
 # A363958: Expansion of (1 + x + x^3)/(1 - x^2 - 2*x^4 - 2*x^6 + x^8).
 
-The programs for A363958, the canonical program `A363958.P5908121220050880434` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363958 has offset 0).
+The programs for A363958, the canonical program `A363958.P5908121220050880434` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363958 has offset 0).
 
 The definition of A363958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4392,7 +4376,7 @@ The definition of A363958 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-4)+2*a(n-6)+a(n-8)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=3, a(5)=4, a(6)=7, a(7)=10`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A363958
@@ -4607,25 +4591,25 @@ end A363961.P14190125515969753972
 /-!
 # A363964: Number of unordered pairs of disjoint self-avoiding paths with nodes that cover all vertices of a convex labeled n-gon; one-node paths are allowed.
 
-The programs for A363964, the canonical program `A363964.P4776231346684153182` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363964 has offset 1).
+The programs for A363964, the canonical program `A363964.P12528867264224993774` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363964 has offset 1).
 
 The definition of A363964 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A363964.P4776231346684153182
+/-! ## A363964.P12528867264224993774
 
 `ceil((n+1)*n*((n+1)*(n+2)+36)*2^(n-7)/3)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A363964
 
 /-- `ceil((n+1)*n*((n+1)*(n+2)+36)*2^(n-7)/3)` -/
-def P4776231346684153182.Spec : Prop :=
-  ∀ n, P4776231346684153182.a n = A363964 (n + 1)
+def P12528867264224993774.Spec : Prop :=
+  ∀ n, P12528867264224993774.a n = A363964 (n + 1)
 
-theorem P4776231346684153182.correct : P4776231346684153182.Spec := by
+theorem P12528867264224993774.correct : P12528867264224993774.Spec := by
   intro n
   simp only [A363964, Nat.add_sub_cancel]
 

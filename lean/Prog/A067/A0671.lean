@@ -10,26 +10,27 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +45,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -97,7 +97,7 @@ import Seq.Opaque.C025
 /-!
 # A067100: Floor[radius of the inscribed-circle of a regular n-gon with unit sides].
 
-The programs for A067100, the canonical program `A067100.P7896498252395916471` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067100 has offset 3).
+The programs for A067100, the canonical program `A067100.P7896498252395916471` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067100 has offset 3).
 
 The definition of A067100 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -106,7 +106,7 @@ The definition of A067100 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(cot(π/(n+3))/2)`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A067100
@@ -4660,25 +4660,6 @@ end A067153.P14838976278164505193
 The programs for A067155, there is no canonical definition to state claims against.
 -/
 
-/-! ## A067155.P6069456099324911871
-
-`comp[A368413(n+1)]*A261079(n+1)`
--/
-
-namespace A067155.P6069456099324911871
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368413 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) * A261079 (n + 1)
-
-end
-
-end A067155.P6069456099324911871
-
 /-! ## A067155.P439527991541867601
 
 `A261079(n+1)*A289506(A005010(n))`
@@ -4708,44 +4689,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A067155.P12702682988397980958
-
-/-! ## A067155.P14894484963665056130
-
-`comp[A355536(3*n+4)]*A355930(A304660(n+1))`
--/
-
-namespace A067155.P14894484963665056130
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355536 (3 * n + 4)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) * A355930 (A304660 (n + 1)).toNat
-
-end
-
-end A067155.P14894484963665056130
-
-/-! ## A067155.P13049558742110591075
-
-`(A359674(n+1)-A359677(n+1))*comp[A355536(3*n+4)]`
--/
-
-namespace A067155.P13049558742110591075
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355536 (3 * n + 4)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A359674 (n + 1) - A359677 (n + 1)) * (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
-
-end
-
-end A067155.P13049558742110591075
 
 /-!
 # A067156: Number of regions in regular n-gon which are 9-gons.
@@ -7121,28 +7064,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A067183.P602380927256845945
-
-/-! ## A067183.P9094589992137292290
-
-`∪[A357132(A094739(n+1)), A357132(n+1)]`
--/
-
-namespace A067183.P9094589992137292290
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357132 (A094739 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357132 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A067183.P9094589992137292290
 
 /-! ## A067183.P13080167897465957257
 

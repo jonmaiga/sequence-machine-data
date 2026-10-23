@@ -1,71 +1,28 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C012
-import Seq.B000.C022
-import Seq.B000.C034
+import Seq.B000.C013
+import Seq.B000.C036
 import Seq.B004.C000
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
-
-/-!
-# A168902: 
-
-The programs for A168902, there is no canonical definition to state claims against.
--/
-
-/-! ## A168902.P1174603771121375415
-
-`A006530(A166450(n+1))*A067428(n)`
--/
-
-namespace A168902.P1174603771121375415
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (A166450 (n + 1)).toNat * A067428 n
-
-end
-
-end A168902.P1174603771121375415
-
-/-!
-# A168904: 
-
-The programs for A168904, there is no canonical definition to state claims against.
--/
-
-/-! ## A168904.P182662150293511127
-
-`34*a(n%A203519(n+1)-1)` with `a(0)=1, a(1)=35`
--/
-
-namespace A168904.P182662150293511127
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 35] fun n a =>
-  34 * a (Int.tmod (n : ℤ) (A203519 (n + 1)) - 1).toNat
-
-end
-
-end A168904.P182662150293511127
+import Seq.Opaque.C022
 
 /-!
 # A168920: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^22 = I.
@@ -267,27 +224,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A168922.P8749202282132392244
-
-/-!
-# A168930: 
-
-The programs for A168930, there is no canonical definition to state claims against.
--/
-
-/-! ## A168930.P5539869366055173668
-
-`12*a((n-1)%A000032(abs(1-n²)))` with `a(0)=1, a(1)=13`
--/
-
-namespace A168930.P5539869366055173668
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 13] fun n a =>
-  12 * a (Int.tmod ((n : ℤ) - 1) (A000032 |1 - (n ^ 2 : ℤ)|.toNat)).toNat
-
-end
-
-end A168930.P5539869366055173668
 
 /-!
 # A168968: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^23 = I.

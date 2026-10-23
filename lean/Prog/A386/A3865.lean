@@ -5,28 +5,30 @@ import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C016
-import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C013
+import Seq.B000.C017
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C007
+import Seq.B001.C004
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -372,7 +374,7 @@ end A386516.P14531262339179811791
 /-!
 # A386517: a(n) = 60*binomial(3*n,n)/(n+2).
 
-The programs for A386517, the canonical program `A386517.P2721402725429736476` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386517 has offset 0).
+The programs for A386517, the canonical program `A386517.P2721402725429736476` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386517 has offset 0).
 
 The definition of A386517 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -381,7 +383,7 @@ The definition of A386517 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `60*A005809(n)/(n+2)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A386517
@@ -389,6 +391,31 @@ namespace A386517
 /-- `60*A005809(n)/(n+2)` -/
 def P2721402725429736476.Spec : Prop :=
   ∀ n, P2721402725429736476.a n = (A386517 n : ℚ)
+
+end A386517
+
+/-! ## A386517.P2841771935719026194
+
+`60*C(3*n, n)/(n+2)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A386517.P2841771935719026194
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (60 * Nat.choose (3 * n) n : ℚ) / (n + 2 : ℚ)
+
+end
+
+end A386517.P2841771935719026194
+
+namespace A386517
+
+/-- `60*C(3*n, n)/(n+2)` -/
+def P2841771935719026194.Spec : Prop :=
+  ∀ n, P2841771935719026194.a n = (A386517 n : ℚ)
 
 end A386517
 
@@ -1427,7 +1454,7 @@ end A386551.P17159073694104617252
 /-!
 # A386552: Concatenate powers of 10.
 
-The programs for A386552, the canonical program `A386552.P15123243711025753606` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386552 has offset 0).
+The programs for A386552, the canonical program `A386552.P15123243711025753606` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386552 has offset 0).
 
 The definition of A386552 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1436,7 +1463,7 @@ The definition of A386552 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10^(n+1)*a(n-1)+10^n` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A386552
@@ -2930,7 +2957,7 @@ end A386586.P3152943094075967281
 /-!
 # A386588: a(n) = 2^a(n-1) mod n, with a(1) = 1.
 
-The programs for A386588, the canonical program `A386588.P11068232531911968151` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386588 has offset 1).
+The programs for A386588, the canonical program `A386588.P11068232531911968151` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386588 has offset 1).
 
 The definition of A386588 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2962,7 +2989,7 @@ end A386588
 
 `A000079(a(n-1))%(n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A386588

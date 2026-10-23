@@ -11,22 +11,21 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,11 +40,13 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
@@ -72,13 +73,11 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A292100: Number of net regularizable trees with a marked vertex and n chairs.
@@ -766,7 +765,7 @@ end A292117.P13022611293660157031
 /-!
 # A292118: G.f.: 1 + 2*Sum_{k >= 1} (-1)^k*q^A003159(k).
 
-The programs for A292118, the canonical program `A292118.P14353429874146398271` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292118 has offset 0).
+The programs for A292118, the canonical program `A292118.P14353429874146398271` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292118 has offset 0).
 
 The definition of A292118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -775,7 +774,7 @@ The definition of A292118 is `conjectured`: the Lean definition is a formula tha
 
 `1-xor(a(n-1)+1, a(floor(n/2)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A292118
@@ -2412,7 +2411,7 @@ The programs for A292140, there is no canonical definition to state claims again
 
 /-! ## A292140.P6154183619592330344
 
-`-2*A292141(n)`
+`-(2*A292141(n))`
 -/
 
 namespace A292140.P6154183619592330344
@@ -2563,20 +2562,22 @@ end A292140.P16182335221330931788
 The programs for A292141, there is no canonical definition to state claims against.
 -/
 
-/-! ## A292141.P9691123430878847675
+/-! ## A292141.P1006162469817614397
 
 `-A292140(n)/2`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A292141.P9691123430878847675
+namespace A292141.P1006162469817614397
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  -((A292140 n : ℚ) / 2)
+  (-A292140 n : ℚ) / 2
 
 end
 
-end A292141.P9691123430878847675
+end A292141.P1006162469817614397
 
 /-! ## A292141.P7268397240750274340
 

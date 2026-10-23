@@ -13,7 +13,6 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -28,8 +27,10 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +44,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -448,6 +448,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A225208.P16426958328704212712
+
+/-!
+# A225209: a(n) = (392*16^n -1620*8^n +1890*4^n -767)/105.
+
+The programs for A225209, the canonical program `A225209.P15302786311720319284` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225209 has offset 1).
+
+The definition of A225209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A225209.P15302786311720319284
+
+`a(n-1)+2^n*(A036563(n+2)^3-A036563(n+1)^3)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B001.C006`.
+-/
+
+namespace A225209
+
+/-- `a(n-1)+2^n*(A036563(n+2)^3-A036563(n+1)^3)` -/
+def P15302786311720319284.Spec : Prop :=
+  ∀ n, P15302786311720319284.a n = A225209 (n + 1)
+
+theorem P15302786311720319284.correct : P15302786311720319284.Spec := by
+  intro n
+  simp only [A225209, Nat.add_sub_cancel]
+
+end A225209
 
 /-!
 # A225211: Numbers n such that sigma(n+1) - sigma(n) divides n.
@@ -3072,7 +3099,7 @@ end A225230
 /-!
 # A225232: The number of FO3C2 moves required to restore a packet of n playing cards to its original state (order and orientation).
 
-The programs for A225232, the canonical program `A225232.P13032425765134366567` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225232 has offset 3).
+The programs for A225232, the canonical program `A225232.P13032425765134366567` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225232 has offset 3).
 
 The definition of A225232 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3081,7 +3108,7 @@ The definition of A225232 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=2, a(1)=4, a(2)=4, a(3)=12, a(4)=6, a(5)=24`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A225232
@@ -7415,25 +7442,6 @@ end
 
 end A225282.P14118440755689348141
 
-/-! ## A225282.P2827829054837066279
-
-`char[A086433(n)]*A225281(A133263(n+1))`
--/
-
-namespace A225282.P2827829054837066279
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086433 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A225281 (A133263 (n + 1)).toNat
-
-end
-
-end A225282.P2827829054837066279
-
 /-! ## A225282.P12537972091743593257
 
 `A225281(A133263(n+1))%A000041(n+3)`
@@ -8227,32 +8235,4 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A225297.P12641234752954992080
-
-/-!
-# A225299: Numbers divisible by the square of each digit.
-
-The programs for A225299, there is no canonical definition to state claims against.
--/
-
-/-! ## A225299.P16578612667826335943
-
-`∩[A007602(n+1)%A343680(2*(n+2)), A132359(n+1)]`
--/
-
-namespace A225299.P16578612667826335943
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007602 (n + 1)) (A343680 (2 * (n + 2)))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A132359 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A225299.P16578612667826335943
 

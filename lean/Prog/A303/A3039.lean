@@ -11,27 +11,26 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C030
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,13 +39,13 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -95,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A303901: Triangle read by rows of coefficients in expansion of (3-2x)^n, where n is a nonnegative integer.
@@ -857,7 +855,7 @@ end A303904.P8388780796939506262
 
 /-! ## A303904.P6088706278480260580
 
-`∑[A279484(n)^n^A002378(n)]`
+`∑[(A279484(n)^n)^A002378(n)]`
 -/
 
 namespace A303904.P6088706278480260580
@@ -875,7 +873,7 @@ end A303904.P6088706278480260580
 
 /-! ## A303904.P2267609256282323474
 
-`∑[A279484(n)^n^A014681(n)]`
+`∑[(A279484(n)^n)^A014681(n)]`
 -/
 
 namespace A303904.P2267609256282323474
@@ -893,7 +891,7 @@ end A303904.P2267609256282323474
 
 /-! ## A303904.P10470231553353387467
 
-`∑[A279484(n)^n^A017641(n)]`
+`∑[(A279484(n)^n)^A017641(n)]`
 -/
 
 namespace A303904.P10470231553353387467
@@ -911,7 +909,7 @@ end A303904.P10470231553353387467
 
 /-! ## A303904.P8002427321666380049
 
-`∑[A279484(n)^n^A074148(n+1)]`
+`∑[(A279484(n)^n)^A074148(n+1)]`
 -/
 
 namespace A303904.P8002427321666380049
@@ -929,7 +927,7 @@ end A303904.P8002427321666380049
 
 /-! ## A303904.P1378925219067191346
 
-`∑[A279484(n)^n^A156635(n+1)]`
+`∑[(A279484(n)^n)^A156635(n+1)]`
 -/
 
 namespace A303904.P1378925219067191346
@@ -947,7 +945,7 @@ end A303904.P1378925219067191346
 
 /-! ## A303904.P2383594975479411955
 
-`∑[A279484(n)^n^A033496(n+2)]`
+`∑[(A279484(n)^n)^A033496(n+2)]`
 -/
 
 namespace A303904.P2383594975479411955
@@ -986,7 +984,7 @@ end A303904.P1882128919915031026
 
 /-! ## A303904.P7077227472856459132
 
-`∑[A279484(n)^n^(A000040(n+3)-3)]`
+`∑[(A279484(n)^n)^(A000040(n+3)-3)]`
 -/
 
 namespace A303904.P7077227472856459132
@@ -1766,7 +1764,7 @@ end A303914.P10868702767516325519
 /-!
 # A303915: a(n) = lambda(n)*E(n), where lambda(n) = A008836(n) and E(n) = A005361(n).
 
-The programs for A303915, the canonical program `A303915.P16222696876000941455` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303915 has offset 1).
+The programs for A303915, the canonical program `A303915.P16222696876000941455` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303915 has offset 1).
 
 The definition of A303915 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1775,7 +1773,7 @@ The definition of A303915 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, #*(-1)^#]`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A303915
@@ -2241,23 +2239,50 @@ end A303915
 /-!
 # A303916: Constant term in the expansion of (Sum_{k=0..n} k*(x^k + x^(-k)))^3.
 
-The programs for A303916, the canonical program `A303916.P626264809860975388` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303916 has offset 0).
+The programs for A303916, the canonical program `A303916.P3281210226866267214` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303916 has offset 0).
 
 The definition of A303916 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A303916.P626264809860975388
+/-! ## A303916.P16276227760268173373
 
 `(n-1)*n*(n+1)*(n+2)*(2*n+1)/10`
-
-The canonical program, it is in `Seq.B000.C033`.
 -/
+
+namespace A303916.P16276227760268173373
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n : ℤ) - 1) * (n : ℤ) * (n + 1 : ℤ) * (n + 2 : ℤ) * (2 * n + 1 : ℤ) : ℚ) / 10
+
+end
+
+end A303916.P16276227760268173373
 
 namespace A303916
 
 /-- `(n-1)*n*(n+1)*(n+2)*(2*n+1)/10` -/
-def P626264809860975388.Spec : Prop :=
-  ∀ n, P626264809860975388.a n = (A303916 n : ℚ)
+def P16276227760268173373.Spec : Prop :=
+  ∀ n, P16276227760268173373.a n = (A303916 n : ℚ)
+
+end A303916
+
+/-! ## A303916.P3281210226866267214
+
+`4*A112851(n)`
+
+The canonical program, it is in `Seq.B001.C008`.
+-/
+
+namespace A303916
+
+/-- `4*A112851(n)` -/
+def P3281210226866267214.Spec : Prop :=
+  ∀ n, P3281210226866267214.a n = A303916 n
+
+theorem P3281210226866267214.correct : P3281210226866267214.Spec := by
+  intro n
+  simp only [A303916]
 
 end A303916
 
@@ -2716,29 +2741,6 @@ def P17248744724787839355.Spec : Prop :=
 
 end A303916
 
-/-! ## A303916.P5659470872815753386
-
-`A000583(n)+A267691(n)-A056520(n)`
--/
-
-namespace A303916.P5659470872815753386
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000583 n + (A267691 n - A056520 n)
-
-end
-
-end A303916.P5659470872815753386
-
-namespace A303916
-
-/-- `A000583(n)+A267691(n)-A056520(n)` -/
-def P5659470872815753386.Spec : Prop :=
-  ∀ n, P5659470872815753386.a n = A303916 n
-
-end A303916
-
 /-!
 # A303917: Number of ordered pairs of primes (p,q) such that p < q <= n and p*q > n.
 
@@ -2747,7 +2749,7 @@ The programs for A303917, there is no canonical definition to state claims again
 
 /-! ## A303917.P8941264542424945515
 
-`∑[round(-∏{p}[n+1, -#]/(n+3))*A338713(n+1)]`
+`∑[round(-(∏{p}[n+1, -#]/(n+3)))*A338713(n+1)]`
 -/
 
 namespace A303917.P8941264542424945515
@@ -6084,7 +6086,7 @@ end A303962.P6509596148243856288
 /-!
 # A303963: Number of nX2 0..1 arrays with every element unequal to 0, 1, 3 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A303963, the canonical program `A303963.P5866001824104862808` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303963 has offset 1).
+The programs for A303963, the canonical program `A303963.P5866001824104862808` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303963 has offset 1).
 
 The definition of A303963 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6093,7 +6095,7 @@ The definition of A303963 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+8*a(n-3)-4*a(n-4)` with `a(0)=2, a(1)=5, a(2)=9, a(3)=21`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A303963

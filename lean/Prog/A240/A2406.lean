@@ -10,24 +10,24 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -86,7 +86,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
@@ -999,7 +998,7 @@ end A240606.P17341908023568043863
 /-!
 # A240607: a(n) = 2*a(n-2) + a(n-3) + a(n-4) for n>=4, a(n) = binomial(n,3) for n
 
-The programs for A240607, the canonical program `A240607.P9605552413643349258` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240607 has offset 0).
+The programs for A240607, the canonical program `A240607.P9605552413643349258` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240607 has offset 0).
 
 The definition of A240607 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-2)+a(n-3)+a(n-4)` (program `A240607.P9605552413643349258`, by `A240607.P9605552413643349258.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1008,7 +1007,7 @@ The definition of A240607 is `verified`: the Lean definition is proven equivalen
 
 `2*a(n-2)+a(n-3)+a(n-4)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A240607
@@ -6762,25 +6761,25 @@ end A240669.P2696977515148290959
 /-!
 # A240671: a(n) = floor(4^n/(2+2*cos(2*Pi/7))^n).
 
-The programs for A240671, the canonical program `A240671.P13058623531741618923` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240671 has offset 0).
+The programs for A240671, the canonical program `A240671.P14682344951055537320` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240671 has offset 0).
 
-The definition of A240671 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(4^n/(2+2*cos(2*π/7))^n)` (program `A240671.P13058623531741618923`, by `A240671.P13058623531741618923.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A240671 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(4^n/(2+2*cos(2*π/7))^n)` (program `A240671.P14682344951055537320`, by `A240671.P14682344951055537320.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A240671.P13058623531741618923
+/-! ## A240671.P14682344951055537320
 
 `floor(4^n/(2+2*cos(2*π/7))^n)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A240671
 
 /-- `floor(4^n/(2+2*cos(2*π/7))^n)` -/
-def P13058623531741618923.Spec : Prop :=
-  ∀ n, P13058623531741618923.a n = A240671 n
+def P14682344951055537320.Spec : Prop :=
+  ∀ n, P14682344951055537320.a n = A240671 n
 
-theorem P13058623531741618923.correct : P13058623531741618923.Spec := by
+theorem P14682344951055537320.correct : P14682344951055537320.Spec := by
   intro n
   simp only [A240671]
 
@@ -6852,29 +6851,6 @@ namespace A240671
 /-- `A000196(floor(sqrt(A075118(n))))` -/
 def P15745743276405251938.Spec : Prop :=
   ∀ n, P15745743276405251938.a n = A240671 n
-
-end A240671
-
-/-! ## A240671.P17651234739973847870
-
-`A000196(floor(sqrt(A180965(n))))`
--/
-
-namespace A240671.P17651234739973847870
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000196 (Int.sqrt (A180965 n)).toNat
-
-end
-
-end A240671.P17651234739973847870
-
-namespace A240671
-
-/-- `A000196(floor(sqrt(A180965(n))))` -/
-def P17651234739973847870.Spec : Prop :=
-  ∀ n, P17651234739973847870.a n = A240671 n
 
 end A240671
 
@@ -7112,7 +7088,7 @@ end A240674.P5189764923141810874
 /-!
 # A240676: Number of digits in the decimal expansion of n^7.
 
-The programs for A240676, the canonical program `A240676.P17319575870754342459` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240676 has offset 0).
+The programs for A240676, the canonical program `A240676.P17319575870754342459` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240676 has offset 0).
 
 The definition of A240676 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7121,7 +7097,7 @@ The definition of A240676 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n^7, (#%2)!]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A240676
@@ -11625,28 +11601,6 @@ end A240698.P7785341459456658794
 The programs for A240699, there is no canonical definition to state claims against.
 -/
 
-/-! ## A240699.P1019736727976739006
-
-`∪[A079427(A124590(n+1)), A124590(n+2)]`
--/
-
-namespace A240699.P1019736727976739006
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079427 (A124590 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124590 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A240699.P1019736727976739006
-
 /-! ## A240699.P16584098899743424335
 
 `p?[n+3-A159700(A051700(n+3))]`
@@ -11703,6 +11657,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A240699.P620985657455842157
+
+/-! ## A240699.P1019736727976739006
+
+`∪[A079427(A124590(n+1)), A124590(n+2)]`
+-/
+
+namespace A240699.P1019736727976739006
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079427 (A124590 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124590 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A240699.P1019736727976739006
 
 /-! ## A240699.P14519853225124487067
 

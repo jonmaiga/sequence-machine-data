@@ -4,33 +4,32 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -85,7 +84,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A260500: Number of (n+2)X(7+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00000001 00000011 or 00001011.
@@ -799,7 +797,7 @@ end A260511.P6977969983354400095
 /-!
 # A260513: a(n) = (8*n+13*n^3+3*n^5)/24; also the sum of triangular numbers taken in successive groups of increasing size (see Example).
 
-The programs for A260513, the canonical program `A260513.P318657554716321414` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260513 has offset 1).
+The programs for A260513, the canonical program `A260513.P318657554716321414` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260513 has offset 1).
 
 The definition of A260513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -808,7 +806,7 @@ The definition of A260513 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8*(n+1)+13*(n+1)^3+3*(n+1)^5)/24`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260513
@@ -2355,7 +2353,7 @@ end A260522.P9537500572703267337
 /-!
 # A260523: Numbers n such that (sum of digits of n) + (product of digits of n) is semiprime.
 
-The programs for A260523, the canonical program `A260523.P15202839270934092971` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260523 has offset 1).
+The programs for A260523, the canonical program `A260523.P15202839270934092971` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260523 has offset 1).
 
 The definition of A260523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3369 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2364,7 +2362,7 @@ The definition of A260523 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, ∑{e}[∏{digits}[n, #]+∑{digits}[n, #], #]]`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A260523
@@ -2855,25 +2853,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A260528.P17364613415782383857
-
-/-! ## A260528.P11245424536488303181
-
-`char[A089862(n)]*A260526(n)`
--/
-
-namespace A260528.P11245424536488303181
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089862 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A260526 n
-
-end
-
-end A260528.P11245424536488303181
 
 /-! ## A260528.P11192358908804485608
 
@@ -6200,29 +6179,6 @@ end A260594.P7753391694273353541
 
 The programs for A260595, there is no canonical definition to state claims against.
 -/
-
-/-! ## A260595.P3203406193349856357
-
-`char[n*char[A004716(n+1)]]`
--/
-
-namespace A260595.P3203406193349856357
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004716 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * (if ∃ j, f2 j = (n : ℤ) then 1 else 0)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A260595.P3203406193349856357
 
 /-! ## A260595.P2663781008308359361
 

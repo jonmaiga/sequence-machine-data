@@ -3,26 +3,27 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C013
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -39,6 +40,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -77,7 +79,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A203302: Cumulative sums of A201206.
@@ -301,28 +302,6 @@ end A203303.P2971817945032823037
 The programs for A203304, there is no canonical definition to state claims against.
 -/
 
-/-! ## A203304.P14395451451786984330
-
-`∪[A020449(n+1), A203897(n+1)]`
--/
-
-namespace A203304.P14395451451786984330
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020449 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A203897 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A203304.P14395451451786984330
-
 /-! ## A203304.P10911228332697231904
 
 `∩[A077813(n+1), A385345(n+1)]`
@@ -344,6 +323,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A203304.P10911228332697231904
+
+/-! ## A203304.P3914824005156878621
+
+`∩[A206159(n+1), A007088(n)]`
+-/
+
+namespace A203304.P3914824005156878621
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A206159 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007088 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A203304.P3914824005156878621
 
 /-! ## A203304.P6238024876426848900
 
@@ -410,50 +411,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A203304.P6376249936687806762
-
-/-! ## A203304.P3914824005156878621
-
-`∩[A206159(n+1), A007088(n)]`
--/
-
-namespace A203304.P3914824005156878621
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A206159 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A203304.P3914824005156878621
-
-/-! ## A203304.P2648581848850888812
-
-`∩[A385345(n+1), A007088(n)]`
--/
-
-namespace A203304.P2648581848850888812
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385345 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A203304.P2648581848850888812
 
 /-! ## A203304.P4907626920124883620
 
@@ -951,7 +908,7 @@ end A203309.P8259622486067761664
 /-!
 # A203310: a(n) = A203309(n+1)/A203309(n).
 
-The programs for A203310, the canonical program `A203310.P11218495340775950352` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203310 has offset 0).
+The programs for A203310, the canonical program `A203310.P11218495340775950352` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203310 has offset 0).
 
 The definition of A203310 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -960,7 +917,7 @@ The definition of A203310 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!*(2*n+2)!/(2^n*(n+2)!)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A203310
@@ -4090,7 +4047,7 @@ end A203356.P15175323610462631888
 /-!
 # A203357: Number of n X 3 binary arrays with every 1 immediately preceded by 0 to the left or above.
 
-The programs for A203357, the canonical program `A203357.P12564199531783826951` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203357 has offset 1).
+The programs for A203357, the canonical program `A203357.P12564199531783826951` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203357 has offset 1).
 
 The definition of A203357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4099,7 +4056,7 @@ The definition of A203357 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)+12*a(n-2)+6*a(n-3)+a(n-4)` with `a(0)=3, a(1)=20, a(2)=102, a(3)=565`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A203357
@@ -4704,7 +4661,7 @@ end A203364.P9534473390292976698
 /-!
 # A203365: Number of n X 2 0..2 arrays with every 1 immediately preceded by 0 to the left or above, and every 2 immediately preceded by both a 1 and a 0.
 
-The programs for A203365, the canonical program `A203365.P12214831048468946394` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203365 has offset 1).
+The programs for A203365, the canonical program `A203365.P12214831048468946394` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203365 has offset 1).
 
 The definition of A203365 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 181 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4736,7 +4693,7 @@ end A203365
 
 `2*a(n-1)+5*a(n-2)+2*a(n-3)+a(n-4)` with `a(0)=2, a(1)=9, a(2)=30, a(3)=110`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A203365

@@ -6,17 +6,19 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C012
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -113,28 +115,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A023300.P15436184306156689230
-
-/-! ## A023300.P2616614409278490334
-
-`∩[A023269(n+1), A280083(n+1)]`
--/
-
-namespace A023300.P2616614409278490334
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023269 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A280083 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A023300.P2616614409278490334
 
 /-!
 # A023301: Primes that remain prime through 3 iterations of function f(x) = 10x + 9.
@@ -1983,7 +1963,7 @@ end A023375.P7118612684552480331
 /-!
 # A023376: a(n+1) = a(n) converted to base 8 from base 4 (written in base 10).
 
-The programs for A023376, the canonical program `A023376.P15481895328876631994` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023376 has offset 1).
+The programs for A023376, the canonical program `A023376.P15481895328876631994` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023376 has offset 1).
 
 The definition of A023376 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1992,7 +1972,7 @@ The definition of A023376 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^A061418(n+1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023376

@@ -2,20 +2,21 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C020
+import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -23,7 +24,6 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
@@ -48,8 +48,8 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C011
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -60,7 +60,7 @@ import Seq.Opaque.C023
 /-!
 # A095402: Sum of digits of all distinct prime factors of n.
 
-The programs for A095402, the canonical program `A095402.P3275104742656262928` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095402 has offset 1).
+The programs for A095402, the canonical program `A095402.P3275104742656262928` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095402 has offset 1).
 
 The definition of A095402 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -69,7 +69,7 @@ The definition of A095402 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, A007953(#)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A095402
@@ -285,7 +285,7 @@ end A095402
 
 The programs for A095403, the canonical program `A095403.P6923104078230111594` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095403 has offset 1).
 
-The definition of A095403 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A095402, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A095403 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, A095402, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A095403.P6923104078230111594
@@ -550,7 +550,7 @@ end A095403
 /-!
 # A095404: Numbers whose sum of digits is greater than the sum of the digits of all of its distinct prime factors.
 
-The programs for A095404, the canonical program `A095404.P9061338840450113737` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095404 has offset 1).
+The programs for A095404, the canonical program `A095404.P9061338840450113737` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095404 has offset 1).
 
 The definition of A095404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4371 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -588,7 +588,7 @@ end A095404
 
 `lt[∑{p}[n, A007953(#)], A007953(n)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A095404
@@ -1247,7 +1247,7 @@ end A095407
 /-!
 # A095408: Total number of decimal digits in all distinct prime factors of n minus number of digits in n.
 
-The programs for A095408, the canonical program `A095408.P2538879780517524759` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095408 has offset 1).
+The programs for A095408, the canonical program `A095408.P2538879780517524759` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095408 has offset 1).
 
 The definition of A095408 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055642, A095407, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1256,7 +1256,7 @@ The definition of A095408 is `conditional`: the Lean definition is an OEIS formu
 
 `A095407(n+1)-A055642(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A095408

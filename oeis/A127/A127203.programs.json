@@ -15,6 +15,10 @@
         "+",
         "A127202",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

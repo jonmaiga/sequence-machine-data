@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -16,20 +15,19 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +56,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C001
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -86,7 +84,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A113100: Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 3 and t_i = 3 (mod 3) and t_{i+1} <= 4*t_i for 1
@@ -2643,7 +2640,7 @@ end A113126
 /-!
 # A113127: Expansion of (1 + x + x^2 + x^3)/(1-x)^2.
 
-The programs for A113127, the canonical program `A113127.P4880380330183245715` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113127 has offset 0).
+The programs for A113127, the canonical program `A113127.P4880380330183245715` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113127 has offset 0).
 
 The definition of A113127 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+x+x^2+x^3)/(1-2x+x^2))` (program `A113127.P4880380330183245715`, by `A113127.P4880380330183245715.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2652,7 +2649,7 @@ The definition of A113127 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+x+x^2+x^3)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A113127
@@ -3259,7 +3256,7 @@ end A113140.P15740595481275690877
 /-!
 # A113142: Expansion of x(1-3x+x^2+x^3)/(1+x)^2.
 
-The programs for A113142, the canonical program `A113142.P17034970943348861482` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113142 has offset 0).
+The programs for A113142, the canonical program `A113142.P17034970943348861482` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113142 has offset 0).
 
 The definition of A113142 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-3x^2+x^3+x^4)/(1+2x+x^2))` (program `A113142.P17034970943348861482`, by `A113142.P17034970943348861482.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3268,7 +3265,7 @@ The definition of A113142 is `verified`: the Lean definition is proven equivalen
 
 `ogf((x-3x^2+x^3+x^4)/(1+2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A113142

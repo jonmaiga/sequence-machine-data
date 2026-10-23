@@ -4,32 +4,31 @@ import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C023
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
@@ -2874,28 +2873,6 @@ end
 
 end A377950.P15877998924087286506
 
-/-! ## A377950.P12669175065052248540
-
-`∩[A287126(n+1), A324059(n+1)]`
--/
-
-namespace A377950.P12669175065052248540
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A287126 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324059 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A377950.P12669175065052248540
-
 /-!
 # A377952: Numbers k that divide A084190(k) = lcm{d-1 : d > 1 and d|k}.
 
@@ -3191,25 +3168,25 @@ end A377961.P1278144111285084144
 /-!
 # A377963: Expansion of e.g.f. (1+x) * exp(x*(1+x)^2).
 
-The programs for A377963, the canonical program `A377963.P4256317585237205592` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377963 has offset 0).
+The programs for A377963, the canonical program `A377963.P15226023935025694717` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377963 has offset 0).
 
 The definition of A377963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A377963.P4256317585237205592
+/-! ## A377963.P15226023935025694717
 
 `a(n-1)+(4*n-3)*a(n-2)+3*(n-2)*n*a(n-3)` with `a(0)=1, a(1)=2, a(2)=7`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A377963
 
 /-- `a(n-1)+(4*n-3)*a(n-2)+3*(n-2)*n*a(n-3)` -/
-def P4256317585237205592.Spec : Prop :=
-  ∀ n, P4256317585237205592.a n = A377963 n
+def P15226023935025694717.Spec : Prop :=
+  ∀ n, P15226023935025694717.a n = A377963 n
 
-theorem P4256317585237205592.correct : P4256317585237205592.Spec := by
+theorem P15226023935025694717.correct : P15226023935025694717.Spec := by
   intro n
   simp only [A377963]
 

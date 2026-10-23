@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -11,26 +10,27 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B002.C000
@@ -74,13 +74,13 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
 # A018100: Powers of fourth root of 19 rounded to nearest integer.
 
-The programs for A018100, the canonical program `A018100.P1167688119497041151` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018100 has offset 0).
+The programs for A018100, the canonical program `A018100.P1167688119497041151` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018100 has offset 0).
 
 The definition of A018100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 313 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -89,7 +89,7 @@ The definition of A018100 is `conjectured`: the Lean definition is a formula tha
 
 `round(19^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018100
@@ -436,7 +436,7 @@ end A018101
 /-!
 # A018102: Powers of fourth root of 20 rounded down.
 
-The programs for A018102, the canonical program `A018102.P12363162314947531818` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018102 has offset 0).
+The programs for A018102, the canonical program `A018102.P12363162314947531818` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018102 has offset 0).
 
 The definition of A018102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 308 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -445,7 +445,7 @@ The definition of A018102 is `conjectured`: the Lean definition is a formula tha
 
 `floor(20^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018102
@@ -555,7 +555,7 @@ end A018102
 /-!
 # A018103: Powers of fourth root of 20 rounded to nearest integer.
 
-The programs for A018103, the canonical program `A018103.P11939854597086477035` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018103 has offset 0).
+The programs for A018103, the canonical program `A018103.P11939854597086477035` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018103 has offset 0).
 
 The definition of A018103 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 308 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -564,7 +564,7 @@ The definition of A018103 is `conjectured`: the Lean definition is a formula tha
 
 `round(20^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018103
@@ -793,7 +793,7 @@ end A018104
 /-!
 # A018105: Powers of fourth root of 21 rounded down.
 
-The programs for A018105, the canonical program `A018105.P8639596987832583942` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018105 has offset 0).
+The programs for A018105, the canonical program `A018105.P8639596987832583942` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018105 has offset 0).
 
 The definition of A018105 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -802,7 +802,7 @@ The definition of A018105 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(21^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018105
@@ -1015,7 +1015,7 @@ end A018105
 /-!
 # A018106: Powers of fourth root of 21 rounded to nearest integer.
 
-The programs for A018106, the canonical program `A018106.P4013518639670967208` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018106 has offset 0).
+The programs for A018106, the canonical program `A018106.P4013518639670967208` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018106 has offset 0).
 
 The definition of A018106 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 303 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1024,7 +1024,7 @@ The definition of A018106 is `conjectured`: the Lean definition is a formula tha
 
 `round(21^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018106
@@ -1325,7 +1325,7 @@ end A018107
 /-!
 # A018108: Powers of fourth root of 22 rounded down.
 
-The programs for A018108, the canonical program `A018108.P6337244509870454910` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018108 has offset 0).
+The programs for A018108, the canonical program `A018108.P6337244509870454910` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018108 has offset 0).
 
 The definition of A018108 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 298 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1334,7 +1334,7 @@ The definition of A018108 is `conjectured`: the Lean definition is a formula tha
 
 `floor(22^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018108
@@ -1490,7 +1490,7 @@ end A018108
 /-!
 # A018109: Powers of fourth root of 22 rounded to nearest integer.
 
-The programs for A018109, the canonical program `A018109.P7011005625315940237` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018109 has offset 0).
+The programs for A018109, the canonical program `A018109.P7011005625315940237` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018109 has offset 0).
 
 The definition of A018109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 298 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1499,7 +1499,7 @@ The definition of A018109 is `conjectured`: the Lean definition is a formula tha
 
 `round(22^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018109
@@ -1797,7 +1797,7 @@ end A018110
 /-!
 # A018111: Powers of fourth root of 23 rounded down.
 
-The programs for A018111, the canonical program `A018111.P12977573308699411012` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018111 has offset 0).
+The programs for A018111, the canonical program `A018111.P12977573308699411012` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018111 has offset 0).
 
 The definition of A018111 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1806,7 +1806,7 @@ The definition of A018111 is `conjectured`: the Lean definition is a formula tha
 
 `floor(23^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018111
@@ -1985,7 +1985,7 @@ end A018111
 /-!
 # A018112: Powers of fourth root of 23 rounded to nearest integer.
 
-The programs for A018112, the canonical program `A018112.P5299032250763542590` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018112 has offset 0).
+The programs for A018112, the canonical program `A018112.P5299032250763542590` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018112 has offset 0).
 
 The definition of A018112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1994,7 +1994,7 @@ The definition of A018112 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(sqrt(23))^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018112
@@ -2292,7 +2292,7 @@ end A018113
 /-!
 # A018114: Powers of fourth root of 24 rounded down.
 
-The programs for A018114, the canonical program `A018114.P5660574169271950473` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018114 has offset 0).
+The programs for A018114, the canonical program `A018114.P5660574169271950473` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018114 has offset 0).
 
 The definition of A018114 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 290 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2301,7 +2301,7 @@ The definition of A018114 is `conjectured`: the Lean definition is a formula tha
 
 `floor(24^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018114
@@ -2487,7 +2487,7 @@ end A018114
 /-!
 # A018115: Powers of fourth root of 24 rounded to nearest integer.
 
-The programs for A018115, the canonical program `A018115.P2915647392709698732` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018115 has offset 0).
+The programs for A018115, the canonical program `A018115.P2915647392709698732` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018115 has offset 0).
 
 The definition of A018115 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 290 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2496,7 +2496,7 @@ The definition of A018115 is `conjectured`: the Lean definition is a formula tha
 
 `round(24^(n/4))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018115
@@ -3575,7 +3575,7 @@ end A018120
 /-!
 # A018121: Powers of fifth root of 3 rounded to nearest integer.
 
-The programs for A018121, the canonical program `A018121.P7947034240546211439` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018121 has offset 0).
+The programs for A018121, the canonical program `A018121.P7947034240546211439` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018121 has offset 0).
 
 The definition of A018121 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3584,7 +3584,7 @@ The definition of A018121 is `conjectured`: the Lean definition is a formula tha
 
 `round(3^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018121
@@ -3882,7 +3882,7 @@ end A018122
 /-!
 # A018123: Powers of fifth root of 4 rounded down.
 
-The programs for A018123, the canonical program `A018123.P947965484352094533` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018123 has offset 0).
+The programs for A018123, the canonical program `A018123.P947965484352094533` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018123 has offset 0).
 
 The definition of A018123 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 831 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3891,7 +3891,7 @@ The definition of A018123 is `conjectured`: the Lean definition is a formula tha
 
 `floor(4^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018123
@@ -4678,7 +4678,7 @@ end A018126
 
 /-! ## A018126.P9325109659861523457
 
-`floor(5^(n/2)^(2/5))`
+`floor((5^(n/2))^(2/5))`
 -/
 
 namespace A018126.P9325109659861523457
@@ -4693,7 +4693,7 @@ end A018126.P9325109659861523457
 
 namespace A018126
 
-/-- `floor(5^(n/2)^(2/5))` -/
+/-- `floor((5^(n/2))^(2/5))` -/
 def P9325109659861523457.Spec : Prop :=
   ∀ n, P9325109659861523457.a n = A018126 n
 
@@ -4771,7 +4771,7 @@ end A018126
 /-!
 # A018127: Powers of fifth root of 5 rounded to nearest integer.
 
-The programs for A018127, the canonical program `A018127.P4168323977292389068` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018127 has offset 0).
+The programs for A018127, the canonical program `A018127.P4168323977292389068` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018127 has offset 0).
 
 The definition of A018127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 716 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4780,7 +4780,7 @@ The definition of A018127 is `conjectured`: the Lean definition is a formula tha
 
 `round(5^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018127
@@ -5387,7 +5387,7 @@ end A018131.P12506362054342888365
 /-!
 # A018132: Powers of fifth root of 7 rounded down.
 
-The programs for A018132, the canonical program `A018132.P14846082595715997503` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018132 has offset 0).
+The programs for A018132, the canonical program `A018132.P14846082595715997503` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018132 has offset 0).
 
 The definition of A018132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5396,7 +5396,7 @@ The definition of A018132 is `conjectured`: the Lean definition is a formula tha
 
 `floor(7^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018132
@@ -5845,7 +5845,7 @@ end A018134
 /-!
 # A018135: Powers of fifth root of 8 rounded down.
 
-The programs for A018135, the canonical program `A018135.P5969121266142873838` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018135 has offset 0).
+The programs for A018135, the canonical program `A018135.P5969121266142873838` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018135 has offset 0).
 
 The definition of A018135 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 554 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5854,7 +5854,7 @@ The definition of A018135 is `conjectured`: the Lean definition is a formula tha
 
 `floor(8^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018135
@@ -6539,7 +6539,7 @@ end A018138
 
 /-! ## A018138.P10149999076671217435
 
-`floor(3^n^(2/5))`
+`floor((3^n)^(2/5))`
 -/
 
 namespace A018138.P10149999076671217435
@@ -6554,7 +6554,7 @@ end A018138.P10149999076671217435
 
 namespace A018138
 
-/-- `floor(3^n^(2/5))` -/
+/-- `floor((3^n)^(2/5))` -/
 def P10149999076671217435.Spec : Prop :=
   ∀ n, P10149999076671217435.a n = A018138 n
 
@@ -6728,21 +6728,21 @@ end A018139
 /-!
 # A018140: Powers of the fifth root of 9 rounded up.
 
-The programs for A018140, the canonical program `A018140.P17425176080909874737` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018140 has offset 0).
+The programs for A018140, the canonical program `A018140.P17425176080909874737` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018140 has offset 0).
 
 The definition of A018140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 524 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A018140.P17425176080909874737
 
-`ceil(3^(2/5)^n)`
+`ceil((3^(2/5))^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018140
 
-/-- `ceil(3^(2/5)^n)` -/
+/-- `ceil((3^(2/5))^n)` -/
 def P17425176080909874737.Spec : Prop :=
   ∀ n, P17425176080909874737.a n = A018140 n
 
@@ -7023,29 +7023,10 @@ end A018140
 /-!
 # A018141: Powers of fifth root of 10 rounded down.
 
-The programs for A018141, the canonical program `A018141.P16818335478403762386` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018141 has offset 0).
+The programs for A018141, the canonical program `A018141.P16818335478403762386` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018141 has offset 0).
 
-The definition of A018141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A018141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A018141.P16818335478403762386
-
-`floor(root(10, 5)^n)`
-
-The canonical program, it is in `Seq.B000.C003`.
--/
-
-namespace A018141
-
-/-- `floor(root(10, 5)^n)` -/
-def P16818335478403762386.Spec : Prop :=
-  ∀ n, P16818335478403762386.a n = A018141 n
-
-theorem P16818335478403762386.correct : P16818335478403762386.Spec := by
-  intro n
-  simp only [A018141]
-
-end A018141
 
 /-! ## A018141.P11881651587048133031
 
@@ -7113,6 +7094,25 @@ namespace A018141
 /-- `A018117(n)+A018143(n)-A018119(n)` -/
 def P3379719553155334456.Spec : Prop :=
   ∀ n, P3379719553155334456.a n = A018141 n
+
+end A018141
+
+/-! ## A018141.P16818335478403762386
+
+`floor(root(10, 5)^n)`
+
+The canonical program, it is in `Seq.B000.C004`.
+-/
+
+namespace A018141
+
+/-- `floor(root(10, 5)^n)` -/
+def P16818335478403762386.Spec : Prop :=
+  ∀ n, P16818335478403762386.a n = A018141 n
+
+theorem P16818335478403762386.correct : P16818335478403762386.Spec := by
+  intro n
+  simp only [A018141]
 
 end A018141
 
@@ -7188,16 +7188,16 @@ end A018141
 /-!
 # A018142: Powers of fifth root of 10 rounded to nearest integer.
 
-The programs for A018142, the canonical program `A018142.P16654255527489301174` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018142 has offset 0).
+The programs for A018142, the canonical program `A018142.P16654255527489301174` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018142 has offset 0).
 
-The definition of A018142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A018142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A018142.P16654255527489301174
 
 `round(root(10, 5)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018142
@@ -7559,7 +7559,7 @@ end A018143
 /-!
 # A018144: Powers of fifth root of 11 rounded down.
 
-The programs for A018144, the canonical program `A018144.P16588412719325347141` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018144 has offset 0).
+The programs for A018144, the canonical program `A018144.P16588412719325347141` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018144 has offset 0).
 
 The definition of A018144 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 481 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7568,7 +7568,7 @@ The definition of A018144 is `conjectured`: the Lean definition is a formula tha
 
 `floor(11^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018144
@@ -8127,7 +8127,7 @@ end A018147
 /-!
 # A018148: Powers of fifth root of 12 rounded to nearest integer.
 
-The programs for A018148, the canonical program `A018148.P14232182123024688494` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018148 has offset 0).
+The programs for A018148, the canonical program `A018148.P14232182123024688494` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018148 has offset 0).
 
 The definition of A018148 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 464 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8136,7 +8136,7 @@ The definition of A018148 is `conjectured`: the Lean definition is a formula tha
 
 `round(12^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018148
@@ -9218,7 +9218,7 @@ end A018153
 /-!
 # A018154: Powers of fifth root of 14 rounded to nearest integer.
 
-The programs for A018154, the canonical program `A018154.P12656226651126346357` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018154 has offset 0).
+The programs for A018154, the canonical program `A018154.P12656226651126346357` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018154 has offset 0).
 
 The definition of A018154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 437 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9227,7 +9227,7 @@ The definition of A018154 is `conjectured`: the Lean definition is a formula tha
 
 `round(14^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018154
@@ -9673,7 +9673,7 @@ end A018156
 /-!
 # A018157: Powers of fifth root of 15 rounded to nearest integer.
 
-The programs for A018157, the canonical program `A018157.P1069620189047636789` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018157 has offset 0).
+The programs for A018157, the canonical program `A018157.P1069620189047636789` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018157 has offset 0).
 
 The definition of A018157 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 426 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9682,7 +9682,7 @@ The definition of A018157 is `conjectured`: the Lean definition is a formula tha
 
 `round(15^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018157
@@ -10439,7 +10439,7 @@ end A018160
 
 /-! ## A018160.P18330454629507795096
 
-`round(4^n^(2/5))`
+`round((4^n)^(2/5))`
 -/
 
 namespace A018160.P18330454629507795096
@@ -10454,7 +10454,7 @@ end A018160.P18330454629507795096
 
 namespace A018160
 
-/-- `round(4^n^(2/5))` -/
+/-- `round((4^n)^(2/5))` -/
 def P18330454629507795096.Spec : Prop :=
   ∀ n, P18330454629507795096.a n = A018160 n
 
@@ -10680,7 +10680,7 @@ end A018161
 /-!
 # A018162: Powers of fifth root of 17 rounded down.
 
-The programs for A018162, the canonical program `A018162.P18189621660395438062` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018162 has offset 0).
+The programs for A018162, the canonical program `A018162.P18189621660395438062` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018162 has offset 0).
 
 The definition of A018162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 407 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10689,7 +10689,7 @@ The definition of A018162 is `conjectured`: the Lean definition is a formula tha
 
 `floor(17^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018162
@@ -11141,7 +11141,7 @@ end A018164
 /-!
 # A018165: Powers of fifth root of 18 rounded down.
 
-The programs for A018165, the canonical program `A018165.P1256256754059875637` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018165 has offset 0).
+The programs for A018165, the canonical program `A018165.P1256256754059875637` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018165 has offset 0).
 
 The definition of A018165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 399 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11150,7 +11150,7 @@ The definition of A018165 is `conjectured`: the Lean definition is a formula tha
 
 `floor(18^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018165
@@ -11573,7 +11573,7 @@ end A018167
 /-!
 # A018168: Powers of fifth root of 19 rounded down.
 
-The programs for A018168, the canonical program `A018168.P1486902536757321213` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018168 has offset 0).
+The programs for A018168, the canonical program `A018168.P1486902536757321213` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018168 has offset 0).
 
 The definition of A018168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 392 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11582,7 +11582,7 @@ The definition of A018168 is `conjectured`: the Lean definition is a formula tha
 
 `floor(19^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018168
@@ -12504,7 +12504,7 @@ end A018174
 /-!
 # A018175: Powers of fifth root of 21 rounded to nearest integer.
 
-The programs for A018175, the canonical program `A018175.P7538646468649582105` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018175 has offset 0).
+The programs for A018175, the canonical program `A018175.P7538646468649582105` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018175 has offset 0).
 
 The definition of A018175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 379 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12513,7 +12513,7 @@ The definition of A018175 is `conjectured`: the Lean definition is a formula tha
 
 `round(21^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018175
@@ -12814,7 +12814,7 @@ end A018176
 /-!
 # A018177: Powers of fifth root of 22 rounded down.
 
-The programs for A018177, the canonical program `A018177.P5745912587314525532` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018177 has offset 0).
+The programs for A018177, the canonical program `A018177.P5745912587314525532` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018177 has offset 0).
 
 The definition of A018177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 373 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12823,7 +12823,7 @@ The definition of A018177 is `conjectured`: the Lean definition is a formula tha
 
 `floor(22^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018177
@@ -13583,7 +13583,7 @@ end A018182
 /-!
 # A018183: Powers of fifth root of 24 rounded down.
 
-The programs for A018183, the canonical program `A018183.P689843559182131155` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018183 has offset 0).
+The programs for A018183, the canonical program `A018183.P689843559182131155` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018183 has offset 0).
 
 The definition of A018183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 363 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13592,7 +13592,7 @@ The definition of A018183 is `conjectured`: the Lean definition is a formula tha
 
 `floor(24^(n/5))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018183
@@ -14015,7 +14015,7 @@ end A018185
 /-!
 # A018186: a(n+2) = 3*a(n) - a(n-2) with a(0) = 1, a(1) = 3, a(2) = 6.
 
-The programs for A018186, the canonical program `A018186.P12887403914497736875` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018186 has offset 0).
+The programs for A018186, the canonical program `A018186.P12887403914497736875` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018186 has offset 0).
 
 The definition of A018186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 385 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14047,7 +14047,7 @@ end A018186
 
 `3*a(n-2)+a(n-4)` with `a(0)=1, a(1)=3, a(2)=6, a(3)=9`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018186
@@ -14259,28 +14259,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018189.P5293075683238175637
-
-/-! ## A018189.P9019994573599605403
-
-`∩[A023995(n+1), A056176(n)]`
--/
-
-namespace A018189.P9019994573599605403
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023995 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056176 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A018189.P9019994573599605403
 
 /-!
 # A018190: Number of planar simply-connected polyhexes (or benzenoid hydrocarbons) with n hexagons.
@@ -14835,7 +14813,7 @@ end A018195.P17293246053339553619
 /-!
 # A018196: Possible numbers of complements of topologies on 5 points.
 
-The programs for A018196, the canonical program `A018196.P10655049329318647614` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018196 has offset 0).
+The programs for A018196, the canonical program `A018196.P10655049329318647614` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018196 has offset 0).
 
 The definition of A018196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14844,7 +14822,7 @@ The definition of A018196 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((-1-2x+7x^3+3x^4-2x^5)/(-1+2x))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A018196

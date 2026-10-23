@@ -2,7 +2,7 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,8 +10,8 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -25,12 +25,15 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -94,7 +97,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -4357,7 +4359,7 @@ end A321356.P12507041064452116507
 /-!
 # A321358: a(n) = (2*4^n + 7)/3.
 
-The programs for A321358, the canonical program `A321358.P3446411409430386847` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321358 has offset 0).
+The programs for A321358, the canonical program `A321358.P3446411409430386847` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321358 has offset 0).
 
 The definition of A321358 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2*4^n+7)/3` (program `A321358.P2016517276867502770`, by `A321358.P2016517276867502770.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4366,7 +4368,7 @@ The definition of A321358 is `verified`: the Lean definition is proven equivalen
 
 `4*a(n-1)-7` with `a(0)=3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A321358
@@ -5608,25 +5610,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A321369.P5035433765468271056
-
-/-! ## A321369.P15666674910987228601
-
-`A127674(comp[A285092(n+4)-A000142(n)])`
--/
-
-namespace A321369.P15666674910987228601
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A285092 (n + 4) - A000142 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127674 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A321369.P15666674910987228601
 
 /-! ## A321369.P15315390760896495371
 
@@ -6917,7 +6900,7 @@ end A321382.P14452552763300937621
 /-!
 # A321383: Numbers k such that the concatenation k21 is a square.
 
-The programs for A321383, the canonical program `A321383.P16021182823494512336` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321383 has offset 1).
+The programs for A321383, the canonical program `A321383.P16021182823494512336` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321383 has offset 1).
 
 The definition of A321383 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6926,7 +6909,7 @@ The definition of A321383 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)-a(n-4)+50` with `a(0)=1, a(1)=15, a(2)=37, a(3)=79`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A321383
@@ -6941,39 +6924,39 @@ theorem P16021182823494512336.correct : P16021182823494512336.Spec := by
 
 end A321383
 
-/-! ## A321383.P3870257240522274888
+/-! ## A321383.P5979415987326891814
 
 `(50*n*(n+1)+3*(2*(n+1)-1)*(-1)^(n+1)+11)/8`
 -/
 
-namespace A321383.P3870257240522274888
+namespace A321383.P5979415987326891814
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((50 * (n * (n + 1)) : ℤ) + 3 * (((2 * (n + 1) : ℤ) - 1) * (-1) ^ (n + 1)) + 11 : ℚ) / 8
+  ((50 * n * (n + 1) : ℤ) + 3 * ((2 * (n + 1) : ℤ) - 1) * (-1) ^ (n + 1) + 11 : ℚ) / 8
 
 end
 
-end A321383.P3870257240522274888
+end A321383.P5979415987326891814
 
 namespace A321383
 
 /-- `(50*n*(n+1)+3*(2*(n+1)-1)*(-1)^(n+1)+11)/8` -/
-def P3870257240522274888.Spec : Prop :=
-  ∀ n, P3870257240522274888.a n = (A321383 (n + 1) : ℚ)
+def P5979415987326891814.Spec : Prop :=
+  ∀ n, P5979415987326891814.a n = (A321383 (n + 1) : ℚ)
 
-theorem P3870257240522274888.correct : P3870257240522274888.Spec := by
+theorem P5979415987326891814.correct : P5979415987326891814.Spec := by
   intro n
   induction n using Nat.strong_induction_on with
   | _ n ih =>
     match n with
     | 0 | 1 | 2 | 3 =>
-      simp [A321383, Nat.add_sub_cancel, A321383.P3870257240522274888.a, A321383.P16021182823494512336.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A321383, Nat.add_sub_cancel, A321383.P5979415987326891814.a, A321383.P16021182823494512336.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 4 =>
       have h2 := ih (m + 2) (by omega)
       have h4 := ih m (by omega)
-      simp only [A321383, Nat.add_sub_cancel, A321383.P3870257240522274888.a, A321383.P16021182823494512336.a, SequenceMachineLib.memo_apply] at h2 h4 ⊢
+      simp only [A321383, Nat.add_sub_cancel, A321383.P5979415987326891814.a, A321383.P16021182823494512336.a, SequenceMachineLib.memo_apply] at h2 h4 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 4 - 2 = m + 2 by omega, show m + 4 - 4 = m by omega, show m + 2 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
       push_cast at h2 h4 ⊢

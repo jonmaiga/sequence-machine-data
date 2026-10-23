@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -12,16 +13,17 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
+import Seq.B000.C021
 import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C026
+import Seq.B000.C030
+import Seq.B000.C034
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,8 +34,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -48,6 +50,7 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -69,7 +72,9 @@ import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 
@@ -331,12 +336,12 @@ end A038204.P10845155773369078793
 /-!
 # A038205: Number of derangements of n where minimal cycle size is at least 3.
 
-The programs for A038205, the canonical program `A038205.P2077239952391614598` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038205 has offset 0).
+The programs for A038205, the canonical program `A038205.P14438542104217294371` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038205 has offset 0).
 
 The definition of A038205 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A038205.P2077239952391614598
+/-! ## A038205.P14438542104217294371
 
 `(n-1)*a(n-1)+(n-1)*(n-2)*a(n-3)` with `a(0)=1, a(1)=0, a(2)=0`
 
@@ -346,10 +351,10 @@ The canonical program, it is in `Seq.B000.C007`.
 namespace A038205
 
 /-- `(n-1)*a(n-1)+(n-1)*(n-2)*a(n-3)` -/
-def P2077239952391614598.Spec : Prop :=
-  ∀ n, P2077239952391614598.a n = A038205 n
+def P14438542104217294371.Spec : Prop :=
+  ∀ n, P14438542104217294371.a n = A038205 n
 
-theorem P2077239952391614598.correct : P2077239952391614598.Spec := by
+theorem P14438542104217294371.correct : P14438542104217294371.Spec := by
   intro n
   simp only [A038205]
 
@@ -606,7 +611,7 @@ end A038206.P18223813539456765101
 
 /-! ## A038206.P1060669588898997556
 
-`A104113(n+1)^(1/A040002(n))^2`
+`(A104113(n+1)^(1/A040002(n)))^2`
 -/
 
 namespace A038206.P1060669588898997556

@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -14,18 +15,21 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -37,8 +41,10 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -313,7 +319,7 @@ end A320105.P18234842846718463408
 /-!
 # A320106: Möbius transform of A320107.
 
-The programs for A320106, the canonical program `A320106.P11161419718811023889` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320106 has offset 1).
+The programs for A320106, the canonical program `A320106.P11161419718811023889` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320106 has offset 1).
 
 The definition of A320106 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -322,7 +328,7 @@ The definition of A320106 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(cos(gcd(12, n+1)%9))`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A320106
@@ -1447,7 +1453,7 @@ end A320111
 
 /-! ## A320111.P1632974293069469586
 
-`A000005(-(n+1)/or(n+1, -2))`
+`A000005(-((n+1)/or(n+1, -2)))`
 -/
 
 namespace A320111.P1632974293069469586
@@ -1462,7 +1468,7 @@ end A320111.P1632974293069469586
 
 namespace A320111
 
-/-- `A000005(-(n+1)/or(n+1, -2))` -/
+/-- `A000005(-((n+1)/or(n+1, -2)))` -/
 def P1632974293069469586.Spec : Prop :=
   ∀ n, P1632974293069469586.a n = A320111 (n + 1)
 
@@ -4564,25 +4570,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A320155.P11093785271381664798
-
-/-! ## A320155.P15283833115376983839
-
-`A000296(comp[A093565(n)])`
--/
-
-namespace A320155.P15283833115376983839
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093565 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000296 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A320155.P15283833115376983839
 
 /-!
 # A320160: Number of series-reduced balanced rooted trees whose leaves form an integer partition of n.

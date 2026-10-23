@@ -2,26 +2,30 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C031
+import Seq.B000.C017
+import Seq.B000.C019
+import Seq.B000.C026
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -40,7 +44,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
@@ -284,7 +287,7 @@ end A031875.P16965262771321650157
 /-!
 # A031876: a(n) = Sum_{k=0..n} floor(k^(1/3)).
 
-The programs for A031876, the canonical program `A031876.P13799947586534427295` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031876 has offset 0).
+The programs for A031876, the canonical program `A031876.P13799947586534427295` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A031876 has offset 0).
 
 The definition of A031876 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -405,7 +408,7 @@ end A031876
 
 `and(∑[A048766(n)], -1)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A031876
@@ -1629,6 +1632,28 @@ end
 
 end A031880.P17852473175703206814
 
+/-! ## A031880.P10362466918125439811
+
+`∩[A000959(n+1), A032350(n+1)]`
+-/
+
+namespace A031880.P10362466918125439811
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000959 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032350 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A031880.P10362466918125439811
+
 /-! ## A031880.P13402775998427319072
 
 `∩[A002113(n+1), A031879(n+1)]`
@@ -1738,28 +1763,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A031880.P7968727357188640090
-
-/-! ## A031880.P10362466918125439811
-
-`∩[A000959(n+1), A032350(n+1)]`
--/
-
-namespace A031880.P10362466918125439811
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000959 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032350 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A031880.P10362466918125439811
 
 /-! ## A031880.P5063429783510843444
 
@@ -2117,31 +2120,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031883.P17805822959535335746
-
-/-! ## A031883.P14797141747328251524
-
-`Δ[∪[2*A049781(n+1)-1, A043772(n+1)]]`
--/
-
-namespace A031883.P14797141747328251524
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A049781 (n + 1) - 1
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043772 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f2 j = (x : ℤ)) ∨ ∃ j, f3 j = (x : ℤ)) n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
-
-end
-
-end A031883.P14797141747328251524
 
 /-! ## A031883.P15137136385728816003
 

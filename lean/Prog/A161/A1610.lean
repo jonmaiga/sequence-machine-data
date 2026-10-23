@@ -13,19 +13,19 @@ import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +38,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -86,7 +86,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A161001: Those positive integers n that when read in binary contains runs of 0's and 1's being of distinct lengths, the list of lengths forming a permutation of some number of consecutive positive integers.
@@ -997,7 +996,7 @@ end A161006.P12101422897569952463
 /-!
 # A161007: a(n+1) = 2*a(n) + 16*a(n-1), a(0)=0, a(1)=1.
 
-The programs for A161007, the canonical program `A161007.P2914204989081213446` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161007 has offset 0).
+The programs for A161007, the canonical program `A161007.P2914204989081213446` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161007 has offset 0).
 
 The definition of A161007 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1006,7 +1005,7 @@ The definition of A161007 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((1+sqrt(17))^n-(1-sqrt(17))^n)/(2*sqrt(17))`
 
-The canonical program, it is in `Seq.B000.C022`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A161007

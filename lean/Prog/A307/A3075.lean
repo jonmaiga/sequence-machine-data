@@ -13,23 +13,25 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +46,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -2835,28 +2836,6 @@ end
 
 end A307527.P2766513635567060030
 
-/-! ## A307527.P229751494055249841
-
-`∩[A324745(n+1), A359564(n+1)]`
--/
-
-namespace A307527.P229751494055249841
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324745 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359564 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A307527.P229751494055249841
-
 /-! ## A307527.P5529800125021817210
 
 `∩[A305236(n+1), A359564(n+1)]`
@@ -2878,6 +2857,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A307527.P5529800125021817210
+
+/-! ## A307527.P229751494055249841
+
+`∩[A324745(n+1), A359564(n+1)]`
+-/
+
+namespace A307527.P229751494055249841
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A324745 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359564 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A307527.P229751494055249841
 
 /-!
 # A307530: Primes p for which the continued fraction expansion of sqrt(p) has a single 1 starting at second position.
@@ -5136,25 +5137,25 @@ end A307558.P15493942625045521717
 /-!
 # A307559: a(n) = floor(n/3)*(n - floor(n/3))*(n - floor(n/3) - 1).
 
-The programs for A307559, the canonical program `A307559.P6896203004423744136` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307559 has offset 1).
+The programs for A307559, the canonical program `A307559.P8321343973763557261` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307559 has offset 1).
 
-The definition of A307559 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n+1)/3)*(n+1-floor((n+1)/3))*(n+1-floor((n+1)/3)-1)` (program `A307559.P6896203004423744136`, by `A307559.P6896203004423744136.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A307559 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n+1)/3)*(n+1-floor((n+1)/3))*(n+1-floor((n+1)/3)-1)` (program `A307559.P8321343973763557261`, by `A307559.P8321343973763557261.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A307559.P6896203004423744136
+/-! ## A307559.P8321343973763557261
 
 `floor((n+1)/3)*(n+1-floor((n+1)/3))*(n+1-floor((n+1)/3)-1)`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A307559
 
 /-- `floor((n+1)/3)*(n+1-floor((n+1)/3))*(n+1-floor((n+1)/3)-1)` -/
-def P6896203004423744136.Spec : Prop :=
-  ∀ n, P6896203004423744136.a n = A307559 (n + 1)
+def P8321343973763557261.Spec : Prop :=
+  ∀ n, P8321343973763557261.a n = A307559 (n + 1)
 
-theorem P6896203004423744136.correct : P6896203004423744136.Spec := by
+theorem P8321343973763557261.correct : P8321343973763557261.Spec := by
   intro n
   simp only [A307559, Nat.add_sub_cancel]
 

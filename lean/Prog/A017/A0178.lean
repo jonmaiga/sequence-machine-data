@@ -1,4 +1,4 @@
-import SequenceMachineLib
+import SequenceMachineLib.Basic
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
@@ -6,39 +6,44 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C001
@@ -54,7 +59,6 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -67,7 +71,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -1455,128 +1458,27 @@ end A017815
 /-!
 # A017816: Binomial coefficients C(100,n).
 
-The programs for A017816, the canonical program `A017816.P15601929689734649736` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017816 has offset 0).
+The programs for A017816, the canonical program `A017816.P14800253551868020068` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017816 has offset 0).
 
-The definition of A017816 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A017816 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(100, n)` (program `A017816.P14800253551868020068`, by `A017816.P14800253551868020068.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A017816.P2670065485106600090
+/-! ## A017816.P14800253551868020068
 
-`C(10^(4/2), n)`
--/
-
-namespace A017816.P2670065485106600090
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (SequenceMachineLib.roundAway ((10 : ℝ) ^ ((4 : ℚ) / 2 : ℝ))).toNat n
-
-end
-
-end A017816.P2670065485106600090
-
-namespace A017816
-
-/-- `C(10^(4/2), n)` -/
-def P2670065485106600090.Spec : Prop :=
-  ∀ n, (P2670065485106600090.a n : ℤ) = A017816 n
-
-end A017816
-
-/-! ## A017816.P15601929689734649736
-
-`gcd(n, n+1)*C((20/2)², n)`
+`C(100, n)`
 
 The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A017816
 
-/-- `gcd(n, n+1)*C((20/2)², n)` -/
-def P15601929689734649736.Spec : Prop :=
-  ∀ n, (P15601929689734649736.a n : ℤ) = A017816 n
+/-- `C(100, n)` -/
+def P14800253551868020068.Spec : Prop :=
+  ∀ n, (P14800253551868020068.a n : ℤ) = A017816 n
 
-theorem P15601929689734649736.correct : P15601929689734649736.Spec := by
+theorem P14800253551868020068.correct : P14800253551868020068.Spec := by
   intro n
   simp only [A017816]
-
-end A017816
-
-/-! ## A017816.P17696359623717702625
-
-`-(1-4/2)*C((20/2)², n)`
--/
-
-namespace A017816.P17696359623717702625
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  -((1 - (4 : ℚ) / 2) * (Nat.choose (SequenceMachineLib.roundAway (((20 : ℚ) / 2) ^ 2)).toNat n : ℚ))
-
-end
-
-end A017816.P17696359623717702625
-
-namespace A017816
-
-/-- `-(1-4/2)*C((20/2)², n)` -/
-def P17696359623717702625.Spec : Prop :=
-  ∀ n, P17696359623717702625.a n = (A017816 n : ℚ)
-
-theorem P17696359623717702625.correct : P17696359623717702625.Spec := by
-  intro n
-  simp only [A017816, Nat.add_sub_cancel, A017816.P17696359623717702625.a, A017816.P15601929689734649736.a, SequenceMachineLib.memo_apply]
-  try norm_num [Nat.choose_two_right, Nat.factorial]
-  try ring_nf
-
-end A017816
-
-/-! ## A017816.P1454782026121512110
-
-`C((20/2)², n)+A000007(n+1)*A053742(n)`
--/
-
-namespace A017816.P1454782026121512110
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (SequenceMachineLib.roundAway (((20 : ℚ) / 2) ^ 2)).toNat n : ℤ) + A000007 (n + 1) * A053742 n
-
-end
-
-end A017816.P1454782026121512110
-
-namespace A017816
-
-/-- `C((20/2)², n)+A000007(n+1)*A053742(n)` -/
-def P1454782026121512110.Spec : Prop :=
-  ∀ n, P1454782026121512110.a n = A017816 n
-
-end A017816
-
-/-! ## A017816.P16794017846138094462
-
-`record[C((20/2)², A083926(n))]`
--/
-
-namespace A017816.P16794017846138094462
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (SequenceMachineLib.roundAway (((20 : ℚ) / 2) ^ 2)).toNat (A083926 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A017816.P16794017846138094462
-
-namespace A017816
-
-/-- `record[C((20/2)², A083926(n))]` -/
-def P16794017846138094462.Spec : Prop :=
-  ∀ n, (P16794017846138094462.a n : ℤ) = A017816 n
 
 end A017816
 
@@ -8148,33 +8050,6 @@ def P7507765720568838621.Spec : Prop :=
 theorem P7507765720568838621.correct : P7507765720568838621.Spec := by
   intro n
   simp only [A017895]
-
-end A017895
-
-/-! ## A017895.P17981938085730036228
-
-`A017909(comp[A144834(n+1)-(n²+n)])`
--/
-
-namespace A017895.P17981938085730036228
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A144834 (n + 1) - (n ^ 2 + n : ℤ)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017909 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A017895.P17981938085730036228
-
-namespace A017895
-
-/-- `A017909(comp[A144834(n+1)-(n²+n)])` -/
-def P17981938085730036228.Spec : Prop :=
-  ∀ n, P17981938085730036228.a n = A017895 n
 
 end A017895
 

@@ -2,16 +2,16 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -22,9 +22,10 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,7 +35,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C002
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
@@ -2351,7 +2352,7 @@ end A223336.P10416958176797395732
 /-!
 # A223337: 5 X 5 X 5 triangular graph coloring a rectangular array: number of n X 1 0..14 arrays where 0..14 label nodes of a graph with edges 0,1 0,2 1,2 1,3 1,4 2,4 3,4 2,5 4,5 3,6 3,7 4,7 6,7 4,8 5,8 7,8 5,9 8,9 6,10 6,11 7,11 10,11 7,12 8,12 11,12 11,12 8,13 9,13 12,13 9,14 13,14 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223337, the canonical program `A223337.P2831077391564944027` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223337 has offset 1).
+The programs for A223337, the canonical program `A223337.P2831077391564944027` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223337 has offset 1).
 
 The definition of A223337 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2360,7 +2361,7 @@ The definition of A223337 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-1)+4*a(n-2)-8*a(n-3)` with `a(0)=15, a(1)=60, a(2)=264`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223337
@@ -2914,7 +2915,7 @@ end A223345.P1042919012087797176
 /-!
 # A223346: 3 X 3 X 3 triangular graph without horizontal edges coloring a rectangular array: number of n X 1 0..5 arrays where 0..5 label nodes of a graph with edges 0,1 0,2 1,3 1,4 2,4 2,5 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223346, the canonical program `A223346.P16993182343780945087` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223346 has offset 1).
+The programs for A223346, the canonical program `A223346.P16993182343780945087` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223346 has offset 1).
 
 The definition of A223346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 284 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2946,7 +2947,7 @@ end A223346
 
 `5*a(n-2)` with `a(0)=6, a(1)=12, a(2)=28`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223346
@@ -3960,7 +3961,7 @@ end A223362.P14268437700380779245
 /-!
 # A223363: 6 X 6 X 6 triangular graph coloring a rectangular array: number of n X 1 0..20 arrays where 0..20 label nodes of the fully triangulated graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223363, the canonical program `A223363.P14137441231812979484` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223363 has offset 1).
+The programs for A223363, the canonical program `A223363.P14137441231812979484` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223363 has offset 1).
 
 The definition of A223363 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3969,7 +3970,7 @@ The definition of A223363 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)-4*a(n-2)-8*a(n-3)` with `a(0)=21, a(1)=90, a(2)=420`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223363
@@ -4540,7 +4541,7 @@ end A223371.P6570863994365664014
 /-!
 # A223372: 3X3 square grid graph coloring a rectangular array: number of nX1 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223372, the canonical program `A223372.P4802662297023561632` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223372 has offset 1).
+The programs for A223372, the canonical program `A223372.P4802662297023561632` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223372 has offset 1).
 
 The definition of A223372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 220 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4549,7 +4550,7 @@ The definition of A223372 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-2)` with `a(0)=9, a(1)=24, a(2)=68`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223372
@@ -4659,7 +4660,7 @@ end A223372
 /-!
 # A223373: 3 X 3 square grid graph coloring a rectangular array: number of n X 2 0..8 arrays where 0..8 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223373, the canonical program `A223373.P15280993736744581091` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223373 has offset 1).
+The programs for A223373, the canonical program `A223373.P15280993736744581091` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223373 has offset 1).
 
 The definition of A223373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4691,7 +4692,7 @@ end A223373
 
 `7*a(n-1)-4*a(n-2)` with `a(0)=24, a(1)=144`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223373
@@ -5165,7 +5166,7 @@ end A223380.P13683885374848985264
 /-!
 # A223381: Number of n X 2 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order.
 
-The programs for A223381, the canonical program `A223381.P5901806503691136444` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223381 has offset 1).
+The programs for A223381, the canonical program `A223381.P5901806503691136444` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223381 has offset 1).
 
 The definition of A223381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5197,7 +5198,7 @@ end A223381
 
 `8*a(n-1)-10*a(n-2)` with `a(0)=2, a(1)=9, a(2)=57`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223381
@@ -6178,7 +6179,7 @@ end A223394.P4024417999640105227
 /-!
 # A223395: 4 X 4 square grid graph coloring a rectangular array: number of n X 1 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph.
 
-The programs for A223395, the canonical program `A223395.P2838998395562733388` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223395 has offset 1).
+The programs for A223395, the canonical program `A223395.P2838998395562733388` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223395 has offset 1).
 
 The definition of A223395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 194 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6187,7 +6188,7 @@ The definition of A223395 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)+2*a(n-2)-4*a(n-3)` with `a(0)=16, a(1)=48, a(2)=152`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A223395
@@ -6274,29 +6275,26 @@ def P15484780929053607497.Spec : Prop :=
 
 end A223395
 
-/-! ## A223395.P10555736435726001659
+/-! ## A223395.P12486320163126497547
 
-`A223402(∑[n]+1)`
+`(8+(11-5*sqrt(5))*(1-sqrt(5))^(n+1)+(1+sqrt(5))^(n+1)*(11+5*sqrt(5)))/5`
 -/
 
-namespace A223395.P10555736435726001659
+namespace A223395.P12486320163126497547
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A223402 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (8 + (11 - 5 * Real.sqrt (5 : ℝ)) * (1 - Real.sqrt (5 : ℝ)) ^ (n + 1) + (1 + Real.sqrt (5 : ℝ)) ^ (n + 1) * (11 + 5 * Real.sqrt (5 : ℝ))) / 5
 
 end
 
-end A223395.P10555736435726001659
+end A223395.P12486320163126497547
 
 namespace A223395
 
-/-- `A223402(∑[n]+1)` -/
-def P10555736435726001659.Spec : Prop :=
-  ∀ n, P10555736435726001659.a n = A223395 (n + 1)
+/-- `(8+(11-5*sqrt(5))*(1-sqrt(5))^(n+1)+(1+sqrt(5))^(n+1)*(11+5*sqrt(5)))/5` -/
+def P12486320163126497547.Spec : Prop :=
+  ∀ n, P12486320163126497547.a n = (A223395 (n + 1) : ℝ)
 
 end A223395
 

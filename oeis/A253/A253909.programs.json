@@ -178,6 +178,19 @@
       ]
     },
     {
+      "d": "2026-10-20",
+      "ix": "ceil(cot(-acot(n))²)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "acot",
+        "neg",
+        "cot",
+        "²",
+        "ceil"
+      ]
+    },
+    {
       "d": "2021-11-15",
       "ix": "round(cot(cos(atan(n²))))",
       "mt": 10000,
@@ -265,19 +278,6 @@
         "sinh",
         "cot",
         "²",
-        "round"
-      ]
-    },
-    {
-      "d": "2021-12-06",
-      "ix": "round(cot(tanh(acot(n²))))",
-      "mt": 10000,
-      "px": [
-        "n",
-        "²",
-        "acot",
-        "tanh",
-        "cot",
         "round"
       ]
     }

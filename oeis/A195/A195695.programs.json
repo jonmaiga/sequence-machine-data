@@ -102,6 +102,20 @@
       ]
     },
     {
+      "d": "2026-10-20",
+      "ix": "de[-acot(-root(4, 4))]",
+      "mt": 50,
+      "px": [
+        "4",
+        "4",
+        "root",
+        "neg",
+        "acot",
+        "neg",
+        "de"
+      ]
+    },
+    {
       "d": "2022-04-29",
       "ix": "de[asin(1)-atan(sqrt(2))]",
       "mt": 50,
@@ -112,20 +126,6 @@
         "sqrt",
         "atan",
         "sub",
-        "de"
-      ]
-    },
-    {
-      "d": "2021-11-30",
-      "ix": "de[log(sqrt(exp(atan(sqrt(8)))))]",
-      "mt": 50,
-      "px": [
-        "8",
-        "sqrt",
-        "atan",
-        "exp",
-        "sqrt",
-        "log",
         "de"
       ]
     }

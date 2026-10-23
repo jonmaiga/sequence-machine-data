@@ -11,8 +11,8 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -21,19 +21,19 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -42,7 +42,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1404,7 +1404,7 @@ end A370323.P7959564170344295892
 
 /-! ## A370323.P13665276318838024973
 
-`A038567(A327071(n))-and(n, floor(-n/2))`
+`A038567(A327071(n))-and(n, floor(-(n/2)))`
 -/
 
 namespace A370323.P13665276318838024973
@@ -2021,7 +2021,7 @@ end A370333.P2543250074644183022
 
 /-! ## A370333.P9897702314232807205
 
-`A370331(A061579(n))^(-1)^(-1)`
+`(A370331(A061579(n))^(-1))^(-1)`
 -/
 
 namespace A370333.P9897702314232807205
@@ -2418,7 +2418,7 @@ end A370348.P13488488066213306385
 /-!
 # A370349: a(n) is the number of integer triples (x,y,z) satisfying a system of linear inequalities and congruences specified in the comments.
 
-The programs for A370349, the canonical program `A370349.P7129333881566646392` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370349 has offset 0).
+The programs for A370349, the canonical program `A370349.P7129333881566646392` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370349 has offset 0).
 
 The definition of A370349 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2427,7 +2427,7 @@ The definition of A370349 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((10+24*n+18*n²+4*n^3)/9)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A370349
@@ -4500,7 +4500,7 @@ end A370390.P7337198871786598501
 /-!
 # A370391: Expansion of (1 - 2*x)/(1 - 9*x + 28*x^2 - 35*x^3 + 15*x^4 - x^5).
 
-The programs for A370391, the canonical program `A370391.P4891300136031773264` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370391 has offset 0).
+The programs for A370391, the canonical program `A370391.P4891300136031773264` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370391 has offset 0).
 
 The definition of A370391 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-2x)/(1-9x+28x^2-35x^3+15x^4-x^5))` (program `A370391.P4891300136031773264`, by `A370391.P4891300136031773264.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4509,7 +4509,7 @@ The definition of A370391 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-2x)/(1-9x+28x^2-35x^3+15x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A370391

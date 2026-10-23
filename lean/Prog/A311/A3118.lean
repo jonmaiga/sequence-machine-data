@@ -20,19 +20,20 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1535,7 +1536,7 @@ end A311806
 /-!
 # A311807: Coordination sequence Gal.3.12.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A311807, the canonical program `A311807.P4282728810707661845` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A311807 has offset 0).
+The programs for A311807, the canonical program `A311807.P4282728810707661845` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A311807 has offset 0).
 
 The definition of A311807 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2619 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1567,7 +1568,7 @@ end A311807
 
 `∑[floor(a(n-5))]` with `a(0)=1, a(1)=3, a(2)=4, a(3)=5, a(4)=4, a(5)=4, a(6)=4`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A311807

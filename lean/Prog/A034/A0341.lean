@@ -28,12 +28,14 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -45,7 +47,7 @@ import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
@@ -68,7 +70,6 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -76,10 +77,12 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -87,7 +90,7 @@ import Seq.Opaque.C023
 /-!
 # A034100: Fractional part of square root of a(n) starts with digit 4.
 
-The programs for A034100, the canonical program `A034100.P14856790414300655202` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034100 has offset 1).
+The programs for A034100, the canonical program `A034100.P14856790414300655202` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034100 has offset 1).
 
 The definition of A034100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1030 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -125,7 +128,7 @@ end A034100
 
 `eq[4, A023961(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034100
@@ -288,7 +291,7 @@ end A034100
 /-!
 # A034101: Numbers whose fractional part of square root starts with digit 5.
 
-The programs for A034101, the canonical program `A034101.P14672097297852077103` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034101 has offset 1).
+The programs for A034101, the canonical program `A034101.P14672097297852077103` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034101 has offset 1).
 
 The definition of A034101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 970 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -297,7 +300,7 @@ The definition of A034101 is `conjectured`: the Lean definition is a formula tha
 
 `eq[5, A023961(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034101
@@ -413,7 +416,7 @@ end A034101
 /-!
 # A034102: Fractional part of square root of a(n) starts with digit 6.
 
-The programs for A034102, the canonical program `A034102.P5014734774195026149` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034102 has offset 1).
+The programs for A034102, the canonical program `A034102.P5014734774195026149` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034102 has offset 1).
 
 The definition of A034102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -422,7 +425,7 @@ The definition of A034102 is `conjectured`: the Lean definition is a formula tha
 
 `A034097(n+1)-floor(sqrt(A034097(n+1)))`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034102
@@ -1090,7 +1093,7 @@ end A034104
 /-!
 # A034105: Numbers n such that fractional part of square root of n starts with digit 9.
 
-The programs for A034105, the canonical program `A034105.P4830823344881872781` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034105 has offset 1).
+The programs for A034105, the canonical program `A034105.P4830823344881872781` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034105 has offset 1).
 
 The definition of A034105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 950 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1128,7 +1131,7 @@ end A034105
 
 `eq[9, A023961(A028310(n))]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034105
@@ -2044,7 +2047,7 @@ end A034107
 
 The programs for A034108, the canonical program `A034108.P8067775828640607782` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034108 has offset 1).
 
-The definition of A034108 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A034108 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A034108.P8067775828640607782
@@ -4161,12 +4164,12 @@ end A034114
 /-!
 # A034115: Fractional part of square root of a(n) starts with 9: first term of runs.
 
-The programs for A034115, the canonical program `A034115.P12228870001496370244` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034115 has offset 1).
+The programs for A034115, the canonical program `A034115.P9964271745836139359` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034115 has offset 1).
 
 The definition of A034115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A034115.P12228870001496370244
+/-! ## A034115.P9964271745836139359
 
 `(n+1)²+9*(n+1)+25+floor(4*(n+1)/5)`
 
@@ -4176,10 +4179,10 @@ The canonical program, it is in `Seq.B000.C006`.
 namespace A034115
 
 /-- `(n+1)²+9*(n+1)+25+floor(4*(n+1)/5)` -/
-def P12228870001496370244.Spec : Prop :=
-  ∀ n, P12228870001496370244.a n = A034115 (n + 1)
+def P9964271745836139359.Spec : Prop :=
+  ∀ n, P9964271745836139359.a n = A034115 (n + 1)
 
-theorem P12228870001496370244.correct : P12228870001496370244.Spec := by
+theorem P9964271745836139359.correct : P9964271745836139359.Spec := by
   intro n
   simp only [A034115, Nat.add_sub_cancel]
 
@@ -9162,28 +9165,6 @@ end
 
 end A034170.P4076645689794986783
 
-/-! ## A034170.P8652135273464909253
-
-`∩[A077425(n+1), A139826(n+1)]`
--/
-
-namespace A034170.P8652135273464909253
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077425 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139826 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A034170.P8652135273464909253
-
 /-! ## A034170.P3132470558476361344
 
 `∩[A139826(n+2), record[A086970(n)]]`
@@ -9208,6 +9189,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A034170.P3132470558476361344
+
+/-! ## A034170.P8652135273464909253
+
+`∩[A077425(n+1), A139826(n+1)]`
+-/
+
+namespace A034170.P8652135273464909253
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077425 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A139826 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A034170.P8652135273464909253
 
 /-!
 # A034171: Related to triple factorial numbers A007559(n+1).
@@ -9990,26 +9993,26 @@ theorem P17014864589582442131.correct : P17014864589582442131.Spec := by
 
 end A034177
 
-/-! ## A034177.P12872288558516635086
+/-! ## A034177.P15467289629579909259
 
 `4*(n+1)*a(n-1)` with `a(0)=1`
 -/
 
-namespace A034177.P12872288558516635086
+namespace A034177.P15467289629579909259
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  4 * ((n + 1) * a (n - 1))
+  4 * (n + 1) * a (n - 1)
 
 end
 
-end A034177.P12872288558516635086
+end A034177.P15467289629579909259
 
 namespace A034177
 
 /-- `4*(n+1)*a(n-1)` -/
-def P12872288558516635086.Spec : Prop :=
-  ∀ n, (P12872288558516635086.a n : ℤ) = A034177 (n + 1)
+def P15467289629579909259.Spec : Prop :=
+  ∀ n, (P15467289629579909259.a n : ℤ) = A034177 (n + 1)
 
 end A034177
 
@@ -11826,6 +11829,29 @@ The programs for A034198, the canonical program `A034198.P495696853797558583` is
 The definition of A034198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A034198.P2950058127781553522
+
+`floor((n+1)*(2*(n+1)²+21*(n+1)-6)/72)`
+-/
+
+namespace A034198.P2950058127781553522
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊((n + 1 : ℤ) * ((2 * (n + 1) ^ 2 + 21 * (n + 1) : ℤ) - 6) : ℚ) / 72⌋
+
+end
+
+end A034198.P2950058127781553522
+
+namespace A034198
+
+/-- `floor((n+1)*(2*(n+1)²+21*(n+1)-6)/72)` -/
+def P2950058127781553522.Spec : Prop :=
+  ∀ n, P2950058127781553522.a n = A034198 (n + 1)
+
+end A034198
+
 /-! ## A034198.P495696853797558583
 
 `2*a(n-1)-a(n-3)-a(n-4)+2*a(n-6)-a(n-7)` with `a(0)=0, a(1)=1, a(2)=3, a(3)=6, a(4)=10, a(5)=16, a(6)=23`
@@ -11842,32 +11868,6 @@ def P495696853797558583.Spec : Prop :=
 theorem P495696853797558583.correct : P495696853797558583.Spec := by
   intro n
   simp only [A034198, Nat.add_sub_cancel]
-
-end A034198
-
-/-! ## A034198.P2060796272809372879
-
-`∑[round((n+4)²/12)-1]`
--/
-
-namespace A034198.P2060796272809372879
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (((n + 4) ^ 2 : ℚ) / 12) - 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A034198.P2060796272809372879
-
-namespace A034198
-
-/-- `∑[round((n+4)²/12)-1]` -/
-def P2060796272809372879.Spec : Prop :=
-  ∀ n, P2060796272809372879.a n = A034198 (n + 1)
 
 end A034198
 

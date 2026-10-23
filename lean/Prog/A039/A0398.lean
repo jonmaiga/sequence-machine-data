@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -9,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -17,22 +17,21 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,6 +39,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -61,7 +61,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2316,48 +2315,71 @@ end A039821.P1342529151356069764
 /-!
 # A039823: a(n) = ceiling((n^2 + n + 2)/4).
 
-The programs for A039823, the canonical program `A039823.P9861487731784809247` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039823 has offset 1).
+The programs for A039823, the canonical program `A039823.P1817490879723501900` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039823 has offset 1).
 
-The definition of A039823 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(((n+1)²+n+3)/4)` (program `A039823.P9861487731784809247`, by `A039823.P9861487731784809247.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A039823 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(((n+1)²+n+1+2)/4)` (program `A039823.P1817490879723501900`, by `A039823.P1817490879723501900.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A039823.P14809630297211918886
+/-! ## A039823.P16851827462083974682
 
-`ceil(((n+1)²+n+2)/4)`
+`floor(C(n+2, 2)/2)+1`
 -/
 
-namespace A039823.P14809630297211918886
+namespace A039823.P16851827462083974682
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈((n + 1) ^ 2 + (n + 2) : ℚ) / 4⌉
+  ⌊(Nat.choose (n + 2) 2 : ℚ) / 2⌋ + 1
 
 end
 
-end A039823.P14809630297211918886
+end A039823.P16851827462083974682
 
 namespace A039823
 
-/-- `ceil(((n+1)²+n+2)/4)` -/
-def P14809630297211918886.Spec : Prop :=
-  ∀ n, P14809630297211918886.a n = A039823 (n + 1)
+/-- `floor(C(n+2, 2)/2)+1` -/
+def P16851827462083974682.Spec : Prop :=
+  ∀ n, P16851827462083974682.a n = A039823 (n + 1)
 
 end A039823
 
-/-! ## A039823.P9861487731784809247
+/-! ## A039823.P1926056752125903950
 
-`ceil(((n+1)²+n+3)/4)`
+`ceil(((n+1)²+n+1+1)/4)`
+-/
+
+namespace A039823.P1926056752125903950
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((n + 1) ^ 2 + (n + 1) + 1 : ℚ) / 4⌉
+
+end
+
+end A039823.P1926056752125903950
+
+namespace A039823
+
+/-- `ceil(((n+1)²+n+1+1)/4)` -/
+def P1926056752125903950.Spec : Prop :=
+  ∀ n, P1926056752125903950.a n = A039823 (n + 1)
+
+end A039823
+
+/-! ## A039823.P1817490879723501900
+
+`ceil(((n+1)²+n+1+2)/4)`
 
 The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039823
 
-/-- `ceil(((n+1)²+n+3)/4)` -/
-def P9861487731784809247.Spec : Prop :=
-  ∀ n, P9861487731784809247.a n = A039823 (n + 1)
+/-- `ceil(((n+1)²+n+1+2)/4)` -/
+def P1817490879723501900.Spec : Prop :=
+  ∀ n, P1817490879723501900.a n = A039823 (n + 1)
 
-theorem P9861487731784809247.correct : P9861487731784809247.Spec := by
+theorem P1817490879723501900.correct : P1817490879723501900.Spec := by
   intro n
   simp only [A039823, Nat.add_sub_cancel]
 
@@ -2545,29 +2567,6 @@ namespace A039823
 /-- `round(or(1, ∑[n+1])/2)` -/
 def P17039057256137719329.Spec : Prop :=
   ∀ n, P17039057256137719329.a n = A039823 (n + 1)
-
-end A039823
-
-/-! ## A039823.P16851827462083974682
-
-`floor(C(n+2, 2)/2)+1`
--/
-
-namespace A039823.P16851827462083974682
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(Nat.choose (n + 2) 2 : ℚ) / 2⌋ + 1
-
-end
-
-end A039823.P16851827462083974682
-
-namespace A039823
-
-/-- `floor(C(n+2, 2)/2)+1` -/
-def P16851827462083974682.Spec : Prop :=
-  ∀ n, P16851827462083974682.a n = A039823 (n + 1)
 
 end A039823
 
@@ -2799,38 +2798,12 @@ def P4790660997154413342.Spec : Prop :=
 
 end A039823
 
-/-! ## A039823.P3082743315354120011
-
-`round((cosh(1)+∑[n+1])/2)`
--/
-
-namespace A039823.P3082743315354120011
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((Real.cosh (1 : ℝ) + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℝ)) / 2)
-
-end
-
-end A039823.P3082743315354120011
-
-namespace A039823
-
-/-- `round((cosh(1)+∑[n+1])/2)` -/
-def P3082743315354120011.Spec : Prop :=
-  ∀ n, P3082743315354120011.a n = A039823 (n + 1)
-
-end A039823
-
 /-!
 # A039824: Number of different coefficient values in expansion of Product (1+q^1+q^3...+q^(2i-1)), i=1 to n.
 
 The programs for A039824, the canonical program `A039824.P1843734589319922015` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039824 has offset 1).
 
-The definition of A039824 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A039824 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A039824.P1843734589319922015
@@ -2855,25 +2828,25 @@ end A039824
 /-!
 # A039825: a(n) = floor((n^2 + n + 8) / 4).
 
-The programs for A039825, the canonical program `A039825.P1898157548600225831` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039825 has offset 1).
+The programs for A039825, the canonical program `A039825.P5401419556523718908` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039825 has offset 1).
 
-The definition of A039825 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(((n+1)²+n+9)/4)` (program `A039825.P1898157548600225831`, by `A039825.P1898157548600225831.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A039825 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(((n+1)²+n+1+8)/4)` (program `A039825.P5401419556523718908`, by `A039825.P5401419556523718908.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A039825.P1898157548600225831
+/-! ## A039825.P5401419556523718908
 
-`floor(((n+1)²+n+9)/4)`
+`floor(((n+1)²+n+1+8)/4)`
 
 The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A039825
 
-/-- `floor(((n+1)²+n+9)/4)` -/
-def P1898157548600225831.Spec : Prop :=
-  ∀ n, P1898157548600225831.a n = A039825 (n + 1)
+/-- `floor(((n+1)²+n+1+8)/4)` -/
+def P5401419556523718908.Spec : Prop :=
+  ∀ n, P5401419556523718908.a n = A039825 (n + 1)
 
-theorem P1898157548600225831.correct : P1898157548600225831.Spec := by
+theorem P5401419556523718908.correct : P5401419556523718908.Spec := by
   intro n
   simp only [A039825, Nat.add_sub_cancel]
 
@@ -5613,20 +5586,20 @@ end
 
 end A039835.P16869202170967038585
 
-/-! ## A039835.P10279819317206755289
+/-! ## A039835.P17146464872100994329
 
-`A254627(A042948(n)+2)-1`
+`floor(sqrt(5)*(sqrt(5)-(-1)^(n+1))*(2+sqrt(5))^(2*(n+1)-1)/20)`
 -/
 
-namespace A039835.P10279819317206755289
+namespace A039835.P17146464872100994329
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A254627 (A042948 n + 2).toNat - 1
+  ⌊Real.sqrt (5 : ℝ) * (Real.sqrt (5 : ℝ) - ((-1) ^ (n + 1) : ℝ)) * (2 + Real.sqrt (5 : ℝ)) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) / 20⌋
 
 end
 
-end A039835.P10279819317206755289
+end A039835.P17146464872100994329
 
 /-!
 # A039836: Maximal number m of integers s(i), with 1 <= s(1) < s(2) < ... < s(m) <= n, such that all sums s(i) + s(j), i<>j, are distinct.

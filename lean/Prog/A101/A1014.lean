@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -19,19 +18,22 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -48,7 +50,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -72,7 +73,6 @@ import Seq.B011.C000
 import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,13 +92,11 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1972,23 +1970,29 @@ end A101417.P15060586047210843238
 /-!
 # A101418: Floor of the area of a lens constructed using circular arcs of radius n.
 
-The programs for A101418, there is no canonical definition to state claims against.
+The programs for A101418, the canonical program `A101418.P14714242443787895540` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101418 has offset 1).
+
+The definition of A101418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A101418.P16491055063095205624
+/-! ## A101418.P14714242443787895540
 
-`floor((n+1)²/(2*3*log2(log(3))))`
+`floor((4*π-3*sqrt(3))/6*(n+1)²)`
+
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
-namespace A101418.P16491055063095205624
-noncomputable section
+namespace A101418
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((n + 1) ^ 2 : ℝ) / (2 * (3 * Real.logb 2 (Real.log (3 : ℝ))))⌋
+/-- `floor((4*π-3*sqrt(3))/6*(n+1)²)` -/
+def P14714242443787895540.Spec : Prop :=
+  ∀ n, P14714242443787895540.a n = A101418 (n + 1)
 
-end
+theorem P14714242443787895540.correct : P14714242443787895540.Spec := by
+  intro n
+  simp only [A101418, Nat.add_sub_cancel]
 
-end A101418.P16491055063095205624
+end A101418
 
 /-! ## A101418.P8002195859354455840
 
@@ -2005,6 +2009,14 @@ end
 
 end A101418.P8002195859354455840
 
+namespace A101418
+
+/-- `A045681(A077168(n)²)` -/
+def P8002195859354455840.Spec : Prop :=
+  ∀ n, P8002195859354455840.a n = A101418 (n + 1)
+
+end A101418
+
 /-! ## A101418.P8642331320770414088
 
 `A045681(A043319(n+1)²)`
@@ -2019,6 +2031,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101418.P8642331320770414088
+
+namespace A101418
+
+/-- `A045681(A043319(n+1)²)` -/
+def P8642331320770414088.Spec : Prop :=
+  ∀ n, P8642331320770414088.a n = A101418 (n + 1)
+
+end A101418
 
 /-! ## A101418.P10741290856033908470
 
@@ -2035,6 +2055,14 @@ end
 
 end A101418.P10741290856033908470
 
+namespace A101418
+
+/-- `A045681(A065673(n+1)²)` -/
+def P10741290856033908470.Spec : Prop :=
+  ∀ n, P10741290856033908470.a n = A101418 (n + 1)
+
+end A101418
+
 /-! ## A101418.P14844571061068461913
 
 `A045681(A043319(n+1)*A077168(n))`
@@ -2049,6 +2077,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101418.P14844571061068461913
+
+namespace A101418
+
+/-- `A045681(A043319(n+1)*A077168(n))` -/
+def P14844571061068461913.Spec : Prop :=
+  ∀ n, P14844571061068461913.a n = A101418 (n + 1)
+
+end A101418
 
 /-!
 # A101420: Numbers which are the sum of two positive cubes and not divisible by 13.
@@ -10367,12 +10403,12 @@ end A101484.P17174059884442808309
 /-!
 # A101485: a(n) = (4n)! / ( 4^n * (2n)! ).
 
-The programs for A101485, the canonical program `A101485.P17007427671636032117` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101485 has offset 0).
+The programs for A101485, the canonical program `A101485.P13510965900802631736` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101485 has offset 0).
 
 The definition of A101485 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A101485.P17007427671636032117
+/-! ## A101485.P13510965900802631736
 
 `(4*n-1)*(4*n-3)*a(n-1)` with `a(0)=1`
 
@@ -10382,10 +10418,10 @@ The canonical program, it is in `Seq.B000.C015`.
 namespace A101485
 
 /-- `(4*n-1)*(4*n-3)*a(n-1)` -/
-def P17007427671636032117.Spec : Prop :=
-  ∀ n, P17007427671636032117.a n = A101485 n
+def P13510965900802631736.Spec : Prop :=
+  ∀ n, P13510965900802631736.a n = A101485 n
 
-theorem P17007427671636032117.correct : P17007427671636032117.Spec := by
+theorem P13510965900802631736.correct : P13510965900802631736.Spec := by
   intro n
   simp only [A101485]
 

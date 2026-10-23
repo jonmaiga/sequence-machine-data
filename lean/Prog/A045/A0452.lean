@@ -2,23 +2,24 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C023
+import Seq.B000.C029
+import Seq.B000.C031
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
@@ -61,6 +62,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -420,33 +422,6 @@ def P4065565479643235383.Spec : Prop :=
 
 end A045203
 
-/-! ## A045203.P9593454980685117236
-
-`A031474(comp[A031489(2*n+1)-A031509(2*n+5)]+1)`
--/
-
-namespace A045203.P9593454980685117236
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031489 (2 * n + 1) - A031509 (2 * n + 5)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031474 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A045203.P9593454980685117236
-
-namespace A045203
-
-/-- `A031474(comp[A031489(2*n+1)-A031509(2*n+5)]+1)` -/
-def P9593454980685117236.Spec : Prop :=
-  ∀ n, P9593454980685117236.a n = A045203 (n + 1)
-
-end A045203
-
 /-!
 # A045204: Numbers whose base-5 representation contains no 0's and exactly two 4's.
 
@@ -553,25 +528,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A045205.P9820819891363810739
-
-/-! ## A045205.P3442960106025649864
-
-`A031476(comp[A346944(3*(n+2))]+1)`
--/
-
-namespace A045205.P3442960106025649864
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346944 (3 * (n + 2))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031476 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A045205.P3442960106025649864
 
 /-!
 # A045206: Numbers whose base-5 representation contains exactly one 0 and no 4's.
@@ -1853,25 +1809,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A045220.P9492100586705254474
-
-/-! ## A045220.P12275167416320900273
-
-`A023732(comp[A023739(n+1)%10-n])`
--/
-
-namespace A045220.P12275167416320900273
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A023739 (n + 1)) 10 - (n : ℤ)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023732 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A045220.P12275167416320900273
 
 /-! ## A045220.P13224148200584959514
 
@@ -4842,28 +4779,6 @@ end
 
 end A045246.P16484810333593567227
 
-/-! ## A045246.P17548634328355137046
-
-`∩[A020655(2*n+5), A020655(A045126(n+1))]`
--/
-
-namespace A045246.P17548634328355137046
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020655 (2 * n + 5)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020655 (A045126 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045246.P17548634328355137046
-
 /-!
 # A045247: Numbers whose base-5 representation contains exactly three 1's and three 3's.
 
@@ -4906,28 +4821,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045247.P5632928942335729405
-
-/-! ## A045247.P18150863850195103373
-
-`∩[A023721(A023720(n+1)), A023728(n+1)]`
--/
-
-namespace A045247.P18150863850195103373
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023721 (A023720 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023728 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045247.P18150863850195103373
 
 /-!
 # A045248: Numbers whose base-5 representation contains no 1's and exactly one 4.
@@ -5799,50 +5692,6 @@ end
 
 end A045258.P12773146464315127583
 
-/-! ## A045258.P1749277458934044053
-
-`∩[A028310(A045205(n+1)), A045225(n+1)]`
--/
-
-namespace A045258.P1749277458934044053
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A045205 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045225 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045258.P1749277458934044053
-
-/-! ## A045258.P14760928862118640782
-
-`∩[A028310(A045205(n+1)), A045240(n+1)]`
--/
-
-namespace A045258.P14760928862118640782
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A045205 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045240 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045258.P14760928862118640782
-
 /-!
 # A045259: Numbers whose base-5 representation contains exactly three 1's and no 4's.
 
@@ -6130,28 +5979,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A045263.P17703805793444128184
-
-/-! ## A045263.P17208394675405906087
-
-`∩[A020657(n+1), A023734(A267307(n+1))]`
--/
-
-namespace A045263.P17208394675405906087
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020657 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023734 (A267307 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045263.P17208394675405906087
 
 /-!
 # A045264: Numbers whose base-5 representation contains no 2's and exactly two 3's.
@@ -7058,28 +6885,6 @@ end
 
 end A045273.P11573419343707395462
 
-/-! ## A045273.P15368772082502059341
-
-`∩[A023721(A023720(3*(n+1))), A023725(3*(n+1))]`
--/
-
-namespace A045273.P15368772082502059341
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023721 (A023720 (3 * (n + 1))).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023725 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045273.P15368772082502059341
-
 /-!
 # A045274: Numbers whose base-5 representation contains exactly three 2's and no 3's.
 
@@ -7226,28 +7031,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045275.P13309372748208192799
-
-/-! ## A045275.P7126980156961970034
-
-`A020655(∪[A114613(2*(n+1)), A045149(n+1)])`
--/
-
-namespace A045275.P7126980156961970034
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114613 (2 * (n + 1))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045149 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020655 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A045275.P7126980156961970034
 
 /-! ## A045275.P6731160626720236090
 
@@ -7424,28 +7207,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A045277.P565057112361025376
-
-/-! ## A045277.P16905042865839801353
-
-`∩[A023721(A023716(n+1)), A023736(n+1)]`
--/
-
-namespace A045277.P16905042865839801353
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023721 (A023716 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023736 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A045277.P16905042865839801353
 
 /-!
 # A045278: Numbers whose base-5 representation contains no 2's and exactly one 4.

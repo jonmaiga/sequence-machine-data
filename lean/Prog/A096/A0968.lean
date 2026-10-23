@@ -3,26 +3,22 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
@@ -31,8 +27,9 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -549,8 +546,6 @@ The programs for A096809, there is no canonical definition to state claims again
 /-! ## A096809.P8105438092737557662
 
 `(-1)^A096810(n)`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
 namespace A096809.P8105438092737557662
@@ -7064,9 +7059,36 @@ theorem P4953587357281749470.correct : P4953587357281749470.Spec := by
 end A096884
 
 /-!
+# A096885: Related to diagonals of Pascal's triangle.
+
+The programs for A096885, the canonical program `A096885.P14291906865171675092` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096885 has offset 0).
+
+The definition of A096885 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A096885.P14291906865171675092
+
+`100*a(n-1)+a(n-2)` with `a(0)=1, a(1)=100`
+
+The canonical program, it is in `Seq.B000.C014`.
+-/
+
+namespace A096885
+
+/-- `100*a(n-1)+a(n-2)` -/
+def P14291906865171675092.Spec : Prop :=
+  ∀ n, (P14291906865171675092.a n : ℤ) = A096885 n
+
+theorem P14291906865171675092.correct : P14291906865171675092.Spec := by
+  intro n
+  simp only [A096885]
+
+end A096885
+
+/-!
 # A096886: Expansion of (1+3*x)/(1-8*x^2).
 
-The programs for A096886, the canonical program `A096886.P781847010953862512` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096886 has offset 0).
+The programs for A096886, the canonical program `A096886.P781847010953862512` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096886 has offset 0).
 
 The definition of A096886 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+3x)/(1-8x^2))` (program `A096886.P781847010953862512`, by `A096886.P781847010953862512.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7075,7 +7097,7 @@ The definition of A096886 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+3x)/(1-8x^2))`
 
-The canonical program, it is in `Seq.B000.C014`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A096886

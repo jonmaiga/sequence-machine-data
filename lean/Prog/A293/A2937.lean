@@ -12,25 +12,24 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,18 +42,14 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -780,7 +775,7 @@ end A293709.P18143169709922976002
 /-!
 # A293710: Expansion of x^2/(1 - 4*x - 4*x^2 - x^3).
 
-The programs for A293710, the canonical program `A293710.P5526450087690189851` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293710 has offset 0).
+The programs for A293710, the canonical program `A293710.P5526450087690189851` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293710 has offset 0).
 
 The definition of A293710 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(x^2/(1-4x-4x^2-x^3))` (program `A293710.P5526450087690189851`, by `A293710.P5526450087690189851.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -789,7 +784,7 @@ The definition of A293710 is `verified`: the Lean definition is proven equivalen
 
 `ogf(x^2/(1-4x-4x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A293710
@@ -6234,25 +6229,6 @@ end
 
 end A293762.P5868683583634982979
 
-/-! ## A293762.P5443076862747965485
-
-`A023443(comp[A004539(n+2)+n])+2`
--/
-
-namespace A293762.P5443076862747965485
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004539 (n + 2) + (n : ℤ)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n) + 2
-
-end
-
-end A293762.P5443076862747965485
-
 /-! ## A293762.P3786185975611417707
 
 `eq[1, Δ[A004539(n+1)]]+1`
@@ -6276,6 +6252,25 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A293762.P3786185975611417707
+
+/-! ## A293762.P5443076862747965485
+
+`A023443(comp[A004539(n+2)+n])+2`
+-/
+
+namespace A293762.P5443076862747965485
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004539 (n + 2) + (n : ℤ)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n) + 2
+
+end
+
+end A293762.P5443076862747965485
 
 /-! ## A293762.P4587062872881921646
 
@@ -8746,7 +8741,7 @@ end A293790
 
 The programs for A293792, the canonical program `A293792.P6768095798108131778` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293792 has offset 1).
 
-The definition of A293792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2487 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A293792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A293792.P16683006364879774138

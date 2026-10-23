@@ -3,34 +3,33 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -81,7 +80,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -6984,7 +6982,7 @@ end A043384.P3107751373439386017
 /-!
 # A043385: Numbers having one 4 in base 6.
 
-The programs for A043385, the canonical program `A043385.P1427488437975314440` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043385 has offset 1).
+The programs for A043385, the canonical program `A043385.P11786398378797061450` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043385 has offset 1).
 
 The definition of A043385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7082,23 +7080,9 @@ end A043385
 /-! ## A043385.P11786398378797061450
 
 `eq[1, A316869(A084984(n+1))]`
+
+The canonical program, it is in `Seq.B004.C000`.
 -/
-
-namespace A043385.P11786398378797061450
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316869 (A084984 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A043385.P11786398378797061450
 
 namespace A043385
 
@@ -7106,24 +7090,44 @@ namespace A043385
 def P11786398378797061450.Spec : Prop :=
   ∀ n, (P11786398378797061450.a n : ℤ) = A043385 (n + 1)
 
+theorem P11786398378797061450.correct : P11786398378797061450.Spec := by
+  intro n
+  simp only [A043385, Nat.add_sub_cancel]
+
 end A043385
 
 /-! ## A043385.P1427488437975314440
 
 `eq[1, A316865(lt[A054055(n), 6])]`
-
-The canonical program, it is in `Seq.B002.C000`.
 -/
+
+namespace A043385.P1427488437975314440
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054055 n
+
+def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316865 (SequenceMachineLib.nth (fun j => f3 j < (f4 j : ℤ)) n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A043385.P1427488437975314440
 
 namespace A043385
 
 /-- `eq[1, A316865(lt[A054055(n), 6])]` -/
 def P1427488437975314440.Spec : Prop :=
   ∀ n, (P1427488437975314440.a n : ℤ) = A043385 (n + 1)
-
-theorem P1427488437975314440.correct : P1427488437975314440.Spec := by
-  intro n
-  simp only [A043385, Nat.add_sub_cancel]
 
 end A043385
 

@@ -11,20 +11,20 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -77,6 +77,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -2083,7 +2084,7 @@ end A245620.P14220441294143604739
 /-!
 # A245621: Sequence of distinct least nonnegative numbers such that the average of the first n terms is a cube.
 
-The programs for A245621, the canonical program `A245621.P11135073459772077501` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245621 has offset 1).
+The programs for A245621, the canonical program `A245621.P11135073459772077501` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245621 has offset 1).
 
 The definition of A245621 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2092,7 +2093,7 @@ The definition of A245621 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[n*floor(n/2)^3]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A245621
@@ -2554,7 +2555,7 @@ end A245623
 /-!
 # A245624: Sequence of distinct least positive numbers such that the average of the first n terms is a cube.
 
-The programs for A245624, the canonical program `A245624.P12195305465656187990` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245624 has offset 1).
+The programs for A245624, the canonical program `A245624.P12195305465656187990` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245624 has offset 1).
 
 The definition of A245624 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2563,7 +2564,7 @@ The definition of A245624 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-2)-6*a(n-4)+4*a(n-6)-a(n-8)` with `a(0)=1, a(1)=15, a(2)=8, a(3)=84, a(4)=27, a(5)=249, a(6)=64, a(7)=552`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A245624
@@ -2639,7 +2640,7 @@ end A245624
 
 /-! ## A245624.P8910295991206989188
 
-`-Δ[-n*∑[log2(gcd(2, n))]^3]`
+`-Δ[-(n*∑[log2(gcd(2, n))]^3)]`
 -/
 
 namespace A245624.P8910295991206989188
@@ -2660,7 +2661,7 @@ end A245624.P8910295991206989188
 
 namespace A245624
 
-/-- `-Δ[-n*∑[log2(gcd(2, n))]^3]` -/
+/-- `-Δ[-(n*∑[log2(gcd(2, n))]^3)]` -/
 def P8910295991206989188.Spec : Prop :=
   ∀ n, P8910295991206989188.a n = (A245624 (n + 1) : ℝ)
 
@@ -2819,7 +2820,7 @@ end A245625.P13662798886484890553
 
 The programs for A245627, the canonical program `A245627.P11893254286747696492` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245627 has offset 0).
 
-The definition of A245627 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A245627 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A245627.P11893254286747696492
@@ -5212,39 +5213,6 @@ namespace A245656
 /-- `char[A003601(n+1)-1]` -/
 def P9585711183562593764.Spec : Prop :=
   ∀ n, (P9585711183562593764.a n : ℤ) = A245656 (n + 1)
-
-end A245656
-
-/-! ## A245656.P4742732926237338513
-
-`char[lt[0, A286628(n+1)]]`
--/
-
-namespace A245656.P4742732926237338513
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286628 (n + 1)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f2 j : ℤ) < f3 j) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = n then 1 else 0
-
-end
-
-end A245656.P4742732926237338513
-
-namespace A245656
-
-/-- `char[lt[0, A286628(n+1)]]` -/
-def P4742732926237338513.Spec : Prop :=
-  ∀ n, (P4742732926237338513.a n : ℤ) = A245656 (n + 1)
 
 end A245656
 

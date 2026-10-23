@@ -2,36 +2,12 @@
   "oi": 221208,
   "ps": [
     {
-      "d": "2022-06-27",
-      "ix": "limit[atan(A330298(n²))]",
-      "mt": 12,
-      "px": [
-        "n",
-        "²",
-        "A330298",
-        "atan",
-        "limit"
-      ]
-    },
-    {
       "d": "2022-06-03",
       "ix": "limit[atan(record[A145107(n)])]",
       "mt": 12,
       "px": [
         "n",
         "A145107",
-        "record",
-        "atan",
-        "limit"
-      ]
-    },
-    {
-      "d": "2022-06-06",
-      "ix": "limit[atan(record[A186980(n)])]",
-      "mt": 12,
-      "px": [
-        "n",
-        "A186980",
         "record",
         "atan",
         "limit"

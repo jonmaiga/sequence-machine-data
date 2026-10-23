@@ -3,34 +3,34 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C017
+import Seq.B000.C010
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C024
+import Seq.B000.C027
+import Seq.B000.C030
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
@@ -45,7 +45,6 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -2559,16 +2558,16 @@ end A125342.P2233354307273599346
 /-!
 # A125343: Number of base 6 circular n-digit numbers with adjacent digits differing by 4 or less.
 
-The programs for A125343, the canonical program `A125343.P16521255945650297259` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125343 has offset 0).
+The programs for A125343, the canonical program `A125343.P16521255945650297259` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125343 has offset 0).
 
-The definition of A125343 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A125343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A125343.P16521255945650297259
 
 `6*a(n-1)-a(n-2)-4*a(n-3)` with `a(0)=1, a(1)=6, a(2)=34, a(3)=186`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A125343
@@ -3519,16 +3518,16 @@ end A125369.P15694467519215422499
 /-!
 # A125370: Number of base 7 circular n-digit numbers with adjacent digits differing by 5 or less.
 
-The programs for A125370, the canonical program `A125370.P16451900473567272590` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125370 has offset 0).
+The programs for A125370, the canonical program `A125370.P16451900473567272590` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125370 has offset 0).
 
-The definition of A125370 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A125370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A125370.P16451900473567272590
 
 `7*a(n-1)-a(n-2)-5*a(n-3)` with `a(0)=1, a(1)=7, a(2)=47, a(3)=307`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A125370
@@ -4296,16 +4295,16 @@ end A125395.P17426503834130909854
 /-!
 # A125396: Number of base 8 circular n-digit numbers with adjacent digits differing by 6 or less.
 
-The programs for A125396, the canonical program `A125396.P3209054951522511781` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125396 has offset 0).
+The programs for A125396, the canonical program `A125396.P3209054951522511781` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125396 has offset 0).
 
-The definition of A125396 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A125396 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A125396.P3209054951522511781
 
 `8*a(n-1)-a(n-2)-6*a(n-3)` with `a(0)=1, a(1)=8, a(2)=62, a(3)=470`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C018`.
 -/
 
 namespace A125396

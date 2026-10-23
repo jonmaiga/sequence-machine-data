@@ -6,25 +6,24 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C024
+import Seq.B000.C019
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,6 +33,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -45,8 +45,9 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -73,7 +74,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2156,7 +2156,7 @@ end A366618.P2035693773850943195
 /-!
 # A366619: Group the natural numbers into blocks of size 2: [1,2], [3,4], ... and reverse the order of the numbers within each block. Then group into blocks of size 3 and reverse the order in each block.
 
-The programs for A366619, the canonical program `A366619.P16516630886687197366` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366619 has offset 1).
+The programs for A366619, the canonical program `A366619.P16516630886687197366` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366619 has offset 1).
 
 The definition of A366619 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2165,7 +2165,7 @@ The definition of A366619 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=4, a(1)=1, a(2)=2, a(3)=5, a(4)=6`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A366619
@@ -4890,7 +4890,7 @@ end A366658
 /-!
 # A366659: a(n) = Sum_{k=1..n} (-1)^(k-1) * binomial(floor(n/k)+3,4).
 
-The programs for A366659, the canonical program `A366659.P2927659781479291372` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366659 has offset 1).
+The programs for A366659, the canonical program `A366659.P2927659781479291372` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366659 has offset 1).
 
 The definition of A366659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4899,7 +4899,7 @@ The definition of A366659 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A366813(n+1)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A366659

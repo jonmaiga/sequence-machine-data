@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -14,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -24,15 +24,18 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,7 +49,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -8884,32 +8886,6 @@ end A086040.P9009815940507214670
 The programs for A086042, there is no canonical definition to state claims against.
 -/
 
-/-! ## A086042.P14386610505595011792
-
-`∩[A211654(n+1), comp[A004185(n)]]`
--/
-
-namespace A086042.P14386610505595011792
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A211654 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004185 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
-
-end
-
-end A086042.P14386610505595011792
-
 /-! ## A086042.P3871853009130677015
 
 `∩[comp[A009994(n+1)], A211654(n+1)]`
@@ -9046,6 +9022,32 @@ end
 
 end A086042.P18345722718999653181
 
+/-! ## A086042.P14386610505595011792
+
+`∩[A211654(n+1), comp[A004185(n)]]`
+-/
+
+namespace A086042.P14386610505595011792
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211654 (n + 1)
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004185 n
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
+
+end
+
+end A086042.P14386610505595011792
+
 /-!
 # A086043: Concatenation of first n twin primes.
 
@@ -9118,25 +9120,6 @@ end
 
 end A086044.P3114450435961665372
 
-/-! ## A086044.P5693331819485941003
-
-`char[A038722(n+1)]*A229186(n)+1`
--/
-
-namespace A086044.P5693331819485941003
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038722 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A229186 n + 1
-
-end
-
-end A086044.P5693331819485941003
-
 /-! ## A086044.P1889094006330209116
 
 `A031297(floor(57^-A006530(a(n-1))+n))+1` with `a(0)=1`
@@ -9196,6 +9179,25 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
 end
 
 end A086044.P16639677719208750
+
+/-! ## A086044.P5693331819485941003
+
+`char[A038722(n+1)]*A229186(n)+1`
+-/
+
+namespace A086044.P5693331819485941003
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038722 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A229186 n + 1
+
+end
+
+end A086044.P5693331819485941003
 
 /-! ## A086044.P6413066310056574321
 
@@ -17192,12 +17194,12 @@ end A086090
 /-!
 # A086091: a(n) = 3^n + 3*n*4^(n-1).
 
-The programs for A086091, the canonical program `A086091.P1810257818116963534` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086091 has offset 0).
+The programs for A086091, the canonical program `A086091.P3154457619635186415` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086091 has offset 0).
 
 The definition of A086091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086091.P1810257818116963534
+/-! ## A086091.P3154457619635186415
 
 `3^n+3*n*4^(n-1)`
 
@@ -17207,8 +17209,8 @@ The canonical program, it is in `Seq.B000.C013`.
 namespace A086091
 
 /-- `3^n+3*n*4^(n-1)` -/
-def P1810257818116963534.Spec : Prop :=
-  ∀ n, P1810257818116963534.a n = (A086091 n : ℚ)
+def P3154457619635186415.Spec : Prop :=
+  ∀ n, P3154457619635186415.a n = (A086091 n : ℚ)
 
 end A086091
 
@@ -17362,12 +17364,12 @@ end A086092
 /-!
 # A086093: a(n) = 3^n + 2*n*4^(n-1).
 
-The programs for A086093, the canonical program `A086093.P13498242231523952393` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086093 has offset 0).
+The programs for A086093, the canonical program `A086093.P6734917064426738367` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086093 has offset 0).
 
 The definition of A086093 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086093.P13498242231523952393
+/-! ## A086093.P6734917064426738367
 
 `3^n+2*n*4^(n-1)`
 
@@ -17377,8 +17379,8 @@ The canonical program, it is in `Seq.B000.C013`.
 namespace A086093
 
 /-- `3^n+2*n*4^(n-1)` -/
-def P13498242231523952393.Spec : Prop :=
-  ∀ n, P13498242231523952393.a n = (A086093 n : ℚ)
+def P6734917064426738367.Spec : Prop :=
+  ∀ n, P6734917064426738367.a n = (A086093 n : ℚ)
 
 end A086093
 

@@ -13,24 +13,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -3309,20 +3308,20 @@ end A025035
 The programs for A025036, there is no canonical definition to state claims against.
 -/
 
-/-! ## A025036.P15478030705388143436
+/-! ## A025036.P15741815616477335219
 
-`C(abs(1-4*n), 3)*a(n-1)` with `a(0)=1`
+`a(n-1)*C(4*n-1, 3)` with `a(0)=1`
 -/
 
-namespace A025036.P15478030705388143436
+namespace A025036.P15741815616477335219
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  Nat.choose |1 - (4 * n : ℤ)|.toNat 3 * a (n - 1)
+  a (n - 1) * Nat.choose ((4 * n : ℤ) - 1).toNat 3
 
 end
 
-end A025036.P15478030705388143436
+end A025036.P15741815616477335219
 
 /-! ## A025036.P10023041080757019996
 
@@ -3396,6 +3395,21 @@ end A025036.P4669097354661526982
 The programs for A025037, there is no canonical definition to state claims against.
 -/
 
+/-! ## A025037.P4511432459228323051
+
+`a(n-1)*C(5*n-1, 4)` with `a(0)=1`
+-/
+
+namespace A025037.P4511432459228323051
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) * Nat.choose ((5 * n : ℤ) - 1).toNat 4
+
+end
+
+end A025037.P4511432459228323051
+
 /-! ## A025037.P7968752287801178655
 
 `A014609(n)/A000142(n)`
@@ -3425,24 +3439,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025037.P183417256063764521
-
-/-! ## A025037.P1379900902280833140
-
-`A318257(∑[n]+n)`
--/
-
-namespace A025037.P1379900902280833140
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A318257 (∑ j ∈ Finset.range (n + 1), f1 j + n)
-
-end
-
-end A025037.P1379900902280833140
 
 /-!
 # A025038: Number of partitions of { 1, 2, ..., 6n } into sets of size 6.

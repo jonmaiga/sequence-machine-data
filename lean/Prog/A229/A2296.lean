@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -12,24 +13,25 @@ import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C016
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -70,6 +72,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -79,7 +82,7 @@ import Seq.Opaque.C024
 /-!
 # A229600: Number of defective 3-colorings of an n X 2 0..2 array connected horizontally and vertically with exactly two mistakes, and colors introduced in row-major 0..2 order.
 
-The programs for A229600, the canonical program `A229600.P1930957637929007472` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229600 has offset 1).
+The programs for A229600, the canonical program `A229600.P1930957637929007472` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229600 has offset 1).
 
 The definition of A229600 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -88,7 +91,7 @@ The definition of A229600 is `conjectured`: the Lean definition is a formula tha
 
 `9*a(n-1)-27*a(n-2)+27*a(n-3)` with `a(0)=0, a(1)=6, a(2)=39, a(3)=202, a(4)=925`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A229600
@@ -843,7 +846,7 @@ end A229609.P14025707081667702448
 /-!
 # A229611: Expansion of 1/((1-x)^3*(1-11x)).
 
-The programs for A229611, the canonical program `A229611.P4570613294683482858` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229611 has offset 0).
+The programs for A229611, the canonical program `A229611.P4570613294683482858` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229611 has offset 0).
 
 The definition of A229611 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-14x+36x^2-34x^3+11x^4))` (program `A229611.P4570613294683482858`, by `A229611.P4570613294683482858.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -852,7 +855,7 @@ The definition of A229611 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-14x+36x^2-34x^3+11x^4))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A229611
@@ -1610,72 +1613,6 @@ end
 
 end A229617.P5118496340787444669
 
-/-! ## A229617.P9239873340511876394
-
-`∩[A247213(n+1), A032520(n)]`
--/
-
-namespace A229617.P9239873340511876394
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247213 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032520 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A229617.P9239873340511876394
-
-/-! ## A229617.P2372582005067003205
-
-`∩[A247213(n+1), A247964(n)]`
--/
-
-namespace A229617.P2372582005067003205
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247213 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247964 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A229617.P2372582005067003205
-
-/-! ## A229617.P7292771721818472989
-
-`∩[A247213(n+1), A258833(n)]`
--/
-
-namespace A229617.P7292771721818472989
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247213 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A258833 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A229617.P7292771721818472989
-
 /-!
 # A229618: Numbers that are the distance between a square and the next larger cube.
 
@@ -1771,7 +1708,7 @@ end A229619.P12983882325100380927
 /-!
 # A229620: Incorrect version of A045949.
 
-The programs for A229620, the canonical program `A229620.P15480091126661372649` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229620 has offset 0).
+The programs for A229620, the canonical program `A229620.P15480091126661372649` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229620 has offset 0).
 
 The definition of A229620 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1780,7 +1717,7 @@ The definition of A229620 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1-(-1)^n-8*n+18*n²+12*n^3)/4`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A229620
@@ -5131,7 +5068,7 @@ end A229678.P11321163001631354890
 /-!
 # A229679: Number of defective 3-colorings of an n X 2 0..2 array connected diagonally and antidiagonally with exactly two mistakes, and colors introduced in row-major 0..2 order.
 
-The programs for A229679, the canonical program `A229679.P202136642927744127` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229679 has offset 1).
+The programs for A229679, the canonical program `A229679.P202136642927744127` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229679 has offset 1).
 
 The definition of A229679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5140,7 +5077,7 @@ The definition of A229679 is `conjectured`: the Lean definition is a formula tha
 
 `record[A280370(n)]*A000384(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A229679

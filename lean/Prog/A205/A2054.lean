@@ -1,30 +1,26 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
-import Seq.B000.C005
+import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C024
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -77,7 +73,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A205400: Ordered differences of quarter-squares.
@@ -6557,7 +6552,7 @@ end A205491.P3285440598766830116
 /-!
 # A205492: Expansion of (1-x^2-x^3-x^4+x^5)/((1-x)^3*(1-x-x^2)^2*(1-2*x-x^2+x^3)).
 
-The programs for A205492, the canonical program `A205492.P17952808073976807473` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205492 has offset 0).
+The programs for A205492, the canonical program `A205492.P17952808073976807473` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205492 has offset 0).
 
 The definition of A205492 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2-x^3-x^4+x^5)/(1-7x+17x^2-12x^3-15x^4+26x^5-3x^6-13x^7+5x^8+2x^9-x^10))` (program `A205492.P17952808073976807473`, by `A205492.P17952808073976807473.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6566,7 +6561,7 @@ The definition of A205492 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x^2-x^3-x^4+x^5)/(1-7x+17x^2-12x^3-15x^4+26x^5-3x^6-13x^7+5x^8+2x^9-x^10))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A205492

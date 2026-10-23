@@ -2,25 +2,26 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C023
+import Seq.B000.C017
 import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C030
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C008
+import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B003.C001
 import Seq.B005.C000
@@ -1650,28 +1651,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A042443.P6210921126045249263
-
-/-! ## A042443.P8450370701530610148
-
-`∪[A113873(3*n), A274640(A285044(n))]`
--/
-
-namespace A042443.P8450370701530610148
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A113873 (3 * n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A274640 (A285044 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A042443.P8450370701530610148
 
 /-!
 # A042444: Numerators of continued fraction convergents to sqrt(750).

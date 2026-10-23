@@ -6,36 +6,35 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C025
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -462,7 +461,7 @@ end A362710.P3410598458858047535
 /-!
 # A362712: Number of n-colorings of the Goldner-Harary graph.
 
-The programs for A362712, the canonical program `A362712.P8244155926508418268` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362712 has offset 0).
+The programs for A362712, the canonical program `A362712.P8244155926508418268` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362712 has offset 0).
 
 The definition of A362712 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -471,7 +470,7 @@ The definition of A362712 is `conjectured`: the Lean definition is a formula tha
 
 `6*C(n, 3)*(3-n)^8`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A362712
@@ -3301,28 +3300,6 @@ end A362779.P1259198830524294730
 
 The programs for A362782, there is no canonical definition to state claims against.
 -/
-
-/-! ## A362782.P7330525292600868166
-
-`∩[A014011(n+1), A168267(n+1)]`
--/
-
-namespace A362782.P7330525292600868166
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014011 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168267 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A362782.P7330525292600868166
 
 /-! ## A362782.P16407885210870754305
 

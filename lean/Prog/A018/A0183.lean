@@ -6,23 +6,23 @@ import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C014
-import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C025
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
@@ -40,6 +40,7 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -54,8 +55,8 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A018300: Divisors of 138.
@@ -300,6 +301,21 @@ end
 
 end A018302.P18161486285136606359
 
+/-! ## A018302.P13783165208396966186
+
+`A133021(n+29)`
+-/
+
+namespace A018302.P13783165208396966186
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A133021 (n + 29)
+
+end
+
+end A018302.P13783165208396966186
+
 /-! ## A018302.P1645347158583682578
 
 `∪[2*(lt[(72*n)%(n+1), 1]+1), lt[(72*n)%(n+1), 1]+1]`
@@ -333,21 +349,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018302.P1645347158583682578
-
-/-! ## A018302.P13783165208396966186
-
-`A133021(n+29)`
--/
-
-namespace A018302.P13783165208396966186
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133021 (n + 29)
-
-end
-
-end A018302.P13783165208396966186
 
 /-!
 # A018303: Divisors of 147.
@@ -3369,25 +3370,6 @@ end
 
 end A018342.P13860865140476086997
 
-/-! ## A018342.P2409075847749530429
-
-`A003593(comp[10-(n-4)^n]+1)`
--/
-
-namespace A018342.P2409075847749530429
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  10 - ((n : ℤ) - 4) ^ n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003593 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A018342.P2409075847749530429
-
 /-!
 # A018343: Divisors of 228.
 
@@ -5626,40 +5608,6 @@ end A018375.P17151476927044329781
 The programs for A018376, there is no canonical definition to state claims against.
 -/
 
-/-! ## A018376.P16269302758602189395
-
-`∪[4*eq[72, lcm(72, n)], lt[(72*n)%(n+1), 1]+1]`
--/
-
-namespace A018376.P16269302758602189395
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  72
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lcm 72 n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * SequenceMachineLib.nth (fun j => f2 j = f3 j) n
-
-def f5 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  72 * n % (n + 1)
-
-def f6 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f5 j < f6 j) n + 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = x) n
-
-end
-
-end A018376.P16269302758602189395
-
 /-! ## A018376.P834918971490581622
 
 `record[gcd(floor(n/(xor(n, n+1)+1))+1, 9*(17*n+2))]`
@@ -6304,34 +6252,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A018384.P3021589347353431998
-
-/-! ## A018384.P15468638244141347275
-
-`∪[eq[1, lcm(18, n)/18], A070869(n+2)]`
--/
-
-namespace A018384.P15468638244141347275
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f3 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (Nat.lcm 18 n : ℚ) / 18
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f2 j : ℚ) = f3 j) n
-
-def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A070869 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
-
-end
-
-end A018384.P15468638244141347275
 
 /-! ## A018384.P16970831492110690948
 

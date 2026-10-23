@@ -18,16 +18,17 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C019
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +42,6 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -764,7 +764,7 @@ end A375616.P4820441993702710742
 /-!
 # A375619: a(n) is the largest integer such that there exists a simple graph with n vertices, a(n) edges, and no cycles of length 0 mod 4.
 
-The programs for A375619, the canonical program `A375619.P858529260229645028` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375619 has offset 1).
+The programs for A375619, the canonical program `A375619.P858529260229645028` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375619 has offset 1).
 
 The definition of A375619 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -773,7 +773,7 @@ The definition of A375619 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(19/12*n)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A375619
@@ -910,8 +910,25 @@ end A375619
 /-!
 # A375621: a(n) = (a(n-3)*a(n-5) + a(n-1)*a(n-7))/a(n-8) with a(0) = ... = a(7) = 1.
 
-The programs for A375621, there is no canonical definition to state claims against.
+The programs for A375621, the canonical program `A375621.P3365025937702841593` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375621 has offset 0).
+
+The definition of A375621 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A375621.P3365025937702841593
+
+`(a(n-3)*a(n-5)+a(n-1)*a(n-7))/a(n-8)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=1, a(4)=1, a(5)=1, a(6)=1, a(7)=1`
+
+The canonical program, it is in `Seq.B000.C038`.
+-/
+
+namespace A375621
+
+/-- `(a(n-3)*a(n-5)+a(n-1)*a(n-7))/a(n-8)` -/
+def P3365025937702841593.Spec : Prop :=
+  ∀ n, P3365025937702841593.a n = (A375621 n : ℚ)
+
+end A375621
 
 /-! ## A375621.P17719457247770776674
 
@@ -927,6 +944,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A375621.P17719457247770776674
+
+namespace A375621
+
+/-- `A076269(A365005(n+1))` -/
+def P17719457247770776674.Spec : Prop :=
+  ∀ n, P17719457247770776674.a n = A375621 n
+
+end A375621
 
 /-!
 # A375623: Maximum value of F(p) = Sum (|i-j| - |p(i)-p(j)|)^2 where the sum is over all 1 <= i < j <= n, for all permutations p in the symmetric group S_n.

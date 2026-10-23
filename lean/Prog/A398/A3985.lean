@@ -1,19 +1,17 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C017
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C033
+import Seq.B000.C018
+import Seq.B000.C025
+import Seq.B000.C029
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B006.C002
@@ -31,9 +29,11 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -222,28 +222,6 @@ end A398501.P17136980957937291283
 The programs for A398502, there is no canonical definition to state claims against.
 -/
 
-/-! ## A398502.P5285077926379289115
-
-`∑[char[A379059(n)]]`
--/
-
-namespace A398502.P5285077926379289115
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379059 n
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A398502.P5285077926379289115
-
 /-! ## A398502.P17565916275346382684
 
 `2-A398503(n)+n`
@@ -311,22 +289,16 @@ end
 
 end A398502.P9307894307710768826
 
-/-!
-# A398503: Number of nonpositive terms in the sequence S(n) defined in A398498.
+/-! ## A398502.P5285077926379289115
 
-The programs for A398503, there is no canonical definition to state claims against.
+`∑[char[A379059(n)]]`
 -/
 
-/-! ## A398503.P3255101520860328011
-
-`∑[char[A379060(n)]]`
--/
-
-namespace A398503.P3255101520860328011
+namespace A398502.P5285077926379289115
 noncomputable section
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A379060 n
+  A379059 n
 
 open Classical in
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -337,7 +309,13 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A398503.P3255101520860328011
+end A398502.P5285077926379289115
+
+/-!
+# A398503: Number of nonpositive terms in the sequence S(n) defined in A398498.
+
+The programs for A398503, there is no canonical definition to state claims against.
+-/
 
 /-! ## A398503.P12101658109446506406
 
@@ -420,6 +398,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A398503.P14128240606827801669
+
+/-! ## A398503.P3255101520860328011
+
+`∑[char[A379060(n)]]`
+-/
+
+namespace A398503.P3255101520860328011
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A379060 n
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A398503.P3255101520860328011
 
 /-!
 # A398504: The number of nonnegative terms in the sequence S(n) defined in A398498 that are not in row n of A398498.

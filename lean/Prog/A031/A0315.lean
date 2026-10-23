@@ -7,22 +7,20 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C028
+import Seq.B000.C019
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -30,7 +28,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -43,7 +40,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -105,44 +101,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031500.P14855721323425183927
-
-/-! ## A031500.P2534271886434791083
-
-`A292739(comp[A163330(n)-A124240(n+1)])`
--/
-
-namespace A031500.P2534271886434791083
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163330 n - A124240 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292739 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A031500.P2534271886434791083
-
-/-! ## A031500.P14514311610428914888
-
-`A292739(comp[A001223(n+1)-A331614(3*n+2)])`
--/
-
-namespace A031500.P14514311610428914888
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001223 (n + 1) - A331614 (3 * n + 2)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A292739 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A031500.P14514311610428914888
 
 /-!
 # A031501: Triangle of numbers maxfit[ i ][ j ] = upper bound on number of incidences in a geometry with <= i points and <= j blocks.

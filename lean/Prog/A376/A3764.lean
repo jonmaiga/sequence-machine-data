@@ -4,13 +4,11 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -23,14 +21,13 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,7 +39,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -186,6 +182,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376401.P8572873211546174468
+
+/-!
+# A376402: Bitwise XOR (centrally aligned) of two consecutive terms of A122242.
+
+The programs for A376402, there is no canonical definition to state claims against.
+-/
+
+/-! ## A376402.P6558330872303552072
+
+`xor(A122242(n+2), 2*A122242(n+1))`
+-/
+
+namespace A376402.P6558330872303552072
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A122242 (n + 2)) (2 * A122242 (n + 1))
+
+end
+
+end A376402.P6558330872303552072
 
 /-!
 # A376403: a(0) = 0, and for n > 0, a(n) = a(n-1) + A276076(a(n-1)), where A276076 is the factorial base exp-function.
@@ -332,6 +349,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376404.P5931295508469906293
+
+/-!
+# A376405: Bitwise XOR (centrally aligned) of two consecutive terms of A122245.
+
+The programs for A376405, there is no canonical definition to state claims against.
+-/
+
+/-! ## A376405.P4305393972418167702
+
+`xor(A122245(n+2), 2*A122245(n+1))`
+-/
+
+namespace A376405.P4305393972418167702
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A122245 (n + 2)) (2 * A122245 (n + 1))
+
+end
+
+end A376405.P4305393972418167702
 
 /-!
 # A376406: a(0) = 1, and for n > 0, a(n) = A019565(Sum_{i=0..n-1} a(i)), where A019565 is the base-2 exp-function.
@@ -485,21 +523,6 @@ end A376407.P5451588927233553558
 The programs for A376408, there is no canonical definition to state claims against.
 -/
 
-/-! ## A376408.P4563559686940015234
-
-`a(n-1)*A019565(a(n-1))` with `a(0)=1`
--/
-
-namespace A376408.P4563559686940015234
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) * A019565 (a (n - 1)).toNat
-
-end
-
-end A376408.P4563559686940015234
-
 /-! ## A376408.P10166848383677713470
 
 `Δ[A376409(n)]`
@@ -539,20 +562,20 @@ end A376408.P8206499454705970991
 The programs for A376409, there is no canonical definition to state claims against.
 -/
 
-/-! ## A376409.P16209841474772556585
+/-! ## A376409.P1227413553540285880
 
-`a(n-1)+A376408(n-1)` with `a(0)=0`
+`a(n-1)+A376408(n-1)` with `a(0)=0, a(1)=1`
 -/
 
-namespace A376409.P16209841474772556585
+namespace A376409.P1227413553540285880
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
   a (n - 1) + A376408 (n - 1)
 
 end
 
-end A376409.P16209841474772556585
+end A376409.P1227413553540285880
 
 /-!
 # A376410: Number of integers whose arithmetic derivative (A003415) is equal to n!, the n-th factorial.
@@ -717,6 +740,27 @@ end
 end A376411.P6469839365164936787
 
 /-!
+# A376412: a(n) = A122242(4+n) XOR 16*A122242(n).
+
+The programs for A376412, there is no canonical definition to state claims against.
+-/
+
+/-! ## A376412.P17550658219230121317
+
+`xor(A122242(n+5), 16*A122242(n+1))`
+-/
+
+namespace A376412.P17550658219230121317
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A122242 (n + 5)) (16 * A122242 (n + 1))
+
+end
+
+end A376412.P17550658219230121317
+
+/-!
 # A376413: a(n) = A276085(A048103(n)), where A276085 is the primorial base log-function, and A048103 is the range of the primorial base exp-function (A276086).
 
 The programs for A376413, there is no canonical definition to state claims against.
@@ -777,6 +821,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376413.P3138530379353041581
+
+/-!
+# A376415: a(n) = A122245(4+n) XOR 16*A122245(n).
+
+The programs for A376415, there is no canonical definition to state claims against.
+-/
+
+/-! ## A376415.P8611386993241795247
+
+`xor(A122245(n+5), 16*A122245(n+1))`
+-/
+
+namespace A376415.P8611386993241795247
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (A122245 (n + 5)) (16 * A122245 (n + 1))
+
+end
+
+end A376415.P8611386993241795247
 
 /-!
 # A376416: 
@@ -1939,7 +2004,7 @@ end A376447.P9951177239289497976
 /-!
 # A376448: a(n) = k if k is odd otherwise a(n) = k+1 and k = floor( 2^n*(1+sqrt(5))/2 ).
 
-The programs for A376448, the canonical program `A376448.P2332171977600246712` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376448 has offset 0).
+The programs for A376448, the canonical program `A376448.P2332171977600246712` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376448 has offset 0).
 
 The definition of A376448 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1948,7 +2013,7 @@ The definition of A376448 is `conjectured`: the Lean definition is a formula tha
 
 `or(1, floor(ϕ*2^n))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A376448
@@ -3684,7 +3749,7 @@ end A376477.P3693281597477255293
 /-!
 # A376478: a(1) = 1, a(2) = 2, and a(n) = 3^(n-2) for n > 2.
 
-The programs for A376478, the canonical program `A376478.P15291021963690367141` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376478 has offset 1).
+The programs for A376478, the canonical program `A376478.P15291021963690367141` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376478 has offset 1).
 
 The definition of A376478 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3693,7 +3758,7 @@ The definition of A376478 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A376478
@@ -3866,29 +3931,6 @@ namespace A376478
 /-- `lcm(3^(n-1), a(n-1))` -/
 def P4858280068406870697.Spec : Prop :=
   ∀ n, (P4858280068406870697.a n : ℤ) = A376478 (n + 1)
-
-end A376478
-
-/-! ## A376478.P3846518302689107814
-
-`3^floor(n-1/a(n-2))` with `a(0)=1, a(1)=2`
--/
-
-namespace A376478.P3846518302689107814
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [1, 2] fun n a =>
-  (3 : ℚ) ^ (⌊(n : ℚ) - 1 / a (n - 2)⌋ : ℤ)
-
-end
-
-end A376478.P3846518302689107814
-
-namespace A376478
-
-/-- `3^floor(n-1/a(n-2))` -/
-def P3846518302689107814.Spec : Prop :=
-  ∀ n, P3846518302689107814.a n = (A376478 (n + 1) : ℚ)
 
 end A376478
 
@@ -4129,6 +4171,29 @@ namespace A376478
 /-- `A038754(A289207(n)+n)` -/
 def P2343920781456019362.Spec : Prop :=
   ∀ n, P2343920781456019362.a n = A376478 (n + 1)
+
+end A376478
+
+/-! ## A376478.P3846518302689107814
+
+`3^floor(n-1/a(n-2))` with `a(0)=1, a(1)=2`
+-/
+
+namespace A376478.P3846518302689107814
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1, 2] fun n a =>
+  (3 : ℚ) ^ (⌊(n : ℚ) - 1 / a (n - 2)⌋ : ℤ)
+
+end
+
+end A376478.P3846518302689107814
+
+namespace A376478
+
+/-- `3^floor(n-1/a(n-2))` -/
+def P3846518302689107814.Spec : Prop :=
+  ∀ n, P3846518302689107814.a n = (A376478 (n + 1) : ℚ)
 
 end A376478
 

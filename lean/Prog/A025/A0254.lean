@@ -24,15 +24,16 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,13 +48,13 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -215,25 +216,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025401.P5192738081787735450
-
-/-! ## A025401.P4706858495699593456
-
-`A025402(comp[n*A305001(3*n)])`
--/
-
-namespace A025401.P4706858495699593456
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A305001 (3 * n)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025402 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A025401.P4706858495699593456
 
 /-! ## A025401.P3318450191984026836
 
@@ -534,88 +516,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025404.P15991815110457130772
-
-/-!
-# A025405: Numbers that are the sum of 4 positive cubes in exactly 3 ways.
-
-The programs for A025405, there is no canonical definition to state claims against.
--/
-
-/-! ## A025405.P7546722151613881868
-
-`A025407(comp[8-A334088(n)])`
--/
-
-namespace A025405.P7546722151613881868
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  8 - A334088 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025407 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A025405.P7546722151613881868
-
-/-! ## A025405.P11120246367173803809
-
-`A025407(comp[9-A037314(n+2)])`
--/
-
-namespace A025405.P11120246367173803809
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  9 - A037314 (n + 2)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025407 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A025405.P11120246367173803809
-
-/-! ## A025405.P3786021105199018192
-
-`A025407(comp[21-A004432(n+1)])`
--/
-
-namespace A025405.P3786021105199018192
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  21 - A004432 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025407 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A025405.P3786021105199018192
-
-/-! ## A025405.P11510856603562718741
-
-`A025407(comp[A024123(n)-(n+1)])`
--/
-
-namespace A025405.P11510856603562718741
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024123 n - (n + 1 : ℤ)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025407 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A025405.P11510856603562718741
 
 /-!
 # A025406: Numbers that are the sum of 4 positive cubes in 2 or more ways.
@@ -11493,28 +11393,6 @@ end
 
 end A025475.P13101588571964619318
 
-/-! ## A025475.P2098122884947327939
-
-`∩[A134611(n+1), A341645(n+1)]`
--/
-
-namespace A025475.P2098122884947327939
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134611 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A341645 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A025475.P2098122884947327939
-
 /-! ## A025475.P1036399385604292823
 
 `record[A065642(A306458(n+1))]`
@@ -13818,29 +13696,6 @@ namespace A025486
 /-- `a(n-1)²/4+1` -/
 def P1755440782758137965.Spec : Prop :=
   ∀ n, P1755440782758137965.a n = (A025486 n : ℚ)
-
-end A025486
-
-/-! ## A025486.P2119374538272470697
-
-`4^a(n-1)` with `a(0)=0, a(1)=3, a(2)=5, a(3)=10, a(4)=26, a(5)=170`
--/
-
-namespace A025486.P2119374538272470697
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 3, 5, 10, 26, 170] fun n a =>
-  4 ^ a (n - 1)
-
-end
-
-end A025486.P2119374538272470697
-
-namespace A025486
-
-/-- `4^a(n-1)` -/
-def P2119374538272470697.Spec : Prop :=
-  ∀ n, (P2119374538272470697.a n : ℤ) = A025486 n
 
 end A025486
 

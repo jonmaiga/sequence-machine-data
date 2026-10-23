@@ -7,26 +7,24 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -187,7 +185,7 @@ end A238902.P3511420000034213020
 /-!
 # A238906: Number of (n+1) X (1+1) 0..2 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors, and new values 0..2 introduced in row major order.
 
-The programs for A238906, the canonical program `A238906.P13839090840902551452` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238906 has offset 1).
+The programs for A238906, the canonical program `A238906.P13839090840902551452` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238906 has offset 1).
 
 The definition of A238906 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 142 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -219,7 +217,7 @@ end A238906
 
 `4*a(n-1)+6*a(n-2)-3*a(n-3)` with `a(0)=3, a(1)=9, a(2)=54`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A238906
@@ -1397,7 +1395,7 @@ end A238921.P4418115826889097085
 /-!
 # A238923: Number of (n+1) X (1+1) 0..3 arrays with no element greater than all horizontal neighbors or equal to all vertical neighbors.
 
-The programs for A238923, the canonical program `A238923.P8978643604632959965` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238923 has offset 1).
+The programs for A238923, the canonical program `A238923.P8978643604632959965` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238923 has offset 1).
 
 The definition of A238923 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1429,7 +1427,7 @@ end A238923
 
 `3*(a(n-1)+a(n-2))` with `a(0)=12, a(1)=36`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A238923
@@ -7696,7 +7694,7 @@ end A238975.P3366534224734107613
 /-!
 # A238976: a(n) = ((3^(n-1) - 1)^2)/4.
 
-The programs for A238976, the canonical program `A238976.P9331913633270408167` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238976 has offset 1).
+The programs for A238976, the canonical program `A238976.P9331913633270408167` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238976 has offset 1).
 
 The definition of A238976 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^n-1)²/4` (program `A238976.P18432878272221753027`, by `A238976.P18432878272221753027.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7705,7 +7703,7 @@ The definition of A238976 is `verified`: the Lean definition is proven equivalen
 
 `13*a(n-1)-39*a(n-2)+27*a(n-3)` with `a(0)=0, a(1)=1, a(2)=16`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A238976

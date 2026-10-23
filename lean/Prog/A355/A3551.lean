@@ -6,45 +6,44 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C027
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -706,7 +705,7 @@ end A355117.P16441708802788740586
 /-!
 # A355118: The number of nonequivalent root ancestral configurations in a recursively defined family of gene trees and species trees with at least n = 9 leaves, in which for n >= 12 leaves, 3-leaf trees are successively added at the root of the tree with n-3 leaves.
 
-The programs for A355118, the canonical program `A355118.P11490181524008332852` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355118 has offset 9).
+The programs for A355118, the canonical program `A355118.P11490181524008332852` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355118 has offset 9).
 
 The definition of A355118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -715,7 +714,7 @@ The definition of A355118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-3)` with `a(0)=23, a(1)=33, a(2)=47`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A355118
@@ -1346,7 +1345,7 @@ end A355138.P1840124184809535280
 /-!
 # A355140: n/d(n) rounded to the nearest integer, where d(n) is the number of divisors of n (A000005).
 
-The programs for A355140, the canonical program `A355140.P14893836911162377731` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355140 has offset 1).
+The programs for A355140, the canonical program `A355140.P14893836911162377731` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355140 has offset 1).
 
 The definition of A355140 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1355,7 +1354,7 @@ The definition of A355140 is `conditional`: the Lean definition is an OEIS formu
 
 `round((n+1)/A000005(n+1))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A355140
@@ -1939,50 +1938,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A355148.P17169953459150583592
-
-/-! ## A355148.P6014369001547170774
-
-`∩[A101594(n+1), A368955(n+1)]`
--/
-
-namespace A355148.P6014369001547170774
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101594 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368955 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A355148.P6014369001547170774
-
-/-! ## A355148.P6311534923800981387
-
-`∩[A125290(n+1), A368955(n+1)]`
--/
-
-namespace A355148.P6311534923800981387
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125290 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368955 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A355148.P6311534923800981387
 
 /-! ## A355148.P9873781399424756
 
@@ -3902,25 +3857,6 @@ end
 
 end A355179.P7898579779797487122
 
-/-! ## A355179.P17223359183042311838
-
-`A014682(char[A124530(n)]*A358013(n))`
--/
-
-namespace A355179.P17223359183042311838
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124530 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014682 (((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A358013 n).toNat
-
-end
-
-end A355179.P17223359183042311838
-
 /-! ## A355179.P4154500902686063497
 
 `A014682(char[A193592(n)]*A358013(n))`
@@ -3954,6 +3890,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355179.P6861906979340522330
+
+/-! ## A355179.P17223359183042311838
+
+`A014682(char[A124530(n)]*A358013(n))`
+-/
+
+namespace A355179.P17223359183042311838
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124530 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014682 (((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A358013 n).toNat
+
+end
+
+end A355179.P17223359183042311838
 
 /-!
 # A355181: Expansion of e.g.f. -LambertW(x^2/2 * (1 - exp(x))).

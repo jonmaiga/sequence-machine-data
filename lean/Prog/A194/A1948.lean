@@ -19,18 +19,22 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -80,9 +84,9 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -1114,7 +1118,7 @@ end A194809.P13425937931474183495
 
 /-! ## A194809.P15297247422462673164
 
-`∑[-A062157(n)*A138137(n+1)]`
+`∑[-(A062157(n)*A138137(n+1))]`
 -/
 
 namespace A194809.P15297247422462673164
@@ -4062,7 +4066,7 @@ end A194824.P4755751929388370451
 /-!
 # A194825: Digital roots of the nonzero 9-gonal (nonagonal) numbers.
 
-The programs for A194825, the canonical program `A194825.P8695730534425028483` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194825 has offset 1).
+The programs for A194825, the canonical program `A194825.P8695730534425028483` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194825 has offset 1).
 
 The definition of A194825 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4071,7 +4075,7 @@ The definition of A194825 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-9)` with `a(0)=1, a(1)=9, a(2)=6, a(3)=1, a(4)=3, a(5)=3, a(6)=1, a(7)=6, a(8)=9`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A194825
@@ -4089,25 +4093,25 @@ end A194825
 /-!
 # A194826: Units' digits of the nonzero 9-gonal (nonagonal) numbers.
 
-The programs for A194826, the canonical program `A194826.P12106436270087625601` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194826 has offset 1).
+The programs for A194826, the canonical program `A194826.P5724564547271806074` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194826 has offset 1).
 
 The definition of A194826 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A194826.P12106436270087625601
+/-! ## A194826.P5724564547271806074
 
-`A010879(A001106(n+1))`
+`((n+1)*(7*(n+1)-5)/2)%10`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A194826
 
-/-- `A010879(A001106(n+1))` -/
-def P12106436270087625601.Spec : Prop :=
-  ∀ n, P12106436270087625601.a n = A194826 (n + 1)
+/-- `((n+1)*(7*(n+1)-5)/2)%10` -/
+def P5724564547271806074.Spec : Prop :=
+  ∀ n, P5724564547271806074.a n = A194826 (n + 1)
 
-theorem P12106436270087625601.correct : P12106436270087625601.Spec := by
+theorem P5724564547271806074.correct : P5724564547271806074.Spec := by
   intro n
   simp only [A194826, Nat.add_sub_cancel]
 
@@ -13925,7 +13929,7 @@ end A194879.P11528490909575586186
 /-!
 # A194880: The numerators of the inverse Akiyama-Tanigawa algorithm from A001045(n).
 
-The programs for A194880, the canonical program `A194880.P4917840185240853091` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194880 has offset 0).
+The programs for A194880, the canonical program `A194880.P4917840185240853091` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194880 has offset 0).
 
 The definition of A194880 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13934,7 +13938,7 @@ The definition of A194880 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-3)-a(n-6)` with `a(0)=0, a(1)=-1, a(2)=-1, a(3)=-4, a(4)=-5, a(5)=-2, a(6)=-7, a(7)=-8`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A194880
@@ -15699,25 +15703,25 @@ end A194885.P10976282039344086242
 /-!
 # A194886: Units' digits of the nonzero decagonal numbers.
 
-The programs for A194886, the canonical program `A194886.P11581730909128595681` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194886 has offset 1).
+The programs for A194886, the canonical program `A194886.P11912885000235145726` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194886 has offset 1).
 
 The definition of A194886 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A194886.P11581730909128595681
+/-! ## A194886.P11912885000235145726
 
-`a(n-10)` with `a(0)=1, a(1)=0, a(2)=7, a(3)=2, a(4)=5, a(5)=6, a(6)=5, a(7)=2, a(8)=7, a(9)=0`
+`((n+1)*(4*(n+1)-3))%10`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A194886
 
-/-- `a(n-10)` -/
-def P11581730909128595681.Spec : Prop :=
-  ∀ n, (P11581730909128595681.a n : ℤ) = A194886 (n + 1)
+/-- `((n+1)*(4*(n+1)-3))%10` -/
+def P11912885000235145726.Spec : Prop :=
+  ∀ n, P11912885000235145726.a n = A194886 (n + 1)
 
-theorem P11581730909128595681.correct : P11581730909128595681.Spec := by
+theorem P11912885000235145726.correct : P11912885000235145726.Spec := by
   intro n
   simp only [A194886, Nat.add_sub_cancel]
 

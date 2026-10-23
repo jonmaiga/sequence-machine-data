@@ -5,28 +5,7 @@ import Seq.B000.C012
 import Seq.B013.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C009
-import Seq.Opaque.C011
-
-/-!
-# A170406: 
-
-The programs for A170406, there is no canonical definition to state claims against.
--/
-
-/-! ## A170406.P3941873614864566483
-
-`12*a(n-1)^gcd(43, n)` with `a(0)=1, a(1)=13`
--/
-
-namespace A170406.P3941873614864566483
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 13] fun n a =>
-  12 * a (n - 1) ^ Nat.gcd 43 n
-
-end
-
-end A170406.P3941873614864566483
+import Seq.Opaque.C010
 
 /-!
 # A170444: 

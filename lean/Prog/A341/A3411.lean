@@ -11,24 +11,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -337,7 +336,7 @@ end A341103.P4354910955419382409
 /-!
 # A341104: a(n) = [x^n] (x - 1)^4/((1 - 2*x)*(x^2 - 3*x + 1)).
 
-The programs for A341104, the canonical program `A341104.P953406310284745569` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341104 has offset 0).
+The programs for A341104, the canonical program `A341104.P953406310284745569` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341104 has offset 0).
 
 The definition of A341104 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -346,7 +345,7 @@ The definition of A341104 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-7*a(n-2)+2*a(n-3)` with `a(0)=1, a(1)=1, a(2)=4, a(3)=11, a(4)=30`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A341104
@@ -3382,25 +3381,6 @@ end
 
 end A341155.P3332954280933253963
 
-/-! ## A341155.P9472834728778366338
-
-`A008619(A341191(n+3))-char[A004515(n)]`
--/
-
-namespace A341155.P9472834728778366338
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004515 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 (A341191 (n + 3)).toNat - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A341155.P9472834728778366338
-
 /-! ## A341155.P11093367049653049154
 
 `A008619(A341191(n+3))-abs(A071936(n+1))`
@@ -3475,6 +3455,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A341155.P16136745101699162734
+
+/-! ## A341155.P9472834728778366338
+
+`A008619(A341191(n+3))-char[A004515(n)]`
+-/
+
+namespace A341155.P9472834728778366338
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004515 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008619 (A341191 (n + 3)).toNat - ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A341155.P9472834728778366338
 
 /-! ## A341155.P17397839094007555612
 
@@ -3679,28 +3678,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A341161.P9654182149414460414
-
-/-! ## A341161.P17230991526817590594
-
-`∩[A135393(n+1), A190876(n+1)]`
--/
-
-namespace A341161.P17230991526817590594
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135393 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A190876 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A341161.P17230991526817590594
 
 /-!
 # A341168: Number of partitions of n into 10 distinct nonzero decimal palindromes.

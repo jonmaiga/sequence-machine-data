@@ -21,6 +21,10 @@
         "+",
         "sqrt",
         "round"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

@@ -2,28 +2,30 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C003
+import Seq.B000.C005
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C037
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C027
+import Seq.B000.C032
+import Seq.B000.C033
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
@@ -50,7 +52,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -403,34 +405,6 @@ end
 end A395306.P10395600499720229768
 
 /-!
-# A395310: Prime numbers of the form 11*x^2 - 4*x*y + 20*y^2 where x and y are positive integers.
-
-The programs for A395310, there is no canonical definition to state claims against.
--/
-
-/-! ## A395310.P5477161253447180031
-
-`∩[A123592(n+1), A338518(n+1)]`
--/
-
-namespace A395310.P5477161253447180031
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123592 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A338518 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395310.P5477161253447180031
-
-/-!
 # A395314: Triangle read by rows: T(n,k) = denominator(CF(n,k)), where CF(n,k) = (1/k!) * Sum_{j=0..k} (-1)^j * binomial(k,j) * (2+k/2-j)^n.
 
 The programs for A395314, there is no canonical definition to state claims against.
@@ -599,7 +573,7 @@ end A395319.P2568265754315842186
 /-!
 # A395328: Bipartite dimension of the n-barbell graph.
 
-The programs for A395328, the canonical program `A395328.P11782026124961658442` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395328 has offset 3).
+The programs for A395328, the canonical program `A395328.P11782026124961658442` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395328 has offset 3).
 
 The definition of A395328 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -608,7 +582,7 @@ The definition of A395328 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+ceil(log2(n+2))+ceil(log2(n+3))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A395328
@@ -1726,28 +1700,6 @@ end
 
 end A395360.P6914205099489011495
 
-/-! ## A395360.P14210661071623494355
-
-`∩[A269177(n), A396178(n)]`
--/
-
-namespace A395360.P14210661071623494355
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269177 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396178 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395360.P14210661071623494355
-
 /-!
 # A395361: For n <= 6, a(n) = Fibonacci(n); for n >= 7, delete all except the leftmost two digits of Fibonacci(n).
 
@@ -2157,7 +2109,7 @@ end A395385.P4372313835097847592
 /-!
 # A395396: a(n) = binomial(n,floor(n/2)) + (n mod 2) - 2.
 
-The programs for A395396, the canonical program `A395396.P11751672268797446085` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395396 has offset 0).
+The programs for A395396, the canonical program `A395396.P11751672268797446085` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395396 has offset 0).
 
 The definition of A395396 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2166,7 +2118,7 @@ The definition of A395396 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(n, floor(n/2))+n%2-2`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A395396

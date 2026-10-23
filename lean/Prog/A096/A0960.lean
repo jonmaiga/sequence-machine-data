@@ -17,22 +17,22 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,7 +47,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -82,6 +81,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -97,7 +97,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -108,46 +107,46 @@ set_option linter.unreachableTactic false
 
 The programs for A096000, the canonical program `A096000.P7512817449052559028` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096000 has offset 0).
 
-The definition of A096000 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(5*n²+7*n+3)/3` (program `A096000.P12960049587389345865`, by `A096000.P12960049587389345865.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A096000 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(5*n²+7*n+3)/3` (program `A096000.P6585676990795344427`, by `A096000.P6585676990795344427.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A096000.P12960049587389345865
+/-! ## A096000.P6585676990795344427
 
 `(n+1)*(5*n²+7*n+3)/3`
 
 The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A096000.P12960049587389345865
+namespace A096000.P6585676990795344427
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) * ((5 * n ^ 2 + 7 * n + 3 : ℚ) / 3)
+  ((n + 1) * (5 * n ^ 2 + 7 * n + 3) : ℚ) / 3
 
 end
 
-end A096000.P12960049587389345865
+end A096000.P6585676990795344427
 
 namespace A096000
 
 /-- `(n+1)*(5*n²+7*n+3)/3` -/
-def P12960049587389345865.Spec : Prop :=
-  ∀ n, P12960049587389345865.a n = (A096000 n : ℚ)
+def P6585676990795344427.Spec : Prop :=
+  ∀ n, P6585676990795344427.a n = (A096000 n : ℚ)
 
-theorem P12960049587389345865.correct : P12960049587389345865.Spec := by
+theorem P6585676990795344427.correct : P6585676990795344427.Spec := by
   intro n
   induction n using Nat.strong_induction_on with
   | _ n ih =>
     match n with
     | 0 | 1 | 2 | 3 =>
-      simp [A096000, Nat.add_sub_cancel, A096000.P12960049587389345865.a, A096000.P7512817449052559028.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A096000, Nat.add_sub_cancel, A096000.P6585676990795344427.a, A096000.P7512817449052559028.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 4 =>
       have h1 := ih (m + 3) (by omega)
       have h2 := ih (m + 2) (by omega)
       have h3 := ih (m + 1) (by omega)
       have h4 := ih m (by omega)
-      simp only [A096000, Nat.add_sub_cancel, A096000.P12960049587389345865.a, A096000.P7512817449052559028.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      simp only [A096000, Nat.add_sub_cancel, A096000.P6585676990795344427.a, A096000.P7512817449052559028.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
       push_cast at h1 h2 h3 h4 ⊢
@@ -623,32 +622,6 @@ namespace A096000
 /-- `A102296(n)-∑[n+1]` -/
 def P9825251784446967223.Spec : Prop :=
   ∀ n, P9825251784446967223.a n = A096000 n
-
-end A096000
-
-/-! ## A096000.P14110333273597620789
-
-`A004466(n)+Δ[n²]²`
--/
-
-namespace A096000.P14110333273597620789
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004466 n + ((f1 (n + 1) : ℤ) - (f1 n : ℤ)) ^ 2
-
-end
-
-end A096000.P14110333273597620789
-
-namespace A096000
-
-/-- `A004466(n)+Δ[n²]²` -/
-def P14110333273597620789.Spec : Prop :=
-  ∀ n, P14110333273597620789.a n = A096000 n
 
 end A096000
 
@@ -1967,7 +1940,7 @@ end A096008.P17003109799841964135
 /-!
 # A096010: Number of different cycles computed with the generalized 3x+1 problem using C=2, B=Cn+m, A=C^m.
 
-The programs for A096010, the canonical program `A096010.P4903496547079153273` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096010 has offset 1).
+The programs for A096010, the canonical program `A096010.P4903496547079153273` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096010 has offset 1).
 
 The definition of A096010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 340 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2071,7 +2044,7 @@ end A096010
 
 `A063776(n+1)/2+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A096010
@@ -5098,7 +5071,7 @@ end A096025
 /-!
 # A096026: Numbers k such that (k+j) mod (2+j) = 1 for j from 0 to 8 and (k+9) mod 11 <> 1.
 
-The programs for A096026, the canonical program `A096026.P10109195778755460978` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096026 has offset 1).
+The programs for A096026, the canonical program `A096026.P10109195778755460978` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096026 has offset 1).
 
 The definition of A096026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9091 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5107,7 +5080,7 @@ The definition of A096026 is `conjectured`: the Lean definition is a formula tha
 
 `A166931(record[A106612(n+1)])+4`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A096026
@@ -8898,7 +8871,7 @@ end A096046
 
 /-! ## A096046.P14940445584766547733
 
-`6-floor(-9*a(n-1))` with `a(0)=1`
+`6-floor(-(9*a(n-1)))` with `a(0)=1`
 
 `floor` is left out, it is the identity on integers.
 -/
@@ -8915,7 +8888,7 @@ end A096046.P14940445584766547733
 
 namespace A096046
 
-/-- `6-floor(-9*a(n-1))` -/
+/-- `6-floor(-(9*a(n-1)))` -/
 def P14940445584766547733.Spec : Prop :=
   ∀ n, P14940445584766547733.a n = A096046 n
 
@@ -8923,7 +8896,7 @@ end A096046
 
 /-! ## A096046.P4752954762296859740
 
-`6-ceil(-9*a(n-1))` with `a(0)=1`
+`6-ceil(-(9*a(n-1)))` with `a(0)=1`
 
 `ceil` is left out, it is the identity on integers.
 -/
@@ -8940,7 +8913,7 @@ end A096046.P4752954762296859740
 
 namespace A096046
 
-/-- `6-ceil(-9*a(n-1))` -/
+/-- `6-ceil(-(9*a(n-1)))` -/
 def P4752954762296859740.Spec : Prop :=
   ∀ n, P4752954762296859740.a n = A096046 n
 

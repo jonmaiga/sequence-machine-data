@@ -8,7 +8,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
@@ -29,13 +28,15 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -89,7 +90,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -98,7 +98,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -1730,41 +1729,41 @@ The programs for A086113, the canonical program `A086113.P3767985742686168640` i
 The definition of A086113 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086113.P7055040589815509760
+/-! ## A086113.P14866550342047915416
 
 `2*(n+1)*((n+1)²+3*(n+1)-1)`
 -/
 
-namespace A086113.P7055040589815509760
+namespace A086113.P14866550342047915416
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * ((n + 1 : ℤ) * (((n + 1) ^ 2 + 3 * (n + 1) : ℤ) - 1))
+  (2 * (n + 1) : ℤ) * (((n + 1) ^ 2 + 3 * (n + 1) : ℤ) - 1)
 
 end
 
-end A086113.P7055040589815509760
+end A086113.P14866550342047915416
 
 namespace A086113
 
 /-- `2*(n+1)*((n+1)²+3*(n+1)-1)` -/
-def P7055040589815509760.Spec : Prop :=
-  ∀ n, P7055040589815509760.a n = A086113 (n + 1)
+def P14866550342047915416.Spec : Prop :=
+  ∀ n, P14866550342047915416.a n = A086113 (n + 1)
 
-theorem P7055040589815509760.correct : P7055040589815509760.Spec := by
+theorem P14866550342047915416.correct : P14866550342047915416.Spec := by
   intro n
   induction n using Nat.strong_induction_on with
   | _ n ih =>
     match n with
     | 0 | 1 | 2 | 3 =>
-      simp [A086113, Nat.add_sub_cancel, A086113.P7055040589815509760.a, A086113.P3767985742686168640.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A086113, Nat.add_sub_cancel, A086113.P14866550342047915416.a, A086113.P3767985742686168640.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 4 =>
       have h1 := ih (m + 3) (by omega)
       have h2 := ih (m + 2) (by omega)
       have h3 := ih (m + 1) (by omega)
       have h4 := ih m (by omega)
-      simp only [A086113, Nat.add_sub_cancel, A086113.P7055040589815509760.a, A086113.P3767985742686168640.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      simp only [A086113, Nat.add_sub_cancel, A086113.P14866550342047915416.a, A086113.P3767985742686168640.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
       push_cast at h1 h2 h3 h4 ⊢
@@ -1867,12 +1866,12 @@ end A086113
 /-!
 # A086114: Number of 4 X n (0,1) matrices such that each row and each column is nondecreasing or nonincreasing.
 
-The programs for A086114, the canonical program `A086114.P6562929644622477253` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086114 has offset 1).
+The programs for A086114, the canonical program `A086114.P2991615491427264843` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086114 has offset 1).
 
 The definition of A086114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086114.P6562929644622477253
+/-! ## A086114.P2991615491427264843
 
 `2/3*(n+1)*((n+1)^3+6*(n+1)²+11*(n+1)-6)`
 
@@ -1882,8 +1881,8 @@ The canonical program, it is in `Seq.B000.C013`.
 namespace A086114
 
 /-- `2/3*(n+1)*((n+1)^3+6*(n+1)²+11*(n+1)-6)` -/
-def P6562929644622477253.Spec : Prop :=
-  ∀ n, P6562929644622477253.a n = (A086114 (n + 1) : ℚ)
+def P2991615491427264843.Spec : Prop :=
+  ∀ n, P2991615491427264843.a n = (A086114 (n + 1) : ℚ)
 
 end A086114
 
@@ -1936,12 +1935,12 @@ end A086114
 /-!
 # A086115: Number of 5 X n (0,1) matrices such that each row and each column is nondecreasing or nonincreasing.
 
-The programs for A086115, the canonical program `A086115.P16574637555429073026` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086115 has offset 1).
+The programs for A086115, the canonical program `A086115.P11180047746508734695` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086115 has offset 1).
 
 The definition of A086115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A086115.P16574637555429073026
+/-! ## A086115.P11180047746508734695
 
 `1/6*(n+1)*((n+1)^4+10*(n+1)^3+35*(n+1)²+50*(n+1)-36)`
 
@@ -1951,8 +1950,8 @@ The canonical program, it is in `Seq.B000.C013`.
 namespace A086115
 
 /-- `1/6*(n+1)*((n+1)^4+10*(n+1)^3+35*(n+1)²+50*(n+1)-36)` -/
-def P16574637555429073026.Spec : Prop :=
-  ∀ n, P16574637555429073026.a n = (A086115 (n + 1) : ℚ)
+def P11180047746508734695.Spec : Prop :=
+  ∀ n, P11180047746508734695.a n = (A086115 (n + 1) : ℚ)
 
 end A086115
 
@@ -2677,7 +2676,7 @@ end A086117
 
 /-! ## A086117.P13796637990481597026
 
-`-or(n, -n)*a(n-1)` with `a(0)=2`
+`-(or(n, -n)*a(n-1))` with `a(0)=2`
 -/
 
 namespace A086117.P13796637990481597026
@@ -2692,7 +2691,7 @@ end A086117.P13796637990481597026
 
 namespace A086117
 
-/-- `-or(n, -n)*a(n-1)` -/
+/-- `-(or(n, -n)*a(n-1))` -/
 def P13796637990481597026.Spec : Prop :=
   ∀ n, P13796637990481597026.a n = A086117 (n + 1)
 
@@ -4236,6 +4235,28 @@ end
 
 end A086135.P9855034100316231458
 
+/-! ## A086135.P13775155984508318599
+
+`∩[A124591(n+1), A172407(n+1)]`
+-/
+
+namespace A086135.P13775155984508318599
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A124591 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A172407 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A086135.P13775155984508318599
+
 /-! ## A086135.P5195695717261806559
 
 `∩[A124591(n+1), A262086(n+1)]`
@@ -4275,28 +4296,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A086135.P2778044356107448115
-
-/-! ## A086135.P13775155984508318599
-
-`∩[A124591(n+1), A172407(n+1)]`
--/
-
-namespace A086135.P13775155984508318599
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124591 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172407 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A086135.P13775155984508318599
 
 /-!
 # A086136: Primes p such that p and p+12 are nonconsecutive primes.

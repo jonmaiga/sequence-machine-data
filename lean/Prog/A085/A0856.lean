@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -20,7 +19,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -28,12 +27,13 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,7 +47,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -93,7 +92,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -569,27 +567,23 @@ end A085601
 /-!
 # A085602: Numbers of the form (2n+1)^(2n+1) + 1.
 
-The programs for A085602, the canonical program `A085602.P15526525830550234717` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085602 has offset 1).
+The programs for A085602, the canonical program `A085602.P8197239784369908222` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085602 has offset 1).
 
-The definition of A085602 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2*n+1)^(2*n+1)+1` (program `A085602.P15526525830550234717`, by `A085602.P15526525830550234717.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A085602 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A085602.P15526525830550234717
+/-! ## A085602.P8197239784369908222
 
-`(2*n+1)^(2*n+1)+1`
+`(2*(n+1)-1)^(2*(n+1)-1)+1`
 
 The canonical program, it is in `Seq.B000.C013`.
 -/
 
 namespace A085602
 
-/-- `(2*n+1)^(2*n+1)+1` -/
-def P15526525830550234717.Spec : Prop :=
-  ∀ n, (P15526525830550234717.a n : ℤ) = A085602 (n + 1)
-
-theorem P15526525830550234717.correct : P15526525830550234717.Spec := by
-  intro n
-  simp only [A085602, Nat.add_sub_cancel]
+/-- `(2*(n+1)-1)^(2*(n+1)-1)+1` -/
+def P8197239784369908222.Spec : Prop :=
+  ∀ n, P8197239784369908222.a n = (A085602 (n + 1) : ℚ)
 
 end A085602
 
@@ -676,7 +670,7 @@ end A085602
 
 /-! ## A085602.P5262648664767742603
 
-`record[n^(n%2)^n+1]`
+`record[(n^(n%2))^n+1]`
 -/
 
 namespace A085602.P5262648664767742603
@@ -694,7 +688,7 @@ end A085602.P5262648664767742603
 
 namespace A085602
 
-/-- `record[n^(n%2)^n+1]` -/
+/-- `record[(n^(n%2))^n+1]` -/
 def P5262648664767742603.Spec : Prop :=
   ∀ n, (P5262648664767742603.a n : ℤ) = A085602 (n + 1)
 
@@ -6934,6 +6928,29 @@ def P17543566194425455463.Spec : Prop :=
 theorem P17543566194425455463.correct : P17543566194425455463.Spec := by
   intro n
   simp only [A085687]
+
+end A085687
+
+/-! ## A085687.P6053849825842034361
+
+`3*2^n*C(2*n+3, n)/(2*n+3)`
+-/
+
+namespace A085687.P6053849825842034361
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 * 2 ^ n * Nat.choose (2 * n + 3) n : ℚ) / (2 * n + 3 : ℚ)
+
+end
+
+end A085687.P6053849825842034361
+
+namespace A085687
+
+/-- `3*2^n*C(2*n+3, n)/(2*n+3)` -/
+def P6053849825842034361.Spec : Prop :=
+  ∀ n, P6053849825842034361.a n = (A085687 n : ℚ)
 
 end A085687
 

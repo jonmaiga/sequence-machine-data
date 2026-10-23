@@ -9,6 +9,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -18,18 +19,18 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6304,25 +6305,6 @@ end A039078.P15739272924865906556
 The programs for A039079, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039079.P14640340898937889209
-
-`comp[21-(n-1)^val(n+1, 3)]+1`
--/
-
-namespace A039079.P14640340898937889209
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  21 - ((n : ℤ) - 1) ^ SequenceMachineLib.valuation (n + 1) 3
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A039079.P14640340898937889209
-
 /-! ## A039079.P4825515236407991650
 
 `eq[1, gcd(n, A119253(n+4))]`
@@ -6343,63 +6325,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039079.P4825515236407991650
-
-/-! ## A039079.P2094954870367988984
-
-`comp[21-A143804(n+1)]+1`
--/
-
-namespace A039079.P2094954870367988984
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  21 - A143804 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A039079.P2094954870367988984
-
-/-! ## A039079.P15257251071056552087
-
-`comp[25-A253195(n+1)]+1`
--/
-
-namespace A039079.P15257251071056552087
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  25 - A253195 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A039079.P15257251071056552087
-
-/-! ## A039079.P13987352787841242552
-
-`comp[3*n-1-A174708(3*(n+1))]+1`
--/
-
-namespace A039079.P13987352787841242552
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (3 * n : ℤ) - 1 - A174708 (3 * (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A039079.P13987352787841242552
 
 /-!
 # A039080: Numbers whose base-9 representation has the same number of 0's and 4's.

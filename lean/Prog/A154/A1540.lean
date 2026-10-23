@@ -2,20 +2,20 @@ import SequenceMachineLib.Basic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
-import Seq.B000.C013
-import Seq.B000.C017
+import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B001.C000
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -28,6 +28,7 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -534,7 +535,7 @@ end A154021.P14325023520785787782
 /-!
 # A154022: a(n) = 5*A097780(n-2).
 
-The programs for A154022, the canonical program `A154022.P5395958641103266710` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154022 has offset 1).
+The programs for A154022, the canonical program `A154022.P5395958641103266710` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154022 has offset 1).
 
 The definition of A154022 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -543,7 +544,7 @@ The definition of A154022 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `25*a(n-1)-a(n-2)` with `a(0)=0, a(1)=5`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A154022
@@ -607,7 +608,7 @@ end A154022
 /-!
 # A154023: a(n+2) = 36*a(n+1) - a(n), a(1)=0, a(2)=6.
 
-The programs for A154023, the canonical program `A154023.P17470481812666660240` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154023 has offset 1).
+The programs for A154023, the canonical program `A154023.P17470481812666660240` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154023 has offset 1).
 
 The definition of A154023 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -616,7 +617,7 @@ The definition of A154023 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `36*a(n-1)-a(n-2)` with `a(0)=0, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A154023
@@ -718,7 +719,7 @@ end A154027.P10579671157193376638
 /-!
 # A154028: a(2n) = n*(n+1)/2, a(2n+1) = n!.
 
-The programs for A154028, the canonical program `A154028.P7192645698628401841` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154028 has offset 0).
+The programs for A154028, the canonical program `A154028.P7192645698628401841` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154028 has offset 0).
 
 The definition of A154028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -727,7 +728,7 @@ The definition of A154028 is `conjectured`: the Lean definition is a formula tha
 
 `A057979(n)!*C(A057979(n+1)+1, 2)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A154028

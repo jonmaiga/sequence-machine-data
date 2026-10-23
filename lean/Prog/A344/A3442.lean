@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -9,23 +10,24 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,6 +36,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -43,7 +46,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -74,7 +76,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -504,7 +505,7 @@ end A344214.P9021402299150461536
 /-!
 # A344215: a(n) = n*(3^(n-1) - 2^(n-1)).
 
-The programs for A344215, the canonical program `A344215.P4496065287303426731` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344215 has offset 0).
+The programs for A344215, the canonical program `A344215.P4496065287303426731` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344215 has offset 0).
 
 The definition of A344215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -513,7 +514,7 @@ The definition of A344215 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(3^(n-1)-2^(n-1))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A344215
@@ -2351,6 +2352,28 @@ end A344231.P8909136162070085454
 The programs for A344232, there is no canonical definition to state claims against.
 -/
 
+/-! ## A344232.P11102152686546180268
+
+`∩[or(2, round(8*n/3)), A343238(n+2)]`
+-/
+
+namespace A344232.P11102152686546180268
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor 2 (SequenceMachineLib.roundAway (8 * ((n : ℚ) / 3)))
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343238 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344232.P11102152686546180268
+
 /-! ## A344232.P14790624309112119194
 
 `filter[A343238(n+1), A292077(#)]`
@@ -2390,28 +2413,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A344232.P8990336294327218559
-
-/-! ## A344232.P11102152686546180268
-
-`∩[or(2, round(8*n/3)), A343238(n+2)]`
--/
-
-namespace A344232.P11102152686546180268
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 2 (SequenceMachineLib.roundAway (8 * ((n : ℚ) / 3)))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343238 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A344232.P11102152686546180268
 
 /-! ## A344232.P14250606909975970539
 
@@ -2511,7 +2512,7 @@ end A344233.P11916106323846907450
 /-!
 # A344236: Number of n-step walks from a universal vertex to the other on the diamond graph.
 
-The programs for A344236, the canonical program `A344236.P15857822513074868389` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344236 has offset 0).
+The programs for A344236, the canonical program `A344236.P15857822513074868389` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344236 has offset 0).
 
 The definition of A344236 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2520,7 +2521,7 @@ The definition of A344236 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-2)+4*a(n-3)` with `a(0)=0, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A344236
@@ -3246,31 +3247,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A344243.P1160589561074309740
-
-/-!
-# A344244: Numbers that are the sum of five fourth powers in exactly three ways.
-
-The programs for A344244, there is no canonical definition to state claims against.
--/
-
-/-! ## A344244.P4347158793524532373
-
-`A344243(comp[33-A142349(C(n, 33)+1)]+1)`
--/
-
-namespace A344244.P4347158793524532373
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  33 - A142349 (Nat.choose n 33 + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344243 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A344244.P4347158793524532373
 
 /-!
 # A344245: Number of partitions of n into 5 semiprime parts.
@@ -4082,7 +4058,7 @@ end A344258.P11693743713171782251
 /-!
 # A344259: For any number n with binary expansion (b(1), ..., b(k)), the binary expansion of a(n) is (b(1), ..., b(ceiling(k/2))).
 
-The programs for A344259, the canonical program `A344259.P12373364473266801387` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344259 has offset 0).
+The programs for A344259, the canonical program `A344259.P12373364473266801387` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344259 has offset 0).
 
 The definition of A344259 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4091,7 +4067,7 @@ The definition of A344259 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n/2^floor(ceil(log2(n+1))/2))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A344259
@@ -4285,7 +4261,7 @@ end A344260.P9879084773498861682
 /-!
 # A344261: Number of n-step walks from one of the vertices with degree 3 to itself on the four-vertex diamond graph.
 
-The programs for A344261, the canonical program `A344261.P11777513139487924325` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344261 has offset 0).
+The programs for A344261, the canonical program `A344261.P11777513139487924325` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344261 has offset 0).
 
 The definition of A344261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4294,7 +4270,7 @@ The definition of A344261 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-2)+4*a(n-3)` with `a(0)=1, a(1)=0, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A344261
@@ -5891,28 +5867,6 @@ end
 
 end A344292.P14796054917715611793
 
-/-! ## A344292.P4709890206388918031
-
-`∩[A339658(n+1), A344296(n+1)]`
--/
-
-namespace A344292.P4709890206388918031
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339658 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344296 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A344292.P4709890206388918031
-
 /-! ## A344292.P6048402248993362541
 
 `∩[A026140(n+1), A344296(n+1)]`
@@ -5956,6 +5910,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A344292.P2035171313859443908
+
+/-! ## A344292.P4709890206388918031
+
+`∩[A339658(n+1), A344296(n+1)]`
+-/
+
+namespace A344292.P4709890206388918031
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A339658 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344296 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A344292.P4709890206388918031
 
 /-!
 # A344293: 5-smooth numbers n whose sum of prime indices A056239(n) is at least twice the number of prime indices A001222(n).

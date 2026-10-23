@@ -9,19 +9,20 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C016
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
@@ -4155,7 +4156,7 @@ end A203776.P13349994653120546398
 /-!
 # A203777: Aliquot sequence starting at 220.
 
-The programs for A203777, the canonical program `A203777.P13121671589113151066` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203777 has offset 0).
+The programs for A203777, the canonical program `A203777.P13121671589113151066` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203777 has offset 0).
 
 The definition of A203777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4164,7 +4165,7 @@ The definition of A203777 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)` with `a(0)=220, a(1)=284`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A203777
@@ -4182,8 +4183,29 @@ end A203777
 /-!
 # A203778: a(n) = -24*A015219(n-2)*a(n-1), with a(1) = 2.
 
-The programs for A203778, there is no canonical definition to state claims against.
+The programs for A203778, the canonical program `A203778.P2292239256937765247` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203778 has offset 1).
+
+The definition of A203778 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-24*A015219(n-1)*a(n-1)` (program `A203778.P2292239256937765247`, by `A203778.P2292239256937765247.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A203778.P2292239256937765247
+
+`-24*A015219(n-1)*a(n-1)` with `a(0)=2`
+
+The canonical program, it is in `Seq.B001.C006`.
+-/
+
+namespace A203778
+
+/-- `-24*A015219(n-1)*a(n-1)` -/
+def P2292239256937765247.Spec : Prop :=
+  ∀ n, P2292239256937765247.a n = A203778 (n + 1)
+
+theorem P2292239256937765247.correct : P2292239256937765247.Spec := by
+  intro n
+  simp only [A203778, Nat.add_sub_cancel]
+
+end A203778
 
 /-! ## A203778.P4845486839035437587
 
@@ -4199,6 +4221,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A203778.P4845486839035437587
+
+namespace A203778
+
+/-- `A204820(n+1)/4` -/
+def P4845486839035437587.Spec : Prop :=
+  ∀ n, P4845486839035437587.a n = (A203778 (n + 1) : ℚ)
+
+end A203778
 
 /-!
 # A203779: 
@@ -4572,7 +4602,7 @@ end A203788.P12204050870472541092
 /-!
 # A203789: Number of (n+1)X2 0..3 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements.
 
-The programs for A203789, the canonical program `A203789.P2896006036350056960` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203789 has offset 1).
+The programs for A203789, the canonical program `A203789.P2896006036350056960` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203789 has offset 1).
 
 The definition of A203789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4581,7 +4611,7 @@ The definition of A203789 is `conjectured`: the Lean definition is a formula tha
 
 `16*7^(n+1)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A203789

@@ -3,12 +3,14 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
@@ -36,6 +38,8 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -44,8 +48,10 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C001
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B004.C000
@@ -78,7 +84,7 @@ set_option linter.unreachableTactic false
 /-!
 # A077900: Expansion of (1-x)^(-1)/(1+x-2*x^2+2*x^3).
 
-The programs for A077900, the canonical program `A077900.P17887080321041104200` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077900 has offset 0).
+The programs for A077900, the canonical program `A077900.P17887080321041104200` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077900 has offset 0).
 
 The definition of A077900 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-3x^2+4x^3-2x^4))` (program `A077900.P17887080321041104200`, by `A077900.P17887080321041104200.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -87,7 +93,7 @@ The definition of A077900 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-3x^2+4x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077900
@@ -316,7 +322,7 @@ end A077900
 /-!
 # A077901: Expansion of (1-x)^(-1)/(1+x-x^2-2*x^3).
 
-The programs for A077901, the canonical program `A077901.P9009592878412647723` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077901 has offset 0).
+The programs for A077901, the canonical program `A077901.P9009592878412647723` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077901 has offset 0).
 
 The definition of A077901 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x^2-x^3+2x^4))` (program `A077901.P9009592878412647723`, by `A077901.P9009592878412647723.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -325,7 +331,7 @@ The definition of A077901 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x^2-x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077901
@@ -531,7 +537,7 @@ end A077901
 /-!
 # A077902: Expansion of (1-x)^(-1)/(1 + x - x^2 + x^3).
 
-The programs for A077902, the canonical program `A077902.P16491081114987266786` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077902 has offset 0).
+The programs for A077902, the canonical program `A077902.P16491081114987266786` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077902 has offset 0).
 
 The definition of A077902 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x^2+2x^3-x^4))` (program `A077902.P16491081114987266786`, by `A077902.P16491081114987266786.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -540,7 +546,7 @@ The definition of A077902 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x^2+2x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077902
@@ -815,7 +821,7 @@ end A077902
 /-!
 # A077903: Expansion of (1-x)^(-1)/(1 + x - x^2 + 2*x^3).
 
-The programs for A077903, the canonical program `A077903.P11556110817470379978` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077903 has offset 0).
+The programs for A077903, the canonical program `A077903.P11556110817470379978` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077903 has offset 0).
 
 The definition of A077903 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x^2+3x^3-2x^4))` (program `A077903.P11556110817470379978`, by `A077903.P11556110817470379978.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -824,7 +830,7 @@ The definition of A077903 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x^2+3x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077903
@@ -836,6 +842,29 @@ def P11556110817470379978.Spec : Prop :=
 theorem P11556110817470379978.correct : P11556110817470379978.Spec := by
   intro n
   simp only [A077903]
+
+end A077903
+
+/-! ## A077903.P9118561154412349871
+
+`1/3+(-1)^n*2^(n+3)/21-A117373(n+1)/7`
+-/
+
+namespace A077903.P9118561154412349871
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 3 + ((-1) ^ n * (2 ^ (n + 3) : ℤ) : ℚ) / 21 - (A117373 (n + 1) : ℚ) / 7
+
+end
+
+end A077903.P9118561154412349871
+
+namespace A077903
+
+/-- `1/3+(-1)^n*2^(n+3)/21-A117373(n+1)/7` -/
+def P9118561154412349871.Spec : Prop :=
+  ∀ n, P9118561154412349871.a n = (A077903 n : ℚ)
 
 end A077903
 
@@ -1226,7 +1255,7 @@ end A077903
 /-!
 # A077904: Expansion of (1-x)^(-1)/(1+x-2*x^3).
 
-The programs for A077904, the canonical program `A077904.P18045526814229004847` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077904 has offset 0).
+The programs for A077904, the canonical program `A077904.P18045526814229004847` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077904 has offset 0).
 
 The definition of A077904 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^2-2x^3+2x^4))` (program `A077904.P18045526814229004847`, by `A077904.P18045526814229004847.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1235,7 +1264,7 @@ The definition of A077904 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x^2-2x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077904
@@ -1675,7 +1704,7 @@ end A077904
 /-!
 # A077905: Expansion of 1/(1 - x^2 - x^3 + x^4).
 
-The programs for A077905, the canonical program `A077905.P8208939492686418724` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077905 has offset 0).
+The programs for A077905, the canonical program `A077905.P8208939492686418724` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077905 has offset 0).
 
 The definition of A077905 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^2-x^3+x^4))` (program `A077905.P8208939492686418724`, by `A077905.P8208939492686418724.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1684,7 +1713,7 @@ The definition of A077905 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x^2-x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077905
@@ -2031,7 +2060,7 @@ end A077905
 /-!
 # A077906: Expansion of (1-x)^(-1)/(1+x+2*x^3).
 
-The programs for A077906, the canonical program `A077906.P16987483856486793583` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077906 has offset 0).
+The programs for A077906, the canonical program `A077906.P16987483856486793583` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077906 has offset 0).
 
 The definition of A077906 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^2+2x^3-2x^4))` (program `A077906.P16987483856486793583`, by `A077906.P16987483856486793583.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2040,7 +2069,7 @@ The definition of A077906 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x^2+2x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077906
@@ -2260,7 +2289,7 @@ end A077906
 /-!
 # A077907: Expansion of (1-x)^(-1)/(1+x+x^2-2*x^3).
 
-The programs for A077907, the canonical program `A077907.P17611262728681797439` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077907 has offset 0).
+The programs for A077907, the canonical program `A077907.P17611262728681797439` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077907 has offset 0).
 
 The definition of A077907 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-3x^3+2x^4))` (program `A077907.P17611262728681797439`, by `A077907.P17611262728681797439.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2269,7 +2298,7 @@ The definition of A077907 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-3x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077907
@@ -2443,7 +2472,7 @@ end A077907
 /-!
 # A077908: Expansion of (1-x)^(-1)/(1+x+x^2-x^3).
 
-The programs for A077908, the canonical program `A077908.P9647230228490436082` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077908 has offset 0).
+The programs for A077908, the canonical program `A077908.P9647230228490436082` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077908 has offset 0).
 
 The definition of A077908 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x^3+x^4))` (program `A077908.P9647230228490436082`, by `A077908.P9647230228490436082.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2475,7 +2504,7 @@ end A077908
 
 `ogf(1/(1-2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077908
@@ -2707,7 +2736,7 @@ end A077908
 /-!
 # A077909: Expansion of 1/((1-x)*(1+x+x^2+2*x^3)).
 
-The programs for A077909, the canonical program `A077909.P5759880852044163432` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077909 has offset 0).
+The programs for A077909, the canonical program `A077909.P5759880852044163432` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077909 has offset 0).
 
 The definition of A077909 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^3-2x^4))` (program `A077909.P5759880852044163432`, by `A077909.P5759880852044163432.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2716,7 +2745,7 @@ The definition of A077909 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077909
@@ -2999,7 +3028,7 @@ end A077909
 /-!
 # A077910: Expansion of 1/((1-x)*(1+x+2*x^2-2*x^3)).
 
-The programs for A077910, the canonical program `A077910.P6518181762705017132` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077910 has offset 0).
+The programs for A077910, the canonical program `A077910.P6518181762705017132` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077910 has offset 0).
 
 The definition of A077910 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2-4x^3+2x^4))` (program `A077910.P6518181762705017132`, by `A077910.P6518181762705017132.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3008,7 +3037,7 @@ The definition of A077910 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2-4x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077910
@@ -3182,7 +3211,7 @@ end A077910
 /-!
 # A077911: Expansion of 1/((1-x)*(1+x+2*x^2-x^3)).
 
-The programs for A077911, the canonical program `A077911.P15467057562577555798` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077911 has offset 0).
+The programs for A077911, the canonical program `A077911.P15467057562577555798` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077911 has offset 0).
 
 The definition of A077911 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2-3x^3+x^4))` (program `A077911.P15467057562577555798`, by `A077911.P15467057562577555798.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3191,7 +3220,7 @@ The definition of A077911 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2-3x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077911
@@ -3336,7 +3365,7 @@ end A077911
 /-!
 # A077912: Expansion of 1/(1+x^2-2*x^3).
 
-The programs for A077912, the canonical program `A077912.P8287871289366667193` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077912 has offset 0).
+The programs for A077912, the canonical program `A077912.P8287871289366667193` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077912 has offset 0).
 
 The definition of A077912 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2-2x^3))` (program `A077912.P8287871289366667193`, by `A077912.P8287871289366667193.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3345,7 +3374,7 @@ The definition of A077912 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077912
@@ -3657,7 +3686,7 @@ end A077912
 /-!
 # A077913: Expansion of 1/((1-x)*(1+x+2*x^2+x^3)).
 
-The programs for A077913, the canonical program `A077913.P774901905685633663` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077913 has offset 0).
+The programs for A077913, the canonical program `A077913.P774901905685633663` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077913 has offset 0).
 
 The definition of A077913 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2-x^3-x^4))` (program `A077913.P774901905685633663`, by `A077913.P774901905685633663.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3666,7 +3695,7 @@ The definition of A077913 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2-x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077913
@@ -4057,7 +4086,7 @@ end A077914.P4469637238092512865
 /-!
 # A077915: Expansion of 1/((1-x)*(1+2*x-2*x^2-2*x^3)).
 
-The programs for A077915, the canonical program `A077915.P5942624350537641591` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077915 has offset 0).
+The programs for A077915, the canonical program `A077915.P5942624350537641591` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077915 has offset 0).
 
 The definition of A077915 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-4x^2+2x^4))` (program `A077915.P5942624350537641591`, by `A077915.P5942624350537641591.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4066,7 +4095,7 @@ The definition of A077915 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-4x^2+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077915
@@ -4246,7 +4275,7 @@ end A077915
 /-!
 # A077916: Expansion of (1-x)^(-1)/(1 + 2*x - 2*x^2 - x^3).
 
-The programs for A077916, the canonical program `A077916.P16476721261719600799` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077916 has offset 0).
+The programs for A077916, the canonical program `A077916.P16476721261719600799` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077916 has offset 0).
 
 The definition of A077916 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-4x^2+x^3+x^4))` (program `A077916.P16476721261719600799`, by `A077916.P16476721261719600799.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4255,7 +4284,7 @@ The definition of A077916 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-4x^2+x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077916
@@ -4270,26 +4299,26 @@ theorem P16476721261719600799.correct : P16476721261719600799.Spec := by
 
 end A077916
 
-/-! ## A077916.P1009693199309509445
+/-! ## A077916.P9002875198814965837
 
 `((-1)^n*A001906(n+2)+n+2)/5`
 -/
 
-namespace A077916.P1009693199309509445
+namespace A077916.P9002875198814965837
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((-1) ^ n * A001906 (n + 2) + (n + 2 : ℤ) : ℚ) / 5
+  ((-1) ^ n * A001906 (n + 2) + (n : ℤ) + 2 : ℚ) / 5
 
 end
 
-end A077916.P1009693199309509445
+end A077916.P9002875198814965837
 
 namespace A077916
 
 /-- `((-1)^n*A001906(n+2)+n+2)/5` -/
-def P1009693199309509445.Spec : Prop :=
-  ∀ n, P1009693199309509445.a n = (A077916 n : ℚ)
+def P9002875198814965837.Spec : Prop :=
+  ∀ n, P9002875198814965837.a n = (A077916 n : ℚ)
 
 end A077916
 
@@ -4347,7 +4376,7 @@ end A077916
 
 /-! ## A077916.P17813011341278521266
 
-`∑[ceil(-ϕ²*a(n-1))]` with `a(0)=1`
+`∑[ceil(-(ϕ²*a(n-1)))]` with `a(0)=1`
 -/
 
 namespace A077916.P17813011341278521266
@@ -4365,7 +4394,7 @@ end A077916.P17813011341278521266
 
 namespace A077916
 
-/-- `∑[ceil(-ϕ²*a(n-1))]` -/
+/-- `∑[ceil(-(ϕ²*a(n-1)))]` -/
 def P17813011341278521266.Spec : Prop :=
   ∀ n, P17813011341278521266.a n = A077916 n
 
@@ -4741,7 +4770,7 @@ end A077916
 /-!
 # A077917: Expansion of (1-x)^(-1)/(1+2*x-2*x^2).
 
-The programs for A077917, the canonical program `A077917.P12056336324469473589` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077917 has offset 0).
+The programs for A077917, the canonical program `A077917.P12056336324469473589` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077917 has offset 0).
 
 The definition of A077917 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-4x^2+2x^3))` (program `A077917.P12056336324469473589`, by `A077917.P12056336324469473589.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4750,7 +4779,7 @@ The definition of A077917 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-4x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077917
@@ -5140,7 +5169,7 @@ end A077917
 /-!
 # A077918: Expansion of (1 - x)^(-1)/(1 + 2*x - 2*x^2 + x^3).
 
-The programs for A077918, the canonical program `A077918.P3206010422632331778` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077918 has offset 0).
+The programs for A077918, the canonical program `A077918.P3206010422632331778` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077918 has offset 0).
 
 The definition of A077918 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-4x^2+3x^3-x^4))` (program `A077918.P3206010422632331778`, by `A077918.P3206010422632331778.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5149,7 +5178,7 @@ The definition of A077918 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-4x^2+3x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077918
@@ -5300,7 +5329,7 @@ end A077918
 /-!
 # A077919: Expansion of (1-x)^(-1)/(1+2*x-2*x^2+2*x^3).
 
-The programs for A077919, the canonical program `A077919.P10876696050130633518` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077919 has offset 0).
+The programs for A077919, the canonical program `A077919.P10876696050130633518` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077919 has offset 0).
 
 The definition of A077919 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-4x^2+4x^3-2x^4))` (program `A077919.P10876696050130633518`, by `A077919.P10876696050130633518.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5309,7 +5338,7 @@ The definition of A077919 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-4x^2+4x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077919
@@ -5486,7 +5515,7 @@ end A077919
 /-!
 # A077920: Expansion of (1-x)^(-1)/(1+2*x-x^2-x^3).
 
-The programs for A077920, the canonical program `A077920.P8119403275272684981` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077920 has offset 0).
+The programs for A077920, the canonical program `A077920.P8119403275272684981` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077920 has offset 0).
 
 The definition of A077920 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-3x^2+x^4))` (program `A077920.P8119403275272684981`, by `A077920.P8119403275272684981.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5495,7 +5524,7 @@ The definition of A077920 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-3x^2+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077920
@@ -5704,7 +5733,7 @@ end A077920
 /-!
 # A077921: Expansion of (1-x)^(-1)/(1+2*x-x^2).
 
-The programs for A077921, the canonical program `A077921.P16796884899920919800` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077921 has offset 0).
+The programs for A077921, the canonical program `A077921.P16796884899920919800` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077921 has offset 0).
 
 The definition of A077921 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-3x^2+x^3))` (program `A077921.P16796884899920919800`, by `A077921.P16796884899920919800.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5713,7 +5742,7 @@ The definition of A077921 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-3x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077921
@@ -6189,7 +6218,7 @@ end A077921
 /-!
 # A077922: Expansion of (1-x)^(-1)/(1+2*x-x^2+x^3).
 
-The programs for A077922, the canonical program `A077922.P4296642496380231662` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077922 has offset 0).
+The programs for A077922, the canonical program `A077922.P4296642496380231662` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077922 has offset 0).
 
 The definition of A077922 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-3x^2+2x^3-x^4))` (program `A077922.P4296642496380231662`, by `A077922.P4296642496380231662.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6198,7 +6227,7 @@ The definition of A077922 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-3x^2+2x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077922
@@ -6352,7 +6381,7 @@ end A077922
 /-!
 # A077923: Expansion of (1-x)^(-1)/(1+2*x-x^2+2*x^3).
 
-The programs for A077923, the canonical program `A077923.P16359893973255584550` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077923 has offset 0).
+The programs for A077923, the canonical program `A077923.P16359893973255584550` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077923 has offset 0).
 
 The definition of A077923 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-3x^2+3x^3-2x^4))` (program `A077923.P16359893973255584550`, by `A077923.P16359893973255584550.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6361,7 +6390,7 @@ The definition of A077923 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-3x^2+3x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077923
@@ -6593,7 +6622,7 @@ end A077923
 /-!
 # A077924: Expansion of (1-x)^(-1)/(1+2*x-2*x^3).
 
-The programs for A077924, the canonical program `A077924.P1997690034683766997` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077924 has offset 0).
+The programs for A077924, the canonical program `A077924.P1997690034683766997` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077924 has offset 0).
 
 The definition of A077924 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^2-2x^3+2x^4))` (program `A077924.P1997690034683766997`, by `A077924.P1997690034683766997.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6602,7 +6631,7 @@ The definition of A077924 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^2-2x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077924
@@ -6854,7 +6883,7 @@ end A077924
 /-!
 # A077925: Expansion of 1/((1-x)*(1+2*x)).
 
-The programs for A077925, the canonical program `A077925.P10800266129172453191` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077925 has offset 0).
+The programs for A077925, the canonical program `A077925.P10800266129172453191` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077925 has offset 0).
 
 The definition of A077925 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^2))` (program `A077925.P10800266129172453191`, by `A077925.P10800266129172453191.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6863,7 +6892,7 @@ The definition of A077925 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^2))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077925
@@ -7313,7 +7342,7 @@ end A077925
 /-!
 # A077926: Expansion of (1-x)^(-1)/(1+2*x+x^3).
 
-The programs for A077926, the canonical program `A077926.P15721426528034838754` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077926 has offset 0).
+The programs for A077926, the canonical program `A077926.P15721426528034838754` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077926 has offset 0).
 
 The definition of A077926 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^2+x^3-x^4))` (program `A077926.P15721426528034838754`, by `A077926.P15721426528034838754.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7322,7 +7351,7 @@ The definition of A077926 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^2+x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077926
@@ -7655,7 +7684,7 @@ end A077926
 /-!
 # A077927: Expansion of (1-x)^(-1)/(1+2*x+2*x^3).
 
-The programs for A077927, the canonical program `A077927.P15931494727834327928` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077927 has offset 0).
+The programs for A077927, the canonical program `A077927.P15931494727834327928` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077927 has offset 0).
 
 The definition of A077927 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^2+2x^3-2x^4))` (program `A077927.P15931494727834327928`, by `A077927.P15931494727834327928.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7664,7 +7693,7 @@ The definition of A077927 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^2+2x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077927
@@ -7850,7 +7879,7 @@ end A077927
 /-!
 # A077928: Expansion of (1-x)^(-1)/(1+2*x+x^2-2*x^3).
 
-The programs for A077928, the canonical program `A077928.P11761716848264930866` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077928 has offset 0).
+The programs for A077928, the canonical program `A077928.P11761716848264930866` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077928 has offset 0).
 
 The definition of A077928 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-x^2-3x^3+2x^4))` (program `A077928.P11761716848264930866`, by `A077928.P11761716848264930866.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7859,7 +7888,7 @@ The definition of A077928 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-x^2-3x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077928
@@ -7958,7 +7987,7 @@ end A077928
 /-!
 # A077929: Expansion of (1-x)^(-1)/(1+2*x+x^2-x^3).
 
-The programs for A077929, the canonical program `A077929.P9858337827514012375` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077929 has offset 0).
+The programs for A077929, the canonical program `A077929.P9858337827514012375` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077929 has offset 0).
 
 The definition of A077929 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-x^2-2x^3+x^4))` (program `A077929.P9858337827514012375`, by `A077929.P9858337827514012375.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7967,7 +7996,7 @@ The definition of A077929 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-x^2-2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077929
@@ -8245,7 +8274,7 @@ end A077929
 /-!
 # A077930: Expansion of (1-x)^(-1)/(1+2*x+x^2+x^3).
 
-The programs for A077930, the canonical program `A077930.P15055277171813472835` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077930 has offset 0).
+The programs for A077930, the canonical program `A077930.P15055277171813472835` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077930 has offset 0).
 
 The definition of A077930 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-x^2-x^4))` (program `A077930.P15055277171813472835`, by `A077930.P15055277171813472835.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8254,7 +8283,7 @@ The definition of A077930 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-x^2-x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077930
@@ -8523,7 +8552,7 @@ end A077930
 /-!
 # A077931: Expansion of 1/((1-x)*(1+2*x+x^2+2*x^3)).
 
-The programs for A077931, the canonical program `A077931.P1254121161910953036` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077931 has offset 0).
+The programs for A077931, the canonical program `A077931.P1254121161910953036` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077931 has offset 0).
 
 The definition of A077931 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-x^2+x^3-2x^4))` (program `A077931.P1254121161910953036`, by `A077931.P1254121161910953036.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8532,7 +8561,7 @@ The definition of A077931 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-x^2+x^3-2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077931
@@ -8976,7 +9005,7 @@ end A077931
 /-!
 # A077932: Expansion of (1-x)^(-1)/(1+2*x+2*x^2-2*x^3).
 
-The programs for A077932, the canonical program `A077932.P11424486689276807369` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077932 has offset 0).
+The programs for A077932, the canonical program `A077932.P11424486689276807369` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077932 has offset 0).
 
 The definition of A077932 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-4x^3+2x^4))` (program `A077932.P11424486689276807369`, by `A077932.P11424486689276807369.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8985,7 +9014,7 @@ The definition of A077932 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-4x^3+2x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077932
@@ -9113,7 +9142,7 @@ end A077932
 /-!
 # A077933: Expansion of (1-x)^(-1)/(1+2*x+2*x^2-x^3).
 
-The programs for A077933, the canonical program `A077933.P1046588112689875089` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077933 has offset 0).
+The programs for A077933, the canonical program `A077933.P1046588112689875089` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077933 has offset 0).
 
 The definition of A077933 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-3x^3+x^4))` (program `A077933.P1046588112689875089`, by `A077933.P1046588112689875089.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9122,7 +9151,7 @@ The definition of A077933 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-3x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077933
@@ -9276,7 +9305,7 @@ end A077933
 /-!
 # A077936: Expansion of 1/(1 - 2*x - 2*x^2 - x^3).
 
-The programs for A077936, the canonical program `A077936.P9789707933178327542` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077936 has offset 0).
+The programs for A077936, the canonical program `A077936.P9789707933178327542` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077936 has offset 0).
 
 The definition of A077936 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-2x^2-x^3))` (program `A077936.P9789707933178327542`, by `A077936.P9789707933178327542.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9285,7 +9314,7 @@ The definition of A077936 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-2x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077936
@@ -9594,7 +9623,7 @@ end A077936
 /-!
 # A077937: Expansion of 1/(1-2*x-2*x^2+2*x^3).
 
-The programs for A077937, the canonical program `A077937.P12820542227121590552` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077937 has offset 0).
+The programs for A077937, the canonical program `A077937.P12820542227121590552` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077937 has offset 0).
 
 The definition of A077937 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-2x^2+2x^3))` (program `A077937.P12820542227121590552`, by `A077937.P12820542227121590552.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9603,7 +9632,7 @@ The definition of A077937 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077937
@@ -10053,7 +10082,7 @@ end A077937
 /-!
 # A077938: Expansion of 1/(1 - 2*x - x^2 - 2*x^3).
 
-The programs for A077938, the canonical program `A077938.P2327701368931179112` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077938 has offset 0).
+The programs for A077938, the canonical program `A077938.P2327701368931179112` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077938 has offset 0).
 
 The definition of A077938 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-x^2-2x^3))` (program `A077938.P2327701368931179112`, by `A077938.P2327701368931179112.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10062,7 +10091,7 @@ The definition of A077938 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077938
@@ -10316,7 +10345,7 @@ end A077938
 /-!
 # A077939: Expansion of 1/(1 - 2*x - x^2 - x^3).
 
-The programs for A077939, the canonical program `A077939.P6500482132333844199` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077939 has offset 0).
+The programs for A077939, the canonical program `A077939.P6500482132333844199` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077939 has offset 0).
 
 The definition of A077939 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-x^2-x^3))` (program `A077939.P6500482132333844199`, by `A077939.P6500482132333844199.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10325,7 +10354,7 @@ The definition of A077939 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077939
@@ -10801,7 +10830,7 @@ end A077939
 /-!
 # A077940: Expansion of 1/(1-2*x+2*x^3).
 
-The programs for A077940, the canonical program `A077940.P175637644981488811` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077940 has offset 0).
+The programs for A077940, the canonical program `A077940.P175637644981488811` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077940 has offset 0).
 
 The definition of A077940 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+2x^3))` (program `A077940.P175637644981488811`, by `A077940.P175637644981488811.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10810,7 +10839,7 @@ The definition of A077940 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077940
@@ -11064,7 +11093,7 @@ end A077940
 /-!
 # A077941: Expansion of 1/(1-2*x+x^2+x^3).
 
-The programs for A077941, the canonical program `A077941.P6964393314891243148` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077941 has offset 0).
+The programs for A077941, the canonical program `A077941.P6964393314891243148` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077941 has offset 0).
 
 The definition of A077941 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+x^2+x^3))` (program `A077941.P6964393314891243148`, by `A077941.P6964393314891243148.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11073,7 +11102,7 @@ The definition of A077941 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x+x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077941
@@ -11402,7 +11431,7 @@ end A077941
 /-!
 # A077942: Expansion of 1/(1-2*x+x^2+2*x^3).
 
-The programs for A077942, the canonical program `A077942.P1332971640786242827` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077942 has offset 0).
+The programs for A077942, the canonical program `A077942.P1332971640786242827` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077942 has offset 0).
 
 The definition of A077942 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+x^2+2x^3))` (program `A077942.P1332971640786242827`, by `A077942.P1332971640786242827.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11434,7 +11463,7 @@ end A077942
 
 `ogf(1/(1-2x+x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077942
@@ -11573,7 +11602,7 @@ end A077942
 /-!
 # A077943: Expansion of 1/(1 - 2*x + 2*x^2 - 2*x^3).
 
-The programs for A077943, the canonical program `A077943.P10892086496653283819` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077943 has offset 0).
+The programs for A077943, the canonical program `A077943.P10892086496653283819` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077943 has offset 0).
 
 The definition of A077943 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+2x^2-2x^3))` (program `A077943.P10892086496653283819`, by `A077943.P10892086496653283819.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11582,7 +11611,7 @@ The definition of A077943 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x+2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077943
@@ -12061,7 +12090,7 @@ end A077943
 /-!
 # A077944: Expansion of 1/(1-2*x+2*x^2+x^3).
 
-The programs for A077944, the canonical program `A077944.P5568619367755739641` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077944 has offset 0).
+The programs for A077944, the canonical program `A077944.P5568619367755739641` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077944 has offset 0).
 
 The definition of A077944 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+2x^2+x^3))` (program `A077944.P5568619367755739641`, by `A077944.P5568619367755739641.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12070,7 +12099,7 @@ The definition of A077944 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x+2x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077944
@@ -12229,7 +12258,7 @@ end A077944
 /-!
 # A077945: Expansion of 1/(1-2*x+2*x^2+2*x^3).
 
-The programs for A077945, the canonical program `A077945.P7758818137486819732` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077945 has offset 0).
+The programs for A077945, the canonical program `A077945.P7758818137486819732` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077945 has offset 0).
 
 The definition of A077945 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+2x^2+2x^3))` (program `A077945.P7758818137486819732`, by `A077945.P7758818137486819732.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12238,7 +12267,7 @@ The definition of A077945 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x+2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077945
@@ -12400,7 +12429,7 @@ end A077945
 /-!
 # A077946: Expansion of 1/(1 - x - 2*x^2 - 2*x^3).
 
-The programs for A077946, the canonical program `A077946.P930145384438699670` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077946 has offset 0).
+The programs for A077946, the canonical program `A077946.P930145384438699670` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077946 has offset 0).
 
 The definition of A077946 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-2x^2-2x^3))` (program `A077946.P930145384438699670`, by `A077946.P930145384438699670.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12409,7 +12438,7 @@ The definition of A077946 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x-2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077946
@@ -12709,7 +12738,7 @@ end A077946
 /-!
 # A077947: Expansion of 1/(1 - x - x^2 - 2*x^3).
 
-The programs for A077947, the canonical program `A077947.P10960679866822552617` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077947 has offset 0).
+The programs for A077947, the canonical program `A077947.P10960679866822552617` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077947 has offset 0).
 
 The definition of A077947 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-x^2-2x^3))` (program `A077947.P10960679866822552617`, by `A077947.P10960679866822552617.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12718,7 +12747,7 @@ The definition of A077947 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x-x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077947
@@ -13179,7 +13208,7 @@ end A077947
 /-!
 # A077948: Expansion of 1/(1-x-x^2+2*x^3).
 
-The programs for A077948, the canonical program `A077948.P1400382029679725729` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077948 has offset 0).
+The programs for A077948, the canonical program `A077948.P1400382029679725729` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077948 has offset 0).
 
 The definition of A077948 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-x^2+2x^3))` (program `A077948.P1400382029679725729`, by `A077948.P1400382029679725729.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13188,7 +13217,7 @@ The definition of A077948 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x-x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077948
@@ -13439,7 +13468,7 @@ end A077948
 /-!
 # A077949: Expansion of 1/(1-x-2*x^3).
 
-The programs for A077949, the canonical program `A077949.P12379121586562352093` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077949 has offset 0).
+The programs for A077949, the canonical program `A077949.P12379121586562352093` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077949 has offset 0).
 
 The definition of A077949 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-2x^3))` (program `A077949.P12379121586562352093`, by `A077949.P12379121586562352093.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13448,7 +13477,7 @@ The definition of A077949 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077949
@@ -13918,7 +13947,7 @@ end A077949
 /-!
 # A077950: Expansion of 1/(1-x+2*x^3).
 
-The programs for A077950, the canonical program `A077950.P2755379890146508516` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077950 has offset 0).
+The programs for A077950, the canonical program `A077950.P2755379890146508516` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077950 has offset 0).
 
 The definition of A077950 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+2x^3))` (program `A077950.P2755379890146508516`, by `A077950.P2755379890146508516.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -13927,7 +13956,7 @@ The definition of A077950 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077950
@@ -14181,7 +14210,7 @@ end A077950
 /-!
 # A077951: Expansion of 1/(1-x+x^2-2*x^3).
 
-The programs for A077951, the canonical program `A077951.P2292801484064464530` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077951 has offset 0).
+The programs for A077951, the canonical program `A077951.P2292801484064464530` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077951 has offset 0).
 
 The definition of A077951 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+x^2-2x^3))` (program `A077951.P2292801484064464530`, by `A077951.P2292801484064464530.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14190,7 +14219,7 @@ The definition of A077951 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x+x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077951
@@ -14611,7 +14640,7 @@ end A077951
 /-!
 # A077952: Expansion of 1/(1 - x + x^2 + 2*x^3).
 
-The programs for A077952, the canonical program `A077952.P15605965124901920071` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077952 has offset 0).
+The programs for A077952, the canonical program `A077952.P15605965124901920071` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077952 has offset 0).
 
 The definition of A077952 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+x^2+2x^3))` (program `A077952.P15605965124901920071`, by `A077952.P15605965124901920071.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14666,7 +14695,7 @@ end A077952
 
 `ogf(1/(1-x+x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077952
@@ -14756,7 +14785,7 @@ end A077952
 /-!
 # A077953: Expansion of 1/(1-x+2*x^2-2*x^3).
 
-The programs for A077953, the canonical program `A077953.P6066158313527650964` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077953 has offset 0).
+The programs for A077953, the canonical program `A077953.P6066158313527650964` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077953 has offset 0).
 
 The definition of A077953 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+2x^2-2x^3))` (program `A077953.P6066158313527650964`, by `A077953.P6066158313527650964.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14765,7 +14794,7 @@ The definition of A077953 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x+2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077953
@@ -15200,7 +15229,7 @@ end A077953
 /-!
 # A077954: Expansion of 1/(1-x+2*x^2-x^3) in powers of x.
 
-The programs for A077954, the canonical program `A077954.P4046842851712022795` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077954 has offset 0).
+The programs for A077954, the canonical program `A077954.P4046842851712022795` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077954 has offset 0).
 
 The definition of A077954 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+2x^2-x^3))` (program `A077954.P4046842851712022795`, by `A077954.P4046842851712022795.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15209,7 +15238,7 @@ The definition of A077954 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x+2x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077954
@@ -15688,7 +15717,7 @@ end A077954
 /-!
 # A077955: Expansion of 1/(1-x+2*x^2+x^3).
 
-The programs for A077955, the canonical program `A077955.P1507832155216777547` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077955 has offset 0).
+The programs for A077955, the canonical program `A077955.P1507832155216777547` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077955 has offset 0).
 
 The definition of A077955 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+2x^2+x^3))` (program `A077955.P1507832155216777547`, by `A077955.P1507832155216777547.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15697,7 +15726,7 @@ The definition of A077955 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x+2x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077955
@@ -15948,7 +15977,7 @@ end A077955
 /-!
 # A077956: Expansion of 1/(1-x+2*x^2+2*x^3).
 
-The programs for A077956, the canonical program `A077956.P15249216941525338412` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077956 has offset 0).
+The programs for A077956, the canonical program `A077956.P15249216941525338412` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077956 has offset 0).
 
 The definition of A077956 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x+2x^2+2x^3))` (program `A077956.P15249216941525338412`, by `A077956.P15249216941525338412.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -15957,7 +15986,7 @@ The definition of A077956 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x+2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077956
@@ -16116,7 +16145,7 @@ end A077956
 /-!
 # A077957: Powers of 2 alternating with zeros.
 
-The programs for A077957, the canonical program `A077957.P5207507075211113912` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077957 has offset 0).
+The programs for A077957, the canonical program `A077957.P5207507075211113912` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077957 has offset 0).
 
 The definition of A077957 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16125,7 +16154,7 @@ The definition of A077957 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077957
@@ -16479,7 +16508,7 @@ end A077957
 /-!
 # A077958: Expansion of 1/(1-2*x^3).
 
-The programs for A077958, the canonical program `A077958.P16688065973531837630` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077958 has offset 0).
+The programs for A077958, the canonical program `A077958.P16688065973531837630` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077958 has offset 0).
 
 The definition of A077958 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x^3))` (program `A077958.P16688065973531837630`, by `A077958.P16688065973531837630.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16488,7 +16517,7 @@ The definition of A077958 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077958
@@ -16952,7 +16981,7 @@ end A077958
 /-!
 # A077959: Expansion of 1/(1+2*x^3).
 
-The programs for A077959, the canonical program `A077959.P4753491942409484164` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077959 has offset 0).
+The programs for A077959, the canonical program `A077959.P4753491942409484164` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077959 has offset 0).
 
 The definition of A077959 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x^3))` (program `A077959.P4753491942409484164`, by `A077959.P4753491942409484164.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -16984,7 +17013,7 @@ end A077959
 
 `ogf(1/(1+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077959
@@ -17024,7 +17053,7 @@ end A077959
 
 /-! ## A077959.P7767536459569559952
 
-`-2*a(n-3)` with `a(0)=1, a(1)=0, a(2)=0`
+`-(2*a(n-3))` with `a(0)=1, a(1)=0, a(2)=0`
 -/
 
 namespace A077959.P7767536459569559952
@@ -17039,7 +17068,7 @@ end A077959.P7767536459569559952
 
 namespace A077959
 
-/-- `-2*a(n-3)` -/
+/-- `-(2*a(n-3))` -/
 def P7767536459569559952.Spec : Prop :=
   ∀ n, P7767536459569559952.a n = A077959 n
 
@@ -17450,7 +17479,7 @@ end A077960.P10965500223561014252
 /-!
 # A077961: Expansion of 1 / (1 + x^2 - x^3) in powers of x.
 
-The programs for A077961, the canonical program `A077961.P18347651037668836347` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077961 has offset 0).
+The programs for A077961, the canonical program `A077961.P18347651037668836347` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077961 has offset 0).
 
 The definition of A077961 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2-x^3))` (program `A077961.P18347651037668836347`, by `A077961.P18347651037668836347.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17459,7 +17488,7 @@ The definition of A077961 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077961
@@ -17690,7 +17719,7 @@ end A077961
 /-!
 # A077962: Expansion of 1/(1+x^2+x^3).
 
-The programs for A077962, the canonical program `A077962.P14013672528330843286` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077962 has offset 0).
+The programs for A077962, the canonical program `A077962.P14013672528330843286` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077962 has offset 0).
 
 The definition of A077962 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2+x^3))` (program `A077962.P14013672528330843286`, by `A077962.P14013672528330843286.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17699,7 +17728,7 @@ The definition of A077962 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077962
@@ -17984,7 +18013,7 @@ end A077962
 /-!
 # A077963: Expansion of 1/(1+x^2+2*x^3).
 
-The programs for A077963, the canonical program `A077963.P14190776719442698230` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077963 has offset 0).
+The programs for A077963, the canonical program `A077963.P14190776719442698230` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077963 has offset 0).
 
 The definition of A077963 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x^2+2x^3))` (program `A077963.P14190776719442698230`, by `A077963.P14190776719442698230.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -17993,7 +18022,7 @@ The definition of A077963 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077963
@@ -18252,7 +18281,7 @@ end A077963
 
 /-! ## A077963.P3607231955477141816
 
-`floor(-floor(A167433(n+1)/2)/2)`
+`floor(-(floor(A167433(n+1)/2)/2))`
 -/
 
 namespace A077963.P3607231955477141816
@@ -18267,7 +18296,7 @@ end A077963.P3607231955477141816
 
 namespace A077963
 
-/-- `floor(-floor(A167433(n+1)/2)/2)` -/
+/-- `floor(-(floor(A167433(n+1)/2)/2))` -/
 def P3607231955477141816.Spec : Prop :=
   ∀ n, P3607231955477141816.a n = A077963 n
 
@@ -18276,7 +18305,7 @@ end A077963
 /-!
 # A077964: Expansion of 1/(1+2*x^2-2*x^3).
 
-The programs for A077964, the canonical program `A077964.P2379635801181084067` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077964 has offset 0).
+The programs for A077964, the canonical program `A077964.P2379635801181084067` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077964 has offset 0).
 
 The definition of A077964 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x^2-2x^3))` (program `A077964.P2379635801181084067`, by `A077964.P2379635801181084067.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18285,7 +18314,7 @@ The definition of A077964 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077964
@@ -18467,7 +18496,7 @@ end A077964
 /-!
 # A077965: Expansion of 1/(1+2*x^2-x^3).
 
-The programs for A077965, the canonical program `A077965.P17916270004353286116` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077965 has offset 0).
+The programs for A077965, the canonical program `A077965.P17916270004353286116` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077965 has offset 0).
 
 The definition of A077965 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x^2-x^3))` (program `A077965.P17916270004353286116`, by `A077965.P17916270004353286116.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18476,7 +18505,7 @@ The definition of A077965 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077965
@@ -18635,7 +18664,7 @@ end A077965
 /-!
 # A077966: Expansion of 1/(1+2*x^2).
 
-The programs for A077966, the canonical program `A077966.P1307819442978643719` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077966 has offset 0).
+The programs for A077966, the canonical program `A077966.P1307819442978643719` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077966 has offset 0).
 
 The definition of A077966 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x^2))` (program `A077966.P1307819442978643719`, by `A077966.P1307819442978643719.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -18644,7 +18673,7 @@ The definition of A077966 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x^2))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077966
@@ -18661,7 +18690,7 @@ end A077966
 
 /-! ## A077966.P14029008531041356832
 
-`-2*a(n-2)` with `a(0)=1, a(1)=0`
+`-(2*a(n-2))` with `a(0)=1, a(1)=0`
 -/
 
 namespace A077966.P14029008531041356832
@@ -18676,7 +18705,7 @@ end A077966.P14029008531041356832
 
 namespace A077966
 
-/-- `-2*a(n-2)` -/
+/-- `-(2*a(n-2))` -/
 def P14029008531041356832.Spec : Prop :=
   ∀ n, P14029008531041356832.a n = A077966 n
 
@@ -19134,7 +19163,7 @@ end A077966
 /-!
 # A077967: Expansion of 1/(1+2*x^2+x^3).
 
-The programs for A077967, the canonical program `A077967.P16910256895743127487` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077967 has offset 0).
+The programs for A077967, the canonical program `A077967.P16910256895743127487` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077967 has offset 0).
 
 The definition of A077967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x^2+x^3))` (program `A077967.P16910256895743127487`, by `A077967.P16910256895743127487.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19143,7 +19172,7 @@ The definition of A077967 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077967
@@ -19305,7 +19334,7 @@ end A077967
 /-!
 # A077968: Expansion of 1/(1+2*x^2+2*x^3).
 
-The programs for A077968, the canonical program `A077968.P3821453421111364404` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077968 has offset 0).
+The programs for A077968, the canonical program `A077968.P3821453421111364404` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077968 has offset 0).
 
 The definition of A077968 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x^2+2x^3))` (program `A077968.P3821453421111364404`, by `A077968.P3821453421111364404.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19314,7 +19343,7 @@ The definition of A077968 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077968
@@ -19636,7 +19665,7 @@ end A077969.P12743593025895262371
 /-!
 # A077970: Expansion of 1/(1+x-2*x^2+2*x^3).
 
-The programs for A077970, the canonical program `A077970.P6943507329110383147` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077970 has offset 0).
+The programs for A077970, the canonical program `A077970.P6943507329110383147` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077970 has offset 0).
 
 The definition of A077970 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^2+2x^3))` (program `A077970.P6943507329110383147`, by `A077970.P6943507329110383147.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -19645,7 +19674,7 @@ The definition of A077970 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077970
@@ -20006,7 +20035,7 @@ end A077970
 /-!
 # A077971: Expansion of 1/(1+x-x^2-2*x^3).
 
-The programs for A077971, the canonical program `A077971.P15691810624179097372` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077971 has offset 0).
+The programs for A077971, the canonical program `A077971.P15691810624179097372` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077971 has offset 0).
 
 The definition of A077971 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-x^2-2x^3))` (program `A077971.P15691810624179097372`, by `A077971.P15691810624179097372.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20015,7 +20044,7 @@ The definition of A077971 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077971
@@ -20341,7 +20370,7 @@ end A077971
 /-!
 # A077972: Expansion of 1/(1+x-x^2+2*x^3).
 
-The programs for A077972, the canonical program `A077972.P11763165498080478140` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077972 has offset 0).
+The programs for A077972, the canonical program `A077972.P11763165498080478140` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077972 has offset 0).
 
 The definition of A077972 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-x^2+2x^3))` (program `A077972.P11763165498080478140`, by `A077972.P11763165498080478140.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20350,7 +20379,7 @@ The definition of A077972 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077972
@@ -20777,7 +20806,7 @@ end A077972
 /-!
 # A077973: Expansion of 1/(1+x-2*x^3).
 
-The programs for A077973, the canonical program `A077973.P6680589041856212912` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077973 has offset 0).
+The programs for A077973, the canonical program `A077973.P6680589041856212912` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077973 has offset 0).
 
 The definition of A077973 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^3))` (program `A077973.P6680589041856212912`, by `A077973.P6680589041856212912.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -20786,7 +20815,7 @@ The definition of A077973 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077973
@@ -21256,7 +21285,7 @@ end A077973
 /-!
 # A077974: Expansion of 1/(1+x+2*x^3).
 
-The programs for A077974, the canonical program `A077974.P10528717259917063457` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077974 has offset 0).
+The programs for A077974, the canonical program `A077974.P10528717259917063457` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077974 has offset 0).
 
 The definition of A077974 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+2x^3))` (program `A077974.P10528717259917063457`, by `A077974.P10528717259917063457.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21265,7 +21294,7 @@ The definition of A077974 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077974
@@ -21508,7 +21537,7 @@ end A077974
 /-!
 # A077975: Expansion of 1/(1+x+x^2-2*x^3).
 
-The programs for A077975, the canonical program `A077975.P7744156649514383742` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077975 has offset 0).
+The programs for A077975, the canonical program `A077975.P7744156649514383742` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077975 has offset 0).
 
 The definition of A077975 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+x^2-2x^3))` (program `A077975.P7744156649514383742`, by `A077975.P7744156649514383742.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21540,7 +21569,7 @@ end A077975
 
 `ogf(1/(1+x+x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077975
@@ -21751,7 +21780,7 @@ end A077975
 /-!
 # A077976: Expansion of 1/(1+x+x^2+2*x^3).
 
-The programs for A077976, the canonical program `A077976.P9629782260210850554` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077976 has offset 0).
+The programs for A077976, the canonical program `A077976.P9629782260210850554` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077976 has offset 0).
 
 The definition of A077976 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+x^2+2x^3))` (program `A077976.P9629782260210850554`, by `A077976.P9629782260210850554.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -21760,7 +21789,7 @@ The definition of A077976 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x+x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077976
@@ -22120,7 +22149,7 @@ end A077976
 /-!
 # A077977: Expansion of 1/(1+x+2*x^2-2*x^3).
 
-The programs for A077977, the canonical program `A077977.P13470695799595286114` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077977 has offset 0).
+The programs for A077977, the canonical program `A077977.P13470695799595286114` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077977 has offset 0).
 
 The definition of A077977 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+2x^2-2x^3))` (program `A077977.P13470695799595286114`, by `A077977.P13470695799595286114.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -22129,7 +22158,7 @@ The definition of A077977 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x+2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077977
@@ -22346,7 +22375,7 @@ end A077977
 /-!
 # A077978: Expansion of 1/(1+x+2*x^2-x^3).
 
-The programs for A077978, the canonical program `A077978.P2733008609294646146` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077978 has offset 0).
+The programs for A077978, the canonical program `A077978.P2733008609294646146` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077978 has offset 0).
 
 The definition of A077978 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+2x^2-x^3))` (program `A077978.P2733008609294646146`, by `A077978.P2733008609294646146.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -22355,7 +22384,7 @@ The definition of A077978 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x+2x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077978
@@ -22655,7 +22684,7 @@ end A077978
 /-!
 # A077979: Expansion of 1/(1+x+2*x^2+x^3).
 
-The programs for A077979, the canonical program `A077979.P13960553921155272956` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077979 has offset 0).
+The programs for A077979, the canonical program `A077979.P13960553921155272956` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077979 has offset 0).
 
 The definition of A077979 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+2x^2+x^3))` (program `A077979.P13960553921155272956`, by `A077979.P13960553921155272956.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -22687,7 +22716,7 @@ end A077979
 
 `ogf(1/(1+x+2x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077979
@@ -23096,7 +23125,7 @@ end A077979
 /-!
 # A077980: Expansion of 1/(1 + x + 2*x^2 + 2*x^3).
 
-The programs for A077980, the canonical program `A077980.P95638359872442304` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077980 has offset 0).
+The programs for A077980, the canonical program `A077980.P95638359872442304` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077980 has offset 0).
 
 The definition of A077980 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x+2x^2+2x^3))` (program `A077980.P95638359872442304`, by `A077980.P95638359872442304.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23105,7 +23134,7 @@ The definition of A077980 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x+2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077980
@@ -23577,7 +23606,7 @@ end A077980
 /-!
 # A077981: Expansion of 1/(1+2*x-2*x^2-2*x^3).
 
-The programs for A077981, the canonical program `A077981.P14523177886807704620` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077981 has offset 0).
+The programs for A077981, the canonical program `A077981.P14523177886807704620` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077981 has offset 0).
 
 The definition of A077981 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-2x^2-2x^3))` (program `A077981.P14523177886807704620`, by `A077981.P14523177886807704620.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23586,7 +23615,7 @@ The definition of A077981 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077981
@@ -23896,7 +23925,7 @@ end A077982.P9549200168892268428
 /-!
 # A077983: Expansion of 1/(1 + 2*x - 2*x^2 + x^3).
 
-The programs for A077983, the canonical program `A077983.P2599285339013636745` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077983 has offset 0).
+The programs for A077983, the canonical program `A077983.P2599285339013636745` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077983 has offset 0).
 
 The definition of A077983 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-2x^2+x^3))` (program `A077983.P2599285339013636745`, by `A077983.P2599285339013636745.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -23905,7 +23934,7 @@ The definition of A077983 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-2x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077983
@@ -24119,7 +24148,7 @@ end A077983
 /-!
 # A077984: Expansion of 1/(1+2*x-2*x^2+2*x^3).
 
-The programs for A077984, the canonical program `A077984.P13064906812013565164` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077984 has offset 0).
+The programs for A077984, the canonical program `A077984.P13064906812013565164` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077984 has offset 0).
 
 The definition of A077984 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-2x^2+2x^3))` (program `A077984.P13064906812013565164`, by `A077984.P13064906812013565164.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24128,7 +24157,7 @@ The definition of A077984 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077984
@@ -24339,7 +24368,7 @@ end A077984
 /-!
 # A077985: Expansion of 1/(1 + 2*x - x^2).
 
-The programs for A077985, the canonical program `A077985.P12460087906222444728` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077985 has offset 0).
+The programs for A077985, the canonical program `A077985.P12460087906222444728` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077985 has offset 0).
 
 The definition of A077985 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-x^2))` (program `A077985.P12460087906222444728`, by `A077985.P12460087906222444728.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24348,7 +24377,7 @@ The definition of A077985 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-x^2))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077985
@@ -24821,7 +24850,7 @@ end A077985
 /-!
 # A077986: Expansion of 1/(1 + 2*x - x^2 + x^3).
 
-The programs for A077986, the canonical program `A077986.P16576051641362506327` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077986 has offset 0).
+The programs for A077986, the canonical program `A077986.P16576051641362506327` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077986 has offset 0).
 
 The definition of A077986 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-x^2+x^3))` (program `A077986.P16576051641362506327`, by `A077986.P16576051641362506327.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -24830,7 +24859,7 @@ The definition of A077986 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077986
@@ -25139,7 +25168,7 @@ end A077986
 /-!
 # A077987: Expansion of 1/(1+2*x-x^2+2*x^3).
 
-The programs for A077987, the canonical program `A077987.P8827654241166284936` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077987 has offset 0).
+The programs for A077987, the canonical program `A077987.P8827654241166284936` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077987 has offset 0).
 
 The definition of A077987 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-x^2+2x^3))` (program `A077987.P8827654241166284936`, by `A077987.P8827654241166284936.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25148,7 +25177,7 @@ The definition of A077987 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077987
@@ -25362,7 +25391,7 @@ end A077987
 /-!
 # A077988: Expansion of 1/(1+2*x-2*x^3).
 
-The programs for A077988, the canonical program `A077988.P13840811085611617822` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077988 has offset 0).
+The programs for A077988, the canonical program `A077988.P13840811085611617822` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077988 has offset 0).
 
 The definition of A077988 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x-2x^3))` (program `A077988.P13840811085611617822`, by `A077988.P13840811085611617822.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25371,7 +25400,7 @@ The definition of A077988 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077988
@@ -25585,7 +25614,7 @@ end A077988
 /-!
 # A077989: Expansion of 1/(1+2*x+x^2-2*x^3).
 
-The programs for A077989, the canonical program `A077989.P6291197559246348569` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077989 has offset 0).
+The programs for A077989, the canonical program `A077989.P6291197559246348569` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077989 has offset 0).
 
 The definition of A077989 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x+x^2-2x^3))` (program `A077989.P6291197559246348569`, by `A077989.P6291197559246348569.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25617,7 +25646,7 @@ end A077989
 
 `ogf(1/(1+2x+x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077989
@@ -25730,7 +25759,7 @@ end A077989
 /-!
 # A077990: Expansion of 1/(1 + 2*x + x^2 - x^3).
 
-The programs for A077990, the canonical program `A077990.P13544531856213860121` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077990 has offset 0).
+The programs for A077990, the canonical program `A077990.P13544531856213860121` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077990 has offset 0).
 
 The definition of A077990 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x+x^2-x^3))` (program `A077990.P13544531856213860121`, by `A077990.P13544531856213860121.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -25739,7 +25768,7 @@ The definition of A077990 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x+x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077990
@@ -26200,7 +26229,7 @@ end A077990
 /-!
 # A077991: Expansion of 1/(1+2*x+2*x^2-2*x^3).
 
-The programs for A077991, the canonical program `A077991.P5081460002901903216` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077991 has offset 0).
+The programs for A077991, the canonical program `A077991.P5081460002901903216` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077991 has offset 0).
 
 The definition of A077991 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x+2x^2-2x^3))` (program `A077991.P5081460002901903216`, by `A077991.P5081460002901903216.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26209,7 +26238,7 @@ The definition of A077991 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x+2x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077991
@@ -26374,7 +26403,7 @@ end A077991
 /-!
 # A077992: Expansion of 1/(1+2*x+2*x^2-x^3).
 
-The programs for A077992, the canonical program `A077992.P261974263873894459` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077992 has offset 0).
+The programs for A077992, the canonical program `A077992.P261974263873894459` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077992 has offset 0).
 
 The definition of A077992 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x+2x^2-x^3))` (program `A077992.P261974263873894459`, by `A077992.P261974263873894459.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26383,7 +26412,7 @@ The definition of A077992 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x+2x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077992
@@ -26551,7 +26580,7 @@ end A077992
 /-!
 # A077993: Expansion of 1/(1+2*x+2*x^2+2*x^3).
 
-The programs for A077993, the canonical program `A077993.P6299530230473276841` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077993 has offset 0).
+The programs for A077993, the canonical program `A077993.P6299530230473276841` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077993 has offset 0).
 
 The definition of A077993 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+2x+2x^2+2x^3))` (program `A077993.P6299530230473276841`, by `A077993.P6299530230473276841.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26560,7 +26589,7 @@ The definition of A077993 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+2x+2x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077993
@@ -26822,7 +26851,7 @@ end A077993
 /-!
 # A077995: Expansion of (1 - x)/(1 - 2*x - 2*x^2 - x^3).
 
-The programs for A077995, the canonical program `A077995.P1544260862908855110` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077995 has offset 0).
+The programs for A077995, the canonical program `A077995.P1544260862908855110` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077995 has offset 0).
 
 The definition of A077995 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-2x-2x^2-x^3))` (program `A077995.P1544260862908855110`, by `A077995.P1544260862908855110.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -26831,7 +26860,7 @@ The definition of A077995 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-2x-2x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077995
@@ -27085,7 +27114,7 @@ end A077995
 /-!
 # A077996: Expansion of (1-x)/(1-2*x-x^2-2*x^3).
 
-The programs for A077996, the canonical program `A077996.P12249991699901641480` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077996 has offset 0).
+The programs for A077996, the canonical program `A077996.P12249991699901641480` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077996 has offset 0).
 
 The definition of A077996 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-2x-x^2-2x^3))` (program `A077996.P12249991699901641480`, by `A077996.P12249991699901641480.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27094,7 +27123,7 @@ The definition of A077996 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-2x-x^2-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077996
@@ -27325,7 +27354,7 @@ end A077996
 /-!
 # A077997: Expansion of (1-x)/(1-2*x-x^2-x^3).
 
-The programs for A077997, the canonical program `A077997.P5613243842344804469` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077997 has offset 0).
+The programs for A077997, the canonical program `A077997.P5613243842344804469` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077997 has offset 0).
 
 The definition of A077997 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-2x-x^2-x^3))` (program `A077997.P5613243842344804469`, by `A077997.P5613243842344804469.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27334,7 +27363,7 @@ The definition of A077997 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-2x-x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077997
@@ -27588,7 +27617,7 @@ end A077997
 /-!
 # A077998: Expansion of (1-x)/(1-2*x-x^2+x^3).
 
-The programs for A077998, the canonical program `A077998.P10353918802167166776` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077998 has offset 0).
+The programs for A077998, the canonical program `A077998.P10353918802167166776` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077998 has offset 0).
 
 The definition of A077998 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-2x-x^2+x^3))` (program `A077998.P10353918802167166776`, by `A077998.P10353918802167166776.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -27597,7 +27626,7 @@ The definition of A077998 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-2x-x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077998
@@ -28058,7 +28087,7 @@ end A077998
 /-!
 # A077999: Expansion of (1-x)/(1-2*x-2*x^3).
 
-The programs for A077999, the canonical program `A077999.P5569483175579266823` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077999 has offset 0).
+The programs for A077999, the canonical program `A077999.P5569483175579266823` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077999 has offset 0).
 
 The definition of A077999 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-2x-2x^3))` (program `A077999.P5569483175579266823`, by `A077999.P5569483175579266823.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -28067,7 +28096,7 @@ The definition of A077999 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x)/(1-2x-2x^3))`
 
-The canonical program, it is in `Seq.B000.C011`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A077999

@@ -7,27 +7,25 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C024
+import Seq.B000.C027
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -54,7 +52,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B013.C000
@@ -69,6 +66,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -77,12 +75,10 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A200123: Decimal expansion of greatest x satisfying 2*x^2 - 3*cos(x) = 2*sin(x).
@@ -108,7 +104,7 @@ end A200123.P7351759438395324906
 /-!
 # A200139: Triangle T(n,k), read by rows, given by (1,1,0,0,0,0,0,0,0,...) DELTA (1,0,0,0,0,0,0,0,0,...) where DELTA is the operator defined in A084938.
 
-The programs for A200139, the canonical program `A200139.P8566556275138631539` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200139 has offset 0).
+The programs for A200139, the canonical program `A200139.P8566556275138631539` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200139 has offset 0).
 
 The definition of A200139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -209,7 +205,7 @@ end A200139
 
 `A135226(n)*A155038(n+1)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A200139
@@ -561,7 +557,7 @@ end A200140.P8798069236456861723
 /-!
 # A200141: Upper bound by J. Rivat and J. Wu on constant arising in Piatetski-Shapiro primes.
 
-The programs for A200141, the canonical program `A200141.P4492839753091905352` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200141 has offset 1).
+The programs for A200141, the canonical program `A200141.P4492839753091905352` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200141 has offset 1).
 
 The definition of A200141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -570,7 +566,7 @@ The definition of A200141 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-5)` with `a(0)=1, a(1)=1, a(2)=8, a(3)=5, a(4)=3, a(5)=6, a(6)=5`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200141
@@ -588,7 +584,7 @@ end A200141
 /-!
 # A200142: Number of near-matchings on the complete graph over 2n+1 vertices.
 
-The programs for A200142, the canonical program `A200142.P15676160989340670866` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200142 has offset 1).
+The programs for A200142, the canonical program `A200142.P15676160989340670866` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200142 has offset 1).
 
 The definition of A200142 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -597,7 +593,7 @@ The definition of A200142 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*(n+1)+1)!/(2^(n+1)*n!)`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200142
@@ -3176,7 +3172,7 @@ end A200165.P14351946976278056515
 /-!
 # A200166: Number of -n..n arrays x(0..2) of 3 elements with nonzero sum and with zero through 2 differences all nonzero.
 
-The programs for A200166, the canonical program `A200166.P841247811571209774` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200166 has offset 1).
+The programs for A200166, the canonical program `A200166.P841247811571209774` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200166 has offset 1).
 
 The definition of A200166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3185,7 +3181,7 @@ The definition of A200166 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)-2*a(n-2)-2*a(n-3)+3*a(n-4)-a(n-5)` with `a(0)=2, a(1)=34, a(2)=128, a(3)=348, a(4)=726`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200166
@@ -4563,7 +4559,7 @@ end A200180.P10477203826085245205
 /-!
 # A200182: Number of -n..n arrays x(0..3) of 4 elements with zero sum and no two consecutive declines, no adjacent equal elements, and no element more than one greater than the previous (random base sawtooth pattern).
 
-The programs for A200182, the canonical program `A200182.P1924970059812575307` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200182 has offset 1).
+The programs for A200182, the canonical program `A200182.P1924970059812575307` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200182 has offset 1).
 
 The definition of A200182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4572,7 +4568,7 @@ The definition of A200182 is `conjectured`: the Lean definition is a formula tha
 
 `or(2, ∑[∑[gcd(3, n)]-n])`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200182

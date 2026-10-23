@@ -3,24 +3,28 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C028
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -28,6 +32,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -40,7 +45,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
@@ -1421,7 +1425,7 @@ end A233636.P7164129886133082225
 /-!
 # A233637: Number of (n+1) X (1+1) 0..2 arrays with every 2 X 2 subblock having the sum of the squares of the edge differences equal to 2.
 
-The programs for A233637, the canonical program `A233637.P12995167814934946207` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233637 has offset 1).
+The programs for A233637, the canonical program `A233637.P12995167814934946207` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233637 has offset 1).
 
 The definition of A233637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 176 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1456,7 +1460,7 @@ end A233637
 
 `2*a(n-1)+6*a(n-2)` with `a(0)=24, a(1)=90`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A233637
@@ -2770,7 +2774,7 @@ end A233655.P10384504775467191057
 /-!
 # A233656: a(n) = 3*a(n-1) - 2*(n-1), with a(0) = 1.
 
-The programs for A233656, the canonical program `A233656.P9766195256551268886` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233656 has offset 0).
+The programs for A233656, the canonical program `A233656.P9766195256551268886` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233656 has offset 0).
 
 The definition of A233656 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)-2*(n-1)` (program `A233656.P9766195256551268886`, by `A233656.P9766195256551268886.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2779,7 +2783,7 @@ The definition of A233656 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-2*(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A233656
@@ -3270,10 +3274,25 @@ end A233656
 /-!
 # A233657: a(n) = 10 * binomial(3*n+10,n)/(3*n+10).
 
-The programs for A233657, the canonical program `A233657.P8828505400267143915` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233657 has offset 0).
+The programs for A233657, the canonical program `A233657.P5092340438807226560` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233657 has offset 0).
 
-The definition of A233657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A233657 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233657.P5092340438807226560
+
+`10*C(3*n+10, n)/(3*n+10)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233657
+
+/-- `10*C(3*n+10, n)/(3*n+10)` -/
+def P5092340438807226560.Spec : Prop :=
+  ∀ n, P5092340438807226560.a n = (A233657 n : ℚ)
+
+end A233657
 
 /-! ## A233657.P11281645912502203119
 
@@ -3393,9 +3412,17 @@ end A233657
 /-! ## A233657.P8828505400267143915
 
 `A006631(n+1)-(A230547(n)+A006630(n+1))`
-
-The canonical program, it is in `Seq.B005.C001`.
 -/
+
+namespace A233657.P8828505400267143915
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006631 (n + 1) - (A230547 n + A006630 (n + 1))
+
+end
+
+end A233657.P8828505400267143915
 
 namespace A233657
 
@@ -3403,36 +3430,51 @@ namespace A233657
 def P8828505400267143915.Spec : Prop :=
   ∀ n, P8828505400267143915.a n = A233657 n
 
-theorem P8828505400267143915.correct : P8828505400267143915.Spec := by
-  intro n
-  simp only [A233657]
-
 end A233657
 
 /-!
 # A233658: a(n) = 7*binomial(4*n + 7, n)/(4*n + 7).
 
-The programs for A233658, the canonical program `A233658.P10215787861184337224` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233658 has offset 0).
+The programs for A233658, the canonical program `A233658.P1715427381718170931` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233658 has offset 0).
 
-The definition of A233658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A233658 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233658.P1715427381718170931
+
+`7*C(4*n+7, n)/(4*n+7)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233658
+
+/-- `7*C(4*n+7, n)/(4*n+7)` -/
+def P1715427381718170931.Spec : Prop :=
+  ∀ n, P1715427381718170931.a n = (A233658 n : ℚ)
+
+end A233658
 
 /-! ## A233658.P10215787861184337224
 
 `A002293(n+2)-A006632(n+2)`
-
-The canonical program, it is in `Seq.B003.C003`.
 -/
+
+namespace A233658.P10215787861184337224
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002293 (n + 2) - A006632 (n + 2)
+
+end
+
+end A233658.P10215787861184337224
 
 namespace A233658
 
 /-- `A002293(n+2)-A006632(n+2)` -/
 def P10215787861184337224.Spec : Prop :=
   ∀ n, P10215787861184337224.a n = A233658 n
-
-theorem P10215787861184337224.correct : P10215787861184337224.Spec := by
-  intro n
-  simp only [A233658]
 
 end A233658
 
@@ -4078,27 +4120,46 @@ end A233664.P2723944945172503745
 /-!
 # A233666: a(n) = 2*binomial(4*n + 8, n)/(n + 2).
 
-The programs for A233666, the canonical program `A233666.P13838856336884360722` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233666 has offset 0).
+The programs for A233666, the canonical program `A233666.P15715580136252328662` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233666 has offset 0).
 
-The definition of A233666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A233666 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233666.P15715580136252328662
+
+`2*C(4*n+8, n)/(n+2)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233666
+
+/-- `2*C(4*n+8, n)/(n+2)` -/
+def P15715580136252328662.Spec : Prop :=
+  ∀ n, P15715580136252328662.a n = (A233666 n : ℚ)
+
+end A233666
 
 /-! ## A233666.P13838856336884360722
 
 `A196678(n+1)-A002293(n+2)`
-
-The canonical program, it is in `Seq.B004.C002`.
 -/
+
+namespace A233666.P13838856336884360722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196678 (n + 1) - A002293 (n + 2)
+
+end
+
+end A233666.P13838856336884360722
 
 namespace A233666
 
 /-- `A196678(n+1)-A002293(n+2)` -/
 def P13838856336884360722.Spec : Prop :=
   ∀ n, P13838856336884360722.a n = A233666 n
-
-theorem P13838856336884360722.correct : P13838856336884360722.Spec := by
-  intro n
-  simp only [A233666]
 
 end A233666
 
@@ -4203,27 +4264,46 @@ end A233666
 /-!
 # A233667: a(n) = 5*binomial(4*n+10,n)/(2*n+5).
 
-The programs for A233667, the canonical program `A233667.P10919499485514884474` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233667 has offset 0).
+The programs for A233667, the canonical program `A233667.P7970664311015235967` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233667 has offset 0).
 
-The definition of A233667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A233667 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233667.P7970664311015235967
+
+`5*C(4*n+10, n)/(2*n+5)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233667
+
+/-- `5*C(4*n+10, n)/(2*n+5)` -/
+def P7970664311015235967.Spec : Prop :=
+  ∀ n, P7970664311015235967.a n = (A233667 n : ℚ)
+
+end A233667
 
 /-! ## A233667.P10919499485514884474
 
 `A233658(n+1)-A006633(n+1)`
-
-The canonical program, it is in `Seq.B005.C001`.
 -/
+
+namespace A233667.P10919499485514884474
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A233658 (n + 1) - A006633 (n + 1)
+
+end
+
+end A233667.P10919499485514884474
 
 namespace A233667
 
 /-- `A233658(n+1)-A006633(n+1)` -/
 def P10919499485514884474.Spec : Prop :=
   ∀ n, P10919499485514884474.a n = A233667 n
-
-theorem P10919499485514884474.correct : P10919499485514884474.Spec := by
-  intro n
-  simp only [A233667]
 
 end A233667
 
@@ -4340,8 +4420,25 @@ end A233667
 /-!
 # A233668: a(n) = 6*binomial(5*n + 6,n)/(5*n + 6).
 
-The programs for A233668, there is no canonical definition to state claims against.
+The programs for A233668, the canonical program `A233668.P14567864662841941759` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233668 has offset 0).
+
+The definition of A233668 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233668.P14567864662841941759
+
+`6*C(5*n+6, n)/(5*n+6)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233668
+
+/-- `6*C(5*n+6, n)/(5*n+6)` -/
+def P14567864662841941759.Spec : Prop :=
+  ∀ n, P14567864662841941759.a n = (A233668 n : ℚ)
+
+end A233668
 
 /-! ## A233668.P15069083901580249488
 
@@ -4358,6 +4455,14 @@ end
 
 end A233668.P15069083901580249488
 
+namespace A233668
+
+/-- `A370061(2*(n+1))` -/
+def P15069083901580249488.Spec : Prop :=
+  ∀ n, P15069083901580249488.a n = A233668 n
+
+end A233668
+
 /-! ## A233668.P14532077010501090411
 
 `(n+1)*A197272(n+1)`
@@ -4372,6 +4477,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233668.P14532077010501090411
+
+namespace A233668
+
+/-- `(n+1)*A197272(n+1)` -/
+def P14532077010501090411.Spec : Prop :=
+  ∀ n, P14532077010501090411.a n = A233668 n
+
+end A233668
 
 /-! ## A233668.P13718890626961601551
 
@@ -4394,6 +4507,14 @@ end
 
 end A233668.P13718890626961601551
 
+namespace A233668
+
+/-- `∑[3*Δ[n/3*A197272(n)]]` -/
+def P13718890626961601551.Spec : Prop :=
+  ∀ n, P13718890626961601551.a n = (A233668 n : ℚ)
+
+end A233668
+
 /-! ## A233668.P3352624517915310436
 
 `∑[Δ[A118969(n)]-A334719(n)]`
@@ -4415,6 +4536,14 @@ end
 
 end A233668.P3352624517915310436
 
+namespace A233668
+
+/-- `∑[Δ[A118969(n)]-A334719(n)]` -/
+def P3352624517915310436.Spec : Prop :=
+  ∀ n, P3352624517915310436.a n = A233668 n
+
+end A233668
+
 /-! ## A233668.P7104152471487319327
 
 `A118969(n+1)-A002294(n+1)`
@@ -4429,6 +4558,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233668.P7104152471487319327
+
+namespace A233668
+
+/-- `A118969(n+1)-A002294(n+1)` -/
+def P7104152471487319327.Spec : Prop :=
+  ∀ n, P7104152471487319327.a n = A233668 n
+
+end A233668
 
 /-! ## A233668.P15360789795030482630
 
@@ -4451,11 +4588,36 @@ end
 
 end A233668.P15360789795030482630
 
+namespace A233668
+
+/-- `∑[3*Δ[n/A016861(n)*A118969(n)]]` -/
+def P15360789795030482630.Spec : Prop :=
+  ∀ n, P15360789795030482630.a n = (A233668 n : ℚ)
+
+end A233668
+
 /-!
 # A233669: a(n) = 7*binomial(5*n+7, n)/(5*n+7).
 
-The programs for A233669, there is no canonical definition to state claims against.
+The programs for A233669, the canonical program `A233669.P936900632548085653` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233669 has offset 0).
+
+The definition of A233669 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A233669.P936900632548085653
+
+`7*C(5*n+7, n)/(5*n+7)`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A233669
+
+/-- `7*C(5*n+7, n)/(5*n+7)` -/
+def P936900632548085653.Spec : Prop :=
+  ∀ n, P936900632548085653.a n = (A233669 n : ℚ)
+
+end A233669
 
 /-! ## A233669.P15401075568102612954
 
@@ -4472,6 +4634,14 @@ end
 
 end A233669.P15401075568102612954
 
+namespace A233669
+
+/-- `A118970(n+1)-A118969(n+1)` -/
+def P15401075568102612954.Spec : Prop :=
+  ∀ n, P15401075568102612954.a n = A233669 n
+
+end A233669
+
 /-! ## A233669.P8787220272371007647
 
 `A118970(n+1)-(A233668(n)+A002294(n+1))`
@@ -4486,6 +4656,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233669.P8787220272371007647
+
+namespace A233669
+
+/-- `A118970(n+1)-(A233668(n)+A002294(n+1))` -/
+def P8787220272371007647.Spec : Prop :=
+  ∀ n, P8787220272371007647.a n = A233669 n
+
+end A233669
 
 /-! ## A233669.P16151224021751309126
 
@@ -4506,6 +4684,14 @@ end
 
 end A233669.P16151224021751309126
 
+namespace A233669
+
+/-- `A118970(char[A010766(n+1)]+n)%A118969(n+1)` -/
+def P16151224021751309126.Spec : Prop :=
+  ∀ n, P16151224021751309126.a n = A233669 n
+
+end A233669
+
 /-! ## A233669.P2526584847080126749
 
 `A118971(n+1)-(A233736(n)+A118969(n+1))`
@@ -4520,6 +4706,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A233669.P2526584847080126749
+
+namespace A233669
+
+/-- `A118971(n+1)-(A233736(n)+A118969(n+1))` -/
+def P2526584847080126749.Spec : Prop :=
+  ∀ n, P2526584847080126749.a n = A233669 n
+
+end A233669
 
 /-!
 # A233670: Expansion of q * phi(-q^2) * psi(q^9) / (f(q^3) * phi(q^3)) in powers of q where f(), phi(), psi() are Ramanujan theta functions.
@@ -6527,7 +6721,7 @@ end A233683.P11704664658058196121
 /-!
 # A233684: Number of (n+1) X (1+1) 0..3 arrays with every 2 X 2 subblock having the sum of the squares of the edge differences equal to 10, and no two adjacent values equal.
 
-The programs for A233684, the canonical program `A233684.P16555990374988774687` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233684 has offset 1).
+The programs for A233684, the canonical program `A233684.P16555990374988774687` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233684 has offset 1).
 
 The definition of A233684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 189 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6536,7 +6730,7 @@ The definition of A233684 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+5*a(n-2)-2*a(n-3)` with `a(0)=32, a(1)=108, a(2)=356`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A233684

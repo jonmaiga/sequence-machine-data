@@ -3,30 +3,30 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C024
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -42,7 +42,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -1254,49 +1253,52 @@ end A325516
 /-!
 # A325517: a(n) = n*((2*n + 1)*(2*n^2 + 2*n + 3) - 3*(-1)^n)/24.
 
-The programs for A325517, the canonical program `A325517.P6685838483420274373` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325517 has offset 0).
+The programs for A325517, the canonical program `A325517.P17753240437897923138` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325517 has offset 0).
 
 The definition of A325517 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A325517.P6685838483420274373
+/-! ## A325517.P8765972350871465012
 
 `n*((2*n+1)*(2*n²+2*n+3)-3*(-1)^n)/24`
 
-The canonical program, it is in `Seq.B000.C034`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A325517.P8765972350871465012
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * (((2 * n + 1) * (2 * n ^ 2 + 2 * n + 3) : ℤ) - 3 * (-1) ^ n) : ℚ) / 24
+
+end
+
+end A325517.P8765972350871465012
 
 namespace A325517
 
 /-- `n*((2*n+1)*(2*n²+2*n+3)-3*(-1)^n)/24` -/
-def P6685838483420274373.Spec : Prop :=
-  ∀ n, P6685838483420274373.a n = (A325517 n : ℚ)
+def P8765972350871465012.Spec : Prop :=
+  ∀ n, P8765972350871465012.a n = (A325517 n : ℚ)
 
 end A325517
 
-/-! ## A325517.P15604618192517044339
+/-! ## A325517.P17753240437897923138
 
-`n*∑[n%2+n²]/2`
+`n*A131941(n)`
+
+The canonical program, it is in `Seq.B001.C008`.
 -/
-
-namespace A325517.P15604618192517044339
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n % 2 + n ^ 2
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((n * (∑ j ∈ Finset.range (n + 1), f1 j) : ℕ) : ℚ) / 2
-
-end
-
-end A325517.P15604618192517044339
 
 namespace A325517
 
-/-- `n*∑[n%2+n²]/2` -/
-def P15604618192517044339.Spec : Prop :=
-  ∀ n, P15604618192517044339.a n = (A325517 n : ℚ)
+/-- `n*A131941(n)` -/
+def P17753240437897923138.Spec : Prop :=
+  ∀ n, P17753240437897923138.a n = A325517 n
+
+theorem P17753240437897923138.correct : P17753240437897923138.Spec := by
+  intro n
+  simp only [A325517]
 
 end A325517
 

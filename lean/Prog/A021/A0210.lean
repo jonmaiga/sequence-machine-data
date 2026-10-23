@@ -3,35 +3,35 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C024
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
@@ -56,7 +56,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C011
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
+import Seq.Opaque.C019
 import Seq.Opaque.C021
 
 set_option linter.unusedSimpArgs false
@@ -1204,44 +1204,17 @@ end A021005.P10725703892407829570
 /-!
 # A021006: Pisot sequence P(4,11), a(0)=4, a(1)=11, a(n+1) is the nearest integer to a(n)^2/a(n-1). Evidently satisfies a(n) = 2*a(n-1)+2*a(n-2).
 
-The programs for A021006, the canonical program `A021006.P3196480402962443101` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021006 has offset 0).
+The programs for A021006, the canonical program `A021006.P11131082373719806823` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021006 has offset 0).
 
-The definition of A021006 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)+2*a(n-2)` (program `A021006.P3196480402962443101`, by `A021006.P3196480402962443101.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A021006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
-
-/-! ## A021006.P3196480402962443101
-
-`2*a(n-1)+2*a(n-2)` with `a(0)=4, a(1)=11`
-
-The canonical program, it is in `Seq.B000.C004`.
--/
-
-namespace A021006
-
-/-- `2*a(n-1)+2*a(n-2)` -/
-def P3196480402962443101.Spec : Prop :=
-  ∀ n, (P3196480402962443101.a n : ℤ) = A021006 n
-
-theorem P3196480402962443101.correct : P3196480402962443101.Spec := by
-  intro n
-  simp only [A021006]
-
-end A021006
 
 /-! ## A021006.P11131082373719806823
 
 `sqrt(3)/24*((1+sqrt(3))^(n+4)-(1-sqrt(3))^(n+4))`
+
+The canonical program, it is in `Seq.B000.C004`.
 -/
-
-namespace A021006.P11131082373719806823
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (3 : ℝ) / 24 * ((1 + Real.sqrt (3 : ℝ)) ^ (n + 4) - (1 - Real.sqrt (3 : ℝ)) ^ (n + 4))
-
-end
-
-end A021006.P11131082373719806823
 
 namespace A021006
 
@@ -1320,6 +1293,29 @@ namespace A021006
 /-- `Δ[ceil((sqrt(3)+1)*a(n-1))]` -/
 def P1975744336425561041.Spec : Prop :=
   ∀ n, P1975744336425561041.a n = A021006 n
+
+end A021006
+
+/-! ## A021006.P3196480402962443101
+
+`2*a(n-1)+2*a(n-2)` with `a(0)=4, a(1)=11`
+-/
+
+namespace A021006.P3196480402962443101
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [4, 11] fun n a =>
+  2 * a (n - 1) + 2 * a (n - 2)
+
+end
+
+end A021006.P3196480402962443101
+
+namespace A021006
+
+/-- `2*a(n-1)+2*a(n-2)` -/
+def P3196480402962443101.Spec : Prop :=
+  ∀ n, (P3196480402962443101.a n : ℤ) = A021006 n
 
 end A021006
 

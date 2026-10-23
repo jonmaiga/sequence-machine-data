@@ -10,26 +10,28 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
@@ -80,56 +82,27 @@ import Seq.Opaque.C025
 /-!
 # A224000: Number of 2 X n 0..2 arrays with antidiagonals unimodal and rows and diagonals nondecreasing.
 
-The programs for A224000, the canonical program `A224000.P7422392966627906203` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224000 has offset 1).
+The programs for A224000, the canonical program `A224000.P12568290461745659742` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224000 has offset 1).
 
-The definition of A224000 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A224000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A224000.P7422392966627906203
-
-`5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=9, a(1)=31, a(2)=76, a(3)=155, a(4)=281`
-
-The canonical program, it is in `Seq.B000.C028`.
--/
-
-namespace A224000
-
-/-- `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` -/
-def P7422392966627906203.Spec : Prop :=
-  ∀ n, P7422392966627906203.a n = A224000 (n + 1)
-
-theorem P7422392966627906203.correct : P7422392966627906203.Spec := by
-  intro n
-  simp only [A224000, Nat.add_sub_cancel]
-
-end A224000
 
 /-! ## A224000.P12568290461745659742
 
 `∑[∑[(n+3)²-2]+1]+1`
+
+The canonical program, it is in `Seq.B000.C029`.
 -/
-
-namespace A224000.P12568290461745659742
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n + 3) ^ 2 : ℤ) - 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j + 1
-
-end
-
-end A224000.P12568290461745659742
 
 namespace A224000
 
 /-- `∑[∑[(n+3)²-2]+1]+1` -/
 def P12568290461745659742.Spec : Prop :=
   ∀ n, P12568290461745659742.a n = A224000 (n + 1)
+
+theorem P12568290461745659742.correct : P12568290461745659742.Spec := by
+  intro n
+  simp only [A224000, Nat.add_sub_cancel]
 
 end A224000
 
@@ -2885,7 +2858,7 @@ end A224032.P17396849236630703453
 /-!
 # A224033: Number of n X 3 0..1 arrays with antidiagonals unimodal and rows and diagonals nondecreasing.
 
-The programs for A224033, the canonical program `A224033.P15196988162262996000` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224033 has offset 1).
+The programs for A224033, the canonical program `A224033.P15196988162262996000` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224033 has offset 1).
 
 The definition of A224033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 218 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2894,7 +2867,7 @@ The definition of A224033 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-1)-3*a(n-2)-a(n-3)+2*a(n-5)` with `a(0)=4, a(1)=13, a(2)=37, a(3)=105, a(4)=298`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224033
@@ -3343,29 +3316,10 @@ end A224037.P16586150802082017198
 /-!
 # A224039: Number of 3 X n 0..1 arrays with antidiagonals unimodal and rows and diagonals nondecreasing.
 
-The programs for A224039, the canonical program `A224039.P3416921023407590360` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224039 has offset 1).
+The programs for A224039, the canonical program `A224039.P3416921023407590360` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224039 has offset 1).
 
-The definition of A224039 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A224039 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A224039.P3416921023407590360
-
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=8, a(1)=21, a(2)=37, a(3)=58, a(4)=85`
-
-The canonical program, it is in `Seq.B000.C028`.
--/
-
-namespace A224039
-
-/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
-def P3416921023407590360.Spec : Prop :=
-  ∀ n, P3416921023407590360.a n = A224039 (n + 1)
-
-theorem P3416921023407590360.correct : P3416921023407590360.Spec := by
-  intro n
-  simp only [A224039, Nat.add_sub_cancel]
-
-end A224039
 
 /-! ## A224039.P9305330672353688261
 
@@ -3422,6 +3376,25 @@ namespace A224039
 /-- `∑[∑[n+2]+7]-C(2, n+2)` -/
 def P16103766722308520598.Spec : Prop :=
   ∀ n, P16103766722308520598.a n = A224039 (n + 1)
+
+end A224039
+
+/-! ## A224039.P3416921023407590360
+
+`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=8, a(1)=21, a(2)=37, a(3)=58, a(4)=85`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A224039
+
+/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
+def P3416921023407590360.Spec : Prop :=
+  ∀ n, P3416921023407590360.a n = A224039 (n + 1)
+
+theorem P3416921023407590360.correct : P3416921023407590360.Spec := by
+  intro n
+  simp only [A224039, Nat.add_sub_cancel]
 
 end A224039
 
@@ -3734,16 +3707,16 @@ end A224039
 /-!
 # A224040: Number of 4 X n 0..1 arrays with antidiagonals unimodal and rows and diagonals nondecreasing.
 
-The programs for A224040, the canonical program `A224040.P5043865056085824540` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224040 has offset 1).
+The programs for A224040, the canonical program `A224040.P5043865056085824540` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224040 has offset 1).
 
-The definition of A224040 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A224040 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A224040.P5043865056085824540
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=16, a(1)=55, a(2)=105, a(3)=168, a(4)=252, a(5)=363, a(6)=508`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224040
@@ -6023,6 +5996,36 @@ def P16991523582926282789.Spec : Prop :=
 
 end A224072
 
+/-! ## A224072.P7802429244240422958
+
+`∩[A180963(n+1), A261524(n+1)]`
+-/
+
+namespace A224072.P7802429244240422958
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A180963 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261524 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A224072.P7802429244240422958
+
+namespace A224072
+
+/-- `∩[A180963(n+1), A261524(n+1)]` -/
+def P7802429244240422958.Spec : Prop :=
+  ∀ n, (P7802429244240422958.a n : ℤ) = A224072 (n + 1)
+
+end A224072
+
 /-! ## A224072.P240177694423092850
 
 `filter[A180963(n+1), A228495(#)]`
@@ -6460,36 +6463,6 @@ namespace A224072
 /-- `∩[A180963(n+1), A261871(n+1)]` -/
 def P17714723622636764681.Spec : Prop :=
   ∀ n, (P17714723622636764681.a n : ℤ) = A224072 (n + 1)
-
-end A224072
-
-/-! ## A224072.P7802429244240422958
-
-`∩[A180963(n+1), A261524(n+1)]`
--/
-
-namespace A224072.P7802429244240422958
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180963 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261524 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A224072.P7802429244240422958
-
-namespace A224072
-
-/-- `∩[A180963(n+1), A261524(n+1)]` -/
-def P7802429244240422958.Spec : Prop :=
-  ∀ n, (P7802429244240422958.a n : ℤ) = A224072 (n + 1)
 
 end A224072
 

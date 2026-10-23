@@ -2,36 +2,35 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
@@ -2990,7 +2989,7 @@ end A181047.P8965763130374476637
 /-!
 # A181052: The sequence of numbers where the n-th term is (Pi^n - e^n) rounded down to the nearest integer, where Pi is the ratio of a circle's circumference to its diameter (A000796) and e is Euler's constant (A001113).
 
-The programs for A181052, the canonical program `A181052.P16832486051710899021` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181052 has offset 0).
+The programs for A181052, the canonical program `A181052.P16832486051710899021` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181052 has offset 0).
 
 The definition of A181052 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2999,7 +2998,7 @@ The definition of A181052 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(π^n-e^n)`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A181052
@@ -3605,7 +3604,7 @@ end A181058
 /-!
 # A181059: a(n) = floor(sin(n) - cos(n)).
 
-The programs for A181059, the canonical program `A181059.P3477977400071196664` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181059 has offset 0).
+The programs for A181059, the canonical program `A181059.P3477977400071196664` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181059 has offset 0).
 
 The definition of A181059 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sin(n)-cos(n))` (program `A181059.P3477977400071196664`, by `A181059.P3477977400071196664.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3614,7 +3613,7 @@ The definition of A181059 is `verified`: the Lean definition is proven equivalen
 
 `floor(sin(n)-cos(n))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A181059
@@ -6374,7 +6373,7 @@ end A181098.P8126991640825607630
 /-!
 # A181099: Exchange rightmost two ternary digits of n > 1; a(0)=0, a(1)=3.
 
-The programs for A181099, the canonical program `A181099.P14032002865666877848` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181099 has offset 0).
+The programs for A181099, the canonical program `A181099.P14032002865666877848` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181099 has offset 0).
 
 The definition of A181099 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6383,7 +6382,7 @@ The definition of A181099 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-9)-a(n-10)` with `a(0)=0, a(1)=3, a(2)=6, a(3)=1, a(4)=4, a(5)=7, a(6)=2, a(7)=5, a(8)=8, a(9)=9`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A181099

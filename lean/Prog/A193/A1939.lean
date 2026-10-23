@@ -15,17 +15,18 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C034
+import Seq.B000.C030
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1477,7 +1478,7 @@ end A193909.P8575357104804721249
 /-!
 # A193910: Leap centuries in the revised Julian calendar.
 
-The programs for A193910, the canonical program `A193910.P15574741651008581582` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193910 has offset 1).
+The programs for A193910, the canonical program `A193910.P15574741651008581582` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193910 has offset 1).
 
 The definition of A193910 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1486,7 +1487,7 @@ The definition of A193910 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+9` with `a(0)=2, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A193910
@@ -1766,7 +1767,7 @@ end A193910
 
 /-! ## A193910.P14744026441922915994
 
-`record[-2*n%9+n+2]`
+`record[-(2*n)%9+n+2]`
 -/
 
 namespace A193910.P14744026441922915994
@@ -1784,7 +1785,7 @@ end A193910.P14744026441922915994
 
 namespace A193910
 
-/-- `record[-2*n%9+n+2]` -/
+/-- `record[-(2*n)%9+n+2]` -/
 def P14744026441922915994.Spec : Prop :=
   ∀ n, P14744026441922915994.a n = A193910 (n + 1)
 
@@ -4220,7 +4221,7 @@ end A193924.P4763146400467899142
 /-!
 # A193925: a(n) = a(n-1)^2 - n^(n-2) + n.
 
-The programs for A193925, the canonical program `A193925.P18255791814928394867` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193925 has offset 0).
+The programs for A193925, the canonical program `A193925.P18255791814928394867` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193925 has offset 0).
 
 The definition of A193925 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4229,7 +4230,7 @@ The definition of A193925 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)²-n^(n-2)+n` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A193925

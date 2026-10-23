@@ -6,24 +6,25 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C017
+import Seq.B000.C015
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C004
 import Seq.B001.C005
@@ -32,7 +33,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
@@ -68,6 +68,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 
@@ -2001,25 +2002,25 @@ end A195231.P16060131661892707454
 /-!
 # A195233: Number of lower triangles of a 3 X 3 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.
 
-The programs for A195233, the canonical program `A195233.P7951749039056023729` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195233 has offset 1).
+The programs for A195233, the canonical program `A195233.P16298162349551341745` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195233 has offset 1).
 
-The definition of A195233 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A195233 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
-/-! ## A195233.P7951749039056023729
+/-! ## A195233.P16298162349551341745
 
-`2*a(n-1)-a(n-2)` with `a(0)=64, a(1)=155`
+`91*(n+1)-27`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195233
 
-/-- `2*a(n-1)-a(n-2)` -/
-def P7951749039056023729.Spec : Prop :=
-  ∀ n, P7951749039056023729.a n = A195233 (n + 1)
+/-- `91*(n+1)-27` -/
+def P16298162349551341745.Spec : Prop :=
+  ∀ n, P16298162349551341745.a n = A195233 (n + 1)
 
-theorem P7951749039056023729.correct : P7951749039056023729.Spec := by
+theorem P16298162349551341745.correct : P16298162349551341745.Spec := by
   intro n
   simp only [A195233, Nat.add_sub_cancel]
 
@@ -2163,7 +2164,7 @@ end A195238
 /-!
 # A195241: Expansion of (1-x+19*x^3-3*x^4)/(1-x)^3.
 
-The programs for A195241, the canonical program `A195241.P387464294369737388` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195241 has offset 0).
+The programs for A195241, the canonical program `A195241.P387464294369737388` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195241 has offset 0).
 
 The definition of A195241 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x+19x^3-3x^4)/(1-3x+3x^2-x^3))` (program `A195241.P387464294369737388`, by `A195241.P387464294369737388.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2172,7 +2173,7 @@ The definition of A195241 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x+19x^3-3x^4)/(1-3x+3x^2-x^3))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195241
@@ -2708,25 +2709,25 @@ end A195253.P9176207011880062371
 /-!
 # A195254: O.g.f.: Sum_{n>=0} 2*(n+2)^(n-1)*x^n/(1+n*x)^n.
 
-The programs for A195254, the canonical program `A195254.P7545265282348472626` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195254 has offset 0).
+The programs for A195254, the canonical program `A195254.P12870713709375566738` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195254 has offset 0).
 
 The definition of A195254 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A195254.P7545265282348472626
+/-! ## A195254.P12870713709375566738
 
 `(n+1)*a(n-1)-2*(n-2)*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A195254
 
 /-- `(n+1)*a(n-1)-2*(n-2)*a(n-2)` -/
-def P7545265282348472626.Spec : Prop :=
-  ∀ n, P7545265282348472626.a n = A195254 n
+def P12870713709375566738.Spec : Prop :=
+  ∀ n, P12870713709375566738.a n = A195254 n
 
-theorem P7545265282348472626.correct : P7545265282348472626.Spec := by
+theorem P12870713709375566738.correct : P12870713709375566738.Spec := by
   intro n
   simp only [A195254]
 

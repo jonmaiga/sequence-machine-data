@@ -2,7 +2,6 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,22 +9,26 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -56,6 +59,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -92,7 +96,7 @@ import Seq.Opaque.C025
 /-!
 # A375500: a(n) = Sum_{k=0..n} A001595(k)^2.
 
-The programs for A375500, the canonical program `A375500.P6330890797218212587` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375500 has offset 0).
+The programs for A375500, the canonical program `A375500.P6330890797218212587` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375500 has offset 0).
 
 The definition of A375500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -101,7 +105,7 @@ The definition of A375500 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[a(n-1)+a(n-2)]²]` with `a(0)=1, a(1)=0, a(2)=2`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A375500
@@ -2545,23 +2549,23 @@ end A375548.P7078965305615551292
 /-!
 # A375549: Series expansion of (x - 1)^3/(2*x - 1)^5.
 
-The programs for A375549, the canonical program `A375549.P15070020592558210100` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375549 has offset 0).
+The programs for A375549, the canonical program `A375549.P17442778380587490585` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375549 has offset 0).
 
 The definition of A375549 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A375549.P15070020592558210100
+/-! ## A375549.P17442778380587490585
 
 `(n+1)*(n+6)*(n²+15*n+32)*2^(n-6)/3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A375549
 
 /-- `(n+1)*(n+6)*(n²+15*n+32)*2^(n-6)/3` -/
-def P15070020592558210100.Spec : Prop :=
-  ∀ n, P15070020592558210100.a n = (A375549 n : ℚ)
+def P17442778380587490585.Spec : Prop :=
+  ∀ n, P17442778380587490585.a n = (A375549 n : ℚ)
 
 end A375549
 
@@ -3884,34 +3888,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A375572.P17522148390674072091
-
-/-!
-# A375573: Numbers occurring at least three times in Bernoulli's triangle A008949.
-
-The programs for A375573, there is no canonical definition to state claims against.
--/
-
-/-! ## A375573.P13334164437608506395
-
-`∩[A395008(n+1), A022144(n)]`
--/
-
-namespace A375573.P13334164437608506395
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A395008 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022144 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A375573.P13334164437608506395
 
 /-!
 # A375577: Array read by ascending antidiagonals: A(n,k) = k^n + k*n + 1.

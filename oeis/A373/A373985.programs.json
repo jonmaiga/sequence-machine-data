@@ -34,6 +34,10 @@
         "+",
         "A373158",
         "gcd"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

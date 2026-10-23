@@ -3,22 +3,23 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C018
+import Seq.B000.C024
+import Seq.B000.C027
+import Seq.B000.C030
+import Seq.B000.C031
+import Seq.B000.C034
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -671,7 +672,7 @@ end A366310.P3452429145660369398
 /-!
 # A366314: a(n) = a(n-1) + 3*a(n-2) + 9*a(n-3) with a(0)=0, a(1)=1, a(2)=4.
 
-The programs for A366314, the canonical program `A366314.P1446963717835803063` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366314 has offset 0).
+The programs for A366314, the canonical program `A366314.P1446963717835803063` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366314 has offset 0).
 
 The definition of A366314 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+3*a(n-2)+9*a(n-3)` (program `A366314.P1446963717835803063`, by `A366314.P1446963717835803063.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -680,7 +681,7 @@ The definition of A366314 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+3*a(n-2)+9*a(n-3)` with `a(0)=0, a(1)=1, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A366314
@@ -4732,7 +4733,7 @@ end A366394.P7468183471669868465
 /-!
 # A366395: a(n) = Sum_{k=1..n} (-1)^(k-1) * binomial(floor(n/k)+2,3).
 
-The programs for A366395, the canonical program `A366395.P13167208851470863280` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366395 has offset 1).
+The programs for A366395, the canonical program `A366395.P13167208851470863280` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366395 has offset 1).
 
 The definition of A366395 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4741,7 +4742,7 @@ The definition of A366395 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A365007(n+1)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A366395

@@ -2,28 +2,30 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
-import Seq.B000.C017
-import Seq.B000.C019
+import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,7 +36,6 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,6 +59,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -65,7 +67,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2968,7 +2970,7 @@ end A033311.P6637208045105831900
 
 The programs for A033312, the canonical program `A033312.P12652974073192440444` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033312 has offset 0).
 
-The definition of A033312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A033312 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!-1` (program `A033312.P12652974073192440444`, by `A033312.P12652974073192440444.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A033312.P12652974073192440444
@@ -3214,6 +3216,21 @@ end A033312
 
 The programs for A033313, there is no canonical definition to state claims against.
 -/
+
+/-! ## A033313.P12531777560542576012
+
+`sqrt(1+(n+1+floor(1/2+sqrt(n+1)))*A033317(n+1)²)`
+-/
+
+namespace A033313.P12531777560542576012
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (1 + ((n + 1 : ℤ) + ⌊((1 : ℚ) / 2 : ℝ) + Real.sqrt (n + 1 : ℝ)⌋) * A033317 (n + 1) ^ 2 : ℝ)
+
+end
+
+end A033313.P12531777560542576012
 
 /-! ## A033313.P14701321746534130803
 

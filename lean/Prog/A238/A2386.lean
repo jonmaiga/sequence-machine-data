@@ -23,21 +23,24 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
@@ -250,55 +253,30 @@ end A238602.P2713610455039764434
 /-!
 # A238603: A sixth-order linear divisibility sequence related to A000225: a(n) := (1/105)*(2^(3*n) - 1)*(2^(4*n) - 1)/(2^n - 1).
 
-The programs for A238603, the canonical program `A238603.P6977545045420371375` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238603 has offset 1).
+The programs for A238603, the canonical program `A238603.P5915019799112550697` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238603 has offset 1).
 
 The definition of A238603 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A238603.P6977545045420371375
-
-`(8^(n+1)-1)*(16^(n+1)-1)/(105*(2^(n+1)-1))`
-
-The canonical program, it is in `Seq.B000.C029`.
--/
-
-namespace A238603
-
-/-- `(8^(n+1)-1)*(16^(n+1)-1)/(105*(2^(n+1)-1))` -/
-def P6977545045420371375.Spec : Prop :=
-  ∀ n, P6977545045420371375.a n = (A238603 (n + 1) : ℚ)
-
-end A238603
-
-/-! ## A238603.P7152943876595841121
+/-! ## A238603.P5915019799112550697
 
 `1/105*(2^(3*(n+1))-1)*(2^(4*(n+1))-1)/(2^(n+1)-1)`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B000.C030`.
 -/
-
-namespace A238603.P7152943876595841121
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 105 * (((2 ^ (3 * (n + 1)) : ℤ) - 1 : ℚ) * (((2 ^ (4 * (n + 1)) : ℤ) - 1 : ℚ) / ((2 ^ (n + 1) : ℤ) - 1 : ℚ)))
-
-end
-
-end A238603.P7152943876595841121
 
 namespace A238603
 
 /-- `1/105*(2^(3*(n+1))-1)*(2^(4*(n+1))-1)/(2^(n+1)-1)` -/
-def P7152943876595841121.Spec : Prop :=
-  ∀ n, P7152943876595841121.a n = (A238603 (n + 1) : ℚ)
+def P5915019799112550697.Spec : Prop :=
+  ∀ n, P5915019799112550697.a n = (A238603 (n + 1) : ℚ)
 
 end A238603
 
 /-!
 # A238604: a(n) = Sum_{k=0..3} f(n+k)^2 where f=A130519.
 
-The programs for A238604, the canonical program `A238604.P13912507183018558157` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238604 has offset 0).
+The programs for A238604, the canonical program `A238604.P13912507183018558157` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238604 has offset 0).
 
 The definition of A238604 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -307,7 +285,7 @@ The definition of A238604 is `conjectured`: the Lean definition is a formula tha
 
 `∑[n*ceil((n%4+n²)/4)]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A238604
@@ -743,36 +721,6 @@ def P11033948250127862975.Spec : Prop :=
 
 end A238605
 
-/-! ## A238605.P1335291395567822320
-
-`∩[A006881(n+1), A131098(A088707(n+1))]`
--/
-
-namespace A238605.P1335291395567822320
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006881 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131098 (A088707 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A238605.P1335291395567822320
-
-namespace A238605
-
-/-- `∩[A006881(n+1), A131098(A088707(n+1))]` -/
-def P1335291395567822320.Spec : Prop :=
-  ∀ n, (P1335291395567822320.a n : ℤ) = A238605 (n + 1)
-
-end A238605
-
 /-! ## A238605.P18070232814599934935
 
 `∩[A001358(n+1), A217585(A001358(n+1))]`
@@ -830,6 +778,36 @@ namespace A238605
 /-- `∩[A001358(n+1), A131098(A088707(n+1))]` -/
 def P5379994986489185502.Spec : Prop :=
   ∀ n, (P5379994986489185502.a n : ℤ) = A238605 (n + 1)
+
+end A238605
+
+/-! ## A238605.P1335291395567822320
+
+`∩[A006881(n+1), A131098(A088707(n+1))]`
+-/
+
+namespace A238605.P1335291395567822320
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006881 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A131098 (A088707 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A238605.P1335291395567822320
+
+namespace A238605
+
+/-- `∩[A006881(n+1), A131098(A088707(n+1))]` -/
+def P1335291395567822320.Spec : Prop :=
+  ∀ n, (P1335291395567822320.a n : ℤ) = A238605 (n + 1)
 
 end A238605
 
@@ -2863,7 +2841,7 @@ end A238629.P17086894226901657319
 /-!
 # A238630: Number of partitions of 3^n into parts that are at most 3.
 
-The programs for A238630, the canonical program `A238630.P10529200024699329487` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238630 has offset 0).
+The programs for A238630, the canonical program `A238630.P10529200024699329487` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238630 has offset 0).
 
 The definition of A238630 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2872,7 +2850,7 @@ The definition of A238630 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round((3^n+3)²/12)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A238630
@@ -4568,7 +4546,7 @@ end A238648.P1923206214214953161
 /-!
 # A238649: Number of (n+2) X (3+2) 0..1 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors, and new values 0..1 introduced in row major order.
 
-The programs for A238649, the canonical program `A238649.P8158536791834749420` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238649 has offset 1).
+The programs for A238649, the canonical program `A238649.P8158536791834749420` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238649 has offset 1).
 
 The definition of A238649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 186 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4577,7 +4555,7 @@ The definition of A238649 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+5*a(n-2)-a(n-4)` with `a(0)=3, a(1)=18, a(2)=51, a(3)=189`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A238649

@@ -10,17 +10,16 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -28,10 +27,12 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,6 +41,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -47,7 +49,6 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -2815,7 +2816,7 @@ end A339027.P11903601547784784855
 /-!
 # A339029: Expansion of (1 + 4*x - 20*x^2 + 8*x^3 + 33*x^4 - 4*x^5 - 33*x^6)/(1 - 2*x)^4.
 
-The programs for A339029, the canonical program `A339029.P16138228625852268300` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339029 has offset 0).
+The programs for A339029, the canonical program `A339029.P16138228625852268300` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339029 has offset 0).
 
 The definition of A339029 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+4x-20x^2+8x^3+33x^4-4x^5-33x^6)/(1-8x+24x^2-32x^3+16x^4))` (program `A339029.P16138228625852268300`, by `A339029.P16138228625852268300.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2824,7 +2825,7 @@ The definition of A339029 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+4x-20x^2+8x^3+33x^4-4x^5-33x^6)/(1-8x+24x^2-32x^3+16x^4))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A339029
@@ -3106,7 +3107,7 @@ end A339031.P3961775377857278288
 /-!
 # A339032: Expansion of (4*x^5 - 9*x^4 + 17*x^3 - 15*x^2 + 6*x - 1)/((2*x - 1)^2*(x - 1)^3).
 
-The programs for A339032, the canonical program `A339032.P11354904030216077510` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339032 has offset 0).
+The programs for A339032, the canonical program `A339032.P11354904030216077510` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339032 has offset 0).
 
 The definition of A339032 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-6x+15x^2-17x^3+9x^4-4x^5)/(1-7x+19x^2-25x^3+16x^4-4x^5))` (program `A339032.P11354904030216077510`, by `A339032.P11354904030216077510.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3115,7 +3116,7 @@ The definition of A339032 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-6x+15x^2-17x^3+9x^4-4x^5)/(1-7x+19x^2-25x^3+16x^4-4x^5))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A339032
@@ -4343,7 +4344,7 @@ end A339047.P9913985266710369634
 /-!
 # A339048: a(n) = 2*n^2 + 9.
 
-The programs for A339048, the canonical program `A339048.P5604124551697449156` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339048 has offset 0).
+The programs for A339048, the canonical program `A339048.P5604124551697449156` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339048 has offset 0).
 
 The definition of A339048 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*n²+9` (program `A339048.P5604124551697449156`, by `A339048.P5604124551697449156.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4352,7 +4353,7 @@ The definition of A339048 is `verified`: the Lean definition is proven equivalen
 
 `2*n²+9`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A339048
@@ -6405,25 +6406,6 @@ end A339058.P3916514134806998060
 The programs for A339059, there is no canonical definition to state claims against.
 -/
 
-/-! ## A339059.P18033687196264538440
-
-`A339086(comp[A095319(3*n+4)-A192255(n+1)+n+1])`
--/
-
-namespace A339059.P18033687196264538440
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095319 (3 * n + 4) - A192255 (n + 1) + (n + 1 : ℤ)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339086 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A339059.P18033687196264538440
-
 /-! ## A339059.P4460707620733690384
 
 `A339086(A047263(n+1))%A074144(n+1)`
@@ -6722,31 +6704,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A339062.P10533303565273886581
-
-/-! ## A339062.P16688796624810080532
-
-`p?[∪[A227208(n+1), A227197(n+1)]]`
--/
-
-namespace A339062.P16688796624810080532
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227208 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227197 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f2 j = (x : ℤ)) ∨ ∃ j, f3 j = (x : ℤ)) n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
-
-end
-
-end A339062.P16688796624810080532
 
 /-!
 # A339063: Number of unlabeled simple graphs with n edges rooted at two noninterchangeable vertices.

@@ -26,15 +26,16 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -89,7 +90,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1701,25 +1702,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A058736.P5128158377129171249
-
-/-! ## A058736.P3694534758686030308
-
-`A007359(comp[12-A001048(n+1)])`
--/
-
-namespace A058736.P3694534758686030308
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  12 - A001048 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007359 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A058736.P3694534758686030308
 
 /-! ## A058736.P6067126795590951145
 
@@ -4383,7 +4365,7 @@ end A058765.P3782992611699825498
 /-!
 # A058766: a(0) = 1, a(1) = 2; for n>=2 a(n) is the number of degree-n reducible polynomials over GF(2).
 
-The programs for A058766, the canonical program `A058766.P4843056571337141709` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058766 has offset 0).
+The programs for A058766, the canonical program `A058766.P4843056571337141709` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058766 has offset 0).
 
 The definition of A058766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4392,7 +4374,7 @@ The definition of A058766 is `conjectured`: the Lean definition is a formula tha
 
 `abs(or(-2^n, A001037(n)))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A058766

@@ -1,20 +1,17 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C001
 import Seq.B000.C007
-import Seq.B000.C008
-import Seq.B000.C027
-import Seq.B000.C034
+import Seq.B000.C009
+import Seq.B000.C028
+import Seq.B000.C036
 import Seq.B001.C001
 import Seq.B002.C000
-import Seq.B004.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C008
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 
 /-!
@@ -148,48 +145,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169209.P8495320316188747368
-
-/-!
-# A169220: 
-
-The programs for A169220, there is no canonical definition to state claims against.
--/
-
-/-! ## A169220.P16317631146346267476
-
-`14*a(n-1-A010673(2^floor(n/2)))` with `a(0)=1, a(1)=15`
--/
-
-namespace A169220.P16317631146346267476
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 15] fun n a =>
-  14 * a ((n : ℤ) - 1 - A010673 (SequenceMachineLib.roundAway ((2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ))).toNat).toNat
-
-end
-
-end A169220.P16317631146346267476
-
-/-!
-# A169254: 
-
-The programs for A169254, there is no canonical definition to state claims against.
--/
-
-/-! ## A169254.P14530274400710260835
-
-`A121373(n^3)+48*a(n-1)` with `a(0)=1`
--/
-
-namespace A169254.P14530274400710260835
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A121373 (n ^ 3) + 48 * a (n - 1)
-
-end
-
-end A169254.P14530274400710260835
 
 /-!
 # A169256: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^29 = I.

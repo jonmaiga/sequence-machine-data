@@ -2,13 +2,12 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -16,14 +15,16 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C024
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,7 +44,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -62,7 +62,6 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
@@ -74,7 +73,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1718,12 +1716,12 @@ end A050809.P4409000293638659520
 /-!
 # A050811: Partition numbers rounded to nearest integer given by the Hardy-Ramanujan approximate formula.
 
-The programs for A050811, the canonical program `A050811.P3017499832248985763` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050811 has offset 1).
+The programs for A050811, the canonical program `A050811.P12694469059268213063` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050811 has offset 1).
 
 The definition of A050811 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A050811.P3017499832248985763
+/-! ## A050811.P12694469059268213063
 
 `round(exp(π*sqrt(2*(n+1)/3))/(4*(n+1)*sqrt(3)))`
 
@@ -1733,10 +1731,10 @@ The canonical program, it is in `Seq.B000.C008`.
 namespace A050811
 
 /-- `round(exp(π*sqrt(2*(n+1)/3))/(4*(n+1)*sqrt(3)))` -/
-def P3017499832248985763.Spec : Prop :=
-  ∀ n, P3017499832248985763.a n = A050811 (n + 1)
+def P12694469059268213063.Spec : Prop :=
+  ∀ n, P12694469059268213063.a n = A050811 (n + 1)
 
-theorem P3017499832248985763.correct : P3017499832248985763.Spec := by
+theorem P12694469059268213063.correct : P12694469059268213063.Spec := by
   intro n
   simp only [A050811, Nat.add_sub_cancel]
 
@@ -4595,7 +4593,7 @@ end A050870.P5485391556612040892
 /-!
 # A050871: Row sums of even numbered rows of array T in A050870 (periodic binary words).
 
-The programs for A050871, the canonical program `A050871.P14178361783424697463` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050871 has offset 0).
+The programs for A050871, the canonical program `A050871.P14178361783424697463` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050871 has offset 0).
 
 The definition of A050871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4630,7 +4628,7 @@ end A050871
 
 `2*A050872(n)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A050871
@@ -5068,7 +5066,7 @@ end A050871
 /-!
 # A050872: a(n) = (1/2)*A050871 (row sums of array T in A050870, periodic binary words).
 
-The programs for A050872, the canonical program `A050872.P5272709891617421659` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050872 has offset 0).
+The programs for A050872, the canonical program `A050872.P5272709891617421659` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050872 has offset 0).
 
 The definition of A050872 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5382,7 +5380,7 @@ end A050872
 
 `record[2^n-A000740(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A050872
@@ -5469,10 +5467,52 @@ end A050872
 /-!
 # A050873: Triangular array T read by rows: T(n,k) = gcd(n,k).
 
-The programs for A050873, the canonical program `A050873.P7264268653854988149` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050873 has offset 1).
+The programs for A050873, the canonical program `A050873.P9978690137907043901` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050873 has offset 1).
 
-The definition of A050873 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A050873 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A050873.P9978690137907043901
+
+`gcd(A002260(n+1), A002024(n+1))`
+
+The canonical program, it is in `Seq.B004.C000`.
+-/
+
+namespace A050873
+
+/-- `gcd(A002260(n+1), A002024(n+1))` -/
+def P9978690137907043901.Spec : Prop :=
+  ∀ n, (P9978690137907043901.a n : ℤ) = A050873 (n + 1)
+
+theorem P9978690137907043901.correct : P9978690137907043901.Spec := by
+  intro n
+  simp only [A050873, Nat.add_sub_cancel]
+
+end A050873
+
+/-! ## A050873.P18071611403670836386
+
+`gcd(n+1-C(floor(1/2+sqrt(2*(n+1))), 2), C(floor(3/2+sqrt(2*(n+1))), 2)-(n+1))`
+-/
+
+namespace A050873.P18071611403670836386
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd ((n + 1 : ℤ) - (Nat.choose ⌊((1 : ℚ) / 2 : ℝ) + Real.sqrt (2 * (n + 1) : ℝ)⌋.toNat 2 : ℤ)) ((Nat.choose ⌊((3 : ℚ) / 2 : ℝ) + Real.sqrt (2 * (n + 1) : ℝ)⌋.toNat 2 : ℤ) - (n + 1 : ℤ))
+
+end
+
+end A050873.P18071611403670836386
+
+namespace A050873
+
+/-- `gcd(n+1-C(floor(1/2+sqrt(2*(n+1))), 2), C(floor(3/2+sqrt(2*(n+1))), 2)-(n+1))` -/
+def P18071611403670836386.Spec : Prop :=
+  ∀ n, (P18071611403670836386.a n : ℤ) = A050873 (n + 1)
+
+end A050873
 
 /-! ## A050873.P8944418766760948055
 
@@ -5530,45 +5570,26 @@ def P17334717889106737067.Spec : Prop :=
 
 end A050873
 
-/-! ## A050873.P15862674949081351677
-
-`gcd(round(sqrt(2*n)), A002260(n+1))`
--/
-
-namespace A050873.P15862674949081351677
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (SequenceMachineLib.roundAway (Real.sqrt (2 * n : ℝ))) (A002260 (n + 1))
-
-end
-
-end A050873.P15862674949081351677
-
-namespace A050873
-
-/-- `gcd(round(sqrt(2*n)), A002260(n+1))` -/
-def P15862674949081351677.Spec : Prop :=
-  ∀ n, (P15862674949081351677.a n : ℤ) = A050873 (n + 1)
-
-end A050873
-
 /-! ## A050873.P7264268653854988149
 
 `gcd(A004247(n), A128139(n))`
-
-The canonical program, it is in `Seq.B006.C000`.
 -/
+
+namespace A050873.P7264268653854988149
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A004247 n) (A128139 n)
+
+end
+
+end A050873.P7264268653854988149
 
 namespace A050873
 
 /-- `gcd(A004247(n), A128139(n))` -/
 def P7264268653854988149.Spec : Prop :=
   ∀ n, (P7264268653854988149.a n : ℤ) = A050873 (n + 1)
-
-theorem P7264268653854988149.correct : P7264268653854988149.Spec := by
-  intro n
-  simp only [A050873, Nat.add_sub_cancel]
 
 end A050873
 
@@ -5914,29 +5935,6 @@ namespace A050873
 /-- `gcd(A004202(n+1), A063657(n+1))` -/
 def P15773964973781992155.Spec : Prop :=
   ∀ n, (P15773964973781992155.a n : ℤ) = A050873 (n + 1)
-
-end A050873
-
-/-! ## A050873.P9305679163644835
-
-`gcd(A063930(n+1), A108872(n+1))`
--/
-
-namespace A050873.P9305679163644835
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A063930 (n + 1)) (A108872 (n + 1))
-
-end
-
-end A050873.P9305679163644835
-
-namespace A050873
-
-/-- `gcd(A063930(n+1), A108872(n+1))` -/
-def P9305679163644835.Spec : Prop :=
-  ∀ n, (P9305679163644835.a n : ℤ) = A050873 (n + 1)
 
 end A050873
 

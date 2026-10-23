@@ -26,6 +26,10 @@
         "/",
         "+",
         "*"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

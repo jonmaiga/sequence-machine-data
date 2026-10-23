@@ -20,17 +20,16 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C033
+import Seq.B000.C030
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -89,7 +88,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -7705,31 +7703,6 @@ end A008286.P10997184477456143152
 The programs for A008287, there is no canonical definition to state claims against.
 -/
 
-/-! ## A008287.P4070052023532916184
-
-`A017889(comp[lt[A017889(n), 1]])`
--/
-
-namespace A008287.P4070052023532916184
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017889 n
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f2 j < (f3 j : ℤ)) n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017889 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)
-
-end
-
-end A008287.P4070052023532916184
-
 /-! ## A008287.P14165034663354360913
 
 `filter[A017889(n), A167393(#)]`
@@ -9248,7 +9221,7 @@ The definition of A008297 is `conjectured`: the Lean definition is a formula tha
 
 /-! ## A008297.P1521962998629618803
 
-`-A066667(n)*A097807(n)`
+`-(A066667(n)*A097807(n))`
 -/
 
 namespace A008297.P1521962998629618803
@@ -9263,7 +9236,7 @@ end A008297.P1521962998629618803
 
 namespace A008297
 
-/-- `-A066667(n)*A097807(n)` -/
+/-- `-(A066667(n)*A097807(n))` -/
 def P1521962998629618803.Spec : Prop :=
   ∀ n, P1521962998629618803.a n = A008297 (n + 1)
 

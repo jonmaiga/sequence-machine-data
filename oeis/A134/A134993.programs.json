@@ -20,11 +20,7 @@
         "*",
         "round"
       ],
-      "s": "oeis",
-      "tags": [
-        "proven",
-        "definition"
-      ]
+      "s": "oeis"
     },
     {
       "d": "2024-12-13",

@@ -3,7 +3,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -11,22 +10,23 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C020
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +36,6 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
@@ -235,44 +234,6 @@ end A357302.P5576838212177014015
 
 The programs for A357304, there is no canonical definition to state claims against.
 -/
-
-/-! ## A357304.P5234796352445704144
-
-`comp[A084193(A084810(3*n+4))]`
--/
-
-namespace A357304.P5234796352445704144
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084193 (A084810 (3 * n + 4)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A357304.P5234796352445704144
-
-/-! ## A357304.P14791088148560315473
-
-`comp[A332206(2*n+3)-A064169(n+1)]`
--/
-
-namespace A357304.P14791088148560315473
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332206 (2 * n + 3) - A064169 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A357304.P14791088148560315473
 
 /-! ## A357304.P7434292729880341889
 
@@ -1002,25 +963,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A357327.P5270783385866852888
-
-/-! ## A357327.P5085868888417112888
-
-`gcd(comp[A346871(2*n+3)], A303838(n+1))`
--/
-
-namespace A357327.P5085868888417112888
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A346871 (2 * n + 3)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) (A303838 (n + 1))
-
-end
-
-end A357327.P5085868888417112888
 
 /-!
 # A357328: Number of permutations p of [n] such that p(i) divides p(j) if i divides j for 1 <= i <= j <= n.

@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -11,8 +12,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -20,16 +20,17 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,6 +44,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -344,8 +346,25 @@ end A371702.P9728850099350258916
 /-!
 # A371704: Heights at which a Minecraft boat-drop will break up.
 
-The programs for A371704, there is no canonical definition to state claims against.
+The programs for A371704, the canonical program `A371704.P4300638849194654958` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371704 has offset 1).
+
+The definition of A371704 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A371704.P4300638849194654958
+
+`(50*(n+1)²+50*(n+1)+23-23*(-1)^(n+1)*(1+2*(n+1)))/16`
+
+The canonical program, it is in `Seq.B000.C038`.
+-/
+
+namespace A371704
+
+/-- `(50*(n+1)²+50*(n+1)+23-23*(-1)^(n+1)*(1+2*(n+1)))/16` -/
+def P4300638849194654958.Spec : Prop :=
+  ∀ n, P4300638849194654958.a n = (A371704 (n + 1) : ℚ)
+
+end A371704
 
 /-! ## A371704.P1961841726983230775
 
@@ -362,6 +381,14 @@ end
 
 end A371704.P1961841726983230775
 
+namespace A371704
+
+/-- `A214929(A157716(n+2))` -/
+def P1961841726983230775.Spec : Prop :=
+  ∀ n, P1961841726983230775.a n = A371704 (n + 1)
+
+end A371704
+
 /-! ## A371704.P10986088758449537193
 
 `A154292(n+1)+A008795(n)`
@@ -376,6 +403,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371704.P10986088758449537193
+
+namespace A371704
+
+/-- `A154292(n+1)+A008795(n)` -/
+def P10986088758449537193.Spec : Prop :=
+  ∀ n, P10986088758449537193.a n = A371704 (n + 1)
+
+end A371704
 
 /-! ## A371704.P4274408749289409872
 
@@ -392,6 +427,14 @@ end
 
 end A371704.P4274408749289409872
 
+namespace A371704
+
+/-- `A222964(n+2)-A316725(n+1)` -/
+def P4274408749289409872.Spec : Prop :=
+  ∀ n, P4274408749289409872.a n = A371704 (n + 1)
+
+end A371704
+
 /-! ## A371704.P1306005383089860204
 
 `A157716(n+2)-A057570(n+2)`
@@ -407,23 +450,13 @@ end
 
 end A371704.P1306005383089860204
 
-/-! ## A371704.P16940413798160808258
+namespace A371704
 
-`A022280(A008619(n))+∑[A008619(n)]`
--/
+/-- `A157716(n+2)-A057570(n+2)` -/
+def P1306005383089860204.Spec : Prop :=
+  ∀ n, P1306005383089860204.a n = A371704 (n + 1)
 
-namespace A371704.P16940413798160808258
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008619 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022280 (A008619 n).toNat + ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A371704.P16940413798160808258
+end A371704
 
 /-!
 # A371705: Number of Dyck paths of semilength n such that neighboring peaks have different heights.
@@ -1982,6 +2015,21 @@ end
 
 end A371734.P6929510454763712840
 
+/-! ## A371734.P6427807275036644388
+
+`A003215(A028982(n+1))%2*A003056(A304793(n+1))`
+-/
+
+namespace A371734.P6427807275036644388
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A003215 (A028982 (n + 1)).toNat) 2 * A003056 (A304793 (n + 1)).toNat
+
+end
+
+end A371734.P6427807275036644388
+
 /-! ## A371734.P3576793972107105974
 
 `A003056(A304793(n+1)%comp[A372120(n+1)])`
@@ -2000,21 +2048,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371734.P3576793972107105974
-
-/-! ## A371734.P6427807275036644388
-
-`A003215(A028982(n+1))%2*A003056(A304793(n+1))`
--/
-
-namespace A371734.P6427807275036644388
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A003215 (A028982 (n + 1)).toNat) 2 * A003056 (A304793 (n + 1)).toNat
-
-end
-
-end A371734.P6427807275036644388
 
 /-! ## A371734.P448035766580463720
 

@@ -33,6 +33,40 @@
         "proven",
         "definition"
       ]
+    },
+    {
+      "d": "2026-10-20",
+      "ix": "floor(n)-floor(n/2)-floor(n/3)-floor(n/5)+floor(n/30)",
+      "mt": 10000,
+      "px": [
+        "n",
+        "floor",
+        "n",
+        "2",
+        "/",
+        "floor",
+        "sub",
+        "n",
+        "3",
+        "/",
+        "floor",
+        "sub",
+        "n",
+        "5",
+        "/",
+        "floor",
+        "sub",
+        "n",
+        "30",
+        "/",
+        "floor",
+        "+"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
     }
   ]
 }

@@ -10,26 +10,28 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -40,7 +42,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -57,6 +58,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -65,7 +67,6 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -81,8 +82,8 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1836,7 +1837,7 @@ end A205007.P10333413886159738540
 /-!
 # A205008: Ordered differences of central binomial coefficients.
 
-The programs for A205008, the canonical program `A205008.P13998729903812751376` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205008 has offset 1).
+The programs for A205008, the canonical program `A205008.P13998729903812751376` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205008 has offset 1).
 
 The definition of A205008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1845,7 +1846,7 @@ The definition of A205008 is `conjectured`: the Lean definition is a formula tha
 
 `A000984(A002024(n+1))-A000984(A002262(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A205008
@@ -8042,7 +8043,7 @@ end A205083.P16221299638612727783
 /-!
 # A205084: a(n) = n 4's sandwiched between two 1's.
 
-The programs for A205084, the canonical program `A205084.P5125241667533846105` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205084 has offset 0).
+The programs for A205084, the canonical program `A205084.P5125241667533846105` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205084 has offset 0).
 
 The definition of A205084 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8051,7 +8052,7 @@ The definition of A205084 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)+31` with `a(0)=11`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A205084
@@ -8305,7 +8306,7 @@ end A205084
 /-!
 # A205085: a(n) = n 5's sandwiched between two 1's.
 
-The programs for A205085, the canonical program `A205085.P16090276885922125530` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205085 has offset 0).
+The programs for A205085, the canonical program `A205085.P16090276885922125530` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205085 has offset 0).
 
 The definition of A205085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8314,7 +8315,7 @@ The definition of A205085 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)+41` with `a(0)=11`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A205085
@@ -8562,7 +8563,7 @@ end A205085
 /-!
 # A205086: a(n) = n 6's sandwiched between two 1's.
 
-The programs for A205086, the canonical program `A205086.P16433775854259049731` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205086 has offset 0).
+The programs for A205086, the canonical program `A205086.P16433775854259049731` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205086 has offset 0).
 
 The definition of A205086 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8571,7 +8572,7 @@ The definition of A205086 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)+51` with `a(0)=11`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A205086
@@ -8586,38 +8587,38 @@ theorem P16433775854259049731.correct : P16433775854259049731.Spec := by
 
 end A205086
 
-/-! ## A205086.P16528790617180823639
+/-! ## A205086.P1588049558396056914
 
 `3*(50*10^n-17)/9`
 -/
 
-namespace A205086.P16528790617180823639
+namespace A205086.P1588049558396056914
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  3 * (((50 * 10 ^ n : ℤ) - 17 : ℚ) / 9)
+  (3 * ((50 * 10 ^ n : ℤ) - 17) : ℚ) / 9
 
 end
 
-end A205086.P16528790617180823639
+end A205086.P1588049558396056914
 
 namespace A205086
 
 /-- `3*(50*10^n-17)/9` -/
-def P16528790617180823639.Spec : Prop :=
-  ∀ n, P16528790617180823639.a n = (A205086 n : ℚ)
+def P1588049558396056914.Spec : Prop :=
+  ∀ n, P1588049558396056914.a n = (A205086 n : ℚ)
 
-theorem P16528790617180823639.correct : P16528790617180823639.Spec := by
+theorem P1588049558396056914.correct : P1588049558396056914.Spec := by
   intro n
   induction n using Nat.strong_induction_on with
   | _ n ih =>
     match n with
     | 0 =>
-      simp [A205086, Nat.add_sub_cancel, A205086.P16528790617180823639.a, A205086.P16433775854259049731.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      simp [A205086, Nat.add_sub_cancel, A205086.P1588049558396056914.a, A205086.P16433775854259049731.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
       try norm_num
     | m + 1 =>
       have h1 := ih m (by omega)
-      simp only [A205086, Nat.add_sub_cancel, A205086.P16528790617180823639.a, A205086.P16433775854259049731.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      simp only [A205086, Nat.add_sub_cancel, A205086.P1588049558396056914.a, A205086.P16433775854259049731.a, SequenceMachineLib.memo_apply] at h1 ⊢
       rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
       simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
       push_cast at h1 ⊢
@@ -8767,56 +8768,10 @@ def P13715754705061035966.Spec : Prop :=
 
 end A205086
 
-/-! ## A205086.P1099296460077562263
-
-`(A185127(n)+A185123(n))/2`
--/
-
-namespace A205086.P1099296460077562263
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A185127 n + A185123 n : ℚ) / 2
-
-end
-
-end A205086.P1099296460077562263
-
-namespace A205086
-
-/-- `(A185127(n)+A185123(n))/2` -/
-def P1099296460077562263.Spec : Prop :=
-  ∀ n, P1099296460077562263.a n = (A205086 n : ℚ)
-
-end A205086
-
-/-! ## A205086.P7598761284721079049
-
-`(A205087(n)+A205085(n))/2`
--/
-
-namespace A205086.P7598761284721079049
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A205087 n + A205085 n : ℚ) / 2
-
-end
-
-end A205086.P7598761284721079049
-
-namespace A205086
-
-/-- `(A205087(n)+A205085(n))/2` -/
-def P7598761284721079049.Spec : Prop :=
-  ∀ n, P7598761284721079049.a n = (A205086 n : ℚ)
-
-end A205086
-
 /-!
 # A205087: a(n) = n 7's sandwiched between two 1's.
 
-The programs for A205087, the canonical program `A205087.P7361980200027743896` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205087 has offset 0).
+The programs for A205087, the canonical program `A205087.P7361980200027743896` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205087 has offset 0).
 
 The definition of A205087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8825,7 +8780,7 @@ The definition of A205087 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)+61` with `a(0)=11`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A205087
@@ -9070,7 +9025,7 @@ end A205087
 /-!
 # A205088: a(n) = n 8's sandwiched between two 1's.
 
-The programs for A205088, the canonical program `A205088.P16678014646405826387` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205088 has offset 0).
+The programs for A205088, the canonical program `A205088.P16678014646405826387` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205088 has offset 0).
 
 The definition of A205088 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9079,7 +9034,7 @@ The definition of A205088 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10*a(n-1)+71` with `a(0)=11`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A205088
@@ -9885,7 +9840,7 @@ end A205096.P8912537056154407795
 /-!
 # A205098: Sum of proper divisors (A001065) of abundant numbers (A005101).
 
-The programs for A205098, the canonical program `A205098.P10471539786565330894` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205098 has offset 1).
+The programs for A205098, the canonical program `A205098.P10471539786565330894` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205098 has offset 1).
 
 The definition of A205098 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005101, A204822, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9894,7 +9849,7 @@ The definition of A205098 is `conditional`: the Lean definition is an OEIS formu
 
 `A204822(n+1)-A005101(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A205098
@@ -10424,7 +10379,7 @@ end A205098
 /-!
 # A205099: Sum of proper divisors (A001065) of deficient numbers (A005100).
 
-The programs for A205099, the canonical program `A205099.P16915794968075742101` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205099 has offset 1).
+The programs for A205099, the canonical program `A205099.P16915794968075742101` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205099 has offset 1).
 
 The definition of A205099 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005100, A204823, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10433,7 +10388,7 @@ The definition of A205099 is `conditional`: the Lean definition is an OEIS formu
 
 `A204823(n+1)-A005100(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A205099

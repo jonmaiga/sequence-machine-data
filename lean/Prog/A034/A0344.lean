@@ -12,17 +12,17 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C025
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -30,13 +30,14 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,6 +52,7 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -81,6 +83,7 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -706,12 +709,12 @@ end A034429.P11129649766032450158
 /-!
 # A034430: Convolution of A001147 (double factorial numbers) with itself.
 
-The programs for A034430, the canonical program `A034430.P7564438678359042526` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034430 has offset 0).
+The programs for A034430, the canonical program `A034430.P15519659843108929148` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034430 has offset 0).
 
 The definition of A034430 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A034430.P7564438678359042526
+/-! ## A034430.P15519659843108929148
 
 `(3*n-1)*a(n-1)-(2*n-1)*(n-1)*a(n-2)` with `a(0)=1, a(1)=2`
 
@@ -721,10 +724,10 @@ The canonical program, it is in `Seq.B000.C006`.
 namespace A034430
 
 /-- `(3*n-1)*a(n-1)-(2*n-1)*(n-1)*a(n-2)` -/
-def P7564438678359042526.Spec : Prop :=
-  ∀ n, P7564438678359042526.a n = A034430 n
+def P15519659843108929148.Spec : Prop :=
+  ∀ n, P15519659843108929148.a n = A034430 n
 
-theorem P7564438678359042526.correct : P7564438678359042526.Spec := by
+theorem P15519659843108929148.correct : P15519659843108929148.Spec := by
   intro n
   simp only [A034430]
 
@@ -836,7 +839,7 @@ end A034430
 
 /-! ## A034430.P14010554471848720683
 
-`abs(∏[or(1, -2*n)])+n*a((2*n)%(n+1))` with `a(0)=1`
+`abs(∏[or(1, -(2*n))])+n*a((2*n)%(n+1))` with `a(0)=1`
 -/
 
 namespace A034430.P14010554471848720683
@@ -854,7 +857,7 @@ end A034430.P14010554471848720683
 
 namespace A034430
 
-/-- `abs(∏[or(1, -2*n)])+n*a((2*n)%(n+1))` -/
+/-- `abs(∏[or(1, -(2*n))])+n*a((2*n)%(n+1))` -/
 def P14010554471848720683.Spec : Prop :=
   ∀ n, P14010554471848720683.a n = A034430 n
 
@@ -3887,6 +3890,50 @@ end
 
 end A034470.P16264968899170256601
 
+/-! ## A034470.P15264815419477824184
+
+`∩[A038615(n+1), A386330(n+1)]`
+-/
+
+namespace A034470.P15264815419477824184
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038615 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386330 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A034470.P15264815419477824184
+
+/-! ## A034470.P4124109579949524674
+
+`∩[A038603(n+1), A386347(n+1)]`
+-/
+
+namespace A034470.P4124109579949524674
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038603 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386347 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A034470.P4124109579949524674
+
 /-! ## A034470.P9369731148632737026
 
 `∩[A386330(n+1), A386347(n+1)]`
@@ -3931,28 +3978,6 @@ end
 
 end A034470.P6366947710034999192
 
-/-! ## A034470.P4124109579949524674
-
-`∩[A038603(n+1), A386347(n+1)]`
--/
-
-namespace A034470.P4124109579949524674
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038603 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386347 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A034470.P4124109579949524674
-
 /-! ## A034470.P14294873154462401355
 
 `∩[A307636(n+1), A386347(n+1)]`
@@ -3996,28 +4021,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A034470.P11882604445570165389
-
-/-! ## A034470.P15264815419477824184
-
-`∩[A038615(n+1), A386330(n+1)]`
--/
-
-namespace A034470.P15264815419477824184
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038615 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A386330 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A034470.P15264815419477824184
 
 /-! ## A034470.P9189861151569279837
 

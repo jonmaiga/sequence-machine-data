@@ -3,8 +3,8 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,32 +12,35 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -734,7 +737,7 @@ end A330404.P606136217136048140
 /-!
 # A330405: a(1) = 0; thereafter a(n) = (a(n-1)^2+1) mod n.
 
-The programs for A330405, the canonical program `A330405.P15580130165177529061` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330405 has offset 1).
+The programs for A330405, the canonical program `A330405.P15580130165177529061` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330405 has offset 1).
 
 The definition of A330405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -743,7 +746,7 @@ The definition of A330405 is `conjectured`: the Lean definition is a formula tha
 
 `(a(n-1)²+1)%(n+1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A330405
@@ -1673,7 +1676,7 @@ end A330409
 /-!
 # A330410: a(n) = 6*prime(n) - 1.
 
-The programs for A330410, the canonical program `A330410.P15775889869853581800` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330410 has offset 1).
+The programs for A330410, the canonical program `A330410.P15775889869853581800` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330410 has offset 1).
 
 The definition of A330410 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1682,7 +1685,7 @@ The definition of A330410 is `conditional`: the Lean definition is an OEIS formu
 
 `A016969(A000040(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A330410
@@ -3453,7 +3456,7 @@ end A330449.P14617991946697422246
 /-!
 # A330451: a(n) = a(n-3) + 20*n - 30 for n > 2, with a(0)=0, a(1)=3, a(2)=13.
 
-The programs for A330451, the canonical program `A330451.P4215825857966408815` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330451 has offset 0).
+The programs for A330451, the canonical program `A330451.P4215825857966408815` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330451 has offset 0).
 
 The definition of A330451 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-3)+20*n-30` (program `A330451.P4215825857966408815`, by `A330451.P4215825857966408815.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3485,7 +3488,7 @@ end A330451
 
 `a(n-3)+20*n-30` with `a(0)=0, a(1)=3, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A330451
@@ -5134,7 +5137,7 @@ end A330475.P10466119302857114210
 /-!
 # A330476: a(n) = Sum_{m=2..n} floor(n/m)^2.
 
-The programs for A330476, the canonical program `A330476.P692965498575692381` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330476 has offset 1).
+The programs for A330476, the canonical program `A330476.P692965498575692381` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330476 has offset 1).
 
 The definition of A330476 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5143,7 +5146,7 @@ The definition of A330476 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{d}[n+1, #-1]+∑{d}[n+1, #]-Δ[n²]]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A330476

@@ -2,18 +2,19 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
+import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C021
+import Seq.B000.C012
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C022
-import Seq.B000.C028
+import Seq.B000.C023
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -26,7 +27,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
@@ -53,15 +53,12 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A009402: Expansion of log(1+tanh(x)/exp(x)).
@@ -1701,26 +1698,26 @@ theorem P11994269820952531267.correct : P11994269820952531267.Spec := by
 
 end A009445
 
-/-! ## A009445.P10657931938083519608
+/-! ## A009445.P5420518804284703216
 
 `2*n*(2*n+1)*a(n-1)` with `a(0)=1`
 -/
 
-namespace A009445.P10657931938083519608
+namespace A009445.P5420518804284703216
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  2 * (n * ((2 * n + 1) * a (n - 1)))
+  2 * n * (2 * n + 1) * a (n - 1)
 
 end
 
-end A009445.P10657931938083519608
+end A009445.P5420518804284703216
 
 namespace A009445
 
 /-- `2*n*(2*n+1)*a(n-1)` -/
-def P10657931938083519608.Spec : Prop :=
-  ∀ n, (P10657931938083519608.a n : ℤ) = A009445 n
+def P5420518804284703216.Spec : Prop :=
+  ∀ n, (P5420518804284703216.a n : ℤ) = A009445 n
 
 end A009445
 
@@ -3436,7 +3433,7 @@ end A009491.P1648483836054872095
 
 /-! ## A009491.P6313023217781157506
 
-`-A009184(2*n+1)*A033999(n)`
+`-(A009184(2*n+1)*A033999(n))`
 -/
 
 namespace A009491.P6313023217781157506

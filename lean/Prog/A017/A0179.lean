@@ -11,7 +11,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -19,23 +18,25 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -71,13 +72,13 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -10123,29 +10124,6 @@ def P8162997402004558797.Spec : Prop :=
 
 end A017935
 
-/-! ## A017935.P5422393467466059192
-
-`round(sqrt(A050621(n+1)))%A050621(n+1)`
--/
-
-namespace A017935.P5422393467466059192
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (A050621 (n + 1) : ℝ))) (A050621 (n + 1))
-
-end
-
-end A017935.P5422393467466059192
-
-namespace A017935
-
-/-- `round(sqrt(A050621(n+1)))%A050621(n+1)` -/
-def P5422393467466059192.Spec : Prop :=
-  ∀ n, P5422393467466059192.a n = A017935 n
-
-end A017935
-
 /-! ## A017935.P17061071160519649703
 
 `ceil(A017936(2*n+1)/A017936(n+1))`
@@ -10189,6 +10167,29 @@ namespace A017935
 /-- `ceil(floor(sqrt(A198970(n)))/2)` -/
 def P232354678914629015.Spec : Prop :=
   ∀ n, P232354678914629015.a n = A017935 n
+
+end A017935
+
+/-! ## A017935.P5422393467466059192
+
+`round(sqrt(A050621(n+1)))%A050621(n+1)`
+-/
+
+namespace A017935.P5422393467466059192
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (SequenceMachineLib.roundAway (Real.sqrt (A050621 (n + 1) : ℝ))) (A050621 (n + 1))
+
+end
+
+end A017935.P5422393467466059192
+
+namespace A017935
+
+/-- `round(sqrt(A050621(n+1)))%A050621(n+1)` -/
+def P5422393467466059192.Spec : Prop :=
+  ∀ n, P5422393467466059192.a n = A017935 n
 
 end A017935
 
@@ -12313,36 +12314,6 @@ def P13151770655792261233.Spec : Prop :=
 
 end A017942
 
-/-! ## A017942.P17652395062080386539
-
-`∪[A017940(2*n+1)+1, A017940(2*n)]`
--/
-
-namespace A017942.P17652395062080386539
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017940 (2 * n + 1) + 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017940 (2 * n)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A017942.P17652395062080386539
-
-namespace A017942
-
-/-- `∪[A017940(2*n+1)+1, A017940(2*n)]` -/
-def P17652395062080386539.Spec : Prop :=
-  ∀ n, (P17652395062080386539.a n : ℤ) = A017942 n
-
-end A017942
-
 /-! ## A017942.P635517110951113036
 
 `A018065(2*n)+A018078(2*n)-A018063(2*n)`
@@ -12386,6 +12357,36 @@ namespace A017942
 /-- `A018068(2*n)+A018078(2*n)-A018066(2*n)` -/
 def P16094034356487488007.Spec : Prop :=
   ∀ n, P16094034356487488007.a n = A017942 n
+
+end A017942
+
+/-! ## A017942.P17652395062080386539
+
+`∪[A017940(2*n+1)+1, A017940(2*n)]`
+-/
+
+namespace A017942.P17652395062080386539
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017940 (2 * n + 1) + 1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017940 (2 * n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A017942.P17652395062080386539
+
+namespace A017942
+
+/-- `∪[A017940(2*n+1)+1, A017940(2*n)]` -/
+def P17652395062080386539.Spec : Prop :=
+  ∀ n, (P17652395062080386539.a n : ℤ) = A017942 n
 
 end A017942
 
@@ -14213,7 +14214,7 @@ end A017948
 /-!
 # A017949: Powers of sqrt(15) rounded down.
 
-The programs for A017949, the canonical program `A017949.P14583680733829456344` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017949 has offset 0).
+The programs for A017949, the canonical program `A017949.P14583680733829456344` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017949 has offset 0).
 
 The definition of A017949 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14222,7 +14223,7 @@ The definition of A017949 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(15^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017949
@@ -14581,7 +14582,7 @@ end A017949
 /-!
 # A017950: Powers of sqrt(15) rounded to nearest integer.
 
-The programs for A017950, the canonical program `A017950.P15998525358839181329` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017950 has offset 0).
+The programs for A017950, the canonical program `A017950.P15998525358839181329` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017950 has offset 0).
 
 The definition of A017950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14590,7 +14591,7 @@ The definition of A017950 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(15)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017950
@@ -14821,7 +14822,7 @@ end A017950
 /-!
 # A017951: Powers of sqrt(15) rounded up.
 
-The programs for A017951, the canonical program `A017951.P4743721663244329506` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017951 has offset 0).
+The programs for A017951, the canonical program `A017951.P4743721663244329506` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017951 has offset 0).
 
 The definition of A017951 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14830,7 +14831,7 @@ The definition of A017951 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(15^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017951
@@ -15210,7 +15211,7 @@ end A017951
 /-!
 # A017952: Expansion of 1/((1-3x)*(1-6x)*(1-10x)).
 
-The programs for A017952, the canonical program `A017952.P15788919180846246640` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017952 has offset 0).
+The programs for A017952, the canonical program `A017952.P15788919180846246640` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017952 has offset 0).
 
 The definition of A017952 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15219,7 +15220,7 @@ The definition of A017952 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*a(n-1)-60*a(n-2)+3^n` with `a(0)=1, a(1)=19`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017952
@@ -15356,7 +15357,7 @@ end A017952
 /-!
 # A017953: Expansion of 1/((1-3x)*(1-6x)*(1-11x)).
 
-The programs for A017953, the canonical program `A017953.P7732588772335147797` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017953 has offset 0).
+The programs for A017953, the canonical program `A017953.P7732588772335147797` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017953 has offset 0).
 
 The definition of A017953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15365,7 +15366,7 @@ The definition of A017953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-1)-66*a(n-2)+3^n` with `a(0)=1, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017953
@@ -15493,7 +15494,7 @@ end A017953
 /-!
 # A017954: Expansion of 1/((1-3x)*(1-6x)*(1-12x)).
 
-The programs for A017954, the canonical program `A017954.P3533787156802275984` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017954 has offset 0).
+The programs for A017954, the canonical program `A017954.P3533787156802275984` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017954 has offset 0).
 
 The definition of A017954 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15502,7 +15503,7 @@ The definition of A017954 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*a(n-1)-72*a(n-2)+3^n` with `a(0)=1, a(1)=21`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017954
@@ -15659,7 +15660,7 @@ end A017954
 /-!
 # A017955: Powers of sqrt(17) rounded down.
 
-The programs for A017955, the canonical program `A017955.P9984987457799614466` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017955 has offset 0).
+The programs for A017955, the canonical program `A017955.P9984987457799614466` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017955 has offset 0).
 
 The definition of A017955 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15668,7 +15669,7 @@ The definition of A017955 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(17^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017955
@@ -16078,7 +16079,7 @@ end A017955
 /-!
 # A017956: Powers of sqrt(17) rounded to nearest integer.
 
-The programs for A017956, the canonical program `A017956.P6177832784213659451` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017956 has offset 0).
+The programs for A017956, the canonical program `A017956.P6177832784213659451` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017956 has offset 0).
 
 The definition of A017956 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16087,7 +16088,7 @@ The definition of A017956 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(17)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017956
@@ -16301,7 +16302,7 @@ end A017956
 /-!
 # A017957: Powers of sqrt(17) rounded up.
 
-The programs for A017957, the canonical program `A017957.P5148408155058597547` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017957 has offset 0).
+The programs for A017957, the canonical program `A017957.P5148408155058597547` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017957 has offset 0).
 
 The definition of A017957 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16310,7 +16311,7 @@ The definition of A017957 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(17^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017957
@@ -16692,7 +16693,7 @@ end A017957
 /-!
 # A017958: Powers of sqrt(18) rounded down.
 
-The programs for A017958, the canonical program `A017958.P2527308695026847057` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017958 has offset 0).
+The programs for A017958, the canonical program `A017958.P2527308695026847057` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017958 has offset 0).
 
 The definition of A017958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16701,7 +16702,7 @@ The definition of A017958 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(18^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017958
@@ -16932,7 +16933,7 @@ end A017958
 /-!
 # A017959: Powers of sqrt(18) rounded to nearest integer.
 
-The programs for A017959, the canonical program `A017959.P15740402028586738101` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017959 has offset 0).
+The programs for A017959, the canonical program `A017959.P15740402028586738101` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017959 has offset 0).
 
 The definition of A017959 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16941,7 +16942,7 @@ The definition of A017959 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(18)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017959
@@ -17123,7 +17124,7 @@ end A017959
 /-!
 # A017960: Powers of sqrt(18) rounded up.
 
-The programs for A017960, the canonical program `A017960.P17529597812179164494` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017960 has offset 0).
+The programs for A017960, the canonical program `A017960.P17529597812179164494` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017960 has offset 0).
 
 The definition of A017960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17132,7 +17133,7 @@ The definition of A017960 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(18^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017960
@@ -17459,7 +17460,7 @@ end A017960
 /-!
 # A017961: Powers of sqrt(19) rounded down.
 
-The programs for A017961, the canonical program `A017961.P10892891714077674605` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017961 has offset 0).
+The programs for A017961, the canonical program `A017961.P10892891714077674605` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017961 has offset 0).
 
 The definition of A017961 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -17468,7 +17469,7 @@ The definition of A017961 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(19^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017961
@@ -17841,7 +17842,7 @@ end A017961
 /-!
 # A017962: Powers of sqrt(19) rounded to nearest integer.
 
-The programs for A017962, the canonical program `A017962.P18158187199415792782` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017962 has offset 0).
+The programs for A017962, the canonical program `A017962.P18158187199415792782` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017962 has offset 0).
 
 The definition of A017962 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 157 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17850,7 +17851,7 @@ The definition of A017962 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(19)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017962
@@ -18009,7 +18010,7 @@ end A017962
 /-!
 # A017963: Powers of sqrt(19) rounded up.
 
-The programs for A017963, the canonical program `A017963.P8816144771398755226` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017963 has offset 0).
+The programs for A017963, the canonical program `A017963.P8816144771398755226` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017963 has offset 0).
 
 The definition of A017963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18018,7 +18019,7 @@ The definition of A017963 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(19^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017963
@@ -18421,7 +18422,7 @@ end A017963
 /-!
 # A017964: Powers of sqrt(20) rounded down.
 
-The programs for A017964, the canonical program `A017964.P8214688072289645585` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017964 has offset 0).
+The programs for A017964, the canonical program `A017964.P8214688072289645585` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017964 has offset 0).
 
 The definition of A017964 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18430,7 +18431,7 @@ The definition of A017964 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(20^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017964
@@ -18764,7 +18765,7 @@ end A017964
 /-!
 # A017965: Powers of sqrt(20) rounded to nearest integer.
 
-The programs for A017965, the canonical program `A017965.P577559006634562251` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017965 has offset 0).
+The programs for A017965, the canonical program `A017965.P577559006634562251` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017965 has offset 0).
 
 The definition of A017965 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18773,7 +18774,7 @@ The definition of A017965 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(20)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017965
@@ -18975,7 +18976,7 @@ end A017965
 /-!
 # A017966: Powers of sqrt(20) rounded up.
 
-The programs for A017966, the canonical program `A017966.P140310431696499413` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017966 has offset 0).
+The programs for A017966, the canonical program `A017966.P140310431696499413` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017966 has offset 0).
 
 The definition of A017966 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -18984,7 +18985,7 @@ The definition of A017966 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(20^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017966
@@ -19338,7 +19339,7 @@ end A017966
 /-!
 # A017967: Powers of sqrt(21) rounded down.
 
-The programs for A017967, the canonical program `A017967.P17121751743321943625` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017967 has offset 0).
+The programs for A017967, the canonical program `A017967.P17121751743321943625` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017967 has offset 0).
 
 The definition of A017967 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19347,7 +19348,7 @@ The definition of A017967 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(21^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017967
@@ -19702,7 +19703,7 @@ end A017967
 /-!
 # A017968: Powers of sqrt(21) rounded to nearest integer.
 
-The programs for A017968, the canonical program `A017968.P3313262516108285858` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017968 has offset 0).
+The programs for A017968, the canonical program `A017968.P3313262516108285858` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017968 has offset 0).
 
 The definition of A017968 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19711,7 +19712,7 @@ The definition of A017968 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(21)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017968
@@ -19867,7 +19868,7 @@ end A017968
 /-!
 # A017969: Powers of sqrt(21) rounded up.
 
-The programs for A017969, the canonical program `A017969.P7362430290746515714` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017969 has offset 0).
+The programs for A017969, the canonical program `A017969.P7362430290746515714` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017969 has offset 0).
 
 The definition of A017969 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -19876,7 +19877,7 @@ The definition of A017969 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(21^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017969
@@ -20349,7 +20350,7 @@ end A017969
 /-!
 # A017970: Powers of sqrt(22) rounded down.
 
-The programs for A017970, the canonical program `A017970.P2286175100179775483` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017970 has offset 0).
+The programs for A017970, the canonical program `A017970.P2286175100179775483` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017970 has offset 0).
 
 The definition of A017970 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20358,7 +20359,7 @@ The definition of A017970 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(22^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017970
@@ -20616,7 +20617,7 @@ end A017970
 /-!
 # A017971: Powers of sqrt(22) rounded to nearest integer.
 
-The programs for A017971, the canonical program `A017971.P4030443112695631511` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017971 has offset 0).
+The programs for A017971, the canonical program `A017971.P4030443112695631511` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017971 has offset 0).
 
 The definition of A017971 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20625,7 +20626,7 @@ The definition of A017971 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(22)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017971
@@ -20836,7 +20837,7 @@ end A017971
 /-!
 # A017972: Powers of sqrt(22) rounded up.
 
-The programs for A017972, the canonical program `A017972.P17522841527677559939` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017972 has offset 0).
+The programs for A017972, the canonical program `A017972.P17522841527677559939` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017972 has offset 0).
 
 The definition of A017972 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -20845,7 +20846,7 @@ The definition of A017972 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(22^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017972
@@ -21199,7 +21200,7 @@ end A017972
 /-!
 # A017973: Powers of sqrt(23) rounded down.
 
-The programs for A017973, the canonical program `A017973.P5626673355597780268` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017973 has offset 0).
+The programs for A017973, the canonical program `A017973.P5626673355597780268` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017973 has offset 0).
 
 The definition of A017973 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -21208,7 +21209,7 @@ The definition of A017973 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(23^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017973
@@ -21598,7 +21599,7 @@ end A017973
 /-!
 # A017974: Powers of sqrt(23) rounded to nearest integer.
 
-The programs for A017974, the canonical program `A017974.P17644686889605105599` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017974 has offset 0).
+The programs for A017974, the canonical program `A017974.P17644686889605105599` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017974 has offset 0).
 
 The definition of A017974 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21607,7 +21608,7 @@ The definition of A017974 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(23)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017974
@@ -21815,7 +21816,7 @@ end A017974
 /-!
 # A017975: Powers of sqrt(23) rounded up.
 
-The programs for A017975, the canonical program `A017975.P14785410818165074267` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017975 has offset 0).
+The programs for A017975, the canonical program `A017975.P14785410818165074267` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017975 has offset 0).
 
 The definition of A017975 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -21824,7 +21825,7 @@ The definition of A017975 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(23^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017975
@@ -22182,7 +22183,7 @@ end A017975
 /-!
 # A017976: Powers of sqrt(24) rounded down.
 
-The programs for A017976, the canonical program `A017976.P14997319104183218160` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017976 has offset 0).
+The programs for A017976, the canonical program `A017976.P14997319104183218160` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017976 has offset 0).
 
 The definition of A017976 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -22191,7 +22192,7 @@ The definition of A017976 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(24^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017976
@@ -22521,7 +22522,7 @@ end A017976
 /-!
 # A017977: Powers of sqrt(24) rounded to nearest integer.
 
-The programs for A017977, the canonical program `A017977.P6768353009805850750` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017977 has offset 0).
+The programs for A017977, the canonical program `A017977.P6768353009805850750` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017977 has offset 0).
 
 The definition of A017977 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22530,7 +22531,7 @@ The definition of A017977 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(24)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017977
@@ -22770,7 +22771,7 @@ end A017977
 /-!
 # A017978: Powers of sqrt(24) rounded up.
 
-The programs for A017978, the canonical program `A017978.P7810504544621147641` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017978 has offset 0).
+The programs for A017978, the canonical program `A017978.P7810504544621147641` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017978 has offset 0).
 
 The definition of A017978 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -22779,7 +22780,7 @@ The definition of A017978 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(24^n))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017978
@@ -23746,7 +23747,7 @@ end A017980
 /-!
 # A017981: Powers of cube root of 2 rounded up.
 
-The programs for A017981, the canonical program `A017981.P5662669907479920218` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017981 has offset 0).
+The programs for A017981, the canonical program `A017981.P5662669907479920218` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017981 has offset 0).
 
 The definition of A017981 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23755,7 +23756,7 @@ The definition of A017981 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(root(2, 3)^n)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017981
@@ -24014,7 +24015,7 @@ end A017981
 /-!
 # A017982: Powers of cube root of 3 rounded down.
 
-The programs for A017982, the canonical program `A017982.P15637322331268037130` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017982 has offset 0).
+The programs for A017982, the canonical program `A017982.P15637322331268037130` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017982 has offset 0).
 
 The definition of A017982 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24023,7 +24024,7 @@ The definition of A017982 is `conjectured`: the Lean definition is a formula tha
 
 `floor(3^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017982
@@ -24136,7 +24137,7 @@ end A017982
 /-!
 # A017983: Powers of cube root of 3 rounded to nearest integer.
 
-The programs for A017983, the canonical program `A017983.P1771809161547523124` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017983 has offset 0).
+The programs for A017983, the canonical program `A017983.P1771809161547523124` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017983 has offset 0).
 
 The definition of A017983 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24145,7 +24146,7 @@ The definition of A017983 is `conjectured`: the Lean definition is a formula tha
 
 `round(3^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017983
@@ -24943,7 +24944,7 @@ end A017985
 /-!
 # A017986: Powers of cube root of 4 rounded to nearest integer.
 
-The programs for A017986, the canonical program `A017986.P4285738452838893498` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017986 has offset 0).
+The programs for A017986, the canonical program `A017986.P4285738452838893498` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017986 has offset 0).
 
 The definition of A017986 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 499 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24952,7 +24953,7 @@ The definition of A017986 is `conjectured`: the Lean definition is a formula tha
 
 `round(4^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017986
@@ -25513,7 +25514,7 @@ end A017987
 /-!
 # A017988: Powers of cube root of 5 rounded down.
 
-The programs for A017988, the canonical program `A017988.P3597403592851603370` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017988 has offset 0).
+The programs for A017988, the canonical program `A017988.P3597403592851603370` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017988 has offset 0).
 
 The definition of A017988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 215 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -25762,7 +25763,7 @@ end A017988
 
 `floor(sqrt(5^(2*n/3)))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017988
@@ -25780,7 +25781,7 @@ end A017988
 /-!
 # A017989: Powers of cube root of 5 rounded to nearest integer.
 
-The programs for A017989, the canonical program `A017989.P13177169515701887306` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017989 has offset 0).
+The programs for A017989, the canonical program `A017989.P13177169515701887306` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017989 has offset 0).
 
 The definition of A017989 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 215 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -25789,7 +25790,7 @@ The definition of A017989 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(5^(2*n/3)))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017989
@@ -26192,7 +26193,7 @@ end A017990
 /-!
 # A017991: Powers of cube root of 6 rounded down.
 
-The programs for A017991, the canonical program `A017991.P6982630282778706373` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017991 has offset 0).
+The programs for A017991, the canonical program `A017991.P6982630282778706373` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017991 has offset 0).
 
 The definition of A017991 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -26465,7 +26466,7 @@ end A017991
 
 `floor(sqrt(6^(2*n/3)))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017991
@@ -26483,7 +26484,7 @@ end A017991
 /-!
 # A017992: Powers of cube root of 6 rounded to nearest integer.
 
-The programs for A017992, the canonical program `A017992.P7080197699977789945` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017992 has offset 0).
+The programs for A017992, the canonical program `A017992.P7080197699977789945` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017992 has offset 0).
 
 The definition of A017992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 386 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -26492,7 +26493,7 @@ The definition of A017992 is `conjectured`: the Lean definition is a formula tha
 
 `round(6^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017992
@@ -26866,7 +26867,7 @@ end A017993
 /-!
 # A017994: Powers of cube root of 7 rounded down.
 
-The programs for A017994, the canonical program `A017994.P5264065172002727403` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017994 has offset 0).
+The programs for A017994, the canonical program `A017994.P5264065172002727403` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017994 has offset 0).
 
 The definition of A017994 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 355 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -26875,7 +26876,7 @@ The definition of A017994 is `conjectured`: the Lean definition is a formula tha
 
 `floor(7^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017994
@@ -27156,7 +27157,7 @@ end A017994
 /-!
 # A017995: Powers of cube root of 7 rounded to nearest integer.
 
-The programs for A017995, the canonical program `A017995.P10481796493008747646` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017995 has offset 0).
+The programs for A017995, the canonical program `A017995.P10481796493008747646` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017995 has offset 0).
 
 The definition of A017995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 355 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -27165,7 +27166,7 @@ The definition of A017995 is `conjectured`: the Lean definition is a formula tha
 
 `round(7^(n/3))`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017995
@@ -27539,7 +27540,7 @@ end A017996
 /-!
 # A017997: Expansion of 1/((1-3x)*(1-7x)*(1-8x)).
 
-The programs for A017997, the canonical program `A017997.P9953440653974165169` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017997 has offset 0).
+The programs for A017997, the canonical program `A017997.P9953440653974165169` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017997 has offset 0).
 
 The definition of A017997 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -27548,7 +27549,7 @@ The definition of A017997 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `15*a(n-1)-56*a(n-2)+3^n` with `a(0)=1, a(1)=18`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017997
@@ -27702,7 +27703,7 @@ end A017997
 /-!
 # A017998: Expansion of 1/((1-3x)*(1-7x)*(1-9x)).
 
-The programs for A017998, the canonical program `A017998.P9021511614960488624` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017998 has offset 0).
+The programs for A017998, the canonical program `A017998.P9021511614960488624` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017998 has offset 0).
 
 The definition of A017998 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -27711,7 +27712,7 @@ The definition of A017998 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*a(n-1)-63*a(n-2)+3^n` with `a(0)=1, a(1)=19`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017998
@@ -27839,7 +27840,7 @@ end A017998
 /-!
 # A017999: Expansion of 1/((1-3x)*(1-7x)*(1-10x)).
 
-The programs for A017999, the canonical program `A017999.P12480200348350311107` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017999 has offset 0).
+The programs for A017999, the canonical program `A017999.P12480200348350311107` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A017999 has offset 0).
 
 The definition of A017999 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -27848,7 +27849,7 @@ The definition of A017999 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `17*a(n-1)-70*a(n-2)+3^n` with `a(0)=1, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A017999

@@ -15,21 +15,20 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +43,6 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -85,6 +83,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -2034,21 +2033,6 @@ end A151253.P7119173268548473769
 The programs for A151254, there is no canonical definition to state claims against.
 -/
 
-/-! ## A151254.P15878203479515591693
-
-`(5*(n+1)*a(n-1))!` with `a(0)=1, a(1)=4, a(2)=20, a(3)=96, a(4)=480`
--/
-
-namespace A151254.P15878203479515591693
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 4, 20, 96, 480] fun n a =>
-  Nat.factorial (5 * ((n + 1) * a (n - 1)))
-
-end
-
-end A151254.P15878203479515591693
-
 /-! ## A151254.P6110492422463932999
 
 `2^n*A054341(n)`
@@ -3342,21 +3326,6 @@ end A151280.P9445205188186836371
 
 The programs for A151281, there is no canonical definition to state claims against.
 -/
-
-/-! ## A151281.P9725806814494747338
-
-`(3*(n+1)*a(n-1))!` with `a(0)=1, a(1)=2, a(2)=6, a(3)=16, a(4)=48, a(5)=136`
--/
-
-namespace A151281.P9725806814494747338
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 6, 16, 48, 136] fun n a =>
-  Nat.factorial (3 * ((n + 1) * a (n - 1)))
-
-end
-
-end A151281.P9725806814494747338
 
 /-! ## A151281.P6202708351492696930
 

@@ -1,11 +1,11 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C011
+import Seq.Opaque.C010
 import Seq.Opaque.C015
 
 /-!
@@ -115,32 +115,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169161.P1099368571983741312
-
-/-!
-# A169174: 
-
-The programs for A169174, there is no canonical definition to state claims against.
--/
-
-/-! ## A169174.P7427052073857091399
-
-`∩[16*a(n-1), 2*a(n-1)]` with `a(0)=1, a(1)=17`
--/
-
-namespace A169174.P7427052073857091399
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 17] fun n f1 =>
-  16 * f1 (n - 1)
-
-def f2 : ℕ → ℕ := SequenceMachineLib.rec [1, 17] fun n f2 =>
-  2 * f2 (n - 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = x) n
-
-end
-
-end A169174.P7427052073857091399
 

@@ -2,21 +2,20 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C019
+import Seq.B000.C023
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -50,16 +49,15 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -711,7 +709,7 @@ end A019273.P2926526268997785520
 /-!
 # A019274: Number of recursive calls needed to compute the n-th Fibonacci number F(n), starting with F(1) = F(2) = 1.
 
-The programs for A019274, the canonical program `A019274.P14139806031149399444` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019274 has offset 1).
+The programs for A019274, the canonical program `A019274.P14139806031149399444` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019274 has offset 1).
 
 The definition of A019274 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -720,7 +718,7 @@ The definition of A019274 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)+2` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A019274
@@ -1739,25 +1737,25 @@ end A019293.P7026602509248888169
 /-!
 # A019298: Number of balls in pyramid with base either a regular hexagon or a hexagon with alternate sides differing by 1 (balls in hexagonal pyramid of height n taken from hexagonal close-packing).
 
-The programs for A019298, the canonical program `A019298.P2934862953537980601` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019298 has offset 0).
+The programs for A019298, the canonical program `A019298.P3510953320221201697` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A019298 has offset 0).
 
 The definition of A019298 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A019298.P2934862953537980601
+/-! ## A019298.P3510953320221201697
 
 `floor((n²+1)*(2*n+3)/8)`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A019298
 
 /-- `floor((n²+1)*(2*n+3)/8)` -/
-def P2934862953537980601.Spec : Prop :=
-  ∀ n, P2934862953537980601.a n = A019298 n
+def P3510953320221201697.Spec : Prop :=
+  ∀ n, P3510953320221201697.a n = A019298 n
 
-theorem P2934862953537980601.correct : P2934862953537980601.Spec := by
+theorem P3510953320221201697.correct : P3510953320221201697.Spec := by
   intro n
   simp only [A019298]
 

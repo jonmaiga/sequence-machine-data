@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,7 +11,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
@@ -25,13 +24,15 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,13 +45,13 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -91,7 +92,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A300600: Number of nX3 0..1 arrays with every element equal to 0, 2, 3 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
@@ -1596,7 +1596,7 @@ end A300619.P18248787602901130618
 /-!
 # A300622: Denominators of sequence whose exponential self-convolution yields sequence 1, 2, 3, 5, 7, 11, 13, ... (1 with primes).
 
-The programs for A300622, the canonical program `A300622.P9660768521783304710` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300622 has offset 0).
+The programs for A300622, the canonical program `A300622.P9660768521783304710` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300622 has offset 0).
 
 The definition of A300622 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 666 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1605,7 +1605,7 @@ The definition of A300622 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-4)` with `a(0)=1, a(1)=1, a(2)=2, a(3)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A300622
@@ -4960,7 +4960,7 @@ end A300658.P14819852513521933511
 /-!
 # A300659: Product of digits of n!.
 
-The programs for A300659, the canonical program `A300659.P792870857574255436` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300659 has offset 0).
+The programs for A300659, the canonical program `A300659.P792870857574255436` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300659 has offset 0).
 
 The definition of A300659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4969,7 +4969,7 @@ The definition of A300659 is `conjectured`: the Lean definition is a formula tha
 
 `n*a(n-1)%4` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A300659
@@ -5308,7 +5308,7 @@ end A300667.P11431839556790582512
 /-!
 # A300668: a(n) = A000016(2*n).
 
-The programs for A300668, the canonical program `A300668.P3762773084760890773` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300668 has offset 0).
+The programs for A300668, the canonical program `A300668.P3762773084760890773` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300668 has offset 0).
 
 The definition of A300668 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000016, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5317,7 +5317,7 @@ The definition of A300668 is `conditional`: the Lean definition is an OEIS formu
 
 `A000016(2*n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A300668
@@ -5798,25 +5798,6 @@ end
 
 end A300669.P5683459192480645734
 
-/-! ## A300669.P2270044240191713987
-
-`comp[(n+1)*(2-A300655(n+1))]`
--/
-
-namespace A300669.P2270044240191713987
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (2 - A300655 (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A300669.P2270044240191713987
-
 /-! ## A300669.P101995532941358232
 
 `lt[0, A153733(a(floor(n/2))+n*n%2)]` with `a(0)=0`
@@ -5837,31 +5818,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300669.P101995532941358232
-
-/-! ## A300669.P15821851467783719491
-
-`comp[eq[and(n, 2*n), and(n, n-1)]%A058989(n+1)]`
--/
-
-namespace A300669.P15821851467783719491
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land n (2 * n)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (n : ℤ) ((n : ℤ) - 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.nth (fun j => (f2 j : ℤ) = f3 j) n : ℤ) (A058989 (n + 1))
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A300669.P15821851467783719491
 
 /-! ## A300669.P6195056895637147376
 

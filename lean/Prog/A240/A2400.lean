@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -10,24 +11,27 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +42,6 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
@@ -84,7 +87,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -94,29 +96,10 @@ set_option linter.unreachableTactic false
 /-!
 # A240001: Number of 2 X n 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it or one plus the sum of the elements diagonally to its northwest, modulo 4.
 
-The programs for A240001, the canonical program `A240001.P145074708384494669` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240001 has offset 1).
+The programs for A240001, the canonical program `A240001.P145074708384494669` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240001 has offset 1).
 
-The definition of A240001 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A240001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A240001.P145074708384494669
-
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=5, a(1)=13, a(2)=25, a(3)=42`
-
-The canonical program, it is in `Seq.B000.C029`.
--/
-
-namespace A240001
-
-/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
-def P145074708384494669.Spec : Prop :=
-  ∀ n, P145074708384494669.a n = A240001 (n + 1)
-
-theorem P145074708384494669.correct : P145074708384494669.Spec := by
-  intro n
-  simp only [A240001, Nat.add_sub_cancel]
-
-end A240001
 
 /-! ## A240001.P9746656623691211561
 
@@ -276,6 +259,25 @@ namespace A240001
 /-- `floor(∑[3-∑[a(n-1)-1]])` -/
 def P11957303267144725743.Spec : Prop :=
   ∀ n, P11957303267144725743.a n = A240001 (n + 1)
+
+end A240001
+
+/-! ## A240001.P145074708384494669
+
+`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=5, a(1)=13, a(2)=25, a(3)=42`
+
+The canonical program, it is in `Seq.B000.C030`.
+-/
+
+namespace A240001
+
+/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
+def P145074708384494669.Spec : Prop :=
+  ∀ n, P145074708384494669.a n = A240001 (n + 1)
+
+theorem P145074708384494669.correct : P145074708384494669.Spec := by
+  intro n
+  simp only [A240001, Nat.add_sub_cancel]
 
 end A240001
 
@@ -3237,7 +3239,7 @@ end A240033.P7209655441696501329
 /-!
 # A240034: Number of n X 3 0..2 arrays with no element equal to zero plus the sum of elements to its left or zero plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 3.
 
-The programs for A240034, the canonical program `A240034.P9031001120643243665` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240034 has offset 1).
+The programs for A240034, the canonical program `A240034.P9031001120643243665` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240034 has offset 1).
 
 The definition of A240034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 444 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3246,7 +3248,7 @@ The definition of A240034 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-2)-3*a(n-4)-a(n-6)` with `a(0)=4, a(1)=6, a(2)=16, a(3)=16, a(4)=42, a(5)=44, a(6)=114`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A240034
@@ -9545,31 +9547,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A240095.P851153807510538269
-
-/-!
-# A240097: Numbers with primitive root -15.
-
-The programs for A240097, there is no canonical definition to state claims against.
--/
-
-/-! ## A240097.P1025959388107024245
-
-`A240106(comp[A191259(n+1)-A191242(n+1)]+1)`
--/
-
-namespace A240097.P1025959388107024245
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191259 (n + 1) - A191242 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240106 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A240097.P1025959388107024245
 
 /-!
 # A240098: Product of the greatest common divisors of n and k! over k=0..n-1.

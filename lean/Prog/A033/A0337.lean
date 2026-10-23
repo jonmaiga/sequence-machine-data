@@ -4,7 +4,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -13,19 +12,19 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C019
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +39,6 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
@@ -970,6 +968,29 @@ namespace A033713
 /-- `(n*10^(n+1)-(n+1)*10^n+1)/9` -/
 def P13302592538740534098.Spec : Prop :=
   ∀ n, P13302592538740534098.a n = (A033713 (n + 1) : ℚ)
+
+end A033713
+
+/-! ## A033713.P3890122507490400871
+
+`21*a(n-1)-120*a(n-2)+100*a(n-3)` with `a(0)=0, a(1)=9, a(2)=189`
+-/
+
+namespace A033713.P3890122507490400871
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 9, 189] fun n a =>
+  21 * a (n - 1) - 120 * a (n - 2) + 100 * a (n - 3)
+
+end
+
+end A033713.P3890122507490400871
+
+namespace A033713
+
+/-- `21*a(n-1)-120*a(n-2)+100*a(n-3)` -/
+def P3890122507490400871.Spec : Prop :=
+  ∀ n, P3890122507490400871.a n = A033713 (n + 1)
 
 end A033713
 
@@ -6122,7 +6143,7 @@ end A033764
 
 /-! ## A033764.P14772390949811411608
 
-`-A129391(n+1+n)/2`
+`-(A129391(n+1+n)/2)`
 -/
 
 namespace A033764.P14772390949811411608
@@ -6137,7 +6158,7 @@ end A033764.P14772390949811411608
 
 namespace A033764
 
-/-- `-A129391(n+1+n)/2` -/
+/-- `-(A129391(n+1+n)/2)` -/
 def P14772390949811411608.Spec : Prop :=
   ∀ n, P14772390949811411608.a n = (A033764 n : ℚ)
 

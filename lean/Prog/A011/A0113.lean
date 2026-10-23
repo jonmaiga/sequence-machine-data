@@ -2,13 +2,13 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C012
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C013
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B002.C000
@@ -20,9 +20,9 @@ import Seq.B005.C002
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -170,6 +170,29 @@ namespace A011371
 /-- `A005187(n)-n` -/
 def P15997377557937107321.Spec : Prop :=
   ∀ n, P15997377557937107321.a n = A011371 n
+
+end A011371
+
+/-! ## A011371.P17452443470549305186
+
+`val(n!, 2)`
+-/
+
+namespace A011371.P17452443470549305186
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (Nat.factorial n) 2
+
+end
+
+end A011371.P17452443470549305186
+
+namespace A011371
+
+/-- `val(n!, 2)` -/
+def P17452443470549305186.Spec : Prop :=
+  ∀ n, (P17452443470549305186.a n : ℤ) = A011371 n
 
 end A011371
 
@@ -554,29 +577,6 @@ namespace A011371
 /-- `A134467(n)-n²` -/
 def P2025653525724803218.Spec : Prop :=
   ∀ n, P2025653525724803218.a n = A011371 n
-
-end A011371
-
-/-! ## A011371.P775222393637055595
-
-`n-log2(A001316(n))`
--/
-
-namespace A011371.P775222393637055595
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (n : ℝ) - Real.logb 2 (A001316 n : ℝ)
-
-end
-
-end A011371.P775222393637055595
-
-namespace A011371
-
-/-- `n-log2(A001316(n))` -/
-def P775222393637055595.Spec : Prop :=
-  ∀ n, P775222393637055595.a n = (A011371 n : ℝ)
 
 end A011371
 
@@ -1600,7 +1600,7 @@ end A011379
 
 /-! ## A011379.P1784093489692789977
 
-`-n²*xor(n, -1)`
+`-(n²*xor(n, -1))`
 -/
 
 namespace A011379.P1784093489692789977
@@ -1615,7 +1615,7 @@ end A011379.P1784093489692789977
 
 namespace A011379
 
-/-- `-n²*xor(n, -1)` -/
+/-- `-(n²*xor(n, -1))` -/
 def P1784093489692789977.Spec : Prop :=
   ∀ n, P1784093489692789977.a n = A011379 n
 

@@ -10,19 +10,18 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C019
+import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,12 +32,12 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -85,7 +84,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A359900: Number of strict odd-length integer partitions of n whose parts do not have the same mean as median.
@@ -329,72 +327,6 @@ end
 
 end A359905.P4440613229134437835
 
-/-! ## A359905.P6339072915550547059
-
-`∩[A326621(n+1), A085924(n)]`
--/
-
-namespace A359905.P6339072915550547059
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326621 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085924 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A359905.P6339072915550547059
-
-/-! ## A359905.P1160511410914800994
-
-`∩[A072774(n+1), A326621(n+1)]`
--/
-
-namespace A359905.P1160511410914800994
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072774 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326621 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A359905.P1160511410914800994
-
-/-! ## A359905.P8397553635358992934
-
-`∩[A062770(n+1), A360009(n+1)]`
--/
-
-namespace A359905.P8397553635358992934
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062770 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A360009 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A359905.P8397553635358992934
-
 /-!
 # A359906: Number of integer partitions of n with integer mean and integer median.
 
@@ -569,101 +501,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A359908.P3445956860534372768
-
-/-! ## A359908.P7697537508162366783
-
-`comp[A014902(n)*A359912(n+1)]`
--/
-
-namespace A359908.P7697537508162366783
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014902 n * A359912 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A359908.P7697537508162366783
-
-/-! ## A359908.P14091519603544775804
-
-`comp[A015600(n)*A359912(n+1)]`
--/
-
-namespace A359908.P14091519603544775804
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015600 n * A359912 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A359908.P14091519603544775804
-
-/-! ## A359908.P819300281724741585
-
-`comp[A015748(n)*A359912(n+1)]`
--/
-
-namespace A359908.P819300281724741585
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015748 n * A359912 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A359908.P819300281724741585
-
-/-! ## A359908.P4351951444754998034
-
-`comp[A015760(n)*A359912(n+1)]`
--/
-
-namespace A359908.P4351951444754998034
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015760 n * A359912 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A359908.P4351951444754998034
-
-/-! ## A359908.P2826610607797706524
-
-`comp[A015772(n)*A359912(n+1)]`
--/
-
-namespace A359908.P2826610607797706524
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015772 n * A359912 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A359908.P2826610607797706524
 
 /-! ## A359908.P11257687314309415326
 
@@ -3096,28 +2933,6 @@ end
 
 end A359964.P6242070027549272427
 
-/-! ## A359964.P1588627651872207237
-
-`∩[A168267(n+1), A276559(n+1)]`
--/
-
-namespace A359964.P1588627651872207237
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168267 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276559 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A359964.P1588627651872207237
-
 /-!
 # A359965: a(n) is the least arithmetic number (A003601) having exactly n divisors.
 
@@ -3956,7 +3771,7 @@ end A359984.P16174422950036832477
 /-!
 # A359987: Number of edge cuts in the n-ladder graph P_2 X P_n.
 
-The programs for A359987, the canonical program `A359987.P9713073542485974720` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359987 has offset 1).
+The programs for A359987, the canonical program `A359987.P9713073542485974720` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359987 has offset 1).
 
 The definition of A359987 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3965,7 +3780,7 @@ The definition of A359987 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `13*a(n-1)-42*a(n-2)+16*a(n-3)` with `a(0)=1, a(1)=11, a(2)=105`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A359987

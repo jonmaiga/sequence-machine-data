@@ -8,26 +8,27 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
 import Seq.B000.C028
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
@@ -38,7 +39,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -46,6 +46,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
@@ -1252,6 +1253,28 @@ end
 
 end A385220.P13944335190437081843
 
+/-! ## A385220.P5283704624244960969
+
+`∩[A015919(n+1), A363215(n+1)]`
+-/
+
+namespace A385220.P5283704624244960969
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A015919 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A363215 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385220.P5283704624244960969
+
 /-! ## A385220.P17799600876207470176
 
 `∩[A040116(n+1), A363215(n+1)]`
@@ -1472,28 +1495,6 @@ end
 
 end A385220.P14514886438234096214
 
-/-! ## A385220.P5283704624244960969
-
-`∩[A015919(n+1), A363215(n+1)]`
--/
-
-namespace A385220.P5283704624244960969
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015919 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A363215 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A385220.P5283704624244960969
-
 /-! ## A385220.P8037434968148314587
 
 `∩[A363215(n+1), A260442(n)]`
@@ -1628,6 +1629,28 @@ end
 
 end A385221.P9076884169472172199
 
+/-! ## A385221.P3320505321911055390
+
+`∩[A160227(n+1), A256863(n+1)]`
+-/
+
+namespace A385221.P3320505321911055390
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160227 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256863 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385221.P3320505321911055390
+
 /-! ## A385221.P1959622397751667405
 
 `∩[A096315(n+1), A216285(n+1)]`
@@ -1671,28 +1694,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A385221.P6461618651752516409
-
-/-! ## A385221.P3320505321911055390
-
-`∩[A160227(n+1), A256863(n+1)]`
--/
-
-namespace A385221.P3320505321911055390
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160227 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256863 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A385221.P3320505321911055390
 
 /-! ## A385221.P14285302298126395496
 
@@ -1883,88 +1884,6 @@ end A385224.P12012169252226318260
 
 The programs for A385225, there is no canonical definition to state claims against.
 -/
-
-/-! ## A385225.P17721496803183841970
-
-`∩[A069556(n+1), A257047(n+1)]`
--/
-
-namespace A385225.P17721496803183841970
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069556 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A257047 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A385225.P17721496803183841970
-
-/-! ## A385225.P11326799168629058013
-
-`A046704(comp[A014574(n+1)-A050146(n)])`
--/
-
-namespace A385225.P11326799168629058013
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014574 (n + 1) - A050146 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046704 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A385225.P11326799168629058013
-
-/-! ## A385225.P11110805724430489804
-
-`∩[A069556(n+1), A380076(n+1)]`
--/
-
-namespace A385225.P11110805724430489804
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069556 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380076 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A385225.P11110805724430489804
-
-/-! ## A385225.P13200198515101075515
-
-`A068690(comp[A373718(2*n+1)-A295238(n)])`
--/
-
-namespace A385225.P13200198515101075515
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A373718 (2 * n + 1) - A295238 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A068690 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A385225.P13200198515101075515
 
 /-! ## A385225.P3692726873067051298
 
@@ -2554,6 +2473,21 @@ end
 
 end A385236.P12582775130538589743
 
+/-! ## A385236.P9001411670564911089
+
+`sqrt(A001481(n+1)-A229140(n+1)²)`
+-/
+
+namespace A385236.P9001411670564911089
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.sqrt (A001481 (n + 1) - A229140 (n + 1) ^ 2 : ℝ)
+
+end
+
+end A385236.P9001411670564911089
+
 /-! ## A385236.P1338187657692363468
 
 `A064876(A001481(n+1))`
@@ -2773,7 +2707,7 @@ end A385240.P12548829808350889523
 /-!
 # A385242: Number of tilings of a 3 X n strip with dominos and U-shaped pentominos.
 
-The programs for A385242, the canonical program `A385242.P3515255519971219702` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385242 has offset 0).
+The programs for A385242, the canonical program `A385242.P3515255519971219702` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385242 has offset 0).
 
 The definition of A385242 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2782,7 +2716,7 @@ The definition of A385242 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+4*a(n-2)-3*a(n-3)-2*a(n-5)` with `a(0)=1, a(1)=0, a(2)=3, a(3)=0, a(4)=12, a(5)=2`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A385242

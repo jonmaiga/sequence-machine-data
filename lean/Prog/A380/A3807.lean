@@ -3,27 +3,27 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C016
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C026
-import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C023
+import Seq.B000.C027
+import Seq.B000.C032
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -32,12 +32,10 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -69,6 +67,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -692,28 +691,6 @@ end A380725
 The programs for A380730, there is no canonical definition to state claims against.
 -/
 
-/-! ## A380730.P11606758917405420226
-
-`∩[A000027(A054743(n+1)), A001597(n+3)]`
--/
-
-namespace A380730.P11606758917405420226
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000027 (A054743 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001597 (n + 3)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380730.P11606758917405420226
-
 /-! ## A380730.P7337220616920623684
 
 `∩[A054743(n+1), A378250(n+1)]`
@@ -897,25 +874,6 @@ end
 
 end A380733.P2623701378600606857
 
-/-! ## A380733.P17567029938693832748
-
-`A324525(comp[A348048(n+4)-A233564(n+1)])`
--/
-
-namespace A380733.P17567029938693832748
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A348048 (n + 4) - A233564 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324525 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
-
-end
-
-end A380733.P17567029938693832748
-
 /-! ## A380733.P16993951908013165764
 
 `∩[A068317(n+1), A168496(n+1)]`
@@ -982,50 +940,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A380743.P5091211281278238304
-
-/-! ## A380743.P7186647532175024790
-
-`∪[A060687(n+1), A000005(A127637(n))]`
--/
-
-namespace A380743.P7186647532175024790
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060687 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A127637 n).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380743.P7186647532175024790
-
-/-! ## A380743.P3474745634179768298
-
-`∪[A183095(A332462(2^n)), A060687(n+1)]`
--/
-
-namespace A380743.P3474745634179768298
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183095 (A332462 (2 ^ n)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060687 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380743.P3474745634179768298
 
 /-!
 # A380747: Array read by ascending antidiagonals: A(n,k) = [x^n] (1 - x)/(1 - k*x)^2.
@@ -1951,7 +1865,7 @@ end A380758.P7958075195773515854
 /-!
 # A380759: Number of coincident digits occurring in expression of integers in both base 2 and base 10.
 
-The programs for A380759, the canonical program `A380759.P12464176623793877343` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380759 has offset 1).
+The programs for A380759, the canonical program `A380759.P12464176623793877343` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380759 has offset 1).
 
 The definition of A380759 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1960,7 +1874,7 @@ The definition of A380759 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n+1, #!%2]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A380759
@@ -2504,7 +2418,7 @@ end A380762.P6717729169020001223
 /-!
 # A380763: List triangular numbers up to increasingly large values and back down to 0.
 
-The programs for A380763, the canonical program `A380763.P586275446285360426` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380763 has offset 0).
+The programs for A380763, the canonical program `A380763.P586275446285360426` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380763 has offset 0).
 
 The definition of A380763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2513,7 +2427,7 @@ The definition of A380763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000217(A053615(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A380763
@@ -3451,50 +3365,6 @@ end A380786
 The programs for A380787, there is no canonical definition to state claims against.
 -/
 
-/-! ## A380787.P7513235108005464627
-
-`∩[A029597(n+1), A172253(n+1)]`
--/
-
-namespace A380787.P7513235108005464627
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029597 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172253 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380787.P7513235108005464627
-
-/-! ## A380787.P15972652459719109839
-
-`∩[A118894(n+1), A343109(n+1)]`
--/
-
-namespace A380787.P15972652459719109839
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118894 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A343109 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380787.P15972652459719109839
-
 /-! ## A380787.P10716788538707506109
 
 `lt[1, A113973(A372049(n+1))]`
@@ -3516,54 +3386,10 @@ end
 
 end A380787.P10716788538707506109
 
-/-! ## A380787.P14616076776416458511
-
-`∩[A004772(n+1), A172253(n+1)]`
--/
-
-namespace A380787.P14616076776416458511
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004772 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172253 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380787.P14616076776416458511
-
-/-! ## A380787.P6873479414999082789
-
-`∩[A118894(n+1), A174905(n+1)]`
--/
-
-namespace A380787.P6873479414999082789
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118894 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174905 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A380787.P6873479414999082789
-
 /-!
 # A380788: Numbers with a prime number of binary digits.
 
-The programs for A380788, the canonical program `A380788.P17890132981315215586` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380788 has offset 1).
+The programs for A380788, the canonical program `A380788.P17890132981315215586` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380788 has offset 1).
 
 The definition of A380788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3659,7 +3485,7 @@ end A380788
 
 `eq[2, A105700(A070939(n)²)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A380788

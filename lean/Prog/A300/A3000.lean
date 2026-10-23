@@ -3,26 +3,27 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C026
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C028
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,6 +33,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
@@ -42,6 +44,7 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3292,7 +3295,7 @@ end A300066.P2193672740008900156
 /-!
 # A300067: Period 6: repeat [0, 0, 0, 1, 2, 2].
 
-The programs for A300067, the canonical program `A300067.P601184407983145020` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300067 has offset 0).
+The programs for A300067, the canonical program `A300067.P601184407983145020` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300067 has offset 0).
 
 The definition of A300067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3301,7 +3304,7 @@ The definition of A300067 is `conjectured`: the Lean definition is a formula tha
 
 `val((n%6)!², 12)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A300067
@@ -3877,7 +3880,7 @@ end A300068
 /-!
 # A300069: Period 6: repeat [0, 0, 0, 1, 2, 1].
 
-The programs for A300069, the canonical program `A300069.P14189132953499515225` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300069 has offset 0).
+The programs for A300069, the canonical program `A300069.P14189132953499515225` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300069 has offset 0).
 
 The definition of A300069 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3886,7 +3889,7 @@ The definition of A300069 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, (n+3)%6)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A300069
@@ -3904,7 +3907,7 @@ end A300069
 /-!
 # A300075: Period 6: repeat [0, 1, 1, 2, 2, 2].
 
-The programs for A300075, the canonical program `A300075.P12895150144055741171` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300075 has offset 0).
+The programs for A300075, the canonical program `A300075.P12895150144055741171` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300075 has offset 0).
 
 The definition of A300075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3913,7 +3916,7 @@ The definition of A300075 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(n%6))`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A300075
@@ -4491,25 +4494,25 @@ end A300076
 /-!
 # A300077: Decimal expansion of Pi/2 truncated to n places.
 
-The programs for A300077, the canonical program `A300077.P16431319336194267716` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300077 has offset 1).
+The programs for A300077, the canonical program `A300077.P10252642979001351399` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300077 has offset 1).
 
 The definition of A300077 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A300077.P16431319336194267716
+/-! ## A300077.P10252642979001351399
 
 `floor(1/2*π*10^n)`
 
-The canonical program, it is in `Seq.B000.C033`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A300077
 
 /-- `floor(1/2*π*10^n)` -/
-def P16431319336194267716.Spec : Prop :=
-  ∀ n, P16431319336194267716.a n = A300077 (n + 1)
+def P10252642979001351399.Spec : Prop :=
+  ∀ n, P10252642979001351399.a n = A300077 (n + 1)
 
-theorem P16431319336194267716.correct : P16431319336194267716.Spec := by
+theorem P10252642979001351399.correct : P10252642979001351399.Spec := by
   intro n
   simp only [A300077, Nat.add_sub_cancel]
 
@@ -4629,32 +4632,6 @@ end
 
 end A300079.P5546384421820196030
 
-/-! ## A300079.P17179886560172447570
-
-`∩[A300064(n+1), comp[A351078(n)]]`
--/
-
-namespace A300079.P17179886560172447570
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300064 (n + 1)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351078 n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
-
-end
-
-end A300079.P17179886560172447570
-
 /-! ## A300079.P3576098589005476719
 
 `∩[A002808(n+1), A300064(n+1)]`
@@ -4699,6 +4676,54 @@ end
 
 end A300079.P18352931373667727949
 
+/-! ## A300079.P2168260245284195669
+
+`∩[A141468(n+1), A300064(n+2)]`
+-/
+
+namespace A300079.P2168260245284195669
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141468 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300064 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A300079.P2168260245284195669
+
+/-! ## A300079.P17179886560172447570
+
+`∩[A300064(n+1), comp[A351078(n)]]`
+-/
+
+namespace A300079.P17179886560172447570
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300064 (n + 1)
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351078 n
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ (x : ℤ)) n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
+
+end
+
+end A300079.P17179886560172447570
+
 /-! ## A300079.P10086004968123198922
 
 `∩[comp[A008578(n+1)], A300064(n+1)]`
@@ -4724,28 +4749,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300079.P10086004968123198922
-
-/-! ## A300079.P2168260245284195669
-
-`∩[A141468(n+1), A300064(n+2)]`
--/
-
-namespace A300079.P2168260245284195669
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141468 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300064 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A300079.P2168260245284195669
 
 /-! ## A300079.P10049998524495911763
 

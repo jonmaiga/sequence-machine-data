@@ -11,14 +11,13 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -26,6 +25,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -33,6 +33,8 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -71,7 +73,6 @@ import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3784,7 +3785,7 @@ end A369026.P862766386878589641
 /-!
 # A369027: a(n) = floor(n^2 * (n - 1)^(n - 1) / 2).
 
-The programs for A369027, the canonical program `A369027.P16990688544221689486` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369027 has offset 0).
+The programs for A369027, the canonical program `A369027.P16990688544221689486` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369027 has offset 0).
 
 The definition of A369027 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n²*(n-1)^(n-1)/2)` (program `A369027.P16990688544221689486`, by `A369027.P16990688544221689486.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3793,7 +3794,7 @@ The definition of A369027 is `verified`: the Lean definition is proven equivalen
 
 `floor(n²*(n-1)^(n-1)/2)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A369027
@@ -6427,6 +6428,21 @@ end
 
 end A369038.P18199444595080537960
 
+/-! ## A369038.P18153227265540942990
+
+`A003415(n+1)/gcd(A003415(n+1), A327860(n+1))`
+-/
+
+namespace A369038.P18153227265540942990
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A003415 (n + 1) : ℚ) / (Int.gcd (A003415 (n + 1)) (A327860 (n + 1)) : ℚ)
+
+end
+
+end A369038.P18153227265540942990
+
 /-! ## A369038.P13100723737428177213
 
 `A003415(n+1)/A327860(n+1)*A369039(n+1)`
@@ -6472,21 +6488,6 @@ end
 
 end A369038.P1259264438255361650
 
-/-! ## A369038.P14998202132973343363
-
-`A342001(n+1)+A227188(A002727(n))`
--/
-
-namespace A369038.P14998202132973343363
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A342001 (n + 1) + A227188 (A002727 n).toNat
-
-end
-
-end A369038.P14998202132973343363
-
 /-!
 # A369039: Denominator of ratio A003415(n) / A003415(A276086(n)), where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.
 
@@ -6507,6 +6508,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A369039.P5545126022124610006
+
+/-! ## A369039.P8064361914131375527
+
+`A327860(n+1)/gcd(A003415(n+1), A327860(n+1))`
+-/
+
+namespace A369039.P8064361914131375527
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A327860 (n + 1) : ℚ) / (Int.gcd (A003415 (n + 1)) (A327860 (n + 1)) : ℚ)
+
+end
+
+end A369039.P8064361914131375527
 
 /-! ## A369039.P12244183162728374237
 
@@ -6552,21 +6568,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369039.P11793498780493458931
-
-/-! ## A369039.P10659459134218729922
-
-`A168485(A392600(n+1))`
--/
-
-namespace A369039.P10659459134218729922
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A168485 (A392600 (n + 1)).toNat
-
-end
-
-end A369039.P10659459134218729922
 
 /-!
 # A369041: LCM-transform of binary Gray code (A003188).
@@ -9708,7 +9709,7 @@ end A369067.P3882288114412063652
 /-!
 # A369068: Möbius transform of A083345, where A083345(n) = n' / gcd(n,n'), and n' stands for the arithmetic derivative of n, A003415.
 
-The programs for A369068, the canonical program `A369068.P15893143769007237132` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369068 has offset 1).
+The programs for A369068, the canonical program `A369068.P15893143769007237132` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369068 has offset 1).
 
 The definition of A369068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9717,7 +9718,7 @@ The definition of A369068 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A083345((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A369068
@@ -10750,7 +10751,7 @@ end A369080.P15436362167211467710
 /-!
 # A369082: Expansion of g.f. A(x) satisfying A(x) = 1 + x*(3*A(x)^2 + A(-x)^2)/4.
 
-The programs for A369082, the canonical program `A369082.P13508565943011259919` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369082 has offset 0).
+The programs for A369082, the canonical program `A369082.P13508565943011259919` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369082 has offset 0).
 
 The definition of A369082 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10897,7 +10898,7 @@ end A369082
 
 `floor(C(2*n+1, floor((n+1)/2))/(2*n+1))`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A369082
@@ -11321,6 +11322,28 @@ end A369092.P12683828585861735725
 The programs for A369093, there is no canonical definition to state claims against.
 -/
 
+/-! ## A369093.P11135790505252303706
+
+`∩[A046758(n+1), A385402(n+1)]`
+-/
+
+namespace A369093.P11135790505252303706
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046758 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A385402 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A369093.P11135790505252303706
+
 /-! ## A369093.P11787161954877213804
 
 `∪[A139254(n+1), A210494(n+1)]`
@@ -11364,28 +11387,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A369093.P9824515879018050119
-
-/-! ## A369093.P11135790505252303706
-
-`∩[A046758(n+1), A385402(n+1)]`
--/
-
-namespace A369093.P11135790505252303706
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046758 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385402 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A369093.P11135790505252303706
 
 /-! ## A369093.P6131549730650515706
 

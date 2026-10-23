@@ -6,26 +6,23 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C032
+import Seq.B000.C030
 import Seq.B000.C033
+import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -116,7 +113,7 @@ end A377500.P9897613633546856803
 /-!
 # A377501: a(n) = 2 + 4^(n - 1) - (2 - sqrt(2))^(n - 1) - (2 + sqrt(2))^(n - 1).
 
-The programs for A377501, the canonical program `A377501.P3614797526391203819` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377501 has offset 1).
+The programs for A377501, the canonical program `A377501.P3614797526391203819` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377501 has offset 1).
 
 The definition of A377501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -125,7 +122,7 @@ The definition of A377501 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2+4^n-(2-sqrt(2))^n-(2+sqrt(2))^n`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A377501
@@ -3505,25 +3502,25 @@ end A377595.P8846294467462619839
 /-!
 # A377596: a(n) = (a(n-1) + a(n-2))^5 for n>=2 where a(0) = 0, a(1) = 1.
 
-The programs for A377596, the canonical program `A377596.P3598547363113328150` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377596 has offset 0).
+The programs for A377596, the canonical program `A377596.P6032089116386094869` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377596 has offset 0).
 
-The definition of A377596 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(a(n-1)+a(n-2))^5` (program `A377596.P3598547363113328150`, by `A377596.P3598547363113328150.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
+The definition of A377596 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A377596.P3598547363113328150
+/-! ## A377596.P6032089116386094869
 
-`(a(n-1)+a(n-2))^5` with `a(0)=0, a(1)=1`
+`A112980(n)^5`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A377596
 
-/-- `(a(n-1)+a(n-2))^5` -/
-def P3598547363113328150.Spec : Prop :=
-  ∀ n, (P3598547363113328150.a n : ℤ) = A377596 n
+/-- `A112980(n)^5` -/
+def P6032089116386094869.Spec : Prop :=
+  ∀ n, P6032089116386094869.a n = A377596 n
 
-theorem P3598547363113328150.correct : P3598547363113328150.Spec := by
+theorem P6032089116386094869.correct : P6032089116386094869.Spec := by
   intro n
   simp only [A377596]
 
@@ -3549,34 +3546,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377597.P6982867834113584439
-
-/-!
-# A377598: Positive integers D such that the generalized Pell equation X^2 - D Y^2 = -2 is solvable over the integers.
-
-The programs for A377598, there is no canonical definition to state claims against.
--/
-
-/-! ## A377598.P7321022275185599799
-
-`∩[A193303(n+1), A230108(n+1)]`
--/
-
-namespace A377598.P7321022275185599799
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193303 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A230108 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A377598.P7321022275185599799
 
 /-!
 # A377599: E.g.f. satisfies A(x) = exp( x * A(x) / (1-x)^2 ) / (1-x).

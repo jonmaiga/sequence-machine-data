@@ -19,6 +19,9 @@
         "sub",
         "a",
         "xor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

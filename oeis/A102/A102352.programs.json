@@ -2,15 +2,16 @@
   "oi": 102352,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "comp[C(contfrac[γ], 7)]",
+      "d": "2026-10-20",
+      "ix": "ceil(∑[ratio[∑[acot(n)]]])",
       "mt": 72,
       "px": [
-        "γ",
-        "contfrac",
-        "7",
-        "C",
-        "comp"
+        "n",
+        "acot",
+        "∑",
+        "ratio",
+        "∑",
+        "ceil"
       ]
     }
   ]

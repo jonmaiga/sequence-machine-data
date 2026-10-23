@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -14,11 +15,10 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -26,12 +26,14 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -84,7 +86,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -97,12 +98,15 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A338200: The number of similarity classes of pointed reflection spaces of residue two in an n-dimensional vector space over GF(2).
 
-The programs for A338200, the canonical program `A338200.P14756505547137573966` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338200 has offset 1).
+The programs for A338200, the canonical program `A338200.P14756505547137573966` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338200 has offset 1).
 
 The definition of A338200 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -111,7 +115,7 @@ The definition of A338200 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-2*a(n-5)+a(n-8)+a(n-9)-a(n-10)` with `a(0)=0, a(1)=0, a(2)=1, a(3)=2, a(4)=4, a(5)=6, a(6)=9, a(7)=12, a(8)=17, a(9)=21`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A338200
@@ -1094,7 +1098,7 @@ end A338205.P1008889128207546455
 /-!
 # A338206: Inverse of permutation in A160016.
 
-The programs for A338206, the canonical program `A338206.P8740019725536592137` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338206 has offset 0).
+The programs for A338206, the canonical program `A338206.P8740019725536592137` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338206 has offset 0).
 
 The definition of A338206 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1103,7 +1107,7 @@ The definition of A338206 is `conjectured`: the Lean definition is a formula tha
 
 `round(n/(3/2-n%2))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A338206
@@ -4259,27 +4263,49 @@ end A338228
 /-!
 # A338229: Number of ternary strings of length n that contain at least one 0 and at most two 1's.
 
-The programs for A338229, the canonical program `A338229.P13917878747455925273` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338229 has offset 0).
+The programs for A338229, the canonical program `A338229.P6155242186780911881` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338229 has offset 0).
 
-The definition of A338229 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A338229 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A338229.P6155242186780911881
+
+`2^n+n*2^(n-1)+C(n, 2)*2^(n-2)-C(n, 2)-n-1`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A338229
+
+/-- `2^n+n*2^(n-1)+C(n, 2)*2^(n-2)-C(n, 2)-n-1` -/
+def P6155242186780911881.Spec : Prop :=
+  ∀ n, P6155242186780911881.a n = (A338229 n : ℚ)
+
+end A338229
 
 /-! ## A338229.P13917878747455925273
 
 `A072863(n)-(∑[n]+1)`
-
-The canonical program, it is in `Seq.B001.C009`.
 -/
+
+namespace A338229.P13917878747455925273
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072863 n - ((∑ j ∈ Finset.range (n + 1), f1 j + 1 : ℕ) : ℤ)
+
+end
+
+end A338229.P13917878747455925273
 
 namespace A338229
 
 /-- `A072863(n)-(∑[n]+1)` -/
 def P13917878747455925273.Spec : Prop :=
   ∀ n, P13917878747455925273.a n = A338229 n
-
-theorem P13917878747455925273.correct : P13917878747455925273.Spec := by
-  intro n
-  simp only [A338229]
 
 end A338229
 
@@ -4655,7 +4681,7 @@ end A338229
 /-!
 # A338230: Number of ternary strings of length n that contain at least two 0's and at most one 1.
 
-The programs for A338230, the canonical program `A338230.P6531987429889146362` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338230 has offset 0).
+The programs for A338230, the canonical program `A338230.P6531987429889146362` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338230 has offset 0).
 
 The definition of A338230 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4664,7 +4690,7 @@ The definition of A338230 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n+n*2^(n-1)-2*C(n, 2)-2*n-1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A338230
@@ -5060,7 +5086,7 @@ end A338231
 /-!
 # A338232: Number of ternary strings of length n that contain at least two 0's and at most two 1's.
 
-The programs for A338232, the canonical program `A338232.P7779832538727840322` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338232 has offset 0).
+The programs for A338232, the canonical program `A338232.P7779832538727840322` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338232 has offset 0).
 
 The definition of A338232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5069,7 +5095,7 @@ The definition of A338232 is `conjectured`: the Lean definition is a formula tha
 
 `A342404(n)+A338230(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A338232
@@ -9275,7 +9301,7 @@ end A338274.P12002499571093048463
 /-!
 # A338277: Greatest integer whose square root is less than or equal to Sum_{j=0..n} sqrt(j).
 
-The programs for A338277, the canonical program `A338277.P7370982127005809496` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338277 has offset 0).
+The programs for A338277, the canonical program `A338277.P7370982127005809496` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338277 has offset 0).
 
 The definition of A338277 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9284,7 +9310,7 @@ The definition of A338277 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[sqrt(n)]²)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A338277
@@ -10111,7 +10137,7 @@ end A338283.P7376559781102706797
 /-!
 # A338284: a(n) is the smallest nonsquare m such that the second partial quotient in the continued fraction for sqrt(m) equals n.
 
-The programs for A338284, the canonical program `A338284.P11673069137575542411` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338284 has offset 1).
+The programs for A338284, the canonical program `A338284.P11673069137575542411` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338284 has offset 1).
 
 The definition of A338284 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10120,7 +10146,7 @@ The definition of A338284 is `conjectured`: the Lean definition is a formula tha
 
 `A171621(xor(1, n+2))+2`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A338284
@@ -10708,8 +10734,29 @@ end A338292.P4605645194009402593
 /-!
 # A338293: Number of matchings in the complete binary tree of n rows.
 
-The programs for A338293, there is no canonical definition to state claims against.
+The programs for A338293, the canonical program `A338293.P17390582011274175994` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338293 has offset 0).
+
+The definition of A338293 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A338293.P17390582011274175994
+
+`a(n-1)²+2*a(n-1)*a(n-2)²` with `a(0)=1, a(1)=1`
+
+The canonical program, it is in `Seq.B000.C036`.
+-/
+
+namespace A338293
+
+/-- `a(n-1)²+2*a(n-1)*a(n-2)²` -/
+def P17390582011274175994.Spec : Prop :=
+  ∀ n, (P17390582011274175994.a n : ℤ) = A338293 n
+
+theorem P17390582011274175994.correct : P17390582011274175994.Spec := by
+  intro n
+  simp only [A338293]
+
+end A338293
 
 /-! ## A338293.P10944798361922574921
 
@@ -10726,6 +10773,20 @@ end
 
 end A338293.P10944798361922574921
 
+namespace A338293
+
+/-- `(a(n-1)+2*a(n-2)²)*a(n-1)` -/
+def P10944798361922574921.Spec : Prop :=
+  ∀ n, (P10944798361922574921.a n : ℤ) = A338293 n
+
+theorem P10944798361922574921.correct : P10944798361922574921.Spec := by
+  intro n
+  simp only [A338293, Nat.add_sub_cancel, A338293.P10944798361922574921.a, A338293.P17390582011274175994.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A338293
+
 /-! ## A338293.P14268926965915634344
 
 `(a(n-1)+2*a(n-2)*a(n-2))*a(n-1)` with `a(0)=1, a(1)=1`
@@ -10741,6 +10802,20 @@ end
 
 end A338293.P14268926965915634344
 
+namespace A338293
+
+/-- `(a(n-1)+2*a(n-2)*a(n-2))*a(n-1)` -/
+def P14268926965915634344.Spec : Prop :=
+  ∀ n, (P14268926965915634344.a n : ℤ) = A338293 n
+
+theorem P14268926965915634344.correct : P14268926965915634344.Spec := by
+  intro n
+  simp only [A338293, Nat.add_sub_cancel, A338293.P14268926965915634344.a, A338293.P17390582011274175994.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A338293
+
 /-! ## A338293.P9131723392226703649
 
 `abs(A265025(A000079(n)))`
@@ -10755,6 +10830,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A338293.P9131723392226703649
+
+namespace A338293
+
+/-- `abs(A265025(A000079(n)))` -/
+def P9131723392226703649.Spec : Prop :=
+  ∀ n, P9131723392226703649.a n = A338293 n
+
+end A338293
 
 /-! ## A338293.P3338319364062541166
 
@@ -10774,20 +10857,13 @@ end
 
 end A338293.P3338319364062541166
 
-/-! ## A338293.P972519133518522578
+namespace A338293
 
-`lcm(A265025(n+1), A265025(A000079(n)))`
--/
+/-- `abs(A265025(record[A131816(n)]))` -/
+def P3338319364062541166.Spec : Prop :=
+  ∀ n, P3338319364062541166.a n = A338293 n
 
-namespace A338293.P972519133518522578
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A265025 (n + 1)) (A265025 (A000079 n).toNat)
-
-end
-
-end A338293.P972519133518522578
+end A338293
 
 /-!
 # A338295: For n > 1, a(n) is the largest base b <= n such that the digits of n in base b contain the digit b-1; a(1) = 1.

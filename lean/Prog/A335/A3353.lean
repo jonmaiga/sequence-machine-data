@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -9,22 +10,23 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -75,6 +77,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -956,77 +959,11 @@ end
 
 end A335316.P10636765069823920876
 
-/-! ## A335316.P17891459497678641740
-
-`∩[A001599(n+1), A324578(n+1)]`
--/
-
-namespace A335316.P17891459497678641740
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001599 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324578 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335316.P17891459497678641740
-
 /-!
 # A335317: Harmonic numbers (A001599) with a record number of divisors.
 
 The programs for A335317, there is no canonical definition to state claims against.
 -/
-
-/-! ## A335317.P16289934097593823660
-
-`∪[A335316(A038101(n+1)), A335318(n+1)]`
--/
-
-namespace A335317.P16289934097593823660
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335316 (A038101 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335318 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335317.P16289934097593823660
-
-/-! ## A335317.P11469533024192652715
-
-`∪[A335316(A073956(n+1)), A335318(n+1)]`
--/
-
-namespace A335317.P11469533024192652715
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335316 (A073956 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335318 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335317.P11469533024192652715
 
 /-! ## A335317.P10672083006525743541
 
@@ -1075,6 +1012,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A335317.P4617250935762385489
+
+/-! ## A335317.P16289934097593823660
+
+`∪[A335316(A038101(n+1)), A335318(n+1)]`
+-/
+
+namespace A335317.P16289934097593823660
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335316 (A038101 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335318 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335317.P16289934097593823660
 
 /-!
 # A335318: Harmonic numbers (A001599) k with a record abundancy index sigma(k)/k.
@@ -2735,7 +2694,7 @@ end A335334.P16078741833997270175
 /-!
 # A335338: P_5(2n+1), the Legendre polynomial of order 5 at 2n+1.
 
-The programs for A335338, the canonical program `A335338.P10098281563502059336` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335338 has offset 0).
+The programs for A335338, the canonical program `A335338.P10098281563502059336` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335338 has offset 0).
 
 The definition of A335338 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2744,7 +2703,7 @@ The definition of A335338 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*n+1)*(126*n^4+252*n^3+154*n²+28*n+1)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A335338
@@ -4062,6 +4021,28 @@ end
 
 end A335346.P6393368476068757244
 
+/-! ## A335346.P13372832361748559902
+
+`∩[A001358(A109310(n+1)), A272306(n+1)]`
+-/
+
+namespace A335346.P13372832361748559902
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001358 (A109310 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272306 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A335346.P13372832361748559902
+
 /-! ## A335346.P553599398655112405
 
 `∩[A001358(A092191(n+1)), A272307(n+1)]`
@@ -4083,28 +4064,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335346.P553599398655112405
-
-/-! ## A335346.P6706194178100508364
-
-`∩[A129767(2*A092191(n+1)), A272307(n+1)]`
--/
-
-namespace A335346.P6706194178100508364
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A129767 (2 * A092191 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272307 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335346.P6706194178100508364
 
 /-! ## A335346.P3045938392618917131
 
@@ -4128,19 +4087,19 @@ end
 
 end A335346.P3045938392618917131
 
-/-! ## A335346.P13372832361748559902
+/-! ## A335346.P6706194178100508364
 
-`∩[A001358(A109310(n+1)), A272306(n+1)]`
+`∩[A129767(2*A092191(n+1)), A272307(n+1)]`
 -/
 
-namespace A335346.P13372832361748559902
+namespace A335346.P6706194178100508364
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001358 (A109310 (n + 1)).toNat
+  A129767 (2 * A092191 (n + 1)).toNat
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272306 (n + 1)
+  A272307 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -4148,7 +4107,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A335346.P13372832361748559902
+end A335346.P6706194178100508364
 
 /-!
 # A335347: Middle side of primitive triples for integer-sided triangles that have two perpendicular medians, the triples being ordered by increasing perimeter.
@@ -5582,50 +5541,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A335375.P18269533489003393144
-
-/-! ## A335375.P8880577022515216411
-
-`∩[A375296(n+1), A335373(n+3)]`
--/
-
-namespace A335375.P8880577022515216411
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375296 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335373 (n + 3)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335375.P8880577022515216411
-
-/-! ## A335375.P17168928784399322311
-
-`∩[A335373(A325368(n+1)), A391624(n+1)]`
--/
-
-namespace A335375.P17168928784399322311
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A335373 (A325368 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A391624 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A335375.P17168928784399322311
 
 /-!
 # A335376: Heinz numbers of totally co-strong integer partitions.

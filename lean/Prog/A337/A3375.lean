@@ -4,26 +4,22 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
@@ -33,6 +29,8 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,6 +44,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -1427,7 +1426,7 @@ end A337518.P10381421959218240986
 /-!
 # A337519: Length of the shortest walk in an n X n grid graph that starts in one corner and visits every edge.
 
-The programs for A337519, the canonical program `A337519.P10508685295227558400` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337519 has offset 2).
+The programs for A337519, the canonical program `A337519.P10508685295227558400` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337519 has offset 2).
 
 The definition of A337519 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1436,7 +1435,7 @@ The definition of A337519 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-2*a(n-3)+a(n-4)` with `a(0)=4, a(1)=15, a(2)=28, a(3)=47`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A337519
@@ -1950,7 +1949,7 @@ end A337523.P16019469219938656410
 /-!
 # A337524: a(n) = d(n) * (d(n) - 1), where d is the number of divisors of n (A000005).
 
-The programs for A337524, the canonical program `A337524.P2006209600140358026` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337524 has offset 1).
+The programs for A337524, the canonical program `A337524.P2006209600140358026` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337524 has offset 1).
 
 The definition of A337524 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1959,7 +1958,7 @@ The definition of A337524 is `conjectured`: the Lean definition is a formula tha
 
 `2*C(∏{e}[n+1, #+1], 2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A337524
@@ -3135,36 +3134,6 @@ def P7200300743355412088.Spec : Prop :=
 
 end A337533
 
-/-! ## A337533.P3535517959036172723
-
-`∩[A046100(n+1), A175084(n+1)]`
--/
-
-namespace A337533.P3535517959036172723
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046100 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A175084 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A337533.P3535517959036172723
-
-namespace A337533
-
-/-- `∩[A046100(n+1), A175084(n+1)]` -/
-def P3535517959036172723.Spec : Prop :=
-  ∀ n, (P3535517959036172723.a n : ℤ) = A337533 (n + 1)
-
-end A337533
-
 /-! ## A337533.P15736723196595776179
 
 `∩[A023809(n+1), A175084(n+1)]`
@@ -3192,6 +3161,36 @@ namespace A337533
 /-- `∩[A023809(n+1), A175084(n+1)]` -/
 def P15736723196595776179.Spec : Prop :=
   ∀ n, (P15736723196595776179.a n : ℤ) = A337533 (n + 1)
+
+end A337533
+
+/-! ## A337533.P3535517959036172723
+
+`∩[A046100(n+1), A175084(n+1)]`
+-/
+
+namespace A337533.P3535517959036172723
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046100 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A175084 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A337533.P3535517959036172723
+
+namespace A337533
+
+/-- `∩[A046100(n+1), A175084(n+1)]` -/
+def P3535517959036172723.Spec : Prop :=
+  ∀ n, (P3535517959036172723.a n : ℤ) = A337533 (n + 1)
 
 end A337533
 
@@ -3314,28 +3313,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A337534.P1297715671770518898
-
-/-! ## A337534.P13328969053125904141
-
-`∩[A039200(n+1), A104020(n+1)]`
--/
-
-namespace A337534.P13328969053125904141
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039200 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104020 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A337534.P13328969053125904141
 
 /-!
 # A337536: Numbers k for which there are only 2 bases b (2 and k+1) where the digits of k contain the digit b-1.
@@ -5512,35 +5489,20 @@ end A337549
 The programs for A337550, there is no canonical definition to state claims against.
 -/
 
-/-! ## A337550.P16795378479001334559
+/-! ## A337550.P7203306604435668572
 
 `8*(n+1)*A006782(n+1)`
 -/
 
-namespace A337550.P16795378479001334559
+namespace A337550.P7203306604435668572
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  8 * ((n + 1 : ℤ) * A006782 (n + 1))
+  (8 * (n + 1) : ℤ) * A006782 (n + 1)
 
 end
 
-end A337550.P16795378479001334559
-
-/-! ## A337550.P206906425619780745
-
-`(A004771(n)+1)*A006782(n+1)`
--/
-
-namespace A337550.P206906425619780745
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A004771 n + 1) * A006782 (n + 1)
-
-end
-
-end A337550.P206906425619780745
+end A337550.P7203306604435668572
 
 /-! ## A337550.P5630607250105597928
 
@@ -6514,7 +6476,7 @@ end A337565.P10533634980138270288
 /-!
 # A337566: a(n) is the number of possible decompositions of the polynomial n * (x + x^2 + ... + x^q), where q > 1, into a sum of k polynomials, not necessarily all different; each of these polynomials is to be of the form b_1 * x + b_2 * x^2 + ... + b_q * x^q where each b_i is one of the numbers 1, 2, 3, ..., q and no two b_i are equal.
 
-The programs for A337566, the canonical program `A337566.P6888231606772076674` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337566 has offset 1).
+The programs for A337566, the canonical program `A337566.P6888231606772076674` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337566 has offset 1).
 
 The definition of A337566 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6523,7 +6485,7 @@ The definition of A337566 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[abs(1-n)+n+3, #+1]-3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A337566

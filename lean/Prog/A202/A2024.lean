@@ -1,7 +1,6 @@
 import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
@@ -9,7 +8,7 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -18,25 +17,27 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
@@ -65,6 +66,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -72,13 +74,12 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A202400: Number of (n+2) X 4 binary arrays avoiding patterns 000 and 010 in rows and columns.
@@ -1038,7 +1039,7 @@ end A202413.P465618206302675115
 /-!
 # A202414: Number of (n+2) X 3 binary arrays with no more than one of any consecutive three bits set in any row or column.
 
-The programs for A202414, the canonical program `A202414.P4200359668891302172` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202414 has offset 1).
+The programs for A202414, the canonical program `A202414.P4200359668891302172` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202414 has offset 1).
 
 The definition of A202414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1047,7 +1048,7 @@ The definition of A202414 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=34, a(1)=94, a(2)=265, a(3)=739`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A202414
@@ -2594,16 +2595,16 @@ end A202439.P18424444981148604641
 /-!
 # A202440: Number of (n+2) X 3 binary arrays avoiding patterns 001 and 110 in rows, columns and nw-to-se diagonals.
 
-The programs for A202440, the canonical program `A202440.P13954623535123565726` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202440 has offset 1).
+The programs for A202440, the canonical program `A202440.P13954623535123565726` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202440 has offset 1).
 
-The definition of A202440 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A202440 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A202440.P13954623535123565726
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=80, a(1)=138, a(2)=224, a(3)=338, a(4)=484`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A202440
@@ -3214,28 +3215,6 @@ end
 
 end A202449.P11532347599293207555
 
-/-! ## A202449.P5615272118768807263
-
-`A322424(∪[A003174(2*(n+2)), A140103(n+1)])`
--/
-
-namespace A202449.P5615272118768807263
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003174 (2 * (n + 2))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A140103 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322424 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A202449.P5615272118768807263
-
 /-!
 # A202451: Upper triangular Fibonacci matrix, by SW antidiagonals.
 
@@ -3829,7 +3808,7 @@ end A202454.P229955756602586695
 /-!
 # A202455: Number of (n+2) X 4 binary arrays with consecutive windows of three bits considered as a binary number nondecreasing in every row and column.
 
-The programs for A202455, the canonical program `A202455.P6900419488968996005` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202455 has offset 1).
+The programs for A202455, the canonical program `A202455.P6900419488968996005` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202455 has offset 1).
 
 The definition of A202455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3838,7 +3817,7 @@ The definition of A202455 is `conjectured`: the Lean definition is a formula tha
 
 `1/4*(n+1)^4+15/2*(n+1)^3+229/4*(n+1)²+237*(n+1)+427`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A202455
@@ -4065,7 +4044,7 @@ end A202455
 
 /-! ## A202455.P5703487755197259607
 
-`-A008683(A007918(n))*A202461(A000096(n+1))`
+`-(A008683(A007918(n))*A202461(A000096(n+1)))`
 -/
 
 namespace A202455.P5703487755197259607
@@ -4080,7 +4059,7 @@ end A202455.P5703487755197259607
 
 namespace A202455
 
-/-- `-A008683(A007918(n))*A202461(A000096(n+1))` -/
+/-- `-(A008683(A007918(n))*A202461(A000096(n+1)))` -/
 def P5703487755197259607.Spec : Prop :=
   ∀ n, P5703487755197259607.a n = A202455 (n + 1)
 
@@ -4888,7 +4867,7 @@ end A202460.P10365895955838720891
 /-!
 # A202462: a(n) = Sum_{j=1..n} Sum_{i=1..n} F(i,j), where F is the Fibonacci fusion array of A202453.
 
-The programs for A202462, the canonical program `A202462.P2011727991851401650` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202462 has offset 1).
+The programs for A202462, the canonical program `A202462.P2011727991851401650` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202462 has offset 1).
 
 The definition of A202462 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4926,7 +4905,7 @@ end A202462
 
 `∑[∑[a(n-1)+a(n-2)]²]` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A202462

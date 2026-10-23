@@ -10,26 +10,28 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -92,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A308200: The tribonacci representation of a(n) is obtained by appending 0,0,0 to the tribonacci representation of n (cf. A278038).
@@ -1483,29 +1484,10 @@ end A308214.P12269819790237607426
 /-!
 # A308215: a(n) is the multiplicative inverse of A001844(n+1) modulo A001844(n); where A001844 is the sequence of centered square numbers.
 
-The programs for A308215, the canonical program `A308215.P10243934200875941476` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308215 has offset 0).
+The programs for A308215, the canonical program `A308215.P10243934200875941476` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308215 has offset 0).
 
-The definition of A308215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A308215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A308215.P10243934200875941476
-
-`3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=0, a(1)=2, a(2)=12, a(3)=11, a(4)=39, a(5)=28, a(6)=82`
-
-The canonical program, it is in `Seq.B000.C034`.
--/
-
-namespace A308215
-
-/-- `3*a(n-2)-3*a(n-4)+a(n-6)` -/
-def P10243934200875941476.Spec : Prop :=
-  ∀ n, P10243934200875941476.a n = A308215 n
-
-theorem P10243934200875941476.correct : P10243934200875941476.Spec := by
-  intro n
-  simp only [A308215]
-
-end A308215
 
 /-! ## A308215.P2915035294684331214
 
@@ -1605,6 +1587,25 @@ namespace A308215
 /-- `lcm(n+1, 2*n)-floor(∑[n]/(n+2))` -/
 def P16915212764373556599.Spec : Prop :=
   ∀ n, P16915212764373556599.a n = A308215 n
+
+end A308215
+
+/-! ## A308215.P10243934200875941476
+
+`3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=0, a(1)=2, a(2)=12, a(3)=11, a(4)=39, a(5)=28, a(6)=82`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A308215
+
+/-- `3*a(n-2)-3*a(n-4)+a(n-6)` -/
+def P10243934200875941476.Spec : Prop :=
+  ∀ n, P10243934200875941476.a n = A308215 n
+
+theorem P10243934200875941476.correct : P10243934200875941476.Spec := by
+  intro n
+  simp only [A308215]
 
 end A308215
 
@@ -1793,29 +1794,10 @@ end A308216.P7129811726330738128
 /-!
 # A308217: a(n) is the multiplicative inverse of A001844(n) modulo A001844(n+1); where A001844 is the sequence of centered square numbers.
 
-The programs for A308217, the canonical program `A308217.P14160406543593648924` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308217 has offset 0).
+The programs for A308217, the canonical program `A308217.P14160406543593648924` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308217 has offset 0).
 
-The definition of A308217 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A308217 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A308217.P14160406543593648924
-
-`3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=1, a(1)=8, a(2)=2, a(3)=23, a(4)=3, a(5)=46`
-
-The canonical program, it is in `Seq.B000.C034`.
--/
-
-namespace A308217
-
-/-- `3*a(n-2)-3*a(n-4)+a(n-6)` -/
-def P14160406543593648924.Spec : Prop :=
-  ∀ n, P14160406543593648924.a n = A308217 n
-
-theorem P14160406543593648924.correct : P14160406543593648924.Spec := by
-  intro n
-  simp only [A308217]
-
-end A308217
 
 /-! ## A308217.P409327932849636227
 
@@ -1840,6 +1822,25 @@ namespace A308217
 /-- `((n+1)^3)%(∑[4*(n+1)]+1)` -/
 def P409327932849636227.Spec : Prop :=
   ∀ n, (P409327932849636227.a n : ℤ) = A308217 n
+
+end A308217
+
+/-! ## A308217.P14160406543593648924
+
+`3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=1, a(1)=8, a(2)=2, a(3)=23, a(4)=3, a(5)=46`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A308217
+
+/-- `3*a(n-2)-3*a(n-4)+a(n-6)` -/
+def P14160406543593648924.Spec : Prop :=
+  ∀ n, P14160406543593648924.a n = A308217 n
+
+theorem P14160406543593648924.correct : P14160406543593648924.Spec := by
+  intro n
+  simp only [A308217]
 
 end A308217
 

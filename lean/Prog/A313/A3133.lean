@@ -12,18 +12,20 @@ import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C025
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C030
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C028
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -1034,16 +1036,16 @@ end A313320.P13871711880563217887
 /-!
 # A313321: Coordination sequence Gal.3.42.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A313321, the canonical program `A313321.P15623248568632964517` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A313321 has offset 0).
+The programs for A313321, the canonical program `A313321.P15623248568632964517` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A313321 has offset 0).
 
-The definition of A313321 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A313321 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2451 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A313321.P15623248568632964517
 
 `2*a(n-4)-a(n-8)` with `a(0)=1, a(1)=4, a(2)=9, a(3)=16, a(4)=18, a(5)=24, a(6)=31, a(7)=34, a(8)=38, a(9)=42`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A313321
@@ -3527,25 +3529,6 @@ end A313381.P4639836531046948684
 
 The programs for A313382, there is no canonical definition to state claims against.
 -/
-
-/-! ## A313382.P4257995218523180442
-
-`A310977(n)+comp[A137565(2*n+1)]`
--/
-
-namespace A313382.P4257995218523180442
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137565 (2 * n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A310977 n + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
-
-end
-
-end A313382.P4257995218523180442
 
 /-! ## A313382.P17605137653599753656
 

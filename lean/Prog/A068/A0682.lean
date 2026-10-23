@@ -4,27 +4,28 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C026
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -40,7 +41,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -284,7 +284,7 @@ end A068202.P1248707713513811127
 /-!
 # A068203: Chebyshev T-polynomials T(n,15) with Diophantine property.
 
-The programs for A068203, the canonical program `A068203.P6636843592554519852` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068203 has offset 0).
+The programs for A068203, the canonical program `A068203.P6636843592554519852` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068203 has offset 0).
 
 The definition of A068203 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -293,7 +293,7 @@ The definition of A068203 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `30*a(n-1)-a(n-2)` with `a(0)=1, a(1)=15`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068203
@@ -455,7 +455,7 @@ end A068203
 /-!
 # A068204: Let (x_n, y_n) be n-th solution to the Pell equation x^2 = 14*y^2 + 1. Sequence gives {y_n}.
 
-The programs for A068204, the canonical program `A068204.P5055730914267291819` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068204 has offset 1).
+The programs for A068204, the canonical program `A068204.P5055730914267291819` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068204 has offset 1).
 
 The definition of A068204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -464,7 +464,7 @@ The definition of A068204 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `30*a(n-1)-a(n-2)` with `a(0)=0, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068204
@@ -476,6 +476,29 @@ def P5055730914267291819.Spec : Prop :=
 theorem P5055730914267291819.correct : P5055730914267291819.Spec := by
   intro n
   simp only [A068204, Nat.add_sub_cancel]
+
+end A068204
+
+/-! ## A068204.P11779069339397092840
+
+`((15+4*sqrt(14))^n-(15-4*sqrt(14))^n)/28*sqrt(14)`
+-/
+
+namespace A068204.P11779069339397092840
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ((15 + 4 * Real.sqrt (14 : ℝ)) ^ n - (15 - 4 * Real.sqrt (14 : ℝ)) ^ n) / 28 * Real.sqrt (14 : ℝ)
+
+end
+
+end A068204.P11779069339397092840
+
+namespace A068204
+
+/-- `((15+4*sqrt(14))^n-(15-4*sqrt(14))^n)/28*sqrt(14)` -/
+def P11779069339397092840.Spec : Prop :=
+  ∀ n, P11779069339397092840.a n = (A068204 (n + 1) : ℝ)
 
 end A068204
 
@@ -534,32 +557,6 @@ def P13321434410340740468.Spec : Prop :=
 
 end A068204
 
-/-! ## A068204.P16078849251300938148
-
-`4*record[A041097(n)-A041419(n)]`
--/
-
-namespace A068204.P16078849251300938148
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A041097 n - A041419 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A068204.P16078849251300938148
-
-namespace A068204
-
-/-- `4*record[A041097(n)-A041419(n)]` -/
-def P16078849251300938148.Spec : Prop :=
-  ∀ n, P16078849251300938148.a n = A068204 (n + 1)
-
-end A068204
-
 /-! ## A068204.P6858853766901506687
 
 `record[A048911(n+1)%A041419(n)]`
@@ -583,29 +580,6 @@ namespace A068204
 /-- `record[A048911(n+1)%A041419(n)]` -/
 def P6858853766901506687.Spec : Prop :=
   ∀ n, P6858853766901506687.a n = A068204 (n + 1)
-
-end A068204
-
-/-! ## A068204.P871132570419501842
-
-`2*(A157878(n+1)-A157877(n+1))`
--/
-
-namespace A068204.P871132570419501842
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A157878 (n + 1) - A157877 (n + 1))
-
-end
-
-end A068204.P871132570419501842
-
-namespace A068204
-
-/-- `2*(A157878(n+1)-A157877(n+1))` -/
-def P871132570419501842.Spec : Prop :=
-  ∀ n, P871132570419501842.a n = A068204 (n + 1)
 
 end A068204
 
@@ -1935,7 +1909,7 @@ end A068216.P18416932266754890347
 /-!
 # A068217: Denominators of coefficients in 3*log(sqrt(1+x)) power series.
 
-The programs for A068217, the canonical program `A068217.P1284071991272962723` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068217 has offset 1).
+The programs for A068217, the canonical program `A068217.P1284071991272962723` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068217 has offset 1).
 
 The definition of A068217 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1944,7 +1918,7 @@ The definition of A068217 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-3)-a(n-6)` with `a(0)=2, a(1)=4, a(2)=2, a(3)=8, a(4)=10, a(5)=4`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068217
@@ -3702,7 +3676,7 @@ end A068227
 /-!
 # A068228: Primes congruent to 1 (mod 12).
 
-The programs for A068228, the canonical program `A068228.P2780938449886948151` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068228 has offset 1).
+The programs for A068228, the canonical program `A068228.P2780938449886948151` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068228 has offset 1).
 
 The definition of A068228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3711,7 +3685,7 @@ The definition of A068228 is `conjectured`: the Lean definition is a formula tha
 
 `p?[12*n+1]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068228
@@ -3753,6 +3727,36 @@ namespace A068228
 /-- `∩[A002144(n+1), A002476(n+1)]` -/
 def P5636597236462483961.Spec : Prop :=
   ∀ n, (P5636597236462483961.a n : ℤ) = A068228 (n + 1)
+
+end A068228
+
+/-! ## A068228.P17832218048454443810
+
+`∩[A002476(n+1), A191218(n+1)]`
+-/
+
+namespace A068228.P17832218048454443810
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002476 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191218 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068228.P17832218048454443810
+
+namespace A068228
+
+/-- `∩[A002476(n+1), A191218(n+1)]` -/
+def P17832218048454443810.Spec : Prop :=
+  ∀ n, (P17832218048454443810.a n : ℤ) = A068228 (n + 1)
 
 end A068228
 
@@ -3846,66 +3850,6 @@ def P15825026651780885702.Spec : Prop :=
 
 end A068228
 
-/-! ## A068228.P14905267498289007715
-
-`∩[A007645(n+1), A125018(n+1)]`
--/
-
-namespace A068228.P14905267498289007715
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007645 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125018 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068228.P14905267498289007715
-
-namespace A068228
-
-/-- `∩[A007645(n+1), A125018(n+1)]` -/
-def P14905267498289007715.Spec : Prop :=
-  ∀ n, (P14905267498289007715.a n : ℤ) = A068228 (n + 1)
-
-end A068228
-
-/-! ## A068228.P17832218048454443810
-
-`∩[A002476(n+1), A191218(n+1)]`
--/
-
-namespace A068228.P17832218048454443810
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002476 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191218 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A068228.P17832218048454443810
-
-namespace A068228
-
-/-- `∩[A002476(n+1), A191218(n+1)]` -/
-def P17832218048454443810.Spec : Prop :=
-  ∀ n, (P17832218048454443810.a n : ℤ) = A068228 (n + 1)
-
-end A068228
-
 /-! ## A068228.P11558518064803955591
 
 `∩[A007645(n+1), A191218(n+1)]`
@@ -3933,6 +3877,36 @@ namespace A068228
 /-- `∩[A007645(n+1), A191218(n+1)]` -/
 def P11558518064803955591.Spec : Prop :=
   ∀ n, (P11558518064803955591.a n : ℤ) = A068228 (n + 1)
+
+end A068228
+
+/-! ## A068228.P14905267498289007715
+
+`∩[A007645(n+1), A125018(n+1)]`
+-/
+
+namespace A068228.P14905267498289007715
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007645 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A125018 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A068228.P14905267498289007715
+
+namespace A068228
+
+/-- `∩[A007645(n+1), A125018(n+1)]` -/
+def P14905267498289007715.Spec : Prop :=
+  ∀ n, (P14905267498289007715.a n : ℤ) = A068228 (n + 1)
 
 end A068228
 
@@ -4276,7 +4250,7 @@ end A068228
 /-!
 # A068229: Primes congruent to 7 (mod 12).
 
-The programs for A068229, the canonical program `A068229.P4621681780880692968` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068229 has offset 1).
+The programs for A068229, the canonical program `A068229.P4621681780880692968` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068229 has offset 1).
 
 The definition of A068229 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4285,7 +4259,7 @@ The definition of A068229 is `conjectured`: the Lean definition is a formula tha
 
 `p?[12*n-5]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068229
@@ -4846,7 +4820,7 @@ end A068229
 /-!
 # A068231: Primes congruent to 11 mod 12.
 
-The programs for A068231, the canonical program `A068231.P17213326245537033468` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068231 has offset 1).
+The programs for A068231, the canonical program `A068231.P17213326245537033468` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068231 has offset 1).
 
 The definition of A068231 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4855,7 +4829,7 @@ The definition of A068231 is `conjectured`: the Lean definition is a formula tha
 
 `p?[12*n-1]`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068231
@@ -5398,7 +5372,7 @@ end A068231
 /-!
 # A068236: First differences of (n+1)^5 - n^5.
 
-The programs for A068236, the canonical program `A068236.P8866221321753829906` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068236 has offset 0).
+The programs for A068236, the canonical program `A068236.P8866221321753829906` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068236 has offset 0).
 
 The definition of A068236 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5407,7 +5381,7 @@ The definition of A068236 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+2)^5-2*(n+1)^5+n^5`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068236
@@ -6167,7 +6141,7 @@ end A068240.P14723706001212421087
 /-!
 # A068244: 1/6 the number of colorings of a 3 X 3 rhombic- or staggered- hexagonal array with n colors.
 
-The programs for A068244, the canonical program `A068244.P4361570666989602982` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068244 has offset 3).
+The programs for A068244, the canonical program `A068244.P4361570666989602982` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068244 has offset 3).
 
 The definition of A068244 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6199,7 +6173,7 @@ end A068244
 
 `(A060888(n+1)+n)*∑[∑[n+1]]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A068244
@@ -6289,23 +6263,23 @@ end A068244
 /-!
 # A068250: 1/24 the number of colorings of a 3 X 3 octagonal array with n colors.
 
-The programs for A068250, the canonical program `A068250.P2553707168632581841` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068250 has offset 4).
+The programs for A068250, the canonical program `A068250.P10092043592590067592` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068250 has offset 4).
 
 The definition of A068250 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A068250.P2553707168632581841
+/-! ## A068250.P10092043592590067592
 
 `(n+2)*(n+3)*((n+4)²-5*(n+4)+7)*(n+1)^4*(n+4)/24`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068250
 
 /-- `(n+2)*(n+3)*((n+4)²-5*(n+4)+7)*(n+1)^4*(n+4)/24` -/
-def P2553707168632581841.Spec : Prop :=
-  ∀ n, P2553707168632581841.a n = (A068250 (n + 4) : ℚ)
+def P10092043592590067592.Spec : Prop :=
+  ∀ n, P10092043592590067592.a n = (A068250 (n + 4) : ℚ)
 
 end A068250
 
@@ -6597,7 +6571,7 @@ end A068271.P5596663784208629880
 /-!
 # A068293: a(1) = 1; thereafter a(n) = 6*(2^(n-1) - 1).
 
-The programs for A068293, the canonical program `A068293.P8754097377432460261` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068293 has offset 1).
+The programs for A068293, the canonical program `A068293.P8754097377432460261` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068293 has offset 1).
 
 The definition of A068293 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6606,7 +6580,7 @@ The definition of A068293 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-2*a(n-2)` with `a(0)=1, a(1)=6, a(2)=18`
 
-The canonical program, it is in `Seq.B000.C010`.
+The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A068293

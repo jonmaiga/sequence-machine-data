@@ -2,7 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
+import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
@@ -11,23 +11,25 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,6 +40,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
@@ -86,7 +89,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -2329,28 +2331,6 @@ end
 
 end A182624.P13182001238800552933
 
-/-! ## A182624.P1318304797766005838
-
-`∩[A096068(A000040(n+1)), A000040(n+4)]`
--/
-
-namespace A182624.P1318304797766005838
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A096068 (A000040 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 4)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A182624.P1318304797766005838
-
 /-! ## A182624.P15384999612142350864
 
 `p?[A182623(n+1)]`
@@ -2601,7 +2581,7 @@ end A182626
 /-!
 # A182627: Total number of digits in binary expansion of all divisors of n.
 
-The programs for A182627, the canonical program `A182627.P12201670798180404974` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182627 has offset 1).
+The programs for A182627, the canonical program `A182627.P12201670798180404974` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182627 has offset 1).
 
 The definition of A182627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2633,7 +2613,7 @@ end A182627
 
 `∑{d}[n+1, floor(log2(#))+1]`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A182627
@@ -4006,25 +3986,6 @@ end
 
 end A182637.P3739998687106283666
 
-/-! ## A182637.P2829834424829915570
-
-`comp[A182636(n+1)-1]+1`
--/
-
-namespace A182637.P2829834424829915570
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182636 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A182637.P2829834424829915570
-
 /-! ## A182637.P5530503657887677091
 
 `lt[0, A102364(abs(1-n))%2]`
@@ -4172,10 +4133,29 @@ end
 
 end A182637.P9244206113470555487
 
+/-! ## A182637.P2829834424829915570
+
+`comp[A182636(n+1)-1]+1`
+-/
+
+namespace A182637.P2829834424829915570
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182636 (n + 1) - 1
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
+
+end
+
+end A182637.P2829834424829915570
+
 /-!
 # A182640: a(n)=n+floor(r*a(n-1)), where r = golden ratio = (1+sqrt(5))/2, a(0)=0, a(1)=1.
 
-The programs for A182640, the canonical program `A182640.P2114174624957267665` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182640 has offset 0).
+The programs for A182640, the canonical program `A182640.P2114174624957267665` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182640 has offset 0).
 
 The definition of A182640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 476 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4184,7 +4164,7 @@ The definition of A182640 is `conjectured`: the Lean definition is a formula tha
 
 `floor(ϕ*a(n-1)+n)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A182640
@@ -4201,7 +4181,7 @@ end A182640
 
 /-! ## A182640.P12813420836107488349
 
-`n-ceil(-ϕ*a(n-1))` with `a(0)=0`
+`n-ceil(-(ϕ*a(n-1)))` with `a(0)=0`
 -/
 
 namespace A182640.P12813420836107488349
@@ -4216,7 +4196,7 @@ end A182640.P12813420836107488349
 
 namespace A182640
 
-/-- `n-ceil(-ϕ*a(n-1))` -/
+/-- `n-ceil(-(ϕ*a(n-1)))` -/
 def P12813420836107488349.Spec : Prop :=
   ∀ n, P12813420836107488349.a n = A182640 n
 
@@ -5181,94 +5161,6 @@ end
 
 end A182654.P13197932886054165974
 
-/-! ## A182654.P7135827479075373583
-
-`A001951(∪[A184117(n+1), A184118(n+3)])`
--/
-
-namespace A182654.P7135827479075373583
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184117 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184118 (n + 3)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001951 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A182654.P7135827479075373583
-
-/-! ## A182654.P9948659948000680279
-
-`A001951(∪[A184580(n+1), A137362(n+4)])`
--/
-
-namespace A182654.P9948659948000680279
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184580 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137362 (n + 4)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001951 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A182654.P9948659948000680279
-
-/-! ## A182654.P150501280604602345
-
-`A001951(∪[A188320(n+1), A137362(n+4)])`
--/
-
-namespace A182654.P150501280604602345
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188320 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A137362 (n + 4)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001951 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A182654.P150501280604602345
-
-/-! ## A182654.P18190216434563111090
-
-`A001951(∪[A188320(n+1), A184625(n+4)])`
--/
-
-namespace A182654.P18190216434563111090
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A188320 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A184625 (n + 4)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001951 (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n)
-
-end
-
-end A182654.P18190216434563111090
-
 /-!
 # A182657: Square numbers with at least one digit in common with any other positive square number.
 
@@ -5484,14 +5376,14 @@ end A182660
 
 /-! ## A182660.P6706947886669951299
 
-`A107782(n*floor(-xor(n, -n)/(n+1)))`
+`A107782(n*floor(-(xor(n, -n)/(n+1))))`
 
 The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A182660
 
-/-- `A107782(n*floor(-xor(n, -n)/(n+1)))` -/
+/-- `A107782(n*floor(-(xor(n, -n)/(n+1))))` -/
 def P6706947886669951299.Spec : Prop :=
   ∀ n, P6706947886669951299.a n = A182660 n
 
@@ -7175,7 +7067,7 @@ end A182684.P11969202575325328340
 /-!
 # A182687: a(n) = the smallest 1-digit number with exactly n divisors, a(n) = 0 if no such number exists.
 
-The programs for A182687, the canonical program `A182687.P17014349846071659719` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182687 has offset 1).
+The programs for A182687, the canonical program `A182687.P17014349846071659719` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182687 has offset 1).
 
 The definition of A182687 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7184,7 +7076,7 @@ The definition of A182687 is `conjectured`: the Lean definition is a formula tha
 
 `C(2*n, floor(n^ϕ))`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A182687
@@ -7202,7 +7094,7 @@ end A182687
 /-!
 # A182688: a(n) = the largest 1-digit number with exactly n divisors, a(n) = 0 if no such number exists.
 
-The programs for A182688, the canonical program `A182688.P1031712037546367438` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182688 has offset 1).
+The programs for A182688, the canonical program `A182688.P1031712037546367438` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182688 has offset 1).
 
 The definition of A182688 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7211,7 +7103,7 @@ The definition of A182688 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=1, a(1)=7, a(2)=9, a(3)=8, a(4)=0`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C025`.
 -/
 
 namespace A182688
@@ -7231,7 +7123,7 @@ end A182688
 
 The programs for A182691, the canonical program `A182691.P3091554765257165792` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182691 has offset 1).
 
-The definition of A182691 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 292 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A182691 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 291 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A182691.P3091554765257165792

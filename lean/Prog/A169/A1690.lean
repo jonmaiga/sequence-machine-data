@@ -1,19 +1,16 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C008
-import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B003.C000
-import Seq.B007.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C011
-import Seq.Opaque.C015
-import Seq.Opaque.C019
+import Seq.Opaque.C010
+import Seq.Opaque.C014
 
 /-!
 # A169016: Number of reduced words of length n in Coxeter group on 3 generators S_i with relations (S_i)^2 = (S_i S_j)^24 = I.
@@ -146,63 +143,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A169017.P12080871629227897949
-
-/-!
-# A169034: 
-
-The programs for A169034, there is no canonical definition to state claims against.
--/
-
-/-! ## A169034.P5952951640017432570
-
-`20*a(n-and(1, A305147(2*n+3)))` with `a(0)=1, a(1)=21`
--/
-
-namespace A169034.P5952951640017432570
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 21] fun n a =>
-  20 * a ((n : ℤ) - Int.land 1 (A305147 (2 * n + 3))).toNat
-
-end
-
-end A169034.P5952951640017432570
-
-/-! ## A169034.P4726391820324895660
-
-`20*a(n-and(1, A000945(2*n+4)))` with `a(0)=1, a(1)=21`
--/
-
-namespace A169034.P4726391820324895660
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 21] fun n a =>
-  20 * a ((n : ℤ) - Int.land 1 (A000945 (2 * n + 4))).toNat
-
-end
-
-end A169034.P4726391820324895660
-
-/-!
-# A169060: 
-
-The programs for A169060, there is no canonical definition to state claims against.
--/
-
-/-! ## A169060.P5766344368279942164
-
-`46*a(n-1)-A008683(A038215(n))` with `a(0)=1`
--/
-
-namespace A169060.P5766344368279942164
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  46 * a (n - 1) - A008683 (A038215 n).toNat
-
-end
-
-end A169060.P5766344368279942164
 
 /-!
 # A169065: Number of reduced words of length n in Coxeter group on 4 generators S_i with relations (S_i)^2 = (S_i S_j)^25 = I.

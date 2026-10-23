@@ -16,21 +16,22 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4445,16 +4446,16 @@ end A312547.P4443574260201501967
 /-!
 # A312549: Coordination sequence Gal.4.61.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A312549, the canonical program `A312549.P10297096336863811963` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312549 has offset 0).
+The programs for A312549, the canonical program `A312549.P10297096336863811963` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312549 has offset 0).
 
-The definition of A312549 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A312549 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2495 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A312549.P10297096336863811963
 
 `a(n-1)+a(n-7)-a(n-8)` with `a(0)=1, a(1)=4, a(2)=8, a(3)=14, a(4)=18, a(5)=24, a(6)=28, a(7)=32, a(8)=36`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A312549

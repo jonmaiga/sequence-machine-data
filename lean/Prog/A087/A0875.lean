@@ -10,27 +10,26 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -38,7 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -47,7 +46,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -73,7 +71,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -85,9 +82,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A087503: a(n) = 3*(a(n-2) + 1), with a(0) = 1, a(1) = 3.
@@ -3269,28 +3264,6 @@ end A087520.P5941855106620056161
 The programs for A087521, there is no canonical definition to state claims against.
 -/
 
-/-! ## A087521.P15287196508159604492
-
-`∩[A050376(n+1), A233583(A025487(n+2))]`
--/
-
-namespace A087521.P15287196508159604492
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A050376 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233583 (A025487 (n + 2)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A087521.P15287196508159604492
-
 /-! ## A087521.P5638702117294171137
 
 `eq[A319627(n+1), A332029(n+1)]`
@@ -4411,26 +4384,26 @@ theorem P15107669623176794805.correct : P15107669623176794805.Spec := by
 
 end A087547
 
-/-! ## A087547.P12738673134156245548
+/-! ## A087547.P6054455398566880493
 
 `(3*n-2)*a(n-1)-(n-1)*(2*n-3)*a(n-2)` with `a(0)=0, a(1)=1`
 -/
 
-namespace A087547.P12738673134156245548
+namespace A087547.P6054455398566880493
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  ((3 * n : ℤ) - 2) * a (n - 1) - ((n : ℤ) - 1) * (((2 * n : ℤ) - 3) * a (n - 2))
+  ((3 * n : ℤ) - 2) * a (n - 1) - ((n : ℤ) - 1) * ((2 * n : ℤ) - 3) * a (n - 2)
 
 end
 
-end A087547.P12738673134156245548
+end A087547.P6054455398566880493
 
 namespace A087547
 
 /-- `(3*n-2)*a(n-1)-(n-1)*(2*n-3)*a(n-2)` -/
-def P12738673134156245548.Spec : Prop :=
-  ∀ n, P12738673134156245548.a n = A087547 n
+def P6054455398566880493.Spec : Prop :=
+  ∀ n, P6054455398566880493.a n = A087547 n
 
 end A087547
 
@@ -4690,28 +4663,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A087553.P1787469259041955218
-
-/-! ## A087553.P18208086890727599143
-
-`∩[n², A061850(n)]`
--/
-
-namespace A087553.P18208086890727599143
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061850 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A087553.P18208086890727599143
 
 /-!
 # A087554: a(n) = smallest number k >= n such that nk + 1 is a prime.

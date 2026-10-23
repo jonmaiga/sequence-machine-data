@@ -2,10 +2,10 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -17,20 +17,21 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,11 +42,13 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -354,28 +357,6 @@ end
 
 end A049101.P22096025500975179
 
-/-! ## A049101.P9994566916377984121
-
-`∪[A229300(n+1), A002271(A242750(n+1))]`
--/
-
-namespace A049101.P9994566916377984121
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229300 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002271 (A242750 (n + 1)).toNat
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A049101.P9994566916377984121
-
 /-! ## A049101.P9160736808489476615
 
 `A197181(lt[A058142(3*n+5), A089981(n+1)])`
@@ -396,34 +377,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049101.P9160736808489476615
-
-/-!
-# A049102: Positive numbers n such that n is a multiple of (product of digits of n) * (sum of digits of n).
-
-The programs for A049102, there is no canonical definition to state claims against.
--/
-
-/-! ## A049102.P11894575302110873350
-
-`∩[A192649(n+1), A231870(n+1)]`
--/
-
-namespace A049102.P11894575302110873350
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A192649 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A231870 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A049102.P11894575302110873350
 
 /-!
 # A049103: Numbers k such that k and k+1 both have 6 divisors.
@@ -835,43 +788,6 @@ end
 
 end A049104.P10244872692963473551
 
-/-! ## A049104.P8441187489028571552
-
-`∩[A162947(n+1)+1, A162947(n+1)]`
--/
-
-namespace A049104.P8441187489028571552
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162947 (n + 1) + 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162947 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A049104.P8441187489028571552
-
-/-! ## A049104.P18232451533911392988
-
-`A011760(A049103(n+1))`
--/
-
-namespace A049104.P18232451533911392988
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011760 (A049103 (n + 1)).toNat
-
-end
-
-end A049104.P18232451533911392988
-
 /-! ## A049104.P14920143483308126802
 
 `∩[A083795(n+1), A162947(n+1)]`
@@ -893,6 +809,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A049104.P14920143483308126802
+
+/-! ## A049104.P18232451533911392988
+
+`A011760(A049103(n+1))`
+-/
+
+namespace A049104.P18232451533911392988
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011760 (A049103 (n + 1)).toNat
+
+end
+
+end A049104.P18232451533911392988
 
 /-!
 # A049105: Ratio from A049101.

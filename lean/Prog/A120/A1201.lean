@@ -3,32 +3,32 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -68,6 +68,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -77,7 +78,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -621,7 +622,7 @@ end A120108
 /-!
 # A120109: Row sums of number triangle A120108.
 
-The programs for A120109, the canonical program `A120109.P2478641561327394692` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120109 has offset 0).
+The programs for A120109, the canonical program `A120109.P2478641561327394692` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120109 has offset 0).
 
 The definition of A120109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -630,7 +631,7 @@ The definition of A120109 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((n+1)/∏{p}[n+1, (n+1)/#])*a(n-1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120109
@@ -1049,7 +1050,7 @@ end A120111
 /-!
 # A120112: Row sums of number triangle A120111.
 
-The programs for A120112, the canonical program `A120112.P14661727368300187479` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120112 has offset 0).
+The programs for A120112, the canonical program `A120112.P14661727368300187479` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120112 has offset 0).
 
 The definition of A120112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1058,7 +1059,7 @@ The definition of A120112 is `conjectured`: the Lean definition is a formula tha
 
 `1-A020500(n+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A120112
@@ -1597,7 +1598,7 @@ end A120113.P2094008962097158846
 /-!
 # A120114: a(n) = lcm(1, ..., 2n+4)/lcm(1, ..., 2n+2).
 
-The programs for A120114, the canonical program `A120114.P382930504862310490` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120114 has offset 0).
+The programs for A120114, the canonical program `A120114.P382930504862310490` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120114 has offset 0).
 
 The definition of A120114 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A099996, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1606,7 +1607,7 @@ The definition of A120114 is `conditional`: the Lean definition is an OEIS formu
 
 `A099996(n+2)/A099996(n+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A120114
@@ -2195,27 +2196,6 @@ end
 
 end A120115.P12369431313637457544
 
-/-! ## A120115.P15876797730878662344
-
-`A120337(eq[2, and(2, A120337(n+1))]+1)`
--/
-
-namespace A120115.P15876797730878662344
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land 2 (A120337 (n + 1))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120337 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
-
-end
-
-end A120115.P15876797730878662344
-
 /-! ## A120115.P17077174627995453288
 
 `∩[A002145(n+1), A120337(n+1)]`
@@ -2282,28 +2262,6 @@ end
 
 end A120115.P11179011307129388168
 
-/-! ## A120115.P1063433600512004574
-
-`∩[A120337(n+1), A197504(n+1)]`
--/
-
-namespace A120115.P1063433600512004574
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120337 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A197504 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A120115.P1063433600512004574
-
 /-! ## A120115.P16551965413336642540
 
 `∩[A094179(n+1), A120337(n+1)]`
@@ -2326,6 +2284,28 @@ end
 
 end A120115.P16551965413336642540
 
+/-! ## A120115.P1063433600512004574
+
+`∩[A120337(n+1), A197504(n+1)]`
+-/
+
+namespace A120115.P1063433600512004574
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120337 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A197504 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A120115.P1063433600512004574
+
 /-! ## A120115.P13843564730964562744
 
 `∩[A120337(n+1), A292762(n+1)]`
@@ -2347,6 +2327,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A120115.P13843564730964562744
+
+/-! ## A120115.P15876797730878662344
+
+`A120337(eq[2, and(2, A120337(n+1))]+1)`
+-/
+
+namespace A120115.P15876797730878662344
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land 2 (A120337 (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120337 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
+
+end
+
+end A120115.P15876797730878662344
 
 /-! ## A120115.P5396123563215192973
 
@@ -2522,28 +2523,6 @@ end
 
 end A120116.P13338906639270148293
 
-/-! ## A120116.P4954308372047593431
-
-`∩[A018744(n+1), A226227(n+1)]`
--/
-
-namespace A120116.P4954308372047593431
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A018744 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A226227 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A120116.P4954308372047593431
-
 /-! ## A120116.P12932254506106835388
 
 `A281624(A281624(n+1)+A277193(n))`
@@ -2661,7 +2640,7 @@ end A120117.P804302794908864636
 /-!
 # A120118: a(n) is the number of binary strings of length n such that no subsequence of length 5 or less contains 3 or more ones.
 
-The programs for A120118, the canonical program `A120118.P16307991113263491801` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120118 has offset 0).
+The programs for A120118, the canonical program `A120118.P16307991113263491801` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120118 has offset 0).
 
 The definition of A120118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2670,7 +2649,7 @@ The definition of A120118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-3)+2*a(n-5)-a(n-8)-a(n-10)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=7, a(4)=11, a(5)=16, a(6)=26, a(7)=43, a(8)=71, a(9)=116`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120118
@@ -3672,7 +3651,7 @@ end A120131.P7750816404807780538
 /-!
 # A120134: a(n) = 4 + floor(Sum_{k=1..n-1} a(k) / 2).
 
-The programs for A120134, the canonical program `A120134.P12588754615780152016` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120134 has offset 1).
+The programs for A120134, the canonical program `A120134.P12588754615780152016` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120134 has offset 1).
 
 The definition of A120134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 562 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3681,7 +3660,7 @@ The definition of A120134 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=7`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120134
@@ -3901,7 +3880,7 @@ end A120134
 /-!
 # A120135: a(n) = 5 + floor((1 + Sum_{j=1..n-1} a(j)) / 2).
 
-The programs for A120135, the canonical program `A120135.P14872413267183942715` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120135 has offset 1).
+The programs for A120135, the canonical program `A120135.P14872413267183942715` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120135 has offset 1).
 
 The definition of A120135 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 562 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3910,7 +3889,7 @@ The definition of A120135 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=10`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120135
@@ -4038,7 +4017,7 @@ end A120135
 /-!
 # A120136: a(n) = 7 + floor(Sum_{j=1..n-1} a(j) / 2).
 
-The programs for A120136, the canonical program `A120136.P5409319258040445014` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120136 has offset 1).
+The programs for A120136, the canonical program `A120136.P5409319258040445014` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120136 has offset 1).
 
 The definition of A120136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 561 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4047,7 +4026,7 @@ The definition of A120136 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=13`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120136
@@ -4175,7 +4154,7 @@ end A120136
 /-!
 # A120137: a(n) = 8 + floor( (1 + Sum_{j=1..n-1} a(j)) / 2).
 
-The programs for A120137, the canonical program `A120137.P15880055963252166593` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120137 has offset 1).
+The programs for A120137, the canonical program `A120137.P15880055963252166593` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120137 has offset 1).
 
 The definition of A120137 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 561 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4184,7 +4163,7 @@ The definition of A120137 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=16`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120137
@@ -4286,7 +4265,7 @@ end A120137
 /-!
 # A120138: a(n) = 10 + floor(Sum_{j=1..n-1} a(j) / 2).
 
-The programs for A120138, the canonical program `A120138.P9440077026592153786` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120138 has offset 1).
+The programs for A120138, the canonical program `A120138.P9440077026592153786` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120138 has offset 1).
 
 The definition of A120138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 560 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4295,7 +4274,7 @@ The definition of A120138 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(3/2*a(n-1))]` with `a(0)=20`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120138
@@ -4423,7 +4402,7 @@ end A120138
 /-!
 # A120139: a(n) = 11 + floor( (1 + Sum_{j=1..n-1} a(j)) / 2).
 
-The programs for A120139, the canonical program `A120139.P7860810956258412853` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120139 has offset 1).
+The programs for A120139, the canonical program `A120139.P7860810956258412853` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120139 has offset 1).
 
 The definition of A120139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 560 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4432,7 +4411,7 @@ The definition of A120139 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=22`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120139
@@ -4560,7 +4539,7 @@ end A120139
 /-!
 # A120140: a(n) = 13 + floor(Sum_{j=1..n-1} a(j)/2).
 
-The programs for A120140, the canonical program `A120140.P10055700299683959637` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120140 has offset 1).
+The programs for A120140, the canonical program `A120140.P10055700299683959637` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120140 has offset 1).
 
 The definition of A120140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 559 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4569,7 +4548,7 @@ The definition of A120140 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=25`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120140
@@ -4697,7 +4676,7 @@ end A120140
 /-!
 # A120141: a(n) = 14 + floor( (1 + Sum_{j=0..n-1} a(j)) / 2).
 
-The programs for A120141, the canonical program `A120141.P12910514780718758860` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120141 has offset 1).
+The programs for A120141, the canonical program `A120141.P12910514780718758860` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120141 has offset 1).
 
 The definition of A120141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 559 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4706,7 +4685,7 @@ The definition of A120141 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=28`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120141
@@ -4886,7 +4865,7 @@ end A120141
 /-!
 # A120142: a(n) = 16 + floor(Sum_{j=1..n-1} a(j)/2).
 
-The programs for A120142, the canonical program `A120142.P13890958004437018788` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120142 has offset 1).
+The programs for A120142, the canonical program `A120142.P13890958004437018788` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120142 has offset 1).
 
 The definition of A120142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 559 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4895,7 +4874,7 @@ The definition of A120142 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=31`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120142
@@ -5023,7 +5002,7 @@ end A120142
 /-!
 # A120143: a(n) = 17 + floor( (1 + Sum_{j=0..n-1} a(j))/2 ).
 
-The programs for A120143, the canonical program `A120143.P1066220947197303015` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120143 has offset 1).
+The programs for A120143, the canonical program `A120143.P1066220947197303015` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120143 has offset 1).
 
 The definition of A120143 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 559 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5032,7 +5011,7 @@ The definition of A120143 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=34`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120143
@@ -5160,7 +5139,7 @@ end A120143
 /-!
 # A120144: a(n) = 19 + floor( Sum_{j=1..n-1} a(j) / 2 ).
 
-The programs for A120144, the canonical program `A120144.P7343716795490026098` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120144 has offset 1).
+The programs for A120144, the canonical program `A120144.P7343716795490026098` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120144 has offset 1).
 
 The definition of A120144 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 558 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5169,7 +5148,7 @@ The definition of A120144 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=37`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120144
@@ -5297,7 +5276,7 @@ end A120144
 /-!
 # A120145: a(n) = 20 + floor( (1 + Sum_{j=1..n-1} a(j)) / 2 ).
 
-The programs for A120145, the canonical program `A120145.P7810557213126502684` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120145 has offset 1).
+The programs for A120145, the canonical program `A120145.P7810557213126502684` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120145 has offset 1).
 
 The definition of A120145 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 558 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5306,7 +5285,7 @@ The definition of A120145 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=40`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120145
@@ -5460,7 +5439,7 @@ end A120145
 /-!
 # A120146: a(n) = 22 + floor( Sum_{j=1..n-1} a(j)/2 ).
 
-The programs for A120146, the canonical program `A120146.P13754317161688892535` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120146 has offset 1).
+The programs for A120146, the canonical program `A120146.P13754317161688892535` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120146 has offset 1).
 
 The definition of A120146 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 558 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5469,7 +5448,7 @@ The definition of A120146 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=43`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120146
@@ -5623,7 +5602,7 @@ end A120146
 /-!
 # A120147: a(n) = 23 + floor( 1 + Sum_{j=1..n-1} a(j)/2 ).
 
-The programs for A120147, the canonical program `A120147.P5759028488001045764` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120147 has offset 1).
+The programs for A120147, the canonical program `A120147.P5759028488001045764` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120147 has offset 1).
 
 The definition of A120147 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 558 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5632,7 +5611,7 @@ The definition of A120147 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(3/2*a(n-1))]` with `a(0)=46`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120147
@@ -5760,7 +5739,7 @@ end A120147
 /-!
 # A120148: a(n) = 25 + floor( Sum_{j=1..n-1} a(j)/2 ).
 
-The programs for A120148, the canonical program `A120148.P12727748482383713290` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120148 has offset 1).
+The programs for A120148, the canonical program `A120148.P12727748482383713290` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120148 has offset 1).
 
 The definition of A120148 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 558 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5769,7 +5748,7 @@ The definition of A120148 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(3/2*a(n-1))]` with `a(0)=50`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120148
@@ -5897,7 +5876,7 @@ end A120148
 /-!
 # A120149: a(n) = 2 + floor((1 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120149, the canonical program `A120149.P11453825093994377996` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120149 has offset 1).
+The programs for A120149, the canonical program `A120149.P11453825093994377996` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120149 has offset 1).
 
 The definition of A120149 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 793 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5906,7 +5885,7 @@ The definition of A120149 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(4/3*a(n-1))]` with `a(0)=5`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120149
@@ -6132,7 +6111,7 @@ end A120149
 /-!
 # A120150: a(n) = 3 + floor((2 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120150, the canonical program `A120150.P11854018462621248688` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120150 has offset 1).
+The programs for A120150, the canonical program `A120150.P11854018462621248688` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120150 has offset 1).
 
 The definition of A120150 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 792 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6141,7 +6120,7 @@ The definition of A120150 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(4/3*a(n-1))]` with `a(0)=9`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120150
@@ -6289,7 +6268,7 @@ end A120150
 /-!
 # A120151: a(n) = 5 + floor( Sum_{j=1..n-1} a(j)/3 ).
 
-The programs for A120151, the canonical program `A120151.P10423610431758383697` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120151 has offset 1).
+The programs for A120151, the canonical program `A120151.P10423610431758383697` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120151 has offset 1).
 
 The definition of A120151 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 791 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6298,7 +6277,7 @@ The definition of A120151 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(4/3*a(n-1))]` with `a(0)=15`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120151
@@ -6559,7 +6538,7 @@ end A120151
 /-!
 # A120152: a(n) = 6 + floor((1 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120152, the canonical program `A120152.P16941686523490439659` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120152 has offset 1).
+The programs for A120152, the canonical program `A120152.P16941686523490439659` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120152 has offset 1).
 
 The definition of A120152 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 790 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6568,7 +6547,7 @@ The definition of A120152 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(4/3*a(n-1))]` with `a(0)=17`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120152
@@ -6696,7 +6675,7 @@ end A120152
 /-!
 # A120153: a(n) = 7 + floor((2 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120153, the canonical program `A120153.P7937385352143293883` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120153 has offset 1).
+The programs for A120153, the canonical program `A120153.P7937385352143293883` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120153 has offset 1).
 
 The definition of A120153 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 789 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6705,7 +6684,7 @@ The definition of A120153 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(4*a(n-1)/3)]` with `a(0)=21`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120153
@@ -6780,7 +6759,7 @@ end A120153
 
 /-! ## A120153.P9564944555157887402
 
-`Δ[a(n-1)-floor(-a(n-1)/3)]` with `a(0)=21`
+`Δ[a(n-1)-floor(-(a(n-1)/3))]` with `a(0)=21`
 -/
 
 namespace A120153.P9564944555157887402
@@ -6798,7 +6777,7 @@ end A120153.P9564944555157887402
 
 namespace A120153
 
-/-- `Δ[a(n-1)-floor(-a(n-1)/3)]` -/
+/-- `Δ[a(n-1)-floor(-(a(n-1)/3))]` -/
 def P9564944555157887402.Spec : Prop :=
   ∀ n, P9564944555157887402.a n = A120153 (n + 1)
 
@@ -6963,7 +6942,7 @@ end A120153
 /-!
 # A120154: a(n) = 9 + floor( Sum_{j=1..n-1} a(j)/3 ).
 
-The programs for A120154, the canonical program `A120154.P10029418763436702761` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120154 has offset 1).
+The programs for A120154, the canonical program `A120154.P10029418763436702761` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120154 has offset 1).
 
 The definition of A120154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 788 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6972,7 +6951,7 @@ The definition of A120154 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(4/3*a(n-1))]` with `a(0)=25`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120154
@@ -7227,7 +7206,7 @@ end A120154
 /-!
 # A120155: a(n) = 10 + floor( (1 + Sum_{j=1..n-1} a(j) )/3 ).
 
-The programs for A120155, the canonical program `A120155.P13666416558887966287` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120155 has offset 1).
+The programs for A120155, the canonical program `A120155.P13666416558887966287` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120155 has offset 1).
 
 The definition of A120155 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 788 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7236,7 +7215,7 @@ The definition of A120155 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(4/3*a(n-1))]` with `a(0)=31`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120155
@@ -7364,7 +7343,7 @@ end A120155
 /-!
 # A120156: a(n) = 11 + floor((2 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120156, the canonical program `A120156.P12518273106280114202` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120156 has offset 1).
+The programs for A120156, the canonical program `A120156.P12518273106280114202` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120156 has offset 1).
 
 The definition of A120156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 788 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7373,7 +7352,7 @@ The definition of A120156 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((1/3+1)*a(n-1))]` with `a(0)=35`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120156
@@ -7507,7 +7486,7 @@ end A120156
 /-!
 # A120157: a(n) = 13 + floor(Sum_{j=1..n-1} a(j)/3).
 
-The programs for A120157, the canonical program `A120157.P14834191283190154991` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120157 has offset 1).
+The programs for A120157, the canonical program `A120157.P14834191283190154991` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120157 has offset 1).
 
 The definition of A120157 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 787 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7516,7 +7495,7 @@ The definition of A120157 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((1/3+1)*a(n-1))]` with `a(0)=39`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120157
@@ -7650,7 +7629,7 @@ end A120157
 /-!
 # A120158: a(n) = 14 + floor((1 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120158, the canonical program `A120158.P5000689038653167065` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120158 has offset 1).
+The programs for A120158, the canonical program `A120158.P5000689038653167065` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120158 has offset 1).
 
 The definition of A120158 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 787 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7659,7 +7638,7 @@ The definition of A120158 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((1/3+1)*a(n-1))]` with `a(0)=43`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120158
@@ -7784,7 +7763,7 @@ end A120158
 /-!
 # A120159: a(n) = 15 + floor((2 + Sum_{j=1..n-1} a(j))/3).
 
-The programs for A120159, the canonical program `A120159.P1181771165825700638` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120159 has offset 1).
+The programs for A120159, the canonical program `A120159.P1181771165825700638` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120159 has offset 1).
 
 The definition of A120159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 787 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7793,7 +7772,7 @@ The definition of A120159 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor((1/3+1)*a(n-1))]` with `a(0)=47`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120159
@@ -7921,7 +7900,7 @@ end A120159
 /-!
 # A120160: a(n) = ceiling(Sum_{i=1..n-1} a(i)/4) for n >= 2 starting with a(1) = 1.
 
-The programs for A120160, the canonical program `A120160.P1881727546114171886` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120160 has offset 1).
+The programs for A120160, the canonical program `A120160.P1881727546114171886` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120160 has offset 1).
 
 The definition of A120160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1028 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7930,7 +7909,7 @@ The definition of A120160 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(5/4*a(n-1))]` with `a(0)=3, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120160
@@ -8046,7 +8025,7 @@ end A120160
 /-!
 # A120161: a(n) = 2 + floor((1 + Sum_{j=1..n-1} a(j))/4).
 
-The programs for A120161, the canonical program `A120161.P10188913040541359829` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120161 has offset 1).
+The programs for A120161, the canonical program `A120161.P10188913040541359829` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120161 has offset 1).
 
 The definition of A120161 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1022 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8055,7 +8034,7 @@ The definition of A120161 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(5/4*a(n-1))]` with `a(0)=6`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120161
@@ -8313,7 +8292,7 @@ end A120161
 /-!
 # A120162: a(n) = 3 + floor((2 + Sum_{j=1..n-1} a(j))/4).
 
-The programs for A120162, the canonical program `A120162.P12859056132279063587` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120162 has offset 1).
+The programs for A120162, the canonical program `A120162.P12859056132279063587` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120162 has offset 1).
 
 The definition of A120162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1020 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8322,7 +8301,7 @@ The definition of A120162 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(5/4*a(n-1))]` with `a(0)=11`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120162
@@ -8554,7 +8533,7 @@ end A120162
 /-!
 # A120163: a(n) = 4 + floor((3 + Sum_{j=1..n-1} a(j))/4).
 
-The programs for A120163, the canonical program `A120163.P4559827336660014724` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120163 has offset 1).
+The programs for A120163, the canonical program `A120163.P4559827336660014724` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120163 has offset 1).
 
 The definition of A120163 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1019 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8563,7 +8542,7 @@ The definition of A120163 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(5/4*a(n-1))]` with `a(0)=16`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120163
@@ -8824,7 +8803,7 @@ end A120163
 /-!
 # A120164: a(n) = 6 + floor( Sum_{j=1..n-1} a(j)/4 ).
 
-The programs for A120164, the canonical program `A120164.P8165299641346905898` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120164 has offset 1).
+The programs for A120164, the canonical program `A120164.P8165299641346905898` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120164 has offset 1).
 
 The definition of A120164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1017 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8833,7 +8812,7 @@ The definition of A120164 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(5/4*a(n-1))]` with `a(0)=22`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120164
@@ -9085,7 +9064,7 @@ end A120164
 /-!
 # A120165: a(n) = 7 + floor((1 + Sum_{j=1..n-1} a(j))/4).
 
-The programs for A120165, the canonical program `A120165.P11561388189342774684` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120165 has offset 1).
+The programs for A120165, the canonical program `A120165.P11561388189342774684` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120165 has offset 1).
 
 The definition of A120165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1016 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9094,7 +9073,7 @@ The definition of A120165 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(5/4*a(n-1))]` with `a(0)=27`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120165
@@ -9352,7 +9331,7 @@ end A120165
 /-!
 # A120166: a(n) = 8 + floor((2 + Sum_{j=1..n-1} a(j))/4).
 
-The programs for A120166, the canonical program `A120166.P16350543739283406` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120166 has offset 1).
+The programs for A120166, the canonical program `A120166.P16350543739283406` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120166 has offset 1).
 
 The definition of A120166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1016 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9361,7 +9340,7 @@ The definition of A120166 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/4)]` with `a(0)=31`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120166
@@ -9775,7 +9754,7 @@ end A120167.P12799006301044893291
 /-!
 # A120168: a(n) = 11 + floor(Sum_{j-1..n-1} a(j)/4).
 
-The programs for A120168, the canonical program `A120168.P1764532613790007650` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120168 has offset 1).
+The programs for A120168, the canonical program `A120168.P1764532613790007650` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120168 has offset 1).
 
 The definition of A120168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1015 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9784,7 +9763,7 @@ The definition of A120168 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[abs(floor(5/4*a(n-1))+1)]` with `a(0)=40`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120168
@@ -9906,7 +9885,7 @@ end A120168
 /-!
 # A120169: a(n) = 12 + floor((1 + Sum_{j=1..n-1} a(j))/4).
 
-The programs for A120169, the canonical program `A120169.P15075611311026963845` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120169 has offset 1).
+The programs for A120169, the canonical program `A120169.P15075611311026963845` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120169 has offset 1).
 
 The definition of A120169 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1014 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9915,7 +9894,7 @@ The definition of A120169 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[a(n-1)+ceil(a(n-1)/4)]` with `a(0)=46`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120169
@@ -10037,7 +10016,7 @@ end A120169
 /-!
 # A120170: a(n) = ceiling( Sum_{i=1..n-1} a(i)/5 ), a(1)=1.
 
-The programs for A120170, the canonical program `A120170.P1492649418581726010` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120170 has offset 1).
+The programs for A120170, the canonical program `A120170.P1492649418581726010` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120170 has offset 1).
 
 The definition of A120170 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1257 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10046,7 +10025,7 @@ The definition of A120170 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(a(n-1)+a(n-1)/5)]` with `a(0)=2, a(1)=3`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120170
@@ -10205,7 +10184,7 @@ end A120170
 /-!
 # A120171: a(n) = 2 + floor((1 + Sum_{j=1..n-1} a(j))/5).
 
-The programs for A120171, the canonical program `A120171.P7156740947817833902` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120171 has offset 1).
+The programs for A120171, the canonical program `A120171.P7156740947817833902` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120171 has offset 1).
 
 The definition of A120171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1250 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10214,7 +10193,7 @@ The definition of A120171 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(6/5*a(n-1))]` with `a(0)=9`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120171
@@ -10342,7 +10321,7 @@ end A120171
 /-!
 # A120172: a(n) = 3 + floor((2 + Sum_{j=1..n-1} a(j))/5).
 
-The programs for A120172, the canonical program `A120172.P655309871133093019` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120172 has offset 1).
+The programs for A120172, the canonical program `A120172.P655309871133093019` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120172 has offset 1).
 
 The definition of A120172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10351,7 +10330,7 @@ The definition of A120172 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/5)]` with `a(0)=13`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120172
@@ -10473,7 +10452,7 @@ end A120172
 /-!
 # A120173: a(n) = 4 + floor((3 + Sum_{j=1..n-1} a(j))/5).
 
-The programs for A120173, the canonical program `A120173.P5816523446729280124` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120173 has offset 1).
+The programs for A120173, the canonical program `A120173.P5816523446729280124` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120173 has offset 1).
 
 The definition of A120173 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1025 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10482,7 +10461,7 @@ The definition of A120173 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(6/5*a(n-1))]%A120164(n+1)` with `a(0)=21`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A120173
@@ -10604,7 +10583,7 @@ end A120173
 /-!
 # A120174: a(1)=5; a(n)=floor((29+sum(a(1) to a(n-1)))/5).
 
-The programs for A120174, the canonical program `A120174.P2693200433327950770` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120174 has offset 1).
+The programs for A120174, the canonical program `A120174.P2693200433327950770` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120174 has offset 1).
 
 The definition of A120174 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10613,7 +10592,7 @@ The definition of A120174 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/5)]` with `a(0)=25`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120174
@@ -10735,7 +10714,7 @@ end A120174
 /-!
 # A120175: a(1)=7; a(n)=floor((35+sum(a(1) to a(n-1)))/5).
 
-The programs for A120175, the canonical program `A120175.P6480145903855018895` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120175 has offset 1).
+The programs for A120175, the canonical program `A120175.P6480145903855018895` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120175 has offset 1).
 
 The definition of A120175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1243 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10744,7 +10723,7 @@ The definition of A120175 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(a(n-1)+a(n-1)/5)]` with `a(0)=33`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120175
@@ -10866,7 +10845,7 @@ end A120175
 /-!
 # A120176: a(1)=8; a(n)=floor((41+sum(a(1) to a(n-1)))/5).
 
-The programs for A120176, the canonical program `A120176.P2334612068196434841` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120176 has offset 1).
+The programs for A120176, the canonical program `A120176.P2334612068196434841` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120176 has offset 1).
 
 The definition of A120176 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1242 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10875,7 +10854,7 @@ The definition of A120176 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(a(n-1)+a(n-1)/5)]` with `a(0)=39`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120176
@@ -10997,7 +10976,7 @@ end A120176
 /-!
 # A120177: a(1)=9; a(n)=floor((47+sum(a(1) to a(n-1)))/5).
 
-The programs for A120177, the canonical program `A120177.P376106000476990091` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120177 has offset 1).
+The programs for A120177, the canonical program `A120177.P376106000476990091` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120177 has offset 1).
 
 The definition of A120177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1241 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11006,7 +10985,7 @@ The definition of A120177 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[a(n-1)+floor(a(n-1)/5)]` with `a(0)=47`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120177
@@ -11128,7 +11107,7 @@ end A120177
 /-!
 # A120178: a(n)=ceiling( sum_{i=1..n-1} a(i)/6), a(1)=1.
 
-The programs for A120178, the canonical program `A120178.P447218401063577657` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120178 has offset 1).
+The programs for A120178, the canonical program `A120178.P447218401063577657` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120178 has offset 1).
 
 The definition of A120178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11137,7 +11116,7 @@ The definition of A120178 is `conjectured`: the Lean definition is a formula tha
 
 `abs(7*Δ[ceil(a(n-1)+a(n-1)/6)])/7` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120178
@@ -11275,7 +11254,7 @@ end A120178
 /-!
 # A120179: a(1)=2; a(n)=floor((13+sum(a(1) to a(n-1)))/6).
 
-The programs for A120179, the canonical program `A120179.P11417198070841215818` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120179 has offset 1).
+The programs for A120179, the canonical program `A120179.P11417198070841215818` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120179 has offset 1).
 
 The definition of A120179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1478 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11284,7 +11263,7 @@ The definition of A120179 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/6)]` with `a(0)=8`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120179
@@ -11406,7 +11385,7 @@ end A120179
 /-!
 # A120180: a(1)=3; a(n)=floor((20+sum(a(1) to a(n-1)))/6).
 
-The programs for A120180, the canonical program `A120180.P8891421717276500702` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120180 has offset 1).
+The programs for A120180, the canonical program `A120180.P8891421717276500702` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120180 has offset 1).
 
 The definition of A120180 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11415,7 +11394,7 @@ The definition of A120180 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/6)]` with `a(0)=15`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120180
@@ -11537,7 +11516,7 @@ end A120180
 /-!
 # A120181: a(1)=4; a(n)=floor((27+sum(a(1) to a(n-1)))/6).
 
-The programs for A120181, the canonical program `A120181.P11729516205212447553` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120181 has offset 1).
+The programs for A120181, the canonical program `A120181.P11729516205212447553` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120181 has offset 1).
 
 The definition of A120181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1472 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11546,7 +11525,7 @@ The definition of A120181 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/6)]` with `a(0)=22`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120181
@@ -11668,7 +11647,7 @@ end A120181
 /-!
 # A120182: a(1)=5; a(n)=floor((34+sum(a(1) to a(n-1)))/6).
 
-The programs for A120182, the canonical program `A120182.P13962218164556368492` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120182 has offset 1).
+The programs for A120182, the canonical program `A120182.P13962218164556368492` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120182 has offset 1).
 
 The definition of A120182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1471 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11677,7 +11656,7 @@ The definition of A120182 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/6)]` with `a(0)=29`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120182
@@ -11799,7 +11778,7 @@ end A120182
 /-!
 # A120183: a(1)=6; a(n)=floor((41+sum(a(1) to a(n-1)))/6).
 
-The programs for A120183, the canonical program `A120183.P15971756798665120494` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120183 has offset 1).
+The programs for A120183, the canonical program `A120183.P15971756798665120494` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120183 has offset 1).
 
 The definition of A120183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1470 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11808,7 +11787,7 @@ The definition of A120183 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(a(n-1)+a(n-1)/6)]` with `a(0)=41`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120183
@@ -12026,7 +12005,7 @@ end A120184.P14864260411846156571
 /-!
 # A120185: a(1)=9; a(n)=floor((55+sum(a(1) to a(n-1)))/6).
 
-The programs for A120185, the canonical program `A120185.P3694619911968088974` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120185 has offset 1).
+The programs for A120185, the canonical program `A120185.P3694619911968088974` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120185 has offset 1).
 
 The definition of A120185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1468 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12035,7 +12014,7 @@ The definition of A120185 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/6)]` with `a(0)=50`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120185
@@ -12157,7 +12136,7 @@ end A120185
 /-!
 # A120186: a(n) = ceiling( Sum_{i=1..n-1} a(i)/7 ), a(1) = 1.
 
-The programs for A120186, the canonical program `A120186.P8178298802899327407` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120186 has offset 1).
+The programs for A120186, the canonical program `A120186.P8178298802899327407` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120186 has offset 1).
 
 The definition of A120186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1714 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12166,7 +12145,7 @@ The definition of A120186 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(8/7*a(n-1))]` with `a(0)=6, a(1)=7`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120186
@@ -12325,7 +12304,7 @@ end A120186
 /-!
 # A120187: a(1)=2; a(n) = floor((15 + Sum_{j=1..n-1} a(j))/7).
 
-The programs for A120187, the canonical program `A120187.P2512886205676555408` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120187 has offset 1).
+The programs for A120187, the canonical program `A120187.P2512886205676555408` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120187 has offset 1).
 
 The definition of A120187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1705 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12334,7 +12313,7 @@ The definition of A120187 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(a(n-1)+a(n-1)/7)]` with `a(0)=9`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120187
@@ -12560,7 +12539,7 @@ end A120187
 /-!
 # A120188: a(1)=3; a(n)=floor((23+sum(a(1) to a(n-1)))/7).
 
-The programs for A120188, the canonical program `A120188.P12423794023026540880` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120188 has offset 1).
+The programs for A120188, the canonical program `A120188.P12423794023026540880` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120188 has offset 1).
 
 The definition of A120188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1702 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12569,7 +12548,7 @@ The definition of A120188 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[ceil(8/7*a(n-1))]` with `a(0)=17`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120188
@@ -12697,7 +12676,7 @@ end A120188
 /-!
 # A120189: a(1)=4; a(n) = floor((31+Sum_{i=1..n-1} a(i))/7).
 
-The programs for A120189, the canonical program `A120189.P15232528209714439978` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120189 has offset 1).
+The programs for A120189, the canonical program `A120189.P15232528209714439978` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120189 has offset 1).
 
 The definition of A120189 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1699 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12706,7 +12685,7 @@ The definition of A120189 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(8/7*a(n-1))]` with `a(0)=31`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120189
@@ -12834,7 +12813,7 @@ end A120189
 /-!
 # A120190: a(1)=5; a(n)=floor((39+sum(a(1) to a(n-1)))/7).
 
-The programs for A120190, the canonical program `A120190.P2594834205371547550` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120190 has offset 1).
+The programs for A120190, the canonical program `A120190.P2594834205371547550` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120190 has offset 1).
 
 The definition of A120190 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1697 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12843,7 +12822,7 @@ The definition of A120190 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(8/7*a(n-1))]` with `a(0)=39`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120190
@@ -12965,7 +12944,7 @@ end A120190
 /-!
 # A120191: a(1)=6; a(n)=floor((47+sum(a(1) to a(n-1)))/7).
 
-The programs for A120191, the canonical program `A120191.P9846810445603990854` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120191 has offset 1).
+The programs for A120191, the canonical program `A120191.P9846810445603990854` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120191 has offset 1).
 
 The definition of A120191 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1696 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12974,7 +12953,7 @@ The definition of A120191 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(a(n-1)+a(n-1)/7)]` with `a(0)=47`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120191
@@ -13087,7 +13066,7 @@ end A120191
 /-!
 # A120192: a(1)=7; a(n)=floor((55+sum(a(1) to a(n-1)))/7).
 
-The programs for A120192, the canonical program `A120192.P9412843305121768159` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120192 has offset 1).
+The programs for A120192, the canonical program `A120192.P9412843305121768159` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120192 has offset 1).
 
 The definition of A120192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1694 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13096,7 +13075,7 @@ The definition of A120192 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(8/7*a(n-1))]` with `a(0)=55`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120192
@@ -13218,7 +13197,7 @@ end A120192
 /-!
 # A120193: a(1)=9; a(n)=floor((63+sum(a(1) to a(n-1)))/7).
 
-The programs for A120193, the canonical program `A120193.P11564290349573362498` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120193 has offset 1).
+The programs for A120193, the canonical program `A120193.P11564290349573362498` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120193 has offset 1).
 
 The definition of A120193 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1693 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13227,7 +13206,7 @@ The definition of A120193 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(8/7*a(n-1))]` with `a(0)=63`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120193
@@ -13346,7 +13325,7 @@ end A120193
 /-!
 # A120194: a(n) = ceiling( Sum_{i=1..n-1} a(i)/8 ), a(1)=1.
 
-The programs for A120194, the canonical program `A120194.P17135692445762409874` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120194 has offset 1).
+The programs for A120194, the canonical program `A120194.P17135692445762409874` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120194 has offset 1).
 
 The definition of A120194 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1941 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13355,7 +13334,7 @@ The definition of A120194 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(9/8*a(n-1))]` with `a(0)=7, a(1)=8`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120194
@@ -13543,7 +13522,7 @@ end A120194
 /-!
 # A120195: a(1)=2; a(n) = floor((17 + Sum_{j=1..n-1} a(j))/8).
 
-The programs for A120195, the canonical program `A120195.P4834058026946265950` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120195 has offset 1).
+The programs for A120195, the canonical program `A120195.P4834058026946265950` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120195 has offset 1).
 
 The definition of A120195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1932 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13552,7 +13531,7 @@ The definition of A120195 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(9/8*a(n-1))]` with `a(0)=17`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120195
@@ -13706,7 +13685,7 @@ end A120195
 /-!
 # A120196: a(1)=3; a(n) = floor((26 + Sum_{j=1..n-1} a(j))/8).
 
-The programs for A120196, the canonical program `A120196.P3128526105847888813` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120196 has offset 1).
+The programs for A120196, the canonical program `A120196.P3128526105847888813` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120196 has offset 1).
 
 The definition of A120196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1928 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13715,7 +13694,7 @@ The definition of A120196 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(a(n-1)+a(n-1)/8)]` with `a(0)=22`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120196
@@ -13837,7 +13816,7 @@ end A120196
 /-!
 # A120197: a(1)=4; a(n)=floor((35+sum(a(1) to a(n-1)))/8).
 
-The programs for A120197, the canonical program `A120197.P15589720954269832484` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120197 has offset 1).
+The programs for A120197, the canonical program `A120197.P15589720954269832484` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120197 has offset 1).
 
 The definition of A120197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1925 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13846,7 +13825,7 @@ The definition of A120197 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[round(a(n-1)+a(n-1)/8)]` with `a(0)=31`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A120197

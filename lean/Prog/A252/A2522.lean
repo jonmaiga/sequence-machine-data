@@ -7,31 +7,28 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C017
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C024
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -45,6 +42,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -74,14 +72,12 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 /-!
 # A252200: Number of (n+2)X(7+2) 0..3 arrays with every 3X3 subblock row, column, diagonal and antidiagonal sum not equal to 0 3 5 6 or 7.
@@ -2942,36 +2938,6 @@ def P13324621536471140803.Spec : Prop :=
 
 end A252233
 
-/-! ## A252233.P15396252134497597372
-
-`char[xor(∏{p}[n+1, -#], -1)]`
--/
-
-namespace A252233.P15396252134497597372
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (∏ p ∈ Nat.primeFactors (f2 n), (-(p : ℤ))) (-1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A252233.P15396252134497597372
-
-namespace A252233
-
-/-- `char[xor(∏{p}[n+1, -#], -1)]` -/
-def P15396252134497597372.Spec : Prop :=
-  ∀ n, (P15396252134497597372.a n : ℤ) = A252233 (n + 1)
-
-end A252233
-
 /-! ## A252233.P18436785927551860227
 
 `C(2, ∏{p}[n+1, -#]+n+3)`
@@ -3026,7 +2992,7 @@ end A252233
 
 /-! ## A252233.P10656340923640218249
 
-`ceil(round(-∏{p}[n+1, -#]/(n+3))/3)`
+`ceil(round(-(∏{p}[n+1, -#]/(n+3)))/3)`
 -/
 
 namespace A252233.P10656340923640218249
@@ -3044,7 +3010,7 @@ end A252233.P10656340923640218249
 
 namespace A252233
 
-/-- `ceil(round(-∏{p}[n+1, -#]/(n+3))/3)` -/
+/-- `ceil(round(-(∏{p}[n+1, -#]/(n+3)))/3)` -/
 def P10656340923640218249.Spec : Prop :=
   ∀ n, P10656340923640218249.a n = A252233 (n + 1)
 
@@ -3392,6 +3358,36 @@ namespace A252233
 /-- `floor(1/A080847(n+1))` -/
 def P1074535455338790636.Spec : Prop :=
   ∀ n, P1074535455338790636.a n = A252233 (n + 1)
+
+end A252233
+
+/-! ## A252233.P15396252134497597372
+
+`char[xor(∏{p}[n+1, -#], -1)]`
+-/
+
+namespace A252233.P15396252134497597372
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (∏ p ∈ Nat.primeFactors (f2 n), (-(p : ℤ))) (-1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A252233.P15396252134497597372
+
+namespace A252233
+
+/-- `char[xor(∏{p}[n+1, -#], -1)]` -/
+def P15396252134497597372.Spec : Prop :=
+  ∀ n, (P15396252134497597372.a n : ℤ) = A252233 (n + 1)
 
 end A252233
 
@@ -4405,7 +4401,7 @@ end A252248.P17609459622985521204
 /-!
 # A252249: Number of (n+2) X (3+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252249, the canonical program `A252249.P7155688555273878023` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252249 has offset 1).
+The programs for A252249, the canonical program `A252249.P7155688555273878023` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252249 has offset 1).
 
 The definition of A252249 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4414,7 +4410,7 @@ The definition of A252249 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=278, a(1)=242, a(2)=231, a(3)=249, a(4)=279, a(5)=318, a(6)=366, a(7)=444, a(8)=546`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A252249
@@ -4535,7 +4531,7 @@ end A252249
 /-!
 # A252250: Number of (n+2) X (4+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252250, the canonical program `A252250.P18367108250355643025` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252250 has offset 1).
+The programs for A252250, the canonical program `A252250.P18367108250355643025` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252250 has offset 1).
 
 The definition of A252250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4544,7 +4540,7 @@ The definition of A252250 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=352, a(1)=268, a(2)=249, a(3)=267, a(4)=297, a(5)=336, a(6)=384, a(7)=462, a(8)=564`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A252250
@@ -4661,7 +4657,7 @@ end A252250
 /-!
 # A252251: Number of (n+2) X (5+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252251, the canonical program `A252251.P11124343189638800866` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252251 has offset 1).
+The programs for A252251, the canonical program `A252251.P11124343189638800866` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252251 has offset 1).
 
 The definition of A252251 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4670,7 +4666,7 @@ The definition of A252251 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=463, a(1)=302, a(2)=279, a(3)=297, a(4)=327, a(5)=366, a(6)=414, a(7)=492, a(8)=594`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A252251
@@ -4780,7 +4776,7 @@ end A252251
 /-!
 # A252252: Number of (n+2) X (6+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252252, the canonical program `A252252.P13229102193186164982` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252252 has offset 1).
+The programs for A252252, the canonical program `A252252.P13229102193186164982` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252252 has offset 1).
 
 The definition of A252252 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4789,7 +4785,7 @@ The definition of A252252 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=616, a(1)=359, a(2)=318, a(3)=336, a(4)=366, a(5)=405, a(6)=453, a(7)=531, a(8)=633`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A252252
@@ -4833,7 +4829,7 @@ end A252252
 /-!
 # A252253: Number of (n+2) X (7+2) 0..3 arrays with every 3 X 3 subblock row and column sum not equal to 0 3 5 6 or 7 and every 3 X 3 diagonal and antidiagonal sum equal to 0 3 5 6 or 7.
 
-The programs for A252253, the canonical program `A252253.P8105009422330173491` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252253 has offset 1).
+The programs for A252253, the canonical program `A252253.P8105009422330173491` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252253 has offset 1).
 
 The definition of A252253 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 706 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4842,7 +4838,7 @@ The definition of A252253 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+3*a(n-3)-3*a(n-4)-a(n-6)+a(n-7)` with `a(0)=847, a(1)=437, a(2)=366, a(3)=384, a(4)=414, a(5)=453, a(6)=501, a(7)=579, a(8)=681`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C031`.
 -/
 
 namespace A252253
@@ -6784,28 +6780,6 @@ end
 
 end A252279.P3613165605849254244
 
-/-! ## A252279.P6935887869172157653
-
-`∩[A051073(n+1), A158057(n)]`
--/
-
-namespace A252279.P6935887869172157653
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051073 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A158057 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252279.P6935887869172157653
-
 /-! ## A252279.P9847153800839792075
 
 `∩[A045315(n+1), A158057(n)]`
@@ -6828,19 +6802,19 @@ end
 
 end A252279.P9847153800839792075
 
-/-! ## A252279.P941723610325063346
+/-! ## A252279.P6935887869172157653
 
-`∩[A051073(n+1), A319281(n+1)]`
+`∩[A051073(n+1), A158057(n)]`
 -/
 
-namespace A252279.P941723610325063346
+namespace A252279.P6935887869172157653
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A051073 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319281 (n + 1)
+  A158057 n
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6848,7 +6822,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A252279.P941723610325063346
+end A252279.P6935887869172157653
 
 /-! ## A252279.P18253861305499096910
 
@@ -6872,63 +6846,19 @@ end
 
 end A252279.P18253861305499096910
 
-/-! ## A252279.P17453735876462187433
+/-! ## A252279.P941723610325063346
 
-`∩[A151977(2*(n+1)), A045315(n+2)]`
+`∩[A051073(n+1), A319281(n+1)]`
 -/
 
-namespace A252279.P17453735876462187433
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151977 (2 * (n + 1))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A045315 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252279.P17453735876462187433
-
-/-! ## A252279.P17898339456701900117
-
-`∩[A151977(2*(n+1)), A051073(n+2)]`
--/
-
-namespace A252279.P17898339456701900117
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151977 (2 * (n + 1))
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051073 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252279.P17898339456701900117
-
-/-! ## A252279.P15427428187805556870
-
-`∩[A051073(n+1), A151977(n+1)]`
--/
-
-namespace A252279.P15427428187805556870
+namespace A252279.P941723610325063346
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A051073 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151977 (n + 1)
+  A319281 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6936,7 +6866,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A252279.P15427428187805556870
+end A252279.P941723610325063346
 
 /-! ## A252279.P11963759343863462446
 
@@ -6960,19 +6890,19 @@ end
 
 end A252279.P11963759343863462446
 
-/-! ## A252279.P11797474076049812310
+/-! ## A252279.P15427428187805556870
 
-`∩[A051073(n+1), A016813(4*n)]`
+`∩[A051073(n+1), A151977(n+1)]`
 -/
 
-namespace A252279.P11797474076049812310
+namespace A252279.P15427428187805556870
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A051073 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016813 (4 * n)
+  A151977 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -6980,7 +6910,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A252279.P11797474076049812310
+end A252279.P15427428187805556870
 
 /-! ## A252279.P2869768626238096636
 
@@ -7003,6 +6933,28 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252279.P2869768626238096636
+
+/-! ## A252279.P11797474076049812310
+
+`∩[A051073(n+1), A016813(4*n)]`
+-/
+
+namespace A252279.P11797474076049812310
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051073 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016813 (4 * n)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A252279.P11797474076049812310
 
 /-!
 # A252280: For a prime p, denote by s(p,k) the odd part of the digital sum of p^k. Let k_1 be the smallest k such that s(p,k) is divisible by 7. Sequence lists primes p for which s(p,k_1)=7.
@@ -7163,28 +7115,6 @@ end
 
 end A252281.P5702061701073252358
 
-/-! ## A252281.P8299966406776266436
-
-`∩[A189382(n+1), A283225(n+1)]`
--/
-
-namespace A252281.P8299966406776266436
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189382 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A283225 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252281.P8299966406776266436
-
 /-!
 # A252282: Intersection of A251964 and A252280.
 
@@ -7278,28 +7208,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A252282.P16467635246444382978
-
-/-! ## A252282.P15559123383475000886
-
-`∩[A189629(n+1), A251964(n+1)]`
--/
-
-namespace A252282.P15559123383475000886
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189629 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A251964 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A252282.P15559123383475000886
 
 /-!
 # A252283: Intersection of A251964, A252280 and A252281.

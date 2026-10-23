@@ -10,27 +10,27 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
-import Seq.B000.C014
+import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -4224,25 +4224,6 @@ end
 
 end A325238.P13736431113924243026
 
-/-! ## A325238.P6634118366161799881
-
-`A025487(comp[A006881(n+3)-A001206(n)]+1)`
--/
-
-namespace A325238.P6634118366161799881
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006881 (n + 3) - A001206 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025487 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1)
-
-end
-
-end A325238.P6634118366161799881
-
 /-! ## A325238.P17902763313958236485
 
 `A025487(lt[A135722(2*n+3), A005897(n)])`
@@ -5770,25 +5751,6 @@ end
 
 end A325251.P2361852034967164446
 
-/-! ## A325251.P9387840674660593558
-
-`comp[A325261(n+1)-A337917(n+1)]`
--/
-
-namespace A325251.P9387840674660593558
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325261 (n + 1) - A337917 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A325251.P9387840674660593558
-
 /-! ## A325251.P8577724190937645857
 
 `lt[A009001(A281118(n+1)+1), 2]+1`
@@ -6206,7 +6168,7 @@ end A325259.P16497857046482227310
 /-!
 # A325260: Number of integer partitions of n whose omega-sequence covers an initial interval of positive integers.
 
-The programs for A325260, the canonical program `A325260.P13011178329351078032` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325260 has offset 0).
+The programs for A325260, the canonical program `A325260.P13011178329351078032` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325260 has offset 0).
 
 The definition of A325260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6238,7 +6200,7 @@ end A325260
 
 `A127002(n+4)+Δ[A267528(n+1)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A325260

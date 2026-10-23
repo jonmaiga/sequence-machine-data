@@ -7,25 +7,26 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C017
+import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C028
+import Seq.B000.C024
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
@@ -58,6 +59,7 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -74,7 +76,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -1294,7 +1295,7 @@ end A224127.P14566181035893780735
 /-!
 # A224128: Number of n X 3 0..1 arrays with rows nondecreasing and antidiagonals unimodal.
 
-The programs for A224128, the canonical program `A224128.P16560443898464896810` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224128 has offset 1).
+The programs for A224128, the canonical program `A224128.P16560443898464896810` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224128 has offset 1).
 
 The definition of A224128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 179 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1326,7 +1327,7 @@ end A224128
 
 `4*a(n-1)-2*a(n-2)+2*a(n-3)` with `a(0)=4, a(1)=16, a(2)=58`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224128
@@ -1416,7 +1417,7 @@ end A224128
 /-!
 # A224129: Number of n X 4 0..1 arrays with rows nondecreasing and antidiagonals unimodal.
 
-The programs for A224129, the canonical program `A224129.P11267183911522357134` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224129 has offset 1).
+The programs for A224129, the canonical program `A224129.P11267183911522357134` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224129 has offset 1).
 
 The definition of A224129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1425,7 +1426,7 @@ The definition of A224129 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-1)-5*a(n-2)+2*a(n-3)+4*a(n-4)` with `a(0)=5, a(1)=25, a(2)=106, a(3)=419`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224129
@@ -1880,16 +1881,16 @@ end A224133.P797706462259503505
 /-!
 # A224134: Number of 3 X n 0..1 arrays with rows nondecreasing and antidiagonals unimodal.
 
-The programs for A224134, the canonical program `A224134.P1472643126715603102` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224134 has offset 1).
+The programs for A224134, the canonical program `A224134.P1472643126715603102` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224134 has offset 1).
 
-The definition of A224134 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A224134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A224134.P1472643126715603102
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=8, a(1)=27, a(2)=58, a(3)=106, a(4)=175`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224134
@@ -2825,29 +2826,10 @@ end A224140.P16830560737343980240
 /-!
 # A224141: Number of n X 3 0..1 arrays with rows and antidiagonals unimodal and columns nondecreasing.
 
-The programs for A224141, the canonical program `A224141.P11936406545894778637` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224141 has offset 1).
+The programs for A224141, the canonical program `A224141.P11936406545894778637` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224141 has offset 1).
 
-The definition of A224141 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A224141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
-
-/-! ## A224141.P11936406545894778637
-
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=7, a(1)=22, a(2)=49, a(3)=92`
-
-The canonical program, it is in `Seq.B000.C028`.
--/
-
-namespace A224141
-
-/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
-def P11936406545894778637.Spec : Prop :=
-  ∀ n, P11936406545894778637.a n = A224141 (n + 1)
-
-theorem P11936406545894778637.correct : P11936406545894778637.Spec := by
-  intro n
-  simp only [A224141, Nat.add_sub_cancel]
-
-end A224141
 
 /-! ## A224141.P8263785458111441561
 
@@ -3079,6 +3061,25 @@ namespace A224141
 /-- `∑[lcm(2, (n+1)²+n+2)]+n+1` -/
 def P2616242905559201507.Spec : Prop :=
   ∀ n, (P2616242905559201507.a n : ℤ) = A224141 (n + 1)
+
+end A224141
+
+/-! ## A224141.P11936406545894778637
+
+`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=7, a(1)=22, a(2)=49, a(3)=92`
+
+The canonical program, it is in `Seq.B000.C029`.
+-/
+
+namespace A224141
+
+/-- `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` -/
+def P11936406545894778637.Spec : Prop :=
+  ∀ n, P11936406545894778637.a n = A224141 (n + 1)
+
+theorem P11936406545894778637.correct : P11936406545894778637.Spec := by
+  intro n
+  simp only [A224141, Nat.add_sub_cancel]
 
 end A224141
 
@@ -3353,16 +3354,16 @@ end A224141
 /-!
 # A224142: Number of n X 4 0..1 arrays with rows and antidiagonals unimodal and columns nondecreasing.
 
-The programs for A224142, the canonical program `A224142.P5570728876535868379` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224142 has offset 1).
+The programs for A224142, the canonical program `A224142.P5570728876535868379` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224142 has offset 1).
 
-The definition of A224142 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A224142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A224142.P5570728876535868379
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=11, a(1)=46, a(2)=124, a(3)=272, a(4)=526, a(5)=930`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224142
@@ -3715,7 +3716,7 @@ end A224146.P12143000645925090254
 /-!
 # A224147: Number of 3 X n 0..1 arrays with rows and antidiagonals unimodal and columns nondecreasing.
 
-The programs for A224147, the canonical program `A224147.P4198500791502906969` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224147 has offset 1).
+The programs for A224147, the canonical program `A224147.P4198500791502906969` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224147 has offset 1).
 
 The definition of A224147 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3724,7 +3725,7 @@ The definition of A224147 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[∑[∑[∑[n]+2]+n]+1]]+1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A224147

@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -17,15 +18,16 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C036
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
@@ -33,8 +35,7 @@ import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -353,25 +354,6 @@ end A200509.P15245116121702723546
 
 The programs for A200515, there is no canonical definition to state claims against.
 -/
-
-/-! ## A200515.P7600777128290475463
-
-`A200505(n+1)%A284623(comp[A185284(n)])`
--/
-
-namespace A200515.P7600777128290475463
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185284 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A200505 (n + 1)) (A284623 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n))
-
-end
-
-end A200515.P7600777128290475463
 
 /-! ## A200515.P10024782273745648894
 
@@ -1604,7 +1586,7 @@ end A200534.P8131266670359791342
 /-!
 # A200535: G.f. satisfies: A(x) = exp( Sum_{n>=1} [Sum_{k=0..2*n} C(2*n,k)^2 * x^k] / A(x)^n * x^n/n ).
 
-The programs for A200535, the canonical program `A200535.P10206477823411521463` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200535 has offset 0).
+The programs for A200535, the canonical program `A200535.P10206477823411521463` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200535 has offset 0).
 
 The definition of A200535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1613,7 +1595,7 @@ The definition of A200535 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1-x+3x^2-2x^3+3x^4-x^5+x^6)/(1-2x+x^2))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200535
@@ -3657,7 +3639,7 @@ end A200548.P16049249999013355781
 
 /-! ## A200548.P8035539220532259352
 
-`--A162292(n+1)%2*A200553(Δ[A008778(n)])`
+`-(-A162292(n+1)%2*A200553(Δ[A008778(n)]))`
 -/
 
 namespace A200548.P8035539220532259352
@@ -4122,7 +4104,7 @@ end A200554.P6178131501757603459
 
 /-! ## A200554.P17255404961230442142
 
-`-A008683(A007918(n))*A200553(A000096(n)+3)`
+`-(A008683(A007918(n))*A200553(A000096(n)+3))`
 -/
 
 namespace A200554.P17255404961230442142
@@ -4663,7 +4645,7 @@ end A200560.P11277798135170678185
 /-!
 # A200561: Expansion of -2*x / ( (2*x-1)*(4*x^2+3*x+1) ).
 
-The programs for A200561, the canonical program `A200561.P6073350093184036459` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200561 has offset 1).
+The programs for A200561, the canonical program `A200561.P6073350093184036459` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200561 has offset 1).
 
 The definition of A200561 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(2/(1+x-2x^2-8x^3))` (program `A200561.P6073350093184036459`, by `A200561.P6073350093184036459.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4672,7 +4654,7 @@ The definition of A200561 is `verified`: the Lean definition is proven equivalen
 
 `ogf(2/(1+x-2x^2-8x^3))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200561
@@ -5007,7 +4989,7 @@ end A200561
 /-!
 # A200562: Expansion of 1 / ((1 - 2*x) * (1 + 3*x + 4*x^2)) in powers of x.
 
-The programs for A200562, the canonical program `A200562.P18288036256161506366` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200562 has offset 0).
+The programs for A200562, the canonical program `A200562.P18288036256161506366` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200562 has offset 0).
 
 The definition of A200562 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+x-2x^2-8x^3))` (program `A200562.P18288036256161506366`, by `A200562.P18288036256161506366.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5016,7 +4998,7 @@ The definition of A200562 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+x-2x^2-8x^3))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200562
@@ -5408,7 +5390,7 @@ end A200562
 /-!
 # A200563: Expansion of -2*x*(1+4*x) / ((2*x-1)*(4*x^2+3*x+1)).
 
-The programs for A200563, the canonical program `A200563.P16349248479606887366` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200563 has offset 1).
+The programs for A200563, the canonical program `A200563.P16349248479606887366` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200563 has offset 1).
 
 The definition of A200563 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((2+8x)/(1+x-2x^2-8x^3))` (program `A200563.P16349248479606887366`, by `A200563.P16349248479606887366.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5417,7 +5399,7 @@ The definition of A200563 is `verified`: the Lean definition is proven equivalen
 
 `ogf((2+8x)/(1+x-2x^2-8x^3))`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200563
@@ -5628,7 +5610,7 @@ end A200563
 /-!
 # A200564: a(n) = (2^(n^2)+2^((n^2+n)/2))/2.
 
-The programs for A200564, the canonical program `A200564.P9641994384436209628` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200564 has offset 0).
+The programs for A200564, the canonical program `A200564.P9641994384436209628` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200564 has offset 0).
 
 The definition of A200564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5637,7 +5619,7 @@ The definition of A200564 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^n²+2^((n²+n)/2))/2`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200564
@@ -5751,28 +5733,6 @@ end A200564
 
 The programs for A200566, there is no canonical definition to state claims against.
 -/
-
-/-! ## A200566.P212298448753206355
-
-`∩[A200567(n+1)+1, 2*n]`
--/
-
-namespace A200566.P212298448753206355
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A200567 (n + 1) + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = x) n
-
-end
-
-end A200566.P212298448753206355
 
 /-! ## A200566.P10172225288004402790
 
@@ -6239,7 +6199,7 @@ end A200571.P7966681996124505463
 /-!
 # A200572: Number of n X 1 0..2 arrays with no average of any element and its horizontal and vertical neighbors equal to one.
 
-The programs for A200572, the canonical program `A200572.P2747269227778304202` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200572 has offset 1).
+The programs for A200572, the canonical program `A200572.P2747269227778304202` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200572 has offset 1).
 
 The definition of A200572 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6248,7 +6208,7 @@ The definition of A200572 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+a(n-2)+a(n-3)-3*a(n-4)-2*a(n-5)` with `a(0)=2, a(1)=6, a(2)=10, a(3)=22, a(4)=52`
 
-The canonical program, it is in `Seq.B000.C026`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A200572

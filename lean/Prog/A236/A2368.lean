@@ -4,33 +4,32 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -86,7 +85,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A236800: Number T(n,k) of equivalence classes of ways of placing k 5 X 5 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=5, 0<=k<=floor(n/5)^2, read by rows.
@@ -3942,47 +3940,6 @@ end
 
 end A236841.P13832012017665872704
 
-/-! ## A236841.P9187398004043887987
-
-`comp[A059134(2*n+3)-A243100(n+1)]`
--/
-
-namespace A236841.P9187398004043887987
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059134 (2 * n + 3) - A243100 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A236841.P9187398004043887987
-
-/-! ## A236841.P5456988386481360469
-
-`comp[∑[(A062186(A006881(n+1))-1)^3-n]]`
--/
-
-namespace A236841.P5456988386481360469
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A062186 (A006881 (n + 1)).toNat - 1) ^ 3 - (n : ℤ)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A236841.P5456988386481360469
-
 /-! ## A236841.P6852722468254468974
 
 `lt[A056239(A294316(n)), A144460(n+4)]`
@@ -6282,7 +6239,7 @@ end A236856
 /-!
 # A236857: Each n occurs the least common multiple (LCM) of {1, 2, ..., n} (= A003418(n)) times.
 
-The programs for A236857, the canonical program `A236857.P7964098918235860549` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236857 has offset 0).
+The programs for A236857, the canonical program `A236857.P7964098918235860549` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236857 has offset 0).
 
 The definition of A236857 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6291,7 +6248,7 @@ The definition of A236857 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[lcm(n, a(n-1))]]]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A236857
@@ -7115,25 +7072,6 @@ end A236861.P16308332690543362021
 The programs for A236862, there is no canonical definition to state claims against.
 -/
 
-/-! ## A236862.P987745672483513907
-
-`char[A234742(n)]`
--/
-
-namespace A236862.P987745672483513907
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234742 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f1 j = (n : ℤ) then 1 else 0
-
-end
-
-end A236862.P987745672483513907
-
 /-! ## A236862.P15232459108691319910
 
 `ceil(A236853(n)/6)`
@@ -7281,6 +7219,25 @@ end
 
 end A236862.P10335079106241955264
 
+/-! ## A236862.P987745672483513907
+
+`char[A234742(n)]`
+-/
+
+namespace A236862.P987745672483513907
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A234742 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A236862.P987745672483513907
+
 /-! ## A236862.P665959854473675542
 
 `A236847(A008574(n))/A008574(A236847(n))`
@@ -7363,28 +7320,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236863.P11710783991362906560
-
-/-! ## A236863.P12441293815268274412
-
-`n-∑[char[A272565(n+1)]]`
--/
-
-namespace A236863.P12441293815268274412
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272565 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
-
-end
-
-end A236863.P12441293815268274412
 
 /-! ## A236863.P10559701474307095219
 
@@ -7486,6 +7421,28 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A236863.P937020209338486245
+
+/-! ## A236863.P12441293815268274412
+
+`n-∑[char[A272565(n+1)]]`
+-/
+
+namespace A236863.P12441293815268274412
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272565 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+
+end
+
+end A236863.P12441293815268274412
 
 /-! ## A236863.P15168613522270836053
 

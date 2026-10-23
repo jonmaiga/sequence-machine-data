@@ -3,32 +3,35 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C005
+import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C018
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C034
+import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -44,7 +47,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -723,12 +725,12 @@ end A151409.P3108472180798694598
 /-!
 # A151410: Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of 2 n steps taken from {(-1, 0), (1, -1), (1, 0), (1, 1)}.
 
-The programs for A151410, the canonical program `A151410.P13308071702024713765` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151410 has offset 0).
+The programs for A151410, the canonical program `A151410.P5653092627576698` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151410 has offset 0).
 
 The definition of A151410 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A151410.P13308071702024713765
+/-! ## A151410.P5653092627576698
 
 `A000108(n)*(A001006(n)+A001006(n+1))*(n+3)/6`
 
@@ -738,8 +740,8 @@ The canonical program, it is in `Seq.B001.C004`.
 namespace A151410
 
 /-- `A000108(n)*(A001006(n)+A001006(n+1))*(n+3)/6` -/
-def P13308071702024713765.Spec : Prop :=
-  ∀ n, P13308071702024713765.a n = (A151410 n : ℚ)
+def P5653092627576698.Spec : Prop :=
+  ∀ n, P5653092627576698.a n = (A151410 n : ℚ)
 
 end A151410
 

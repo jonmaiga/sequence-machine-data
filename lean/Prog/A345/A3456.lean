@@ -5,22 +5,22 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
@@ -71,7 +71,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A345600: Numbers that are the sum of ten fourth powers in seven or more ways.
@@ -1572,7 +1571,7 @@ end A345630.P13891116713887777388
 /-!
 # A345632: Sum of terms of even index in the binomial decomposition of n^(n-1).
 
-The programs for A345632, the canonical program `A345632.P9646962262592809252` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345632 has offset 1).
+The programs for A345632, the canonical program `A345632.P9646962262592809252` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345632 has offset 1).
 
 The definition of A345632 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1581,7 +1580,7 @@ The definition of A345632 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((1-n)^n+(1+n)^n)/2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345632
@@ -1687,7 +1686,7 @@ end A345632
 /-!
 # A345633: Sum of terms of odd index in the binomial decomposition of n^(n-1).
 
-The programs for A345633, the canonical program `A345633.P2439394655788921872` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345633 has offset 1).
+The programs for A345633, the canonical program `A345633.P2439394655788921872` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345633 has offset 1).
 
 The definition of A345633 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1696,7 +1695,7 @@ The definition of A345633 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((1+n)^n-(1-n)^n)/2`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A345633

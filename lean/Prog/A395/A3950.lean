@@ -2,29 +2,27 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C031
+import Seq.B000.C029
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,6 +31,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
@@ -298,72 +297,6 @@ end
 
 end A395005.P2492340748206432531
 
-/-! ## A395005.P12972841761328457211
-
-`∩[A344826(n+1), A151988(n)]`
--/
-
-namespace A395005.P12972841761328457211
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344826 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151988 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395005.P12972841761328457211
-
-/-! ## A395005.P16567352284983565912
-
-`∩[A344826(n+1), A368747(n)]`
--/
-
-namespace A395005.P16567352284983565912
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344826 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368747 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395005.P16567352284983565912
-
-/-! ## A395005.P7399595445413497962
-
-`∩[A004776(n+1), A344826(n+1)]`
--/
-
-namespace A395005.P7399595445413497962
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004776 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344826 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395005.P7399595445413497962
-
 /-!
 # A395011: Minimum lexicographic rank distance between Prüfer codes of a graceful labeling of a tree and its involution labeling.
 
@@ -518,7 +451,7 @@ end A395023.P299023830188846689
 /-!
 # A395025: a(n) = n! * [x^n] exp(x-x^2/2)/(1 - x).
 
-The programs for A395025, the canonical program `A395025.P3756625425658122689` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395025 has offset 0).
+The programs for A395025, the canonical program `A395025.P3756625425658122689` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395025 has offset 0).
 
 The definition of A395025 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -527,7 +460,7 @@ The definition of A395025 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n-1)*((n-2)*a(n-3)-2*a(n-2))+(n+1)*a(n-1)` with `a(0)=1, a(1)=2, a(2)=4`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A395025
@@ -610,7 +543,7 @@ end A395028.P16134257094110842974
 /-!
 # A395029: Number of {0,1}-labelings of the ladder graph L_n that are unchanged when every vertex updates to the majority of itself and its neighbors, keeping its value on a tie.
 
-The programs for A395029, the canonical program `A395029.P17845111885337283828` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395029 has offset 2).
+The programs for A395029, the canonical program `A395029.P17845111885337283828` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395029 has offset 2).
 
 The definition of A395029 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -619,7 +552,7 @@ The definition of A395029 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+a(n-2)-2*a(n-4)` with `a(0)=6, a(1)=22, a(2)=68, a(3)=222`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A395029
@@ -767,35 +700,35 @@ end A395030.P7629866860400078894
 /-!
 # A395031: a(n) = 14*n^3 + 28*n^2 + 12*n + 1.
 
-The programs for A395031, the canonical program `A395031.P6141989788099420546` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395031 has offset 0).
+The programs for A395031, the canonical program `A395031.P6141989788099420546` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395031 has offset 0).
 
 The definition of A395031 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `14*n^3+28*n²+12*n+1` (program `A395031.P6141989788099420546`, by `A395031.P6141989788099420546.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A395031.P18172279457418561092
+/-! ## A395031.P3009750019981015836
 
 `2*n*(7*n*(n+2)+6)+1`
 -/
 
-namespace A395031.P18172279457418561092
+namespace A395031.P3009750019981015836
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * (n * (7 * (n * (n + 2)) + 6)) + 1
+  2 * n * (7 * n * (n + 2) + 6) + 1
 
 end
 
-end A395031.P18172279457418561092
+end A395031.P3009750019981015836
 
 namespace A395031
 
 /-- `2*n*(7*n*(n+2)+6)+1` -/
-def P18172279457418561092.Spec : Prop :=
-  ∀ n, (P18172279457418561092.a n : ℤ) = A395031 n
+def P3009750019981015836.Spec : Prop :=
+  ∀ n, (P3009750019981015836.a n : ℤ) = A395031 n
 
-theorem P18172279457418561092.correct : P18172279457418561092.Spec := by
+theorem P3009750019981015836.correct : P3009750019981015836.Spec := by
   intro n
-  simp only [A395031, Nat.add_sub_cancel, A395031.P18172279457418561092.a, A395031.P6141989788099420546.a, SequenceMachineLib.memo_apply]
+  simp only [A395031, Nat.add_sub_cancel, A395031.P3009750019981015836.a, A395031.P6141989788099420546.a, SequenceMachineLib.memo_apply]
   try push_cast
   try (first | ring1 | ring_nf)
 
@@ -805,7 +738,7 @@ end A395031
 
 `14*n^3+28*n²+12*n+1`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A395031
@@ -2792,6 +2725,28 @@ end
 
 end A395067.P6459500938819737496
 
+/-! ## A395067.P10990665459791913348
+
+`∩[A359280(n+1), A336705(n)]`
+-/
+
+namespace A395067.P10990665459791913348
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359280 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336705 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395067.P10990665459791913348
+
 /-! ## A395067.P17469564512982758341
 
 `∩[A136724(n+1), A359280(n+1)]`
@@ -2901,28 +2856,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395067.P15917816883252417366
-
-/-! ## A395067.P10990665459791913348
-
-`∩[A359280(n+1), A336705(n)]`
--/
-
-namespace A395067.P10990665459791913348
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359280 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336705 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A395067.P10990665459791913348
 
 /-! ## A395067.P10918027313565733579
 
@@ -3055,6 +2988,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A395067.P12638298739427432646
+
+/-!
+# A395068: a(n) = Sum_{1 <= i < j <= n} ( n!/(i*j) )^4.
+
+The programs for A395068, the canonical program `A395068.P11899098471299221882` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395068 has offset 0).
+
+The definition of A395068 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A395068.P11899098471299221882
+
+`(n^4+(n-1)^4)*a(n-1)-(n-1)^8*a(n-2)+(n-2)!^4` with `a(0)=0, a(1)=0`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A395068
+
+/-- `(n^4+(n-1)^4)*a(n-1)-(n-1)^8*a(n-2)+(n-2)!^4` -/
+def P11899098471299221882.Spec : Prop :=
+  ∀ n, P11899098471299221882.a n = A395068 n
+
+theorem P11899098471299221882.correct : P11899098471299221882.Spec := by
+  intro n
+  simp only [A395068]
+
+end A395068
 
 /-!
 # A395069: Number of steps to return a deck of n cards to its original state (original order and all cards face up) under a cyclic signed prefix-reversal shuffle: repeatedly flip the top 1 card, then the top 2, ..., then all n cards, cycling back to 1 until the initial state is restored.

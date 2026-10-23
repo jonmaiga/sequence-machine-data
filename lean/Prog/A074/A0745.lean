@@ -3,6 +3,7 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
+import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -26,14 +27,13 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C029
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -335,17 +335,25 @@ end A074500
 /-!
 # A074501: a(n) = 1^n + 2^n + 5^n.
 
-The programs for A074501, the canonical program `A074501.P15534208100897605080` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074501 has offset 0).
+The programs for A074501, the canonical program `A074501.P455223776824412715` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074501 has offset 0).
 
-The definition of A074501 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074501 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+2^n+5^n` (program `A074501.P455223776824412715`, by `A074501.P455223776824412715.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074501.P15534208100897605080
 
 `1+2^n+5^n`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A074501.P15534208100897605080
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 2 ^ n + 5 ^ n
+
+end
+
+end A074501.P15534208100897605080
 
 namespace A074501
 
@@ -354,6 +362,27 @@ def P15534208100897605080.Spec : Prop :=
   ∀ n, (P15534208100897605080.a n : ℤ) = A074501 n
 
 theorem P15534208100897605080.correct : P15534208100897605080.Spec := by
+  intro n
+  simp only [A074501, Nat.add_sub_cancel, A074501.P15534208100897605080.a, A074501.P455223776824412715.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074501
+
+/-! ## A074501.P455223776824412715
+
+`1^n+2^n+5^n`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A074501
+
+/-- `1^n+2^n+5^n` -/
+def P455223776824412715.Spec : Prop :=
+  ∀ n, (P455223776824412715.a n : ℤ) = A074501 n
+
+theorem P455223776824412715.correct : P455223776824412715.Spec := by
   intro n
   simp only [A074501]
 
@@ -561,68 +590,27 @@ end A074501
 /-!
 # A074502: a(n) = 1^n + 2^n + 6^n.
 
-The programs for A074502, the canonical program `A074502.P3374437632903311781` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074502 has offset 0).
+The programs for A074502, the canonical program `A074502.P12330941856278510367` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074502 has offset 0).
 
-The definition of A074502 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074502 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+2^n+6^n` (program `A074502.P12330941856278510367`, by `A074502.P12330941856278510367.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074502.P3374437632903311781
+/-! ## A074502.P12330941856278510367
 
-`8*a(n-1)-12*a(n-2)+5` with `a(0)=3, a(1)=9`
+`1^n+2^n+6^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074502
 
-/-- `8*a(n-1)-12*a(n-2)+5` -/
-def P3374437632903311781.Spec : Prop :=
-  ∀ n, P3374437632903311781.a n = A074502 n
+/-- `1^n+2^n+6^n` -/
+def P12330941856278510367.Spec : Prop :=
+  ∀ n, (P12330941856278510367.a n : ℤ) = A074502 n
 
-theorem P3374437632903311781.correct : P3374437632903311781.Spec := by
+theorem P12330941856278510367.correct : P12330941856278510367.Spec := by
   intro n
   simp only [A074502]
-
-end A074502
-
-/-! ## A074502.P14490890044362830555
-
-`2^n+6^n+1`
--/
-
-namespace A074502.P14490890044362830555
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n + (6 ^ n + 1)
-
-end
-
-end A074502.P14490890044362830555
-
-namespace A074502
-
-/-- `2^n+6^n+1` -/
-def P14490890044362830555.Spec : Prop :=
-  ∀ n, (P14490890044362830555.a n : ℤ) = A074502 n
-
-theorem P14490890044362830555.correct : P14490890044362830555.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074502, Nat.add_sub_cancel, A074502.P14490890044362830555.a, A074502.P3374437632903311781.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074502, Nat.add_sub_cancel, A074502.P14490890044362830555.a, A074502.P3374437632903311781.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074502
 
@@ -960,68 +948,27 @@ end A074502
 /-!
 # A074503: a(n) = 1^n + 2^n + 7^n.
 
-The programs for A074503, the canonical program `A074503.P11277408315175432063` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074503 has offset 0).
+The programs for A074503, the canonical program `A074503.P2316594922775968962` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074503 has offset 0).
 
-The definition of A074503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074503 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+2^n+7^n` (program `A074503.P2316594922775968962`, by `A074503.P2316594922775968962.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074503.P11277408315175432063
+/-! ## A074503.P2316594922775968962
 
-`9*a(n-1)-14*a(n-2)+6` with `a(0)=3, a(1)=10`
+`1^n+2^n+7^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074503
 
-/-- `9*a(n-1)-14*a(n-2)+6` -/
-def P11277408315175432063.Spec : Prop :=
-  ∀ n, P11277408315175432063.a n = A074503 n
+/-- `1^n+2^n+7^n` -/
+def P2316594922775968962.Spec : Prop :=
+  ∀ n, (P2316594922775968962.a n : ℤ) = A074503 n
 
-theorem P11277408315175432063.correct : P11277408315175432063.Spec := by
+theorem P2316594922775968962.correct : P2316594922775968962.Spec := by
   intro n
   simp only [A074503]
-
-end A074503
-
-/-! ## A074503.P3802973048922281154
-
-`2^n+7^n+1`
--/
-
-namespace A074503.P3802973048922281154
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n + (7 ^ n + 1)
-
-end
-
-end A074503.P3802973048922281154
-
-namespace A074503
-
-/-- `2^n+7^n+1` -/
-def P3802973048922281154.Spec : Prop :=
-  ∀ n, (P3802973048922281154.a n : ℤ) = A074503 n
-
-theorem P3802973048922281154.correct : P3802973048922281154.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074503, Nat.add_sub_cancel, A074503.P3802973048922281154.a, A074503.P11277408315175432063.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074503, Nat.add_sub_cancel, A074503.P3802973048922281154.a, A074503.P11277408315175432063.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074503
 
@@ -1273,68 +1220,27 @@ end A074503
 /-!
 # A074504: a(n) = 1^n + 2^n + 8^n.
 
-The programs for A074504, the canonical program `A074504.P1024703705856181068` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074504 has offset 0).
+The programs for A074504, the canonical program `A074504.P13616172850196297059` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074504 has offset 0).
 
-The definition of A074504 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074504 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+2^n+8^n` (program `A074504.P13616172850196297059`, by `A074504.P13616172850196297059.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074504.P1024703705856181068
+/-! ## A074504.P13616172850196297059
 
-`10*a(n-1)-16*a(n-2)+7` with `a(0)=3, a(1)=11`
+`1^n+2^n+8^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074504
 
-/-- `10*a(n-1)-16*a(n-2)+7` -/
-def P1024703705856181068.Spec : Prop :=
-  ∀ n, P1024703705856181068.a n = A074504 n
+/-- `1^n+2^n+8^n` -/
+def P13616172850196297059.Spec : Prop :=
+  ∀ n, (P13616172850196297059.a n : ℤ) = A074504 n
 
-theorem P1024703705856181068.correct : P1024703705856181068.Spec := by
+theorem P13616172850196297059.correct : P13616172850196297059.Spec := by
   intro n
   simp only [A074504]
-
-end A074504
-
-/-! ## A074504.P15845953292080970515
-
-`2^n+8^n+1`
--/
-
-namespace A074504.P15845953292080970515
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n + (8 ^ n + 1)
-
-end
-
-end A074504.P15845953292080970515
-
-namespace A074504
-
-/-- `2^n+8^n+1` -/
-def P15845953292080970515.Spec : Prop :=
-  ∀ n, (P15845953292080970515.a n : ℤ) = A074504 n
-
-theorem P15845953292080970515.correct : P15845953292080970515.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074504, Nat.add_sub_cancel, A074504.P15845953292080970515.a, A074504.P1024703705856181068.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074504, Nat.add_sub_cancel, A074504.P15845953292080970515.a, A074504.P1024703705856181068.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074504
 
@@ -1600,68 +1506,27 @@ end A074504
 /-!
 # A074505: a(n) = 1^n + 2^n + 9^n.
 
-The programs for A074505, the canonical program `A074505.P4542892052582670214` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074505 has offset 0).
+The programs for A074505, the canonical program `A074505.P17127150442839759814` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074505 has offset 0).
 
-The definition of A074505 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074505 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+2^n+9^n` (program `A074505.P17127150442839759814`, by `A074505.P17127150442839759814.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074505.P4542892052582670214
+/-! ## A074505.P17127150442839759814
 
-`11*a(n-1)-18*a(n-2)+8` with `a(0)=3, a(1)=12`
+`1^n+2^n+9^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074505
 
-/-- `11*a(n-1)-18*a(n-2)+8` -/
-def P4542892052582670214.Spec : Prop :=
-  ∀ n, P4542892052582670214.a n = A074505 n
+/-- `1^n+2^n+9^n` -/
+def P17127150442839759814.Spec : Prop :=
+  ∀ n, (P17127150442839759814.a n : ℤ) = A074505 n
 
-theorem P4542892052582670214.correct : P4542892052582670214.Spec := by
+theorem P17127150442839759814.correct : P17127150442839759814.Spec := by
   intro n
   simp only [A074505]
-
-end A074505
-
-/-! ## A074505.P8005806616941246655
-
-`2^n+9^n+1`
--/
-
-namespace A074505.P8005806616941246655
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n + (9 ^ n + 1)
-
-end
-
-end A074505.P8005806616941246655
-
-namespace A074505
-
-/-- `2^n+9^n+1` -/
-def P8005806616941246655.Spec : Prop :=
-  ∀ n, (P8005806616941246655.a n : ℤ) = A074505 n
-
-theorem P8005806616941246655.correct : P8005806616941246655.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074505, Nat.add_sub_cancel, A074505.P8005806616941246655.a, A074505.P4542892052582670214.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074505, Nat.add_sub_cancel, A074505.P8005806616941246655.a, A074505.P4542892052582670214.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074505
 
@@ -1838,68 +1703,27 @@ end A074505
 /-!
 # A074506: a(n) = 1^n + 3^n + 4^n.
 
-The programs for A074506, the canonical program `A074506.P15184469134492778302` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074506 has offset 0).
+The programs for A074506, the canonical program `A074506.P11281591618345595835` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074506 has offset 0).
 
-The definition of A074506 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074506 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+3^n+4^n` (program `A074506.P11281591618345595835`, by `A074506.P11281591618345595835.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074506.P15184469134492778302
+/-! ## A074506.P11281591618345595835
 
-`7*a(n-1)-12*a(n-2)+6` with `a(0)=3, a(1)=8`
+`1^n+3^n+4^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074506
 
-/-- `7*a(n-1)-12*a(n-2)+6` -/
-def P15184469134492778302.Spec : Prop :=
-  ∀ n, P15184469134492778302.a n = A074506 n
+/-- `1^n+3^n+4^n` -/
+def P11281591618345595835.Spec : Prop :=
+  ∀ n, (P11281591618345595835.a n : ℤ) = A074506 n
 
-theorem P15184469134492778302.correct : P15184469134492778302.Spec := by
+theorem P11281591618345595835.correct : P11281591618345595835.Spec := by
   intro n
   simp only [A074506]
-
-end A074506
-
-/-! ## A074506.P11768731521957229604
-
-`3^n+4^n+1`
--/
-
-namespace A074506.P11768731521957229604
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ n + (4 ^ n + 1)
-
-end
-
-end A074506.P11768731521957229604
-
-namespace A074506
-
-/-- `3^n+4^n+1` -/
-def P11768731521957229604.Spec : Prop :=
-  ∀ n, (P11768731521957229604.a n : ℤ) = A074506 n
-
-theorem P11768731521957229604.correct : P11768731521957229604.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074506, Nat.add_sub_cancel, A074506.P11768731521957229604.a, A074506.P15184469134492778302.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074506, Nat.add_sub_cancel, A074506.P11768731521957229604.a, A074506.P15184469134492778302.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074506
 
@@ -2286,17 +2110,25 @@ end A074506
 /-!
 # A074507: a(n) = 1^n + 3^n + 5^n.
 
-The programs for A074507, the canonical program `A074507.P14076099071536163614` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074507 has offset 0).
+The programs for A074507, the canonical program `A074507.P11026524760515639452` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074507 has offset 0).
 
-The definition of A074507 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074507 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+3^n+5^n` (program `A074507.P11026524760515639452`, by `A074507.P11026524760515639452.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074507.P14076099071536163614
 
 `1+3^n+5^n`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A074507.P14076099071536163614
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 3 ^ n + 5 ^ n
+
+end
+
+end A074507.P14076099071536163614
 
 namespace A074507
 
@@ -2305,6 +2137,27 @@ def P14076099071536163614.Spec : Prop :=
   ∀ n, (P14076099071536163614.a n : ℤ) = A074507 n
 
 theorem P14076099071536163614.correct : P14076099071536163614.Spec := by
+  intro n
+  simp only [A074507, Nat.add_sub_cancel, A074507.P14076099071536163614.a, A074507.P11026524760515639452.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074507
+
+/-! ## A074507.P11026524760515639452
+
+`1^n+3^n+5^n`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A074507
+
+/-- `1^n+3^n+5^n` -/
+def P11026524760515639452.Spec : Prop :=
+  ∀ n, (P11026524760515639452.a n : ℤ) = A074507 n
+
+theorem P11026524760515639452.correct : P11026524760515639452.Spec := by
   intro n
   simp only [A074507]
 
@@ -2627,68 +2480,27 @@ end A074507
 /-!
 # A074508: a(n) = 1^n + 3^n + 6^n.
 
-The programs for A074508, the canonical program `A074508.P17464961638749649409` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074508 has offset 0).
+The programs for A074508, the canonical program `A074508.P7041777955413014859` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074508 has offset 0).
 
-The definition of A074508 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074508 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+3^n+6^n` (program `A074508.P7041777955413014859`, by `A074508.P7041777955413014859.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074508.P17464961638749649409
+/-! ## A074508.P7041777955413014859
 
-`9*a(n-1)-18*a(n-2)+10` with `a(0)=3, a(1)=10`
+`1^n+3^n+6^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074508
 
-/-- `9*a(n-1)-18*a(n-2)+10` -/
-def P17464961638749649409.Spec : Prop :=
-  ∀ n, P17464961638749649409.a n = A074508 n
+/-- `1^n+3^n+6^n` -/
+def P7041777955413014859.Spec : Prop :=
+  ∀ n, (P7041777955413014859.a n : ℤ) = A074508 n
 
-theorem P17464961638749649409.correct : P17464961638749649409.Spec := by
+theorem P7041777955413014859.correct : P7041777955413014859.Spec := by
   intro n
   simp only [A074508]
-
-end A074508
-
-/-! ## A074508.P12354333344026868810
-
-`3^n+6^n+1`
--/
-
-namespace A074508.P12354333344026868810
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ n + (6 ^ n + 1)
-
-end
-
-end A074508.P12354333344026868810
-
-namespace A074508
-
-/-- `3^n+6^n+1` -/
-def P12354333344026868810.Spec : Prop :=
-  ∀ n, (P12354333344026868810.a n : ℤ) = A074508 n
-
-theorem P12354333344026868810.correct : P12354333344026868810.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074508, Nat.add_sub_cancel, A074508.P12354333344026868810.a, A074508.P17464961638749649409.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074508, Nat.add_sub_cancel, A074508.P12354333344026868810.a, A074508.P17464961638749649409.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074508
 
@@ -2928,68 +2740,27 @@ end A074508
 /-!
 # A074509: a(n) = 1^n + 3^n + 7^n.
 
-The programs for A074509, the canonical program `A074509.P10079155170142992927` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074509 has offset 0).
+The programs for A074509, the canonical program `A074509.P15121560356045695920` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074509 has offset 0).
 
-The definition of A074509 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074509 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+3^n+7^n` (program `A074509.P15121560356045695920`, by `A074509.P15121560356045695920.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074509.P10079155170142992927
+/-! ## A074509.P15121560356045695920
 
-`10*a(n-1)-21*a(n-2)+12` with `a(0)=3, a(1)=11`
+`1^n+3^n+7^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074509
 
-/-- `10*a(n-1)-21*a(n-2)+12` -/
-def P10079155170142992927.Spec : Prop :=
-  ∀ n, P10079155170142992927.a n = A074509 n
+/-- `1^n+3^n+7^n` -/
+def P15121560356045695920.Spec : Prop :=
+  ∀ n, (P15121560356045695920.a n : ℤ) = A074509 n
 
-theorem P10079155170142992927.correct : P10079155170142992927.Spec := by
+theorem P15121560356045695920.correct : P15121560356045695920.Spec := by
   intro n
   simp only [A074509]
-
-end A074509
-
-/-! ## A074509.P747924124887588713
-
-`3^n+7^n+1`
--/
-
-namespace A074509.P747924124887588713
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 ^ n + (7 ^ n + 1)
-
-end
-
-end A074509.P747924124887588713
-
-namespace A074509
-
-/-- `3^n+7^n+1` -/
-def P747924124887588713.Spec : Prop :=
-  ∀ n, (P747924124887588713.a n : ℤ) = A074509 n
-
-theorem P747924124887588713.correct : P747924124887588713.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074509, Nat.add_sub_cancel, A074509.P747924124887588713.a, A074509.P10079155170142992927.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074509, Nat.add_sub_cancel, A074509.P747924124887588713.a, A074509.P10079155170142992927.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074509
 
@@ -3186,17 +2957,25 @@ end A074509
 /-!
 # A074510: a(n) = 1^n + 3^n + 8^n.
 
-The programs for A074510, the canonical program `A074510.P7952981758769725105` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074510 has offset 0).
+The programs for A074510, the canonical program `A074510.P14805957398525706916` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074510 has offset 0).
 
-The definition of A074510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074510 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+3^n+8^n` (program `A074510.P14805957398525706916`, by `A074510.P14805957398525706916.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074510.P7952981758769725105
 
 `1+3^n+8^n`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A074510.P7952981758769725105
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 3 ^ n + 8 ^ n
+
+end
+
+end A074510.P7952981758769725105
 
 namespace A074510
 
@@ -3205,6 +2984,27 @@ def P7952981758769725105.Spec : Prop :=
   ∀ n, (P7952981758769725105.a n : ℤ) = A074510 n
 
 theorem P7952981758769725105.correct : P7952981758769725105.Spec := by
+  intro n
+  simp only [A074510, Nat.add_sub_cancel, A074510.P7952981758769725105.a, A074510.P14805957398525706916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074510
+
+/-! ## A074510.P14805957398525706916
+
+`1^n+3^n+8^n`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A074510
+
+/-- `1^n+3^n+8^n` -/
+def P14805957398525706916.Spec : Prop :=
+  ∀ n, (P14805957398525706916.a n : ℤ) = A074510 n
+
+theorem P14805957398525706916.correct : P14805957398525706916.Spec := by
   intro n
   simp only [A074510]
 
@@ -3305,68 +3105,27 @@ end A074510
 /-!
 # A074511: a(n) = 1^n + 4^n + 5^n.
 
-The programs for A074511, the canonical program `A074511.P7726198193610842445` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074511 has offset 0).
+The programs for A074511, the canonical program `A074511.P15291591030534958469` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074511 has offset 0).
 
-The definition of A074511 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074511 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+4^n+5^n` (program `A074511.P15291591030534958469`, by `A074511.P15291591030534958469.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074511.P7726198193610842445
+/-! ## A074511.P15291591030534958469
 
-`9*a(n-1)-20*a(n-2)+12` with `a(0)=3, a(1)=10`
+`1^n+4^n+5^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074511
 
-/-- `9*a(n-1)-20*a(n-2)+12` -/
-def P7726198193610842445.Spec : Prop :=
-  ∀ n, P7726198193610842445.a n = A074511 n
+/-- `1^n+4^n+5^n` -/
+def P15291591030534958469.Spec : Prop :=
+  ∀ n, (P15291591030534958469.a n : ℤ) = A074511 n
 
-theorem P7726198193610842445.correct : P7726198193610842445.Spec := by
+theorem P15291591030534958469.correct : P15291591030534958469.Spec := by
   intro n
   simp only [A074511]
-
-end A074511
-
-/-! ## A074511.P2329915086073507829
-
-`4^n+5^n+1`
--/
-
-namespace A074511.P2329915086073507829
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 ^ n + (5 ^ n + 1)
-
-end
-
-end A074511.P2329915086073507829
-
-namespace A074511
-
-/-- `4^n+5^n+1` -/
-def P2329915086073507829.Spec : Prop :=
-  ∀ n, (P2329915086073507829.a n : ℤ) = A074511 n
-
-theorem P2329915086073507829.correct : P2329915086073507829.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074511, Nat.add_sub_cancel, A074511.P2329915086073507829.a, A074511.P7726198193610842445.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074511, Nat.add_sub_cancel, A074511.P2329915086073507829.a, A074511.P7726198193610842445.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074511
 
@@ -3566,68 +3325,27 @@ end A074511
 /-!
 # A074512: a(n) = 1^n + 4^n + 6^n.
 
-The programs for A074512, the canonical program `A074512.P7893804144183922672` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074512 has offset 0).
+The programs for A074512, the canonical program `A074512.P8179462783468662161` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074512 has offset 0).
 
-The definition of A074512 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074512 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+4^n+6^n` (program `A074512.P8179462783468662161`, by `A074512.P8179462783468662161.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074512.P7893804144183922672
+/-! ## A074512.P8179462783468662161
 
-`10*a(n-1)-24*a(n-2)+15` with `a(0)=3, a(1)=11`
+`1^n+4^n+6^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074512
 
-/-- `10*a(n-1)-24*a(n-2)+15` -/
-def P7893804144183922672.Spec : Prop :=
-  ∀ n, P7893804144183922672.a n = A074512 n
+/-- `1^n+4^n+6^n` -/
+def P8179462783468662161.Spec : Prop :=
+  ∀ n, (P8179462783468662161.a n : ℤ) = A074512 n
 
-theorem P7893804144183922672.correct : P7893804144183922672.Spec := by
+theorem P8179462783468662161.correct : P8179462783468662161.Spec := by
   intro n
   simp only [A074512]
-
-end A074512
-
-/-! ## A074512.P9158861293918444995
-
-`4^n+6^n+1`
--/
-
-namespace A074512.P9158861293918444995
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 ^ n + (6 ^ n + 1)
-
-end
-
-end A074512.P9158861293918444995
-
-namespace A074512
-
-/-- `4^n+6^n+1` -/
-def P9158861293918444995.Spec : Prop :=
-  ∀ n, (P9158861293918444995.a n : ℤ) = A074512 n
-
-theorem P9158861293918444995.correct : P9158861293918444995.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074512, Nat.add_sub_cancel, A074512.P9158861293918444995.a, A074512.P7893804144183922672.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074512, Nat.add_sub_cancel, A074512.P9158861293918444995.a, A074512.P7893804144183922672.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074512
 
@@ -3772,68 +3490,27 @@ end A074512
 /-!
 # A074513: a(n) = 1^n + 4^n + 7^n.
 
-The programs for A074513, the canonical program `A074513.P9049676673286366844` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074513 has offset 0).
+The programs for A074513, the canonical program `A074513.P6713864320669486437` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074513 has offset 0).
 
-The definition of A074513 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074513 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+4^n+7^n` (program `A074513.P6713864320669486437`, by `A074513.P6713864320669486437.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074513.P9049676673286366844
+/-! ## A074513.P6713864320669486437
 
-`11*a(n-1)-28*a(n-2)+18` with `a(0)=3, a(1)=12`
+`1^n+4^n+7^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074513
 
-/-- `11*a(n-1)-28*a(n-2)+18` -/
-def P9049676673286366844.Spec : Prop :=
-  ∀ n, P9049676673286366844.a n = A074513 n
+/-- `1^n+4^n+7^n` -/
+def P6713864320669486437.Spec : Prop :=
+  ∀ n, (P6713864320669486437.a n : ℤ) = A074513 n
 
-theorem P9049676673286366844.correct : P9049676673286366844.Spec := by
+theorem P6713864320669486437.correct : P6713864320669486437.Spec := by
   intro n
   simp only [A074513]
-
-end A074513
-
-/-! ## A074513.P13631918646368846363
-
-`4^n+7^n+1`
--/
-
-namespace A074513.P13631918646368846363
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 ^ n + (7 ^ n + 1)
-
-end
-
-end A074513.P13631918646368846363
-
-namespace A074513
-
-/-- `4^n+7^n+1` -/
-def P13631918646368846363.Spec : Prop :=
-  ∀ n, (P13631918646368846363.a n : ℤ) = A074513 n
-
-theorem P13631918646368846363.correct : P13631918646368846363.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074513, Nat.add_sub_cancel, A074513.P13631918646368846363.a, A074513.P9049676673286366844.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074513, Nat.add_sub_cancel, A074513.P13631918646368846363.a, A074513.P9049676673286366844.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074513
 
@@ -4053,68 +3730,27 @@ end A074513
 /-!
 # A074514: a(n) = 1^n + 4^n + 8^n.
 
-The programs for A074514, the canonical program `A074514.P14676403573131544177` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074514 has offset 0).
+The programs for A074514, the canonical program `A074514.P5209020570279087244` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074514 has offset 0).
 
-The definition of A074514 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074514 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+4^n+8^n` (program `A074514.P5209020570279087244`, by `A074514.P5209020570279087244.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074514.P14676403573131544177
+/-! ## A074514.P5209020570279087244
 
-`12*a(n-1)-32*a(n-2)+21` with `a(0)=3, a(1)=13`
+`1^n+4^n+8^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074514
 
-/-- `12*a(n-1)-32*a(n-2)+21` -/
-def P14676403573131544177.Spec : Prop :=
-  ∀ n, P14676403573131544177.a n = A074514 n
+/-- `1^n+4^n+8^n` -/
+def P5209020570279087244.Spec : Prop :=
+  ∀ n, (P5209020570279087244.a n : ℤ) = A074514 n
 
-theorem P14676403573131544177.correct : P14676403573131544177.Spec := by
+theorem P5209020570279087244.correct : P5209020570279087244.Spec := by
   intro n
   simp only [A074514]
-
-end A074514
-
-/-! ## A074514.P15390820792972468045
-
-`4^n+8^n+1`
--/
-
-namespace A074514.P15390820792972468045
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 ^ n + (8 ^ n + 1)
-
-end
-
-end A074514.P15390820792972468045
-
-namespace A074514
-
-/-- `4^n+8^n+1` -/
-def P15390820792972468045.Spec : Prop :=
-  ∀ n, (P15390820792972468045.a n : ℤ) = A074514 n
-
-theorem P15390820792972468045.correct : P15390820792972468045.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074514, Nat.add_sub_cancel, A074514.P15390820792972468045.a, A074514.P14676403573131544177.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074514, Nat.add_sub_cancel, A074514.P15390820792972468045.a, A074514.P14676403573131544177.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074514
 
@@ -4406,68 +4042,27 @@ end A074514
 /-!
 # A074515: a(n) = 1^n + 4^n + 9^n.
 
-The programs for A074515, the canonical program `A074515.P15737475065053550752` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074515 has offset 0).
+The programs for A074515, the canonical program `A074515.P11932211166948693284` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074515 has offset 0).
 
-The definition of A074515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074515 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+4^n+9^n` (program `A074515.P11932211166948693284`, by `A074515.P11932211166948693284.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074515.P15737475065053550752
+/-! ## A074515.P11932211166948693284
 
-`13*a(n-1)-36*a(n-2)+24` with `a(0)=3, a(1)=14`
+`1^n+4^n+9^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074515
 
-/-- `13*a(n-1)-36*a(n-2)+24` -/
-def P15737475065053550752.Spec : Prop :=
-  ∀ n, P15737475065053550752.a n = A074515 n
+/-- `1^n+4^n+9^n` -/
+def P11932211166948693284.Spec : Prop :=
+  ∀ n, (P11932211166948693284.a n : ℤ) = A074515 n
 
-theorem P15737475065053550752.correct : P15737475065053550752.Spec := by
+theorem P11932211166948693284.correct : P11932211166948693284.Spec := by
   intro n
   simp only [A074515]
-
-end A074515
-
-/-! ## A074515.P2436529276492167385
-
-`1+4^n+9^n`
--/
-
-namespace A074515.P2436529276492167385
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1 + 4 ^ n + 9 ^ n
-
-end
-
-end A074515.P2436529276492167385
-
-namespace A074515
-
-/-- `1+4^n+9^n` -/
-def P2436529276492167385.Spec : Prop :=
-  ∀ n, (P2436529276492167385.a n : ℤ) = A074515 n
-
-theorem P2436529276492167385.correct : P2436529276492167385.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074515, Nat.add_sub_cancel, A074515.P2436529276492167385.a, A074515.P15737475065053550752.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074515, Nat.add_sub_cancel, A074515.P2436529276492167385.a, A074515.P15737475065053550752.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074515
 
@@ -4670,17 +4265,25 @@ end A074515
 /-!
 # A074516: a(n) = 1^n + 5^n + 6^n.
 
-The programs for A074516, the canonical program `A074516.P7871408817476328494` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074516 has offset 0).
+The programs for A074516, the canonical program `A074516.P495637833087846535` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074516 has offset 0).
 
-The definition of A074516 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074516 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+5^n+6^n` (program `A074516.P495637833087846535`, by `A074516.P495637833087846535.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074516.P7871408817476328494
 
 `5^n+6^n+1`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A074516.P7871408817476328494
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5 ^ n + 6 ^ n + 1
+
+end
+
+end A074516.P7871408817476328494
 
 namespace A074516
 
@@ -4689,6 +4292,27 @@ def P7871408817476328494.Spec : Prop :=
   ∀ n, (P7871408817476328494.a n : ℤ) = A074516 n
 
 theorem P7871408817476328494.correct : P7871408817476328494.Spec := by
+  intro n
+  simp only [A074516, Nat.add_sub_cancel, A074516.P7871408817476328494.a, A074516.P495637833087846535.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074516
+
+/-! ## A074516.P495637833087846535
+
+`1^n+5^n+6^n`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A074516
+
+/-- `1^n+5^n+6^n` -/
+def P495637833087846535.Spec : Prop :=
+  ∀ n, (P495637833087846535.a n : ℤ) = A074516 n
+
+theorem P495637833087846535.correct : P495637833087846535.Spec := by
   intro n
   simp only [A074516]
 
@@ -4896,68 +4520,27 @@ end A074516
 /-!
 # A074517: a(n) = 1^n + 5^n + 7^n.
 
-The programs for A074517, the canonical program `A074517.P3263064876265439327` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074517 has offset 0).
+The programs for A074517, the canonical program `A074517.P12301603146598015912` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074517 has offset 0).
 
-The definition of A074517 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074517 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+5^n+7^n` (program `A074517.P12301603146598015912`, by `A074517.P12301603146598015912.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074517.P3263064876265439327
+/-! ## A074517.P12301603146598015912
 
-`12*a(n-1)-35*a(n-2)+24` with `a(0)=3, a(1)=13`
+`1^n+5^n+7^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074517
 
-/-- `12*a(n-1)-35*a(n-2)+24` -/
-def P3263064876265439327.Spec : Prop :=
-  ∀ n, P3263064876265439327.a n = A074517 n
+/-- `1^n+5^n+7^n` -/
+def P12301603146598015912.Spec : Prop :=
+  ∀ n, (P12301603146598015912.a n : ℤ) = A074517 n
 
-theorem P3263064876265439327.correct : P3263064876265439327.Spec := by
+theorem P12301603146598015912.correct : P12301603146598015912.Spec := by
   intro n
   simp only [A074517]
-
-end A074517
-
-/-! ## A074517.P6631749064189815639
-
-`5^n+7^n+1`
--/
-
-namespace A074517.P6631749064189815639
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 ^ n + (7 ^ n + 1)
-
-end
-
-end A074517.P6631749064189815639
-
-namespace A074517
-
-/-- `5^n+7^n+1` -/
-def P6631749064189815639.Spec : Prop :=
-  ∀ n, (P6631749064189815639.a n : ℤ) = A074517 n
-
-theorem P6631749064189815639.correct : P6631749064189815639.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074517, Nat.add_sub_cancel, A074517.P6631749064189815639.a, A074517.P3263064876265439327.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074517, Nat.add_sub_cancel, A074517.P6631749064189815639.a, A074517.P3263064876265439327.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074517
 
@@ -5060,68 +4643,27 @@ end A074517
 /-!
 # A074518: a(n) = 1^n + 5^n + 8^n.
 
-The programs for A074518, the canonical program `A074518.P9263316717786065747` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074518 has offset 0).
+The programs for A074518, the canonical program `A074518.P14675353483285050966` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074518 has offset 0).
 
-The definition of A074518 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074518 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+5^n+8^n` (program `A074518.P14675353483285050966`, by `A074518.P14675353483285050966.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074518.P9263316717786065747
+/-! ## A074518.P14675353483285050966
 
-`13*a(n-1)-40*a(n-2)+28` with `a(0)=3, a(1)=14`
+`1^n+5^n+8^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074518
 
-/-- `13*a(n-1)-40*a(n-2)+28` -/
-def P9263316717786065747.Spec : Prop :=
-  ∀ n, P9263316717786065747.a n = A074518 n
+/-- `1^n+5^n+8^n` -/
+def P14675353483285050966.Spec : Prop :=
+  ∀ n, (P14675353483285050966.a n : ℤ) = A074518 n
 
-theorem P9263316717786065747.correct : P9263316717786065747.Spec := by
+theorem P14675353483285050966.correct : P14675353483285050966.Spec := by
   intro n
   simp only [A074518]
-
-end A074518
-
-/-! ## A074518.P13842037709312104464
-
-`5^n+8^n+1`
--/
-
-namespace A074518.P13842037709312104464
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 ^ n + (8 ^ n + 1)
-
-end
-
-end A074518.P13842037709312104464
-
-namespace A074518
-
-/-- `5^n+8^n+1` -/
-def P13842037709312104464.Spec : Prop :=
-  ∀ n, (P13842037709312104464.a n : ℤ) = A074518 n
-
-theorem P13842037709312104464.correct : P13842037709312104464.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074518, Nat.add_sub_cancel, A074518.P13842037709312104464.a, A074518.P9263316717786065747.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074518, Nat.add_sub_cancel, A074518.P13842037709312104464.a, A074518.P9263316717786065747.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074518
 
@@ -5465,68 +5007,27 @@ end A074518
 /-!
 # A074519: a(n) = 1^n + 5^n + 9^n.
 
-The programs for A074519, the canonical program `A074519.P13508775004096129433` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074519 has offset 0).
+The programs for A074519, the canonical program `A074519.P9733245345505110360` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074519 has offset 0).
 
-The definition of A074519 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074519 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+5^n+9^n` (program `A074519.P9733245345505110360`, by `A074519.P9733245345505110360.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074519.P13508775004096129433
+/-! ## A074519.P9733245345505110360
 
-`14*a(n-1)-45*a(n-2)+32` with `a(0)=3, a(1)=15`
+`1^n+5^n+9^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074519
 
-/-- `14*a(n-1)-45*a(n-2)+32` -/
-def P13508775004096129433.Spec : Prop :=
-  ∀ n, P13508775004096129433.a n = A074519 n
+/-- `1^n+5^n+9^n` -/
+def P9733245345505110360.Spec : Prop :=
+  ∀ n, (P9733245345505110360.a n : ℤ) = A074519 n
 
-theorem P13508775004096129433.correct : P13508775004096129433.Spec := by
+theorem P9733245345505110360.correct : P9733245345505110360.Spec := by
   intro n
   simp only [A074519]
-
-end A074519
-
-/-! ## A074519.P9543853709158900545
-
-`5^n+9^n+1`
--/
-
-namespace A074519.P9543853709158900545
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 ^ n + (9 ^ n + 1)
-
-end
-
-end A074519.P9543853709158900545
-
-namespace A074519
-
-/-- `5^n+9^n+1` -/
-def P9543853709158900545.Spec : Prop :=
-  ∀ n, (P9543853709158900545.a n : ℤ) = A074519 n
-
-theorem P9543853709158900545.correct : P9543853709158900545.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074519, Nat.add_sub_cancel, A074519.P9543853709158900545.a, A074519.P13508775004096129433.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074519, Nat.add_sub_cancel, A074519.P9543853709158900545.a, A074519.P13508775004096129433.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074519
 
@@ -5752,17 +5253,25 @@ end A074519
 /-!
 # A074520: a(n) = 1^n + 6^n + 7^n.
 
-The programs for A074520, the canonical program `A074520.P17491702654213781283` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074520 has offset 0).
+The programs for A074520, the canonical program `A074520.P13529409184195776871` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074520 has offset 0).
 
-The definition of A074520 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074520 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+6^n+7^n` (program `A074520.P13529409184195776871`, by `A074520.P13529409184195776871.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074520.P17491702654213781283
 
 `1+6^n+7^n`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A074520.P17491702654213781283
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 6 ^ n + 7 ^ n
+
+end
+
+end A074520.P17491702654213781283
 
 namespace A074520
 
@@ -5771,6 +5280,27 @@ def P17491702654213781283.Spec : Prop :=
   ∀ n, (P17491702654213781283.a n : ℤ) = A074520 n
 
 theorem P17491702654213781283.correct : P17491702654213781283.Spec := by
+  intro n
+  simp only [A074520, Nat.add_sub_cancel, A074520.P17491702654213781283.a, A074520.P13529409184195776871.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074520
+
+/-! ## A074520.P13529409184195776871
+
+`1^n+6^n+7^n`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A074520
+
+/-- `1^n+6^n+7^n` -/
+def P13529409184195776871.Spec : Prop :=
+  ∀ n, (P13529409184195776871.a n : ℤ) = A074520 n
+
+theorem P13529409184195776871.correct : P13529409184195776871.Spec := by
   intro n
   simp only [A074520]
 
@@ -5877,68 +5407,27 @@ end A074520
 /-!
 # A074521: a(n) = 1^n + 6^n + 8^n.
 
-The programs for A074521, the canonical program `A074521.P8468858627412026952` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074521 has offset 0).
+The programs for A074521, the canonical program `A074521.P7181502212402933271` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074521 has offset 0).
 
-The definition of A074521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074521 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+6^n+8^n` (program `A074521.P7181502212402933271`, by `A074521.P7181502212402933271.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074521.P8468858627412026952
+/-! ## A074521.P7181502212402933271
 
-`14*a(n-1)-48*a(n-2)+35` with `a(0)=3, a(1)=15`
+`1^n+6^n+8^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074521
 
-/-- `14*a(n-1)-48*a(n-2)+35` -/
-def P8468858627412026952.Spec : Prop :=
-  ∀ n, P8468858627412026952.a n = A074521 n
+/-- `1^n+6^n+8^n` -/
+def P7181502212402933271.Spec : Prop :=
+  ∀ n, (P7181502212402933271.a n : ℤ) = A074521 n
 
-theorem P8468858627412026952.correct : P8468858627412026952.Spec := by
+theorem P7181502212402933271.correct : P7181502212402933271.Spec := by
   intro n
   simp only [A074521]
-
-end A074521
-
-/-! ## A074521.P4969286624690284809
-
-`6^n+8^n+1`
--/
-
-namespace A074521.P4969286624690284809
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6 ^ n + (8 ^ n + 1)
-
-end
-
-end A074521.P4969286624690284809
-
-namespace A074521
-
-/-- `6^n+8^n+1` -/
-def P4969286624690284809.Spec : Prop :=
-  ∀ n, (P4969286624690284809.a n : ℤ) = A074521 n
-
-theorem P4969286624690284809.correct : P4969286624690284809.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074521, Nat.add_sub_cancel, A074521.P4969286624690284809.a, A074521.P8468858627412026952.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074521, Nat.add_sub_cancel, A074521.P4969286624690284809.a, A074521.P8468858627412026952.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074521
 
@@ -6204,68 +5693,27 @@ end A074521
 /-!
 # A074522: a(n) = 1^n + 6^n + 9^n.
 
-The programs for A074522, the canonical program `A074522.P6788963251485465658` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074522 has offset 0).
+The programs for A074522, the canonical program `A074522.P3793011620967857992` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074522 has offset 0).
 
-The definition of A074522 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074522 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+6^n+9^n` (program `A074522.P3793011620967857992`, by `A074522.P3793011620967857992.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074522.P6788963251485465658
+/-! ## A074522.P3793011620967857992
 
-`15*a(n-1)-54*a(n-2)+40` with `a(0)=3, a(1)=16`
+`1^n+6^n+9^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074522
 
-/-- `15*a(n-1)-54*a(n-2)+40` -/
-def P6788963251485465658.Spec : Prop :=
-  ∀ n, P6788963251485465658.a n = A074522 n
+/-- `1^n+6^n+9^n` -/
+def P3793011620967857992.Spec : Prop :=
+  ∀ n, (P3793011620967857992.a n : ℤ) = A074522 n
 
-theorem P6788963251485465658.correct : P6788963251485465658.Spec := by
+theorem P3793011620967857992.correct : P3793011620967857992.Spec := by
   intro n
   simp only [A074522]
-
-end A074522
-
-/-! ## A074522.P7968422253822102914
-
-`6^n+9^n+1`
--/
-
-namespace A074522.P7968422253822102914
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6 ^ n + (9 ^ n + 1)
-
-end
-
-end A074522.P7968422253822102914
-
-namespace A074522
-
-/-- `6^n+9^n+1` -/
-def P7968422253822102914.Spec : Prop :=
-  ∀ n, (P7968422253822102914.a n : ℤ) = A074522 n
-
-theorem P7968422253822102914.correct : P7968422253822102914.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074522, Nat.add_sub_cancel, A074522.P7968422253822102914.a, A074522.P6788963251485465658.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074522, Nat.add_sub_cancel, A074522.P7968422253822102914.a, A074522.P6788963251485465658.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074522
 
@@ -6661,17 +6109,25 @@ end A074522
 /-!
 # A074523: a(n) = 1^n + 7^n + 8^n.
 
-The programs for A074523, the canonical program `A074523.P6767001565584270886` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074523 has offset 0).
+The programs for A074523, the canonical program `A074523.P14457316819938120650` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074523 has offset 0).
 
-The definition of A074523 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074523 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+7^n+8^n` (program `A074523.P14457316819938120650`, by `A074523.P14457316819938120650.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A074523.P6767001565584270886
 
 `1+7^n+8^n`
-
-The canonical program, it is in `Seq.B000.C011`.
 -/
+
+namespace A074523.P6767001565584270886
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1 + 7 ^ n + 8 ^ n
+
+end
+
+end A074523.P6767001565584270886
 
 namespace A074523
 
@@ -6680,6 +6136,27 @@ def P6767001565584270886.Spec : Prop :=
   ∀ n, (P6767001565584270886.a n : ℤ) = A074523 n
 
 theorem P6767001565584270886.correct : P6767001565584270886.Spec := by
+  intro n
+  simp only [A074523, Nat.add_sub_cancel, A074523.P6767001565584270886.a, A074523.P14457316819938120650.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
+
+end A074523
+
+/-! ## A074523.P14457316819938120650
+
+`1^n+7^n+8^n`
+
+The canonical program, it is in `Seq.B000.C011`.
+-/
+
+namespace A074523
+
+/-- `1^n+7^n+8^n` -/
+def P14457316819938120650.Spec : Prop :=
+  ∀ n, (P14457316819938120650.a n : ℤ) = A074523 n
+
+theorem P14457316819938120650.correct : P14457316819938120650.Spec := by
   intro n
   simp only [A074523]
 
@@ -7082,68 +6559,27 @@ end A074523
 /-!
 # A074524: a(n) = 1^n + 7^n + 9^n.
 
-The programs for A074524, the canonical program `A074524.P11758128741763786228` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074524 has offset 0).
+The programs for A074524, the canonical program `A074524.P15745366741827391327` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074524 has offset 0).
 
-The definition of A074524 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074524 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+7^n+9^n` (program `A074524.P15745366741827391327`, by `A074524.P15745366741827391327.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074524.P11758128741763786228
+/-! ## A074524.P15745366741827391327
 
-`16*a(n-1)-63*a(n-2)+48` with `a(0)=3, a(1)=17`
+`1^n+7^n+9^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074524
 
-/-- `16*a(n-1)-63*a(n-2)+48` -/
-def P11758128741763786228.Spec : Prop :=
-  ∀ n, P11758128741763786228.a n = A074524 n
+/-- `1^n+7^n+9^n` -/
+def P15745366741827391327.Spec : Prop :=
+  ∀ n, (P15745366741827391327.a n : ℤ) = A074524 n
 
-theorem P11758128741763786228.correct : P11758128741763786228.Spec := by
+theorem P15745366741827391327.correct : P15745366741827391327.Spec := by
   intro n
   simp only [A074524]
-
-end A074524
-
-/-! ## A074524.P18244721516693301948
-
-`7^n+9^n+1`
--/
-
-namespace A074524.P18244721516693301948
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  7 ^ n + (9 ^ n + 1)
-
-end
-
-end A074524.P18244721516693301948
-
-namespace A074524
-
-/-- `7^n+9^n+1` -/
-def P18244721516693301948.Spec : Prop :=
-  ∀ n, (P18244721516693301948.a n : ℤ) = A074524 n
-
-theorem P18244721516693301948.correct : P18244721516693301948.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074524, Nat.add_sub_cancel, A074524.P18244721516693301948.a, A074524.P11758128741763786228.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074524, Nat.add_sub_cancel, A074524.P18244721516693301948.a, A074524.P11758128741763786228.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074524
 
@@ -7386,68 +6822,27 @@ end A074524
 /-!
 # A074525: a(n) = 1^n + 8^n + 9^n.
 
-The programs for A074525, the canonical program `A074525.P10797513457370743999` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074525 has offset 0).
+The programs for A074525, the canonical program `A074525.P14199224158783527037` is in `Seq.B000.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074525 has offset 0).
 
-The definition of A074525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A074525 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1^n+8^n+9^n` (program `A074525.P14199224158783527037`, by `A074525.P14199224158783527037.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A074525.P10797513457370743999
+/-! ## A074525.P14199224158783527037
 
-`17*a(n-1)-72*a(n-2)+56` with `a(0)=3, a(1)=18`
+`1^n+8^n+9^n`
 
 The canonical program, it is in `Seq.B000.C011`.
 -/
 
 namespace A074525
 
-/-- `17*a(n-1)-72*a(n-2)+56` -/
-def P10797513457370743999.Spec : Prop :=
-  ∀ n, P10797513457370743999.a n = A074525 n
+/-- `1^n+8^n+9^n` -/
+def P14199224158783527037.Spec : Prop :=
+  ∀ n, (P14199224158783527037.a n : ℤ) = A074525 n
 
-theorem P10797513457370743999.correct : P10797513457370743999.Spec := by
+theorem P14199224158783527037.correct : P14199224158783527037.Spec := by
   intro n
   simp only [A074525]
-
-end A074525
-
-/-! ## A074525.P7146552753814240353
-
-`8^n+9^n+1`
--/
-
-namespace A074525.P7146552753814240353
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  8 ^ n + (9 ^ n + 1)
-
-end
-
-end A074525.P7146552753814240353
-
-namespace A074525
-
-/-- `8^n+9^n+1` -/
-def P7146552753814240353.Spec : Prop :=
-  ∀ n, (P7146552753814240353.a n : ℤ) = A074525 n
-
-theorem P7146552753814240353.correct : P7146552753814240353.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 =>
-      simp [A074525, Nat.add_sub_cancel, A074525.P7146552753814240353.a, A074525.P10797513457370743999.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 2 =>
-      have h1 := ih (m + 1) (by omega)
-      have h2 := ih m (by omega)
-      simp only [A074525, Nat.add_sub_cancel, A074525.P7146552753814240353.a, A074525.P10797513457370743999.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
-      push_cast at h1 h2 ⊢
-      rw [← h1, ← h2]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A074525
 
@@ -12501,33 +11896,6 @@ def P5422224789842467025.Spec : Prop :=
 
 end A074548
 
-/-! ## A074548.P10746800679895475995
-
-`(A001553(n)-A074501(n))*char[A025581(n)]`
--/
-
-namespace A074548.P10746800679895475995
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025581 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A001553 n - A074501 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A074548.P10746800679895475995
-
-namespace A074548
-
-/-- `(A001553(n)-A074501(n))*char[A025581(n)]` -/
-def P10746800679895475995.Spec : Prop :=
-  ∀ n, P10746800679895475995.a n = A074548 n
-
-end A074548
-
 /-! ## A074548.P11114938267009586918
 
 `(A001553(n)-A074501(n))*char[A064680(n)]`
@@ -12696,6 +12064,33 @@ def P3428533627352121299.Spec : Prop :=
 
 end A074548
 
+/-! ## A074548.P10746800679895475995
+
+`(A001553(n)-A074501(n))*char[A025581(n)]`
+-/
+
+namespace A074548.P10746800679895475995
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A025581 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A001553 n - A074501 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A074548.P10746800679895475995
+
+namespace A074548
+
+/-- `(A001553(n)-A074501(n))*char[A025581(n)]` -/
+def P10746800679895475995.Spec : Prop :=
+  ∀ n, P10746800679895475995.a n = A074548 n
+
+end A074548
+
 /-!
 # A074549: a(n) = 3^n + 4^n + 7^n.
 
@@ -12797,7 +12192,7 @@ end A074549
 
 /-! ## A074549.P1553972114209632479
 
-`-(A059409(n)-A074558(n))%A225137(n+1)`
+`-((A059409(n)-A074558(n))%A225137(n+1))`
 -/
 
 namespace A074549.P1553972114209632479
@@ -12812,7 +12207,7 @@ end A074549.P1553972114209632479
 
 namespace A074549
 
-/-- `-(A059409(n)-A074558(n))%A225137(n+1)` -/
+/-- `-((A059409(n)-A074558(n))%A225137(n+1))` -/
 def P1553972114209632479.Spec : Prop :=
   ∀ n, P1553972114209632479.a n = A074549 n
 
@@ -13113,7 +12508,7 @@ end A074551
 
 /-! ## A074551.P17283759875726934724
 
-`-(A059409(n)-A074560(n))*A014963(6*(n+1))`
+`-((A059409(n)-A074560(n))*A014963(6*(n+1)))`
 -/
 
 namespace A074551.P17283759875726934724
@@ -13128,7 +12523,7 @@ end A074551.P17283759875726934724
 
 namespace A074551
 
-/-- `-(A059409(n)-A074560(n))*A014963(6*(n+1))` -/
+/-- `-((A059409(n)-A074560(n))*A014963(6*(n+1)))` -/
 def P17283759875726934724.Spec : Prop :=
   ∀ n, P17283759875726934724.a n = A074551 n
 
@@ -13635,33 +13030,6 @@ def P16575397319021705939.Spec : Prop :=
 
 end A074554
 
-/-! ## A074554.P8678552365188710557
-
-`(A074610(n)+5^n)*char[A002262(n)]`
--/
-
-namespace A074554.P8678552365188710557
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A074610 n + (5 ^ n : ℤ)) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A074554.P8678552365188710557
-
-namespace A074554
-
-/-- `(A074610(n)+5^n)*char[A002262(n)]` -/
-def P8678552365188710557.Spec : Prop :=
-  ∀ n, P8678552365188710557.a n = A074554 n
-
-end A074554
-
 /-! ## A074554.P11576381212066890567
 
 `(A074610(n)+5^n)*char[A004468(n)]`
@@ -13782,6 +13150,33 @@ namespace A074554
 /-- `lcm(A074610(n)+5^n, A008683(A242675(n)))` -/
 def P3075920677001264870.Spec : Prop :=
   ∀ n, (P3075920677001264870.a n : ℤ) = A074554 n
+
+end A074554
+
+/-! ## A074554.P8678552365188710557
+
+`(A074610(n)+5^n)*char[A002262(n)]`
+-/
+
+namespace A074554.P8678552365188710557
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002262 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A074610 n + (5 ^ n : ℤ)) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A074554.P8678552365188710557
+
+namespace A074554
+
+/-- `(A074610(n)+5^n)*char[A002262(n)]` -/
+def P8678552365188710557.Spec : Prop :=
+  ∀ n, P8678552365188710557.a n = A074554 n
 
 end A074554
 
@@ -15566,33 +14961,6 @@ def P16189315299118914207.Spec : Prop :=
 
 end A074563
 
-/-! ## A074563.P16903245513297915187
-
-`(A155619(n)+A034474(n))*char[A002262(n)]`
--/
-
-namespace A074563.P16903245513297915187
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A155619 n + A034474 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A074563.P16903245513297915187
-
-namespace A074563
-
-/-- `(A155619(n)+A034474(n))*char[A002262(n)]` -/
-def P16903245513297915187.Spec : Prop :=
-  ∀ n, P16903245513297915187.a n = A074563 n
-
-end A074563
-
 /-! ## A074563.P3758392934524089121
 
 `(A155619(n)+A034474(n))*char[A261102(n)]`
@@ -15643,33 +15011,6 @@ def P6611781177199893933.Spec : Prop :=
 
 end A074563
 
-/-! ## A074563.P5223546706467124439
-
-`(A155619(n)+A034474(n))*char[A117831(n+1)]`
--/
-
-namespace A074563.P5223546706467124439
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A117831 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A155619 n + A034474 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A074563.P5223546706467124439
-
-namespace A074563
-
-/-- `(A155619(n)+A034474(n))*char[A117831(n+1)]` -/
-def P5223546706467124439.Spec : Prop :=
-  ∀ n, P5223546706467124439.a n = A074563 n
-
-end A074563
-
 /-! ## A074563.P2832240668613788946
 
 `(A155619(n)+A034474(n))*and(1, A050056(n+1))!`
@@ -15713,6 +15054,60 @@ namespace A074563
 /-- `(A155619(n)+A034474(n))*A000041(n²%(n+1))` -/
 def P1348755434040466545.Spec : Prop :=
   ∀ n, P1348755434040466545.a n = A074563 n
+
+end A074563
+
+/-! ## A074563.P5223546706467124439
+
+`(A155619(n)+A034474(n))*char[A117831(n+1)]`
+-/
+
+namespace A074563.P5223546706467124439
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A117831 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A155619 n + A034474 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A074563.P5223546706467124439
+
+namespace A074563
+
+/-- `(A155619(n)+A034474(n))*char[A117831(n+1)]` -/
+def P5223546706467124439.Spec : Prop :=
+  ∀ n, P5223546706467124439.a n = A074563 n
+
+end A074563
+
+/-! ## A074563.P16903245513297915187
+
+`(A155619(n)+A034474(n))*char[A002262(n)]`
+-/
+
+namespace A074563.P16903245513297915187
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002262 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A155619 n + A034474 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A074563.P16903245513297915187
+
+namespace A074563
+
+/-- `(A155619(n)+A034474(n))*char[A002262(n)]` -/
+def P16903245513297915187.Spec : Prop :=
+  ∀ n, P16903245513297915187.a n = A074563 n
 
 end A074563
 
@@ -16769,33 +16164,6 @@ def P7018308372234709130.Spec : Prop :=
 
 end A074568
 
-/-! ## A074568.P13681743165650795955
-
-`(A074580(n)-A118004(n))*char[A014473(n)]`
--/
-
-namespace A074568.P13681743165650795955
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014473 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A074580 n - A118004 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A074568.P13681743165650795955
-
-namespace A074568
-
-/-- `(A074580(n)-A118004(n))*char[A014473(n)]` -/
-def P13681743165650795955.Spec : Prop :=
-  ∀ n, P13681743165650795955.a n = A074568 n
-
-end A074568
-
 /-! ## A074568.P673115558431444973
 
 `(A074580(n)-A118004(n))*A057427(n+1)`
@@ -16885,6 +16253,33 @@ namespace A074568
 /-- `(A074580(n)-A118004(n))*(-1%A001567(n+1))²` -/
 def P399658977060999573.Spec : Prop :=
   ∀ n, P399658977060999573.a n = A074568 n
+
+end A074568
+
+/-! ## A074568.P13681743165650795955
+
+`(A074580(n)-A118004(n))*char[A014473(n)]`
+-/
+
+namespace A074568.P13681743165650795955
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A014473 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A074580 n - A118004 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
+
+end
+
+end A074568.P13681743165650795955
+
+namespace A074568
+
+/-- `(A074580(n)-A118004(n))*char[A014473(n)]` -/
+def P13681743165650795955.Spec : Prop :=
+  ∀ n, P13681743165650795955.a n = A074568 n
 
 end A074568
 
@@ -17277,7 +16672,7 @@ end A074571
 
 /-! ## A074571.P13956900692710855167
 
-`-(A001551(n)-A001554(n))%A280215(n+1)`
+`-((A001551(n)-A001554(n))%A280215(n+1))`
 -/
 
 namespace A074571.P13956900692710855167
@@ -17292,7 +16687,7 @@ end A074571.P13956900692710855167
 
 namespace A074571
 
-/-- `-(A001551(n)-A001554(n))%A280215(n+1)` -/
+/-- `-((A001551(n)-A001554(n))%A280215(n+1))` -/
 def P13956900692710855167.Spec : Prop :=
   ∀ n, P13956900692710855167.a n = A074571 n
 
@@ -17946,7 +17341,7 @@ end A074575
 
 /-! ## A074575.P11952456290671007252
 
-`-(A005062(n)-A074578(n))*A001221(A027746(n+2))`
+`-((A005062(n)-A074578(n))*A001221(A027746(n+2)))`
 -/
 
 namespace A074575.P11952456290671007252
@@ -17961,7 +17356,7 @@ end A074575.P11952456290671007252
 
 namespace A074575
 
-/-- `-(A005062(n)-A074578(n))*A001221(A027746(n+2))` -/
+/-- `-((A005062(n)-A074578(n))*A001221(A027746(n+2)))` -/
 def P11952456290671007252.Spec : Prop :=
   ∀ n, P11952456290671007252.a n = A074575 n
 
@@ -18256,7 +17651,7 @@ end A074577
 
 /-! ## A074577.P12357465910854569929
 
-`-(A001552(n)-A001555(n))*A001222(A002476(n+1))`
+`-((A001552(n)-A001555(n))*A001222(A002476(n+1)))`
 -/
 
 namespace A074577.P12357465910854569929
@@ -18271,7 +17666,7 @@ end A074577.P12357465910854569929
 
 namespace A074577
 
-/-- `-(A001552(n)-A001555(n))*A001222(A002476(n+1))` -/
+/-- `-((A001552(n)-A001555(n))*A001222(A002476(n+1)))` -/
 def P12357465910854569929.Spec : Prop :=
   ∀ n, P12357465910854569929.a n = A074577 n
 
@@ -20103,7 +19498,7 @@ end A074584
 /-!
 # A074585: a(n)= Sum_{j=0..floor(n/2)} A073145(2*j + q), where q = 2*(n/2 - floor(n/2)).
 
-The programs for A074585, the canonical program `A074585.P10482400427346925936` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074585 has offset 0).
+The programs for A074585, the canonical program `A074585.P10482400427346925936` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074585 has offset 0).
 
 The definition of A074585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 755 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20112,7 +19507,7 @@ The definition of A074585 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A073145(n)-a(n-1)]` with `a(0)=3`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A074585
