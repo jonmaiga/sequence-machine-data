@@ -28,18 +28,16 @@
       ]
     },
     {
-      "d": "2021-11-10",
-      "ix": "contfrac[1/(e-3)+1]",
+      "d": "2026-10-23",
+      "ix": "ceil(ratio[floor(ratio[nc[e]])])",
       "mt": 16,
       "px": [
-        "1",
         "e",
-        "3",
-        "sub",
-        "/",
-        "1",
-        "+",
-        "contfrac"
+        "nc",
+        "ratio",
+        "floor",
+        "ratio",
+        "ceil"
       ]
     },
     {

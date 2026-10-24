@@ -86,21 +86,6 @@
         "A276614",
         "A048766"
       ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "round(log(∑[round(sqrt(∑[contfrac[e]]))]))",
-      "mt": 50,
-      "px": [
-        "e",
-        "contfrac",
-        "∑",
-        "sqrt",
-        "round",
-        "∑",
-        "log",
-        "round"
-      ]
     }
   ]
 }

@@ -141,18 +141,6 @@
         "A099837",
         "%"
       ]
-    },
-    {
-      "d": "2026-10-20",
-      "ix": "floor(atan(log(contfrac[e])))",
-      "mt": 50,
-      "px": [
-        "e",
-        "contfrac",
-        "log",
-        "atan",
-        "floor"
-      ]
     }
   ]
 }

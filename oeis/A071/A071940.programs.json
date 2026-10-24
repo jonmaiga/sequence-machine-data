@@ -128,7 +128,7 @@
     {
       "d": "2024-09-15",
       "ix": "∑[round(acot(contfrac[π]))]",
-      "mt": 50,
+      "mt": 87,
       "px": [
         "π",
         "contfrac",

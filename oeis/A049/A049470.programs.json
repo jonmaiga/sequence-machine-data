@@ -34,18 +34,6 @@
       ]
     },
     {
-      "d": "2022-02-16",
-      "ix": "limit[cos(contfrac[exp(7)])]",
-      "mt": 50,
-      "px": [
-        "7",
-        "exp",
-        "contfrac",
-        "cos",
-        "limit"
-      ]
-    },
-    {
       "d": "2021-11-25",
       "ix": "limit[cos(cos(char[1]))]",
       "mt": 50,
@@ -115,6 +103,19 @@
         "ceil",
         "cos",
         "limit"
+      ]
+    },
+    {
+      "d": "2026-10-23",
+      "ix": "de[sin(asin(1)+1)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "1",
+        "+",
+        "sin",
+        "de"
       ]
     }
   ]

@@ -2,16 +2,16 @@
   "oi": 300402,
   "ps": [
     {
-      "d": "2022-03-17",
-      "ix": "floor(log2(5)^atan(n))",
+      "d": "2026-10-23",
+      "ix": "round(root(∑[contfrac[π]], 6))",
       "mt": 87,
       "px": [
-        "5",
-        "log2",
-        "n",
-        "atan",
-        "^",
-        "floor"
+        "π",
+        "contfrac",
+        "∑",
+        "6",
+        "root",
+        "round"
       ]
     }
   ]

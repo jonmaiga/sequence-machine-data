@@ -2,35 +2,6 @@
   "oi": 185661,
   "ps": [
     {
-      "d": "2022-04-25",
-      "ix": "record[contfrac[e]-A334924(contfrac[e])]",
-      "mt": 15,
-      "px": [
-        "e",
-        "contfrac",
-        "e",
-        "contfrac",
-        "A334924",
-        "sub",
-        "record"
-      ]
-    },
-    {
-      "d": "2022-04-07",
-      "ix": "record[contfrac[e]-A326297(n+1)]",
-      "mt": 15,
-      "px": [
-        "e",
-        "contfrac",
-        "n",
-        "1",
-        "+",
-        "A326297",
-        "sub",
-        "record"
-      ]
-    },
-    {
       "d": "2023-08-19",
       "ix": "lt[A291350(n+1), Δ[A036283(n+4)]]",
       "mt": 15,

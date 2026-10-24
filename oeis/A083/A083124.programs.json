@@ -4,7 +4,7 @@
     {
       "d": "2021-11-01",
       "ix": "contfrac[tanh(π/2)]",
-      "mt": 50,
+      "mt": 91,
       "px": [
         "π",
         "2",
@@ -19,7 +19,7 @@
     {
       "d": "2021-11-01",
       "ix": "contfrac[sin(atan(sinh(acos(0))))]",
-      "mt": 50,
+      "mt": 91,
       "px": [
         "0",
         "acos",
@@ -32,7 +32,7 @@
     {
       "d": "2021-11-01",
       "ix": "contfrac[sin(atan(sinh(asin(1))))]",
-      "mt": 50,
+      "mt": 91,
       "px": [
         "1",
         "asin",
@@ -45,7 +45,7 @@
     {
       "d": "2021-11-01",
       "ix": "contfrac[cos(acot(sinh(acos(0))))]",
-      "mt": 50,
+      "mt": 91,
       "px": [
         "0",
         "acos",
@@ -58,7 +58,7 @@
     {
       "d": "2021-11-01",
       "ix": "contfrac[cos(acot(sinh(asin(1))))]",
-      "mt": 50,
+      "mt": 91,
       "px": [
         "1",
         "asin",
@@ -69,23 +69,9 @@
       ]
     },
     {
-      "d": "2022-05-29",
-      "ix": "contfrac[-tanh(log(sqrt(exp(π))))]",
-      "mt": 50,
-      "px": [
-        "π",
-        "exp",
-        "sqrt",
-        "log",
-        "tanh",
-        "neg",
-        "contfrac"
-      ]
-    },
-    {
       "d": "2024-01-30",
       "ix": "contfrac[C367960]",
-      "mt": 50,
+      "mt": 91,
       "px": [
         "C367960",
         "contfrac"

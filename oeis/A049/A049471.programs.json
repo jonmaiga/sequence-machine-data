@@ -35,18 +35,6 @@
       ]
     },
     {
-      "d": "2022-02-16",
-      "ix": "limit[tan(contfrac[exp(7)])]",
-      "mt": 50,
-      "px": [
-        "7",
-        "exp",
-        "contfrac",
-        "tan",
-        "limit"
-      ]
-    },
-    {
       "d": "2022-02-09",
       "ix": "limit[tan(cos(char[1]))]",
       "mt": 50,
@@ -117,6 +105,19 @@
         "1",
         "neg",
         "root",
+        "de"
+      ]
+    },
+    {
+      "d": "2026-10-23",
+      "ix": "de[log2(root(2, cot(1)))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "1",
+        "cot",
+        "root",
+        "log2",
         "de"
       ]
     }

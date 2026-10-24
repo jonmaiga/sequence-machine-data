@@ -83,19 +83,6 @@
         "runs",
         "∑"
       ]
-    },
-    {
-      "d": "2024-12-07",
-      "ix": "∑[floor(root(contfrac[e], 5))]",
-      "mt": 50,
-      "px": [
-        "e",
-        "contfrac",
-        "5",
-        "root",
-        "floor",
-        "∑"
-      ]
     }
   ]
 }

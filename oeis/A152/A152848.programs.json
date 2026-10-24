@@ -106,19 +106,6 @@
         "A100063",
         "gcd"
       ]
-    },
-    {
-      "d": "2022-03-21",
-      "ix": "round(root(contfrac[sqrt(e)], 9))",
-      "mt": 50,
-      "px": [
-        "e",
-        "sqrt",
-        "contfrac",
-        "9",
-        "root",
-        "round"
-      ]
     }
   ]
 }

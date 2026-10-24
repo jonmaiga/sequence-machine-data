@@ -68,19 +68,6 @@
         "runs",
         "∑"
       ]
-    },
-    {
-      "d": "2026-10-20",
-      "ix": "∑[round(atan(contfrac[log2(e)]))]",
-      "mt": 50,
-      "px": [
-        "e",
-        "log2",
-        "contfrac",
-        "atan",
-        "round",
-        "∑"
-      ]
     }
   ]
 }
