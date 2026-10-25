@@ -2115,6 +2115,24 @@ namespace A358035
 def P16374729320003647320.Spec : Prop :=
   ∀ n, P16374729320003647320.a n = (A358035 (n + 1) : ℚ)
 
+theorem P16374729320003647320.correct : P16374729320003647320.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A358035, Nat.add_sub_cancel, A358035.P16374729320003647320.a, A358035.P8253254257246568599.a, A069074, A069074.P4700341989723259479.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A358035, Nat.add_sub_cancel, A358035.P16374729320003647320.a, A358035.P8253254257246568599.a, A069074, A069074.P4700341989723259479.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A358035
 
 /-! ## A358035.P14172609598261290995

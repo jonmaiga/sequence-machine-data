@@ -40,6 +40,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -8657,7 +8658,7 @@ end A323597.P11939467583115765225
 /-!
 # A323599: Dirichlet convolution of the identity function with omega.
 
-The programs for A323599, the canonical program `A323599.P7337034044960425061` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323599 has offset 1).
+The programs for A323599, the canonical program `A323599.P7337034044960425061` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323599 has offset 1).
 
 The definition of A323599 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8692,7 +8693,7 @@ end A323599
 
 `∑{p}[n+1, A000203((n+1)/#)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A323599

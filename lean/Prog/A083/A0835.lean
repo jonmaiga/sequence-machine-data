@@ -9700,6 +9700,24 @@ namespace A083575
 def P3027038270932170702.Spec : Prop :=
   ∀ n, P3027038270932170702.a n = (A083575 n : ℚ)
 
+theorem P3027038270932170702.correct : P3027038270932170702.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A083575, Nat.add_sub_cancel, A083575.P3027038270932170702.a, A083575.P14884547013397812456.a, A196305, A196305.P3219067535703506014.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A083575, Nat.add_sub_cancel, A083575.P3027038270932170702.a, A083575.P14884547013397812456.a, A196305, A196305.P3219067535703506014.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A083575
 
 /-! ## A083575.P16731103115477336537

@@ -2926,6 +2926,25 @@ namespace A291009
 def P5149605196137766869.Spec : Prop :=
   ∀ n, P5149605196137766869.a n = (A291009 n : ℚ)
 
+theorem P5149605196137766869.correct : P5149605196137766869.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A291009, Nat.add_sub_cancel, A291009.P5149605196137766869.a, A291009.P10886884581987463371.a, A000302, A000302.P5166485833484575275.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A291009, Nat.add_sub_cancel, A291009.P5149605196137766869.a, A291009.P10886884581987463371.a, A000302, A000302.P5166485833484575275.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A291009
 
 /-! ## A291009.P1412208928497741629

@@ -7203,6 +7203,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A224419.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A188221.P599899064614246343
+
+`A081147(n+1)-2`
+-/
+
+namespace A188221.P599899064614246343
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A081147 (n + 1) - 2
+
+end
+
+end A188221.P599899064614246343
+
+noncomputable section
+
+/-- A188221: a(n) = [n*r + k*r]-[n*r]-[k*r], where r=sqrt(5), k=1, [ ]=floor.
+
+Offset 1, canonical program `A188221.P599899064614246343`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A188221 (n : ℕ) : ℤ :=
+  A188221.P599899064614246343.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A188221.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A188259.P10728208177163434814
 
 `A198082(A008619(n))+n`
@@ -27665,41 +27693,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A228082.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A228093.P7511362443758941122
-
-`∩[A142643(n+1), A142892(n+1)]`
--/
-
-namespace A228093.P7511362443758941122
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142643 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A142892 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A228093.P7511362443758941122
-
-noncomputable section
-
-/-- A228093: Primes congruent to 5 (mod 504).
-
-Offset 1, canonical program `A228093.P7511362443758941122`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1653 terms. -/
-def A228093 (n : ℕ) : ℤ :=
-  (A228093.P7511362443758941122.a (n - 1) : ℤ)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1653 terms. -/
-def A228093.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A188382.P3659492333739796096
 

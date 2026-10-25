@@ -4908,6 +4908,36 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A322053.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A277573.P5388903635817683430
+
+`1/3*A277569(n+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A277573.P5388903635817683430
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 3 * (A277569 (n + 1) : ℚ)
+
+end
+
+end A277573.P5388903635817683430
+
+noncomputable section
+
+/-- A277573: a(n) = (1/3)*A277569(n).
+
+Offset 1, canonical program `A277573.P5388903635817683430`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A277569, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A277573 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A277573.P5388903635817683430.a (n - 1))
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A277569, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A277573.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A277576.P12489906242859010906
 
 `A007916(a(n-1))` with `a(0)=1`
@@ -25704,37 +25734,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A323519.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A323599.P7337034044960425061
-
-`∑{p}[n+1, A000203((n+1)/#)]`
--/
-
-namespace A323599.P7337034044960425061
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), A000203 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (p : ℚ))).toNat
-
-end
-
-end A323599.P7337034044960425061
-
-noncomputable section
-
-/-- A323599: Dirichlet convolution of the identity function with omega.
-
-Offset 1, canonical program `A323599.P7337034044960425061`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A323599 (n : ℕ) : ℤ :=
-  A323599.P7337034044960425061.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A323599.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A277797.P17351685316325223803
 

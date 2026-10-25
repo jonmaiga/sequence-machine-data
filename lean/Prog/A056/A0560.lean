@@ -543,6 +543,24 @@ namespace A056000
 def P8488028392415024426.Spec : Prop :=
   ∀ n, P8488028392415024426.a n = (A056000 n : ℚ)
 
+theorem P8488028392415024426.correct : P8488028392415024426.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A056000, Nat.add_sub_cancel, A056000.P8488028392415024426.a, A056000.P2824900671301424584.a, A028563, A028563.P15186121141906373506.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A056000, Nat.add_sub_cancel, A056000.P8488028392415024426.a, A056000.P2824900671301424584.a, A028563, A028563.P15186121141906373506.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A056000
 
 /-! ## A056000.P16495793574052808665

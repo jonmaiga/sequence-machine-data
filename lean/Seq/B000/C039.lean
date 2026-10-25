@@ -4246,34 +4246,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-10x+27x^2-10x^3+x^4))` (program `A398147.P855889425603038055`, by `A398147.P855889425603038055.correct`). Lean does not check the parsing of the name. -/
 def A398147.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A384717.P10750683684603795331
-
-`a(n-2)+a(n-3)-a(n-5)` with `a(0)=0, a(1)=2, a(2)=4, a(3)=5, a(4)=6`
--/
-
-namespace A384717.P10750683684603795331
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 2, 4, 5, 6] fun n a =>
-  a (n - 2) + a (n - 3) - a (n - 5)
-
-end
-
-end A384717.P10750683684603795331
-
-noncomputable section
-
-/-- A384717: Sum of floored squared chord lengths from -1 to the 2n-th roots of unity (upper semicircle, endpoints excluded).
-
-Offset 1, canonical program `A384717.P10750683684603795331`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A384717 (n : ℕ) : ℤ :=
-  A384717.P10750683684603795331.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A384717.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A384853.P12743840133399295905
 
 `4*a(n-1)-3*a(n-2)` with `a(0)=1, a(1)=5, a(2)=9`

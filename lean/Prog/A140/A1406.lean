@@ -24304,6 +24304,24 @@ namespace A140681
 def P15140687171090470712.Spec : Prop :=
   ∀ n, P15140687171090470712.a n = A140681 n
 
+theorem P15140687171090470712.correct : P15140687171090470712.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A140681, Nat.add_sub_cancel, A140681.P15140687171090470712.a, A140681.P11404641493444198903.a, A016921, A016921.P18318603358862595186.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A140681, Nat.add_sub_cancel, A140681.P15140687171090470712.a, A140681.P11404641493444198903.a, A016921, A016921.P18318603358862595186.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A140681
 
 /-! ## A140681.P11147175798255490046

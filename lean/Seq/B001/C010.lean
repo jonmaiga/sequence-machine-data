@@ -2686,6 +2686,34 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A397835.provenance : SequenceMachineLib.Provenance := .assumedProven
 
+/-! ## A377721.P13608278594952562135
+
+`A074279(n+1)+n`
+-/
+
+namespace A377721.P13608278594952562135
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074279 (n + 1) + (n : ℤ)
+
+end
+
+end A377721.P13608278594952562135
+
+noncomputable section
+
+/-- A377721: Numbers that are not of the form k(k+1)(2k+1)/6 + k.
+
+Offset 1, canonical program `A377721.P13608278594952562135`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A074279, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A377721 (n : ℕ) : ℤ :=
+  A377721.P13608278594952562135.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A074279, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A377721.provenance : SequenceMachineLib.Provenance := .conditional
+
 /-! ## A377728.P7667033957001193499
 
 `A126646(n)-A066629(n)`

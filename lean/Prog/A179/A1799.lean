@@ -9380,6 +9380,24 @@ namespace A179986
 def P12256213842082195478.Spec : Prop :=
   ∀ n, P12256213842082195478.a n = (A179986 n : ℚ)
 
+theorem P12256213842082195478.correct : P12256213842082195478.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A179986, Nat.add_sub_cancel, A179986.P12256213842082195478.a, A179986.P16110847338785890238.a, A163756, A163756.P13614041795755210983.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A179986, Nat.add_sub_cancel, A179986.P12256213842082195478.a, A179986.P16110847338785890238.a, A163756, A163756.P13614041795755210983.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A179986
 
 /-! ## A179986.P12084839305362603942

@@ -19305,33 +19305,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A245341.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A228742.P8566123706562027853
+/-! ## A245342.P12332972798894847621
 
-`(n+2)*(19*(n+1)^4+186*(n+1)^3+349*(n+1)²+226*(n+1)+60)/60`
+`a(2*floor(n/7))+n%7` with `a(0)=0`
 -/
 
-namespace A228742.P8566123706562027853
+namespace A245342.P12332972798894847621
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 2 : ℚ) * ((19 * (n + 1) ^ 4 + 186 * (n + 1) ^ 3 + 349 * (n + 1) ^ 2 + 226 * (n + 1) + 60 : ℚ) / 60)
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+  a (2 * ⌊(n : ℚ) / 7⌋).toNat + n % 7
 
 end
 
-end A228742.P8566123706562027853
+end A245342.P12332972798894847621
 
 noncomputable section
 
-/-- A228742: Number of arrays of the median of three adjacent elements of some length 7 0..n array.
+/-- A245342: Sum of digits of n written in fractional base 7/2.
 
-Offset 1, canonical program `A228742.P8566123706562027853`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A228742 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A228742.P8566123706562027853.a (n - 1))
+Offset 0, canonical program `A245342.P12332972798894847621`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A245342 (n : ℕ) : ℤ :=
+  (A245342.P12332972798894847621.a n : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A228742.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A245342.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A228755.P10668043851392949698
 

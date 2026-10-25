@@ -1540,6 +1540,24 @@ namespace A131717
 def P10293949083948553749.Spec : Prop :=
   ∀ n, P10293949083948553749.a n = A131717 (n + 1)
 
+theorem P10293949083948553749.correct : P10293949083948553749.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A131717, Nat.add_sub_cancel, A131717.P10293949083948553749.a, A131717.P15600308203601758111.a, A131017, A131017.P5754187726822427039.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A131717, Nat.add_sub_cancel, A131717.P10293949083948553749.a, A131717.P15600308203601758111.a, A131017, A131017.P5754187726822427039.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A131717
 
 /-! ## A131717.P12523049236797746987

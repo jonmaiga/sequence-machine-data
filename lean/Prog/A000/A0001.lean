@@ -6945,6 +6945,24 @@ namespace A000124
 def P10023525442225561518.Spec : Prop :=
   ∀ n, P10023525442225561518.a n = (A000124 n : ℚ)
 
+theorem P10023525442225561518.correct : P10023525442225561518.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A000124, Nat.add_sub_cancel, A000124.P10023525442225561518.a, A000124.P675563980313077261.a, A002378, A002378.P6342434596694243671.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A000124, Nat.add_sub_cancel, A000124.P10023525442225561518.a, A000124.P675563980313077261.a, A002378, A002378.P6342434596694243671.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A000124
 
 /-! ## A000124.P5254460588888879271
@@ -6967,6 +6985,24 @@ namespace A000124
 /-- `(A002061(n)+A002061(n+2))/4` -/
 def P5254460588888879271.Spec : Prop :=
   ∀ n, P5254460588888879271.a n = (A000124 n : ℚ)
+
+theorem P5254460588888879271.correct : P5254460588888879271.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A000124, Nat.add_sub_cancel, A000124.P5254460588888879271.a, A000124.P675563980313077261.a, A002061, A002061.P13016590216674735232.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A000124, Nat.add_sub_cancel, A000124.P5254460588888879271.a, A000124.P675563980313077261.a, A002061, A002061.P13016590216674735232.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A000124
 

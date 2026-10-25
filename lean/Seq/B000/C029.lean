@@ -18565,43 +18565,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A228701.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A215191.P15566652112843844808
-
-`∑[Δ[or(1, n^4)]+∑[2*n]]`
--/
-
-namespace A215191.P15566652112843844808
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 1 (n ^ 4)
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + ((∑ j ∈ Finset.range (n + 1), f3 j : ℕ) : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A215191.P15566652112843844808
-
-noncomputable section
-
-/-- A215191: Number of arrays of 4 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.
-
-Offset 1, canonical program `A215191.P15566652112843844808`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A215191 (n : ℕ) : ℤ :=
-  A215191.P15566652112843844808.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A215191.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A215214.P16616755177621988533
 
 `p?[a(n-4)+11]` with `a(0)=1, a(1)=2, a(2)=5, a(3)=11`
@@ -29110,4 +29073,32 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A228741.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A228742.P8566123706562027853
+
+`(n+2)*(19*(n+1)^4+186*(n+1)^3+349*(n+1)²+226*(n+1)+60)/60`
+-/
+
+namespace A228742.P8566123706562027853
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 2 : ℚ) * ((19 * (n + 1) ^ 4 + 186 * (n + 1) ^ 3 + 349 * (n + 1) ^ 2 + 226 * (n + 1) + 60 : ℚ) / 60)
+
+end
+
+end A228742.P8566123706562027853
+
+noncomputable section
+
+/-- A228742: Number of arrays of the median of three adjacent elements of some length 7 0..n array.
+
+Offset 1, canonical program `A228742.P8566123706562027853`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A228742 (n : ℕ) : ℤ :=
+  SequenceMachineLib.roundAway (A228742.P8566123706562027853.a (n - 1))
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A228742.provenance : SequenceMachineLib.Provenance := .conjectured
 

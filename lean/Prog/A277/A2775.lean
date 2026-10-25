@@ -9046,7 +9046,7 @@ end A277572.P7547104853629272624
 /-!
 # A277573: a(n) = (1/3)*A277569(n).
 
-The programs for A277573, the canonical program `A277573.P5388903635817683430` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277573 has offset 1).
+The programs for A277573, the canonical program `A277573.P5388903635817683430` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277573 has offset 1).
 
 The definition of A277573 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A277569, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9055,7 +9055,7 @@ The definition of A277573 is `conditional`: the Lean definition is an OEIS formu
 
 `1/3*A277569(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277573

@@ -8294,7 +8294,7 @@ end A228091.P9291423172488148658
 /-!
 # A228093: Primes congruent to 5 (mod 504).
 
-The programs for A228093, the canonical program `A228093.P7511362443758941122` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228093 has offset 1).
+The programs for A228093, the canonical program `A228093.P7511362443758941122` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228093 has offset 1).
 
 The definition of A228093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1653 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8303,7 +8303,7 @@ The definition of A228093 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A142643(n+1), A142892(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228093

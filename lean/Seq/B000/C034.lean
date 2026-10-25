@@ -21227,39 +21227,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A296420.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A283773.P13307734796289270731
+/-! ## A296515.P10146744928561980763
 
-`lt[1, abs(2-(n-floor(n/ϕ)+1)%3)]`
+`floor(6/2^n)+3*n-6`
 -/
 
-namespace A283773.P13307734796289270731
+namespace A296515.P10146744928561980763
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |2 - Int.tmod ((n : ℤ) - ⌊(n : ℝ) / Real.goldenRatio⌋ + 1) 3|
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊6 / (2 ^ n : ℚ)⌋ + (3 * n : ℤ) - 6
 
 end
 
-end A283773.P13307734796289270731
+end A296515.P10146744928561980763
 
 noncomputable section
 
-/-- A283773: Numbers k such that U(k) = 1 mod 3, where U = A001950 = upper Wythoff sequence.
+/-- A296515: Number of edges in a maximal planar graph with n vertices.
 
-Offset 1, canonical program `A283773.P13307734796289270731`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A283773 (n : ℕ) : ℤ :=
-  (A283773.P13307734796289270731.a (n - 1) : ℤ)
+Offset 0, canonical program `A296515.P10146744928561980763`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A296515 (n : ℕ) : ℤ :=
+  A296515.P10146744928561980763.a n
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A283773.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A296515.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A283777.P2253580379995022249
 

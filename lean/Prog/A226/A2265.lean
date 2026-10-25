@@ -1560,6 +1560,25 @@ namespace A226508
 def P5331592205457372041.Spec : Prop :=
   ∀ n, P5331592205457372041.a n = A226508 n
 
+theorem P5331592205457372041.correct : P5331592205457372041.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A226508, Nat.add_sub_cancel, A226508.P5331592205457372041.a, A226508.P2921338441337654994.a, A000244, A000244.P17162167222172810417.a, A008776, A008776.P11088121667404015999.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A226508, Nat.add_sub_cancel, A226508.P5331592205457372041.a, A226508.P2921338441337654994.a, A000244, A000244.P17162167222172810417.a, A008776, A008776.P11088121667404015999.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A226508
 
 /-! ## A226508.P9014399241458098261
@@ -1606,6 +1625,25 @@ namespace A226508
 def P8118630826131806452.Spec : Prop :=
   ∀ n, P8118630826131806452.a n = A226508 n
 
+theorem P8118630826131806452.correct : P8118630826131806452.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A226508, Nat.add_sub_cancel, A226508.P8118630826131806452.a, A226508.P2921338441337654994.a, A024023, A024023.P3457506902639293536.a, A171498, A171498.P16617065330167147573.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A226508, Nat.add_sub_cancel, A226508.P8118630826131806452.a, A226508.P2921338441337654994.a, A024023, A024023.P3457506902639293536.a, A171498, A171498.P16617065330167147573.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A226508
 
 /-! ## A226508.P7872006310494109600
@@ -1628,6 +1666,25 @@ namespace A226508
 /-- `A199108(2*n)-A034472(n)` -/
 def P7872006310494109600.Spec : Prop :=
   ∀ n, P7872006310494109600.a n = A226508 n
+
+theorem P7872006310494109600.correct : P7872006310494109600.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A226508, Nat.add_sub_cancel, A226508.P7872006310494109600.a, A226508.P2921338441337654994.a, A034472, A034472.P6935477064191477456.a, A199108, A199108.P18019774811813591843.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A226508, Nat.add_sub_cancel, A226508.P7872006310494109600.a, A226508.P2921338441337654994.a, A034472, A034472.P6935477064191477456.a, A199108, A199108.P18019774811813591843.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A226508
 

@@ -39,7 +39,6 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -14504,6 +14503,27 @@ namespace A083079
 def P4887989552208706024.Spec : Prop :=
   ∀ n, P4887989552208706024.a n = A083079 n
 
+theorem P4887989552208706024.correct : P4887989552208706024.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A083079, Nat.add_sub_cancel, A083079.P4887989552208706024.f1, A083079.P4887989552208706024.a, A083079.P4244302985691793340.a, A192544, A192544.P6167349055891237540.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A083079, Nat.add_sub_cancel, A083079.P4887989552208706024.f1, A083079.P4887989552208706024.a, A083079.P4244302985691793340.a, A192544, A192544.P6167349055891237540.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [← h1, ← h2, ← h3, ← h4]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A083079
 
 /-! ## A083079.P11740270541815685015
@@ -14526,6 +14546,27 @@ namespace A083079
 /-- `A316224(n+1)-A014106(n+2)` -/
 def P11740270541815685015.Spec : Prop :=
   ∀ n, P11740270541815685015.a n = A083079 n
+
+theorem P11740270541815685015.correct : P11740270541815685015.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A083079, Nat.add_sub_cancel, A083079.P11740270541815685015.a, A083079.P4244302985691793340.a, A014106, A014106.P1375640882817375549.a, A316224, A316224.P13763735533833760107.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A083079, Nat.add_sub_cancel, A083079.P11740270541815685015.a, A083079.P4244302985691793340.a, A014106, A014106.P1375640882817375549.a, A316224, A316224.P13763735533833760107.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [← h1, ← h2, ← h3, ← h4]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A083079
 

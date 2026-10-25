@@ -6,36 +6,6 @@ import SequenceMachineLib
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
-/-! ## A258875.P6634172135621833953
-
-`ceil((a(n-1)+a(n-2)+a(n-3))/2)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=2, a(5)=3`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A258875.P6634172135621833953
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1, 2, 2, 3] fun n a =>
-  ⌈(a (n - 1) + a (n - 2) + a (n - 3) : ℚ) / 2⌉
-
-end
-
-end A258875.P6634172135621833953
-
-noncomputable section
-
-/-- A258875: a(1) = a(2) = a(3) = 1; for n > 3, a(n) = ceiling((a(n-1) + a(n-2) + a(n-3))/2).
-
-Offset 1, canonical program `A258875.P6634172135621833953`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((a(n-1)+a(n-2)+a(n-3))/2)` (program `A258875.P6634172135621833953`, by `A258875.P6634172135621833953.correct`). Lean does not check the parsing of the name. -/
-def A258875 (n : ℕ) : ℤ :=
-  A258875.P6634172135621833953.a (n - 1)
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((a(n-1)+a(n-2)+a(n-3))/2)` (program `A258875.P6634172135621833953`, by `A258875.P6634172135621833953.correct`). Lean does not check the parsing of the name. -/
-def A258875.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A259054.P1873933039071315874
 
 `4*(n+1)²-4*(n+1)+19`
@@ -28915,6 +28885,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3370 terms. -/
 def A271091.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A271092.P17829346138673400981
+
+`7*a(n-1)-14*a(n-2)+8*a(n-3)` with `a(0)=1, a(1)=5, a(2)=40, a(3)=216, a(4)=952`
+-/
+
+namespace A271092.P17829346138673400981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 5, 40, 216, 952] fun n a =>
+  7 * a (n - 1) - 14 * a (n - 2) + 8 * a (n - 3)
+
+end
+
+end A271092.P17829346138673400981
+
+noncomputable section
+
+/-- A271092: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 275", based on the 5-celled von Neumann neighborhood.
+
+Offset 0, canonical program `A271092.P17829346138673400981`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
+def A271092 (n : ℕ) : ℤ :=
+  A271092.P17829346138673400981.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
+def A271092.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A268411.P10692776799510792898
 

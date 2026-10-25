@@ -20975,33 +20975,33 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A362357.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A339277.P12339968615600327131
+/-! ## A362365.P14345963127246732391
 
-`a(floor((xor(1, n)-1)/2))+a(n-1)` with `a(0)=1, a(1)=1`
+`4*a(n-1)+10*a(n-2)+12*a(n-3)` with `a(0)=1, a(1)=9, a(2)=55`
 -/
 
-namespace A339277.P12339968615600327131
+namespace A362365.P14345963127246732391
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1] fun n a =>
-  a ⌊((Nat.xor 1 n : ℤ) - 1 : ℚ) / 2⌋.toNat + a (n - 1)
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 9, 55] fun n a =>
+  4 * a (n - 1) + 10 * a (n - 2) + 12 * a (n - 3)
 
 end
 
-end A339277.P12339968615600327131
+end A362365.P14345963127246732391
 
 noncomputable section
 
-/-- A339277: Number of partitions of 2*n into powers of 2 where every part appears at least 2 times.
+/-- A362365: The sum of the coefficients of x^k in the expansion of (x + x^2 + x^3 + x^4 + x^5 + x^6)^n with k divisible by 4.
 
-Offset 0, canonical program `A339277.P12339968615600327131`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1836 terms. -/
-def A339277 (n : ℕ) : ℤ :=
-  (A339277.P12339968615600327131.a n : ℤ)
+Offset 1, canonical program `A362365.P14345963127246732391`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A362365 (n : ℕ) : ℤ :=
+  (A362365.P14345963127246732391.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1836 terms. -/
-def A339277.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A362365.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A339342.P11310295957924163029
 

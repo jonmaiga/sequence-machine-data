@@ -6,36 +6,6 @@ import SequenceMachineLib
 Each definition is given by its canonical program and only uses definitions written before it.
 -/
 
-/-! ## A202606.P17792342699657972559
-
-`ceil(((10^n-1)²/9+10^n)/18)`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A202606.P17792342699657972559
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈((((10 ^ n : ℤ) - 1) ^ 2 : ℚ) / 9 + (10 ^ n : ℚ)) / 18⌉
-
-end
-
-end A202606.P17792342699657972559
-
-noncomputable section
-
-/-- A202606: a(n) = ceiling(((10^n - 1)^2/9 + 10^n)/18).
-
-Offset 0, canonical program `A202606.P17792342699657972559`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(((10^n-1)²/9+10^n)/18)` (program `A202606.P17792342699657972559`, by `A202606.P17792342699657972559.correct`). Lean does not check the parsing of the name. -/
-def A202606 (n : ℕ) : ℤ :=
-  A202606.P17792342699657972559.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(((10^n-1)²/9+10^n)/18)` (program `A202606.P17792342699657972559`, by `A202606.P17792342699657972559.correct`). Lean does not check the parsing of the name. -/
-def A202606.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A202628.P5241966103072688738
 
 `(4*n+1)*(2^(4*n+1)+(-1)^n*2^(2*n+1)+1)`
@@ -28956,6 +28926,43 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A215183.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A215191.P15566652112843844808
+
+`∑[Δ[or(1, n^4)]+∑[2*n]]`
+-/
+
+namespace A215191.P15566652112843844808
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lor 1 (n ^ 4)
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f2 (n + 1) : ℤ) - (f2 n : ℤ) + ((∑ j ∈ Finset.range (n + 1), f3 j : ℕ) : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A215191.P15566652112843844808
+
+noncomputable section
+
+/-- A215191: Number of arrays of 4 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.
+
+Offset 1, canonical program `A215191.P15566652112843844808`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A215191 (n : ℕ) : ℤ :=
+  A215191.P15566652112843844808.a (n - 1)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A215191.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A212013.P18376095192351240926
 

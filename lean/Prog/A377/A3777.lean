@@ -1330,7 +1330,7 @@ end A377717.P15368274848661228
 /-!
 # A377721: Numbers that are not of the form k(k+1)(2k+1)/6 + k.
 
-The programs for A377721, the canonical program `A377721.P13608278594952562135` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377721 has offset 1).
+The programs for A377721, the canonical program `A377721.P13608278594952562135` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377721 has offset 1).
 
 The definition of A377721 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A074279, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1339,7 +1339,7 @@ The definition of A377721 is `conditional`: the Lean definition is an OEIS formu
 
 `A074279(n+1)+n`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377721

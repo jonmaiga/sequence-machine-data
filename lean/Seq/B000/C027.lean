@@ -11454,6 +11454,36 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(sqrt(13*n))` (program `A202308.P15715900096849258275`, by `A202308.P15715900096849258275.correct`). Lean does not check the parsing of the name. -/
 def A202308.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A202606.P17792342699657972559
+
+`ceil(((10^n-1)²/9+10^n)/18)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A202606.P17792342699657972559
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈((((10 ^ n : ℤ) - 1) ^ 2 : ℚ) / 9 + (10 ^ n : ℚ)) / 18⌉
+
+end
+
+end A202606.P17792342699657972559
+
+noncomputable section
+
+/-- A202606: a(n) = ceiling(((10^n - 1)^2/9 + 10^n)/18).
+
+Offset 0, canonical program `A202606.P17792342699657972559`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(((10^n-1)²/9+10^n)/18)` (program `A202606.P17792342699657972559`, by `A202606.P17792342699657972559.correct`). Lean does not check the parsing of the name. -/
+def A202606 (n : ℕ) : ℤ :=
+  A202606.P17792342699657972559.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(((10^n-1)²/9+10^n)/18)` (program `A202606.P17792342699657972559`, by `A202606.P17792342699657972559.correct`). Lean does not check the parsing of the name. -/
+def A202606.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A192491.P773501502713426119
 
 `12*(n+1)²*(3*(n+1)-1)`
@@ -22755,34 +22785,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A202565.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A192431.P1001273660649389222
-
-`2*a(n-1)+6*a(n-2)-2*a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=4, a(3)=15`
--/
-
-namespace A192431.P1001273660649389222
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 4, 15] fun n a =>
-  2 * a (n - 1) + 6 * a (n - 2) - 2 * a (n - 3) - a (n - 4)
-
-end
-
-end A192431.P1001273660649389222
-
-noncomputable section
-
-/-- A192431: Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x) defined below in Comments.
-
-Offset 0, canonical program `A192431.P1001273660649389222`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 184 terms. -/
-def A192431 (n : ℕ) : ℤ :=
-  A192431.P1001273660649389222.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 184 terms. -/
-def A192431.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A192465.P4330871125634059146
 

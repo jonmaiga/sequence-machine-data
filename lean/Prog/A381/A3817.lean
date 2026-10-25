@@ -4712,6 +4712,25 @@ namespace A381791
 def P4089687754257647460.Spec : Prop :=
   ∀ n, P4089687754257647460.a n = A381791 n
 
+theorem P4089687754257647460.correct : P4089687754257647460.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P4089687754257647460.a, A381791.P11675514674717285752.a, A110287, A110287.P14797459151793831721.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P4089687754257647460.a, A381791.P11675514674717285752.a, A110287, A110287.P14797459151793831721.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A381791
 
 /-! ## A381791.P9938576213934149971
@@ -4734,6 +4753,25 @@ namespace A381791
 /-- `A198275(n)+9` -/
 def P9938576213934149971.Spec : Prop :=
   ∀ n, P9938576213934149971.a n = A381791 n
+
+theorem P9938576213934149971.correct : P9938576213934149971.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P9938576213934149971.a, A381791.P11675514674717285752.a, A198275, A198275.P16496776346649056810.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P9938576213934149971.a, A381791.P11675514674717285752.a, A198275, A198275.P16496776346649056810.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A381791
 
@@ -4758,6 +4796,25 @@ namespace A381791
 def P5919302401503174887.Spec : Prop :=
   ∀ n, P5919302401503174887.a n = A381791 n
 
+theorem P5919302401503174887.correct : P5919302401503174887.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P5919302401503174887.a, A381791.P11675514674717285752.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P5919302401503174887.a, A381791.P11675514674717285752.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A381791
 
 /-! ## A381791.P7152041412271465739
@@ -4780,6 +4837,25 @@ namespace A381791
 /-- `A305060(n)-A052548(n)` -/
 def P7152041412271465739.Spec : Prop :=
   ∀ n, P7152041412271465739.a n = A381791 n
+
+theorem P7152041412271465739.correct : P7152041412271465739.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P7152041412271465739.a, A381791.P11675514674717285752.a, A052548, A052548.P18180923888402085992.a, A305060, A305060.P11071758838076518638.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P7152041412271465739.a, A381791.P11675514674717285752.a, A052548, A052548.P18180923888402085992.a, A305060, A305060.P11071758838076518638.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A381791
 
@@ -4827,6 +4903,25 @@ namespace A381791
 def P4240035329730651409.Spec : Prop :=
   ∀ n, P4240035329730651409.a n = A381791 n
 
+theorem P4240035329730651409.correct : P4240035329730651409.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P4240035329730651409.a, A381791.P11675514674717285752.a, A028399, A028399.P13231387857369289055.a, A140504, A140504.P8641820625195625758.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P4240035329730651409.a, A381791.P11675514674717285752.a, A028399, A028399.P13231387857369289055.a, A140504, A140504.P8641820625195625758.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A381791
 
 /-! ## A381791.P5778160620080060382
@@ -4849,6 +4944,25 @@ namespace A381791
 /-- `A000051(n+1)+A175161(n+1)-A000051(n)` -/
 def P5778160620080060382.Spec : Prop :=
   ∀ n, P5778160620080060382.a n = A381791 n
+
+theorem P5778160620080060382.correct : P5778160620080060382.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P5778160620080060382.a, A381791.P11675514674717285752.a, A000051, A000051.P14067217022188782580.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P5778160620080060382.a, A381791.P11675514674717285752.a, A000051, A000051.P14067217022188782580.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A381791
 
@@ -4873,6 +4987,25 @@ namespace A381791
 def P6817791779208856270.Spec : Prop :=
   ∀ n, P6817791779208856270.a n = A381791 n
 
+theorem P6817791779208856270.correct : P6817791779208856270.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P6817791779208856270.a, A381791.P11675514674717285752.a, A000918, A000918.P14329454465793069288.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P6817791779208856270.a, A381791.P11675514674717285752.a, A000918, A000918.P14329454465793069288.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A381791
 
 /-! ## A381791.P9278794009015472079
@@ -4895,6 +5028,25 @@ namespace A381791
 /-- `A036563(n+1)+A175161(n+1)-A036563(n)` -/
 def P9278794009015472079.Spec : Prop :=
   ∀ n, P9278794009015472079.a n = A381791 n
+
+theorem P9278794009015472079.correct : P9278794009015472079.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P9278794009015472079.a, A381791.P11675514674717285752.a, A036563, A036563.P16747850807333830855.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P9278794009015472079.a, A381791.P11675514674717285752.a, A036563, A036563.P16747850807333830855.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A381791
 
@@ -4919,6 +5071,25 @@ namespace A381791
 def P11738096716843595470.Spec : Prop :=
   ∀ n, P11738096716843595470.a n = A381791 n
 
+theorem P11738096716843595470.correct : P11738096716843595470.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P11738096716843595470.a, A381791.P11675514674717285752.a, A052548, A052548.P18180923888402085992.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P11738096716843595470.a, A381791.P11675514674717285752.a, A052548, A052548.P18180923888402085992.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A381791
 
 /-! ## A381791.P9861374278832720383
@@ -4942,6 +5113,25 @@ namespace A381791
 def P9861374278832720383.Spec : Prop :=
   ∀ n, P9861374278832720383.a n = A381791 n
 
+theorem P9861374278832720383.correct : P9861374278832720383.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P9861374278832720383.a, A381791.P11675514674717285752.a, A140504, A140504.P8641820625195625758.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P9861374278832720383.a, A381791.P11675514674717285752.a, A140504, A140504.P8641820625195625758.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A381791
 
 /-! ## A381791.P14316831527820686687
@@ -4964,6 +5154,25 @@ namespace A381791
 /-- `A153972(n+1)+A175161(n+1)-A153972(n)` -/
 def P14316831527820686687.Spec : Prop :=
   ∀ n, P14316831527820686687.a n = A381791 n
+
+theorem P14316831527820686687.correct : P14316831527820686687.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P14316831527820686687.a, A381791.P11675514674717285752.a, A153972, A153972.P197572763491864962.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P14316831527820686687.a, A381791.P11675514674717285752.a, A153972, A153972.P197572763491864962.a, A175161, A175161.P2150735603067975038.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A381791
 
@@ -5085,6 +5294,25 @@ namespace A381791
 /-- `A175162(n+1)+A000079(n)-A175161(n+1)` -/
 def P10751459576349851248.Spec : Prop :=
   ∀ n, P10751459576349851248.a n = A381791 n
+
+theorem P10751459576349851248.correct : P10751459576349851248.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P10751459576349851248.a, A381791.P11675514674717285752.a, A000079, A000079.P10855139691139572931.a, A175161, A175161.P2150735603067975038.a, A175162, A175162.P18254170328065775909.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P10751459576349851248.a, A381791.P11675514674717285752.a, A000079, A000079.P10855139691139572931.a, A175161, A175161.P2150735603067975038.a, A175162, A175162.P18254170328065775909.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A381791
 

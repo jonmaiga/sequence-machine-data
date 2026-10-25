@@ -17111,7 +17111,7 @@ end A215189.P5909388045825342109
 /-!
 # A215191: Number of arrays of 4 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.
 
-The programs for A215191, the canonical program `A215191.P15566652112843844808` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215191 has offset 1).
+The programs for A215191, the canonical program `A215191.P15566652112843844808` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215191 has offset 1).
 
 The definition of A215191 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17120,7 +17120,7 @@ The definition of A215191 is `conjectured`: the Lean definition is a formula tha
 
 `∑[Δ[or(1, n^4)]+∑[2*n]]`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A215191

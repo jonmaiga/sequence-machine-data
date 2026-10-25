@@ -8538,34 +8538,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+ceil(((n+1)/3)²)` (program `A184017.P15837957863881208326`, by `A184017.P15837957863881208326.correct`). Lean does not check the parsing of the name. -/
 def A184017.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A174971.P4730089716543344271
-
-`3*(-1)^n`
--/
-
-namespace A174971.P4730089716543344271
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * (-1) ^ n
-
-end
-
-end A174971.P4730089716543344271
-
-noncomputable section
-
-/-- A174971: Periodic sequence: repeat (3,-3).
-
-Offset 0, canonical program `A174971.P4730089716543344271`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A174971 (n : ℕ) : ℤ :=
-  A174971.P4730089716543344271.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A174971.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A174989.P15853758169137628291
 
 `ceil((n+1)/2)*(1+ceil((n+1)/2))/2+a(floor((n+1)/2)-1)` with `a(0)=1`
@@ -22807,6 +22779,36 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A184052.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A184102.P797607705569178020
+
+`n+1+floor(4*sqrt(n+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A184102.P797607705569178020
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) + ⌊4 * Real.sqrt (n + 1 : ℝ)⌋
+
+end
+
+end A184102.P797607705569178020
+
+noncomputable section
+
+/-- A184102: n+floor(4*sqrt(n)); complement of A184103.
+
+Offset 1, canonical program `A184102.P797607705569178020`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+1+floor(4*sqrt(n+1))` (program `A184102.P797607705569178020`, by `A184102.P797607705569178020.correct`). Lean does not check the parsing of the name. -/
+def A184102 (n : ℕ) : ℤ :=
+  A184102.P797607705569178020.a (n - 1)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+1+floor(4*sqrt(n+1))` (program `A184102.P797607705569178020`, by `A184102.P797607705569178020.correct`). Lean does not check the parsing of the name. -/
+def A184102.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A175006.P16840197932512029061
 

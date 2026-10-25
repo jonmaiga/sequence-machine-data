@@ -4934,7 +4934,7 @@ end A228741
 /-!
 # A228742: Number of arrays of the median of three adjacent elements of some length 7 0..n array.
 
-The programs for A228742, the canonical program `A228742.P8566123706562027853` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228742 has offset 1).
+The programs for A228742, the canonical program `A228742.P8566123706562027853` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228742 has offset 1).
 
 The definition of A228742 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4943,7 +4943,7 @@ The definition of A228742 is `conjectured`: the Lean definition is a formula tha
 
 `(n+2)*(19*(n+1)^4+186*(n+1)^3+349*(n+1)²+226*(n+1)+60)/60`
 
-The canonical program, it is in `Seq.B000.C030`.
+The canonical program, it is in `Seq.B000.C029`.
 -/
 
 namespace A228742

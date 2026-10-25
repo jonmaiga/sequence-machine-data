@@ -20367,6 +20367,24 @@ namespace A027982
 def P4846955121082297173.Spec : Prop :=
   ∀ n, P4846955121082297173.a n = A027982 n
 
+theorem P4846955121082297173.correct : P4846955121082297173.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A027982, Nat.add_sub_cancel, A027982.P4846955121082297173.a, A027982.P15404522321963010124.a, A061761, A061761.P16955976905781525061.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A027982, Nat.add_sub_cancel, A027982.P4846955121082297173.a, A027982.P15404522321963010124.a, A061761, A061761.P16955976905781525061.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A027982
 
 /-! ## A027982.P14512451575368317785

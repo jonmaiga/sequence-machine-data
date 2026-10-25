@@ -7579,33 +7579,35 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1-n²` (program `A258837.P16350684666179390251`, by `A258837.P16350684666179390251.correct`). Lean does not check the parsing of the name. -/
 def A258837.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A245342.P12332972798894847621
+/-! ## A258875.P6634172135621833953
 
-`a(2*floor(n/7))+n%7` with `a(0)=0`
+`ceil((a(n-1)+a(n-2)+a(n-3))/2)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=2, a(4)=2, a(5)=3`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A245342.P12332972798894847621
+namespace A258875.P6634172135621833953
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  a (2 * ⌊(n : ℚ) / 7⌋).toNat + n % 7
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1, 2, 2, 3] fun n a =>
+  ⌈(a (n - 1) + a (n - 2) + a (n - 3) : ℚ) / 2⌉
 
 end
 
-end A245342.P12332972798894847621
+end A258875.P6634172135621833953
 
 noncomputable section
 
-/-- A245342: Sum of digits of n written in fractional base 7/2.
+/-- A258875: a(1) = a(2) = a(3) = 1; for n > 3, a(n) = ceiling((a(n-1) + a(n-2) + a(n-3))/2).
 
-Offset 0, canonical program `A245342.P12332972798894847621`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A245342 (n : ℕ) : ℤ :=
-  (A245342.P12332972798894847621.a n : ℤ)
+Offset 1, canonical program `A258875.P6634172135621833953`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((a(n-1)+a(n-2)+a(n-3))/2)` (program `A258875.P6634172135621833953`, by `A258875.P6634172135621833953.correct`). Lean does not check the parsing of the name. -/
+def A258875 (n : ℕ) : ℤ :=
+  A258875.P6634172135621833953.a (n - 1)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A245342.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil((a(n-1)+a(n-2)+a(n-3))/2)` (program `A258875.P6634172135621833953`, by `A258875.P6634172135621833953.correct`). Lean does not check the parsing of the name. -/
+def A258875.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A245343.P3332208437960607370
 

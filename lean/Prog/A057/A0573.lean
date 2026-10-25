@@ -8777,6 +8777,24 @@ namespace A057362
 def P14822224296991147026.Spec : Prop :=
   ∀ n, P14822224296991147026.a n = A057362 n
 
+theorem P14822224296991147026.correct : P14822224296991147026.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A057362, Nat.add_sub_cancel, A057362.P14822224296991147026.a, A057362.P5322357000331325469.a, A212126, A212126.P15964168202194070474.f1, A212126.P15964168202194070474.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A057362, Nat.add_sub_cancel, A057362.P14822224296991147026.a, A057362.P5322357000331325469.a, A212126, A212126.P15964168202194070474.f1, A212126.P15964168202194070474.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A057362
 
 /-! ## A057362.P10489556291737847410

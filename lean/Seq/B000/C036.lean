@@ -5592,34 +5592,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6*a(n-1)-12*a(n-2)+8*a(n-3)` (program `A339254.P9614187548484412658`, by `A339254.P9614187548484412658.correct`). Lean does not check the parsing of the name. -/
 def A339254.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A317318.P4119249595905022289
-
-`2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=18, a(3)=3`
--/
-
-namespace A317318.P4119249595905022289
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 18, 3] fun n a =>
-  2 * a (n - 2) - a (n - 4)
-
-end
-
-end A317318.P4119249595905022289
-
-noncomputable section
-
-/-- A317318: Multiples of 18 and odd numbers interleaved.
-
-Offset 0, canonical program `A317318.P4119249595905022289`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A317318 (n : ℕ) : ℤ :=
-  A317318.P4119249595905022289.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A317318.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A317319.P8527410939588968157
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=19, a(3)=3`
@@ -29338,6 +29310,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A339276.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A339277.P12339968615600327131
+
+`a(floor((xor(1, n)-1)/2))+a(n-1)` with `a(0)=1, a(1)=1`
+-/
+
+namespace A339277.P12339968615600327131
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1, 1] fun n a =>
+  a ⌊((Nat.xor 1 n : ℤ) - 1 : ℚ) / 2⌋.toNat + a (n - 1)
+
+end
+
+end A339277.P12339968615600327131
+
+noncomputable section
+
+/-- A339277: Number of partitions of 2*n into powers of 2 where every part appears at least 2 times.
+
+Offset 0, canonical program `A339277.P12339968615600327131`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1836 terms. -/
+def A339277 (n : ℕ) : ℤ :=
+  (A339277.P12339968615600327131.a n : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1836 terms. -/
+def A339277.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A317946.P13520593184723688134
 

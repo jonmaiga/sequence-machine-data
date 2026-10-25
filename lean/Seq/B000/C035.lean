@@ -8454,34 +8454,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(4*(n+1)²-8*(n+1)+5)` (program `A317297.P8241889574889995076`, by `A317297.P8241889574889995076.correct`). Lean does not check the parsing of the name. -/
 def A317297.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A296515.P10146744928561980763
-
-`floor(6/2^n)+3*n-6`
--/
-
-namespace A296515.P10146744928561980763
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊6 / (2 ^ n : ℚ)⌋ + (3 * n : ℤ) - 6
-
-end
-
-end A296515.P10146744928561980763
-
-noncomputable section
-
-/-- A296515: Number of edges in a maximal planar graph with n vertices.
-
-Offset 0, canonical program `A296515.P10146744928561980763`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A296515 (n : ℕ) : ℤ :=
-  A296515.P10146744928561980763.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A296515.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A296591.P10314345524043067546
 
 `a(n-1)*(2*n-1)!*(2*n)!/(n-1)!` with `a(0)=1`
@@ -18828,6 +18800,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A317317.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A317318.P4119249595905022289
+
+`2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=18, a(3)=3`
+-/
+
+namespace A317318.P4119249595905022289
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 18, 3] fun n a =>
+  2 * a (n - 2) - a (n - 4)
+
+end
+
+end A317318.P4119249595905022289
+
+noncomputable section
+
+/-- A317318: Multiples of 18 and odd numbers interleaved.
+
+Offset 0, canonical program `A317318.P4119249595905022289`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A317318 (n : ℕ) : ℤ :=
+  A317318.P4119249595905022289.a n
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A317318.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A296550.P7046626392836122046
 

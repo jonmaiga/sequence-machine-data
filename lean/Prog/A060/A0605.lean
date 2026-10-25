@@ -4649,6 +4649,24 @@ namespace A060541
 def P9845817920168769860.Spec : Prop :=
   ∀ n, P9845817920168769860.a n = A060541 (n + 1)
 
+theorem P9845817920168769860.correct : P9845817920168769860.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A060541, Nat.add_sub_cancel, A060541.P9845817920168769860.a, A060541.P3227994209697425568.a, A085474, A085474.P13009969362069391226.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A060541, Nat.add_sub_cancel, A060541.P9845817920168769860.a, A060541.P3227994209697425568.a, A085474, A085474.P13009969362069391226.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A060541
 
 /-! ## A060541.P1748560536386513556
@@ -5642,6 +5660,24 @@ namespace A060544
 def P10074144385589184556.Spec : Prop :=
   ∀ n, P10074144385589184556.a n = (A060544 (n + 1) : ℚ)
 
+theorem P10074144385589184556.correct : P10074144385589184556.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A060544, Nat.add_sub_cancel, A060544.P10074144385589184556.a, A060544.P10494938980490359141.a, A001504, A001504.P13639601878872911563.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A060544, Nat.add_sub_cancel, A060544.P10074144385589184556.a, A060544.P10494938980490359141.a, A001504, A001504.P13639601878872911563.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
+
 end A060544
 
 /-! ## A060544.P9412952997389104501
@@ -5664,6 +5700,24 @@ namespace A060544
 /-- `A144410(n)/8` -/
 def P9412952997389104501.Spec : Prop :=
   ∀ n, P9412952997389104501.a n = (A060544 (n + 1) : ℚ)
+
+theorem P9412952997389104501.correct : P9412952997389104501.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A060544, Nat.add_sub_cancel, A060544.P9412952997389104501.a, A060544.P10494938980490359141.a, A144410, A144410.P8365255097243004447.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf)
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A060544, Nat.add_sub_cancel, A060544.P9412952997389104501.a, A060544.P10494938980490359141.a, A144410, A144410.P8365255097243004447.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | ((try field_simp); ring_nf)
 
 end A060544
 

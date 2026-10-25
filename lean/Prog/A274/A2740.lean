@@ -7575,6 +7575,24 @@ namespace A274093
 def P15708298578157474498.Spec : Prop :=
   ∀ n, P15708298578157474498.a n = A274093 n
 
+theorem P15708298578157474498.correct : P15708298578157474498.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A274093, Nat.add_sub_cancel, A274093.P15708298578157474498.a, A274093.P3378925896752465146.a, A010816, A010816.P9990213171636561186.a, A057428, A057428.P2999489532230392221.a, A274094, A274094.P5521899497297854027.a, A057427, A057427.P3058147525557661423.a, A198954, A198954.P2690440958221023727.a, A374157, A374157.P5715907988378515051.a, A000007, A000007.P6599383543502402472.a, A053187, A053187.P5980113714214141663.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A274093, Nat.add_sub_cancel, A274093.P15708298578157474498.a, A274093.P3378925896752465146.a, A010816, A010816.P9990213171636561186.a, A057428, A057428.P2999489532230392221.a, A274094, A274094.P5521899497297854027.a, A057427, A057427.P3058147525557661423.a, A198954, A198954.P2690440958221023727.a, A374157, A374157.P5715907988378515051.a, A000007, A000007.P6599383543502402472.a, A053187, A053187.P5980113714214141663.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A274093
 
 /-! ## A274093.P8822787666037475020

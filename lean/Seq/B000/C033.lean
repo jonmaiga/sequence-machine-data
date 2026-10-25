@@ -18468,34 +18468,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A283750.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A271092.P17829346138673400981
-
-`7*a(n-1)-14*a(n-2)+8*a(n-3)` with `a(0)=1, a(1)=5, a(2)=40, a(3)=216, a(4)=952`
--/
-
-namespace A271092.P17829346138673400981
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 5, 40, 216, 952] fun n a =>
-  7 * a (n - 1) - 14 * a (n - 2) + 8 * a (n - 3)
-
-end
-
-end A271092.P17829346138673400981
-
-noncomputable section
-
-/-- A271092: Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 275", based on the 5-celled von Neumann neighborhood.
-
-Offset 0, canonical program `A271092.P17829346138673400981`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A271092 (n : ℕ) : ℤ :=
-  A271092.P17829346138673400981.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. -/
-def A271092.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A271102.P1341188632352803855
 
 `∏{e}[n+1, -val(n+2, #+n)]`
@@ -29039,6 +29011,40 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A283770.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A283773.P13307734796289270731
+
+`lt[1, abs(2-(n-floor(n/ϕ)+1)%3)]`
+-/
+
+namespace A283773.P13307734796289270731
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |2 - Int.tmod ((n : ℤ) - ⌊(n : ℝ) / Real.goldenRatio⌋ + 1) 3|
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n
+
+end
+
+end A283773.P13307734796289270731
+
+noncomputable section
+
+/-- A283773: Numbers k such that U(k) = 1 mod 3, where U = A001950 = upper Wythoff sequence.
+
+Offset 1, canonical program `A283773.P13307734796289270731`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A283773 (n : ℕ) : ℤ :=
+  (A283773.P13307734796289270731.a (n - 1) : ℤ)
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A283773.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A276796.P11090687289804672237
 
