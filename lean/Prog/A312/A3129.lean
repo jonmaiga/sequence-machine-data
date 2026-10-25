@@ -673,7 +673,7 @@ end A312901
 /-!
 # A312902: Coordination sequence Gal.6.129.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A312902, the canonical program `A312902.P9477729746775064079` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312902 has offset 0).
+The programs for A312902, the canonical program `A312902.P9477729746775064079` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312902 has offset 0).
 
 The definition of A312902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2445 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -682,7 +682,7 @@ The definition of A312902 is `conjectured`: the Lean definition is a formula tha
 
 `(A310378(n)+A008574(n))/2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A312902

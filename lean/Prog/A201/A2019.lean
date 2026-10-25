@@ -19,9 +19,10 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B001.C000
@@ -2536,7 +2537,7 @@ end A201965.P17731411259778888423
 /-!
 # A201967: Expansion of 1/(1-2*x-3*x^2+x^4) in powers of x.
 
-The programs for A201967, the canonical program `A201967.P1570897232147631291` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201967 has offset 0).
+The programs for A201967, the canonical program `A201967.P1570897232147631291` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201967 has offset 0).
 
 The definition of A201967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-3x^2+x^4))` (program `A201967.P1570897232147631291`, by `A201967.P1570897232147631291.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2545,7 +2546,7 @@ The definition of A201967 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-3x^2+x^4))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201967
@@ -2822,7 +2823,7 @@ end A201974.P8184088998992276777
 /-!
 # A201975: Number of n X 2 0..3 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards.
 
-The programs for A201975, the canonical program `A201975.P8699609633938881539` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201975 has offset 1).
+The programs for A201975, the canonical program `A201975.P8699609633938881539` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201975 has offset 1).
 
 The definition of A201975 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2831,7 +2832,7 @@ The definition of A201975 is `conjectured`: the Lean definition is a formula tha
 
 `∑[a(n-1)+14+n]` with `a(0)=4, a(1)=26`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201975

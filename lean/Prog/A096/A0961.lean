@@ -28,7 +28,7 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
@@ -2899,7 +2899,7 @@ end A096139.P8299557726505447053
 /-!
 # A096140: a(n) = sum of n Fibonacci numbers starting from F(n).
 
-The programs for A096140, the canonical program `A096140.P8299260409315623569` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096140 has offset 0).
+The programs for A096140, the canonical program `A096140.P8299260409315623569` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096140 has offset 0).
 
 The definition of A096140 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 240 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2957,7 +2957,7 @@ end A096140
 
 `A094292(n)+A049681(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A096140

@@ -11970,7 +11970,7 @@ end A162784
 /-!
 # A162786: a(n) = A162526(n)/6.
 
-The programs for A162786, the canonical program `A162786.P15387700522578825517` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162786 has offset 1).
+The programs for A162786, the canonical program `A162786.P3053637740842247818` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162786 has offset 1).
 
 The definition of A162786 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A162526, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11979,14 +11979,30 @@ The definition of A162786 is `conditional`: the Lean definition is an OEIS formu
 
 `A162526(n+1)/6`
 
-The canonical program, it is in `Seq.B009.C000`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A162786.P15387700522578825517
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A162526 (n + 1) : ℚ) / 6
+
+end
+
+end A162786.P15387700522578825517
 
 namespace A162786
 
 /-- `A162526(n+1)/6` -/
 def P15387700522578825517.Spec : Prop :=
   ∀ n, P15387700522578825517.a n = (A162786 (n + 1) : ℚ)
+
+theorem P15387700522578825517.correct : P15387700522578825517.Spec := by
+  intro n
+  simp only [A162786, Nat.add_sub_cancel, A162786.P15387700522578825517.a, A162786.P3053637740842247818.f1, A162786.P3053637740842247818.f2, A162786.P3053637740842247818.a, A006530, A006530.P13372528560459906635.a, A162526, A162526.P65744712905578184.f1, A162526.P65744712905578184.f2, A162526.P65744712905578184.a, A070229, A070229.P5792893597916963980.a, A028815, A028815.P810525423351225743.a, A061395, A061395.P8431317036300486107.a, A008578, A008578.P3639467937083264764.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A162786
 
@@ -12042,29 +12058,19 @@ end A162786
 /-! ## A162786.P3053637740842247818
 
 `lt[n-1, A006530(n+6)]+6`
+
+The canonical program, it is in `Seq.B008.C000`.
 -/
-
-namespace A162786.P3053637740842247818
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006530 (n + 6)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 6
-
-end
-
-end A162786.P3053637740842247818
 
 namespace A162786
 
 /-- `lt[n-1, A006530(n+6)]+6` -/
 def P3053637740842247818.Spec : Prop :=
   ∀ n, (P3053637740842247818.a n : ℤ) = A162786 (n + 1)
+
+theorem P3053637740842247818.correct : P3053637740842247818.Spec := by
+  intro n
+  simp only [A162786, Nat.add_sub_cancel]
 
 end A162786
 

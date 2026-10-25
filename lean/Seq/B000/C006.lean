@@ -544,6 +544,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^n+1)²` (program `A028400.P8275181187823269939`, by `A028400.P8275181187823269939.correct`). Lean does not check the parsing of the name. -/
 def A028400.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A028494.P14934978941366402405
+
+`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=1, a(1)=9, a(2)=18, a(3)=25`
+-/
+
+namespace A028494.P14934978941366402405
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 9, 18, 25] fun n a =>
+  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
+
+end
+
+end A028494.P14934978941366402405
+
+noncomputable section
+
+/-- A028494: a(n) = -(1/2)*(n+2)*(n^2 - 6*n - 1).
+
+Offset 0, canonical program `A028494.P14934978941366402405`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-(1/2)*(n+2)*(n²-6*n-1)` (program `A028494.P9048879933591178926`, by `A028494.P9048879933591178926.correct`). Lean does not check the parsing of the name. -/
+def A028494 (n : ℕ) : ℤ :=
+  A028494.P14934978941366402405.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-(1/2)*(n+2)*(n²-6*n-1)` (program `A028494.P9048879933591178926`, by `A028494.P9048879933591178926.correct`). Lean does not check the parsing of the name. -/
+def A028494.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A028495.P14445890505411110476
 
 `ogf((1-x^2)/(1-x-2x^2+x^3))`
@@ -963,6 +991,34 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+3)²-8` (program `A028884.P6863667227585996307`, by `A028884.P6863667227585996307.correct`). Lean does not check the parsing of the name. -/
 def A028884.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A028895.P13551597639118349483
+
+`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=5, a(2)=15`
+-/
+
+namespace A028895.P13551597639118349483
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 5, 15] fun n a =>
+  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
+
+end
+
+end A028895.P13551597639118349483
+
+noncomputable section
+
+/-- A028895: 5 times triangular numbers: a(n) = 5*n*(n+1)/2.
+
+Offset 0, canonical program `A028895.P13551597639118349483`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n*(n+1)/2` (program `A028895.P9457771658002208055`, by `A028895.P9457771658002208055.correct`). Lean does not check the parsing of the name. -/
+def A028895 (n : ℕ) : ℤ :=
+  A028895.P13551597639118349483.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n*(n+1)/2` (program `A028895.P9457771658002208055`, by `A028895.P9457771658002208055.correct`). Lean does not check the parsing of the name. -/
+def A028895.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A028896.P3776891904721443318
 
@@ -9784,6 +9840,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+C(2*n, n)+C(3*n, n)` (program `A029848.P17950896478309754398`, by `A029848.P17950896478309754398.correct`). Lean does not check the parsing of the name. -/
 def A029848.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A029858.P4049020238019730915
+
+`3*a(n-1)+3` with `a(0)=0`
+-/
+
+namespace A029858.P4049020238019730915
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
+  3 * a (n - 1) + 3
+
+end
+
+end A029858.P4049020238019730915
+
+noncomputable section
+
+/-- A029858: a(n) = (3^n - 3)/2.
+
+Offset 1, canonical program `A029858.P4049020238019730915`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(n+1)-3)/2` (program `A029858.P18292048773196394634`, by `A029858.P18292048773196394634.correct`). Lean does not check the parsing of the name. -/
+def A029858 (n : ℕ) : ℤ :=
+  (A029858.P4049020238019730915.a (n - 1) : ℤ)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(n+1)-3)/2` (program `A029858.P18292048773196394634`, by `A029858.P18292048773196394634.correct`). Lean does not check the parsing of the name. -/
+def A029858.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A029929.P9949562801206903288
 
 `n*(n+ceil(2^n/12))`
@@ -14014,6 +14098,90 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(floor((n+1)/2)-1)` (program `A033485.P18242505491920379627`, by `A033485.P18242505491920379627.correct`). Lean does not check the parsing of the name. -/
 def A033485.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A033486.P8350480419729936038
+
+`5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=12, a(2)=60, a(3)=180, a(4)=420`
+-/
+
+namespace A033486.P8350480419729936038
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 12, 60, 180, 420] fun n a =>
+  5 * a (n - 1) - 10 * a (n - 2) + 10 * a (n - 3) - 5 * a (n - 4) + a (n - 5)
+
+end
+
+end A033486.P8350480419729936038
+
+noncomputable section
+
+/-- A033486: a(n) = n*(n + 1)*(n + 2)*(n + 3)/2.
+
+Offset 0, canonical program `A033486.P8350480419729936038`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/2` (program `A033486.P13044485591943602853`, by `A033486.P13044485591943602853.correct`). Lean does not check the parsing of the name. -/
+def A033486 (n : ℕ) : ℤ :=
+  A033486.P8350480419729936038.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/2` (program `A033486.P13044485591943602853`, by `A033486.P13044485591943602853.correct`). Lean does not check the parsing of the name. -/
+def A033486.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A033487.P180010041112617206
+
+`6*C(n+3, 4)`
+-/
+
+namespace A033487.P180010041112617206
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  6 * Nat.choose (n + 3) 4
+
+end
+
+end A033487.P180010041112617206
+
+noncomputable section
+
+/-- A033487: a(n) = n*(n+1)*(n+2)*(n+3)/4.
+
+Offset 0, canonical program `A033487.P180010041112617206`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/4` (program `A033487.P5572672579496852632`, by `A033487.P5572672579496852632.correct`). Lean does not check the parsing of the name. -/
+def A033487 (n : ℕ) : ℤ :=
+  (A033487.P180010041112617206.a n : ℤ)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/4` (program `A033487.P5572672579496852632`, by `A033487.P5572672579496852632.correct`). Lean does not check the parsing of the name. -/
+def A033487.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A033488.P5263045204408268705
+
+`4*C(n+3, 4)`
+-/
+
+namespace A033488.P5263045204408268705
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  4 * Nat.choose (n + 3) 4
+
+end
+
+end A033488.P5263045204408268705
+
+noncomputable section
+
+/-- A033488: a(n) = n*(n+1)*(n+2)*(n+3)/6.
+
+Offset 0, canonical program `A033488.P5263045204408268705`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/6` (program `A033488.P7908446537014078274`, by `A033488.P7908446537014078274.correct`). Lean does not check the parsing of the name. -/
+def A033488 (n : ℕ) : ℤ :=
+  (A033488.P5263045204408268705.a n : ℤ)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/6` (program `A033488.P7908446537014078274`, by `A033488.P7908446537014078274.correct`). Lean does not check the parsing of the name. -/
+def A033488.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A033490.P7843356809737532197
 
 `2*a(n-1)+a(floor((n+1)/2)-1)` with `a(0)=1, a(1)=2`
@@ -15514,6 +15682,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^3+n` (program `A034262.P1986901683698587680`, by `A034262.P1986901683698587680.correct`). Lean does not check the parsing of the name. -/
 def A034262.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A034263.P5868129197671622568
+
+`C(n+5, 5)+3*C(n+4, 5)`
+-/
+
+namespace A034263.P5868129197671622568
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (n + 5) 5 + 3 * Nat.choose (n + 4) 5
+
+end
+
+end A034263.P5868129197671622568
+
+noncomputable section
+
+/-- A034263: a(n) = binomial(n+4,4)*(4*n+5)/5.
+
+Offset 0, canonical program `A034263.P5868129197671622568`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+4, 4)*(4*n+5)/5` (program `A034263.P2913931381435015600`, by `A034263.P2913931381435015600.correct`). Lean does not check the parsing of the name. -/
+def A034263 (n : ℕ) : ℤ :=
+  (A034263.P5868129197671622568.a n : ℤ)
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+4, 4)*(4*n+5)/5` (program `A034263.P2913931381435015600`, by `A034263.P2913931381435015600.correct`). Lean does not check the parsing of the name. -/
+def A034263.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A034324.P6934166812929750048
 
 `n*(n-1)*(n-2)+n+1`
@@ -15634,6 +15830,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^n+1` (program `A034474.P1568972853745923564`, by `A034474.P1568972853745923564.correct`). Lean does not check the parsing of the name. -/
 def A034474.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A034478.P14299507060647208907
+
+`5*a(n-1)-2` with `a(0)=1`
+-/
+
+namespace A034478.P14299507060647208907
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  5 * a (n - 1) - 2
+
+end
+
+end A034478.P14299507060647208907
+
+noncomputable section
+
+/-- A034478: a(n) = (5^n + 1)/2.
+
+Offset 0, canonical program `A034478.P14299507060647208907`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5^n+1)/2` (program `A034478.P6168429449470538206`, by `A034478.P6168429449470538206.correct`). Lean does not check the parsing of the name. -/
+def A034478 (n : ℕ) : ℤ :=
+  A034478.P14299507060647208907.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5^n+1)/2` (program `A034478.P6168429449470538206`, by `A034478.P6168429449470538206.correct`). Lean does not check the parsing of the name. -/
+def A034478.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A034491.P8360530145105108237
 
 `7^n+1`
@@ -15663,6 +15887,34 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `7^n+1` (program `A034491.P8360530145105108237`, by `A034491.P8360530145105108237.correct`). Lean does not check the parsing of the name. -/
 def A034491.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A034494.P6152540667453221608
+
+`7*a(n-1)-3` with `a(0)=1`
+-/
+
+namespace A034494.P6152540667453221608
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  7 * a (n - 1) - 3
+
+end
+
+end A034494.P6152540667453221608
+
+noncomputable section
+
+/-- A034494: a(n) = (7^n+1)/2.
+
+Offset 0, canonical program `A034494.P6152540667453221608`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7^n+1)/2` (program `A034494.P2570903576193743711`, by `A034494.P2570903576193743711.correct`). Lean does not check the parsing of the name. -/
+def A034494 (n : ℕ) : ℤ :=
+  A034494.P6152540667453221608.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7^n+1)/2` (program `A034494.P2570903576193743711`, by `A034494.P2570903576193743711.correct`). Lean does not check the parsing of the name. -/
+def A034494.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A034513.P6025037193785273412
 
@@ -15723,6 +15975,34 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `11^n+1` (program `A034524.P14152157889491239874`, by `A034524.P14152157889491239874.correct`). Lean does not check the parsing of the name. -/
 def A034524.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A034659.P9693213874906792404
+
+`11*a(n-1)-5` with `a(0)=1`
+-/
+
+namespace A034659.P9693213874906792404
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  11 * a (n - 1) - 5
+
+end
+
+end A034659.P9693213874906792404
+
+noncomputable section
+
+/-- A034659: a(n) = (11^n + 1)/2.
+
+Offset 0, canonical program `A034659.P9693213874906792404`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(11^n+1)/2` (program `A034659.P3884214805610977757`, by `A034659.P3884214805610977757.correct`). Lean does not check the parsing of the name. -/
+def A034659 (n : ℕ) : ℤ :=
+  A034659.P9693213874906792404.a n
+
+end
+
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(11^n+1)/2` (program `A034659.P3884214805610977757`, by `A034659.P3884214805610977757.correct`). Lean does not check the parsing of the name. -/
+def A034659.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A034827.P5779717595868083396
 
@@ -16354,61 +16634,65 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^18+n^18` (program `A036096.P2633988152001810233`, by `A036096.P2633988152001810233.correct`). Lean does not check the parsing of the name. -/
 def A036096.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A028209.P10017964568648344345
+/-! ## A036097.P8683106660414537380
 
-`23*a(n-1)-132*a(n-2)+7^(n+1)-6^(n+1)` with `a(0)=1, a(1)=36`
+`(n+1)^19+n^19`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A028209.P10017964568648344345
+namespace A036097.P8683106660414537380
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 36] fun n a =>
-  23 * a (n - 1) - 132 * a (n - 2) + (7 ^ (n + 1) : ℤ) - (6 ^ (n + 1) : ℤ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 19 + n ^ 19
 
 end
 
-end A028209.P10017964568648344345
+end A036097.P8683106660414537380
 
 noncomputable section
 
-/-- A028209: Expansion of 1/((1-6x)(1-7x)(1-11x)(1-12x)).
+/-- A036097: Centered cube numbers: (n+1)^19+n^19.
 
-Offset 0, canonical program `A028209.P10017964568648344345`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A028209 (n : ℕ) : ℤ :=
-  A028209.P10017964568648344345.a n
+Offset 0, canonical program `A036097.P8683106660414537380`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. -/
+def A036097 (n : ℕ) : ℤ :=
+  (A036097.P8683106660414537380.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A028209.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. -/
+def A036097.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A028210.P1955904657294203338
+/-! ## A036098.P16820759973379616246
 
-`19*a(n-1)-90*a(n-2)+4*8^n-3*6^n` with `a(0)=1, a(1)=33`
+`(n+1)^20+n^20`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
 
-namespace A028210.P1955904657294203338
+namespace A036098.P16820759973379616246
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 33] fun n a =>
-  19 * a (n - 1) - 90 * a (n - 2) + (4 * 8 ^ n : ℤ) - (3 * 6 ^ n : ℤ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 20 + n ^ 20
 
 end
 
-end A028210.P1955904657294203338
+end A036098.P16820759973379616246
 
 noncomputable section
 
-/-- A028210: Expansion of 1/((1-6x)(1-8x)(1-9x)(1-10x)).
+/-- A036098: Centered cube numbers: a(n) = (n+1)^20 + n^20.
 
-Offset 0, canonical program `A028210.P1955904657294203338`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A028210 (n : ℕ) : ℤ :=
-  A028210.P1955904657294203338.a n
+Offset 0, canonical program `A036098.P16820759973379616246`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^20+n^20` (program `A036098.P16820759973379616246`, by `A036098.P16820759973379616246.correct`). Lean does not check the parsing of the name. -/
+def A036098 (n : ℕ) : ℤ :=
+  (A036098.P16820759973379616246.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A028210.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^20+n^20` (program `A036098.P16820759973379616246`, by `A036098.P16820759973379616246.correct`). Lean does not check the parsing of the name. -/
+def A036098.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A028211.P10447906100485110187
 
@@ -17168,34 +17452,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A028493.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A028494.P14934978941366402405
-
-`4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=1, a(1)=9, a(2)=18, a(3)=25`
--/
-
-namespace A028494.P14934978941366402405
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 9, 18, 25] fun n a =>
-  4 * a (n - 1) - 6 * a (n - 2) + 4 * a (n - 3) - a (n - 4)
-
-end
-
-end A028494.P14934978941366402405
-
-noncomputable section
-
-/-- A028494: a(n) = -(1/2)*(n+2)*(n^2 - 6*n - 1).
-
-Offset 0, canonical program `A028494.P14934978941366402405`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-(1/2)*(n+2)*(n²-6*n-1)` (program `A028494.P9048879933591178926`, by `A028494.P9048879933591178926.correct`). Lean does not check the parsing of the name. -/
-def A028494 (n : ℕ) : ℤ :=
-  A028494.P14934978941366402405.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-(1/2)*(n+2)*(n²-6*n-1)` (program `A028494.P9048879933591178926`, by `A028494.P9048879933591178926.correct`). Lean does not check the parsing of the name. -/
-def A028494.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A028580.P17085763098436424120
 
 `2*(2*(n+1)-1)*a(n-1)²/(n+2)` with `a(0)=1`
@@ -17337,34 +17593,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A028860.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A028895.P13551597639118349483
-
-`3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=5, a(2)=15`
--/
-
-namespace A028895.P13551597639118349483
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 5, 15] fun n a =>
-  3 * a (n - 1) - 3 * a (n - 2) + a (n - 3)
-
-end
-
-end A028895.P13551597639118349483
-
-noncomputable section
-
-/-- A028895: 5 times triangular numbers: a(n) = 5*n*(n+1)/2.
-
-Offset 0, canonical program `A028895.P13551597639118349483`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n*(n+1)/2` (program `A028895.P9457771658002208055`, by `A028895.P9457771658002208055.correct`). Lean does not check the parsing of the name. -/
-def A028895 (n : ℕ) : ℤ :=
-  A028895.P13551597639118349483.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n*(n+1)/2` (program `A028895.P9457771658002208055`, by `A028895.P9457771658002208055.correct`). Lean does not check the parsing of the name. -/
-def A028895.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A028917.P4773554154301030074
 
@@ -17957,34 +18185,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A029846.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A029858.P4049020238019730915
-
-`3*a(n-1)+3` with `a(0)=0`
--/
-
-namespace A029858.P4049020238019730915
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  3 * a (n - 1) + 3
-
-end
-
-end A029858.P4049020238019730915
-
-noncomputable section
-
-/-- A029858: a(n) = (3^n - 3)/2.
-
-Offset 1, canonical program `A029858.P4049020238019730915`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(n+1)-3)/2` (program `A029858.P18292048773196394634`, by `A029858.P18292048773196394634.correct`). Lean does not check the parsing of the name. -/
-def A029858 (n : ℕ) : ℤ :=
-  (A029858.P4049020238019730915.a (n - 1) : ℤ)
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(n+1)-3)/2` (program `A029858.P18292048773196394634`, by `A029858.P18292048773196394634.correct`). Lean does not check the parsing of the name. -/
-def A029858.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A029906.P15630247913455669482
 
@@ -22762,90 +22962,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A033481.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A033486.P8350480419729936038
-
-`5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=0, a(1)=12, a(2)=60, a(3)=180, a(4)=420`
--/
-
-namespace A033486.P8350480419729936038
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 12, 60, 180, 420] fun n a =>
-  5 * a (n - 1) - 10 * a (n - 2) + 10 * a (n - 3) - 5 * a (n - 4) + a (n - 5)
-
-end
-
-end A033486.P8350480419729936038
-
-noncomputable section
-
-/-- A033486: a(n) = n*(n + 1)*(n + 2)*(n + 3)/2.
-
-Offset 0, canonical program `A033486.P8350480419729936038`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/2` (program `A033486.P13044485591943602853`, by `A033486.P13044485591943602853.correct`). Lean does not check the parsing of the name. -/
-def A033486 (n : ℕ) : ℤ :=
-  A033486.P8350480419729936038.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/2` (program `A033486.P13044485591943602853`, by `A033486.P13044485591943602853.correct`). Lean does not check the parsing of the name. -/
-def A033486.provenance : SequenceMachineLib.Provenance := .verified
-
-/-! ## A033487.P180010041112617206
-
-`6*C(n+3, 4)`
--/
-
-namespace A033487.P180010041112617206
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6 * Nat.choose (n + 3) 4
-
-end
-
-end A033487.P180010041112617206
-
-noncomputable section
-
-/-- A033487: a(n) = n*(n+1)*(n+2)*(n+3)/4.
-
-Offset 0, canonical program `A033487.P180010041112617206`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/4` (program `A033487.P5572672579496852632`, by `A033487.P5572672579496852632.correct`). Lean does not check the parsing of the name. -/
-def A033487 (n : ℕ) : ℤ :=
-  (A033487.P180010041112617206.a n : ℤ)
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/4` (program `A033487.P5572672579496852632`, by `A033487.P5572672579496852632.correct`). Lean does not check the parsing of the name. -/
-def A033487.provenance : SequenceMachineLib.Provenance := .verified
-
-/-! ## A033488.P5263045204408268705
-
-`4*C(n+3, 4)`
--/
-
-namespace A033488.P5263045204408268705
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * Nat.choose (n + 3) 4
-
-end
-
-end A033488.P5263045204408268705
-
-noncomputable section
-
-/-- A033488: a(n) = n*(n+1)*(n+2)*(n+3)/6.
-
-Offset 0, canonical program `A033488.P5263045204408268705`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/6` (program `A033488.P7908446537014078274`, by `A033488.P7908446537014078274.correct`). Lean does not check the parsing of the name. -/
-def A033488 (n : ℕ) : ℤ :=
-  (A033488.P5263045204408268705.a n : ℤ)
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)/6` (program `A033488.P7908446537014078274`, by `A033488.P7908446537014078274.correct`). Lean does not check the parsing of the name. -/
-def A033488.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A033489.P10431893286736886040
 
 `2*a(n-1)+a(floor((n+1)/2)-1)` with `a(0)=1`
@@ -23686,34 +23802,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A034198.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A034263.P12785890802708409721
-
-`(4*n+5)*C(n+4, 4)/5`
--/
-
-namespace A034263.P12785890802708409721
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((4 * n + 5) * Nat.choose (n + 4) 4 : ℚ) / 5
-
-end
-
-end A034263.P12785890802708409721
-
-noncomputable section
-
-/-- A034263: a(n) = binomial(n+4,4)*(4*n+5)/5.
-
-Offset 0, canonical program `A034263.P12785890802708409721`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A034263 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A034263.P12785890802708409721.a n)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A034263.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A034264.P3838632956842377969
 
 `n*(5*n+1)*(n+4)*(n+3)*(n+2)*(n+1)/720`
@@ -24136,34 +24224,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A034430.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A034478.P14299507060647208907
-
-`5*a(n-1)-2` with `a(0)=1`
--/
-
-namespace A034478.P14299507060647208907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  5 * a (n - 1) - 2
-
-end
-
-end A034478.P14299507060647208907
-
-noncomputable section
-
-/-- A034478: a(n) = (5^n + 1)/2.
-
-Offset 0, canonical program `A034478.P14299507060647208907`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5^n+1)/2` (program `A034478.P6168429449470538206`, by `A034478.P6168429449470538206.correct`). Lean does not check the parsing of the name. -/
-def A034478 (n : ℕ) : ℤ :=
-  A034478.P14299507060647208907.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5^n+1)/2` (program `A034478.P6168429449470538206`, by `A034478.P6168429449470538206.correct`). Lean does not check the parsing of the name. -/
-def A034478.provenance : SequenceMachineLib.Provenance := .verified
-
 /-! ## A034488.P3302094356914207733
 
 `(2^n+1)*(3^n+1)`
@@ -24191,34 +24251,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A034488.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A034494.P6152540667453221608
-
-`7*a(n-1)-3` with `a(0)=1`
--/
-
-namespace A034494.P6152540667453221608
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  7 * a (n - 1) - 3
-
-end
-
-end A034494.P6152540667453221608
-
-noncomputable section
-
-/-- A034494: a(n) = (7^n+1)/2.
-
-Offset 0, canonical program `A034494.P6152540667453221608`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7^n+1)/2` (program `A034494.P2570903576193743711`, by `A034494.P2570903576193743711.correct`). Lean does not check the parsing of the name. -/
-def A034494 (n : ℕ) : ℤ :=
-  A034494.P6152540667453221608.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7^n+1)/2` (program `A034494.P2570903576193743711`, by `A034494.P2570903576193743711.correct`). Lean does not check the parsing of the name. -/
-def A034494.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A034496.P2641262732449208046
 
@@ -24275,34 +24307,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A034585.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A034659.P9693213874906792404
-
-`11*a(n-1)-5` with `a(0)=1`
--/
-
-namespace A034659.P9693213874906792404
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  11 * a (n - 1) - 5
-
-end
-
-end A034659.P9693213874906792404
-
-noncomputable section
-
-/-- A034659: a(n) = (11^n + 1)/2.
-
-Offset 0, canonical program `A034659.P9693213874906792404`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(11^n+1)/2` (program `A034659.P3884214805610977757`, by `A034659.P3884214805610977757.correct`). Lean does not check the parsing of the name. -/
-def A034659 (n : ℕ) : ℤ :=
-  A034659.P9693213874906792404.a n
-
-end
-
-/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(11^n+1)/2` (program `A034659.P3884214805610977757`, by `A034659.P3884214805610977757.correct`). Lean does not check the parsing of the name. -/
-def A034659.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A034661.P13987024234175101085
 

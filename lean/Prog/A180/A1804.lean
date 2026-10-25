@@ -1703,23 +1703,39 @@ end A180414.P15219612918257968556
 /-!
 # A180415: a(n) = (n^3 - 3n^2 + 14n - 6)/6.
 
-The programs for A180415, the canonical program `A180415.P14243943073719709939` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180415 has offset 1).
+The programs for A180415, the canonical program `A180415.P16486081952933200476` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180415 has offset 1).
 
-The definition of A180415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A180415 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((n+1)^3-3*(n+1)²+14*(n+1)-6)/6` (program `A180415.P14243943073719709939`, by `A180415.P14243943073719709939.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A180415.P14243943073719709939
 
 `((n+1)^3-3*(n+1)²+14*(n+1)-6)/6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A180415.P14243943073719709939
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n + 1) ^ 3 : ℤ) - (3 * (n + 1) ^ 2 : ℤ) + (14 * (n + 1) : ℤ) - 6 : ℚ) / 6
+
+end
+
+end A180415.P14243943073719709939
 
 namespace A180415
 
 /-- `((n+1)^3-3*(n+1)²+14*(n+1)-6)/6` -/
 def P14243943073719709939.Spec : Prop :=
   ∀ n, P14243943073719709939.a n = (A180415 (n + 1) : ℚ)
+
+theorem P14243943073719709939.correct : P14243943073719709939.Spec := by
+  intro n
+  simp only [A180415, Nat.add_sub_cancel, A180415.P14243943073719709939.a, A180415.P16486081952933200476.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A180415
 
@@ -1752,23 +1768,19 @@ end A180415
 /-! ## A180415.P16486081952933200476
 
 `C(n+3, 3)-n²`
+
+The canonical program, it is in `Seq.B000.C025`.
 -/
-
-namespace A180415.P16486081952933200476
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (n + 3) 3 : ℤ) - (n ^ 2 : ℤ)
-
-end
-
-end A180415.P16486081952933200476
 
 namespace A180415
 
 /-- `C(n+3, 3)-n²` -/
 def P16486081952933200476.Spec : Prop :=
   ∀ n, P16486081952933200476.a n = A180415 (n + 1)
+
+theorem P16486081952933200476.correct : P16486081952933200476.Spec := by
+  intro n
+  simp only [A180415, Nat.add_sub_cancel]
 
 end A180415
 

@@ -14022,23 +14022,44 @@ end A061791.P8116093336783328181
 /-!
 # A061792: a(n) = 49*(n*(n+1)/2) + 6.
 
-The programs for A061792, the canonical program `A061792.P2353258454091927058` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061792 has offset 0).
+The programs for A061792, the canonical program `A061792.P2239218912930053313` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061792 has offset 0).
 
-The definition of A061792 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A061792 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `49*n*(n+1)/2+6` (program `A061792.P2353258454091927058`, by `A061792.P2353258454091927058.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061792.P2353258454091927058
 
 `49*n*(n+1)/2+6`
 
-The canonical program, it is in `Seq.B000.C010`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A061792.P2353258454091927058
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  49 * ((n * (n + 1) : ℚ) / 2) + 6
+
+end
+
+end A061792.P2353258454091927058
 
 namespace A061792
 
 /-- `49*n*(n+1)/2+6` -/
 def P2353258454091927058.Spec : Prop :=
   ∀ n, P2353258454091927058.a n = (A061792 n : ℚ)
+
+theorem P2353258454091927058.correct : P2353258454091927058.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A061792, A061792.P2353258454091927058.a, A061792.P2239218912930053313.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A061792, Nat.add_sub_cancel, A061792.P2353258454091927058.a, A061792.P2239218912930053313.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A061792
 
@@ -14118,24 +14139,18 @@ end A061792
 
 `floor(a(n-1)+7*7*n)` with `a(0)=6`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C010`.
 -/
-
-namespace A061792.P2239218912930053313
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [6] fun n a =>
-  a (n - 1) + 7 * (7 * n)
-
-end
-
-end A061792.P2239218912930053313
 
 namespace A061792
 
 /-- `floor(a(n-1)+7*7*n)` -/
 def P2239218912930053313.Spec : Prop :=
   ∀ n, (P2239218912930053313.a n : ℤ) = A061792 n
+
+theorem P2239218912930053313.correct : P2239218912930053313.Spec := by
+  intro n
+  simp only [A061792]
 
 end A061792
 
@@ -14499,23 +14514,44 @@ end A061792
 /-!
 # A061793: a(n) = 25*n*(n + 1)/2 + 3.
 
-The programs for A061793, the canonical program `A061793.P18297747651445939000` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061793 has offset 0).
+The programs for A061793, the canonical program `A061793.P13113956615551041210` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061793 has offset 0).
 
-The definition of A061793 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A061793 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `25*n*(n+1)/2+3` (program `A061793.P18297747651445939000`, by `A061793.P18297747651445939000.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A061793.P18297747651445939000
 
 `25*n*(n+1)/2+3`
 
-The canonical program, it is in `Seq.B000.C010`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A061793.P18297747651445939000
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (25 * n * (n + 1) : ℚ) / 2 + 3
+
+end
+
+end A061793.P18297747651445939000
 
 namespace A061793
 
 /-- `25*n*(n+1)/2+3` -/
 def P18297747651445939000.Spec : Prop :=
   ∀ n, P18297747651445939000.a n = (A061793 n : ℚ)
+
+theorem P18297747651445939000.correct : P18297747651445939000.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A061793, A061793.P18297747651445939000.a, A061793.P13113956615551041210.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A061793, Nat.add_sub_cancel, A061793.P18297747651445939000.a, A061793.P13113956615551041210.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A061793
 
@@ -14595,24 +14631,18 @@ end A061793
 
 `floor(a(n-1)+5*5*n)` with `a(0)=3`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C010`.
 -/
-
-namespace A061793.P13113956615551041210
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [3] fun n a =>
-  a (n - 1) + 5 * (5 * n)
-
-end
-
-end A061793.P13113956615551041210
 
 namespace A061793
 
 /-- `floor(a(n-1)+5*5*n)` -/
 def P13113956615551041210.Spec : Prop :=
   ∀ n, (P13113956615551041210.a n : ℤ) = A061793 n
+
+theorem P13113956615551041210.correct : P13113956615551041210.Spec := by
+  intro n
+  simp only [A061793]
 
 end A061793
 

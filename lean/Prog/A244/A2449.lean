@@ -26,7 +26,6 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B001.C000
@@ -3753,7 +3752,7 @@ end A244952.P1512759351819797097
 /-!
 # A244953: a(n) = Sum_{i=0..n} (-i mod 4).
 
-The programs for A244953, the canonical program `A244953.P13262749951170003773` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244953 has offset 0).
+The programs for A244953, the canonical program `A244953.P13262749951170003773` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244953 has offset 0).
 
 The definition of A244953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3762,7 +3761,7 @@ The definition of A244953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-4)-a(n-5)` with `a(0)=0, a(1)=3, a(2)=5, a(3)=6, a(4)=6`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A244953
@@ -6033,7 +6032,7 @@ end A244974.P10630008826586581792
 /-!
 # A244975: a(n) = (7^n - 2*n - 1)/4.
 
-The programs for A244975, the canonical program `A244975.P1757787604437087220` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244975 has offset 0).
+The programs for A244975, the canonical program `A244975.P1757787604437087220` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244975 has offset 0).
 
 The definition of A244975 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7^n-2*n-1)/4` (program `A244975.P15429810570292166364`, by `A244975.P15429810570292166364.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6086,7 +6085,7 @@ end A244975
 
 `9*a(n-1)-15*a(n-2)+7*a(n-3)` with `a(0)=0, a(1)=1, a(2)=11`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A244975

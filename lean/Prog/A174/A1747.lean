@@ -24,7 +24,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
@@ -33,7 +32,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6889,7 +6888,7 @@ end A174767
 /-!
 # A174768: y-values in the solution to x^2 - 26*y^2 = 1.
 
-The programs for A174768, the canonical program `A174768.P10511968313101646081` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174768 has offset 1).
+The programs for A174768, the canonical program `A174768.P10511968313101646081` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174768 has offset 1).
 
 The definition of A174768 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6898,7 +6897,7 @@ The definition of A174768 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `102*a(n-1)-a(n-2)` with `a(0)=0, a(1)=10`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174768
@@ -7174,7 +7173,7 @@ end A174769.P3816509042964746702
 /-!
 # A174772: y-values in the solution to x^2 - 33*y^2 = 1.
 
-The programs for A174772, the canonical program `A174772.P8052300514265774390` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174772 has offset 1).
+The programs for A174772, the canonical program `A174772.P8052300514265774390` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174772 has offset 1).
 
 The definition of A174772 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7183,7 +7182,7 @@ The definition of A174772 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `46*a(n-1)-a(n-2)` with `a(0)=0, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174772
@@ -7328,7 +7327,7 @@ end A174772
 /-!
 # A174773: y-values in the solution to x^2 - 34*y^2 = 1.
 
-The programs for A174773, the canonical program `A174773.P18198713527643716618` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174773 has offset 1).
+The programs for A174773, the canonical program `A174773.P18198713527643716618` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174773 has offset 1).
 
 The definition of A174773 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7337,7 +7336,7 @@ The definition of A174773 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `70*a(n-1)-a(n-2)` with `a(0)=0, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174773
@@ -7397,7 +7396,7 @@ end A174774.P3680750880416792451
 /-!
 # A174775: y-values in the solution to x^2 - 37*y^2 = 1.
 
-The programs for A174775, the canonical program `A174775.P15039113582790580893` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174775 has offset 1).
+The programs for A174775, the canonical program `A174775.P15039113582790580893` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174775 has offset 1).
 
 The definition of A174775 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7406,7 +7405,7 @@ The definition of A174775 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `146*a(n-1)-a(n-2)` with `a(0)=0, a(1)=12`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174775
@@ -7522,7 +7521,7 @@ end A174775
 /-!
 # A174776: y-values in the solution to x^2 - 39*y^2 = 1.
 
-The programs for A174776, the canonical program `A174776.P15333581249898093542` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174776 has offset 1).
+The programs for A174776, the canonical program `A174776.P15333581249898093542` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174776 has offset 1).
 
 The definition of A174776 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7531,7 +7530,7 @@ The definition of A174776 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `50*a(n-1)-a(n-2)` with `a(0)=0, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174776
@@ -7700,7 +7699,7 @@ end A174776
 /-!
 # A174777: y-values in the solution to x^2 - 38*y^2 = 1.
 
-The programs for A174777, the canonical program `A174777.P18094369151310487940` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174777 has offset 1).
+The programs for A174777, the canonical program `A174777.P18094369151310487940` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174777 has offset 1).
 
 The definition of A174777 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7709,7 +7708,7 @@ The definition of A174777 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `74*a(n-1)-a(n-2)` with `a(0)=0, a(1)=6`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174777
@@ -7875,7 +7874,7 @@ end A174778.P14469096518798870551
 /-!
 # A174779: y-values in the solution to x^2 - 42*y^2 = 1.
 
-The programs for A174779, the canonical program `A174779.P123232826738054717` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174779 has offset 1).
+The programs for A174779, the canonical program `A174779.P123232826738054717` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174779 has offset 1).
 
 The definition of A174779 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7884,7 +7883,7 @@ The definition of A174779 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `26*a(n-1)-a(n-2)` with `a(0)=0, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174779
@@ -8319,7 +8318,7 @@ end A174783
 /-!
 # A174784: Expansion of x*(1-x+x^3+x^4)/(1+x^6) (Period 12).
 
-The programs for A174784, the canonical program `A174784.P13649619823075925487` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174784 has offset 0).
+The programs for A174784, the canonical program `A174784.P13649619823075925487` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174784 has offset 0).
 
 The definition of A174784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8328,7 +8327,7 @@ The definition of A174784 is `conjectured`: the Lean definition is a formula tha
 
 `(1-and(2, n))*n²%3`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174784
@@ -8346,7 +8345,7 @@ end A174784
 /-!
 # A174785: Expansion of g.f. (1+2*x-x^2+x^3-x^4-x^5)/(1+x^3)^2.
 
-The programs for A174785, the canonical program `A174785.P9588334725308078340` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174785 has offset 0).
+The programs for A174785, the canonical program `A174785.P9588334725308078340` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174785 has offset 0).
 
 The definition of A174785 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+2x-x^2+x^3-x^4-x^5)/(1+2x^3+x^6))` (program `A174785.P9588334725308078340`, by `A174785.P9588334725308078340.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8355,7 +8354,7 @@ The definition of A174785 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+2x-x^2+x^3-x^4-x^5)/(1+2x^3+x^6))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174785
@@ -9463,7 +9462,7 @@ end A174791.P18169338297900040235
 /-!
 # A174792: Expansion of x*(1 - x^2)/(1 - x + 7*x^2 + x^3).
 
-The programs for A174792, the canonical program `A174792.P6055394577739256998` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174792 has offset 0).
+The programs for A174792, the canonical program `A174792.P6055394577739256998` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174792 has offset 0).
 
 The definition of A174792 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((x-x^3)/(1-x+7x^2+x^3))` (program `A174792.P6055394577739256998`, by `A174792.P6055394577739256998.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9472,7 +9471,7 @@ The definition of A174792 is `verified`: the Lean definition is proven equivalen
 
 `ogf((x-x^3)/(1-x+7x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174792
@@ -9777,7 +9776,7 @@ end A174793
 /-!
 # A174794: a(0) = 0 and a(n) = (4*n^3 - 12*n^2 + 20*n - 9)/3 for n >= 1.
 
-The programs for A174794, the canonical program `A174794.P3517877612730500993` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174794 has offset 0).
+The programs for A174794, the canonical program `A174794.P3517877612730500993` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174794 has offset 0).
 
 The definition of A174794 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9786,7 +9785,7 @@ The definition of A174794 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=5, a(3)=17, a(4)=45`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A174794

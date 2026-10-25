@@ -27,7 +27,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -45,6 +44,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
@@ -4402,7 +4402,7 @@ end A096940
 /-!
 # A096941: Fourth column of (1,5)-Pascal triangle A096940.
 
-The programs for A096941, the canonical program `A096941.P14009321199420802782` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096941 has offset 0).
+The programs for A096941, the canonical program `A096941.P14009321199420802782` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096941 has offset 0).
 
 The definition of A096941 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4411,7 +4411,7 @@ The definition of A096941 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+15)*(n+2)*(n+1)/6`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A096941
@@ -4886,7 +4886,7 @@ end A096941
 /-!
 # A096942: Fifth column of (1,5)-Pascal triangle A096940.
 
-The programs for A096942, the canonical program `A096942.P1465613997806510593` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096942 has offset 0).
+The programs for A096942, the canonical program `A096942.P1465613997806510593` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096942 has offset 0).
 
 The definition of A096942 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4895,7 +4895,7 @@ The definition of A096942 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+20)*C(n+3, 3)/4`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A096942
@@ -5367,7 +5367,7 @@ end A096942
 /-!
 # A096943: Sixth column of (1,5)-Pascal triangle A096940.
 
-The programs for A096943, the canonical program `A096943.P13461303124541761594` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096943 has offset 0).
+The programs for A096943, the canonical program `A096943.P13461303124541761594` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096943 has offset 0).
 
 The definition of A096943 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5376,7 +5376,7 @@ The definition of A096943 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+25)*C(n+4, 4)/5`
 
-The canonical program, it is in `Seq.B000.C015`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A096943

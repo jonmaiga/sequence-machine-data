@@ -28,7 +28,7 @@ import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -4849,17 +4849,27 @@ end A385893
 /-!
 # A385894: a(n) = n^5/5 + n^3/3 + 7*n/15.
 
-The programs for A385894, the canonical program `A385894.P7502482160749098558` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385894 has offset 0).
+The programs for A385894, the canonical program `A385894.P4530075188951012182` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385894 has offset 0).
 
-The definition of A385894 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A385894 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^5/5+n^3/3+7*n/15` (program `A385894.P7502482160749098558`, by `A385894.P7502482160749098558.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A385894.P7502482160749098558
 
 `n^5/5+n^3/3+7*n/15`
 
-The canonical program, it is in `Seq.B000.C039`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A385894.P7502482160749098558
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 5 : ℚ) / 5 + (n ^ 3 : ℚ) / 3 + (7 * n : ℚ) / 15
+
+end
+
+end A385894.P7502482160749098558
 
 namespace A385894
 
@@ -4867,30 +4877,35 @@ namespace A385894
 def P7502482160749098558.Spec : Prop :=
   ∀ n, P7502482160749098558.a n = (A385894 n : ℚ)
 
+theorem P7502482160749098558.correct : P7502482160749098558.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A385894, A385894.P7502482160749098558.a, A385894.P4530075188951012182.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A385894, Nat.add_sub_cancel, A385894.P7502482160749098558.a, A385894.P4530075188951012182.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
+
 end A385894
 
 /-! ## A385894.P4530075188951012182
 
 `floor(a(n-1)+((1-n)²+n)²)` with `a(0)=0`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C039`.
 -/
-
-namespace A385894.P4530075188951012182
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  a (n - 1) + ((1 - (n : ℤ)) ^ 2 + (n : ℤ)) ^ 2
-
-end
-
-end A385894.P4530075188951012182
 
 namespace A385894
 
 /-- `floor(a(n-1)+((1-n)²+n)²)` -/
 def P4530075188951012182.Spec : Prop :=
   ∀ n, P4530075188951012182.a n = A385894 n
+
+theorem P4530075188951012182.correct : P4530075188951012182.Spec := by
+  intro n
+  simp only [A385894]
 
 end A385894
 

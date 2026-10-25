@@ -2385,23 +2385,44 @@ end A276818.P9556326110570986415
 /-!
 # A276819: a(n) = (9*n^2 - n)/2 + 1.
 
-The programs for A276819, the canonical program `A276819.P6768116376441466176` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276819 has offset 0).
+The programs for A276819, the canonical program `A276819.P10114342423501417068` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276819 has offset 0).
 
-The definition of A276819 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A276819 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(9*n²-n)/2+1` (program `A276819.P6768116376441466176`, by `A276819.P6768116376441466176.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A276819.P6768116376441466176
 
 `(9*n²-n)/2+1`
 
-The canonical program, it is in `Seq.B000.C033`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A276819.P6768116376441466176
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((9 * n ^ 2 : ℤ) - (n : ℤ) : ℚ) / 2 + 1
+
+end
+
+end A276819.P6768116376441466176
 
 namespace A276819
 
 /-- `(9*n²-n)/2+1` -/
 def P6768116376441466176.Spec : Prop :=
   ∀ n, P6768116376441466176.a n = (A276819 n : ℚ)
+
+theorem P6768116376441466176.correct : P6768116376441466176.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A276819, A276819.P6768116376441466176.a, A276819.P10114342423501417068.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A276819, Nat.add_sub_cancel, A276819.P6768116376441466176.a, A276819.P10114342423501417068.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A276819
 
@@ -2533,24 +2554,18 @@ end A276819
 
 `floor(a(n-1)-(5-9*n))` with `a(0)=1`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C033`.
 -/
-
-namespace A276819.P10114342423501417068
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) - (5 - (9 * n : ℤ))
-
-end
-
-end A276819.P10114342423501417068
 
 namespace A276819
 
 /-- `floor(a(n-1)-(5-9*n))` -/
 def P10114342423501417068.Spec : Prop :=
   ∀ n, P10114342423501417068.a n = A276819 n
+
+theorem P10114342423501417068.correct : P10114342423501417068.Spec := by
+  intro n
+  simp only [A276819]
 
 end A276819
 

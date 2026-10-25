@@ -13595,23 +13595,44 @@ end A267690.P13744531512342541271
 /-!
 # A267691: a(n) = (n + 1)*(6*n^4 - 21*n^3 + 31*n^2 - 31*n + 30)/30.
 
-The programs for A267691, the canonical program `A267691.P8426485338077031560` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267691 has offset 0).
+The programs for A267691, the canonical program `A267691.P11330640847660121135` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267691 has offset 0).
 
-The definition of A267691 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A267691 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(6*n^4-21*n^3+31*n²-31*n+30)/30` (program `A267691.P8426485338077031560`, by `A267691.P8426485338077031560.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A267691.P8426485338077031560
 
 `(n+1)*(6*n^4-21*n^3+31*n²-31*n+30)/30`
 
-The canonical program, it is in `Seq.B000.C032`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A267691.P8426485338077031560
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) * ((6 * n ^ 4 : ℤ) - (21 * n ^ 3 : ℤ) + (31 * n ^ 2 : ℤ) - (31 * n : ℤ) + 30) : ℚ) / 30
+
+end
+
+end A267691.P8426485338077031560
 
 namespace A267691
 
 /-- `(n+1)*(6*n^4-21*n^3+31*n²-31*n+30)/30` -/
 def P8426485338077031560.Spec : Prop :=
   ∀ n, P8426485338077031560.a n = (A267691 n : ℚ)
+
+theorem P8426485338077031560.correct : P8426485338077031560.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A267691, A267691.P8426485338077031560.a, A267691.P11330640847660121135.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A267691, Nat.add_sub_cancel, A267691.P8426485338077031560.a, A267691.P11330640847660121135.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A267691
 
@@ -13674,23 +13695,19 @@ end A267691
 /-! ## A267691.P11330640847660121135
 
 `a(n-1)+(1-n)^4` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C032`.
 -/
-
-namespace A267691.P11330640847660121135
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (1 - (n : ℤ)) ^ 4
-
-end
-
-end A267691.P11330640847660121135
 
 namespace A267691
 
 /-- `a(n-1)+(1-n)^4` -/
 def P11330640847660121135.Spec : Prop :=
   ∀ n, P11330640847660121135.a n = A267691 n
+
+theorem P11330640847660121135.correct : P11330640847660121135.Spec := by
+  intro n
+  simp only [A267691]
 
 end A267691
 

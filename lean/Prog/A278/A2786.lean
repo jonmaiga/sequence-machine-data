@@ -1054,7 +1054,7 @@ end A278614
 /-!
 # A278615: Sum of terms in level n of TRIP - Stern sequence associated with permutation triple (e,13,23).
 
-The programs for A278615, the canonical program `A278615.P1388989089013917215` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278615 has offset 0).
+The programs for A278615, the canonical program `A278615.P1388989089013917215` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278615 has offset 0).
 
 The definition of A278615 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1063,7 +1063,7 @@ The definition of A278615 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A271893(n)+A271894(n)+A271895(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A278615

@@ -548,17 +548,25 @@ end A052904
 /-!
 # A052905: a(n) = (n^2 + 7*n + 2)/2.
 
-The programs for A052905, the canonical program `A052905.P2723714371023617386` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052905 has offset 0).
+The programs for A052905, the canonical program `A052905.P10050712678279683212` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052905 has offset 0).
 
-The definition of A052905 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A052905 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n²+7*n+2)/2` (program `A052905.P2928803985487181652`, by `A052905.P2928803985487181652.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A052905.P2723714371023617386
 
 `n*(n+7)/2+1`
-
-The canonical program, it is in `Seq.B000.C009`.
 -/
+
+namespace A052905.P2723714371023617386
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n * (n + 7) : ℚ) / 2 + 1
+
+end
+
+end A052905.P2723714371023617386
 
 namespace A052905
 
@@ -590,6 +598,17 @@ namespace A052905
 /-- `(n²+7*n+2)/2` -/
 def P2928803985487181652.Spec : Prop :=
   ∀ n, P2928803985487181652.a n = (A052905 n : ℚ)
+
+theorem P2928803985487181652.correct : P2928803985487181652.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A052905, A052905.P2928803985487181652.a, A052905.P10050712678279683212.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A052905, Nat.add_sub_cancel, A052905.P2928803985487181652.a, A052905.P10050712678279683212.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A052905
 
@@ -915,24 +934,18 @@ end A052905
 
 `round(a(n-1)+3+n)` with `a(0)=1`
 
-`round` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C009`.
 -/
-
-namespace A052905.P10050712678279683212
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + 3 + n
-
-end
-
-end A052905.P10050712678279683212
 
 namespace A052905
 
 /-- `round(a(n-1)+3+n)` -/
 def P10050712678279683212.Spec : Prop :=
   ∀ n, (P10050712678279683212.a n : ℤ) = A052905 n
+
+theorem P10050712678279683212.correct : P10050712678279683212.Spec := by
+  intro n
+  simp only [A052905]
 
 end A052905
 

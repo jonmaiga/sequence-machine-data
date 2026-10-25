@@ -28,7 +28,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -6115,17 +6114,27 @@ end A282850
 /-!
 # A282851: 35-gonal numbers: a(n) = n*(33*n-31)/2.
 
-The programs for A282851, the canonical program `A282851.P4936459735981164346` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282851 has offset 0).
+The programs for A282851, the canonical program `A282851.P14785479597947437260` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282851 has offset 0).
 
-The definition of A282851 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A282851 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(33*n-31)/2` (program `A282851.P4936459735981164346`, by `A282851.P4936459735981164346.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A282851.P4936459735981164346
 
 `n*(33*n-31)/2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A282851.P4936459735981164346
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((33 * n : ℤ) - 31) : ℚ) / 2
+
+end
+
+end A282851.P4936459735981164346
 
 namespace A282851
 
@@ -6133,28 +6142,30 @@ namespace A282851
 def P4936459735981164346.Spec : Prop :=
   ∀ n, P4936459735981164346.a n = (A282851 n : ℚ)
 
+theorem P4936459735981164346.correct : P4936459735981164346.Spec := by
+  intro n
+  simp only [A282851, Nat.add_sub_cancel, A282851.P4936459735981164346.a, A282851.P14785479597947437260.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A282851
 
 /-! ## A282851.P14785479597947437260
 
 `33*C(n, 2)+n`
+
+The canonical program, it is in `Seq.B000.C033`.
 -/
-
-namespace A282851.P14785479597947437260
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  33 * Nat.choose n 2 + n
-
-end
-
-end A282851.P14785479597947437260
 
 namespace A282851
 
 /-- `33*C(n, 2)+n` -/
 def P14785479597947437260.Spec : Prop :=
   ∀ n, (P14785479597947437260.a n : ℤ) = A282851 n
+
+theorem P14785479597947437260.correct : P14785479597947437260.Spec := by
+  intro n
+  simp only [A282851]
 
 end A282851
 
@@ -6578,17 +6589,27 @@ end A282851
 /-!
 # A282852: 37-gonal numbers: a(n) = n*(35*n-33)/2.
 
-The programs for A282852, the canonical program `A282852.P8949227052638784232` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282852 has offset 0).
+The programs for A282852, the canonical program `A282852.P10787036325409188800` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282852 has offset 0).
 
-The definition of A282852 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A282852 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(35*n-33)/2` (program `A282852.P8949227052638784232`, by `A282852.P8949227052638784232.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A282852.P8949227052638784232
 
 `n*(35*n-33)/2`
 
-The canonical program, it is in `Seq.B000.C033`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A282852.P8949227052638784232
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((35 * n : ℤ) - 33) : ℚ) / 2
+
+end
+
+end A282852.P8949227052638784232
 
 namespace A282852
 
@@ -6596,28 +6617,30 @@ namespace A282852
 def P8949227052638784232.Spec : Prop :=
   ∀ n, P8949227052638784232.a n = (A282852 n : ℚ)
 
+theorem P8949227052638784232.correct : P8949227052638784232.Spec := by
+  intro n
+  simp only [A282852, Nat.add_sub_cancel, A282852.P8949227052638784232.a, A282852.P10787036325409188800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A282852
 
 /-! ## A282852.P10787036325409188800
 
 `35*C(n, 2)+n`
+
+The canonical program, it is in `Seq.B000.C033`.
 -/
-
-namespace A282852.P10787036325409188800
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  35 * Nat.choose n 2 + n
-
-end
-
-end A282852.P10787036325409188800
 
 namespace A282852
 
 /-- `35*C(n, 2)+n` -/
 def P10787036325409188800.Spec : Prop :=
   ∀ n, (P10787036325409188800.a n : ℤ) = A282852 n
+
+theorem P10787036325409188800.correct : P10787036325409188800.Spec := by
+  intro n
+  simp only [A282852]
 
 end A282852
 

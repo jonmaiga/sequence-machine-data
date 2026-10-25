@@ -39,7 +39,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -6547,7 +6547,7 @@ end A166780.P16244614979057276507
 /-!
 # A166781: Number of nX3 1..2 arrays containing at least one of each value, all equal values connected, and rows considered as a single number in nondecreasing order.
 
-The programs for A166781, the canonical program `A166781.P7079120534427866897` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166781 has offset 1).
+The programs for A166781, the canonical program `A166781.P7079120534427866897` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166781 has offset 1).
 
 The definition of A166781 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6556,7 +6556,7 @@ The definition of A166781 is `conjectured`: the Lean definition is a formula tha
 
 `n*((n+2)²+4)+4`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A166781
@@ -6762,7 +6762,7 @@ end A166781
 /-!
 # A166786: Number of nX4 1..2 arrays containing at least one of each value, all equal values connected, and rows considered as a single number in nondecreasing order.
 
-The programs for A166786, the canonical program `A166786.P206210662376396014` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166786 has offset 1).
+The programs for A166786, the canonical program `A166786.P206210662376396014` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166786 has offset 1).
 
 The definition of A166786 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6771,7 +6771,7 @@ The definition of A166786 is `conjectured`: the Lean definition is a formula tha
 
 `(2*(n+1)^5+15*(n+1)^4+60*(n+1)^3-75*(n+1)²+268*(n+1)-90)/30`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A166786
@@ -6806,7 +6806,7 @@ end A166795.P14642676777024405675
 /-!
 # A166796: Number of nX2 1..3 arrays containing at least one of each value, all equal values connected, rows considered as a single number in nondecreasing order, and columns considered as a single number in nondecreasing order.
 
-The programs for A166796, the canonical program `A166796.P14638077891163958675` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166796 has offset 1).
+The programs for A166796, the canonical program `A166796.P14638077891163958675` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166796 has offset 1).
 
 The definition of A166796 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6815,7 +6815,7 @@ The definition of A166796 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[n*(n+4)]]+n²`
 
-The canonical program, it is in `Seq.B000.C024`.
+The canonical program, it is in `Seq.B000.C023`.
 -/
 
 namespace A166796

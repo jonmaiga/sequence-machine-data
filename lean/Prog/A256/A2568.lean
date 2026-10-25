@@ -31,7 +31,6 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
@@ -43,6 +42,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -3213,23 +3213,50 @@ end A256855.P15231256182732611112
 /-!
 # A256857: a(n) = n*(n^2 + 3*n - 2)/2.
 
-The programs for A256857, the canonical program `A256857.P16106581871430100185` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256857 has offset 0).
+The programs for A256857, the canonical program `A256857.P1021632217472229442` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256857 has offset 0).
 
-The definition of A256857 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A256857 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n²+3*n-2)/2` (program `A256857.P16106581871430100185`, by `A256857.P16106581871430100185.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A256857.P16106581871430100185
 
 `n*(n²+3*n-2)/2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A256857.P16106581871430100185
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((n ^ 2 + 3 * n : ℤ) - 2) : ℚ) / 2
+
+end
+
+end A256857.P16106581871430100185
 
 namespace A256857
 
 /-- `n*(n²+3*n-2)/2` -/
 def P16106581871430100185.Spec : Prop :=
   ∀ n, P16106581871430100185.a n = (A256857 n : ℚ)
+
+theorem P16106581871430100185.correct : P16106581871430100185.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A256857, Nat.add_sub_cancel, A256857.P16106581871430100185.a, A256857.P1021632217472229442.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h2 := ih m (by omega)
+      simp only [A256857, Nat.add_sub_cancel, A256857.P16106581871430100185.a, A256857.P1021632217472229442.a, SequenceMachineLib.memo_apply] at h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 2 = m by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h2 ⊢
+      rw [← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A256857
 
@@ -3493,23 +3520,19 @@ end A256857
 /-! ## A256857.P1021632217472229442
 
 `a(n-2)+3*n*n-4` with `a(0)=0, a(1)=1`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
-
-namespace A256857.P1021632217472229442
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  a (n - 2) + (3 * (n * n) : ℤ) - 4
-
-end
-
-end A256857.P1021632217472229442
 
 namespace A256857
 
 /-- `a(n-2)+3*n*n-4` -/
 def P1021632217472229442.Spec : Prop :=
   ∀ n, P1021632217472229442.a n = A256857 n
+
+theorem P1021632217472229442.correct : P1021632217472229442.Spec := by
+  intro n
+  simp only [A256857]
 
 end A256857
 

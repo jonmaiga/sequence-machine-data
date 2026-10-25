@@ -27,7 +27,6 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -37,6 +36,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1693,7 +1693,7 @@ end A188713.P3718719557836580393
 /-!
 # A188714: G.f.: (1+x+x^2+x^3)/(1-3*x-3*x^2-3*x^3).
 
-The programs for A188714, the canonical program `A188714.P3766287319146465303` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188714 has offset 0).
+The programs for A188714, the canonical program `A188714.P3766287319146465303` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188714 has offset 0).
 
 The definition of A188714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1725,7 +1725,7 @@ end A188714
 
 `floor(4*A077828(n)/3)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A188714

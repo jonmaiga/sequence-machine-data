@@ -36,6 +36,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -391,7 +392,7 @@ end A221204.P531257656476471636
 /-!
 # A221205: a(n) is the nearest integer to sqrt(pi(10^n)) (see A006880).
 
-The programs for A221205, the canonical program `A221205.P3574255995108441508` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221205 has offset 0).
+The programs for A221205, the canonical program `A221205.P3574255995108441508` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221205 has offset 0).
 
 The definition of A221205 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -400,7 +401,7 @@ The definition of A221205 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(sqrt(A006880(n)))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A221205
@@ -4158,7 +4159,7 @@ end A221261.P10381120277469935119
 /-!
 # A221264: Numbers having fewer distinct prime factors of form 4*k+1 than of 4*k+3.
 
-The programs for A221264, the canonical program `A221264.P4034302150785658829` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221264 has offset 1).
+The programs for A221264, the canonical program `A221264.P4034302150785658829` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221264 has offset 1).
 
 The definition of A221264 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4562 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4167,7 +4168,7 @@ The definition of A221264 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A005094(n+1), 0]+1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A221264
@@ -4443,7 +4444,7 @@ end A221264
 /-!
 # A221265: Numbers having more distinct prime factors of form 4*k+1 than of 4*k+3.
 
-The programs for A221265, the canonical program `A221265.P6244898558375044085` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221265 has offset 1).
+The programs for A221265, the canonical program `A221265.P6244898558375044085` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221265 has offset 1).
 
 The definition of A221265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2815 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4452,7 +4453,7 @@ The definition of A221265 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A005094(n+2)]+2`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A221265

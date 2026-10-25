@@ -34,7 +34,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
@@ -6613,23 +6612,39 @@ end A087862.P1975113942729412261
 /-!
 # A087863: a(n) = (n^3 + 24*n^2 + 65*n + 36)/6.
 
-The programs for A087863, the canonical program `A087863.P9255048535300697742` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087863 has offset 0).
+The programs for A087863, the canonical program `A087863.P10061681790655702229` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087863 has offset 0).
 
-The definition of A087863 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A087863 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^3+24*n²+65*n+36)/6` (program `A087863.P9255048535300697742`, by `A087863.P9255048535300697742.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A087863.P9255048535300697742
 
 `(n^3+24*n²+65*n+36)/6`
 
-The canonical program, it is in `Seq.B000.C014`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A087863.P9255048535300697742
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 3 + 24 * n ^ 2 + 65 * n + 36 : ℚ) / 6
+
+end
+
+end A087863.P9255048535300697742
 
 namespace A087863
 
 /-- `(n^3+24*n²+65*n+36)/6` -/
 def P9255048535300697742.Spec : Prop :=
   ∀ n, P9255048535300697742.a n = (A087863 n : ℚ)
+
+theorem P9255048535300697742.correct : P9255048535300697742.Spec := by
+  intro n
+  simp only [A087863, Nat.add_sub_cancel, A087863.P9255048535300697742.a, A087863.P10061681790655702229.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A087863
 
@@ -6691,23 +6706,19 @@ end A087863
 /-! ## A087863.P10061681790655702229
 
 `C(n+3, 3)+6*C(n+2, 2)-1`
+
+The canonical program, it is in `Seq.B000.C014`.
 -/
-
-namespace A087863.P10061681790655702229
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (n + 3) 3 + 6 * Nat.choose (n + 2) 2 : ℤ) - 1
-
-end
-
-end A087863.P10061681790655702229
 
 namespace A087863
 
 /-- `C(n+3, 3)+6*C(n+2, 2)-1` -/
 def P10061681790655702229.Spec : Prop :=
   ∀ n, P10061681790655702229.a n = A087863 n
+
+theorem P10061681790655702229.correct : P10061681790655702229.Spec := by
+  intro n
+  simp only [A087863]
 
 end A087863
 

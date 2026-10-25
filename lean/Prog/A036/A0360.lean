@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -10872,7 +10873,7 @@ end A036096
 /-!
 # A036097: Centered cube numbers: (n+1)^19+n^19.
 
-The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
+The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
 
 The definition of A036097 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10881,7 +10882,7 @@ The definition of A036097 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^19+n^19`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036097
@@ -10951,7 +10952,7 @@ end A036097
 /-!
 # A036098: Centered cube numbers: a(n) = (n+1)^20 + n^20.
 
-The programs for A036098, the canonical program `A036098.P16820759973379616246` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036098 has offset 0).
+The programs for A036098, the canonical program `A036098.P16820759973379616246` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036098 has offset 0).
 
 The definition of A036098 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^20+n^20` (program `A036098.P16820759973379616246`, by `A036098.P16820759973379616246.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10960,7 +10961,7 @@ The definition of A036098 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^20+n^20`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036098

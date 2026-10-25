@@ -38,6 +38,7 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -4647,7 +4648,7 @@ end A324128
 /-!
 # A324129: a(n) = n*Fibonacci(n) + ((-1)^n + 1)/2.
 
-The programs for A324129, the canonical program `A324129.P6185180708440290240` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324129 has offset 0).
+The programs for A324129, the canonical program `A324129.P6185180708440290240` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324129 has offset 0).
 
 The definition of A324129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 468 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4791,7 +4792,7 @@ end A324129
 
 `A059841(n)+A045925(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324129

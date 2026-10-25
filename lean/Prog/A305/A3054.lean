@@ -3845,7 +3845,7 @@ end A305434.P9198554135464256473
 /-!
 # A305435: Number of proper divisors of n of the form 2^k + 1 for k >= 0.
 
-The programs for A305435, the canonical program `A305435.P18152213335711284477` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305435 has offset 1).
+The programs for A305435, the canonical program `A305435.P18152213335711284477` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305435 has offset 1).
 
 The definition of A305435 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3963,7 +3963,7 @@ end A305435
 
 `∑{d}[n+1, A057427(#-1)*A209229((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A305435
@@ -9965,7 +9965,7 @@ end A305494.P2276625522376337686
 /-!
 # A305495: Positions of 0 in the fixed point of the morphism 0->120, 1->110, 2->100 applied to 1 (as in A305490).
 
-The programs for A305495, the canonical program `A305495.P6842332430008839682` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305495 has offset 1).
+The programs for A305495, the canonical program `A305495.P6842332430008839682` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305495 has offset 1).
 
 The definition of A305495 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5623 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10027,7 +10027,7 @@ end A305495
 
 `∩[A189637(n+1), A189669(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A305495

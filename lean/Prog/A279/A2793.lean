@@ -5610,7 +5610,7 @@ end A279356.P6093579675963271204
 /-!
 # A279357: a(n) = A005187(n) XOR A005187(n+1).
 
-The programs for A279357, the canonical program `A279357.P8695073576768170559` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279357 has offset 0).
+The programs for A279357, the canonical program `A279357.P8695073576768170559` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279357 has offset 0).
 
 The definition of A279357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5619,7 +5619,7 @@ The definition of A279357 is `conjectured`: the Lean definition is a formula tha
 
 `xor(Δ[A122247(n)], A005187(n))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279357
@@ -5987,7 +5987,7 @@ end A279361.P16148327313078326952
 /-!
 # A279363: Sum of 4th powers of proper divisors of n.
 
-The programs for A279363, the canonical program `A279363.P36880166466637901` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279363 has offset 1).
+The programs for A279363, the canonical program `A279363.P36880166466637901` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279363 has offset 1).
 
 The definition of A279363 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001159, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5996,7 +5996,7 @@ The definition of A279363 is `conditional`: the Lean definition is an OEIS formu
 
 `A001159(n+1)-A000583(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279363

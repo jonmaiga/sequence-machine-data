@@ -37,7 +37,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6051,7 +6051,7 @@ end A052533
 /-!
 # A052534: Expansion of (1-x)*(1+x)/(1-2*x-x^2+x^3).
 
-The programs for A052534, the canonical program `A052534.P16324848332930477974` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052534 has offset 0).
+The programs for A052534, the canonical program `A052534.P16324848332930477974` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052534 has offset 0).
 
 The definition of A052534 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2)/(1-2x-x^2+x^3))` (program `A052534.P16324848332930477974`, by `A052534.P16324848332930477974.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6060,7 +6060,7 @@ The definition of A052534 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x^2)/(1-2x-x^2+x^3))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A052534
@@ -6545,7 +6545,7 @@ end A052534
 /-!
 # A052535: Expansion of (1-x)*(1+x)/(1-x-2*x^2+x^4).
 
-The programs for A052535, the canonical program `A052535.P13167928089564966110` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052535 has offset 0).
+The programs for A052535, the canonical program `A052535.P13167928089564966110` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052535 has offset 0).
 
 The definition of A052535 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x^2)/(1-x-2x^2+x^4))` (program `A052535.P13167928089564966110`, by `A052535.P13167928089564966110.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6554,7 +6554,7 @@ The definition of A052535 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x^2)/(1-x-2x^2+x^4))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C008`.
 -/
 
 namespace A052535

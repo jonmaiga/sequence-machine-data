@@ -2456,7 +2456,7 @@ end A119431
 /-!
 # A119432: Numbers k such that 2*phi(k) <= k.
 
-The programs for A119432, the canonical program `A119432.P2492859987505692241` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119432 has offset 1).
+The programs for A119432, the canonical program `A119432.P2492859987505692241` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119432 has offset 1).
 
 The definition of A119432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2612,7 +2612,7 @@ end A119432
 
 `lt[1, A062356(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119432

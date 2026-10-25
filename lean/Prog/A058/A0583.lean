@@ -33,7 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -8570,23 +8570,50 @@ end A058371.P15767276189654537952
 /-!
 # A058372: a(n) = -(n + 1)*(2*n^2 + n - 12)/6.
 
-The programs for A058372, the canonical program `A058372.P5088186543462007447` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058372 has offset 0).
+The programs for A058372, the canonical program `A058372.P13886346339663793866` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058372 has offset 0).
 
-The definition of A058372 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A058372 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `-(n+1)*(2*n²+n-12)/6` (program `A058372.P5088186543462007447`, by `A058372.P5088186543462007447.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A058372.P5088186543462007447
 
 `-(n+1)*(2*n²+n-12)/6`
 
-The canonical program, it is in `Seq.B000.C009`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A058372.P5088186543462007447
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((-(n + 1 : ℤ)) * ((2 * n ^ 2 + n : ℤ) - 12) : ℚ) / 6
+
+end
+
+end A058372.P5088186543462007447
 
 namespace A058372
 
 /-- `-(n+1)*(2*n²+n-12)/6` -/
 def P5088186543462007447.Spec : Prop :=
   ∀ n, P5088186543462007447.a n = (A058372 n : ℚ)
+
+theorem P5088186543462007447.correct : P5088186543462007447.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A058372, Nat.add_sub_cancel, A058372.P5088186543462007447.a, A058372.P13886346339663793866.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A058372, Nat.add_sub_cancel, A058372.P5088186543462007447.a, A058372.P13886346339663793866.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A058372
 
@@ -8649,23 +8676,19 @@ end A058372
 /-! ## A058372.P13886346339663793866
 
 `a(n-1)+2-n²` with `a(0)=2`
+
+The canonical program, it is in `Seq.B000.C009`.
 -/
-
-namespace A058372.P13886346339663793866
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
-  a (n - 1) + (2 - (n ^ 2 : ℤ))
-
-end
-
-end A058372.P13886346339663793866
 
 namespace A058372
 
 /-- `a(n-1)+2-n²` -/
 def P13886346339663793866.Spec : Prop :=
   ∀ n, P13886346339663793866.a n = A058372 n
+
+theorem P13886346339663793866.correct : P13886346339663793866.Spec := by
+  intro n
+  simp only [A058372]
 
 end A058372
 

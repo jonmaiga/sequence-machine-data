@@ -1556,7 +1556,7 @@ end A152419.P2745455365723360930
 /-!
 # A152420: Irregular triangle read by rows: T(n,k) = n*(n-2) - (k-n)*(k-n-2), with 0 <= k <= 2*n.
 
-The programs for A152420, the canonical program `A152420.P2270128080283716414` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152420 has offset 0).
+The programs for A152420, the canonical program `A152420.P2270128080283716414` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152420 has offset 0).
 
 The definition of A152420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1565,7 +1565,7 @@ The definition of A152420 is `conjectured`: the Lean definition is a formula tha
 
 `(1-A080883(n))*(3-A071797(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A152420

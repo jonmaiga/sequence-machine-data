@@ -44,7 +44,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -12383,17 +12382,25 @@ end A002593
 /-!
 # A002594: a(n) = n^2*(16*n^4-20*n^2+7)/3.
 
-The programs for A002594, the canonical program `A002594.P5503965347279966373` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002594 has offset 1).
+The programs for A002594, the canonical program `A002594.P14746804777516323848` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002594 has offset 1).
 
-The definition of A002594 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A002594 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)²*(16*(n+1)^4-20*(n+1)²+7)/3` (program `A002594.P13648371778868507875`, by `A002594.P13648371778868507875.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A002594.P5503965347279966373
 
 `(n+1)²/3*(16*(n+1)^4-20*(n+1)²+7)`
-
-The canonical program, it is in `Seq.B000.C000`.
 -/
+
+namespace A002594.P5503965347279966373
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1) ^ 2 : ℚ) / 3 * ((16 * (n + 1) ^ 4 : ℤ) - (20 * (n + 1) ^ 2 : ℤ) + 7 : ℚ)
+
+end
+
+end A002594.P5503965347279966373
 
 namespace A002594
 
@@ -12425,6 +12432,23 @@ namespace A002594
 /-- `(n+1)²*(16*(n+1)^4-20*(n+1)²+7)/3` -/
 def P13648371778868507875.Spec : Prop :=
   ∀ n, P13648371778868507875.a n = (A002594 (n + 1) : ℚ)
+
+theorem P13648371778868507875.correct : P13648371778868507875.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A002594, Nat.add_sub_cancel, A002594.P13648371778868507875.a, A002594.P14746804777516323848.f1, A002594.P14746804777516323848.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A002594, Nat.add_sub_cancel, A002594.P13648371778868507875.a, A002594.P14746804777516323848.f1, A002594.P14746804777516323848.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A002594
 
@@ -12509,26 +12533,19 @@ end A002594
 /-! ## A002594.P14746804777516323848
 
 `a(n-1)+Δ[n²]^5` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C000`.
 -/
-
-namespace A002594.P14746804777516323848
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + ((f1 (n + 1) : ℤ) - (f1 n : ℤ)) ^ 5
-
-end
-
-end A002594.P14746804777516323848
 
 namespace A002594
 
 /-- `a(n-1)+Δ[n²]^5` -/
 def P14746804777516323848.Spec : Prop :=
   ∀ n, P14746804777516323848.a n = A002594 (n + 1)
+
+theorem P14746804777516323848.correct : P14746804777516323848.Spec := by
+  intro n
+  simp only [A002594, Nat.add_sub_cancel]
 
 end A002594
 

@@ -26,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
@@ -4422,7 +4423,7 @@ end A179545
 /-!
 # A179546: a(n) = p^2*(p + 3)/2, where p = prime(n).
 
-The programs for A179546, the canonical program `A179546.P4255107128031221534` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179546 has offset 1).
+The programs for A179546, the canonical program `A179546.P4255107128031221534` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179546 has offset 1).
 
 The definition of A179546 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4454,7 +4455,7 @@ end A179546
 
 `A138416(n+1)+A079704(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179546

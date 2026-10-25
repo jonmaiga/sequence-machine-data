@@ -7,6 +7,7 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C018
 import Seq.B000.C023
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B001.C000
 import Seq.B001.C001

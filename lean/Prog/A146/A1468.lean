@@ -26,6 +26,7 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C037
@@ -5216,17 +5217,25 @@ end A146881.P6833356643098422690
 /-!
 # A146882: a(n) = 5*(4^(n+1) - 1)/3.
 
-The programs for A146882, the canonical program `A146882.P3893661356404191241` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146882 has offset 0).
+The programs for A146882, the canonical program `A146882.P15500143620439515073` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146882 has offset 0).
 
-The definition of A146882 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A146882 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*(4^(n+1)-1)/3` (program `A146882.P13489786538087814931`, by `A146882.P13489786538087814931.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A146882.P3893661356404191241
 
 `5/3*(2^(2*n+2)-1)`
-
-The canonical program, it is in `Seq.B000.C021`.
 -/
+
+namespace A146882.P3893661356404191241
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 : ℚ) / 3 * ((2 ^ (2 * n + 2) : ℤ) - 1 : ℚ)
+
+end
+
+end A146882.P3893661356404191241
 
 namespace A146882
 
@@ -5258,6 +5267,23 @@ namespace A146882
 /-- `5*(4^(n+1)-1)/3` -/
 def P13489786538087814931.Spec : Prop :=
   ∀ n, P13489786538087814931.a n = (A146882 n : ℚ)
+
+theorem P13489786538087814931.correct : P13489786538087814931.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A146882, Nat.add_sub_cancel, A146882.P13489786538087814931.a, A146882.P15500143620439515073.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A146882, Nat.add_sub_cancel, A146882.P13489786538087814931.a, A146882.P15500143620439515073.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A146882
 
@@ -5477,23 +5503,19 @@ end A146882
 /-! ## A146882.P15500143620439515073
 
 `4^(n+1)+a(n-1)+4^n` with `a(0)=5`
+
+The canonical program, it is in `Seq.B000.C021`.
 -/
-
-namespace A146882.P15500143620439515073
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [5] fun n a =>
-  4 ^ (n + 1) + (a (n - 1) + 4 ^ n)
-
-end
-
-end A146882.P15500143620439515073
 
 namespace A146882
 
 /-- `4^(n+1)+a(n-1)+4^n` -/
 def P15500143620439515073.Spec : Prop :=
   ∀ n, (P15500143620439515073.a n : ℤ) = A146882 n
+
+theorem P15500143620439515073.correct : P15500143620439515073.Spec := by
+  intro n
+  simp only [A146882]
 
 end A146882
 

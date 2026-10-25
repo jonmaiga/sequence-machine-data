@@ -20,9 +20,9 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
@@ -7942,23 +7942,50 @@ end A323395.P2204017778236086648
 /-!
 # A323397: a(n) = (4^n + 15*n - 1)/9.
 
-The programs for A323397, the canonical program `A323397.P17280922275407501805` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323397 has offset 0).
+The programs for A323397, the canonical program `A323397.P2947444252242854167` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323397 has offset 0).
 
-The definition of A323397 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A323397 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(4^n+15*n-1)/9` (program `A323397.P17280922275407501805`, by `A323397.P17280922275407501805.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A323397.P17280922275407501805
 
 `(4^n+15*n-1)/9`
 
-The canonical program, it is in `Seq.B000.C036`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A323397.P17280922275407501805
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((4 ^ n + 15 * n : ℤ) - 1 : ℚ) / 9
+
+end
+
+end A323397.P17280922275407501805
 
 namespace A323397
 
 /-- `(4^n+15*n-1)/9` -/
 def P17280922275407501805.Spec : Prop :=
   ∀ n, P17280922275407501805.a n = (A323397 n : ℚ)
+
+theorem P17280922275407501805.correct : P17280922275407501805.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A323397, Nat.add_sub_cancel, A323397.P17280922275407501805.a, A323397.P2947444252242854167.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A323397, Nat.add_sub_cancel, A323397.P17280922275407501805.a, A323397.P2947444252242854167.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A323397
 
@@ -8066,23 +8093,19 @@ end A323397
 /-! ## A323397.P2947444252242854167
 
 `4*(a(n-1)+3)-5*(n+1)` with `a(0)=0`
+
+The canonical program, it is in `Seq.B000.C036`.
 -/
-
-namespace A323397.P2947444252242854167
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  4 * (a (n - 1) + 3) - (5 * (n + 1) : ℤ)
-
-end
-
-end A323397.P2947444252242854167
 
 namespace A323397
 
 /-- `4*(a(n-1)+3)-5*(n+1)` -/
 def P2947444252242854167.Spec : Prop :=
   ∀ n, P2947444252242854167.a n = A323397 n
+
+theorem P2947444252242854167.correct : P2947444252242854167.Spec := by
+  intro n
+  simp only [A323397]
 
 end A323397
 

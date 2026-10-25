@@ -15170,36 +15170,6 @@ end
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A052369, whose definitions are only conditional or conjectured, so it is only correct if theirs are. -/
 def A161003.provenance : SequenceMachineLib.Provenance := .conditional
 
-/-! ## A162786.P15387700522578825517
-
-`A162526(n+1)/6`
-
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
--/
-
-namespace A162786.P15387700522578825517
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A162526 (n + 1) : ℚ) / 6
-
-end
-
-end A162786.P15387700522578825517
-
-noncomputable section
-
-/-- A162786: a(n) = A162526(n)/6.
-
-Offset 1, canonical program `A162786.P15387700522578825517`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A162526, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A162786 (n : ℕ) : ℤ :=
-  SequenceMachineLib.roundAway (A162786.P15387700522578825517.a (n - 1))
-
-end
-
-/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A162526, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
-def A162786.provenance : SequenceMachineLib.Provenance := .conditional
-
 /-! ## A166949.P12645471863304146666
 
 `A071178(A002808(n+1))`
@@ -24073,6 +24043,34 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A386594.provenance : SequenceMachineLib.Provenance := .conjectured
+
+/-! ## A390663.P5509345383207779074
+
+`A000203(A053149(n+1))`
+-/
+
+namespace A390663.P5509345383207779074
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (A053149 (n + 1)).toNat
+
+end
+
+end A390663.P5509345383207779074
+
+noncomputable section
+
+/-- A390663: The sum of the divisors of the smallest cube divisible by n.
+
+Offset 1, canonical program `A390663.P5509345383207779074`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053149, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A390663 (n : ℕ) : ℤ :=
+  A390663.P5509345383207779074.a (n - 1)
+
+end
+
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053149, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A390663.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A000189.P11210685475351648118
 

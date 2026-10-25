@@ -28,7 +28,7 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
@@ -7767,7 +7767,7 @@ end A100989.P1101316401960381704
 /-!
 # A100990: a(n) = n^21 mod 100.
 
-The programs for A100990, the canonical program `A100990.P1137242080379291754` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100990 has offset 0).
+The programs for A100990, the canonical program `A100990.P1137242080379291754` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100990 has offset 0).
 
 The definition of A100990 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7776,7 +7776,7 @@ The definition of A100990 is `conjectured`: the Lean definition is a formula tha
 
 `A170786(n)%A199681(C(n, n²)!)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A100990

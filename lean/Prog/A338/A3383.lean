@@ -6998,7 +6998,7 @@ end A338377.P15733495109322911352
 /-!
 # A338379: Floor of (digital root of n) divided by (number of digits in n).
 
-The programs for A338379, the canonical program `A338379.P3004742096893614011` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338379 has offset 0).
+The programs for A338379, the canonical program `A338379.P3004742096893614011` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338379 has offset 0).
 
 The definition of A338379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7007,7 +7007,7 @@ The definition of A338379 is `conjectured`: the Lean definition is a formula tha
 
 `floor(dr(n)/∑{digits}[n, 10^#]%9)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A338379

@@ -33,7 +33,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6956,23 +6956,50 @@ end A244761.P13470572067194487622
 /-!
 # A244762: a(n) = (5*3^n-2*n-1)/4.
 
-The programs for A244762, the canonical program `A244762.P7527255875164837013` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244762 has offset 0).
+The programs for A244762, the canonical program `A244762.P14866162302524220977` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244762 has offset 0).
 
-The definition of A244762 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A244762 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5*3^n-2*n-1)/4` (program `A244762.P7527255875164837013`, by `A244762.P7527255875164837013.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A244762.P7527255875164837013
 
 `(5*3^n-2*n-1)/4`
 
-The canonical program, it is in `Seq.B000.C030`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A244762.P7527255875164837013
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 * 3 ^ n : ℤ) - (2 * n : ℤ) - 1 : ℚ) / 4
+
+end
+
+end A244762.P7527255875164837013
 
 namespace A244762
 
 /-- `(5*3^n-2*n-1)/4` -/
 def P7527255875164837013.Spec : Prop :=
   ∀ n, P7527255875164837013.a n = (A244762 n : ℚ)
+
+theorem P7527255875164837013.correct : P7527255875164837013.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A244762, Nat.add_sub_cancel, A244762.P7527255875164837013.a, A244762.P14866162302524220977.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A244762, Nat.add_sub_cancel, A244762.P7527255875164837013.a, A244762.P14866162302524220977.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A244762
 
@@ -7250,23 +7277,19 @@ end A244762
 /-! ## A244762.P14866162302524220977
 
 `a(n-1)-1+a(n-1)+a(n-1)+n` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C030`.
 -/
-
-namespace A244762.P14866162302524220977
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) - 1 + (a (n - 1) + (a (n - 1) + (n : ℤ)))
-
-end
-
-end A244762.P14866162302524220977
 
 namespace A244762
 
 /-- `a(n-1)-1+a(n-1)+a(n-1)+n` -/
 def P14866162302524220977.Spec : Prop :=
   ∀ n, P14866162302524220977.a n = A244762 n
+
+theorem P14866162302524220977.correct : P14866162302524220977.Spec := by
+  intro n
+  simp only [A244762]
 
 end A244762
 

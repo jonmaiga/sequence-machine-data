@@ -13414,7 +13414,7 @@ end A081271
 /-!
 # A081272: Downward vertical of triangular spiral in A051682.
 
-The programs for A081272, the canonical program `A081272.P2942107853835122224` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081272 has offset 0).
+The programs for A081272, the canonical program `A081272.P2942107853835122224` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081272 has offset 0).
 
 The definition of A081272 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13423,7 +13423,7 @@ The definition of A081272 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*n²+6*n+1`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A081272
@@ -13923,7 +13923,7 @@ end A081272
 /-!
 # A081275: Shallow diagonal of triangular spiral in A051682.
 
-The programs for A081275, the canonical program `A081275.P11714172675934927490` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081275 has offset 0).
+The programs for A081275, the canonical program `A081275.P11714172675934927490` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081275 has offset 0).
 
 The definition of A081275 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -13932,7 +13932,7 @@ The definition of A081275 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `18*n²+12*n+1`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A081275
@@ -14470,7 +14470,7 @@ end A081275
 /-!
 # A081276: Floor(n^3/8).
 
-The programs for A081276, the canonical program `A081276.P13758596102974014564` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081276 has offset 0).
+The programs for A081276, the canonical program `A081276.P13758596102974014564` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081276 has offset 0).
 
 The definition of A081276 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n^3/8)` (program `A081276.P13758596102974014564`, by `A081276.P13758596102974014564.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -14479,7 +14479,7 @@ The definition of A081276 is `verified`: the Lean definition is proven equivalen
 
 `floor(n^3/8)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A081276
@@ -14982,7 +14982,7 @@ end A081277
 /-!
 # A081278: Binomial transform of Chebyshev polynomial coefficients A001793.
 
-The programs for A081278, the canonical program `A081278.P5433367363675961488` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081278 has offset 0).
+The programs for A081278, the canonical program `A081278.P5433367363675961488` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081278 has offset 0).
 
 The definition of A081278 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15033,7 +15033,7 @@ end A081278
 
 `9*a(n-1)-27*a(n-2)+27*a(n-3)` with `a(0)=1, a(1)=6, a(2)=29`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A081278
@@ -15316,7 +15316,7 @@ end A081278
 /-!
 # A081279: Binomial transform of Chebyshev coefficients A001794.
 
-The programs for A081279, the canonical program `A081279.P11554498562707795381` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081279 has offset 0).
+The programs for A081279, the canonical program `A081279.P11554498562707795381` is in `Seq.B000.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081279 has offset 0).
 
 The definition of A081279 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15368,7 +15368,7 @@ end A081279
 
 `12*a(n-1)-54*a(n-2)+108*a(n-3)-81*a(n-4)` with `a(0)=1, a(1)=8, a(2)=47, a(3)=238`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C012`.
 -/
 
 namespace A081279

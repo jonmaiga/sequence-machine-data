@@ -32,7 +32,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1435,7 +1434,7 @@ end A338428.P9715753964570486939
 /-!
 # A338429: Maximum number of copies of a 1234 permutation pattern in an alternating (or zig-zag) permutation of length n + 5.
 
-The programs for A338429, the canonical program `A338429.P9814338599915036553` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338429 has offset 1).
+The programs for A338429, the canonical program `A338429.P9814338599915036553` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338429 has offset 1).
 
 The definition of A338429 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1444,7 +1443,7 @@ The definition of A338429 is `conjectured`: the Lean definition is a formula tha
 
 `∑[C(or(1, n)+3, 3)]`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A338429

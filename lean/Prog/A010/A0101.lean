@@ -1561,7 +1561,7 @@ end A010169
 /-!
 # A010177: Continued fraction for sqrt(112).
 
-The programs for A010177, the canonical program `A010177.P5098866238992721641` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010177 has offset 0).
+The programs for A010177, the canonical program `A010177.P5098866238992721641` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010177 has offset 0).
 
 The definition of A010177 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1570,7 +1570,7 @@ The definition of A010177 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-6)` with `a(0)=10, a(1)=1, a(2)=1, a(3)=2, a(4)=1, a(5)=1, a(6)=20`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A010177

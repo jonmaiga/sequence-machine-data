@@ -5588,23 +5588,50 @@ end A166135.P4288499718801204346
 /-!
 # A166136: a(n) = n*(n+3)/2 + 7.
 
-The programs for A166136, the canonical program `A166136.P12581919153656739400` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166136 has offset 1).
+The programs for A166136, the canonical program `A166136.P13002216742162120617` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166136 has offset 1).
 
-The definition of A166136 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A166136 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(n+4)/2+7` (program `A166136.P12581919153656739400`, by `A166136.P12581919153656739400.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A166136.P12581919153656739400
 
 `(n+1)*(n+4)/2+7`
 
-The canonical program, it is in `Seq.B000.C023`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A166136.P12581919153656739400
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1) * (n + 4) : ℚ) / 2 + 7
+
+end
+
+end A166136.P12581919153656739400
 
 namespace A166136
 
 /-- `(n+1)*(n+4)/2+7` -/
 def P12581919153656739400.Spec : Prop :=
   ∀ n, P12581919153656739400.a n = (A166136 (n + 1) : ℚ)
+
+theorem P12581919153656739400.correct : P12581919153656739400.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A166136, Nat.add_sub_cancel, A166136.P12581919153656739400.a, A166136.P13002216742162120617.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A166136, Nat.add_sub_cancel, A166136.P12581919153656739400.a, A166136.P13002216742162120617.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A166136
 
@@ -5734,24 +5761,18 @@ end A166136
 
 `round(a(n-1)+2+n)` with `a(0)=9`
 
-`round` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C023`.
 -/
-
-namespace A166136.P13002216742162120617
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [9] fun n a =>
-  a (n - 1) + 2 + n
-
-end
-
-end A166136.P13002216742162120617
 
 namespace A166136
 
 /-- `round(a(n-1)+2+n)` -/
 def P13002216742162120617.Spec : Prop :=
   ∀ n, (P13002216742162120617.a n : ℤ) = A166136 (n + 1)
+
+theorem P13002216742162120617.correct : P13002216742162120617.Spec := by
+  intro n
+  simp only [A166136, Nat.add_sub_cancel]
 
 end A166136
 
@@ -10906,17 +10927,25 @@ end A166150
 /-!
 # A166151: a(n) = (5*n^2 + 5*n - 6)/2.
 
-The programs for A166151, the canonical program `A166151.P8488520705270666415` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166151 has offset 1).
+The programs for A166151, the canonical program `A166151.P12940752801155925471` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166151 has offset 1).
 
-The definition of A166151 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A166151 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5*(n+1)²+5*(n+1)-6)/2` (program `A166151.P16469060165474857410`, by `A166151.P16469060165474857410.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A166151.P8488520705270666415
 
 `5*(n+1)*(n+2)/2-3`
-
-The canonical program, it is in `Seq.B000.C023`.
 -/
+
+namespace A166151.P8488520705270666415
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 * (n + 1) * (n + 2) : ℚ) / 2 - 3
+
+end
+
+end A166151.P8488520705270666415
 
 namespace A166151
 
@@ -10948,6 +10977,23 @@ namespace A166151
 /-- `(5*(n+1)²+5*(n+1)-6)/2` -/
 def P16469060165474857410.Spec : Prop :=
   ∀ n, P16469060165474857410.a n = (A166151 (n + 1) : ℚ)
+
+theorem P16469060165474857410.correct : P16469060165474857410.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A166151, Nat.add_sub_cancel, A166151.P16469060165474857410.a, A166151.P12940752801155925471.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A166151, Nat.add_sub_cancel, A166151.P16469060165474857410.a, A166151.P12940752801155925471.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A166151
 
@@ -11155,24 +11201,18 @@ end A166151
 
 `round(a(n-1)+5*(n+1))` with `a(0)=2`
 
-`round` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C023`.
 -/
-
-namespace A166151.P12940752801155925471
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [2] fun n a =>
-  a (n - 1) + 5 * (n + 1)
-
-end
-
-end A166151.P12940752801155925471
 
 namespace A166151
 
 /-- `round(a(n-1)+5*(n+1))` -/
 def P12940752801155925471.Spec : Prop :=
   ∀ n, (P12940752801155925471.a n : ℤ) = A166151 (n + 1)
+
+theorem P12940752801155925471.correct : P12940752801155925471.Spec := by
+  intro n
+  simp only [A166151, Nat.add_sub_cancel]
 
 end A166151
 

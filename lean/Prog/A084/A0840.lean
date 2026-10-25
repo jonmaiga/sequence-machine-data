@@ -6112,17 +6112,25 @@ end A084059
 /-!
 # A084060: a(n) = 1/2 + (1-6*n)*(-1)^n/2.
 
-The programs for A084060, the canonical program `A084060.P6968236759027825870` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084060 has offset 0).
+The programs for A084060, the canonical program `A084060.P4902251782326793492` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084060 has offset 0).
 
-The definition of A084060 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A084060 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1/2+(1-6*n)*(-1)^n/2` (program `A084060.P5570060539211486503`, by `A084060.P5570060539211486503.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A084060.P6968236759027825870
 
 `(1+(1-6*n)*(-1)^n)/2`
-
-The canonical program, it is in `Seq.B000.C013`.
 -/
+
+namespace A084060.P6968236759027825870
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 + (1 - (6 * n : ℤ)) * (-1) ^ n : ℚ) / 2
+
+end
+
+end A084060.P6968236759027825870
 
 namespace A084060
 
@@ -6154,6 +6162,24 @@ namespace A084060
 /-- `1/2+(1-6*n)*(-1)^n/2` -/
 def P5570060539211486503.Spec : Prop :=
   ∀ n, P5570060539211486503.a n = (A084060 n : ℚ)
+
+theorem P5570060539211486503.correct : P5570060539211486503.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A084060, Nat.add_sub_cancel, A084060.P5570060539211486503.a, A084060.P4902251782326793492.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A084060, Nat.add_sub_cancel, A084060.P5570060539211486503.a, A084060.P4902251782326793492.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A084060
 
@@ -6210,24 +6236,18 @@ end A084060
 
 `floor(2-a(n-1)-a(n-1)-a(n-2))` with `a(0)=1, a(1)=3`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C013`.
 -/
-
-namespace A084060.P4902251782326793492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 3] fun n a =>
-  2 - a (n - 1) - a (n - 1) - a (n - 2)
-
-end
-
-end A084060.P4902251782326793492
 
 namespace A084060
 
 /-- `floor(2-a(n-1)-a(n-1)-a(n-2))` -/
 def P4902251782326793492.Spec : Prop :=
   ∀ n, P4902251782326793492.a n = A084060 n
+
+theorem P4902251782326793492.correct : P4902251782326793492.Spec := by
+  intro n
+  simp only [A084060]
 
 end A084060
 

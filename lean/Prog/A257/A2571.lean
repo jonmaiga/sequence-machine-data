@@ -7682,23 +7682,39 @@ end A257198
 /-!
 # A257199: a(n) = n*(n+1)*(n+2)*(n^2+2*n+17)/120.
 
-The programs for A257199, the canonical program `A257199.P37273670153753991` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257199 has offset 1).
+The programs for A257199, the canonical program `A257199.P10199747995127377042` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257199 has offset 1).
 
-The definition of A257199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A257199 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(n+2)*(n+3)*((n+1)²+2*(n+1)+17)/120` (program `A257199.P37273670153753991`, by `A257199.P37273670153753991.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A257199.P37273670153753991
 
 `(n+1)*(n+2)*(n+3)*((n+1)²+2*(n+1)+17)/120`
 
-The canonical program, it is in `Seq.B000.C031`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A257199.P37273670153753991
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1) * (n + 2) * (n + 3) * ((n + 1) ^ 2 + 2 * (n + 1) + 17) : ℚ) / 120
+
+end
+
+end A257199.P37273670153753991
 
 namespace A257199
 
 /-- `(n+1)*(n+2)*(n+3)*((n+1)²+2*(n+1)+17)/120` -/
 def P37273670153753991.Spec : Prop :=
   ∀ n, P37273670153753991.a n = (A257199 (n + 1) : ℚ)
+
+theorem P37273670153753991.correct : P37273670153753991.Spec := by
+  intro n
+  simp only [A257199, Nat.add_sub_cancel, A257199.P37273670153753991.a, A257199.P10199747995127377042.a, A000292, A000292.P18322089543142633594.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A257199
 
@@ -7823,23 +7839,19 @@ end A257199
 /-! ## A257199.P10199747995127377042
 
 `A000292(n+1)+C(n+4, 5)`
+
+The canonical program, it is in `Seq.B001.C007`.
 -/
-
-namespace A257199.P10199747995127377042
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000292 (n + 1) + (Nat.choose (n + 4) 5 : ℤ)
-
-end
-
-end A257199.P10199747995127377042
 
 namespace A257199
 
 /-- `A000292(n+1)+C(n+4, 5)` -/
 def P10199747995127377042.Spec : Prop :=
   ∀ n, P10199747995127377042.a n = A257199 (n + 1)
+
+theorem P10199747995127377042.correct : P10199747995127377042.Spec := by
+  intro n
+  simp only [A257199, Nat.add_sub_cancel]
 
 end A257199
 

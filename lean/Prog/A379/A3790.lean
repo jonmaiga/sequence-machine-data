@@ -38,6 +38,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1022,7 +1023,7 @@ end A379008
 /-!
 # A379009: a(n) = 2*n^2 XOR 1+sigma(n^2).
 
-The programs for A379009, the canonical program `A379009.P14519861507907130925` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379009 has offset 1).
+The programs for A379009, the canonical program `A379009.P14519861507907130925` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379009 has offset 1).
 
 The definition of A379009 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A378988, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1031,7 +1032,7 @@ The definition of A379009 is `conditional`: the Lean definition is an OEIS formu
 
 `A378988(A000290(n+1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379009

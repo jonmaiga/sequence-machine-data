@@ -1976,17 +1976,27 @@ end A358033.P12872341638811658550
 /-!
 # A358035: a(n) = (8*n^3 + 12*n^2 + 4*n - 9)/3.
 
-The programs for A358035, the canonical program `A358035.P14697501998754712048` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358035 has offset 1).
+The programs for A358035, the canonical program `A358035.P8253254257246568599` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358035 has offset 1).
 
-The definition of A358035 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A358035 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(8*(n+1)^3+12*(n+1)²+4*(n+1)-9)/3` (program `A358035.P14697501998754712048`, by `A358035.P14697501998754712048.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A358035.P14697501998754712048
 
 `(8*(n+1)^3+12*(n+1)²+4*(n+1)-9)/3`
 
-The canonical program, it is in `Seq.B000.C037`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A358035.P14697501998754712048
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((8 * (n + 1) ^ 3 + 12 * (n + 1) ^ 2 + 4 * (n + 1) : ℤ) - 9 : ℚ) / 3
+
+end
+
+end A358035.P14697501998754712048
 
 namespace A358035
 
@@ -1994,30 +2004,41 @@ namespace A358035
 def P14697501998754712048.Spec : Prop :=
   ∀ n, P14697501998754712048.a n = (A358035 (n + 1) : ℚ)
 
+theorem P14697501998754712048.correct : P14697501998754712048.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A358035, Nat.add_sub_cancel, A358035.P14697501998754712048.a, A358035.P8253254257246568599.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A358035, Nat.add_sub_cancel, A358035.P14697501998754712048.a, A358035.P8253254257246568599.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A358035
 
 /-! ## A358035.P8253254257246568599
 
 `floor(a(n-1)+8*(n+1)²)` with `a(0)=5`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C037`.
 -/
-
-namespace A358035.P8253254257246568599
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [5] fun n a =>
-  a (n - 1) + 8 * (n + 1) ^ 2
-
-end
-
-end A358035.P8253254257246568599
 
 namespace A358035
 
 /-- `floor(a(n-1)+8*(n+1)²)` -/
 def P8253254257246568599.Spec : Prop :=
   ∀ n, (P8253254257246568599.a n : ℤ) = A358035 (n + 1)
+
+theorem P8253254257246568599.correct : P8253254257246568599.Spec := by
+  intro n
+  simp only [A358035, Nat.add_sub_cancel]
 
 end A358035
 

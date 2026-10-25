@@ -922,7 +922,7 @@ end A283206.P14195158875156595926
 /-!
 # A283207: a(n) = a(floor(n/a(n-1))) + a(floor(n/a(n-2))) with a(1) = a(2) = 2.
 
-The programs for A283207, the canonical program `A283207.P15731751053187143290` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283207 has offset 1).
+The programs for A283207, the canonical program `A283207.P15731751053187143290` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283207 has offset 1).
 
 The definition of A283207 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(floor((n+1)/a(n-1))-1)+a(floor((n+1)/a(n-2))-1)` (program `A283207.P15731751053187143290`, by `A283207.P15731751053187143290.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -931,7 +931,7 @@ The definition of A283207 is `verified`: the Lean definition is proven equivalen
 
 `a(floor((n+1)/a(n-1))-1)+a(floor((n+1)/a(n-2))-1)` with `a(0)=2, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A283207
@@ -1844,7 +1844,7 @@ end A283215.P12258593542367301753
 /-!
 # A283216: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 597", based on the 5-celled von Neumann neighborhood.
 
-The programs for A283216, the canonical program `A283216.P4310701736986714256` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283216 has offset 0).
+The programs for A283216, the canonical program `A283216.P4310701736986714256` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283216 has offset 0).
 
 The definition of A283216 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1968,7 +1968,7 @@ end A283216
 
 `4*a(n-2)+a(n-4)-4*a(n-6)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=11, a(4)=17, a(5)=46`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A283216
@@ -2032,7 +2032,7 @@ end A283216
 /-!
 # A283217: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 597", based on the 5-celled von Neumann neighborhood.
 
-The programs for A283217, the canonical program `A283217.P11105619808869434602` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283217 has offset 0).
+The programs for A283217, the canonical program `A283217.P11105619808869434602` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A283217 has offset 0).
 
 The definition of A283217 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2041,7 +2041,7 @@ The definition of A283217 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+16*a(n-4)-16*a(n-6)` with `a(0)=1, a(1)=1, a(2)=1, a(3)=13, a(4)=17, a(5)=29`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A283217

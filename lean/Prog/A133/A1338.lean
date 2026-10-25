@@ -7182,17 +7182,27 @@ end A133851
 /-!
 # A133853: a(n) = (64^n - 1)/63.
 
-The programs for A133853, the canonical program `A133853.P11055336459851744303` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133853 has offset 0).
+The programs for A133853, the canonical program `A133853.P2473336801027861844` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A133853 has offset 0).
 
-The definition of A133853 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A133853 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(64^n-1)/63` (program `A133853.P11055336459851744303`, by `A133853.P11055336459851744303.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A133853.P11055336459851744303
 
 `(64^n-1)/63`
 
-The canonical program, it is in `Seq.B000.C019`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A133853.P11055336459851744303
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((64 ^ n : ℤ) - 1 : ℚ) / 63
+
+end
+
+end A133853.P11055336459851744303
 
 namespace A133853
 
@@ -7200,28 +7210,41 @@ namespace A133853
 def P11055336459851744303.Spec : Prop :=
   ∀ n, P11055336459851744303.a n = (A133853 n : ℚ)
 
+theorem P11055336459851744303.correct : P11055336459851744303.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A133853, Nat.add_sub_cancel, A133853.P11055336459851744303.a, A133853.P2473336801027861844.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A133853, Nat.add_sub_cancel, A133853.P11055336459851744303.a, A133853.P2473336801027861844.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A133853
 
 /-! ## A133853.P2473336801027861844
 
 `64*a(n-1)+1` with `a(0)=0`
+
+The canonical program, it is in `Seq.B000.C019`.
 -/
-
-namespace A133853.P2473336801027861844
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0] fun n a =>
-  64 * a (n - 1) + 1
-
-end
-
-end A133853.P2473336801027861844
 
 namespace A133853
 
 /-- `64*a(n-1)+1` -/
 def P2473336801027861844.Spec : Prop :=
   ∀ n, (P2473336801027861844.a n : ℤ) = A133853 n
+
+theorem P2473336801027861844.correct : P2473336801027861844.Spec := by
+  intro n
+  simp only [A133853]
 
 end A133853
 

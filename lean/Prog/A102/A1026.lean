@@ -24,9 +24,9 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
@@ -10434,7 +10434,7 @@ end A102678
 /-!
 # A102679: Number of digits >= 7 in decimal representation of n.
 
-The programs for A102679, the canonical program `A102679.P8464242945239361624` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102679 has offset 0).
+The programs for A102679, the canonical program `A102679.P8464242945239361624` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102679 has offset 0).
 
 The definition of A102679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10443,7 +10443,7 @@ The definition of A102679 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n, floor(#/7)]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102679
@@ -10726,7 +10726,7 @@ end A102679
 /-!
 # A102680: Number of digits >= 7 in the decimal representations of all integers from 0 to n.
 
-The programs for A102680, the canonical program `A102680.P16579414949965377652` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102680 has offset 0).
+The programs for A102680, the canonical program `A102680.P16579414949965377652` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102680 has offset 0).
 
 The definition of A102680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10735,7 +10735,7 @@ The definition of A102680 is `conjectured`: the Lean definition is a formula tha
 
 `∑[val(∏{digits}[n, #!], 7)]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102680
@@ -10947,7 +10947,7 @@ end A102680
 /-!
 # A102681: Number of digits >= 8 in decimal representation of n.
 
-The programs for A102681, the canonical program `A102681.P10763331520782827620` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102681 has offset 0).
+The programs for A102681, the canonical program `A102681.P10763331520782827620` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102681 has offset 0).
 
 The definition of A102681 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10982,7 +10982,7 @@ end A102681
 
 `∑{digits}[n, and(1, C(#, 8))]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102681
@@ -11216,7 +11216,7 @@ end A102681
 /-!
 # A102682: Number of digits >= 8 in the decimal representations of all integers from 0 to n.
 
-The programs for A102682, the canonical program `A102682.P14000101664436532519` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102682 has offset 0).
+The programs for A102682, the canonical program `A102682.P14000101664436532519` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102682 has offset 0).
 
 The definition of A102682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11254,7 +11254,7 @@ end A102682
 
 `∑[∑{digits}[n, C(and(8, #), 8)]]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102682
@@ -11489,7 +11489,7 @@ end A102682
 /-!
 # A102683: Number of digits 9 in decimal representation of n.
 
-The programs for A102683, the canonical program `A102683.P15481255346739621049` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102683 has offset 0).
+The programs for A102683, the canonical program `A102683.P15481255346739621049` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102683 has offset 0).
 
 The definition of A102683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11498,7 +11498,7 @@ The definition of A102683 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n, C(#, 9)]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102683
@@ -11781,7 +11781,7 @@ end A102683
 /-!
 # A102684: Number of times the digit 9 appears in the decimal representations of all integers from 0 to n.
 
-The programs for A102684, the canonical program `A102684.P13654992812489336575` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102684 has offset 0).
+The programs for A102684, the canonical program `A102684.P13654992812489336575` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102684 has offset 0).
 
 The definition of A102684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11790,7 +11790,7 @@ The definition of A102684 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{digits}[n, C(#, 9)]]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102684
@@ -12083,7 +12083,7 @@ end A102684
 /-!
 # A102685: Partial sums of A055640.
 
-The programs for A102685, the canonical program `A102685.P16479452265008472786` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102685 has offset 0).
+The programs for A102685, the canonical program `A102685.P16479452265008472786` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102685 has offset 0).
 
 The definition of A102685 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12179,7 +12179,7 @@ end A102685
 
 `∑[∑{digits}[n, ceil(#/9)]]`
 
-The canonical program, it is in `Seq.B000.C016`.
+The canonical program, it is in `Seq.B000.C015`.
 -/
 
 namespace A102685

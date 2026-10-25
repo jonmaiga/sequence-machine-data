@@ -3247,23 +3247,39 @@ end A001714
 /-!
 # A001715: a(n) = n!/6.
 
-The programs for A001715, the canonical program `A001715.P3403089565618059266` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001715 has offset 3).
+The programs for A001715, the canonical program `A001715.P16353935773255303295` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001715 has offset 3).
 
-The definition of A001715 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A001715 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+3)!/6` (program `A001715.P3403089565618059266`, by `A001715.P3403089565618059266.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A001715.P3403089565618059266
 
 `(n+3)!/6`
 
-The canonical program, it is in `Seq.B000.C000`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A001715.P3403089565618059266
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 3) : ℚ) / 6
+
+end
+
+end A001715.P3403089565618059266
 
 namespace A001715
 
 /-- `(n+3)!/6` -/
 def P3403089565618059266.Spec : Prop :=
   ∀ n, P3403089565618059266.a n = (A001715 (n + 3) : ℚ)
+
+theorem P3403089565618059266.correct : P3403089565618059266.Spec := by
+  intro n
+  simp only [A001715, Nat.add_sub_cancel, A001715.P3403089565618059266.a, A001715.P16353935773255303295.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A001715
 
@@ -3296,23 +3312,19 @@ end A001715
 /-! ## A001715.P16353935773255303295
 
 `n!*C(n+3, 3)`
+
+The canonical program, it is in `Seq.B000.C000`.
 -/
-
-namespace A001715.P16353935773255303295
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial n * Nat.choose (n + 3) 3
-
-end
-
-end A001715.P16353935773255303295
 
 namespace A001715
 
 /-- `n!*C(n+3, 3)` -/
 def P16353935773255303295.Spec : Prop :=
   ∀ n, (P16353935773255303295.a n : ℤ) = A001715 (n + 3)
+
+theorem P16353935773255303295.correct : P16353935773255303295.Spec := by
+  intro n
+  simp only [A001715, Nat.add_sub_cancel]
 
 end A001715
 
@@ -4840,17 +4852,25 @@ end A001724.P6482190437756789457
 /-!
 # A001725: a(n) = n!/5!.
 
-The programs for A001725, the canonical program `A001725.P7787208859188895106` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001725 has offset 5).
+The programs for A001725, the canonical program `A001725.P12650103513022263112` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001725 has offset 5).
 
-The definition of A001725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A001725 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+5)!/5!` (program `A001725.P1448811118898272997`, by `A001725.P1448811118898272997.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A001725.P7787208859188895106
 
 `(n+5)!/120`
-
-The canonical program, it is in `Seq.B000.C000`.
 -/
+
+namespace A001725.P7787208859188895106
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 5) : ℚ) / 120
+
+end
+
+end A001725.P7787208859188895106
 
 namespace A001725
 
@@ -4883,28 +4903,30 @@ namespace A001725
 def P1448811118898272997.Spec : Prop :=
   ∀ n, P1448811118898272997.a n = (A001725 (n + 5) : ℚ)
 
+theorem P1448811118898272997.correct : P1448811118898272997.Spec := by
+  intro n
+  simp only [A001725, Nat.add_sub_cancel, A001725.P1448811118898272997.a, A001725.P12650103513022263112.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A001725
 
 /-! ## A001725.P12650103513022263112
 
 `n!*C(n+5, 5)`
+
+The canonical program, it is in `Seq.B000.C000`.
 -/
-
-namespace A001725.P12650103513022263112
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial n * Nat.choose (n + 5) 5
-
-end
-
-end A001725.P12650103513022263112
 
 namespace A001725
 
 /-- `n!*C(n+5, 5)` -/
 def P12650103513022263112.Spec : Prop :=
   ∀ n, (P12650103513022263112.a n : ℤ) = A001725 (n + 5)
+
+theorem P12650103513022263112.correct : P12650103513022263112.Spec := by
+  intro n
+  simp only [A001725, Nat.add_sub_cancel]
 
 end A001725
 
@@ -5878,17 +5900,25 @@ end A001729
 /-!
 # A001730: a(n) = n!/6!.
 
-The programs for A001730, the canonical program `A001730.P733782834956971630` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001730 has offset 6).
+The programs for A001730, the canonical program `A001730.P18322420278793742515` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001730 has offset 6).
 
-The definition of A001730 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A001730 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+6)!/6!` (program `A001730.P11561657581245631056`, by `A001730.P11561657581245631056.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A001730.P733782834956971630
 
 `(n+6)!/720`
-
-The canonical program, it is in `Seq.B000.C000`.
 -/
+
+namespace A001730.P733782834956971630
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 6) : ℚ) / 720
+
+end
+
+end A001730.P733782834956971630
 
 namespace A001730
 
@@ -5921,6 +5951,12 @@ namespace A001730
 def P11561657581245631056.Spec : Prop :=
   ∀ n, P11561657581245631056.a n = (A001730 (n + 6) : ℚ)
 
+theorem P11561657581245631056.correct : P11561657581245631056.Spec := by
+  intro n
+  simp only [A001730, Nat.add_sub_cancel, A001730.P11561657581245631056.a, A001730.P18322420278793742515.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A001730
 
 /-! ## A001730.P9378018060914439794
@@ -5952,23 +5988,19 @@ end A001730
 /-! ## A001730.P18322420278793742515
 
 `n!*C(n+6, 6)`
+
+The canonical program, it is in `Seq.B000.C000`.
 -/
-
-namespace A001730.P18322420278793742515
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial n * Nat.choose (n + 6) 6
-
-end
-
-end A001730.P18322420278793742515
 
 namespace A001730
 
 /-- `n!*C(n+6, 6)` -/
 def P18322420278793742515.Spec : Prop :=
   ∀ n, (P18322420278793742515.a n : ℤ) = A001730 (n + 6)
+
+theorem P18322420278793742515.correct : P18322420278793742515.Spec := by
+  intro n
+  simp only [A001730, Nat.add_sub_cancel]
 
 end A001730
 
@@ -17937,23 +17969,39 @@ end A001776.P16586430638219116764
 /-!
 # A001777: Lah numbers: a(n) = n! * binomial(n-1, 4)/5!.
 
-The programs for A001777, the canonical program `A001777.P17676601976892956573` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001777 has offset 5).
+The programs for A001777, the canonical program `A001777.P12963462012434693237` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001777 has offset 5).
 
-The definition of A001777 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A001777 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+5)!*C(n+4, 4)/5!` (program `A001777.P17676601976892956573`, by `A001777.P17676601976892956573.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A001777.P17676601976892956573
 
 `(n+5)!*C(n+4, 4)/5!`
 
-The canonical program, it is in `Seq.B000.C000`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A001777.P17676601976892956573
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 5) * Nat.choose (n + 4) 4 : ℚ) / (Nat.factorial 5 : ℚ)
+
+end
+
+end A001777.P17676601976892956573
 
 namespace A001777
 
 /-- `(n+5)!*C(n+4, 4)/5!` -/
 def P17676601976892956573.Spec : Prop :=
   ∀ n, P17676601976892956573.a n = (A001777 (n + 5) : ℚ)
+
+theorem P17676601976892956573.correct : P17676601976892956573.Spec := by
+  intro n
+  simp only [A001777, Nat.add_sub_cancel, A001777.P17676601976892956573.a, A001777.P12963462012434693237.a, A006857, A006857.P13344409849471814543.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A001777
 
@@ -18027,23 +18075,19 @@ end A001777
 /-! ## A001777.P12963462012434693237
 
 `(n+1)!*A006857(n)`
+
+The canonical program, it is in `Seq.B001.C000`.
 -/
-
-namespace A001777.P12963462012434693237
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (n + 1) : ℤ) * A006857 n
-
-end
-
-end A001777.P12963462012434693237
 
 namespace A001777
 
 /-- `(n+1)!*A006857(n)` -/
 def P12963462012434693237.Spec : Prop :=
   ∀ n, P12963462012434693237.a n = A001777 (n + 5)
+
+theorem P12963462012434693237.correct : P12963462012434693237.Spec := by
+  intro n
+  simp only [A001777, Nat.add_sub_cancel]
 
 end A001777
 

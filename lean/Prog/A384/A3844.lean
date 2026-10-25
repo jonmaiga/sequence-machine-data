@@ -13,7 +13,6 @@ import Seq.B000.C026
 import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
@@ -72,7 +71,7 @@ set_option linter.unreachableTactic false
 /-!
 # A384415: a(n) = 4^n - 3^n - n*3^(n-1) - binomial(n,2)*3^(n-2).
 
-The programs for A384415, the canonical program `A384415.P15353193061636814150` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384415 has offset 0).
+The programs for A384415, the canonical program `A384415.P15353193061636814150` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384415 has offset 0).
 
 The definition of A384415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -81,7 +80,7 @@ The definition of A384415 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4^n-3^n-n*3^(n-1)-C(n, 2)*3^(n-2)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384415

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A170800: a(n) = n^10*(n^8 + 1)/2.
@@ -484,17 +489,25 @@ end A170801
 /-!
 # A170802: a(n) = n^10*(n^10 + 1)/2.
 
-The programs for A170802, the canonical program `A170802.P6474538868739957458` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A170802 has offset 0).
+The programs for A170802, the canonical program `A170802.P15191684365988023827` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A170802 has offset 0).
 
-The definition of A170802 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A170802 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^10*(n^10+1)/2` (program `A170802.P17166855087906838546`, by `A170802.P17166855087906838546.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A170802.P6474538868739957458
 
 `(n^20+n^10)/2`
-
-The canonical program, it is in `Seq.B000.C024`.
 -/
+
+namespace A170802.P6474538868739957458
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 20 + n ^ 10 : ℚ) / 2
+
+end
+
+end A170802.P6474538868739957458
 
 namespace A170802
 
@@ -527,28 +540,30 @@ namespace A170802
 def P17166855087906838546.Spec : Prop :=
   ∀ n, P17166855087906838546.a n = (A170802 n : ℚ)
 
+theorem P17166855087906838546.correct : P17166855087906838546.Spec := by
+  intro n
+  simp only [A170802, Nat.add_sub_cancel, A170802.P17166855087906838546.a, A170802.P15191684365988023827.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A170802
 
 /-! ## A170802.P15191684365988023827
 
 `C(n^10+1, 2)`
+
+The canonical program, it is in `Seq.B000.C024`.
 -/
-
-namespace A170802.P15191684365988023827
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n ^ 10 + 1) 2
-
-end
-
-end A170802.P15191684365988023827
 
 namespace A170802
 
 /-- `C(n^10+1, 2)` -/
 def P15191684365988023827.Spec : Prop :=
   ∀ n, (P15191684365988023827.a n : ℤ) = A170802 n
+
+theorem P15191684365988023827.correct : P15191684365988023827.Spec := by
+  intro n
+  simp only [A170802]
 
 end A170802
 

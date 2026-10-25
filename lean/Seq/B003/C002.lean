@@ -27,7 +27,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -7209,14 +7208,14 @@ noncomputable section
 
 /-- A161428: a(n) = A161424(n)/4.
 
-Offset 1, canonical program `A161428.P18072400539995113599`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
+Offset 1, canonical program `A161428.P18072400539995113599`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A161424, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A161428 (n : ℕ) : ℤ :=
   A161428.P18072400539995113599.a (n - 1)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. -/
-def A161428.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A161424, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A161428.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A161673.P1088043651261816536
 

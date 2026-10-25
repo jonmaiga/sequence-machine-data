@@ -41,6 +41,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -99,7 +100,7 @@ set_option linter.unreachableTactic false
 /-!
 # A278100: Number of squarefree positive integers less than n^2.
 
-The programs for A278100, the canonical program `A278100.P13036125497431391876` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278100 has offset 1).
+The programs for A278100, the canonical program `A278100.P13036125497431391876` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278100 has offset 1).
 
 The definition of A278100 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013928, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -108,7 +109,7 @@ The definition of A278100 is `conditional`: the Lean definition is an OEIS formu
 
 `A013928((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A278100
@@ -1269,7 +1270,7 @@ end A278113.P579971923169921754
 /-!
 # A278114: Number of primes <= 2n^2.
 
-The programs for A278114, the canonical program `A278114.P18402708392266180151` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278114 has offset 1).
+The programs for A278114, the canonical program `A278114.P18402708392266180151` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278114 has offset 1).
 
 The definition of A278114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1278,7 +1279,7 @@ The definition of A278114 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000720(A001105(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A278114

@@ -3406,7 +3406,7 @@ end A325028.P4480249249120533612
 /-!
 # A325029: a(n) = Sum_{d|n} (sigma(d)*pod(d)) where sigma(k) = the sum of the divisors of k (A000203) and pod(k) = the product of the divisors of k (A007955).
 
-The programs for A325029, the canonical program `A325029.P11066408375137913507` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325029 has offset 1).
+The programs for A325029, the canonical program `A325029.P11066408375137913507` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325029 has offset 1).
 
 The definition of A325029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3415,7 +3415,7 @@ The definition of A325029 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A076722(#)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A325029

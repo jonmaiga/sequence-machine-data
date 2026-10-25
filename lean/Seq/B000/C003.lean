@@ -28116,34 +28116,6 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x)/(1-x-x^4))` (program `A017898.P10310695555956368774`, by `A017898.P10310695555956368774.correct`). Lean does not check the parsing of the name. -/
 def A017898.provenance : SequenceMachineLib.Provenance := .verified
 
-/-! ## A016317.P16055473397431174586
-
-`18*a(n-1)-80*a(n-2)+2^n` with `a(0)=1, a(1)=20`
--/
-
-namespace A016317.P16055473397431174586
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 20] fun n a =>
-  18 * a (n - 1) - 80 * a (n - 2) + (2 ^ n : ℤ)
-
-end
-
-end A016317.P16055473397431174586
-
-noncomputable section
-
-/-- A016317: Expansion of 1/((1-2x)(1-8x)(1-10x)).
-
-Offset 0, canonical program `A016317.P16055473397431174586`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016317 (n : ℕ) : ℤ :=
-  A016317.P16055473397431174586.a n
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A016317.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A016318.P18257291233961585004
 
 `19*a(n-1)-88*a(n-2)+2^n` with `a(0)=1, a(1)=21`
@@ -29319,6 +29291,34 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A017948.provenance : SequenceMachineLib.Provenance := .assumedProven
+
+/-! ## A017949.P14583680733829456344
+
+`floor(sqrt(15^n))`
+-/
+
+namespace A017949.P14583680733829456344
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.sqrt (15 ^ n)
+
+end
+
+end A017949.P14583680733829456344
+
+noncomputable section
+
+/-- A017949: Powers of sqrt(15) rounded down.
+
+Offset 0, canonical program `A017949.P14583680733829456344`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A017949 (n : ℕ) : ℤ :=
+  (A017949.P14583680733829456344.a n : ℤ)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A017949.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A016729.P5716740271180834695
 

@@ -25,6 +25,7 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
@@ -316,17 +317,27 @@ end A257600
 /-!
 # A257601: a(n) = (n^4 + 20*n^3 + 125*n^2 + 250*n + 24)/12.
 
-The programs for A257601, the canonical program `A257601.P11822272318728899041` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257601 has offset 0).
+The programs for A257601, the canonical program `A257601.P7994005046147827157` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257601 has offset 0).
 
-The definition of A257601 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A257601 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^4+20*n^3+125*n²+250*n+24)/12` (program `A257601.P11822272318728899041`, by `A257601.P11822272318728899041.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A257601.P11822272318728899041
 
 `(n^4+20*n^3+125*n²+250*n+24)/12`
 
-The canonical program, it is in `Seq.B000.C031`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A257601.P11822272318728899041
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 4 + 20 * n ^ 3 + 125 * n ^ 2 + 250 * n + 24 : ℚ) / 12
+
+end
+
+end A257601.P11822272318728899041
 
 namespace A257601
 
@@ -334,28 +345,45 @@ namespace A257601
 def P11822272318728899041.Spec : Prop :=
   ∀ n, P11822272318728899041.a n = (A257601 n : ℚ)
 
+theorem P11822272318728899041.correct : P11822272318728899041.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 | 4 =>
+      simp [A257601, Nat.add_sub_cancel, A257601.P11822272318728899041.a, A257601.P7994005046147827157.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 5 =>
+      have h1 := ih (m + 4) (by omega)
+      have h2 := ih (m + 3) (by omega)
+      have h3 := ih (m + 2) (by omega)
+      have h4 := ih (m + 1) (by omega)
+      have h5 := ih m (by omega)
+      simp only [A257601, Nat.add_sub_cancel, A257601.P11822272318728899041.a, A257601.P7994005046147827157.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 h5 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 5 - 1 = m + 4 by omega, show m + 5 - 2 = m + 3 by omega, show m + 5 - 3 = m + 2 by omega, show m + 5 - 4 = m + 1 by omega, show m + 5 - 5 = m by omega, show m + 4 < m + 5 by omega, show m + 3 < m + 5 by omega, show m + 2 < m + 5 by omega, show m + 1 < m + 5 by omega, show m < m + 5 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 h5 ⊢
+      rw [← h1, ← h2, ← h3, ← h4, ← h5]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A257601
 
 /-! ## A257601.P7994005046147827157
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=2, a(1)=35, a(2)=100, a(3)=210, a(4)=380`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
-
-namespace A257601.P7994005046147827157
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2, 35, 100, 210, 380] fun n a =>
-  5 * a (n - 1) - 10 * a (n - 2) + 10 * a (n - 3) - 5 * a (n - 4) + a (n - 5)
-
-end
-
-end A257601.P7994005046147827157
 
 namespace A257601
 
 /-- `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` -/
 def P7994005046147827157.Spec : Prop :=
   ∀ n, P7994005046147827157.a n = A257601 n
+
+theorem P7994005046147827157.correct : P7994005046147827157.Spec := by
+  intro n
+  simp only [A257601]
 
 end A257601
 

@@ -33,7 +33,6 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -10149,23 +10148,39 @@ end A255182
 /-!
 # A255184: 25-gonal numbers: a(n) = n*(23*n-21)/2.
 
-The programs for A255184, the canonical program `A255184.P12653567922317854865` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255184 has offset 0).
+The programs for A255184, the canonical program `A255184.P18276031424336409620` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255184 has offset 0).
 
-The definition of A255184 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A255184 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(23*n-21)/2` (program `A255184.P12653567922317854865`, by `A255184.P12653567922317854865.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A255184.P12653567922317854865
 
 `n*(23*n-21)/2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A255184.P12653567922317854865
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((23 * n : ℤ) - 21) : ℚ) / 2
+
+end
+
+end A255184.P12653567922317854865
 
 namespace A255184
 
 /-- `n*(23*n-21)/2` -/
 def P12653567922317854865.Spec : Prop :=
   ∀ n, P12653567922317854865.a n = (A255184 n : ℚ)
+
+theorem P12653567922317854865.correct : P12653567922317854865.Spec := by
+  intro n
+  simp only [A255184, Nat.add_sub_cancel, A255184.P12653567922317854865.a, A255184.P18276031424336409620.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A255184
 
@@ -10198,23 +10213,19 @@ end A255184
 /-! ## A255184.P18276031424336409620
 
 `C(n, 2)+n*(11*n-10)`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
-
-namespace A255184.P18276031424336409620
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose n 2 : ℤ) + (n : ℤ) * ((11 * n : ℤ) - 10)
-
-end
-
-end A255184.P18276031424336409620
 
 namespace A255184
 
 /-- `C(n, 2)+n*(11*n-10)` -/
 def P18276031424336409620.Spec : Prop :=
   ∀ n, P18276031424336409620.a n = A255184 n
+
+theorem P18276031424336409620.correct : P18276031424336409620.Spec := by
+  intro n
+  simp only [A255184]
 
 end A255184
 
@@ -11172,23 +11183,39 @@ end A255185
 /-!
 # A255186: 27-gonal numbers: a(n) = n*(25*n-23)/2.
 
-The programs for A255186, the canonical program `A255186.P800441571666304539` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255186 has offset 0).
+The programs for A255186, the canonical program `A255186.P10877467608861498057` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255186 has offset 0).
 
-The definition of A255186 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A255186 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(25*n-23)/2` (program `A255186.P800441571666304539`, by `A255186.P800441571666304539.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A255186.P800441571666304539
 
 `n*(25*n-23)/2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A255186.P800441571666304539
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((25 * n : ℤ) - 23) : ℚ) / 2
+
+end
+
+end A255186.P800441571666304539
 
 namespace A255186
 
 /-- `n*(25*n-23)/2` -/
 def P800441571666304539.Spec : Prop :=
   ∀ n, P800441571666304539.a n = (A255186 n : ℚ)
+
+theorem P800441571666304539.correct : P800441571666304539.Spec := by
+  intro n
+  simp only [A255186, Nat.add_sub_cancel, A255186.P800441571666304539.a, A255186.P10877467608861498057.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A255186
 
@@ -11296,23 +11323,19 @@ end A255186
 /-! ## A255186.P10877467608861498057
 
 `C(5*n, 2)-7*n-n-n`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
-
-namespace A255186.P10877467608861498057
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (5 * n) 2 : ℤ) - (7 * n : ℤ) - (n : ℤ) - (n : ℤ)
-
-end
-
-end A255186.P10877467608861498057
 
 namespace A255186
 
 /-- `C(5*n, 2)-7*n-n-n` -/
 def P10877467608861498057.Spec : Prop :=
   ∀ n, P10877467608861498057.a n = A255186 n
+
+theorem P10877467608861498057.correct : P10877467608861498057.Spec := by
+  intro n
+  simp only [A255186]
 
 end A255186
 
@@ -11653,23 +11676,39 @@ end A255186
 /-!
 # A255187: 29-gonal numbers: a(n) = n*(27*n-25)/2.
 
-The programs for A255187, the canonical program `A255187.P12082363066807181798` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255187 has offset 0).
+The programs for A255187, the canonical program `A255187.P5987633574955875604` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255187 has offset 0).
 
-The definition of A255187 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A255187 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(27*n-25)/2` (program `A255187.P12082363066807181798`, by `A255187.P12082363066807181798.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A255187.P12082363066807181798
 
 `n*(27*n-25)/2`
 
-The canonical program, it is in `Seq.B000.C031`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A255187.P12082363066807181798
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((27 * n : ℤ) - 25) : ℚ) / 2
+
+end
+
+end A255187.P12082363066807181798
 
 namespace A255187
 
 /-- `n*(27*n-25)/2` -/
 def P12082363066807181798.Spec : Prop :=
   ∀ n, P12082363066807181798.a n = (A255187 n : ℚ)
+
+theorem P12082363066807181798.correct : P12082363066807181798.Spec := by
+  intro n
+  simp only [A255187, Nat.add_sub_cancel, A255187.P12082363066807181798.a, A255187.P5987633574955875604.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A255187
 
@@ -11751,23 +11790,19 @@ end A255187
 /-! ## A255187.P5987633574955875604
 
 `3*(C(3*n, 2)-2*n)-2*n`
+
+The canonical program, it is in `Seq.B000.C031`.
 -/
-
-namespace A255187.P5987633574955875604
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * ((Nat.choose (3 * n) 2 : ℤ) - (2 * n : ℤ)) - (2 * n : ℤ)
-
-end
-
-end A255187.P5987633574955875604
 
 namespace A255187
 
 /-- `3*(C(3*n, 2)-2*n)-2*n` -/
 def P5987633574955875604.Spec : Prop :=
   ∀ n, P5987633574955875604.a n = A255187 n
+
+theorem P5987633574955875604.correct : P5987633574955875604.Spec := by
+  intro n
+  simp only [A255187]
 
 end A255187
 

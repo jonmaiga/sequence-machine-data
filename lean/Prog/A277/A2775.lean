@@ -22,15 +22,15 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -9851,7 +9851,7 @@ end A277575.P15050114567939194817
 /-!
 # A277576: a(1)=1; thereafter a(n) = A007916(a(n-1)).
 
-The programs for A277576, the canonical program `A277576.P12489906242859010906` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277576 has offset 1).
+The programs for A277576, the canonical program `A277576.P12489906242859010906` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277576 has offset 1).
 
 The definition of A277576 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007916, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9860,7 +9860,7 @@ The definition of A277576 is `conditional`: the Lean definition is an OEIS formu
 
 `A007916(a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277576
@@ -13233,7 +13233,7 @@ end A277598.P5040869565206548708
 /-!
 # A277599: (1/5)*A277592.
 
-The programs for A277599, the canonical program `A277599.P16892913130215631464` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277599 has offset 1).
+The programs for A277599, the canonical program `A277599.P16892913130215631464` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277599 has offset 1).
 
 The definition of A277599 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13356,7 +13356,7 @@ end A277599
 
 `eq[1, A004151(n+1)%2]+1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277599

@@ -26,6 +26,7 @@ import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
@@ -3688,25 +3689,17 @@ end A064616
 /-!
 # A064617: a(n) = (10^n - 1)*(80/81) + n/9.
 
-The programs for A064617, the canonical program `A064617.P10655094265559728395` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064617 has offset 1).
+The programs for A064617, the canonical program `A064617.P2998303420751097039` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064617 has offset 1).
 
-The definition of A064617 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A064617 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(10^(n+1)-1)*80/81+(n+1)/9` (program `A064617.P10655094265559728395`, by `A064617.P10655094265559728395.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A064617.P2998303420751097039
 
 `10*a(n-1)+10-(n+1)` with `a(0)=9`
+
+The canonical program, it is in `Seq.B000.C010`.
 -/
-
-namespace A064617.P2998303420751097039
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [9] fun n a =>
-  10 * a (n - 1) + 10 - (n + 1 : ℤ)
-
-end
-
-end A064617.P2998303420751097039
 
 namespace A064617
 
@@ -3714,20 +3707,51 @@ namespace A064617
 def P2998303420751097039.Spec : Prop :=
   ∀ n, P2998303420751097039.a n = A064617 (n + 1)
 
+theorem P2998303420751097039.correct : P2998303420751097039.Spec := by
+  intro n
+  simp only [A064617, Nat.add_sub_cancel]
+
 end A064617
 
 /-! ## A064617.P10655094265559728395
 
 `(10^(n+1)-1)*80/81+(n+1)/9`
 
-The canonical program, it is in `Seq.B000.C010`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A064617.P10655094265559728395
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((10 ^ (n + 1) : ℤ) - 1 : ℚ) * ((80 : ℚ) / 81) + (n + 1 : ℚ) / 9
+
+end
+
+end A064617.P10655094265559728395
 
 namespace A064617
 
 /-- `(10^(n+1)-1)*80/81+(n+1)/9` -/
 def P10655094265559728395.Spec : Prop :=
   ∀ n, P10655094265559728395.a n = (A064617 (n + 1) : ℚ)
+
+theorem P10655094265559728395.correct : P10655094265559728395.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A064617, Nat.add_sub_cancel, A064617.P10655094265559728395.a, A064617.P2998303420751097039.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A064617, Nat.add_sub_cancel, A064617.P10655094265559728395.a, A064617.P2998303420751097039.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A064617
 

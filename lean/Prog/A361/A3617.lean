@@ -28,7 +28,6 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -36,7 +35,6 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2001,7 +1999,7 @@ end A361729.P13675216468935163632
 /-!
 # A361732: a(n) = [x^n] (x^5 + 5*x^4 + 4*x^3 - 3*x + 1)/(x^2 + 2*x - 1)^2.
 
-The programs for A361732, the canonical program `A361732.P6038445032929173089` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361732 has offset 0).
+The programs for A361732, the canonical program `A361732.P6038445032929173089` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361732 has offset 0).
 
 The definition of A361732 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2010,7 +2008,7 @@ The definition of A361732 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n*(n-1)*a(n-2)+2*n*(n-2)*a(n-1))/((n-2)*(n-1))` with `a(0)=1, a(1)=1, a(2)=2, a(3)=6`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A361732
@@ -2702,7 +2700,7 @@ end A361749.P2403974118463491472
 /-!
 # A361751: a(n) is the number of decimal digits in A098129(n) and A300517(n).
 
-The programs for A361751, the canonical program `A361751.P11517520314261934016` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361751 has offset 1).
+The programs for A361751, the canonical program `A361751.P11517520314261934016` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361751 has offset 1).
 
 The definition of A361751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2711,7 +2709,7 @@ The definition of A361751 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑{digits}[n+1, xor(#, xor(#, n+1))]]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A361751

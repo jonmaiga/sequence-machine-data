@@ -19,6 +19,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -4800,23 +4801,39 @@ end A356250.P17933541113164340121
 /-!
 # A356251: a(n) = n*(n+1)*(n+2)*(n+3)*(2*n+1)/12.
 
-The programs for A356251, the canonical program `A356251.P8302659967557249373` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356251 has offset 0).
+The programs for A356251, the canonical program `A356251.P8705038052794275151` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356251 has offset 0).
 
-The definition of A356251 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356251 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)*(2*n+1)/12` (program `A356251.P8302659967557249373`, by `A356251.P8302659967557249373.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356251.P8302659967557249373
 
 `n*(n+1)*(n+2)*(n+3)*(2*n+1)/12`
 
-The canonical program, it is in `Seq.B000.C037`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A356251.P8302659967557249373
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n * (n + 1) * (n + 2) * (n + 3) * (2 * n + 1) : ℚ) / 12
+
+end
+
+end A356251.P8302659967557249373
 
 namespace A356251
 
 /-- `n*(n+1)*(n+2)*(n+3)*(2*n+1)/12` -/
 def P8302659967557249373.Spec : Prop :=
   ∀ n, P8302659967557249373.a n = (A356251 n : ℚ)
+
+theorem P8302659967557249373.correct : P8302659967557249373.Spec := by
+  intro n
+  simp only [A356251, Nat.add_sub_cancel, A356251.P8302659967557249373.a, A356251.P8705038052794275151.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A356251
 
@@ -4881,23 +4898,19 @@ end A356251
 /-! ## A356251.P8705038052794275151
 
 `2*C(n+3, 3)*C(n, 2)+6*C(n+3, 4)`
+
+The canonical program, it is in `Seq.B000.C037`.
 -/
-
-namespace A356251.P8705038052794275151
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * Nat.choose (n + 3) 3 * Nat.choose n 2 + 6 * Nat.choose (n + 3) 4
-
-end
-
-end A356251.P8705038052794275151
 
 namespace A356251
 
 /-- `2*C(n+3, 3)*C(n, 2)+6*C(n+3, 4)` -/
 def P8705038052794275151.Spec : Prop :=
   ∀ n, (P8705038052794275151.a n : ℤ) = A356251 n
+
+theorem P8705038052794275151.correct : P8705038052794275151.Spec := by
+  intro n
+  simp only [A356251]
 
 end A356251
 

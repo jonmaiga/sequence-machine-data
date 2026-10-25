@@ -45,6 +45,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -1415,7 +1416,7 @@ end A379213
 /-!
 # A379215: Number of minimal edge cuts in the complete bipartite graph K_{n,n}.
 
-The programs for A379215, the canonical program `A379215.P8620567409241679117` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379215 has offset 1).
+The programs for A379215, the canonical program `A379215.P8620567409241679117` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379215 has offset 1).
 
 The definition of A379215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1424,7 +1425,7 @@ The definition of A379215 is `conjectured`: the Lean definition is a formula tha
 
 `A103517(n)+A087291(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379215
@@ -2057,7 +2058,7 @@ end A379222
 /-!
 # A379223: Sum of the divisors of the n-th odd square: a(n) = sigma((2*n-1)^2).
 
-The programs for A379223, the canonical program `A379223.P937292123785489780` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379223 has offset 1).
+The programs for A379223, the canonical program `A379223.P937292123785489780` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379223 has offset 1).
 
 The definition of A379223 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2066,7 +2067,7 @@ The definition of A379223 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000203(A016754(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379223
@@ -6299,7 +6300,7 @@ end A379272.P18357674194558975317
 /-!
 # A379274: a(n) = A135414(n) mod 2.
 
-The programs for A379274, the canonical program `A379274.P5229334467215772690` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379274 has offset 1).
+The programs for A379274, the canonical program `A379274.P5229334467215772690` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379274 has offset 1).
 
 The definition of A379274 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6308,7 +6309,7 @@ The definition of A379274 is `conjectured`: the Lean definition is a formula tha
 
 `A135414(n+1)%2`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379274

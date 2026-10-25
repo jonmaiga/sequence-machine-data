@@ -25,7 +25,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -3801,7 +3800,7 @@ end A047207
 /-!
 # A047208: Numbers that are congruent to {0, 4} mod 5.
 
-The programs for A047208, the canonical program `A047208.P14497428806713299572` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047208 has offset 1).
+The programs for A047208, the canonical program `A047208.P14497428806713299572` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047208 has offset 1).
 
 The definition of A047208 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3810,7 +3809,7 @@ The definition of A047208 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+5` with `a(0)=0, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A047208
@@ -4319,7 +4318,7 @@ end A047208
 /-!
 # A047209: Numbers that are congruent to {1, 4} mod 5.
 
-The programs for A047209, the canonical program `A047209.P980479515713272986` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047209 has offset 1).
+The programs for A047209, the canonical program `A047209.P980479515713272986` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047209 has offset 1).
 
 The definition of A047209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4328,7 +4327,7 @@ The definition of A047209 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+5` with `a(0)=1, a(1)=4`
 
-The canonical program, it is in `Seq.B000.C008`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A047209

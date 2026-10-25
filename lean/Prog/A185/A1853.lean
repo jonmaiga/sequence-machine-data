@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -7163,17 +7164,25 @@ end A185373.P13389739213353022313
 /-!
 # A185375: a(n) = n*(n-1)*(2*n+1)*(2*n-1)*(2*n-3)*(10*n-17)/90.
 
-The programs for A185375, the canonical program `A185375.P15338728766004735601` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185375 has offset 0).
+The programs for A185375, the canonical program `A185375.P16095660680762476874` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185375 has offset 0).
 
-The definition of A185375 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A185375 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n-1)*(2*n+1)*(2*n-1)*(2*n-3)*(10*n-17)/90` (program `A185375.P2837502674887211493`, by `A185375.P2837502674887211493.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A185375.P15338728766004735601
 
 `C(2*n+1, 5)*(10*n-17)/3`
-
-The canonical program, it is in `Seq.B000.C026`.
 -/
+
+namespace A185375.P15338728766004735601
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((Nat.choose (2 * n + 1) 5 : ℤ) * ((10 * n : ℤ) - 17) : ℚ) / 3
+
+end
+
+end A185375.P15338728766004735601
 
 namespace A185375
 
@@ -7205,6 +7214,12 @@ namespace A185375
 /-- `n*(n-1)*(2*n+1)*(2*n-1)*(2*n-3)*(10*n-17)/90` -/
 def P2837502674887211493.Spec : Prop :=
   ∀ n, P2837502674887211493.a n = (A185375 n : ℚ)
+
+theorem P2837502674887211493.correct : P2837502674887211493.Spec := by
+  intro n
+  simp only [A185375, Nat.add_sub_cancel, A185375.P2837502674887211493.a, A185375.P16095660680762476874.a, A000389, A000389.P15450220129395289428.a, A000579, A000579.P13663713855180125612.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A185375
 
@@ -7257,23 +7272,19 @@ end A185375
 /-! ## A185375.P16095660680762476874
 
 `A000389(2*n+1)+10*A000579(2*n+1)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
-
-namespace A185375.P16095660680762476874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000389 (2 * n + 1) + 10 * A000579 (2 * n + 1)
-
-end
-
-end A185375.P16095660680762476874
 
 namespace A185375
 
 /-- `A000389(2*n+1)+10*A000579(2*n+1)` -/
 def P16095660680762476874.Spec : Prop :=
   ∀ n, P16095660680762476874.a n = A185375 n
+
+theorem P16095660680762476874.correct : P16095660680762476874.Spec := by
+  intro n
+  simp only [A185375]
 
 end A185375
 

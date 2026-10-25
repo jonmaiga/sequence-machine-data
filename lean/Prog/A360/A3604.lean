@@ -30,7 +30,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
@@ -7152,17 +7151,27 @@ end A360487.P823890123496542841
 /-!
 # A360488: 31-gonal numbers: a(n) = n*(29*n-27)/2.
 
-The programs for A360488, the canonical program `A360488.P1893859891687193527` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360488 has offset 0).
+The programs for A360488, the canonical program `A360488.P16627206225299801977` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360488 has offset 0).
 
-The definition of A360488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A360488 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(29*n-27)/2` (program `A360488.P1893859891687193527`, by `A360488.P1893859891687193527.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A360488.P1893859891687193527
 
 `n*(29*n-27)/2`
 
-The canonical program, it is in `Seq.B000.C037`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A360488.P1893859891687193527
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((29 * n : ℤ) - 27) : ℚ) / 2
+
+end
+
+end A360488.P1893859891687193527
 
 namespace A360488
 
@@ -7170,28 +7179,30 @@ namespace A360488
 def P1893859891687193527.Spec : Prop :=
   ∀ n, P1893859891687193527.a n = (A360488 n : ℚ)
 
+theorem P1893859891687193527.correct : P1893859891687193527.Spec := by
+  intro n
+  simp only [A360488, Nat.add_sub_cancel, A360488.P1893859891687193527.a, A360488.P16627206225299801977.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A360488
 
 /-! ## A360488.P16627206225299801977
 
 `29*C(n, 2)+n`
+
+The canonical program, it is in `Seq.B000.C037`.
 -/
-
-namespace A360488.P16627206225299801977
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  29 * Nat.choose n 2 + n
-
-end
-
-end A360488.P16627206225299801977
 
 namespace A360488
 
 /-- `29*C(n, 2)+n` -/
 def P16627206225299801977.Spec : Prop :=
   ∀ n, (P16627206225299801977.a n : ℤ) = A360488 n
+
+theorem P16627206225299801977.correct : P16627206225299801977.Spec := by
+  intro n
+  simp only [A360488]
 
 end A360488
 

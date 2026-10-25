@@ -34,6 +34,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
@@ -4411,7 +4412,7 @@ end A278356.P4903643214775421647
 /-!
 # A278357: Number of n X 2 0..1 arrays with rows and columns in lexicographic nondecreasing order but with exactly one mistake.
 
-The programs for A278357, the canonical program `A278357.P14772144764163584461` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278357 has offset 1).
+The programs for A278357, the canonical program `A278357.P14772144764163584461` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278357 has offset 1).
 
 The definition of A278357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4420,7 +4421,7 @@ The definition of A278357 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A278670(n+1)-A027480(n)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A278357

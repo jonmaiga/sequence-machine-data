@@ -1454,17 +1454,27 @@ end A300520.P16185507646172226099
 /-!
 # A300522: a(n) = (5*n + 3)*(5*n + 4)*(5*n + 5)/6.
 
-The programs for A300522, the canonical program `A300522.P3467218236212348100` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300522 has offset 0).
+The programs for A300522, the canonical program `A300522.P18009439653395195161` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300522 has offset 0).
 
-The definition of A300522 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A300522 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5*n+3)*(5*n+4)*(5*n+5)/6` (program `A300522.P3467218236212348100`, by `A300522.P3467218236212348100.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A300522.P3467218236212348100
 
 `(5*n+3)*(5*n+4)*(5*n+5)/6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A300522.P3467218236212348100
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 * n + 3) * (5 * n + 4) * (5 * n + 5) : ℚ) / 6
+
+end
+
+end A300522.P3467218236212348100
 
 namespace A300522
 
@@ -1472,28 +1482,30 @@ namespace A300522
 def P3467218236212348100.Spec : Prop :=
   ∀ n, P3467218236212348100.a n = (A300522 n : ℚ)
 
+theorem P3467218236212348100.correct : P3467218236212348100.Spec := by
+  intro n
+  simp only [A300522, Nat.add_sub_cancel, A300522.P3467218236212348100.a, A300522.P18009439653395195161.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A300522
 
 /-! ## A300522.P18009439653395195161
 
 `C(5*(n+1), 3)`
+
+The canonical program, it is in `Seq.B000.C035`.
 -/
-
-namespace A300522.P18009439653395195161
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (5 * (n + 1)) 3
-
-end
-
-end A300522.P18009439653395195161
 
 namespace A300522
 
 /-- `C(5*(n+1), 3)` -/
 def P18009439653395195161.Spec : Prop :=
   ∀ n, (P18009439653395195161.a n : ℤ) = A300522 n
+
+theorem P18009439653395195161.correct : P18009439653395195161.Spec := by
+  intro n
+  simp only [A300522]
 
 end A300522
 
@@ -1920,17 +1932,27 @@ end A300522
 /-!
 # A300523: a(n) = (5*n + 5)*(5*n + 6)*(5*n + 7)/6.
 
-The programs for A300523, the canonical program `A300523.P5109983458933311659` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300523 has offset 0).
+The programs for A300523, the canonical program `A300523.P10682042098472220260` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300523 has offset 0).
 
-The definition of A300523 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A300523 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5*n+5)*(5*n+6)*(5*n+7)/6` (program `A300523.P5109983458933311659`, by `A300523.P5109983458933311659.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A300523.P5109983458933311659
 
 `(5*n+5)*(5*n+6)*(5*n+7)/6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A300523.P5109983458933311659
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 * n + 5) * (5 * n + 6) * (5 * n + 7) : ℚ) / 6
+
+end
+
+end A300523.P5109983458933311659
 
 namespace A300523
 
@@ -1938,28 +1960,30 @@ namespace A300523
 def P5109983458933311659.Spec : Prop :=
   ∀ n, P5109983458933311659.a n = (A300523 n : ℚ)
 
+theorem P5109983458933311659.correct : P5109983458933311659.Spec := by
+  intro n
+  simp only [A300523, Nat.add_sub_cancel, A300523.P5109983458933311659.a, A300523.P10682042098472220260.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A300523
 
 /-! ## A300523.P10682042098472220260
 
 `C(5*n+7, 3)`
+
+The canonical program, it is in `Seq.B000.C035`.
 -/
-
-namespace A300523.P10682042098472220260
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (5 * n + 7) 3
-
-end
-
-end A300523.P10682042098472220260
 
 namespace A300523
 
 /-- `C(5*n+7, 3)` -/
 def P10682042098472220260.Spec : Prop :=
   ∀ n, (P10682042098472220260.a n : ℤ) = A300523 n
+
+theorem P10682042098472220260.correct : P10682042098472220260.Spec := by
+  intro n
+  simp only [A300523]
 
 end A300523
 

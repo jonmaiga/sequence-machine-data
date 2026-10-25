@@ -3737,23 +3737,51 @@ end A344744.P3450670611437619481
 /-!
 # A344747: a(n) = (1/6)*(3^n + (-2)^n - 1).
 
-The programs for A344747, the canonical program `A344747.P11905654126597179754` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344747 has offset 1).
+The programs for A344747, the canonical program `A344747.P12766655845295545449` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344747 has offset 1).
 
-The definition of A344747 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A344747 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1/6*(3^(n+1)+(-2)^(n+1)-1)` (program `A344747.P11905654126597179754`, by `A344747.P11905654126597179754.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A344747.P11905654126597179754
 
 `1/6*(3^(n+1)+(-2)^(n+1)-1)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A344747.P11905654126597179754
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 6 * ((3 ^ (n + 1) : ℤ) + (-2) ^ (n + 1) - 1 : ℚ)
+
+end
+
+end A344747.P11905654126597179754
 
 namespace A344747
 
 /-- `1/6*(3^(n+1)+(-2)^(n+1)-1)` -/
 def P11905654126597179754.Spec : Prop :=
   ∀ n, P11905654126597179754.a n = (A344747 (n + 1) : ℚ)
+
+theorem P11905654126597179754.correct : P11905654126597179754.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A344747, Nat.add_sub_cancel, A344747.P11905654126597179754.a, A344747.P12766655845295545449.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A344747, Nat.add_sub_cancel, A344747.P11905654126597179754.a, A344747.P12766655845295545449.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A344747
 
@@ -3809,23 +3837,19 @@ end A344747
 /-! ## A344747.P12766655845295545449
 
 `6*a(n-2)+a(n-1)+1` with `a(0)=0, a(1)=2`
+
+The canonical program, it is in `Seq.B000.C037`.
 -/
-
-namespace A344747.P12766655845295545449
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 2] fun n a =>
-  6 * a (n - 2) + (a (n - 1) + 1)
-
-end
-
-end A344747.P12766655845295545449
 
 namespace A344747
 
 /-- `6*a(n-2)+a(n-1)+1` -/
 def P12766655845295545449.Spec : Prop :=
   ∀ n, (P12766655845295545449.a n : ℤ) = A344747 (n + 1)
+
+theorem P12766655845295545449.correct : P12766655845295545449.Spec := by
+  intro n
+  simp only [A344747, Nat.add_sub_cancel]
 
 end A344747
 

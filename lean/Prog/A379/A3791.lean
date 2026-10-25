@@ -25,6 +25,7 @@ import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B001.C000
@@ -34,6 +35,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -4753,7 +4755,7 @@ end A379183
 /-!
 # A379184: a(n) = A379183(n) mod 2.
 
-The programs for A379184, the canonical program `A379184.P17108702326998689864` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379184 has offset 1).
+The programs for A379184, the canonical program `A379184.P17108702326998689864` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379184 has offset 1).
 
 The definition of A379184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4762,7 +4764,7 @@ The definition of A379184 is `conjectured`: the Lean definition is a formula tha
 
 `A379183(n+1)%2`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379184

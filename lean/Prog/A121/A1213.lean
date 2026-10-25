@@ -11226,7 +11226,7 @@ end A121387
 /-!
 # A121389: a(n) = 10^Fibonacci(n) - 1.
 
-The programs for A121389, the canonical program `A121389.P1164192073827013039` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121389 has offset 0).
+The programs for A121389, the canonical program `A121389.P1164192073827013039` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121389 has offset 0).
 
 The definition of A121389 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11235,7 +11235,7 @@ The definition of A121389 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)*a(n-1)+a(n-2)+a(n-1)` with `a(0)=0, a(1)=9`
 
-The canonical program, it is in `Seq.B000.C018`.
+The canonical program, it is in `Seq.B000.C017`.
 -/
 
 namespace A121389

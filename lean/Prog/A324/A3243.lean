@@ -7907,7 +7907,7 @@ end A324375.P7536496563838216645
 /-!
 # A324377: a(0) = 0; for n > 0, a(n) = A000265(A005187(n)).
 
-The programs for A324377, the canonical program `A324377.P15215388195248965144` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324377 has offset 0).
+The programs for A324377, the canonical program `A324377.P15215388195248965144` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324377 has offset 0).
 
 The definition of A324377 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5004 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7916,7 +7916,7 @@ The definition of A324377 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A005187(n), A191871(A005187(n)))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324377

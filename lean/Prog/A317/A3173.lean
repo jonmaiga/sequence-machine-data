@@ -100,7 +100,7 @@ set_option linter.unreachableTactic false
 /-!
 # A317300: Sequence obtained by taking the general formula for generalized k-gonal numbers: m*((k - 2)*m - k + 4)/2, where m = 0, +1, -1, +2, -2, +3, -3, ... and k >= 5. Here k = 0.
 
-The programs for A317300, the canonical program `A317300.P13438762233841147975` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317300 has offset 0).
+The programs for A317300, the canonical program `A317300.P13438762233841147975` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317300 has offset 0).
 
 The definition of A317300 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -109,7 +109,7 @@ The definition of A317300 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=1, a(2)=-3, a(3)=0, a(4)=-8`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317300
@@ -496,7 +496,7 @@ end A317300
 /-!
 # A317301: Sequence obtained by taking the general formula for generalized k-gonal numbers: m*((k - 2)*m - k + 4)/2, where m = 0, +1, -1, +2, -2, +3, -3, ... and k >= 5. Here k = 1.
 
-The programs for A317301, the canonical program `A317301.P10546817494848290581` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317301 has offset 0).
+The programs for A317301, the canonical program `A317301.P10546817494848290581` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317301 has offset 0).
 
 The definition of A317301 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -505,7 +505,7 @@ The definition of A317301 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=1, a(2)=-2, a(3)=1, a(4)=-5`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317301
@@ -1945,7 +1945,7 @@ end A317307.P14000535524325653206
 /-!
 # A317308: Primes p such that the largest Dyck path of the symmetric representation of sigma(p) has a central peak.
 
-The programs for A317308, the canonical program `A317308.P11964886592269125503` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317308 has offset 1).
+The programs for A317308, the canonical program `A317308.P11964886592269125503` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317308 has offset 1).
 
 The definition of A317308 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9056 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1954,7 +1954,7 @@ The definition of A317308 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[p?[floor((floor(sqrt(n))+3/2)²+n)], #]`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317308
@@ -2511,7 +2511,7 @@ end A317308
 /-!
 # A317309: Primes p such that the largest Dyck path of the symmetric representation of sigma(p) has a central valley.
 
-The programs for A317309, the canonical program `A317309.P7409434306546883799` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317309 has offset 1).
+The programs for A317309, the canonical program `A317309.P7409434306546883799` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317309 has offset 1).
 
 The definition of A317309 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8952 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2520,7 +2520,7 @@ The definition of A317309 is `conjectured`: the Lean definition is a formula tha
 
 `or(1, p?[floor(sqrt(n))*ceil(sqrt(n))+n])`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317309
@@ -3076,7 +3076,7 @@ end A317309
 /-!
 # A317311: Multiples of 11 and odd numbers interleaved.
 
-The programs for A317311, the canonical program `A317311.P6227971398230635534` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317311 has offset 0).
+The programs for A317311, the canonical program `A317311.P6227971398230635534` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317311 has offset 0).
 
 The definition of A317311 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3126,7 +3126,7 @@ end A317311
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=11, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317311
@@ -3561,7 +3561,7 @@ end A317311
 /-!
 # A317312: Multiples of 12 and odd numbers interleaved.
 
-The programs for A317312, the canonical program `A317312.P1976828774688156424` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317312 has offset 0).
+The programs for A317312, the canonical program `A317312.P1976828774688156424` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317312 has offset 0).
 
 The definition of A317312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3611,7 +3611,7 @@ end A317312
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=12, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317312
@@ -4052,7 +4052,7 @@ end A317312
 /-!
 # A317313: Multiples of 13 and odd numbers interleaved.
 
-The programs for A317313, the canonical program `A317313.P6616821738574118500` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317313 has offset 0).
+The programs for A317313, the canonical program `A317313.P6616821738574118500` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317313 has offset 0).
 
 The definition of A317313 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4102,7 +4102,7 @@ end A317313
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=13, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317313
@@ -4537,7 +4537,7 @@ end A317313
 /-!
 # A317314: Multiples of 14 and odd numbers interleaved.
 
-The programs for A317314, the canonical program `A317314.P6781213423248898032` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317314 has offset 0).
+The programs for A317314, the canonical program `A317314.P6781213423248898032` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317314 has offset 0).
 
 The definition of A317314 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4546,7 +4546,7 @@ The definition of A317314 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*n+3*n*(-1)^n`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317314
@@ -5025,7 +5025,7 @@ end A317314
 /-!
 # A317315: Multiples of 15 and odd numbers interleaved.
 
-The programs for A317315, the canonical program `A317315.P16996846850452903242` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317315 has offset 0).
+The programs for A317315, the canonical program `A317315.P16996846850452903242` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317315 has offset 0).
 
 The definition of A317315 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5034,7 +5034,7 @@ The definition of A317315 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=15, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317315
@@ -5489,7 +5489,7 @@ end A317315
 /-!
 # A317316: Multiples of 16 and odd numbers interleaved.
 
-The programs for A317316, the canonical program `A317316.P9152008076450725031` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317316 has offset 0).
+The programs for A317316, the canonical program `A317316.P9152008076450725031` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317316 has offset 0).
 
 The definition of A317316 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5498,7 +5498,7 @@ The definition of A317316 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=16, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317316
@@ -5961,7 +5961,7 @@ end A317316
 /-!
 # A317317: Multiples of 17 and odd numbers interleaved.
 
-The programs for A317317, the canonical program `A317317.P12661896457632763052` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317317 has offset 0).
+The programs for A317317, the canonical program `A317317.P12661896457632763052` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317317 has offset 0).
 
 The definition of A317317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5970,7 +5970,7 @@ The definition of A317317 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-2)-a(n-4)` with `a(0)=0, a(1)=1, a(2)=17, a(3)=3`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317317

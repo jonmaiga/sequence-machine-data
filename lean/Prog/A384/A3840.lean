@@ -4128,7 +4128,7 @@ end A384058
 /-!
 # A384063: Partial sums of A172471.
 
-The programs for A384063, the canonical program `A384063.P1749494280284243678` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384063 has offset 0).
+The programs for A384063, the canonical program `A384063.P1749494280284243678` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384063 has offset 0).
 
 The definition of A384063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4137,7 +4137,7 @@ The definition of A384063 is `conjectured`: the Lean definition is a formula tha
 
 `∑[floor(sqrt(2*n))]`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384063

@@ -28,7 +28,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -12113,7 +12112,7 @@ end A214995.P10370934944992913926
 /-!
 # A214996: Power floor-ceiling sequence of 2+sqrt(2).
 
-The programs for A214996, the canonical program `A214996.P5507889719808099188` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214996 has offset 0).
+The programs for A214996, the canonical program `A214996.P5507889719808099188` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214996 has offset 0).
 
 The definition of A214996 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12122,7 +12121,7 @@ The definition of A214996 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+2*a(n-2)-2*a(n-3)` with `a(0)=3, a(1)=11, a(2)=37`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A214996
@@ -12422,7 +12421,7 @@ end A214996
 /-!
 # A214997: Power ceiling-floor sequence of 2+sqrt(2).
 
-The programs for A214997, the canonical program `A214997.P77416991492476181` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214997 has offset 0).
+The programs for A214997, the canonical program `A214997.P77416991492476181` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214997 has offset 0).
 
 The definition of A214997 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12431,7 +12430,7 @@ The definition of A214997 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+2*a(n-2)-2*a(n-3)` with `a(0)=4, a(1)=13, a(2)=45`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A214997
@@ -12711,7 +12710,7 @@ end A214997
 /-!
 # A214998: Power ceiling-floor sequence of 2 + sqrt(3).
 
-The programs for A214998, the canonical program `A214998.P14770228354608180815` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214998 has offset 0).
+The programs for A214998, the canonical program `A214998.P14770228354608180815` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214998 has offset 0).
 
 The definition of A214998 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12720,7 +12719,7 @@ The definition of A214998 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^n+4*a(n-1)-a(n-2)` with `a(0)=4, a(1)=14`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A214998
@@ -13199,7 +13198,7 @@ end A214998
 /-!
 # A214999: Power floor sequence of sqrt(5).
 
-The programs for A214999, the canonical program `A214999.P7691134595613861023` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214999 has offset 0).
+The programs for A214999, the canonical program `A214999.P7691134595613861023` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214999 has offset 0).
 
 The definition of A214999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13208,7 +13207,7 @@ The definition of A214999 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(5)*a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A214999

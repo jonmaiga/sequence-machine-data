@@ -3220,23 +3220,50 @@ end A090018
 /-!
 # A090019: a(n) = (3*10^n + 2*0^n)/5.
 
-The programs for A090019, the canonical program `A090019.P5963741773363223307` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090019 has offset 0).
+The programs for A090019, the canonical program `A090019.P1651966097368188131` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090019 has offset 0).
 
-The definition of A090019 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A090019 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3*10^n+2*0^n)/5` (program `A090019.P5963741773363223307`, by `A090019.P5963741773363223307.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A090019.P5963741773363223307
 
 `(3*10^n+2*0^n)/5`
 
-The canonical program, it is in `Seq.B000.C014`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A090019.P5963741773363223307
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 * 10 ^ n + 2 * 0 ^ n : ℚ) / 5
+
+end
+
+end A090019.P5963741773363223307
 
 namespace A090019
 
 /-- `(3*10^n+2*0^n)/5` -/
 def P5963741773363223307.Spec : Prop :=
   ∀ n, P5963741773363223307.a n = (A090019 n : ℚ)
+
+theorem P5963741773363223307.correct : P5963741773363223307.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A090019, Nat.add_sub_cancel, A090019.P5963741773363223307.a, A090019.P1651966097368188131.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      simp only [A090019, Nat.add_sub_cancel, A090019.P5963741773363223307.a, A090019.P1651966097368188131.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 1 < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A090019
 
@@ -3266,23 +3293,19 @@ end A090019
 /-! ## A090019.P1651966097368188131
 
 `10*a(n-1)` with `a(0)=1, a(1)=6`
+
+The canonical program, it is in `Seq.B000.C014`.
 -/
-
-namespace A090019.P1651966097368188131
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 6] fun n a =>
-  10 * a (n - 1)
-
-end
-
-end A090019.P1651966097368188131
 
 namespace A090019
 
 /-- `10*a(n-1)` -/
 def P1651966097368188131.Spec : Prop :=
   ∀ n, (P1651966097368188131.a n : ℤ) = A090019 n
+
+theorem P1651966097368188131.correct : P1651966097368188131.Spec := by
+  intro n
+  simp only [A090019]
 
 end A090019
 

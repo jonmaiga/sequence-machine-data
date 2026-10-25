@@ -15556,14 +15556,14 @@ noncomputable section
 
 /-- A161346: a(n) = A161345(n)/3.
 
-Offset 1, canonical program `A161346.P17542918926957131899`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5135 terms. -/
+Offset 1, canonical program `A161346.P17542918926957131899`. Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A161345, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A161346 (n : ℕ) : ℤ :=
   (A161346.P17542918926957131899.a (n - 1) : ℤ)
 
 end
 
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5135 terms. -/
-def A161346.provenance : SequenceMachineLib.Provenance := .conjectured
+/-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A161345, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
+def A161346.provenance : SequenceMachineLib.Provenance := .conditional
 
 /-! ## A161606.P5398291330636313853
 

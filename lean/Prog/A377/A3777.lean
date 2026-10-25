@@ -36,6 +36,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2003,7 +2004,7 @@ end A377724.P15696151068169826445
 /-!
 # A377725: Length of the short leg of the unique primitive Pythagorean triple whose inradius is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A377725, the canonical program `A377725.P10966813579059079895` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377725 has offset 0).
+The programs for A377725, the canonical program `A377725.P10966813579059079895` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377725 has offset 0).
 
 The definition of A377725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2012,7 +2013,7 @@ The definition of A377725 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A002315(n)+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377725
@@ -2503,7 +2504,7 @@ end A377725
 /-!
 # A377726: Length of the long leg of the unique primitive Pythagorean triple (x,y,z) such that (x-y+z)/2 is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A377726, the canonical program `A377726.P10665330491965238398` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377726 has offset 0).
+The programs for A377726, the canonical program `A377726.P10665330491965238398` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377726 has offset 0).
 
 The definition of A377726 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2512,7 +2513,7 @@ The definition of A377726 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A002315(n)*(A002315(n)-1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377726
@@ -2802,7 +2803,7 @@ end A377727.P5228896402205122998
 /-!
 # A377728: Convolution of Leonardo numbers with Jacobsthal numbers.
 
-The programs for A377728, the canonical program `A377728.P7667033957001193499` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377728 has offset 0).
+The programs for A377728, the canonical program `A377728.P7667033957001193499` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377728 has offset 0).
 
 The definition of A377728 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2811,7 +2812,7 @@ The definition of A377728 is `conjectured`: the Lean definition is a formula tha
 
 `A126646(n)-A066629(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377728

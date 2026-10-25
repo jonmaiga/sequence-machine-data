@@ -2046,7 +2046,7 @@ end A028208
 /-!
 # A028209: Expansion of 1/((1-6x)(1-7x)(1-11x)(1-12x)).
 
-The programs for A028209, the canonical program `A028209.P10017964568648344345` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028209 has offset 0).
+The programs for A028209, the canonical program `A028209.P10017964568648344345` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028209 has offset 0).
 
 The definition of A028209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2055,7 +2055,7 @@ The definition of A028209 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `23*a(n-1)-132*a(n-2)+7^(n+1)-6^(n+1)` with `a(0)=1, a(1)=36`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A028209
@@ -2286,7 +2286,7 @@ end A028209
 /-!
 # A028210: Expansion of 1/((1-6x)(1-8x)(1-9x)(1-10x)).
 
-The programs for A028210, the canonical program `A028210.P1955904657294203338` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028210 has offset 0).
+The programs for A028210, the canonical program `A028210.P1955904657294203338` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028210 has offset 0).
 
 The definition of A028210 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2295,7 +2295,7 @@ The definition of A028210 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `19*a(n-1)-90*a(n-2)+4*8^n-3*6^n` with `a(0)=1, a(1)=33`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C005`.
 -/
 
 namespace A028210

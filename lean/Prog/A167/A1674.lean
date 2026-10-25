@@ -9058,7 +9058,7 @@ end A167470.P17602225838708477632
 
 The programs for A167471, the canonical program `A167471.P9399630394748707823` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167471 has offset 1).
 
-The definition of A167471 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A167471 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A166911(2*n)+A166911(2*n+1)` (program `A167471.P9399630394748707823`, by `A167471.P9399630394748707823.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A167471.P13505672314912564651
@@ -11779,23 +11779,44 @@ end A167484
 /-!
 # A167487: a(n) = n*(n + 3)/2 + 8.
 
-The programs for A167487, the canonical program `A167487.P15636407836105120602` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167487 has offset 0).
+The programs for A167487, the canonical program `A167487.P11731145125659151952` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167487 has offset 0).
 
-The definition of A167487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A167487 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+3)/2+8` (program `A167487.P15636407836105120602`, by `A167487.P15636407836105120602.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A167487.P15636407836105120602
 
 `n*(n+3)/2+8`
 
-The canonical program, it is in `Seq.B000.C024`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A167487.P15636407836105120602
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n * (n + 3) : ℚ) / 2 + 8
+
+end
+
+end A167487.P15636407836105120602
 
 namespace A167487
 
 /-- `n*(n+3)/2+8` -/
 def P15636407836105120602.Spec : Prop :=
   ∀ n, P15636407836105120602.a n = (A167487 n : ℚ)
+
+theorem P15636407836105120602.correct : P15636407836105120602.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A167487, A167487.P15636407836105120602.a, A167487.P11731145125659151952.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A167487, Nat.add_sub_cancel, A167487.P15636407836105120602.a, A167487.P11731145125659151952.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A167487
 
@@ -11952,24 +11973,18 @@ end A167487
 
 `ceil(a(n-1)+1+n)` with `a(0)=8`
 
-`ceil` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C024`.
 -/
-
-namespace A167487.P11731145125659151952
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [8] fun n a =>
-  a (n - 1) + 1 + n
-
-end
-
-end A167487.P11731145125659151952
 
 namespace A167487
 
 /-- `ceil(a(n-1)+1+n)` -/
 def P11731145125659151952.Spec : Prop :=
   ∀ n, (P11731145125659151952.a n : ℤ) = A167487 n
+
+theorem P11731145125659151952.correct : P11731145125659151952.Spec := by
+  intro n
+  simp only [A167487]
 
 end A167487
 

@@ -35,6 +35,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1962,7 +1963,7 @@ end A379726.P3424726738314193541
 /-!
 # A379728: Absolute value of first differences of paperfolding sequence A014577.
 
-The programs for A379728, the canonical program `A379728.P7822751634517358611` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379728 has offset 1).
+The programs for A379728, the canonical program `A379728.P7822751634517358611` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379728 has offset 1).
 
 The definition of A379728 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1971,7 +1972,7 @@ The definition of A379728 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A343173(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379728
@@ -2642,7 +2643,7 @@ end A379731.P10378881380391884009
 /-!
 # A379732: Decimal expansion of 207/208.
 
-The programs for A379732, the canonical program `A379732.P15172099030873058908` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379732 has offset 0).
+The programs for A379732, the canonical program `A379732.P15172099030873058908` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379732 has offset 0).
 
 The definition of A379732 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2651,7 +2652,7 @@ The definition of A379732 is `conjectured`: the Lean definition is a formula tha
 
 `9-A021212(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379732

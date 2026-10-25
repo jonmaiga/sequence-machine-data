@@ -15,7 +15,7 @@ import Seq.B000.C019
 import Seq.B000.C024
 import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C005
@@ -786,7 +786,7 @@ end A296412.P9658280177585382595
 /-!
 # A296413: a(1) = a(2) = a(3) = 1, a(4) = 4, a(5) = 3; a(n) = a(n-a(n-1)) + a(n-a(n-2)) + a(n-a(n-3)) for n > 5.
 
-The programs for A296413, the canonical program `A296413.P9929791154059946963` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296413 has offset 1).
+The programs for A296413, the canonical program `A296413.P9929791154059946963` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296413 has offset 1).
 
 The definition of A296413 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-a(n-1))+a(n-a(n-2))+a(n-a(n-3))` (program `A296413.P9929791154059946963`, by `A296413.P9929791154059946963.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -795,7 +795,7 @@ The definition of A296413 is `verified`: the Lean definition is proven equivalen
 
 `a(n-a(n-1))+a(n-a(n-2))+a(n-a(n-3))` with `a(0)=1, a(1)=1, a(2)=1, a(3)=4, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A296413
@@ -999,7 +999,7 @@ end A296419.P4877053227940499886
 /-!
 # A296420: Period of last digit of multiples of n.
 
-The programs for A296420, the canonical program `A296420.P9360605015701775770` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296420 has offset 0).
+The programs for A296420, the canonical program `A296420.P9360605015701775770` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296420 has offset 0).
 
 The definition of A296420 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1008,7 +1008,7 @@ The definition of A296420 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `10/gcd(n, 10)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A296420
@@ -1022,7 +1022,7 @@ end A296420
 /-!
 # A296421: a(1) = 1, a(2) = 2, a(3) = 3, a(4) = a(5) = 4, a(6) = a(7) = 6; a(n) = a(n-a(n-1)) + a(n-a(n-2)) + a(n-a(n-3)) for n > 7.
 
-The programs for A296421, the canonical program `A296421.P12777168366701374975` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296421 has offset 1).
+The programs for A296421, the canonical program `A296421.P12777168366701374975` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296421 has offset 1).
 
 The definition of A296421 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-a(n-1))+a(n-a(n-2))+a(n-a(n-3))` (program `A296421.P12777168366701374975`, by `A296421.P12777168366701374975.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1031,7 +1031,7 @@ The definition of A296421 is `verified`: the Lean definition is proven equivalen
 
 `a(n-a(n-1))+a(n-a(n-2))+a(n-a(n-3))` with `a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=4, a(5)=6, a(6)=6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A296421
@@ -1372,7 +1372,7 @@ end A296422.P6588492277865561987
 /-!
 # A296440: a(1) = 2, a(2) = a(3) = 3, a(4) = 4, a(5) = a(6) = 6; a(n) = a(n-a(n-1)) + a(n-a(n-2)) + a(n-a(n-3)) for n > 6.
 
-The programs for A296440, the canonical program `A296440.P16905173813408511277` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296440 has offset 1).
+The programs for A296440, the canonical program `A296440.P16905173813408511277` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296440 has offset 1).
 
 The definition of A296440 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-a(n-1))+a(n-a(n-2))+a(n-a(n-3))` (program `A296440.P16905173813408511277`, by `A296440.P16905173813408511277.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1381,7 +1381,7 @@ The definition of A296440 is `verified`: the Lean definition is proven equivalen
 
 `a(n-a(n-1))+a(n-a(n-2))+a(n-a(n-3))` with `a(0)=2, a(1)=3, a(2)=3, a(3)=4, a(4)=6, a(5)=6`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C034`.
 -/
 
 namespace A296440

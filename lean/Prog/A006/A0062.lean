@@ -38,7 +38,6 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -47,6 +46,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -4166,23 +4166,51 @@ end A006233.P2128345767841392606
 /-!
 # A006234: a(n) = n*3^(n-4).
 
-The programs for A006234, the canonical program `A006234.P187199697909723824` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006234 has offset 3).
+The programs for A006234, the canonical program `A006234.P9582057023109216560` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006234 has offset 3).
 
-The definition of A006234 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A006234 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+3)*3^(n-1)` (program `A006234.P187199697909723824`, by `A006234.P187199697909723824.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A006234.P187199697909723824
 
 `(n+3)*3^(n-1)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A006234.P187199697909723824
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 3 : ℚ) * (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ)
+
+end
+
+end A006234.P187199697909723824
 
 namespace A006234
 
 /-- `(n+3)*3^(n-1)` -/
 def P187199697909723824.Spec : Prop :=
   ∀ n, P187199697909723824.a n = (A006234 (n + 3) : ℚ)
+
+theorem P187199697909723824.correct : P187199697909723824.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A006234, Nat.add_sub_cancel, A006234.P187199697909723824.a, A006234.P9582057023109216560.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A006234, Nat.add_sub_cancel, A006234.P187199697909723824.a, A006234.P9582057023109216560.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A006234
 
@@ -4284,23 +4312,19 @@ end A006234
 /-! ## A006234.P9582057023109216560
 
 `6*a(n-1)-9*a(n-2)` with `a(0)=1, a(1)=4`
+
+The canonical program, it is in `Seq.B000.C001`.
 -/
-
-namespace A006234.P9582057023109216560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 4] fun n a =>
-  6 * a (n - 1) - 9 * a (n - 2)
-
-end
-
-end A006234.P9582057023109216560
 
 namespace A006234
 
 /-- `6*a(n-1)-9*a(n-2)` -/
 def P9582057023109216560.Spec : Prop :=
   ∀ n, P9582057023109216560.a n = A006234 (n + 3)
+
+theorem P9582057023109216560.correct : P9582057023109216560.Spec := by
+  intro n
+  simp only [A006234, Nat.add_sub_cancel]
 
 end A006234
 

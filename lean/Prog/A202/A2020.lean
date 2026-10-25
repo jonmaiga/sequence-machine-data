@@ -13,6 +13,7 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -1032,7 +1033,7 @@ end A202011.P7347825335370057473
 /-!
 # A202012: Expansion of (1-x+x^2)/((1-x)(1-x-x^2-x^3)).
 
-The programs for A202012, the canonical program `A202012.P14857273798622555547` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202012 has offset 0).
+The programs for A202012, the canonical program `A202012.P14857273798622555547` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202012 has offset 0).
 
 The definition of A202012 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x+x^2)/(1-2x+x^4))` (program `A202012.P14857273798622555547`, by `A202012.P14857273798622555547.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1041,7 +1042,7 @@ The definition of A202012 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x+x^2)/(1-2x+x^4))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202012
@@ -1937,7 +1938,7 @@ end A202016.P11178363406324144244
 /-!
 # A202018: a(n) = n^2 + n + 41.
 
-The programs for A202018, the canonical program `A202018.P5130107977223247330` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202018 has offset 0).
+The programs for A202018, the canonical program `A202018.P5130107977223247330` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202018 has offset 0).
 
 The definition of A202018 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+n+41` (program `A202018.P5130107977223247330`, by `A202018.P5130107977223247330.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1946,7 +1947,7 @@ The definition of A202018 is `verified`: the Lean definition is proven equivalen
 
 `n²+n+41`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202018

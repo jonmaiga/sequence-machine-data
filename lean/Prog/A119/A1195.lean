@@ -4768,7 +4768,7 @@ end A119573.P13469718245480751049
 /-!
 # A119574: a(n) = binomial(2*n,n)*(n+2)^2/(n+1).
 
-The programs for A119574, the canonical program `A119574.P14004957112172224916` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119574 has offset 0).
+The programs for A119574, the canonical program `A119574.P14004957112172224916` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119574 has offset 0).
 
 The definition of A119574 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4777,7 +4777,7 @@ The definition of A119574 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000108(n)*A000290(n+2)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119574
@@ -6214,7 +6214,7 @@ end A119576
 /-!
 # A119577: a(n) = (n+n^2+n^3)*(binomial(2*n,n))/2.
 
-The programs for A119577, the canonical program `A119577.P2109827519578747427` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119577 has offset 0).
+The programs for A119577, the canonical program `A119577.P2109827519578747427` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119577 has offset 0).
 
 The definition of A119577 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6223,7 +6223,7 @@ The definition of A119577 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A119576(n)/2`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119577
@@ -6694,7 +6694,7 @@ end A119577
 /-!
 # A119578: a(n) = (n + n^2)*binomial(2*n,n)/2.
 
-The programs for A119578, the canonical program `A119578.P16414005969838283328` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119578 has offset 0).
+The programs for A119578, the canonical program `A119578.P16414005969838283328` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119578 has offset 0).
 
 The definition of A119578 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+n²)*C(2*n, n)/2` (program `A119578.P7834998685427539903`, by `A119578.P7834998685427539903.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6703,7 +6703,7 @@ The definition of A119578 is `verified`: the Lean definition is proven equivalen
 
 `A000217(n)*A000984(n)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119578
@@ -8262,7 +8262,7 @@ end A119580
 /-!
 # A119581: a(n) = (2*n+n^2)*(binomial(2*n,n))/2.
 
-The programs for A119581, the canonical program `A119581.P15688745875726880084` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119581 has offset 0).
+The programs for A119581, the canonical program `A119581.P15688745875726880084` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119581 has offset 0).
 
 The definition of A119581 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8271,7 +8271,7 @@ The definition of A119581 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005563(n)*A000984(n)/2`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119581
@@ -8769,7 +8769,7 @@ end A119581
 /-!
 # A119582: a(n) = (n^2+n^3)*(binomial(2*n,n))/2.
 
-The programs for A119582, the canonical program `A119582.P16220204266755305550` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119582 has offset 0).
+The programs for A119582, the canonical program `A119582.P16220204266755305550` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119582 has offset 0).
 
 The definition of A119582 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8778,7 +8778,7 @@ The definition of A119582 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A011379(n)*A000984(n)/2`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119582

@@ -2511,7 +2511,7 @@ end A016316
 /-!
 # A016317: Expansion of 1/((1-2x)(1-8x)(1-10x)).
 
-The programs for A016317, the canonical program `A016317.P16055473397431174586` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016317 has offset 0).
+The programs for A016317, the canonical program `A016317.P16055473397431174586` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016317 has offset 0).
 
 The definition of A016317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2561,7 +2561,7 @@ end A016317
 
 `18*a(n-1)-80*a(n-2)+2^n` with `a(0)=1, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C003`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A016317

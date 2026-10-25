@@ -14,7 +14,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -2623,7 +2622,7 @@ end A278932.P8081671846486614288
 /-!
 # A278933: Number of 2 X 2 matrices with entries in {0,1,...,n} and permanent = trace with no entry repeated.
 
-The programs for A278933, the canonical program `A278933.P2526544740831554129` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278933 has offset 0).
+The programs for A278933, the canonical program `A278933.P2526544740831554129` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278933 has offset 0).
 
 The definition of A278933 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2632,7 +2631,7 @@ The definition of A278933 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*A200213(A028310(n))]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A278933
@@ -3286,7 +3285,7 @@ end A278945
 /-!
 # A278947: Expansion of Sum_{k>=1} (k*(5*k - 3)/2)*x^k/(1 - x^k).
 
-The programs for A278947, the canonical program `A278947.P6960136946126875321` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278947 has offset 0).
+The programs for A278947, the canonical program `A278947.P6960136946126875321` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278947 has offset 0).
 
 The definition of A278947 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3295,7 +3294,7 @@ The definition of A278947 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n, A000566(#)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A278947

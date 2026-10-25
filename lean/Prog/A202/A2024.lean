@@ -1039,7 +1039,7 @@ end A202413.P465618206302675115
 /-!
 # A202414: Number of (n+2) X 3 binary arrays with no more than one of any consecutive three bits set in any row or column.
 
-The programs for A202414, the canonical program `A202414.P4200359668891302172` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202414 has offset 1).
+The programs for A202414, the canonical program `A202414.P4200359668891302172` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202414 has offset 1).
 
 The definition of A202414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1048,7 +1048,7 @@ The definition of A202414 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+a(n-2)+3*a(n-3)+a(n-4)` with `a(0)=34, a(1)=94, a(2)=265, a(3)=739`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202414
@@ -2595,7 +2595,7 @@ end A202439.P18424444981148604641
 /-!
 # A202440: Number of (n+2) X 3 binary arrays avoiding patterns 001 and 110 in rows, columns and nw-to-se diagonals.
 
-The programs for A202440, the canonical program `A202440.P13954623535123565726` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202440 has offset 1).
+The programs for A202440, the canonical program `A202440.P13954623535123565726` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202440 has offset 1).
 
 The definition of A202440 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2604,7 +2604,7 @@ The definition of A202440 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4)` with `a(0)=80, a(1)=138, a(2)=224, a(3)=338, a(4)=484`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202440
@@ -3808,7 +3808,7 @@ end A202454.P229955756602586695
 /-!
 # A202455: Number of (n+2) X 4 binary arrays with consecutive windows of three bits considered as a binary number nondecreasing in every row and column.
 
-The programs for A202455, the canonical program `A202455.P6900419488968996005` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202455 has offset 1).
+The programs for A202455, the canonical program `A202455.P6900419488968996005` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202455 has offset 1).
 
 The definition of A202455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3817,7 +3817,7 @@ The definition of A202455 is `conjectured`: the Lean definition is a formula tha
 
 `1/4*(n+1)^4+15/2*(n+1)^3+229/4*(n+1)²+237*(n+1)+427`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202455
@@ -4867,7 +4867,7 @@ end A202460.P10365895955838720891
 /-!
 # A202462: a(n) = Sum_{j=1..n} Sum_{i=1..n} F(i,j), where F is the Fibonacci fusion array of A202453.
 
-The programs for A202462, the canonical program `A202462.P2011727991851401650` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202462 has offset 1).
+The programs for A202462, the canonical program `A202462.P2011727991851401650` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202462 has offset 1).
 
 The definition of A202462 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4905,7 +4905,7 @@ end A202462
 
 `∑[∑[a(n-1)+a(n-2)]²]` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202462

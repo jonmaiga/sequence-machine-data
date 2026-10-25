@@ -3453,7 +3453,7 @@ end A324046
 /-!
 # A324047: a(n) = A000203(n) - A106316(n).
 
-The programs for A324047, the canonical program `A324047.P16299384145559739800` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324047 has offset 1).
+The programs for A324047, the canonical program `A324047.P16299384145559739800` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324047 has offset 1).
 
 The definition of A324047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3510,7 +3510,7 @@ end A324047
 
 `A000203(n+1)-A106315(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324047

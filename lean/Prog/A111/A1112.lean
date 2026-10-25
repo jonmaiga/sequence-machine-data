@@ -32,7 +32,6 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
@@ -16279,7 +16278,7 @@ end A111296.P5883914995755389525
 /-!
 # A111297: First differences of A109975.
 
-The programs for A111297, the canonical program `A111297.P8247782108251979034` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111297 has offset 0).
+The programs for A111297, the canonical program `A111297.P8247782108251979034` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111297 has offset 0).
 
 The definition of A111297 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -16288,7 +16287,7 @@ The definition of A111297 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+2^(n-3)` with `a(0)=1, a(1)=2, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C017`.
+The canonical program, it is in `Seq.B000.C016`.
 -/
 
 namespace A111297

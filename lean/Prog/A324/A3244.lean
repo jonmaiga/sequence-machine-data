@@ -36,7 +36,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -2133,7 +2132,7 @@ end A324444.P10568600227281278534
 /-!
 # A324445: Number of labeled cyclic chord diagrams with n chords such that the minimal chord length equals one.
 
-The programs for A324445, the canonical program `A324445.P6189098538037595142` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324445 has offset 1).
+The programs for A324445, the canonical program `A324445.P6189098538037595142` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324445 has offset 1).
 
 The definition of A324445 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2142,7 +2141,7 @@ The definition of A324445 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001147(n+1)-A003436(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324445
@@ -6661,7 +6660,7 @@ end A324486.P6256159379372259086
 /-!
 # A324487: a(n) = A001350(n)^3.
 
-The programs for A324487, the canonical program `A324487.P9094464048076715283` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324487 has offset 0).
+The programs for A324487, the canonical program `A324487.P9094464048076715283` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324487 has offset 0).
 
 The definition of A324487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6670,7 +6669,7 @@ The definition of A324487 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001350(n)^3`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324487

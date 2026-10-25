@@ -29,7 +29,6 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -9793,17 +9792,25 @@ end A168663
 /-!
 # A168664: a(n) = n^7*(n^7 + 1)/2.
 
-The programs for A168664, the canonical program `A168664.P5989370137945781281` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168664 has offset 0).
+The programs for A168664, the canonical program `A168664.P6794985926852625436` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168664 has offset 0).
 
-The definition of A168664 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A168664 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^7*(n^7+1)/2` (program `A168664.P15610395647917150531`, by `A168664.P15610395647917150531.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A168664.P5989370137945781281
 
 `(n^14+n^7)/2`
-
-The canonical program, it is in `Seq.B000.C024`.
 -/
+
+namespace A168664.P5989370137945781281
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 14 + n ^ 7 : ℚ) / 2
+
+end
+
+end A168664.P5989370137945781281
 
 namespace A168664
 
@@ -9836,28 +9843,30 @@ namespace A168664
 def P15610395647917150531.Spec : Prop :=
   ∀ n, P15610395647917150531.a n = (A168664 n : ℚ)
 
+theorem P15610395647917150531.correct : P15610395647917150531.Spec := by
+  intro n
+  simp only [A168664, Nat.add_sub_cancel, A168664.P15610395647917150531.a, A168664.P6794985926852625436.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A168664
 
 /-! ## A168664.P6794985926852625436
 
 `C(n^7+1, 2)`
+
+The canonical program, it is in `Seq.B000.C024`.
 -/
-
-namespace A168664.P6794985926852625436
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n ^ 7 + 1) 2
-
-end
-
-end A168664.P6794985926852625436
 
 namespace A168664
 
 /-- `C(n^7+1, 2)` -/
 def P6794985926852625436.Spec : Prop :=
   ∀ n, (P6794985926852625436.a n : ℤ) = A168664 n
+
+theorem P6794985926852625436.correct : P6794985926852625436.Spec := by
+  intro n
+  simp only [A168664]
 
 end A168664
 
@@ -10278,23 +10287,39 @@ end A168665
 /-!
 # A168666: a(n) = n^7*(n^9 + 1)/2.
 
-The programs for A168666, the canonical program `A168666.P4112952084173959425` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168666 has offset 0).
+The programs for A168666, the canonical program `A168666.P14135901475622080394` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168666 has offset 0).
 
-The definition of A168666 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A168666 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^7*(n^9+1)/2` (program `A168666.P4112952084173959425`, by `A168666.P4112952084173959425.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A168666.P4112952084173959425
 
 `n^7*(n^9+1)/2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A168666.P4112952084173959425
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 7 * (n ^ 9 + 1) : ℚ) / 2
+
+end
+
+end A168666.P4112952084173959425
 
 namespace A168666
 
 /-- `n^7*(n^9+1)/2` -/
 def P4112952084173959425.Spec : Prop :=
   ∀ n, P4112952084173959425.a n = (A168666 n : ℚ)
+
+theorem P4112952084173959425.correct : P4112952084173959425.Spec := by
+  intro n
+  simp only [A168666, Nat.add_sub_cancel, A168666.P4112952084173959425.a, A168666.P14135901475622080394.a, A060891, A060891.P3794235143874389866.a, A168660, A168660.P1508116402199283379.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A168666
 
@@ -10393,23 +10418,19 @@ end A168666
 /-! ## A168666.P14135901475622080394
 
 `A060891(n)*A168660(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
-
-namespace A168666.P14135901475622080394
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060891 n * A168660 n
-
-end
-
-end A168666.P14135901475622080394
 
 namespace A168666
 
 /-- `A060891(n)*A168660(n)` -/
 def P14135901475622080394.Spec : Prop :=
   ∀ n, P14135901475622080394.a n = A168666 n
+
+theorem P14135901475622080394.correct : P14135901475622080394.Spec := by
+  intro n
+  simp only [A168666]
 
 end A168666
 
@@ -10508,23 +10529,39 @@ end A168666
 /-!
 # A168667: a(n) = n^7*(n^10 + 1)/2.
 
-The programs for A168667, the canonical program `A168667.P16640913663198838941` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168667 has offset 0).
+The programs for A168667, the canonical program `A168667.P16359901788460067128` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168667 has offset 0).
 
-The definition of A168667 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A168667 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^7*(n^10+1)/2` (program `A168667.P16640913663198838941`, by `A168667.P16640913663198838941.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A168667.P16640913663198838941
 
 `n^7*(n^10+1)/2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A168667.P16640913663198838941
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 7 * (n ^ 10 + 1) : ℚ) / 2
+
+end
+
+end A168667.P16640913663198838941
 
 namespace A168667
 
 /-- `n^7*(n^10+1)/2` -/
 def P16640913663198838941.Spec : Prop :=
   ∀ n, P16640913663198838941.a n = (A168667 n : ℚ)
+
+theorem P16640913663198838941.correct : P16640913663198838941.Spec := by
+  intro n
+  simp only [A168667, Nat.add_sub_cancel, A168667.P16640913663198838941.a, A168667.P16359901788460067128.a, A060892, A060892.P2885025687055146704.a, A168636, A168636.P5475317110681192900.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A168667
 
@@ -10600,23 +10637,19 @@ end A168667
 /-! ## A168667.P16359901788460067128
 
 `A060892(n)*A168636(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
-
-namespace A168667.P16359901788460067128
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060892 n * A168636 n
-
-end
-
-end A168667.P16359901788460067128
 
 namespace A168667
 
 /-- `A060892(n)*A168636(n)` -/
 def P16359901788460067128.Spec : Prop :=
   ∀ n, P16359901788460067128.a n = A168667 n
+
+theorem P16359901788460067128.correct : P16359901788460067128.Spec := by
+  intro n
+  simp only [A168667]
 
 end A168667
 
@@ -13864,17 +13897,27 @@ end A168674
 /-!
 # A168675: a(n) = n^8*(n + 1)/2.
 
-The programs for A168675, the canonical program `A168675.P3772020338645253373` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168675 has offset 0).
+The programs for A168675, the canonical program `A168675.P16758061815138301769` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A168675 has offset 0).
 
-The definition of A168675 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A168675 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^8*(n+1)/2` (program `A168675.P3772020338645253373`, by `A168675.P3772020338645253373.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A168675.P3772020338645253373
 
 `n^8*(n+1)/2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A168675.P3772020338645253373
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 8 * (n + 1) : ℚ) / 2
+
+end
+
+end A168675.P3772020338645253373
 
 namespace A168675
 
@@ -13882,28 +13925,30 @@ namespace A168675
 def P3772020338645253373.Spec : Prop :=
   ∀ n, P3772020338645253373.a n = (A168675 n : ℚ)
 
+theorem P3772020338645253373.correct : P3772020338645253373.Spec := by
+  intro n
+  simp only [A168675, Nat.add_sub_cancel, A168675.P3772020338645253373.a, A168675.P16758061815138301769.a, A168635, A168635.P17459078224104995455.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A168675
 
 /-! ## A168675.P16758061815138301769
 
 `n*A168635(n)`
+
+The canonical program, it is in `Seq.B001.C005`.
 -/
-
-namespace A168675.P16758061815138301769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A168635 n
-
-end
-
-end A168675.P16758061815138301769
 
 namespace A168675
 
 /-- `n*A168635(n)` -/
 def P16758061815138301769.Spec : Prop :=
   ∀ n, P16758061815138301769.a n = A168675 n
+
+theorem P16758061815138301769.correct : P16758061815138301769.Spec := by
+  intro n
+  simp only [A168675]
 
 end A168675
 

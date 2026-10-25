@@ -2394,7 +2394,7 @@ end A228219
 /-!
 # A228220: Number of second differences of arrays of length 5 of numbers in 0..n.
 
-The programs for A228220, the canonical program `A228220.P15864215752540009007` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228220 has offset 1).
+The programs for A228220, the canonical program `A228220.P15864215752540009007` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228220 has offset 1).
 
 The definition of A228220 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2403,7 +2403,7 @@ The definition of A228220 is `conjectured`: the Lean definition is a formula tha
 
 `A069131(n+1)+A068236(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228220
@@ -3549,7 +3549,7 @@ end A228227
 /-!
 # A228228: Primes congruent to {3, 5, 13, 15} mod 16.
 
-The programs for A228228, the canonical program `A228228.P9666619117873136366` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228228 has offset 1).
+The programs for A228228, the canonical program `A228228.P9666619117873136366` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228228 has offset 1).
 
 The definition of A228228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3584,7 +3584,7 @@ end A228228
 
 `p?[2*A047554(n+1)+1]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228228
@@ -10046,7 +10046,7 @@ end A228291
 /-!
 # A228292: a(n) = Sum_{k=1..8} n^k.
 
-The programs for A228292, the canonical program `A228292.P17749480414567481058` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228292 has offset 0).
+The programs for A228292, the canonical program `A228292.P17749480414567481058` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228292 has offset 0).
 
 The definition of A228292 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10055,7 +10055,7 @@ The definition of A228292 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*A053717(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228292
@@ -10554,7 +10554,7 @@ end A228292
 /-!
 # A228293: a(n) = Sum_{k=1..9} n^k.
 
-The programs for A228293, the canonical program `A228293.P3194510713492956610` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228293 has offset 0).
+The programs for A228293, the canonical program `A228293.P3194510713492956610` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228293 has offset 0).
 
 The definition of A228293 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10563,7 +10563,7 @@ The definition of A228293 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*A102909(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228293
@@ -11514,7 +11514,7 @@ end A228295
 /-!
 # A228297: Generalized meta-Fibonacci sequence a(n) with parameters s=0 and k=5.
 
-The programs for A228297, the canonical program `A228297.P606971277463254707` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228297 has offset 1).
+The programs for A228297, the canonical program `A228297.P606971277463254707` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228297 has offset 1).
 
 The definition of A228297 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007845, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11523,7 +11523,7 @@ The definition of A228297 is `conditional`: the Lean definition is an OEIS formu
 
 `A007845(n+1)/5`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228297
@@ -11874,7 +11874,7 @@ end A228297
 /-!
 # A228298: Generalized meta-Fibonacci sequence a(n) with parameters s=0 and k=7.
 
-The programs for A228298, the canonical program `A228298.P13462693144235860007` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228298 has offset 1).
+The programs for A228298, the canonical program `A228298.P13462693144235860007` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228298 has offset 1).
 
 The definition of A228298 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12009,7 +12009,7 @@ end A228298
 
 `A145569(a(n-1))+a(n-a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228298

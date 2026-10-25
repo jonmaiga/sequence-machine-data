@@ -1887,7 +1887,7 @@ end A279027.P11438874891245187042
 /-!
 # A279028: Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 129", based on the 5-celled von Neumann neighborhood.
 
-The programs for A279028, the canonical program `A279028.P3494808504256830670` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279028 has offset 0).
+The programs for A279028, the canonical program `A279028.P3494808504256830670` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279028 has offset 0).
 
 The definition of A279028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2076,7 +2076,7 @@ end A279028
 
 `lcm(A056594(n), A266508(n))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279028
@@ -4159,7 +4159,7 @@ end A279045
 /-!
 # A279046: a(n) = A000178(n) * Sum_{k=0..n} (-1)^k/k!.
 
-The programs for A279046, the canonical program `A279046.P3303134512408684315` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279046 has offset 0).
+The programs for A279046, the canonical program `A279046.P3303134512408684315` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279046 has offset 0).
 
 The definition of A279046 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4168,7 +4168,7 @@ The definition of A279046 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!*a(n-1)+(-1)^n*A000178(n-1)` with `a(0)=1, a(1)=0, a(2)=1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279046
@@ -5826,7 +5826,7 @@ end A279060
 /-!
 # A279061: Number of divisors of n of the form 7*k + 1.
 
-The programs for A279061, the canonical program `A279061.P5329778650763394169` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279061 has offset 0).
+The programs for A279061, the canonical program `A279061.P5329778650763394169` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279061 has offset 0).
 
 The definition of A279061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5835,7 +5835,7 @@ The definition of A279061 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n, A082784(#-1)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279061

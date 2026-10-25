@@ -37,7 +37,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2775,7 +2775,7 @@ end A324244.P4257638826404392959
 /-!
 # A324245: The modified Collatz map considered by Vaillant and Delarue.
 
-The programs for A324245, the canonical program `A324245.P9435010914356498556` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324245 has offset 0).
+The programs for A324245, the canonical program `A324245.P9435010914356498556` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324245 has offset 0).
 
 The definition of A324245 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2836,7 +2836,7 @@ end A324245
 
 `A342131(n)%A324036(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324245
@@ -4483,7 +4483,7 @@ end A324272
 /-!
 # A324275: Numbers k for which A324274(k) is 0, i.e., starting squares in A324274 that yield a path of infinite length.
 
-The programs for A324275, the canonical program `A324275.P309282359006458569` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324275 has offset 1).
+The programs for A324275, the canonical program `A324275.P309282359006458569` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324275 has offset 1).
 
 The definition of A324275 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6665 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4492,7 +4492,7 @@ The definition of A324275 is `conjectured`: the Lean definition is a formula tha
 
 `A007590(A007494(n+2))-(n+2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A324275

@@ -36,6 +36,7 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C009
@@ -2728,7 +2729,7 @@ end A339123.P1291961575939117981
 /-!
 # A339124: a(n) is the number of squares at distance n from the central square of a golden square fractal.
 
-The programs for A339124, the canonical program `A339124.P11922231893244906762` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339124 has offset 0).
+The programs for A339124, the canonical program `A339124.P11922231893244906762` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339124 has offset 0).
 
 The definition of A339124 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2737,7 +2738,7 @@ The definition of A339124 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-2*a(n-2)+2*a(n-4)` with `a(0)=1, a(1)=4, a(2)=12, a(3)=28, a(4)=60`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A339124
@@ -3311,7 +3312,7 @@ end A339134.P16252200899388841266
 /-!
 # A339136: Number of (undirected) cycles in the graph C_3 X P_n.
 
-The programs for A339136, the canonical program `A339136.P15022024842046345411` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339136 has offset 1).
+The programs for A339136, the canonical program `A339136.P15022024842046345411` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339136 has offset 1).
 
 The definition of A339136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3320,7 +3321,7 @@ The definition of A339136 is `conjectured`: the Lean definition is a formula tha
 
 `∑[6*3^n-5]`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A339136
@@ -5850,7 +5851,7 @@ end A339180.P6813488557428058969
 /-!
 # A339183: Number of partitions of n into two parts such that the smaller part is a nonzero square.
 
-The programs for A339183, the canonical program `A339183.P14330859921888403389` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339183 has offset 0).
+The programs for A339183, the canonical program `A339183.P14330859921888403389` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339183 has offset 0).
 
 The definition of A339183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5859,7 +5860,7 @@ The definition of A339183 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n/2))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A339183
@@ -7738,7 +7739,7 @@ end A339195.P9231246778905207546
 /-!
 # A339196: Number of (undirected) cycles on the n X 2 king graph.
 
-The programs for A339196, the canonical program `A339196.P5186645465537012145` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339196 has offset 2).
+The programs for A339196, the canonical program `A339196.P5186645465537012145` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339196 has offset 2).
 
 The definition of A339196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 328 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7747,7 +7748,7 @@ The definition of A339196 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2^(n+4)-9]`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A339196

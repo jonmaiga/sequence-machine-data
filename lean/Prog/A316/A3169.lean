@@ -2433,7 +2433,7 @@ end A316936.P7514784829963090216
 /-!
 # A316937: a(n) = 3*a(n-1) - a(n-2) - 2*a(n-3) for n > 2, a(0)=3, a(1)=10, a(2)=26.
 
-The programs for A316937, the canonical program `A316937.P16112328070206874310` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316937 has offset 0).
+The programs for A316937, the canonical program `A316937.P16112328070206874310` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316937 has offset 0).
 
 The definition of A316937 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*a(n-1)-a(n-2)-2*a(n-3)` (program `A316937.P16112328070206874310`, by `A316937.P16112328070206874310.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2442,7 +2442,7 @@ The definition of A316937 is `verified`: the Lean definition is proven equivalen
 
 `3*a(n-1)-a(n-2)-2*a(n-3)` with `a(0)=3, a(1)=10, a(2)=26`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A316937
@@ -5146,7 +5146,7 @@ end A316965
 /-!
 # A316966: Same as A316671, except numbering of the squares starts at 0 rather than 1.
 
-The programs for A316966, the canonical program `A316966.P2954345592620064588` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316966 has offset 0).
+The programs for A316966, the canonical program `A316966.P2954345592620064588` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316966 has offset 0).
 
 The definition of A316966 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5155,7 +5155,7 @@ The definition of A316966 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+(n+2)*(n-(-1)^n)/2`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A316966

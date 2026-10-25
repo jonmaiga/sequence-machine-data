@@ -41,7 +41,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2003,7 +2003,7 @@ end A323844.P3370269067992705806
 /-!
 # A323845: Number of inequivalent height 1 degree n polynomials with nonzero constant term.
 
-The programs for A323845, the canonical program `A323845.P11496382381672516873` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323845 has offset 1).
+The programs for A323845, the canonical program `A323845.P11496382381672516873` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323845 has offset 1).
 
 The definition of A323845 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2035,7 +2035,7 @@ end A323845
 
 `A167993(n+1)+A056449(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A323845
@@ -2148,23 +2148,39 @@ end A323845
 /-!
 # A323847: a(n) = (n-1)*(n-2)*(n^2+9*n+12)/24.
 
-The programs for A323847, the canonical program `A323847.P6682147477261859965` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323847 has offset 0).
+The programs for A323847, the canonical program `A323847.P17379173831627455529` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323847 has offset 0).
 
-The definition of A323847 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A323847 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n-1)*(n-2)*(n²+9*n+12)/24` (program `A323847.P6682147477261859965`, by `A323847.P6682147477261859965.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A323847.P6682147477261859965
 
 `(n-1)*(n-2)*(n²+9*n+12)/24`
 
-The canonical program, it is in `Seq.B000.C036`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A323847.P6682147477261859965
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n : ℤ) - 1) * ((n : ℤ) - 2) * (n ^ 2 + 9 * n + 12 : ℤ) : ℚ) / 24
+
+end
+
+end A323847.P6682147477261859965
 
 namespace A323847
 
 /-- `(n-1)*(n-2)*(n²+9*n+12)/24` -/
 def P6682147477261859965.Spec : Prop :=
   ∀ n, P6682147477261859965.a n = (A323847 n : ℚ)
+
+theorem P6682147477261859965.correct : P6682147477261859965.Spec := by
+  intro n
+  simp only [A323847, Nat.add_sub_cancel, A323847.P6682147477261859965.a, A323847.P17379173831627455529.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A323847
 
@@ -2226,23 +2242,19 @@ end A323847
 /-! ## A323847.P17379173831627455529
 
 `C(n+3, 4)-(n²+n-1)`
+
+The canonical program, it is in `Seq.B000.C036`.
 -/
-
-namespace A323847.P17379173831627455529
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (n + 3) 4 : ℤ) - ((n ^ 2 : ℤ) + ((n : ℤ) - 1))
-
-end
-
-end A323847.P17379173831627455529
 
 namespace A323847
 
 /-- `C(n+3, 4)-(n²+n-1)` -/
 def P17379173831627455529.Spec : Prop :=
   ∀ n, P17379173831627455529.a n = A323847 n
+
+theorem P17379173831627455529.correct : P17379173831627455529.Spec := by
+  intro n
+  simp only [A323847]
 
 end A323847
 

@@ -26,6 +26,7 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -3897,7 +3898,7 @@ end A384197
 /-!
 # A384198: a(n) = 3^(n-3)*(binomial(n,3) + 3*binomial(n,2) + 9*n + 27).
 
-The programs for A384198, the canonical program `A384198.P14588015488054928887` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384198 has offset 0).
+The programs for A384198, the canonical program `A384198.P14588015488054928887` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384198 has offset 0).
 
 The definition of A384198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3906,7 +3907,7 @@ The definition of A384198 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^(n-3)*(C(n, 3)+3*C(n, 2)+9*n+27)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384198
@@ -3943,7 +3944,7 @@ end A384198
 /-!
 # A384199: Expansion of e.g.f. log(1 + x)/(1 - 3*x).
 
-The programs for A384199, the canonical program `A384199.P14033144826585406245` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384199 has offset 0).
+The programs for A384199, the canonical program `A384199.P14033144826585406245` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384199 has offset 0).
 
 The definition of A384199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3952,7 +3953,7 @@ The definition of A384199 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*n*a(n-1)-(-1)^n*(n-1)!` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384199

@@ -9455,7 +9455,7 @@ end A119379.P121544432497071399
 /-!
 # A119380: Remainder when the integer part of e^n is divided by the n-th prime number.
 
-The programs for A119380, the canonical program `A119380.P3462034748689167672` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119380 has offset 1).
+The programs for A119380, the canonical program `A119380.P3462034748689167672` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119380 has offset 1).
 
 The definition of A119380 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 230 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9516,7 +9516,7 @@ end A119380
 
 `A000149(n+1)%p?[A006370(n)]`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A119380

@@ -39,6 +39,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1617,7 +1618,7 @@ end A379420.P184450728805412579
 /-!
 # A379421: a(n) = n + floor(n*r/s) + floor(n*t/s), where r = 5^(1/4), s = 5^(1/2), t = 5^(3/4).
 
-The programs for A379421, the canonical program `A379421.P17566647080812889774` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379421 has offset 1).
+The programs for A379421, the canonical program `A379421.P17566647080812889774` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379421 has offset 1).
 
 The definition of A379421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1626,7 +1627,7 @@ The definition of A379421 is `conjectured`: the Lean definition is a formula tha
 
 `A133872(A005563(n))+A063247(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379421
@@ -3156,7 +3157,7 @@ end A379472.P16159139529659408350
 /-!
 # A379473: a(n) is the highest power of 3 dividing the sum of divisors of n.
 
-The programs for A379473, the canonical program `A379473.P11357118703739175544` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379473 has offset 1).
+The programs for A379473, the canonical program `A379473.P11357118703739175544` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379473 has offset 1).
 
 The definition of A379473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3165,7 +3166,7 @@ The definition of A379473 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A038500(A000203(n+1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A379473

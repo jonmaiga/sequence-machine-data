@@ -39,6 +39,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -1972,7 +1973,7 @@ end A323719.P12934454197688330987
 /-!
 # A323723: a(n) = (-2 - (-1)^n*(-2 + n) + n + 2*n^3)/4.
 
-The programs for A323723, the canonical program `A323723.P10463574231425585088` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323723 has offset 0).
+The programs for A323723, the canonical program `A323723.P10463574231425585088` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323723 has offset 0).
 
 The definition of A323723 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2006,7 +2007,7 @@ end A323723
 
 `2*A004526(n*A000982(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A323723
@@ -4833,7 +4834,7 @@ end A323752.P2072492302067948868
 /-!
 # A323756: a(1) = 2; for n >= 2, if a(n-1) has not yet been assigned, then a(n-1) = 1 and a(2*n-1) = 2, otherwise a(2*n) = 3.
 
-The programs for A323756, the canonical program `A323756.P17761962567917672659` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323756 has offset 1).
+The programs for A323756, the canonical program `A323756.P17761962567917672659` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323756 has offset 1).
 
 The definition of A323756 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4865,7 +4866,7 @@ end A323756
 
 `3-(A091830(n+2)+1)%3`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A323756

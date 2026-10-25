@@ -16756,23 +16756,44 @@ end A004465
 /-!
 # A004466: a(n) = n*(5*n^2 - 2)/3.
 
-The programs for A004466, the canonical program `A004466.P17709469129505755603` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004466 has offset 0).
+The programs for A004466, the canonical program `A004466.P11767468550851547535` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004466 has offset 0).
 
-The definition of A004466 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A004466 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(5*n²-2)/3` (program `A004466.P17709469129505755603`, by `A004466.P17709469129505755603.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A004466.P17709469129505755603
 
 `n*(5*n²-2)/3`
 
-The canonical program, it is in `Seq.B000.C001`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A004466.P17709469129505755603
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * ((5 * n ^ 2 : ℤ) - 2) : ℚ) / 3
+
+end
+
+end A004466.P17709469129505755603
 
 namespace A004466
 
 /-- `n*(5*n²-2)/3` -/
 def P17709469129505755603.Spec : Prop :=
   ∀ n, P17709469129505755603.a n = (A004466 n : ℚ)
+
+theorem P17709469129505755603.correct : P17709469129505755603.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A004466, A004466.P17709469129505755603.a, A004466.P11767468550851547535.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A004466, Nat.add_sub_cancel, A004466.P17709469129505755603.a, A004466.P11767468550851547535.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A004466
 
@@ -16889,23 +16910,19 @@ end A004466
 /-! ## A004466.P11767468550851547535
 
 `a(n-1)+5*n²-5*n+1` with `a(0)=0`
+
+The canonical program, it is in `Seq.B000.C001`.
 -/
-
-namespace A004466.P11767468550851547535
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  a (n - 1) + (5 * n ^ 2 : ℤ) - (5 * n : ℤ) + 1
-
-end
-
-end A004466.P11767468550851547535
 
 namespace A004466
 
 /-- `a(n-1)+5*n²-5*n+1` -/
 def P11767468550851547535.Spec : Prop :=
   ∀ n, P11767468550851547535.a n = A004466 n
+
+theorem P11767468550851547535.correct : P11767468550851547535.Spec := by
+  intro n
+  simp only [A004466]
 
 end A004466
 

@@ -35,7 +35,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1583,7 +1583,7 @@ end A325313
 /-!
 # A325314: a(n) = n - A162296(n), where A162296(n) is the sum of divisors of n that have a square factor.
 
-The programs for A325314, the canonical program `A325314.P1683321656325189174` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325314 has offset 1).
+The programs for A325314, the canonical program `A325314.P1683321656325189174` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325314 has offset 1).
 
 The definition of A325314 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A162296, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1592,7 +1592,7 @@ The definition of A325314 is `conditional`: the Lean definition is an OEIS formu
 
 `n+1-A162296(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A325314

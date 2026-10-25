@@ -4803,7 +4803,7 @@ end A279258.P3780894875161923230
 /-!
 # A279260: Numbers which are cyclops palindromic in their binary reflected Gray code representation.
 
-The programs for A279260, the canonical program `A279260.P12155716219962346154` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279260 has offset 0).
+The programs for A279260, the canonical program `A279260.P12155716219962346154` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279260 has offset 0).
 
 The definition of A279260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4812,7 +4812,7 @@ The definition of A279260 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*A084175(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A279260

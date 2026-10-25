@@ -18,6 +18,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C033
@@ -31,7 +32,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -2424,7 +2425,7 @@ end A377942.P15686604095715352957
 /-!
 # A377943: Cogrowth sequence of the 16-element Pauli group C4 o D4 = .
 
-The programs for A377943, the canonical program `A377943.P419477848472387058` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377943 has offset 0).
+The programs for A377943, the canonical program `A377943.P419477848472387058` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377943 has offset 0).
 
 The definition of A377943 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2456,7 +2457,7 @@ end A377943
 
 `or(1, A002452(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377943
@@ -2605,7 +2606,7 @@ end A377944.P17498840674862130063
 /-!
 # A377946: Cogrowth sequence of the 16-element group C2^2:C4 = .
 
-The programs for A377946, the canonical program `A377946.P16763880135453843413` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377946 has offset 0).
+The programs for A377946, the canonical program `A377946.P16763880135453843413` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377946 has offset 0).
 
 The definition of A377946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2643,7 +2644,7 @@ end A377946
 
 `A038503(n)²+A038505(n)²`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377946
@@ -3586,7 +3587,7 @@ end A377978.P711883409564472291
 /-!
 # A377979: List of exponents in the expansion of (1 - q)*Sum_{n >= 0} q^(2*n*(n+1))*Product_{k >= 2*n+1} 1 - q^k.
 
-The programs for A377979, the canonical program `A377979.P7080257391251934501` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377979 has offset 1).
+The programs for A377979, the canonical program `A377979.P7080257391251934501` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377979 has offset 1).
 
 The definition of A377979 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3595,7 +3596,7 @@ The definition of A377979 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(ceil(A135370(n+1)/2)/2)%(n+1)²`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A377979

@@ -5613,17 +5613,27 @@ end A051430
 /-!
 # A051431: a(n) = (n+10)!/10!.
 
-The programs for A051431, the canonical program `A051431.P10394421035400062220` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051431 has offset 0).
+The programs for A051431, the canonical program `A051431.P6636783096064050505` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051431 has offset 0).
 
-The definition of A051431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A051431 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+10)!/10!` (program `A051431.P10394421035400062220`, by `A051431.P10394421035400062220.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A051431.P10394421035400062220
 
 `(n+10)!/10!`
 
-The canonical program, it is in `Seq.B000.C008`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A051431.P10394421035400062220
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 10) : ℚ) / (Nat.factorial 10 : ℚ)
+
+end
+
+end A051431.P10394421035400062220
 
 namespace A051431
 
@@ -5631,28 +5641,30 @@ namespace A051431
 def P10394421035400062220.Spec : Prop :=
   ∀ n, P10394421035400062220.a n = (A051431 n : ℚ)
 
+theorem P10394421035400062220.correct : P10394421035400062220.Spec := by
+  intro n
+  simp only [A051431, Nat.add_sub_cancel, A051431.P10394421035400062220.a, A051431.P6636783096064050505.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A051431
 
 /-! ## A051431.P6636783096064050505
 
 `n!*C(n+10, 10)`
+
+The canonical program, it is in `Seq.B000.C008`.
 -/
-
-namespace A051431.P6636783096064050505
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial n * Nat.choose (n + 10) 10
-
-end
-
-end A051431.P6636783096064050505
 
 namespace A051431
 
 /-- `n!*C(n+10, 10)` -/
 def P6636783096064050505.Spec : Prop :=
   ∀ n, (P6636783096064050505.a n : ℤ) = A051431 n
+
+theorem P6636783096064050505.correct : P6636783096064050505.Spec := by
+  intro n
+  simp only [A051431]
 
 end A051431
 

@@ -3474,7 +3474,7 @@ end A152234.P1194368565572361299
 /-!
 # A152235: Largest squarefree number dividing the number of divisors n.
 
-The programs for A152235, the canonical program `A152235.P232875130101871600` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152235 has offset 1).
+The programs for A152235, the canonical program `A152235.P232875130101871600` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152235 has offset 1).
 
 The definition of A152235 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3483,7 +3483,7 @@ The definition of A152235 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007947(A000005(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A152235

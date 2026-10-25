@@ -320,7 +320,7 @@ end A202603.P16094874713131220944
 /-!
 # A202604: Clique number for the n-Keller graph.
 
-The programs for A202604, the canonical program `A202604.P14574215225826593071` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202604 has offset 1).
+The programs for A202604, the canonical program `A202604.P14574215225826593071` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202604 has offset 1).
 
 The definition of A202604 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -329,7 +329,7 @@ The definition of A202604 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((1+x^2+2x^3+4x^4+4x^5+4x^6+8x^7)/(1-2x))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A202604

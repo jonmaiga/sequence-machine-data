@@ -6578,7 +6578,7 @@ end A317184.P9505229093139154308
 /-!
 # A317186: One of many square spiral sequences: a(n) = n^2 + n - floor((n-1)/2).
 
-The programs for A317186, the canonical program `A317186.P10402809583662158079` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317186 has offset 0).
+The programs for A317186, the canonical program `A317186.P10402809583662158079` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317186 has offset 0).
 
 The definition of A317186 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n²+n-floor((n-1)/2)` (program `A317186.P10402809583662158079`, by `A317186.P10402809583662158079.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6587,7 +6587,7 @@ The definition of A317186 is `verified`: the Lean definition is proven equivalen
 
 `n²+n-floor((n-1)/2)`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317186
@@ -7305,7 +7305,7 @@ end A317187
 /-!
 # A317188: a(n) = 1 + 2 * (a(n-1) + a(n-4) + a(n-6)) + a(n-7) for n>3, with initial values 0 if n
 
-The programs for A317188, the canonical program `A317188.P10174428341642169334` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317188 has offset 0).
+The programs for A317188, the canonical program `A317188.P10174428341642169334` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317188 has offset 0).
 
 The definition of A317188 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+2*(a(n-1)+a(n-4)+a(n-6))+a(n-7)` (program `A317188.P10174428341642169334`, by `A317188.P10174428341642169334.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7314,7 +7314,7 @@ The definition of A317188 is `verified`: the Lean definition is proven equivalen
 
 `1+2*(a(n-1)+a(n-4)+a(n-6))+a(n-7)` with `a(0)=1, a(1)=3, a(2)=8, a(3)=18, a(4)=39, a(5)=85, a(6)=189`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A317188

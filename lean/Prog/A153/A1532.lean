@@ -13377,7 +13377,7 @@ end A153281
 /-!
 # A153282: Numbers k such that 3*k + 4 is not prime.
 
-The programs for A153282, the canonical program `A153282.P6158274056639244414` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153282 has offset 1).
+The programs for A153282, the canonical program `A153282.P6158274056639244414` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153282 has offset 1).
 
 The definition of A153282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13753,7 +13753,7 @@ end A153282
 
 `eq[1, A066247(3*n+1)]-1`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153282

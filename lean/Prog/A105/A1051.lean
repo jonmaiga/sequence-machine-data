@@ -10039,17 +10039,25 @@ end A105161
 /-!
 # A105163: a(n) = (n^3 - 7*n + 12)/6.
 
-The programs for A105163, the canonical program `A105163.P6017453791309278245` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105163 has offset 1).
+The programs for A105163, the canonical program `A105163.P15133954102295067899` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105163 has offset 1).
 
-The definition of A105163 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A105163 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((n+1)^3-7*(n+1)+12)/6` (program `A105163.P1373648480209609914`, by `A105163.P1373648480209609914.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A105163.P6017453791309278245
 
 `((n+1)^3-7*(n+1))/6+2`
-
-The canonical program, it is in `Seq.B000.C016`.
 -/
+
+namespace A105163.P6017453791309278245
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n + 1) ^ 3 : ℤ) - (7 * (n + 1) : ℤ) : ℚ) / 6 + 2
+
+end
+
+end A105163.P6017453791309278245
 
 namespace A105163
 
@@ -10081,6 +10089,23 @@ namespace A105163
 /-- `((n+1)^3-7*(n+1)+12)/6` -/
 def P1373648480209609914.Spec : Prop :=
   ∀ n, P1373648480209609914.a n = (A105163 (n + 1) : ℚ)
+
+theorem P1373648480209609914.correct : P1373648480209609914.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A105163, Nat.add_sub_cancel, A105163.P1373648480209609914.a, A105163.P15133954102295067899.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h2 := ih m (by omega)
+      simp only [A105163, Nat.add_sub_cancel, A105163.P1373648480209609914.a, A105163.P15133954102295067899.a, SequenceMachineLib.memo_apply] at h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 2 = m by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h2 ⊢
+      rw [← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A105163
 
@@ -10142,24 +10167,18 @@ end A105163
 
 `floor(n²+a(n-2)-2)` with `a(0)=1, a(1)=1`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C016`.
 -/
-
-namespace A105163.P15133954102295067899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
-  (n ^ 2 : ℤ) + (a (n - 2) - 2)
-
-end
-
-end A105163.P15133954102295067899
 
 namespace A105163
 
 /-- `floor(n²+a(n-2)-2)` -/
 def P15133954102295067899.Spec : Prop :=
   ∀ n, P15133954102295067899.a n = A105163 (n + 1)
+
+theorem P15133954102295067899.correct : P15133954102295067899.Spec := by
+  intro n
+  simp only [A105163, Nat.add_sub_cancel]
 
 end A105163
 

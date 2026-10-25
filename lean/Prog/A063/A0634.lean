@@ -13774,23 +13774,50 @@ end A063486
 /-!
 # A063488: a(n) = (2*n-1)*(n^2 -n +2)/2.
 
-The programs for A063488, the canonical program `A063488.P15228651372671502580` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063488 has offset 1).
+The programs for A063488, the canonical program `A063488.P10870145584300480469` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063488 has offset 1).
 
-The definition of A063488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A063488 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2*(n+1)-1)*((n+1)²-(n+1)+2)/2` (program `A063488.P15228651372671502580`, by `A063488.P15228651372671502580.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A063488.P15228651372671502580
 
 `(2*(n+1)-1)*((n+1)²-(n+1)+2)/2`
 
-The canonical program, it is in `Seq.B000.C010`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A063488.P15228651372671502580
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((2 * (n + 1) : ℤ) - 1) * (((n + 1) ^ 2 : ℤ) - (n + 1 : ℤ) + 2) : ℚ) / 2
+
+end
+
+end A063488.P15228651372671502580
 
 namespace A063488
 
 /-- `(2*(n+1)-1)*((n+1)²-(n+1)+2)/2` -/
 def P15228651372671502580.Spec : Prop :=
   ∀ n, P15228651372671502580.a n = (A063488 (n + 1) : ℚ)
+
+theorem P15228651372671502580.correct : P15228651372671502580.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A063488, Nat.add_sub_cancel, A063488.P15228651372671502580.a, A063488.P10870145584300480469.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A063488, Nat.add_sub_cancel, A063488.P15228651372671502580.a, A063488.P10870145584300480469.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A063488
 
@@ -13934,23 +13961,19 @@ end A063488
 /-! ## A063488.P10870145584300480469
 
 `3*n²+a(n-1)+2` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C010`.
 -/
-
-namespace A063488.P10870145584300480469
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
-  3 * n ^ 2 + (a (n - 1) + 2)
-
-end
-
-end A063488.P10870145584300480469
 
 namespace A063488
 
 /-- `3*n²+a(n-1)+2` -/
 def P10870145584300480469.Spec : Prop :=
   ∀ n, (P10870145584300480469.a n : ℤ) = A063488 (n + 1)
+
+theorem P10870145584300480469.correct : P10870145584300480469.Spec := by
+  intro n
+  simp only [A063488, Nat.add_sub_cancel]
 
 end A063488
 

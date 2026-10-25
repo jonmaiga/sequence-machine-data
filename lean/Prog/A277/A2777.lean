@@ -9034,7 +9034,7 @@ end A277788.P8460512347866509380
 /-!
 # A277789: a(n) = Sum_{k=0..n} (-1)^k*floor((1 + sqrt(2))^k).
 
-The programs for A277789, the canonical program `A277789.P1199236273393294411` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277789 has offset 0).
+The programs for A277789, the canonical program `A277789.P1199236273393294411` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277789 has offset 0).
 
 The definition of A277789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9043,7 +9043,7 @@ The definition of A277789 is `conjectured`: the Lean definition is a formula tha
 
 `∑[xor(A002203(n)-1, -and(1, n))]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277789
@@ -9165,7 +9165,7 @@ end A277789
 /-!
 # A277790: Numerator of sum of reciprocals of proper divisors of n.
 
-The programs for A277790, the canonical program `A277790.P4817800256069150675` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277790 has offset 1).
+The programs for A277790, the canonical program `A277790.P4817800256069150675` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277790 has offset 1).
 
 The definition of A277790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9174,7 +9174,7 @@ The definition of A277790 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(n+1, A039653(n+1))/(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277790
@@ -9280,7 +9280,7 @@ end A277790
 /-!
 # A277791: Denominator of sum of reciprocals of proper divisors of n.
 
-The programs for A277791, the canonical program `A277791.P6185971221703671631` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277791 has offset 1).
+The programs for A277791, the canonical program `A277791.P6185971221703671631` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277791 has offset 1).
 
 The definition of A277791 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9289,7 +9289,7 @@ The definition of A277791 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)/gcd(A039653(n+1), n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277791
@@ -10510,7 +10510,7 @@ end A277796.P17345950722173530837
 /-!
 # A277797: Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 1", based on the 5-celled von Neumann neighborhood.
 
-The programs for A277797, the canonical program `A277797.P17351685316325223803` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277797 has offset 0).
+The programs for A277797, the canonical program `A277797.P17351685316325223803` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277797 has offset 0).
 
 The definition of A277797 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10822,7 +10822,7 @@ end A277797
 
 `A284351(n*A000035(n))-A000035(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277797

@@ -24,7 +24,6 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -747,23 +746,52 @@ end A109106
 /-!
 # A109107: a(n) = (1/sqrt(26))((5+sqrt(26))^(n+1)-(5-sqrt(26))^(n+1)).
 
-The programs for A109107, the canonical program `A109107.P5899515207578075580` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109107 has offset 0).
+The programs for A109107, the canonical program `A109107.P4419768768165514263` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109107 has offset 0).
 
-The definition of A109107 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A109107 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1/sqrt(26)*((5+sqrt(26))^(n+1)-(5-sqrt(26))^(n+1))` (program `A109107.P5899515207578075580`, by `A109107.P5899515207578075580.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A109107.P5899515207578075580
 
 `1/sqrt(26)*((5+sqrt(26))^(n+1)-(5-sqrt(26))^(n+1))`
 
-The canonical program, it is in `Seq.B000.C016`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A109107.P5899515207578075580
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  1 / Real.sqrt (26 : ℝ) * ((5 + Real.sqrt (26 : ℝ)) ^ (n + 1) - (5 - Real.sqrt (26 : ℝ)) ^ (n + 1))
+
+end
+
+end A109107.P5899515207578075580
 
 namespace A109107
 
 /-- `1/sqrt(26)*((5+sqrt(26))^(n+1)-(5-sqrt(26))^(n+1))` -/
 def P5899515207578075580.Spec : Prop :=
   ∀ n, P5899515207578075580.a n = (A109107 n : ℝ)
+
+theorem P5899515207578075580.correct : P5899515207578075580.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A109107, Nat.add_sub_cancel, A109107.P5899515207578075580.a, A109107.P4419768768165514263.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A109107, Nat.add_sub_cancel, A109107.P5899515207578075580.a, A109107.P4419768768165514263.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A109107
 
@@ -793,23 +821,19 @@ end A109107
 /-! ## A109107.P4419768768165514263
 
 `a(n-2)+10*a(n-1)` with `a(0)=2, a(1)=20`
+
+The canonical program, it is in `Seq.B000.C016`.
 -/
-
-namespace A109107.P4419768768165514263
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [2, 20] fun n a =>
-  a (n - 2) + 10 * a (n - 1)
-
-end
-
-end A109107.P4419768768165514263
 
 namespace A109107
 
 /-- `a(n-2)+10*a(n-1)` -/
 def P4419768768165514263.Spec : Prop :=
   ∀ n, (P4419768768165514263.a n : ℤ) = A109107 n
+
+theorem P4419768768165514263.correct : P4419768768165514263.Spec := by
+  intro n
+  simp only [A109107]
 
 end A109107
 

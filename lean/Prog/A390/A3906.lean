@@ -21,9 +21,8 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C038
@@ -1714,7 +1713,7 @@ end A390662
 /-!
 # A390663: The sum of the divisors of the smallest cube divisible by n.
 
-The programs for A390663, the canonical program `A390663.P5509345383207779074` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390663 has offset 1).
+The programs for A390663, the canonical program `A390663.P5509345383207779074` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390663 has offset 1).
 
 The definition of A390663 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053149, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1723,7 +1722,7 @@ The definition of A390663 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(A053149(n+1))`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A390663

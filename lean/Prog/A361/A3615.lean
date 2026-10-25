@@ -12,6 +12,7 @@ import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -25,7 +26,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -425,7 +425,7 @@ end A361505.P1139466636878386868
 /-!
 # A361506: a(n) = floor( (4/5)*( (9/4)^(n+1)-1 ) ).
 
-The programs for A361506, the canonical program `A361506.P380793297081361955` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361506 has offset 0).
+The programs for A361506, the canonical program `A361506.P380793297081361955` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361506 has offset 0).
 
 The definition of A361506 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 284 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -434,7 +434,7 @@ The definition of A361506 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[(9/4)^n])`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A361506
@@ -628,7 +628,7 @@ end A361506
 /-!
 # A361507: a(0) = 1; thereafter a(n) = floor((9/4)*a(n-1)) + 1.
 
-The programs for A361507, the canonical program `A361507.P14254705456204525396` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361507 has offset 0).
+The programs for A361507, the canonical program `A361507.P14254705456204525396` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361507 has offset 0).
 
 The definition of A361507 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 282 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -683,7 +683,7 @@ end A361507
 
 `floor(9*a(n-1)/4)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A361507
@@ -1485,7 +1485,7 @@ end A361521.P395829652749160521
 /-!
 # A361522: The aerated factorial numbers.
 
-The programs for A361522, the canonical program `A361522.P7127774445203533264` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361522 has offset 0).
+The programs for A361522, the canonical program `A361522.P7127774445203533264` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361522 has offset 0).
 
 The definition of A361522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1567,7 +1567,7 @@ end A361522
 
 `∑[(-1)^n*floor(n/2)!]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A361522
@@ -2077,7 +2077,7 @@ end A361527.P8793075474147390127
 /-!
 # A361528: a(n) = (2+n)*(2*a(n-1) - (n-2)*a(n-2)) with a(0)=a(1)=1.
 
-The programs for A361528, the canonical program `A361528.P597373359212293908` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361528 has offset 0).
+The programs for A361528, the canonical program `A361528.P597373359212293908` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361528 has offset 0).
 
 The definition of A361528 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2+n)*(2*a(n-1)-(n-2)*a(n-2))` (program `A361528.P597373359212293908`, by `A361528.P597373359212293908.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2086,7 +2086,7 @@ The definition of A361528 is `verified`: the Lean definition is proven equivalen
 
 `(2+n)*(2*a(n-1)-(n-2)*a(n-2))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C037`.
 -/
 
 namespace A361528

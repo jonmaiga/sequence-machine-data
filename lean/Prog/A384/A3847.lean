@@ -25,6 +25,7 @@ import Seq.B000.C025
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
@@ -796,7 +797,7 @@ end A384710
 /-!
 # A384711: Expansion of (1+x) / (1-2*x-6*x^2).
 
-The programs for A384711, the canonical program `A384711.P3011662670924636426` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384711 has offset 0).
+The programs for A384711, the canonical program `A384711.P3011662670924636426` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384711 has offset 0).
 
 The definition of A384711 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+x)/(1-2x-6x^2))` (program `A384711.P3011662670924636426`, by `A384711.P3011662670924636426.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -805,7 +806,7 @@ The definition of A384711 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+x)/(1-2x-6x^2))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384711
@@ -1007,7 +1008,7 @@ end A384711
 /-!
 # A384712: Expansion of (1+2*x) / (1-2*x-6*x^2).
 
-The programs for A384712, the canonical program `A384712.P13413970938566962457` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384712 has offset 0).
+The programs for A384712, the canonical program `A384712.P13413970938566962457` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384712 has offset 0).
 
 The definition of A384712 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+2x)/(1-2x-6x^2))` (program `A384712.P13413970938566962457`, by `A384712.P13413970938566962457.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1016,7 +1017,7 @@ The definition of A384712 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+2x)/(1-2x-6x^2))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384712

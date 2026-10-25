@@ -23,13 +23,12 @@ import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
@@ -40,6 +39,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -2534,7 +2534,7 @@ end A378620
 /-!
 # A378624: Numbers whose binary representation interpreted as being base-3 is divisible by 5.
 
-The programs for A378624, the canonical program `A378624.P4838368887206382302` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378624 has offset 1).
+The programs for A378624, the canonical program `A378624.P4838368887206382302` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378624 has offset 1).
 
 The definition of A378624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2630,7 +2630,7 @@ end A378624
 
 `lt[(2*(A003278(n+1)-1)+1)%10, 2]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A378624

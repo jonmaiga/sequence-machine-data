@@ -2803,23 +2803,50 @@ end A176817.P11404804589574566690
 /-!
 # A176818: a(n) = (3^(2*n+1) + 2^(n+2))/7.
 
-The programs for A176818, the canonical program `A176818.P13236942943764050554` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176818 has offset 0).
+The programs for A176818, the canonical program `A176818.P9069783478918034536` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176818 has offset 0).
 
-The definition of A176818 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A176818 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(2*n+1)+2^(n+2))/7` (program `A176818.P13236942943764050554`, by `A176818.P13236942943764050554.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A176818.P13236942943764050554
 
 `(3^(2*n+1)+2^(n+2))/7`
 
-The canonical program, it is in `Seq.B000.C025`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A176818.P13236942943764050554
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (3 ^ (2 * n + 1) + 2 ^ (n + 2) : ℚ) / 7
+
+end
+
+end A176818.P13236942943764050554
 
 namespace A176818
 
 /-- `(3^(2*n+1)+2^(n+2))/7` -/
 def P13236942943764050554.Spec : Prop :=
   ∀ n, P13236942943764050554.a n = (A176818 n : ℚ)
+
+theorem P13236942943764050554.correct : P13236942943764050554.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A176818, Nat.add_sub_cancel, A176818.P13236942943764050554.a, A176818.P9069783478918034536.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A176818, Nat.add_sub_cancel, A176818.P13236942943764050554.a, A176818.P9069783478918034536.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A176818
 
@@ -2849,23 +2876,19 @@ end A176818
 /-! ## A176818.P9069783478918034536
 
 `9*a(n-1)-2^(n+1)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C025`.
 -/
-
-namespace A176818.P9069783478918034536
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  9 * a (n - 1) - (2 ^ (n + 1) : ℤ)
-
-end
-
-end A176818.P9069783478918034536
 
 namespace A176818
 
 /-- `9*a(n-1)-2^(n+1)` -/
 def P9069783478918034536.Spec : Prop :=
   ∀ n, P9069783478918034536.a n = A176818 n
+
+theorem P9069783478918034536.correct : P9069783478918034536.Spec := by
+  intro n
+  simp only [A176818]
 
 end A176818
 

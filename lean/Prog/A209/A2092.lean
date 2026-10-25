@@ -8310,17 +8310,25 @@ end A209293
 /-!
 # A209294: a(n) = (7*n^2 - 7*n + 4)/2.
 
-The programs for A209294, the canonical program `A209294.P7138500833774320511` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209294 has offset 1).
+The programs for A209294, the canonical program `A209294.P11181894536673705729` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209294 has offset 1).
 
-The definition of A209294 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A209294 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(7*(n+1)²-7*(n+1)+4)/2` (program `A209294.P8077105105682155843`, by `A209294.P8077105105682155843.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A209294.P7138500833774320511
 
 `7*(n+1)*n/2+2`
-
-The canonical program, it is in `Seq.B000.C028`.
 -/
+
+namespace A209294.P7138500833774320511
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (7 * (n + 1) * n : ℚ) / 2 + 2
+
+end
+
+end A209294.P7138500833774320511
 
 namespace A209294
 
@@ -8352,6 +8360,23 @@ namespace A209294
 /-- `(7*(n+1)²-7*(n+1)+4)/2` -/
 def P8077105105682155843.Spec : Prop :=
   ∀ n, P8077105105682155843.a n = (A209294 (n + 1) : ℚ)
+
+theorem P8077105105682155843.correct : P8077105105682155843.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A209294, Nat.add_sub_cancel, A209294.P8077105105682155843.a, A209294.P11181894536673705729.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A209294, Nat.add_sub_cancel, A209294.P8077105105682155843.a, A209294.P11181894536673705729.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A209294
 
@@ -8482,24 +8507,18 @@ end A209294
 
 `ceil(a(n-1)+7*n)` with `a(0)=2`
 
-`ceil` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C028`.
 -/
-
-namespace A209294.P11181894536673705729
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [2] fun n a =>
-  a (n - 1) + 7 * n
-
-end
-
-end A209294.P11181894536673705729
 
 namespace A209294
 
 /-- `ceil(a(n-1)+7*n)` -/
 def P11181894536673705729.Spec : Prop :=
   ∀ n, (P11181894536673705729.a n : ℤ) = A209294 (n + 1)
+
+theorem P11181894536673705729.correct : P11181894536673705729.Spec := by
+  intro n
+  simp only [A209294, Nat.add_sub_cancel]
 
 end A209294
 

@@ -47,6 +47,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
@@ -12828,7 +12829,7 @@ end A004392
 /-!
 # A004393: Binomial coefficient C(8n,n-12).
 
-The programs for A004393, the canonical program `A004393.P6514891325657627380` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004393 has offset 12).
+The programs for A004393, the canonical program `A004393.P6514891325657627380` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004393 has offset 12).
 
 The definition of A004393 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+12), n)` (program `A004393.P6514891325657627380`, by `A004393.P6514891325657627380.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12837,7 +12838,7 @@ The definition of A004393 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+12), n)`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C000`.
 -/
 
 namespace A004393

@@ -6799,17 +6799,27 @@ end A292060.P6028589636577303373
 /-!
 # A292061: a(n) = (n-3)*(n-2)^2*(n-1)^2*n/24.
 
-The programs for A292061, the canonical program `A292061.P4755506329418906753` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292061 has offset 1).
+The programs for A292061, the canonical program `A292061.P8566333683621435124` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A292061 has offset 1).
 
-The definition of A292061 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A292061 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n-2)*(n-1)²*n²*(n+1)/24` (program `A292061.P4755506329418906753`, by `A292061.P4755506329418906753.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A292061.P4755506329418906753
 
 `(n-2)*(n-1)²*n²*(n+1)/24`
 
-The canonical program, it is in `Seq.B000.C034`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A292061.P4755506329418906753
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n : ℤ) - 2) * ((n : ℤ) - 1) ^ 2 * (n ^ 2 : ℤ) * (n + 1 : ℤ) : ℚ) / 24
+
+end
+
+end A292061.P4755506329418906753
 
 namespace A292061
 
@@ -6817,28 +6827,30 @@ namespace A292061
 def P4755506329418906753.Spec : Prop :=
   ∀ n, P4755506329418906753.a n = (A292061 (n + 1) : ℚ)
 
+theorem P4755506329418906753.correct : P4755506329418906753.Spec := by
+  intro n
+  simp only [A292061, Nat.add_sub_cancel, A292061.P4755506329418906753.a, A292061.P8566333683621435124.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A292061
 
 /-! ## A292061.P8566333683621435124
 
 `(n²-n)*C(n+1, 4)`
+
+The canonical program, it is in `Seq.B000.C034`.
 -/
-
-namespace A292061.P8566333683621435124
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n ^ 2 : ℤ) - (n : ℤ)) * (Nat.choose (n + 1) 4 : ℤ)
-
-end
-
-end A292061.P8566333683621435124
 
 namespace A292061
 
 /-- `(n²-n)*C(n+1, 4)` -/
 def P8566333683621435124.Spec : Prop :=
   ∀ n, P8566333683621435124.a n = A292061 (n + 1)
+
+theorem P8566333683621435124.correct : P8566333683621435124.Spec := by
+  intro n
+  simp only [A292061, Nat.add_sub_cancel]
 
 end A292061
 

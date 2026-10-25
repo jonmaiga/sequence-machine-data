@@ -29,6 +29,7 @@ import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -5416,7 +5417,7 @@ end A323950
 /-!
 # A323951: Number of ways to split an n-cycle into connected subgraphs, all having at least three vertices.
 
-The programs for A323951, the canonical program `A323951.P8813911197345809289` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323951 has offset 0).
+The programs for A323951, the canonical program `A323951.P8813911197345809289` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323951 has offset 0).
 
 The definition of A323951 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 603 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5425,7 +5426,7 @@ The definition of A323951 is `conjectured`: the Lean definition is a formula tha
 
 `A001609(abs(1-n)+1)+char[2]-n`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A323951
@@ -7916,7 +7917,7 @@ end A323988
 /-!
 # A323989: Partial alternating sums modulo 3 of the Kolakoski sequence A000002.
 
-The programs for A323989, the canonical program `A323989.P17465591494244090833` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323989 has offset 1).
+The programs for A323989, the canonical program `A323989.P17465591494244090833` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323989 has offset 1).
 
 The definition of A323989 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8294,7 +8295,7 @@ end A323989
 
 `∑[A000079(n+1-A156253(n+1))]%3`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A323989

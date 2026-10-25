@@ -25,7 +25,6 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C038
-import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
@@ -1346,7 +1345,7 @@ end A384327.P16396101993995420215
 /-!
 # A384328: Expansion of 1 / ((1-x)^3 * (1-x^7)).
 
-The programs for A384328, the canonical program `A384328.P11309829807178330690` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384328 has offset 0).
+The programs for A384328, the canonical program `A384328.P11309829807178330690` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384328 has offset 0).
 
 The definition of A384328 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-3x+3x^2-x^3-x^7+3x^8-3x^9+x^10))` (program `A384328.P11309829807178330690`, by `A384328.P11309829807178330690.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1355,7 +1354,7 @@ The definition of A384328 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-3x+3x^2-x^3-x^7+3x^8-3x^9+x^10))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384328
@@ -1579,7 +1578,7 @@ end A384332.P8569467653799154867
 /-!
 # A384335: Expansion of g.f.: cosh(7*arctanh(6*sqrt(x))).
 
-The programs for A384335, the canonical program `A384335.P16997469815114454754` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384335 has offset 0).
+The programs for A384335, the canonical program `A384335.P16997469815114454754` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384335 has offset 0).
 
 The definition of A384335 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1588,7 +1587,7 @@ The definition of A384335 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9^n*(512*n^3+64*n²+144*n+15)*(2*n)!/(15*n!²)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384335
@@ -2300,7 +2299,7 @@ end A384366.P16012093792655469066
 /-!
 # A384367: a(n) = a(n-1)+2*a(n-2)+a(n-3) with a(0)=1, a(1)=4, a(2) = 6.
 
-The programs for A384367, the canonical program `A384367.P11525340815926243755` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384367 has offset 0).
+The programs for A384367, the canonical program `A384367.P11525340815926243755` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384367 has offset 0).
 
 The definition of A384367 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+2*a(n-2)+a(n-3)` (program `A384367.P11525340815926243755`, by `A384367.P11525340815926243755.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2309,7 +2308,7 @@ The definition of A384367 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+2*a(n-2)+a(n-3)` with `a(0)=1, a(1)=4, a(2)=6`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A384367

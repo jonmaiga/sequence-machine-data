@@ -12,6 +12,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
@@ -22,6 +23,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C030
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
@@ -1800,7 +1802,7 @@ end A326119.P1499877115849000634
 /-!
 # A326121: Expansion of Sum_{k>=1} k^2 * x^(2*k) / (1 - k * x^k).
 
-The programs for A326121, the canonical program `A326121.P12241620532846043604` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326121 has offset 1).
+The programs for A326121, the canonical program `A326121.P12241620532846043604` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326121 has offset 1).
 
 The definition of A326121 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055225, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1809,7 +1811,7 @@ The definition of A326121 is `conditional`: the Lean definition is an OEIS formu
 
 `A055225(n+1)-(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A326121
@@ -5910,7 +5912,7 @@ end A326131.P6666638780384042662
 /-!
 # A326133: Numbers n for which sigma(n) > A005187(n).
 
-The programs for A326133, the canonical program `A326133.P4300014578678543539` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326133 has offset 1).
+The programs for A326133, the canonical program `A326133.P4300014578678543539` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326133 has offset 1).
 
 The definition of A326133 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4960 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5919,7 +5921,7 @@ The definition of A326133 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A005187(n+1), A000203(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A326133
@@ -7110,7 +7112,7 @@ end A326140.P17095676219291480415
 /-!
 # A326142: Sum of all other divisors of n except its largest squarefree divisor: a(n) = sigma(n) - A007947(n).
 
-The programs for A326142, the canonical program `A326142.P15415912859726343761` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326142 has offset 1).
+The programs for A326142, the canonical program `A326142.P15415912859726343761` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326142 has offset 1).
 
 The definition of A326142 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7148,7 +7150,7 @@ end A326142
 
 `A000203(n+1)-A007947(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A326142

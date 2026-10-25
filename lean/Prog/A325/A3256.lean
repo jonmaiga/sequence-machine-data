@@ -2348,7 +2348,7 @@ end A325635.P11863202936675938742
 /-!
 # A325636: a(n) = gcd(2n, sigma(n)).
 
-The programs for A325636, the canonical program `A325636.P17661424497932919305` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325636 has offset 1).
+The programs for A325636, the canonical program `A325636.P17661424497932919305` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325636 has offset 1).
 
 The definition of A325636 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2357,7 +2357,7 @@ The definition of A325636 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `gcd(2*(n+1), A000203(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A325636
@@ -9411,7 +9411,7 @@ end A325690
 /-!
 # A325691: Number of length-3 integer partitions of n whose largest part is not greater than the sum of the other two.
 
-The programs for A325691, the canonical program `A325691.P1920078443294648485` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325691 has offset 0).
+The programs for A325691, the canonical program `A325691.P1920078443294648485` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325691 has offset 0).
 
 The definition of A325691 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9420,7 +9420,7 @@ The definition of A325691 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005044(n+3)-A000035(n+3)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A325691

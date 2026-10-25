@@ -3509,7 +3509,7 @@ end A045824.P4174320103695431177
 /-!
 # A045825: a(n) = A004017(n)/2.
 
-The programs for A045825, the canonical program `A045825.P18222400444078400137` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045825 has offset 1).
+The programs for A045825, the canonical program `A045825.P17882755795761985408` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045825 has offset 1).
 
 The definition of A045825 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004017, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3518,8 +3518,18 @@ The definition of A045825 is `conditional`: the Lean definition is an OEIS formu
 
 `A004017(n+1)/2`
 
-The canonical program, it is in `Seq.B002.C000`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A045825.P18222400444078400137
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A004017 (n + 1) : ℚ) / 2
+
+end
+
+end A045825.P18222400444078400137
 
 namespace A045825
 
@@ -3527,28 +3537,30 @@ namespace A045825
 def P18222400444078400137.Spec : Prop :=
   ∀ n, P18222400444078400137.a n = (A045825 (n + 1) : ℚ)
 
+theorem P18222400444078400137.correct : P18222400444078400137.Spec := by
+  intro n
+  simp only [A045825, Nat.add_sub_cancel, A045825.P18222400444078400137.a, A045825.P17882755795761985408.a, A004017, A004017.P4610875702186550705.a, A007331, A007331.P7249092391155220355.f1, A007331.P7249092391155220355.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A045825
 
 /-! ## A045825.P17882755795761985408
 
 `8*A007331(n+1)`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
-
-namespace A045825.P17882755795761985408
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  8 * A007331 (n + 1)
-
-end
-
-end A045825.P17882755795761985408
 
 namespace A045825
 
 /-- `8*A007331(n+1)` -/
 def P17882755795761985408.Spec : Prop :=
   ∀ n, P17882755795761985408.a n = A045825 (n + 1)
+
+theorem P17882755795761985408.correct : P17882755795761985408.Spec := by
+  intro n
+  simp only [A045825, Nat.add_sub_cancel]
 
 end A045825
 

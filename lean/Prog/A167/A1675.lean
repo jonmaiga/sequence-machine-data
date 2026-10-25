@@ -4465,17 +4465,27 @@ end A167543
 /-!
 # A167544: a(n) = (n-3)*(n-8)/2.
 
-The programs for A167544, the canonical program `A167544.P5100388090753200986` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167544 has offset 4).
+The programs for A167544, the canonical program `A167544.P5457980980008866061` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167544 has offset 4).
 
-The definition of A167544 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A167544 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(n-4)/2` (program `A167544.P5100388090753200986`, by `A167544.P5100388090753200986.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A167544.P5100388090753200986
 
 `(n+1)*(n-4)/2`
 
-The canonical program, it is in `Seq.B000.C024`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A167544.P5100388090753200986
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) * ((n : ℤ) - 4) : ℚ) / 2
+
+end
+
+end A167544.P5100388090753200986
 
 namespace A167544
 
@@ -4483,28 +4493,41 @@ namespace A167544
 def P5100388090753200986.Spec : Prop :=
   ∀ n, P5100388090753200986.a n = (A167544 (n + 4) : ℚ)
 
+theorem P5100388090753200986.correct : P5100388090753200986.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A167544, Nat.add_sub_cancel, A167544.P5100388090753200986.a, A167544.P5457980980008866061.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A167544, Nat.add_sub_cancel, A167544.P5100388090753200986.a, A167544.P5457980980008866061.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A167544
 
 /-! ## A167544.P5457980980008866061
 
 `a(n-1)+n+4-6` with `a(0)=-2`
+
+The canonical program, it is in `Seq.B000.C024`.
 -/
-
-namespace A167544.P5457980980008866061
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [-2] fun n a =>
-  a (n - 1) + (n + 4 : ℤ) - 6
-
-end
-
-end A167544.P5457980980008866061
 
 namespace A167544
 
 /-- `a(n-1)+n+4-6` -/
 def P5457980980008866061.Spec : Prop :=
   ∀ n, P5457980980008866061.a n = A167544 (n + 4)
+
+theorem P5457980980008866061.correct : P5457980980008866061.Spec := by
+  intro n
+  simp only [A167544, Nat.add_sub_cancel]
 
 end A167544
 

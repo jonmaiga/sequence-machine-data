@@ -43,6 +43,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3045,17 +3046,25 @@ end A064223.P9226493395756904559
 /-!
 # A064225: a(n) = (9*n^2 + 5*n + 2)/2.
 
-The programs for A064225, the canonical program `A064225.P9255893241261932294` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064225 has offset 0).
+The programs for A064225, the canonical program `A064225.P15843063240312422298` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064225 has offset 0).
 
-The definition of A064225 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A064225 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(9*n²+5*n+2)/2` (program `A064225.P5497223282124139898`, by `A064225.P5497223282124139898.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A064225.P9255893241261932294
 
 `1+n*(9*n+5)/2`
-
-The canonical program, it is in `Seq.B000.C010`.
 -/
+
+namespace A064225.P9255893241261932294
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 + (n * (9 * n + 5) : ℚ) / 2
+
+end
+
+end A064225.P9255893241261932294
 
 namespace A064225
 
@@ -3087,6 +3096,17 @@ namespace A064225
 /-- `(9*n²+5*n+2)/2` -/
 def P5497223282124139898.Spec : Prop :=
   ∀ n, P5497223282124139898.a n = (A064225 n : ℚ)
+
+theorem P5497223282124139898.correct : P5497223282124139898.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A064225, A064225.P5497223282124139898.a, A064225.P15843063240312422298.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A064225, Nat.add_sub_cancel, A064225.P5497223282124139898.a, A064225.P15843063240312422298.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A064225
 
@@ -3194,24 +3214,18 @@ end A064225
 
 `floor(9*n-(2-a(n-1)))` with `a(0)=1`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C010`.
 -/
-
-namespace A064225.P15843063240312422298
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (9 * n : ℤ) - (2 - a (n - 1))
-
-end
-
-end A064225.P15843063240312422298
 
 namespace A064225
 
 /-- `floor(9*n-(2-a(n-1)))` -/
 def P15843063240312422298.Spec : Prop :=
   ∀ n, P15843063240312422298.a n = A064225 n
+
+theorem P15843063240312422298.correct : P15843063240312422298.Spec := by
+  intro n
+  simp only [A064225]
 
 end A064225
 
@@ -3434,17 +3448,25 @@ end A064225
 /-!
 # A064226: a(n) = (9*n^2 + 13*n + 6)/2.
 
-The programs for A064226, the canonical program `A064226.P9106261388097470176` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064226 has offset 0).
+The programs for A064226, the canonical program `A064226.P18360739950071325615` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064226 has offset 0).
 
-The definition of A064226 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A064226 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(9*n²+13*n+6)/2` (program `A064226.P12479180422057309107`, by `A064226.P12479180422057309107.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A064226.P9106261388097470176
 
 `3+n*(9*n+13)/2`
-
-The canonical program, it is in `Seq.B000.C010`.
 -/
+
+namespace A064226.P9106261388097470176
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  3 + (n * (9 * n + 13) : ℚ) / 2
+
+end
+
+end A064226.P9106261388097470176
 
 namespace A064226
 
@@ -3476,6 +3498,23 @@ namespace A064226
 /-- `(9*n²+13*n+6)/2` -/
 def P12479180422057309107.Spec : Prop :=
   ∀ n, P12479180422057309107.a n = (A064226 n : ℚ)
+
+theorem P12479180422057309107.correct : P12479180422057309107.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A064226, Nat.add_sub_cancel, A064226.P12479180422057309107.a, A064226.P18360739950071325615.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A064226, Nat.add_sub_cancel, A064226.P12479180422057309107.a, A064226.P18360739950071325615.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A064226
 
@@ -3558,24 +3597,18 @@ end A064226
 
 `floor(9*n+a(n-1)+2)` with `a(0)=3`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C010`.
 -/
-
-namespace A064226.P18360739950071325615
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [3] fun n a =>
-  9 * n + (a (n - 1) + 2)
-
-end
-
-end A064226.P18360739950071325615
 
 namespace A064226
 
 /-- `floor(9*n+a(n-1)+2)` -/
 def P18360739950071325615.Spec : Prop :=
   ∀ n, (P18360739950071325615.a n : ℤ) = A064226 n
+
+theorem P18360739950071325615.correct : P18360739950071325615.Spec := by
+  intro n
+  simp only [A064226]
 
 end A064226
 

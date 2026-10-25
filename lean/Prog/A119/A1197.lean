@@ -6022,17 +6022,27 @@ end A119770.P11449278617184637521
 /-!
 # A119771: Product of n^2 and n-th tetrahedral number: a(n) = n^3*(n+1)*(n+2)/6.
 
-The programs for A119771, the canonical program `A119771.P17724077121719047631` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119771 has offset 0).
+The programs for A119771, the canonical program `A119771.P12208108946528580488` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119771 has offset 0).
 
-The definition of A119771 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A119771 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n^3*(n+1)*(n+2)/6` (program `A119771.P17724077121719047631`, by `A119771.P17724077121719047631.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A119771.P17724077121719047631
 
 `n^3*(n+1)*(n+2)/6`
 
-The canonical program, it is in `Seq.B000.C017`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A119771.P17724077121719047631
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n ^ 3 * (n + 1) * (n + 2) : ℚ) / 6
+
+end
+
+end A119771.P17724077121719047631
 
 namespace A119771
 
@@ -6040,28 +6050,30 @@ namespace A119771
 def P17724077121719047631.Spec : Prop :=
   ∀ n, P17724077121719047631.a n = (A119771 n : ℚ)
 
+theorem P17724077121719047631.correct : P17724077121719047631.Spec := by
+  intro n
+  simp only [A119771, Nat.add_sub_cancel, A119771.P17724077121719047631.a, A119771.P12208108946528580488.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A119771
 
 /-! ## A119771.P12208108946528580488
 
 `C(n+2, 3)*n²`
+
+The canonical program, it is in `Seq.B000.C017`.
 -/
-
-namespace A119771.P12208108946528580488
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 2) 3 * n ^ 2
-
-end
-
-end A119771.P12208108946528580488
 
 namespace A119771
 
 /-- `C(n+2, 3)*n²` -/
 def P12208108946528580488.Spec : Prop :=
   ∀ n, (P12208108946528580488.a n : ℤ) = A119771 n
+
+theorem P12208108946528580488.correct : P12208108946528580488.Spec := by
+  intro n
+  simp only [A119771]
 
 end A119771
 

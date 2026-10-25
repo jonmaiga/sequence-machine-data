@@ -4327,17 +4327,27 @@ end A180842.P4491066323888402665
 /-!
 # A180844: a(n) = (27^n - 2^n)/25.
 
-The programs for A180844, the canonical program `A180844.P12562999779154666058` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180844 has offset 0).
+The programs for A180844, the canonical program `A180844.P15890074459246314766` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180844 has offset 0).
 
-The definition of A180844 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A180844 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(27^n-2^n)/25` (program `A180844.P12562999779154666058`, by `A180844.P12562999779154666058.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A180844.P12562999779154666058
 
 `(27^n-2^n)/25`
 
-The canonical program, it is in `Seq.B000.C025`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A180844.P12562999779154666058
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((27 ^ n : ℤ) - (2 ^ n : ℤ) : ℚ) / 25
+
+end
+
+end A180844.P12562999779154666058
 
 namespace A180844
 
@@ -4345,28 +4355,42 @@ namespace A180844
 def P12562999779154666058.Spec : Prop :=
   ∀ n, P12562999779154666058.a n = (A180844 n : ℚ)
 
+theorem P12562999779154666058.correct : P12562999779154666058.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A180844, Nat.add_sub_cancel, A180844.P12562999779154666058.a, A180844.P15890074459246314766.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A180844, Nat.add_sub_cancel, A180844.P12562999779154666058.a, A180844.P15890074459246314766.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
 end A180844
 
 /-! ## A180844.P15890074459246314766
 
 `29*a(n-1)-54*a(n-2)` with `a(0)=0, a(1)=1`
+
+The canonical program, it is in `Seq.B000.C025`.
 -/
-
-namespace A180844.P15890074459246314766
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  29 * a (n - 1) - 54 * a (n - 2)
-
-end
-
-end A180844.P15890074459246314766
 
 namespace A180844
 
 /-- `29*a(n-1)-54*a(n-2)` -/
 def P15890074459246314766.Spec : Prop :=
   ∀ n, P15890074459246314766.a n = A180844 n
+
+theorem P15890074459246314766.correct : P15890074459246314766.Spec := by
+  intro n
+  simp only [A180844]
 
 end A180844
 

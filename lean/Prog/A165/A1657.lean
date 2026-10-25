@@ -36,7 +36,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -58,7 +57,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
@@ -5819,23 +5817,50 @@ end A165749
 /-!
 # A165750: a(n) = (10/11)*(2+9*(-10)^(n-1)).
 
-The programs for A165750, the canonical program `A165750.P11920720579965061336` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165750 has offset 0).
+The programs for A165750, the canonical program `A165750.P13967842448134396208` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165750 has offset 0).
 
-The definition of A165750 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A165750 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `10/11*(2+9*(-10)^(n-1))` (program `A165750.P11920720579965061336`, by `A165750.P11920720579965061336.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A165750.P11920720579965061336
 
 `10/11*(2+9*(-10)^(n-1))`
 
-The canonical program, it is in `Seq.B000.C023`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A165750.P11920720579965061336
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (10 : ℚ) / 11 * (2 + 9 * (-10 : ℚ) ^ ((n : ℤ) - 1 : ℤ))
+
+end
+
+end A165750.P11920720579965061336
 
 namespace A165750
 
 /-- `10/11*(2+9*(-10)^(n-1))` -/
 def P11920720579965061336.Spec : Prop :=
   ∀ n, P11920720579965061336.a n = (A165750 n : ℚ)
+
+theorem P11920720579965061336.correct : P11920720579965061336.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A165750, Nat.add_sub_cancel, A165750.P11920720579965061336.a, A165750.P13967842448134396208.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A165750, Nat.add_sub_cancel, A165750.P11920720579965061336.a, A165750.P13967842448134396208.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A165750
 
@@ -5966,23 +5991,19 @@ end A165750
 /-! ## A165750.P13967842448134396208
 
 `(5-a(n-1))²-(a(n-1)²+5)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C023`.
 -/
-
-namespace A165750.P13967842448134396208
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (5 - a (n - 1)) ^ 2 - (a (n - 1) ^ 2 + 5)
-
-end
-
-end A165750.P13967842448134396208
 
 namespace A165750
 
 /-- `(5-a(n-1))²-(a(n-1)²+5)` -/
 def P13967842448134396208.Spec : Prop :=
   ∀ n, P13967842448134396208.a n = A165750 n
+
+theorem P13967842448134396208.correct : P13967842448134396208.Spec := by
+  intro n
+  simp only [A165750]
 
 end A165750
 

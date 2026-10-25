@@ -4741,7 +4741,7 @@ end A161345
 
 The programs for A161346, the canonical program `A161346.P17542918926957131899` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161346 has offset 1).
 
-The definition of A161346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A161346 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A161345, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A161346.P13137369902339410572

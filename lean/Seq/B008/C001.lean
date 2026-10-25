@@ -6850,6 +6850,34 @@ end
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2428 terms. -/
 def A315302.provenance : SequenceMachineLib.Provenance := .conjectured
 
+/-! ## A214320.P9969656214956985357
+
+`A006530(a(n-1)+a(n-3))` with `a(0)=1, a(1)=1, a(2)=1`
+-/
+
+namespace A214320.P9969656214956985357
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1] fun n a =>
+  A006530 (a (n - 1) + a (n - 3)).toNat
+
+end
+
+end A214320.P9969656214956985357
+
+noncomputable section
+
+/-- A214320: a(0)=a(1)=a(2)=1; thereafter a(n) = gpf(a(n-1)+a(n-3)), where gpf = "greatest prime factor".
+
+Offset 0, canonical program `A214320.P9969656214956985357`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A214320 (n : ℕ) : ℤ :=
+  A214320.P9969656214956985357.a n
+
+end
+
+/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
+def A214320.provenance : SequenceMachineLib.Provenance := .conjectured
+
 /-! ## A214662.P6787687657922781023
 
 `A006530(A001923(n+2))`

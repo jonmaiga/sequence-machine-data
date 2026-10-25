@@ -3613,17 +3613,25 @@ end A212330
 /-!
 # A212331: a(n) = 5*n*(n+5)/2.
 
-The programs for A212331, the canonical program `A212331.P9657195225231669587` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212331 has offset 0).
+The programs for A212331, the canonical program `A212331.P13338822804783092637` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212331 has offset 0).
 
-The definition of A212331 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A212331 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*n*(n+5)/2` (program `A212331.P7536679952514749485`, by `A212331.P7536679952514749485.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A212331.P9657195225231669587
 
 `5/2*n*(n+5)`
-
-The canonical program, it is in `Seq.B000.C028`.
 -/
+
+namespace A212331.P9657195225231669587
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (5 : ℚ) / 2 * (n : ℚ) * (n + 5 : ℚ)
+
+end
+
+end A212331.P9657195225231669587
 
 namespace A212331
 
@@ -3655,6 +3663,12 @@ namespace A212331
 /-- `5*n*(n+5)/2` -/
 def P7536679952514749485.Spec : Prop :=
   ∀ n, P7536679952514749485.a n = (A212331 n : ℚ)
+
+theorem P7536679952514749485.correct : P7536679952514749485.Spec := by
+  intro n
+  simp only [A212331, Nat.add_sub_cancel, A212331.P7536679952514749485.a, A212331.P13338822804783092637.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A212331
 
@@ -3710,23 +3724,19 @@ end A212331
 /-! ## A212331.P13338822804783092637
 
 `-(5*(3-C(n+3, 2)))`
+
+The canonical program, it is in `Seq.B000.C028`.
 -/
-
-namespace A212331.P13338822804783092637
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  -(5 * (3 - (Nat.choose (n + 3) 2 : ℤ)))
-
-end
-
-end A212331.P13338822804783092637
 
 namespace A212331
 
 /-- `-(5*(3-C(n+3, 2)))` -/
 def P13338822804783092637.Spec : Prop :=
   ∀ n, P13338822804783092637.a n = A212331 n
+
+theorem P13338822804783092637.correct : P13338822804783092637.Spec := by
+  intro n
+  simp only [A212331]
 
 end A212331
 

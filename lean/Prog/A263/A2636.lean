@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
@@ -22,10 +23,10 @@ import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C030
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
@@ -36,7 +37,7 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -8056,23 +8057,44 @@ end A263688.P8661917576739732858
 /-!
 # A263689: a(n) = (2*n^6 - 6*n^5 + 5*n^4 - n^2 + 12)/12.
 
-The programs for A263689, the canonical program `A263689.P11228605254382763147` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263689 has offset 0).
+The programs for A263689, the canonical program `A263689.P14001072563529310682` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263689 has offset 0).
 
-The definition of A263689 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A263689 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2*n^6-6*n^5+5*n^4-n²+12)/12` (program `A263689.P11228605254382763147`, by `A263689.P11228605254382763147.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A263689.P11228605254382763147
 
 `(2*n^6-6*n^5+5*n^4-n²+12)/12`
 
-The canonical program, it is in `Seq.B000.C032`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A263689.P11228605254382763147
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((2 * n ^ 6 : ℤ) - (6 * n ^ 5 : ℤ) + (5 * n ^ 4 : ℤ) - (n ^ 2 : ℤ) + 12 : ℚ) / 12
+
+end
+
+end A263689.P11228605254382763147
 
 namespace A263689
 
 /-- `(2*n^6-6*n^5+5*n^4-n²+12)/12` -/
 def P11228605254382763147.Spec : Prop :=
   ∀ n, P11228605254382763147.a n = (A263689 n : ℚ)
+
+theorem P11228605254382763147.correct : P11228605254382763147.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A263689, A263689.P11228605254382763147.a, A263689.P14001072563529310682.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A263689, Nat.add_sub_cancel, A263689.P11228605254382763147.a, A263689.P14001072563529310682.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A263689
 
@@ -8179,24 +8201,18 @@ end A263689
 
 `(n-1)^5-round(-a(n-1))` with `a(0)=1`
 
-`round` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C032`.
 -/
-
-namespace A263689.P14001072563529310682
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  ((n : ℤ) - 1) ^ 5 - (-a (n - 1))
-
-end
-
-end A263689.P14001072563529310682
 
 namespace A263689
 
 /-- `(n-1)^5-round(-a(n-1))` -/
 def P14001072563529310682.Spec : Prop :=
   ∀ n, P14001072563529310682.a n = A263689 n
+
+theorem P14001072563529310682.correct : P14001072563529310682.Spec := by
+  intro n
+  simp only [A263689]
 
 end A263689
 

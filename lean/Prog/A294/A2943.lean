@@ -40,7 +40,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -3048,31 +3048,27 @@ end A294327
 /-!
 # A294328: a(n) = ((9*n + 8)*10^n - 8)/81.
 
-The programs for A294328, the canonical program `A294328.P14820372547681711777` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294328 has offset 0).
+The programs for A294328, the canonical program `A294328.P762889561776323783` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294328 has offset 0).
 
-The definition of A294328 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A294328 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((9*n+8)*10^n-8)/81` (program `A294328.P16164967973850144941`, by `A294328.P16164967973850144941.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A294328.P762889561776323783
 
 `21*a(n-1)-120*a(n-2)+100*a(n-3)` with `a(0)=0, a(1)=2, a(2)=32`
+
+The canonical program, it is in `Seq.B000.C034`.
 -/
-
-namespace A294328.P762889561776323783
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 2, 32] fun n a =>
-  21 * a (n - 1) - 120 * a (n - 2) + 100 * a (n - 3)
-
-end
-
-end A294328.P762889561776323783
 
 namespace A294328
 
 /-- `21*a(n-1)-120*a(n-2)+100*a(n-3)` -/
 def P762889561776323783.Spec : Prop :=
   ∀ n, P762889561776323783.a n = A294328 n
+
+theorem P762889561776323783.correct : P762889561776323783.Spec := by
+  intro n
+  simp only [A294328]
 
 end A294328
 
@@ -3102,9 +3098,17 @@ end A294328
 /-! ## A294328.P14820372547681711777
 
 `1/9*A294327(n)`
-
-The canonical program, it is in `Seq.B002.C004`.
 -/
+
+namespace A294328.P14820372547681711777
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 : ℚ) / 9 * (A294327 n : ℚ)
+
+end
+
+end A294328.P14820372547681711777
 
 namespace A294328
 
@@ -3136,6 +3140,25 @@ namespace A294328
 /-- `((9*n+8)*10^n-8)/81` -/
 def P16164967973850144941.Spec : Prop :=
   ∀ n, P16164967973850144941.a n = (A294328 n : ℚ)
+
+theorem P16164967973850144941.correct : P16164967973850144941.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A294328, Nat.add_sub_cancel, A294328.P16164967973850144941.a, A294328.P762889561776323783.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A294328, Nat.add_sub_cancel, A294328.P16164967973850144941.a, A294328.P762889561776323783.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [← h1, ← h2, ← h3]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A294328
 
@@ -3220,7 +3243,7 @@ end A294328
 /-!
 # A294329: a(n) = 8*((9*n + 8)*10^n - 8)/81.
 
-The programs for A294329, the canonical program `A294329.P3098759154680546285` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294329 has offset 0).
+The programs for A294329, the canonical program `A294329.P3098759154680546285` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294329 has offset 0).
 
 The definition of A294329 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3229,7 +3252,7 @@ The definition of A294329 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*A294328(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A294329

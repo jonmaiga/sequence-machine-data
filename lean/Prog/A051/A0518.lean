@@ -45,7 +45,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
@@ -1233,7 +1232,7 @@ end A051806
 /-!
 # A051807: Numbers with nonzero multiplicative digital root 5.
 
-The programs for A051807, the canonical program `A051807.P4293244900954420581` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051807 has offset 1).
+The programs for A051807, the canonical program `A051807.P4293244900954420581` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051807 has offset 1).
 
 The definition of A051807 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 488 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1242,7 +1241,7 @@ The definition of A051807 is `conjectured`: the Lean definition is a formula tha
 
 `eq[5, A051802(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A051807
@@ -1376,7 +1375,7 @@ end A051807
 /-!
 # A051808: Numbers with nonzero multiplicative digital root 6.
 
-The programs for A051808, the canonical program `A051808.P3656897858601393824` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051808 has offset 1).
+The programs for A051808, the canonical program `A051808.P3656897858601393824` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051808 has offset 1).
 
 The definition of A051808 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2337 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1385,7 +1384,7 @@ The definition of A051808 is `conjectured`: the Lean definition is a formula tha
 
 `eq[6, A051802(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A051808
@@ -4624,17 +4623,25 @@ end A051835.P17258242869570245189
 /-!
 # A051836: a(n) = n*(n+1)*(n+2)*(n+3)*(3*n+2)/120.
 
-The programs for A051836, the canonical program `A051836.P12495276296929915860` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051836 has offset 0).
+The programs for A051836, the canonical program `A051836.P14815993383635968968` is in `Seq.B000.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051836 has offset 0).
 
-The definition of A051836 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A051836 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n+2)*(n+3)*(3*n+2)/120` (program `A051836.P9592439288482490687`, by `A051836.P9592439288482490687.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A051836.P12495276296929915860
 
 `C(n+3, 4)*(3*n+2)/5`
-
-The canonical program, it is in `Seq.B000.C008`.
 -/
+
+namespace A051836.P12495276296929915860
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (n + 3) 4 * (3 * n + 2) : ℚ) / 5
+
+end
+
+end A051836.P12495276296929915860
 
 namespace A051836
 
@@ -4666,6 +4673,12 @@ namespace A051836
 /-- `n*(n+1)*(n+2)*(n+3)*(3*n+2)/120` -/
 def P9592439288482490687.Spec : Prop :=
   ∀ n, P9592439288482490687.a n = (A051836 n : ℚ)
+
+theorem P9592439288482490687.correct : P9592439288482490687.Spec := by
+  intro n
+  simp only [A051836, Nat.add_sub_cancel, A051836.P9592439288482490687.a, A051836.P14815993383635968968.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A051836
 
@@ -4733,23 +4746,19 @@ end A051836
 /-! ## A051836.P14815993383635968968
 
 `C(n+4, 5)+2*C(n+3, 5)`
+
+The canonical program, it is in `Seq.B000.C008`.
 -/
-
-namespace A051836.P14815993383635968968
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 4) 5 + 2 * Nat.choose (n + 3) 5
-
-end
-
-end A051836.P14815993383635968968
 
 namespace A051836
 
 /-- `C(n+4, 5)+2*C(n+3, 5)` -/
 def P14815993383635968968.Spec : Prop :=
   ∀ n, (P14815993383635968968.a n : ℤ) = A051836 n
+
+theorem P14815993383635968968.correct : P14815993383635968968.Spec := by
+  intro n
+  simp only [A051836]
 
 end A051836
 

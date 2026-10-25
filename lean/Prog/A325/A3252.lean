@@ -31,7 +31,6 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -6241,7 +6240,7 @@ end A325259.P16497857046482227310
 /-!
 # A325260: Number of integer partitions of n whose omega-sequence covers an initial interval of positive integers.
 
-The programs for A325260, the canonical program `A325260.P13011178329351078032` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325260 has offset 0).
+The programs for A325260, the canonical program `A325260.P13011178329351078032` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325260 has offset 0).
 
 The definition of A325260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6273,7 +6272,7 @@ end A325260
 
 `A127002(n+4)+Δ[A267528(n+1)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A325260

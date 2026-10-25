@@ -4338,17 +4338,27 @@ end A117554.P8626673932970483201
 /-!
 # A117560: a(n) = n*(n^2 - 1)/2 - 1.
 
-The programs for A117560, the canonical program `A117560.P4134597382117183528` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117560 has offset 2).
+The programs for A117560, the canonical program `A117560.P1494341162103925553` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117560 has offset 2).
 
-The definition of A117560 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A117560 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+2)*((n+2)²-1)/2-1` (program `A117560.P4134597382117183528`, by `A117560.P4134597382117183528.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A117560.P4134597382117183528
 
 `(n+2)*((n+2)²-1)/2-1`
 
-The canonical program, it is in `Seq.B000.C017`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A117560.P4134597382117183528
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 2 : ℤ) * (((n + 2) ^ 2 : ℤ) - 1) : ℚ) / 2 - 1
+
+end
+
+end A117560.P4134597382117183528
 
 namespace A117560
 
@@ -4356,31 +4366,30 @@ namespace A117560
 def P4134597382117183528.Spec : Prop :=
   ∀ n, P4134597382117183528.a n = (A117560 (n + 2) : ℚ)
 
+theorem P4134597382117183528.correct : P4134597382117183528.Spec := by
+  intro n
+  simp only [A117560, Nat.add_sub_cancel, A117560.P4134597382117183528.a, A117560.P1494341162103925553.f1, A117560.P1494341162103925553.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A117560
 
 /-! ## A117560.P1494341162103925553
 
 `Δ[C(C(n+2, 2), 2)-n]`
+
+The canonical program, it is in `Seq.B000.C017`.
 -/
-
-namespace A117560.P1494341162103925553
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.choose (Nat.choose (n + 2) 2) 2 : ℤ) - (n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A117560.P1494341162103925553
 
 namespace A117560
 
 /-- `Δ[C(C(n+2, 2), 2)-n]` -/
 def P1494341162103925553.Spec : Prop :=
   ∀ n, P1494341162103925553.a n = A117560 (n + 2)
+
+theorem P1494341162103925553.correct : P1494341162103925553.Spec := by
+  intro n
+  simp only [A117560, Nat.add_sub_cancel]
 
 end A117560
 

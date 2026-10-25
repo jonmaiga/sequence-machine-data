@@ -1702,23 +1702,50 @@ end A221129.P10703380194371953536
 /-!
 # A221130: a(n) = 2^(2*n - 1) + n.
 
-The programs for A221130, the canonical program `A221130.P14029531058776183729` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221130 has offset 1).
+The programs for A221130, the canonical program `A221130.P14538175684439787930` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221130 has offset 1).
 
-The definition of A221130 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A221130 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(2*(n+1)-1)+n+1` (program `A221130.P14029531058776183729`, by `A221130.P14029531058776183729.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A221130.P14029531058776183729
 
 `2^(2*(n+1)-1)+n+1`
 
-The canonical program, it is in `Seq.B000.C029`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A221130.P14029531058776183729
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) + (n + 1 : ℚ)
+
+end
+
+end A221130.P14029531058776183729
 
 namespace A221130
 
 /-- `2^(2*(n+1)-1)+n+1` -/
 def P14029531058776183729.Spec : Prop :=
   ∀ n, P14029531058776183729.a n = (A221130 (n + 1) : ℚ)
+
+theorem P14029531058776183729.correct : P14029531058776183729.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A221130, Nat.add_sub_cancel, A221130.P14029531058776183729.a, A221130.P14538175684439787930.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A221130, Nat.add_sub_cancel, A221130.P14029531058776183729.a, A221130.P14538175684439787930.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A221130
 
@@ -1878,24 +1905,18 @@ end A221130
 
 `floor(n-(4*(n-a(n-1))-1))` with `a(0)=3`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C029`.
 -/
-
-namespace A221130.P14538175684439787930
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [3] fun n a =>
-  (n : ℤ) - (4 * ((n : ℤ) - a (n - 1)) - 1)
-
-end
-
-end A221130.P14538175684439787930
 
 namespace A221130
 
 /-- `floor(n-(4*(n-a(n-1))-1))` -/
 def P14538175684439787930.Spec : Prop :=
   ∀ n, P14538175684439787930.a n = A221130 (n + 1)
+
+theorem P14538175684439787930.correct : P14538175684439787930.Spec := by
+  intro n
+  simp only [A221130, Nat.add_sub_cancel]
 
 end A221130
 

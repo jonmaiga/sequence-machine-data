@@ -43,7 +43,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -767,7 +766,7 @@ end A153307
 /-!
 # A153308: Numbers k such that 10*k+7 is not prime.
 
-The programs for A153308, the canonical program `A153308.P18325032581413547276` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153308 has offset 1).
+The programs for A153308, the canonical program `A153308.P18325032581413547276` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153308 has offset 1).
 
 The definition of A153308 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -776,7 +775,7 @@ The definition of A153308 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A102342(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153308
@@ -1818,7 +1817,7 @@ end A153310.P16896859501903632860
 /-!
 # A153315: Denominators of continued fraction convergents to sqrt(5/4).
 
-The programs for A153315, the canonical program `A153315.P11188983019484737054` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153315 has offset 0).
+The programs for A153315, the canonical program `A153315.P11188983019484737054` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153315 has offset 0).
 
 The definition of A153315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1850,7 +1849,7 @@ end A153315
 
 `gcd(n+1, n-1)*∑[A000045(2*n+1+n)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153315
@@ -2909,7 +2908,7 @@ end A153317
 /-!
 # A153318: Numerators of continued fraction convergents to sqrt(6/5).
 
-The programs for A153318, the canonical program `A153318.P702139765015862779` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153318 has offset 0).
+The programs for A153318, the canonical program `A153318.P702139765015862779` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153318 has offset 0).
 
 The definition of A153318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2918,7 +2917,7 @@ The definition of A153318 is `conjectured`: the Lean definition is a formula tha
 
 `A041048(n)/gcd(5, A041048(n))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153318
@@ -5157,7 +5156,7 @@ end A153333.P3589835180088838421
 /-!
 # A153334: Number of zig-zag paths from top to bottom of an n X n square whose color is that of the top right corner.
 
-The programs for A153334, the canonical program `A153334.P13771578035933822493` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153334 has offset 1).
+The programs for A153334, the canonical program `A153334.P13771578035933822493` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153334 has offset 1).
 
 The definition of A153334 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5258,7 +5257,7 @@ end A153334
 
 `A001792(n)-2*A100071(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153334
@@ -5426,7 +5425,7 @@ end A153334
 /-!
 # A153335: Number of zig-zag paths from top to bottom of an n X n square whose color is not that of the top right corner.
 
-The programs for A153335, the canonical program `A153335.P14857227922523687050` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153335 has offset 1).
+The programs for A153335, the canonical program `A153335.P14857227922523687050` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153335 has offset 1).
 
 The definition of A153335 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5487,7 +5486,7 @@ end A153335
 
 `A001792(n)-A100071(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153335
@@ -7824,7 +7823,7 @@ end A153339
 /-!
 # A153340: Number of zig-zag paths from top to bottom of a rectangle of width 8 with n rows.
 
-The programs for A153340, the canonical program `A153340.P9472442687798973603` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153340 has offset 1).
+The programs for A153340, the canonical program `A153340.P9472442687798973603` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153340 has offset 1).
 
 The definition of A153340 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 362 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7833,7 +7832,7 @@ The definition of A153340 is `conjectured`: the Lean definition is a formula tha
 
 `A090992(n+1)+A061551(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153340
@@ -10941,7 +10940,7 @@ end A153357.P14322202106309943208
 /-!
 # A153360: Number of zig-zag paths from top to bottom of a rectangle of width 10 with n rows.
 
-The programs for A153360, the canonical program `A153360.P9570591132759772216` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153360 has offset 1).
+The programs for A153360, the canonical program `A153360.P9570591132759772216` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153360 has offset 1).
 
 The definition of A153360 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 350 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10950,7 +10949,7 @@ The definition of A153360 is `conjectured`: the Lean definition is a formula tha
 
 `A336675(n)+A090994(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A153360

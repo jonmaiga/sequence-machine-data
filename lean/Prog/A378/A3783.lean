@@ -113,7 +113,7 @@ end A378300.P14465148425904165529
 /-!
 # A378301: a(n) is the number of triangular numbers (A000217) in the interval [n^2, (n + 1)^2].
 
-The programs for A378301, the canonical program `A378301.P12860967816760152657` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378301 has offset 0).
+The programs for A378301, the canonical program `A378301.P12860967816760152657` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378301 has offset 0).
 
 The definition of A378301 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -122,7 +122,7 @@ The definition of A378301 is `conjectured`: the Lean definition is a formula tha
 
 `A214857(n+1)-A022846(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A378301
@@ -4495,7 +4495,7 @@ end A378379.P18275330497946562771
 /-!
 # A378380: Semiperimeter of the unique primitive Pythagorean triple whose inradius is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A378380, the canonical program `A378380.P9757006306424432664` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378380 has offset 0).
+The programs for A378380, the canonical program `A378380.P9757006306424432664` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378380 has offset 0).
 
 The definition of A378380 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4504,7 +4504,7 @@ The definition of A378380 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A002315(n)+1)*(2*A002315(n)+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A378380
@@ -4935,7 +4935,7 @@ end A378384
 /-!
 # A378386: Area of the unique primitive Pythagorean triple whose inradius is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A378386, the canonical program `A378386.P10678097254079986643` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378386 has offset 0).
+The programs for A378386, the canonical program `A378386.P10678097254079986643` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378386 has offset 0).
 
 The definition of A378386 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4973,7 +4973,7 @@ end A378386
 
 `A002315(n)*(A002315(n)+1)*(2*A002315(n)+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A378386

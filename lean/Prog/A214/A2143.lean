@@ -2976,7 +2976,7 @@ end A214319
 /-!
 # A214320: a(0)=a(1)=a(2)=1; thereafter a(n) = gpf(a(n-1)+a(n-3)), where gpf = "greatest prime factor".
 
-The programs for A214320, the canonical program `A214320.P9969656214956985357` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214320 has offset 0).
+The programs for A214320, the canonical program `A214320.P9969656214956985357` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214320 has offset 0).
 
 The definition of A214320 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2985,7 +2985,7 @@ The definition of A214320 is `conjectured`: the Lean definition is a formula tha
 
 `A006530(a(n-1)+a(n-3))` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A214320

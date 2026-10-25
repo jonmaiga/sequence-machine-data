@@ -2703,23 +2703,44 @@ end A152724
 /-!
 # A152725: a(n) = n*(n+1)*(n^4 + 2*n^3 - 2*n^2 - 3*n + 3)/2.
 
-The programs for A152725, the canonical program `A152725.P3611341813089984141` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152725 has offset 0).
+The programs for A152725, the canonical program `A152725.P14482562118725474485` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A152725 has offset 0).
 
-The definition of A152725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A152725 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(n^4+2*n^3-2*n²-3*n+3)/2` (program `A152725.P3611341813089984141`, by `A152725.P3611341813089984141.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A152725.P3611341813089984141
 
 `n*(n+1)*(n^4+2*n^3-2*n²-3*n+3)/2`
 
-The canonical program, it is in `Seq.B000.C022`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A152725.P3611341813089984141
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n * (n + 1) : ℤ) * ((n ^ 4 + 2 * n ^ 3 : ℤ) - (2 * n ^ 2 : ℤ) - (3 * n : ℤ) + 3) : ℚ) / 2
+
+end
+
+end A152725.P3611341813089984141
 
 namespace A152725
 
 /-- `n*(n+1)*(n^4+2*n^3-2*n²-3*n+3)/2` -/
 def P3611341813089984141.Spec : Prop :=
   ∀ n, P3611341813089984141.a n = (A152725 n : ℚ)
+
+theorem P3611341813089984141.correct : P3611341813089984141.Spec := by
+  intro n
+  induction n with
+  | zero => simp [A152725, A152725.P3611341813089984141.a, A152725.P14482562118725474485.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+  | succ m ih =>
+    simp only [A152725, Nat.add_sub_cancel, A152725.P3611341813089984141.a, A152725.P14482562118725474485.a, SequenceMachineLib.memo_apply] at ih ⊢
+    rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+    try simp only [Nat.add_sub_cancel, Nat.lt_add_one, ↓reduceIte]
+    try push_cast at ih ⊢
+    try linarith
 
 end A152725
 
@@ -2773,24 +2794,18 @@ end A152725
 
 `floor((n*n²)²-a(n-1))` with `a(0)=0`
 
-`floor` is left out, it is the identity on integers.
+The canonical program, it is in `Seq.B000.C022`.
 -/
-
-namespace A152725.P14482562118725474485
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  ((n * n ^ 2) ^ 2 : ℤ) - a (n - 1)
-
-end
-
-end A152725.P14482562118725474485
 
 namespace A152725
 
 /-- `floor((n*n²)²-a(n-1))` -/
 def P14482562118725474485.Spec : Prop :=
   ∀ n, P14482562118725474485.a n = A152725 n
+
+theorem P14482562118725474485.correct : P14482562118725474485.Spec := by
+  intro n
+  simp only [A152725]
 
 end A152725
 

@@ -28,11 +28,10 @@ import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
@@ -9314,23 +9313,39 @@ end A268683.P8234317972615368777
 /-!
 # A268684: a(n) = n*(n + 1)*(4*n - 1)/3.
 
-The programs for A268684, the canonical program `A268684.P15264755391776367419` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268684 has offset 0).
+The programs for A268684, the canonical program `A268684.P10617599458103783090` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268684 has offset 0).
 
-The definition of A268684 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A268684 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(4*n-1)/3` (program `A268684.P15264755391776367419`, by `A268684.P15264755391776367419.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A268684.P15264755391776367419
 
 `n*(n+1)*(4*n-1)/3`
 
-The canonical program, it is in `Seq.B000.C032`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A268684.P15264755391776367419
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n * (n + 1) : ℤ) * ((4 * n : ℤ) - 1) : ℚ) / 3
+
+end
+
+end A268684.P15264755391776367419
 
 namespace A268684
 
 /-- `n*(n+1)*(4*n-1)/3` -/
 def P15264755391776367419.Spec : Prop :=
   ∀ n, P15264755391776367419.a n = (A268684 n : ℚ)
+
+theorem P15264755391776367419.correct : P15264755391776367419.Spec := by
+  intro n
+  simp only [A268684, Nat.add_sub_cancel, A268684.P15264755391776367419.a, A268684.P10617599458103783090.f1, A268684.P10617599458103783090.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A268684
 
@@ -9554,26 +9569,19 @@ end A268684
 /-! ## A268684.P10617599458103783090
 
 `Δ[2*(n-1)*C(n+1, 3)]`
+
+The canonical program, it is in `Seq.B000.C032`.
 -/
-
-namespace A268684.P10617599458103783090
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (((n : ℤ) - 1) * (Nat.choose (n + 1) 3 : ℤ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A268684.P10617599458103783090
 
 namespace A268684
 
 /-- `Δ[2*(n-1)*C(n+1, 3)]` -/
 def P10617599458103783090.Spec : Prop :=
   ∀ n, P10617599458103783090.a n = A268684 n
+
+theorem P10617599458103783090.correct : P10617599458103783090.Spec := by
+  intro n
+  simp only [A268684]
 
 end A268684
 

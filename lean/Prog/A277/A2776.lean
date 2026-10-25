@@ -3810,7 +3810,7 @@ end A277643.P2634268331883841851
 /-!
 # A277644: Beatty sequence for sqrt(6)/2.
 
-The programs for A277644, the canonical program `A277644.P15546226932184128949` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277644 has offset 1).
+The programs for A277644, the canonical program `A277644.P15546226932184128949` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277644 has offset 1).
 
 The definition of A277644 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3842,7 +3842,7 @@ end A277644
 
 `A000196(A032528(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277644
@@ -4217,7 +4217,7 @@ end A277644
 /-!
 # A277645: Beatty sequence for 3+sqrt(6).
 
-The programs for A277645, the canonical program `A277645.P18154289466191058935` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277645 has offset 1).
+The programs for A277645, the canonical program `A277645.P18154289466191058935` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277645 has offset 1).
 
 The definition of A277645 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4249,7 +4249,7 @@ end A277645
 
 `3*(n+1)+A000196(A033581(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A277645

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -40,6 +41,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -86,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A034200: Number of binary codes (not necessarily linear) of length n with 5 words.
@@ -1826,17 +1832,25 @@ end A034262
 /-!
 # A034263: a(n) = binomial(n+4,4)*(4*n+5)/5.
 
-The programs for A034263, the canonical program `A034263.P12785890802708409721` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034263 has offset 0).
+The programs for A034263, the canonical program `A034263.P5868129197671622568` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034263 has offset 0).
 
-The definition of A034263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A034263 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+4, 4)*(4*n+5)/5` (program `A034263.P2913931381435015600`, by `A034263.P2913931381435015600.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A034263.P12785890802708409721
 
 `(4*n+5)*C(n+4, 4)/5`
-
-The canonical program, it is in `Seq.B000.C006`.
 -/
+
+namespace A034263.P12785890802708409721
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((4 * n + 5) * Nat.choose (n + 4) 4 : ℚ) / 5
+
+end
+
+end A034263.P12785890802708409721
 
 namespace A034263
 
@@ -1868,6 +1882,12 @@ namespace A034263
 /-- `C(n+4, 4)*(4*n+5)/5` -/
 def P2913931381435015600.Spec : Prop :=
   ∀ n, P2913931381435015600.a n = (A034263 n : ℚ)
+
+theorem P2913931381435015600.correct : P2913931381435015600.Spec := by
+  intro n
+  simp only [A034263, Nat.add_sub_cancel, A034263.P2913931381435015600.a, A034263.P5868129197671622568.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A034263
 
@@ -1990,23 +2010,19 @@ end A034263
 /-! ## A034263.P5868129197671622568
 
 `C(n+5, 5)+3*C(n+4, 5)`
+
+The canonical program, it is in `Seq.B000.C006`.
 -/
-
-namespace A034263.P5868129197671622568
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 5) 5 + 3 * Nat.choose (n + 4) 5
-
-end
-
-end A034263.P5868129197671622568
 
 namespace A034263
 
 /-- `C(n+5, 5)+3*C(n+4, 5)` -/
 def P5868129197671622568.Spec : Prop :=
   ∀ n, (P5868129197671622568.a n : ℤ) = A034263 n
+
+theorem P5868129197671622568.correct : P5868129197671622568.Spec := by
+  intro n
+  simp only [A034263]
 
 end A034263
 

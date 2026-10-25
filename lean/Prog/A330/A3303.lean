@@ -25,7 +25,7 @@ import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -6703,23 +6703,50 @@ end A330356.P5444387621631872317
 /-!
 # A330357: a(n) = (2*n^2 + 9 - (-1)^n)/4.
 
-The programs for A330357, the canonical program `A330357.P3059809268298630540` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330357 has offset 0).
+The programs for A330357, the canonical program `A330357.P14886934743018393011` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330357 has offset 0).
 
-The definition of A330357 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A330357 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2*n²+9-(-1)^n)/4` (program `A330357.P3059809268298630540`, by `A330357.P3059809268298630540.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A330357.P3059809268298630540
 
 `(2*n²+9-(-1)^n)/4`
 
-The canonical program, it is in `Seq.B000.C036`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A330357.P3059809268298630540
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((2 * n ^ 2 + 9 : ℤ) - (-1) ^ n : ℚ) / 4
+
+end
+
+end A330357.P3059809268298630540
 
 namespace A330357
 
 /-- `(2*n²+9-(-1)^n)/4` -/
 def P3059809268298630540.Spec : Prop :=
   ∀ n, P3059809268298630540.a n = (A330357 n : ℚ)
+
+theorem P3059809268298630540.correct : P3059809268298630540.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A330357, Nat.add_sub_cancel, A330357.P3059809268298630540.a, A330357.P14886934743018393011.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h2 := ih m (by omega)
+      simp only [A330357, Nat.add_sub_cancel, A330357.P3059809268298630540.a, A330357.P14886934743018393011.a, SequenceMachineLib.memo_apply] at h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 2 = m by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h2 ⊢
+      rw [← h2]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
 
 end A330357
 
@@ -7008,23 +7035,19 @@ end A330357
 /-! ## A330357.P14886934743018393011
 
 `2*n-(2-a(n-2))` with `a(0)=2, a(1)=3`
+
+The canonical program, it is in `Seq.B000.C036`.
 -/
-
-namespace A330357.P14886934743018393011
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [2, 3] fun n a =>
-  (2 * n : ℤ) - (2 - a (n - 2))
-
-end
-
-end A330357.P14886934743018393011
 
 namespace A330357
 
 /-- `2*n-(2-a(n-2))` -/
 def P14886934743018393011.Spec : Prop :=
   ∀ n, P14886934743018393011.a n = A330357 n
+
+theorem P14886934743018393011.correct : P14886934743018393011.Spec := by
+  intro n
+  simp only [A330357]
 
 end A330357
 

@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -8730,7 +8731,7 @@ end A222992.P14462779919438691184
 /-!
 # A222993: Number of n X 2 0..2 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope.
 
-The programs for A222993, the canonical program `A222993.P8408352810680705070` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222993 has offset 1).
+The programs for A222993, the canonical program `A222993.P8408352810680705070` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222993 has offset 1).
 
 The definition of A222993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8739,7 +8740,7 @@ The definition of A222993 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A112502(n)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A222993

@@ -22,6 +22,7 @@ import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
+import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -38,7 +39,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
@@ -8136,7 +8136,7 @@ end A228177
 /-!
 # A228178: The number of boundary edges for all ordered trees with n edges.
 
-The programs for A228178, the canonical program `A228178.P3911483444974939938` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228178 has offset 0).
+The programs for A228178, the canonical program `A228178.P3911483444974939938` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228178 has offset 0).
 
 The definition of A228178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8145,7 +8145,7 @@ The definition of A228178 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A071722(n)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228178
@@ -8940,7 +8940,7 @@ end A228180
 /-!
 # A228186: a(n) is the smallest natural number k such that (k+n+1)!*(k-n-2)! < 2*k!*(k-1)!.
 
-The programs for A228186, the canonical program `A228186.P9176151723657075923` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228186 has offset 0).
+The programs for A228186, the canonical program `A228186.P9176151723657075923` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228186 has offset 0).
 
 The definition of A228186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8949,7 +8949,7 @@ The definition of A228186 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A028552(n)/log(2))+4`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228186
@@ -9655,7 +9655,7 @@ end A228191.P7904239294115210788
 /-!
 # A228192: a(n) = A001850(n^2), where A001850 forms the central Delannoy numbers.
 
-The programs for A228192, the canonical program `A228192.P1282458228068176169` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228192 has offset 0).
+The programs for A228192, the canonical program `A228192.P1282458228068176169` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228192 has offset 0).
 
 The definition of A228192 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9664,7 +9664,7 @@ The definition of A228192 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001850(n²)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A228192

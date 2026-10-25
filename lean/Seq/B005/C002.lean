@@ -976,34 +976,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A373933.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A281385.P9241428565788523415
-
-`A100345(n)-A143844(n)`
--/
-
-namespace A281385.P9241428565788523415
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100345 n - A143844 n
-
-end
-
-end A281385.P9241428565788523415
-
-noncomputable section
-
-/-- A281385: Triangular array T(n, k) = n^2 + n*k - k^2.
-
-Offset 0, canonical program `A281385.P9241428565788523415`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A281385 (n : ℕ) : ℤ :=
-  A281385.P9241428565788523415.a n
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A281385.provenance : SequenceMachineLib.Provenance := .conjectured
-
 /-! ## A281902.P11836732846535714631
 
 `eq[1, char[A049780(n)+n]]`
@@ -18864,34 +18836,6 @@ end
 
 /-- Conditional: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A396409, whose definition is only conditional or conjectured, so it is only correct if that one is. -/
 def A397100.provenance : SequenceMachineLib.Provenance := .conditional
-
-/-! ## A281589.P10233469596152794852
-
-`(n+1)%2+A119608(n+2)%(n+1)`
--/
-
-namespace A281589.P10233469596152794852
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (((n + 1) % 2 : ℕ) : ℤ) + Int.tmod (A119608 (n + 2)) (n + 1 : ℤ)
-
-end
-
-end A281589.P10233469596152794852
-
-noncomputable section
-
-/-- A281589: Triangular array T(n,k), n > 0 and k = 1..2^(n-1), read by rows, in which row n corresponds to the permutation of [1..2^(n-1)] resulting from folding a horizontal strip of paper, with 2^(n-1) square cells numbered from 1 to 2^(n-1), n-1 times.
-
-Offset 1, canonical program `A281589.P10233469596152794852`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A281589 (n : ℕ) : ℤ :=
-  A281589.P10233469596152794852.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A281589.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A286568.P15358631486427401094
 

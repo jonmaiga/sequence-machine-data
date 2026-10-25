@@ -37,13 +37,13 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -5499,17 +5499,27 @@ end A212668
 /-!
 # A212669: a(n) = 2/15 * (32*n^5 + 80*n^4 + 40*n^3 - 20*n^2 + 3*n).
 
-The programs for A212669, the canonical program `A212669.P17193514153494102572` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212669 has offset 1).
+The programs for A212669, the canonical program `A212669.P13872816623606607563` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212669 has offset 1).
 
-The definition of A212669 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A212669 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2/15*(32*(n+1)^5+80*(n+1)^4+40*(n+1)^3-20*(n+1)²+3*(n+1))` (program `A212669.P17193514153494102572`, by `A212669.P17193514153494102572.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A212669.P17193514153494102572
 
 `2/15*(32*(n+1)^5+80*(n+1)^4+40*(n+1)^3-20*(n+1)²+3*(n+1))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
 -/
+
+namespace A212669.P17193514153494102572
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) / 15 * ((32 * (n + 1) ^ 5 + 80 * (n + 1) ^ 4 + 40 * (n + 1) ^ 3 : ℤ) - (20 * (n + 1) ^ 2 : ℤ) + (3 * (n + 1) : ℤ) : ℚ)
+
+end
+
+end A212669.P17193514153494102572
 
 namespace A212669
 
@@ -5517,28 +5527,30 @@ namespace A212669
 def P17193514153494102572.Spec : Prop :=
   ∀ n, P17193514153494102572.a n = (A212669 (n + 1) : ℚ)
 
+theorem P17193514153494102572.correct : P17193514153494102572.Spec := by
+  intro n
+  simp only [A212669, Nat.add_sub_cancel, A212669.P17193514153494102572.a, A212669.P13872816623606607563.a, A002299, A002299.P11477607172706309717.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A212669
 
 /-! ## A212669.P13872816623606607563
 
 `2*(n+1)+16*A002299(n)`
+
+The canonical program, it is in `Seq.B001.C006`.
 -/
-
-namespace A212669.P13872816623606607563
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * (n + 1) : ℤ) + 16 * A002299 n
-
-end
-
-end A212669.P13872816623606607563
 
 namespace A212669
 
 /-- `2*(n+1)+16*A002299(n)` -/
 def P13872816623606607563.Spec : Prop :=
   ∀ n, P13872816623606607563.a n = A212669 (n + 1)
+
+theorem P13872816623606607563.correct : P13872816623606607563.Spec := by
+  intro n
+  simp only [A212669, Nat.add_sub_cancel]
 
 end A212669
 

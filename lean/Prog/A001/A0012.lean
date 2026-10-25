@@ -1820,7 +1820,7 @@ end A001217.P4198259165815864
 /-!
 # A001218: a(n) = 3^n mod 100.
 
-The programs for A001218, the canonical program `A001218.P7151389883583018626` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001218 has offset 0).
+The programs for A001218, the canonical program `A001218.P7151389883583018626` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001218 has offset 0).
 
 The definition of A001218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1829,7 +1829,7 @@ The definition of A001218 is `conjectured`: the Lean definition is a formula tha
 
 `A100990(3*a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A001218

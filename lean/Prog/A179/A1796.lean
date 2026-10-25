@@ -21,6 +21,7 @@ import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C030
@@ -5203,7 +5204,7 @@ end A179642
 /-!
 # A179643: Products of exactly 2 distinct squares of primes and a different prime (p^2 * q^2 * r).
 
-The programs for A179643, the canonical program `A179643.P5918982336618133946` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179643 has offset 1).
+The programs for A179643, the canonical program `A179643.P5918982336618133946` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179643 has offset 1).
 
 The definition of A179643 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5258,7 +5259,7 @@ end A179643
 
 `filter[A030636(n+1), A212793(#)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179643

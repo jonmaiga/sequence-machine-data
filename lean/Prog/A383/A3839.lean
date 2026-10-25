@@ -23,7 +23,6 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
@@ -1961,7 +1960,7 @@ end A383937.P9297379281110985705
 /-!
 # A383942: a(n) = (8*10^(2n) - 10^(n+1) + 2) / 9.
 
-The programs for A383942, the canonical program `A383942.P9378418643718104757` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383942 has offset 1).
+The programs for A383942, the canonical program `A383942.P9378418643718104757` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383942 has offset 1).
 
 The definition of A383942 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1970,7 +1969,7 @@ The definition of A383942 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(8*10^(2*(n+1))-10^(n+2)+2)/9`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A383942
@@ -2858,7 +2857,7 @@ end A383951.P1490745932460468231
 /-!
 # A383953: a(0) = 4, a(n) = 2*a(n-1) + (-1)^n.
 
-The programs for A383953, the canonical program `A383953.P14880962730702107597` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383953 has offset 0).
+The programs for A383953, the canonical program `A383953.P14880962730702107597` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383953 has offset 0).
 
 The definition of A383953 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*a(n-1)+(-1)^n` (program `A383953.P14880962730702107597`, by `A383953.P14880962730702107597.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2867,7 +2866,7 @@ The definition of A383953 is `verified`: the Lean definition is proven equivalen
 
 `2*a(n-1)+(-1)^n` with `a(0)=4`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A383953

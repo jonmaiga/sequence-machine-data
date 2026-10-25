@@ -1887,7 +1887,7 @@ end A201814
 /-!
 # A201815: Number of arrays of 7 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.
 
-The programs for A201815, the canonical program `A201815.P11071781894913851608` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201815 has offset 1).
+The programs for A201815, the canonical program `A201815.P11071781894913851608` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201815 has offset 1).
 
 The definition of A201815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1896,7 +1896,7 @@ The definition of A201815 is `conjectured`: the Lean definition is a formula tha
 
 `77*(n+1)^5+175*(n+1)^3+140*(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201815
@@ -4542,7 +4542,7 @@ end A201836.P12103490100803155880
 /-!
 # A201837: G.f.: real part of 1/(1 - i*x - i*x^2) where i=sqrt(-1).
 
-The programs for A201837, the canonical program `A201837.P3514668347834619730` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201837 has offset 0).
+The programs for A201837, the canonical program `A201837.P3514668347834619730` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201837 has offset 0).
 
 The definition of A201837 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4551,7 +4551,7 @@ The definition of A201837 is `conjectured`: the Lean definition is a formula tha
 
 `ogf(1/(1+x^2+2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201837
@@ -4592,7 +4592,7 @@ end A201837
 /-!
 # A201838: G.f.: imaginary part of 1/(1 - i*x - i*x^2) where i=sqrt(-1).
 
-The programs for A201838, the canonical program `A201838.P804579328221733001` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201838 has offset 0).
+The programs for A201838, the canonical program `A201838.P804579328221733001` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201838 has offset 0).
 
 The definition of A201838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 626 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4601,7 +4601,7 @@ The definition of A201838 is `conjectured`: the Lean definition is a formula tha
 
 `ogf((x+x^2)/(1+x^2+2x^3+x^4))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201838
@@ -7770,7 +7770,7 @@ end A201864
 /-!
 # A201865: Expansion of 1/((1-3*x)*(1+7*x)).
 
-The programs for A201865, the canonical program `A201865.P16448246508659881829` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201865 has offset 0).
+The programs for A201865, the canonical program `A201865.P16448246508659881829` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201865 has offset 0).
 
 The definition of A201865 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1+4x-21x^2))` (program `A201865.P16448246508659881829`, by `A201865.P16448246508659881829.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7779,7 +7779,7 @@ The definition of A201865 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1+4x-21x^2))`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201865
@@ -8852,7 +8852,7 @@ end A201873.P12471685320970928696
 /-!
 # A201874: Number of zero-sum -n..n arrays of 3 elements with first and second differences also in -n..n.
 
-The programs for A201874, the canonical program `A201874.P4390422078047873358` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201874 has offset 1).
+The programs for A201874, the canonical program `A201874.P4390422078047873358` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201874 has offset 1).
 
 The definition of A201874 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8861,7 +8861,7 @@ The definition of A201874 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[(n+1)*ceil((n+1)²/3)]`
 
-The canonical program, it is in `Seq.B000.C028`.
+The canonical program, it is in `Seq.B000.C027`.
 -/
 
 namespace A201874
